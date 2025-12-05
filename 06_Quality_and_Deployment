@@ -1,0 +1,59 @@
+Quality, CI/CD & Deployment Rules
+1. CI/CD & Deployment (Vercel)
+1.1 Branch Strategy
+main: Production (Auto-deploy).
+
+dev: Preview deployments.
+
+1.2 Build Pipeline Rules
+Type Check: next build must pass TypeScript with zero errors.
+
+Sitemap: scripts/generate-sitemap.js must run post-build.
+
+Validation: Build must fail if any JSON file in /data does not match the strict Schema.
+
+1.3 Environment Variables
+NEXT_PUBLIC_SUPABASE_URL (Public)
+
+NEXT_PUBLIC_SUPABASE_ANON_KEY (Public)
+
+SUPABASE_SERVICE_ROLE_KEY (Private - Build time only)
+
+NEXT_PUBLIC_SITE_URL (Canonical URL)
+
+2. Mobile-First Design Mandates
+2.1 Layout Physics
+Container: Content must never exceed 100vw.
+
+Touch Targets: All buttons/links must be min 44px height/width.
+
+Grids:
+
+Mobile: 1 Column.
+
+Tablet: 2 Columns.
+
+Desktop: 3+ Columns.
+
+2.2 Navigation
+Mobile: Bottom Fixed Bar (Search / Cities / Profile).
+
+Desktop: Top Sticky Header.
+
+3. Accessibility (A11y) Baseline
+Images: All <Image /> tags MUST have an alt prop defined from data.
+
+Contrast: Text slate-500 or darker on white backgrounds. amber-900 on amber-50.
+
+Headings: Hierarchy (h1 > h2 > h3) must be respected strictly.
+
+4. Error Boundaries & Fallbacks
+4.1 Page Level
+City Not Found: Redirect to / (Homepage).
+
+Place Not Found: Render Next.js notFound() (404 Page).
+
+4.2 Component Level
+Image Fail: If src fails, show a gray placeholder with the Category Icon.
+
+API Fail: If /api/comments fails, show "Unable to load tips" (do not crash page).
