@@ -142,7 +142,11 @@ export default async function PlacePage({
 
             {/* Translation Hook - THE CORE FEATURE */}
             {showTranslation && (
-              <TranslationHook text={place.name_local} className="mb-6" />
+              <TranslationHook
+                text={place.name_local}
+                placeName={place.name_en}
+                className="mb-6"
+              />
             )}
 
             {/* Category Badge */}

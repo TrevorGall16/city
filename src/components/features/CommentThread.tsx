@@ -12,6 +12,7 @@ import { useAuth } from '@/components/providers/AuthProvider'
 import { LoginModal } from '@/components/ui/LoginModal'
 import { Button } from '@/components/ui/Button'
 import { formatDate } from '@/lib/utils'
+import { useAnalytics } from '@/hooks/useAnalytics'
 
 interface Comment {
   id: string
@@ -33,6 +34,7 @@ interface CommentThreadProps {
 
 export function CommentThread({ citySlug, placeSlug }: CommentThreadProps) {
   const { user } = useAuth()
+  const { trackCommentPost, trackVote } = useAnalytics()
   const [comments, setComments] = useState<Comment[]>([])
   const [loading, setLoading] = useState(true)
   const [hasMore, setHasMore] = useState(false)
@@ -106,6 +108,9 @@ export function CommentThread({ citySlug, placeSlug }: CommentThreadProps) {
         const data = await res.json()
         setComments((prev) => [data.comment, ...prev])
         setNewComment('')
+
+        // Track analytics
+        trackCommentPost(citySlug, placeSlug)
       } else {
         console.error('Failed to post comment')
       }
@@ -145,6 +150,9 @@ export function CommentThread({ citySlug, placeSlug }: CommentThreadProps) {
               : c
           )
         )
+
+        // Track analytics
+        trackVote(value, commentId)
       }
     } catch (error) {
       console.error('Error voting:', error)
