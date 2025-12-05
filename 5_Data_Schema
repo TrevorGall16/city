@@ -1,0 +1,146 @@
+Data Specification: City Sheet
+1. Data Object Requirements
+1.1 Core Principles
+Source of Truth: All static content lives in /src/data/.
+
+Format: Strict TypeScript Interfaces matching .json files.
+
+Immutability: IDs and Slugs must not change once indexed by Google.
+
+1.2 The City Object
+File: /src/data/cities/[city-slug].json
+
+Every city file must strictly follow this shape:
+
+TypeScript
+
+interface City {
+  id: string;             // Unique UUID or stable string
+  name: string;           // Display Name (e.g., "Paris")
+  slug: string;           // URL-safe (e.g., "paris")
+  country: string;        // Display (e.g., "France")
+  hero_image: string;     // URL (curated)
+  intro_vibe: string;     // 1 sentence summary
+  
+  // Quick Stats
+  stats: {
+    currency: string;     // "EUR (€)"
+    plug_type: string;    // "Type C/E"
+    best_time: string;    // "Apr-Jun, Sep-Nov"
+  };
+
+  // Logistics (Simple strings for list view)
+  logistics: {
+    safety: string[];     // Bullet points
+    scams: string[];      // Specific warnings
+    transit: string[];    // Tips
+  };
+  
+  // The Lists
+  must_eat: Place[];      // Array of places
+  must_see: Place[];      // Array of places
+}
+1.3 The Place Object (Nested)
+Used inside the must_eat and must_see arrays.
+
+TypeScript
+
+interface Place {
+  id: string;             // Internal ID
+  slug: string;           // URL-safe (e.g., "thipsamai-pad-thai")
+  name_en: string;        // "Thipsamai Pad Thai"
+  name_local: string;     // "ทิพย์สมัย ผัดไทยประตูผี" (CRITICAL FOR HOOK)
+  category: "food" | "sight" | "activity"; 
+  description: string;    // Max 280 chars
+  image: string;          // Curated URL
+  geo: {
+    lat: number;
+    lng: number;
+    google_maps_id?: string; // Optional CID
+  };
+  tags: string[];         // For future filtering (e.g., "spicy", "historic")
+}
+2. URL & Slug Consistency
+Rule: URLs are generated exclusively from the slug property.
+
+Constraint:
+
+City URL: /city/{city.slug}
+
+Place URL: /city/{city.slug}/{place.slug}
+
+Validation: The build script must throw an error if two items in the same city share a slug.
+
+3. Data File Structure
+The AI Builder must create this exact file tree:
+
+Plaintext
+
+/src
+  /data
+    /cities
+      paris.json       <-- Contains full City object + nested Places
+      bangkok.json
+      tokyo.json
+    taxonomy.ts        <-- Exports category definitions (colors, icons)
+4. Taxonomy & Categories
+File: /src/data/taxonomy.ts
+
+Centralized definition for UI logic (colors/icons) based on category.
+
+TypeScript
+
+export const CATEGORIES = {
+  food: {
+    label: "Must Eat",
+    icon: "Utensils",     // Lucide name
+    color: "amber"        // Tailwind color key
+  },
+  sight: {
+    label: "Must See",
+    icon: "Camera",
+    color: "indigo"
+  },
+  activity: {
+    label: "Experience",
+    icon: "Ticket",
+    color: "emerald"
+  }
+}
+5. Mock Data (For AI Initialization)
+Instruction to AI: Create paris.json with this exact dummy data to test the layout.
+
+JSON
+
+{
+  "id": "1",
+  "name": "Paris",
+  "slug": "paris",
+  "country": "France",
+  "hero_image": "https://placehold.co/1920x1080?text=Paris",
+  "intro_vibe": "The city of light, love, and endless carbs.",
+  "stats": {
+    "currency": "EUR",
+    "plug_type": "Type E",
+    "best_time": "Spring"
+  },
+  "logistics": {
+    "safety": ["Watch for pickpockets on Metro line 1."],
+    "scams": ["The gold ring scam"],
+    "transit": ["Use CityMapper app."]
+  },
+  "must_eat": [
+    {
+      "id": "101",
+      "slug": "croissant-ispahan",
+      "name_en": "Pierre Hermé Croissant",
+      "name_local": "Croissant Ispahan",
+      "category": "food",
+      "description": "The famous rose, raspberry, and lychee croissant.",
+      "image": "https://placehold.co/800x600?text=Croissant",
+      "geo": { "lat": 48.85, "lng": 2.35 },
+      "tags": ["bakery", "sweet"]
+    }
+  ],
+  "must_see": []
+}
