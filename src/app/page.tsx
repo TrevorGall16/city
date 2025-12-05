@@ -1,0 +1,53 @@
+/**
+ * Homepage
+ * Following 03_UI section 3.1 (Homepage Template)
+ */
+
+import { Search } from 'lucide-react'
+import { CityCard } from '@/components/features/CityCard'
+
+export default function HomePage() {
+  return (
+    <main className="min-h-screen bg-slate-50">
+      {/* Hero Search Module */}
+      <section className="min-h-[60vh] flex flex-col justify-center items-center text-center px-4">
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-900">
+          Your Travel Cheat Sheet
+        </h1>
+        <p className="mt-4 text-lg text-slate-600 max-w-2xl">
+          Curated recommendations with instant translation for travelers.
+          Navigate foreign cities without language barriers.
+        </p>
+
+        {/* Search Input */}
+        <div className="w-full max-w-lg mt-8">
+          <div className="relative">
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
+            <input
+              type="text"
+              placeholder="Search cities..."
+              className="w-full pl-12 pr-4 py-3 rounded-lg border border-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-base"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Cities Grid */}
+      <section className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-16">
+        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-slate-900">
+          Explore Cities
+        </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <CityCard
+            name="Paris"
+            country="France"
+            image="https://placehold.co/800x600/e2e8f0/475569?text=Paris"
+            slug="paris"
+            priority
+          />
+        </div>
+      </section>
+    </main>
+  )
+}
