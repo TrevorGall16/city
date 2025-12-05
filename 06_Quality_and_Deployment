@@ -1,5 +1,5 @@
-Quality, CI/CD & Deployment Rules
-1. CI/CD & Deployment (Vercel)
+Quality, Coding Standards & Deployment Rules
+1. CI/CD & Deployment (Netlify)
 1.1 Branch Strategy
 main: Production (Auto-deploy).
 
@@ -8,9 +8,9 @@ dev: Preview deployments.
 1.2 Build Pipeline Rules
 Type Check: next build must pass TypeScript with zero errors.
 
-Sitemap: scripts/generate-sitemap.js must run post-build.
+Schema Validation: Build must fail if any JSON file in /src/data does not pass Zod validation.
 
-Validation: Build must fail if any JSON file in /data does not match the strict Schema.
+Sitemap: scripts/generate-sitemap.js must run post-build.
 
 1.3 Environment Variables
 NEXT_PUBLIC_SUPABASE_URL (Public)
@@ -21,11 +21,56 @@ SUPABASE_SERVICE_ROLE_KEY (Private - Build time only)
 
 NEXT_PUBLIC_SITE_URL (Canonical URL)
 
-2. Mobile-First Design Mandates
-2.1 Layout Physics
-Container: Content must never exceed 100vw.
+2. Coding Standards (Strict)
+2.1 Component Architecture
+Default: Use Server Components (RSC) by default.
 
-Touch Targets: All buttons/links must be min 44px height/width.
+Client Components ("use client"): Use ONLY when:
+
+Managing state (useState, useReducer).
+
+Using event handlers (onClick, onChange).
+
+Using lifecycle hooks (useEffect).
+
+Interacting with browser APIs (navigator.clipboard).
+
+Validation: All external data (JSON, API responses) must be validated with Zod schemas.
+
+2.2 Naming Conventions
+Components: PascalCase (e.g., CityCard.tsx).
+
+Hooks: camelCase (e.g., useAnalytics.ts).
+
+Files: kebab-case (e.g., city-card.tsx or page.tsx).
+
+Data Files: kebab-case (e.g., paris.json).
+
+2.3 Folder Structure
+The Builder AI must adhere to this tree:
+
+Plaintext
+
+/src
+  /app           # Next.js App Router (Pages & Layouts)
+  /app/api       # Serverless Functions
+  /components    # React Components
+  /lib           # Utils, Zod Schemas, Supabase Client
+  /data/cities   # Static JSON Content
+  /types         # TypeScript Interfaces
+  /hooks         # Custom Hooks (useAnalytics, etc.)
+2.4 React Best Practices
+Loops: No inline functions inside JSX loops.
+
+Async: Use <Suspense> boundaries for async Server Components.
+
+Imports: Use absolute imports (@/components/...) where configured.
+
+3. Mobile-First Design Mandates
+3.1 Layout Physics
+Container: Content must never exceed 100vw (No horizontal scroll).
+
+Touch Targets: All buttons/links/inputs must be min 44px height/width.
 
 Grids:
 
@@ -35,25 +80,72 @@ Tablet: 2 Columns.
 
 Desktop: 3+ Columns.
 
-2.2 Navigation
+3.2 Navigation
 Mobile: Bottom Fixed Bar (Search / Cities / Profile).
 
 Desktop: Top Sticky Header.
 
-3. Accessibility (A11y) Baseline
-Images: All <Image /> tags MUST have an alt prop defined from data.
+4. Ad Integration Rules (Technical)
+4.1 Script Delivery
+Ads are delivered via a static script tag in layout.tsx (or <Head>).
 
-Contrast: Text slate-500 or darker on white backgrounds. amber-900 on amber-50.
+Prohibited: No dynamic import() of heavy ad scripts.
 
-Headings: Hierarchy (h1 > h2 > h3) must be respected strictly.
+4.2 CLS Prevention (Vital)
+Skeleton: Ad components must be server-rendered wrappers with fixed height.
 
-4. Error Boundaries & Fallbacks
-4.1 Page Level
-City Not Found: Redirect to / (Homepage).
+Height Rule: Every ad slot must enforce min-height: 280px (or slot-specific height).
 
-Place Not Found: Render Next.js notFound() (404 Page).
+Placeholder: Render a gray box (bg-slate-100) until the ad loads.
 
-4.2 Component Level
-Image Fail: If src fails, show a gray placeholder with the Category Icon.
+Behavior: Never collapse an empty ad slot; keep the whitespace to prevent layout jumps.
 
-API Fail: If /api/comments fails, show "Unable to load tips" (do not crash page).
+5. Analytics Requirements
+5.1 Event Tracking Hook
+Track events using a single client hook: @/hooks/useAnalytics.ts.
+
+Required Events:
+
+search_performed (Query string)
+
+place_opened (Place Name)
+
+copy_name_local (The "Hook" - Critical Metric)
+
+comment_posted (City/Place)
+
+vote_clicked (Up/Down)
+
+5.2 Page Tracking
+Each page view must push a page_view event containing { route, slug }.
+
+6. Error Logging & Boundaries
+6.1 Client-Side
+Non-Breaking: Use console.warn for UI issues that don't crash the app.
+
+Global: Use window.onerror to capture unhandled exceptions.
+
+6.2 Server-Side
+Routes: Wrap all async API routes with try/catch blocks.
+
+Logging: Log errors to console.error (Do not use external logging services for V1).
+
+6.3 Fallbacks
+Page Level: If City JSON is missing -> Redirect to /.
+
+Component Level: If Image fails -> Show gray placeholder with Icon.
+
+7. Production Readiness Checklist
+Before merging to main, the system must pass:
+
+[ ] Lighthouse Mobile: Score ≥ 90.
+
+[ ] TypeScript: Zero errors in build.
+
+[ ] Data Integrity: All JSON files pass Zod validation.
+
+[ ] Sitemap: Generated and contains all City + Place URLs.
+
+[ ] Ads: All slots show placeholders before loading (No Shift).
+
+[ ] Console: Zero errors on mobile view.
