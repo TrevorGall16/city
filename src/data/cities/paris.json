@@ -4,148 +4,151 @@
   "slug": "paris",
   "country": "France",
   "hero_image": "https://placehold.co/1920x1080/e2e8f0/475569?text=Paris",
-  "intro_vibe": "The city of light, love, and endless carbs.",
+  "intro_vibe": "The city of light, love, and timeless culture.",
+  "general_info": {
+    "population": "~2.1 million (city) / ~12 million (metro area)",
+    "is_capital": true,
+    "description": "Paris is the capital and most populous city of France. Known worldwide for its art, fashion, gastronomy, and culture, it has been one of the world's most important and attractive cities for over 2,000 years."
+  },
   "stats": {
-    "currency": "EUR",
-    "plug_type": "Type E",
-    "best_time": "Spring (Apr-Jun)"
+    "currency": "EUR (€)",
+    "plug_type": "Type C & E (220V)",
+    "best_time": "Spring (Apr-Jun) & Fall (Sep-Nov)"
   },
   "logistics": {
     "safety": [
-      "Watch for pickpockets on Metro Line 1",
-      "Keep bags zipped in tourist areas"
+      "Watch for pickpockets on Metro Line 1 and around major tourist sites",
+      "Keep bags zipped and in front of you in crowded areas",
+      "Beware of distraction techniques (petitions, dropped items)"
     ],
     "scams": [
-      "Avoid the 'gold ring' scam at Sacré-Cœur",
-      "Petition scammers at major landmarks"
+      "The 'gold ring' scam at Sacré-Cœur (someone 'finds' a ring and asks you to buy it)",
+      "Petition scammers who distract you while an accomplice pickpockets",
+      "Overpriced taxis from airports - use official taxi stands or RER trains"
     ],
     "transit": [
-      "Use CityMapper app for navigation",
-      "Buy Navigo pass for unlimited travel",
-      "Avoid taxis from airports - use RER trains"
+      "Metro is fast and efficient - buy a carnet (10 tickets) for savings",
+      "Use CityMapper or RATP app for navigation",
+      "Navigo weekly pass is worth it if staying 5+ days",
+      "Avoid taxis during rush hour - Métro is faster"
     ]
   },
   "must_eat": [
     {
-      "id": "place-001",
-      "slug": "pierre-herme-croissant",
-      "name_en": "Pierre Hermé Croissant Ispahan",
-      "name_local": "Croissant Ispahan",
+      "id": "food-001",
+      "slug": "butter-croissant",
+      "name_en": "The Butter Croissant",
+      "name_local": "Croissant au Beurre",
       "category": "food",
-      "description": "The famous rose, raspberry, and lychee croissant that changed French pastry.",
+      "description": "The quintessential French breakfast. A proper croissant should be flaky with visible layers (lamination), golden-brown exterior, and buttery interior. Never microwaved. Best enjoyed fresh in the morning with café au lait. Look for 'pur beurre' (pure butter) labels - avoid 'ordinaire' which uses margarine.",
       "image": "https://placehold.co/800x600/e2e8f0/475569?text=Croissant",
-      "geo": { "lat": 48.8534, "lng": 2.3488 }
+      "is_generic_staple": true
     },
     {
-      "id": "place-002",
-      "slug": "lami-jean",
-      "name_en": "L'Ami Jean",
-      "name_local": "L'Ami Jean",
+      "id": "food-002",
+      "slug": "the-baguette",
+      "name_en": "The Baguette",
+      "name_local": "La Baguette",
       "category": "food",
-      "description": "Basque-inspired bistro famous for rice pudding dessert.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Restaurant",
-      "geo": { "lat": 48.8584, "lng": 2.3088 }
+      "description": "French law regulates what can be called a 'traditional baguette' - only flour, water, salt, and yeast. No preservatives. Parisians buy fresh bread daily (it goes stale quickly). A proper baguette has a crispy crust that shatters, chewy interior with irregular holes. Best eaten within 4 hours of baking.",
+      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Baguette",
+      "is_generic_staple": true
     },
     {
-      "id": "place-003",
-      "slug": "breizh-cafe",
-      "name_en": "Breizh Café",
-      "name_local": "Breizh Café",
+      "id": "food-003",
+      "slug": "bistro-culture",
+      "name_en": "The Paris Bistro",
+      "name_local": "Le Bistrot Parisien",
       "category": "food",
-      "description": "Authentic Breton crêpes in the heart of the Marais.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Crepes",
-      "geo": { "lat": 48.8606, "lng": 2.3612 }
-    },
-    {
-      "id": "place-004",
-      "slug": "du-pain-et-des-idees",
-      "name_en": "Du Pain et des Idées",
-      "name_local": "Du Pain et des Idées",
-      "category": "food",
-      "description": "Legendary bakery known for pain des amis and escargot pastries.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Bakery",
-      "geo": { "lat": 48.8718, "lng": 2.3627 }
-    },
-    {
-      "id": "place-005",
-      "slug": "chez-janou",
-      "name_en": "Chez Janou",
-      "name_local": "Chez Janou",
-      "category": "food",
-      "description": "Provençal bistro with 90+ types of pastis.",
+      "description": "Small, casual restaurants serving traditional French cuisine. Characterized by zinc-topped bars, chalkboard menus, and communal atmosphere. Order classics like steak-frites, coq au vin, or blanquette de veau. Lunch (déjeuner) is typically 12-2pm, dinner (dîner) starts at 7:30pm. Service is included - tipping is optional.",
       "image": "https://placehold.co/800x600/e2e8f0/475569?text=Bistro",
-      "geo": { "lat": 48.8556, "lng": 2.3652 }
+      "is_generic_staple": true
     },
     {
-      "id": "place-006",
-      "slug": "septime",
-      "name_en": "Septime",
-      "name_local": "Septime",
+      "id": "food-004",
+      "slug": "cafe-culture",
+      "name_en": "Café Culture",
+      "name_local": "Le Café Parisien",
       "category": "food",
-      "description": "Michelin-starred modern French cuisine, book months ahead.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Fine+Dining",
-      "geo": { "lat": 48.8530, "lng": 2.3790 }
+      "description": "Cafés are social institutions where Parisians read, work, and people-watch for hours. Order 'un café' (espresso), 'un crème' (espresso with milk), or 'un café allongé' (americano). Prices vary: cheaper at the bar (au comptoir), more expensive seated (en terrasse). Linger as long as you want - no one will rush you.",
+      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Cafe",
+      "is_generic_staple": true
     },
     {
-      "id": "place-007",
-      "slug": "lami-louis",
-      "name_en": "L'Ami Louis",
-      "name_local": "L'Ami Louis",
+      "id": "food-005",
+      "slug": "french-cheese",
+      "name_en": "French Cheese",
+      "name_local": "Fromage Français",
       "category": "food",
-      "description": "Historic bistro famous for roast chicken since 1924.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Classic+Bistro",
-      "geo": { "lat": 48.8679, "lng": 2.3592 }
+      "description": "France produces over 400 varieties of cheese. Visit a fromagerie (cheese shop) and ask for recommendations. Cheese course (plateau de fromages) comes after the main course, before dessert. Classic Parisian cheeses: Brie de Meaux, Comté, Roquefort, Chèvre. Serve at room temperature, never cold.",
+      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Cheese",
+      "is_generic_staple": true
+    },
+    {
+      "id": "food-006",
+      "slug": "wine-culture",
+      "name_en": "French Wine",
+      "name_local": "Vin Français",
+      "category": "food",
+      "description": "Wine is integral to French dining. Order by the glass (un verre), pichet (carafe), or bottle. House wine (vin de maison) is often excellent and affordable. Neighborhoods like the Marais have natural wine bars (bars à vin nature). Apéritif (pre-dinner drink) is customary - try kir (white wine + cassis).",
+      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Wine",
+      "is_generic_staple": true
     }
   ],
   "must_see": [
     {
-      "id": "place-101",
+      "id": "sight-001",
       "slug": "musee-rodin",
       "name_en": "Musée Rodin",
       "name_local": "Musée Rodin",
       "category": "sight",
-      "description": "Sculpture museum with beautiful gardens, less crowded than the Louvre.",
+      "description": "Sculpture museum with beautiful gardens, less crowded than the Louvre. Home to 'The Thinker' and 'The Kiss'. The garden alone is worth the visit - perfect for a peaceful break from the city.",
       "image": "https://placehold.co/800x600/e2e8f0/475569?text=Museum",
+      "is_generic_staple": false,
       "geo": { "lat": 48.8553, "lng": 2.3159 }
     },
     {
-      "id": "place-102",
+      "id": "sight-002",
       "slug": "sainte-chapelle",
       "name_en": "Sainte-Chapelle",
       "name_local": "Sainte-Chapelle",
       "category": "sight",
-      "description": "13th-century Gothic chapel with stunning stained glass windows.",
+      "description": "13th-century Gothic chapel with stunning stained glass windows depicting 1,113 Biblical scenes. Visit on a sunny day to see the colors at their most vibrant. Skip the line with Museum Pass or book timed entry online.",
       "image": "https://placehold.co/800x600/e2e8f0/475569?text=Chapel",
+      "is_generic_staple": false,
       "geo": { "lat": 48.8554, "lng": 2.3450 }
     },
     {
-      "id": "place-103",
+      "id": "sight-003",
       "slug": "canal-saint-martin",
       "name_en": "Canal Saint-Martin",
       "name_local": "Canal Saint-Martin",
       "category": "sight",
-      "description": "Trendy waterway perfect for picnics and people-watching.",
+      "description": "Trendy waterway perfect for picnics and people-watching. Locals gather on the canal banks with wine and cheese, especially on summer evenings. The neighborhood has vintage shops, hip cafés, and a more relaxed vibe than central Paris.",
       "image": "https://placehold.co/800x600/e2e8f0/475569?text=Canal",
+      "is_generic_staple": false,
       "geo": { "lat": 48.8718, "lng": 2.3637 }
     },
     {
-      "id": "place-104",
+      "id": "sight-004",
       "slug": "buttes-chaumont",
       "name_en": "Parc des Buttes-Chaumont",
       "name_local": "Parc des Buttes-Chaumont",
       "category": "sight",
-      "description": "Dramatic hilltop park with waterfalls and city views.",
+      "description": "Dramatic hilltop park with waterfalls, cliffs, and panoramic city views. Less touristy than Luxembourg Gardens. Locals jog, picnic, and relax here. The Temple de la Sibylle on the cliff offers stunning views of Sacré-Cœur and Montmartre.",
       "image": "https://placehold.co/800x600/e2e8f0/475569?text=Park",
+      "is_generic_staple": false,
       "geo": { "lat": 48.8799, "lng": 2.3828 }
     },
     {
-      "id": "place-105",
+      "id": "sight-005",
       "slug": "passages-couverts",
       "name_en": "Les Passages Couverts",
       "name_local": "Les Passages Couverts",
       "category": "sight",
-      "description": "19th-century covered shopping arcades with vintage charm.",
+      "description": "19th-century covered shopping arcades with vintage charm. Galerie Vivienne, Passage des Panoramas, and Passage Jouffroy are the most beautiful. These glass-roofed passages house antique shops, tea rooms, and specialty bookstores - a perfect rainy-day activity.",
       "image": "https://placehold.co/800x600/e2e8f0/475569?text=Arcade",
+      "is_generic_staple": false,
       "geo": { "lat": 48.8710, "lng": 2.3414 }
     }
   ]

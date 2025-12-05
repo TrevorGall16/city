@@ -16,12 +16,13 @@ const PlaceSchema = z.object({
   name_en: z.string().min(1),
   name_local: z.string().min(1),
   category: z.enum(['food', 'sight']),
-  description: z.string().min(1).max(500),
+  description: z.string().min(1).max(1000), // Increased for cultural descriptions
   image: z.string().url(),
+  is_generic_staple: z.boolean(),
   geo: z.object({
     lat: z.number().min(-90).max(90),
     lng: z.number().min(-180).max(180),
-  }),
+  }).optional(), // geo is now optional for generic staples
 })
 
 const CitySchema = z.object({
@@ -31,6 +32,11 @@ const CitySchema = z.object({
   country: z.string().min(1),
   hero_image: z.string().url(),
   intro_vibe: z.string().min(1).max(200),
+  general_info: z.object({
+    population: z.string().min(1),
+    is_capital: z.boolean(),
+    description: z.string().min(1),
+  }),
   stats: z.object({
     currency: z.string().min(1),
     plug_type: z.string().min(1),

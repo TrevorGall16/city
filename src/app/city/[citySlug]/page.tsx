@@ -116,10 +116,31 @@ export default async function CityPage({
         </div>
       </section>
 
-      {/* Quick Stats Bar */}
-      <section className="sticky top-16 z-30 bg-white/95 backdrop-blur border-b border-slate-200 py-3">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 overflow-x-auto">
-          <div className="flex gap-8 text-sm whitespace-nowrap">
+      {/* General Info + Quick Stats Section */}
+      <section className="bg-white border-b border-slate-200">
+        <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-8">
+          {/* General Info */}
+          <div className="mb-6">
+            <div className="flex items-center gap-3 mb-3">
+              <h2 className="text-xl font-semibold text-slate-900">
+                {city.name}
+              </h2>
+              {city.general_info.is_capital && (
+                <span className="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded">
+                  Capital
+                </span>
+              )}
+            </div>
+            <p className="text-sm text-slate-600 mb-2">
+              <span className="font-medium">Population:</span> {city.general_info.population}
+            </p>
+            <p className="text-slate-700 max-w-4xl">
+              {city.general_info.description}
+            </p>
+          </div>
+
+          {/* Quick Stats */}
+          <div className="flex flex-wrap gap-6 text-sm pt-4 border-t border-slate-200">
             <div>
               <span className="text-slate-500">Currency:</span>{' '}
               <span className="font-medium text-slate-900">{city.stats.currency}</span>
@@ -136,8 +157,35 @@ export default async function CityPage({
         </div>
       </section>
 
-      {/* Logistics Section */}
-      <section className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-12">
+      {/* Must See Section */}
+      {city.must_see.length > 0 && (
+        <section className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-slate-900">
+            Must See
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6">
+            {renderPlacesWithAds(city.must_see, 'see')}
+          </div>
+        </section>
+      )}
+
+      {/* Must Eat Section */}
+      {city.must_eat.length > 0 && (
+        <section className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-slate-50">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-slate-900">
+            Must Eat
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6">
+            {renderPlacesWithAds(city.must_eat, 'eat')}
+          </div>
+        </section>
+      )}
+
+      {/* Logistics Section - Moved to Bottom */}
+      <section className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
+        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-slate-900">
+          Travel Logistics
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Safety */}
           <div className="bg-white rounded-lg border border-slate-200 p-6">
@@ -179,30 +227,6 @@ export default async function CityPage({
           </div>
         </div>
       </section>
-
-      {/* Must Eat Section */}
-      {city.must_eat.length > 0 && (
-        <section className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-slate-900">
-            Must Eat
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {renderPlacesWithAds(city.must_eat, 'eat')}
-          </div>
-        </section>
-      )}
-
-      {/* Must See Section */}
-      {city.must_see.length > 0 && (
-        <section className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-slate-900">
-            Must See
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {renderPlacesWithAds(city.must_see, 'see')}
-          </div>
-        </section>
-      )}
     </main>
   )
 }
