@@ -1,164 +1,167 @@
-Data & API Specification: City Sheet (Final Version)
+Data & API Specification: City Sheet
 1. Static Data Schema (JSON)
-
-Location: /src/data/cities/[slug].json
-Rendering: Fully SSG (no runtime fetching).
+Source: /src/data/cities/[slug].json Rendering: Fully SSG (no runtime fetching).
 
 1.1 City Object
+TypeScript
+
 interface City {
-  id: string;               // UUID
-  slug: string;             // "paris"
-  name: string;             // "Paris"
-  country: string;          // "France"
-
-  hero_image: string;       // URL (placehold.co or curated)
-  intro_vibe: string;       // 1-sentence mood-setting intro
-
+  id: string;             // UUID
+  slug: string;           // "paris"
+  name: string;           // "Paris"
+  country: string;        // "France"
+  hero_image: string;     // URL (curated)
+  intro_vibe: string;     // 1-sentence mood-setting intro
+  
   stats: {
-    currency: string;       // "EUR"
-    plug_type: string;      // "Type C"
-    best_time: string;      // "Spring"
+    currency: string;     // "EUR"
+    plug_type: string;    // "Type C"
+    best_time: string;    // "Spring"
   };
 
   logistics: {
-    safety: string[];       // bullet points
-    scams: string[];        // bullet points
-    transit: string[];      // bullet points
+    safety: string[];     // bullet points
+    scams: string[];      // bullet points
+    transit: string[];    // bullet points
   };
-
-  must_eat: Place[];        // array of Place objects
-  must_see: Place[];        // array of Place objects
+  
+  must_eat: Place[];      // array of Place objects
+  must_see: Place[];      // array of Place objects
 }
-
 1.2 Place Object
+TypeScript
+
 interface Place {
-  id: string;               // UUID
-  slug: string;             // "pierre-herme"
-
-  name_en: string;          // "Pierre Hermé"
-  name_local: string;       // "ピエール・エルメ"  (used for Copy-to-Clipboard)
-
+  id: string;             // UUID
+  slug: string;           // "pierre-herme"
+  name_en: string;        // "Pierre Hermé"
+  name_local: string;     // "ピエール・エルメ" (used for Copy-to-Clipboard)
   category: "food" | "sight";
-
-  description: string;      // 1–2 sentences
-  image: string;            // URL
-
+  description: string;    // 1–2 sentences
+  image: string;          // URL
   geo: { lat: number; lng: number };
 }
-
 2. Dynamic Data Schema (Supabase)
-
 All dynamic data is social only: Comments + Votes.
-No dynamic places/cities stored in DB (static only).
 
 2.1 Table: comments
-Field	Type	Notes
-id	uuid PK	gen_random_uuid()
-user_id	uuid	FK to auth.users
-city_slug	text	required
-place_slug	text	optional (null = city-level comment)
-parent_id	uuid	nullable → allows threaded replies
-content	text	sanitized HTML-free text
-created_at	timestamp	default now()
-Constraints
+id: uuid (PK, default gen_random_uuid())
 
-Either:
+user_id: uuid (FK to auth.users)
 
-City-level comment → place_slug = null, OR
+city_slug: text (Required)
 
-Place-level comment → both slugs exist.
+place_slug: text (Optional - nullable)
 
-No images allowed.
+parent_id: uuid (FK to comments.id - nullable for nesting)
 
-Max content length: 2000 chars (UI enforced).
+content: text (Sanitized)
 
-RLS Policies
-SELECT: true; -- public
-INSERT: auth.role() = 'authenticated';
-UPDATE: user_id = auth.uid();
-DELETE: user_id = auth.uid();
+created_at: timestamp (default now())
 
-2.2 Table: votes (For Comments)
-Field	Type	Notes
-id	uuid PK	gen_random_uuid()
-user_id	uuid	FK to auth.users
-comment_id	uuid	FK to comments.id
-value	int	+1 or -1
-created_at	timestamp	default now()
-Constraint
-UNIQUE (user_id, comment_id)
+RLS Policies:
 
-Behavior
+SELECT: Public (true).
 
-If user votes again → update existing row.
+INSERT: Authenticated only (auth.role() = 'authenticated').
 
-No deleting by voting; changing value only.
+UPDATE/DELETE: Owner only (user_id = auth.uid()).
+
+2.2 Table: votes
+id: uuid (PK)
+
+user_id: uuid (FK)
+
+comment_id: uuid (FK)
+
+value: int (+1 or -1)
+
+Constraint: Unique(user_id, comment_id)
 
 3. Search API Specification
-
 Route: /src/app/api/search/route.ts
-Purpose: Lightweight search across static JSON files.
 
 3.1 Constraints
+Client-Side Only: Search is performed via fetch to this endpoint, NOT via database.
 
-Client-side only:
-User types → fetch to this endpoint (no DB queries).
+Source: Reads the static JSON files in /src/data/cities at runtime.
 
-Source:
-Reads /src/data/cities/* at runtime.
+Privacy: No user search terms are stored.
 
-Privacy:
-Does not store search history.
+3.2 Logic
+Input: ?q=query (Min 2 chars).
 
-Minimum query length: 2 characters.
+Search Fields: Matches against City.name, Place.name_en, and Place.name_local.
 
-3.2 Search Logic
-Input
+Matching: Fuzzy / Partial / Case-insensitive.
 
-?q=query
+3.3 Response Output
+TypeScript
 
-Matching Rules
-
-Case-insensitive
-
-Partial match
-
-Fuzzy matching on:
-
-City.name
-
-Place.name_en
-
-Place.name_local
-
-Performance
-
-Limit results:
-
-max 5 cities
-
-max 5 places
-
-Ranking
-
-Starts-with matches
-
-Includes matches
-
-Fallback fuzzy matches
-
-3.3 Response Format
 {
-  cities: Array<{
-    name: string;
-    slug: string;
-    country: string;
-  }>;
-
-  places: Array<{
-    name_en: string;
-    citySlug: string;
+  cities: Array<{ name: string; slug: string; country: string }>;
+  places: Array<{ 
+    name_en: string; 
+    citySlug: string; 
     placeSlug: string;
-    category: string;        // "food" or "sight"
-  }>;
+    category: string;
+  }>
+}
+4. Taxonomy & Categories
+File: /src/data/taxonomy.ts
+
+TypeScript
+
+export const CATEGORIES = {
+  food: {
+    label: "Must Eat",
+    icon: "Utensils",     // Lucide name
+    color: "amber"        // Tailwind color key
+  },
+  sight: {
+    label: "Must See",
+    icon: "Camera",
+    color: "indigo"
+  },
+  activity: {
+    label: "Experience",
+    icon: "Ticket",
+    color: "emerald"
+  }
+}
+5. Mock Data (For AI Initialization)
+Instruction to AI: Create paris.json with this exact dummy data to test the layout.
+
+JSON
+
+{
+  "id": "1",
+  "name": "Paris",
+  "slug": "paris",
+  "country": "France",
+  "hero_image": "https://placehold.co/1920x1080?text=Paris",
+  "intro_vibe": "The city of light, love, and endless carbs.",
+  "stats": {
+    "currency": "EUR",
+    "plug_type": "Type E",
+    "best_time": "Spring"
+  },
+  "logistics": {
+    "safety": ["Watch for pickpockets on Metro line 1."],
+    "scams": ["The gold ring scam"],
+    "transit": ["Use CityMapper app."]
+  },
+  "must_eat": [
+    {
+      "id": "101",
+      "slug": "croissant-ispahan",
+      "name_en": "Pierre Hermé Croissant",
+      "name_local": "Croissant Ispahan",
+      "category": "food",
+      "description": "The famous rose, raspberry, and lychee croissant.",
+      "image": "https://placehold.co/800x600?text=Croissant",
+      "geo": { "lat": 48.85, "lng": 2.35 }
+    }
+  ],
+  "must_see": []
 }
