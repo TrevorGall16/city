@@ -1,8 +1,7 @@
 /**
  * City Sheet Page (SSG)
  * Following 03_UI section 3.2 (City Sheet Template)
- *
- * CRITICAL: Inject AdContainer after 6th item in grids
+ * Fixed for Next.js 15+: `params` is now a Promise that must be awaited.
  */
 
 import { notFound } from 'next/navigation'
@@ -13,6 +12,11 @@ import type { City } from '@/types'
 import { PlaceCard } from '@/components/features/PlaceCard'
 import { AdContainer } from '@/components/ads/AdContainer'
 import type { Metadata } from 'next'
+
+// Type definition for Page Props in Next.js 15+
+interface PageProps {
+  params: Promise<{ citySlug: string }>
+}
 
 async function getCityData(slug: string): Promise<City | null> {
   try {
@@ -37,12 +41,10 @@ export async function generateStaticParams() {
 }
 
 // SEO: Generate metadata for each city
-export async function generateMetadata({
-  params,
-}: {
-  params: { citySlug: string }
-}): Promise<Metadata> {
-  const city = await getCityData(params.citySlug)
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  // Await params before accessing properties
+  const { citySlug } = await params
+  const city = await getCityData(citySlug)
 
   if (!city) {
     return {
@@ -56,12 +58,10 @@ export async function generateMetadata({
   }
 }
 
-export default async function CityPage({
-  params,
-}: {
-  params: { citySlug: string }
-}) {
-  const city = await getCityData(params.citySlug)
+export default async function CityPage({ params }: PageProps) {
+  // Await params before accessing properties
+  const { citySlug } = await params
+  const city = await getCityData(citySlug)
 
   if (!city) {
     notFound()
@@ -76,7 +76,7 @@ export default async function CityPage({
         <PlaceCard
           key={place.id}
           place={place}
-          citySlug={params.citySlug}
+          citySlug={citySlug} // Use the resolved slug variable
         />
       )
 

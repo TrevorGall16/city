@@ -1,8 +1,7 @@
 /**
  * Place Detail Page (SSG)
  * Following 03_UI and implementation plan specifications
- *
- * Shows individual place with Translation Hook, images, and location
+ * Fixed for Next.js 16+ (params is now a Promise)
  */
 
 import { notFound } from 'next/navigation'
@@ -16,6 +15,11 @@ import { TranslationHook } from '@/components/features/TranslationHook'
 import { AdContainer } from '@/components/ads/AdContainer'
 import { CommentThread } from '@/components/features/CommentThread'
 import type { Metadata } from 'next'
+
+// Type definition for Page Props in Next.js 15+
+interface PageProps {
+  params: Promise<{ citySlug: string; placeSlug: string }>
+}
 
 async function getPlaceData(
   citySlug: string,
@@ -66,12 +70,10 @@ export async function generateStaticParams() {
 }
 
 // SEO: Generate metadata for each place
-export async function generateMetadata({
-  params,
-}: {
-  params: { citySlug: string; placeSlug: string }
-}): Promise<Metadata> {
-  const data = await getPlaceData(params.citySlug, params.placeSlug)
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  // Await params before accessing properties
+  const { citySlug, placeSlug } = await params
+  const data = await getPlaceData(citySlug, placeSlug)
 
   if (!data) {
     return {
@@ -87,12 +89,10 @@ export async function generateMetadata({
   }
 }
 
-export default async function PlacePage({
-  params,
-}: {
-  params: { citySlug: string; placeSlug: string }
-}) {
-  const data = await getPlaceData(params.citySlug, params.placeSlug)
+export default async function PlacePage({ params }: PageProps) {
+  // Await params before accessing properties
+  const { citySlug, placeSlug } = await params
+  const data = await getPlaceData(citySlug, placeSlug)
 
   if (!data) {
     notFound()
