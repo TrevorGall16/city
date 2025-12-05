@@ -3,8 +3,7 @@
  * Following 03_UI section 1 (Global Layout specification)
  */
 
-// Note: Google Font temporarily disabled due to network restrictions in build environment
-// import { Inter } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import { Search, Menu } from 'lucide-react'
 import { AuthProvider } from '@/components/providers/AuthProvider'
@@ -12,11 +11,10 @@ import { AdProvider } from '@/components/ads/AdProvider'
 import './globals.css'
 import type { Metadata } from 'next'
 
-// Using system font stack instead
-// const inter = Inter({
-//   subsets: ['latin'],
-//   display: 'swap',
-// })
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: 'City Sheet - Your Travel Cheat Sheet',
@@ -30,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="font-sans">
+      <body className={inter.className}>
         <AuthProvider>
           <AdProvider>
             {/* Header - Sticky */}

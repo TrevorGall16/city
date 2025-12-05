@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    // 1. ALLOW SVGs (Required for placehold.co)
+    dangerouslyAllowSVG: true,
+    contentDispositionType: 'attachment',
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+
     remotePatterns: [
       {
         protocol: 'https',
@@ -12,13 +17,7 @@ const nextConfig = {
     formats: ['image/webp', 'image/avif'],
   },
 
-  // Enable experimental features for better performance
-  experimental: {
-    optimizeCss: true,
-    turbopackUseSystemTlsCerts: true,
-  },
-
-  // ISR revalidation
+  // 2. Keep the ISR Headers (Your existing cache rules)
   async headers() {
     return [
       {
