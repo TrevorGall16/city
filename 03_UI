@@ -1,0 +1,289 @@
+This is excellent critique. The feedback points out exactly what creates "drift" in AI development—ambiguity in spacing, type scale, and prop definitions.
+
+I have rewritten the UI Specification to include all these missing constraints. It now includes a Deterministic Design Tokens section and TypeScript Interfaces for components.
+
+UI Specification: City Sheet
+1. Global Layout
+The global layout wrapper (layout.tsx) defines the persistent shell for the application.
+
+Structure:
+
+Header (Sticky): h-16 border-b border-slate-200 bg-white/90 backdrop-blur-md z-40
+
+Left: Logo (SVG, 32px height).
+
+Center/Right: Search Bar (Expandable).
+
+Right (Mobile): Hamburger menu (Lucide Menu, 24px).
+
+Main Content Area:
+
+Centered container: max-w-7xl mx-auto.
+
+Responsive Padding: px-4 md:px-6 lg:px-8.
+
+Top Spacer: pt-6.
+
+Footer:
+
+Background: bg-slate-50 border-t border-slate-200.
+
+Padding: py-12.
+
+Mobile Sticky Ad (Conditional):
+
+Fixed: fixed bottom-0 left-0 w-full.
+
+Z-Index: z-50.
+
+Height: min-h-[90px].
+
+Style: bg-white shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)].
+
+2. Component Inventory (Strict Props)
+2.1 Core Components
+CityCard.tsx
+
+Purpose: Entry point on Homepage.
+
+Props Interface:
+
+TypeScript
+
+interface CityCardProps {
+  name: string;
+  country: string;
+  image: string; // URL
+  slug: string;
+  priority?: boolean; // For LCP optimization
+}
+Visuals: aspect-[4/3] rounded-xl overflow-hidden relative group.
+
+PlaceCard.tsx (CRITICAL)
+
+Purpose: The primary unit of content.
+
+Props Interface:
+
+TypeScript
+
+interface PlaceCardProps {
+  name_en: string;
+  name_local: string;
+  image: string; // URL
+  category: 'must-eat' | 'must-see';
+  slug: string;
+  citySlug: string;
+}
+Structure:
+
+Image: aspect-[4/3] object-cover hover:scale-105 transition-transform duration-500.
+
+Body: p-4 bg-white border border-slate-200 border-t-0 rounded-b-xl.
+
+AdContainer.tsx
+
+Purpose: CLS protection wrapper.
+
+Props Interface:
+
+TypeScript
+
+interface AdContainerProps {
+  slot: 'header' | 'grid' | 'sidebar' | 'footer';
+  className?: string;
+}
+Constraints: Must strictly enforce min-height based on slot type.
+
+2.2 Feature Components
+TranslationHook.tsx
+
+Purpose: The "Copy" interaction.
+
+Props Interface:
+
+TypeScript
+
+interface TranslationHookProps {
+  text: string;
+  label?: string; // Optional "Local Name" label
+  className?: string;
+}
+Visuals: bg-amber-50 border border-amber-200 rounded-lg p-2 flex justify-between items-center.
+
+CommentThread.tsx
+
+Purpose: Display nested conversation.
+
+Props Interface:
+
+TypeScript
+
+interface CommentThreadProps {
+  placeSlug?: string;
+  citySlug: string;
+}
+3. Page Templates (With Spacing)
+3.1 Homepage (/page.tsx)
+Hero Search Module:
+
+Container: min-h-[60vh] flex flex-col justify-center items-center text-center px-4.
+
+Title: H1 (See Typography Tokens).
+
+Input: w-full max-w-lg mt-8.
+
+Launch Cities Grid:
+
+Container: py-16.
+
+Heading: H2 ("Explore Cities").
+
+Grid: grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6.
+
+3.2 City Sheet Template (/city/[slug]/page.tsx)
+Hero Section:
+
+Height: h-[50vh] min-h-[400px] relative.
+
+Content: Absolute center, text-white, z-10.
+
+Quick Stats Bar:
+
+Container: sticky top-16 z-30 bg-white/95 backdrop-blur border-b border-slate-200.
+
+Spacing: py-3 overflow-x-auto.
+
+Content Sections ("Must Eat" / "Must See"):
+
+Spacing: py-12.
+
+Grid: grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6.
+
+Ad Injection: After 6th item, insert full-width AdContainer (col-span-full).
+
+4. Interaction Rules
+4.1 "Translation Hook" Behavior
+Default State:
+
+Icon: Copy (Lucide React).
+
+Cursor: cursor-pointer.
+
+Active State (Click):
+
+Action: Copy text to clipboard.
+
+Icon Transition: Copy → Check (Green-600).
+
+Toast: "Copied to clipboard" (Bottom Center).
+
+Reset: After 2000ms.
+
+4.2 Image Loading States
+Loading: Display bg-slate-100 with pulsing animation (animate-pulse).
+
+Error: Display bg-slate-50 with centered ImageOff icon (Slate-300).
+
+5. Responsive Logic & Breakpoints
+Mobile (< 640px): Single column layouts. px-4. Footer Ad visible.
+
+Tablet (640px - 1024px): 2-column grids. px-6.
+
+Desktop (> 1024px): 3/4-column grids. px-8. Sidebar enabled on detail pages.
+
+6. Accessibility (A11y)
+Touch Targets: All clickable elements (buttons, inputs) must be min 44px height.
+
+Focus: focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2.
+
+Contrast: "Local Text" (Amber background) must use text-amber-900 to satisfy AA contrast.
+
+7. Performance Constraints
+Images:
+
+City/Place cards: sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw".
+
+Hero: priority={true}.
+
+Fonts: Use next/font/google (Inter) with display: swap.
+
+8. Error & Edge Cases
+Data Missing: If name_local is missing, hide the Translation Hook entirely (do not render empty box).
+
+Long Content:
+
+Place Names: truncate (1 line).
+
+Descriptions: line-clamp-2.
+
+9. Deterministic Design Tokens
+9.1 Typography System (Inter)
+H1 (Page Title): text-4xl md:text-5xl font-bold tracking-tight text-slate-900
+
+H2 (Section): text-2xl md:text-3xl font-bold mb-6 text-slate-900
+
+H3 (Card Title): text-lg font-semibold leading-tight text-slate-900
+
+Body: text-base leading-relaxed text-slate-600
+
+Small/Meta: text-sm font-medium text-slate-500
+
+Local Text: font-medium text-amber-900
+
+9.2 Color Palette (Tailwind Map)
+Primary (Brand): indigo-600 (Buttons, Links, Active States)
+
+Secondary (Surface): slate-50 (Page Background)
+
+Surface (Card): white
+
+Text Main: slate-900
+
+Text Muted: slate-500
+
+Border: slate-200
+
+Accent (The Hook):
+
+Bg: amber-50
+
+Border: amber-200
+
+Text: amber-900
+
+9.3 Spacing System
+Page Gutter: px-4 md:px-6 lg:px-8
+
+Section Y-Axis: py-12 or py-16
+
+Grid Gap: gap-6
+
+Card Internal Padding: p-4
+
+Element Spacing: space-y-4 or space-x-2
+
+9.4 Border Radius
+Cards: rounded-xl
+
+Buttons: rounded-lg
+
+Inputs: rounded-md
+
+9.5 Icon System
+Library: lucide-react
+
+Sizes:
+
+Standard UI: w-5 h-5 (20px)
+
+Large/Hero: w-6 h-6 (24px)
+
+Small/Meta: w-4 h-4 (16px)
+
+9.6 Shadows
+Card Hover: hover:shadow-lg transition-shadow duration-300
+
+Sticky Elements: shadow-sm or shadow-md
+
+Dropdowns: shadow-xl
