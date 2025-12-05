@@ -10,19 +10,23 @@
 
 import { useState } from 'react'
 import { Copy, Check } from 'lucide-react'
+import { useAnalytics } from '@/hooks/useAnalytics'
 
 interface TranslationHookProps {
   text: string
+  placeName?: string
   label?: string
   className?: string
 }
 
 export function TranslationHook({
   text,
+  placeName = '',
   label = 'Local Name',
   className = ''
 }: TranslationHookProps) {
   const [copied, setCopied] = useState(false)
+  const { trackCopyLocal } = useAnalytics()
 
   const handleCopy = async () => {
     try {
@@ -30,11 +34,7 @@ export function TranslationHook({
       setCopied(true)
 
       // Track the North Star Metric
-      if (typeof window !== 'undefined' && (window as any).gtag) {
-        (window as any).gtag('event', 'copy_name_local', {
-          text: text,
-        })
-      }
+      trackCopyLocal(text, placeName)
 
       // Reset after 2 seconds
       setTimeout(() => setCopied(false), 2000)
