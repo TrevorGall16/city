@@ -1,0 +1,164 @@
+Data & API Specification: City Sheet (Final Version)
+1. Static Data Schema (JSON)
+
+Location: /src/data/cities/[slug].json
+Rendering: Fully SSG (no runtime fetching).
+
+1.1 City Object
+interface City {
+  id: string;               // UUID
+  slug: string;             // "paris"
+  name: string;             // "Paris"
+  country: string;          // "France"
+
+  hero_image: string;       // URL (placehold.co or curated)
+  intro_vibe: string;       // 1-sentence mood-setting intro
+
+  stats: {
+    currency: string;       // "EUR"
+    plug_type: string;      // "Type C"
+    best_time: string;      // "Spring"
+  };
+
+  logistics: {
+    safety: string[];       // bullet points
+    scams: string[];        // bullet points
+    transit: string[];      // bullet points
+  };
+
+  must_eat: Place[];        // array of Place objects
+  must_see: Place[];        // array of Place objects
+}
+
+1.2 Place Object
+interface Place {
+  id: string;               // UUID
+  slug: string;             // "pierre-herme"
+
+  name_en: string;          // "Pierre Hermé"
+  name_local: string;       // "ピエール・エルメ"  (used for Copy-to-Clipboard)
+
+  category: "food" | "sight";
+
+  description: string;      // 1–2 sentences
+  image: string;            // URL
+
+  geo: { lat: number; lng: number };
+}
+
+2. Dynamic Data Schema (Supabase)
+
+All dynamic data is social only: Comments + Votes.
+No dynamic places/cities stored in DB (static only).
+
+2.1 Table: comments
+Field	Type	Notes
+id	uuid PK	gen_random_uuid()
+user_id	uuid	FK to auth.users
+city_slug	text	required
+place_slug	text	optional (null = city-level comment)
+parent_id	uuid	nullable → allows threaded replies
+content	text	sanitized HTML-free text
+created_at	timestamp	default now()
+Constraints
+
+Either:
+
+City-level comment → place_slug = null, OR
+
+Place-level comment → both slugs exist.
+
+No images allowed.
+
+Max content length: 2000 chars (UI enforced).
+
+RLS Policies
+SELECT: true; -- public
+INSERT: auth.role() = 'authenticated';
+UPDATE: user_id = auth.uid();
+DELETE: user_id = auth.uid();
+
+2.2 Table: votes (For Comments)
+Field	Type	Notes
+id	uuid PK	gen_random_uuid()
+user_id	uuid	FK to auth.users
+comment_id	uuid	FK to comments.id
+value	int	+1 or -1
+created_at	timestamp	default now()
+Constraint
+UNIQUE (user_id, comment_id)
+
+Behavior
+
+If user votes again → update existing row.
+
+No deleting by voting; changing value only.
+
+3. Search API Specification
+
+Route: /src/app/api/search/route.ts
+Purpose: Lightweight search across static JSON files.
+
+3.1 Constraints
+
+Client-side only:
+User types → fetch to this endpoint (no DB queries).
+
+Source:
+Reads /src/data/cities/* at runtime.
+
+Privacy:
+Does not store search history.
+
+Minimum query length: 2 characters.
+
+3.2 Search Logic
+Input
+
+?q=query
+
+Matching Rules
+
+Case-insensitive
+
+Partial match
+
+Fuzzy matching on:
+
+City.name
+
+Place.name_en
+
+Place.name_local
+
+Performance
+
+Limit results:
+
+max 5 cities
+
+max 5 places
+
+Ranking
+
+Starts-with matches
+
+Includes matches
+
+Fallback fuzzy matches
+
+3.3 Response Format
+{
+  cities: Array<{
+    name: string;
+    slug: string;
+    country: string;
+  }>;
+
+  places: Array<{
+    name_en: string;
+    citySlug: string;
+    placeSlug: string;
+    category: string;        // "food" or "sight"
+  }>;
+}
