@@ -1,0 +1,47 @@
+# PROJECT CONTEXT & GLOBAL VARIABLES
+# ⚠️ INSTRUCTION: Attach this file context to every prompt in this session.
+
+[PROJECT IDENTITY]
+Name: City Sheet
+Type: Travel Directory & Utility Tool
+Stack: Next.js 14+ (App Router), Supabase (Auth + DB), Tailwind CSS, Netlify.
+
+[CORE PURPOSE]
+A high-performance "cheat sheet" for travelers.
+Key Feature ("The Hook"): A "Translation Bridge" that allows users to copy local text (e.g., Japanese/Thai) to the clipboard to show to taxi drivers or waiters.
+
+[VISUAL IDENTITY (DETERMINISTIC)]
+1. Colors (Tailwind):
+   - Brand Primary: indigo-600 (Buttons, Links, Active States)
+   - Background: slate-50 (App Shell)
+   - Surface: white (Cards, Modals)
+   - Local-Text Highlight: amber-50 (bg) + amber-900 (text) <--- CRITICAL for the Hook.
+   - Text: slate-900 (Headings), slate-600 (Body).
+
+2. Icons:
+   - Library: lucide-react (Do not use Heroicons or FontAwesome).
+   - Common: Copy, Check, MapPin, Search, Menu, Star, ThumbsUp, MessageSquare.
+
+3. Typography:
+   - Font: Inter (via next/font/google).
+   - Base Size: 16px.
+
+[PLACEHOLDERS & ASSETS]
+- Images: Use "https://placehold.co/800x600/e2e8f0/475569?text=City+Image" for testing.
+- Logo: Use text "CitySheet" in a <div> until SVG is provided.
+- Mock Data:
+   - City: Paris
+   - Place: "Croissant Shop" (Local: クロワッサン)
+   - Category: must-eat
+
+[EXTERNAL KEYS (ENV placeholders)]
+- NEXT_PUBLIC_SUPABASE_URL
+- NEXT_PUBLIC_SUPABASE_ANON_KEY
+- NEXT_PUBLIC_SITE_URL=http://localhost:3000
+
+[NON-GOALS (STRICT PROHIBITIONS)]
+1. NO User Image Uploads (Curated images only).
+2. NO Anonymous Comments (Login required via Supabase).
+3. NO Infinite Scroll (Use "Load More" button).
+4. NO Sticky Ads in middle of content (Only Footer/Sidebar).
+5. NO Redux/Zustand (Use React Context/Local State).
