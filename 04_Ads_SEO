@@ -1,0 +1,214 @@
+Here is the **Ads & Indexing Strategy** rewritten as a clean, production-ready document that fits your documentation architecture **and is ready to be inserted as its own file**, with no fluff and no repetition.
+
+The structure follows the same strict tone and consistency as the previous documents.
+
+---
+
+# **04_ADS_AND_INDEXING.md**
+
+*City Sheet — Ads, Monetization & Indexing Specification*
+
+---
+
+## **1. Ads Strategy Overview**
+
+Goal: Implement high-viewability ad placements without harming UX, CLS score, or page readability.
+
+Principles:
+
+* Strict use of **AdContainer** to prevent layout shifts
+* High viewability via **sticky** and **in-feed** ads
+* Full compliance with cookie-consent rules
+* High Lighthouse performance & SEO-friendly integration
+
+---
+
+## **2. Ad Placement Rules**
+
+### **2.1 Header Slot**
+
+* **Slot ID:** `header-slot`
+* **Location:** Directly under “Quick Stats” on City Pages
+* **Min Height:** `250px` (CLS protection)
+* Must not push down city H1, Hero section, or breadcrumb
+
+---
+
+### **2.2 In-Feed Grid Slot**
+
+* **Slot ID:** `in-feed-slot`
+* Used in: *Must Eat*, *Must See* sections
+* **Rule:** Insert an ad after every **6 PlaceCards**
+* **Grid Behavior:** `col-span-full`
+* Vertical spacing: `mt-6 mb-6`
+
+---
+
+### **2.3 Sidebar Slot (Desktop Only)**
+
+* **Slot ID:** `sidebar-sticky`
+* **Location:** Right column of Place Detail Page
+* **Behavior:** Sticky (`top-24`)
+* **Min Height:** `600px` (skyscraper unit)
+
+---
+
+### **2.4 Mobile Sticky Footer**
+
+* **Slot ID:** `mobile-sticky-footer`
+* **Location:** Bottom of viewport as fixed element
+* **Visibility:** Only `< 640px`
+* **Min Height:** `90px`
+* **z-index:** `50`
+
+---
+
+## **3. Ad Behavior Logic**
+
+### **3.1 Rendering Pipeline**
+
+Ads always render through:
+
+```tsx
+<AdContainer slot="header-slot" />
+```
+
+### **3.2 CLS Prevention**
+
+Before loading scripts:
+
+* `min-height` is mandatory
+* Gray placeholder + “Advertisement” label
+
+### **3.3 Refresh Logic**
+
+Inside `AdProvider`:
+
+* Listen to route changes via `usePathname()`
+* Trigger reload for all slots
+* Throttle: **max 1 refresh / 30 seconds**
+
+### **3.4 Cookie Consent Gate**
+
+If `hasConsent === false` → render **placeholder only**
+
+---
+
+## **4. Indexing Strategy**
+
+### **4.1 Generation Model**
+
+* Fully static for all **City** and **Place** routes
+* No indexing for **auth**, **admin**, or **API**
+
+### **4.2 Canonical Rules**
+
+Every page **must self-reference**:
+
+```
+<link rel="canonical" href="https://citysheet.com/city/paris" />
+```
+
+No query parameters allowed in canonical URLs.
+
+---
+
+## **5. Technical SEO**
+
+### **5.1 Lighthouse Target**
+
+* **SEO Score ≥ 95**
+
+### **5.2 Image Requirements**
+
+* Always use `next/image`
+* Must provide width, height, alt text
+* Must use responsive `sizes` attributes
+* Blur placeholder enabled
+
+### **5.3 Titles**
+
+City Page:
+
+```
+[City Name] Travel Cheat Sheet: Must Eat & See
+```
+
+Place Page:
+
+```
+[Place Name] ([Local Name]) in [City] – Tips & Translation
+```
+
+### **5.4 Meta Description**
+
+Length: **140–160 characters**
+
+Template:
+"Visit [Place Name] in [City]. Local translation: [Local Name]. See rating, tips, and location. Part of the [City] City Sheet."
+
+---
+
+## **6. Metadata Generation**
+
+* Implement using `generateMetadata()` in Next.js
+* Source: the local JSON data files for cities & places
+
+---
+
+## **7. Sitemap & Robots Rules**
+
+### **7.1 Sitemap**
+
+Generated via Node script: `scripts/generate-sitemap.js`
+
+Includes:
+
+* `/`
+* `/city/[slug]`
+* `/city/[slug]/[place]`
+
+Excludes:
+
+* `/api/*`
+* `/profile/*`
+* `/login`
+
+### **7.2 robots.txt**
+
+```
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /profile/
+Sitemap: https://[PRODUCTION_DOMAIN]/sitemap.xml
+```
+
+---
+
+## **8. Schema Markup (JSON-LD)**
+
+### **8.1 City Page**
+
+Use Schema.org:
+
+* `City`
+* `CollectionPage`
+* List of attractions
+
+### **8.2 Place Page**
+
+Use Schema.org:
+
+* For food: `FoodEstablishment`
+* For sights: `TouristAttraction`
+
+Include:
+
+* English name
+* Local name (Translation Hook)
+* Image
+* Address
+* City + Country
+
+---
