@@ -1,0 +1,169 @@
+This is excellent feedback. The other AI is right—adding "Non-Goals" and "Naming Conventions" significantly reduces the chance of the Builder AI over-engineering the solution (e.g., installing Redux for a simple comment section).
+
+I accept all the suggestions, with one minor technical adjustment:
+
+Refining the Schema: The other AI suggested a flat schema, but your requirements mentioned Nested Replies. I have added parent_id to the schema definition to ensure nesting works.
+
+Here is the Revised & Finalized Tech Stack Document.
+
+Tech Stack Documentation: City Sheet
+1. Primary Stack Selection
+PATH B: Scalable Content / Logic (Framework)
+
+Framework: Next.js 14+ (App Router)
+
+Language: TypeScript
+
+Styling: Tailwind CSS
+
+Backend / Auth: Supabase (PostgreSQL + GoTrue)
+
+Hosting: Vercel
+
+2. Stack Justification
+This path is selected because the project requires a hybrid approach:
+
+Maximum SEO: Static Site Generation (SSG) is required for City and Attraction pages to ensure high search ranking.
+
+Complex Logic: The "Social Layer" requires secure Authentication and Database interactions (Voting/Comments).
+
+Scalability: The directory structure must support thousands of pages generated programmatically from data files.
+
+3. File & Folder Structure (Deterministic)
+The Builder AI must implement this exact directory structure:
+
+Plaintext
+
+/root
+  ├── .env.local               (Supabase Keys & Secrets)
+  ├── next.config.js
+  ├── tailwind.config.ts
+  ├── package.json
+  ├── public/
+  │   ├── images/              (City assets: /paris/...)
+  │   ├── sitemap.xml          (Generated)
+  │   └── robots.txt
+  ├── scripts/
+  │   └── generate-sitemap.js  (Node script for SEO)
+  ├── src/
+  │   ├── app/
+  │   │   ├── layout.tsx       (Global Shell: Fonts, AuthProvider)
+  │   │   ├── page.tsx         (Homepage: Search)
+  │   │   ├── city/
+  │   │   │   └── [citySlug]/
+  │   │   │       ├── page.tsx       (City Sheet: SSG)
+  │   │   │       └── [placeSlug]/
+  │   │   │           └── page.tsx   (Attraction Detail: SSG)
+  │   │   └── api/             (Serverless Functions)
+  │   │       ├── comments/route.ts
+  │   │       └── vote/route.ts
+  │   ├── components/
+  │   │   ├── ui/              (Atomic: Button.tsx, Modal.tsx)
+  │   │   ├── features/        (CityCard.tsx, TranslationHook.tsx)
+  │   │   └── ads/             (AdContainer.tsx, AdProvider.tsx)
+  │   ├── lib/
+  │   │   ├── supabase/        (Client & Server Clients)
+  │   │   ├── utils.ts         (Class mergers, Formatters)
+  │   │   └── constants.ts     (Global Config)
+  │   └── data/                (Static Source of Truth)
+  │       ├── cities/
+  │       │   ├── paris.json
+  │       │   └── tokyo.json
+  │       └── taxonomy.ts      (Categories)
+4. Component Naming Conventions
+Component Files: PascalCase (e.g., CityCard.tsx, SubmitButton.tsx)
+
+Hooks: camelCase (e.g., useCopyToClipboard.ts)
+
+Data Files: kebab-case (e.g., paris.json, taxonomy.ts)
+
+Utility Files: snake_case (e.g., format_date.ts)
+
+CSS Classes: Tailwind utility classes only; avoid CSS modules unless strictly necessary.
+
+5. Data Structures
+5.1 Static Content (JSON)
+Stored in /src/data/cities/ for SSG.
+
+Format: JSON files.
+
+Slug Rules: Strictly lowercase, hyphen-separated (e.g., eiffel-tower).
+
+Mock Data: AI must generate 5 realistic "Paris" items for testing.
+
+5.2 Dynamic Data (Supabase SQL)
+Managed via Supabase Client for the Social Layer.
+
+Table: comments
+
+id: uuid (PK)
+
+user_id: uuid (FK → profiles.id)
+
+city_slug: text (Indexed)
+
+place_slug: text (Indexed, nullable)
+
+parent_id: uuid (FK → comments.id, nullable for nesting)
+
+content: text (Max 200 chars)
+
+created_at: timestamp
+
+Table: votes
+
+id: uuid (PK)
+
+user_id: uuid (FK → profiles.id)
+
+comment_id: uuid (FK → comments.id)
+
+value: integer (1 or -1)
+
+Constraint: Unique pair (user_id, comment_id)
+
+6. Build Pipeline & Logic Layer
+6.1 Build Pipeline (Must Follow)
+Read Data: Build process reads all JSON files in /src/data/cities/.
+
+Generate Params: Creates static params for /city/[slug] and /city/[slug]/[placeSlug].
+
+Build SSG: Generates HTML for all City and Attraction pages.
+
+Sitemap: scripts/generate-sitemap.js runs to output sitemap.xml.
+
+Deploy: Deploys to Vercel with ISR enabled (7 days).
+
+Client Hydration: Comments/Votes are fetched client-side only.
+
+6.2 Ad Logic Rules
+Component: Ads must use <AdContainer />.
+
+CLS Safety: Each AdContainer must define a Tailwind min-height (e.g., min-h-[250px]).
+
+Placement: Max 1 ad per viewport height. Never place between a Header and its Subtitle.
+
+Behavior: No sticky ads (except strictly defined footer/sidebar slots).
+
+7. Performance Budgets
+Lighthouse: Mobile Score > 90.
+
+JavaScript: First Load JS < 100KB (Gzipped).
+
+Images: Must use next/image with WebP.
+
+CLS: < 0.03.
+
+8. Non-Goals (Strict Prohibitions)
+No Redux, Zustand, or Jotai: Use React Context or local state only.
+
+No Prisma or ORMs: Use Supabase JS Client or raw SQL only.
+
+No Server Actions for Write Operations: Use strict API Routes (/api/...) for clearer separation.
+
+No Image Uploads: User media storage is disabled.
+
+No Admin Dashboard: Manage content via code/JSON and database console.
+
+9. Implementation Disclaimer
+If any rule prevents optimal functionality or causes code contradictions, the AI must refactor the rule and choose the solution that best matches the Core Purpose and Success Criteria.
