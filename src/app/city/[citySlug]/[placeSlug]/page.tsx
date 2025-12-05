@@ -14,6 +14,7 @@ import { MapPin } from 'lucide-react'
 import type { City, Place } from '@/types'
 import { TranslationHook } from '@/components/features/TranslationHook'
 import { AdContainer } from '@/components/ads/AdContainer'
+import { CommentThread } from '@/components/features/CommentThread'
 import type { Metadata } from 'next'
 
 async function getPlaceData(
@@ -185,16 +186,12 @@ export default async function PlacePage({
               </div>
             </div>
 
-            {/* Community Tips Placeholder (Phase 4) */}
+            {/* Community Tips - LIVE */}
             <div className="mt-12">
               <h2 className="text-2xl font-bold text-slate-900 mb-6">
                 Community Tips
               </h2>
-              <div className="bg-white rounded-lg border border-slate-200 p-8 text-center">
-                <p className="text-slate-500">
-                  Comments will appear here once authentication is implemented (Phase 4).
-                </p>
-              </div>
+              <CommentThread citySlug={city.slug} placeSlug={place.slug} />
             </div>
           </div>
 
