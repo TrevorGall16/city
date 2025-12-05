@@ -1,0 +1,122 @@
+/**
+ * Core TypeScript Interfaces for City Sheet
+ * Following strict schema from 05_Data_API
+ */
+
+export interface City {
+  id: string
+  slug: string
+  name: string
+  country: string
+  hero_image: string
+  intro_vibe: string
+  stats: {
+    currency: string
+    plug_type: string
+    best_time: string
+  }
+  logistics: {
+    safety: string[]
+    scams: string[]
+    transit: string[]
+  }
+  must_eat: Place[]
+  must_see: Place[]
+}
+
+export interface Place {
+  id: string
+  slug: string
+  name_en: string
+  name_local: string
+  category: 'food' | 'sight'
+  description: string
+  image: string
+  geo: {
+    lat: number
+    lng: number
+  }
+}
+
+// Component Prop Interfaces (from 03_UI)
+
+export interface CityCardProps {
+  name: string
+  country: string
+  image: string
+  slug: string
+  priority?: boolean
+}
+
+export interface PlaceCardProps {
+  name_en: string
+  name_local: string
+  image: string
+  category: 'food' | 'sight'
+  slug: string
+  citySlug: string
+}
+
+export interface TranslationHookProps {
+  text: string
+  label?: string
+  className?: string
+}
+
+export interface AdContainerProps {
+  slot: 'header' | 'grid' | 'sidebar' | 'footer'
+  className?: string
+}
+
+export interface CommentThreadProps {
+  placeSlug?: string
+  citySlug: string
+}
+
+// Database Types (Supabase)
+
+export interface Comment {
+  id: string
+  user_id: string
+  city_slug: string
+  place_slug: string | null
+  parent_id: string | null
+  content: string
+  created_at: string
+  profiles?: {
+    display_name: string | null
+    avatar_url: string | null
+  }
+  vote_count?: number
+}
+
+export interface Vote {
+  id: string
+  user_id: string
+  comment_id: string
+  value: 1 | -1
+  created_at: string
+}
+
+export interface Profile {
+  id: string
+  display_name: string | null
+  avatar_url: string | null
+  created_at: string
+}
+
+// Search API Response Types
+
+export interface SearchResponse {
+  cities: Array<{
+    name: string
+    slug: string
+    country: string
+  }>
+  places: Array<{
+    name_en: string
+    citySlug: string
+    placeSlug: string
+    category: string
+  }>
+}
