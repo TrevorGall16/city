@@ -132,7 +132,7 @@ Build SSG: Generates HTML for all City and Attraction pages.
 
 Sitemap: scripts/generate-sitemap.js runs to output sitemap.xml.
 
-Deploy: Deploys to Vercel with ISR enabled (7 days).
+Deploy: Deploys to Netlify with ISR enabled (7 days).
 
 Client Hydration: Comments/Votes are fetched client-side only.
 
