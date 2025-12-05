@@ -10,6 +10,11 @@ export interface City {
   country: string
   hero_image: string
   intro_vibe: string
+  general_info: {
+    population: string
+    is_capital: boolean
+    description: string
+  }
   stats: {
     currency: string
     plug_type: string
@@ -32,7 +37,8 @@ export interface Place {
   category: 'food' | 'sight'
   description: string
   image: string
-  geo: {
+  is_generic_staple: boolean
+  geo?: {
     lat: number
     lng: number
   }
