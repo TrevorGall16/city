@@ -14,7 +14,7 @@ const nextConfig = {
 
   // Enable experimental features for better performance
   experimental: {
-    optimizeCss: true,
+//experimental: { optimizeCss: true }  <-- REMOVE OR COMMENT OUT THIS LINE//
   },
 
   // ISR revalidation
