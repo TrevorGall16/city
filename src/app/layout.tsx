@@ -6,6 +6,7 @@
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import { Search, Menu } from 'lucide-react'
+import { AuthProvider } from '@/components/providers/AuthProvider'
 import './globals.css'
 import type { Metadata } from 'next'
 
@@ -27,8 +28,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {/* Header - Sticky */}
-        <header className="h-16 border-b border-slate-200 bg-white/90 backdrop-blur-md sticky top-0 z-40">
+        <AuthProvider>
+          {/* Header - Sticky */}
+          <header className="h-16 border-b border-slate-200 bg-white/90 backdrop-blur-md sticky top-0 z-40">
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 h-full flex items-center justify-between">
             {/* Logo */}
             <Link href="/" className="flex items-center">
@@ -111,6 +113,7 @@ export default function RootLayout({
             </div>
           </div>
         </footer>
+        </AuthProvider>
       </body>
     </html>
   )
