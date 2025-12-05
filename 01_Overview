@@ -1,0 +1,74 @@
+Project Overview: City Sheet
+1. Project Type
+Curated Travel Directory & Utility Tool.
+
+2. One-Sentence Summary
+A high-performance, mobile-first travel encyclopedia that provides curated "cheat sheets" for major cities, featuring a specialized translation tool to bridge language barriers.
+
+3. Core Purpose
+The goal is to allow international travelers to immediately find validated local recommendations and communicate them (via native text) to locals so they can navigate foreign environments without language friction.
+
+4. Target Users
+Primary: International tourists in cities where they do not speak the local language (e.g., an English speaker in Tokyo).
+
+Intent: Rapidly identifying "Must Eat" or "Must See" items and successfully communicating that desire to a taxi driver or waiter.
+
+5. Core Features
+Phase 1: MVP Core Features
+Translation Bridge (The Hook) → Click "Copy" icon on item card → Native local text copied to clipboard → User communicates destination/order to locals without speaking.
+
+City Search → Input City Name → Access strict "City Sheet" template → User finds essential logistics and curated lists instantly.
+
+Curated Listings → View "Must Eat" / "Must See" Grids → Visual cards with key info → User trusts high-quality, non-spammy recommendations.
+
+Ad-Supported Layout → Scroll through content → Non-intrusive ad placements → Platform generates revenue without blocking UX.
+
+Phase 2: Social Layer (Not Required for MVP Build)
+Social Validation → Auth (Google/Email) + Upvote/Comment → Ranked user tips → User sees most helpful community context first.
+
+6. Constraints and Priorities
+Performance Priority: Mobile-First design with Lighthouse Score ≥ 90.
+
+Content Constraint: No user-generated image uploads (Curated images only).
+
+Auth Constraint: Strictly no anonymous commenting or voting; mandatory login via Supabase Auth.
+
+SEO Goal: 100% indexability for all City and Attraction pages via Static Site Generation (SSG).
+
+Monetization Safety: Ad slots must have rigid min-height to prevent Cumulative Layout Shift (CLS).
+
+7. Success Criteria
+Performance: Lighthouse Mobile Score ≥ 90; LCP < 2.5s.
+
+SEO: 100% of City and Place pages appear in sitemap.xml and are crawlable.
+
+Engagement: "Copy Local Text" event is successfully tracked in analytics (North Star Metric).
+
+Stability: Zero layout shifts (CLS < 0.03) when ads load.
+
+8. Non-Goals
+No user image uploads.
+
+No business-owner dashboards.
+
+No real-time chat.
+
+No paid premium tier (for now).
+
+No AI-generated travel recommendations.
+
+9. Tasks Reserved for Human (Non-AI Work)
+Add real curated content for each city (names, descriptions, translations).
+
+Upload real image assets (once available).
+
+Connect your actual ads account.
+
+Verify SEO with real Google indexing tests.
+
+Run Lighthouse on mobile using your real domain.
+
+Replace placeholder icons/images with final assets.
+
+10. Implementation Disclaimer
+If any rule creates a contradiction or prevents optimal functionality, refactor the rule and produce the solution that best aligns with the Core Purpose and Success Criteria.
