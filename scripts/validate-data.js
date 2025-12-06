@@ -74,7 +74,12 @@ const CitySchema = z.object({
     details: z.array(z.string()),
   })),
   must_eat: z.array(PlaceSchema),
-  must_see: z.array(PlaceSchema),
+  must_see: z.array(z.object({
+    title: z.string().min(1),
+    id: z.string().min(1).regex(/^[a-z0-9-]+$/, 'Group ID must be lowercase with hyphens'),
+    description: z.string().optional(),
+    items: z.array(PlaceSchema),
+  })),
 })
 
 async function validateData() {
@@ -129,7 +134,8 @@ async function validateData() {
       const city = result.data
 
       // Check for duplicate place slugs
-      const allPlaces = [...city.must_eat, ...city.must_see]
+      const mustSeeItems = city.must_see.flatMap(group => group.items)
+      const allPlaces = [...city.must_eat, ...mustSeeItems]
       const slugs = allPlaces.map(p => p.slug)
       const duplicates = slugs.filter((s, i) => slugs.indexOf(s) !== i)
       if (duplicates.length > 0) {
