@@ -41,11 +41,16 @@ const CitySchema = z.object({
   stats: z.object({
     currency: z.string().min(1),
     plug_type: z.string().min(1),
-    best_time: z.object({
-      summary: z.string().min(1),
-      months: z.array(z.number().min(0).max(11)),
-    }),
   }),
+  weather_breakdown: z.array(z.object({
+    id: z.number().min(1).max(12),
+    name: z.string().min(1),
+    temp: z.string().min(1),
+    vibe: z.string().min(1),
+    pros: z.array(z.string()),
+    cons: z.array(z.string()),
+    clothing: z.string().min(1),
+  })),
   culture: z.object({
     etiquette_tips: z.array(z.string()),
     essential_phrases: z.array(z.object({
@@ -54,6 +59,12 @@ const CitySchema = z.object({
       phonetic: z.string().min(1),
     })),
   }),
+  neighborhoods: z.array(z.object({
+    name: z.string().min(1),
+    vibe: z.string().min(1),
+    description: z.string().min(1),
+    highlights: z.array(z.string()),
+  })),
   logistics: z.object({
     safety: z.array(z.string()),
     scams: z.array(z.string()),
