@@ -15,6 +15,7 @@ import { AdContainer } from '@/components/ads/AdContainer'
 import { MonthCard } from '@/components/features/MonthCard'
 import { NeighborhoodCard } from '@/components/features/NeighborhoodCard'
 import { SectionHeader } from '@/components/ui/SectionHeader'
+import { CityNavigation } from '@/components/features/CityNavigation'
 import type { Metadata } from 'next'
 import * as Icons from 'lucide-react'
 
@@ -178,8 +179,11 @@ export default async function CityPage({ params }: PageProps) {
         </div>
       </section>
 
+      {/* Quick Links Navigation */}
+      <CityNavigation />
+
       {/* Weather Deep Dive Section */}
-      <section className={`border-b border-slate-200 ${city.country_code === 'fr' ? 'bg-blue-50' : 'bg-slate-50'}`}>
+      <section id="weather" className={`border-b border-slate-200 ${city.country_code === 'fr' ? 'bg-blue-50' : 'bg-slate-50'}`}>
         <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
           <SectionHeader
             title="Weather Deep Dive"
@@ -205,7 +209,7 @@ export default async function CityPage({ params }: PageProps) {
       </section>
 
       {/* Neighborhoods Section */}
-      <section className={`border-b border-slate-200 ${city.country_code === 'fr' ? 'bg-red-50' : 'bg-white'}`}>
+      <section id="neighborhoods" className={`border-b border-slate-200 ${city.country_code === 'fr' ? 'bg-red-50' : 'bg-white'}`}>
         <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
           <SectionHeader
             title="Neighborhoods"
@@ -222,7 +226,7 @@ export default async function CityPage({ params }: PageProps) {
       </section>
 
       {/* Culture & Etiquette Section */}
-      <section className="bg-gradient-to-br from-indigo-50 to-white border-b border-indigo-100">
+      <section id="culture" className="bg-gradient-to-br from-indigo-50 to-white border-b border-indigo-100">
         <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
           <SectionHeader
             title="Culture & Etiquette"
@@ -279,7 +283,7 @@ export default async function CityPage({ params }: PageProps) {
 
       {/* Must See Section */}
       {city.must_see.length > 0 && (
-        <section className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
+        <section id="sights" className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
           <SectionHeader
             title="Must See"
             countryCode={city.country_code}
@@ -293,7 +297,7 @@ export default async function CityPage({ params }: PageProps) {
 
       {/* Must Eat Section */}
       {city.must_eat.length > 0 && (
-        <section className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-slate-50">
+        <section id="food" className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-slate-50">
           <SectionHeader
             title="Must Eat"
             countryCode={city.country_code}
@@ -306,7 +310,7 @@ export default async function CityPage({ params }: PageProps) {
       )}
 
       {/* Logistics Section - Moved to Bottom */}
-      <section className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
+      <section id="logistics" className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
         <SectionHeader
           title="Travel Logistics"
           countryCode={city.country_code}
