@@ -289,8 +289,36 @@ export default async function CityPage({ params }: PageProps) {
             countryCode={city.country_code}
             subtitle="Iconic landmarks and hidden gems"
           />
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6">
-            {renderPlacesWithAds(city.must_see, 'see')}
+
+          {/* Grouped Categories */}
+          <div className="space-y-12">
+            {city.must_see.map((group, groupIndex) => (
+              <div key={group.id}>
+                {/* Category Header */}
+                <div className="mb-6">
+                  <h3 className="text-xl md:text-2xl font-bold text-slate-900 mb-2">
+                    {group.title}
+                  </h3>
+                  {group.description && (
+                    <p className="text-sm text-slate-600 max-w-3xl">
+                      {group.description}
+                    </p>
+                  )}
+                </div>
+
+                {/* Category Grid */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6">
+                  {renderPlacesWithAds(group.items, `see-${group.id}`)}
+                </div>
+
+                {/* Ad between groups (after every 2nd group) */}
+                {groupIndex % 2 === 1 && groupIndex < city.must_see.length - 1 && (
+                  <div className="mt-8">
+                    <AdContainer slot="grid" />
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
         </section>
       )}
