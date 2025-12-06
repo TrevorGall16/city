@@ -87,7 +87,7 @@ export default async function CityPage({ params }: PageProps) {
       )
 
       // Inject ad after 6th item
-      if (index === 5 && places.length > 6) {
+      if (index === 7 && places.length > 8) {
         elements.push(
           <div key={`ad-${category}-${index}`} className="col-span-full">
             <AdContainer slot="grid" />

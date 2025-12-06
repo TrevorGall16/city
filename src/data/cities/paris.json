@@ -9,12 +9,13 @@
   "general_info": {
     "population": "~2.1 million (city) / ~12 million (metro area)",
     "is_capital": true,
-    "description": "Paris is the capital and most populous city of France. With an official estimated population of 2,102,650 residents as of 1 January 2023 in an area of more than 105 km², Paris is the fourth-most populated city in the European Union and the 30th most densely populated city in the world in 2022."
+    "description": "Paris is the capital and most populous city of France. With an official estimated population of 2,102,650 residents as of 1 January 2023 in an area of more than 105 km², Paris is the fourth-most populated city in the European Union and the 30th most densely populated city in the world."
   },
   "stats": {
     "currency": "EUR",
     "plug_type": "Type E"
   },
+<<<<<<< Updated upstream
 "weather_breakdown": [
     {
       "id": 1,
@@ -223,16 +224,41 @@
   "Tipping is not mandatory but appreciated. Leaving €1–€2 for good service in cafés or rounding up is perfectly Parisian."
 ],
 
+=======
+  "weather_breakdown": [
+    { "id": 1, "name": "January", "temp": "1°C - 7°C", "vibe": "Quiet & Brisk", "pros": ["Very few tourists", "Winter Sales (Soldes)", "Crisp mood"], "cons": ["Short days", "Grey skies"], "clothing": "Heavy coat, scarf, waterproof shoes" },
+    { "id": 2, "name": "February", "temp": "1°C - 8°C", "vibe": "Crisp & Intimate", "pros": ["Romantic atmosphere", "Lower prices", "Early blooms"], "cons": ["Cold snaps", "Wind chill"], "clothing": "Insulating layers, warm hat" },
+    { "id": 3, "name": "March", "temp": "4°C - 12°C", "vibe": "Changeable", "pros": ["Spring blooms", "Shoulder season prices", "Livelier streets"], "cons": ["Unpredictable rain", "Chilly mornings"], "clothing": "Light jacket + umbrella" },
+    { "id": 4, "name": "April", "temp": "8°C - 16°C", "vibe": "Blooming", "pros": ["Cherry blossoms", "Moderate temps", "Parks open up"], "cons": ["April showers", "Crowds grow"], "clothing": "Layers, waterproof jacket" },
+    { "id": 5, "name": "May", "temp": "11°C - 20°C", "vibe": "Mild & Social", "pros": ["Long days", "Terrace culture peaks", "Outdoor events"], "cons": ["Higher hotel prices", "Sudden heat"], "clothing": "Breathable layers, sunhat" },
+    { "id": 6, "name": "June", "temp": "14°C - 24°C", "vibe": "Festive", "pros": ["Music Festival", "Late sunsets (10pm)", "Seine picnics"], "cons": ["High season rates", "Heatwaves"], "clothing": "Summer clothes + light jacket" },
+    { "id": 7, "name": "July", "temp": "16°C - 27°C", "vibe": "Hot & Busy", "pros": ["Bastille Day", "Paris Plages", "Summer vibes"], "cons": ["Crowded", "Lack of A/C"], "clothing": "Very light clothes, sandals" },
+    { "id": 8, "name": "August", "temp": "15°C - 26°C", "vibe": "Slow & Local", "pros": ["Quiet streets (locals leave)", "Relaxed pace", "Empty metro"], "cons": ["Many shops closed", "Tourist spots packed"], "clothing": "Summer clothes" },
+    { "id": 9, "name": "September", "temp": "12°C - 22°C", "vibe": "Golden", "pros": ["Perfect walking weather", "Cultural season starts", "Energetic"], "cons": ["Fashion Week prices", "Occasional rain"], "clothing": "Smart casual layers" },
+    { "id": 10, "name": "October", "temp": "9°C - 17°C", "vibe": "Colorful", "pros": ["Autumn foliage", "Cozy cafes", "Great light"], "cons": ["Shorter days", "Dampness"], "clothing": "Warm mid-layers, boots" },
+    { "id": 11, "name": "November", "temp": "6°C - 12°C", "vibe": "Atmospheric", "pros": ["Museum exhibitions", "Hot chocolate season", "Low rates"], "cons": ["Grey & gloom", "Windy"], "clothing": "Warm coat, umbrella" },
+    { "id": 12, "name": "December", "temp": "3°C - 8°C", "vibe": "Festive", "pros": ["Christmas Markets", "Holiday lights", "Cheer"], "cons": ["Cold & Dark", "Holiday crowds"], "clothing": "Thermals, heavy coat, gloves" }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "The 'Bonjour' Rule: Always say Bonjour when entering a shop. It is not optional.",
+      "Dining Pace: Meals are slow. You must ask for the bill ('L'addition').",
+      "Volume: Keep your voice down in public and on the Metro.",
+      "Dress Code: Smart casual. No gym clothes for dinner.",
+      "Escalators: Stand on the RIGHT, walk on the LEFT."
+    ],
+>>>>>>> Stashed changes
     "essential_phrases": [
       { "src": "Hello", "local": "Bonjour", "phonetic": "bon-ZHOOR" },
       { "src": "Thank you", "local": "Merci", "phonetic": "mair-SEE" },
-      { "src": "The bill, please", "local": "L'addition, s'il vous plaît", "phonetic": "lah-dee-SYOHN, seel voo PLEH" },
+      { "src": "The bill please", "local": "L'addition s'il vous plaît", "phonetic": "lah-dee-SYON" },
       { "src": "Excuse me", "local": "Excusez-moi", "phonetic": "ex-kew-ZAY mwah" },
-      { "src": "I don't speak French", "local": "Je ne parle pas français", "phonetic": "zhuh nuh PARL pah frahn-SEH" }
+      { "src": "I don't speak French", "local": "Je ne parle pas français", "phonetic": "zhuh nuh parl pah" }
     ]
   },
   "neighborhoods": [
     {
+<<<<<<< Updated upstream
 "name": "Le Marais",
     "vibe": "Trendy Heritage",
     "description": "A historic district blending medieval streets with cutting-edge boutiques and cafés. Its Jewish heritage, LGBTQ+ culture, and art galleries give it a layered, cosmopolitan energy while still feeling intimate and walkable.",
@@ -353,22 +379,85 @@
     ]
   }
 ],
+=======
+      "name": "Le Marais",
+      "vibe": "Trendy & Historic",
+      "description": "Tight cobbled streets, hôtels particuliers, and a mix of Jewish heritage and LGBTQ+ nightlife.",
+      "highlights": ["Place des Vosges", "Rue des Rosiers", "Musée Picasso"]
+    },
+    {
+      "name": "Montmartre",
+      "vibe": "Bohemian Village",
+      "description": "Perched on a hill, it retains a village atmosphere with artists, vineyards, and winding streets.",
+      "highlights": ["Place du Tertre", "Rue Lepic", "Sacré-Cœur steps"]
+    },
+    {
+      "name": "Latin Quarter",
+      "vibe": "Intellectual",
+      "description": "Home to the Sorbonne, filled with bookshops, student cafes, and medieval history.",
+      "highlights": ["Shakespeare & Co", "Pantheon", "Rue Mouffetard"]
+    },
+    {
+      "name": "Saint-Germain",
+      "vibe": "Chic & Literary",
+      "description": "Famous for historic literary cafes like Les Deux Magots and high-end galleries.",
+      "highlights": ["Café de Flore", "Luxembourg Gardens", "Bon Marché"]
+    }
+  ],
+>>>>>>> Stashed changes
   "logistics": [
     {
-      "id": "logistics-001",
+      "id": "logistics-transit",
       "slug": "getting-around",
-      "title": "Getting Around Paris",
+      "title": "Getting Around",
       "icon": "Train",
-      "summary": "Navigate Paris like a local with the Metro, buses, and RER trains. The public transit system is efficient, affordable, and covers the entire city.",
+      "summary": "The Metro is the lifeline of Paris. Cheap, fast, and everywhere.",
       "details": [
-        "Paris has one of the most comprehensive public transportation systems in the world. The Metro (underground subway) has 16 lines covering 214 stations, with trains running every 2-8 minutes during peak hours. The entire network operates from 5:30 AM to 1:15 AM (until 2:15 AM on Fridays and Saturdays).",
-        "The Navigo Easy card (€2) is a reloadable smart card that works across Metro, buses, and RER trains. For tourists, the Navigo Découverte weekly pass (€30.75) offers unlimited travel within central Paris zones 1-5, including airports. Single tickets (€2.10) are valid for 90 minutes including transfers between Metro and buses.",
-        "Download the CityMapper or RATP apps for real-time navigation and route planning. They'll show you the fastest routes, platform changes, and delay notifications. The Metro can be confusing at first - look for 'Sortie' (exit) signs and 'Correspondance' (transfer) signs when changing lines.",
-        "Avoid taxis from airports - they're expensive (€50-70 to city center). Instead, take the RER B train from Charles de Gaulle Airport (€11.45, 35 minutes) or Orlyval + RER B from Orly Airport (€14.10, 40 minutes). The RER runs from 5 AM to midnight.",
-        "Buses are slower but offer better views and reach areas the Metro doesn't. Night buses ('Noctilien') run after Metro closure. Vélib' bike-sharing stations are everywhere - perfect for short trips along the Seine. Be cautious of pickpockets on Metro Line 1 (the tourist line connecting major landmarks) and always validate your ticket before boarding to avoid €50+ fines."
+        "The Metro: 16 lines covering the whole city. Buy a Navigo Easy pass.",
+        "Walking: Paris is very walkable. You can cross the center in 40 mins.",
+        "RER: Faster trains for crossing the city and reaching airports (CDG/Orly).",
+        "Etiquette: Let people off before you get on. Don't block doors."
+      ]
+    },
+    {
+      "id": "logistics-scams",
+      "slug": "common-scams",
+      "title": "Scams to Avoid",
+      "icon": "AlertTriangle",
+      "summary": "Avoid the Ring Scam and the Bracelet Scam to stay safe.",
+      "details": [
+        "The Gold Ring: Someone 'finds' a ring and tries to give it to you for money. Ignore them.",
+        "The Bracelet: Men at Sacré-Cœur try to tie a string on your finger. Keep hands in pockets.",
+        "The Petition: Kids asking for signatures for 'deaf/mute' causes. It's a pickpocket distraction."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "Safety Basics",
+      "icon": "Shield",
+      "summary": "Paris is safe, but pickpockets are skilled. Watch your phone.",
+      "details": [
+        "Pickpockets: Active on Metro Line 1 and near Eiffel Tower.",
+        "Phones: Don't leave them on cafe tables. Don't use them near metro doors.",
+        "Night: Most areas are safe, but avoid unlit parks after dark."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Apps to Download",
+      "icon": "Smartphone",
+      "summary": "These apps will make your trip smoother.",
+      "details": [
+        "CityMapper: The absolute best for transit navigation.",
+        "TheFork (LaFourchette): Great for restaurant bookings and discounts.",
+        "G7 Taxi: The official Paris taxi app (better/safer than Uber in some areas).",
+        "Google Translate: Download the French offline pack."
       ]
     }
   ],
+<<<<<<< Updated upstream
   "must_eat": [
 {
     "id": "food-001",
@@ -617,5 +706,351 @@
     "is_generic_staple": false,
     "geo": { "lat": 48.8469, "lng": 2.3730 }
   }
+=======
+"must_eat": [
+    {
+      "id": "food-001",
+      "slug": "butter-croissant",
+      "name_en": "The Butter Croissant",
+      "name_local": "Croissant au Beurre",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "The quintessential French breakfast staple. A true croissant au beurre is made with pure butter (not margarine), creating its characteristic flaky, golden layers. Look for the curved shape (vs. the straight 'croissant ordinaire'). Best enjoyed warm from the bakery in the morning.",
+      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Croissant"
+    },
+    {
+      "id": "food-002",
+      "slug": "the-baguette",
+      "name_en": "The Baguette",
+      "name_local": "La Baguette Tradition",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "The daily ritual. Look for 'Tradition' on the sign—it means no additives allowed by law. The perfect baguette has a golden, crackly crust and a soft, airy interior. Locals buy them twice daily.",
+      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Baguette"
+    },
+    {
+      "id": "food-12",
+      "slug": "jambon-beurre",
+      "name_en": "Parisian Ham Sandwich",
+      "name_local": "Jambon-Beurre",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "A simple but perfect baguette sandwich with high-quality Parisian ham and salted butter. It is the true on-the-go lunch of locals, selling over a billion units a year.",
+      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Jambon+Beurre"
+    },
+    {
+      "id": "food-007",
+      "slug": "the-macaron",
+      "name_en": "The Macaron",
+      "name_local": "Macaron",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "A delicate almond-based confection filled with ganache or buttercream. While available everywhere, specialized boutiques like Pierre Hermé and Ladurée are the benchmarks for texture and flavor.",
+      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Macaron"
+    },
+    {
+      "id": "food-13",
+      "slug": "croque-monsieur",
+      "name_en": "Croque-Monsieur",
+      "name_local": "Croque-Monsieur",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "The ultimate French comfort food: a hot sandwich made with ham and cheese, topped with béchamel sauce and grated cheese, then grilled until bubbling. Add a fried egg on top to make it a 'Croque-Madame'.",
+      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Croque+Monsieur"
+    },
+    {
+      "id": "food-003",
+      "slug": "bistro-culture",
+      "name_en": "The Paris Bistro",
+      "name_local": "Le Bistrot",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "A cultural institution characterized by zinc-topped bars and handwritten menus. Classic dishes include boeuf bourguignon and pot-au-feu. Service is fast and efficient.",
+      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Bistrot"
+    },
+    {
+      "id": "food-009",
+      "slug": "steak-frites",
+      "name_en": "Steak-Frites",
+      "name_local": "Steak-Frites",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "The classic bistro dish: a seared steak (often sirloin or entraña) served with crisp, thin French fries and Béarnaise or pepper sauce. Order it 'saignant' (rare) for the best flavor.",
+      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Steak+Frites"
+    },
+    {
+      "id": "food-008",
+      "slug": "french-onion-soup",
+      "name_en": "French Onion Soup",
+      "name_local": "Soupe à l’Oignon",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "A deeply caramelized onion broth topped with a slice of toasted bread and a generous layer of melted Comté or Gruyère cheese. A warming classic often eaten late at night.",
+      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Onion+Soup"
+    },
+    {
+      "id": "food-005",
+      "slug": "french-cheese",
+      "name_en": "French Cheese",
+      "name_local": "Fromage",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Served after the main course and before dessert. Know the progression: fresh (chèvre), soft (Brie), hard (Comté), and blue (Roquefort).",
+      "image": "/images/paris/paris_fromage.png"
+    },
+    {
+      "id": "food-006",
+      "slug": "french-wine",
+      "name_en": "French Wine",
+      "name_local": "Vin",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "An essential part of the meal's rhythm. House wine by the carafe is common and affordable. Paris is currently experiencing a massive 'Natural Wine' boom.",
+      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Vin"
+    },
+    {
+      "id": "food-004",
+      "slug": "cafe-culture",
+      "name_en": "Café Culture",
+      "name_local": "Le Café",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Where locals spend hours over a single espresso. Seating is strategic: 'en terrasse' (outside) costs more than inside. People-watching is the primary activity.",
+      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Cafe"
+    },
+    {
+      "id": "food-010",
+      "slug": "paris-crepe",
+      "name_en": "Paris Crêpes",
+      "name_local": "Crêpes",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Beloved street food ranging from sweet (Nutella, sugar) to savory buckwheat galettes (sarrasin). Best enjoyed from a walk-up window (guichet).",
+      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Crepes"
+    },
+    {
+      "id": "food-011",
+      "slug": "eclair",
+      "name_en": "The Éclair",
+      "name_local": "Éclair",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "A choux pastry filled with vanilla, chocolate, or coffee cream and topped with a glossy fondant glaze. Modern pâtisseries offer colorful seasonal variations.",
+      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Eclair"
+    },
+    {
+      "id": "food-14",
+      "slug": "canele",
+      "name_en": "The Canelé",
+      "name_local": "Canelé de Bordeaux",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "A small caramelized cake with a dark, thick crust and a soft, custardy center flavored with rum and vanilla. Originally from Bordeaux but now a staple in Paris.",
+      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Canele"
+    }
+  ],
+
+  "must_see": [
+    {
+      "title": "World-Class Museums",
+      "id": "museums",
+      "items": [
+        {
+          "id": "mus-01",
+          "slug": "louvre",
+          "name_en": "Louvre Museum",
+          "name_local": "Musée du Louvre",
+          "category": "sight",
+          "description": "The world’s largest art museum, home to the Mona Lisa.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Louvre",
+          "geo": { "lat": 48.8606, "lng": 2.3376 }
+        },
+        {
+          "id": "mus-02",
+          "slug": "musee-orsay",
+          "name_en": "Musée d’Orsay",
+          "name_local": "Musée d’Orsay",
+          "category": "sight",
+          "description": "Impressionist masterpieces in a stunning former railway station.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Orsay",
+          "geo": { "lat": 48.8600, "lng": 2.3266 }
+        },
+        {
+          "id": "mus-03",
+          "slug": "musee-rodin",
+          "name_en": "Musée Rodin",
+          "name_local": "Musée Rodin",
+          "category": "sight",
+          "description": "Serene sculpture garden featuring The Thinker.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Rodin",
+          "geo": { "lat": 48.8553, "lng": 2.3159 }
+        },
+        {
+          "id": "mus-04",
+          "slug": "centre-pompidou",
+          "name_en": "Centre Pompidou",
+          "name_local": "Centre Pompidou",
+          "category": "sight",
+          "description": "Inside-out architecture housing modern art.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Pompidou",
+          "geo": { "lat": 48.8606, "lng": 2.3522 }
+        }
+      ]
+    },
+    {
+      "title": "Iconic Monuments",
+      "id": "monuments",
+      "items": [
+        {
+          "id": "mon-01",
+          "slug": "eiffel-tower",
+          "name_en": "Eiffel Tower",
+          "name_local": "Tour Eiffel",
+          "category": "sight",
+          "description": "The Iron Lady. Best views from Trocadéro.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Eiffel",
+          "geo": { "lat": 48.8584, "lng": 2.2945 }
+        },
+        {
+          "id": "mon-02",
+          "slug": "arc-de-triomphe",
+          "name_en": "Arc de Triomphe",
+          "name_local": "Arc de Triomphe",
+          "category": "sight",
+          "description": "Napoleon's triumphal arch. Climb to the top for city views.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Arc",
+          "geo": { "lat": 48.8738, "lng": 2.2950 }
+        },
+        {
+          "id": "mon-03",
+          "slug": "pantheon",
+          "name_en": "Panthéon",
+          "name_local": "Panthéon",
+          "category": "sight",
+          "description": "Mausoleum of French heroes like Voltaire and Rousseau.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Pantheon",
+          "geo": { "lat": 48.8462, "lng": 2.3461 }
+        },
+        {
+          "id": "mon-04",
+          "slug": "opera-garnier",
+          "name_en": "Opéra Garnier",
+          "name_local": "Palais Garnier",
+          "category": "sight",
+          "description": "Opulent 19th-century opera house, inspiration for Phantom of the Opera.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Opera",
+          "geo": { "lat": 48.8719, "lng": 2.3316 }
+        }
+      ]
+    },
+    {
+      "title": "Churches & Sacred Sites",
+      "id": "churches",
+      "items": [
+        {
+          "id": "chu-01",
+          "slug": "notre-dame",
+          "name_en": "Notre-Dame Cathedral",
+          "name_local": "Cathédrale Notre-Dame",
+          "category": "sight",
+          "description": "Gothic masterpiece on the Île de la Cité.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Notre+Dame",
+          "geo": { "lat": 48.8529, "lng": 2.3500 }
+        },
+        {
+          "id": "chu-02",
+          "slug": "sacre-coeur",
+          "name_en": "Sacré-Cœur Basilica",
+          "name_local": "Basilique du Sacré-Cœur",
+          "category": "sight",
+          "description": "White domed basilica overlooking the city from Montmartre.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Sacre+Coeur",
+          "geo": { "lat": 48.8867, "lng": 2.3431 }
+        },
+        {
+          "id": "chu-03",
+          "slug": "sainte-chapelle",
+          "name_en": "Sainte-Chapelle",
+          "name_local": "Sainte-Chapelle",
+          "category": "sight",
+          "description": "Stunning 13th-century stained glass windows.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Chapel",
+          "geo": { "lat": 48.8554, "lng": 2.3450 }
+        }
+      ]
+    },
+    {
+      "title": "Parks & Nature",
+      "id": "parks",
+      "items": [
+        {
+          "id": "par-01",
+          "slug": "luxembourg-gardens",
+          "name_en": "Luxembourg Gardens",
+          "name_local": "Jardin du Luxembourg",
+          "category": "sight",
+          "description": "Classic Parisian park with green chairs and a palace.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Luxembourg",
+          "geo": { "lat": 48.8462, "lng": 2.3372 }
+        },
+        {
+          "id": "par-02",
+          "slug": "tuileries-garden",
+          "name_en": "Tuileries Garden",
+          "name_local": "Jardin des Tuileries",
+          "category": "sight",
+          "description": "Formal garden between the Louvre and Place de la Concorde.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Tuileries",
+          "geo": { "lat": 48.8635, "lng": 2.3274 }
+        },
+        {
+          "id": "par-03",
+          "slug": "buttes-chaumont",
+          "name_en": "Buttes-Chaumont",
+          "name_local": "Parc des Buttes-Chaumont",
+          "category": "sight",
+          "description": "Romantic hilly park with a lake, waterfall, and temple.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Buttes",
+          "geo": { "lat": 48.8809, "lng": 2.3828 }
+        }
+      ]
+    },
+    {
+      "title": "Bridges & Viewpoints",
+      "id": "bridges",
+      "items": [
+        {
+          "id": "bri-01",
+          "slug": "pont-alexandre-iii",
+          "name_en": "Pont Alexandre III",
+          "name_local": "Pont Alexandre III",
+          "category": "sight",
+          "description": "Most ornate bridge in Paris with Art Nouveau lamps.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Bridge",
+          "geo": { "lat": 48.8636, "lng": 2.3135 }
+        },
+        {
+          "id": "bri-02",
+          "slug": "pont-neuf",
+          "name_en": "Pont Neuf",
+          "name_local": "Pont Neuf",
+          "category": "sight",
+          "description": "The oldest standing bridge across the Seine.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Pont+Neuf",
+          "geo": { "lat": 48.8570, "lng": 2.3413 }
+        },
+        {
+          "id": "bri-03",
+          "slug": "canal-saint-martin",
+          "name_en": "Canal Saint-Martin",
+          "name_local": "Canal Saint-Martin",
+          "category": "sight",
+          "description": "Trendy waterway lined with cafes and iron footbridges.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Canal",
+          "geo": { "lat": 48.8718, "lng": 2.3637 }
+        }
+      ]
+    }
+>>>>>>> Stashed changes
   ]
 }
