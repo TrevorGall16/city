@@ -142,59 +142,73 @@
   ],
   "must_see": [
     {
-      "id": "sight-001",
-      "slug": "musee-rodin",
-      "name_en": "Musée Rodin",
-      "name_local": "Musée Rodin",
-      "category": "sight",
-      "description": "Sculpture museum with beautiful gardens, less crowded than the Louvre.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Museum",
-      "is_generic_staple": false,
-      "geo": { "lat": 48.8553, "lng": 2.3159 }
+      "title": "World-Class Museums",
+      "id": "museums",
+      "description": "Paris houses over 130 museums, from the iconic Louvre to intimate sculpture gardens. These quieter alternatives offer world-class art without the overwhelming crowds.",
+      "items": [
+        {
+          "id": "sight-001",
+          "slug": "musee-rodin",
+          "name_en": "Musée Rodin",
+          "name_local": "Musée Rodin",
+          "category": "sight",
+          "description": "Sculpture museum with beautiful gardens, less crowded than the Louvre.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Museum",
+          "is_generic_staple": false,
+          "geo": { "lat": 48.8553, "lng": 2.3159 }
+        }
+      ]
     },
     {
-      "id": "sight-002",
-      "slug": "sainte-chapelle",
-      "name_en": "Sainte-Chapelle",
-      "name_local": "Sainte-Chapelle",
-      "category": "sight",
-      "description": "13th-century Gothic chapel with stunning stained glass windows.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Chapel",
-      "is_generic_staple": false,
-      "geo": { "lat": 48.8554, "lng": 2.3450 }
-    },
-    {
-      "id": "sight-003",
-      "slug": "canal-saint-martin",
-      "name_en": "Canal Saint-Martin",
-      "name_local": "Canal Saint-Martin",
-      "category": "sight",
-      "description": "Trendy waterway perfect for picnics and people-watching.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Canal",
-      "is_generic_staple": false,
-      "geo": { "lat": 48.8718, "lng": 2.3637 }
-    },
-    {
-      "id": "sight-004",
-      "slug": "buttes-chaumont",
-      "name_en": "Parc des Buttes-Chaumont",
-      "name_local": "Parc des Buttes-Chaumont",
-      "category": "sight",
-      "description": "Dramatic hilltop park with waterfalls and city views.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Park",
-      "is_generic_staple": false,
-      "geo": { "lat": 48.8799, "lng": 2.3828 }
-    },
-    {
-      "id": "sight-005",
-      "slug": "passages-couverts",
-      "name_en": "Les Passages Couverts",
-      "name_local": "Les Passages Couverts",
-      "category": "sight",
-      "description": "19th-century covered shopping arcades with vintage charm.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Arcade",
-      "is_generic_staple": false,
-      "geo": { "lat": 48.8710, "lng": 2.3414 }
+      "title": "Monuments & Landmarks",
+      "id": "monuments",
+      "description": "Beyond the Eiffel Tower, Paris reveals itself through Gothic chapels, hidden canals, dramatic parks, and elegant 19th-century arcades.",
+      "items": [
+        {
+          "id": "sight-002",
+          "slug": "sainte-chapelle",
+          "name_en": "Sainte-Chapelle",
+          "name_local": "Sainte-Chapelle",
+          "category": "sight",
+          "description": "13th-century Gothic chapel with stunning stained glass windows.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Chapel",
+          "is_generic_staple": false,
+          "geo": { "lat": 48.8554, "lng": 2.3450 }
+        },
+        {
+          "id": "sight-003",
+          "slug": "canal-saint-martin",
+          "name_en": "Canal Saint-Martin",
+          "name_local": "Canal Saint-Martin",
+          "category": "sight",
+          "description": "Trendy waterway perfect for picnics and people-watching.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Canal",
+          "is_generic_staple": false,
+          "geo": { "lat": 48.8718, "lng": 2.3637 }
+        },
+        {
+          "id": "sight-004",
+          "slug": "buttes-chaumont",
+          "name_en": "Parc des Buttes-Chaumont",
+          "name_local": "Parc des Buttes-Chaumont",
+          "category": "sight",
+          "description": "Dramatic hilltop park with waterfalls and city views.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Park",
+          "is_generic_staple": false,
+          "geo": { "lat": 48.8799, "lng": 2.3828 }
+        },
+        {
+          "id": "sight-005",
+          "slug": "passages-couverts",
+          "name_en": "Les Passages Couverts",
+          "name_local": "Les Passages Couverts",
+          "category": "sight",
+          "description": "19th-century covered shopping arcades with vintage charm.",
+          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Arcade",
+          "is_generic_staple": false,
+          "geo": { "lat": 48.8710, "lng": 2.3414 }
+        }
+      ]
     }
   ]
 }
