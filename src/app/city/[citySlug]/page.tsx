@@ -179,7 +179,7 @@ export default async function CityPage({ params }: PageProps) {
       </section>
 
       {/* Weather Deep Dive Section */}
-      <section className={`border-b border-slate-200 ${city.country_code === 'fr' ? 'bg-blue-50/30' : 'bg-slate-50'}`}>
+      <section className={`border-b border-slate-200 ${city.country_code === 'fr' ? 'bg-blue-50' : 'bg-slate-50'}`}>
         <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
           <SectionHeader
             title="Weather Deep Dive"
@@ -205,7 +205,7 @@ export default async function CityPage({ params }: PageProps) {
       </section>
 
       {/* Neighborhoods Section */}
-      <section className={`border-b border-slate-200 ${city.country_code === 'fr' ? 'bg-red-50/30' : 'bg-white'}`}>
+      <section className={`border-b border-slate-200 ${city.country_code === 'fr' ? 'bg-red-50' : 'bg-white'}`}>
         <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
           <SectionHeader
             title="Neighborhoods"

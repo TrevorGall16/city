@@ -8,9 +8,9 @@ import { CityCard } from '@/components/features/CityCard'
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-slate-50">
+    <main className="min-h-screen">
       {/* Hero Search Module */}
-      <section className="min-h-[60vh] flex flex-col justify-center items-center text-center px-4">
+      <section className="min-h-[60vh] flex flex-col justify-center items-center text-center px-4 bg-white border-b border-slate-200">
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-900">
           Your Travel Cheat Sheet
         </h1>
@@ -33,7 +33,7 @@ export default function HomePage() {
       </section>
 
       {/* Featured Cities Grid */}
-      <section className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-16">
+      <section className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-16 bg-slate-50">
         <h2 className="text-2xl md:text-3xl font-bold mb-6 text-slate-900">
           Explore Cities
         </h2>
