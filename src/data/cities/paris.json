@@ -13,12 +13,26 @@
   },
   "stats": {
     "currency": "EUR",
-    "plug_type": "Type E",
-    "best_time": {
-      "summary": "Spring (Apr-Jun) & Fall (Sep-Oct)",
-      "months": [3, 4, 5, 8, 9]
-    }
+    "plug_type": "Type E"
   },
+  "weather_breakdown": [
+    {
+      "id": 4,
+      "name": "April",
+      "temp": "8°C - 16°C",
+      "vibe": "Blooming & Crisp",
+      "pros": [
+        "Cherry blossoms in full bloom",
+        "Moderate temperatures perfect for walking",
+        "Fewer tourists than summer months"
+      ],
+      "cons": [
+        "Occasional rain showers",
+        "Prices start to increase for spring season"
+      ],
+      "clothing": "Light layers, waterproof jacket, comfortable walking shoes"
+    }
+  ],
   "culture": {
     "etiquette_tips": [
       "Always say \"Bonjour\" when entering shops or restaurants",
@@ -35,6 +49,19 @@
       { "src": "I don't speak French", "local": "Je ne parle pas français", "phonetic": "zhuh nuh PARL pah frahn-SEH" }
     ]
   },
+  "neighborhoods": [
+    {
+      "name": "Le Marais",
+      "vibe": "Trendy & Historic",
+      "description": "The Marais is a historic district known for its narrow medieval streets, trendy boutiques, and vibrant LGBTQ+ scene. Once the aristocratic district, it's now one of Paris's most fashionable neighborhoods, blending 17th-century architecture with contemporary art galleries and vintage shops.",
+      "highlights": [
+        "Place des Vosges (oldest planned square in Paris)",
+        "L'As du Fallafel (legendary falafel)",
+        "Musée Picasso",
+        "Jewish Quarter (Rue des Rosiers)"
+      ]
+    }
+  ],
   "logistics": {
     "safety": [
       "Watch for pickpockets on Metro Line 1",

@@ -11,7 +11,9 @@ import path from 'path'
 import type { City } from '@/types'
 import { PlaceCard } from '@/components/features/PlaceCard'
 import { AdContainer } from '@/components/ads/AdContainer'
-import { BestTimeCalendar } from '@/components/features/BestTimeCalendar'
+import { MonthCard } from '@/components/features/MonthCard'
+import { NeighborhoodCard } from '@/components/features/NeighborhoodCard'
+import { SectionHeader } from '@/components/ui/SectionHeader'
 import type { Metadata } from 'next'
 
 // Type definition for Page Props in Next.js 15+
@@ -161,7 +163,7 @@ export default async function CityPage({ params }: PageProps) {
           </div>
 
           {/* Quick Stats Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 border-t border-slate-200">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 border-t border-slate-200">
             <div>
               <div className="text-xs text-slate-500 uppercase tracking-wide mb-1">Currency</div>
               <div className="font-medium text-slate-900 text-lg">{city.stats.currency}</div>
@@ -170,13 +172,43 @@ export default async function CityPage({ params }: PageProps) {
               <div className="text-xs text-slate-500 uppercase tracking-wide mb-1">Plug Type</div>
               <div className="font-medium text-slate-900 text-lg">{city.stats.plug_type}</div>
             </div>
-            <div className="md:col-span-1">
-              <div className="text-xs text-slate-500 uppercase tracking-wide mb-2">Best Time to Visit</div>
-              <BestTimeCalendar
-                bestMonths={city.stats.best_time.months}
-                summary={city.stats.best_time.summary}
-              />
+          </div>
+        </div>
+      </section>
+
+      {/* Weather Deep Dive Section */}
+      <section className="bg-slate-50 border-b border-slate-200">
+        <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
+          <SectionHeader
+            title="Weather Deep Dive"
+            countryCode={city.country_code}
+            subtitle="Month-by-month breakdown to plan your perfect trip"
+          />
+
+          {/* Horizontal scroll container */}
+          <div className="overflow-x-auto pb-4 -mx-4 px-4">
+            <div className="flex gap-4 min-w-max">
+              {city.weather_breakdown.map((month) => (
+                <MonthCard key={month.id} month={month} />
+              ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Neighborhoods Section */}
+      <section className="bg-white border-b border-slate-200">
+        <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
+          <SectionHeader
+            title="Neighborhoods"
+            countryCode={city.country_code}
+            subtitle="Discover the distinct vibes across the city"
+          />
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {city.neighborhoods.map((neighborhood, index) => (
+              <NeighborhoodCard key={index} neighborhood={neighborhood} />
+            ))}
           </div>
         </div>
       </section>
@@ -184,9 +216,11 @@ export default async function CityPage({ params }: PageProps) {
       {/* Culture & Etiquette Section */}
       <section className="bg-gradient-to-br from-indigo-50 to-white border-b border-indigo-100">
         <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-slate-900">
-            Culture & Etiquette
-          </h2>
+          <SectionHeader
+            title="Culture & Etiquette"
+            countryCode={city.country_code}
+            subtitle="Navigate like a local with these cultural insights"
+          />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* The Golden Rules */}
             <div className="bg-white rounded-xl border border-indigo-200 p-6 shadow-sm">
@@ -225,9 +259,11 @@ export default async function CityPage({ params }: PageProps) {
       {/* Must See Section */}
       {city.must_see.length > 0 && (
         <section className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-slate-900">
-            Must See
-          </h2>
+          <SectionHeader
+            title="Must See"
+            countryCode={city.country_code}
+            subtitle="Iconic landmarks and hidden gems"
+          />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6">
             {renderPlacesWithAds(city.must_see, 'see')}
           </div>
@@ -237,9 +273,11 @@ export default async function CityPage({ params }: PageProps) {
       {/* Must Eat Section */}
       {city.must_eat.length > 0 && (
         <section className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-slate-50">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-slate-900">
-            Must Eat
-          </h2>
+          <SectionHeader
+            title="Must Eat"
+            countryCode={city.country_code}
+            subtitle="Cultural staples and culinary traditions"
+          />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6">
             {renderPlacesWithAds(city.must_eat, 'eat')}
           </div>

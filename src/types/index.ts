@@ -19,11 +19,16 @@ export interface City {
   stats: {
     currency: string
     plug_type: string
-    best_time: {
-      summary: string
-      months: number[]
-    }
   }
+  weather_breakdown: Array<{
+    id: number
+    name: string
+    temp: string
+    vibe: string
+    pros: string[]
+    cons: string[]
+    clothing: string
+  }>
   culture: {
     etiquette_tips: string[]
     essential_phrases: Array<{
@@ -32,6 +37,12 @@ export interface City {
       phonetic: string
     }>
   }
+  neighborhoods: Array<{
+    name: string
+    vibe: string
+    description: string
+    highlights: string[]
+  }>
   logistics: {
     safety: string[]
     scams: string[]
