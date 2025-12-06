@@ -15,22 +15,198 @@
     "currency": "EUR",
     "plug_type": "Type E"
   },
-  "weather_breakdown": [
+"weather_breakdown": [
+    {
+      "id": 1,
+      "name": "January",
+      "temp": "1°C – 7°C",
+      "vibe": "Quiet & Brisk",
+      "pros": [
+        "Very few tourists, shorter lines everywhere",
+        "Post-holiday sales (les soldes) offer major discounts",
+        "Great crisp winter light for atmospheric photography"
+      ],
+      "cons": [
+        "Short daylight hours",
+        "Cold, grey, and damp weather common"
+      ],
+      "clothing": "Pack a heavy coat, scarf, waterproof shoes, and a compact umbrella."
+    },
+    {
+      "id": 2,
+      "name": "February",
+      "temp": "1°C – 8°C",
+      "vibe": "Crisp & Intimate",
+      "pros": [
+        "Romantic atmosphere around Valentine’s season",
+        "Early spring blooms begin appearing",
+        "Lower hotel prices than spring"
+      ],
+      "cons": [
+        "Cold snaps with biting wind near the Seine",
+        "Outdoor café seating still limited"
+      ],
+      "clothing": "Bring a windproof coat, warm hat, and an insulating mid-layer."
+    },
+    {
+      "id": 3,
+      "name": "March",
+      "temp": "4°C – 12°C",
+      "vibe": "Changeable & Hopeful",
+      "pros": [
+        "Early spring flowers and increasing daylight",
+        "Shoulder-season prices and easier reservations",
+        "Streets feel livelier as winter ends"
+      ],
+      "cons": [
+        "Unpredictable weather—sun one moment, rain the next",
+        "Some terraces remain closed early in the month"
+      ],
+      "clothing": "Layer a light jacket with a warm mid-layer and carry a small umbrella."
+    },
     {
       "id": 4,
       "name": "April",
-      "temp": "8°C - 16°C",
+      "temp": "8°C – 16°C",
       "vibe": "Blooming & Crisp",
       "pros": [
-        "Cherry blossoms in full bloom",
-        "Moderate temperatures perfect for walking",
-        "Fewer tourists than summer months"
+        "Paris in full spring bloom",
+        "Terraces reopen and walking conditions are ideal",
+        "Moderate crowds compared to peak summer"
       ],
       "cons": [
-        "Occasional rain showers",
-        "Prices start to increase for spring season"
+        "Frequent light showers",
+        "Weekends start getting crowded"
       ],
-      "clothing": "Light layers, waterproof jacket, comfortable walking shoes"
+      "clothing": "Wear layers, a waterproof jacket, and comfortable walking shoes."
+    },
+    {
+      "id": 5,
+      "name": "May",
+      "temp": "11°C – 20°C",
+      "vibe": "Mild & Social",
+      "pros": [
+        "Long days with perfect terrace weather",
+        "Lively outdoor events, markets, and picnics",
+        "Ideal weather for exploring on foot"
+      ],
+      "cons": [
+        "Hotel and restaurant bookings fill quickly",
+        "Occasional sudden warm days require sun protection"
+      ],
+      "clothing": "Pack breathable layers, a sunhat, and a light sweater for evenings."
+    },
+    {
+      "id": 6,
+      "name": "June",
+      "temp": "14°C – 24°C",
+      "vibe": "Sunny & Festive",
+      "pros": [
+        "Long golden evenings and early summer festivals",
+        "Great atmosphere along the Seine after work hours",
+        "Extended museum opening hours"
+      ],
+      "cons": [
+        "High-season pricing begins",
+        "Occasional early heatwaves"
+      ],
+      "clothing": "Bring breathable fabrics, a light evening jacket, and sun protection."
+    },
+    {
+      "id": 7,
+      "name": "July",
+      "temp": "16°C – 27°C",
+      "vibe": "Warm & Busy",
+      "pros": [
+        "Bastille Day fireworks and peak festival season",
+        "Perfect weather for river picnics and evening walks",
+        "Summer terraces everywhere"
+      ],
+      "cons": [
+        "Peak crowds and heavy metro usage",
+        "Many buildings lack air conditioning"
+      ],
+      "clothing": "Wear very lightweight clothing, a sunhat, and comfortable sandals."
+    },
+    {
+      "id": 8,
+      "name": "August",
+      "temp": "15°C – 26°C",
+      "vibe": "Slow & Local",
+      "pros": [
+        "Quieter local streets as Parisians leave for holidays",
+        "Beautiful warm evenings",
+        "Great time to explore smaller museums"
+      ],
+      "cons": [
+        "Some restaurants and boutiques close for vacances",
+        "Tourist hotspots remain busy"
+      ],
+      "clothing": "Pack light summer clothes with a thin evening layer."
+    },
+    {
+      "id": 9,
+      "name": "September",
+      "temp": "12°C – 22°C",
+      "vibe": "Golden & Rewarding",
+      "pros": [
+        "Fantastic walking weather with moderate crowds",
+        "Markets full of seasonal produce",
+        "City feels revived after summer holidays"
+      ],
+      "cons": [
+        "Fashion Week can spike prices and make reservations harder",
+        "Unpredictable autumn showers"
+      ],
+      "clothing": "Wear smart-casual layers and a light rain jacket."
+    },
+    {
+      "id": 10,
+      "name": "October",
+      "temp": "9°C – 17°C",
+      "vibe": "Crisp & Colorful",
+      "pros": [
+        "Gorgeous autumn foliage in parks",
+        "Cozy café and bistro season begins",
+        "Excellent photography light"
+      ],
+      "cons": [
+        "Shorter daylight hours",
+        "Cooler, wetter days require waterproof shoes"
+      ],
+      "clothing": "Bring warm mid-layers, a scarf, and waterproof shoes."
+    },
+    {
+      "id": 11,
+      "name": "November",
+      "temp": "6°C – 12°C",
+      "vibe": "Atmospheric & Quiet",
+      "pros": [
+        "New cultural seasons, exhibitions, and theatre",
+        "Cozy cafés perfect for slow afternoons",
+        "Lower hotel rates in mid-month"
+      ],
+      "cons": [
+        "Grey, damp days are frequent",
+        "Limited daylight for outdoor sightseeing"
+      ],
+      "clothing": "Pack a warm coat, hat, umbrella, and layered outfits."
+    },
+    {
+      "id": 12,
+      "name": "December",
+      "temp": "3°C – 8°C",
+      "vibe": "Festive & Sparkling",
+      "pros": [
+        "Holiday lights and Christmas markets everywhere",
+        "Seasonal pastries and festive atmosphere",
+        "Museums run special winter programming"
+      ],
+      "cons": [
+        "Cold, damp weather",
+        "Busy travel periods around Christmas and New Year"
+      ],
+      "clothing": "Wear thermal layers, a heavy winter coat, gloves, and insulated shoes."
     }
   ],
   "culture": {
