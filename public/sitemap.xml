@@ -36,7 +36,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://citysheet.com/city/paris/wine-culture</loc>
+    <loc>https://citysheet.com/city/paris/french-wine</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -64,5 +64,10 @@
     <loc>https://citysheet.com/city/paris/passages-couverts</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://citysheet.com/city/paris/info/getting-around</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

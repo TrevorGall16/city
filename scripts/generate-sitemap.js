@@ -65,6 +65,16 @@ async function generateSitemap() {
           priority: '0.8',
         })
       })
+
+      // Add all logistics info pages
+      const logisticsTopics = city.logistics || []
+      logisticsTopics.forEach(topic => {
+        urls.push({
+          loc: `city/${citySlug}/info/${topic.slug}`,
+          changefreq: 'weekly',
+          priority: '0.7',
+        })
+      })
     }
 
     // Generate XML
@@ -86,10 +96,10 @@ ${urls.map(url => `  <url>
 
     // Log summary
     const cityCount = files.length
-    const placeCount = urls.length - cityCount - 1 // subtract homepage and city pages
+    const remainingUrls = urls.length - cityCount - 1 // subtract homepage and city pages
     console.log(`   - 1 homepage`)
     console.log(`   - ${cityCount} city pages`)
-    console.log(`   - ${placeCount} place pages`)
+    console.log(`   - ${remainingUrls} content pages (places + info)`)
 
   } catch (error) {
     console.error('❌ Error generating sitemap:', error)

@@ -43,11 +43,14 @@ export interface City {
     description: string
     highlights: string[]
   }>
-  logistics: {
-    safety: string[]
-    scams: string[]
-    transit: string[]
-  }
+  logistics: Array<{
+    id: string
+    slug: string
+    title: string
+    icon: string
+    summary: string
+    details: string[]
+  }>
   must_eat: Place[]
   must_see: Place[]
 }

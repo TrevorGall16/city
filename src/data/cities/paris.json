@@ -62,21 +62,22 @@
       ]
     }
   ],
-  "logistics": {
-    "safety": [
-      "Watch for pickpockets on Metro Line 1",
-      "Keep bags zipped in tourist areas"
-    ],
-    "scams": [
-      "Avoid the 'gold ring' scam at Sacré-Cœur",
-      "Petition scammers at major landmarks"
-    ],
-    "transit": [
-      "Use CityMapper app for navigation",
-      "Buy Navigo pass for unlimited travel",
-      "Avoid taxis from airports - use RER trains"
-    ]
-  },
+  "logistics": [
+    {
+      "id": "logistics-001",
+      "slug": "getting-around",
+      "title": "Getting Around Paris",
+      "icon": "Train",
+      "summary": "Navigate Paris like a local with the Metro, buses, and RER trains. The public transit system is efficient, affordable, and covers the entire city.",
+      "details": [
+        "Paris has one of the most comprehensive public transportation systems in the world. The Metro (underground subway) has 16 lines covering 214 stations, with trains running every 2-8 minutes during peak hours. The entire network operates from 5:30 AM to 1:15 AM (until 2:15 AM on Fridays and Saturdays).",
+        "The Navigo Easy card (€2) is a reloadable smart card that works across Metro, buses, and RER trains. For tourists, the Navigo Découverte weekly pass (€30.75) offers unlimited travel within central Paris zones 1-5, including airports. Single tickets (€2.10) are valid for 90 minutes including transfers between Metro and buses.",
+        "Download the CityMapper or RATP apps for real-time navigation and route planning. They'll show you the fastest routes, platform changes, and delay notifications. The Metro can be confusing at first - look for 'Sortie' (exit) signs and 'Correspondance' (transfer) signs when changing lines.",
+        "Avoid taxis from airports - they're expensive (€50-70 to city center). Instead, take the RER B train from Charles de Gaulle Airport (€11.45, 35 minutes) or Orlyval + RER B from Orly Airport (€14.10, 40 minutes). The RER runs from 5 AM to midnight.",
+        "Buses are slower but offer better views and reach areas the Metro doesn't. Night buses ('Noctilien') run after Metro closure. Vélib' bike-sharing stations are everywhere - perfect for short trips along the Seine. Be cautious of pickpockets on Metro Line 1 (the tourist line connecting major landmarks) and always validate your ticket before boarding to avoid €50+ fines."
+      ]
+    }
+  ],
   "must_eat": [
     {
       "id": "food-001",
