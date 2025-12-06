@@ -57,20 +57,19 @@ export function LoginModal({ isOpen, onClose }: LoginModalProps) {
   if (!isOpen) return null
 
   return (
-    <>
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
       {/* Backdrop */}
       <div
-        className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50"
+        className="absolute inset-0 bg-black/50 backdrop-blur-sm"
         onClick={handleClose}
         aria-hidden="true"
       />
 
       {/* Modal */}
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-        <div
-          className="bg-white rounded-xl shadow-xl max-w-md w-full p-6 relative"
-          onClick={(e) => e.stopPropagation()}
-        >
+      <div
+        className="bg-white rounded-xl shadow-xl max-w-md w-full p-6 relative z-10"
+        onClick={(e) => e.stopPropagation()}
+      >
           {/* Close Button */}
           <button
             onClick={handleClose}
@@ -141,7 +140,6 @@ export function LoginModal({ isOpen, onClose }: LoginModalProps) {
             </form>
           )}
         </div>
-      </div>
-    </>
+    </div>
   )
 }
