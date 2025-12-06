@@ -2,7 +2,7 @@
 
 /**
  * LoginModal Component
- * Handles Supabase magic link authentication
+ * Handles Supabase email/password authentication
  */
 
 import { useState } from 'react'
@@ -16,6 +16,8 @@ interface LoginModalProps {
 
 export function LoginModal({ isOpen, onClose }: LoginModalProps) {
   const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+  const [isSignUp, setIsSignUp] = useState(false)
   const [loading, setLoading] = useState(false)
   const [success, setSuccess] = useState(false)
   const [error, setError] = useState('')
@@ -27,21 +29,39 @@ export function LoginModal({ isOpen, onClose }: LoginModalProps) {
 
     try {
       const supabase = createClient()
-      const { error } = await supabase.auth.signInWithOtp({
-        email,
-        options: {
-          emailRedirectTo: `${window.location.origin}/auth/callback`,
-        },
-      })
 
-      if (error) throw error
+      if (isSignUp) {
+        // Sign up
+        const { error } = await supabase.auth.signUp({
+          email,
+          password,
+          options: {
+            emailRedirectTo: `${window.location.origin}/auth/callback`,
+          },
+        })
 
-      setSuccess(true)
-      setTimeout(() => {
-        setEmail('')
-      }, 3000)
+        if (error) throw error
+
+        setSuccess(true)
+        setTimeout(() => {
+          handleClose()
+        }, 3000)
+      } else {
+        // Sign in
+        const { error } = await supabase.auth.signInWithPassword({
+          email,
+          password,
+        })
+
+        if (error) throw error
+
+        setSuccess(true)
+        setTimeout(() => {
+          handleClose()
+        }, 1500)
+      }
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to send magic link')
+      setError(err instanceof Error ? err.message : 'Authentication failed')
     } finally {
       setLoading(false)
     }
@@ -51,13 +71,15 @@ export function LoginModal({ isOpen, onClose }: LoginModalProps) {
     setSuccess(false)
     setError('')
     setEmail('')
+    setPassword('')
+    setIsSignUp(false)
     onClose()
   }
 
   if (!isOpen) return null
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+    <div className="fixed inset-0 h-screen w-screen z-50 flex items-center justify-center p-4 pointer-events-auto">
       {/* Backdrop */}
       <div
         className="absolute inset-0 bg-black/50 backdrop-blur-sm"
@@ -67,7 +89,7 @@ export function LoginModal({ isOpen, onClose }: LoginModalProps) {
 
       {/* Modal */}
       <div
-        className="bg-white rounded-xl shadow-xl max-w-md w-full p-6 relative z-10"
+        className="bg-white rounded-xl shadow-xl max-w-md w-full p-6 relative z-10 pointer-events-auto"
         onClick={(e) => e.stopPropagation()}
       >
           {/* Close Button */}
@@ -80,30 +102,25 @@ export function LoginModal({ isOpen, onClose }: LoginModalProps) {
           </button>
 
           {/* Header */}
-          <h2 className="text-2xl font-bold text-slate-900 mb-2">Welcome Back</h2>
+          <h2 className="text-2xl font-bold text-slate-900 mb-2">
+            {isSignUp ? 'Create Account' : 'Welcome Back'}
+          </h2>
           <p className="text-sm text-slate-600 mb-6">
-            Sign in with a magic link sent to your email
+            {isSignUp ? 'Sign up to start commenting' : 'Sign in to your account'}
           </p>
 
           {success ? (
             /* Success state */
             <div className="bg-green-50 border border-green-200 rounded-lg p-4 text-center">
-              <div className="text-green-800 font-medium mb-1">Check your email!</div>
+              <div className="text-green-800 font-medium mb-1">
+                {isSignUp ? 'Account created!' : 'Signed in successfully!'}
+              </div>
               <p className="text-sm text-green-700">
-                We sent a magic link to <strong>{email}</strong>
+                {isSignUp ? 'Check your email to verify your account.' : 'Redirecting...'}
               </p>
-              <p className="text-xs text-green-600 mt-2">
-                Click the link to complete sign in
-              </p>
-              <button
-                onClick={handleClose}
-                className="mt-4 text-sm text-green-700 hover:text-green-900 font-medium"
-              >
-                Close
-              </button>
             </div>
           ) : (
-            /* Login form */
+            /* Login/Signup form */
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-1">
@@ -120,6 +137,25 @@ export function LoginModal({ isOpen, onClose }: LoginModalProps) {
                 />
               </div>
 
+              <div>
+                <label htmlFor="password" className="block text-sm font-medium text-slate-700 mb-1">
+                  Password
+                </label>
+                <input
+                  id="password"
+                  type="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  placeholder="••••••••"
+                  required
+                  minLength={6}
+                  className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                />
+                {isSignUp && (
+                  <p className="text-xs text-slate-500 mt-1">At least 6 characters</p>
+                )}
+              </div>
+
               {error && (
                 <div className="bg-red-50 border border-red-200 rounded-lg p-3 text-sm text-red-800">
                   {error}
@@ -128,15 +164,24 @@ export function LoginModal({ isOpen, onClose }: LoginModalProps) {
 
               <button
                 type="submit"
-                disabled={loading || !email}
+                disabled={loading || !email || !password}
                 className="w-full bg-indigo-600 text-white py-2 px-4 rounded-lg font-medium hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
               >
-                {loading ? 'Sending...' : 'Send Magic Link'}
+                {loading ? (isSignUp ? 'Signing up...' : 'Signing in...') : (isSignUp ? 'Sign Up' : 'Sign In')}
               </button>
 
-              <p className="text-xs text-slate-500 text-center">
-                No password needed. We'll send you a link to sign in.
-              </p>
+              <div className="text-center">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setIsSignUp(!isSignUp)
+                    setError('')
+                  }}
+                  className="text-sm text-indigo-600 hover:text-indigo-800 font-medium"
+                >
+                  {isSignUp ? 'Have an account? Log In' : 'Need an account? Sign Up'}
+                </button>
+              </div>
             </form>
           )}
         </div>
