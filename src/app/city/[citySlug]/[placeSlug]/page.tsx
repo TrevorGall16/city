@@ -30,8 +30,7 @@ async function getPlaceData(
     const fileContent = await fs.readFile(filePath, 'utf-8')
     const city: City = JSON.parse(fileContent)
 
-    const mustSeeItems = city.must_see.flatMap(group => group.items)
-    const allPlaces = [...city.must_eat, ...mustSeeItems]
+    const allPlaces = [...city.must_eat, ...city.must_see]
     const place = allPlaces.find(p => p.slug === placeSlug)
 
     if (!place) return null
@@ -57,8 +56,7 @@ export async function generateStaticParams() {
     const content = await fs.readFile(filePath, 'utf-8')
     const city: City = JSON.parse(content)
 
-    const mustSeeItems = city.must_see.flatMap(group => group.items)
-    const allPlaces = [...city.must_eat, ...mustSeeItems]
+    const allPlaces = [...city.must_eat, ...city.must_see]
 
     for (const place of allPlaces) {
       params.push({
