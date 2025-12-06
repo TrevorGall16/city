@@ -160,7 +160,12 @@ export async function POST(request: Request) {
     if (error) {
       console.error('Error creating comment:', error)
       return NextResponse.json(
-        { error: 'Failed to create comment' },
+        {
+          error: 'Failed to create comment',
+          details: error.message,
+          code: error.code,
+          hint: error.hint
+        },
         { status: 500 }
       )
     }
@@ -176,7 +181,10 @@ export async function POST(request: Request) {
   } catch (error) {
     console.error('Unexpected error in POST /api/comments:', error)
     return NextResponse.json(
-      { error: 'Internal server error' },
+      {
+        error: 'Internal server error',
+        details: error instanceof Error ? error.message : 'Unknown error'
+      },
       { status: 500 }
     )
   }

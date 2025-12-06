@@ -5,21 +5,65 @@
  * Displays login button or user avatar in header
  */
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useAuth } from '@/components/providers/AuthProvider'
 import { LoginModal } from './LoginModal'
-import { User, LogOut } from 'lucide-react'
+import { ProfileModal } from './ProfileModal'
+import { User, LogOut, Settings } from 'lucide-react'
 import { createClient } from '@/lib/supabase/client'
 
 export function HeaderAuth() {
   const { user } = useAuth()
   const [showLoginModal, setShowLoginModal] = useState(false)
+  const [showProfileModal, setShowProfileModal] = useState(false)
   const [showUserMenu, setShowUserMenu] = useState(false)
+  const [displayName, setDisplayName] = useState<string | null>(null)
+
+  // Load display name from profiles table
+  useEffect(() => {
+    const loadDisplayName = async () => {
+      if (!user) {
+        setDisplayName(null)
+        return
+      }
+
+      const supabase = createClient()
+      const { data } = await supabase
+        .from('profiles')
+        .select('display_name')
+        .eq('id', user.id)
+        .single()
+
+      if (data?.display_name) {
+        setDisplayName(data.display_name)
+      }
+    }
+
+    loadDisplayName()
+  }, [user])
 
   const handleSignOut = async () => {
     const supabase = createClient()
     await supabase.auth.signOut()
     setShowUserMenu(false)
+  }
+
+  const handleProfileModalClose = () => {
+    setShowProfileModal(false)
+    // Reload display name after profile update
+    if (user) {
+      const supabase = createClient()
+      supabase
+        .from('profiles')
+        .select('display_name')
+        .eq('id', user.id)
+        .single()
+        .then(({ data }) => {
+          if (data?.display_name) {
+            setDisplayName(data.display_name)
+          }
+        })
+    }
   }
 
   if (!user) {
@@ -46,9 +90,13 @@ export function HeaderAuth() {
           {user.user_metadata?.avatar_url ? (
             <img
               src={user.user_metadata.avatar_url}
-              alt={user.email || 'User'}
+              alt={displayName || user.email || 'User'}
               className="w-8 h-8 rounded-full object-cover"
             />
+          ) : displayName ? (
+            <span className="text-sm font-semibold text-indigo-600">
+              {displayName.charAt(0).toUpperCase()}
+            </span>
           ) : (
             <User className="w-4 h-4 text-indigo-600" />
           )}
@@ -71,9 +119,20 @@ export function HeaderAuth() {
                 {user.email}
               </p>
               <p className="text-xs text-slate-500 mt-1">
-                {user.user_metadata?.display_name || 'User'}
+                {displayName || 'No display name set'}
               </p>
             </div>
+
+            <button
+              onClick={() => {
+                setShowUserMenu(false)
+                setShowProfileModal(true)
+              }}
+              className="w-full px-4 py-2 text-left text-sm text-slate-700 hover:bg-slate-50 flex items-center gap-2"
+            >
+              <Settings className="w-4 h-4" />
+              Profile Settings
+            </button>
 
             <button
               onClick={handleSignOut}
@@ -85,6 +144,9 @@ export function HeaderAuth() {
           </div>
         </>
       )}
+
+      {/* Profile Modal */}
+      <ProfileModal isOpen={showProfileModal} onClose={handleProfileModalClose} />
     </div>
   )
 }
