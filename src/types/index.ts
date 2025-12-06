@@ -8,6 +8,7 @@ export interface City {
   slug: string
   name: string
   country: string
+  country_code: string
   hero_image: string
   intro_vibe: string
   general_info: {
@@ -18,7 +19,18 @@ export interface City {
   stats: {
     currency: string
     plug_type: string
-    best_time: string
+    best_time: {
+      summary: string
+      months: number[]
+    }
+  }
+  culture: {
+    etiquette_tips: string[]
+    essential_phrases: Array<{
+      src: string
+      local: string
+      phonetic: string
+    }>
   }
   logistics: {
     safety: string[]

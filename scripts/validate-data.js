@@ -30,6 +30,7 @@ const CitySchema = z.object({
   slug: z.string().min(1).regex(/^[a-z0-9-]+$/, 'Slug must be lowercase with hyphens'),
   name: z.string().min(1),
   country: z.string().min(1),
+  country_code: z.string().min(1).max(3),
   hero_image: z.string().url(),
   intro_vibe: z.string().min(1).max(200),
   general_info: z.object({
@@ -40,7 +41,18 @@ const CitySchema = z.object({
   stats: z.object({
     currency: z.string().min(1),
     plug_type: z.string().min(1),
-    best_time: z.string().min(1),
+    best_time: z.object({
+      summary: z.string().min(1),
+      months: z.array(z.number().min(0).max(11)),
+    }),
+  }),
+  culture: z.object({
+    etiquette_tips: z.array(z.string()),
+    essential_phrases: z.array(z.object({
+      src: z.string().min(1),
+      local: z.string().min(1),
+      phonetic: z.string().min(1),
+    })),
   }),
   logistics: z.object({
     safety: z.array(z.string()),
