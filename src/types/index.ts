@@ -52,7 +52,12 @@ export interface City {
     details: string[]
   }>
   must_eat: Place[]
-  must_see: Place[]
+  must_see: Array<{
+    title: string
+    id: string
+    description?: string
+    items: Place[]
+  }>
 }
 
 export interface Place {
