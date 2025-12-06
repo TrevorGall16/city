@@ -189,8 +189,9 @@ export function CommentThread({ citySlug, placeSlug }: CommentThreadProps) {
             {newComment.length}/500
           </span>
           <Button
-            type="submit"
-            disabled={!user || !newComment.trim() || submitting}
+            type={user ? "submit" : "button"}
+            onClick={!user ? () => setShowLoginModal(true) : undefined}
+            disabled={user ? (!newComment.trim() || submitting) : false}
             variant="primary"
             size="md"
           >

@@ -8,6 +8,7 @@ import Link from 'next/link'
 import { Search, Menu } from 'lucide-react'
 import { AuthProvider } from '@/components/providers/AuthProvider'
 import { AdProvider } from '@/components/ads/AdProvider'
+import { HeaderAuth } from '@/components/ui/HeaderAuth'
 import './globals.css'
 import type { Metadata } from 'next'
 
@@ -53,10 +54,15 @@ export default function RootLayout({
               </div>
             </div>
 
-            {/* Mobile Menu Button */}
-            <button className="md:hidden p-2">
-              <Menu className="w-6 h-6 text-slate-700" />
-            </button>
+            {/* Right side - Auth & Mobile Menu */}
+            <div className="flex items-center gap-4">
+              <HeaderAuth />
+
+              {/* Mobile Menu Button */}
+              <button className="md:hidden p-2">
+                <Menu className="w-6 h-6 text-slate-700" />
+              </button>
+            </div>
           </div>
         </header>
 
