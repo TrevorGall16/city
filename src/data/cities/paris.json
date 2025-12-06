@@ -3,6 +3,7 @@
   "name": "Paris",
   "slug": "paris",
   "country": "France",
+  "country_code": "fr",
   "hero_image": "https://placehold.co/1920x1080/e2e8f0/475569?text=Paris",
   "intro_vibe": "The city of light, love, and endless carbs.",
   "general_info": {
@@ -13,7 +14,26 @@
   "stats": {
     "currency": "EUR",
     "plug_type": "Type E",
-    "best_time": "Spring (Apr-Jun)"
+    "best_time": {
+      "summary": "Spring (Apr-Jun) & Fall (Sep-Oct)",
+      "months": [3, 4, 5, 8, 9]
+    }
+  },
+  "culture": {
+    "etiquette_tips": [
+      "Always say \"Bonjour\" when entering shops or restaurants",
+      "Don't eat on the go - meals are sit-down affairs",
+      "Keep your voice down in public spaces",
+      "Never call a waiter with \"Garçon!\" - use \"Excusez-moi\"",
+      "Bread is free and goes directly on the table, not on a plate"
+    ],
+    "essential_phrases": [
+      { "src": "Hello", "local": "Bonjour", "phonetic": "bon-ZHOOR" },
+      { "src": "Thank you", "local": "Merci", "phonetic": "mair-SEE" },
+      { "src": "The bill, please", "local": "L'addition, s'il vous plaît", "phonetic": "lah-dee-SYOHN, seel voo PLEH" },
+      { "src": "Excuse me", "local": "Excusez-moi", "phonetic": "ex-kew-ZAY mwah" },
+      { "src": "I don't speak French", "local": "Je ne parle pas français", "phonetic": "zhuh nuh PARL pah frahn-SEH" }
+    ]
   },
   "logistics": {
     "safety": [
