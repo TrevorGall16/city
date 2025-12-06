@@ -6,6 +6,7 @@
 
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
+import Link from 'next/link'
 import { promises as fs } from 'fs'
 import path from 'path'
 import type { City } from '@/types'
@@ -15,6 +16,7 @@ import { MonthCard } from '@/components/features/MonthCard'
 import { NeighborhoodCard } from '@/components/features/NeighborhoodCard'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import type { Metadata } from 'next'
+import * as Icons from 'lucide-react'
 
 // Type definition for Page Props in Next.js 15+
 interface PageProps {
@@ -177,7 +179,7 @@ export default async function CityPage({ params }: PageProps) {
       </section>
 
       {/* Weather Deep Dive Section */}
-      <section className="bg-slate-50 border-b border-slate-200">
+      <section className={`border-b border-slate-200 ${city.country_code === 'fr' ? 'bg-blue-50/30' : 'bg-slate-50'}`}>
         <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
           <SectionHeader
             title="Weather Deep Dive"
@@ -185,19 +187,25 @@ export default async function CityPage({ params }: PageProps) {
             subtitle="Month-by-month breakdown to plan your perfect trip"
           />
 
-          {/* Horizontal scroll container */}
-          <div className="overflow-x-auto pb-4 -mx-4 px-4">
+          {/* Mobile: Horizontal scroll, Desktop: Grid */}
+          <div className="md:hidden overflow-x-auto pb-4 -mx-4 px-4">
             <div className="flex gap-4 min-w-max">
               {city.weather_breakdown.map((month) => (
                 <MonthCard key={month.id} month={month} />
               ))}
             </div>
           </div>
+
+          <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            {city.weather_breakdown.map((month) => (
+              <MonthCard key={month.id} month={month} />
+            ))}
+          </div>
         </div>
       </section>
 
       {/* Neighborhoods Section */}
-      <section className="bg-white border-b border-slate-200">
+      <section className={`border-b border-slate-200 ${city.country_code === 'fr' ? 'bg-red-50/30' : 'bg-white'}`}>
         <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
           <SectionHeader
             title="Neighborhoods"
@@ -224,16 +232,29 @@ export default async function CityPage({ params }: PageProps) {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* The Golden Rules */}
             <div className="bg-white rounded-xl border border-indigo-200 p-6 shadow-sm">
-              <h3 className="font-semibold text-lg text-indigo-900 mb-4 flex items-center gap-2">
+              <h3 className="font-semibold text-lg text-indigo-900 mb-6 flex items-center gap-2">
                 <span className="text-xl">✨</span> The Golden Rules
               </h3>
-              <ul className="space-y-3">
-                {city.culture.etiquette_tips.map((tip, index) => (
-                  <li key={index} className="flex items-start text-sm text-slate-700">
-                    <span className="mr-3 text-indigo-600 font-bold">{index + 1}.</span>
-                    <span>{tip}</span>
-                  </li>
-                ))}
+              <ul className="divide-y divide-slate-200">
+                {city.culture.etiquette_tips.map((tip, index) => {
+                  // Split on colon or dash to extract rule name
+                  const parts = tip.split(/[:–-](.+)/)
+                  const ruleName = parts[0]
+                  const ruleText = parts[1] || tip
+
+                  return (
+                    <li key={index} className="py-4 first:pt-0 last:pb-0">
+                      <div className="flex items-start text-sm">
+                        <span className="mr-3 text-indigo-600 font-bold flex-shrink-0">{index + 1}.</span>
+                        <div>
+                          <span className="font-bold text-indigo-600">{ruleName}</span>
+                          {parts[1] && <span className="text-slate-700">: {ruleText}</span>}
+                          {!parts[1] && <span className="text-slate-700">{ruleText}</span>}
+                        </div>
+                      </div>
+                    </li>
+                  )
+                })}
               </ul>
             </div>
 
@@ -286,48 +307,38 @@ export default async function CityPage({ params }: PageProps) {
 
       {/* Logistics Section - Moved to Bottom */}
       <section className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-slate-900">
-          Travel Logistics
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Safety */}
-          <div className="bg-white rounded-lg border border-slate-200 p-6">
-            <h3 className="font-semibold text-slate-900 mb-3">Safety Tips</h3>
-            <ul className="space-y-2 text-sm text-slate-600">
-              {city.logistics.safety.map((tip, index) => (
-                <li key={index} className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>{tip}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+        <SectionHeader
+          title="Travel Logistics"
+          countryCode={city.country_code}
+          subtitle="Essential information for a smooth trip"
+        />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {city.logistics.map((topic) => {
+            // Dynamically get the icon component
+            const IconComponent = Icons[topic.icon as keyof typeof Icons] as React.ComponentType<{ className?: string }> || Icons.Info
 
-          {/* Scams */}
-          <div className="bg-white rounded-lg border border-slate-200 p-6">
-            <h3 className="font-semibold text-slate-900 mb-3">Watch Out For</h3>
-            <ul className="space-y-2 text-sm text-slate-600">
-              {city.logistics.scams.map((scam, index) => (
-                <li key={index} className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>{scam}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Transit */}
-          <div className="bg-white rounded-lg border border-slate-200 p-6">
-            <h3 className="font-semibold text-slate-900 mb-3">Getting Around</h3>
-            <ul className="space-y-2 text-sm text-slate-600">
-              {city.logistics.transit.map((tip, index) => (
-                <li key={index} className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>{tip}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+            return (
+              <Link
+                key={topic.id}
+                href={`/city/${citySlug}/info/${topic.slug}`}
+                className="bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-indigo-300 transition-all group"
+              >
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-indigo-200 transition-colors">
+                    <IconComponent className="w-6 h-6 text-indigo-600" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-slate-900 mb-2 group-hover:text-indigo-600 transition-colors">
+                      {topic.title}
+                    </h3>
+                    <p className="text-sm text-slate-600 line-clamp-2">
+                      {topic.summary}
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            )
+          })}
         </div>
       </section>
     </main>

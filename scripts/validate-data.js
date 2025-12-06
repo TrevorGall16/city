@@ -65,11 +65,14 @@ const CitySchema = z.object({
     description: z.string().min(1),
     highlights: z.array(z.string()),
   })),
-  logistics: z.object({
-    safety: z.array(z.string()),
-    scams: z.array(z.string()),
-    transit: z.array(z.string()),
-  }),
+  logistics: z.array(z.object({
+    id: z.string().min(1),
+    slug: z.string().min(1).regex(/^[a-z0-9-]+$/, 'Slug must be lowercase with hyphens'),
+    title: z.string().min(1),
+    icon: z.string().min(1),
+    summary: z.string().min(1),
+    details: z.array(z.string()),
+  })),
   must_eat: z.array(PlaceSchema),
   must_see: z.array(PlaceSchema),
 })
