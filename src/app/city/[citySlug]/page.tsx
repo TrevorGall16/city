@@ -164,9 +164,11 @@ export default async function CityPage({ params }: PageProps) {
             </p>
           </div>
         </div>
+      </section>
 
-        {/* At a Glance Dashboard - Positioned at bottom of hero */}
-        <div className="absolute bottom-0 left-0 right-0 px-4 pb-8 transform translate-y-1/2">
+      {/* At a Glance Dashboard - Clean Stats Row */}
+      <section className="bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800 py-8">
+        <div className="max-w-[1600px] mx-auto px-4 md:px-8">
           <AtAGlanceDashboard
             bestTimeToVisit="Apr-Jun"
             currency={`${city.stats.currency} €`}
@@ -177,8 +179,8 @@ export default async function CityPage({ params }: PageProps) {
       </section>
 
       {/* General Info + Quick Stats Section */}
-      <section className="bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800 pt-20 md:pt-24">
-        <div className="max-w-[1600px] mx-auto px-4 md:px-8 pb-8">
+      <section className="bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
+        <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-8">
           {/* General Info */}
           <div className="mb-6">
             <div className="flex items-center gap-3 mb-3">
@@ -315,25 +317,16 @@ export default async function CityPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Must See Section */}
-      {city.must_see.length > 0 && (
-        <CityPlacesSection
-          places={city.must_see.flatMap((group) => group.items)}
-          citySlug={citySlug}
-          sectionTitle="Must See"
-          sectionId="sights"
-        />
-      )}
-
-      {/* Must Eat Section */}
-      {city.must_eat.length > 0 && (
-        <CityPlacesSection
-          places={city.must_eat}
-          citySlug={citySlug}
-          sectionTitle="Must Eat"
-          sectionId="food"
-        />
-      )}
+      {/* Unified Discovery Section - Merges Must See & Must Eat */}
+      <CityPlacesSection
+        places={[
+          ...city.must_see.flatMap((group) => group.items),
+          ...city.must_eat,
+        ]}
+        citySlug={citySlug}
+        sectionTitle="Discover"
+        sectionId="discover"
+      />
 
       {/* Logistics Section - Moved to Bottom */}
       <section id="logistics" className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
