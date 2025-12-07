@@ -3,7 +3,7 @@
  * Following 03_UI section 1 (Global Layout specification)
  */
 
-import { Inter } from 'next/font/google'
+import { Inter, Playfair_Display } from 'next/font/google'
 import Link from 'next/link'
 import { Search, Menu } from 'lucide-react'
 import { AuthProvider } from '@/components/providers/AuthProvider'
@@ -15,6 +15,13 @@ import type { Metadata } from 'next'
 const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
+  variable: '--font-sans',
+})
+
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-serif',
 })
 
 export const metadata: Metadata = {
@@ -29,7 +36,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={`${inter.variable} ${playfair.variable} ${inter.className}`}>
         <AuthProvider>
           <AdProvider>
             {/* Header - Sticky */}

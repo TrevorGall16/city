@@ -11,6 +11,11 @@
   body {
     @apply bg-slate-50 text-slate-900;
   }
+
+  /* Apply Playfair Display to headings for premium editorial feel */
+  h1, h2, h3 {
+    font-family: var(--font-serif), serif;
+  }
 }
 
 /* Utility classes for truncation */

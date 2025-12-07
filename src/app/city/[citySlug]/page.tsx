@@ -183,7 +183,7 @@ export default async function CityPage({ params }: PageProps) {
       <CityNavigation />
 
       {/* Weather Deep Dive Section */}
-      <section id="weather" className={`border-b border-slate-200 ${city.country_code === 'fr' ? 'bg-blue-50' : 'bg-slate-50'}`}>
+      <section id="weather" className={`border-b border-slate-200 ${city.country_code === 'fr' ? 'bg-blue-50 border-t-4 border-t-blue-200' : 'bg-slate-50'}`}>
         <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
           <SectionHeader
             title="Weather Deep Dive"
@@ -209,7 +209,7 @@ export default async function CityPage({ params }: PageProps) {
       </section>
 
       {/* Neighborhoods Section */}
-      <section id="neighborhoods" className={`border-b border-slate-200 ${city.country_code === 'fr' ? 'bg-red-50' : 'bg-white'}`}>
+      <section id="neighborhoods" className={`border-b border-slate-200 ${city.country_code === 'fr' ? 'bg-red-50 border-t-4 border-t-red-200' : 'bg-white'}`}>
         <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
           <SectionHeader
             title="Neighborhoods"
@@ -325,7 +325,7 @@ export default async function CityPage({ params }: PageProps) {
 
       {/* Must Eat Section */}
       {city.must_eat.length > 0 && (
-        <section id="food" className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-slate-50">
+        <section id="food" className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-orange-50/30 border-b border-orange-100">
           <SectionHeader
             title="Must Eat"
             countryCode={city.country_code}
@@ -353,7 +353,7 @@ export default async function CityPage({ params }: PageProps) {
               <Link
                 key={topic.id}
                 href={`/city/${citySlug}/info/${topic.slug}`}
-                className="bg-white rounded-xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-indigo-300 transition-all group"
+                className="bg-white rounded-xl border border-slate-100 p-6 shadow-sm hover:shadow-md hover:border-indigo-300 hover:-translate-y-1 transition-all duration-300 ease-out group"
               >
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-indigo-200 transition-colors">

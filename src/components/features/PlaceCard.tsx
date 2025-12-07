@@ -19,7 +19,7 @@ export function PlaceCard({ place, citySlug }: PlaceCardProps) {
   const showTranslation = place.name_local && place.name_local !== place.name_en
 
   return (
-    <div className="bg-white rounded-xl overflow-hidden border border-slate-200 hover:shadow-lg transition-shadow duration-300">
+    <div className="bg-white rounded-xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 ease-out">
       {/* Image */}
       <Link href={`/city/${citySlug}/${place.slug}`}>
         <div className="aspect-[4/3] relative overflow-hidden group">
