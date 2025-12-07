@@ -14,7 +14,7 @@ interface NeighborhoodCardProps {
 
 export function NeighborhoodCard({ neighborhood }: NeighborhoodCardProps) {
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-xl border border-slate-100 dark:border-slate-800 p-6 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 ease-out">
+    <div className="bg-white dark:bg-slate-900 rounded-xl border border-slate-100 dark:border-slate-800 p-6 shadow-sm hover:shadow-md hover:-translate-y-1 active:scale-[0.98] transition-all duration-200 ease-out">
       {/* Header */}
       <div className="mb-4">
         <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-2">

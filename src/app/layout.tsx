@@ -42,7 +42,7 @@ export default function RootLayout({
           <AuthProvider>
             <AdProvider>
               {/* Header - Sticky */}
-              <header className="h-16 border-b border-slate-200 dark:border-slate-800 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md sticky top-0 z-40">
+              <header className="h-16 border-b border-slate-200/50 dark:border-slate-800/50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 h-full flex items-center justify-between">
             {/* Logo */}
             <Link href="/" className="flex items-center">
