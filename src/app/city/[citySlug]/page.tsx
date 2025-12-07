@@ -76,23 +76,23 @@ export default async function CityPage({ params }: PageProps) {
   // Country-specific theme configuration for colored sections
   const COUNTRY_THEMES: Record<string, { weather: string; neighborhoods: string }> = {
     fr: {
-      weather: 'bg-blue-50 dark:bg-blue-950/60 border-t-4 border-t-blue-200 dark:border-t-blue-900',
-      neighborhoods: 'bg-red-50 dark:bg-red-950/60 border-t-4 border-t-red-200 dark:border-t-red-900',
+      weather: 'bg-blue-50 dark:bg-[#0f172a] border-t-4 border-t-blue-100 dark:border-t-blue-900',
+      neighborhoods: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100 dark:border-t-red-900',
     },
     de: {
-      weather: 'bg-yellow-50 dark:bg-yellow-950/40 border-t-4 border-t-yellow-200 dark:border-t-yellow-900',
-      neighborhoods: 'bg-red-50 dark:bg-red-950/60 border-t-4 border-t-red-200 dark:border-t-red-900',
+      weather: 'bg-yellow-50 dark:bg-yellow-950/40 border-t-4 border-t-yellow-100 dark:border-t-yellow-900',
+      neighborhoods: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100 dark:border-t-red-900',
     },
     es: {
-      weather: 'bg-yellow-50 dark:bg-yellow-950/40 border-t-4 border-t-yellow-200 dark:border-t-yellow-900',
-      neighborhoods: 'bg-red-50 dark:bg-red-950/60 border-t-4 border-t-red-200 dark:border-t-red-900',
+      weather: 'bg-yellow-50 dark:bg-yellow-950/40 border-t-4 border-t-yellow-100 dark:border-t-yellow-900',
+      neighborhoods: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100 dark:border-t-red-900',
     },
   }
 
   // Get theme for current country or use default
   const theme = COUNTRY_THEMES[city.country_code] || {
-    weather: 'bg-slate-50 dark:bg-slate-900',
-    neighborhoods: 'bg-white dark:bg-slate-900',
+    weather: 'bg-slate-50 dark:bg-slate-950',
+    neighborhoods: 'bg-white dark:bg-slate-950',
   }
 
   // Helper function to inject ad after 6th item
@@ -154,7 +154,7 @@ export default async function CityPage({ params }: PageProps) {
         {/* Content */}
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white z-10 px-4">
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight drop-shadow-lg">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight drop-shadow-lg">
               {city.name}
             </h1>
             <p className="mt-4 text-lg max-w-2xl mx-auto drop-shadow">
@@ -165,7 +165,7 @@ export default async function CityPage({ params }: PageProps) {
       </section>
 
       {/* General Info + Quick Stats Section */}
-      <section className="bg-white border-b border-slate-200">
+      <section className="bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
         <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-8">
           {/* General Info */}
           <div className="mb-6">
@@ -248,7 +248,7 @@ export default async function CityPage({ params }: PageProps) {
       </section>
 
       {/* Culture & Etiquette Section */}
-      <section id="culture" className="bg-gradient-to-br from-indigo-50 to-white border-b border-indigo-100">
+      <section id="culture" className="bg-gradient-to-br from-indigo-50 to-white dark:from-slate-900 dark:to-slate-950 border-b border-indigo-100 dark:border-slate-800">
         <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
           <SectionHeader
             title="Culture & Etiquette"
@@ -347,7 +347,7 @@ export default async function CityPage({ params }: PageProps) {
 
       {/* Must Eat Section */}
       {city.must_eat.length > 0 && (
-        <section id="food" className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-orange-50/30 border-b border-orange-100">
+        <section id="food" className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-orange-50/30 dark:bg-slate-950 border-b border-orange-100 dark:border-slate-800">
           <SectionHeader
             title="Must Eat"
             countryCode={city.country_code}
@@ -360,7 +360,7 @@ export default async function CityPage({ params }: PageProps) {
       )}
 
       {/* Logistics Section - Moved to Bottom */}
-      <section id="logistics" className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
+      <section id="logistics" className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
         <SectionHeader
           title="Travel Logistics"
           countryCode={city.country_code}
@@ -375,17 +375,17 @@ export default async function CityPage({ params }: PageProps) {
               <Link
                 key={topic.id}
                 href={`/city/${citySlug}/info/${topic.slug}`}
-                className="bg-white rounded-xl border border-slate-100 p-6 shadow-sm hover:shadow-md hover:border-indigo-300 hover:-translate-y-1 transition-all duration-300 ease-out group"
+                className="bg-white dark:bg-slate-900 rounded-xl border border-slate-100 dark:border-slate-800 p-6 shadow-sm hover:shadow-md hover:border-indigo-300 dark:hover:border-indigo-700 hover:-translate-y-1 active:scale-[0.98] transition-all duration-200 ease-out group"
               >
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-indigo-200 transition-colors">
-                    <IconComponent className="w-6 h-6 text-indigo-600" />
+                  <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-indigo-200 dark:group-hover:bg-indigo-800 transition-colors">
+                    <IconComponent className="w-6 h-6 text-indigo-600 dark:text-indigo-400" />
                   </div>
                   <div className="flex-1">
-                    <h3 className="font-semibold text-slate-900 mb-2 group-hover:text-indigo-600 transition-colors">
+                    <h3 className="font-semibold text-slate-900 dark:text-slate-50 mb-2 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
                       {topic.title}
                     </h3>
-                    <p className="text-sm text-slate-600 line-clamp-2">
+                    <p className="text-sm text-slate-600 dark:text-slate-400 line-clamp-2">
                       {topic.summary}
                     </p>
                   </div>
