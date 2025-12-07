@@ -16,6 +16,8 @@ import { MonthCard } from '@/components/features/MonthCard'
 import { NeighborhoodCard } from '@/components/features/NeighborhoodCard'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { CityNavigation } from '@/components/features/CityNavigation'
+import { AtAGlanceDashboard } from '@/components/features/AtAGlanceDashboard'
+import { CityPlacesSection } from '@/components/features/CityPlacesSection'
 import type { Metadata } from 'next'
 import * as Icons from 'lucide-react'
 
@@ -162,11 +164,21 @@ export default async function CityPage({ params }: PageProps) {
             </p>
           </div>
         </div>
+
+        {/* At a Glance Dashboard - Positioned at bottom of hero */}
+        <div className="absolute bottom-0 left-0 right-0 px-4 pb-8 transform translate-y-1/2">
+          <AtAGlanceDashboard
+            bestTimeToVisit="Apr-Jun"
+            currency={`${city.stats.currency} €`}
+            language="French"
+            vibe="Romantic & Historic"
+          />
+        </div>
       </section>
 
       {/* General Info + Quick Stats Section */}
-      <section className="bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
-        <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-8">
+      <section className="bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800 pt-20 md:pt-24">
+        <div className="max-w-[1600px] mx-auto px-4 md:px-8 pb-8">
           {/* General Info */}
           <div className="mb-6">
             <div className="flex items-center gap-3 mb-3">
@@ -305,58 +317,22 @@ export default async function CityPage({ params }: PageProps) {
 
       {/* Must See Section */}
       {city.must_see.length > 0 && (
-        <section id="sights" className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
-          <SectionHeader
-            title="Must See"
-            countryCode={city.country_code}
-            subtitle="Iconic landmarks and hidden gems"
-          />
-
-          {/* Grouped Categories */}
-          <div className="space-y-12">
-            {city.must_see.map((group, groupIndex) => (
-              <div key={group.id}>
-                {/* Category Header */}
-                <div className="mb-6">
-                  <h3 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white mb-2">
-                    {group.title}
-                  </h3>
-                  {group.description && (
-                    <p className="text-sm text-slate-600 dark:text-slate-400 max-w-3xl">
-                      {group.description}
-                    </p>
-                  )}
-                </div>
-
-                {/* Category Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6">
-                  {renderPlacesWithAds(group.items, `see-${group.id}`)}
-                </div>
-
-                {/* Ad between groups (after every 2nd group) */}
-                {groupIndex % 2 === 1 && groupIndex < city.must_see.length - 1 && (
-                  <div className="mt-8">
-                    <AdContainer slot="grid" />
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
-        </section>
+        <CityPlacesSection
+          places={city.must_see.flatMap((group) => group.items)}
+          citySlug={citySlug}
+          sectionTitle="Must See"
+          sectionId="sights"
+        />
       )}
 
       {/* Must Eat Section */}
       {city.must_eat.length > 0 && (
-        <section id="food" className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-orange-50/30 dark:bg-slate-950 border-b border-orange-100 dark:border-slate-800">
-          <SectionHeader
-            title="Must Eat"
-            countryCode={city.country_code}
-            subtitle="Cultural staples and culinary traditions"
-          />
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6">
-            {renderPlacesWithAds(city.must_eat, 'eat')}
-          </div>
-        </section>
+        <CityPlacesSection
+          places={city.must_eat}
+          citySlug={citySlug}
+          sectionTitle="Must Eat"
+          sectionId="food"
+        />
       )}
 
       {/* Logistics Section - Moved to Bottom */}
