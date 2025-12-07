@@ -119,9 +119,9 @@ export default function RootLayout({
                 <h3 className="font-semibold text-slate-900 dark:text-slate-50 mb-3">
                   Info
                 </h3>
-                <p className="text-sm text-slate-600 dark:text-slate-400">
-                  Built with Next.js, Tailwind CSS, and Supabase.
-                </p>
+<p className="text-sm text-slate-600" suppressHydrationWarning>
+  Built with Next.js, Tailwind CSS, and Supabase.
+</p>
               </div>
             </div>
 

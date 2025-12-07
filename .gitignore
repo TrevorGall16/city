@@ -32,3 +32,6 @@ yarn-error.log*
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+scripts/validate-data.js
+src/data/cities/paris.json
+src/data/cities/paris.json
