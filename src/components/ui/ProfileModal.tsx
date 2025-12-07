@@ -1,172 +1,119 @@
 'use client'
 
-/**
- * ProfileModal Component
- * Allows users to set/update their display name
- */
-
 import { useState, useEffect } from 'react'
 import { X } from 'lucide-react'
 import { createClient } from '@/lib/supabase/client'
-import { useAuth } from '@/components/providers/AuthProvider'
 
 interface ProfileModalProps {
   isOpen: boolean
   onClose: () => void
+  currentName?: string | null
 }
 
-export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
-  const { user } = useAuth()
-  const [displayName, setDisplayName] = useState('')
+export function ProfileModal({ isOpen, onClose, currentName }: ProfileModalProps) {
+  const [displayName, setDisplayName] = useState(currentName || '')
   const [loading, setLoading] = useState(false)
-  const [success, setSuccess] = useState(false)
   const [error, setError] = useState('')
+  const [success, setSuccess] = useState(false)
+
+  const supabase = createClient()
 
   useEffect(() => {
-    if (isOpen && user) {
-      // Load current display name
-      loadProfile()
+    if (isOpen) {
+      setDisplayName(currentName || '')
+      setError('')
+      setSuccess(false)
     }
-  }, [isOpen, user])
-
-  const loadProfile = async () => {
-    if (!user) return
-
-    const supabase = createClient()
-    const { data, error } = await supabase
-      .from('profiles')
-      .select('display_name')
-      .eq('id', user.id)
-      .single()
-
-    if (data && data.display_name) {
-      setDisplayName(data.display_name)
-    }
-  }
+  }, [isOpen, currentName])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    if (!user) return
-
     setLoading(true)
     setError('')
-    setSuccess(false)
-
+    
     try {
-      const supabase = createClient()
+      const { data: { user } } = await supabase.auth.getUser()
+      if (!user) throw new Error('No user found')
 
-      // Upsert profile (create or update)
       const { error: upsertError } = await supabase
         .from('profiles')
         .upsert({
           id: user.id,
-          display_name: displayName.trim(),
-          updated_at: new Date().toISOString(),
-        })
+          display_name: displayName,
+          avatar_url: user.user_metadata?.avatar_url
+        }, { onConflict: 'id' })
 
       if (upsertError) throw upsertError
 
       setSuccess(true)
       setTimeout(() => {
         onClose()
-        setSuccess(false)
-      }, 1500)
-    } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to update profile')
+        window.location.reload() // Reload to show new name in header
+      }, 1000)
+    } catch (err: any) {
+      setError(err.message)
     } finally {
       setLoading(false)
     }
   }
 
-  const handleClose = () => {
-    setSuccess(false)
-    setError('')
-    onClose()
-  }
-
   if (!isOpen) return null
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+    // FIX: Centered Fixed Position
+    <div className="fixed top-0 left-0 w-screen h-screen z-[100] flex items-center justify-center pointer-events-auto">
+      
       {/* Backdrop */}
-      <div
-        className="absolute inset-0 bg-black/50 backdrop-blur-sm"
-        onClick={handleClose}
-        aria-hidden="true"
+      <div 
+        className="absolute inset-0 bg-black/60 backdrop-blur-sm"
+        onClick={onClose}
       />
 
-      {/* Modal */}
-      <div
-        className="bg-white rounded-xl shadow-xl max-w-md w-full p-6 relative z-10"
-        onClick={(e) => e.stopPropagation()}
-      >
-        {/* Close Button */}
-        <button
-          onClick={handleClose}
+      {/* Modal Content */}
+      <div className="relative z-10 bg-white rounded-2xl shadow-2xl w-full max-w-md p-8 m-4 animate-in fade-in zoom-in duration-200">
+        
+        <button 
+          onClick={onClose}
           className="absolute top-4 right-4 text-slate-400 hover:text-slate-600 transition-colors"
-          aria-label="Close modal"
         >
           <X className="w-5 h-5" />
         </button>
 
-        {/* Header */}
-        <h2 className="text-2xl font-bold text-slate-900 mb-2">Profile Settings</h2>
-        <p className="text-sm text-slate-600 mb-6">
-          Set your display name to appear on comments
-        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mb-2">Edit Profile</h2>
+        <p className="text-slate-600 mb-6">Choose a display name for your comments.</p>
+
+        {error && (
+          <div className="bg-red-50 text-red-700 p-3 rounded-lg mb-4 text-sm border border-red-200">
+            {error}
+          </div>
+        )}
 
         {success ? (
-          /* Success state */
-          <div className="bg-green-50 border border-green-200 rounded-lg p-4 text-center">
-            <div className="text-green-800 font-medium mb-1">Profile updated!</div>
-            <p className="text-sm text-green-700">
-              Your display name has been saved
-            </p>
+          <div className="bg-green-50 text-green-700 p-3 rounded-lg text-center font-medium">
+            Profile Updated!
           </div>
         ) : (
-          /* Form */
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label htmlFor="displayName" className="block text-sm font-medium text-slate-700 mb-1">
-                Display Name (Pseudo)
-              </label>
+              <label className="block text-sm font-medium text-slate-700 mb-1">Display Name</label>
               <input
-                id="displayName"
                 type="text"
                 value={displayName}
                 onChange={(e) => setDisplayName(e.target.value)}
-                placeholder="Enter your name"
-                required
-                maxLength={50}
-                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                maxLength={30}
+                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+                placeholder="e.g. ParisLover99"
               />
-              <p className="text-xs text-slate-500 mt-1">
-                This name will appear on your comments and votes
-              </p>
+              <p className="text-xs text-slate-400 mt-1 text-right">{displayName.length}/30</p>
             </div>
 
-            {error && (
-              <div className="bg-red-50 border border-red-200 rounded-lg p-3 text-sm text-red-800">
-                {error}
-              </div>
-            )}
-
-            <div className="flex gap-3">
-              <button
-                type="button"
-                onClick={handleClose}
-                className="flex-1 px-4 py-2 border border-slate-300 text-slate-700 rounded-lg font-medium hover:bg-slate-50 transition-colors"
-              >
-                Cancel
-              </button>
-              <button
-                type="submit"
-                disabled={loading || !displayName.trim()}
-                className="flex-1 bg-indigo-600 text-white py-2 px-4 rounded-lg font-medium hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-              >
-                {loading ? 'Saving...' : 'Save'}
-              </button>
-            </div>
+            <button
+              type="submit"
+              disabled={loading || !displayName.trim()}
+              className="w-full bg-indigo-600 text-white py-2.5 rounded-lg font-semibold hover:bg-indigo-700 disabled:opacity-50 transition-all"
+            >
+              {loading ? 'Saving...' : 'Save Changes'}
+            </button>
           </form>
         )}
       </div>
