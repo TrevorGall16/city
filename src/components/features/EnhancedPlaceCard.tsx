@@ -8,7 +8,7 @@
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Heart, MapPin } from 'lucide-react'
+import { Heart } from 'lucide-react'
 import { TranslationHook } from './TranslationHook'
 import type { Place } from '@/types'
 
@@ -39,15 +39,6 @@ export function EnhancedPlaceCard({ place, citySlug }: EnhancedPlaceCardProps) {
 
     localStorage.setItem('citysheet-favorites', JSON.stringify(newFavorites))
     setIsFavorite(!isFavorite)
-  }
-
-  // Generate Google Maps link
-  const getDirectionsUrl = () => {
-    if (place.geo) {
-      return `https://www.google.com/maps/search/?api=1&query=${place.geo.lat},${place.geo.lng}`
-    }
-    // Fallback to search by name
-    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.name_en)}`
   }
 
   return (
@@ -91,18 +82,6 @@ export function EnhancedPlaceCard({ place, citySlug }: EnhancedPlaceCardProps) {
         <p className="text-sm text-slate-600 dark:text-slate-400 mt-2 line-clamp-2">
           {place.description}
         </p>
-
-        {/* Get Directions Button */}
-        <a
-          href={getDirectionsUrl()}
-          target="_blank"
-          rel="noopener noreferrer"
-          onClick={(e) => e.stopPropagation()}
-          className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors"
-        >
-          <MapPin className="w-4 h-4" />
-          Get Directions
-        </a>
 
         {/* Translation Hook - CRITICAL FEATURE */}
         {showTranslation && (
