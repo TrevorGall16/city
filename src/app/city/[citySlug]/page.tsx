@@ -131,7 +131,7 @@ export default async function CityPage({ params }: PageProps) {
   }
 
   return (
-    <main className="min-h-screen bg-slate-50">
+    <main className="min-h-screen bg-slate-50 dark:bg-slate-950">
       {/* Hero Section with Flag Theme & Map Background */}
       <section className="h-[50vh] min-h-[400px] relative overflow-hidden">
         {/* Flag gradient accent bar */}
@@ -305,7 +305,7 @@ export default async function CityPage({ params }: PageProps) {
 
       {/* Must See Section */}
       {city.must_see.length > 0 && (
-        <section id="sights" className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
+        <section id="sights" className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
           <SectionHeader
             title="Must See"
             countryCode={city.country_code}
