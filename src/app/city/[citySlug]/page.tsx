@@ -73,6 +73,28 @@ export default async function CityPage({ params }: PageProps) {
     notFound()
   }
 
+  // Country-specific theme configuration for colored sections
+  const COUNTRY_THEMES: Record<string, { weather: string; neighborhoods: string }> = {
+    fr: {
+      weather: 'bg-blue-50 dark:bg-blue-950/60 border-t-4 border-t-blue-200 dark:border-t-blue-900',
+      neighborhoods: 'bg-red-50 dark:bg-red-950/60 border-t-4 border-t-red-200 dark:border-t-red-900',
+    },
+    de: {
+      weather: 'bg-yellow-50 dark:bg-yellow-950/40 border-t-4 border-t-yellow-200 dark:border-t-yellow-900',
+      neighborhoods: 'bg-red-50 dark:bg-red-950/60 border-t-4 border-t-red-200 dark:border-t-red-900',
+    },
+    es: {
+      weather: 'bg-yellow-50 dark:bg-yellow-950/40 border-t-4 border-t-yellow-200 dark:border-t-yellow-900',
+      neighborhoods: 'bg-red-50 dark:bg-red-950/60 border-t-4 border-t-red-200 dark:border-t-red-900',
+    },
+  }
+
+  // Get theme for current country or use default
+  const theme = COUNTRY_THEMES[city.country_code] || {
+    weather: 'bg-slate-50 dark:bg-slate-900',
+    neighborhoods: 'bg-white dark:bg-slate-900',
+  }
+
   // Helper function to inject ad after 6th item
   const renderPlacesWithAds = (places: typeof city.must_eat, category: string) => {
     const elements: React.ReactNode[] = []
@@ -183,7 +205,7 @@ export default async function CityPage({ params }: PageProps) {
       <CityNavigation />
 
       {/* Weather Deep Dive Section */}
-      <section id="weather" className={`border-b border-slate-200 dark:border-slate-800 ${city.country_code === 'fr' ? 'bg-blue-50 dark:bg-blue-950/30 border-t-4 border-t-blue-200 dark:border-t-blue-800' : 'bg-slate-50 dark:bg-slate-900'}`}>
+      <section id="weather" className={`border-b border-slate-200 dark:border-slate-800 ${theme.weather}`}>
         <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
           <SectionHeader
             title="Weather Deep Dive"
@@ -209,7 +231,7 @@ export default async function CityPage({ params }: PageProps) {
       </section>
 
       {/* Neighborhoods Section */}
-      <section id="neighborhoods" className={`border-b border-slate-200 dark:border-slate-800 ${city.country_code === 'fr' ? 'bg-red-50 dark:bg-red-950/30 border-t-4 border-t-red-200 dark:border-t-red-800' : 'bg-white dark:bg-slate-900'}`}>
+      <section id="neighborhoods" className={`border-b border-slate-200 dark:border-slate-800 ${theme.neighborhoods}`}>
         <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
           <SectionHeader
             title="Neighborhoods"
