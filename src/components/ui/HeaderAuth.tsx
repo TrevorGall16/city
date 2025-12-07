@@ -9,6 +9,7 @@ import { useState, useEffect } from 'react'
 import { useAuth } from '@/components/providers/AuthProvider'
 import { LoginModal } from './LoginModal'
 import { ProfileModal } from './ProfileModal'
+import { ThemeToggle } from './ThemeToggle'
 import { User, LogOut, Settings } from 'lucide-react'
 import { createClient } from '@/lib/supabase/client'
 
@@ -69,9 +70,10 @@ export function HeaderAuth() {
   if (!user) {
     return (
       <>
+        <ThemeToggle />
         <button
           onClick={() => setShowLoginModal(true)}
-          className="px-4 py-2 text-sm font-medium text-indigo-600 hover:text-indigo-800 transition-colors"
+          className="px-4 py-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 transition-colors"
         >
           Log In
         </button>
@@ -81,12 +83,13 @@ export function HeaderAuth() {
   }
 
   return (
-    <div className="relative">
+    <div className="relative flex items-center gap-2">
+      <ThemeToggle />
       <button
         onClick={() => setShowUserMenu(!showUserMenu)}
         className="flex items-center gap-2 hover:opacity-80 transition-opacity"
       >
-        <div className="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center">
+        <div className="w-8 h-8 rounded-full bg-indigo-100 dark:bg-indigo-900 flex items-center justify-center">
           {user.user_metadata?.avatar_url ? (
             <img
               src={user.user_metadata.avatar_url}
@@ -94,11 +97,11 @@ export function HeaderAuth() {
               className="w-8 h-8 rounded-full object-cover"
             />
           ) : displayName ? (
-            <span className="text-sm font-semibold text-indigo-600">
+            <span className="text-sm font-semibold text-indigo-600 dark:text-indigo-400">
               {displayName.charAt(0).toUpperCase()}
             </span>
           ) : (
-            <User className="w-4 h-4 text-indigo-600" />
+            <User className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
           )}
         </div>
       </button>
@@ -113,12 +116,12 @@ export function HeaderAuth() {
           />
 
           {/* Menu */}
-          <div className="absolute right-0 top-full mt-2 w-64 bg-white rounded-lg shadow-xl border border-slate-200 py-2 z-40">
-            <div className="px-4 py-3 border-b border-slate-200">
-              <p className="text-sm font-medium text-slate-900 truncate">
+          <div className="absolute right-0 top-full mt-2 w-64 bg-white dark:bg-slate-900 rounded-lg shadow-xl border border-slate-200 dark:border-slate-800 py-2 z-40">
+            <div className="px-4 py-3 border-b border-slate-200 dark:border-slate-800">
+              <p className="text-sm font-medium text-slate-900 dark:text-slate-50 truncate">
                 {user.email}
               </p>
-              <p className="text-xs text-slate-500 mt-1">
+              <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
                 {displayName || 'No display name set'}
               </p>
             </div>
@@ -128,7 +131,7 @@ export function HeaderAuth() {
                 setShowUserMenu(false)
                 setShowProfileModal(true)
               }}
-              className="w-full px-4 py-2 text-left text-sm text-slate-700 hover:bg-slate-50 flex items-center gap-2"
+              className="w-full px-4 py-2 text-left text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 flex items-center gap-2"
             >
               <Settings className="w-4 h-4" />
               Profile Settings
@@ -136,7 +139,7 @@ export function HeaderAuth() {
 
             <button
               onClick={handleSignOut}
-              className="w-full px-4 py-2 text-left text-sm text-slate-700 hover:bg-slate-50 flex items-center gap-2"
+              className="w-full px-4 py-2 text-left text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 flex items-center gap-2"
             >
               <LogOut className="w-4 h-4" />
               Sign Out

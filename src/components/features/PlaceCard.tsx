@@ -19,7 +19,7 @@ export function PlaceCard({ place, citySlug }: PlaceCardProps) {
   const showTranslation = place.name_local && place.name_local !== place.name_en
 
   return (
-    <div className="bg-white rounded-xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 ease-out">
+    <div className="bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-100 dark:border-slate-800 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 ease-out">
       {/* Image */}
       <Link href={`/city/${citySlug}/${place.slug}`}>
         <div className="aspect-[4/3] relative overflow-hidden group">
@@ -34,14 +34,14 @@ export function PlaceCard({ place, citySlug }: PlaceCardProps) {
       </Link>
 
       {/* Body */}
-      <div className="p-4 bg-white border-slate-200">
+      <div className="p-4 bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800">
         <Link href={`/city/${citySlug}/${place.slug}`}>
-          <h3 className="text-lg font-semibold leading-tight text-slate-900 hover:text-indigo-600 transition-colors">
+          <h3 className="text-lg font-semibold leading-tight text-slate-900 dark:text-slate-50 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
             {place.name_en}
           </h3>
         </Link>
 
-        <p className="text-sm text-slate-600 mt-2 line-clamp-2">
+        <p className="text-sm text-slate-600 dark:text-slate-400 mt-2 line-clamp-2">
           {place.description}
         </p>
 

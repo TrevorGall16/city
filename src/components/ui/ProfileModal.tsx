@@ -102,29 +102,29 @@ export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
 
       {/* Modal */}
       <div
-        className="bg-white rounded-xl shadow-xl max-w-md w-full p-6 relative z-10 pointer-events-auto"
+        className="bg-white dark:bg-slate-900 rounded-xl shadow-xl max-w-md w-full p-6 relative z-10 pointer-events-auto"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close Button */}
         <button
           onClick={handleClose}
-          className="absolute top-4 right-4 text-slate-400 hover:text-slate-600 transition-colors"
+          className="absolute top-4 right-4 text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 transition-colors"
           aria-label="Close modal"
         >
           <X className="w-5 h-5" />
         </button>
 
         {/* Header */}
-        <h2 className="text-2xl font-bold text-slate-900 mb-2">Profile Settings</h2>
-        <p className="text-sm text-slate-600 mb-6">
+        <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-2">Profile Settings</h2>
+        <p className="text-sm text-slate-600 dark:text-slate-400 mb-6">
           Set your display name to appear on comments
         </p>
 
         {success ? (
           /* Success state */
-          <div className="bg-green-50 border border-green-200 rounded-lg p-4 text-center">
-            <div className="text-green-800 font-medium mb-1">Profile updated!</div>
-            <p className="text-sm text-green-700">
+          <div className="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg p-4 text-center">
+            <div className="text-green-800 dark:text-green-300 font-medium mb-1">Profile updated!</div>
+            <p className="text-sm text-green-700 dark:text-green-400">
               Your display name has been saved
             </p>
           </div>
@@ -132,7 +132,7 @@ export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
           /* Form */
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label htmlFor="displayName" className="block text-sm font-medium text-slate-700 mb-1">
+              <label htmlFor="displayName" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">
                 Display Name (Pseudo)
               </label>
               <input
@@ -143,15 +143,15 @@ export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
                 placeholder="Enter your name"
                 required
                 maxLength={50}
-                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                className="w-full px-4 py-2 border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 placeholder:text-slate-400 dark:placeholder:text-slate-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
               />
-              <p className="text-xs text-slate-500 mt-1">
+              <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
                 This name will appear on your comments and votes
               </p>
             </div>
 
             {error && (
-              <div className="bg-red-50 border border-red-200 rounded-lg p-3 text-sm text-red-800">
+              <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-3 text-sm text-red-800 dark:text-red-300">
                 {error}
               </div>
             )}
@@ -160,14 +160,14 @@ export function ProfileModal({ isOpen, onClose }: ProfileModalProps) {
               <button
                 type="button"
                 onClick={handleClose}
-                className="flex-1 px-4 py-2 border border-slate-300 text-slate-700 rounded-lg font-medium hover:bg-slate-50 transition-colors"
+                className="flex-1 px-4 py-2 border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 rounded-lg font-medium hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
               >
                 Cancel
               </button>
               <button
                 type="submit"
                 disabled={loading || !displayName.trim()}
-                className="flex-1 bg-indigo-600 text-white py-2 px-4 rounded-lg font-medium hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                className="flex-1 bg-indigo-600 dark:bg-indigo-700 text-white py-2 px-4 rounded-lg font-medium hover:bg-indigo-700 dark:hover:bg-indigo-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
               >
                 {loading ? 'Saving...' : 'Save'}
               </button>
