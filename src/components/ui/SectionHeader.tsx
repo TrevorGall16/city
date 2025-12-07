@@ -24,11 +24,11 @@ export function SectionHeader({ title, countryCode, subtitle }: SectionHeaderPro
         <div className={`w-1.5 h-12 rounded-full bg-gradient-to-b ${gradient}`} />
 
         <div>
-          <h2 className="text-2xl md:text-3xl font-bold text-slate-900">
+          <h2 className="text-4xl md:text-5xl font-bold text-indigo-900 dark:text-white">
             {title}
           </h2>
           {subtitle && (
-            <p className="text-sm text-slate-600 mt-1">{subtitle}</p>
+            <p className="text-sm text-slate-600 dark:text-slate-300 mt-1">{subtitle}</p>
           )}
         </div>
       </div>

@@ -170,32 +170,32 @@ export default async function CityPage({ params }: PageProps) {
           {/* General Info */}
           <div className="mb-6">
             <div className="flex items-center gap-3 mb-3">
-              <h2 className="text-xl font-semibold text-slate-900">
+              <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-50">
                 {city.name}
               </h2>
               {city.general_info.is_capital && (
-                <span className="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded">
+                <span className="bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-300 text-xs font-medium px-2.5 py-0.5 rounded">
                   Capital
                 </span>
               )}
             </div>
-            <p className="text-sm text-slate-600 mb-2">
+            <p className="text-sm text-slate-600 dark:text-slate-400 mb-2">
               <span className="font-medium">Population:</span> {city.general_info.population}
             </p>
-            <p className="text-slate-700 max-w-4xl">
+            <p className="text-slate-700 dark:text-slate-100 max-w-4xl">
               {city.general_info.description}
             </p>
           </div>
 
           {/* Quick Stats Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 border-t border-slate-200">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 border-t border-slate-200 dark:border-slate-800">
             <div>
-              <div className="text-xs text-slate-500 uppercase tracking-wide mb-1">Currency</div>
-              <div className="font-medium text-slate-900 text-lg">{city.stats.currency}</div>
+              <div className="text-xs text-slate-500 dark:text-slate-400 uppercase tracking-wide mb-1">Currency</div>
+              <div className="font-medium text-slate-900 dark:text-slate-50 text-lg">{city.stats.currency}</div>
             </div>
             <div>
-              <div className="text-xs text-slate-500 uppercase tracking-wide mb-1">Plug Type</div>
-              <div className="font-medium text-slate-900 text-lg">{city.stats.plug_type}</div>
+              <div className="text-xs text-slate-500 dark:text-slate-400 uppercase tracking-wide mb-1">Plug Type</div>
+              <div className="font-medium text-slate-900 dark:text-slate-50 text-lg">{city.stats.plug_type}</div>
             </div>
           </div>
         </div>
@@ -257,11 +257,11 @@ export default async function CityPage({ params }: PageProps) {
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* The Golden Rules */}
-            <div className="bg-white rounded-xl border border-indigo-200 p-6 shadow-sm">
-              <h3 className="font-semibold text-lg text-indigo-900 mb-6 flex items-center gap-2">
+            <div className="bg-white dark:bg-slate-900 rounded-xl border border-indigo-200 dark:border-slate-800 p-6 shadow-sm">
+              <h3 className="font-semibold text-lg text-indigo-900 dark:text-white mb-6 flex items-center gap-2">
                 <span className="text-xl">✨</span> The Golden Rules
               </h3>
-              <ul className="divide-y divide-slate-200">
+              <ul className="divide-y divide-slate-200 dark:divide-slate-800">
                 {city.culture.etiquette_tips.map((tip, index) => {
                   // Split on colon or dash to extract rule name
                   const parts = tip.split(/[:–-](.+)/)
@@ -271,11 +271,11 @@ export default async function CityPage({ params }: PageProps) {
                   return (
                     <li key={index} className="py-4 first:pt-0 last:pb-0">
                       <div className="flex items-start text-sm">
-                        <span className="mr-3 text-indigo-600 font-bold flex-shrink-0">{index + 1}.</span>
+                        <span className="mr-3 text-indigo-600 dark:text-indigo-400 font-bold flex-shrink-0">{index + 1}.</span>
                         <div>
-                          <span className="font-bold text-indigo-600">{ruleName}</span>
-                          {parts[1] && <span className="text-slate-700">: {ruleText}</span>}
-                          {!parts[1] && <span className="text-slate-700">{ruleText}</span>}
+                          <span className="font-bold text-indigo-600 dark:text-indigo-400">{ruleName}</span>
+                          {parts[1] && <span className="text-slate-700 dark:text-slate-300">: {ruleText}</span>}
+                          {!parts[1] && <span className="text-slate-700 dark:text-slate-300">{ruleText}</span>}
                         </div>
                       </div>
                     </li>
@@ -285,16 +285,16 @@ export default async function CityPage({ params }: PageProps) {
             </div>
 
             {/* Survival Phrases */}
-            <div className="bg-white rounded-xl border border-indigo-200 p-6 shadow-sm">
-              <h3 className="font-semibold text-lg text-indigo-900 mb-4 flex items-center gap-2">
+            <div className="bg-white dark:bg-slate-900 rounded-xl border border-indigo-200 dark:border-slate-800 p-6 shadow-sm">
+              <h3 className="font-semibold text-lg text-indigo-900 dark:text-white mb-4 flex items-center gap-2">
                 <span className="text-xl">💬</span> Survival Phrases
               </h3>
               <div className="space-y-3">
                 {city.culture.essential_phrases.map((phrase, index) => (
-                  <div key={index} className="border-b border-slate-100 pb-3 last:border-0">
-                    <div className="text-xs text-slate-500 uppercase tracking-wide">{phrase.src}</div>
-                    <div className="text-base font-medium text-slate-900 mt-1">{phrase.local}</div>
-                    <div className="text-xs text-indigo-600 italic mt-0.5">{phrase.phonetic}</div>
+                  <div key={index} className="border-b border-slate-100 dark:border-slate-800 pb-3 last:border-0">
+                    <div className="text-xs text-slate-500 dark:text-slate-400 uppercase tracking-wide">{phrase.src}</div>
+                    <div className="text-base font-medium text-slate-900 dark:text-slate-50 mt-1">{phrase.local}</div>
+                    <div className="text-xs text-indigo-600 dark:text-indigo-400 italic mt-0.5">{phrase.phonetic}</div>
                   </div>
                 ))}
               </div>
@@ -318,11 +318,11 @@ export default async function CityPage({ params }: PageProps) {
               <div key={group.id}>
                 {/* Category Header */}
                 <div className="mb-6">
-                  <h3 className="text-xl md:text-2xl font-bold text-slate-900 mb-2">
+                  <h3 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white mb-2">
                     {group.title}
                   </h3>
                   {group.description && (
-                    <p className="text-sm text-slate-600 max-w-3xl">
+                    <p className="text-sm text-slate-600 dark:text-slate-400 max-w-3xl">
                       {group.description}
                     </p>
                   )}
