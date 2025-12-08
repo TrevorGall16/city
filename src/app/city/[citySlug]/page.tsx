@@ -75,19 +75,36 @@ export default async function CityPage({ params }: PageProps) {
     notFound()
   }
 
-  // Country-specific theme configuration for colored sections
-  const COUNTRY_THEMES: Record<string, { weather: string; neighborhoods: string }> = {
+  // ============================================================================
+  // COLOR THEME CONFIGURATION
+  // ============================================================================
+  // Define country-specific colors for backgrounds and text throughout the page.
+  // Edit the hex values in accentText to customize the exact shade for each country.
+  //
+  // accentText: Controls the color of all section headers (Weather, Neighborhoods, Culture, etc.)
+  // weather: Background color for the Weather section
+  // neighborhoods: Background color for the Neighborhoods section
+  // ============================================================================
+  const COUNTRY_THEMES: Record<string, { weather: string; neighborhoods: string; accentText: string }> = {
     fr: {
       weather: 'bg-blue-50 dark:bg-[#0f172a] border-t-4 border-t-blue-100 dark:border-t-blue-900',
       neighborhoods: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100 dark:border-t-red-900',
+      accentText: 'text-blue-900 dark:text-blue-400', // France: Blue
     },
     de: {
       weather: 'bg-yellow-50 dark:bg-yellow-950/40 border-t-4 border-t-yellow-100 dark:border-t-yellow-900',
       neighborhoods: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100 dark:border-t-red-900',
+      accentText: 'text-yellow-700 dark:text-yellow-400', // Germany: Gold/Dark Yellow
+    },
+    jp: {
+      weather: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100 dark:border-t-red-900',
+      neighborhoods: 'bg-white dark:bg-slate-950 border-t-4 border-t-slate-200 dark:border-t-slate-800',
+      accentText: 'text-red-700 dark:text-red-400', // Japan: Red
     },
     es: {
       weather: 'bg-yellow-50 dark:bg-yellow-950/40 border-t-4 border-t-yellow-100 dark:border-t-yellow-900',
       neighborhoods: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100 dark:border-t-red-900',
+      accentText: 'text-yellow-700 dark:text-yellow-400', // Spain: Yellow
     },
   }
 
@@ -95,6 +112,7 @@ export default async function CityPage({ params }: PageProps) {
   const theme = COUNTRY_THEMES[city.country_code] || {
     weather: 'bg-slate-50 dark:bg-slate-950',
     neighborhoods: 'bg-white dark:bg-slate-950',
+    accentText: 'text-indigo-900 dark:text-white',
   }
 
   // Helper function to inject ad after 6th item
@@ -236,6 +254,7 @@ export default async function CityPage({ params }: PageProps) {
             title="Weather Deep Dive"
             countryCode={city.country_code}
             subtitle="Month-by-month breakdown to plan your perfect trip"
+            accentText={theme.accentText}
           />
 
           {/* Mobile: Horizontal scroll, Desktop: Grid */}
@@ -262,6 +281,7 @@ export default async function CityPage({ params }: PageProps) {
             title="Neighborhoods"
             countryCode={city.country_code}
             subtitle="Discover the distinct vibes across the city"
+            accentText={theme.accentText}
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -279,6 +299,7 @@ export default async function CityPage({ params }: PageProps) {
             title="Culture & Etiquette"
             countryCode={city.country_code}
             subtitle="Navigate like a local with these cultural insights"
+            accentText={theme.accentText}
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* The Golden Rules */}
@@ -328,23 +349,41 @@ export default async function CityPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Unified Discovery Section - Merges Must See & Must Eat */}
+      {/* Discover Section - Landmarks, Museums, etc. (with Filters) */}
       <CityPlacesSection
-        places={[
-          ...city.must_see.flatMap((group) => group.items),
-          ...city.must_eat,
-        ]}
+        places={city.must_see.flatMap((group) => group.items)}
         citySlug={citySlug}
         sectionTitle="Discover"
         sectionId="discover"
+        accentText={theme.accentText}
       />
 
+      {/* Must Eat Section - Food & Drink (No Filters) */}
+      <section
+        id="must-eat"
+        className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800"
+      >
+        <div className="mb-8">
+          <h2 className={`text-4xl md:text-5xl font-bold ${theme.accentText} mb-2`}>
+            Must Eat
+          </h2>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            Essential food and drink experiences in {city.name}
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6">
+          {renderPlacesWithAds(city.must_eat, 'food')}
+        </div>
+      </section>
+
       {/* Logistics Section - Moved to Bottom */}
-      <section id="logistics" className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
+      <section id="logistics" className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-slate-50 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
         <SectionHeader
           title="Travel Logistics"
           countryCode={city.country_code}
           subtitle="Essential information for a smooth trip"
+          accentText={theme.accentText}
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {city.logistics.map((topic) => {
