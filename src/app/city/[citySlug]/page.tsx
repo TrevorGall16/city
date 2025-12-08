@@ -56,13 +56,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!city) {
     return {
-      title: 'City Not Found',
+      title: 'City Not Found | CitySheet',
+      description: 'This city is not available in our travel guides yet. Explore our current destinations.',
     }
   }
 
   return {
-    title: `${city.name} Travel Cheat Sheet: Must Eat & See`,
-    description: `Visit ${city.name}, ${city.country}. ${city.intro_vibe} Curated recommendations with instant translation.`,
+    title: `${city.name} Travel Guide | CitySheet`,
+    description: `Complete ${city.name} travel guide with curated recommendations, essential phrases, weather insights, and neighborhood guides. ${city.intro_vibe}`,
   }
 }
 
@@ -163,6 +164,19 @@ export default async function CityPage({ params }: PageProps) {
 
   return (
     <main className="min-h-screen bg-slate-50 dark:bg-slate-950">
+      {/* Breadcrumb Navigation */}
+      <div className="bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
+        <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-3">
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2 text-sm text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-50 transition-colors"
+          >
+            <span>←</span>
+            <span>Back to World Map</span>
+          </Link>
+        </div>
+      </div>
+
       {/* Hero Section with Flag Theme & Map Background */}
       <section className="h-[50vh] min-h-[400px] relative overflow-hidden">
         {/* Flag gradient accent bar */}

@@ -232,20 +232,41 @@ export default function HomePage() {
 
       {/* Regional Grid - Mobile and Tablet, Also shows filtered results on desktop */}
       <section ref={gridRef} className="lg:hidden max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-16 bg-slate-50 dark:bg-slate-900">
-        <h2 className="text-2xl md:text-3xl font-bold mb-12 text-slate-900 dark:text-slate-50">
-          Explore Cities
-        </h2>
+        <div className="mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-50">
+            Explore Cities
+          </h2>
+
+          {/* Active Filter Indicator + Clear Button */}
+          {searchQuery && (
+            <div className="mt-4 flex items-center justify-between bg-indigo-50 dark:bg-indigo-900/20 border border-indigo-200 dark:border-indigo-800 rounded-lg px-4 py-3">
+              <p className="text-sm text-indigo-900 dark:text-indigo-100">
+                Showing results for <span className="font-semibold">"{searchQuery}"</span>
+              </p>
+              <button
+                onClick={() => setSearchQuery('')}
+                className="flex items-center gap-1.5 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 transition-colors"
+              >
+                <span>✕</span> Clear
+              </button>
+            </div>
+          )}
+        </div>
 
         {filteredRegions.length === 0 ? (
-          <div className="text-center py-12">
-            <p className="text-slate-600 dark:text-slate-400 text-lg">
-              No cities found for "{searchQuery}"
+          <div className="text-center py-16">
+            <div className="text-6xl mb-4">🗺️</div>
+            <p className="text-xl font-semibold text-slate-700 dark:text-slate-300 mb-2">
+              We haven't been there yet
+            </p>
+            <p className="text-slate-600 dark:text-slate-400 mb-6">
+              Try searching for Paris, Berlin, or Tokyo
             </p>
             <button
               onClick={() => setSearchQuery('')}
-              className="mt-4 text-indigo-600 dark:text-indigo-400 hover:underline font-medium"
+              className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition-colors"
             >
-              Clear search
+              Clear Search
             </button>
           </div>
         ) : (
@@ -283,20 +304,41 @@ export default function HomePage() {
 
       {/* Desktop: Show all cities list below map for accessibility */}
       <section ref={gridRef} className="hidden lg:block max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-16 bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800">
-        <h2 className="text-2xl md:text-3xl font-bold mb-12 text-slate-900 dark:text-slate-50">
-          All Cities
-        </h2>
+        <div className="mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-50">
+            All Cities
+          </h2>
+
+          {/* Active Filter Indicator + Clear Button */}
+          {searchQuery && (
+            <div className="mt-4 flex items-center justify-between bg-indigo-50 dark:bg-indigo-900/20 border border-indigo-200 dark:border-indigo-800 rounded-lg px-4 py-3">
+              <p className="text-sm text-indigo-900 dark:text-indigo-100">
+                Showing results for <span className="font-semibold">"{searchQuery}"</span>
+              </p>
+              <button
+                onClick={() => setSearchQuery('')}
+                className="flex items-center gap-1.5 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 transition-colors"
+              >
+                <span>✕</span> Clear
+              </button>
+            </div>
+          )}
+        </div>
 
         {filteredRegions.length === 0 ? (
-          <div className="text-center py-12">
-            <p className="text-slate-600 dark:text-slate-400 text-lg">
-              No cities found for "{searchQuery}"
+          <div className="text-center py-16">
+            <div className="text-6xl mb-4">🗺️</div>
+            <p className="text-xl font-semibold text-slate-700 dark:text-slate-300 mb-2">
+              We haven't been there yet
+            </p>
+            <p className="text-slate-600 dark:text-slate-400 mb-6">
+              Try searching for Paris, Berlin, or Tokyo
             </p>
             <button
               onClick={() => setSearchQuery('')}
-              className="mt-4 text-indigo-600 dark:text-indigo-400 hover:underline font-medium"
+              className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition-colors"
             >
-              Clear search
+              Clear Search
             </button>
           </div>
         ) : (
