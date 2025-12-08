@@ -5,7 +5,7 @@
 
 import { Inter, Playfair_Display } from 'next/font/google'
 import Link from 'next/link'
-import { Search, Menu } from 'lucide-react'
+import { Menu } from 'lucide-react'
 import { AuthProvider } from '@/components/providers/AuthProvider'
 import { AdProvider } from '@/components/ads/AdProvider'
 import { ThemeProvider } from '@/components/providers/ThemeProvider'
@@ -41,7 +41,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <AuthProvider>
             <AdProvider>
-              {/* Header - Sticky */}
+              {/* Header - Sticky (Logo + Auth Only) */}
               <header className="h-16 border-b border-slate-200/50 dark:border-slate-800/50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 h-full flex items-center justify-between">
             {/* Logo */}
@@ -50,18 +50,6 @@ export default function RootLayout({
                 CitySheet
               </div>
             </Link>
-
-            {/* Search Bar - Desktop */}
-            <div className="hidden md:flex flex-1 max-w-md mx-8">
-              <div className="relative w-full">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400 dark:text-slate-500" />
-                <input
-                  type="text"
-                  placeholder="Search cities..."
-                  className="w-full pl-10 pr-4 py-2 rounded-md border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 placeholder:text-slate-400 dark:placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
-                />
-              </div>
-            </div>
 
             {/* Right side - Auth & Mobile Menu */}
             <div className="flex items-center gap-4">
