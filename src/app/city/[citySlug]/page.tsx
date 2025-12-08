@@ -127,9 +127,20 @@ export default async function CityPage({ params }: PageProps) {
   const getFlagGradient = (countryCode: string) => {
     const gradients: Record<string, string> = {
       fr: 'from-blue-600 via-white to-red-600', // French flag
-      // Add more countries as needed
+      de: 'from-black via-red-600 to-yellow-500', // German flag
+      jp: 'from-white via-red-600 to-white', // Japanese flag
     }
     return gradients[countryCode] || 'from-indigo-600 via-slate-200 to-indigo-600'
+  }
+
+  // City-specific vibe fonts for hero title
+  const getCityFont = (citySlug: string) => {
+    const fonts: Record<string, string> = {
+      paris: 'font-serif', // Elegant/Romantic
+      berlin: 'font-mono', // Industrial/Raw
+      tokyo: 'font-sans font-black', // Futuristic/Bold
+    }
+    return fonts[citySlug] || 'font-serif'
   }
 
   return (
@@ -156,7 +167,7 @@ export default async function CityPage({ params }: PageProps) {
         {/* Content */}
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white z-10 px-4">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight drop-shadow-lg">
+            <h1 className={`text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight drop-shadow-lg ${getCityFont(citySlug)}`}>
               {city.name}
             </h1>
             <p className="mt-4 text-lg max-w-2xl mx-auto drop-shadow">

@@ -65,7 +65,7 @@ export interface Place {
   slug: string
   name_en: string
   name_local: string
-  category: 'food' | 'sight'
+  category: string // Now supports dynamic categories like 'Museum', 'Temple', 'Food', etc.
   description: string
   image: string
   is_generic_staple: boolean

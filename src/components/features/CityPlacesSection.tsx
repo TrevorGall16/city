@@ -18,41 +18,18 @@ interface CityPlacesSectionProps {
   sectionId: string
 }
 
-// Map place categories to filter categories
-function getPlaceFilterCategory(place: Place): FilterCategory[] {
-  const categories: FilterCategory[] = []
+// Extract unique category tags from places
+function extractAvailableTags(places: Place[]): string[] {
+  const tags = new Set<string>()
 
-  // Check if it's a museum based on name
-  if (
-    place.name_en.toLowerCase().includes('museum') ||
-    place.name_en.toLowerCase().includes('musée')
-  ) {
-    categories.push('museum')
-  }
+  places.forEach((place) => {
+    // Use the category field as the primary tag
+    if (place.category) {
+      tags.add(place.category)
+    }
+  })
 
-  // Check if it's a landmark
-  if (
-    place.name_en.toLowerCase().includes('tower') ||
-    place.name_en.toLowerCase().includes('arc') ||
-    place.name_en.toLowerCase().includes('pantheon') ||
-    place.name_en.toLowerCase().includes('cathedral') ||
-    place.name_en.toLowerCase().includes('basilica') ||
-    place.category === 'sight'
-  ) {
-    categories.push('landmark')
-  }
-
-  // Food items
-  if (place.category === 'food') {
-    categories.push('food')
-  }
-
-  // Hidden gems (places without geo data or generic staples)
-  if (!place.geo || place.is_generic_staple) {
-    categories.push('hidden-gem')
-  }
-
-  return categories.length > 0 ? categories : ['landmark']
+  return Array.from(tags).sort()
 }
 
 export function CityPlacesSection({
@@ -64,6 +41,9 @@ export function CityPlacesSection({
   const supabase = createClient()
   const [activeFilter, setActiveFilter] = useState<FilterCategory>('all')
   const [favorites, setFavorites] = useState<string[]>([])
+
+  // Extract available tags from the data
+  const availableTags = extractAvailableTags(places)
 
   // Load favorites from database
   useEffect(() => {
@@ -114,8 +94,8 @@ export function CityPlacesSection({
     if (activeFilter === 'all') return true
     if (activeFilter === 'favorites') return favorites.includes(place.id)
 
-    const placeCategories = getPlaceFilterCategory(place)
-    return placeCategories.includes(activeFilter)
+    // Use the specific category tag from the data
+    return place.category && place.category.toLowerCase() === activeFilter.toLowerCase()
   })
 
   return (
@@ -124,13 +104,14 @@ export function CityPlacesSection({
       <CategoryFilter
         activeFilter={activeFilter}
         onFilterChange={setActiveFilter}
+        availableTags={availableTags}
         showFavoritesFilter={true}
       />
 
       {/* Places Grid */}
       <section
         id={sectionId}
-        className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-white dark:bg-slate-950"
+        className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-slate-50 dark:bg-slate-900"
       >
         <div className="mb-8">
           <h2 className="text-4xl md:text-5xl font-bold text-indigo-900 dark:text-white mb-2">

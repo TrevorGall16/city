@@ -129,7 +129,7 @@
       "slug": "currywurst",
       "name_en": "Currywurst",
       "name_local": "Currywurst",
-      "category": "food",
+      "category": "Food",
       "is_generic_staple": true,
       "description": "Berlin's iconic street food: grilled pork sausage topped with curry ketchup and paprika. Best enjoyed at a late-night Imbiss (snack stand).",
       "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Currywurst"
@@ -139,7 +139,7 @@
       "slug": "mustafas-doner",
       "name_en": "Mustafa's Gemüse Kebap",
       "name_local": "Mustafa's Gemüse Kebap",
-      "category": "food",
+      "category": "Food",
       "is_generic_staple": false,
       "description": "The most famous döner in Berlin. Expect a 1-hour line, but it's worth it. Grilled veggies, feta, and secret sauce in fresh bread.",
       "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Mustafas+Doner",
@@ -150,7 +150,7 @@
       "slug": "schnitzel",
       "name_en": "Schnitzel",
       "name_local": "Schnitzel",
-      "category": "food",
+      "category": "Food",
       "is_generic_staple": true,
       "description": "Breaded and fried veal or pork cutlet, served with potato salad or fries. A German classic found in every beer hall.",
       "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Schnitzel"
@@ -160,7 +160,7 @@
       "slug": "club-mate",
       "name_en": "Club Mate",
       "name_local": "Club-Mate",
-      "category": "food",
+      "category": "Food",
       "is_generic_staple": true,
       "description": "The caffeinated yerba mate drink of Berlin's club scene. Sweet, fizzy, and keeps you dancing until 6am.",
       "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Club+Mate"
@@ -170,7 +170,7 @@
       "slug": "hofbrau-wirtshaus",
       "name_en": "Hofbräu Wirtshaus",
       "name_local": "Hofbräu Wirtshaus",
-      "category": "food",
+      "category": "Food",
       "is_generic_staple": false,
       "description": "Traditional Bavarian beer hall in Berlin. Massive steins, hearty food, and oompah music. Touristy but fun.",
       "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Hofbrau",
@@ -181,7 +181,7 @@
       "slug": "berliner-pfannkuchen",
       "name_en": "Berliner Pfannkuchen",
       "name_local": "Berliner",
-      "category": "food",
+      "category": "Food",
       "is_generic_staple": true,
       "description": "A jelly-filled doughnut, not to be confused with the American 'Berliner'. John F. Kennedy famously said 'Ich bin ein Berliner' (I am a jelly doughnut).",
       "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Berliner"
@@ -197,7 +197,7 @@
           "slug": "brandenburg-gate",
           "name_en": "Brandenburg Gate",
           "name_local": "Brandenburger Tor",
-          "category": "sight",
+          "category": "Landmark",
           "description": "The most iconic symbol of Berlin and German reunification. A neoclassical triumphal arch that has witnessed centuries of history.",
           "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Brandenburg+Gate",
           "geo": { "lat": 52.5163, "lng": 13.3777 }
@@ -207,7 +207,7 @@
           "slug": "reichstag-building",
           "name_en": "Reichstag Building",
           "name_local": "Reichstagsgebäude",
-          "category": "sight",
+          "category": "Landmark",
           "description": "Germany's parliament building with a stunning glass dome designed by Norman Foster. Free entry but book ahead.",
           "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Reichstag",
           "geo": { "lat": 52.5186, "lng": 13.3761 }
@@ -217,7 +217,7 @@
           "slug": "tv-tower",
           "name_en": "TV Tower",
           "name_local": "Fernsehturm",
-          "category": "sight",
+          "category": "Landmark",
           "description": "Berlin's tallest structure and a GDR-era icon. The observation deck offers 360° views of the city.",
           "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=TV+Tower",
           "geo": { "lat": 52.5208, "lng": 13.4094 }
@@ -233,7 +233,7 @@
           "slug": "east-side-gallery",
           "name_en": "East Side Gallery",
           "name_local": "East Side Gallery",
-          "category": "sight",
+          "category": "Landmark",
           "description": "The longest remaining section of the Berlin Wall, now an open-air gallery with murals by artists from around the world.",
           "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=East+Side+Gallery",
           "geo": { "lat": 52.5058, "lng": 13.4397 }
@@ -243,7 +243,7 @@
           "slug": "checkpoint-charlie",
           "name_en": "Checkpoint Charlie",
           "name_local": "Checkpoint Charlie",
-          "category": "sight",
+          "category": "Landmark",
           "description": "The famous Cold War crossing point between East and West Berlin. Now a touristy photo op, but historically significant.",
           "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Checkpoint+Charlie",
           "geo": { "lat": 52.5075, "lng": 13.3903 }
@@ -253,7 +253,7 @@
           "slug": "memorial-murdered-jews",
           "name_en": "Memorial to the Murdered Jews of Europe",
           "name_local": "Denkmal für die ermordeten Juden Europas",
-          "category": "sight",
+          "category": "Landmark",
           "description": "A haunting field of 2,711 concrete slabs. A powerful and somber tribute to Holocaust victims.",
           "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Holocaust+Memorial",
           "geo": { "lat": 52.5139, "lng": 13.3786 }
@@ -269,7 +269,7 @@
           "slug": "museum-island",
           "name_en": "Museum Island",
           "name_local": "Museumsinsel",
-          "category": "sight",
+          "category": "Museum",
           "description": "A UNESCO World Heritage site with five world-renowned museums, including the Pergamon and Neues Museum.",
           "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Museum+Island",
           "geo": { "lat": 52.5210, "lng": 13.3986 }
@@ -279,7 +279,7 @@
           "slug": "topography-of-terror",
           "name_en": "Topography of Terror",
           "name_local": "Topographie des Terrors",
-          "category": "sight",
+          "category": "Museum",
           "description": "A chilling documentation center built on the site of the former Gestapo and SS headquarters. Free entry.",
           "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Topography+of+Terror",
           "geo": { "lat": 52.5061, "lng": 13.3830 }
