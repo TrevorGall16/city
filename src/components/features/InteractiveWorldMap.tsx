@@ -7,7 +7,6 @@
 'use client'
 
 import { useState } from 'react'
-import { useRouter } from 'next/navigation'
 
 // ============================================================================
 // COUNTRY THEME COLORS
@@ -68,10 +67,10 @@ const COUNTRIES: CountryData[] = [
 
 interface InteractiveWorldMapProps {
   searchQuery?: string // Optional search filter
+  onCountryClick?: (countryName: string) => void // Callback for country click (filter & scroll)
 }
 
-export function InteractiveWorldMap({ searchQuery = '' }: InteractiveWorldMapProps) {
-  const router = useRouter()
+export function InteractiveWorldMap({ searchQuery = '', onCountryClick }: InteractiveWorldMapProps) {
   const [hoveredCountry, setHoveredCountry] = useState<string | null>(null)
   const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 })
 
@@ -82,8 +81,10 @@ export function InteractiveWorldMap({ searchQuery = '' }: InteractiveWorldMapPro
       country.citySlug.toLowerCase().includes(searchQuery.toLowerCase())
   )
 
-  const handleCountryClick = (citySlug: string) => {
-    router.push(`/city/${citySlug}`)
+  const handleCountryClick = (countryName: string) => {
+    if (onCountryClick) {
+      onCountryClick(countryName)
+    }
   }
 
   const handleMouseEnter = (countryId: string, event: React.MouseEvent) => {
@@ -148,7 +149,7 @@ export function InteractiveWorldMap({ searchQuery = '' }: InteractiveWorldMapPro
                 filter: isHovered ? 'drop-shadow(0 4px 12px rgba(0,0,0,0.3))' : 'drop-shadow(0 2px 4px rgba(0,0,0,0.1))',
                 opacity: searchQuery && !filteredCountries.find(c => c.id === country.id) ? 0.3 : 1,
               }}
-              onClick={() => handleCountryClick(country.citySlug)}
+              onClick={() => handleCountryClick(country.name)}
               onMouseEnter={(e) => handleMouseEnter(country.id, e)}
               onMouseLeave={handleMouseLeave}
             />
