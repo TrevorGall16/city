@@ -8,6 +8,7 @@
 import { useState, useEffect } from 'react'
 import { EnhancedPlaceCard } from './EnhancedPlaceCard'
 import { CategoryFilter, type FilterCategory } from './CategoryFilter'
+import { createClient } from '@/lib/supabase/client'
 import type { Place } from '@/types'
 
 interface CityPlacesSectionProps {
@@ -60,28 +61,53 @@ export function CityPlacesSection({
   sectionTitle,
   sectionId,
 }: CityPlacesSectionProps) {
+  const supabase = createClient()
   const [activeFilter, setActiveFilter] = useState<FilterCategory>('all')
   const [favorites, setFavorites] = useState<string[]>([])
 
-  // Load favorites from localStorage
+  // Load favorites from database
   useEffect(() => {
-    const storedFavorites = JSON.parse(
-      localStorage.getItem('citysheet-favorites') || '[]'
-    )
-    setFavorites(storedFavorites)
-  }, [])
+    async function loadFavorites() {
+      const {
+        data: { user },
+      } = await supabase.auth.getUser()
 
-  // Re-check favorites periodically (in case they change in another tab/component)
+      if (user) {
+        const { data } = await supabase
+          .from('favorites')
+          .select('place_id')
+          .eq('user_id', user.id)
+
+        if (data) {
+          setFavorites(data.map((fav) => fav.place_id))
+        }
+      }
+    }
+
+    loadFavorites()
+  }, [supabase])
+
+  // Re-check favorites periodically (in case they change)
   useEffect(() => {
-    const interval = setInterval(() => {
-      const storedFavorites = JSON.parse(
-        localStorage.getItem('citysheet-favorites') || '[]'
-      )
-      setFavorites(storedFavorites)
-    }, 1000)
+    const interval = setInterval(async () => {
+      const {
+        data: { user },
+      } = await supabase.auth.getUser()
+
+      if (user) {
+        const { data } = await supabase
+          .from('favorites')
+          .select('place_id')
+          .eq('user_id', user.id)
+
+        if (data) {
+          setFavorites(data.map((fav) => fav.place_id))
+        }
+      }
+    }, 2000)
 
     return () => clearInterval(interval)
-  }, [])
+  }, [supabase])
 
   // Filter places based on active filter
   const filteredPlaces = places.filter((place) => {
