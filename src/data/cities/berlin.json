@@ -1,0 +1,290 @@
+{
+  "id": "city-002",
+  "name": "Berlin",
+  "slug": "berlin",
+  "country": "Germany",
+  "country_code": "de",
+  "hero_image": "https://placehold.co/1920x1080/1c1c1c/ffd700?text=Berlin",
+  "intro_vibe": "The Capital of Cool: Where history meets counterculture.",
+  "general_info": {
+    "population": "~3.7 million (city) / ~6 million (metro area)",
+    "is_capital": true,
+    "description": "Berlin is the capital and largest city of Germany. A city of contrasts, Berlin blends a tumultuous history with cutting-edge creativity. From the remnants of the Wall to world-class museums and legendary nightlife, Berlin is raw, real, and unapologetically alternative."
+  },
+  "stats": {
+    "currency": "EUR",
+    "plug_type": "Type F"
+  },
+  "weather_breakdown": [
+    { "id": 1, "name": "January", "temp": "-2°C - 3°C", "vibe": "Cold & Grey", "pros": ["Fewer tourists", "Cozy beer halls", "Winter sales"], "cons": ["Short days", "Freezing winds", "Slush"], "clothing": "Heavy winter coat, boots, scarf" },
+    { "id": 2, "name": "February", "temp": "-1°C - 4°C", "vibe": "Still Cold", "pros": ["Berlinale Film Festival", "Pre-spring energy", "Lower prices"], "cons": ["Cold snaps", "Grey skies"], "clothing": "Warm layers, waterproof jacket" },
+    { "id": 3, "name": "March", "temp": "2°C - 9°C", "vibe": "Awakening", "pros": ["Days get longer", "Spring begins", "Parks reopen"], "cons": ["Unpredictable weather", "Rain"], "clothing": "Light jacket, umbrella" },
+    { "id": 4, "name": "April", "temp": "4°C - 14°C", "vibe": "Fresh", "pros": ["Cherry blossoms", "Beer gardens open", "Outdoor events"], "cons": ["April showers", "Still chilly evenings"], "clothing": "Layers, rain jacket" },
+    { "id": 5, "name": "May", "temp": "9°C - 19°C", "vibe": "Lively", "pros": ["Perfect weather", "Mauerpark Flea Market", "Long days"], "cons": ["Crowds grow", "Higher prices"], "clothing": "Light layers, sunglasses" },
+    { "id": 6, "name": "June", "temp": "12°C - 22°C", "vibe": "Festival Season", "pros": ["Fête de la Musique", "Late sunsets (10pm)", "Spree River vibes"], "cons": ["Tourist season", "Occasional rain"], "clothing": "Summer clothes, light jacket" },
+    { "id": 7, "name": "July", "temp": "14°C - 25°C", "vibe": "Peak Summer", "pros": ["Open-air clubs", "Lake swimming (Wannsee)", "Endless daylight"], "cons": ["Hot & crowded", "Lack of AC"], "clothing": "Shorts, t-shirts, sunhat" },
+    { "id": 8, "name": "August", "temp": "14°C - 24°C", "vibe": "Hot & Vibrant", "pros": ["Beach bars (Badeschiff)", "Street festivals", "Warm nights"], "cons": ["Very touristy", "Heat waves"], "clothing": "Light summer clothes" },
+    { "id": 9, "name": "September", "temp": "10°C - 19°C", "vibe": "Golden Autumn", "pros": ["Perfect weather", "Fewer crowds", "Art Berlin fair"], "cons": ["Shorter days", "Occasional rain"], "clothing": "Smart casual layers" },
+    { "id": 10, "name": "October", "temp": "6°C - 13°C", "vibe": "Cozy", "pros": ["Autumn foliage", "Museum season", "Oktoberfest (nearby Munich)"], "cons": ["Shorter days", "Cool evenings"], "clothing": "Warm jacket, boots" },
+    { "id": 11, "name": "November", "temp": "3°C - 7°C", "vibe": "Grey & Moody", "pros": ["Christmas markets start", "Cozy cafes", "Low rates"], "cons": ["Grey & damp", "Very short days"], "clothing": "Warm coat, umbrella, thermals" },
+    { "id": 12, "name": "December", "temp": "0°C - 4°C", "vibe": "Festive", "pros": ["Christmas markets", "Gendarmenmarkt lights", "New Year's Eve at Brandenburg Gate"], "cons": ["Cold & dark", "Crowded markets"], "clothing": "Heavy winter coat, gloves, hat" }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "Cash is King: Many places still don't accept cards. Always carry cash (Barzahlung).",
+      "Sunday Quiet: Most shops are closed on Sundays. Plan ahead!",
+      "Pfand System: Return bottles for a deposit refund (usually 25 cents). Look for the 'Pfand' symbol.",
+      "Directness: Germans are blunt and honest. It's not rude—it's efficient.",
+      "Jaywalking: Don't cross on red, even if no cars are coming. You'll get judged."
+    ],
+    "essential_phrases": [
+      { "src": "Hello", "local": "Hallo", "phonetic": "HAH-loh" },
+      { "src": "Thank you", "local": "Danke", "phonetic": "DAHN-kuh" },
+      { "src": "The bill please", "local": "Die Rechnung bitte", "phonetic": "dee REKH-noong BIT-tuh" },
+      { "src": "Excuse me", "local": "Entschuldigung", "phonetic": "ent-SHOOL-dee-goong" },
+      { "src": "I don't speak German", "local": "Ich spreche kein Deutsch", "phonetic": "ikh SHPREH-khuh kine DOYTSH" }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Kreuzberg",
+      "vibe": "Alternative & Edgy",
+      "description": "The heart of Berlin's counterculture. Street art, Turkish markets, punk bars, and late-night döner kebabs.",
+      "highlights": ["Görlitzer Park", "Markthalle Neun", "Street art everywhere"]
+    },
+    {
+      "name": "Friedrichshain",
+      "vibe": "Party District",
+      "description": "Home to the legendary Berghain club and the East Side Gallery. Raw, industrial, and unapologetically hedonistic.",
+      "highlights": ["East Side Gallery", "Berghain nightclub", "RAW-Gelände"]
+    },
+    {
+      "name": "Mitte",
+      "vibe": "Historic Center",
+      "description": "Berlin's official center with major landmarks, museums, and upscale shopping. Tourist-heavy but essential.",
+      "highlights": ["Brandenburg Gate", "Museum Island", "Unter den Linden"]
+    },
+    {
+      "name": "Prenzlauer Berg",
+      "vibe": "Gentrified & Family-Friendly",
+      "description": "Once bohemian, now filled with young families, organic cafes, and vintage shops. Still charming.",
+      "highlights": ["Mauerpark Flea Market", "Kastanienallee", "Kollwitzplatz"]
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Getting Around",
+      "icon": "Train",
+      "summary": "The U-Bahn and S-Bahn are your lifelines. Efficient, fast, and covers the whole city.",
+      "details": [
+        "U-Bahn (Metro): 10 lines, runs until 1am weekdays, 24/7 on weekends.",
+        "S-Bahn (Train): Above-ground, connects suburbs and airports.",
+        "Trams & Buses: Extensive network, especially in former East Berlin.",
+        "Tickets: Buy a day pass (Tageskarte) or weekly pass. Validate before boarding!"
+      ]
+    },
+    {
+      "id": "logistics-scams",
+      "slug": "common-scams",
+      "title": "Scams to Avoid",
+      "icon": "AlertTriangle",
+      "summary": "Berlin is generally safe, but watch out for these common scams.",
+      "details": [
+        "Fake Ticket Inspectors: Real inspectors wear red armbands with 'BVG' badges.",
+        "Club Entrance Fees: Some clubs charge exorbitant 'guest list' fees. Research beforehand.",
+        "Pickpockets: Active on crowded U-Bahn lines (U2, U8) and tourist spots."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "Safety Basics",
+      "icon": "Shield",
+      "summary": "Berlin is safe, but use common sense in certain areas.",
+      "details": [
+        "Görlitzer Park: Avoid after dark. Drug dealers are common.",
+        "Night: Most areas are safe, but avoid empty parks and U-Bahn stations late at night.",
+        "Bikes: Lock your bike with a heavy-duty lock. Bike theft is rampant."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Apps to Download",
+      "icon": "Smartphone",
+      "summary": "These apps will make your Berlin trip smoother.",
+      "details": [
+        "BVG Fahrinfo: Official transit app for U-Bahn, S-Bahn, trams, and buses.",
+        "Resident Advisor: Essential for finding the best club nights.",
+        "Lieferando: Food delivery (better than Uber Eats here).",
+        "Google Translate: Download German offline pack."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "currywurst",
+      "name_en": "Currywurst",
+      "name_local": "Currywurst",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Berlin's iconic street food: grilled pork sausage topped with curry ketchup and paprika. Best enjoyed at a late-night Imbiss (snack stand).",
+      "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Currywurst"
+    },
+    {
+      "id": "food-002",
+      "slug": "mustafas-doner",
+      "name_en": "Mustafa's Gemüse Kebap",
+      "name_local": "Mustafa's Gemüse Kebap",
+      "category": "food",
+      "is_generic_staple": false,
+      "description": "The most famous döner in Berlin. Expect a 1-hour line, but it's worth it. Grilled veggies, feta, and secret sauce in fresh bread.",
+      "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Mustafas+Doner",
+      "geo": { "lat": 52.4951, "lng": 13.3927 }
+    },
+    {
+      "id": "food-003",
+      "slug": "schnitzel",
+      "name_en": "Schnitzel",
+      "name_local": "Schnitzel",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Breaded and fried veal or pork cutlet, served with potato salad or fries. A German classic found in every beer hall.",
+      "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Schnitzel"
+    },
+    {
+      "id": "food-004",
+      "slug": "club-mate",
+      "name_en": "Club Mate",
+      "name_local": "Club-Mate",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "The caffeinated yerba mate drink of Berlin's club scene. Sweet, fizzy, and keeps you dancing until 6am.",
+      "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Club+Mate"
+    },
+    {
+      "id": "food-005",
+      "slug": "hofbrau-wirtshaus",
+      "name_en": "Hofbräu Wirtshaus",
+      "name_local": "Hofbräu Wirtshaus",
+      "category": "food",
+      "is_generic_staple": false,
+      "description": "Traditional Bavarian beer hall in Berlin. Massive steins, hearty food, and oompah music. Touristy but fun.",
+      "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Hofbrau",
+      "geo": { "lat": 52.5200, "lng": 13.4050 }
+    },
+    {
+      "id": "food-006",
+      "slug": "berliner-pfannkuchen",
+      "name_en": "Berliner Pfannkuchen",
+      "name_local": "Berliner",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "A jelly-filled doughnut, not to be confused with the American 'Berliner'. John F. Kennedy famously said 'Ich bin ein Berliner' (I am a jelly doughnut).",
+      "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Berliner"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Iconic Monuments",
+      "id": "monuments",
+      "items": [
+        {
+          "id": "mon-001",
+          "slug": "brandenburg-gate",
+          "name_en": "Brandenburg Gate",
+          "name_local": "Brandenburger Tor",
+          "category": "sight",
+          "description": "The most iconic symbol of Berlin and German reunification. A neoclassical triumphal arch that has witnessed centuries of history.",
+          "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Brandenburg+Gate",
+          "geo": { "lat": 52.5163, "lng": 13.3777 }
+        },
+        {
+          "id": "mon-002",
+          "slug": "reichstag-building",
+          "name_en": "Reichstag Building",
+          "name_local": "Reichstagsgebäude",
+          "category": "sight",
+          "description": "Germany's parliament building with a stunning glass dome designed by Norman Foster. Free entry but book ahead.",
+          "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Reichstag",
+          "geo": { "lat": 52.5186, "lng": 13.3761 }
+        },
+        {
+          "id": "mon-003",
+          "slug": "tv-tower",
+          "name_en": "TV Tower",
+          "name_local": "Fernsehturm",
+          "category": "sight",
+          "description": "Berlin's tallest structure and a GDR-era icon. The observation deck offers 360° views of the city.",
+          "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=TV+Tower",
+          "geo": { "lat": 52.5208, "lng": 13.4094 }
+        }
+      ]
+    },
+    {
+      "title": "History & The Wall",
+      "id": "history",
+      "items": [
+        {
+          "id": "his-001",
+          "slug": "east-side-gallery",
+          "name_en": "East Side Gallery",
+          "name_local": "East Side Gallery",
+          "category": "sight",
+          "description": "The longest remaining section of the Berlin Wall, now an open-air gallery with murals by artists from around the world.",
+          "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=East+Side+Gallery",
+          "geo": { "lat": 52.5058, "lng": 13.4397 }
+        },
+        {
+          "id": "his-002",
+          "slug": "checkpoint-charlie",
+          "name_en": "Checkpoint Charlie",
+          "name_local": "Checkpoint Charlie",
+          "category": "sight",
+          "description": "The famous Cold War crossing point between East and West Berlin. Now a touristy photo op, but historically significant.",
+          "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Checkpoint+Charlie",
+          "geo": { "lat": 52.5075, "lng": 13.3903 }
+        },
+        {
+          "id": "his-003",
+          "slug": "memorial-murdered-jews",
+          "name_en": "Memorial to the Murdered Jews of Europe",
+          "name_local": "Denkmal für die ermordeten Juden Europas",
+          "category": "sight",
+          "description": "A haunting field of 2,711 concrete slabs. A powerful and somber tribute to Holocaust victims.",
+          "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Holocaust+Memorial",
+          "geo": { "lat": 52.5139, "lng": 13.3786 }
+        }
+      ]
+    },
+    {
+      "title": "World-Class Museums",
+      "id": "museums",
+      "items": [
+        {
+          "id": "mus-001",
+          "slug": "museum-island",
+          "name_en": "Museum Island",
+          "name_local": "Museumsinsel",
+          "category": "sight",
+          "description": "A UNESCO World Heritage site with five world-renowned museums, including the Pergamon and Neues Museum.",
+          "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Museum+Island",
+          "geo": { "lat": 52.5210, "lng": 13.3986 }
+        },
+        {
+          "id": "mus-002",
+          "slug": "topography-of-terror",
+          "name_en": "Topography of Terror",
+          "name_local": "Topographie des Terrors",
+          "category": "sight",
+          "description": "A chilling documentation center built on the site of the former Gestapo and SS headquarters. Free entry.",
+          "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Topography+of+Terror",
+          "geo": { "lat": 52.5061, "lng": 13.3830 }
+        }
+      ]
+    }
+  ]
+}
