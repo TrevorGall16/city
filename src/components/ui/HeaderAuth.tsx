@@ -6,17 +6,17 @@
  */
 
 import { useState, useEffect } from 'react'
+import { useRouter } from 'next/navigation'
 import { useAuth } from '@/components/providers/AuthProvider'
 import { LoginModal } from './LoginModal'
-import { ProfileModal } from './ProfileModal'
 import { ThemeToggle } from './ThemeToggle'
-import { User, LogOut, Settings } from 'lucide-react'
+import { User, LogOut, UserCircle } from 'lucide-react'
 import { createClient } from '@/lib/supabase/client'
 
 export function HeaderAuth() {
   const { user } = useAuth()
+  const router = useRouter()
   const [showLoginModal, setShowLoginModal] = useState(false)
-  const [showProfileModal, setShowProfileModal] = useState(false)
   const [showUserMenu, setShowUserMenu] = useState(false)
   const [displayName, setDisplayName] = useState<string | null>(null)
 
@@ -47,24 +47,7 @@ export function HeaderAuth() {
     const supabase = createClient()
     await supabase.auth.signOut()
     setShowUserMenu(false)
-  }
-
-  const handleProfileModalClose = () => {
-    setShowProfileModal(false)
-    // Reload display name after profile update
-    if (user) {
-      const supabase = createClient()
-      supabase
-        .from('profiles')
-        .select('display_name')
-        .eq('id', user.id)
-        .single()
-        .then(({ data }) => {
-          if (data?.display_name) {
-            setDisplayName(data.display_name)
-          }
-        })
-    }
+    router.push('/')
   }
 
   if (!user) {
@@ -129,12 +112,12 @@ export function HeaderAuth() {
             <button
               onClick={() => {
                 setShowUserMenu(false)
-                setShowProfileModal(true)
+                router.push('/profile')
               }}
               className="w-full px-4 py-2 text-left text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 flex items-center gap-2"
             >
-              <Settings className="w-4 h-4" />
-              Profile Settings
+              <UserCircle className="w-4 h-4" />
+              My Profile
             </button>
 
             <button
@@ -142,14 +125,11 @@ export function HeaderAuth() {
               className="w-full px-4 py-2 text-left text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 flex items-center gap-2"
             >
               <LogOut className="w-4 h-4" />
-              Sign Out
+              Log Out
             </button>
           </div>
         </>
       )}
-
-      {/* Profile Modal */}
-      <ProfileModal isOpen={showProfileModal} onClose={handleProfileModalClose} />
     </div>
   )
 }
