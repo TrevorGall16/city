@@ -16,6 +16,7 @@ interface CityPlacesSectionProps {
   citySlug: string
   sectionTitle: string
   sectionId: string
+  accentText?: string // Country-specific text color for section header
 }
 
 // Extract unique category tags from places
@@ -37,6 +38,7 @@ export function CityPlacesSection({
   citySlug,
   sectionTitle,
   sectionId,
+  accentText,
 }: CityPlacesSectionProps) {
   const supabase = createClient()
   const [activeFilter, setActiveFilter] = useState<FilterCategory>('all')
@@ -44,6 +46,7 @@ export function CityPlacesSection({
 
   // Extract available tags from the data
   const availableTags = extractAvailableTags(places)
+  const headerColor = accentText || 'text-indigo-900 dark:text-white'
 
   // Load favorites from database
   useEffect(() => {
@@ -114,7 +117,7 @@ export function CityPlacesSection({
         className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-slate-50 dark:bg-slate-900"
       >
         <div className="mb-8">
-          <h2 className="text-4xl md:text-5xl font-bold text-indigo-900 dark:text-white mb-2">
+          <h2 className={`text-4xl md:text-5xl font-bold ${headerColor} mb-2`}>
             {sectionTitle}
           </h2>
           {activeFilter !== 'all' && (

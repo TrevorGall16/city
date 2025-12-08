@@ -34,71 +34,69 @@ export default function HomePage() {
 
       {/* Featured Cities Grid - Regional Grouping */}
       <section className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-16 bg-slate-50 dark:bg-slate-900">
-        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-slate-900 dark:text-slate-50">
+        <h2 className="text-2xl md:text-3xl font-bold mb-12 text-slate-900 dark:text-slate-50">
           Explore Cities
         </h2>
 
-        {/* Europe Region */}
-        <div className="mb-12">
-          <h3 className="text-xl font-semibold mb-6 text-slate-800 dark:text-slate-200 flex items-center gap-2">
-            <span className="text-2xl">🇪🇺</span>
-            Europe
-          </h3>
+        {/* 2-Column Regional Grid (Desktop) */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          {/* Europe Region */}
+          <div>
+            <h3 className="text-xl font-semibold mb-8 text-slate-800 dark:text-slate-200 uppercase tracking-wider">
+              Europe
+            </h3>
 
-          {/* France */}
-          <div className="mb-8">
-            <h4 className="text-lg font-medium mb-4 text-slate-700 dark:text-slate-300 flex items-center gap-2">
-              <span className="text-xl">🇫🇷</span>
-              France
-            </h4>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              <CityCard
-                name="Paris"
-                country="France"
-                image="https://placehold.co/800x600/e2e8f0/475569?text=Paris"
-                slug="paris"
-                priority
-              />
+            {/* France */}
+            <div className="mb-10">
+              <h4 className="text-3xl md:text-4xl font-bold mb-6 text-slate-900 dark:text-slate-50">
+                France
+              </h4>
+              <div className="grid grid-cols-1 gap-6">
+                <CityCard
+                  name="Paris"
+                  country="France"
+                  image="https://placehold.co/800x600/e2e8f0/475569?text=Paris"
+                  slug="paris"
+                  priority
+                />
+              </div>
+            </div>
+
+            {/* Germany */}
+            <div className="mb-10">
+              <h4 className="text-3xl md:text-4xl font-bold mb-6 text-slate-900 dark:text-slate-50">
+                Germany
+              </h4>
+              <div className="grid grid-cols-1 gap-6">
+                <CityCard
+                  name="Berlin"
+                  country="Germany"
+                  image="https://placehold.co/800x600/e2e8f0/475569?text=Berlin"
+                  slug="berlin"
+                />
+              </div>
             </div>
           </div>
 
-          {/* Germany */}
-          <div className="mb-8">
-            <h4 className="text-lg font-medium mb-4 text-slate-700 dark:text-slate-300 flex items-center gap-2">
-              <span className="text-xl">🇩🇪</span>
-              Germany
-            </h4>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              <CityCard
-                name="Berlin"
-                country="Germany"
-                image="https://placehold.co/800x600/e2e8f0/475569?text=Berlin"
-                slug="berlin"
-              />
-            </div>
-          </div>
-        </div>
+          {/* Asia Region */}
+          <div>
+            <h3 className="text-xl font-semibold mb-8 text-slate-800 dark:text-slate-200 uppercase tracking-wider">
+              Asia
+            </h3>
 
-        {/* Asia Region */}
-        <div className="mb-12">
-          <h3 className="text-xl font-semibold mb-6 text-slate-800 dark:text-slate-200 flex items-center gap-2">
-            <span className="text-2xl">🌏</span>
-            Asia
-          </h3>
-
-          {/* Japan */}
-          <div className="mb-8">
-            <h4 className="text-lg font-medium mb-4 text-slate-700 dark:text-slate-300 flex items-center gap-2">
-              <span className="text-xl">🇯🇵</span>
-              Japan
-            </h4>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              <CityCard
-                name="Tokyo"
-                country="Japan"
-                image="https://placehold.co/1920x1080/ffffff/dc143c?text=Tokyo"
-                slug="tokyo"
-              />
+            {/* Japan */}
+            <div className="mb-10">
+              <h4 className="text-3xl md:text-4xl font-bold mb-6 text-slate-900 dark:text-slate-50">
+                Japan
+              </h4>
+              <div className="grid grid-cols-1 gap-6">
+                <CityCard
+                  name="Tokyo"
+                  country="Japan"
+                  image="https://placehold.co/1920x1080/ffffff/dc143c?text=Tokyo"
+                  slug="tokyo"
+                />
+              </div>
             </div>
           </div>
         </div>
