@@ -10,6 +10,7 @@ import { AuthProvider } from '@/components/providers/AuthProvider'
 import { AdProvider } from '@/components/ads/AdProvider'
 import { ThemeProvider } from '@/components/providers/ThemeProvider'
 import { HeaderAuth } from '@/components/ui/HeaderAuth'
+import { Footer } from '@/components/ui/Footer'
 import './globals.css'
 import type { Metadata } from 'next'
 
@@ -26,8 +27,8 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'City Sheet - Your Travel Cheat Sheet',
-  description: 'Curated travel recommendations with instant translation for international travelers',
+  title: 'CitySheet - The Ultimate Travel Guides',
+  description: 'Curated travel recommendations with instant translation for international travelers. Navigate foreign cities without language barriers.',
 }
 
 export default function RootLayout({
@@ -69,55 +70,7 @@ export default function RootLayout({
         </main>
 
         {/* Footer */}
-        <footer className="bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-12">
-          <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {/* About */}
-              <div>
-                <h3 className="font-semibold text-slate-900 dark:text-slate-50 mb-3">
-                  City Sheet
-                </h3>
-                <p className="text-sm text-slate-600 dark:text-slate-400">
-                  Your travel cheat sheet with instant translation.
-                  Navigate foreign cities without language barriers.
-                </p>
-              </div>
-
-              {/* Links */}
-              <div>
-                <h3 className="font-semibold text-slate-900 dark:text-slate-50 mb-3">
-                  Explore
-                </h3>
-                <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
-                  <li>
-                    <Link href="/" className="hover:text-indigo-600 dark:hover:text-indigo-400">
-                      All Cities
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/city/paris" className="hover:text-indigo-600 dark:hover:text-indigo-400">
-                      Paris
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Info */}
-              <div>
-                <h3 className="font-semibold text-slate-900 dark:text-slate-50 mb-3">
-                  Info
-                </h3>
-<p className="text-sm text-slate-600" suppressHydrationWarning>
-  Built with Next.js, Tailwind CSS, and Supabase.
-</p>
-              </div>
-            </div>
-
-            <div className="mt-8 pt-8 border-t border-slate-200 dark:border-slate-800 text-center text-sm text-slate-500 dark:text-slate-400">
-              © {new Date().getFullYear()} City Sheet. All rights reserved.
-            </div>
-          </div>
-        </footer>
+        <Footer />
             </AdProvider>
           </AuthProvider>
         </ThemeProvider>
