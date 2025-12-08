@@ -1,0 +1,294 @@
+{
+  "id": "city-003",
+  "name": "Tokyo",
+  "slug": "tokyo",
+  "country": "Japan",
+  "country_code": "jp",
+  "hero_image": "https://placehold.co/1920x1080/ffffff/dc143c?text=Tokyo",
+  "intro_vibe": "The Electric Capital: Where ancient tradition meets neon-lit future.",
+  "general_info": {
+    "population": "~14 million (city) / ~38 million (metro area)",
+    "is_capital": true,
+    "description": "Tokyo is the capital of Japan and the world's most populous metropolitan area. A city of contrasts, Tokyo seamlessly blends ancient temples with skyscrapers, traditional tea ceremonies with cutting-edge technology, and serene gardens with the chaotic energy of Shibuya Crossing."
+  },
+  "stats": {
+    "currency": "JPY",
+    "plug_type": "Type A/B"
+  },
+  "weather_breakdown": [
+    { "id": 1, "name": "January", "temp": "0°C - 10°C", "vibe": "Cold & Dry", "pros": ["Clear skies", "Winter sales", "Fewer tourists"], "cons": ["Cold", "Short days"], "clothing": "Winter coat, layers" },
+    { "id": 2, "name": "February", "temp": "1°C - 10°C", "vibe": "Still Cold", "pros": ["Plum blossoms", "Lower prices", "Clear weather"], "cons": ["Cold winds", "Dry air"], "clothing": "Warm jacket, scarf" },
+    { "id": 3, "name": "March", "temp": "5°C - 14°C", "vibe": "Spring Awakening", "pros": ["Cherry blossom season starts", "Warmer days", "Festivals"], "cons": ["Crowds at parks", "Variable weather"], "clothing": "Light jacket, layers" },
+    { "id": 4, "name": "April", "temp": "10°C - 19°C", "vibe": "Peak Sakura", "pros": ["Full cherry blossoms", "Perfect weather", "Hanami parties"], "cons": ["Very crowded", "High prices"], "clothing": "Light layers, comfortable shoes" },
+    { "id": 5, "name": "May", "temp": "14°C - 23°C", "vibe": "Fresh & Green", "pros": ["Golden Week holidays", "Pleasant weather", "Wisteria blooms"], "cons": ["Golden Week crowds", "Humid starts"], "clothing": "T-shirts, light jacket" },
+    { "id": 6, "name": "June", "temp": "18°C - 26°C", "vibe": "Rainy Season", "pros": ["Hydrangea flowers", "Fewer tourists", "Cooler than summer"], "cons": ["Daily rain", "High humidity"], "clothing": "Rain jacket, umbrella" },
+    { "id": 7, "name": "July", "temp": "22°C - 30°C", "vibe": "Hot & Humid", "pros": ["Festivals (Tanabata)", "Summer energy", "Beach trips nearby"], "cons": ["Extreme heat", "Humid", "Crowded"], "clothing": "Light clothes, sunscreen" },
+    { "id": 8, "name": "August", "temp": "23°C - 31°C", "vibe": "Peak Summer", "pros": ["Fireworks festivals", "Obon holidays", "Summer foods"], "cons": ["Hottest month", "Typhoon season"], "clothing": "Very light clothes, hat" },
+    { "id": 9, "name": "September", "temp": "20°C - 27°C", "vibe": "Transition", "pros": ["Cooler than summer", "Autumn begins", "Less crowded"], "cons": ["Typhoons", "Still humid"], "clothing": "Light layers, rain gear" },
+    { "id": 10, "name": "October", "temp": "15°C - 22°C", "vibe": "Golden Autumn", "pros": ["Perfect weather", "Autumn foliage starts", "Comfortable walking"], "cons": ["Crowds increase", "Prices rise"], "clothing": "Light jacket, comfortable shoes" },
+    { "id": 11, "name": "November", "temp": "9°C - 17°C", "vibe": "Colorful", "pros": ["Peak autumn colors", "Clear skies", "Koyo viewing"], "cons": ["Colder evenings", "Tourist season"], "clothing": "Warm jacket, layers" },
+    { "id": 12, "name": "December", "temp": "4°C - 12°C", "vibe": "Festive", "pros": ["Christmas illuminations", "New Year prep", "Clear weather"], "cons": ["Cold", "Expensive holidays"], "clothing": "Winter coat, warm layers" }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "Bow for Greetings: A slight bow (15°) is standard. Deep bows (45°) are for apologies or gratitude.",
+      "No Tipping: Tipping is considered rude. Service is included in the price.",
+      "Shoes Off Indoors: Remove shoes when entering homes, ryokan, temples, and some restaurants.",
+      "Quiet on Trains: No phone calls on trains. Keep your voice low and respectful.",
+      "Chopstick Etiquette: Never stick chopsticks upright in rice (funeral practice) or pass food chopstick-to-chopstick."
+    ],
+    "essential_phrases": [
+      { "src": "Hello", "local": "こんにちは (Konnichiwa)", "phonetic": "kon-nee-chee-wah" },
+      { "src": "Thank you", "local": "ありがとうございます (Arigatou gozaimasu)", "phonetic": "ah-ree-gah-toh goh-zai-mahs" },
+      { "src": "Excuse me", "local": "すみません (Sumimasen)", "phonetic": "soo-mee-mah-sen" },
+      { "src": "I don't understand", "local": "わかりません (Wakarimasen)", "phonetic": "wah-kah-ree-mah-sen" },
+      { "src": "The bill please", "local": "お会計お願いします (Okaikei onegaishimasu)", "phonetic": "oh-kai-keh oh-neh-gai-shee-mahs" }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Shibuya",
+      "vibe": "Youth & Energy",
+      "description": "The beating heart of Tokyo's youth culture. Famous for the busiest crossing in the world, trendy fashion, and neon lights.",
+      "highlights": ["Shibuya Crossing", "Hachiko Statue", "Center Gai street"]
+    },
+    {
+      "name": "Shinjuku",
+      "vibe": "Neon Metropolis",
+      "description": "Tokyo's busiest district with skyscrapers, entertainment, and the serene Shinjuku Gyoen garden as an oasis.",
+      "highlights": ["Kabukicho nightlife", "Tokyo Metropolitan Building", "Omoide Yokocho"]
+    },
+    {
+      "name": "Asakusa",
+      "vibe": "Traditional Tokyo",
+      "description": "Old Tokyo preserved. Historic temples, traditional shops, and the nostalgic atmosphere of Edo-era Japan.",
+      "highlights": ["Senso-ji Temple", "Nakamise Shopping Street", "Rickshaws"]
+    },
+    {
+      "name": "Harajuku",
+      "vibe": "Fashion & Cute Culture",
+      "description": "The epicenter of kawaii culture, street fashion, and youth trends. Takeshita Street is the heart of organized chaos.",
+      "highlights": ["Takeshita Street", "Meiji Shrine", "Cat Street"]
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Getting Around",
+      "icon": "Train",
+      "summary": "Tokyo's train system is legendary. Clean, punctual, and covers everywhere.",
+      "details": [
+        "JR Yamanote Line: Circular line connecting major stations (Shibuya, Shinjuku, Tokyo Station).",
+        "Tokyo Metro: 13 lines covering the city. Get a Suica or Pasmo card.",
+        "Shinkansen: Bullet trains for day trips (Kyoto in 2.5 hours).",
+        "Google Maps: Essential for navigating the complex train system."
+      ]
+    },
+    {
+      "id": "logistics-scams",
+      "slug": "common-scams",
+      "title": "Scams to Avoid",
+      "icon": "AlertTriangle",
+      "summary": "Tokyo is extremely safe, but a few tourist traps exist.",
+      "details": [
+        "Kabukicho Touts: Avoid aggressive club promoters in Shinjuku's red-light district.",
+        "Overpriced Bars: Some hostess bars charge ¥100,000+ for a drink. Check prices before entering.",
+        "Fake Monks: Don't accept 'blessings' from monks who demand payment."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "Safety Basics",
+      "icon": "Shield",
+      "summary": "Tokyo is one of the safest cities in the world.",
+      "details": [
+        "Lost Items: You'll likely get your wallet/phone back. Check station lost & found.",
+        "Earthquakes: Small quakes are common. Stay calm and follow locals.",
+        "Women: Solo female travel is very safe, even at night."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Apps to Download",
+      "icon": "Smartphone",
+      "summary": "These apps will make Tokyo navigation seamless.",
+      "details": [
+        "Google Maps: Includes train routes, times, and platform numbers.",
+        "Suica App: Digital train card (iPhone only).",
+        "Google Translate: Camera function for reading menus/signs.",
+        "Tabelog: Japanese Yelp for finding top-rated restaurants."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "sushi",
+      "name_en": "Sushi",
+      "name_local": "寿司 (Sushi)",
+      "category": "Food",
+      "is_generic_staple": true,
+      "description": "Fresh fish over vinegared rice. Try conveyor belt sushi (kaiten-zushi) for budget-friendly options or splurge at Tsukiji Market.",
+      "image": "https://placehold.co/800x600/ffffff/dc143c?text=Sushi"
+    },
+    {
+      "id": "food-002",
+      "slug": "ramen",
+      "name_en": "Ramen",
+      "name_local": "ラーメン (Ramen)",
+      "category": "Food",
+      "is_generic_staple": true,
+      "description": "Rich broth, springy noodles, and toppings. Tokyo-style is shoyu (soy sauce) based. Ichiran is famous for solo booths.",
+      "image": "https://placehold.co/800x600/ffffff/dc143c?text=Ramen"
+    },
+    {
+      "id": "food-003",
+      "slug": "tempura",
+      "name_en": "Tempura",
+      "name_local": "天ぷら (Tempura)",
+      "category": "Food",
+      "is_generic_staple": true,
+      "description": "Lightly battered and fried seafood or vegetables. Best enjoyed at specialized tempura restaurants with dipping sauce.",
+      "image": "https://placehold.co/800x600/ffffff/dc143c?text=Tempura"
+    },
+    {
+      "id": "food-004",
+      "slug": "izakaya",
+      "name_en": "Izakaya Experience",
+      "name_local": "居酒屋 (Izakaya)",
+      "category": "Food",
+      "is_generic_staple": true,
+      "description": "Japanese pub with small plates (yakitori, edamame, karaage) and drinks. Casual, loud, and fun.",
+      "image": "https://placehold.co/800x600/ffffff/dc143c?text=Izakaya"
+    },
+    {
+      "id": "food-005",
+      "slug": "convenience-store",
+      "name_en": "Konbini (Convenience Store)",
+      "name_local": "コンビニ (Konbini)",
+      "category": "Food",
+      "is_generic_staple": true,
+      "description": "7-Eleven, Lawson, FamilyMart. Fresh onigiri, bento boxes, and hot oden. Better than most restaurants.",
+      "image": "https://placehold.co/800x600/ffffff/dc143c?text=Konbini"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Iconic Landmarks",
+      "id": "landmarks",
+      "items": [
+        {
+          "id": "land-001",
+          "slug": "shibuya-crossing",
+          "name_en": "Shibuya Crossing",
+          "name_local": "渋谷スクランブル交差点",
+          "category": "Landmark",
+          "description": "The world's busiest pedestrian crossing. Up to 3,000 people cross at once during peak times. View from Starbucks above.",
+          "image": "https://placehold.co/800x600/ffffff/dc143c?text=Shibuya+Crossing",
+          "geo": { "lat": 35.6595, "lng": 139.7004 }
+        },
+        {
+          "id": "land-002",
+          "slug": "tokyo-tower",
+          "name_en": "Tokyo Tower",
+          "name_local": "東京タワー",
+          "category": "Landmark",
+          "description": "Inspired by the Eiffel Tower, this red and white landmark offers city views. Best seen illuminated at night.",
+          "image": "https://placehold.co/800x600/ffffff/dc143c?text=Tokyo+Tower",
+          "geo": { "lat": 35.6586, "lng": 139.7454 }
+        },
+        {
+          "id": "land-003",
+          "slug": "tokyo-skytree",
+          "name_en": "Tokyo Skytree",
+          "name_local": "東京スカイツリー",
+          "category": "Landmark",
+          "description": "The tallest structure in Japan at 634 meters. Observation deck offers 360° views on clear days.",
+          "image": "https://placehold.co/800x600/ffffff/dc143c?text=Tokyo+Skytree",
+          "geo": { "lat": 35.7101, "lng": 139.8107 }
+        }
+      ]
+    },
+    {
+      "title": "Temples & Tradition",
+      "id": "temples",
+      "items": [
+        {
+          "id": "temp-001",
+          "slug": "senso-ji",
+          "name_en": "Senso-ji Temple",
+          "name_local": "浅草寺",
+          "category": "Temple",
+          "description": "Tokyo's oldest temple (628 AD) in Asakusa. Walk through the iconic Kaminarimon Gate and Nakamise shopping street.",
+          "image": "https://placehold.co/800x600/ffffff/dc143c?text=Sensoji",
+          "geo": { "lat": 35.7148, "lng": 139.7967 }
+        },
+        {
+          "id": "temp-002",
+          "slug": "meiji-shrine",
+          "name_en": "Meiji Shrine",
+          "name_local": "明治神宮",
+          "category": "Temple",
+          "description": "Serene Shinto shrine surrounded by forest, dedicated to Emperor Meiji. Traditional weddings are often held here.",
+          "image": "https://placehold.co/800x600/ffffff/dc143c?text=Meiji+Shrine",
+          "geo": { "lat": 35.6764, "lng": 139.6993 }
+        }
+      ]
+    },
+    {
+      "title": "Tech & Modern Art",
+      "id": "tech-art",
+      "items": [
+        {
+          "id": "art-001",
+          "slug": "teamlab-borderless",
+          "name_en": "teamLab Borderless",
+          "name_local": "チームラボボーダレス",
+          "category": "Art",
+          "description": "Digital art museum with immersive, interactive installations. Rooms flow into each other with no boundaries. Book ahead.",
+          "image": "https://placehold.co/800x600/ffffff/dc143c?text=TeamLab",
+          "geo": { "lat": 35.6251, "lng": 139.7751 }
+        },
+        {
+          "id": "tech-001",
+          "slug": "akihabara",
+          "name_en": "Akihabara Electric Town",
+          "name_local": "秋葉原電気街",
+          "category": "Tech",
+          "description": "Otaku paradise. Multi-story electronics stores, anime shops, maid cafes, and retro arcades.",
+          "image": "https://placehold.co/800x600/ffffff/dc143c?text=Akihabara",
+          "geo": { "lat": 35.6984, "lng": 139.7731 }
+        }
+      ]
+    },
+    {
+      "title": "Shopping Districts",
+      "id": "shopping",
+      "items": [
+        {
+          "id": "shop-001",
+          "slug": "harajuku-takeshita",
+          "name_en": "Takeshita Street",
+          "name_local": "竹下通り",
+          "category": "Shopping",
+          "description": "Narrow pedestrian street packed with trendy fashion, crepe stands, and kawaii culture. Weekends are chaotic.",
+          "image": "https://placehold.co/800x600/ffffff/dc143c?text=Takeshita+Street",
+          "geo": { "lat": 35.6702, "lng": 139.7037 }
+        },
+        {
+          "id": "shop-002",
+          "slug": "ginza",
+          "name_en": "Ginza Shopping District",
+          "name_local": "銀座",
+          "category": "Shopping",
+          "description": "Tokyo's upscale shopping area with luxury brands, department stores, and high-end restaurants.",
+          "image": "https://placehold.co/800x600/ffffff/dc143c?text=Ginza",
+          "geo": { "lat": 35.6717, "lng": 139.7645 }
+        }
+      ]
+    }
+  ]
+}

@@ -1,35 +1,52 @@
 /**
  * Category Filter Component
- * Sticky filter bar for filtering places by category
+ * Sticky filter bar for filtering places by category with dynamic tags
  */
 
 'use client'
 
-import { useState } from 'react'
-
-export type FilterCategory = 'all' | 'landmark' | 'museum' | 'food' | 'hidden-gem' | 'favorites'
+export type FilterCategory = string // Now supports dynamic categories from data
 
 interface CategoryFilterProps {
   onFilterChange: (category: FilterCategory) => void
   activeFilter: FilterCategory
+  availableTags: string[] // Dynamic tags from the data
   showFavoritesFilter?: boolean
+}
+
+// Emoji mapping for common categories
+const CATEGORY_EMOJIS: Record<string, string> = {
+  all: '🌍',
+  food: '🍽️',
+  landmark: '🏛️',
+  museum: '🎨',
+  temple: '⛩️',
+  architecture: '🏢',
+  art: '🎭',
+  shopping: '🛍️',
+  tech: '💻',
+  nature: '🌳',
+  favorites: '❤️',
 }
 
 export function CategoryFilter({
   onFilterChange,
   activeFilter,
+  availableTags,
   showFavoritesFilter = true,
 }: CategoryFilterProps) {
-  const categories: { id: FilterCategory; label: string; emoji: string }[] = [
-    { id: 'all', label: 'All', emoji: '🌍' },
-    { id: 'landmark', label: 'Landmarks', emoji: '🏛️' },
-    { id: 'museum', label: 'Museums', emoji: '🎨' },
-    { id: 'food', label: 'Food', emoji: '🍽️' },
-    { id: 'hidden-gem', label: 'Hidden Gems', emoji: '💎' },
+  // Generate categories dynamically from available tags
+  const categories: { id: string; label: string; emoji: string }[] = [
+    { id: 'all', label: 'All', emoji: CATEGORY_EMOJIS.all },
+    ...availableTags.map((tag) => ({
+      id: tag.toLowerCase(),
+      label: tag.charAt(0).toUpperCase() + tag.slice(1),
+      emoji: CATEGORY_EMOJIS[tag.toLowerCase()] || '📍',
+    })),
   ]
 
   if (showFavoritesFilter) {
-    categories.push({ id: 'favorites', label: 'Favorites', emoji: '❤️' })
+    categories.push({ id: 'favorites', label: 'Favorites', emoji: CATEGORY_EMOJIS.favorites })
   }
 
   return (
