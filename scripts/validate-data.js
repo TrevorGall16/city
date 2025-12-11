@@ -122,9 +122,13 @@ async function validateData() {
 
     if (!result.success) {
       console.error(`❌ ${file}: Validation failed`)
-      result.error.errors.forEach(err => {
-        console.error(`   ${err.path.join('.')}: ${err.message}`)
-      })
+      if (result.error && result.error.errors) {
+        result.error.errors.forEach(err => {
+          console.error(`   ${err.path.join('.')}: ${err.message}`)
+        })
+      } else {
+        console.error(`   Error: ${JSON.stringify(result.error)}`)
+      }
       console.error('')
       errors++
     } else {

@@ -1,0 +1,357 @@
+{
+  "id": "city-006",
+  "name": "Los Angeles",
+  "slug": "los-angeles",
+  "country": "United States",
+  "country_code": "us",
+  "hero_image": "https://placehold.co/1920x1080/00bfff/ff1493?text=Los+Angeles",
+  "intro_vibe": "The City of Dreams: Where Hollywood glamour meets beach culture and taco trucks under endless sunshine.",
+  "general_info": {
+    "population": "~4 million (city) / ~13 million (metro area)",
+    "is_capital": false,
+    "description": "Los Angeles is the second-largest city in the United States and the entertainment capital of the world. Famous for Hollywood, beautiful beaches, diverse neighborhoods, and year-round sunshine, LA is a sprawling metropolis where car culture reigns supreme. From celebrity sightings to world-class museums, street tacos to Michelin-starred restaurants, LA offers endless experiences in a city defined by its diversity and creative energy."
+  },
+  "stats": {
+    "currency": "USD",
+    "plug_type": "Type A/B"
+  },
+  "weather_breakdown": [
+    { "id": 1, "name": "January", "temp": "9°C - 20°C", "vibe": "Mild Winter", "pros": ["Less crowded", "Green hills", "Low rates"], "cons": ["Can rain", "Cooler beach weather"], "clothing": "Light jacket, layers" },
+    { "id": 2, "name": "February", "temp": "9°C - 20°C", "vibe": "Fresh & Green", "pros": ["Wildflower super blooms", "Oscar season buzz", "Good weather"], "cons": ["Occasional rain", "Cool evenings"], "clothing": "Layers, light jacket" },
+    { "id": 3, "name": "March", "temp": "11°C - 21°C", "vibe": "Spring Begins", "pros": ["Perfect weather", "Blooming flowers", "Longer days"], "cons": ["Spring break crowds"], "clothing": "T-shirts, light layers" },
+    { "id": 4, "name": "April", "temp": "13°C - 22°C", "vibe": "Ideal", "pros": ["Best weather", "Coachella vibes", "Beach season starts"], "cons": ["Growing crowds", "Higher prices"], "clothing": "Summer clothes, sunscreen" },
+    { "id": 5, "name": "May", "temp": "15°C - 23°C", "vibe": "May Grey", "pros": ["Mild temps", "Perfect for hiking", "Beach not too hot"], "cons": ["Marine layer (cloudy mornings)", "June Gloom coming"], "clothing": "Layers for morning fog" },
+    { "id": 6, "name": "June", "temp": "17°C - 25°C", "vibe": "June Gloom", "pros": ["Cool and comfortable", "Summer events begin", "School's out"], "cons": ["Overcast mornings", "Beach can be cool"], "clothing": "Layers, sweatshirt for mornings" },
+    { "id": 7, "name": "July", "temp": "19°C - 28°C", "vibe": "Peak Summer", "pros": ["4th of July fireworks", "Beach weather", "Concerts & festivals"], "cons": ["Crowded beaches", "High season prices"], "clothing": "Beach clothes, sunhat" },
+    { "id": 8, "name": "August", "temp": "19°C - 29°C", "vibe": "Hot & Busy", "pros": ["Warmest weather", "Outdoor cinema", "Long beach days"], "cons": ["Very crowded", "Heatwaves inland"], "clothing": "Minimal clothes, lots of sunscreen" },
+    { "id": 9, "name": "September", "temp": "18°C - 28°C", "vibe": "Best Beach Month", "pros": ["Warmest ocean temps", "Fewer crowds", "Perfect weather"], "cons": ["Heatwaves possible", "Fire season"], "clothing": "Summer clothes, beach ready" },
+    { "id": 10, "name": "October", "temp": "16°C - 26°C", "vibe": "Golden Autumn", "pros": ["Beautiful weather", "Halloween fun", "Fewer tourists"], "cons": ["Santa Ana winds", "Fire risk"], "clothing": "Light layers, sunglasses" },
+    { "id": 11, "name": "November", "temp": "12°C - 23°C", "vibe": "Comfortable", "pros": ["Great hiking weather", "Thanksgiving vibes", "Low rates"], "cons": ["Shorter days", "Some rain"], "clothing": "Light jacket, comfortable shoes" },
+    { "id": 12, "name": "December", "temp": "9°C - 20°C", "vibe": "Festive", "pros": ["Holiday lights", "Rose Bowl prep", "Pleasant weather"], "cons": ["Can rain", "High hotel prices"], "clothing": "Layers, rain jacket" }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "Car Culture: LA is designed for cars. Public transit exists but is limited. Rent a car or use Uber/Lyft to get around efficiently.",
+      "Tipping is Expected: 18-20% at restaurants, $1-2 per drink at bars, 15-20% for taxis/Uber. Servers depend on tips for income.",
+      "Sales Tax Added at Register: Prices don't include tax (9.5% in LA). Your bill will be higher than the menu price.",
+      "Californians Are Chill: People are generally relaxed, friendly, and informal. 'How are you?' is a greeting, not a real question.",
+      "Healthy Living Culture: Juice bars, yoga studios, and vegan restaurants are everywhere. Wellness is taken seriously.",
+      "Traffic is No Joke: Rush hour (7-10am, 4-7pm) turns a 20-minute drive into 90 minutes. Plan accordingly or use Waze."
+    ],
+    "essential_phrases": [
+      { "src": "Hello", "local": "Hey / What's up", "phonetic": "standard American" },
+      { "src": "Thank you", "local": "Thanks / Appreciate it", "phonetic": "standard" },
+      { "src": "Excuse me", "local": "Sorry / Pardon me", "phonetic": "standard" },
+      { "src": "Where is...?", "local": "Where's... at?", "phonetic": "standard" },
+      { "src": "Can I get...", "local": "Can I get...", "phonetic": "standard (common ordering phrase)" }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Hollywood",
+      "vibe": "Touristy but Iconic",
+      "description": "The heart of the entertainment industry. Walk of Fame, Chinese Theatre, and Dolby Theatre (Oscars). Touristy but essential for first-timers.",
+      "highlights": ["Hollywood Walk of Fame", "TCL Chinese Theatre", "Hollywood Sign views"]
+    },
+    {
+      "name": "Santa Monica & Venice",
+      "vibe": "Beach & Boardwalk",
+      "description": "Santa Monica has the iconic pier, beach, and upscale Third Street Promenade. Venice Beach is eclectic with street performers, Muscle Beach, and the skate park.",
+      "highlights": ["Santa Monica Pier", "Venice Beach Boardwalk", "Abbot Kinney shops"]
+    },
+    {
+      "name": "Beverly Hills & West Hollywood",
+      "vibe": "Luxury & Nightlife",
+      "description": "Beverly Hills is all about Rodeo Drive luxury shopping and celebrity homes. West Hollywood (WeHo) is the LGBTQ+ hub with amazing nightlife and restaurants.",
+      "highlights": ["Rodeo Drive", "Sunset Strip clubs", "WeHo nightlife"]
+    },
+    {
+      "name": "Downtown LA",
+      "vibe": "Urban & Artsy",
+      "description": "Revitalized downtown with the Arts District, Grand Central Market, museums, and rooftop bars. Grittier but vibrant and culturally diverse.",
+      "highlights": ["Grand Central Market", "Arts District murals", "Broad Museum"]
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Getting Around",
+      "icon": "Train",
+      "summary": "LA is a car city. Rent a car or rely on Uber/Lyft for maximum flexibility.",
+      "details": [
+        "Car Rental: The best way to explore LA. Book ahead for better rates. Be prepared for traffic and parking fees.",
+        "Uber / Lyft: Widely available and often cheaper than taxis. Surge pricing during peak hours.",
+        "Metro: Limited but improving. Red/Purple Lines connect Hollywood, Downtown, and Koreatown. Not practical for most tourists.",
+        "Buses: Extensive but slow. Metro Rapid lines are faster. Best for short local trips.",
+        "Biking: Santa Monica and Venice are bike-friendly. Bike rentals available along the beach path.",
+        "Parking: Expect to pay $5-30 for parking. Street parking is hard to find. Read signs carefully to avoid tickets."
+      ]
+    },
+    {
+      "id": "logistics-scams",
+      "slug": "common-scams",
+      "title": "Scams to Avoid",
+      "icon": "AlertTriangle",
+      "summary": "LA is generally safe, but tourist traps exist, especially in Hollywood.",
+      "details": [
+        "Hollywood Costumed Characters: Aggressive Elmo, Batman, etc., demand tips after photos. Ignore or negotiate price beforehand.",
+        "CD Scammers: People hand you 'free' mixtape CDs, then demand $20. Don't accept anything 'free' on the street.",
+        "Parking Meter Scams: Fake 'out of order' signs trick you into overpaying attendants. Use official meters only.",
+        "Fake Tickets: Only buy attraction tickets from official sources. Beware of street sellers near theme parks."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "Safety Basics",
+      "icon": "Shield",
+      "summary": "LA is generally safe in tourist areas, but use common sense in certain neighborhoods.",
+      "details": [
+        "Avoid Skid Row: The area east of Downtown LA has a large homeless population. Stay west of Main Street.",
+        "Car Break-Ins: Don't leave valuables visible in your car. Use valet parking or secure lots in tourist areas.",
+        "Beach at Night: Most beaches close at sunset. Avoid after dark, especially Venice and Santa Monica.",
+        "Earthquakes: Small quakes are common. If a big one hits, drop, cover, and hold on. Stay away from windows.",
+        "Emergency Number: 911 for police, fire, and ambulance."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Apps to Download",
+      "icon": "Smartphone",
+      "summary": "These apps will make navigating LA much easier.",
+      "details": [
+        "Waze: Essential for traffic navigation. Avoids traffic and finds fastest routes.",
+        "Uber / Lyft: Ride-hailing apps. Cheaper and more convenient than taxis.",
+        "SpotHero: Find and reserve parking ahead of time at discounted rates.",
+        "OpenTable: Restaurant reservations. Many popular spots book up quickly.",
+        "Yelp: Find the best restaurants, bars, and attractions with user reviews."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "in-n-out-burger",
+      "name_en": "In-N-Out Burger",
+      "name_local": "In-N-Out",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "California's cult burger chain. Simple menu, fresh ingredients, and a secret menu. Order 'Animal Style' for grilled onions, extra sauce, and pickles.",
+      "image": "https://placehold.co/800x600/00bfff/ff1493?text=In-N-Out"
+    },
+    {
+      "id": "food-002",
+      "slug": "tacos",
+      "name_en": "Street Tacos",
+      "name_local": "Tacos",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "LA has some of the best Mexican food in the US. Street tacos with carne asada, al pastor, or carnitas are cheap, delicious, and everywhere. Try a taco truck.",
+      "image": "https://placehold.co/800x600/00bfff/ff1493?text=Tacos"
+    },
+    {
+      "id": "food-003",
+      "slug": "korean-bbq",
+      "name_en": "Korean BBQ",
+      "name_local": "Korean BBQ",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "LA's Koreatown has the best Korean BBQ outside of Korea. All-you-can-eat (AYCE) options let you grill your own meat at the table. Go hungry.",
+      "image": "https://placehold.co/800x600/00bfff/ff1493?text=Korean+BBQ"
+    },
+    {
+      "id": "food-004",
+      "slug": "coffee-culture",
+      "name_en": "LA Coffee Culture",
+      "name_local": "Coffee",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "LA takes coffee seriously. Third-wave coffee shops like Blue Bottle, Intelligentsia, and local roasters serve meticulously crafted lattes and pour-overs.",
+      "image": "https://placehold.co/800x600/00bfff/ff1493?text=Coffee"
+    },
+    {
+      "id": "food-005",
+      "slug": "grand-central-market",
+      "name_en": "Grand Central Market",
+      "name_local": "Grand Central Market",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Historic downtown food hall with diverse vendors. Eggslut (breakfast sandwiches), Sarita's Pupuseria, and Ramen Hood are must-tries.",
+      "image": "https://placehold.co/800x600/00bfff/ff1493?text=Grand+Central+Market"
+    },
+    {
+      "id": "food-006",
+      "slug": "acai-bowls",
+      "name_en": "Acai Bowls",
+      "name_local": "Acai Bowls",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "LA's health-conscious culture means acai bowls are everywhere. Blended acai berries topped with granola, fruit, and honey. Perfect post-beach snack.",
+      "image": "https://placehold.co/800x600/00bfff/ff1493?text=Acai+Bowl"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Iconic Landmarks",
+      "id": "landmarks",
+      "items": [
+        {
+          "id": "land-001",
+          "slug": "hollywood-sign",
+          "name_en": "Hollywood Sign",
+          "name_local": "Hollywood Sign",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "The iconic white letters on Mount Lee. Hike to Griffith Observatory for the best views, or take the Lake Hollywood Park trail to get closer.",
+          "image": "https://placehold.co/800x600/00bfff/ff1493?text=Hollywood+Sign",
+          "geo": { "lat": 34.1341, "lng": -118.3215 }
+        },
+        {
+          "id": "land-002",
+          "slug": "santa-monica-pier",
+          "name_en": "Santa Monica Pier",
+          "name_local": "Santa Monica Pier",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Iconic pier with an amusement park, aquarium, and restaurants. The Ferris wheel and arcade are family favorites. Great sunset spot.",
+          "image": "https://placehold.co/800x600/00bfff/ff1493?text=Santa+Monica+Pier",
+          "geo": { "lat": 34.0089, "lng": -118.4974 }
+        },
+        {
+          "id": "land-003",
+          "slug": "griffith-observatory",
+          "name_en": "Griffith Observatory",
+          "name_local": "Griffith Observatory",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Art Deco observatory with free telescopes, planetarium shows, and the best panoramic views of LA and the Hollywood Sign.",
+          "image": "https://placehold.co/800x600/00bfff/ff1493?text=Griffith+Observatory",
+          "geo": { "lat": 34.1184, "lng": -118.3004 }
+        }
+      ]
+    },
+    {
+      "title": "Museums & Culture",
+      "id": "museums",
+      "items": [
+        {
+          "id": "mus-001",
+          "slug": "getty-center",
+          "name_en": "Getty Center",
+          "name_local": "Getty Center",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Stunning hilltop museum with European paintings, sculptures, and beautiful gardens. Free admission (parking $20). Amazing views of the city.",
+          "image": "https://placehold.co/800x600/00bfff/ff1493?text=Getty+Center",
+          "geo": { "lat": 34.0780, "lng": -118.4741 }
+        },
+        {
+          "id": "mus-002",
+          "slug": "lacma",
+          "name_en": "LACMA (Los Angeles County Museum of Art)",
+          "name_local": "LACMA",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Largest art museum in the western US. Famous for the 'Urban Light' lamp installation outside. Diverse collection spanning centuries.",
+          "image": "https://placehold.co/800x600/00bfff/ff1493?text=LACMA",
+          "geo": { "lat": 34.0639, "lng": -118.3592 }
+        },
+        {
+          "id": "mus-003",
+          "slug": "broad-museum",
+          "name_en": "The Broad",
+          "name_local": "The Broad",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Contemporary art museum downtown with works by Warhol, Basquiat, and Kusama's Infinity Mirrored Room. Free admission but book ahead.",
+          "image": "https://placehold.co/800x600/00bfff/ff1493?text=The+Broad",
+          "geo": { "lat": 34.0545, "lng": -118.2506 }
+        }
+      ]
+    },
+    {
+      "title": "Beaches",
+      "id": "beaches",
+      "items": [
+        {
+          "id": "beach-001",
+          "slug": "venice-beach",
+          "name_en": "Venice Beach",
+          "name_local": "Venice Beach",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Eclectic beach with street performers, Muscle Beach gym, skate park, and bohemian vibes. More chaotic and colorful than Santa Monica.",
+          "image": "https://placehold.co/800x600/00bfff/ff1493?text=Venice+Beach",
+          "geo": { "lat": 33.9850, "lng": -118.4695 }
+        },
+        {
+          "id": "beach-002",
+          "slug": "malibu",
+          "name_en": "Malibu Beaches",
+          "name_local": "Malibu",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Upscale beach town with beautiful coastal scenery. Zuma Beach is great for families, El Matador has dramatic cliffs and sea stacks.",
+          "image": "https://placehold.co/800x600/00bfff/ff1493?text=Malibu",
+          "geo": { "lat": 34.0259, "lng": -118.7798 }
+        }
+      ]
+    },
+    {
+      "title": "Shopping Districts",
+      "id": "shopping",
+      "items": [
+        {
+          "id": "shop-001",
+          "slug": "rodeo-drive",
+          "name_en": "Rodeo Drive",
+          "name_local": "Rodeo Drive",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "World-famous luxury shopping street in Beverly Hills. Gucci, Prada, Chanel, and more. Great for window shopping and celebrity spotting.",
+          "image": "https://placehold.co/800x600/00bfff/ff1493?text=Rodeo+Drive",
+          "geo": { "lat": 34.0682, "lng": -118.4011 }
+        },
+        {
+          "id": "shop-002",
+          "slug": "melrose-avenue",
+          "name_en": "Melrose Avenue",
+          "name_local": "Melrose Avenue",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Trendy shopping street with vintage stores, streetwear boutiques, and Instagram-worthy murals (like the pink Paul Smith wall).",
+          "image": "https://placehold.co/800x600/00bfff/ff1493?text=Melrose+Avenue",
+          "geo": { "lat": 34.0837, "lng": -118.3496 }
+        }
+      ]
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "US Travel Adapter (Type A/B)",
+      "image": "https://placehold.co/400x400/00bfff/ff1493?text=US+Adapter",
+      "reason": "US plugs have two flat pins. If you're from Europe or Asia, you'll need an adapter for all your devices and chargers.",
+      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter+type+a",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-002",
+      "title": "Sunscreen SPF 50+",
+      "image": "https://placehold.co/400x400/00bfff/ff1493?text=Sunscreen",
+      "reason": "LA sunshine is no joke. UV rays are intense year-round. Sunscreen is essential for beach days, hikes, and outdoor sightseeing.",
+      "amazon_url": "https://www.amazon.com/s?k=sunscreen+spf+50",
+      "category": "health"
+    },
+    {
+      "id": "aff-003",
+      "title": "Reusable Water Bottle",
+      "image": "https://placehold.co/400x400/00bfff/ff1493?text=Water+Bottle",
+      "reason": "Stay hydrated in the dry California heat. Refill at water fountains instead of buying expensive plastic bottles.",
+      "amazon_url": "https://www.amazon.com/s?k=reusable+water+bottle",
+      "category": "outdoors"
+    }
+  ]
+}

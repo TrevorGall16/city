@@ -129,7 +129,7 @@
       "slug": "sushi",
       "name_en": "Sushi",
       "name_local": "寿司 (Sushi)",
-      "category": "Food",
+      "category": "food",
       "is_generic_staple": true,
       "description": "Fresh fish over vinegared rice. Try conveyor belt sushi (kaiten-zushi) for budget-friendly options or splurge at Tsukiji Market.",
       "image": "https://placehold.co/800x600/ffffff/dc143c?text=Sushi"
@@ -139,7 +139,7 @@
       "slug": "ramen",
       "name_en": "Ramen",
       "name_local": "ラーメン (Ramen)",
-      "category": "Food",
+      "category": "food",
       "is_generic_staple": true,
       "description": "Rich broth, springy noodles, and toppings. Tokyo-style is shoyu (soy sauce) based. Ichiran is famous for solo booths.",
       "image": "https://placehold.co/800x600/ffffff/dc143c?text=Ramen"
@@ -149,7 +149,7 @@
       "slug": "tempura",
       "name_en": "Tempura",
       "name_local": "天ぷら (Tempura)",
-      "category": "Food",
+      "category": "food",
       "is_generic_staple": true,
       "description": "Lightly battered and fried seafood or vegetables. Best enjoyed at specialized tempura restaurants with dipping sauce.",
       "image": "https://placehold.co/800x600/ffffff/dc143c?text=Tempura"
@@ -159,7 +159,7 @@
       "slug": "izakaya",
       "name_en": "Izakaya Experience",
       "name_local": "居酒屋 (Izakaya)",
-      "category": "Food",
+      "category": "food",
       "is_generic_staple": true,
       "description": "Japanese pub with small plates (yakitori, edamame, karaage) and drinks. Casual, loud, and fun.",
       "image": "https://placehold.co/800x600/ffffff/dc143c?text=Izakaya"
@@ -169,7 +169,7 @@
       "slug": "convenience-store",
       "name_en": "Konbini (Convenience Store)",
       "name_local": "コンビニ (Konbini)",
-      "category": "Food",
+      "category": "food",
       "is_generic_staple": true,
       "description": "7-Eleven, Lawson, FamilyMart. Fresh onigiri, bento boxes, and hot oden. Better than most restaurants.",
       "image": "https://placehold.co/800x600/ffffff/dc143c?text=Konbini"
@@ -185,7 +185,8 @@
           "slug": "shibuya-crossing",
           "name_en": "Shibuya Crossing",
           "name_local": "渋谷スクランブル交差点",
-          "category": "Landmark",
+          "category": "sight",
+          "is_generic_staple": false,
           "description": "The world's busiest pedestrian crossing. Up to 3,000 people cross at once during peak times. View from Starbucks above.",
           "image": "https://placehold.co/800x600/ffffff/dc143c?text=Shibuya+Crossing",
           "geo": { "lat": 35.6595, "lng": 139.7004 }
@@ -195,7 +196,8 @@
           "slug": "tokyo-tower",
           "name_en": "Tokyo Tower",
           "name_local": "東京タワー",
-          "category": "Landmark",
+          "category": "sight",
+          "is_generic_staple": false,
           "description": "Inspired by the Eiffel Tower, this red and white landmark offers city views. Best seen illuminated at night.",
           "image": "https://placehold.co/800x600/ffffff/dc143c?text=Tokyo+Tower",
           "geo": { "lat": 35.6586, "lng": 139.7454 }
@@ -205,7 +207,8 @@
           "slug": "tokyo-skytree",
           "name_en": "Tokyo Skytree",
           "name_local": "東京スカイツリー",
-          "category": "Landmark",
+          "category": "sight",
+          "is_generic_staple": false,
           "description": "The tallest structure in Japan at 634 meters. Observation deck offers 360° views on clear days.",
           "image": "https://placehold.co/800x600/ffffff/dc143c?text=Tokyo+Skytree",
           "geo": { "lat": 35.7101, "lng": 139.8107 }
@@ -221,7 +224,8 @@
           "slug": "senso-ji",
           "name_en": "Senso-ji Temple",
           "name_local": "浅草寺",
-          "category": "Temple",
+          "category": "sight",
+          "is_generic_staple": false,
           "description": "Tokyo's oldest temple (628 AD) in Asakusa. Walk through the iconic Kaminarimon Gate and Nakamise shopping street.",
           "image": "https://placehold.co/800x600/ffffff/dc143c?text=Sensoji",
           "geo": { "lat": 35.7148, "lng": 139.7967 }
@@ -231,7 +235,8 @@
           "slug": "meiji-shrine",
           "name_en": "Meiji Shrine",
           "name_local": "明治神宮",
-          "category": "Temple",
+          "category": "sight",
+          "is_generic_staple": false,
           "description": "Serene Shinto shrine surrounded by forest, dedicated to Emperor Meiji. Traditional weddings are often held here.",
           "image": "https://placehold.co/800x600/ffffff/dc143c?text=Meiji+Shrine",
           "geo": { "lat": 35.6764, "lng": 139.6993 }
@@ -247,7 +252,8 @@
           "slug": "teamlab-borderless",
           "name_en": "teamLab Borderless",
           "name_local": "チームラボボーダレス",
-          "category": "Art",
+          "category": "sight",
+          "is_generic_staple": false,
           "description": "Digital art museum with immersive, interactive installations. Rooms flow into each other with no boundaries. Book ahead.",
           "image": "https://placehold.co/800x600/ffffff/dc143c?text=TeamLab",
           "geo": { "lat": 35.6251, "lng": 139.7751 }
@@ -257,7 +263,8 @@
           "slug": "akihabara",
           "name_en": "Akihabara Electric Town",
           "name_local": "秋葉原電気街",
-          "category": "Tech",
+          "category": "sight",
+          "is_generic_staple": false,
           "description": "Otaku paradise. Multi-story electronics stores, anime shops, maid cafes, and retro arcades.",
           "image": "https://placehold.co/800x600/ffffff/dc143c?text=Akihabara",
           "geo": { "lat": 35.6984, "lng": 139.7731 }
@@ -273,7 +280,8 @@
           "slug": "harajuku-takeshita",
           "name_en": "Takeshita Street",
           "name_local": "竹下通り",
-          "category": "Shopping",
+          "category": "sight",
+          "is_generic_staple": false,
           "description": "Narrow pedestrian street packed with trendy fashion, crepe stands, and kawaii culture. Weekends are chaotic.",
           "image": "https://placehold.co/800x600/ffffff/dc143c?text=Takeshita+Street",
           "geo": { "lat": 35.6702, "lng": 139.7037 }
@@ -283,12 +291,39 @@
           "slug": "ginza",
           "name_en": "Ginza Shopping District",
           "name_local": "銀座",
-          "category": "Shopping",
+          "category": "sight",
+          "is_generic_staple": false,
           "description": "Tokyo's upscale shopping area with luxury brands, department stores, and high-end restaurants.",
           "image": "https://placehold.co/800x600/ffffff/dc143c?text=Ginza",
           "geo": { "lat": 35.6717, "lng": 139.7645 }
         }
       ]
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Japan Travel Adapter (Type A/B)",
+      "image": "https://placehold.co/400x400/ffffff/dc143c?text=Japan+Adapter",
+      "reason": "Japan uses Type A/B plugs (two flat pins). North American plugs fit, but European/UK travelers need an adapter.",
+      "amazon_url": "https://www.amazon.com/s?k=japan+travel+adapter+type+a",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-002",
+      "title": "Pocket WiFi Hotspot",
+      "image": "https://placehold.co/400x400/ffffff/dc143c?text=Pocket+WiFi",
+      "reason": "Stay connected for Google Maps navigation and real-time translations. Rent a pocket WiFi or get a Japan SIM card.",
+      "amazon_url": "https://www.amazon.com/s?k=portable+wifi+hotspot",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-003",
+      "title": "Foldable Tote Bag",
+      "image": "https://placehold.co/400x400/ffffff/dc143c?text=Tote+Bag",
+      "reason": "Plastic bags cost money at stores, and you'll accumulate purchases. A foldable tote is essential for shopping and convenience stores.",
+      "amazon_url": "https://www.amazon.com/s?k=foldable+tote+bag",
+      "category": "accessories"
     }
   ]
 }

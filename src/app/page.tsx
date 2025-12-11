@@ -19,6 +19,8 @@ const COUNTRY_FLAGS: Record<string, string> = {
   Germany: '🇩🇪',
   Japan: '🇯🇵',
   'United Kingdom': '🇬🇧',
+  Thailand: '🇹🇭',
+  'United States': '🇺🇸',
 }
 
 // City data for filtering
@@ -27,9 +29,17 @@ const CITIES = [
   { name: 'London', country: 'United Kingdom', slug: 'london', image: 'https://placehold.co/800x600/002868/ffffff?text=London', priority: true },
   { name: 'Berlin', country: 'Germany', slug: 'berlin', image: 'https://placehold.co/800x600/e2e8f0/475569?text=Berlin', priority: false },
   { name: 'Tokyo', country: 'Japan', slug: 'tokyo', image: 'https://placehold.co/1920x1080/ffffff/dc143c?text=Tokyo', priority: false },
+  { name: 'Bangkok', country: 'Thailand', slug: 'bangkok', image: 'https://placehold.co/800x600/ffd700/8b008b?text=Bangkok', priority: false },
+  { name: 'Los Angeles', country: 'United States', slug: 'los-angeles', image: 'https://placehold.co/800x600/00bfff/ff1493?text=Los+Angeles', priority: false },
 ]
 
 const REGIONS = [
+  {
+    name: 'North America',
+    countries: [
+      { name: 'United States', cities: [CITIES[5]] },
+    ],
+  },
   {
     name: 'Europe',
     countries: [
@@ -42,6 +52,7 @@ const REGIONS = [
     name: 'Asia',
     countries: [
       { name: 'Japan', cities: [CITIES[3]] },
+      { name: 'Thailand', cities: [CITIES[4]] },
     ],
   },
 ]
@@ -269,7 +280,7 @@ export default function HomePage() {
               We haven't been there yet
             </p>
             <p className="text-slate-600 dark:text-slate-400 mb-6">
-              Try searching for Paris, Berlin, or Tokyo
+              Try searching for Paris, Tokyo, Bangkok, or Los Angeles
             </p>
             <button
               onClick={() => setSearchQuery('')}
@@ -341,7 +352,7 @@ export default function HomePage() {
               We haven't been there yet
             </p>
             <p className="text-slate-600 dark:text-slate-400 mb-6">
-              Try searching for Paris, Berlin, or Tokyo
+              Try searching for Paris, Tokyo, Bangkok, or Los Angeles
             </p>
             <button
               onClick={() => setSearchQuery('')}

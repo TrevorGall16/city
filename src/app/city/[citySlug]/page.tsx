@@ -109,6 +109,16 @@ export default async function CityPage({ params }: PageProps) {
       neighborhoods: 'bg-white dark:bg-slate-950 border-t-4 border-t-slate-200 dark:border-t-slate-800',
       accentText: 'text-red-700 dark:text-red-400', // Japan: Red
     },
+    th: {
+      weather: 'bg-amber-50 dark:bg-amber-950/40 border-t-4 border-t-amber-100 dark:border-t-amber-900',
+      neighborhoods: 'bg-purple-50 dark:bg-purple-950/40 border-t-4 border-t-purple-100 dark:border-t-purple-900',
+      accentText: 'text-amber-700 dark:text-amber-400', // Thailand: Gold/Purple (Royal)
+    },
+    us: {
+      weather: 'bg-cyan-50 dark:bg-cyan-950/40 border-t-4 border-t-cyan-100 dark:border-t-cyan-900',
+      neighborhoods: 'bg-pink-50 dark:bg-pink-950/40 border-t-4 border-t-pink-100 dark:border-t-pink-900',
+      accentText: 'text-cyan-700 dark:text-cyan-400', // USA: Cyan/Pink (Vice City vibes)
+    },
     es: {
       weather: 'bg-yellow-50 dark:bg-yellow-950/40 border-t-4 border-t-yellow-100 dark:border-t-yellow-900',
       neighborhoods: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100 dark:border-t-red-900',
@@ -377,6 +387,7 @@ export default async function CityPage({ params }: PageProps) {
         <AffiliateSection
           products={city.affiliate_products}
           cityName={city.name}
+          countryCode={city.country_code}
           accentText={theme.accentText}
         />
       )}
