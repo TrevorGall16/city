@@ -58,6 +58,14 @@ export interface City {
     description?: string
     items: Place[]
   }>
+  affiliate_products?: Array<{
+    id: string
+    title: string
+    image: string
+    reason: string
+    amazon_url: string
+    category?: string
+  }>
 }
 
 export interface Place {

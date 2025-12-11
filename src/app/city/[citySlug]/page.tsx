@@ -18,6 +18,8 @@ import { SectionHeader } from '@/components/ui/SectionHeader'
 import { CityNavigation } from '@/components/features/CityNavigation'
 import { AtAGlanceDashboard } from '@/components/features/AtAGlanceDashboard'
 import { CityPlacesSection } from '@/components/features/CityPlacesSection'
+import { AffiliateSection } from '@/components/features/AffiliateSection'
+import { AdUnit } from '@/components/ads/AdUnit'
 import type { Metadata } from 'next'
 import * as Icons from 'lucide-react'
 
@@ -92,6 +94,11 @@ export default async function CityPage({ params }: PageProps) {
       neighborhoods: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100 dark:border-t-red-900',
       accentText: 'text-blue-900 dark:text-blue-400', // France: Blue
     },
+    gb: {
+      weather: 'bg-blue-50 dark:bg-[#0f172a] border-t-4 border-t-blue-100 dark:border-t-blue-900',
+      neighborhoods: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100 dark:border-t-red-900',
+      accentText: 'text-blue-900 dark:text-blue-400', // UK: Royal Blue (Union Jack)
+    },
     de: {
       weather: 'bg-yellow-50 dark:bg-yellow-950/40 border-t-4 border-t-yellow-100 dark:border-t-yellow-900',
       neighborhoods: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100 dark:border-t-red-900',
@@ -146,6 +153,7 @@ export default async function CityPage({ params }: PageProps) {
   const getFlagGradient = (countryCode: string) => {
     const gradients: Record<string, string> = {
       fr: 'from-blue-600 via-white to-red-600', // French flag
+      gb: 'from-blue-900 via-red-600 to-blue-900', // UK Union Jack
       de: 'from-black via-red-600 to-yellow-500', // German flag
       jp: 'from-white via-red-600 to-white', // Japanese flag
     }
@@ -156,6 +164,7 @@ export default async function CityPage({ params }: PageProps) {
   const getCityFont = (citySlug: string) => {
     const fonts: Record<string, string> = {
       paris: 'font-serif', // Elegant/Romantic
+      london: 'font-serif font-bold', // Royal/Traditional
       berlin: 'font-mono', // Industrial/Raw
       tokyo: 'font-sans font-black', // Futuristic/Bold
     }
@@ -363,6 +372,15 @@ export default async function CityPage({ params }: PageProps) {
         </div>
       </section>
 
+      {/* Amazon Affiliate Section - Travel Essentials */}
+      {city.affiliate_products && city.affiliate_products.length > 0 && (
+        <AffiliateSection
+          products={city.affiliate_products}
+          cityName={city.name}
+          accentText={theme.accentText}
+        />
+      )}
+
       {/* Discover Section - Landmarks, Museums, etc. (with Filters) */}
       <CityPlacesSection
         places={city.must_see.flatMap((group) => group.items)}
@@ -372,22 +390,65 @@ export default async function CityPage({ params }: PageProps) {
         accentText={theme.accentText}
       />
 
+      {/* Ad Unit - Responsive: Square on Mobile, Desktop Layout with Skyscraper */}
+      <section className="bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
+        {/* Mobile: Square Ad between Discover and Must Eat */}
+        <div className="lg:hidden max-w-[1600px] mx-auto px-4 md:px-8 py-8">
+          <AdUnit size="square" className="max-w-[300px] mx-auto" />
+        </div>
+      </section>
+
       {/* Must Eat Section - Food & Drink (No Filters) */}
       <section
         id="must-eat"
-        className="max-w-[1600px] mx-auto px-4 md:px-8 py-12 bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800"
+        className="bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800"
       >
-        <div className="mb-8">
-          <h2 className={`text-4xl md:text-5xl font-bold ${theme.accentText} mb-2`}>
-            Must Eat
-          </h2>
-          <p className="text-sm text-slate-600 dark:text-slate-400">
-            Essential food and drink experiences in {city.name}
-          </p>
-        </div>
+        <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
+          {/* Desktop: Two-column layout with Skyscraper */}
+          <div className="hidden lg:grid lg:grid-cols-[1fr_200px] gap-8">
+            {/* Main Content */}
+            <div>
+              <div className="mb-8">
+                <h2 className={`text-4xl md:text-5xl font-bold ${theme.accentText} mb-2`}>
+                  Must Eat
+                </h2>
+                <p className="text-sm text-slate-600 dark:text-slate-400">
+                  Essential food and drink experiences in {city.name}
+                </p>
+              </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6">
-          {renderPlacesWithAds(city.must_eat, 'food')}
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {city.must_eat.map((place) => (
+                  <PlaceCard
+                    key={place.id}
+                    place={place}
+                    citySlug={citySlug}
+                  />
+                ))}
+              </div>
+            </div>
+
+            {/* Skyscraper Ad - Sticky on Desktop */}
+            <div className="sticky top-24 h-fit">
+              <AdUnit size="skyscraper" />
+            </div>
+          </div>
+
+          {/* Mobile/Tablet: Standard Grid without Skyscraper */}
+          <div className="lg:hidden">
+            <div className="mb-8">
+              <h2 className={`text-4xl md:text-5xl font-bold ${theme.accentText} mb-2`}>
+                Must Eat
+              </h2>
+              <p className="text-sm text-slate-600 dark:text-slate-400">
+                Essential food and drink experiences in {city.name}
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {renderPlacesWithAds(city.must_eat, 'food')}
+            </div>
+          </div>
         </div>
       </section>
 

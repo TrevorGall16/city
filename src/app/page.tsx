@@ -11,17 +11,20 @@ import { useRouter } from 'next/navigation'
 import { Search } from 'lucide-react'
 import { CityCard } from '@/components/features/CityCard'
 import { InteractiveWorldMap } from '@/components/features/InteractiveWorldMap'
+import { AdUnit } from '@/components/ads/AdUnit'
 
 // Country flag emojis
 const COUNTRY_FLAGS: Record<string, string> = {
   France: '🇫🇷',
   Germany: '🇩🇪',
   Japan: '🇯🇵',
+  'United Kingdom': '🇬🇧',
 }
 
 // City data for filtering
 const CITIES = [
   { name: 'Paris', country: 'France', slug: 'paris', image: 'https://placehold.co/800x600/e2e8f0/475569?text=Paris', priority: true },
+  { name: 'London', country: 'United Kingdom', slug: 'london', image: 'https://placehold.co/800x600/002868/ffffff?text=London', priority: true },
   { name: 'Berlin', country: 'Germany', slug: 'berlin', image: 'https://placehold.co/800x600/e2e8f0/475569?text=Berlin', priority: false },
   { name: 'Tokyo', country: 'Japan', slug: 'tokyo', image: 'https://placehold.co/1920x1080/ffffff/dc143c?text=Tokyo', priority: false },
 ]
@@ -30,14 +33,15 @@ const REGIONS = [
   {
     name: 'Europe',
     countries: [
+      { name: 'United Kingdom', cities: [CITIES[1]] },
       { name: 'France', cities: [CITIES[0]] },
-      { name: 'Germany', cities: [CITIES[1]] },
+      { name: 'Germany', cities: [CITIES[2]] },
     ],
   },
   {
     name: 'Asia',
     countries: [
-      { name: 'Japan', cities: [CITIES[2]] },
+      { name: 'Japan', cities: [CITIES[3]] },
     ],
   },
 ]
@@ -228,6 +232,11 @@ export default function HomePage() {
         <p className="text-center text-sm text-slate-500 dark:text-slate-400 mt-6">
           Click on a country to filter cities below
         </p>
+      </section>
+
+      {/* Ad Unit - Horizontal Banner between Map and Grid */}
+      <section className="max-w-[1400px] mx-auto px-4 md:px-6 lg:px-8 py-8 bg-white dark:bg-slate-950">
+        <AdUnit size="horizontal" className="max-w-[970px] mx-auto" />
       </section>
 
       {/* Regional Grid - Mobile and Tablet, Also shows filtered results on desktop */}
