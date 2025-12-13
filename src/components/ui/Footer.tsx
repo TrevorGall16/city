@@ -11,19 +11,19 @@ export function Footer() {
   return (
     <footer className="bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800">
       <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About */}
           <div>
             <h3 className="font-semibold text-slate-900 dark:text-slate-50 mb-3">
               CitySheet
             </h3>
             <p className="text-sm text-slate-600 dark:text-slate-400">
-              Your travel cheat sheet with instant translation.
-              Navigate foreign cities without language barriers.
+              No-fluff travel guides with instant translation.
+              Navigate foreign cities with confidence.
             </p>
           </div>
 
-          {/* Links */}
+          {/* Explore */}
           <div>
             <h3 className="font-semibold text-slate-900 dark:text-slate-50 mb-3">
               Explore
@@ -52,21 +52,58 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Account */}
+          {/* Company */}
           <div>
             <h3 className="font-semibold text-slate-900 dark:text-slate-50 mb-3">
-              Account
+              Company
             </h3>
             <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
               <li>
-                <Link href="/profile" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
-                  Profile
+                <Link href="/about" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
+                  About CitySheet
                 </Link>
               </li>
               <li>
-                <Link href="/" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
-                  About
+                <Link href="/methodology" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
+                  Our Methodology
                 </Link>
+              </li>
+              <li>
+                <Link href="/how-to-use" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
+                  How to Use
+                </Link>
+              </li>
+              <li>
+                <Link href="/corrections" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
+                  Submit a Correction
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Legal */}
+          <div>
+            <h3 className="font-semibold text-slate-900 dark:text-slate-50 mb-3">
+              Legal
+            </h3>
+            <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+              <li>
+                <Link href="/privacy" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/terms" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
+                  Terms of Service
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="mailto:hello@citysheet.com"
+                  className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
+                >
+                  Contact Us
+                </a>
               </li>
             </ul>
           </div>
