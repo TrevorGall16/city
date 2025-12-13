@@ -2,219 +2,216 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { createClient } from '@/lib/supabase/client'
-import { LoginModal } from '@/components/ui/LoginModal'
-import { Trash2, ThumbsUp, ThumbsDown } from 'lucide-react'
-
-interface Profile {
-  display_name: string | null
-  avatar_url: string | null
-}
-
-interface Comment {
-  id: string
-  content: string
-  created_at: string
-  user_id: string
-  profiles?: Profile // Made optional for safety
-  votes?: { value: number }[]
-  vote_count?: number
-  user_vote?: number
-}
+import { CommentItem } from './CommentItem'
+import { toast } from 'sonner'
+import { MessageCircle, Loader2, Send } from 'lucide-react'
 
 interface CommentThreadProps {
   citySlug: string
-  placeSlug?: string // Optional: if null, it's a city-level comment
+  placeSlug?: string
 }
 
 export function CommentThread({ citySlug, placeSlug }: CommentThreadProps) {
-  const [comments, setComments] = useState<Comment[]>([])
-  const [newComment, setNewComment] = useState('')
-  const [user, setUser] = useState<any>(null)
-  const [showLoginModal, setShowLoginModal] = useState(false)
-  const [submitting, setSubmitting] = useState(false)
+  const [comments, setComments] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
-
+  const [newComment, setNewComment] = useState('')
+  const [isPosting, setIsPosting] = useState(false)
+  const [user, setUser] = useState<any>(null)
+  
   const supabase = createClient()
 
-  // 1. Check User Session
-  useEffect(() => {
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      setUser(session?.user || null)
-    })
-
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
-      setUser(session?.user || null)
-    })
-
-    return () => subscription.unsubscribe()
-  }, [supabase])
-
-  // 2. Fetch Comments
-  const fetchComments = useCallback(async () => {
+  // 1. Fetch User & Comments on Mount
+  const fetchData = useCallback(async () => {
     try {
-      setLoading(true)
-      let url = `/api/comments?citySlug=${citySlug}`
-      if (placeSlug) url += `&placeSlug=${placeSlug}`
+      const { data: { user } } = await supabase.auth.getUser()
+      setUser(user)
 
-      const res = await fetch(url)
-      if (!res.ok) throw new Error('Failed to fetch')
+      const url = new URL('/api/comments', window.location.origin)
+      url.searchParams.set('citySlug', citySlug)
+      if (placeSlug) url.searchParams.set('placeSlug', placeSlug)
       
+      const res = await fetch(url.toString())
+      if (!res.ok) throw new Error('Failed to load')
       const data = await res.json()
-      setComments(data || [])
+      setComments(data.comments || [])
     } catch (error) {
-      console.error('Error fetching comments:', error)
+      console.error(error)
     } finally {
       setLoading(false)
     }
-  }, [citySlug, placeSlug])
+  }, [citySlug, placeSlug, supabase.auth])
 
   useEffect(() => {
-    fetchComments()
-  }, [fetchComments])
+    fetchData()
+  }, [fetchData])
 
-  // 3. Handle Submit
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    if (!user || !newComment.trim()) return
+  // 2. Handler: Post a Top-Level Comment
+  const handlePostComment = async () => {
+    if (!user) {
+      toast.error('Please log in to comment')
+      return
+    }
+    if (!newComment.trim()) return
 
-    setSubmitting(true)
+    setIsPosting(true)
     try {
-      const res = await fetch('/api/comments', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          content: newComment,
-          citySlug,
-          placeSlug,
-        }),
+      const { error } = await supabase.from('comments').insert({
+        content: newComment,
+        city_slug: citySlug,
+        place_slug: placeSlug || null,
+        user_id: user.id
       })
 
-      const text = await res.text() // Get raw text first to debug
-      let data
-      try {
-        data = JSON.parse(text)
-      } catch {
-        throw new Error(`API returned invalid JSON: ${text.substring(0, 50)}...`)
-      }
+      if (error) throw error
 
-      if (!res.ok) {
-        throw new Error(data.error || 'Failed to post comment')
-      }
-
-      // Optimistically add the comment (Safety check added here)
-      if (data) {
-        setComments((prev) => [data, ...prev])
-        setNewComment('')
-      }
+      setNewComment('')
+      toast.success('Comment posted!')
+      fetchData() // Refresh list
     } catch (error) {
-      console.error('Error posting comment:', error)
-      alert('Failed to post comment. Please try again.')
+      toast.error('Failed to post comment')
     } finally {
-      setSubmitting(false)
+      setIsPosting(false)
     }
   }
 
-  // 4. Handle Delete
+  // 3. Handlers passed down to Items
+  const handleVote = async (commentId: string, value: number) => {
+    if (!user) return toast.error('Please log in to vote')
+    
+    // Optimistic UI Update
+    setComments(prev => updateVoteInTree(prev, commentId, value))
+
+    try {
+      await fetch('/api/votes', {
+        method: 'POST',
+        body: JSON.stringify({ commentId, value })
+      })
+    } catch {
+      toast.error('Failed to vote')
+      fetchData() // Revert on error
+    }
+  }
+
+  const handleEdit = async (commentId: string, newContent: string) => {
+    try {
+      const res = await fetch('/api/comments', {
+        method: 'PATCH',
+        body: JSON.stringify({ commentId, content: newContent })
+      })
+      if (!res.ok) throw new Error('Failed to update')
+      
+      // Update local state immediately (showing "edited")
+      setComments(prev => updateContentInTree(prev, commentId, newContent))
+      toast.success('Comment updated')
+    } catch {
+      toast.error('Failed to edit')
+    }
+  }
+
   const handleDelete = async (commentId: string) => {
     if (!confirm('Are you sure you want to delete this comment?')) return
-    
     try {
       const { error } = await supabase.from('comments').delete().eq('id', commentId)
       if (error) throw error
-      setComments((prev) => prev.filter((c) => c.id !== commentId))
-    } catch (error) {
-      console.error('Error deleting comment:', error)
+      
+      setComments(prev => removeCommentFromTree(prev, commentId))
+      toast.success('Comment deleted')
+    } catch {
+      toast.error('Failed to delete')
     }
   }
 
-  return (
-    <div className="bg-white rounded-xl border border-slate-200 p-6 shadow-sm">
-      <h3 className="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2">
-        <span>💬</span> Community Tips
-      </h3>
+  const handleReport = async (commentId: string) => {
+    if (!user) return toast.error('Please log in to report')
+    try {
+      const res = await fetch('/api/reports', {
+        method: 'POST',
+        body: JSON.stringify({ commentId, reason: 'User reported content' })
+      })
+      if (res.status === 409) return toast.error('You already reported this')
+      if (!res.ok) throw new Error()
+      toast.success('Thank you for keeping our community safe')
+    } catch {
+      toast.error('Failed to report')
+    }
+  }
 
-      {/* Comment Input */}
-      <form onSubmit={handleSubmit} className="mb-8">
+  if (loading) return <div className="flex justify-center p-8"><Loader2 className="animate-spin text-slate-400" /></div>
+
+  return (
+    <div className="space-y-8">
+      {/* Input Area */}
+      <div className="bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
         <textarea
           value={newComment}
           onChange={(e) => setNewComment(e.target.value)}
-          placeholder={user ? "Share your tip..." : "Sign in to share your tip..."}
-          className="w-full p-4 border border-slate-200 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none min-h-[100px] resize-y mb-3"
-          disabled={!user || submitting}
+          placeholder={user ? "Share your tip..." : "Log in to share a tip..."}
+          className="w-full bg-transparent border-none focus:ring-0 resize-none text-slate-800 dark:text-slate-200 placeholder:text-slate-400"
+          rows={3}
         />
-        <div className="flex justify-end">
+        <div className="flex justify-between items-center mt-2 border-t border-slate-100 dark:border-slate-800 pt-3">
+          <p className="text-xs text-slate-400">Be helpful and kind.</p>
           <button
-            type={user ? "submit" : "button"}
-            onClick={!user ? () => setShowLoginModal(true) : undefined}
-            disabled={user ? (!newComment.trim() || submitting) : false}
-            className="bg-indigo-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+            onClick={handlePostComment}
+            disabled={isPosting || !newComment.trim()}
+            className="flex items-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
           >
-            {user ? (submitting ? 'Posting...' : 'Post Comment') : 'Sign In to Comment'}
+            {isPosting ? <Loader2 className="w-4 h-4 animate-spin" /> : <Send className="w-4 h-4" />}
+            Post
           </button>
         </div>
-      </form>
-
-      {/* Login Modal */}
-      <LoginModal isOpen={showLoginModal} onClose={() => setShowLoginModal(false)} />
+      </div>
 
       {/* Comment List */}
       <div className="space-y-6">
-        {loading ? (
-          <p className="text-slate-500 text-center py-4">Loading comments...</p>
-        ) : comments.length === 0 ? (
-          <p className="text-slate-400 text-center py-4 italic">No comments yet. Be the first!</p>
+        {comments.length === 0 ? (
+          <p className="text-center text-slate-500 py-8">No tips yet. Be the first!</p>
         ) : (
-          comments.map((comment) => {
-            // SAFETY CHECK: If comment is null/undefined, skip it
-            if (!comment) return null;
-
-            return (
-              <div key={comment.id} className="flex gap-4 group">
-                {/* Avatar with fallback */}
-                <div className="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center flex-shrink-0 overflow-hidden text-sm font-bold text-slate-500">
-                  {comment.profiles?.avatar_url ? (
-                    <img 
-                      src={comment.profiles.avatar_url} 
-                      alt={comment.profiles.display_name || 'User'} 
-                      className="w-full h-full object-cover"
-                    />
-                  ) : (
-                    (comment.profiles?.display_name?.[0] || '?').toUpperCase()
-                  )}
-                </div>
-
-                <div className="flex-1">
-                  <div className="flex items-baseline justify-between mb-1">
-                    <span className="font-semibold text-slate-900">
-                      {comment.profiles?.display_name || 'Traveler'}
-                    </span>
-                    <span className="text-xs text-slate-400">
-                      {new Date(comment.created_at).toLocaleDateString()}
-                    </span>
-                  </div>
-                  
-                  <p className="text-slate-700 leading-relaxed whitespace-pre-wrap">
-                    {comment.content}
-                  </p>
-
-                  {/* Actions */}
-                  <div className="flex items-center gap-4 mt-3">
-                    {/* Only show delete if user owns comment */}
-                    {user && user.id === comment.user_id && (
-                      <button
-                        onClick={() => handleDelete(comment.id)}
-                        className="text-xs text-red-400 hover:text-red-600 flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity"
-                      >
-                        <Trash2 size={14} /> Delete
-                      </button>
-                    )}
-                  </div>
-                </div>
-              </div>
-            )
-          })
+          comments.map(comment => (
+            <CommentItem
+              key={comment.id}
+              comment={comment}
+              currentUserId={user?.id}
+              onVote={handleVote}
+              onEdit={handleEdit}
+              onDelete={handleDelete}
+              onReport={handleReport}
+            />
+          ))
         )}
       </div>
     </div>
   )
+}
+
+// --- HELPER FUNCTIONS FOR TREE UPDATES ---
+
+function updateVoteInTree(list: any[], id: string, delta: number): any[] {
+  return list.map(c => {
+    if (c.id === id) {
+      const currentVote = c.user_vote || 0
+      // If clicking same vote (toggle off) -> remove vote
+      // If clicking different vote -> switch vote (delta * 2 effectively, but logic simplifies to just setting new state)
+      // For simplicity in optimistic UI, we usually just assume the backend handles the exact math, 
+      // but here we just increment visual count to feel snappy.
+      return { ...c, vote_count: c.vote_count + delta, user_vote: delta } 
+    }
+    if (c.replies?.length) return { ...c, replies: updateVoteInTree(c.replies, id, delta) }
+    return c
+  })
+}
+
+function updateContentInTree(list: any[], id: string, content: string): any[] {
+  return list.map(c => {
+    if (c.id === id) return { ...c, content, updated_at: new Date().toISOString() }
+    if (c.replies?.length) return { ...c, replies: updateContentInTree(c.replies, id, content) }
+    return c
+  })
+}
+
+function removeCommentFromTree(list: any[], id: string): any[] {
+  return list.filter(c => c.id !== id).map(c => ({
+    ...c,
+    replies: c.replies ? removeCommentFromTree(c.replies, id) : []
+  }))
 }

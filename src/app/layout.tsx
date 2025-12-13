@@ -11,6 +11,7 @@ import { AdProvider } from '@/components/ads/AdProvider'
 import { ThemeProvider } from '@/components/providers/ThemeProvider'
 import { HeaderAuth } from '@/components/ui/HeaderAuth'
 import { Footer } from '@/components/ui/Footer'
+import { Toaster } from 'sonner'
 import './globals.css'
 import type { Metadata } from 'next'
 
@@ -42,6 +43,9 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <AuthProvider>
             <AdProvider>
+              {/* Toast Notifications */}
+              <Toaster position="top-center" richColors />
+
               {/* Header - Sticky (Logo + Auth Only) */}
               <header className="h-16 border-b border-slate-200/50 dark:border-slate-800/50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 h-full flex items-center justify-between">

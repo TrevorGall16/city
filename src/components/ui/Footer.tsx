@@ -113,7 +113,7 @@ export function Footer() {
         <div className="mt-8 pt-8 border-t border-slate-200 dark:border-slate-800">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-slate-500 dark:text-slate-400">
-              © {currentYear} CitySheet. All rights reserved.
+              © 2025 CitySheet. All rights reserved.
             </p>
             <p className="text-sm text-slate-500 dark:text-slate-400">
               Built with ❤️ using Next.js, Tailwind CSS, and Supabase
