@@ -3,7 +3,7 @@
  * Following 03_UI and implementation plan specifications
  * Fixed for Next.js 16+ (params is now a Promise)
  */
-
+import { SaveButton } from '@/components/features/SaveButton'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -139,10 +139,19 @@ export default async function PlacePage({ params }: PageProps) {
               />
             </div>
 
-            {/* Title */}
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-900 mb-4">
-              {place.name_en}
-            </h1>
+         {/* Title + Save Button */}
+<div className="flex items-start justify-between gap-4 mb-4">
+  <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-900">
+    {place.name_en}
+  </h1>
+  <div className="mt-2">
+    <SaveButton 
+      placeSlug={place.slug} 
+      citySlug={city.slug} 
+      variant="default" // Shows the text "Save"
+    />
+  </div>
+</div>
 
             {/* Translation Hook - THE CORE FEATURE */}
             {showTranslation && (

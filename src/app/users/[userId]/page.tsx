@@ -1,13 +1,13 @@
 /**
  * Public User Profile Page
- * Displays user information: Avatar, Name, Bio, Country, Member Since
- * Does NOT show private information like email or comment history
+ * Displays user information: Avatar, Name, Bio, Joined Date
+ * Shows "Edit Profile" button if viewing own profile
  */
 
 import { createClient } from '@/lib/supabase/server'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import { Home, MapPin, Calendar } from 'lucide-react'
+import { Home, Calendar, MapPin, Edit, Heart } from 'lucide-react'
 import type { Metadata } from 'next'
 
 interface PageProps {
@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function UserProfilePage({ params }: PageProps) {
   const { userId } = await params
-const supabase = await createClient()
+  const supabase = await createClient()
 
   // Fetch public profile information
   const { data: profile, error } = await supabase
@@ -58,14 +58,30 @@ const supabase = await createClient()
     notFound()
   }
 
-  // Get country name and flag from country code
+  // Check if current user is viewing their own profile
+  const { data: { user } } = await supabase.auth.getUser()
+  const isOwnProfile = user?.id === profile.id
+
+  // Fetch saved places (only if viewing own profile or user is logged in)
+  let savedPlaces: any[] = []
+  if (isOwnProfile) {
+    const { data: places } = await supabase
+      .from('saved_places')
+      .select('*')
+      .eq('user_id', userId)
+      .order('created_at', { ascending: false })
+
+    savedPlaces = places || []
+  }
+
+  // Get country info from country code
   const countryInfo = getCountryInfo(profile.country_code)
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
       {/* Header Section */}
       <div className="bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
-        <div className="max-w-3xl mx-auto px-4 md:px-6 py-8">
+        <div className="max-w-4xl mx-auto px-4 md:px-6 py-8">
           {/* Breadcrumbs */}
           <nav
             className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-400 mb-6"
@@ -85,7 +101,7 @@ const supabase = await createClient()
           </nav>
 
           {/* Profile Header */}
-          <div className="flex items-start gap-6">
+          <div className="flex items-start gap-6 flex-col sm:flex-row">
             {/* Avatar */}
             <div className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-gradient-to-br from-indigo-400 to-purple-500 flex items-center justify-center flex-shrink-0 overflow-hidden shadow-lg">
               {profile.avatar_url ? (
@@ -103,31 +119,46 @@ const supabase = await createClient()
 
             {/* Info */}
             <div className="flex-1 min-w-0">
-              <h1 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-slate-50 mb-3">
-                {profile.display_name || 'Traveler'}
-              </h1>
+              <div className="flex items-start justify-between gap-4 flex-wrap">
+                <div>
+                  <h1 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-slate-50 mb-3">
+                    {profile.display_name || 'Traveler'}
+                  </h1>
 
-              <div className="flex flex-col gap-2 text-sm text-slate-600 dark:text-slate-400">
-                {/* Country */}
-                {countryInfo && (
-                  <div className="flex items-center gap-2">
-                    <MapPin className="w-4 h-4" />
-                    <span>
-                      {countryInfo.flag} {countryInfo.name}
-                    </span>
+                  <div className="flex flex-col gap-2 text-sm text-slate-600 dark:text-slate-400">
+                    {/* Country */}
+                    {countryInfo && (
+                      <div className="flex items-center gap-2">
+                        <MapPin className="w-4 h-4" />
+                        <span>
+                          {countryInfo.flag} {countryInfo.name}
+                        </span>
+                      </div>
+                    )}
+
+                    {/* Member Since */}
+                    <div className="flex items-center gap-2">
+                      <Calendar className="w-4 h-4" />
+                      <span>
+                        Joined {new Date(profile.created_at).toLocaleDateString('en-US', {
+                          month: 'long',
+                          year: 'numeric',
+                        })}
+                      </span>
+                    </div>
                   </div>
-                )}
-
-                {/* Member Since */}
-                <div className="flex items-center gap-2">
-                  <Calendar className="w-4 h-4" />
-                  <span>
-                    Member since {new Date(profile.created_at).toLocaleDateString('en-US', {
-                      month: 'long',
-                      year: 'numeric',
-                    })}
-                  </span>
                 </div>
+
+                {/* Edit Profile Button (Only for own profile) */}
+                {isOwnProfile && (
+                  <Link
+                    href="/profile"
+                    className="flex items-center gap-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition-colors shadow-sm"
+                  >
+                    <Edit className="w-4 h-4" />
+                    Edit Profile
+                  </Link>
+                )}
               </div>
             </div>
           </div>
@@ -135,7 +166,7 @@ const supabase = await createClient()
       </div>
 
       {/* Content Section */}
-      <div className="max-w-3xl mx-auto px-4 md:px-6 py-12">
+      <div className="max-w-4xl mx-auto px-4 md:px-6 py-12">
         {/* Bio */}
         {profile.bio ? (
           <div className="bg-white dark:bg-slate-950 rounded-xl border border-slate-200 dark:border-slate-800 p-6 shadow-sm mb-6">
@@ -149,22 +180,73 @@ const supabase = await createClient()
         ) : (
           <div className="bg-slate-50 dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 p-8 text-center">
             <p className="text-slate-500 dark:text-slate-400 italic">
-              This traveler hasn't added a bio yet.
+              {isOwnProfile
+                ? "You haven't added a bio yet. Click 'Edit Profile' to add one!"
+                : "This traveler hasn't added a bio yet."}
             </p>
           </div>
         )}
 
-        {/* Future: Recent Comments Section */}
-        {/*
-        <div className="bg-white dark:bg-slate-950 rounded-xl border border-slate-200 dark:border-slate-800 p-6 shadow-sm">
-          <h2 className="text-lg font-semibold text-slate-900 dark:text-slate-50 mb-4">
-            Recent Comments
-          </h2>
-          <p className="text-slate-500 dark:text-slate-400 text-sm italic">
-            Comment history coming soon!
-          </p>
-        </div>
-        */}
+        {/* Saved Places (Only for own profile) */}
+        {isOwnProfile && (
+          <div className="bg-white dark:bg-slate-950 rounded-xl border border-slate-200 dark:border-slate-800 p-6 shadow-sm mb-6">
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="text-lg font-semibold text-slate-900 dark:text-slate-50 flex items-center gap-2">
+                <Heart className="w-5 h-5 text-red-500 fill-current" />
+                Saved Places
+              </h2>
+              {savedPlaces.length > 0 && (
+                <span className="text-sm text-slate-500 dark:text-slate-400">
+                  {savedPlaces.length} {savedPlaces.length === 1 ? 'place' : 'places'}
+                </span>
+              )}
+            </div>
+
+            {savedPlaces.length === 0 ? (
+              <div className="text-center py-8">
+                <Heart className="w-12 h-12 text-slate-300 dark:text-slate-700 mx-auto mb-3" />
+                <p className="text-slate-500 dark:text-slate-400 mb-4">
+                  You haven't saved any places yet
+                </p>
+                <Link
+                  href="/"
+                  className="inline-flex items-center gap-2 text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 font-medium"
+                >
+                  Explore Cities
+                </Link>
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {savedPlaces.map((place) => (
+                  <Link
+                    key={place.id}
+                    href={`/city/${place.city_slug}/${place.place_slug}`}
+                    className="group p-4 bg-slate-50 dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-800 hover:border-indigo-300 dark:hover:border-indigo-700 transition-all hover:shadow-md"
+                  >
+                    <div className="flex items-start justify-between mb-2">
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-semibold text-slate-900 dark:text-slate-50 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors truncate">
+                          {formatPlaceName(place.place_slug)}
+                        </h3>
+                        <p className="text-sm text-slate-500 dark:text-slate-400 capitalize">
+                          {formatCityName(place.city_slug)}
+                        </p>
+                      </div>
+                      <Heart className="w-4 h-4 text-red-500 fill-current flex-shrink-0 ml-2" />
+                    </div>
+                    <p className="text-xs text-slate-400 dark:text-slate-500">
+                      Saved {new Date(place.created_at).toLocaleDateString('en-US', {
+                        month: 'short',
+                        day: 'numeric',
+                        year: 'numeric'
+                      })}
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
 
         {/* Back to Home */}
         <div className="mt-8 text-center">
@@ -179,6 +261,21 @@ const supabase = await createClient()
       </div>
     </div>
   )
+}
+
+// Helper functions for formatting
+function formatPlaceName(slug: string): string {
+  return slug
+    .split('-')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ')
+}
+
+function formatCityName(slug: string): string {
+  return slug
+    .split('-')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ')
 }
 
 // Helper function to get country name and flag emoji from country code

@@ -7,8 +7,10 @@
 
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 import { createClient } from '@/lib/supabase/client'
 import { Toast } from '@/components/ui/Toast'
+import { ExternalLink } from 'lucide-react'
 
 const COUNTRIES = [
   { code: 'US', name: 'United States', flag: '🇺🇸' },
@@ -57,6 +59,7 @@ export default function ProfilePage() {
 
   const [loading, setLoading] = useState(true)
   const [saving, setSaving] = useState(false)
+  const [userId, setUserId] = useState<string | null>(null)
   const [displayName, setDisplayName] = useState('')
   const [bio, setBio] = useState('')
   const [countryCode, setCountryCode] = useState('')
@@ -74,6 +77,7 @@ export default function ProfilePage() {
         return
       }
 
+      setUserId(user.id)
       setEmail(user.email || '')
 
       // Load profile from database
@@ -146,10 +150,23 @@ export default function ProfilePage() {
       {/* Header */}
       <header className="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
         <div className="max-w-4xl mx-auto px-4 md:px-8 py-6">
-          <h1 className="text-3xl font-bold text-slate-900 dark:text-slate-50">Your Profile</h1>
-          <p className="text-sm text-slate-600 dark:text-slate-400 mt-1">
-            Manage your account settings and preferences
-          </p>
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <h1 className="text-3xl font-bold text-slate-900 dark:text-slate-50">Your Profile</h1>
+              <p className="text-sm text-slate-600 dark:text-slate-400 mt-1">
+                Manage your account settings and preferences
+              </p>
+            </div>
+            {userId && (
+              <Link
+                href={`/users/${userId}`}
+                className="flex items-center gap-2 px-4 py-2 text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 border border-indigo-300 dark:border-indigo-700 rounded-lg transition-colors hover:bg-indigo-50 dark:hover:bg-indigo-950"
+              >
+                <ExternalLink className="w-4 h-4" />
+                <span className="text-sm font-medium">View Public Profile</span>
+              </Link>
+            )}
+          </div>
         </div>
       </header>
 
