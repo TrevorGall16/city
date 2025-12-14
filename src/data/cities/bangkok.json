@@ -49,30 +49,34 @@
       { "src": "Not spicy", "local": "ไม่เผ็ด (Mai phet)", "phonetic": "my-PET" }
     ]
   },
-  "neighborhoods": [
+"neighborhoods": [
     {
       "name": "Khao San Road",
       "vibe": "Backpacker Central",
-      "description": "The legendary backpacker street. Cheap hostels, street food, bucket cocktails, and travelers from every corner of the globe. Chaotic and touristy but essential Bangkok.",
-      "highlights": ["Night market", "Street food", "Bars & clubs"]
+      "description": "The legendary backpacker street. Cheap hostels, street food, bucket cocktails, and travelers from every corner of the globe.",
+      "highlights": ["Night market", "Street food", "Bars & clubs"],
+      "image": "/images/bangkok/khao-san.jpg"
     },
     {
       "name": "Sukhumvit",
       "vibe": "Cosmopolitan & Nightlife",
-      "description": "Bangkok's main expat and tourist district. High-end malls, rooftop bars, international restaurants, and red-light areas. Ultra-modern and connected by BTS Skytrain.",
-      "highlights": ["Terminal 21 Mall", "Nana & Asok nightlife", "Rooftop bars"]
+      "description": "Bangkok's main expat and tourist district. High-end malls, rooftop bars, international restaurants, and red-light areas.",
+      "highlights": ["Terminal 21 Mall", "Nana & Asok nightlife", "Rooftop bars"],
+      "image": "/images/bangkok/sukhumvit.jpg"
     },
     {
       "name": "Rattanakosin (Old City)",
       "vibe": "Historic & Cultural",
-      "description": "The heart of royal Bangkok. Grand Palace, Wat Pho, and Wat Arun are all here. Crowded with tourists but essential for temple hopping and history.",
-      "highlights": ["Grand Palace", "Wat Pho (Reclining Buddha)", "Sanam Luang park"]
+      "description": "The heart of royal Bangkok. Grand Palace, Wat Pho, and Wat Arun are all here. Crowded with tourists but essential.",
+      "highlights": ["Grand Palace", "Wat Pho (Reclining Buddha)", "Sanam Luang park"],
+      "image": "/images/bangkok/old-city.jpg"
     },
     {
       "name": "Chinatown (Yaowarat)",
       "vibe": "Street Food Paradise",
-      "description": "Neon-lit chaos of gold shops, street food stalls, and traditional Chinese medicine stores. The best street food in Bangkok is found here, especially at night.",
-      "highlights": ["Yaowarat Road food stalls", "Sampeng Market", "Golden Buddha Temple"]
+      "description": "Neon-lit chaos of gold shops, street food stalls, and traditional Chinese medicine stores. The best street food in Bangkok.",
+      "highlights": ["Yaowarat Road food stalls", "Sampeng Market", "Golden Buddha Temple"],
+      "image": "/images/bangkok/chinatown-hood.jpg"
     }
   ],
   "logistics": [

@@ -4,12 +4,12 @@
   "slug": "berlin",
   "country": "Germany",
   "country_code": "de",
-  "hero_image": "https://placehold.co/1920x1080/1c1c1c/ffd700?text=Berlin",
-  "intro_vibe": "The Capital of Cool: Where history meets counterculture.",
+  "hero_image": "/images/berlin/hero.jpg",
+  "intro_vibe": "The Capital of Cool: Where history meets counterculture and the night never ends.",
   "general_info": {
     "population": "~3.7 million (city) / ~6 million (metro area)",
     "is_capital": true,
-    "description": "Berlin is the capital and largest city of Germany. A city of contrasts, Berlin blends a tumultuous history with cutting-edge creativity. From the remnants of the Wall to world-class museums and legendary nightlife, Berlin is raw, real, and unapologetically alternative."
+    "description": "Berlin is not Germany—it is its own universe. A city of contrasts where bullet-scarred history meets hedonistic nightlife. From the freedom of Tempelhofer Feld to the grit of Neukölln, Berlin is raw, real, and unapologetically alternative."
   },
   "stats": {
     "currency": "EUR",
@@ -31,70 +31,77 @@
   ],
   "culture": {
     "etiquette_tips": [
-      "Cash is King: Many places still don't accept cards. Always carry cash (Barzahlung).",
-      "Sunday Quiet: Most shops are closed on Sundays. Plan ahead!",
-      "Pfand System: Return bottles for a deposit refund (usually 25 cents). Look for the 'Pfand' symbol.",
-      "Directness: Germans are blunt and honest. It's not rude—it's efficient.",
-      "Jaywalking: Don't cross on red, even if no cars are coming. You'll get judged."
+      "Cash is King: Berlin is oddly behind on tech. Bars, small shops, and late-night spots are often CASH ONLY. Always carry €50.",
+      "The Späti Culture: The 'Späti' (late-night corner store) is the center of social life. Grab a beer (€1.50) and sit on the bench outside. It is the Berlin way.",
+      "Club Rules: No photos. Ever. Put stickers on your phone camera. Dress casually (black helps), know the DJ, and don't be drunk in line.",
+      "Ticket Validation: There are no turnstiles, but plainclothes inspectors are ruthless. You MUST stamp your ticket in the little machine before boarding. Fine is €60.",
+      "Directness: Berliners are blunt. It's not rude, it's efficient. Don't expect fake smiles.",
+      "Bike Lanes are Lava: Do not walk in the bike lane. You will be shouted at or hit. Stay on the sidewalk.",
+      "Pfand System: Don't crush cans/bottles. They are worth €0.25. Leave them next to bins for collectors if you don't return them yourself."
     ],
     "essential_phrases": [
-      { "src": "Hello", "local": "Hallo", "phonetic": "HAH-loh" },
+      { "src": "Hello", "local": "Hallo / Moin", "phonetic": "HAH-loh / moyn" },
       { "src": "Thank you", "local": "Danke", "phonetic": "DAHN-kuh" },
       { "src": "The bill please", "local": "Die Rechnung bitte", "phonetic": "dee REKH-noong BIT-tuh" },
       { "src": "Excuse me", "local": "Entschuldigung", "phonetic": "ent-SHOOL-dee-goong" },
-      { "src": "I don't speak German", "local": "Ich spreche kein Deutsch", "phonetic": "ikh SHPREH-khuh kine DOYTSH" }
+      { "src": "One beer please", "local": "Ein Bier bitte", "phonetic": "ine beer BIT-tuh" }
     ]
   },
   "neighborhoods": [
     {
       "name": "Kreuzberg",
       "vibe": "Alternative & Edgy",
-      "description": "The heart of Berlin's counterculture. Street art, Turkish markets, punk bars, and late-night döner kebabs.",
-      "highlights": ["Görlitzer Park", "Markthalle Neun", "Street art everywhere"]
+      "description": "The historic heart of West Berlin's counterculture. Turkish markets, punk bars, street art, and the canal. Gritty, real, and always awake.",
+      "highlights": ["Landwehr Canal", "Markthalle Neun", "SO36"],
+      "image": "/images/berlin/kreuzberg.jpg"
+    },
+    {
+      "name": "Neukölln",
+      "vibe": "Hipster & Raw",
+      "description": "The current cool kid. Rough around the edges but packed with trendy vegan cafes, dive bars, and Middle Eastern food. Young, messy, and fun.",
+      "highlights": ["Tempelhofer Feld", "Weserstraße Bars", "Sonnenallee"],
+      "image": "/images/berlin/neukolln.jpg"
     },
     {
       "name": "Friedrichshain",
       "vibe": "Party District",
-      "description": "Home to the legendary Berghain club and the East Side Gallery. Raw, industrial, and unapologetically hedonistic.",
-      "highlights": ["East Side Gallery", "Berghain nightclub", "RAW-Gelände"]
+      "description": "Home to the legendary Berghain and the RAW-Gelände. Industrial, graffiti-covered, and hedonistic. Where the weekend never ends.",
+      "highlights": ["East Side Gallery", "Berghain", "Boxhagener Platz"],
+      "image": "/images/berlin/friedrichshain.jpg"
     },
     {
       "name": "Mitte",
       "vibe": "Historic Center",
-      "description": "Berlin's official center with major landmarks, museums, and upscale shopping. Tourist-heavy but essential.",
-      "highlights": ["Brandenburg Gate", "Museum Island", "Unter den Linden"]
-    },
-    {
-      "name": "Prenzlauer Berg",
-      "vibe": "Gentrified & Family-Friendly",
-      "description": "Once bohemian, now filled with young families, organic cafes, and vintage shops. Still charming.",
-      "highlights": ["Mauerpark Flea Market", "Kastanienallee", "Kollwitzplatz"]
+      "description": "Berlin's polished center. Museums, landmarks, and upscale shopping. Touristy, but essential for the 'Checklist' sights.",
+      "highlights": ["Brandenburg Gate", "Museum Island", "Hackescher Markt"],
+      "image": "/images/berlin/mitte.jpg"
     }
   ],
   "logistics": [
+    {
+      "id": "logistics-survival",
+      "slug": "local-survival",
+      "title": "Local Survival Tips",
+      "icon": "Info",
+      "summary": "Essential friction-removers for a smooth trip.",
+      "details": [
+        "Sundays: almost EVERYTHING is closed (shops, supermarkets). Only restaurants and museums are open. Plan accordingly.",
+        "Jaywalking: Don't do it. Germans wait for the green man (Ampelmann). Crossing on red is socially judged.",
+        "Water: Tap water is safe but restaurants charge for bottled. Ask for 'Leitungswasser' (tap) but prepared for a 'no'.",
+        "Tipping: Round up the bill (e.g., make €9.20 into €10). Tell the waiter the total amount you want to pay *before* they charge you."
+      ]
+    },
     {
       "id": "logistics-transit",
       "slug": "getting-around",
       "title": "Getting Around",
       "icon": "Train",
-      "summary": "The U-Bahn and S-Bahn are your lifelines. Efficient, fast, and covers the whole city.",
+      "summary": "The U-Bahn (Metro) and S-Bahn (Train) are your lifelines. Runs 24/7 on weekends.",
       "details": [
-        "U-Bahn (Metro): 10 lines, runs until 1am weekdays, 24/7 on weekends.",
-        "S-Bahn (Train): Above-ground, connects suburbs and airports.",
-        "Trams & Buses: Extensive network, especially in former East Berlin.",
-        "Tickets: Buy a day pass (Tageskarte) or weekly pass. Validate before boarding!"
-      ]
-    },
-    {
-      "id": "logistics-scams",
-      "slug": "common-scams",
-      "title": "Scams to Avoid",
-      "icon": "AlertTriangle",
-      "summary": "Berlin is generally safe, but watch out for these common scams.",
-      "details": [
-        "Fake Ticket Inspectors: Real inspectors wear red armbands with 'BVG' badges.",
-        "Club Entrance Fees: Some clubs charge exorbitant 'guest list' fees. Research beforehand.",
-        "Pickpockets: Active on crowded U-Bahn lines (U2, U8) and tourist spots."
+        "U-Bahn: Yellow trains, mostly underground. Fast and frequent.",
+        "S-Bahn: Red/Yellow trains, mostly above ground. Great for longer distances.",
+        "Tickets: Buy a 'Zone AB' ticket for the city center. VALIDATE IT by stamping it in the box on the platform.",
+        "Apps: Use 'BVG Fahrinfo' or Google Maps. They are accurate."
       ]
     },
     {
@@ -102,58 +109,54 @@
       "slug": "safety-tips",
       "title": "Safety Basics",
       "icon": "Shield",
-      "summary": "Berlin is safe, but use common sense in certain areas.",
+      "summary": "Berlin is safe, but has rough edges.",
       "details": [
-        "Görlitzer Park: Avoid after dark. Drug dealers are common.",
-        "Night: Most areas are safe, but avoid empty parks and U-Bahn stations late at night.",
-        "Bikes: Lock your bike with a heavy-duty lock. Bike theft is rampant."
-      ]
-    },
-    {
-      "id": "logistics-apps",
-      "slug": "essential-apps",
-      "title": "Apps to Download",
-      "icon": "Smartphone",
-      "summary": "These apps will make your Berlin trip smoother.",
-      "details": [
-        "BVG Fahrinfo: Official transit app for U-Bahn, S-Bahn, trams, and buses.",
-        "Resident Advisor: Essential for finding the best club nights.",
-        "Lieferando: Food delivery (better than Uber Eats here).",
-        "Google Translate: Download German offline pack."
+        "Görlitzer Park: Known for drug dealers. It's generally safe to walk through during the day, but avoid at night.",
+        "Pickpockets: Active on crowded tourist lines (U2, U8) and at Alexanderplatz.",
+        "Bike Theft: Extremely common. Never leave a bike unlocked, even for a minute."
       ]
     }
   ],
   "must_eat": [
     {
       "id": "food-001",
+      "slug": "doner-kebap",
+      "name_en": "Döner Kebap",
+      "name_local": "Döner",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Berlin's #1 street food. Invented here (not Turkey). Crispy meat, fresh salad, and garlic sauce in toasted bread. Don't wait 2 hours for Mustafa's—your neighborhood spot is likely just as good.",
+      "image": "/images/berlin/doner.jpg"
+    },
+    {
+      "id": "food-002",
       "slug": "currywurst",
       "name_en": "Currywurst",
       "name_local": "Currywurst",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Berlin's iconic street food: grilled pork sausage topped with curry ketchup and paprika. Best enjoyed at a late-night Imbiss (snack stand).",
-      "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Currywurst"
+      "description": "Steamed then fried pork sausage cut into slices and drowned in curry ketchup and powder. Served with fries or a bread roll. A cult classic.",
+      "image": "/images/berlin/currywurst.jpg"
     },
     {
-      "id": "food-002",
-      "slug": "mustafas-doner",
-      "name_en": "Mustafa's Gemüse Kebap",
-      "name_local": "Mustafa's Gemüse Kebap",
-      "category": "food",
-      "is_generic_staple": false,
-      "description": "The most famous döner in Berlin. Expect a 1-hour line, but it's worth it. Grilled veggies, feta, and secret sauce in fresh bread.",
-      "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Mustafas+Doner",
-      "geo": { "lat": 52.4951, "lng": 13.3927 }
-    },
-    {
-      "id": "food-003",
-      "slug": "schnitzel",
-      "name_en": "Schnitzel",
-      "name_local": "Schnitzel",
+      "id": "food-010",
+      "slug": "vietnamese-food",
+      "name_en": "Vietnamese Food",
+      "name_local": "Vietnamesische Küche",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Breaded and fried veal or pork cutlet, served with potato salad or fries. A German classic found in every beer hall.",
-      "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Schnitzel"
+      "description": "Berlin has a massive Vietnamese community. The Pho, Banh Mi, and Bun Cha here are some of the best in Europe. Look for 'Monsieur Vuong' or holes-in-the-wall in Mitte/Prenzlauer Berg.",
+      "image": "/images/berlin/vietnamese.jpg"
+    },
+    {
+      "id": "food-011",
+      "slug": "falafel-teller",
+      "name_en": "Falafel Plate",
+      "name_local": "Falafel Teller",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Huge, cheap, and delicious. Crispy falafel, hummus, halloumi, and roasted veggies. A staple of Kreuzberg and Neukölln diets.",
+      "image": "/images/berlin/falafel.jpg"
     },
     {
       "id": "food-004",
@@ -162,107 +165,144 @@
       "name_local": "Club-Mate",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The caffeinated yerba mate drink of Berlin's club scene. Sweet, fizzy, and keeps you dancing until 6am.",
-      "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Club+Mate"
+      "description": "The fuel of Berlin. A caffeinated, sparkling yerba mate tea. Tastes like cigarette ash the first time, but you'll be addicted by the third bottle.",
+      "image": "/images/berlin/club-mate.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "german-bakery",
+      "name_en": "German Bakery",
+      "name_local": "Bäckerei",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "German bread is world-class. Grab a 'Belegtes Brötchen' (sandwich) or a 'Laugenbrezel' (pretzel) for a cheap breakfast.",
+      "image": "/images/berlin/bakery.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "schnitzel",
+      "name_en": "Schnitzel",
+      "name_local": "Schnitzel",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Breaded, fried cutlet (pork or veal). Best enjoyed in a traditional Wirtshaus with potato salad and a cold beer.",
+      "image": "/images/berlin/schnitzel.jpg"
     },
     {
       "id": "food-005",
       "slug": "hofbrau-wirtshaus",
-      "name_en": "Hofbräu Wirtshaus",
-      "name_local": "Hofbräu Wirtshaus",
+      "name_en": "Hofbräu Wirtshaus (Tourist Classic)",
+      "name_local": "Hofbräu",
       "category": "food",
       "is_generic_staple": false,
-      "description": "Traditional Bavarian beer hall in Berlin. Massive steins, hearty food, and oompah music. Touristy but fun.",
-      "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Hofbrau",
+      "description": "It's Bavarian, not Berliner, and very touristy. But if you want the giant 1-liter beers and Oompah music experience, this is where you go.",
+      "image": "/images/berlin/hofbrau.jpg",
       "geo": { "lat": 52.5200, "lng": 13.4050 }
-    },
-    {
-      "id": "food-006",
-      "slug": "berliner-pfannkuchen",
-      "name_en": "Berliner Pfannkuchen",
-      "name_local": "Berliner",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": "A jelly-filled doughnut, not to be confused with the American 'Berliner'. John F. Kennedy famously said 'Ich bin ein Berliner' (I am a jelly doughnut).",
-      "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Berliner"
     }
   ],
   "must_see": [
     {
-      "title": "Iconic Monuments",
-      "id": "monuments",
+      "title": "Real Berlin Experiences",
+      "id": "experiences",
       "items": [
         {
-          "id": "mon-001",
+          "id": "exp-001",
+          "slug": "tempelhofer-feld",
+          "name_en": "Tempelhofer Feld",
+          "name_local": "Tempelhofer Feld",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "An abandoned airport turned into a massive public park. Locals skate on the runways, BBQ, and fly kites. The ultimate symbol of Berlin's freedom.",
+          "image": "/images/berlin/tempelhof.jpg",
+          "geo": { "lat": 52.4730, "lng": 13.4030 }
+        },
+        {
+          "id": "exp-002",
+          "slug": "spati-crawl",
+          "name_en": "Späti Culture",
+          "name_local": "Spätkauf",
+          "category": "sight",
+          "is_generic_staple": true,
+          "description": "Skip the expensive bar. Buy a €1.50 beer from a corner store (Späti), sit on the bench outside, and watch the city go by.",
+          "image": "/images/berlin/spati.jpg"
+        },
+        {
+          "id": "exp-003",
+          "slug": "mauerpark",
+          "name_en": "Mauerpark Sunday Market",
+          "name_local": "Mauerpark Flohmarkt",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "A Sunday ritual. Huge flea market followed by public 'Bearpit Karaoke' where thousands cheer on strangers singing.",
+          "image": "/images/berlin/mauerpark.jpg",
+          "geo": { "lat": 52.5400, "lng": 13.4050 }
+        }
+      ]
+    },
+    {
+      "title": "Iconic History",
+      "id": "history",
+      "items": [
+        {
+          "id": "his-001",
           "slug": "brandenburg-gate",
           "name_en": "Brandenburg Gate",
           "name_local": "Brandenburger Tor",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The most iconic symbol of Berlin and German reunification. A neoclassical triumphal arch that has witnessed centuries of history.",
-          "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Brandenburg+Gate",
+          "description": "The symbol of reunification. Best viewed at night when fewer crowds are present. Walk through it to feel the history.",
+          "image": "/images/berlin/brandenburg.jpg",
           "geo": { "lat": 52.5163, "lng": 13.3777 }
         },
         {
-          "id": "mon-002",
-          "slug": "reichstag-building",
-          "name_en": "Reichstag Building",
-          "name_local": "Reichstagsgebäude",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Germany's parliament building with a stunning glass dome designed by Norman Foster. Free entry but book ahead.",
-          "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Reichstag",
-          "geo": { "lat": 52.5186, "lng": 13.3761 }
-        },
-        {
-          "id": "mon-003",
-          "slug": "tv-tower",
-          "name_en": "TV Tower",
-          "name_local": "Fernsehturm",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Berlin's tallest structure and a GDR-era icon. The observation deck offers 360° views of the city.",
-          "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=TV+Tower",
-          "geo": { "lat": 52.5208, "lng": 13.4094 }
-        }
-      ]
-    },
-    {
-      "title": "History & The Wall",
-      "id": "history",
-      "items": [
-        {
-          "id": "his-001",
+          "id": "his-002",
           "slug": "east-side-gallery",
           "name_en": "East Side Gallery",
           "name_local": "East Side Gallery",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The longest remaining section of the Berlin Wall, now an open-air gallery with murals by artists from around the world.",
-          "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=East+Side+Gallery",
+          "description": "The longest remaining stretch of the Berlin Wall, covered in murals. It's an open-air gallery, free to walk.",
+          "image": "/images/berlin/east-side.jpg",
           "geo": { "lat": 52.5058, "lng": 13.4397 }
         },
         {
-          "id": "his-002",
-          "slug": "checkpoint-charlie",
-          "name_en": "Checkpoint Charlie",
-          "name_local": "Checkpoint Charlie",
+          "id": "his-003",
+          "slug": "memorial-jews",
+          "name_en": "Holocaust Memorial",
+          "name_local": "Denkmal für die ermordeten Juden",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The famous Cold War crossing point between East and West Berlin. Now a touristy photo op, but historically significant.",
-          "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Checkpoint+Charlie",
-          "geo": { "lat": 52.5075, "lng": 13.3903 }
+          "description": "A haunting field of 2,711 concrete slabs. Walking into the center is disorienting and powerful. Please remain respectful (no selfies on the blocks).",
+          "image": "/images/berlin/holocaust-memorial.jpg",
+          "geo": { "lat": 52.5139, "lng": 13.3786 }
+        }
+      ]
+    },
+    {
+      "title": "Alternative History",
+      "id": "alt-history",
+      "items": [
+        {
+          "id": "alt-001",
+          "slug": "teufelsberg",
+          "name_en": "Teufelsberg (Spy Station)",
+          "name_local": "Teufelsberg",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Abandoned NSA listening station on a hill made of WWII rubble. Covered in graffiti with incredible city views. A bit of a hike.",
+          "image": "/images/berlin/teufelsberg.jpg",
+          "geo": { "lat": 52.4969, "lng": 13.2410 }
         },
         {
-          "id": "his-003",
-          "slug": "memorial-murdered-jews",
-          "name_en": "Memorial to the Murdered Jews of Europe",
-          "name_local": "Denkmal für die ermordeten Juden Europas",
+          "id": "alt-002",
+          "slug": "stasi-museum",
+          "name_en": "Stasi Museum",
+          "name_local": "Stasimuseum",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A haunting field of 2,711 concrete slabs. A powerful and somber tribute to Holocaust victims.",
-          "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Holocaust+Memorial",
-          "geo": { "lat": 52.5139, "lng": 13.3786 }
+          "description": "Located in the former HQ of the East German secret police. A chilling look at surveillance and control.",
+          "image": "/images/berlin/stasi-museum.jpg",
+          "geo": { "lat": 52.5145, "lng": 13.4880 }
         }
       ]
     },
@@ -277,20 +317,9 @@
           "name_local": "Museumsinsel",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A UNESCO World Heritage site with five world-renowned museums, including the Pergamon and Neues Museum.",
-          "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Museum+Island",
+          "description": "UNESCO World Heritage site with five world-renowned museums including the Pergamon (check for closures) and Neues Museum.",
+          "image": "/images/berlin/museum-island.jpg",
           "geo": { "lat": 52.5210, "lng": 13.3986 }
-        },
-        {
-          "id": "mus-002",
-          "slug": "topography-of-terror",
-          "name_en": "Topography of Terror",
-          "name_local": "Topographie des Terrors",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "A chilling documentation center built on the site of the former Gestapo and SS headquarters. Free entry.",
-          "image": "https://placehold.co/800x600/1c1c1c/ffd700?text=Topography+of+Terror",
-          "geo": { "lat": 52.5061, "lng": 13.3830 }
         }
       ]
     }
@@ -299,24 +328,24 @@
     {
       "id": "aff-001",
       "title": "European Travel Adapter (Type F)",
-      "image": "https://placehold.co/400x400/1c1c1c/ffd700?text=EU+Adapter",
-      "reason": "German plugs are Type F (two round pins). Essential for charging your devices in hostels and hotels.",
+      "image": "/images/berlin/adapter.jpg",
+      "reason": "German plugs are Type F (two round pins). Essential for charging your devices.",
       "amazon_url": "https://www.amazon.com/s?k=european+travel+adapter+type+f",
       "category": "electronics"
     },
     {
       "id": "aff-002",
-      "title": "Cash Wallet with RFID Protection",
-      "image": "https://placehold.co/400x400/1c1c1c/ffd700?text=Wallet",
-      "reason": "Many places in Berlin only accept cash. Keep your euros organized and protected from RFID skimming.",
-      "amazon_url": "https://www.amazon.com/s?k=rfid+wallet",
+      "title": "Cash Wallet",
+      "image": "/images/berlin/wallet.jpg",
+      "reason": "Berlin is a cash city. You will need a wallet that can hold coins and bills comfortably.",
+      "amazon_url": "https://www.amazon.com/s?k=slim+wallet+coin+pocket",
       "category": "security"
     },
     {
       "id": "aff-003",
-      "title": "Portable Phone Charger",
-      "image": "https://placehold.co/400x400/1c1c1c/ffd700?text=Power+Bank",
-      "reason": "Long club nights and constant transit navigation drain batteries fast. Stay connected with a portable charger.",
+      "title": "Portable Charger",
+      "image": "/images/berlin/power-bank.jpg",
+      "reason": "Long nights out and navigating the U-Bahn drain batteries fast. Stay connected.",
       "amazon_url": "https://www.amazon.com/s?k=portable+phone+charger",
       "category": "electronics"
     }

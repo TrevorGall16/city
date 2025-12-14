@@ -47,30 +47,34 @@
       { "src": "I don't speak French", "local": "Je ne parle pas français", "phonetic": "zhuh nuh parl pah" }
     ]
   },
-  "neighborhoods": [
+"neighborhoods": [
     {
       "name": "Le Marais",
       "vibe": "Trendy & Historic",
       "description": "Tight cobbled streets, hôtels particuliers, and a mix of Jewish heritage and LGBTQ+ nightlife.",
-      "highlights": ["Place des Vosges", "Rue des Rosiers", "Musée Picasso"]
+      "highlights": ["Place des Vosges", "Rue des Rosiers", "Musée Picasso"],
+      "image": "/images/paris/marais.jpg"
     },
     {
       "name": "Montmartre",
       "vibe": "Bohemian Village",
       "description": "Perched on a hill, it retains a village atmosphere with artists, vineyards, and winding streets.",
-      "highlights": ["Place du Tertre", "Rue Lepic", "Sacré-Cœur steps"]
+      "highlights": ["Place du Tertre", "Rue Lepic", "Sacré-Cœur steps"],
+      "image": "/images/paris/montmartre.jpg"
     },
     {
       "name": "Latin Quarter",
       "vibe": "Intellectual",
       "description": "Home to the Sorbonne, filled with bookshops, student cafes, and medieval history.",
-      "highlights": ["Shakespeare & Co", "Pantheon", "Rue Mouffetard"]
+      "highlights": ["Shakespeare & Co", "Pantheon", "Rue Mouffetard"],
+      "image": "/images/paris/latin-quarter.jpg"
     },
     {
       "name": "Saint-Germain",
       "vibe": "Chic & Literary",
       "description": "Famous for historic literary cafes like Les Deux Magots and high-end galleries.",
-      "highlights": ["Café de Flore", "Luxembourg Gardens", "Bon Marché"]
+      "highlights": ["Café de Flore", "Luxembourg Gardens", "Bon Marché"],
+      "image": "/images/paris/saint-germain.jpg"
     }
   ],
   "logistics": [
@@ -512,23 +516,7 @@
         }
       ]
     },
-    {
-      "title": "Viewpoints",
-      "id": "views",
-      "items": [
-        {
-          "id": "vie-01",
-          "slug": "montparnasse-tower",
-          "name_en": "Montparnasse Tower",
-          "name_local": "Tour Montparnasse",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Best skyline view of Paris because it does not include itself. Faster and less crowded than Eiffel Tower.",
-          "image": "/images/paris/montparnasse.jpg",
-          "geo": { "lat": 48.8421, "lng": 2.3218 }
-        }
-      ]
-    },
+
     {
       "title": "Churches & Sacred Sites",
       "id": "churches",

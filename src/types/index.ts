@@ -42,6 +42,7 @@ export interface City {
     vibe: string
     description: string
     highlights: string[]
+    image: string
   }>
   logistics: Array<{
     id: string

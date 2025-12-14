@@ -4,7 +4,7 @@
   "slug": "london",
   "country": "United Kingdom",
   "country_code": "gb",
-  "hero_image": "https://placehold.co/1920x1080/002868/ffffff?text=London",
+  "hero_image": "/images/london/hero.jpg",
   "intro_vibe": "Royal heritage meets modern multicultural energy in this iconic global capital.",
   "general_info": {
     "population": "~9 million (city) / ~14 million (metro area)",
@@ -33,10 +33,12 @@
     "etiquette_tips": [
       "Queueing is Sacred: Never cut in line. The queue is a British institution and jumping it is social suicide.",
       "Stand on the Right: On escalators, stand on the right, walk on the left. This is strictly enforced on the Tube.",
-      "Mind the Gap: Pay attention to the iconic warning between the train and platform. Also, don't block Tube doors.",
-      "Pub Etiquette: Order at the bar (no table service in most pubs). Say 'please' and 'thank you' liberally.",
-      "Tipping: 10-15% in restaurants if service not included. Round up in taxis. No tipping in pubs.",
-      "Volume: Keep conversations quieter than you might be used to, especially on public transport."
+      "Pub Rounds: If you are with a group, you buy in 'rounds' (one person buys for everyone, then the next). Don't buy just for yourself.",
+      "After-Work Drinking: Between 5pm-7pm, pubs spill onto the streets. It's social, loud, and standing-room only.",
+      "Mind the Gap: Pay attention to the warning between the train and platform.",
+      "Pub Service: Order at the bar. There is rarely table service for drinks.",
+      "Tipping: 10-15% in restaurants (often added as 'service charge'). No tipping in pubs.",
+      "Volume: Londoners are quiet on transit. Keep voice volume low."
     ],
     "essential_phrases": [
       { "src": "Hello", "local": "Hello / Hiya", "phonetic": "hel-OH / hi-YAH" },
@@ -51,37 +53,43 @@
       "name": "Westminster & South Bank",
       "vibe": "Iconic Tourist Core",
       "description": "Home to Big Ben, Parliament, the London Eye, and the Thames riverside walk. Touristy but unmissable for first-timers.",
-      "highlights": ["Big Ben & Parliament", "London Eye", "Westminster Abbey"]
+      "highlights": ["Big Ben & Parliament", "London Eye", "Westminster Abbey"],
+      "image": "/images/london/westminster.jpg"
     },
     {
       "name": "Shoreditch & Brick Lane",
       "vibe": "Hipster & Creative",
       "description": "Street art, vintage markets, curry houses, and nightlife. The edgy, creative heart of East London.",
-      "highlights": ["Brick Lane Market", "Street art tours", "Trendy bars & cafes"]
+      "highlights": ["Brick Lane Market", "Street art tours", "Trendy bars & cafes"],
+      "image": "/images/london/shoreditch.jpg"
     },
     {
       "name": "Notting Hill & Portobello",
       "vibe": "Colorful & Charming",
       "description": "Pastel townhouses, antique markets, and upscale bohemian vibes. Made famous by the Hugh Grant film.",
-      "highlights": ["Portobello Road Market", "Colorful houses", "Cozy cafes"]
+      "highlights": ["Portobello Road Market", "Colorful houses", "Cozy cafes"],
+      "image": "/images/london/notting-hill.jpg"
     },
     {
       "name": "Covent Garden",
       "vibe": "Lively & Theatrical",
       "description": "Street performers, boutique shops, theaters, and restaurants. Always buzzing with energy day and night.",
-      "highlights": ["Covent Garden Market", "Royal Opera House", "Street performers"]
+      "highlights": ["Covent Garden Market", "Royal Opera House", "Street performers"],
+      "image": "/images/london/covent-garden.jpg"
     },
     {
       "name": "Camden Town",
       "vibe": "Alternative & Eclectic",
       "description": "Punk heritage, sprawling markets, live music venues, and canal-side street food. Unique London character.",
-      "highlights": ["Camden Market", "Regent's Canal", "Live music venues"]
+      "highlights": ["Camden Market", "Regent's Canal", "Live music venues"],
+      "image": "/images/london/camden.jpg"
     },
     {
       "name": "South Kensington",
       "vibe": "Elegant & Cultural",
       "description": "Museum quarter with world-class institutions, elegant Victorian architecture, and upscale dining.",
-      "highlights": ["Natural History Museum", "V&A Museum", "Hyde Park nearby"]
+      "highlights": ["Natural History Museum", "V&A Museum", "Hyde Park nearby"],
+      "image": "/images/london/south-kensington.jpg"
     }
   ],
   "logistics": [
@@ -92,11 +100,23 @@
       "icon": "Train",
       "summary": "The Tube is your best friend. Get an Oyster Card or use contactless payment.",
       "details": [
-        "The Tube (London Underground): 11 lines covering the entire city. Avoid peak hours (7:30-9:30am, 5-7pm).",
-        "Oyster Card / Contactless: Tap in and out. Daily cap applies (cheaper than buying individual tickets).",
-        "Buses: Extensive network, great for sightseeing. No cash accepted - Oyster/contactless only.",
-        "Walking: Many central areas are very walkable. Download CityMapper app for best routes.",
-        "Black Cabs vs Uber: Black cabs are iconic but pricey. Uber is widely available and cheaper."
+        "The Tube: 11 lines. Avoid peak hours (7:30-9:30am, 5-7pm).",
+        "Contactless: Just tap your credit card or phone. It has a daily price cap.",
+        "Walking: London is walkable. Download CityMapper.",
+        "Black Cabs vs Uber: Black cabs are iconic but pricey. Uber is cheaper."
+      ]
+    },
+    {
+      "id": "logistics-nightlife",
+      "slug": "nightlife-reality",
+      "title": "Nightlife & Adult Context",
+      "icon": "EyeOff",
+      "summary": "London has a regulated adult industry in specific zones like Soho.",
+      "details": [
+        "The Reality: Unlike Bangkok, London's 'Red Light' scene is discreet and mostly indoors (gentlemen's clubs).",
+        "Key Areas: Soho and parts of Shoreditch. These areas are safe and trendy, but have historic adult venues.",
+        "Safety Tip: Avoid street promoters offering 'private shows' or cheap drinks. These are almost always scams.",
+        "Behavior: Photography is prohibited in venues. Prices are very high."
       ]
     },
     {
@@ -104,13 +124,11 @@
       "slug": "common-scams",
       "title": "Scams to Avoid",
       "icon": "AlertTriangle",
-      "summary": "London is generally safe, but watch for ticket touts and overpriced tourist traps.",
+      "summary": "London is safe, but watch for ticket touts and 'games'.",
       "details": [
-        "Ticket Touts: Never buy West End theater tickets from street sellers. Use official TKTS booth in Leicester Square.",
-        "Unlicensed Taxis: Only use licensed black cabs or pre-booked minicabs (Uber, Bolt, etc.).",
-        "Tourist Trap Restaurants: Avoid restaurants in Leicester Square and Piccadilly - overpriced and low quality.",
-        "Fake Monks: People dressed as monks asking for 'donations' are scammers. Politely decline.",
-        "Oyster Card Scams: Buy your Oyster card only at official Tube stations, not from street vendors."
+        "Ticket Touts: Never buy theater tickets from street sellers. Use TKTS booth.",
+        "The Cup Game: People playing gambling games on Westminster Bridge. It is rigged. You will lose.",
+        "Fake Monks: People asking for 'donations' for a plastic bracelet. Politely decline."
       ]
     },
     {
@@ -118,13 +136,11 @@
       "slug": "safety-tips",
       "title": "Safety Basics",
       "icon": "Shield",
-      "summary": "London is very safe, but stay alert for pickpockets in tourist areas.",
+      "summary": "London is very safe, but stay alert for pickpockets.",
       "details": [
-        "Pickpockets: Active on the Tube, especially on busy lines (Central, Northern) and at tourist spots.",
-        "Phone Theft: Don't use your phone near Tube doors - thieves can snatch and run as doors close.",
-        "Night Safety: Most areas are safe at night. Avoid unlit parks and deserted streets.",
-        "Emergency Number: 999 for police, ambulance, fire. 101 for non-emergencies.",
-        "Crossings: Look both ways! Traffic comes from the opposite direction. 'Look Right' painted on roads."
+        "Pickpockets: Active on the Tube and at tourist spots.",
+        "Phone Snatching: Thieves on bikes snatch phones from hands on the sidewalk. Don't text while walking near the curb.",
+        "Emergency Number: 999 for police/ambulance."
       ]
     },
     {
@@ -134,11 +150,10 @@
       "icon": "Smartphone",
       "summary": "These apps will make navigating London much easier.",
       "details": [
-        "CityMapper: The absolute best for transit navigation. Shows Tube delays, bus times, walking routes.",
-        "TfL Go: Official Transport for London app for live updates and journey planning.",
-        "Uber / Bolt: Ride-hailing apps. Widely available and reliable.",
-        "OpenTable / The Fork: Restaurant reservations. Many places book up quickly.",
-        "Trainline: For booking train tickets to other UK cities in advance (much cheaper)."
+        "CityMapper: The absolute best for transit navigation.",
+        "TfL Go: Official Transport for London app.",
+        "Uber / Bolt: Ride-hailing apps.",
+        "Trainline: For booking trains to other cities."
       ]
     }
   ],
@@ -150,8 +165,8 @@
       "name_local": "Fish & Chips",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The quintessential British dish: battered white fish (usually cod or haddock) with thick-cut chips, mushy peas, and tartar sauce. Best enjoyed from a proper chippy, wrapped in paper. Look for places using fresh fish and cooking in beef dripping for authentic flavor.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Fish+and+Chips"
+      "description": "The quintessential British dish: battered white fish (cod/haddock) with thick chips and mushy peas. Best from a proper 'chippy', wrapped in paper.",
+      "image": "/images/london/fish-chips.jpg"
     },
     {
       "id": "food-002",
@@ -160,28 +175,18 @@
       "name_local": "Sunday Roast",
       "category": "food",
       "is_generic_staple": true,
-      "description": "A Sunday institution: roasted meat (beef, lamb, chicken, or pork) served with roast potatoes, Yorkshire pudding, seasonal vegetables, and rich gravy. Book ahead at traditional pubs - this is a weekly ritual for many Londoners. Served typically from noon to 6pm on Sundays.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Sunday+Roast"
+      "description": "A Sunday institution: roasted meat with potatoes, Yorkshire pudding, veg, and gravy. Book ahead at pubs for 12pm-4pm.",
+      "image": "/images/london/sunday-roast.jpg"
     },
     {
       "id": "food-003",
       "slug": "full-english-breakfast",
       "name_en": "Full English Breakfast",
-      "name_local": "Full English / Fry-Up",
+      "name_local": "Fry-Up",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The legendary British breakfast: bacon, sausages, eggs, baked beans, grilled tomatoes, mushrooms, black pudding, and toast. Often called a 'fry-up'. Found in cafes and greasy spoons across the city. Perfect hangover cure or hearty start to a day of sightseeing.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Full+English"
-    },
-    {
-      "id": "food-004",
-      "slug": "afternoon-tea",
-      "name_en": "Afternoon Tea",
-      "name_local": "Afternoon Tea",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": "An elegant British tradition: finger sandwiches, scones with clotted cream and jam, and delicate pastries, served with tea on a tiered stand. Dress smartly and book in advance at classic hotels like The Ritz, Claridge's, or The Savoy for the full experience.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Afternoon+Tea"
+      "description": "The legendary breakfast: bacon, sausages, eggs, beans, tomatoes, mushrooms, and toast. The ultimate hangover cure.",
+      "image": "/images/london/full-english.jpg"
     },
     {
       "id": "food-005",
@@ -190,8 +195,8 @@
       "name_local": "Curry",
       "category": "food",
       "is_generic_staple": true,
-      "description": "London's curry scene is world-class, particularly on Brick Lane in East London. Try chicken tikka masala (invented in the UK), lamb rogan josh, or biryani. Many restaurants are BYOB (bring your own alcohol) with no corkage fee, making it affordable and fun.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Curry"
+      "description": "London's curry scene is world-class. Brick Lane is famous, but Tayyabs or Dishoom offer superior quality.",
+      "image": "/images/london/curry.jpg"
     },
     {
       "id": "food-006",
@@ -200,18 +205,48 @@
       "name_local": "Pie & Mash",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Traditional East End working-class dish: meat pie (usually minced beef) with mashed potatoes and a thin parsley sauce called 'liquor'. Some shops also serve jellied eels. A taste of old London at historic pie shops like M. Manze or F. Cooke.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Pie+and+Mash"
+      "description": "Traditional East End working-class dish: meat pie with mash and green parsley 'liquor'. A taste of old London.",
+      "image": "/images/london/pie-mash.jpg"
     },
     {
-      "id": "food-007",
-      "slug": "scotch-egg",
-      "name_en": "Scotch Egg",
-      "name_local": "Scotch Egg",
+      "id": "food-20",
+      "slug": "meal-deal-culture",
+      "name_en": "The Supermarket Meal Deal",
+      "name_local": "Meal Deal",
       "category": "food",
       "is_generic_staple": true,
-      "description": "A hard or soft-boiled egg wrapped in seasoned sausage meat, coated in breadcrumbs, and deep-fried. A popular pub snack and picnic food. Modern versions get creative with fillings like black pudding or chorizo.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Scotch+Egg"
+      "description": "The true Londoner's lunch. Sandwich + Snack + Drink for ~£3.50 at Tesco or Sainsbury's. Not gourmet, but culturally essential.",
+      "image": "/images/london/meal-deal.jpg"
+    },
+    {
+      "id": "food-21",
+      "slug": "street-food-markets",
+      "name_en": "Street Food Markets",
+      "name_local": "Street Food",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Modern London eats at markets. Borough is famous, but Maltby Street or Mercato Metropolitano are where locals go for burgers, bao, and tacos.",
+      "image": "/images/london/street-food.jpg"
+    },
+    {
+      "id": "food-22",
+      "slug": "salt-beef-bagel",
+      "name_en": "Salt Beef Bagel",
+      "name_local": "Beigel",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "A Brick Lane icon. Hot salt beef with mustard and pickles in a chewy boiled bagel. Open 24/7 at Beigel Bake.",
+      "image": "/images/london/bagel.jpg"
+    },
+    {
+      "id": "food-23",
+      "slug": "caribbean-cuisine",
+      "name_en": "Caribbean Food",
+      "name_local": "Jerk Chicken",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "A core part of London's identity. Jerk chicken, patties, and rice & peas. Authentic spots found in Brixton and Notting Hill.",
+      "image": "/images/london/caribbean.jpg"
     },
     {
       "id": "food-008",
@@ -220,48 +255,8 @@
       "name_local": "The Pub",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The pub is a cornerstone of British culture. Try a pint of real ale, cider, or a gin and tonic. Many serve excellent food ('gastropubs'). Order at the bar, not table service. Historic pubs like Ye Olde Cheshire Cheese (1667) offer atmospheric charm.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=British+Pub"
-    },
-    {
-      "id": "food-009",
-      "slug": "cornish-pasty",
-      "name_en": "Cornish Pasty",
-      "name_local": "Cornish Pasty",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": "A portable pastry filled with beef, potato, swede (rutabaga), and onion. Originally miner's lunch from Cornwall, now a popular grab-and-go snack across London. Look for authentic Cornish pasties with the protected geographical status crimped edge.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Cornish+Pasty"
-    },
-    {
-      "id": "food-010",
-      "slug": "bangers-and-mash",
-      "name_en": "Bangers & Mash",
-      "name_local": "Bangers & Mash",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": "Comfort food classic: sausages ('bangers') served over creamy mashed potatoes with onion gravy. A pub staple across London. Quality varies - look for pubs using premium sausages from local butchers for the best experience.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Bangers+and+Mash"
-    },
-    {
-      "id": "food-011",
-      "slug": "sticky-toffee-pudding",
-      "name_en": "Sticky Toffee Pudding",
-      "name_local": "Sticky Toffee Pudding",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": "Beloved British dessert: moist sponge cake made with dates, covered in toffee sauce, and served warm with vanilla custard or ice cream. Rich, sweet, and utterly indulgent. A must-try at traditional pubs and restaurants.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Sticky+Toffee+Pudding"
-    },
-    {
-      "id": "food-012",
-      "slug": "jellied-eels",
-      "name_en": "Jellied Eels",
-      "name_local": "Jellied Eels",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": "Traditional East End delicacy: chopped eels boiled in stock that sets into a jelly when cooled. An acquired taste and piece of London history. Found at traditional pie and mash shops. Not for everyone, but a cultural experience for the adventurous.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Jellied+Eels"
+      "description": "Cornerstone of culture. Try a pint of real ale or cider. Order at the bar. 'Gastropubs' serve excellent food.",
+      "image": "/images/london/pub.jpg"
     }
   ],
   "must_see": [
@@ -272,12 +267,12 @@
         {
           "id": "land-01",
           "slug": "big-ben",
-          "name_en": "Big Ben & Houses of Parliament",
+          "name_en": "Big Ben & Parliament",
           "name_local": "Big Ben",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The iconic clock tower (officially Elizabeth Tower) and the seat of British government. Stunning Gothic Revival architecture on the Thames.",
-          "image": "https://placehold.co/800x600/002868/ffffff?text=Big+Ben",
+          "description": "The iconic clock tower and seat of government. Best viewed from Westminster Bridge.",
+          "image": "/images/london/big-ben.jpg",
           "geo": { "lat": 51.5007, "lng": -0.1246 }
         },
         {
@@ -287,8 +282,8 @@
           "name_local": "London Eye",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Giant Ferris wheel on the South Bank offering panoramic city views. Book tickets online to skip queues.",
-          "image": "https://placehold.co/800x600/002868/ffffff?text=London+Eye",
+          "description": "Giant Ferris wheel offering panoramic city views. Book online to skip queues.",
+          "image": "/images/london/london-eye.jpg",
           "geo": { "lat": 51.5033, "lng": -0.1195 }
         },
         {
@@ -298,20 +293,59 @@
           "name_local": "Tower Bridge",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "London's most famous bridge with distinctive twin towers. Walk across for free or visit the exhibition for glass floor views.",
-          "image": "https://placehold.co/800x600/002868/ffffff?text=Tower+Bridge",
+          "description": "Most famous bridge in London. Watch the bridge lift times online.",
+          "image": "/images/london/tower-bridge.jpg",
           "geo": { "lat": 51.5055, "lng": -0.0754 }
-        },
+        }
+      ]
+    },
+    {
+      "title": "Local Experiences",
+      "id": "experiences",
+      "items": [
         {
-          "id": "land-04",
-          "slug": "buckingham-palace",
-          "name_en": "Buckingham Palace",
-          "name_local": "Buckingham Palace",
+          "id": "exp-01",
+          "slug": "thames-walk",
+          "name_en": "South Bank Walk",
+          "name_local": "The Queen's Walk",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The official residence of the British monarch. Watch the Changing of the Guard ceremony (11am, check schedule online).",
-          "image": "https://placehold.co/800x600/002868/ffffff?text=Buckingham+Palace",
-          "geo": { "lat": 51.5014, "lng": -0.1419 }
+          "description": "The best free activity. Walk from Westminster to Tower Bridge along the river. Street performers, book markets, and pubs.",
+          "image": "/images/london/thames-walk.jpg",
+          "geo": { "lat": 51.5080, "lng": -0.1000 }
+        },
+        {
+          "id": "exp-02",
+          "slug": "west-end-theatre",
+          "name_en": "West End Show",
+          "name_local": "The Theatre",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "World-class theatre. Get discount same-day tickets at the TKTS booth in Leicester Square.",
+          "image": "/images/london/west-end.jpg",
+          "geo": { "lat": 51.5115, "lng": -0.1280 }
+        },
+        {
+          "id": "exp-03",
+          "slug": "regents-canal",
+          "name_en": "Regent's Canal Walk",
+          "name_local": "Regent's Canal",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "A peaceful towpath walk from Little Venice to Camden. Houseboats, cafes, and greenery away from traffic.",
+          "image": "/images/london/regents-canal.jpg",
+          "geo": { "lat": 51.5230, "lng": -0.1700 }
+        },
+        {
+          "id": "exp-04",
+          "slug": "highgate-cemetery",
+          "name_en": "Highgate Cemetery",
+          "name_local": "Highgate Cemetery",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Stunning Victorian cemetery overgrown with nature. Gothic atmosphere and Karl Marx's grave.",
+          "image": "/images/london/highgate.jpg",
+          "geo": { "lat": 51.5670, "lng": -0.1470 }
         }
       ]
     },
@@ -326,19 +360,19 @@
           "name_local": "British Museum",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Massive collection of world art and artifacts including the Rosetta Stone and Egyptian mummies. Free entry. Allow at least 3 hours.",
-          "image": "https://placehold.co/800x600/002868/ffffff?text=British+Museum",
+          "description": "Rosetta Stone and Egyptian mummies. Free entry. Huge crowds.",
+          "image": "/images/london/british-museum.jpg",
           "geo": { "lat": 51.5194, "lng": -0.1270 }
         },
         {
           "id": "mus-02",
           "slug": "natural-history-museum",
           "name_en": "Natural History Museum",
-          "name_local": "Natural History Museum",
+          "name_local": "NHM",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Stunning Victorian building housing dinosaur skeletons, the blue whale, and vast natural wonders. Free entry. Great for all ages.",
-          "image": "https://placehold.co/800x600/002868/ffffff?text=Natural+History+Museum",
+          "description": "Dinosaurs and the blue whale in a stunning cathedral-like building. Free entry.",
+          "image": "/images/london/natural-history.jpg",
           "geo": { "lat": 51.4967, "lng": -0.1764 }
         },
         {
@@ -348,20 +382,9 @@
           "name_local": "Tate Modern",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Converted power station housing contemporary art. Free entry to permanent collection. Stunning views from the top-floor terrace.",
-          "image": "https://placehold.co/800x600/002868/ffffff?text=Tate+Modern",
+          "description": "Contemporary art in a former power station. Views from the terrace are incredible.",
+          "image": "/images/london/tate-modern.jpg",
           "geo": { "lat": 51.5076, "lng": -0.0994 }
-        },
-        {
-          "id": "mus-04",
-          "slug": "victoria-albert-museum",
-          "name_en": "Victoria and Albert Museum",
-          "name_local": "V&A",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "World's leading museum of art, design, and performance. Incredible decorative arts and fashion collections. Free entry.",
-          "image": "https://placehold.co/800x600/002868/ffffff?text=V+and+A",
-          "geo": { "lat": 51.4966, "lng": -0.1722 }
         }
       ]
     },
@@ -376,109 +399,20 @@
           "name_local": "Tower of London",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Medieval fortress housing the Crown Jewels. Nearly 1000 years of history as royal palace, prison, and execution site. Book online.",
-          "image": "https://placehold.co/800x600/002868/ffffff?text=Tower+of+London",
+          "description": "1000-year-old fortress housing the Crown Jewels. Former prison and palace.",
+          "image": "/images/london/tower-london.jpg",
           "geo": { "lat": 51.5081, "lng": -0.0759 }
-        },
-        {
-          "id": "his-02",
-          "slug": "westminster-abbey",
-          "name_en": "Westminster Abbey",
-          "name_local": "Westminster Abbey",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Gothic church where monarchs are crowned and buried. Stunning architecture and historical significance. Entry fee required.",
-          "image": "https://placehold.co/800x600/002868/ffffff?text=Westminster+Abbey",
-          "geo": { "lat": 51.4993, "lng": -0.1273 }
         },
         {
           "id": "his-03",
           "slug": "st-pauls-cathedral",
           "name_en": "St Paul's Cathedral",
-          "name_local": "St Paul's Cathedral",
+          "name_local": "St Paul's",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Christopher Wren's baroque masterpiece with iconic dome. Climb to the Whispering Gallery and Golden Gallery for city views.",
-          "image": "https://placehold.co/800x600/002868/ffffff?text=St+Pauls",
+          "description": "Iconic dome dominating the skyline. Climb to the top for views.",
+          "image": "/images/london/st-pauls.jpg",
           "geo": { "lat": 51.5138, "lng": -0.0984 }
-        }
-      ]
-    },
-    {
-      "title": "Parks & Green Spaces",
-      "id": "parks",
-      "items": [
-        {
-          "id": "par-01",
-          "slug": "hyde-park",
-          "name_en": "Hyde Park",
-          "name_local": "Hyde Park",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Massive central park perfect for picnics, boating on the Serpentine, or visiting the Diana Memorial Fountain. Free entry.",
-          "image": "https://placehold.co/800x600/002868/ffffff?text=Hyde+Park",
-          "geo": { "lat": 51.5074, "lng": -0.1657 }
-        },
-        {
-          "id": "par-02",
-          "slug": "regents-park",
-          "name_en": "Regent's Park",
-          "name_local": "Regent's Park",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Beautiful royal park with stunning rose gardens, London Zoo, and outdoor theater in summer. More manicured than Hyde Park.",
-          "image": "https://placehold.co/800x600/002868/ffffff?text=Regents+Park",
-          "geo": { "lat": 51.5313, "lng": -0.1573 }
-        },
-        {
-          "id": "par-03",
-          "slug": "greenwich-park",
-          "name_en": "Greenwich Park",
-          "name_local": "Greenwich Park",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Historic park on a hill with sweeping views of London skyline. Home to Royal Observatory and Prime Meridian line.",
-          "image": "https://placehold.co/800x600/002868/ffffff?text=Greenwich+Park",
-          "geo": { "lat": 51.4769, "lng": -0.0005 }
-        }
-      ]
-    },
-    {
-      "title": "Markets & Shopping",
-      "id": "markets",
-      "items": [
-        {
-          "id": "mar-01",
-          "slug": "borough-market",
-          "name_en": "Borough Market",
-          "name_local": "Borough Market",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Historic food market with gourmet vendors, street food, and fresh produce. Crowded but worth it for foodies. Best Thursday-Saturday.",
-          "image": "https://placehold.co/800x600/002868/ffffff?text=Borough+Market",
-          "geo": { "lat": 51.5055, "lng": -0.0910 }
-        },
-        {
-          "id": "mar-02",
-          "slug": "portobello-road",
-          "name_en": "Portobello Road Market",
-          "name_local": "Portobello Road",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Famous antiques and vintage market in colorful Notting Hill. Busiest on Saturdays. Explore the area's pastel houses too.",
-          "image": "https://placehold.co/800x600/002868/ffffff?text=Portobello+Road",
-          "geo": { "lat": 51.5163, "lng": -0.2057 }
-        },
-        {
-          "id": "mar-03",
-          "slug": "camden-market",
-          "name_en": "Camden Market",
-          "name_local": "Camden Market",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Eclectic market with alternative fashion, crafts, vintage finds, and international street food. Open daily, busiest on weekends.",
-          "image": "https://placehold.co/800x600/002868/ffffff?text=Camden+Market",
-          "geo": { "lat": 51.5412, "lng": -0.1460 }
         }
       ]
     }
@@ -487,24 +421,24 @@
     {
       "id": "aff-001",
       "title": "Universal Travel Adapter (UK Type G)",
-      "image": "https://placehold.co/400x400/e2e8f0/475569?text=UK+Adapter",
-      "reason": "UK plugs are unique (three rectangular pins). You absolutely need this adapter - US/EU plugs won't fit anywhere.",
+      "image": "/images/london/adapter.jpg",
+      "reason": "UK plugs are unique (three rectangular pins). You absolutely need this adapter.",
       "amazon_url": "https://www.amazon.com/s?k=uk+travel+adapter+type+g",
       "category": "electronics"
     },
     {
       "id": "aff-002",
       "title": "Compact Travel Umbrella",
-      "image": "https://placehold.co/400x400/e2e8f0/475569?text=Umbrella",
-      "reason": "London weather is famously unpredictable. A small umbrella fits in your day bag and saves you from sudden showers.",
+      "image": "/images/london/umbrella.jpg",
+      "reason": "London weather is famously unpredictable. A small umbrella fits in your bag.",
       "amazon_url": "https://www.amazon.com/s?k=compact+travel+umbrella",
       "category": "weather"
     },
     {
       "id": "aff-003",
       "title": "Waterproof Walking Shoes",
-      "image": "https://placehold.co/400x400/e2e8f0/475569?text=Walking+Shoes",
-      "reason": "London requires a LOT of walking, and streets can be wet. Comfortable, waterproof shoes are essential for sightseeing.",
+      "image": "/images/london/shoes.jpg",
+      "reason": "London requires a LOT of walking. Comfortable shoes are essential.",
       "amazon_url": "https://www.amazon.com/s?k=waterproof+walking+shoes",
       "category": "footwear"
     }
