@@ -1,9 +1,3 @@
-/**
- * Homepage
- * Following 03_UI section 3.1 (Homepage Template)
- * Features: Hero search, Interactive world map (desktop), Regional grid (mobile)
- */
-
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
@@ -128,7 +122,7 @@ export default function HomePage() {
   })).filter((region) => region.countries.length > 0)
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen bg-slate-50 dark:bg-slate-900">
       {/* Hero Search Module */}
       <section className="min-h-[60vh] flex flex-col justify-center items-center text-center px-4 bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-900 dark:text-slate-50">
@@ -232,7 +226,7 @@ export default function HomePage() {
       </section>
 
       {/* Interactive World Map - Desktop Only */}
-      <section className="hidden lg:block max-w-[1400px] mx-auto px-4 md:px-6 lg:px-8 py-16 bg-slate-50 dark:bg-slate-900">
+      <section className="hidden lg:block max-w-[1400px] mx-auto px-4 md:px-6 lg:px-8 py-16">
         <h2 className="text-2xl md:text-3xl font-bold mb-8 text-slate-900 dark:text-slate-50 text-center">
           Explore the World
         </h2>
@@ -246,21 +240,24 @@ export default function HomePage() {
       </section>
 
       {/* Ad Unit - Horizontal Banner between Map and Grid */}
-      <section className="max-w-[1400px] mx-auto px-4 md:px-6 lg:px-8 py-8 bg-white dark:bg-slate-950">
+      <section className="max-w-[1400px] mx-auto px-4 md:px-6 lg:px-8 py-8">
         <AdUnit size="horizontal" className="max-w-[970px] mx-auto" />
       </section>
 
-      {/* Regional Grid - Mobile and Tablet, Also shows filtered results on desktop */}
-      <section ref={gridRef} className="lg:hidden max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-16 bg-slate-50 dark:bg-slate-900">
-        <div className="mb-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-50">
+      {/* Regional Grid - Desktop & Mobile (Unified) */}
+      <section ref={gridRef} className="scroll-mt-24 max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-16">
+        <div className="mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-slate-50">
             Explore Cities
           </h2>
+          <p className="mt-4 text-lg text-slate-600 dark:text-slate-400">
+            Discover your next destination
+          </p>
 
           {/* Active Filter Indicator + Clear Button */}
           {searchQuery && (
-            <div className="mt-4 flex items-center justify-between bg-indigo-50 dark:bg-indigo-900/20 border border-indigo-200 dark:border-indigo-800 rounded-lg px-4 py-3">
-              <p className="text-sm text-indigo-900 dark:text-indigo-100">
+            <div className="mt-6 inline-flex items-center justify-between bg-indigo-50 dark:bg-indigo-900/20 border border-indigo-200 dark:border-indigo-800 rounded-lg px-4 py-2">
+              <p className="text-sm text-indigo-900 dark:text-indigo-100 mr-4">
                 Showing results for <span className="font-semibold">"{searchQuery}"</span>
               </p>
               <button
@@ -274,7 +271,7 @@ export default function HomePage() {
         </div>
 
         {filteredRegions.length === 0 ? (
-          <div className="text-center py-16">
+          <div className="text-center py-16 bg-white dark:bg-slate-800/50 rounded-2xl border border-slate-200 dark:border-slate-800">
             <div className="text-6xl mb-4">🗺️</div>
             <p className="text-xl font-semibold text-slate-700 dark:text-slate-300 mb-2">
               We haven't been there yet
@@ -290,91 +287,29 @@ export default function HomePage() {
             </button>
           </div>
         ) : (
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          // ✅ UNIFIED GRID LAYOUT
+          <div className="space-y-16">
             {filteredRegions.map((region) => (
               <div key={region.name}>
-                <h3 className="text-xl font-semibold mb-8 text-slate-800 dark:text-slate-200 uppercase tracking-wider">
-                  {region.name}
-                </h3>
+                {/* Region Header */}
+                <div className="flex items-center mb-8">
+                  <div className="flex-grow border-t border-slate-200 dark:border-slate-800"></div>
+                  <h3 className="mx-4 text-xl font-semibold text-slate-800 dark:text-slate-200 uppercase tracking-wider">
+                    {region.name}
+                  </h3>
+                  <div className="flex-grow border-t border-slate-200 dark:border-slate-800"></div>
+                </div>
 
                 {region.countries.map((country) => (
-                  <div key={country.name} className="mb-10">
-                    <h4 className="text-3xl md:text-4xl font-bold mb-6 text-slate-900 dark:text-slate-50">
+                  <div key={country.name} className="mb-12 last:mb-0">
+                    {/* Country Header */}
+                    <h4 className="text-2xl md:text-3xl font-bold mb-6 text-slate-900 dark:text-slate-50 flex items-center gap-3">
+                      <span className="text-3xl">{COUNTRY_FLAGS[country.name]}</span>
                       {country.name}
                     </h4>
-                    <div className="grid grid-cols-1 gap-6">
-                      {country.cities.map((city) => (
-                        <CityCard
-                          key={city.slug}
-                          name={city.name}
-                          country={city.country}
-                          image={city.image}
-                          slug={city.slug}
-                          priority={city.priority}
-                        />
-                      ))}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            ))}
-          </div>
-        )}
-      </section>
-
-      {/* Desktop: Show all cities list below map for accessibility */}
-      <section ref={gridRef} className="hidden lg:block max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-16 bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800">
-        <div className="mb-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-50">
-            All Cities
-          </h2>
-
-          {/* Active Filter Indicator + Clear Button */}
-          {searchQuery && (
-            <div className="mt-4 flex items-center justify-between bg-indigo-50 dark:bg-indigo-900/20 border border-indigo-200 dark:border-indigo-800 rounded-lg px-4 py-3">
-              <p className="text-sm text-indigo-900 dark:text-indigo-100">
-                Showing results for <span className="font-semibold">"{searchQuery}"</span>
-              </p>
-              <button
-                onClick={() => setSearchQuery('')}
-                className="flex items-center gap-1.5 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 transition-colors"
-              >
-                <span>✕</span> Clear
-              </button>
-            </div>
-          )}
-        </div>
-
-        {filteredRegions.length === 0 ? (
-          <div className="text-center py-16">
-            <div className="text-6xl mb-4">🗺️</div>
-            <p className="text-xl font-semibold text-slate-700 dark:text-slate-300 mb-2">
-              We haven't been there yet
-            </p>
-            <p className="text-slate-600 dark:text-slate-400 mb-6">
-              Try searching for Paris, Tokyo, Bangkok, or Los Angeles
-            </p>
-            <button
-              onClick={() => setSearchQuery('')}
-              className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition-colors"
-            >
-              Clear Search
-            </button>
-          </div>
-        ) : (
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {filteredRegions.map((region) => (
-              <div key={region.name}>
-                <h3 className="text-xl font-semibold mb-8 text-slate-800 dark:text-slate-200 uppercase tracking-wider">
-                  {region.name}
-                </h3>
-
-                {region.countries.map((country) => (
-                  <div key={country.name} className="mb-10">
-                    <h4 className="text-3xl md:text-4xl font-bold mb-6 text-slate-900 dark:text-slate-50">
-                      {country.name}
-                    </h4>
-                    <div className="grid grid-cols-1 gap-6">
+                    
+                    {/* ✅ 2-COLUMN GRID LAYOUT */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                       {country.cities.map((city) => (
                         <CityCard
                           key={city.slug}

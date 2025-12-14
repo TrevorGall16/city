@@ -14,6 +14,7 @@ import { Footer } from '@/components/ui/Footer'
 import { Toaster } from 'sonner'
 import './globals.css'
 import type { Metadata } from 'next'
+import { CookieConsent } from '@/components/features/CookieConsent'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -78,6 +79,7 @@ export default function RootLayout({
             </AdProvider>
           </AuthProvider>
         </ThemeProvider>
+        <CookieConsent />
       </body>
     </html>
   )
