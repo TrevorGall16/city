@@ -19,12 +19,48 @@ const COUNTRY_FLAGS: Record<string, string> = {
 
 // City data for filtering
 const CITIES = [
-  { name: 'Paris', country: 'France', slug: 'paris', image: 'https://placehold.co/800x600/e2e8f0/475569?text=Paris', priority: true },
-  { name: 'London', country: 'United Kingdom', slug: 'london', image: 'https://placehold.co/800x600/002868/ffffff?text=London', priority: true },
-  { name: 'Berlin', country: 'Germany', slug: 'berlin', image: 'https://placehold.co/800x600/e2e8f0/475569?text=Berlin', priority: false },
-  { name: 'Tokyo', country: 'Japan', slug: 'tokyo', image: 'https://placehold.co/1920x1080/ffffff/dc143c?text=Tokyo', priority: false },
-  { name: 'Bangkok', country: 'Thailand', slug: 'bangkok', image: 'https://placehold.co/800x600/ffd700/8b008b?text=Bangkok', priority: false },
-  { name: 'Los Angeles', country: 'United States', slug: 'los-angeles', image: 'https://placehold.co/800x600/00bfff/ff1493?text=Los+Angeles', priority: false },
+  { 
+    name: 'Paris', 
+    country: 'France', 
+    slug: 'paris', 
+    image: '/images/paris/hero.jpg', // ✅ Updated to local image
+    priority: true 
+  },
+  { 
+    name: 'London', 
+    country: 'United Kingdom', 
+    slug: 'london', 
+    image: '/images/london/hero.jpg', // ✅ Updated to local image
+    priority: true 
+  },
+  { 
+    name: 'Berlin', 
+    country: 'Germany', 
+    slug: 'berlin', 
+    image: '/images/berlin/hero.jpg', // ✅ Updated to local image
+    priority: false 
+  },
+  { 
+    name: 'Tokyo', 
+    country: 'Japan', 
+    slug: 'tokyo', 
+    image: '/images/tokyo/hero.jpg', // ✅ Updated to local image
+    priority: false 
+  },
+  { 
+    name: 'Bangkok', 
+    country: 'Thailand', 
+    slug: 'bangkok', 
+    image: '/images/bangkok/hero.jpg', // ✅ Updated to local image
+    priority: false 
+  },
+  { 
+    name: 'Los Angeles', 
+    country: 'United States', 
+    slug: 'los-angeles', 
+    image: '/images/los-angeles/hero.jpg', // ✅ Updated to local image
+    priority: false 
+  },
 ]
 
 const REGIONS = [
