@@ -10,25 +10,38 @@ const GEO_URL = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"
 // 2. Active Destinations & Colors
 // Colors chosen to match national identity/flags
 const ACTIVE_COUNTRIES: Record<string, string> = {
-  'United Kingdom': '#1e3a8a', // Royal Navy Blue
-  'France':         '#2563eb', // French Royal Blue
-  'Germany':        '#eab308', // Flag Gold
-  'Japan':          '#dc2626', // Rising Sun Red
-  'Thailand':       '#059669', // Tropical Emerald (Distinct from others)
-  'United States of America': '#3b82f6', // Bright "Star-Spangled" Blue
+  // Europe
+  'United Kingdom': '#1e3a8a',
+  'France': '#2563eb',
+  'Germany': '#eab308',
+  'Italy': '#16a34a',
+  
+  // Asia
+  'Japan': '#dc2626',
+  'Thailand': '#059669',
+  'China': '#de2910', // Red
+  'India': '#ff9933', // Saffron/Orange
+  
+  // Americas
+  'United States of America': '#3b82f6',
+  
+  // Middle East (New)
+  'Turkey': '#e30a17', // Turkish Red
+  'United Arab Emirates': '#00732f', // UAE Green
+  'Saudi Arabia': '#165d31', // Saudi Green
 }
 
 const NAME_MAPPING: Record<string, string> = {
   'United States': 'United States of America'
 }
 
-// 3. Region Configurations (Where to zoom when clicked)
-// Coordinates are [Longitude, Latitude]
+// 3. Region Configurations
 const REGIONS: Record<string, { center: [number, number], zoom: number }> = {
   'Europe': { center: [10, 50], zoom: 4 },
-  'Asia': { center: [100, 20], zoom: 3 },
+  'Asia': { center: [100, 30], zoom: 3 },
   'North America': { center: [-100, 40], zoom: 2.5 },
-  'World': { center: [0, 20], zoom: 1 } // Default
+  'Middle East': { center: [45, 25], zoom: 4 }, // ✅ NEW ZOOM REGION
+  'World': { center: [0, 20], zoom: 1 }
 }
 
 // Mapping countries to their regions
@@ -36,9 +49,18 @@ const COUNTRY_TO_REGION: Record<string, string> = {
   'United Kingdom': 'Europe',
   'France': 'Europe',
   'Germany': 'Europe',
+  'Italy': 'Europe',
+  
   'Japan': 'Asia',
   'Thailand': 'Asia',
-  'United States of America': 'North America'
+  'China': 'Asia',
+  'India': 'Asia',
+  
+  'United States of America': 'North America',
+  
+  'Turkey': 'Middle East',
+  'United Arab Emirates': 'Middle East',
+  'Saudi Arabia': 'Middle East',
 }
 
 interface InteractiveWorldMapProps {

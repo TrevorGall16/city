@@ -17,72 +17,62 @@ const COUNTRY_FLAGS: Record<string, string> = {
   'United States': '🇺🇸',
 }
 
-// City data for filtering
+// 1. UPDATE THE CITIES LIST
 const CITIES = [
-  { 
-    name: 'Paris', 
-    country: 'France', 
-    slug: 'paris', 
-    image: '/images/paris/hero.jpg', // ✅ Updated to local image
-    priority: true 
-  },
-  { 
-    name: 'London', 
-    country: 'United Kingdom', 
-    slug: 'london', 
-    image: '/images/london/hero.jpg', // ✅ Updated to local image
-    priority: true 
-  },
-  { 
-    name: 'Berlin', 
-    country: 'Germany', 
-    slug: 'berlin', 
-    image: '/images/berlin/hero.jpg', // ✅ Updated to local image
-    priority: false 
-  },
-  { 
-    name: 'Tokyo', 
-    country: 'Japan', 
-    slug: 'tokyo', 
-    image: '/images/tokyo/hero.jpg', // ✅ Updated to local image
-    priority: false 
-  },
-  { 
-    name: 'Bangkok', 
-    country: 'Thailand', 
-    slug: 'bangkok', 
-    image: '/images/bangkok/hero.jpg', // ✅ Updated to local image
-    priority: false 
-  },
-  { 
-    name: 'Los Angeles', 
-    country: 'United States', 
-    slug: 'los-angeles', 
-    image: '/images/los-angeles/hero.jpg', // ✅ Updated to local image
-    priority: false 
-  },
+  // --- ACTIVE CITIES (We have JSON files for these) ---
+  { name: 'Paris', country: 'France', slug: 'paris', image: '/images/paris/hero.jpg', priority: true },
+  { name: 'London', country: 'United Kingdom', slug: 'london', image: '/images/london/hero.jpg', priority: true },
+  { name: 'Berlin', country: 'Germany', slug: 'berlin', image: '/images/berlin/hero.jpg', priority: false },
+  { name: 'Rome', country: 'Italy', slug: 'rome', image: '/images/rome/hero.jpg', priority: true },
+  { name: 'Tokyo', country: 'Japan', slug: 'tokyo', image: '/images/tokyo/hero.jpg', priority: false },
+  { name: 'Bangkok', country: 'Thailand', slug: 'bangkok', image: '/images/bangkok/hero.jpg', priority: false },
+  { name: 'Los Angeles', country: 'United States', slug: 'los-angeles', image: '/images/los-angeles/hero.jpg', priority: false },
+
+  // --- COMING SOON (Placeholders - These will go to a 404 page for now) ---
+  { name: 'New York', country: 'United States', slug: 'new-york', image: 'https://placehold.co/800x600/0033a0/ffffff?text=New+York', priority: true },
+  { name: 'Hong Kong', country: 'China', slug: 'hong-kong', image: 'https://placehold.co/800x600/de2910/ffffff?text=Hong+Kong', priority: false },
+  { name: 'Guangzhou', country: 'China', slug: 'guangzhou', image: 'https://placehold.co/800x600/de2910/ffde00?text=Guangzhou', priority: false },
+  { name: 'New Delhi', country: 'India', slug: 'new-delhi', image: 'https://placehold.co/800x600/ff9933/138808?text=New+Delhi', priority: false },
+  { name: 'Istanbul', country: 'Turkey', slug: 'istanbul', image: 'https://placehold.co/800x600/e30a17/ffffff?text=Istanbul', priority: false },
+  { name: 'Dubai', country: 'United Arab Emirates', slug: 'dubai', image: 'https://placehold.co/800x600/00732f/ffffff?text=Dubai', priority: false },
+  { name: 'Mecca', country: 'Saudi Arabia', slug: 'mecca', image: 'https://placehold.co/800x600/165d31/ffffff?text=Mecca', priority: false },
 ]
 
+// 2. UPDATE THE REGIONS GROUPING
 const REGIONS = [
   {
     name: 'North America',
     countries: [
-      { name: 'United States', cities: [CITIES[5]] },
+      { name: 'United States', cities: [
+        CITIES.find(c => c.slug === 'new-york')!,
+        CITIES.find(c => c.slug === 'los-angeles')!
+      ]},
     ],
   },
   {
     name: 'Europe',
     countries: [
-      { name: 'United Kingdom', cities: [CITIES[1]] },
-      { name: 'France', cities: [CITIES[0]] },
-      { name: 'Germany', cities: [CITIES[2]] },
+      { name: 'United Kingdom', cities: [CITIES.find(c => c.slug === 'london')!] },
+      { name: 'France', cities: [CITIES.find(c => c.slug === 'paris')!] },
+      { name: 'Germany', cities: [CITIES.find(c => c.slug === 'berlin')!] },
+      { name: 'Italy', cities: [CITIES.find(c => c.slug === 'rome')!] },
     ],
   },
   {
     name: 'Asia',
     countries: [
-      { name: 'Japan', cities: [CITIES[3]] },
-      { name: 'Thailand', cities: [CITIES[4]] },
+      { name: 'Japan', cities: [CITIES.find(c => c.slug === 'tokyo')!] },
+      { name: 'Thailand', cities: [CITIES.find(c => c.slug === 'bangkok')!] },
+      { name: 'China', cities: [CITIES.find(c => c.slug === 'hong-kong')!, CITIES.find(c => c.slug === 'guangzhou')!] },
+      { name: 'India', cities: [CITIES.find(c => c.slug === 'new-delhi')!] },
+    ],
+  },
+  {
+    name: 'Middle East',
+    countries: [
+      { name: 'Turkey', cities: [CITIES.find(c => c.slug === 'istanbul')!] },
+      { name: 'United Arab Emirates', cities: [CITIES.find(c => c.slug === 'dubai')!] },
+      { name: 'Saudi Arabia', cities: [CITIES.find(c => c.slug === 'mecca')!] },
     ],
   },
 ]

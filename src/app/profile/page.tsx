@@ -11,6 +11,8 @@ import Link from 'next/link'
 import { createClient } from '@/lib/supabase/client'
 import { Toast } from '@/components/ui/Toast'
 import { ExternalLink } from 'lucide-react'
+import ProfileForm from '@/components/auth/ProfileForm'
+
 
 const COUNTRIES = [
   { code: 'US', name: 'United States', flag: '🇺🇸' },
