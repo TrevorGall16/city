@@ -4,7 +4,7 @@
   "slug": "bangkok",
   "country": "Thailand",
   "country_code": "th",
-  "hero_image": "https://placehold.co/1920x1080/ffd700/8b008b?text=Bangkok",
+  "hero_image": "/images/bangkok/hero.jpg",
   "intro_vibe": "The City of Angels: Where golden temples meet neon-lit chaos and street food reigns supreme.",
   "general_info": {
     "population": "~11 million (city) / ~16 million (metro area)",
@@ -31,13 +31,15 @@
   ],
   "culture": {
     "etiquette_tips": [
-      "Respect the Monarchy: Never disrespect the King or Royal Family. It's illegal and deeply offensive. Stand for the royal anthem in cinemas.",
-      "Don't Touch Heads: The head is sacred in Thai culture. Never touch anyone's head, including children.",
-      "Remove Shoes: Take off shoes before entering temples, homes, and some shops. Look for shoes outside as a signal.",
-      "Dress Modestly at Temples: Cover shoulders and knees. Avoid shorts, tank tops, and revealing clothing at sacred sites.",
-      "Wai Greeting: Press palms together in a prayer-like gesture and bow slightly. Don't wai service workers or children.",
-      "Buddha Images Are Sacred: Never climb on Buddha statues or pose disrespectfully. It can result in arrest.",
-      "Keep Cool: Thais value composure (jai yen). Raising your voice or showing anger makes you lose face."
+      "Respect the Monarchy: Never disrespect the King or Royal Family. It is illegal and deeply offensive.",
+      "Don't Touch Heads: The head is sacred. Never touch anyone's head, including children.",
+      "Remove Shoes: Take off shoes before entering temples, homes, and some shops.",
+      "Dress Modestly: Cover shoulders and knees at temples. No tank tops.",
+      "Wai Greeting: Press palms together and bow slightly. Don't wai service workers first.",
+      "Spice is Serious: 'Medium' spice is very hot. Order 'Mai Phet' (no spice) or 'Phet Nit Noi' (little spice) to be safe.",
+      "Street Food Seating: Plastic stools and shared tables are normal. Don't wait to be seated.",
+      "Cash is King: Street vendors and taxis rarely take cards. Keep small bills (20s, 50s, 100s) handy.",
+      "Cool Down: 7-Eleven and malls are essential cooling centers during the midday heat."
     ],
     "essential_phrases": [
       { "src": "Hello", "local": "สวัสดี (Sawasdee)", "phonetic": "sah-wah-DEE (add 'krap' if male, 'ka' if female)" },
@@ -79,14 +81,26 @@
       "slug": "getting-around",
       "title": "Getting Around",
       "icon": "Train",
-      "summary": "BTS Skytrain and MRT Metro are clean, modern, and air-conditioned. Use them.",
+      "summary": "The BTS Skytrain and MRT are your best friends. Taxis are cheap but traffic is brutal.",
       "details": [
-        "BTS Skytrain: Elevated train covering central areas (Sukhumvit, Siam, Silom). Buy a Rabbit Card for easy tapping.",
+        "BTS Skytrain: Elevated train covering central areas. Fast, cold AC, and skips traffic.",
         "MRT Metro: Underground lines connecting key areas. Separate ticketing from BTS.",
-        "Taxis: Abundant and cheap, but demand the meter ('meter na krap/ka'). Avoid taxis near tourist spots.",
-        "Tuk-Tuks: Iconic but overpriced. Agree on price before getting in. Only take for short trips or the experience.",
-        "Grab: Southeast Asia's Uber. Safer and more reliable than taxis. Widely used.",
-        "Boats: Chao Phraya Express Boat is scenic and fast for riverside sights. Orange flag boats are best for tourists."
+        "River Boats: The Orange Flag boat is the best way to see temples without traffic.",
+        "Grab: Use the app for cars/bikes. Safer than negotiating with street taxis.",
+        "Taxis: Insist on 'Meter Na Krap/Ka'. If they refuse, walk away."
+      ]
+    },
+    {
+      "id": "logistics-nightlife",
+      "slug": "nightlife-reality",
+      "title": "Red-Light Districts",
+      "icon": "EyeOff",
+      "summary": "Adult entertainment zones exist. They are localized and optional.",
+      "details": [
+        "Key Areas: Patpong (Silom), Nana Plaza (Sukhumvit), Soi Cowboy (Asok).",
+        "The Reality: While technically illegal, these zones are regulated and tolerated. They are not representative of daily Thai life.",
+        "Advice: Participation is optional. Aggressive touting and scams ('Ping Pong Shows') are common. Avoid venues with pushy staff outside.",
+        "Photography: Strictly forbidden in these areas."
       ]
     },
     {
@@ -97,10 +111,9 @@
       "summary": "Bangkok has friendly people, but tourist scams are common. Stay alert.",
       "details": [
         "Tuk-Tuk Gem Scam: Driver offers cheap tour and takes you to a gem shop. They get commission, you get overpriced stones.",
-        "Temple Closed Scam: Friendly stranger says the temple is closed and offers to take you to another attraction (which is a scam).",
-        "Taxi Meter Scam: Taxi refuses to use the meter or claims it's broken. Insist on the meter or get out.",
-        "Jet Ski Scam: Rental operators claim you damaged the jet ski and demand thousands of baht. Avoid jet ski rentals.",
-        "Ping Pong Show: Overpriced drinks and entrance fees. You'll be hit with a massive bill. Stay away from touts."
+        "Temple Closed Scam: Stranger says the Grand Palace is closed today. It isn't. Ignore them.",
+        "Taxi Meter Scam: Taxi refuses to use the meter. Insist on the meter or get out.",
+        "Jet Ski Scam: Avoid renting jet skis; operators often claim false damage charges."
       ]
     },
     {
@@ -110,10 +123,9 @@
       "icon": "Shield",
       "summary": "Bangkok is generally safe, but use common sense in crowded areas.",
       "details": [
-        "Pickpockets: Active in crowded areas like Chatuchak Market and Khao San Road. Keep valuables secure.",
-        "Traffic: Bangkok traffic is insane. Use crosswalks, pedestrian bridges, and be cautious crossing streets.",
-        "Street Food: Eat where locals eat. Look for busy stalls with high turnover. Avoid lukewarm or old food.",
-        "Mosquitoes: Dengue fever is a risk. Use repellent, especially during rainy season. Cover up at dusk.",
+        "Pickpockets: Active in crowded areas like Chatuchak Market and Khao San Road.",
+        "Traffic: Vehicles do not stop for pedestrians. Cross with extreme caution.",
+        "Mosquitoes: Dengue fever is a risk. Use repellent, especially at dusk.",
         "Emergency Number: 191 for police, 1669 for ambulance."
       ]
     },
@@ -124,11 +136,10 @@
       "icon": "Smartphone",
       "summary": "These apps will make Bangkok navigation seamless.",
       "details": [
-        "Grab: Essential for taxis and food delivery. Safer than street taxis.",
-        "Google Maps: Works well for BTS, MRT, and walking directions.",
-        "Wongnai: Thai Yelp for finding restaurants and reviews (in Thai but translates well).",
-        "Klook: Book tours, attractions, and skip-the-line tickets at discounts.",
-        "XE Currency: Live exchange rates. Useful for haggling at markets."
+        "Grab: Essential for taxis and food delivery.",
+        "Google Maps: Works well for transit and walking.",
+        "Wongnai: The 'Thai Yelp' for food reviews.",
+        "Klook: Good for discount tickets to attractions."
       ]
     }
   ],
@@ -141,7 +152,17 @@
       "category": "food",
       "is_generic_staple": true,
       "description": "Thailand's most famous dish: stir-fried rice noodles with shrimp or chicken, eggs, peanuts, bean sprouts, and tamarind sauce. Street cart versions are often better than restaurant ones.",
-      "image": "https://placehold.co/800x600/ffd700/8b008b?text=Pad+Thai"
+      "image": "/images/bangkok/pad-thai.jpg"
+    },
+    {
+      "id": "food-10",
+      "slug": "pad-kra-pao",
+      "name_en": "Pad Kra Pao",
+      "name_local": "ผัดกะเพรา",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "The real national dish. Minced pork or chicken stir-fried with holy basil, garlic, and chili, served over rice with a crispy fried egg (Kai Dao). Spicy and savory.",
+      "image": "/images/bangkok/pad-kra-pao.jpg"
     },
     {
       "id": "food-002",
@@ -150,18 +171,38 @@
       "name_local": "ต้มยำกุ้ง",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Iconic hot and sour soup with shrimp, lemongrass, galangal, kaffir lime leaves, and chili. Intensely aromatic and flavorful. A must-try for soup lovers.",
-      "image": "https://placehold.co/800x600/ffd700/8b008b?text=Tom+Yum"
+      "description": "Iconic hot and sour soup with shrimp, lemongrass, galangal, kaffir lime leaves, and chili. Intensely aromatic and flavorful.",
+      "image": "/images/bangkok/tom-yum.jpg"
+    },
+    {
+      "id": "food-11",
+      "slug": "boat-noodles",
+      "name_en": "Boat Noodles",
+      "name_local": "ก๋วยเตี๋ยวเรือ",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Rich, dark noodle soup thickened with pig blood (nam tok). Traditionally served in tiny bowls, so locals order stacks of them at once.",
+      "image": "/images/bangkok/boat-noodles.jpg"
+    },
+    {
+      "id": "food-12",
+      "slug": "khao-man-gai",
+      "name_en": "Hainanese Chicken Rice",
+      "name_local": "ข้าวมันไก่",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Poached chicken served on oily ginger-garlic rice with a spicy dipping sauce and cucumber. A simple, comforting lunch staple everywhere.",
+      "image": "/images/bangkok/chicken-rice.jpg"
     },
     {
       "id": "food-003",
       "slug": "som-tam",
-      "name_en": "Som Tam (Green Papaya Salad)",
+      "name_en": "Som Tam (Papaya Salad)",
       "name_local": "ส้มตำ",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Spicy, sour, sweet, and crunchy salad made from shredded green papaya, tomatoes, peanuts, dried shrimp, and chili. Order 'mai phet' (not spicy) if you can't handle heat.",
-      "image": "https://placehold.co/800x600/ffd700/8b008b?text=Som+Tam"
+      "description": "Spicy, sour, sweet, and crunchy salad made from shredded green papaya, tomatoes, peanuts, and chili. Order 'mai phet' (not spicy) if you can't handle heat.",
+      "image": "/images/bangkok/som-tam.jpg"
     },
     {
       "id": "food-004",
@@ -170,18 +211,18 @@
       "name_local": "ข้าวเหนียวมะม่วง",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Sweet sticky rice with ripe mango slices and coconut cream. Best during mango season (March-June). Simple but heavenly. A perfect dessert.",
-      "image": "https://placehold.co/800x600/ffd700/8b008b?text=Mango+Sticky+Rice"
+      "description": "Sweet sticky rice cooked in coconut milk, served with ripe mango slices. The perfect end to a spicy meal.",
+      "image": "/images/bangkok/mango-sticky-rice.jpg"
     },
     {
-      "id": "food-005",
-      "slug": "khao-pad",
-      "name_en": "Fried Rice (Khao Pad)",
-      "name_local": "ข้าวผัด",
+      "id": "food-13",
+      "slug": "moo-ping",
+      "name_en": "Grilled Pork Skewers",
+      "name_local": "หมูปิ้ง",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Thai-style fried rice with egg, onions, tomatoes, and your choice of protein. Often served with cucumber and lime. Simple, satisfying, and everywhere.",
-      "image": "https://placehold.co/800x600/ffd700/8b008b?text=Fried+Rice"
+      "description": "Sweet and savory marinated pork grilled over charcoal. A favorite breakfast or late-night snack, usually eaten with a bag of sticky rice.",
+      "image": "/images/bangkok/moo-ping.jpg"
     },
     {
       "id": "food-006",
@@ -190,14 +231,44 @@
       "name_local": "แกงมัสมั่น",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Rich, mild curry with Persian and Indian influences. Made with beef or chicken, potatoes, peanuts, and coconut milk. Less spicy, more sweet and savory.",
-      "image": "https://placehold.co/800x600/ffd700/8b008b?text=Massaman+Curry"
+      "description": "Rich, mild curry with Persian influences. Made with beef or chicken, potatoes, peanuts, and coconut milk. Less spicy, more sweet.",
+      "image": "/images/bangkok/massaman.jpg"
+    },
+    {
+      "id": "food-14",
+      "slug": "isaan-food",
+      "name_en": "Isaan Food",
+      "name_local": "อาหารอีสาน",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Cuisine from Northeast Thailand. Think grilled chicken (Gai Yang), spicy minced meat salad (Larb), and sticky rice. Bold, funky, and spicy.",
+      "image": "/images/bangkok/isaan-food.jpg"
+    },
+    {
+      "id": "food-15",
+      "slug": "oyster-omelet",
+      "name_en": "Crispy Oyster Omelet",
+      "name_local": "หอยทอด",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Crispy egg batter fried with plump oysters or mussels, served with bean sprouts and chili sauce. A greasy, delicious Chinatown classic.",
+      "image": "/images/bangkok/oyster-omelet.jpg"
+    },
+    {
+      "id": "food-16",
+      "slug": "thai-desserts",
+      "name_en": "Thai Street Desserts",
+      "name_local": "ขนมไทย",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Look for Kanom Krok (coconut pancakes) or Bualoy (rice balls in coconut milk). Usually sweet, warm, and very cheap.",
+      "image": "/images/bangkok/thai-desserts.jpg"
     }
   ],
   "must_see": [
     {
-      "title": "Grand Temples",
-      "id": "temples",
+      "title": "Essential Bangkok",
+      "id": "essential",
       "items": [
         {
           "id": "temp-001",
@@ -206,36 +277,97 @@
           "name_local": "พระบรมมหาราชวัง",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The most iconic landmark in Bangkok. Former royal residence with stunning architecture and Wat Phra Kaew (Temple of the Emerald Buddha). Strict dress code enforced.",
-          "image": "https://placehold.co/800x600/ffd700/8b008b?text=Grand+Palace",
+          "description": "The most iconic landmark. Former royal residence with stunning architecture and the Emerald Buddha.",
+          "image": "/images/bangkok/grand-palace.jpg",
           "geo": { "lat": 13.7500, "lng": 100.4915 }
         },
         {
           "id": "temp-002",
           "slug": "wat-arun",
-          "name_en": "Wat Arun (Temple of Dawn)",
-          "name_local": "วัดอรุณราชวราราม",
+          "name_en": "Wat Arun",
+          "name_local": "วัดอรุณ",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Stunning riverside temple with a towering spire covered in colorful porcelain. Best viewed at sunset. Climb the steep stairs for river views.",
-          "image": "https://placehold.co/800x600/ffd700/8b008b?text=Wat+Arun",
+          "description": "Temple of Dawn. Stunning riverside temple with a towering colorful spire. Climb the steep steps for a view.",
+          "image": "/images/bangkok/wat-arun.jpg",
           "geo": { "lat": 13.7437, "lng": 100.4887 }
         },
         {
           "id": "temp-003",
           "slug": "wat-pho",
-          "name_en": "Wat Pho (Reclining Buddha)",
+          "name_en": "Wat Pho",
           "name_local": "วัดโพธิ์",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Home to the massive 46-meter-long reclining Buddha covered in gold leaf. Also the birthplace of traditional Thai massage. Peaceful and beautiful.",
-          "image": "https://placehold.co/800x600/ffd700/8b008b?text=Wat+Pho",
+          "description": "Home to the massive Reclining Buddha and the birthplace of Thai massage. Peaceful and beautiful.",
+          "image": "/images/bangkok/wat-pho.jpg",
           "geo": { "lat": 13.7465, "lng": 100.4927 }
+        },
+        {
+          "id": "act-001",
+          "slug": "chao-phraya-boat",
+          "name_en": "Chao Phraya Express Boat",
+          "name_local": "เรือด่วนเจ้าพระยา",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "The local way to travel. Take the Orange Flag boat for a cheap, scenic cruise past the temples. Authentic and breezy.",
+          "image": "/images/bangkok/river-boat.jpg",
+          "geo": { "lat": 13.7200, "lng": 100.5100 }
         }
       ]
     },
     {
-      "title": "Markets & Shopping",
+      "title": "Local Life & Culture",
+      "id": "local-life",
+      "items": [
+        {
+          "id": "act-002",
+          "slug": "yaowarat-night-food",
+          "name_en": "Yaowarat Night Food Walk",
+          "name_local": "เยาวราช",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "After dark, Chinatown turns into the world's greatest street food buffet. Neon lights, crowds, and incredible seafood.",
+          "image": "/images/bangkok/chinatown.jpg",
+          "geo": { "lat": 13.7410, "lng": 100.5085 }
+        },
+        {
+          "id": "act-003",
+          "slug": "thai-massage-local",
+          "name_en": "Traditional Thai Massage",
+          "name_local": "นวดแผนไทย",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Affordable and intense. Visit a reputable shop or the massage school at Wat Pho. Part of daily health maintenance here.",
+          "image": "/images/bangkok/massage.jpg",
+          "geo": { "lat": 13.7465, "lng": 100.4927 }
+        },
+        {
+          "id": "act-004",
+          "slug": "lumpini-park",
+          "name_en": "Lumpini Park",
+          "name_local": "สวนลุมพินี",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Bangkok's 'Central Park'. Go at 7 AM to see locals doing Tai Chi, or sunset for aerobics. Watch out for monitor lizards.",
+          "image": "/images/bangkok/lumpini.jpg",
+          "geo": { "lat": 13.7314, "lng": 100.5417 }
+        },
+        {
+          "id": "act-005",
+          "slug": "muay-thai",
+          "name_en": "Muay Thai Boxing",
+          "name_local": "มวยไทย",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Thailand's national sport. Watch a real fight at Rajadamnern Stadium for the noise, gambling, and atmosphere.",
+          "image": "/images/bangkok/muay-thai.jpg",
+          "geo": { "lat": 13.7600, "lng": 100.5090 }
+        }
+      ]
+    },
+    {
+      "title": "Markets & Modern",
       "id": "markets",
       "items": [
         {
@@ -245,59 +377,42 @@
           "name_local": "ตลาดนัดจตุจักร",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "One of the world's largest weekend markets with over 15,000 stalls. Everything from clothing to antiques to pets. Overwhelmingly huge. Go early.",
-          "image": "https://placehold.co/800x600/ffd700/8b008b?text=Chatuchak",
+          "description": "15,000 stalls selling everything from vintage clothes to pets. Hot, crowded, and essential. Weekend only.",
+          "image": "/images/bangkok/chatuchak.jpg",
           "geo": { "lat": 13.7990, "lng": 100.5499 }
         },
         {
-          "id": "mar-002",
-          "slug": "floating-market",
-          "name_en": "Damnoen Saduak Floating Market",
-          "name_local": "ตลาดน้ำดำเนินสะดวก",
+          "id": "mar-004",
+          "slug": "local-night-market",
+          "name_en": "Jodd Fairs / Night Markets",
+          "name_local": "ตลาดนัดกลางคืน",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The most famous floating market near Bangkok. Vendors sell food and souvenirs from boats. Touristy but iconic. Go early (7am) to avoid crowds.",
-          "image": "https://placehold.co/800x600/ffd700/8b008b?text=Floating+Market",
-          "geo": { "lat": 13.5167, "lng": 99.9550 }
+          "description": "Evening markets with food, bars, and live music. Less touristy than Chatuchak. Great for dinner and hanging out.",
+          "image": "/images/bangkok/night-market.jpg",
+          "geo": { "lat": 13.7570, "lng": 100.5650 }
         },
         {
-          "id": "mar-003",
-          "slug": "asiatique",
-          "name_en": "Asiatique The Riverfront",
-          "name_local": "เอเชียทีค เดอะ ริเวอร์ฟร้อนท์",
+          "id": "mar-005",
+          "slug": "flower-market",
+          "name_en": "Pak Khlong Talat",
+          "name_local": "ปากคลองตลาด",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Upscale night market and mall complex along the Chao Phraya River. Restaurants, shops, and a giant Ferris wheel. More polished than street markets.",
-          "image": "https://placehold.co/800x600/ffd700/8b008b?text=Asiatique",
-          "geo": { "lat": 13.7046, "lng": 100.5085 }
-        }
-      ]
-    },
-    {
-      "title": "Modern Bangkok",
-      "id": "modern",
-      "items": [
+          "description": "Massive 24-hour flower market. Best visited late at night or very early morning. A riot of colors and smells.",
+          "image": "/images/bangkok/flower-market.jpg",
+          "geo": { "lat": 13.7415, "lng": 100.4965 }
+        },
         {
           "id": "mod-001",
           "slug": "rooftop-bars",
-          "name_en": "Sky Bars & Rooftop Lounges",
+          "name_en": "Sky Bars",
           "name_local": "บาร์บนดาดฟ้า",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Bangkok is famous for rooftop bars with stunning skyline views. Vertigo, Sky Bar at Lebua, and Octave are among the best. Dress code applies.",
-          "image": "https://placehold.co/800x600/ffd700/8b008b?text=Rooftop+Bars",
+          "description": "Sunset drinks with a view. Octave, Tichuca, or Vertigo are popular choices. Dress code usually applies (no flip-flops).",
+          "image": "/images/bangkok/rooftop.jpg",
           "geo": { "lat": 13.7226, "lng": 100.5142 }
-        },
-        {
-          "id": "mod-002",
-          "slug": "mbk-center",
-          "name_en": "MBK Center",
-          "name_local": "เอ็มบีเค เซ็นเตอร์",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Massive shopping mall with electronics, clothing, souvenirs, and a food court. Great for cheap shopping and people-watching. Can be overwhelming.",
-          "image": "https://placehold.co/800x600/ffd700/8b008b?text=MBK+Mall",
-          "geo": { "lat": 13.7448, "lng": 100.5301 }
         }
       ]
     }
@@ -306,24 +421,24 @@
     {
       "id": "aff-001",
       "title": "Portable Neck Fan",
-      "image": "https://placehold.co/400x400/ffd700/8b008b?text=Neck+Fan",
-      "reason": "Bangkok heat and humidity are brutal. A hands-free neck fan keeps you cool while sightseeing and doesn't drain your phone battery.",
+      "image": "/images/bangkok/neck-fan.jpg",
+      "reason": "Bangkok heat is brutal. A hands-free neck fan keeps you cool while sightseeing.",
       "amazon_url": "https://www.amazon.com/s?k=portable+neck+fan",
       "category": "weather"
     },
     {
       "id": "aff-002",
-      "title": "Mosquito Repellent Spray",
-      "image": "https://placehold.co/400x400/ffd700/8b008b?text=Mosquito+Repellent",
-      "reason": "Dengue fever is a real risk in Bangkok, especially during rainy season. DEET-based repellent is essential for temples and outdoor markets.",
+      "title": "Mosquito Repellent",
+      "image": "/images/bangkok/repellent.jpg",
+      "reason": "Dengue is a risk. DEET-based repellent is essential for outdoor evenings.",
       "amazon_url": "https://www.amazon.com/s?k=deet+mosquito+repellent",
       "category": "health"
     },
     {
       "id": "aff-003",
       "title": "Travel Money Belt",
-      "image": "https://placehold.co/400x400/ffd700/8b008b?text=Money+Belt",
-      "reason": "Pickpockets are active in crowded markets and tourist areas. A hidden money belt keeps your cash and passport secure under your clothes.",
+      "image": "/images/bangkok/money-belt.jpg",
+      "reason": "Pickpockets are active in markets. Keep your cash secure.",
       "amazon_url": "https://www.amazon.com/s?k=travel+money+belt",
       "category": "security"
     }

@@ -4,7 +4,7 @@
   "slug": "paris",
   "country": "France",
   "country_code": "fr",
-  "hero_image": "https://placehold.co/1920x1080/e2e8f0/475569?text=Paris",
+  "hero_image": "/images/paris/hero.jpg",
   "intro_vibe": "The city of light, love, and endless carbs.",
   "general_info": {
     "population": "~2.1 million (city) / ~12 million (metro area)",
@@ -32,10 +32,12 @@
   "culture": {
     "etiquette_tips": [
       "The 'Bonjour' Rule: Always say Bonjour when entering a shop. It is not optional.",
-      "Dining Pace: Meals are slow. You must ask for the bill ('L'addition').",
-      "Volume: Keep your voice down in public and on the Metro.",
-      "Dress Code: Smart casual. No gym clothes for dinner.",
-      "Escalators: Stand on the RIGHT, walk on the LEFT."
+      "Buying Bread Ritual: Say 'une baguette, s'il vous plaît', pay (often cash for small amounts), and never accept a bag unless offered. Tearing the end off immediately outside is culturally approved.",
+      "The Lunch Formula (Formule Midi): Between 12:00-14:00, look for the 'Formule' on the chalkboard. It's how locals eat affordably (approx €15-20 for 2 courses).",
+      "Sunday Reality: Most shops are closed. Bakeries (mornings) and Marais shops are exceptions. Plan museums or parks for Sundays.",
+      "Apéro Culture: 18:00–20:00 is sacred. Order a drink and a 'planche' (board) to share. It is not dinner, it is the warm-up.",
+      "Water is Free: Ask for 'une carafe d'eau' (tap water) to get free water. If you just ask for 'water', you will be charged €6 for a bottle.",
+      "Dining Pace: Meals are slow. You must ask for the bill ('L'addition'). Leaving quickly is seen as rushing the pleasure."
     ],
     "essential_phrases": [
       { "src": "Hello", "local": "Bonjour", "phonetic": "bon-ZHOOR" },
@@ -132,7 +134,7 @@
       "category": "food",
       "is_generic_staple": true,
       "description": "The quintessential French breakfast staple. A true croissant au beurre is made with pure butter (not margarine), creating its characteristic flaky, golden layers. Look for the curved shape (vs. the straight 'croissant ordinaire'). Best enjoyed warm from the bakery in the morning.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Croissant"
+      "image": "/images/paris/croissant.jpg"
     },
     {
       "id": "food-002",
@@ -142,7 +144,7 @@
       "category": "food",
       "is_generic_staple": true,
       "description": "The daily ritual. Look for 'Tradition' on the sign—it means no additives allowed by law. The perfect baguette has a golden, crackly crust and a soft, airy interior. Locals buy them twice daily.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Baguette"
+      "image": "/images/paris/baguette.jpg"
     },
     {
       "id": "food-12",
@@ -152,7 +154,67 @@
       "category": "food",
       "is_generic_staple": true,
       "description": "A simple but perfect baguette sandwich with high-quality Parisian ham and salted butter. It is the true on-the-go lunch of locals, selling over a billion units a year.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Jambon+Beurre"
+      "image": "/images/paris/jambon-beurre.jpg"
+    },
+    {
+      "id": "food-20",
+      "slug": "escargots",
+      "name_en": "Escargots de Bourgogne",
+      "name_local": "Escargots",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Snails baked in garlic-parsley butter. Ordered as a starter in traditional brasseries; use bread to soak up the butter. More common at dinner than lunch.",
+      "image": "/images/paris/escargots.jpg"
+    },
+    {
+      "id": "food-21",
+      "slug": "duck-confit",
+      "name_en": "Confit de Canard",
+      "name_local": "Confit de Canard",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Slow-cooked duck leg in its own fat until tender. A classic bistro main, often served with potatoes cooked in duck fat (pommes sarladaises).",
+      "image": "/images/paris/duck-confit.jpg"
+    },
+    {
+      "id": "food-22",
+      "slug": "boeuf-bourguignon",
+      "name_en": "Boeuf Bourguignon",
+      "name_local": "Bœuf Bourguignon",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Beef braised in red wine with carrots and onions. Found in traditional bistros; best in colder months for a hearty meal.",
+      "image": "/images/paris/boeuf-bourguignon.jpg"
+    },
+    {
+      "id": "food-23",
+      "slug": "steak-tartare",
+      "name_en": "Steak Tartare",
+      "name_local": "Steak Tartare",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Raw minced beef mixed tableside or pre-seasoned. Order 'préparé' if you don't want to mix it yourself. Served with fries or salad.",
+      "image": "/images/paris/steak-tartare.jpg"
+    },
+    {
+      "id": "food-24",
+      "slug": "oysters-seafood",
+      "name_en": "Oysters & Seafood",
+      "name_local": "Huîtres et Fruits de Mer",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Raw oysters and shellfish, especially popular in brasseries and seafood halls. Best season is months with 'R' (September-April).",
+      "image": "/images/paris/oysters.jpg"
+    },
+    {
+      "id": "food-25",
+      "slug": "cheese-charcuterie",
+      "name_en": "Cheese & Charcuterie Board",
+      "name_local": "Planche Mixte",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Ordered as a shared plate or pre-dinner apéro. Highlights regional cheeses and cured meats. The perfect accompaniment to wine.",
+      "image": "/images/paris/cheese-board.jpg"
     },
     {
       "id": "food-007",
@@ -162,7 +224,7 @@
       "category": "food",
       "is_generic_staple": true,
       "description": "A delicate almond-based confection filled with ganache or buttercream. While available everywhere, specialized boutiques like Pierre Hermé and Ladurée are the benchmarks for texture and flavor.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Macaron"
+      "image": "/images/paris/macaron.jpg"
     },
     {
       "id": "food-13",
@@ -172,7 +234,7 @@
       "category": "food",
       "is_generic_staple": true,
       "description": "The ultimate French comfort food: a hot sandwich made with ham and cheese, topped with béchamel sauce and grated cheese, then grilled until bubbling. Add a fried egg on top to make it a 'Croque-Madame'.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Croque+Monsieur"
+      "image": "/images/paris/croque-monsieur.jpg"
     },
     {
       "id": "food-003",
@@ -182,7 +244,7 @@
       "category": "food",
       "is_generic_staple": true,
       "description": "A cultural institution characterized by zinc-topped bars and handwritten menus. Classic dishes include boeuf bourguignon and pot-au-feu. Service is fast and efficient.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Bistrot"
+      "image": "/images/paris/bistrot.jpg"
     },
     {
       "id": "food-009",
@@ -192,7 +254,7 @@
       "category": "food",
       "is_generic_staple": true,
       "description": "The classic bistro dish: a seared steak (often sirloin or entraña) served with crisp, thin French fries and Béarnaise or pepper sauce. Order it 'saignant' (rare) for the best flavor.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Steak+Frites"
+      "image": "/images/paris/steak-frites.jpg"
     },
     {
       "id": "food-008",
@@ -202,7 +264,7 @@
       "category": "food",
       "is_generic_staple": true,
       "description": "A deeply caramelized onion broth topped with a slice of toasted bread and a generous layer of melted Comté or Gruyère cheese. A warming classic often eaten late at night.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Onion+Soup"
+      "image": "/images/paris/onion-soup.jpg"
     },
     {
       "id": "food-005",
@@ -212,7 +274,7 @@
       "category": "food",
       "is_generic_staple": true,
       "description": "Served after the main course and before dessert. Know the progression: fresh (chèvre), soft (Brie), hard (Comté), and blue (Roquefort).",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Fromage"
+      "image": "/images/paris/cheese.jpg"
     },
     {
       "id": "food-006",
@@ -222,7 +284,7 @@
       "category": "food",
       "is_generic_staple": true,
       "description": "An essential part of the meal's rhythm. House wine by the carafe is common and affordable. Paris is currently experiencing a massive 'Natural Wine' boom.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Vin"
+      "image": "/images/paris/wine.jpg"
     },
     {
       "id": "food-004",
@@ -232,7 +294,7 @@
       "category": "food",
       "is_generic_staple": true,
       "description": "Where locals spend hours over a single espresso. Seating is strategic: 'en terrasse' (outside) costs more than inside. People-watching is the primary activity.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Cafe"
+      "image": "/images/paris/cafe.jpg"
     },
     {
       "id": "food-010",
@@ -242,7 +304,7 @@
       "category": "food",
       "is_generic_staple": true,
       "description": "Beloved street food ranging from sweet (Nutella, sugar) to savory buckwheat galettes (sarrasin). Best enjoyed from a walk-up window (guichet).",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Crepes"
+      "image": "/images/paris/crepes.jpg"
     },
     {
       "id": "food-011",
@@ -252,7 +314,7 @@
       "category": "food",
       "is_generic_staple": true,
       "description": "A choux pastry filled with vanilla, chocolate, or coffee cream and topped with a glossy fondant glaze. Modern pâtisseries offer colorful seasonal variations.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Eclair"
+      "image": "/images/paris/eclair.jpg"
     },
     {
       "id": "food-14",
@@ -262,7 +324,7 @@
       "category": "food",
       "is_generic_staple": true,
       "description": "A small caramelized cake with a dark, thick crust and a soft, custardy center flavored with rum and vanilla. Originally from Bordeaux but now a staple in Paris.",
-      "image": "https://placehold.co/800x600/e2e8f0/475569?text=Canele"
+      "image": "/images/paris/canele.jpg"
     }
   ],
   "must_see": [
@@ -278,7 +340,7 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": "The world's largest art museum, home to the Mona Lisa.",
-          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Louvre",
+          "image": "/images/paris/louvre.jpg",
           "geo": { "lat": 48.8606, "lng": 2.3376 }
         },
         {
@@ -289,7 +351,7 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": "Impressionist masterpieces in a stunning former railway station.",
-          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Orsay",
+          "image": "/images/paris/orsay.jpg",
           "geo": { "lat": 48.8600, "lng": 2.3266 }
         },
         {
@@ -300,7 +362,7 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": "Serene sculpture garden featuring The Thinker.",
-          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Rodin",
+          "image": "/images/paris/rodin.jpg",
           "geo": { "lat": 48.8553, "lng": 2.3159 }
         },
         {
@@ -311,7 +373,7 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": "Inside-out architecture housing modern art.",
-          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Pompidou",
+          "image": "/images/paris/pompidou.jpg",
           "geo": { "lat": 48.8606, "lng": 2.3522 }
         }
       ]
@@ -328,7 +390,7 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": "The Iron Lady. Best views from Trocadéro.",
-          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Eiffel",
+          "image": "/images/paris/eiffel.jpg",
           "geo": { "lat": 48.8584, "lng": 2.2945 }
         },
         {
@@ -339,7 +401,7 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": "Napoleon's triumphal arch. Climb to the top for city views.",
-          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Arc",
+          "image": "/images/paris/arc-triomphe.jpg",
           "geo": { "lat": 48.8738, "lng": 2.2950 }
         },
         {
@@ -350,7 +412,7 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": "Mausoleum of French heroes like Voltaire and Rousseau.",
-          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Pantheon",
+          "image": "/images/paris/pantheon.jpg",
           "geo": { "lat": 48.8462, "lng": 2.3461 }
         },
         {
@@ -361,8 +423,109 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": "Opulent 19th-century opera house, inspiration for Phantom of the Opera.",
-          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Opera",
+          "image": "/images/paris/opera.jpg",
           "geo": { "lat": 48.8719, "lng": 2.3316 }
+        }
+      ]
+    },
+    {
+      "title": "Covered Passages",
+      "id": "passages",
+      "items": [
+        {
+          "id": "pas-01",
+          "slug": "galerie-vivienne",
+          "name_en": "Galerie Vivienne",
+          "name_local": "Galerie Vivienne",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Elegant 19th-century shopping arcade with mosaic floors. Quiet, historic, and ideal for rainy days.",
+          "image": "/images/paris/galerie-vivienne.jpg",
+          "geo": { "lat": 48.8662, "lng": 2.3395 }
+        },
+        {
+          "id": "pas-02",
+          "slug": "passage-des-panoramas",
+          "name_en": "Passage des Panoramas",
+          "name_local": "Passage des Panoramas",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Oldest covered passage in Paris, packed with small eateries and stamp shops. Good for casual dining.",
+          "image": "/images/paris/passage-panoramas.jpg",
+          "geo": { "lat": 48.8711, "lng": 2.3417 }
+        }
+      ]
+    },
+    {
+      "title": "Markets & Local Life",
+      "id": "markets",
+      "items": [
+        {
+          "id": "mar-01",
+          "slug": "marche-des-enfants-rouges",
+          "name_en": "Marché des Enfants Rouges",
+          "name_local": "Marché des Enfants Rouges",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Oldest covered food market in Paris. Mix of French and international stalls; casual lunch spot.",
+          "image": "/images/paris/enfants-rouges.jpg",
+          "geo": { "lat": 48.8622, "lng": 2.3615 }
+        },
+        {
+          "id": "mar-02",
+          "slug": "rue-montorgueil",
+          "name_en": "Rue Montorgueil",
+          "name_local": "Rue Montorgueil",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Lively pedestrian food street with bakeries, fishmongers, and cafes. Shows daily Paris life.",
+          "image": "/images/paris/montorgueil.jpg",
+          "geo": { "lat": 48.8650, "lng": 2.3470 }
+        }
+      ]
+    },
+    {
+      "title": "Seine & Waterfront",
+      "id": "seine",
+      "items": [
+        {
+          "id": "sei-01",
+          "slug": "seine-river-cruise",
+          "name_en": "Seine River Cruise",
+          "name_local": "Croisière sur la Seine",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "One-hour boat ride offering efficient views of major landmarks. Evening cruises show monuments illuminated.",
+          "image": "/images/paris/seine-cruise.jpg",
+          "geo": { "lat": 48.8630, "lng": 2.3000 }
+        },
+        {
+          "id": "sei-02",
+          "slug": "seine-riverbanks",
+          "name_en": "Seine Riverbanks",
+          "name_local": "Berges de Seine",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Pedestrian-only paths for walking, picnicking, and sunset views. Popular with locals in warm months.",
+          "image": "/images/paris/seine-banks.jpg",
+          "geo": { "lat": 48.8556, "lng": 2.3476 }
+        }
+      ]
+    },
+    {
+      "title": "Viewpoints",
+      "id": "views",
+      "items": [
+        {
+          "id": "vie-01",
+          "slug": "montparnasse-tower",
+          "name_en": "Montparnasse Tower",
+          "name_local": "Tour Montparnasse",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Best skyline view of Paris because it does not include itself. Faster and less crowded than Eiffel Tower.",
+          "image": "/images/paris/montparnasse.jpg",
+          "geo": { "lat": 48.8421, "lng": 2.3218 }
         }
       ]
     },
@@ -378,7 +541,7 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": "Gothic masterpiece on the Île de la Cité.",
-          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Notre+Dame",
+          "image": "/images/paris/notre-dame.jpg",
           "geo": { "lat": 48.8529, "lng": 2.3500 }
         },
         {
@@ -389,7 +552,7 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": "White domed basilica overlooking the city from Montmartre.",
-          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Sacre+Coeur",
+          "image": "/images/paris/sacre-coeur.jpg",
           "geo": { "lat": 48.8867, "lng": 2.3431 }
         },
         {
@@ -400,7 +563,7 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": "Stunning 13th-century stained glass windows.",
-          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Chapel",
+          "image": "/images/paris/sainte-chapelle.jpg",
           "geo": { "lat": 48.8554, "lng": 2.3450 }
         }
       ]
@@ -417,7 +580,7 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": "Classic Parisian park with green chairs and a palace.",
-          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Luxembourg",
+          "image": "/images/paris/luxembourg.jpg",
           "geo": { "lat": 48.8462, "lng": 2.3372 }
         },
         {
@@ -428,7 +591,7 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": "Formal garden between the Louvre and Place de la Concorde.",
-          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Tuileries",
+          "image": "/images/paris/tuileries.jpg",
           "geo": { "lat": 48.8635, "lng": 2.3274 }
         },
         {
@@ -439,7 +602,7 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": "Romantic hilly park with a lake, waterfall, and temple.",
-          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Buttes",
+          "image": "/images/paris/buttes-chaumont.jpg",
           "geo": { "lat": 48.8809, "lng": 2.3828 }
         }
       ]
@@ -456,7 +619,7 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": "Most ornate bridge in Paris with Art Nouveau lamps.",
-          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Bridge",
+          "image": "/images/paris/alexandre-iii.jpg",
           "geo": { "lat": 48.8636, "lng": 2.3135 }
         },
         {
@@ -467,7 +630,7 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": "The oldest standing bridge across the Seine.",
-          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Pont+Neuf",
+          "image": "/images/paris/pont-neuf.jpg",
           "geo": { "lat": 48.8570, "lng": 2.3413 }
         },
         {
@@ -478,7 +641,7 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": "Trendy waterway lined with cafes and iron footbridges.",
-          "image": "https://placehold.co/800x600/e2e8f0/475569?text=Canal",
+          "image": "/images/paris/canal.jpg",
           "geo": { "lat": 48.8718, "lng": 2.3637 }
         }
       ]
@@ -488,7 +651,7 @@
     {
       "id": "aff-001",
       "title": "European Travel Adapter (Type E)",
-      "image": "https://placehold.co/400x400/e2e8f0/475569?text=EU+Adapter",
+      "image": "/images/paris/adapter.jpg",
       "reason": "French plugs are Type E (two round pins with a hole for grounding). Essential for charging your devices.",
       "amazon_url": "https://www.amazon.com/s?k=european+travel+adapter+type+e",
       "category": "electronics"
@@ -496,7 +659,7 @@
     {
       "id": "aff-002",
       "title": "Compact Travel Umbrella",
-      "image": "https://placehold.co/400x400/e2e8f0/475569?text=Umbrella",
+      "image": "/images/paris/umbrella.jpg",
       "reason": "Paris weather is unpredictable. A small umbrella fits in your bag and saves you from sudden rain showers.",
       "amazon_url": "https://www.amazon.com/s?k=compact+travel+umbrella",
       "category": "weather"
@@ -504,7 +667,7 @@
     {
       "id": "aff-003",
       "title": "Comfortable Walking Shoes",
-      "image": "https://placehold.co/400x400/e2e8f0/475569?text=Walking+Shoes",
+      "image": "/images/paris/shoes.jpg",
       "reason": "Paris is best explored on foot. Comfortable shoes are essential for cobblestone streets and museum marathons.",
       "amazon_url": "https://www.amazon.com/s?k=comfortable+walking+shoes",
       "category": "footwear"
