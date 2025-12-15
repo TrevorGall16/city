@@ -10,8 +10,24 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Using default Tailwind colors (indigo, slate, amber, etc.)
-        // No custom colors needed - all defined in guidelines use standard Tailwind palette
+        // Using default Tailwind colors
+      },
+      // ✅ ADDED FONTS HERE
+      fontFamily: {
+        sans: ['var(--font-sans)'], // Default font (Inter)
+        
+        // City Personalities
+        tokyo: ['var(--font-tokyo)'],
+        bangkok: ['var(--font-bangkok)'],
+        paris: ['var(--font-paris)'],
+        rome: ['var(--font-rome)'],
+        la: ['var(--font-la)'],
+        ny: ['var(--font-ny)'],
+        berlin: ['var(--font-berlin)'],
+        london: ['var(--font-london)'],
+        istanbul: ['var(--font-istanbul)'],
+        dubai: ['var(--font-dubai)'],
+        hk: ['var(--font-hk)'],
       },
     },
   },

@@ -143,14 +143,48 @@ export default async function CityPage({ params }: PageProps) {
     return gradients[countryCode] || 'from-indigo-600 via-slate-200 to-indigo-600'
   }
 
-  const getCityFont = (citySlug: string) => {
+const getCityFont = (slug: string) => {
     const fonts: Record<string, string> = {
-      paris: 'font-serif',
-      london: 'font-serif font-bold',
-      berlin: 'font-mono',
-      tokyo: 'font-sans font-black',
+      // 🇯🇵 Tokyo: Neon Cyan (Cyberpunk)
+      tokyo: 'font-tokyo text-7xl md:text-9xl tracking-widest text-cyan-400',
+      
+      // 🇹🇭 Bangkok: Golden Orange (Temples & Sun)
+      bangkok: 'font-bangkok text-7xl md:text-9xl tracking-wide text-amber-400',
+      
+      // 🇫🇷 Paris: Soft Rose or Classic White
+      paris: 'font-paris text-8xl md:text-[10rem] tracking-tight text-white',
+      
+      // 🇮🇹 Rome: Roman Gold
+      rome: 'font-rome text-6xl md:text-8xl text-green-500',
+      
+      // 🇺🇸 Los Angeles: Sunset Pink or Ocean Blue
+      'los-angeles': 'font-la text-7xl md:text-9xl text-orange-400',
+      
+      // 🇺🇸 New York: Taxi Yellow
+      'new-york': 'font-ny text-6xl md:text-8xl uppercase tracking-wider text-blue-600',
+      
+      // 🇩🇪 Berlin: Electric Lime (Techno)
+      berlin: 'font-berlin text-6xl md:text-8xl uppercase text-yellow-400',
+      
+      // 🇬🇧 London: Bus Red or Royal White
+      london: 'font-london text-7xl md:text-9xl text-red-500',
+      
+      // 🇹🇷 Istanbul: Spice Orange
+      istanbul: 'font-istanbul text-7xl md:text-9xl tracking-wide text-orange-400',
+      
+      // 🇦🇪 Dubai: Luxury Gold
+      dubai: 'font-dubai text-6xl md:text-8xl uppercase text-amber-200',
+      
+      // 🇨🇳 Hong Kong: Neon Red
+      'hong-kong': 'font-hk text-7xl md:text-9xl uppercase tracking-tighter text-red-500',
+      
+      // Defaults
+      'new-delhi': 'font-serif font-bold text-orange-400',
+      mecca: 'font-serif font-medium text-emerald-400',
+      guangzhou: 'font-sans font-bold text-white',
     }
-    return fonts[citySlug] || 'font-serif'
+    // Default fallback is white
+    return fonts[slug] || 'font-sans font-bold text-white'
   }
 
   return (
@@ -165,25 +199,65 @@ export default async function CityPage({ params }: PageProps) {
         </div>
       </div>
 
-      {/* Hero */}
-      <section className="h-[50vh] min-h-[400px] relative overflow-hidden">
-        <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${getFlagGradient(city.country_code)} z-20`} />
-        <Image src={city.hero_image} alt={city.name} fill priority className="object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/10 to-black/50">
-          <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[length:40px_40px]" />
+{/* Hero Section */}
+      <section className="h-[50vh] min-h-[400px] relative overflow-hidden group">
+        
+        {/* --- 🎛️ GLASS CONFIGURATION (Tweak these!) --- */}
+        {/* Options: backdrop-blur-sm | md | lg | xl | 2xl | 3xl */}
+        {/* The higher the 'px' in shadow, the softer the edges feather out */}
+        {/* opacity-30 = 30% dark tint. Increase to 50 or 60 for better text readability */}
+        <div className="hidden">
+           {/* configuration documentation only */}
         </div>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center text-white z-10 px-4">
-            <h1 className={`text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight drop-shadow-lg ${getCityFont(citySlug)}`}>
-              {city.name}
-            </h1>
-            <p className="mt-4 text-lg max-w-2xl mx-auto drop-shadow">
-              {city.intro_vibe}
-            </p>
+        
+        {/* Country Flag Line */}
+        <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${getFlagGradient(city.country_code)} z-20`} />
+        
+        {/* Main Image */}
+        <Image 
+          src={city.hero_image} 
+          alt={city.name} 
+          fill 
+          priority 
+          className="object-cover transition-transform duration-[20s] group-hover:scale-110" 
+        />
+        
+        {/* Global Dark Gradient (Contrast Layer) */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/60" />
+        
+        {/* Content Wrapper */}
+        <div className="absolute inset-0 flex items-center justify-center p-4">
+          
+          {/* Box Container */}
+          <div className="relative max-w-4xl mx-auto text-center rounded-[3rem] overflow-visible p-8 md:p-12">
+            
+            {/* LAYER 1: The Glass Background (Configurable) */}
+            <div className={`
+              absolute inset-0 
+              bg-black/40                        /* Dark Tint Amount */
+              backdrop-blur-1xl                   /* 1. BLUR STRENGTH (Change to 2xl or 3xl for more blur) */
+              border border-white/50 
+              rounded-[1rem] 
+              shadow-[0_0_80px_rgba(0,0,0,0.5)]  /* 2. FEATHER STRENGTH (Increase 80px to 120px for softer edges) */
+            `} />
+            
+            {/* LAYER 2: Noise Texture (Optional premium feel) */}
+            <div className="absolute inset-0 opacity-[0.03] bg-[url('https://grainy-gradients.vercel.app/noise.svg')] rounded-[3rem]" />
+
+            {/* LAYER 3: The Text (Z-Index ensures sharpness) */}
+            <div className="relative z-10">
+              <h1 className={`text-5xl md:text-8xl drop-shadow-2xl mb-4 ${getCityFont(citySlug)}`}>
+                {city.name}
+              </h1>
+              
+              <p className="text-lg md:text-2xl text-white/90 font-medium max-w-2xl mx-auto leading-relaxed drop-shadow-md">
+                {city.intro_vibe}
+              </p>
+            </div>
+
           </div>
         </div>
       </section>
-
   {/* Dashboard */}
       <section className="bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800 py-8">
         <div className="max-w-[1600px] mx-auto px-4 md:px-8">

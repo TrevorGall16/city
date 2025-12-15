@@ -1,80 +1,80 @@
 {
-  "id": "city-002",
-  "name": "Berlin",
-  "slug": "berlin",
-  "country": "Germany",
-  "country_code": "de",
-  "hero_image": "/images/berlin/hero.jpg",
-  "intro_vibe": "The Capital of Cool: Where history meets counterculture and the night never ends.",
+  "id": "city-003",
+  "name": "Tokyo",
+  "slug": "tokyo",
+  "country": "Japan",
+  "country_code": "jp",
+  "hero_image": "/images/tokyo/hero.jpg",
+  "intro_vibe": "The Electric Capital: Where ancient tradition meets neon-lit future.",
   "general_info": {
-    "population": "~3.7 million (city) / ~6 million (metro area)",
+    "population": "~14 million (city) / ~38 million (metro area)",
     "is_capital": true,
-    "description": "Berlin is not Germany—it is its own universe. A city of contrasts where bullet-scarred history meets hedonistic nightlife. From the freedom of Tempelhofer Feld to the grit of Neukölln, Berlin is raw, real, and unapologetically alternative."
+    "description": "Tokyo is the capital of Japan and the world's most populous metropolitan area. A city of contrasts, Tokyo seamlessly blends ancient temples with skyscrapers, traditional tea ceremonies with cutting-edge technology, and serene gardens with the chaotic energy of Shibuya Crossing."
   },
   "stats": {
-    "currency": "EUR",
-    "plug_type": "Type F"
+    "currency": "JPY",
+    "plug_type": "Type A/B"
   },
   "weather_breakdown": [
-    { "id": 1, "name": "January", "temp": "-2°C - 3°C", "vibe": "Cold & Grey", "pros": ["Fewer tourists", "Cozy beer halls", "Winter sales"], "cons": ["Short days", "Freezing winds", "Slush"], "clothing": "Heavy winter coat, boots, scarf" },
-    { "id": 2, "name": "February", "temp": "-1°C - 4°C", "vibe": "Still Cold", "pros": ["Berlinale Film Festival", "Pre-spring energy", "Lower prices"], "cons": ["Cold snaps", "Grey skies"], "clothing": "Warm layers, waterproof jacket" },
-    { "id": 3, "name": "March", "temp": "2°C - 9°C", "vibe": "Awakening", "pros": ["Days get longer", "Spring begins", "Parks reopen"], "cons": ["Unpredictable weather", "Rain"], "clothing": "Light jacket, umbrella" },
-    { "id": 4, "name": "April", "temp": "4°C - 14°C", "vibe": "Fresh", "pros": ["Cherry blossoms", "Beer gardens open", "Outdoor events"], "cons": ["April showers", "Still chilly evenings"], "clothing": "Layers, rain jacket" },
-    { "id": 5, "name": "May", "temp": "9°C - 19°C", "vibe": "Lively", "pros": ["Perfect weather", "Mauerpark Flea Market", "Long days"], "cons": ["Crowds grow", "Higher prices"], "clothing": "Light layers, sunglasses" },
-    { "id": 6, "name": "June", "temp": "12°C - 22°C", "vibe": "Festival Season", "pros": ["Fête de la Musique", "Late sunsets (10pm)", "Spree River vibes"], "cons": ["Tourist season", "Occasional rain"], "clothing": "Summer clothes, light jacket" },
-    { "id": 7, "name": "July", "temp": "14°C - 25°C", "vibe": "Peak Summer", "pros": ["Open-air clubs", "Lake swimming (Wannsee)", "Endless daylight"], "cons": ["Hot & crowded", "Lack of AC"], "clothing": "Shorts, t-shirts, sunhat" },
-    { "id": 8, "name": "August", "temp": "14°C - 24°C", "vibe": "Hot & Vibrant", "pros": ["Beach bars (Badeschiff)", "Street festivals", "Warm nights"], "cons": ["Very touristy", "Heat waves"], "clothing": "Light summer clothes" },
-    { "id": 9, "name": "September", "temp": "10°C - 19°C", "vibe": "Golden Autumn", "pros": ["Perfect weather", "Fewer crowds", "Art Berlin fair"], "cons": ["Shorter days", "Occasional rain"], "clothing": "Smart casual layers" },
-    { "id": 10, "name": "October", "temp": "6°C - 13°C", "vibe": "Cozy", "pros": ["Autumn foliage", "Museum season", "Oktoberfest (nearby Munich)"], "cons": ["Shorter days", "Cool evenings"], "clothing": "Warm jacket, boots" },
-    { "id": 11, "name": "November", "temp": "3°C - 7°C", "vibe": "Grey & Moody", "pros": ["Christmas markets start", "Cozy cafes", "Low rates"], "cons": ["Grey & damp", "Very short days"], "clothing": "Warm coat, umbrella, thermals" },
-    { "id": 12, "name": "December", "temp": "0°C - 4°C", "vibe": "Festive", "pros": ["Christmas markets", "Gendarmenmarkt lights", "New Year's Eve at Brandenburg Gate"], "cons": ["Cold & dark", "Crowded markets"], "clothing": "Heavy winter coat, gloves, hat" }
+    { "id": 1, "name": "January", "temp": "0°C - 10°C", "vibe": "Cold & Dry", "pros": ["Clear skies", "Winter sales", "Fewer tourists"], "cons": ["Cold", "Short days"], "clothing": "Winter coat, layers" },
+    { "id": 2, "name": "February", "temp": "1°C - 10°C", "vibe": "Still Cold", "pros": ["Plum blossoms", "Lower prices", "Clear weather"], "cons": ["Cold winds", "Dry air"], "clothing": "Warm jacket, scarf" },
+    { "id": 3, "name": "March", "temp": "5°C - 14°C", "vibe": "Spring Awakening", "pros": ["Cherry blossom season starts", "Warmer days", "Festivals"], "cons": ["Crowds at parks", "Variable weather"], "clothing": "Light jacket, layers" },
+    { "id": 4, "name": "April", "temp": "10°C - 19°C", "vibe": "Peak Sakura", "pros": ["Full cherry blossoms", "Perfect weather", "Hanami parties"], "cons": ["Very crowded", "High prices"], "clothing": "Light layers, comfortable shoes" },
+    { "id": 5, "name": "May", "temp": "14°C - 23°C", "vibe": "Fresh & Green", "pros": ["Golden Week holidays", "Pleasant weather", "Wisteria blooms"], "cons": ["Golden Week crowds", "Humid starts"], "clothing": "T-shirts, light jacket" },
+    { "id": 6, "name": "June", "temp": "18°C - 26°C", "vibe": "Rainy Season", "pros": ["Hydrangea flowers", "Fewer tourists", "Cooler than summer"], "cons": ["Daily rain", "High humidity"], "clothing": "Rain jacket, umbrella" },
+    { "id": 7, "name": "July", "temp": "22°C - 30°C", "vibe": "Hot & Humid", "pros": ["Festivals (Tanabata)", "Summer energy", "Beach trips nearby"], "cons": ["Extreme heat", "Humid", "Crowded"], "clothing": "Light clothes, sunscreen" },
+    { "id": 8, "name": "August", "temp": "23°C - 31°C", "vibe": "Peak Summer", "pros": ["Fireworks festivals", "Obon holidays", "Summer foods"], "cons": ["Hottest month", "Typhoon season"], "clothing": "Very light clothes, hat" },
+    { "id": 9, "name": "September", "temp": "20°C - 27°C", "vibe": "Transition", "pros": ["Cooler than summer", "Autumn begins", "Less crowded"], "cons": ["Typhoons", "Still humid"], "clothing": "Light layers, rain gear" },
+    { "id": 10, "name": "October", "temp": "15°C - 22°C", "vibe": "Golden Autumn", "pros": ["Perfect weather", "Autumn foliage starts", "Comfortable walking"], "cons": ["Crowds increase", "Prices rise"], "clothing": "Light jacket, comfortable shoes" },
+    { "id": 11, "name": "November", "temp": "9°C - 17°C", "vibe": "Colorful", "pros": ["Peak autumn colors", "Clear skies", "Koyo viewing"], "cons": ["Colder evenings", "Tourist season"], "clothing": "Warm jacket, layers" },
+    { "id": 12, "name": "December", "temp": "4°C - 12°C", "vibe": "Festive", "pros": ["Christmas illuminations", "New Year prep", "Clear weather"], "cons": ["Cold", "Expensive holidays"], "clothing": "Winter coat, warm layers" }
   ],
   "culture": {
     "etiquette_tips": [
-      "Cash is King: Berlin is oddly behind on tech. Bars, small shops, and late-night spots are often CASH ONLY. Always carry €50.",
-      "The Späti Culture: The 'Späti' (late-night corner store) is the center of social life. Grab a beer (€1.50) and sit on the bench outside. It is the Berlin way.",
-      "Club Rules: No photos. Ever. Put stickers on your phone camera. Dress casually (black helps), know the DJ, and don't be drunk in line.",
-      "Ticket Validation: There are no turnstiles, but plainclothes inspectors are ruthless. You MUST stamp your ticket in the little machine before boarding. Fine is €60.",
-      "Directness: Berliners are blunt. It's not rude, it's efficient. Don't expect fake smiles.",
-      "Bike Lanes are Lava: Do not walk in the bike lane. You will be shouted at or hit. Stay on the sidewalk.",
-      "Pfand System: Don't crush cans/bottles. They are worth €0.25. Leave them next to bins for collectors if you don't return them yourself."
+      "The Trash Reality: There are NO public trash cans. You must carry your trash with you until you find a bin at a convenience store (konbini) or your hotel.",
+      "Queue Culture: Lining up is sacred. Whether it's for the train or a restaurant, never cut the line. If there's a queue, the food is probably worth it.",
+      "Cash vs Card: While modernizing, many Ramen shops, ticket machines, and temples are still CASH ONLY. Always carry 10,000 Yen in cash.",
+      "Quiet on Trains: It is dead silent. No phone calls, no loud conversations. Texting is fine, talking is rude.",
+      "Escalator Sides: Stand on the LEFT, walk on the RIGHT. (Note: This swaps in Osaka).",
+      "No Tipping: Excellent service is standard. Tipping causes confusion and may be returned to you as 'lost money'.",
+      "Shoes Off: Look for the entryway step. If there are slippers, use them. Never wear toilet slippers outside the bathroom."
     ],
     "essential_phrases": [
-      { "src": "Hello", "local": "Hallo / Moin", "phonetic": "HAH-loh / moyn" },
-      { "src": "Thank you", "local": "Danke", "phonetic": "DAHN-kuh" },
-      { "src": "The bill please", "local": "Die Rechnung bitte", "phonetic": "dee REKH-noong BIT-tuh" },
-      { "src": "Excuse me", "local": "Entschuldigung", "phonetic": "ent-SHOOL-dee-goong" },
-      { "src": "One beer please", "local": "Ein Bier bitte", "phonetic": "ine beer BIT-tuh" }
+      { "src": "Hello", "local": "こんにちは (Konnichiwa)", "phonetic": "kon-nee-chee-wah" },
+      { "src": "Thank you", "local": "ありがとうございます (Arigatou gozaimasu)", "phonetic": "ah-ree-gah-toh goh-zai-mahs" },
+      { "src": "Excuse me", "local": "すみません (Sumimasen)", "phonetic": "soo-mee-mah-sen" },
+      { "src": "I don't understand", "local": "わかりません (Wakarimasen)", "phonetic": "wah-kah-ree-mah-sen" },
+      { "src": "The bill please", "local": "お会計お願いします (Okaikei onegaishimasu)", "phonetic": "oh-kai-keh oh-neh-gai-shee-mahs" }
     ]
   },
   "neighborhoods": [
     {
-      "name": "Kreuzberg",
-      "vibe": "Alternative & Edgy",
-      "description": "The historic heart of West Berlin's counterculture. Turkish markets, punk bars, street art, and the canal. Gritty, real, and always awake.",
-      "highlights": ["Landwehr Canal", "Markthalle Neun", "SO36"],
-      "image": "/images/berlin/kreuzberg.jpg"
+      "name": "Shibuya",
+      "vibe": "Youth & Energy",
+      "description": "The beating heart of Tokyo's youth culture. Famous for the busiest crossing in the world, trendy fashion, and neon lights.",
+      "highlights": ["Shibuya Crossing", "Hachiko Statue", "Center Gai street"],
+      "image": "/images/tokyo/shibuya.jpg"
     },
     {
-      "name": "Neukölln",
-      "vibe": "Hipster & Raw",
-      "description": "The current cool kid. Rough around the edges but packed with trendy vegan cafes, dive bars, and Middle Eastern food. Young, messy, and fun.",
-      "highlights": ["Tempelhofer Feld", "Weserstraße Bars", "Sonnenallee"],
-      "image": "/images/berlin/neukolln.jpg"
+      "name": "Shinjuku",
+      "vibe": "Neon Metropolis",
+      "description": "Tokyo's busiest district. A mix of skyscrapers, chaotic nightlife (Kabukicho), and the serene Shinjuku Gyoen garden.",
+      "highlights": ["Kabukicho nightlife", "Omoide Yokocho", "Golden Gai"],
+      "image": "/images/tokyo/shinjuku.jpg"
     },
     {
-      "name": "Friedrichshain",
-      "vibe": "Party District",
-      "description": "Home to the legendary Berghain and the RAW-Gelände. Industrial, graffiti-covered, and hedonistic. Where the weekend never ends.",
-      "highlights": ["East Side Gallery", "Berghain", "Boxhagener Platz"],
-      "image": "/images/berlin/friedrichshain.jpg"
+      "name": "Shimokitazawa",
+      "vibe": "Bohemian & Vintage",
+      "description": "The hipster capital. Narrow pedestrian streets packed with vintage clothing stores, vinyl shops, cafes, and small theaters.",
+      "highlights": ["Vintage Shopping", "Indie Cafes", "Live Music Venues"],
+      "image": "/images/tokyo/shimokitazawa.jpg"
     },
     {
-      "name": "Mitte",
-      "vibe": "Historic Center",
-      "description": "Berlin's polished center. Museums, landmarks, and upscale shopping. Touristy, but essential for the 'Checklist' sights.",
-      "highlights": ["Brandenburg Gate", "Museum Island", "Hackescher Markt"],
-      "image": "/images/berlin/mitte.jpg"
+      "name": "Asakusa",
+      "vibe": "Traditional Tokyo",
+      "description": "Old Tokyo preserved. Historic temples, traditional shops, and the nostalgic atmosphere of Edo-era Japan.",
+      "highlights": ["Senso-ji Temple", "Nakamise Shopping Street", "Rickshaws"],
+      "image": "/images/tokyo/asakusa.jpg"
     }
   ],
   "logistics": [
@@ -85,10 +85,10 @@
       "icon": "Info",
       "summary": "Essential friction-removers for a smooth trip.",
       "details": [
-        "Sundays: almost EVERYTHING is closed (shops, supermarkets). Only restaurants and museums are open. Plan accordingly.",
-        "Jaywalking: Don't do it. Germans wait for the green man (Ampelmann). Crossing on red is socially judged.",
-        "Water: Tap water is safe but restaurants charge for bottled. Ask for 'Leitungswasser' (tap) but prepared for a 'no'.",
-        "Tipping: Round up the bill (e.g., make €9.20 into €10). Tell the waiter the total amount you want to pay *before* they charge you."
+        "Last Train: Trains stop around midnight. If you miss it, taxis are expensive. Locals sleep in Manga Cafes or Karaoke booths.",
+        "Rush Hour: Avoid trains between 7:30am - 9:00am. It is crush-capacity.",
+        "Luggage Forwarding (Takkyubin): Don't haul bags on trains. Send luggage from the airport to your hotel for ~$20. Look for the 'Black Cat' logo.",
+        "IC Cards (Suica/Pasmo): Use these for EVERYTHING—trains, vending machines, and convenience stores."
       ]
     },
     {
@@ -96,230 +96,259 @@
       "slug": "getting-around",
       "title": "Getting Around",
       "icon": "Train",
-      "summary": "The U-Bahn (Metro) and S-Bahn (Train) are your lifelines. Runs 24/7 on weekends.",
+      "summary": "Tokyo's train system is legendary. Clean, punctual, and covers everywhere.",
       "details": [
-        "U-Bahn: Yellow trains, mostly underground. Fast and frequent.",
-        "S-Bahn: Red/Yellow trains, mostly above ground. Great for longer distances.",
-        "Tickets: Buy a 'Zone AB' ticket for the city center. VALIDATE IT by stamping it in the box on the platform.",
-        "Apps: Use 'BVG Fahrinfo' or Google Maps. They are accurate."
+        "JR Yamanote Line: The green circular line connecting major hubs (Shibuya, Shinjuku, Tokyo).",
+        "Tokyo Metro: 13 subway lines. Google Maps is essential for navigating transfers.",
+        "Google Maps: The only navigation app you need. It tells you exactly which car to ride for the fastest exit."
       ]
     },
     {
-      "id": "logistics-safety",
-      "slug": "safety-tips",
-      "title": "Safety Basics",
-      "icon": "Shield",
-      "summary": "Berlin is safe, but has rough edges.",
+      "id": "logistics-scams",
+      "slug": "common-scams",
+      "title": "Scams to Avoid",
+      "icon": "AlertTriangle",
+      "summary": "Tokyo is extremely safe, but avoid 'Touts'.",
       "details": [
-        "Görlitzer Park: Known for drug dealers. It's generally safe to walk through during the day, but avoid at night.",
-        "Pickpockets: Active on crowded tourist lines (U2, U8) and at Alexanderplatz.",
-        "Bike Theft: Extremely common. Never leave a bike unlocked, even for a minute."
+        "Kabukicho Touts: NEVER follow a street promoter into a bar in Shinjuku. You will be spiked and drained of thousands of dollars.",
+        "Fake Monks: Do not accept 'golden cards' or blessings from monks on the street who demand cash.",
+        "'Girl' Bars: Avoid places where staff stand outside aggressively pulling you in."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Apps to Download",
+      "icon": "Smartphone",
+      "summary": "These apps will make Tokyo navigation seamless.",
+      "details": [
+        "Google Maps: Essential for train routes.",
+        "Google Translate: Use the camera feature to read menus.",
+        "Suica (Apple Wallet): Add a transit card directly to your iPhone.",
+        "Tabelog: The Japanese 'Yelp'. 3.5 stars is a very high score here."
       ]
     }
   ],
   "must_eat": [
     {
-      "id": "food-001",
-      "slug": "doner-kebap",
-      "name_en": "Döner Kebap",
-      "name_local": "Döner",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": "Berlin's #1 street food. Invented here (not Turkey). Crispy meat, fresh salad, and garlic sauce in toasted bread. Don't wait 2 hours for Mustafa's—your neighborhood spot is likely just as good.",
-      "image": "/images/berlin/doner.jpg"
-    },
-    {
-      "id": "food-002",
-      "slug": "currywurst",
-      "name_en": "Currywurst",
-      "name_local": "Currywurst",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": "Steamed then fried pork sausage cut into slices and drowned in curry ketchup and powder. Served with fries or a bread roll. A cult classic.",
-      "image": "/images/berlin/currywurst.jpg"
-    },
-    {
       "id": "food-010",
-      "slug": "vietnamese-food",
-      "name_en": "Vietnamese Food",
-      "name_local": "Vietnamesische Küche",
+      "slug": "yakitori",
+      "name_en": "Yakitori",
+      "name_local": "焼き鳥",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Berlin has a massive Vietnamese community. The Pho, Banh Mi, and Bun Cha here are some of the best in Europe. Look for 'Monsieur Vuong' or holes-in-the-wall in Mitte/Prenzlauer Berg.",
-      "image": "/images/berlin/vietnamese.jpg"
+      "description": "Grilled chicken skewers cooked over charcoal. Not just breast meat—try skin (kawa), thigh (momo), and meatballs (tsukune). The quintessential after-work food paired with beer.",
+      "image": "/images/tokyo/yakitori.jpg"
     },
     {
       "id": "food-011",
-      "slug": "falafel-teller",
-      "name_en": "Falafel Plate",
-      "name_local": "Falafel Teller",
+      "slug": "tonkatsu",
+      "name_en": "Tonkatsu",
+      "name_local": "とんかつ",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Huge, cheap, and delicious. Crispy falafel, hummus, halloumi, and roasted veggies. A staple of Kreuzberg and Neukölln diets.",
-      "image": "/images/berlin/falafel.jpg"
+      "description": "Breaded, deep-fried pork cutlet. Crisp, juicy, and surgically precise. Served with shredded cabbage, rice, and miso soup. A comfort food perfection.",
+      "image": "/images/tokyo/tonkatsu.jpg"
     },
     {
-      "id": "food-004",
-      "slug": "club-mate",
-      "name_en": "Club Mate",
-      "name_local": "Club-Mate",
+      "id": "food-002",
+      "slug": "ramen",
+      "name_en": "Ramen",
+      "name_local": "ラーメン",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The fuel of Berlin. A caffeinated, sparkling yerba mate tea. Tastes like cigarette ash the first time, but you'll be addicted by the third bottle.",
-      "image": "/images/berlin/club-mate.jpg"
+      "description": "Tokyo's soul food. Rich broth, springy noodles, and toppings. Slurping is encouraged—it cools the noodles and enhances flavor.",
+      "image": "/images/tokyo/ramen.jpg"
     },
     {
       "id": "food-012",
-      "slug": "german-bakery",
-      "name_en": "German Bakery",
-      "name_local": "Bäckerei",
+      "slug": "gyudon",
+      "name_en": "Gyudon (Beef Bowl)",
+      "name_local": "牛丼",
       "category": "food",
       "is_generic_staple": true,
-      "description": "German bread is world-class. Grab a 'Belegtes Brötchen' (sandwich) or a 'Laugenbrezel' (pretzel) for a cheap breakfast.",
-      "image": "/images/berlin/bakery.jpg"
+      "description": "Thinly sliced beef and onions simmered in soy broth over rice. Fast, cheap (¥500), and available 24/7 at chains like Yoshinoya or Sukiya. The local fast food.",
+      "image": "/images/tokyo/gyudon.jpg"
     },
     {
-      "id": "food-003",
-      "slug": "schnitzel",
-      "name_en": "Schnitzel",
-      "name_local": "Schnitzel",
+      "id": "food-001",
+      "slug": "sushi",
+      "name_en": "Sushi",
+      "name_local": "寿司",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Breaded, fried cutlet (pork or veal). Best enjoyed in a traditional Wirtshaus with potato salad and a cold beer.",
-      "image": "/images/berlin/schnitzel.jpg"
+      "description": "Fresh fish over vinegared rice. From high-end Omakase to budget-friendly Kaiten-zushi (conveyor belt). Don't mix wasabi into your soy sauce.",
+      "image": "/images/tokyo/sushi.jpg"
+    },
+    {
+      "id": "food-013",
+      "slug": "japanese-curry",
+      "name_en": "Japanese Curry",
+      "name_local": "カレーライス",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Thick, mild, and addictive. Completely different from Indian or Thai curry. Served with rice and often a pork cutlet (Katsu Curry). Go to CoCo Ichibanya to try it.",
+      "image": "/images/tokyo/curry.jpg"
+    },
+    {
+      "id": "food-014",
+      "slug": "udon-soba",
+      "name_en": "Udon & Soba",
+      "name_local": "うどん / そば",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Thick wheat noodles (Udon) or thin buckwheat noodles (Soba). Cheap, fast, and slurped standing up at train station counters.",
+      "image": "/images/tokyo/soba.jpg"
     },
     {
       "id": "food-005",
-      "slug": "hofbrau-wirtshaus",
-      "name_en": "Hofbräu Wirtshaus (Tourist Classic)",
-      "name_local": "Hofbräu",
+      "slug": "konbini",
+      "name_en": "Konbini (Convenience Store)",
+      "name_local": "コンビニ",
       "category": "food",
-      "is_generic_staple": false,
-      "description": "It's Bavarian, not Berliner, and very touristy. But if you want the giant 1-liter beers and Oompah music experience, this is where you go.",
-      "image": "/images/berlin/hofbrau.jpg",
-      "geo": { "lat": 52.5200, "lng": 13.4050 }
+      "is_generic_staple": true,
+      "description": "7-Eleven, Lawson, FamilyMart. The food quality is shockingly high. Try the Egg Salad Sandwich, Onigiri (rice balls), and Famichiki (fried chicken).",
+      "image": "/images/tokyo/konbini.jpg"
     }
   ],
   "must_see": [
     {
-      "title": "Real Berlin Experiences",
-      "id": "experiences",
+      "title": "Nightlife & Alleys",
+      "id": "nightlife",
       "items": [
         {
-          "id": "exp-001",
-          "slug": "tempelhofer-feld",
-          "name_en": "Tempelhofer Feld",
-          "name_local": "Tempelhofer Feld",
+          "id": "night-001",
+          "slug": "shinjuku-night",
+          "name_en": "Shinjuku at Night",
+          "name_local": "新宿",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "An abandoned airport turned into a massive public park. Locals skate on the runways, BBQ, and fly kites. The ultimate symbol of Berlin's freedom.",
-          "image": "/images/berlin/tempelhof.jpg",
-          "geo": { "lat": 52.4730, "lng": 13.4030 }
+          "description": "The neon soul of Tokyo. Wander Omoide Yokocho (Piss Alley) for smoky yakitori, or just walk the streets to feel the cyberpunk energy.",
+          "image": "/images/tokyo/shinjuku-night.jpg",
+          "geo": { "lat": 35.6938, "lng": 139.7034 }
         },
         {
-          "id": "exp-002",
-          "slug": "spati-crawl",
-          "name_en": "Späti Culture",
-          "name_local": "Spätkauf",
-          "category": "sight",
-          "is_generic_staple": true,
-          "description": "Skip the expensive bar. Buy a €1.50 beer from a corner store (Späti), sit on the bench outside, and watch the city go by.",
-          "image": "/images/berlin/spati.jpg"
-        },
-        {
-          "id": "exp-003",
-          "slug": "mauerpark",
-          "name_en": "Mauerpark Sunday Market",
-          "name_local": "Mauerpark Flohmarkt",
+          "id": "night-002",
+          "slug": "golden-gai",
+          "name_en": "Golden Gai",
+          "name_local": "ゴールデン街",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A Sunday ritual. Huge flea market followed by public 'Bearpit Karaoke' where thousands cheer on strangers singing.",
-          "image": "/images/berlin/mauerpark.jpg",
-          "geo": { "lat": 52.5400, "lng": 13.4050 }
+          "description": "A cluster of over 200 tiny bars (seating 4-6 people) packed into narrow alleys. A relic of post-war Tokyo. Cover charges apply.",
+          "image": "/images/tokyo/golden-gai.jpg",
+          "geo": { "lat": 35.6944, "lng": 139.7047 }
         }
       ]
     },
     {
-      "title": "Iconic History",
-      "id": "history",
+      "title": "Neighborhood Wandering",
+      "id": "wandering",
       "items": [
         {
-          "id": "his-001",
-          "slug": "brandenburg-gate",
-          "name_en": "Brandenburg Gate",
-          "name_local": "Brandenburger Tor",
+          "id": "walk-001",
+          "slug": "shimokitazawa-walk",
+          "name_en": "Shimokitazawa",
+          "name_local": "下北沢",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The symbol of reunification. Best viewed at night when fewer crowds are present. Walk through it to feel the history.",
-          "image": "/images/berlin/brandenburg.jpg",
-          "geo": { "lat": 52.5163, "lng": 13.3777 }
+          "description": "The hipster neighborhood. Vintage clothing, vinyl records, and indie cafes. No skyscrapers here, just vibes.",
+          "image": "/images/tokyo/shimokitazawa-walk.jpg",
+          "geo": { "lat": 35.6611, "lng": 139.6672 }
         },
         {
-          "id": "his-002",
-          "slug": "east-side-gallery",
-          "name_en": "East Side Gallery",
-          "name_local": "East Side Gallery",
+          "id": "walk-002",
+          "slug": "shibuya-crossing",
+          "name_en": "Shibuya Crossing",
+          "name_local": "渋谷スクランブル交差点",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The longest remaining stretch of the Berlin Wall, covered in murals. It's an open-air gallery, free to walk.",
-          "image": "/images/berlin/east-side.jpg",
-          "geo": { "lat": 52.5058, "lng": 13.4397 }
-        },
-        {
-          "id": "his-003",
-          "slug": "memorial-jews",
-          "name_en": "Holocaust Memorial",
-          "name_local": "Denkmal für die ermordeten Juden",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "A haunting field of 2,711 concrete slabs. Walking into the center is disorienting and powerful. Please remain respectful (no selfies on the blocks).",
-          "image": "/images/berlin/holocaust-memorial.jpg",
-          "geo": { "lat": 52.5139, "lng": 13.3786 }
+          "description": "The world's busiest pedestrian crossing. Organized chaos. Best viewed from the Mag's Park rooftop or Starbucks.",
+          "image": "/images/tokyo/shibuya-crossing.jpg",
+          "geo": { "lat": 35.6595, "lng": 139.7004 }
         }
       ]
     },
     {
-      "title": "Alternative History",
-      "id": "alt-history",
+      "title": "Temples & Tradition",
+      "id": "temples",
       "items": [
         {
-          "id": "alt-001",
-          "slug": "teufelsberg",
-          "name_en": "Teufelsberg (Spy Station)",
-          "name_local": "Teufelsberg",
+          "id": "temp-001",
+          "slug": "senso-ji",
+          "name_en": "Senso-ji Temple",
+          "name_local": "浅草寺",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Abandoned NSA listening station on a hill made of WWII rubble. Covered in graffiti with incredible city views. A bit of a hike.",
-          "image": "/images/berlin/teufelsberg.jpg",
-          "geo": { "lat": 52.4969, "lng": 13.2410 }
+          "description": "Tokyo's oldest and most famous temple. Walk through the giant lantern gate and the Nakamise shopping street.",
+          "image": "/images/tokyo/sensoji.jpg",
+          "geo": { "lat": 35.7148, "lng": 139.7967 }
         },
         {
-          "id": "alt-002",
-          "slug": "stasi-museum",
-          "name_en": "Stasi Museum",
-          "name_local": "Stasimuseum",
+          "id": "temp-002",
+          "slug": "meiji-shrine",
+          "name_en": "Meiji Shrine",
+          "name_local": "明治神宮",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Located in the former HQ of the East German secret police. A chilling look at surveillance and control.",
-          "image": "/images/berlin/stasi-museum.jpg",
-          "geo": { "lat": 52.5145, "lng": 13.4880 }
+          "description": "A serene forest in the middle of the city. Dedicated to Emperor Meiji. A peaceful escape from the Harajuku crowds next door.",
+          "image": "/images/tokyo/meiji.jpg",
+          "geo": { "lat": 35.6764, "lng": 139.6993 }
         }
       ]
     },
     {
-      "title": "World-Class Museums",
-      "id": "museums",
+      "title": "Views & Greenery",
+      "id": "views",
       "items": [
         {
-          "id": "mus-001",
-          "slug": "museum-island",
-          "name_en": "Museum Island",
-          "name_local": "Museumsinsel",
+          "id": "view-001",
+          "slug": "metro-gov-building",
+          "name_en": "Tokyo Metro Gov Building",
+          "name_local": "東京都庁",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "UNESCO World Heritage site with five world-renowned museums including the Pergamon (check for closures) and Neues Museum.",
-          "image": "/images/berlin/museum-island.jpg",
-          "geo": { "lat": 52.5210, "lng": 13.3986 }
+          "description": "The best FREE view in Tokyo. See Mt. Fuji on a clear day. Less crowded than Shibuya Sky or Skytree.",
+          "image": "/images/tokyo/metro-gov.jpg",
+          "geo": { "lat": 35.6896, "lng": 139.6917 }
+        },
+        {
+          "id": "view-002",
+          "slug": "shinjuku-gyoen",
+          "name_en": "Shinjuku Gyoen",
+          "name_local": "新宿御苑",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Massive traditional garden. A perfect reset button when the city gets too loud. Famous for cherry blossoms.",
+          "image": "/images/tokyo/shinjuku-gyoen.jpg",
+          "geo": { "lat": 35.6852, "lng": 139.7101 }
+        }
+      ]
+    },
+    {
+      "title": "Tech & Modern",
+      "id": "tech",
+      "items": [
+        {
+          "id": "art-001",
+          "slug": "teamlab-planets",
+          "name_en": "teamLab Planets",
+          "name_local": "チームラボ",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Immersive digital art where you walk barefoot through water and crystal lights. Extremely popular—book weeks in advance.",
+          "image": "/images/tokyo/teamlab.jpg",
+          "geo": { "lat": 35.6455, "lng": 139.7925 }
+        },
+        {
+          "id": "tech-001",
+          "slug": "akihabara",
+          "name_en": "Akihabara Electric Town",
+          "name_local": "秋葉原",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "The center of Anime and Otaku culture. Arcades, maid cafes, and towering electronics stores.",
+          "image": "/images/tokyo/akihabara.jpg",
+          "geo": { "lat": 35.6984, "lng": 139.7731 }
         }
       ]
     }
@@ -327,27 +356,27 @@
   "affiliate_products": [
     {
       "id": "aff-001",
-      "title": "European Travel Adapter (Type F)",
-      "image": "/images/berlin/adapter.jpg",
-      "reason": "German plugs are Type F (two round pins). Essential for charging your devices.",
-      "amazon_url": "https://www.amazon.com/s?k=european+travel+adapter+type+f",
+      "title": "Japan Travel Adapter (Type A/B)",
+      "image": "/images/tokyo/adapter.jpg",
+      "reason": "Japan uses Type A (two flat pins). European/UK travelers need an adapter.",
+      "amazon_url": "https://www.amazon.com/s?k=japan+travel+adapter+type+a",
       "category": "electronics"
     },
     {
       "id": "aff-002",
-      "title": "Cash Wallet",
-      "image": "/images/berlin/wallet.jpg",
-      "reason": "Berlin is a cash city. You will need a wallet that can hold coins and bills comfortably.",
-      "amazon_url": "https://www.amazon.com/s?k=slim+wallet+coin+pocket",
-      "category": "security"
+      "title": "Pocket WiFi / eSIM",
+      "image": "/images/tokyo/wifi.jpg",
+      "reason": "Free WiFi is rare in public. You need data for Google Maps and translation. Rent a Pocket WiFi or buy an eSIM.",
+      "amazon_url": "https://www.amazon.com/s?k=pocket+wifi+japan",
+      "category": "electronics"
     },
     {
       "id": "aff-003",
-      "title": "Portable Charger",
-      "image": "/images/berlin/power-bank.jpg",
-      "reason": "Long nights out and navigating the U-Bahn drain batteries fast. Stay connected.",
-      "amazon_url": "https://www.amazon.com/s?k=portable+phone+charger",
-      "category": "electronics"
+      "title": "Coin Purse",
+      "image": "/images/tokyo/coin-purse.jpg",
+      "reason": "Cash is still king, and you will accumulate a LOT of coins. A dedicated coin purse is a life-saver.",
+      "amazon_url": "https://www.amazon.com/s?k=coin+purse",
+      "category": "accessories"
     }
   ]
 }

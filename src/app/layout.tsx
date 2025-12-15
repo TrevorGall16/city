@@ -1,9 +1,22 @@
 /**
  * Root Layout
- * Following 03_UI section 1 (Global Layout specification)
+ * Includes Google Fonts for City Personalities
  */
 
-import { Inter, Playfair_Display } from 'next/font/google'
+import { 
+  Inter, 
+  Geo,              // Tokyo
+  Modak,            // Bangkok
+  Corinthia,        // Paris
+  Quintessential,   // Rome
+  Style_Script,     // Los Angeles
+  Russo_One,        // New York
+  Bungee,           // Berlin
+  Playball,         // London
+  Aladin,           // Istanbul
+  Gravitas_One,     // Dubai
+  Barlow_Condensed  // Hong Kong
+} from 'next/font/google'
 import Link from 'next/link'
 import { Menu } from 'lucide-react'
 import { AuthProvider } from '@/components/providers/AuthProvider'
@@ -16,17 +29,21 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { CookieConsent } from '@/components/features/CookieConsent'
 
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-sans',
-})
+// --- 1. GLOBAL FONTS ---
+const inter = Inter({ subsets: ['latin'], variable: '--font-sans', display: 'swap' })
 
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-serif',
-})
+// --- 2. CITY PERSONALITY FONTS ---
+const tokyoFont = Geo({ weight: '400', subsets: ['latin'], variable: '--font-tokyo', display: 'swap' })
+const bangkokFont = Modak({ weight: '400', subsets: ['latin'], variable: '--font-bangkok', display: 'swap' })
+const parisFont = Corinthia({ weight: '700', subsets: ['latin'], variable: '--font-paris', display: 'swap' })
+const romeFont = Quintessential({ weight: '400', subsets: ['latin'], variable: '--font-rome', display: 'swap' })
+const laFont = Style_Script({ weight: '400', subsets: ['latin'], variable: '--font-la', display: 'swap' })
+const nyFont = Russo_One({ weight: '400', subsets: ['latin'], variable: '--font-ny', display: 'swap' })
+const berlinFont = Bungee({ weight: '400', subsets: ['latin'], variable: '--font-berlin', display: 'swap' })
+const londonFont = Playball({ weight: '400', subsets: ['latin'], variable: '--font-london', display: 'swap' })
+const istanbulFont = Aladin({ weight: '400', subsets: ['latin'], variable: '--font-istanbul', display: 'swap' })
+const dubaiFont = Gravitas_One({ weight: '400', subsets: ['latin'], variable: '--font-dubai', display: 'swap' })
+const hkFont = Barlow_Condensed({ weight: '800', subsets: ['latin'], variable: '--font-hk', display: 'swap' })
 
 export const metadata: Metadata = {
   title: 'CitySheet - The Ultimate Travel Guides',
@@ -40,7 +57,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.variable} ${playfair.variable} ${inter.className}`}>
+      <body className={`
+        ${inter.variable} 
+        ${tokyoFont.variable}
+        ${bangkokFont.variable}
+        ${parisFont.variable}
+        ${romeFont.variable}
+        ${laFont.variable}
+        ${nyFont.variable}
+        ${berlinFont.variable}
+        ${londonFont.variable}
+        ${istanbulFont.variable}
+        ${dubaiFont.variable}
+        ${hkFont.variable}
+        font-sans antialiased bg-slate-50 dark:bg-slate-950
+      `}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <AuthProvider>
             <AdProvider>
@@ -49,33 +80,33 @@ export default function RootLayout({
 
               {/* Header - Sticky (Logo + Auth Only) */}
               <header className="h-16 border-b border-slate-200/50 dark:border-slate-800/50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 h-full flex items-center justify-between">
-            {/* Logo */}
-            <Link href="/" className="flex items-center">
-              <div className="text-xl font-bold text-indigo-600">
-                CitySheet
-              </div>
-            </Link>
+                <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 h-full flex items-center justify-between">
+                  {/* Logo */}
+                  <Link href="/" className="flex items-center">
+                    <div className="text-xl font-bold text-indigo-600">
+                      CitySheet
+                    </div>
+                  </Link>
 
-            {/* Right side - Auth & Mobile Menu */}
-            <div className="flex items-center gap-4">
-              <HeaderAuth />
+                  {/* Right side - Auth & Mobile Menu */}
+                  <div className="flex items-center gap-4">
+                    <HeaderAuth />
 
-              {/* Mobile Menu Button */}
-              <button className="md:hidden p-2">
-                <Menu className="w-6 h-6 text-slate-700 dark:text-slate-300" />
-              </button>
-            </div>
-          </div>
-        </header>
+                    {/* Mobile Menu Button */}
+                    <button className="md:hidden p-2">
+                      <Menu className="w-6 h-6 text-slate-700 dark:text-slate-300" />
+                    </button>
+                  </div>
+                </div>
+              </header>
 
-        {/* Main Content */}
-        <main className="min-h-[calc(100vh-4rem)]">
-          {children}
-        </main>
+              {/* Main Content */}
+              <main className="min-h-[calc(100vh-4rem)]">
+                {children}
+              </main>
 
-        {/* Footer */}
-        <Footer />
+              {/* Footer */}
+              <Footer />
             </AdProvider>
           </AuthProvider>
         </ThemeProvider>
