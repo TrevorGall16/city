@@ -1,71 +1,76 @@
 'use client'
 
-/**
- * AdUnit Component - Reusable Ad Placeholder
- * Development: Shows gray box with size label
- * Production: Will load actual AdSense units
- *
- * Prevents layout shift by reserving space with min-height
- */
+import { useEffect, useRef } from 'react'
+
+// Define the 3 types of ads we created
+type AdType = 'banner' | 'sidebar' | 'grid'
 
 interface AdUnitProps {
-  size: 'horizontal' | 'square' | 'skyscraper'
+  type: AdType
   className?: string
 }
 
-const AD_UNIT_CONFIG = {
-  horizontal: {
-    label: 'Horizontal Banner (728x90 / 970x90)',
-    minHeight: 'min-h-[90px] md:min-h-[90px]',
-    aspectRatio: 'aspect-[728/90]',
+const AD_CONFIG = {
+  // 1. Horizontal Banner (Header/Footer)
+  banner: {
+    slot: '6494579904',
+    format: 'auto',
+    style: { display: 'block', minHeight: '100px' } 
   },
-  square: {
-    label: 'Square (300x250)',
-    minHeight: 'min-h-[250px]',
-    aspectRatio: 'aspect-square',
+  // 2. Vertical Sidebar (Desktop Sticky)
+  sidebar: {
+    slot: '3868416566',
+    format: 'auto',
+    style: { display: 'block', minHeight: '600px' }
   },
-  skyscraper: {
-    label: 'Vertical Skyscraper (160x600)',
-    minHeight: 'min-h-[600px]',
-    aspectRatio: 'aspect-[160/600]',
-  },
-} as const
+  // 3. Square Grid (Mobile List)
+  grid: {
+    slot: '9017813222',
+    format: 'auto',
+    style: { display: 'block', minHeight: '250px' }
+  }
+}
 
-export function AdUnit({ size, className = '' }: AdUnitProps) {
-  const config = AD_UNIT_CONFIG[size]
-
-  // Development placeholder
-  const isDevelopment = process.env.NODE_ENV === 'development'
-
-  if (isDevelopment) {
-    return (
-      <div
-        className={`${config.minHeight} bg-slate-200 dark:bg-slate-800 rounded-lg border-2 border-dashed border-slate-300 dark:border-slate-700 flex items-center justify-center ${className}`}
-        role="presentation"
-        aria-label="Advertisement placeholder"
-      >
-        <div className="text-center px-4">
-          <div className="text-sm font-medium text-slate-500 dark:text-slate-400 uppercase tracking-wide">
-            Ad Space
-          </div>
-          <div className="text-xs text-slate-400 dark:text-slate-500 mt-1">
-            {config.label}
-          </div>
-        </div>
-      </div>
-    )
+export function AdUnit({ type, className = '' }: AdUnitProps) {
+  const adRef = useRef<HTMLModElement>(null)
+  
+  // ✅ SAFETY SHIELD: If type is wrong/missing, fallback or return null
+  const config = AD_CONFIG[type]
+  if (!config) {
+    console.warn(`AdUnit Error: Invalid type "${type}" passed. Expected: banner, sidebar, or grid.`)
+    return null 
   }
 
-  // Production: Reserve space for actual ad
+  useEffect(() => {
+    try {
+      // @ts-ignore
+      if (typeof window !== 'undefined' && window.adsbygoogle) {
+        // @ts-ignore
+        if (adRef.current && adRef.current.innerHTML === '') {
+           // @ts-ignore
+           (window.adsbygoogle = window.adsbygoogle || []).push({})
+        }
+      }
+    } catch (err) {
+      console.error('AdSense error:', err)
+    }
+  }, [config]) // Added config to dependency
+
   return (
-    <div
-      className={`${config.minHeight} bg-slate-50 dark:bg-slate-900 rounded-lg ${className}`}
-      data-ad-unit={size}
-    >
-      {/* AdSense script will inject here in production */}
-      <div className="text-center text-xs text-slate-400 dark:text-slate-500 py-2">
+    <div className={`ad-container overflow-hidden my-4 ${className}`}>
+      <div className="text-[10px] text-slate-300 text-center uppercase tracking-widest mb-1 select-none">
         Advertisement
       </div>
+      
+      <ins
+        ref={adRef}
+        className="adsbygoogle"
+        style={config.style}
+        data-ad-client="ca-pub-8732422930809097"
+        data-ad-slot={config.slot}
+        data-ad-format={config.format}
+        data-full-width-responsive="true"
+      />
     </div>
   )
 }

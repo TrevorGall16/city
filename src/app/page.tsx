@@ -266,7 +266,7 @@ export default function HomePage() {
 
       {/* Ad Unit - Horizontal Banner between Map and Grid */}
       <section className="max-w-[1400px] mx-auto px-4 md:px-6 lg:px-8 py-8">
-        <AdUnit size="horizontal" className="max-w-[970px] mx-auto" />
+        <AdUnit type="banner" className="max-w-[970px] mx-auto" />
       </section>
 
       {/* Regional Grid - Desktop & Mobile (Unified) */}

@@ -1,7 +1,6 @@
 /**
  * City Sheet Page (SSG)
- * Following 03_UI section 3.2 (City Sheet Template)
- * Fixed for Next.js 15+: `params` is now a Promise that must be awaited.
+ * Final Version with Ads & Fonts
  */
 
 import { notFound } from 'next/navigation'
@@ -11,17 +10,15 @@ import { promises as fs } from 'fs'
 import path from 'path'
 import type { City } from '@/types'
 import { PlaceCard } from '@/components/features/PlaceCard'
-import { AdContainer } from '@/components/ads/AdContainer'
 import { MonthCard } from '@/components/features/MonthCard'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { CityNavigation } from '@/components/features/CityNavigation'
 import { AtAGlanceDashboard } from '@/components/features/AtAGlanceDashboard'
 import { CityPlacesSection } from '@/components/features/CityPlacesSection'
 import { AffiliateSection } from '@/components/features/AffiliateSection'
-import { AdUnit } from '@/components/ads/AdUnit'
+import { AdUnit } from '@/components/ads/AdUnit' // ✅ Single, correct import
 import type { Metadata } from 'next'
 import * as Icons from 'lucide-react'
-import { CheatSheetWidget } from '@/components/features/CheatSheetWidget'
 
 // Type definition for Page Props in Next.js 15+
 interface PageProps {
@@ -116,16 +113,17 @@ export default async function CityPage({ params }: PageProps) {
     accentText: 'text-indigo-900 dark:text-white',
   }
 
-  const renderPlacesWithAds = (places: typeof city.must_eat, category: string) => {
+  // ✅ MOBILE AD LOGIC: Inject 'grid' ad after the 4th item
+  const renderPlacesWithAds = (places: typeof city.must_eat) => {
     const elements: React.ReactNode[] = []
     places.forEach((place, index) => {
       elements.push(
         <PlaceCard key={place.id} place={place} citySlug={citySlug} />
       )
-      if (index === 7 && places.length > 8) {
+      if (index === 3) { // After 4th item
         elements.push(
-          <div key={`ad-${category}-${index}`} className="col-span-full">
-            <AdContainer slot="grid" />
+          <div key="mobile-ad-grid" className="col-span-full py-4">
+            <AdUnit type="grid" />
           </div>
         )
       }
@@ -143,7 +141,7 @@ export default async function CityPage({ params }: PageProps) {
     return gradients[countryCode] || 'from-indigo-600 via-slate-200 to-indigo-600'
   }
 
-const getCityFont = (slug: string) => {
+  const getCityFont = (slug: string) => {
     const fonts: Record<string, string> = {
       // 🇯🇵 Tokyo: Neon Cyan (Cyberpunk)
       tokyo: 'font-tokyo text-7xl md:text-9xl tracking-widest text-cyan-400',
@@ -155,19 +153,19 @@ const getCityFont = (slug: string) => {
       paris: 'font-paris text-8xl md:text-[10rem] tracking-tight text-white',
       
       // 🇮🇹 Rome: Roman Gold
-      rome: 'font-rome text-6xl md:text-8xl text-green-500',
+      rome: 'font-rome text-6xl md:text-8xl text-yellow-500',
       
       // 🇺🇸 Los Angeles: Sunset Pink or Ocean Blue
-      'los-angeles': 'font-la text-7xl md:text-9xl text-orange-400',
+      'los-angeles': 'font-la text-7xl md:text-9xl text-pink-400',
       
       // 🇺🇸 New York: Taxi Yellow
-      'new-york': 'font-ny text-6xl md:text-8xl uppercase tracking-wider text-blue-600',
+      'new-york': 'font-ny text-6xl md:text-8xl uppercase tracking-wider text-yellow-400',
       
       // 🇩🇪 Berlin: Electric Lime (Techno)
-      berlin: 'font-berlin text-6xl md:text-8xl uppercase text-yellow-400',
+      berlin: 'font-berlin text-6xl md:text-8xl uppercase text-lime-400',
       
       // 🇬🇧 London: Bus Red or Royal White
-      london: 'font-london text-7xl md:text-9xl text-red-500',
+      london: 'font-london text-7xl md:text-9xl text-white',
       
       // 🇹🇷 Istanbul: Spice Orange
       istanbul: 'font-istanbul text-7xl md:text-9xl tracking-wide text-orange-400',
@@ -183,7 +181,6 @@ const getCityFont = (slug: string) => {
       mecca: 'font-serif font-medium text-emerald-400',
       guangzhou: 'font-sans font-bold text-white',
     }
-    // Default fallback is white
     return fonts[slug] || 'font-sans font-bold text-white'
   }
 
@@ -199,21 +196,10 @@ const getCityFont = (slug: string) => {
         </div>
       </div>
 
-{/* Hero Section */}
+      {/* Hero Section */}
       <section className="h-[50vh] min-h-[400px] relative overflow-hidden group">
-        
-        {/* --- 🎛️ GLASS CONFIGURATION (Tweak these!) --- */}
-        {/* Options: backdrop-blur-sm | md | lg | xl | 2xl | 3xl */}
-        {/* The higher the 'px' in shadow, the softer the edges feather out */}
-        {/* opacity-30 = 30% dark tint. Increase to 50 or 60 for better text readability */}
-        <div className="hidden">
-           {/* configuration documentation only */}
-        </div>
-        
-        {/* Country Flag Line */}
         <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${getFlagGradient(city.country_code)} z-20`} />
         
-        {/* Main Image */}
         <Image 
           src={city.hero_image} 
           alt={city.name} 
@@ -222,34 +208,26 @@ const getCityFont = (slug: string) => {
           className="object-cover transition-transform duration-[20s] group-hover:scale-110" 
         />
         
-        {/* Global Dark Gradient (Contrast Layer) */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/60" />
         
-        {/* Content Wrapper */}
         <div className="absolute inset-0 flex items-center justify-center p-4">
-          
-          {/* Box Container */}
           <div className="relative max-w-4xl mx-auto text-center rounded-[3rem] overflow-visible p-8 md:p-12">
             
-            {/* LAYER 1: The Glass Background (Configurable) */}
             <div className={`
               absolute inset-0 
-              bg-black/40                        /* Dark Tint Amount */
-              backdrop-blur-1xl                   /* 1. BLUR STRENGTH (Change to 2xl or 3xl for more blur) */
-              border border-white/50 
-              rounded-[1rem] 
-              shadow-[0_0_80px_rgba(0,0,0,0.5)]  /* 2. FEATHER STRENGTH (Increase 80px to 120px for softer edges) */
+              bg-black/30
+              backdrop-blur-xl
+              border border-white/10 
+              rounded-[3rem] 
+              shadow-[0_0_80px_rgba(0,0,0,0.5)]
             `} />
             
-            {/* LAYER 2: Noise Texture (Optional premium feel) */}
             <div className="absolute inset-0 opacity-[0.03] bg-[url('https://grainy-gradients.vercel.app/noise.svg')] rounded-[3rem]" />
 
-            {/* LAYER 3: The Text (Z-Index ensures sharpness) */}
             <div className="relative z-10">
               <h1 className={`text-5xl md:text-8xl drop-shadow-2xl mb-4 ${getCityFont(citySlug)}`}>
                 {city.name}
               </h1>
-              
               <p className="text-lg md:text-2xl text-white/90 font-medium max-w-2xl mx-auto leading-relaxed drop-shadow-md">
                 {city.intro_vibe}
               </p>
@@ -258,10 +236,10 @@ const getCityFont = (slug: string) => {
           </div>
         </div>
       </section>
-  {/* Dashboard */}
+
+      {/* Dashboard */}
       <section className="bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800 py-8">
         <div className="max-w-[1600px] mx-auto px-4 md:px-8">
-          {/* ✅ Pass the full 'city' object here */}
           <AtAGlanceDashboard city={city} />
         </div>
       </section>
@@ -338,7 +316,8 @@ const getCityFont = (slug: string) => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {city.neighborhoods.map((hood) => (
               <div key={hood.name} className="group bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 overflow-hidden hover:shadow-xl transition-all duration-300">
-             <div className="relative h-64 w-full bg-slate-200 overflow-hidden">
+                {/* Image Header with overflow-hidden fix */}
+                <div className="relative h-64 w-full bg-slate-200 overflow-hidden">
                   {hood.image ? (
                     <Image
                       src={hood.image}
@@ -438,13 +417,13 @@ const getCityFont = (slug: string) => {
           accentText={theme.accentText}
         />
       )}
-{/* Discover Section (Must See) */}
+
+      {/* Discover Section (Must See) */}
       <div className="relative scroll-mt-24">
-        {/* ✅ THE OMNI-TRAP: Listens for ALL common names */}
+        {/* Scroll Anchors */}
         <div id="must-see" className="absolute -top-24 left-0" />
         <div id="discover" className="absolute -top-24 left-0" />
         <div id="landmarks" className="absolute -top-24 left-0" />
-        <div id="sights" className="absolute -top-24 left-0" />
         
         <CityPlacesSection
           places={city.must_see.flatMap((group) => group.items)}
@@ -455,43 +434,49 @@ const getCityFont = (slug: string) => {
         />
       </div>
 
-      {/* Mobile Ad */}
+      {/* Mobile Ad (Grid) - Between Sections */}
       <section className="bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
         <div className="lg:hidden max-w-[1600px] mx-auto px-4 md:px-8 py-8">
-          <AdUnit size="square" className="max-w-[300px] mx-auto" />
+          <AdUnit type="grid" className="max-w-[300px] mx-auto" />
         </div>
       </section>
 
-      {/* Must Eat Section - WRAPPED WITH ID FOR SCROLL FIX */}
+      {/* Must Eat Section */}
       <section
         id="must-eat"
         className="bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800 scroll-mt-24 relative"
       >
         <div id="food" className="absolute -top-24 left-0 visibility-hidden"></div>
         <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-12">
-          <div className="hidden lg:grid lg:grid-cols-[1fr_200px] gap-8">
+          
+          {/* DESKTOP LAYOUT (With Sidebar Ad) */}
+          <div className="hidden lg:grid lg:grid-cols-[1fr_300px] gap-8">
             <div>
               <div className="mb-8">
                 <h2 className={`text-4xl md:text-5xl font-bold ${theme.accentText} mb-2`}>Must Eat</h2>
                 <p className="text-sm text-slate-600 dark:text-slate-400">Essential food and drink experiences in {city.name}</p>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
                 {city.must_eat.map((place) => (
                   <PlaceCard key={place.id} place={place} citySlug={citySlug} />
                 ))}
               </div>
             </div>
+            
+            {/* ✅ SIDEBAR AD */}
             <div className="sticky top-24 h-fit">
-              <AdUnit size="skyscraper" />
+              <AdUnit type="sidebar" />
             </div>
           </div>
+
+          {/* MOBILE LAYOUT (With In-Grid Ad) */}
           <div className="lg:hidden">
             <div className="mb-8">
               <h2 className={`text-4xl md:text-5xl font-bold ${theme.accentText} mb-2`}>Must Eat</h2>
               <p className="text-sm text-slate-600 dark:text-slate-400">Essential food and drink experiences in {city.name}</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {renderPlacesWithAds(city.must_eat, 'food')}
+              {renderPlacesWithAds(city.must_eat)}
             </div>
           </div>
         </div>
@@ -532,6 +517,12 @@ const getCityFont = (slug: string) => {
           })}
         </div>
       </section>
+
+      {/* ✅ FOOTER BANNER AD */}
+      <section className="max-w-[1200px] mx-auto px-4 py-12">
+        <AdUnit type="banner" />
+      </section>
+
     </main>
   )
 }
