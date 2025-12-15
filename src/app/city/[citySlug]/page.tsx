@@ -21,6 +21,7 @@ import { AffiliateSection } from '@/components/features/AffiliateSection'
 import { AdUnit } from '@/components/ads/AdUnit'
 import type { Metadata } from 'next'
 import * as Icons from 'lucide-react'
+import { CheatSheetWidget } from '@/components/features/CheatSheetWidget'
 
 // Type definition for Page Props in Next.js 15+
 interface PageProps {
@@ -183,15 +184,11 @@ export default async function CityPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Dashboard */}
+  {/* Dashboard */}
       <section className="bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800 py-8">
         <div className="max-w-[1600px] mx-auto px-4 md:px-8">
-          <AtAGlanceDashboard
-            bestTimeToVisit="Apr-Jun"
-            currency={`${city.stats.currency}`}
-            language={city.country === "Japan" ? "Japanese" : city.country === "France" ? "French" : "English"}
-            vibe="Historic & Modern"
-          />
+          {/* ✅ Pass the full 'city' object here */}
+          <AtAGlanceDashboard city={city} />
         </div>
       </section>
 
