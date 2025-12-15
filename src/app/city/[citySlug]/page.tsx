@@ -147,25 +147,25 @@ export default async function CityPage({ params }: PageProps) {
       tokyo: 'font-tokyo text-7xl md:text-9xl tracking-widest text-cyan-400',
       
       // 🇹🇭 Bangkok: Golden Orange (Temples & Sun)
-      bangkok: 'font-bangkok text-7xl md:text-9xl tracking-wide text-amber-400',
+      bangkok: 'font-bangkok text-7xl md:text-9xl tracking-wide text-amber-500',
       
       // 🇫🇷 Paris: Soft Rose or Classic White
       paris: 'font-paris text-8xl md:text-[10rem] tracking-tight text-white',
       
       // 🇮🇹 Rome: Roman Gold
-      rome: 'font-rome text-6xl md:text-8xl text-yellow-500',
+      rome: 'font-rome text-6xl md:text-8xl text-green-600',
       
       // 🇺🇸 Los Angeles: Sunset Pink or Ocean Blue
-      'los-angeles': 'font-la text-7xl md:text-9xl text-pink-400',
+      'los-angeles': 'font-la text-7xl md:text-9xl text-orange-400',
       
       // 🇺🇸 New York: Taxi Yellow
-      'new-york': 'font-ny text-6xl md:text-8xl uppercase tracking-wider text-yellow-400',
+      'new-york': 'font-ny text-6xl md:text-8xl uppercase tracking-wider text-blue-500',
       
       // 🇩🇪 Berlin: Electric Lime (Techno)
-      berlin: 'font-berlin text-6xl md:text-8xl uppercase text-lime-400',
+      berlin: 'font-berlin text-6xl md:text-8xl uppercase text-yellow-400',
       
       // 🇬🇧 London: Bus Red or Royal White
-      london: 'font-london text-7xl md:text-9xl text-white',
+      london: 'font-london text-7xl md:text-9xl text-red-600',
       
       // 🇹🇷 Istanbul: Spice Orange
       istanbul: 'font-istanbul text-7xl md:text-9xl tracking-wide text-orange-400',

@@ -23,7 +23,7 @@
     { "id": 5, "name": "May", "temp": "11°C - 20°C", "vibe": "Mild & Social", "pros": ["Long days", "Terrace culture peaks", "Outdoor events"], "cons": ["Higher hotel prices", "Sudden heat"], "clothing": "Breathable layers, sunhat" },
     { "id": 6, "name": "June", "temp": "14°C - 24°C", "vibe": "Festive", "pros": ["Music Festival", "Late sunsets (10pm)", "Seine picnics"], "cons": ["High season rates", "Heatwaves"], "clothing": "Summer clothes + light jacket" },
     { "id": 7, "name": "July", "temp": "16°C - 27°C", "vibe": "Hot & Busy", "pros": ["Bastille Day", "Paris Plages", "Summer vibes"], "cons": ["Crowded", "Lack of A/C"], "clothing": "Very light clothes, sandals" },
-    { "id": 8, "name": "August", "temp": "15°C - 26°C", "vibe": "Slow & Local", "pros": ["Quiet streets (locals leave)", "Relaxed pace", "Empty metro"], "cons": ["Many shops closed", "Tourist spots packed"], "clothing": "Summer clothes" },
+    { "id": 8, "name": "August", "temp": "15°C - 26°C", "vibe": "Uneven & Calm", "pros": ["Quiet streets (locals leave)", "Relaxed pace", "Empty metro"], "cons": ["Independent shops/bakeries closed", "Tourist spots packed"], "clothing": "Summer clothes" },
     { "id": 9, "name": "September", "temp": "12°C - 22°C", "vibe": "Golden", "pros": ["Perfect walking weather", "Cultural season starts", "Energetic"], "cons": ["Fashion Week prices", "Occasional rain"], "clothing": "Smart casual layers" },
     { "id": 10, "name": "October", "temp": "9°C - 17°C", "vibe": "Colorful", "pros": ["Autumn foliage", "Cozy cafes", "Great light"], "cons": ["Shorter days", "Dampness"], "clothing": "Warm mid-layers, boots" },
     { "id": 11, "name": "November", "temp": "6°C - 12°C", "vibe": "Atmospheric", "pros": ["Museum exhibitions", "Hot chocolate season", "Low rates"], "cons": ["Grey & gloom", "Windy"], "clothing": "Warm coat, umbrella" },
@@ -31,12 +31,15 @@
   ],
   "culture": {
     "etiquette_tips": [
-      "The 'Bonjour' Rule: Always say Bonjour when entering a shop. It is not optional.",
-      "Buying Bread Ritual: Say 'une baguette, s'il vous plaît', pay (often cash for small amounts), and never accept a bag unless offered. Tearing the end off immediately outside is culturally approved.",
-      "The Lunch Formula (Formule Midi): Between 12:00-14:00, look for the 'Formule' on the chalkboard. It's how locals eat affordably (approx €15-20 for 2 courses).",
-      "Sunday Reality: Most shops are closed. Bakeries (mornings) and Marais shops are exceptions. Plan museums or parks for Sundays.",
-      "Apéro Culture: 18:00–20:00 is sacred. Order a drink and a 'planche' (board) to share. It is not dinner, it is the warm-up.",
-      "Water is Free: Ask for 'une carafe d'eau' (tap water) to get free water. If you just ask for 'water', you will be charged €6 for a bottle.",
+      "The 'Bonjour' Rule: It is not just politeness, it is a social key. Skipping it feels like barking an order. Always say Bonjour when entering a shop. Eye contact is normal during this greeting. Saying Bonjour instead of Bonsoir is not a big deal, french people make that 'mistake' all the time.",
+      "Service is Included: There is no 15-20% tipping culture. 'Service Compris' is the law. Rounding up slightly is polite, but large tips are seen as strange, not generous.",
+      "The Coffee Price Tier: Know that a coffee has three prices. 'Au comptoir' (standing at the bar) is cheapest. 'En salle' (inside table) is standard. 'En terrasse' (outside) is the most expensive—you are paying rent for the view.",
+      "No Small Talk: Efficiency > Friendliness. Shopkeepers and waiters are professional, not chatty. Silence is neutral, not rude. Do not expect random smiles from strangers.",
+      "Butter Reality: Butter is not automatically served with bread at dinner. It is for breakfast or specific dishes (like oysters). Asking for butter with your bread basket marks you as a tourist.",
+      "Buying Bread Ritual: Say 'une baguette tradition, s'il vous plaît', pay (cash is fast), and never accept a bag unless offered. Tearing the end off ('le quignon') outside is culturally approved.",
+      "The Lunch Formula (Formule Midi): Between 12:00-14:00, look for the 'Formule'. It's how locals eat affordably (approx €15-20).",
+      "Sunday Reality: Most shops are closed, except in Marais or tourist zones. Plan museums or parks. Note that Public Holidays often function like Sundays.",
+      "Water Rules: Tap water is safe. Ask for 'une carafe d'eau' for free water. If you just ask for 'water', you will be charged for a bottle.",
       "Dining Pace: Meals are slow. You must ask for the bill ('L'addition'). Leaving quickly is seen as rushing the pleasure."
     ],
     "essential_phrases": [
@@ -85,34 +88,58 @@
       "icon": "Train",
       "summary": "The Metro is the lifeline of Paris. Cheap, fast, and everywhere.",
       "details": [
-        "The Metro: 16 lines covering the whole city. Buy a Navigo Easy pass.",
-        "Walking: Paris is very walkable. You can cross the center in 40 mins.",
-        "RER: Faster trains for crossing the city and reaching airports (CDG/Orly).",
-        "Etiquette: Let people off before you get on. Don't block doors."
-      ]
-    },
-    {
-      "id": "logistics-scams",
-      "slug": "common-scams",
-      "title": "Scams to Avoid",
-      "icon": "AlertTriangle",
-      "summary": "Avoid the Ring Scam and the Bracelet Scam to stay safe.",
-      "details": [
-        "The Gold Ring: Someone 'finds' a ring and tries to give it to you for money. Ignore them.",
-        "The Bracelet: Men at Sacré-Cœur try to tie a string on your finger. Keep hands in pockets.",
-        "The Petition: Kids asking for signatures for 'deaf/mute' causes. It's a pickpocket distraction."
+        "The Inspection: Ticket controls are frequent and unforgiving. Keep your ticket until you exit the station. Fines start at €35–50, cash on the spot, with no negotiation.",
+        "Escalator Etiquette: Stand on the right, walk on the left. Locals will judge you silently if you block the left side.",
+        "Night Transport: The Metro stops around 00:30 (weekdays) or 01:45 (weekends). Uber/Taxi prices surge after 1am.",
+        "Navigo Easy: Buy this reloadable card for the cheapest fares (t+ tickets)."
       ]
     },
     {
       "id": "logistics-safety",
       "slug": "safety-tips",
-      "title": "Safety Basics",
+      "title": "Safety & Scams",
       "icon": "Shield",
       "summary": "Paris is safe, but pickpockets are skilled. Watch your phone.",
       "details": [
-        "Pickpockets: Active on Metro Line 1 and near Eiffel Tower.",
-        "Phones: Don't leave them on cafe tables. Don't use them near metro doors.",
-        "Night: Most areas are safe, but avoid unlit parks after dark."
+        "Phone Snatching: Don't stand near the curb scrolling. Thieves on scooters or bikes snatch phones and ride off. Keep it in your pocket.",
+        "The Distraction: Pickpockets work in teams. If there is a sudden commotion, or kids with clipboards/petitions surround you, secure your valuables immediately.",
+        "The Friendly Stranger: Normal Parisians do not randomly stop you to chat. If a stranger is overly friendly, it is likely a setup or distraction.",
+        "Pickpocket Zones: Metro Line 1, Châtelet, and the Eiffel Tower/Louvre areas."
+      ]
+    },
+    {
+      "id": "logistics-toilets",
+      "slug": "restrooms",
+      "title": "Public Toilets",
+      "icon": "MapPin",
+      "summary": "Public restrooms are rare. Know your options.",
+      "details": [
+        "The Reality: It is hard to find a toilet. Cafés are for customers only (buy an espresso to use it).",
+        "Sanisettes: Free, self-cleaning gray pods on sidewalks. They are safe and hygienic, but check the light is green before entering.",
+        "Department Stores: Galeries Lafayette or BHV are the safest bets for clean, accessible restrooms."
+      ]
+    },
+    {
+      "id": "logistics-health",
+      "slug": "health-pharmacy",
+      "title": "Pharmacies & Health",
+      "icon": "Cross",
+      "summary": "Look for the flashing Green Cross.",
+      "details": [
+        "The Hub: Pharmacies are everywhere and pharmacists are highly trained. Go there for minor ailments before a doctor.",
+        "Advice: They can refuse to sell you medication if they suspect misuse. They are serious healthcare providers, not convenience stores."
+      ]
+    },
+    {
+      "id": "logistics-museums",
+      "slug": "museum-strategy",
+      "title": "Museum Strategy",
+      "icon": "Ticket",
+      "summary": "Don't wing it. Pre-booking is mandatory.",
+      "details": [
+        "Timed Tickets: For the Louvre, Orsay, and Versailles, booking a time slot online is essentially mandatory. You will likely be turned away without one.",
+        "Security: Even with tickets, security lines take time. Arrive 30 mins early.",
+        "Free Sundays: The first Sunday of the month is free for many museums, but it is chaotic and crowded. Avoid if you want a peaceful experience."
       ]
     },
     {

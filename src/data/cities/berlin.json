@@ -9,7 +9,7 @@
   "general_info": {
     "population": "~3.7 million (city) / ~6 million (metro area)",
     "is_capital": true,
-    "description": "Berlin is not Germany—it is its own universe. A city of contrasts where bullet-scarred history meets hedonistic nightlife. From the freedom of Tempelhofer Feld to the grit of Neukölln, Berlin is raw, real, and unapologetically alternative."
+    "description": "Berlin is not Germany—it is its own universe. A city of contrasts where bullet-scarred history meets hedonistic nightlife. From the freedom of Tempelhofer Feld to the grit of Neukölln, Berlin is raw, real, and unapologetically alternative. Time flows differently here; a 'weekend' can last 72 hours."
   },
   "stats": {
     "currency": "EUR",
@@ -31,12 +31,13 @@
   ],
   "culture": {
     "etiquette_tips": [
-      "Cash is King: Berlin is oddly behind on tech. Bars, small shops, and late-night spots are often CASH ONLY. Always carry €50.",
+      "Cash Anxiety is Real: 'Nur Bar' (Cash Only) is common even in trendy restaurants. Cards are randomly refused. ATMs run out of money on Saturday nights. Always carry €50 in cash.",
+      "Silence is Respect: Berliners value privacy. No small talk in elevators, quiet on the train, and no fake smiles. A neutral face is not hostility, it is respect for your space.",
+      "Rules are Sacred: You wait for the green light (Ampelmann), even at 3am on an empty street. Jaywalking is socially judged. Rules are the social contract that holds the chaos together.",
+      "Sunday Reality: Sunday is for 'Ruhe' (rest). Shops, supermarkets, and pharmacies are closed. No drilling, no loud music, no glass recycling. The city shuts down.",
       "The Späti Culture: The 'Späti' (late-night corner store) is the center of social life. Grab a beer (€1.50) and sit on the bench outside. It is the Berlin way.",
-      "Club Rules: No photos. Ever. Put stickers on your phone camera. Dress casually (black helps), know the DJ, and don't be drunk in line.",
+      "Club Protocol: No photos. Ever. Sticker your camera. Dress casually (black helps), know the DJ, and don't be drunk in line. The queue is serious business; cutting will get you banned.",
       "Ticket Validation: There are no turnstiles, but plainclothes inspectors are ruthless. You MUST stamp your ticket in the little machine before boarding. Fine is €60.",
-      "Directness: Berliners are blunt. It's not rude, it's efficient. Don't expect fake smiles.",
-      "Bike Lanes are Lava: Do not walk in the bike lane. You will be shouted at or hit. Stay on the sidewalk.",
       "Pfand System: Don't crush cans/bottles. They are worth €0.25. Leave them next to bins for collectors if you don't return them yourself."
     ],
     "essential_phrases": [
@@ -70,6 +71,13 @@
       "image": "/images/berlin/friedrichshain.jpg"
     },
     {
+      "name": "Prenzlauer Berg",
+      "vibe": "Gentrified & Calm",
+      "description": "A sharp contrast to the grit. Beautifully restored pre-war buildings, organic ice cream, and strollers. It is calm, wealthy, and family-oriented.",
+      "highlights": ["Kollwitzplatz", "Mauerpark", "Kulturbrauerei"],
+      "image": "/images/berlin/prenzlauer-berg.jpg"
+    },
+    {
       "name": "Mitte",
       "vibe": "Historic Center",
       "description": "Berlin's polished center. Museums, landmarks, and upscale shopping. Touristy, but essential for the 'Checklist' sights.",
@@ -85,10 +93,22 @@
       "icon": "Info",
       "summary": "Essential friction-removers for a smooth trip.",
       "details": [
-        "Sundays: almost EVERYTHING is closed (shops, supermarkets). Only restaurants and museums are open. Plan accordingly.",
-        "Jaywalking: Don't do it. Germans wait for the green man (Ampelmann). Crossing on red is socially judged.",
-        "Water: Tap water is safe but restaurants charge for bottled. Ask for 'Leitungswasser' (tap) but prepared for a 'no'.",
-        "Tipping: Round up the bill (e.g., make €9.20 into €10). Tell the waiter the total amount you want to pay *before* they charge you."
+        "Sunday Lockdown: Almost EVERYTHING is closed (shops, supermarkets). Only restaurants and museums are open. If you need food for Monday morning, buy it Saturday.",
+        "Cash is King: Do not assume you can pay with card. Ask 'Kartenzahlung?' before ordering. Carry coins for toilets.",
+        "Water: Tap water is safe. Restaurants will fight you on serving it free. Ask for 'Leitungswasser' but be prepared to pay for bottled.",
+        "Tipping: Round up. If the bill is €9.20, say 'Ten' (€10) while handing over the money. Do not leave money on the table; tell the waiter the total *before* they charge you."
+      ]
+    },
+    {
+      "id": "logistics-nightlife",
+      "slug": "club-strategy",
+      "title": "Club Reality",
+      "icon": "Moon",
+      "summary": "Nightlife here is a marathon, not a sprint.",
+      "details": [
+        "The Time Warp: Clubs often open Friday and don't close until Monday morning. A 'weekend' is a single 48-72 hour block. 'After-hours' is just Sunday afternoon.",
+        "The Door: Rejections are normal and not personal. Don't argue. Wear comfortable shoes (you will dance for 8 hours).",
+        "Safety: Most clubs have awareness teams ('Awareness Team') if you feel unsafe or harassed."
       ]
     },
     {
@@ -96,11 +116,11 @@
       "slug": "getting-around",
       "title": "Getting Around",
       "icon": "Train",
-      "summary": "The U-Bahn (Metro) and S-Bahn (Train) are your lifelines. Runs 24/7 on weekends.",
+      "summary": "The U-Bahn (Metro) and S-Bahn (Train) are your lifelines.",
       "details": [
         "U-Bahn: Yellow trains, mostly underground. Fast and frequent.",
         "S-Bahn: Red/Yellow trains, mostly above ground. Great for longer distances.",
-        "Tickets: Buy a 'Zone AB' ticket for the city center. VALIDATE IT by stamping it in the box on the platform.",
+        "Tickets: Buy a 'Zone AB' ticket. VALIDATE IT by stamping it in the box on the platform. Plainclothes inspectors show no mercy.",
         "Apps: Use 'BVG Fahrinfo' or Google Maps. They are accurate."
       ]
     },
@@ -111,7 +131,7 @@
       "icon": "Shield",
       "summary": "Berlin is safe, but has rough edges.",
       "details": [
-        "Görlitzer Park: Known for drug dealers. It's generally safe to walk through during the day, but avoid at night.",
+        "Görlitzer Park: Known for drug dealers. Generally safe to walk through during the day, but avoid at night.",
         "Pickpockets: Active on crowded tourist lines (U2, U8) and at Alexanderplatz.",
         "Bike Theft: Extremely common. Never leave a bike unlocked, even for a minute."
       ]
@@ -125,8 +145,18 @@
       "name_local": "Döner",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Berlin's #1 street food. Invented here (not Turkey). Crispy meat, fresh salad, and garlic sauce in toasted bread. Don't wait 2 hours for Mustafa's—your neighborhood spot is likely just as good.",
+      "description": "Berlin's #1 street food. Invented here. Crispy meat, fresh salad, and garlic sauce in toasted bread. A 'Gemüse Kebap' adds roasted veggies and feta. Don't queue for hours at tourist spots; your local neighborhood Döner is likely just as good.",
       "image": "/images/berlin/doner.jpg"
+    },
+    {
+      "id": "food-018",
+      "slug": "beer-culture",
+      "name_en": "Berlin Beer Culture",
+      "name_local": "Wegbier",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Beer here is like coffee in Italy: cheap, everywhere, and consumed casually day or night. It is not ceremonial. A 'Wegbier' (road beer) for the walk is culturally normal. Public drinking is legal and common.",
+      "image": "/images/berlin/beer.jpg"
     },
     {
       "id": "food-002",
@@ -137,6 +167,36 @@
       "is_generic_staple": true,
       "description": "Steamed then fried pork sausage cut into slices and drowned in curry ketchup and powder. Served with fries or a bread roll. A cult classic.",
       "image": "/images/berlin/currywurst.jpg"
+    },
+    {
+      "id": "food-015",
+      "slug": "imbiss-culture",
+      "name_en": "Imbiss Culture",
+      "name_local": "Der Imbiss",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "The Imbiss is not a restaurant; it is a snack stand where you eat standing up at a tall table. It serves utilitarian, greasy, salty food (fries, sausages, meatballs) designed to keep you moving. Fast, cheap, essential.",
+      "image": "/images/berlin/imbiss.jpg"
+    },
+    {
+      "id": "food-016",
+      "slug": "spati-survival",
+      "name_en": "Späti Survival Food",
+      "name_local": "Späti Essen",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "When the clubs close (or don't), the Späti is your 24/7 supermarket. They sustain the nightlife economy with frozen pizzas, instant noodles, chips, chocolate bars, and cold beer. It is how you survive 4am.",
+      "image": "/images/berlin/spati-food.jpg"
+    },
+    {
+      "id": "food-017",
+      "slug": "vegan-standard",
+      "name_en": "Vegan Normalization",
+      "name_local": "Vegan",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Berlin is the vegan capital of Europe. You don't need to hunt for it. From dirty punk bars to high-end dining, vegan options are standard, clearly labeled, and delicious. You never have to ask 'is there meat in this?'.",
+      "image": "/images/berlin/vegan.jpg"
     },
     {
       "id": "food-010",
@@ -175,7 +235,7 @@
       "name_local": "Bäckerei",
       "category": "food",
       "is_generic_staple": true,
-      "description": "German bread is world-class. Grab a 'Belegtes Brötchen' (sandwich) or a 'Laugenbrezel' (pretzel) for a cheap breakfast.",
+      "description": "German bread is world-class. Grab a 'Belegtes Brötchen' (sandwich) or a 'Laugenbrezel' (pretzel) for a cheap breakfast. Breakfast here is savory, simple, and eaten early.",
       "image": "/images/berlin/bakery.jpg"
     },
     {
@@ -187,20 +247,35 @@
       "is_generic_staple": true,
       "description": "Breaded, fried cutlet (pork or veal). Best enjoyed in a traditional Wirtshaus with potato salad and a cold beer.",
       "image": "/images/berlin/schnitzel.jpg"
-    },
-    {
-      "id": "food-005",
-      "slug": "hofbrau-wirtshaus",
-      "name_en": "Hofbräu Wirtshaus (Tourist Classic)",
-      "name_local": "Hofbräu",
-      "category": "food",
-      "is_generic_staple": false,
-      "description": "It's Bavarian, not Berliner, and very touristy. But if you want the giant 1-liter beers and Oompah music experience, this is where you go.",
-      "image": "/images/berlin/hofbrau.jpg",
-      "geo": { "lat": 52.5200, "lng": 13.4050 }
     }
   ],
   "must_see": [
+    {
+      "title": "Berlin Institutions",
+      "id": "institutions",
+      "items": [
+        {
+          "id": "exp-004",
+          "slug": "techno-culture",
+          "name_en": "Club Culture",
+          "name_local": "Techno",
+          "category": "sight",
+          "is_generic_staple": true,
+          "description": "Berlin clubs are not places to be seen; they are places to disappear. They are dark, industrial, and have strict 'no photo' policies. It is about the music and the freedom. The party often lasts from Friday night to Monday morning.",
+          "image": "/images/berlin/techno.jpg"
+        },
+        {
+          "id": "exp-005",
+          "slug": "lake-culture",
+          "name_en": "The Lakes (Badeseen)",
+          "name_local": "Badesee",
+          "category": "sight",
+          "is_generic_staple": true,
+          "description": "In summer, Berliners leave the city for the lakes (Wannsee, Müggelsee, Schlachtensee). It is pure nature within city limits. Note that FKK (public nudity) is common, non-sexual, and accepted.",
+          "image": "/images/berlin/lakes.jpg"
+        }
+      ]
+    },
     {
       "title": "Real Berlin Experiences",
       "id": "experiences",

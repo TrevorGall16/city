@@ -9,7 +9,7 @@
   "general_info": {
     "population": "~4 million (city) / ~13 million (metro area)",
     "is_capital": false,
-    "description": "Los Angeles is not a single city; it is a massive collection of distinct neighborhoods. From the grit of Hollywood to the zen of Malibu and the hipster hills of Silver Lake. It is a city defined by its diversity, its car culture, and its creative energy. Don't try to 'see it all'—pick a neighborhood and live in it."
+    "description": "Los Angeles is not a single city; it is a massive collection of distinct neighborhoods (micro-cities) separated by traffic. From the grit of Hollywood to the zen of Malibu and the hipster hills of Silver Lake. It is a city defined by its diversity, its car culture, and its creative energy. Don't try to 'see it all'—pick a neighborhood and live in it."
   },
   "stats": {
     "currency": "USD",
@@ -31,12 +31,13 @@
   ],
   "culture": {
     "etiquette_tips": [
-      "The Distance Reality: Do not trust miles. Trust time. 10 miles can take 1 hour. Never plan more than 2 major neighborhoods in one day.",
-      "Parking Signs are Hostile: Read the sign. Then read the other sign. Then read the red curb. Parking tickets are a major revenue source for the city.",
-      "Soft Status: People don't flash wealth with suits. The person in sweatpants and a vintage t-shirt might be a studio executive. Don't judge by appearance.",
-      "Dinner is at 8pm: Restaurants are busy late. Reservations are essential for popular spots (often weeks in advance).",
-      "Health is Infrastructure: Everyone hikes, everyone drinks green juice, and dietary restrictions (Vegan, Gluten-Free) are accommodated everywhere without question.",
-      "Tipping: 18-20% is the minimum standard. Valets get $2-5. Bartenders get $1-2 per drink."
+      "The Distance Reality: Distance is psychological, not geographic. 5km can take 45 minutes. Locals measure distance in 'time', not miles. 'It's close' means it is close *right now*.",
+      "Friendly but Shallow: People will compliment your shoes, ask where you're from, and say 'we should hang out'. This is politeness, not a commitment. Enjoy the warmth, but don't over-interpret it.",
+      "Casual is a Code: Flip-flops and athleisure are normal everywhere, but don't mistake 'casual' for 'sloppy'. In LA, looking relaxed is a form of social status. You can wear jeans to a $100 dinner.",
+      "The Car Shield: The car is personal space. People do not make eye contact at lights. They sing, make calls, and exist in solitude. Honking is rare and aggressive.",
+      "Dining Rhythm: Dinner is at 8pm. Reservations are essential. Dietary restrictions (Vegan, Gluten-Free, Keto) are accommodated everywhere without question—it is part of the infrastructure.",
+      "Tipping Landscape: 18-20% is standard. But also: Valets expect $2-5. Bartenders get $1-2 per drink. Hair and beauty services expect 20%.",
+      "Parking Signs are Hostile: Read the sign. Then read the second sign. Red curb = No Parking. Yellow = Commercial Loading. White = Passenger Loading. Street cleaning days = guaranteed ticket."
     ],
     "essential_phrases": [
       { "src": "Hello", "local": "Hey / What's up", "phonetic": "standard American" },
@@ -50,28 +51,28 @@
     {
       "name": "Silver Lake & Echo Park",
       "vibe": "Creative & Hip",
-      "description": "The hills of East LA. Vintage stores, independent coffee shops, steep staircases, and a very localized community feel. Very walkable strips.",
+      "description": "The hills of East LA. Vintage stores, independent coffee shops, steep staircases, and a very localized community feel. It’s where the 'cool' crowd actually lives.",
       "highlights": ["Sunset Junction", "Echo Park Lake", "Vintage Shopping"],
       "image": "/images/los-angeles/silver-lake.jpg"
     },
     {
       "name": "Santa Monica",
       "vibe": "Beach & Polish",
-      "description": "The polished, walkable beach city. Great for first-timers, families, and shopping. The Pier is touristy, but the Main Street area is local.",
+      "description": "The polished, walkable beach city. Great for first-timers and families. It feels safe and manicured, unlike its neighbor Venice. The Main Street area offers a more local vibe than the Pier.",
       "highlights": ["The Pier", "Palisades Park", "Farmers Market"],
       "image": "/images/los-angeles/santa-monica.jpg"
     },
     {
       "name": "West Hollywood (WeHo)",
       "vibe": "Nightlife & LGBTQ+",
-      "description": "The party center. Legendary rock clubs on the Sunset Strip and the vibrant LGBTQ+ district on Santa Monica Blvd. High energy and walkable.",
+      "description": "The party center. Legendary rock clubs on the Sunset Strip and the vibrant LGBTQ+ district on Santa Monica Blvd. High energy, very walkable, and historically significant.",
       "highlights": ["Sunset Strip", "Pacific Design Center", "Comedy Store"],
       "image": "/images/los-angeles/weho.jpg"
     },
     {
       "name": "Arts District (DTLA)",
       "vibe": "Urban & Industrial",
-      "description": "Converted warehouses filled with breweries, galleries, and high-end dining. Gritty but rapidly gentrifying. Great for foodies.",
+      "description": "Converted warehouses filled with breweries, galleries, and high-end dining. Note: DTLA is fragmented. One block is trendy, the next (Skid Row) is a humanitarian crisis. Move intentionally.",
       "highlights": ["Hauser & Wirth", "Arts District Brewing", "Little Tokyo nearby"],
       "image": "/images/los-angeles/arts-district.jpg"
     }
@@ -84,10 +85,10 @@
       "icon": "Info",
       "summary": "Essential friction-removers for LA.",
       "details": [
-        "The Uber Strategy: Don't wait until you leave the venue to call a car. Call it 10 minutes early. Wait times can be long.",
-        "Jaywalking: It was recently decriminalized, but cars still won't stop for you. Be careful.",
-        "Sunsets: The sun sets over the ocean. Plan your day to end facing West for the view.",
-        "Reservations: For dinner, 'walking in' is risky. Use Resy or OpenTable."
+        "The Uber Strategy: Don't wait until you leave the venue to call a car. Call it 10-15 minutes early. Distances are long and drivers are far away.",
+        "Sunsets: The sun sets over the ocean. Plan your day to end facing West (Santa Monica/Malibu) for the view, but remember traffic heading West at 5pm is a nightmare.",
+        "Homelessness: Visible homelessness is a reality of daily life here. Most people are non-confrontational. Do not engage, do not stare, do not film. Just move on calmly.",
+        "Jaywalking: Recently decriminalized, but drivers are not used to it. Cars will not stop for you outside of crosswalks."
       ]
     },
     {
@@ -95,46 +96,47 @@
       "slug": "getting-around",
       "title": "Getting Around",
       "icon": "Train",
-      "summary": "You probably need a car, but Uber is viable for short trips.",
+      "summary": "You probably need a car. Public transit is patchy.",
       "details": [
-        "Car Rental: Essential if you want to see Malibu, hiking trails, or multiple neighborhoods in one day.",
-        "Uber/Lyft: Reliable but expensive due to distances. Great for nights out.",
-        "The Metro: The Expo Line (Downtown to Santa Monica) is actually useful and avoids traffic. The rest is hit-or-miss.",
+        "Car Rental: Essential if you want to see Malibu, hiking trails, or multiple neighborhoods. The car is your passport to the city.",
+        "Public Transit Reality: The Metro exists (Expo Line is good for Downtown -> Beach), but it is patchy and inconsistent. Locals with cars rarely use it. Late night service is sparse.",
+        "Uber/Lyft: Viable for nights out, but expensive as a primary mode of transport due to the sheer size of the city.",
         "Walking: Only possible WITHIN neighborhoods (e.g., walking around Silver Lake). You cannot walk BETWEEN neighborhoods."
       ]
     },
     {
-      "id": "logistics-safety",
-      "slug": "safety-tips",
-      "title": "Safety Basics",
-      "icon": "Shield",
-      "summary": "LA is safe, but has distinct 'Skid Row' zones.",
+      "id": "logistics-parking",
+      "slug": "parking-reality",
+      "title": "Parking Skills",
+      "icon": "MapPin",
+      "summary": "Parking is a bloodsport. Know the curb colors.",
       "details": [
-        "Skid Row: Avoid the area East of Main St in Downtown LA. It is a humanitarian crisis zone.",
-        "Hollywood at Night: The tourist strip gets gritty and aggressive after dark.",
-        "Car Valuables: Never leave bags visible in your car. Smash-and-grabs happen, even in nice areas."
+        "Red Curb: Absolute No Parking. You will be towed.",
+        "Yellow Curb: Commercial loading only (usually 7am-6pm). You can park here briefly after hours (check signs).",
+        "White Curb: Passenger loading only. 5 minutes max. Driver must stay in car.",
+        "Street Cleaning: Check the signs. If it says 'No Parking Tuesday 10am-12pm', they will ticket you at 10:01am."
       ]
     }
   ],
   "must_eat": [
     {
       "id": "food-001",
-      "slug": "taco-trucks",
-      "name_en": "Taco Truck Culture",
-      "name_local": "Tacos",
+      "slug": "mexican-ecosystem",
+      "name_en": "Mexican Food Ecosystem",
+      "name_local": "Comida Mexicana",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Eating in a parking lot is peak LA dining. Look for 'Leo's Taco Truck' (Al Pastor) or 'Mariscos Jalisco' (Fried Shrimp Tacos). Cash only.",
+      "description": "LA is arguably the best Mexican food city in the world. Know the difference: 'Taco Trucks' are for speed, street energy, and late nights (Al Pastor spit-roasted on the sidewalk). 'Taquerías' are for sit-down regional specialties like Oaxacan Mole or Yucatecan Cochinita Pibil. Do not limit yourself to just tacos.",
       "image": "/images/los-angeles/tacos.jpg"
     },
     {
       "id": "food-002",
-      "slug": "korean-food",
-      "name_en": "Koreatown Ecosystem",
-      "name_local": "K-Town",
+      "slug": "korean-bbq",
+      "name_en": "Korean BBQ Ritual",
+      "name_local": "K-BBQ",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Not just BBQ. Try Soondubu (tofu stew) at BCD, or cold noodles. K-Town is a 24-hour food city within a city.",
+      "description": "K-Town is a city within a city. K-BBQ is not just a meal; it is a 2-hour social event. Meat is grilled at your table, accompanied by endless 'banchan' (side dishes). It is loud, smoky, and communal. Leaving smelling like grilled meat is a badge of honor.",
       "image": "/images/los-angeles/korean-food.jpg"
     },
     {
@@ -144,38 +146,38 @@
       "name_local": "In-N-Out",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The California classic. Order a 'Double-Double Animal Style' (grilled onions + extra sauce). It is fast food, but it is fresh and legendary.",
+      "description": "The California classic. Order a 'Double-Double Animal Style' (grilled onions + extra sauce). It is fast food, but the ingredients are never frozen and chopped fresh daily. The menu is simple for a reason.",
       "image": "/images/los-angeles/in-n-out.jpg"
     },
     {
-      "id": "food-010",
-      "slug": "farmers-market",
-      "name_en": "Farmers Markets",
-      "name_local": "Santa Monica Farmers Market",
+      "id": "food-013",
+      "slug": "sushi-strip-mall",
+      "name_en": "Strip Mall Sushi",
+      "name_local": "Sushi",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Where the chefs shop. The Wednesday Santa Monica market is world-famous. Get fresh berries, pastries, and prepared food.",
-      "image": "/images/los-angeles/farmers-market.jpg"
+      "description": "LA has the highest Japanese population in the US. The best sushi is often found in unassuming strip malls in the Valley or West LA, not just flashy noble places. The fish quality is universally high, from Omakase bars to casual hand-roll counters.",
+      "image": "/images/los-angeles/sushi.jpg"
     },
     {
-      "id": "food-011",
-      "slug": "smashburger",
-      "name_en": "The Smashburger",
-      "name_local": "Smashburger",
+      "id": "food-014",
+      "slug": "wellness-food",
+      "name_en": "Juice & Wellness Food",
+      "name_local": "Green Juice / Açaí",
       "category": "food",
       "is_generic_staple": true,
-      "description": "LA is currently obsessed with lacy, crispy smashburgers. Look for 'Burgers Never Say Die' or pop-ups in parking lots.",
-      "image": "/images/los-angeles/smashburger.jpg"
+      "description": "Health is a flavor profile here. Expect to find Cold-Pressed Juice, Açaí Bowls, and 'Adaptogenic Smoothies' on every corner. It’s not a diet; it’s a lifestyle. Breakfast often looks like a $14 smoothie rather than a pastry.",
+      "image": "/images/los-angeles/juice.jpg"
     },
     {
-      "id": "food-012",
-      "slug": "birria",
-      "name_en": "Birria de Res",
-      "name_local": "Birria",
+      "id": "food-015",
+      "slug": "donut-culture",
+      "name_en": "Donut Culture",
+      "name_local": "Donuts",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Spicy stewed beef tacos dipped in consommé. LA made this global. Teddy's Red Tacos is a reliable spot.",
-      "image": "/images/los-angeles/birria.jpg"
+      "description": "A distinct LA morning ritual, often driven by Cambodian-American families who own the majority of independent shops. These pink-box donut shops are everywhere, open early (or 24/7), cheap, and unpretentious. The 'Old Fashioned' or 'Apple Fritter' are staples.",
+      "image": "/images/los-angeles/donuts.jpg"
     },
     {
       "id": "food-005",
@@ -184,26 +186,37 @@
       "name_local": "Grand Central Market",
       "category": "food",
       "is_generic_staple": false,
-      "description": "Historic food hall downtown. Try 'Eggslut' for breakfast or 'Sarita's' for Pupusas. Crowded but iconic.",
+      "description": "A historic food hall in Downtown since 1917. It brings together the city's diversity under one roof: pupusas, currywurst, tacos, and trendy egg sandwiches. It is crowded, loud, and iconic.",
       "image": "/images/los-angeles/grand-central.jpg",
       "geo": { "lat": 34.0508, "lng": -118.2487 }
     }
   ],
   "must_see": [
     {
-      "title": "Nature & Views",
-      "id": "nature",
+      "title": "Iconic Places",
+      "id": "iconic",
       "items": [
         {
-          "id": "nat-001",
-          "slug": "runyon-canyon",
-          "name_en": "Runyon Canyon Hike",
-          "name_local": "Runyon",
+          "id": "land-004",
+          "slug": "venice-beach",
+          "name_en": "Venice Beach",
+          "name_local": "Venice Boardwalk",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The 'social hike'. Great city views, lots of dogs, and maybe a celebrity sighting. Wear workout gear, not hiking boots.",
-          "image": "/images/los-angeles/runyon.jpg",
-          "geo": { "lat": 34.1107, "lng": -118.3503 }
+          "description": "Do not confuse this with Santa Monica. Venice is the gritty, artistic, chaotic soul of the coast. Walk the Boardwalk to see Muscle Beach, street performers, skaters, and the sheer weirdness of LA on display. It is raw and unapologetic.",
+          "image": "/images/los-angeles/venice.jpg",
+          "geo": { "lat": 33.9850, "lng": -118.4695 }
+        },
+        {
+          "id": "land-005",
+          "slug": "mulholland-drive",
+          "name_en": "Mulholland Drive",
+          "name_local": "Mulholland",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "LA is a city meant to be seen from a car. Driving the winding ridges of Mulholland offers spectacular views of the LA Basin on one side and the San Fernando Valley on the other. Stop at the scenic overlooks at sunset.",
+          "image": "/images/los-angeles/mulholland.jpg",
+          "geo": { "lat": 34.1336, "lng": -118.3526 }
         },
         {
           "id": "land-003",
@@ -212,37 +225,43 @@
           "name_local": "Griffith Observatory",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The best view in LA, period. See the Hollywood Sign and the entire basin. Go at sunset. Parking is tough, take the shuttle.",
+          "description": "The best vantage point in the city. You get a direct line of sight to the Hollywood Sign and a panoramic view of the grid below. It is a stunning Art Deco monument to public science. Go on a weekday to survive the parking.",
           "image": "/images/los-angeles/griffith.jpg",
           "geo": { "lat": 34.1184, "lng": -118.3004 }
-        },
-        {
-          "id": "nat-002",
-          "slug": "el-matador",
-          "name_en": "El Matador Beach (Malibu)",
-          "name_local": "El Matador",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Dramatic cliffs and sea caves. Far more beautiful than Santa Monica beach. A bit of a drive, but worth it.",
-          "image": "/images/los-angeles/el-matador.jpg",
-          "geo": { "lat": 34.0372, "lng": -118.8742 }
         }
       ]
     },
     {
-      "title": "Culture & Studios",
+      "title": "Local Life & Markets",
+      "id": "markets",
+      "items": [
+        {
+          "id": "mar-001",
+          "slug": "flea-markets",
+          "name_en": "Flea Markets (Rose Bowl / Melrose)",
+          "name_local": "The Flea",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Vintage shopping is a sport here. The massive Rose Bowl Flea Market (monthly) or the weekly Melrose Trading Post are where locals build their 'casual' aesthetic. It’s about hunting for unique denim, furniture, and art.",
+          "image": "/images/los-angeles/flea-market.jpg",
+          "geo": { "lat": 34.1613, "lng": -118.1676 }
+        }
+      ]
+    },
+    {
+      "title": "Nature & Studios",
       "id": "culture",
       "items": [
         {
-          "id": "cul-001",
-          "slug": "hollywood-forever",
-          "name_en": "Hollywood Forever Cemetery",
-          "name_local": "Hollywood Forever",
+          "id": "nat-001",
+          "slug": "runyon-canyon",
+          "name_en": "Runyon Canyon Hike",
+          "name_local": "Runyon",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Resting place of stars, but also a cultural hub. They host outdoor movie screenings (Cinespia) on the lawn in summer.",
-          "image": "/images/los-angeles/cemetery.jpg",
-          "geo": { "lat": 34.0900, "lng": -118.3196 }
+          "description": "The 'social hike'. Great city views, lots of dogs, and a high chance of a celebrity sighting (or at least an influencer filming a workout). Wear your best matching workout set; this is a place to be seen.",
+          "image": "/images/los-angeles/runyon.jpg",
+          "geo": { "lat": 34.1107, "lng": -118.3503 }
         },
         {
           "id": "mus-001",
@@ -251,7 +270,7 @@
           "name_local": "The Getty",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "World-class art, stunning architecture, and gardens on a hill. Free entry (pay for parking). The tram ride up is part of the fun.",
+          "description": "A modernist masterpiece by Richard Meier perched on a hilltop. It offers world-class art, stunning architecture, and white travertine gardens. The tram ride up sets the tone: you are leaving the city noise behind.",
           "image": "/images/los-angeles/getty.jpg",
           "geo": { "lat": 34.0780, "lng": -118.4741 }
         },
@@ -262,37 +281,9 @@
           "name_local": "WB Tour",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The most authentic studio tour. See real working sets, the 'Friends' fountain, and the Batmobile collection.",
+          "description": "The most authentic studio tour. Unlike theme parks, this takes you into working soundstages and backlots where 'Friends', 'Gilmore Girls', and Batman movies were actually filmed. Essential for film history fans.",
           "image": "/images/los-angeles/wb-tour.jpg",
           "geo": { "lat": 34.1486, "lng": -118.3377 }
-        }
-      ]
-    },
-    {
-      "title": "Iconic Spots",
-      "id": "iconic",
-      "items": [
-        {
-          "id": "land-002",
-          "slug": "santa-monica-pier",
-          "name_en": "Santa Monica Pier",
-          "name_local": "The Pier",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "End of Route 66. Touristy, yes, but the Ferris wheel at sunset is iconic. Walk or bike down to Venice Beach from here.",
-          "image": "/images/los-angeles/pier.jpg",
-          "geo": { "lat": 34.0089, "lng": -118.4974 }
-        },
-        {
-          "id": "land-001",
-          "slug": "hollywood-walk",
-          "name_en": "Hollywood Walk of Fame",
-          "name_local": "Hollywood Blvd",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Honest review: It is crowded and gritty. See the stars, see the Chinese Theatre footprints, and then leave for West Hollywood.",
-          "image": "/images/los-angeles/walk-of-fame.jpg",
-          "geo": { "lat": 34.1016, "lng": -118.3415 }
         }
       ]
     }

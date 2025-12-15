@@ -9,21 +9,21 @@
   "general_info": {
     "population": "~8.5 million (city) / ~20 million (metro area)",
     "is_capital": false,
-    "description": "New York is a collection of five distinct boroughs, not just Manhattan. It rewards efficiency and punishes hesitation. It is gritty, glamorous, and relentless. The locals are 'kind' (they will help you carry a stroller up the stairs) but not 'nice' (they won't smile while doing it)."
+    "description": "New York is a collection of five distinct boroughs, each with its own rhythm. It rewards efficiency and punishes hesitation. It is gritty, glamorous, and relentless. The locals are 'kind' (they will help you carry a stroller up the stairs) but not 'nice' (they won't smile while doing it). It is a city of layers, where 19th-century history sits directly underneath 21st-century ambition."
   },
   "stats": {
     "currency": "USD",
     "plug_type": "Type A/B"
   },
   "weather_breakdown": [
-    { "id": 1, "name": "January", "temp": "-3°C - 4°C", "vibe": "Freezing", "pros": ["Hotel deals", "Restaurant Week", "Winter Jazzfest"], "cons": ["Bitter wind", "Slush puddles", "Short days"], "clothing": "Heavy coat, thermal layers, waterproof boots" },
+    { "id": 1, "name": "January", "temp": "-3°C - 4°C", "vibe": "Freezing", "pros": ["Hotel deals", "Restaurant Week", "Winter Jazzfest"], "cons": ["Bitter wind tunnels", "Slush puddles", "Short days"], "clothing": "Heavy coat, thermal layers, waterproof boots" },
     { "id": 2, "name": "February", "temp": "-2°C - 6°C", "vibe": "Harsh", "pros": ["Fashion Week", "Lunar New Year", "Indoor museums"], "cons": ["Snowstorms possible", "Grey skies"], "clothing": "Heavy coat, gloves, scarf" },
     { "id": 3, "name": "March", "temp": "2°C - 10°C", "vibe": "Unpredictable", "pros": ["St. Patrick's Day", "Hints of spring", "Walkable days"], "cons": ["Windy", "Rain/Snow mix"], "clothing": "Warm coat, layers, umbrella" },
     { "id": 4, "name": "April", "temp": "7°C - 16°C", "vibe": "Blooming", "pros": ["Cherry blossoms (Brooklyn Botanic)", "Tribeca Film Fest", "Parks fill up"], "cons": ["Rain showers", "Variable temps"], "clothing": "Light jacket, rain gear" },
     { "id": 5, "name": "May", "temp": "12°C - 22°C", "vibe": "Perfect", "pros": ["Ideal walking weather", "Outdoor dining starts", "Fleet Week"], "cons": ["Hotels get expensive", "Crowds arrive"], "clothing": "Light layers, comfortable shoes" },
     { "id": 6, "name": "June", "temp": "18°C - 27°C", "vibe": "Lively Start", "pros": ["Pride Month", "Rooftop bars", "Free outdoor concerts"], "cons": ["Humidity starts", "Subway stations get hot"], "clothing": "Summer clothes, light jacket for A/C" },
     { "id": 7, "name": "July", "temp": "21°C - 30°C", "vibe": "Steamy", "pros": ["4th of July Fireworks", "Summer streets", "Coney Island"], "cons": ["Trash smell", "Subway platforms are saunas"], "clothing": "Breathable fabrics, deodorant" },
-    { "id": 8, "name": "August", "temp": "21°C - 29°C", "vibe": "Sticky", "pros": ["Summer Streets (car-free)", "US Open Tennis", "Locals leave"], "cons": ["Oppressive humidity", "Storms"], "clothing": "Lightest possible clothes" },
+    { "id": 8, "name": "August", "temp": "21°C - 29°C", "vibe": "Sticky", "pros": ["Summer Streets (car-free)", "US Open Tennis", "Locals leave"], "cons": ["Oppressive humidity", "Sudden storms"], "clothing": "Lightest possible clothes" },
     { "id": 9, "name": "September", "temp": "17°C - 25°C", "vibe": "The Best Month", "pros": ["San Gennaro Festival", "Perfect weather", "Fashion Week"], "cons": ["Expensive hotels", "Crowded"], "clothing": "Light layers" },
     { "id": 10, "name": "October", "temp": "11°C - 18°C", "vibe": "Crisp Autumn", "pros": ["Central Park foliage", "Halloween Parade", "Pumpkin spice everything"], "cons": ["Cooler evenings", "Rain"], "clothing": "Leather jacket, boots, scarf" },
     { "id": 11, "name": "November", "temp": "6°C - 12°C", "vibe": "Holiday Prep", "pros": ["Thanksgiving Parade", "Marathon", "Holiday markets open"], "cons": ["Early sunset (4:30pm)", "Chilly"], "clothing": "Warm coat, layers" },
@@ -32,12 +32,12 @@
   "culture": {
     "etiquette_tips": [
       "Efficiency is Respect: Moving fast is how New Yorkers show respect for other people's time. Don't stop in the middle of the sidewalk. Step to the side.",
-      "Kind, Not Nice: A New Yorker won't smile at you, but if you fall down the stairs, they will be the first to pick you up. Don't confuse speed with rudeness.",
-      "The Subway Swagger: Let people OFF the train before you get ON. Stand aside. If a car is empty in rush hour, DO NOT GET IN (it smells).",
-      "Tipping is Mandatory: 20% minimum at sit-down restaurants. $1/drink at bars. This is not optional; it is their wage.",
-      "Escalator Etiquette: Stand on the RIGHT, walk on the LEFT. Blocking the left side is a mortal sin.",
-      "Pizza Rules: Fold the slice. Never use a fork and knife unless you want to be ridiculed.",
-      "Eye Contact: We ignore each other to give privacy in a crowded city. It is a form of politeness, not coldness."
+      "Kind, Not Nice: A New Yorker won't smile at you or do small talk, but if you fall down the stairs, they will be the first to pick you up. Don't confuse speed with rudeness.",
+      "Tipping Nuance: 20% pre-tax is the minimum for sit-down service. Bad service? Still 15-18%. For counter service/tablets, $1-2 or skipping is fine. Bars are $1/beer or $2/cocktail. Housekeeping is $3-5/day. It is not optional; it is their wage.",
+      "The Subway Swagger: Let people OFF before you get ON. Stand aside. If a car is empty in rush hour, DO NOT GET IN (it has a broken A/C or a bad smell).",
+      "No Greetings: Do not say hello to strangers in elevators or hallways. Silence is privacy. Directness is valued; if you need help, ask directly and you will receive it.",
+      "Pizza Rules: Fold the slice down the center ('Libretto style'). Never use a fork and knife unless you want to be ridiculed.",
+      "Eye Contact: We ignore each other to give privacy in a crowded city. If you see someone yelling or talking to themselves, do not engage, do not stare, just keep walking."
     ],
     "essential_phrases": [
       { "src": "Hello", "local": "Hey / Hi", "phonetic": "Standard" },
@@ -49,30 +49,37 @@
   },
   "neighborhoods": [
     {
+      "name": "Chinatown",
+      "vibe": "Chaotic Ecosystem",
+      "description": "A dense, cash-heavy enclave that feels like a city within a city. It is not a tourist trap, but a living community of fishmongers, herbalists, and bakeries. It offers the cheapest and most authentic food in Manhattan.",
+      "highlights": ["Doyers Street", "Columbus Park (Mahjong)", "Dim Sum Halls"],
+      "image": "/images/new-york/chinatown.jpg"
+    },
+    {
       "name": "West Village",
       "vibe": "Charming & Expensive",
-      "description": "Brownstones, tree-lined streets, and celebrity sightings. It feels like a movie set (because it usually is). Great for wandering and brunch.",
+      "description": "Once the center of 1960s bohemia and the gay rights movement (Stonewall), it is now a playground for celebrities. Its winding, off-grid streets (some still cobblestone) defy the Manhattan grid system.",
       "highlights": ["Washington Square Park", "Bleeker Street", "Jazz Clubs"],
       "image": "/images/new-york/west-village.jpg"
     },
     {
       "name": "Williamsburg",
       "vibe": "Hipster Chic",
-      "description": "Brooklyn's trendiest neighborhood. Waterfront parks, vintage shopping, breweries, and incredible skyline views of Manhattan.",
+      "description": "Formerly a gritty industrial hub dominated by the Domino Sugar Refinery, it has transformed into a global capital of trends. Expect converted warehouse lofts, waterfront parks, and incredible skyline views.",
       "highlights": ["Domino Park", "Bedford Avenue", "Smorgasburg"],
       "image": "/images/new-york/williamsburg.jpg"
     },
     {
       "name": "Astoria & LIC",
       "vibe": "Global & Diverse",
-      "description": "The heart of Queens. Incredible Greek and Middle Eastern food, beer gardens, and skyline views without the Manhattan price tag.",
+      "description": "The heart of Queens, historically anchored by a massive Greek population and Kaufman Studios. It offers authentic beer gardens and skyline views without the Manhattan price tag.",
       "highlights": ["Museum of Moving Image", "Gantry Plaza Park", "Greek Tavernas"],
       "image": "/images/new-york/astoria.jpg"
     },
     {
       "name": "Harlem",
       "vibe": "History & Soul",
-      "description": "A cultural capital. Historic brownstones, incredible soul food, jazz history, and a vibrant community energy.",
+      "description": "The birthplace of the Harlem Renaissance in the 1920s. It remains a cultural capital with historic brownstones, the legendary Apollo Theater, and a vibrant community energy.",
       "highlights": ["Apollo Theater", "Sylvia's", "Marcus Garvey Park"],
       "image": "/images/new-york/harlem.jpg"
     }
@@ -85,10 +92,23 @@
       "icon": "Info",
       "summary": "How to survive the concrete jungle.",
       "details": [
-        "Times Square: Go once, take a photo, leave immediately. The food is terrible and overpriced. Locals avoid it like the plague.",
-        "The Bathroom Code: Public restrooms don't exist. Use hotel lobbies, department stores (Macy's), or buy a coffee at Starbucks to get the code.",
-        "Bodegas: These are corner stores. Use them for water, snacks, sandwiches, and ATM cash. They are the neighborhood lifeline.",
-        "Stairs Everywhere: The subway is old. Elevators are rare or broken. Be prepared to carry your luggage up many flights of stairs."
+        "Sensory Reality: Sirens are constant. Trash bags sit on sidewalks (no alleys). In summer, the subway platforms can be 10-15°C hotter than the street. Accept the grit.",
+        "The Bathroom Code: Public restrooms don't exist. Use hotel lobbies, department stores (Macy's/Bloomingdale's), or buy a coffee at Starbucks to get the code.",
+        "Money: Cards are accepted almost everywhere. Keep cash for tips, small bodegas, and street carts. ATM fees in bodegas are high.",
+        "Stairs Everywhere: The subway is old (built 1904). Elevators are rare or broken. Be prepared to carry luggage up many flights."
+      ]
+    },
+    {
+      "id": "logistics-pedestrian",
+      "slug": "pedestrian-law",
+      "title": "The Sidewalk Code",
+      "icon": "User",
+      "summary": "Walk right, pass left, never stop.",
+      "details": [
+        "The Golden Rule: Treat the sidewalk like a highway. Walk on the right. Pass on the left.",
+        "Never Stop Here: Subway exits, top of escalators, or crosswalk corners. Stopping here creates a pile-up.",
+        "Pull Over: If you need to check a map or text, step flush against a building. Standing still in the flow of traffic is the ultimate sin.",
+        "Luggage: Stopping with luggage in rush hour will result in instant verbal hostility."
       ]
     },
     {
@@ -98,10 +118,10 @@
       "icon": "Train",
       "summary": "The Subway is the lifeline. Taxis are for rain.",
       "details": [
-        "Subway: Runs 24/7. Use OMNY (tap your credit card/phone) at the turnstile. No need to buy a MetroCard anymore.",
-        "Walking: You will walk 15,000+ steps a day. Wear comfortable shoes. Heels are for Uber rides only.",
-        "Yellow Cabs: Hail from the street. The light on top means they are available. Cheaper than Uber for short hops.",
-        "Ferry: The NYC Ferry costs the same as the subway and offers incredible views. Great for going to Brooklyn/Queens."
+        "Express vs. Local: Same line color ≠ same stops. 'Express' trains skip many stations. Check the map carefully. 'Uptown' and 'Downtown' often have separate entrances.",
+        "Rush Hour: 07:30–10:00 and 16:30–18:30 are intense. Trains are packed. Pushing is physics, not aggression.",
+        "Payment: Use OMNY (tap credit card/phone) at the turnstile. Fare evasion fines are real ($100) and police do check.",
+        "Walking: You will walk 15,000+ steps a day. Wear comfortable shoes. Heels are for Uber rides only."
       ]
     },
     {
@@ -111,10 +131,10 @@
       "icon": "Shield",
       "summary": "Generally safe, but stay alert.",
       "details": [
-        "CD Guys: In Times Square, men will hand you a 'free' CD then demand money. Don't touch it. Keep walking.",
-        "Costumed Characters: Elmo/Spiderman in Times Square will demand cash for photos. They can get aggressive.",
-        "Empty Subway Cars: If one car is empty and the rest are full, DO NOT GET IN. It has a smell or no AC.",
-        "Phone Snatching: Don't stand near the subway doors holding your phone loosely."
+        "Block-by-Block: Safety changes instantly. A busy street is safe; a deserted one is not. Late night, stick to populated avenues.",
+        "The Unstable: If someone is yelling or talking to themselves, ignore them. Do not stare, do not engage, just keep walking.",
+        "Times Square Scams: Men handing out 'free' CDs will demand money. Costumed characters (Elmo/Spiderman) can get aggressive if you take photos without paying.",
+        "Phone Snatching: Don't stand near the subway doors holding your phone loosely. Thieves grab them just as doors close."
       ]
     }
   ],
@@ -126,7 +146,7 @@
       "name_local": "A Slice",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Thin crust, foldable, greasy cheese pizza. Joe's Pizza is the gold standard. 2 Bros is the budget standard. Eat it standing up on the sidewalk.",
+      "description": "The 'Slice' is a distinct food group from the 'Whole Pie'. It is the fast food of daily life, eaten standing up or walking. It is thin, greasy, and foldable. Do not compare it to sit-down pizza; it serves a different purpose.",
       "image": "/images/new-york/pizza-slice.jpg"
     },
     {
@@ -136,8 +156,18 @@
       "name_local": "Whole Pie",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Different from a slice. Charred, crispy, sit-down pizza sold only by the whole pie. John's of Bleecker or Totonno's. Worth the wait.",
+      "description": "This is a destination meal, not a snack. Cooked in 100-year-old anthracite coal ovens at 900°F, these pies are charred, crispy, and smoky. You must sit down, wait in line, and order the whole pie. It is a social event.",
       "image": "/images/new-york/coal-pizza.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "appetizing-store",
+      "name_en": "The Appetizing Counter",
+      "name_local": "Bagel & Lox",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Distinct from a 'Deli' (which does cured meats), an 'Appetizing Store' specializes in smoked fish and dairy. This is where you get Lox, Sable, Whitefish Salad, and Scallion Cream Cheese. The ordering process is fast, loud, and by the numbers.",
+      "image": "/images/new-york/appetizing.jpg"
     },
     {
       "id": "food-002",
@@ -146,7 +176,7 @@
       "name_local": "Everything Bagel",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Boiled then baked. Dense and chewy. Order an 'Everything with Scallion Cream Cheese'. Ess-a-Bagel or Russ & Daughters. Do not toast it if it's fresh.",
+      "description": "Brought by Polish-Jewish immigrants, a true NYC bagel is boiled before baking, creating a shiny, crispy crust and dense, chewy interior. 'Everything' seasoning is the local default. Never toast a fresh bagel.",
       "image": "/images/new-york/bagel.jpg"
     },
     {
@@ -156,8 +186,38 @@
       "name_local": "BEC",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The quintessential breakfast. 'Bacon-Egg-and-Cheese-on-a-Roll'. Get it at a bodega, not a restaurant. Salt, pepper, ketchup optional.",
+      "description": "The bodega breakfast staple. Served on a roll (not toast), it is efficient, salty, and cheap. It is the great equalizer of New York, eaten by construction workers and CEOs alike. Order it 'salt-pepper-ketchup'.",
       "image": "/images/new-york/bec.jpg"
+    },
+    {
+      "id": "food-015",
+      "slug": "nyc-diner",
+      "name_en": "The Diner",
+      "name_local": "Diner",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "The cultural safety net of the city. Usually Greek-owned, often 24/7, with massive laminated menus. It is not gourmet; it is comfort. Highlights include endless coffee refills, disco fries, and breakfast at 3pm.",
+      "image": "/images/new-york/diner.jpg"
+    },
+    {
+      "id": "food-013",
+      "slug": "cheesecake",
+      "name_en": "NY Cheesecake",
+      "name_local": "Cheesecake",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "New York style cheesecake is dense, rich, and baked. It relies on heavy cream and cream cheese, not fluffiness. It is often eaten plain, without fruit toppings. A slice is substantial enough to be a meal.",
+      "image": "/images/new-york/cheesecake.jpg"
+    },
+    {
+      "id": "food-014",
+      "slug": "street-carts",
+      "name_en": "Street Pretzels & Nuts",
+      "name_local": "Street Cart",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "The smell of winter in NYC. Carts roast honey-peanuts, cashews, and almonds on site. They also sell soft, salty pretzels with mustard. Cheap, fast, and eaten while walking to the subway.",
+      "image": "/images/new-york/street-nuts.jpg"
     },
     {
       "id": "food-011",
@@ -166,7 +226,7 @@
       "name_local": "Dim Sum",
       "category": "food",
       "is_generic_staple": true,
-      "description": "New York has incredible Chinese food. Go to Chinatown (Manhattan) or Flushing (Queens) for soup dumplings (XLB) and massive dim sum halls.",
+      "description": "NYC has incredible Chinese food, rooted in the massive waves of immigration to Chinatown (Manhattan) and later Flushing (Queens). Go for 'Soup Dumplings' (Xiao Long Bao) or massive banquet-style Dim Sum halls.",
       "image": "/images/new-york/dim-sum.jpg"
     },
     {
@@ -176,7 +236,7 @@
       "name_local": "Pastrami Sandwich",
       "category": "food",
       "is_generic_staple": true,
-      "description": "A tower of cured, smoked beef on rye bread with mustard. Katz's Deli is the legend. Pair it with a Matzo Ball Soup.",
+      "description": "A Jewish deli icon. Beef brisket is brined, seasoned, smoked, and steamed to tender perfection, then hand-carved into a massive tower on rye bread. Katz's Deli (since 1888) is the historic standard-bearer.",
       "image": "/images/new-york/pastrami.jpg"
     },
     {
@@ -186,13 +246,13 @@
       "name_local": "Halal Cart",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Street meat. Spiced chicken, yellow rice, white sauce (famous), and red sauce (very hot). The Halal Guys is the original, but neighborhood carts are often better.",
+      "description": "The modern street food king. Originally for Muslim taxi drivers needing a quick halal meal, it is now ubiquitous. Chopped spiced chicken, yellow rice, and the famous 'White Sauce' (mayo-based) and 'Red Sauce' (lethal chili).",
       "image": "/images/new-york/halal.jpg"
     }
   ],
   "must_see": [
     {
-      "title": "Parks & People",
+      "title": "Parks & Nature",
       "id": "parks",
       "items": [
         {
@@ -202,9 +262,20 @@
           "name_local": "Central Park",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The lungs of the city. Don't just stay at the entrance. Go deep to the Ramble or the Reservoir to escape the noise.",
+          "description": "Designed in 1857 by Frederick Law Olmsted and Calvert Vaux as the nation's first major public park. It was conceived as a 'democratic space' for all classes to mingle, requiring the movement of millions of cartloads of earth to create. It is entirely man-made. Don't just stay at the entrance; go deep to the Ramble to find true silence or the Jacqueline Kennedy Onassis Reservoir for the classic jogging loop.",
           "image": "/images/new-york/central-park.jpg",
           "geo": { "lat": 40.7829, "lng": -73.9654 }
+        },
+        {
+          "id": "park-004",
+          "slug": "high-line",
+          "name_en": "The High Line",
+          "name_local": "The High Line",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "A 1.45-mile elevated linear park built on a historic freight rail line. It weaves through buildings 30 feet above the street, connecting the Meatpacking District to Hudson Yards. It is a masterpiece of landscape architecture.",
+          "image": "/images/new-york/high-line.jpg",
+          "geo": { "lat": 40.7484, "lng": -74.0049 }
         },
         {
           "id": "park-002",
@@ -213,7 +284,7 @@
           "name_local": "Prospect Park",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Brooklyn's masterpiece (designed by the same guys as Central Park, but they did this one better). Huge meadows, BBQs, and local vibes.",
+          "description": "Brooklyn's masterpiece. The designers considered this their 'better' park because they weren't constrained by a rectangular grid. It features the Long Meadow, a mile of unbroken green space.",
           "image": "/images/new-york/prospect-park.jpg",
           "geo": { "lat": 40.6602, "lng": -73.9690 }
         },
@@ -224,9 +295,26 @@
           "name_local": "Washington Square",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The best people-watching in the world. Musicians, chess players, students, and eccentrics. The heart of the Village.",
+          "description": "Historically a potter's field (mass grave), it became the heart of the Beatnik and Folk movements. Today it is the best people-watching spot in the world, filled with musicians, chess players, and NYU students.",
           "image": "/images/new-york/washington-square.jpg",
           "geo": { "lat": 40.7308, "lng": -73.9973 }
+        }
+      ]
+    },
+    {
+      "title": "Markets & Local Life",
+      "id": "markets",
+      "items": [
+        {
+          "id": "mar-01",
+          "slug": "union-square",
+          "name_en": "Union Square",
+          "name_local": "Union Square",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "A vital transit hub and home to the city's most famous Greenmarket (Farmers Market). It is a center for political protests, street chess, and raw urban energy. It grounds you in the reality of daily NY life.",
+          "image": "/images/new-york/union-square.jpg",
+          "geo": { "lat": 40.7359, "lng": -73.9911 }
         }
       ]
     },
@@ -235,13 +323,24 @@
       "id": "views",
       "items": [
         {
+          "id": "view-003",
+          "slug": "staten-island-ferry",
+          "name_en": "Staten Island Ferry",
+          "name_local": "The Ferry",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "The smartest free ride in New York. Running 24/7 between Manhattan and Staten Island, it provides the best views of the Statue of Liberty and the harbor without costing a cent. Join the commuters for a beer on the boat.",
+          "image": "/images/new-york/staten-island-ferry.jpg",
+          "geo": { "lat": 40.7011, "lng": -74.0135 }
+        },
+        {
           "id": "view-001",
           "slug": "brooklyn-bridge-park",
           "name_en": "Brooklyn Bridge Park",
           "name_local": "DUMBO Waterfront",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The best view of the Manhattan skyline, right on the water. Walk across the bridge, then rest here on the lawn.",
+          "description": "The best view of the Manhattan skyline. The bridge itself (completed 1883) was the world's first steel-wire suspension bridge and dubbed the 'Eighth Wonder of the World' at opening. Its construction cost its designer John Roebling his life.",
           "image": "/images/new-york/brooklyn-bridge-park.jpg",
           "geo": { "lat": 40.7003, "lng": -73.9967 }
         },
@@ -252,7 +351,7 @@
           "name_local": "Rockefeller Center",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Better than the Empire State Building because you can actually SEE the Empire State Building from here.",
+          "description": "A 1930s Art Deco masterpiece. It offers a better view than the Empire State Building because you can actually *see* the Empire State Building from here, alongside a sweeping view of Central Park.",
           "image": "/images/new-york/top-rock.jpg",
           "geo": { "lat": 40.7587, "lng": -73.9787 }
         }
@@ -269,7 +368,7 @@
           "name_local": "Metropolitan Museum",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Massive and overwhelming. Pick one section (e.g., Egyptian Temple of Dendur) and enjoy it. Don't try to see it all.",
+          "description": "Founded in 1870, this Beaux-Arts colossus houses 5,000 years of art. It is massive. Pick one section (e.g., the Temple of Dendur, saved from the Nile) and enjoy it. Don't try to see it all.",
           "image": "/images/new-york/the-met.jpg",
           "geo": { "lat": 40.7794, "lng": -73.9632 }
         },
@@ -280,7 +379,7 @@
           "name_local": "Tenement Museum",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A tour through actual preserved immigrant apartments from the 1800s. A deeply moving look at real NY history.",
+          "description": "A tour through preserved apartments at 97 Orchard Street, home to 7,000 working-class immigrants between 1863 and 1935. It offers a deeply moving look at the 'Old Law' housing reality and the waves of German, Irish, and Jewish history.",
           "image": "/images/new-york/tenement.jpg",
           "geo": { "lat": 40.7188, "lng": -73.9901 }
         }

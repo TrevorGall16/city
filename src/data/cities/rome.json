@@ -9,7 +9,7 @@
   "general_info": {
     "population": "~2.8 million (city) / ~4.3 million (metro area)",
     "is_capital": true,
-    "description": "Rome runs on ritual, not efficiency. It is a collision of 3,000 years of history, gritty street life, and strict food rules. Don't rush; meals are sacred blocks of time. It is noisy, messy, and stunningly beautiful."
+    "description": "Rome runs on ritual, not efficiency. It is a collision of 3,000 years of history, gritty street life, and strict food rules. Don't rush; meals are sacred blocks of time. It is noisy, messy, and stunningly beautiful. Accept the chaos; it is part of the charm."
   },
   "stats": {
     "currency": "EUR",
@@ -31,13 +31,13 @@
   ],
   "culture": {
     "etiquette_tips": [
-      "No Cappuccino After 11am: Milk is for breakfast. Ordering a cappuccino after lunch marks you instantly as a tourist. Order 'caffè' (espresso) instead.",
-      "The Coperto: Restaurants add a €2-3 'cover charge' per person for bread/table. This is normal. Tipping is NOT required (leave coins if you want).",
-      "Reservations are Mandatory: Good places are booked days in advance. 'Walking in' at 8pm usually means waiting an hour or being turned away.",
-      "Ritual over Efficiency: Don't rush. Lunch is 1-3pm. Dinner is 8:30pm+. Asking for the check immediately is seen as rushing the pleasure of the meal.",
-      "Dress Code: Shoulders and knees MUST be covered to enter St. Peter's or the Pantheon. Carry a scarf.",
-      "Ticket Validation: Validate bus/tram tickets in the yellow machines. Inspectors are ruthless.",
-      "Water Fountains (Nasoni): The street water fountains flow constantly with cold, clean volcanic water. Drink from them!"
+      "No Cappuccino After 11am: Milk is for breakfast. Ordering a cappuccino after lunch is a digestive crime. Order 'caffè' (espresso) or 'caffè macchiato'.",
+      "The Bill Ritual: The check will rarely come automatically. You must catch the waiter's eye and mime scribbling. Paying at the table vs. the cashier varies; watch what locals do.",
+      "Time is Fluid (Except for Food): Trains might be late, shops might close randomly, but meal times are rigid. Lunch is 1-3pm. Dinner is 8:30pm+. Don't try to eat dinner at 6pm.",
+      "Dress Code: Shoulders and knees MUST be covered for St. Peter's/Pantheon. In general, Romans dress well. Athletic wear in the city center marks you as a tourist.",
+      "Chaos Mindset: Lines are suggestions. Interruptions are normal. Arguing about efficiency is futile. Rome runs on social flow, not systems. Relax and go with it.",
+      "Ticket Validation: Validate bus/tram tickets in the yellow machines. Inspectors are ruthless and target tourists.",
+      "Water Fountains (Nasoni): The street water fountains flow constantly with cold, clean volcanic water. Drink from them! Carry a reusable bottle."
     ],
     "essential_phrases": [
       { "src": "Hello / Goodbye", "local": "Ciao", "phonetic": "CHOW (informal)" },
@@ -51,28 +51,28 @@
     {
       "name": "Trastevere",
       "vibe": "Charming & Lively",
-      "description": "Ivy-covered buildings, cobblestone streets, and intense nightlife. Beautiful by day, a street party by night.",
+      "description": "Ivy-covered buildings, cobblestone streets, and intense nightlife. Beautiful by day, a street party by night. It gets very crowded, but the charm is undeniable.",
       "highlights": ["Piazza Santa Maria", "Villa Farnesina", "Nightlife"],
       "image": "/images/rome/trastevere.jpg"
     },
     {
       "name": "Monti",
       "vibe": "Bohemian & Cool",
-      "description": "Rome's hipster village right next to the Colosseum. Vintage shops, wine bars, and artisans. Where locals hang out.",
+      "description": "Rome's hipster village right next to the Colosseum. Vintage shops, wine bars, and artisans. Where locals hang out to avoid the tourist crush.",
       "highlights": ["Piazza della Madonna", "Vintage Markets", "Via del Boschetto"],
       "image": "/images/rome/monti.jpg"
     },
     {
       "name": "Testaccio",
       "vibe": "Foodie Heaven",
-      "description": "The gritty heart of Roman cuisine. Home to the old slaughterhouse and the best traditional trattorias. Not pretty, but tasty.",
+      "description": "The gritty heart of Roman cuisine. Home to the old slaughterhouse and the best traditional trattorias. Not pretty, but tasty and authentic.",
       "highlights": ["Testaccio Market", "Monte dei Cocci", "Authentic Food"],
       "image": "/images/rome/testaccio.jpg"
     },
     {
       "name": "Centro Storico",
       "vibe": "The Grand Classics",
-      "description": "The heart of Baroque Rome. Pantheon, Navona, Trevi. Stunning, crowded, and expensive.",
+      "description": "The heart of Baroque Rome. Pantheon, Navona, Trevi. Stunning, crowded, and expensive. Visit early morning or late night.",
       "highlights": ["Pantheon", "Piazza Navona", "Trevi Fountain"],
       "image": "/images/rome/centro-storico.jpg"
     }
@@ -85,10 +85,10 @@
       "icon": "Info",
       "summary": "How to navigate the chaos.",
       "details": [
-        "Coffee Bar Rule: Price is regulated at the bar (€1.10), but doubles if you sit at a table. Drink standing up like a local.",
-        "Water: Tap water isn't served automatically. Ask for 'Acqua Naturale' (still) or 'Frizzante' (sparkling). It's rarely free.",
-        "Strikes (Scioperi): Transport strikes are common on Fridays. Check the news if the metro is closed.",
-        "August Shutdown: The city empties in mid-August. Many non-tourist restaurants close for 2 weeks."
+        "Coffee Bar Rule: Price is regulated at the bar (~€1.10), but doubles if you sit at a table. Drink standing up like a local.",
+        "The Coperto: Restaurants add a €2-3 'cover charge' per person for bread/table. This is normal. Tipping is NOT required.",
+        "August Shutdown: The city empties in mid-August. Many authentic restaurants close for 2 weeks. Tourist traps stay open.",
+        "Heat Survival: In summer, locals avoid walking between 1pm-4pm. Shade-hopping is a survival skill."
       ]
     },
     {
@@ -98,9 +98,9 @@
       "icon": "Train",
       "summary": "Walk whenever possible. Public transit is notoriously unreliable.",
       "details": [
-        "Walking: The historic center is compact and walkable. It is the best way to see the city.",
-        "Metro: Only 3 lines (A, B, C). Useful for Colosseum/Vatican, useless for the historic center.",
-        "Taxi: Do not hail on the street (they won't stop). Go to a Taxi Rank or use the 'FreeNow' app. Uber is expensive."
+        "Walking: The historic center is compact. It is the best way to see the city. Wear comfortable shoes; cobblestones are unforgiving.",
+        "Metro: Only 3 lines (A, B, C). Useful for getting across town (e.g. Vatican to Termini), but useless for the center.",
+        "Taxi: Do not hail on the street (they won't stop). Go to a Taxi Rank or use the 'FreeNow' app. Uber is available but expensive."
       ]
     },
     {
@@ -110,9 +110,9 @@
       "icon": "Shield",
       "summary": "Safe city, aggressive scammers.",
       "details": [
+        "Pickpocket Routes: Be hyper-vigilant on Bus 64 (Vatican bus), crowded Metro A, and queues for the Colosseum.",
         "The Bracelet Scam: Men will try to tie a 'free' bracelet on your wrist then demand money. Keep hands in pockets.",
-        "Gladiator Photos: Costumed gladiators at the Colosseum will aggressively demand €20-50 for a photo. Ignore them.",
-        "Termini Station: The area around the main train station is gritty at night. Be vigilant."
+        "Termini Station: The area around the main train station is gritty at night. Stay on main streets."
       ]
     }
   ],
@@ -126,6 +126,46 @@
       "is_generic_staple": true,
       "description": "Rome's holy dish. Egg yolks, Pecorino Romano cheese, Guanciale (cured pork cheek), and black pepper. NO cream. Cream is a crime here.",
       "image": "/images/rome/carbonara.jpg"
+    },
+    {
+      "id": "food-015",
+      "slug": "trattoria-hierarchy",
+      "name_en": "The Trattoria Rule",
+      "name_local": "Trattoria Romana",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Know where to eat. A good Trattoria looks boring, is loud, and has paper tablecloths. Avoid places with photos on the menu, a 'Tourist Menu', or a host outside inviting you in. Authentic places don't need to beg.",
+      "image": "/images/rome/trattoria.jpg"
+    },
+    {
+      "id": "food-016",
+      "slug": "roman-fried-food",
+      "name_en": "Fried Starters (Fritti)",
+      "name_local": "I Fritti",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Fried food is a religion here. Before pizza or pasta, you order 'Fritti'. Includes Supplì, potato croquettes, and fried zucchini flowers (Fiori di Zucca). Eaten with hands, shared, and essential.",
+      "image": "/images/rome/fritti.jpg"
+    },
+    {
+      "id": "food-007",
+      "slug": "jewish-cuisine",
+      "name_en": "Roman-Jewish Cuisine",
+      "name_local": "Cucina Giudaico-Romanesca",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Rome has the oldest Jewish community in Europe. Their cuisine is legendary, especially 'Carciofi alla Giudia' (deep-fried whole artichokes). Simple, oil-heavy, and crispy.",
+      "image": "/images/rome/artichoke.jpg"
+    },
+    {
+      "id": "food-017",
+      "slug": "house-wine",
+      "name_en": "House Wine Culture",
+      "name_local": "Vino della Casa",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Wine is food here. 'Vino della Casa' is cheap, served in a carafe, and perfectly acceptable. You don't need to order a bottle. It is drunk casually at lunch and dinner.",
+      "image": "/images/rome/wine.jpg"
     },
     {
       "id": "food-002",
@@ -154,7 +194,7 @@
       "name_local": "Pizza al Taglio",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Rectangular pizza sold by weight. Point to the one you want, show them how much with your hands, and eat it on the street. Bonci Pizzarium is the gold standard.",
+      "description": "Rectangular pizza sold by weight. Point to the one you want, show them how much with your hands. It is the standard Roman fast lunch.",
       "image": "/images/rome/pizza-taglio.jpg"
     },
     {
@@ -178,16 +218,6 @@
       "image": "/images/rome/maritozzo.jpg"
     },
     {
-      "id": "food-007",
-      "slug": "carciofi",
-      "name_en": "Fried Artichokes",
-      "name_local": "Carciofi alla Giudia",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": "Jewish-style deep fried artichokes. Crispy like potato chips on the outside, tender inside. A specialty of the Roman Ghetto.",
-      "image": "/images/rome/artichoke.jpg"
-    },
-    {
       "id": "food-012",
       "slug": "porchetta",
       "name_en": "Porchetta Sandwich",
@@ -199,6 +229,32 @@
     }
   ],
   "must_see": [
+    {
+      "title": "Daily Roman Life",
+      "id": "daily-life",
+      "items": [
+        {
+          "id": "lif-001",
+          "slug": "market-culture",
+          "name_en": "Morning Markets",
+          "name_local": "Mercato Rionale",
+          "category": "sight",
+          "is_generic_staple": true,
+          "description": "Markets (like Testaccio or Campo de' Fiori) are morning-only affairs. They are loud, functional, and where real food shopping happens. Go for the atmosphere and a fresh fruit snack.",
+          "image": "/images/rome/market.jpg"
+        },
+        {
+          "id": "lif-002",
+          "slug": "night-rome",
+          "name_en": "Rome by Night",
+          "name_local": "Roma di Notte",
+          "category": "sight",
+          "is_generic_staple": true,
+          "description": "Rome transforms after dark. The ruins are lit up, the air cools down, and the piazzas fill with locals. Walking the center at midnight is safer, quieter, and more magical than at noon.",
+          "image": "/images/rome/night-rome.jpg"
+        }
+      ]
+    },
     {
       "title": "Ancient Icons",
       "id": "ancient",
