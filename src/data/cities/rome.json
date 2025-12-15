@@ -9,7 +9,7 @@
   "general_info": {
     "population": "~2.8 million (city) / ~4.3 million (metro area)",
     "is_capital": true,
-    "description": "Rome is overwhelming in the best way. It is a collision of 3,000 years of history, gritty street life, and world-class food. It is noisy, messy, and stunningly beautiful. Don't expect efficiency; expect dolce vita."
+    "description": "Rome runs on ritual, not efficiency. It is a collision of 3,000 years of history, gritty street life, and strict food rules. Don't rush; meals are sacred blocks of time. It is noisy, messy, and stunningly beautiful."
   },
   "stats": {
     "currency": "EUR",
@@ -31,12 +31,12 @@
   ],
   "culture": {
     "etiquette_tips": [
-      "No Cappuccino After 11am: Milk is for breakfast. Ordering a cappuccino after lunch marks you instantly as a tourist. Order espresso (caffè) instead.",
-      "Coperto Charge: Restaurants add a €2-3 'cover charge' per person for bread/table. This is normal. Tipping is NOT required (leave €1-2 coins if you want).",
+      "No Cappuccino After 11am: Milk is for breakfast. Ordering a cappuccino after lunch marks you instantly as a tourist. Order 'caffè' (espresso) instead.",
+      "The Coperto: Restaurants add a €2-3 'cover charge' per person for bread/table. This is normal. Tipping is NOT required (leave coins if you want).",
+      "Reservations are Mandatory: Good places are booked days in advance. 'Walking in' at 8pm usually means waiting an hour or being turned away.",
+      "Ritual over Efficiency: Don't rush. Lunch is 1-3pm. Dinner is 8:30pm+. Asking for the check immediately is seen as rushing the pleasure of the meal.",
       "Dress Code: Shoulders and knees MUST be covered to enter St. Peter's or the Pantheon. Carry a scarf.",
-      "Ticket Validation: Validate bus/tram tickets in the yellow machines. Inspectors show up when you least expect them.",
-      "Dinner Time: Dinner starts at 8:30pm or 9pm. Restaurants are empty at 7pm.",
-      "Don't Touch Produce: In markets, do not touch fruit/veg with bare hands. Ask the vendor or wear the provided plastic glove.",
+      "Ticket Validation: Validate bus/tram tickets in the yellow machines. Inspectors are ruthless.",
       "Water Fountains (Nasoni): The street water fountains flow constantly with cold, clean volcanic water. Drink from them!"
     ],
     "essential_phrases": [
@@ -63,18 +63,18 @@
       "image": "/images/rome/monti.jpg"
     },
     {
+      "name": "Testaccio",
+      "vibe": "Foodie Heaven",
+      "description": "The gritty heart of Roman cuisine. Home to the old slaughterhouse and the best traditional trattorias. Not pretty, but tasty.",
+      "highlights": ["Testaccio Market", "Monte dei Cocci", "Authentic Food"],
+      "image": "/images/rome/testaccio.jpg"
+    },
+    {
       "name": "Centro Storico",
       "vibe": "The Grand Classics",
       "description": "The heart of Baroque Rome. Pantheon, Navona, Trevi. Stunning, crowded, and expensive.",
       "highlights": ["Pantheon", "Piazza Navona", "Trevi Fountain"],
       "image": "/images/rome/centro-storico.jpg"
-    },
-    {
-      "name": "Prati",
-      "vibe": "Elegant & Vatican",
-      "description": "Upscale, wide avenues, and high-end shopping near the Vatican. Great for luxury shopping and calmer dining.",
-      "highlights": ["Vatican Museums", "Via Cola di Rienzo", "Castel Sant'Angelo"],
-      "image": "/images/rome/prati.jpg"
     }
   ],
   "logistics": [
@@ -86,9 +86,9 @@
       "summary": "How to navigate the chaos.",
       "details": [
         "Coffee Bar Rule: Price is regulated at the bar (€1.10), but doubles if you sit at a table. Drink standing up like a local.",
-        "Cobblestones (Sanpietrini): They destroy suitcases and heels. Wear comfortable sneakers.",
-        "August Shutdown: The city empties in mid-August. Many non-tourist restaurants close for 2 weeks.",
-        "Pickpockets: Be extremely alert on Bus 64 (to Vatican) and the Metro. Keep bags front-facing."
+        "Water: Tap water isn't served automatically. Ask for 'Acqua Naturale' (still) or 'Frizzante' (sparkling). It's rarely free.",
+        "Strikes (Scioperi): Transport strikes are common on Fridays. Check the news if the metro is closed.",
+        "August Shutdown: The city empties in mid-August. Many non-tourist restaurants close for 2 weeks."
       ]
     },
     {
@@ -100,7 +100,6 @@
       "details": [
         "Walking: The historic center is compact and walkable. It is the best way to see the city.",
         "Metro: Only 3 lines (A, B, C). Useful for Colosseum/Vatican, useless for the historic center.",
-        "Bus: Often late, crowded, or on strike. Use CityMapper to track them.",
         "Taxi: Do not hail on the street (they won't stop). Go to a Taxi Rank or use the 'FreeNow' app. Uber is expensive."
       ]
     },
@@ -139,13 +138,23 @@
       "image": "/images/rome/cacio-e-pepe.jpg"
     },
     {
-      "id": "food-003",
+      "id": "food-010",
+      "slug": "amatriciana",
+      "name_en": "Amatriciana",
+      "name_local": "L'Amatriciana",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Tomato, Guanciale, Pecorino, and chili. The spicy, red cousin of Carbonara. Rich, savory, and essential.",
+      "image": "/images/rome/amatriciana.jpg"
+    },
+    {
+      "id": "food-011",
       "slug": "pizza-al-taglio",
       "name_en": "Pizza by the Slice",
       "name_local": "Pizza al Taglio",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Rectangular pizza sold by weight. Point to the one you want, show them how much, and eat it on the street. Try Bonci Pizzarium.",
+      "description": "Rectangular pizza sold by weight. Point to the one you want, show them how much with your hands, and eat it on the street. Bonci Pizzarium is the gold standard.",
       "image": "/images/rome/pizza-taglio.jpg"
     },
     {
@@ -169,16 +178,6 @@
       "image": "/images/rome/maritozzo.jpg"
     },
     {
-      "id": "food-006",
-      "slug": "gelato",
-      "name_en": "Artisanal Gelato",
-      "name_local": "Gelato Artigianale",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": "Look for 'Artigianale'. Avoid places with mountains of brightly colored fluff (tourist traps). Good gelato has natural colors and is kept in covered tins.",
-      "image": "/images/rome/gelato.jpg"
-    },
-    {
       "id": "food-007",
       "slug": "carciofi",
       "name_en": "Fried Artichokes",
@@ -187,6 +186,16 @@
       "is_generic_staple": true,
       "description": "Jewish-style deep fried artichokes. Crispy like potato chips on the outside, tender inside. A specialty of the Roman Ghetto.",
       "image": "/images/rome/artichoke.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "porchetta",
+      "name_en": "Porchetta Sandwich",
+      "name_local": "Panino con Porchetta",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Slow-roasted pork heavily seasoned with herbs and garlic. Served in crusty bread. The ultimate street food lunch.",
+      "image": "/images/rome/porchetta.jpg"
     }
   ],
   "must_see": [
@@ -201,7 +210,7 @@
           "name_local": "Colosseo",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The world's largest amphitheater. Book tickets WEEKS in advance or you will be stuck outside. The underground tour is worth it.",
+          "description": "The world's largest amphitheater. Book tickets WEEKS in advance. The underground tour is worth it.",
           "image": "/images/rome/colosseum.jpg",
           "geo": { "lat": 41.8902, "lng": 12.4922 }
         },
@@ -215,17 +224,45 @@
           "description": "The best-preserved building from ancient Rome. The dome is an engineering miracle. Entry is now paid, book online.",
           "image": "/images/rome/pantheon.jpg",
           "geo": { "lat": 41.8986, "lng": 12.4769 }
-        },
+        }
+      ]
+    },
+    {
+      "title": "Hidden Gems & Views",
+      "id": "hidden",
+      "items": [
         {
-          "id": "anc-003",
-          "slug": "roman-forum",
-          "name_en": "Roman Forum",
-          "name_local": "Foro Romano",
+          "id": "gem-001",
+          "slug": "san-luigi",
+          "name_en": "San Luigi dei Francesi",
+          "name_local": "San Luigi",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The political heart of the ancient empire. It's a ruin maze—hiring a guide or audio guide is essential to understand what you're seeing.",
-          "image": "/images/rome/forum.jpg",
-          "geo": { "lat": 41.8925, "lng": 12.4853 }
+          "description": "A church, but actually a free art museum. Contains three stunning Caravaggio masterpieces. Bring coins to light up the paintings.",
+          "image": "/images/rome/san-luigi.jpg",
+          "geo": { "lat": 41.8996, "lng": 12.4731 }
+        },
+        {
+          "id": "gem-002",
+          "slug": "orange-garden",
+          "name_en": "The Orange Garden",
+          "name_local": "Giardino degli Aranci",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "The most romantic sunset view in Rome. Overlooks the river and St. Peter's dome. Quiet and scented with orange trees.",
+          "image": "/images/rome/orange-garden.jpg",
+          "geo": { "lat": 41.8845, "lng": 12.4797 }
+        },
+        {
+          "id": "gem-003",
+          "slug": "gianicolo",
+          "name_en": "Gianicolo Hill",
+          "name_local": "Gianicolo",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "The highest hill in Rome (not one of the 7). Sweeping panoramic views. A canon is fired daily at noon.",
+          "image": "/images/rome/gianicolo.jpg",
+          "geo": { "lat": 41.8914, "lng": 12.4616 }
         }
       ]
     },
@@ -240,7 +277,7 @@
           "name_local": "Basilica di San Pietro",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The center of the Catholic world. Massive, opulent, and free (but the line is long). Go at 7am to avoid the wait.",
+          "description": "The center of the Catholic world. Massive, opulent, and free. Go at 7am to avoid the 2-hour line.",
           "image": "/images/rome/st-peters.jpg",
           "geo": { "lat": 41.9029, "lng": 12.4534 }
         },
@@ -251,37 +288,9 @@
           "name_local": "Musei Vaticani",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Home to the Sistine Chapel. It is incredibly crowded. Book the 'Early Morning' or 'Night' tour to actually enjoy it.",
+          "description": "Home to the Sistine Chapel. It is incredibly crowded. Book the 'Early Morning' tour or prepare to be crushed.",
           "image": "/images/rome/vatican-museums.jpg",
           "geo": { "lat": 41.9067, "lng": 12.4525 }
-        }
-      ]
-    },
-    {
-      "title": "Baroque & Beautiful",
-      "id": "baroque",
-      "items": [
-        {
-          "id": "bar-001",
-          "slug": "trevi-fountain",
-          "name_en": "Trevi Fountain",
-          "name_local": "Fontana di Trevi",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Rome's most famous baroque fountain. Tradition says throw a coin to return to Rome. Go at sunrise or 2am to avoid the crush.",
-          "image": "/images/rome/trevi.jpg",
-          "geo": { "lat": 41.9009, "lng": 12.4833 }
-        },
-        {
-          "id": "bar-002",
-          "slug": "spanish-steps",
-          "name_en": "Spanish Steps",
-          "name_local": "Piazza di Spagna",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Famous staircase meeting point. Note: It is now illegal to sit on the steps (police will whistle at you).",
-          "image": "/images/rome/spanish-steps.jpg",
-          "geo": { "lat": 41.9057, "lng": 12.4823 }
         }
       ]
     }
@@ -291,7 +300,7 @@
       "id": "aff-001",
       "title": "Italy Travel Adapter (Type L)",
       "image": "/images/rome/adapter.jpg",
-      "reason": "Italy has a unique 3-pin plug (Type L) alongside the standard Euro plug. Older buildings often ONLY have Type L.",
+      "reason": "Italy has a unique 3-pin plug (Type L) alongside the standard Euro plug. Essential for charging.",
       "amazon_url": "https://www.amazon.com/s?k=italy+travel+adapter+type+l",
       "category": "electronics"
     },
@@ -299,7 +308,7 @@
       "id": "aff-002",
       "title": "Anti-Theft Crossbody Bag",
       "image": "/images/rome/bag.jpg",
-      "reason": "Pickpockets on buses and metros are skilled. A bag with locking zippers gives you peace of mind.",
+      "reason": "Pickpockets on buses and metros are skilled. A locking bag gives you peace of mind.",
       "amazon_url": "https://www.amazon.com/s?k=anti+theft+crossbody+bag",
       "category": "security"
     },
@@ -307,7 +316,7 @@
       "id": "aff-003",
       "title": "Reusable Water Bottle",
       "image": "/images/rome/bottle.jpg",
-      "reason": "Rome has thousands of free, cold water fountains (nasoni). Don't buy plastic bottles; refill yours for free.",
+      "reason": "Rome has thousands of free, cold water fountains (nasoni). Refill yours for free all day.",
       "amazon_url": "https://www.amazon.com/s?k=reusable+water+bottle",
       "category": "outdoors"
     }

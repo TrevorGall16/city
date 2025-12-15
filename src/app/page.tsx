@@ -18,27 +18,36 @@ const COUNTRY_FLAGS: Record<string, string> = {
 }
 
 // 1. UPDATE THE CITIES LIST
+// We only keep the cities that have JSON files ready.
 const CITIES = [
-  // --- ACTIVE CITIES (We have JSON files for these) ---
+  // --- EUROPE ---
   { name: 'Paris', country: 'France', slug: 'paris', image: '/images/paris/hero.jpg', priority: true },
   { name: 'London', country: 'United Kingdom', slug: 'london', image: '/images/london/hero.jpg', priority: true },
   { name: 'Berlin', country: 'Germany', slug: 'berlin', image: '/images/berlin/hero.jpg', priority: false },
   { name: 'Rome', country: 'Italy', slug: 'rome', image: '/images/rome/hero.jpg', priority: true },
+  
+  // --- ASIA ---
   { name: 'Tokyo', country: 'Japan', slug: 'tokyo', image: '/images/tokyo/hero.jpg', priority: false },
   { name: 'Bangkok', country: 'Thailand', slug: 'bangkok', image: '/images/bangkok/hero.jpg', priority: false },
+  
+  // --- AMERICAS ---
   { name: 'Los Angeles', country: 'United States', slug: 'los-angeles', image: '/images/los-angeles/hero.jpg', priority: false },
+  // ✅ NEW YORK IS NOW ACTIVE
+  { name: 'New York', country: 'United States', slug: 'new-york', image: '/images/new-york/hero.jpg', priority: true },
 
-  // --- COMING SOON (Placeholders - These will go to a 404 page for now) ---
-  { name: 'New York', country: 'United States', slug: 'new-york', image: 'https://placehold.co/800x600/0033a0/ffffff?text=New+York', priority: true },
+  // --- COMING SOON (Commented out for Launch) ---
+  /*
   { name: 'Hong Kong', country: 'China', slug: 'hong-kong', image: 'https://placehold.co/800x600/de2910/ffffff?text=Hong+Kong', priority: false },
   { name: 'Guangzhou', country: 'China', slug: 'guangzhou', image: 'https://placehold.co/800x600/de2910/ffde00?text=Guangzhou', priority: false },
   { name: 'New Delhi', country: 'India', slug: 'new-delhi', image: 'https://placehold.co/800x600/ff9933/138808?text=New+Delhi', priority: false },
   { name: 'Istanbul', country: 'Turkey', slug: 'istanbul', image: 'https://placehold.co/800x600/e30a17/ffffff?text=Istanbul', priority: false },
   { name: 'Dubai', country: 'United Arab Emirates', slug: 'dubai', image: 'https://placehold.co/800x600/00732f/ffffff?text=Dubai', priority: false },
   { name: 'Mecca', country: 'Saudi Arabia', slug: 'mecca', image: 'https://placehold.co/800x600/165d31/ffffff?text=Mecca', priority: false },
+  */
 ]
 
 // 2. UPDATE THE REGIONS GROUPING
+// Removed Middle East for now since no cities are active there.
 const REGIONS = [
   {
     name: 'North America',
@@ -63,16 +72,6 @@ const REGIONS = [
     countries: [
       { name: 'Japan', cities: [CITIES.find(c => c.slug === 'tokyo')!] },
       { name: 'Thailand', cities: [CITIES.find(c => c.slug === 'bangkok')!] },
-      { name: 'China', cities: [CITIES.find(c => c.slug === 'hong-kong')!, CITIES.find(c => c.slug === 'guangzhou')!] },
-      { name: 'India', cities: [CITIES.find(c => c.slug === 'new-delhi')!] },
-    ],
-  },
-  {
-    name: 'Middle East',
-    countries: [
-      { name: 'Turkey', cities: [CITIES.find(c => c.slug === 'istanbul')!] },
-      { name: 'United Arab Emirates', cities: [CITIES.find(c => c.slug === 'dubai')!] },
-      { name: 'Saudi Arabia', cities: [CITIES.find(c => c.slug === 'mecca')!] },
     ],
   },
 ]

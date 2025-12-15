@@ -1,0 +1,316 @@
+{
+  "id": "city-008",
+  "name": "New York City",
+  "slug": "new-york",
+  "country": "United States",
+  "country_code": "us",
+  "hero_image": "/images/new-york/hero.jpg",
+  "intro_vibe": "The Concrete Jungle: Fast, loud, kind but not nice, and the only place where 4am pizza is a food group.",
+  "general_info": {
+    "population": "~8.5 million (city) / ~20 million (metro area)",
+    "is_capital": false,
+    "description": "New York is a collection of five distinct boroughs, not just Manhattan. It rewards efficiency and punishes hesitation. It is gritty, glamorous, and relentless. The locals are 'kind' (they will help you carry a stroller up the stairs) but not 'nice' (they won't smile while doing it)."
+  },
+  "stats": {
+    "currency": "USD",
+    "plug_type": "Type A/B"
+  },
+  "weather_breakdown": [
+    { "id": 1, "name": "January", "temp": "-3°C - 4°C", "vibe": "Freezing", "pros": ["Hotel deals", "Restaurant Week", "Winter Jazzfest"], "cons": ["Bitter wind", "Slush puddles", "Short days"], "clothing": "Heavy coat, thermal layers, waterproof boots" },
+    { "id": 2, "name": "February", "temp": "-2°C - 6°C", "vibe": "Harsh", "pros": ["Fashion Week", "Lunar New Year", "Indoor museums"], "cons": ["Snowstorms possible", "Grey skies"], "clothing": "Heavy coat, gloves, scarf" },
+    { "id": 3, "name": "March", "temp": "2°C - 10°C", "vibe": "Unpredictable", "pros": ["St. Patrick's Day", "Hints of spring", "Walkable days"], "cons": ["Windy", "Rain/Snow mix"], "clothing": "Warm coat, layers, umbrella" },
+    { "id": 4, "name": "April", "temp": "7°C - 16°C", "vibe": "Blooming", "pros": ["Cherry blossoms (Brooklyn Botanic)", "Tribeca Film Fest", "Parks fill up"], "cons": ["Rain showers", "Variable temps"], "clothing": "Light jacket, rain gear" },
+    { "id": 5, "name": "May", "temp": "12°C - 22°C", "vibe": "Perfect", "pros": ["Ideal walking weather", "Outdoor dining starts", "Fleet Week"], "cons": ["Hotels get expensive", "Crowds arrive"], "clothing": "Light layers, comfortable shoes" },
+    { "id": 6, "name": "June", "temp": "18°C - 27°C", "vibe": "Lively Start", "pros": ["Pride Month", "Rooftop bars", "Free outdoor concerts"], "cons": ["Humidity starts", "Subway stations get hot"], "clothing": "Summer clothes, light jacket for A/C" },
+    { "id": 7, "name": "July", "temp": "21°C - 30°C", "vibe": "Steamy", "pros": ["4th of July Fireworks", "Summer streets", "Coney Island"], "cons": ["Trash smell", "Subway platforms are saunas"], "clothing": "Breathable fabrics, deodorant" },
+    { "id": 8, "name": "August", "temp": "21°C - 29°C", "vibe": "Sticky", "pros": ["Summer Streets (car-free)", "US Open Tennis", "Locals leave"], "cons": ["Oppressive humidity", "Storms"], "clothing": "Lightest possible clothes" },
+    { "id": 9, "name": "September", "temp": "17°C - 25°C", "vibe": "The Best Month", "pros": ["San Gennaro Festival", "Perfect weather", "Fashion Week"], "cons": ["Expensive hotels", "Crowded"], "clothing": "Light layers" },
+    { "id": 10, "name": "October", "temp": "11°C - 18°C", "vibe": "Crisp Autumn", "pros": ["Central Park foliage", "Halloween Parade", "Pumpkin spice everything"], "cons": ["Cooler evenings", "Rain"], "clothing": "Leather jacket, boots, scarf" },
+    { "id": 11, "name": "November", "temp": "6°C - 12°C", "vibe": "Holiday Prep", "pros": ["Thanksgiving Parade", "Marathon", "Holiday markets open"], "cons": ["Early sunset (4:30pm)", "Chilly"], "clothing": "Warm coat, layers" },
+    { "id": 12, "name": "December", "temp": "0°C - 7°C", "vibe": "Magical & Manic", "pros": ["Rockefeller Tree", "Window displays", "Festive energy"], "cons": ["Insane crowds in Midtown", "Expensive"], "clothing": "Winter coat, patience" }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "Efficiency is Respect: Moving fast is how New Yorkers show respect for other people's time. Don't stop in the middle of the sidewalk. Step to the side.",
+      "Kind, Not Nice: A New Yorker won't smile at you, but if you fall down the stairs, they will be the first to pick you up. Don't confuse speed with rudeness.",
+      "The Subway Swagger: Let people OFF the train before you get ON. Stand aside. If a car is empty in rush hour, DO NOT GET IN (it smells).",
+      "Tipping is Mandatory: 20% minimum at sit-down restaurants. $1/drink at bars. This is not optional; it is their wage.",
+      "Escalator Etiquette: Stand on the RIGHT, walk on the LEFT. Blocking the left side is a mortal sin.",
+      "Pizza Rules: Fold the slice. Never use a fork and knife unless you want to be ridiculed.",
+      "Eye Contact: We ignore each other to give privacy in a crowded city. It is a form of politeness, not coldness."
+    ],
+    "essential_phrases": [
+      { "src": "Hello", "local": "Hey / Hi", "phonetic": "Standard" },
+      { "src": "Excuse me (move)", "local": "Watch your back", "phonetic": "Standard" },
+      { "src": "Coffee", "local": "Regular Coffee", "phonetic": "Means 'with milk and sugar'" },
+      { "src": "Train", "local": "The Subway", "phonetic": "Not 'Metro' or 'Tube'" },
+      { "src": "Convenience Store", "local": "Bodega", "phonetic": "boh-DAY-gah" }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "West Village",
+      "vibe": "Charming & Expensive",
+      "description": "Brownstones, tree-lined streets, and celebrity sightings. It feels like a movie set (because it usually is). Great for wandering and brunch.",
+      "highlights": ["Washington Square Park", "Bleeker Street", "Jazz Clubs"],
+      "image": "/images/new-york/west-village.jpg"
+    },
+    {
+      "name": "Williamsburg",
+      "vibe": "Hipster Chic",
+      "description": "Brooklyn's trendiest neighborhood. Waterfront parks, vintage shopping, breweries, and incredible skyline views of Manhattan.",
+      "highlights": ["Domino Park", "Bedford Avenue", "Smorgasburg"],
+      "image": "/images/new-york/williamsburg.jpg"
+    },
+    {
+      "name": "Astoria & LIC",
+      "vibe": "Global & Diverse",
+      "description": "The heart of Queens. Incredible Greek and Middle Eastern food, beer gardens, and skyline views without the Manhattan price tag.",
+      "highlights": ["Museum of Moving Image", "Gantry Plaza Park", "Greek Tavernas"],
+      "image": "/images/new-york/astoria.jpg"
+    },
+    {
+      "name": "Harlem",
+      "vibe": "History & Soul",
+      "description": "A cultural capital. Historic brownstones, incredible soul food, jazz history, and a vibrant community energy.",
+      "highlights": ["Apollo Theater", "Sylvia's", "Marcus Garvey Park"],
+      "image": "/images/new-york/harlem.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-survival",
+      "slug": "local-survival",
+      "title": "Local Survival Tips",
+      "icon": "Info",
+      "summary": "How to survive the concrete jungle.",
+      "details": [
+        "Times Square: Go once, take a photo, leave immediately. The food is terrible and overpriced. Locals avoid it like the plague.",
+        "The Bathroom Code: Public restrooms don't exist. Use hotel lobbies, department stores (Macy's), or buy a coffee at Starbucks to get the code.",
+        "Bodegas: These are corner stores. Use them for water, snacks, sandwiches, and ATM cash. They are the neighborhood lifeline.",
+        "Stairs Everywhere: The subway is old. Elevators are rare or broken. Be prepared to carry your luggage up many flights of stairs."
+      ]
+    },
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Getting Around",
+      "icon": "Train",
+      "summary": "The Subway is the lifeline. Taxis are for rain.",
+      "details": [
+        "Subway: Runs 24/7. Use OMNY (tap your credit card/phone) at the turnstile. No need to buy a MetroCard anymore.",
+        "Walking: You will walk 15,000+ steps a day. Wear comfortable shoes. Heels are for Uber rides only.",
+        "Yellow Cabs: Hail from the street. The light on top means they are available. Cheaper than Uber for short hops.",
+        "Ferry: The NYC Ferry costs the same as the subway and offers incredible views. Great for going to Brooklyn/Queens."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "Safety & Scams",
+      "icon": "Shield",
+      "summary": "Generally safe, but stay alert.",
+      "details": [
+        "CD Guys: In Times Square, men will hand you a 'free' CD then demand money. Don't touch it. Keep walking.",
+        "Costumed Characters: Elmo/Spiderman in Times Square will demand cash for photos. They can get aggressive.",
+        "Empty Subway Cars: If one car is empty and the rest are full, DO NOT GET IN. It has a smell or no AC.",
+        "Phone Snatching: Don't stand near the subway doors holding your phone loosely."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "pizza-slice",
+      "name_en": "Dollar Slice ($1.50+)",
+      "name_local": "A Slice",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Thin crust, foldable, greasy cheese pizza. Joe's Pizza is the gold standard. 2 Bros is the budget standard. Eat it standing up on the sidewalk.",
+      "image": "/images/new-york/pizza-slice.jpg"
+    },
+    {
+      "id": "food-010",
+      "slug": "coal-oven-pizza",
+      "name_en": "Coal Oven Pizza",
+      "name_local": "Whole Pie",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Different from a slice. Charred, crispy, sit-down pizza sold only by the whole pie. John's of Bleecker or Totonno's. Worth the wait.",
+      "image": "/images/new-york/coal-pizza.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "bagel",
+      "name_en": "Bagel with Lox",
+      "name_local": "Everything Bagel",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Boiled then baked. Dense and chewy. Order an 'Everything with Scallion Cream Cheese'. Ess-a-Bagel or Russ & Daughters. Do not toast it if it's fresh.",
+      "image": "/images/new-york/bagel.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "bacon-egg-cheese",
+      "name_en": "Bacon Egg and Cheese",
+      "name_local": "BEC",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "The quintessential breakfast. 'Bacon-Egg-and-Cheese-on-a-Roll'. Get it at a bodega, not a restaurant. Salt, pepper, ketchup optional.",
+      "image": "/images/new-york/bec.jpg"
+    },
+    {
+      "id": "food-011",
+      "slug": "dim-sum",
+      "name_en": "Dim Sum & Dumplings",
+      "name_local": "Dim Sum",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "New York has incredible Chinese food. Go to Chinatown (Manhattan) or Flushing (Queens) for soup dumplings (XLB) and massive dim sum halls.",
+      "image": "/images/new-york/dim-sum.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "pastrami",
+      "name_en": "Pastrami on Rye",
+      "name_local": "Pastrami Sandwich",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "A tower of cured, smoked beef on rye bread with mustard. Katz's Deli is the legend. Pair it with a Matzo Ball Soup.",
+      "image": "/images/new-york/pastrami.jpg"
+    },
+    {
+      "id": "food-005",
+      "slug": "halal-cart",
+      "name_en": "Chicken Over Rice",
+      "name_local": "Halal Cart",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Street meat. Spiced chicken, yellow rice, white sauce (famous), and red sauce (very hot). The Halal Guys is the original, but neighborhood carts are often better.",
+      "image": "/images/new-york/halal.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Parks & People",
+      "id": "parks",
+      "items": [
+        {
+          "id": "park-001",
+          "slug": "central-park",
+          "name_en": "Central Park",
+          "name_local": "Central Park",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "The lungs of the city. Don't just stay at the entrance. Go deep to the Ramble or the Reservoir to escape the noise.",
+          "image": "/images/new-york/central-park.jpg",
+          "geo": { "lat": 40.7829, "lng": -73.9654 }
+        },
+        {
+          "id": "park-002",
+          "slug": "prospect-park",
+          "name_en": "Prospect Park",
+          "name_local": "Prospect Park",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Brooklyn's masterpiece (designed by the same guys as Central Park, but they did this one better). Huge meadows, BBQs, and local vibes.",
+          "image": "/images/new-york/prospect-park.jpg",
+          "geo": { "lat": 40.6602, "lng": -73.9690 }
+        },
+        {
+          "id": "park-003",
+          "slug": "washington-square",
+          "name_en": "Washington Square Park",
+          "name_local": "Washington Square",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "The best people-watching in the world. Musicians, chess players, students, and eccentrics. The heart of the Village.",
+          "image": "/images/new-york/washington-square.jpg",
+          "geo": { "lat": 40.7308, "lng": -73.9973 }
+        }
+      ]
+    },
+    {
+      "title": "Views & Icons",
+      "id": "views",
+      "items": [
+        {
+          "id": "view-001",
+          "slug": "brooklyn-bridge-park",
+          "name_en": "Brooklyn Bridge Park",
+          "name_local": "DUMBO Waterfront",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "The best view of the Manhattan skyline, right on the water. Walk across the bridge, then rest here on the lawn.",
+          "image": "/images/new-york/brooklyn-bridge-park.jpg",
+          "geo": { "lat": 40.7003, "lng": -73.9967 }
+        },
+        {
+          "id": "view-002",
+          "slug": "top-of-the-rock",
+          "name_en": "Top of the Rock",
+          "name_local": "Rockefeller Center",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Better than the Empire State Building because you can actually SEE the Empire State Building from here.",
+          "image": "/images/new-york/top-rock.jpg",
+          "geo": { "lat": 40.7587, "lng": -73.9787 }
+        }
+      ]
+    },
+    {
+      "title": "Museums",
+      "id": "museums",
+      "items": [
+        {
+          "id": "mus-001",
+          "slug": "the-met",
+          "name_en": "The Met",
+          "name_local": "Metropolitan Museum",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Massive and overwhelming. Pick one section (e.g., Egyptian Temple of Dendur) and enjoy it. Don't try to see it all.",
+          "image": "/images/new-york/the-met.jpg",
+          "geo": { "lat": 40.7794, "lng": -73.9632 }
+        },
+        {
+          "id": "mus-002",
+          "slug": "tenement-museum",
+          "name_en": "Tenement Museum",
+          "name_local": "Tenement Museum",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "A tour through actual preserved immigrant apartments from the 1800s. A deeply moving look at real NY history.",
+          "image": "/images/new-york/tenement.jpg",
+          "geo": { "lat": 40.7188, "lng": -73.9901 }
+        }
+      ]
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Walking Sneakers",
+      "image": "/images/new-york/shoes.jpg",
+      "reason": "You will walk 15,000 steps a day minimum. Do not wear heels or flip flops. Comfort is survival.",
+      "amazon_url": "https://www.amazon.com/s?k=comfortable+walking+shoes",
+      "category": "footwear"
+    },
+    {
+      "id": "aff-002",
+      "title": "Portable Power Bank",
+      "image": "/images/new-york/charger.jpg",
+      "reason": "Using maps and taking photos drains battery fast. You won't find outlets easily.",
+      "amazon_url": "https://www.amazon.com/s?k=portable+charger",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-003",
+      "title": "US Travel Adapter",
+      "image": "/images/new-york/adapter.jpg",
+      "reason": "If visiting from abroad, you need Type A/B adapter.",
+      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter",
+      "category": "electronics"
+    }
+  ]
+}
