@@ -1,111 +1,87 @@
 /**
  * About Page
- * Mission, values, and team information for CitySheet
+ * Personal story + Project Mission
  */
 
 import { InfoPageLayout } from '@/components/layout/InfoPageLayout'
+import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'About CitySheet - No-Fluff Travel Utility',
-  description: 'Learn about CitySheet\'s mission to provide curated, actionable travel information without the fluff. Human-verified guides for real travelers.',
-  openGraph: {
-    title: 'About CitySheet - No-Fluff Travel Utility',
-    description: 'Learn about CitySheet\'s mission to provide curated, actionable travel information without the fluff.',
-    type: 'website',
-  },
+  title: 'About CitySheet - Built by a Traveler, Not a Corp',
+  description: 'Meet the solo developer behind CitySheet and learn why we prioritize no-fluff, actionable travel guides.',
 }
 
 export default function AboutPage() {
   return (
     <InfoPageLayout
       title="About CitySheet"
-      lastUpdated="2025-12-11"
+      lastUpdated="2025-12-15"
     >
-      <h2>What is CitySheet?</h2>
-      <p>
-        CitySheet is a no-fluff travel utility designed for travelers who need real, actionable information—not blog stories about someone's perfect sunset moment or AI-generated content that all sounds the same.
-      </p>
-      <p>
-        We cut through the noise and give you what you actually need: the best restaurant in the Latin Quarter, whether the metro takes cards, which museum to skip if you only have two days, and how to pronounce the street name to a taxi driver.
-      </p>
+      {/* 1. The Personal Intro (The "Solo Guy" Story) */}
+      <div className="mb-16 p-8 bg-blue-50 dark:bg-blue-900/10 rounded-3xl border border-blue-100 dark:border-blue-800/30">
+        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
+          👋 Hi, I'm the guy behind CitySheet.
+        </h2>
+        <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed max-w-3xl">
+          I'm a guy who loves traveling and build website. I built this site because I was tired of reading 20-page blog posts just to find one good coffee shop.
+          <br /><br />
+          CitySheet isn't a giant corporation. It's just me, doing the research I wish existed when I land in a new city: clean, direct, and honest.
+          <br /><br />
+          I'm gonna keep updating with more infos I can find online (sadly I haven't been to every city listed here, but hopefully one day!) It's just a passion project for me to learn more about new places and document where I've been.
+        </p>
+      </div>
 
-      <h2>Why CitySheet Exists</h2>
-      <p>
-        Modern travel content is broken. Search for "best things to do in Paris" and you'll drown in:
-      </p>
-      <ul>
-        <li><strong>SEO-optimized blog posts</strong> with 2,000 words of fluff before getting to the point</li>
-        <li><strong>AI-generated listicles</strong> that regurgitate the same generic recommendations</li>
-        <li><strong>Influencer content</strong> optimized for Instagram, not for actual usefulness</li>
-        <li><strong>Outdated guidebooks</strong> that still recommend places that closed in 2019</li>
-      </ul>
-      <p>
-        CitySheet exists because we believe travelers deserve better. You deserve information that respects your time, your intelligence, and your unique travel needs.
-      </p>
+      {/* 2. The "Why" - Visual Grid */}
+      <div className="mb-16">
+        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-8">
+          Why I Built This
+        </h2>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* Card 1: The Problem */}
+          <div className="bg-slate-50 dark:bg-white/5 p-8 rounded-2xl border border-slate-100 dark:border-white/10">
+            <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3 flex items-center gap-3">
+              <span>🚫</span> The Problem
+            </h3>
+            <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+              Modern travel content is broken. Search for "best things to do in Paris" and you drown in SEO-optimized fluff, 10-paragraph life stories, and AI-generated listicles that all sound the same.
+            </p>
+          </div>
 
-      <h2>Our Values</h2>
+          {/* Card 2: The Solution */}
+          <div className="bg-slate-50 dark:bg-white/5 p-8 rounded-2xl border border-slate-100 dark:border-white/10">
+            <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3 flex items-center gap-3">
+              <span>✅</span> The CitySheet Way
+            </h3>
+            <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+              While I can add my finding to places I've been, I can only learn from what I see and hear online. I added a comment section so that hopefully people can correct or give tips to one another.
+            </p>
+          </div>
+        </div>
+      </div>
 
-      <h3>No Fluff, Period</h3>
-      <p>
-        Every word on CitySheet earns its place. No life stories, no "wanderlust" poetry, no 10-paragraph intros. We answer your question in the first sentence, not the seventh paragraph.
-      </p>
 
-      <h3>Actionable Over Aspirational</h3>
-      <p>
-        We don't tell you that Paris is "magical" or that you "must visit the Eiffel Tower." We tell you the best time to go (early morning, 9 AM opening), how to buy tickets (online, skip the line), and what to know before you arrive (security checks take 20+ minutes).
-      </p>
+{/* 4. Contact / Feedback */}
+      <div className="border-t border-slate-200 dark:border-white/10 pt-12">
+        <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6">
+          Help Me Improve
+        </h2>
+        <p className="text-slate-600 dark:text-slate-300 mb-6">
+          Since it's just me, mistakes might happen. If you find an error or have a suggestion, I'd love to hear from you.
+        </p>
+        
+        <div className="flex flex-wrap gap-4">
+          {/* Removed the "Email Me" button, kept only the correction link */}
+          <Link 
+            href="/corrections" 
+            className="inline-flex items-center px-6 py-2.5 bg-slate-100 dark:bg-white/10 text-slate-900 dark:text-white rounded-lg font-medium hover:bg-slate-200 dark:hover:bg-white/20 transition-colors"
+          >
+            Submit a Correction
+          </Link>
+        </div>
+      </div>
 
-      <h3>Human-Curated, Not Algorithm-Generated</h3>
-      <p>
-        While we use technology to help organize and present information, every recommendation on CitySheet is verified by real people who have actually been there. We prioritize local expertise, verified traveler experiences, and official sources over AI-generated summaries.
-      </p>
-
-      <h3>Traveler-Focused Design</h3>
-      <p>
-        CitySheet is built for people who are actually traveling, not for people who like reading about travel. That means:
-      </p>
-      <ul>
-        <li>Mobile-first design (because you're using this on your phone in a foreign city)</li>
-        <li>Offline-capable features (because you won't always have data)</li>
-        <li>Instant translation (because not everyone speaks English)</li>
-        <li>Quick-reference format (because you're standing on a street corner, not sitting at home)</li>
-      </ul>
-
-      <h3>Transparency & Trust</h3>
-      <p>
-        We're honest about how we make money (ads and affiliate links), how we gather information (verified sources and local experts), and what we don't know (we'll tell you when information is limited or uncertain).
-      </p>
-
-      <h2>Who We Are</h2>
-      <p>
-        CitySheet is built by travelers, for travelers. Our team combines decades of international travel experience with expertise in web development, user experience design, and data verification.
-      </p>
-      <p>
-        We're not a venture-backed startup trying to "disrupt" travel. We're not selling hotel packages or tour bookings. We're building a utility that we ourselves want to use when we travel—and we think you'll find it useful too.
-      </p>
-
-      <h2>What's Next</h2>
-      <p>
-        We're constantly expanding our city coverage and improving our features. Upcoming additions include:
-      </p>
-      <ul>
-        <li>More cities across Europe, Asia, and the Americas</li>
-        <li>Offline mode for accessing guides without internet</li>
-        <li>User contributions and community verification</li>
-        <li>Real-time updates for temporary closures and events</li>
-        <li>Neighborhood deep-dives for major cities</li>
-      </ul>
-
-      <h2>Get in Touch</h2>
-      <p>
-        Have a question, suggestion, or city you'd like to see covered? We'd love to hear from you.
-      </p>
-      <ul>
-        <li><strong>General inquiries:</strong> <a href="mailto:hello@citysheet.com">hello@citysheet.com</a></li>
-        <li><strong>Corrections or updates:</strong> <a href="/corrections">Submit a correction</a></li>
-        <li><strong>Partnership opportunities:</strong> <a href="mailto:partners@citysheet.com">partners@citysheet.com</a></li>
-      </ul>
     </InfoPageLayout>
   )
 }

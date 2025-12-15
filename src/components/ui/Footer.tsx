@@ -64,11 +64,6 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/methodology" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
-                  Our Methodology
-                </Link>
-              </li>
-              <li>
                 <Link href="/how-to-use" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
                   How to Use
                 </Link>

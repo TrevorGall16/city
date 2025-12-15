@@ -31,10 +31,11 @@
   ],
   "culture": {
     "etiquette_tips": [
-      "The Trash Reality: There are NO public trash cans. You must carry your trash with you until you find a bin at a convenience store (konbini) or your hotel.",
+      "Procedural Politeness: Japanese politeness is about correctness and efficiency, not emotional warmth. A lack of smiles doesn't mean they are rude; it means they are focused on doing their job perfectly.",
+      "Silence is Social Glue: Being quiet on trains isn't just a rule; it's an active behavior to respect others' space. Noise creates social friction.",
+      "The Trash Reality: There are NO public trash cans. You must carry your trash with you until you find a bin at a convenience store (konbini) or your hotel. Eat where you buy—don't walk and eat.",
       "Queue Culture: Lining up is sacred. Whether it's for the train or a restaurant, never cut the line. If there's a queue, the food is probably worth it.",
       "Cash vs Card: While modernizing, many Ramen shops, ticket machines, and temples are still CASH ONLY. Always carry 10,000 Yen in cash.",
-      "Quiet on Trains: It is dead silent. No phone calls, no loud conversations. Texting is fine, talking is rude.",
       "Escalator Sides: Stand on the LEFT, walk on the RIGHT. (Note: This swaps in Osaka).",
       "No Tipping: Excellent service is standard. Tipping causes confusion and may be returned to you as 'lost money'.",
       "Shoes Off: Look for the entryway step. If there are slippers, use them. Never wear toilet slippers outside the bathroom."
@@ -58,9 +59,16 @@
     {
       "name": "Shinjuku",
       "vibe": "Neon Metropolis",
-      "description": "Tokyo's busiest district. A mix of skyscrapers, chaotic nightlife (Kabukicho), and the serene Shinjuku Gyoen garden.",
+      "description": "Tokyo's busiest district. A mix of skyscrapers, chaotic nightlife (Kabukicho), and the serene Shinjuku Gyoen garden. Beware: The station is a labyrinth.",
       "highlights": ["Kabukicho nightlife", "Omoide Yokocho", "Golden Gai"],
       "image": "/images/tokyo/shinjuku.jpg"
+    },
+    {
+      "name": "Yanaka",
+      "vibe": "Old Town Calm",
+      "description": "A rare survivor of WWII bombings. Low-rise buildings, many temples, and a distinct 'Shitamachi' (downtown) residential vibe. It feels like a different era.",
+      "highlights": ["Yanaka Ginza", "Nezu Shrine", "Local Cats"],
+      "image": "/images/tokyo/yanaka.jpg"
     },
     {
       "name": "Shimokitazawa",
@@ -85,10 +93,10 @@
       "icon": "Info",
       "summary": "Essential friction-removers for a smooth trip.",
       "details": [
+        "Station Shock: Major stations (Shinjuku, Tokyo) are mini-cities. Taking the wrong exit can put you 20 minutes away from your destination. Check exit numbers carefully.",
         "Last Train: Trains stop around midnight. If you miss it, taxis are expensive. Locals sleep in Manga Cafes or Karaoke booths.",
         "Rush Hour: Avoid trains between 7:30am - 9:00am. It is crush-capacity.",
-        "Luggage Forwarding (Takkyubin): Don't haul bags on trains. Send luggage from the airport to your hotel for ~$20. Look for the 'Black Cat' logo.",
-        "IC Cards (Suica/Pasmo): Use these for EVERYTHING—trains, vending machines, and convenience stores."
+        "Luggage Forwarding (Takkyubin): Don't haul bags on trains. Send luggage from the airport to your hotel for ~$20. Look for the 'Black Cat' logo."
       ]
     },
     {
@@ -100,7 +108,7 @@
       "details": [
         "JR Yamanote Line: The green circular line connecting major hubs (Shibuya, Shinjuku, Tokyo).",
         "Tokyo Metro: 13 subway lines. Google Maps is essential for navigating transfers.",
-        "Google Maps: The only navigation app you need. It tells you exactly which car to ride for the fastest exit."
+        "IC Cards (Suica/Pasmo): Use these for EVERYTHING—trains, vending machines, and convenience stores."
       ]
     },
     {
@@ -114,41 +122,48 @@
         "Fake Monks: Do not accept 'golden cards' or blessings from monks on the street who demand cash.",
         "'Girl' Bars: Avoid places where staff stand outside aggressively pulling you in."
       ]
-    },
-    {
-      "id": "logistics-apps",
-      "slug": "essential-apps",
-      "title": "Apps to Download",
-      "icon": "Smartphone",
-      "summary": "These apps will make Tokyo navigation seamless.",
-      "details": [
-        "Google Maps: Essential for train routes.",
-        "Google Translate: Use the camera feature to read menus.",
-        "Suica (Apple Wallet): Add a transit card directly to your iPhone.",
-        "Tabelog: The Japanese 'Yelp'. 3.5 stars is a very high score here."
-      ]
     }
   ],
   "must_eat": [
     {
-      "id": "food-010",
-      "slug": "yakitori",
-      "name_en": "Yakitori",
-      "name_local": "焼き鳥",
+      "id": "food-015",
+      "slug": "teishoku",
+      "name_en": "Teishoku (Set Meal)",
+      "name_local": "定食",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Grilled chicken skewers cooked over charcoal. Not just breast meat—try skin (kawa), thigh (momo), and meatballs (tsukune). The quintessential after-work food paired with beer.",
-      "image": "/images/tokyo/yakitori.jpg"
+      "description": "The real lunch of Tokyo office workers. A balanced tray with a main (grilled fish, ginger pork, fried chicken), rice, miso soup, and pickles. Fast, healthy, and everywhere (Ootoya, Yayoiken).",
+      "image": "/images/tokyo/teishoku.jpg"
     },
     {
-      "id": "food-011",
-      "slug": "tonkatsu",
-      "name_en": "Tonkatsu",
-      "name_local": "とんかつ",
+      "id": "food-016",
+      "slug": "izakaya-culture",
+      "name_en": "Izakaya (Japanese Pub)",
+      "name_local": "居酒屋",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Breaded, deep-fried pork cutlet. Crisp, juicy, and surgically precise. Served with shredded cabbage, rice, and miso soup. A comfort food perfection.",
-      "image": "/images/tokyo/tonkatsu.jpg"
+      "description": "Where Tokyo unwinds. Alcohol is the social lubricant that allows strict hierarchies to dissolve. Order shared plates: karaage, agedashi tofu, potato salad, and sashimi. It's noisy, smoky, and essential.",
+      "image": "/images/tokyo/izakaya.jpg"
+    },
+    {
+      "id": "food-017",
+      "slug": "depachika",
+      "name_en": "Department Store Food Halls",
+      "name_local": "デパ地下",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Located in the basements of massive department stores (Isetan, Mitsukoshi). A wonderland of high-end bento boxes, sweets, and gifts. Go after 7pm for discounts.",
+      "image": "/images/tokyo/depachika.jpg"
+    },
+    {
+      "id": "food-018",
+      "slug": "breakfast-reality",
+      "name_en": "Tokyo Breakfast",
+      "name_local": "朝ご飯",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Don't look for eggs and toast. The local breakfast is either a traditional set (rice, fish, miso soup) or a pastry from a bakery/konbini. Cafes opening before 10am are rare.",
+      "image": "/images/tokyo/breakfast.jpg"
     },
     {
       "id": "food-002",
@@ -157,18 +172,8 @@
       "name_local": "ラーメン",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Tokyo's soul food. Rich broth, springy noodles, and toppings. Slurping is encouraged—it cools the noodles and enhances flavor.",
+      "description": "Tokyo's soul food. Rich broth, springy noodles, and toppings. Slurping is encouraged—it cools the noodles and enhances flavor. One bowl per person is mandatory.",
       "image": "/images/tokyo/ramen.jpg"
-    },
-    {
-      "id": "food-012",
-      "slug": "gyudon",
-      "name_en": "Gyudon (Beef Bowl)",
-      "name_local": "牛丼",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": "Thinly sliced beef and onions simmered in soy broth over rice. Fast, cheap (¥500), and available 24/7 at chains like Yoshinoya or Sukiya. The local fast food.",
-      "image": "/images/tokyo/gyudon.jpg"
     },
     {
       "id": "food-001",
@@ -181,24 +186,24 @@
       "image": "/images/tokyo/sushi.jpg"
     },
     {
-      "id": "food-013",
-      "slug": "japanese-curry",
-      "name_en": "Japanese Curry",
-      "name_local": "カレーライス",
+      "id": "food-010",
+      "slug": "yakitori",
+      "name_en": "Yakitori",
+      "name_local": "焼き鳥",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Thick, mild, and addictive. Completely different from Indian or Thai curry. Served with rice and often a pork cutlet (Katsu Curry). Go to CoCo Ichibanya to try it.",
-      "image": "/images/tokyo/curry.jpg"
+      "description": "Grilled chicken skewers cooked over charcoal. Not just breast meat—try skin (kawa), thigh (momo), and meatballs (tsukune).",
+      "image": "/images/tokyo/yakitori.jpg"
     },
     {
-      "id": "food-014",
-      "slug": "udon-soba",
-      "name_en": "Udon & Soba",
-      "name_local": "うどん / そば",
+      "id": "food-011",
+      "slug": "tonkatsu",
+      "name_en": "Tonkatsu",
+      "name_local": "とんかつ",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Thick wheat noodles (Udon) or thin buckwheat noodles (Soba). Cheap, fast, and slurped standing up at train station counters.",
-      "image": "/images/tokyo/soba.jpg"
+      "description": "Breaded, deep-fried pork cutlet. Crisp, juicy, and surgically precise. Served with shredded cabbage, rice, and miso soup.",
+      "image": "/images/tokyo/tonkatsu.jpg"
     },
     {
       "id": "food-005",
@@ -212,6 +217,22 @@
     }
   ],
   "must_see": [
+    {
+      "title": "Local Life",
+      "id": "local-life",
+      "items": [
+        {
+          "id": "loc-001",
+          "slug": "shotengai",
+          "name_en": "Shotengai (Shopping Street)",
+          "name_local": "商店街",
+          "category": "sight",
+          "is_generic_staple": true,
+          "description": "Traditional covered shopping arcades found in every neighborhood. No big brands, just local butchers, tea shops, and cheap croquette stands. This is where real life happens.",
+          "image": "/images/tokyo/shotengai.jpg"
+        }
+      ]
+    },
     {
       "title": "Nightlife & Alleys",
       "id": "nightlife",
@@ -237,34 +258,6 @@
           "description": "A cluster of over 200 tiny bars (seating 4-6 people) packed into narrow alleys. A relic of post-war Tokyo. Cover charges apply.",
           "image": "/images/tokyo/golden-gai.jpg",
           "geo": { "lat": 35.6944, "lng": 139.7047 }
-        }
-      ]
-    },
-    {
-      "title": "Neighborhood Wandering",
-      "id": "wandering",
-      "items": [
-        {
-          "id": "walk-001",
-          "slug": "shimokitazawa-walk",
-          "name_en": "Shimokitazawa",
-          "name_local": "下北沢",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "The hipster neighborhood. Vintage clothing, vinyl records, and indie cafes. No skyscrapers here, just vibes.",
-          "image": "/images/tokyo/shimokitazawa-walk.jpg",
-          "geo": { "lat": 35.6611, "lng": 139.6672 }
-        },
-        {
-          "id": "walk-002",
-          "slug": "shibuya-crossing",
-          "name_en": "Shibuya Crossing",
-          "name_local": "渋谷スクランブル交差点",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "The world's busiest pedestrian crossing. Organized chaos. Best viewed from the Mag's Park rooftop or Starbucks.",
-          "image": "/images/tokyo/shibuya-crossing.jpg",
-          "geo": { "lat": 35.6595, "lng": 139.7004 }
         }
       ]
     },
