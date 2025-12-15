@@ -19,6 +19,7 @@ import { AffiliateSection } from '@/components/features/AffiliateSection'
 import { AdUnit } from '@/components/ads/AdUnit' // ✅ Single, correct import
 import type { Metadata } from 'next'
 import * as Icons from 'lucide-react'
+import { HeroGlass } from '@/components/ui/HeroGlass'
 
 // Type definition for Page Props in Next.js 15+
 interface PageProps {
@@ -196,10 +197,13 @@ export default async function CityPage({ params }: PageProps) {
         </div>
       </div>
 
-      {/* Hero Section */}
+{/* Hero Section */}
       <section className="h-[50vh] min-h-[400px] relative overflow-hidden group">
+        
+        {/* Country Flag Line */}
         <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${getFlagGradient(city.country_code)} z-20`} />
         
+        {/* Main Image */}
         <Image 
           src={city.hero_image} 
           alt={city.name} 
@@ -208,32 +212,19 @@ export default async function CityPage({ params }: PageProps) {
           className="object-cover transition-transform duration-[20s] group-hover:scale-110" 
         />
         
+        {/* Global Dark Gradient */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/60" />
         
+        {/* Content Wrapper */}
         <div className="absolute inset-0 flex items-center justify-center p-4">
-          <div className="relative max-w-4xl mx-auto text-center rounded-[3rem] overflow-visible p-8 md:p-12">
-            
-            <div className={`
-              absolute inset-0 
-              bg-black/30
-              backdrop-blur-xl
-              border border-white/10 
-              rounded-[3rem] 
-              shadow-[0_0_80px_rgba(0,0,0,0.5)]
-            `} />
-            
-            <div className="absolute inset-0 opacity-[0.03] bg-[url('https://grainy-gradients.vercel.app/noise.svg')] rounded-[3rem]" />
+          
+          {/* ✅ THE NEW ANIMATED GLASS COMPONENT */}
+          <HeroGlass 
+            title={city.name}
+            subtitle={city.intro_vibe}
+            fontClass={getCityFont(citySlug)}
+          />
 
-            <div className="relative z-10">
-              <h1 className={`text-5xl md:text-8xl drop-shadow-2xl mb-4 ${getCityFont(citySlug)}`}>
-                {city.name}
-              </h1>
-              <p className="text-lg md:text-2xl text-white/90 font-medium max-w-2xl mx-auto leading-relaxed drop-shadow-md">
-                {city.intro_vibe}
-              </p>
-            </div>
-
-          </div>
         </div>
       </section>
 
