@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-// ✅ FIX: Use the new client, not the old auth-helpers
 import { createClient } from '@/lib/supabase/client'
 import { User, Loader2, Lock, KeyRound } from 'lucide-react'
 import { useRouter } from 'next/navigation'
@@ -14,7 +13,7 @@ export default function ProfileForm() {
   const [saving, setSaving] = useState(false)
   const [message, setMessage] = useState<{ type: 'success' | 'error', text: string } | null>(null)
   
-  // --- 1. PROFILE STATE (YOUR ORIGINAL FEATURES) ---
+  // --- 1. PROFILE STATE ---
   const [formData, setFormData] = useState({
     full_name: '',
     website: '',
@@ -22,7 +21,7 @@ export default function ProfileForm() {
   })
   const [isNameLocked, setIsNameLocked] = useState(false)
 
-  // --- 2. PASSWORD STATE (NEW FEATURE) ---
+  // --- 2. PASSWORD STATE ---
   const [newPassword, setNewPassword] = useState('')
   const [passwordMessage, setPasswordMessage] = useState('')
 
@@ -32,7 +31,6 @@ export default function ProfileForm() {
         const { data: { user } } = await supabase.auth.getUser()
 
         if (user) {
-          // Check metadata first
           const name = user.user_metadata?.full_name || ''
           
           setFormData({
@@ -41,7 +39,6 @@ export default function ProfileForm() {
             avatar_url: user.user_metadata?.avatar_url || '',
           })
 
-          // 🔒 LOCK LOGIC: If a name exists, lock it.
           if (name && name.trim() !== '') {
             setIsNameLocked(true)
           }
@@ -56,7 +53,7 @@ export default function ProfileForm() {
     getProfile()
   }, [supabase])
 
-  // --- HANDLE PROFILE UPDATE (YOUR LOGIC) ---
+  // --- HANDLE PROFILE UPDATE ---
   const handleProfileSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setSaving(true)
@@ -73,10 +70,7 @@ export default function ProfileForm() {
       if (error) throw error
 
       setMessage({ type: 'success', text: 'Profile updated successfully!' })
-      
-      // If we just set the name for the first time, lock it immediately
       if (formData.full_name) setIsNameLocked(true)
-        
       router.refresh()
     } catch (error) {
       console.error(error)
@@ -86,7 +80,7 @@ export default function ProfileForm() {
     }
   }
 
-  // --- HANDLE PASSWORD UPDATE (NEW LOGIC) ---
+  // --- HANDLE PASSWORD UPDATE ---
   const handlePasswordSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setSaving(true)
@@ -120,13 +114,13 @@ export default function ProfileForm() {
   return (
     <div className="max-w-md mx-auto space-y-8">
       
-      {/* --- CARD 1: PROFILE INFO (YOUR ORIGINAL FORM) --- */}
+      {/* --- PROFILE INFO --- */}
       <div className="bg-white dark:bg-slate-900 p-8 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
         <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6">Your Profile</h2>
         
         <form onSubmit={handleProfileSubmit} className="space-y-6">
           
-          {/* Full Name Input */}
+          {/* Full Name */}
           <div>
             <label htmlFor="fullName" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">
               Display Name
@@ -147,24 +141,20 @@ export default function ProfileForm() {
                 `}
                 placeholder="e.g. Alex Traveler"
               />
-              {/* Icon changes based on locked state */}
               {isNameLocked ? (
                 <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
               ) : (
                 <User className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
               )}
             </div>
-            
-            {/* Helper Text */}
             {isNameLocked && (
               <p className="text-xs text-slate-500 mt-1.5 flex items-center gap-1">
-                <Lock className="w-3 h-3" />
-                Name cannot be changed once set.
+                <Lock className="w-3 h-3" /> Name cannot be changed once set.
               </p>
             )}
           </div>
 
-          {/* Website Input */}
+          {/* Website */}
           <div>
             <label htmlFor="website" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">
               Website (Optional)
@@ -179,14 +169,12 @@ export default function ProfileForm() {
             />
           </div>
 
-          {/* Status Message */}
           {message && (
             <div className={`p-3 rounded-lg text-sm ${message.type === 'success' ? 'bg-green-50 text-green-700' : 'bg-red-50 text-red-700'}`}>
               {message.text}
             </div>
           )}
 
-          {/* Submit Button */}
           <button
             type="submit"
             disabled={saving}
@@ -198,7 +186,7 @@ export default function ProfileForm() {
         </form>
       </div>
 
-      {/* --- CARD 2: PASSWORD CHANGE (NEW ADDITION) --- */}
+      {/* --- PASSWORD CHANGE --- */}
       <div className="bg-slate-50 dark:bg-slate-900/50 p-8 rounded-2xl border border-slate-200 dark:border-slate-800">
         <h3 className="font-semibold text-lg flex items-center gap-2 mb-4 text-slate-900 dark:text-white">
           <KeyRound className="w-5 h-5" />
@@ -231,7 +219,6 @@ export default function ProfileForm() {
           </button>
         </form>
       </div>
-
     </div>
   )
 }

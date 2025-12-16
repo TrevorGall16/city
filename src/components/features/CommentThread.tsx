@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { createClient } from '@/lib/supabase/client'
-import { CommentItem } from './CommentItem'
+import { CommentItem } from '@/components/features/CommentItem'
 import { toast } from 'sonner'
 import { MessageCircle, Loader2, Send } from 'lucide-react'
 
@@ -75,8 +75,11 @@ export function CommentThread({ citySlug, placeSlug }: CommentThreadProps) {
   }
 
   // 3. Handlers passed down to Items
-  const handleVote = async (commentId: string, value: number) => {
-    if (!user) return toast.error('Please log in to vote')
+const handleVote = async (commentId: string, value: number) => {
+  if (!user) {
+    toast.error('Please log in to vote')
+    return // ✅ Returns void (undefined)
+  }
     
     // Optimistic UI Update
     setComments(prev => updateVoteInTree(prev, commentId, value))
