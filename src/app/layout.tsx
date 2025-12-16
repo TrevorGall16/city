@@ -58,6 +58,21 @@ export const metadata: Metadata = {
   other: {
     'google-adsense-account': 'ca-pub-8732422930809097',
   },
+// 3. ✅ NEW: Favicons & Manifest
+  icons: {
+    icon: [
+      { url: '/favicon-96x96.png', type: 'image/png', sizes: '96x96' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', rel: 'shortcut icon' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180' },
+    ],
+  },
+  manifest: '/site.webmanifest',
+  appleWebApp: {
+    title: 'CityBasic',
+  },
 }
 
 export default function RootLayout({
