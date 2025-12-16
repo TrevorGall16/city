@@ -7,15 +7,9 @@ import { Calendar, DollarSign, Globe, FileText } from 'lucide-react'
 import type { City } from '@/types' // Import City type
 import { CheatSheetWidget } from './CheatSheetWidget' // Import the widget
 
+// ✅ ONE Single, Correct Interface
 interface AtAGlanceDashboardProps {
-  city: City // ✅ Pass the full city object instead of individual strings
-}
-
-interface AtAGlanceDashboardProps {
-  bestTimeToVisit: string
-  currency: string
-  language: string
-  vibe: string
+  city: City 
 }
 
 export function AtAGlanceDashboard({ city }: AtAGlanceDashboardProps) {
@@ -32,7 +26,7 @@ export function AtAGlanceDashboard({ city }: AtAGlanceDashboardProps) {
             </div>
             <div>
               <p className="text-xs text-slate-500 uppercase font-bold tracking-wide">Best Time</p>
-              {/* Logic to find 'Best' weather from your data could go here, for now using a placeholder logic or passing it in */}
+              {/* You can map this from city data later if available, hardcoded for now is fine */}
               <p className="font-semibold text-slate-900 dark:text-white">Spring/Fall</p> 
             </div>
           </div>
@@ -44,7 +38,9 @@ export function AtAGlanceDashboard({ city }: AtAGlanceDashboardProps) {
             </div>
             <div>
               <p className="text-xs text-slate-500 uppercase font-bold tracking-wide">Currency</p>
-              <p className="font-semibold text-slate-900 dark:text-white">{city.stats.currency}</p>
+              <p className="font-semibold text-slate-900 dark:text-white">
+                {city.stats?.currency || 'USD'}
+              </p>
             </div>
           </div>
 
