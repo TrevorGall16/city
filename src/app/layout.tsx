@@ -49,9 +49,14 @@ const hkFont = Barlow_Condensed({ weight: '800', subsets: ['latin'], variable: '
 export const metadata: Metadata = {
   title: 'CitySheet - The Ultimate Travel Guides',
   description: 'Curated travel recommendations with instant translation for international travelers. Navigate foreign cities without language barriers.',
-  // ✅ ADDED: Google Verification
+// 1. Google Search Console Verification (Keep this)
   verification: {
     google: 'rFFpomnX_REM4YyHzqaM9x5fP3fygbI2clEJ31zFtpA',
+  },
+
+  // 2. ✅ ADD THIS SECTION (Missing in your file)
+  other: {
+    'google-adsense-account': 'ca-pub-8732422930809097',
   },
 }
 
