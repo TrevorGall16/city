@@ -31,20 +31,24 @@
   ],
   "culture": {
     "etiquette_tips": [
+      "The Sidewalk Code: Treat the sidewalk like a highway. Walk Right, Pass Left. Never stop in the middle; pull over to the side. Groups must single up to let others pass.",
+      "The Backpack Rule: On the subway, take your backpack OFF and hold it between your legs. Wearing it doubles your footprint and hits people. It is the #1 tourist marker.",
       "Efficiency is Respect: Moving fast is how New Yorkers show respect for other people's time. Don't stop in the middle of the sidewalk. Step to the side.",
       "Kind, Not Nice: A New Yorker won't smile at you or do small talk, but if you fall down the stairs, they will be the first to pick you up. Don't confuse speed with rudeness.",
       "Tipping Nuance: 20% pre-tax is the minimum for sit-down service. Bad service? Still 15-18%. For counter service/tablets, $1-2 or skipping is fine. Bars are $1/beer or $2/cocktail. Housekeeping is $3-5/day. It is not optional; it is their wage.",
       "The Subway Swagger: Let people OFF before you get ON. Stand aside. If a car is empty in rush hour, DO NOT GET IN (it has a broken A/C or a bad smell).",
       "No Greetings: Do not say hello to strangers in elevators or hallways. Silence is privacy. Directness is valued; if you need help, ask directly and you will receive it.",
-      "Pizza Rules: Fold the slice down the center ('Libretto style'). Never use a fork and knife unless you want to be ridiculed.",
-      "Eye Contact: We ignore each other to give privacy in a crowded city. If you see someone yelling or talking to themselves, do not engage, do not stare, just keep walking."
+      "Pizza Rules: Fold the slice down the center ('Libretto style'). Never use a fork and knife unless you want to be ridiculed. Order 'Regular' or 'Plain' slice, not 'Cheese'.",
+      "Escalator Discipline: Stand Right, Walk Left. Blocking the left side is a major offense.",
+      "Eye Contact: We ignore each other to give privacy in a crowded city. If you see someone yelling or talking to themselves ('Showtime' performers included), do not engage, do not stare, just keep walking."
     ],
     "essential_phrases": [
       { "src": "Hello", "local": "Hey / Hi", "phonetic": "Standard" },
       { "src": "Excuse me (move)", "local": "Watch your back", "phonetic": "Standard" },
       { "src": "Coffee", "local": "Regular Coffee", "phonetic": "Means 'with milk and sugar'" },
       { "src": "Train", "local": "The Subway", "phonetic": "Not 'Metro' or 'Tube'" },
-      { "src": "Convenience Store", "local": "Bodega", "phonetic": "boh-DAY-gah" }
+      { "src": "Convenience Store", "local": "Bodega", "phonetic": "boh-DAY-gah" },
+      { "src": "Sandwich Order", "local": "Baconeggandcheese", "phonetic": "One word. Add 'saltpepperketchup'." }
     ]
   },
   "neighborhoods": [
@@ -58,7 +62,7 @@
     {
       "name": "West Village",
       "vibe": "Charming & Expensive",
-      "description": "Once the center of 1960s bohemia and the gay rights movement (Stonewall), it is now a playground for celebrities. Its winding, off-grid streets (some still cobblestone) defy the Manhattan grid system.",
+      "description": "Once the center of 1960s bohemia and the gay rights movement (Stonewall), it is now a playground for celebrities. Its winding, off-grid streets (some still cobblestone) defy the Manhattan grid system. Navigation here is landmark-based.",
       "highlights": ["Washington Square Park", "Bleeker Street", "Jazz Clubs"],
       "image": "/images/new-york/west-village.jpg"
     },
@@ -82,9 +86,58 @@
       "description": "The birthplace of the Harlem Renaissance in the 1920s. It remains a cultural capital with historic brownstones, the legendary Apollo Theater, and a vibrant community energy.",
       "highlights": ["Apollo Theater", "Sylvia's", "Marcus Garvey Park"],
       "image": "/images/new-york/harlem.jpg"
+    },
+    {
+      "name": "Ridgewood",
+      "vibe": "The Cool Frontier",
+      "description": "Identified as a top neighborhood to watch in 2025. It offers a mix of historic architecture and new cultural venues, serving as a quieter, slightly more affordable alternative to the now-commercialized Williamsburg.",
+      "highlights": ["Historic Architecture", "Local Cafes", "Art Venues"],
+      "image": "/images/new-york/ridgewood.jpg"
+    },
+    {
+      "name": "Bushwick",
+      "vibe": "Industrial & Art",
+      "description": "The hub for underground nightlife, warehouse raves, and street art. It is less polished than Manhattan, offering a grittier, industrial aesthetic.",
+      "highlights": ["Street Art Collective", "Warehouse Parties", "Roberta's"],
+      "image": "/images/new-york/bushwick.jpg"
+    },
+    {
+      "name": "Arthur Avenue (The Bronx)",
+      "vibe": "Real Little Italy",
+      "description": "Known as the 'Real Little Italy,' this neighborhood retains the authentic markets, pork stores, and multi-generational Italian families that have largely vanished from Manhattan's Mulberry Street.",
+      "highlights": ["Retail Markets", "Fresh Pasta Shops", "Cigar Rollers"],
+      "image": "/images/new-york/arthur-avenue.jpg"
+    },
+    {
+      "name": "Jackson Heights",
+      "vibe": "Global Epicenter",
+      "description": "The most diverse zip code on earth. 'Little India/Himalaya' meets a massive Latin American hub. The place for Tibetan momos and Colombian arepas.",
+      "highlights": ["74th Street", "Roosevelt Ave", "Diverse Cuisine"],
+      "image": "/images/new-york/jackson-heights.jpg"
+    },
+    {
+      "name": "Flushing",
+      "vibe": "The Real Chinatown",
+      "description": "A massive, modern Asian metropolis. Offers a wider diversity of regional cuisines (Sichuan, Northern, Taiwanese) than Manhattan's Chinatown.",
+      "highlights": ["Food Courts", "Regional Chinese Food", "Busy Markets"],
+      "image": "/images/new-york/flushing.jpg"
     }
   ],
   "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Getting Around",
+      "icon": "Train",
+      "summary": "The Subway is the lifeline. Taxis are for rain.",
+      "details": [
+        "OMNY vs. MetroCard: The MetroCard is sunsetting. Use OMNY (tap credit card/phone) at the turnstile. The 'Fare Cap' gives you free rides after 12 paid trips/week (Mon-Sun) on the SAME device.",
+        "Express vs. Local: Crucial! 'Express' trains (white circle on map) skip minor stations. 'Local' trains (black circle) stop everywhere. Locals 'cross-platform transfer' to save time.",
+        "Rush Hour: 07:30–10:00 and 16:30–18:30 are intense. Trains are packed. Pushing is physics, not aggression.",
+        "Navigation Apps: Use 'Citymapper' for subway details (which car to board). Use Google Maps for general walking.",
+        "Weekend Changes: Trains often re-route on weekends for maintenance. Check the MTA website or apps before travel."
+      ]
+    },
     {
       "id": "logistics-survival",
       "slug": "local-survival",
@@ -93,9 +146,9 @@
       "summary": "How to survive the concrete jungle.",
       "details": [
         "Sensory Reality: Sirens are constant. Trash bags sit on sidewalks (no alleys). In summer, the subway platforms can be 10-15°C hotter than the street. Accept the grit.",
-        "The Bathroom Code: Public restrooms don't exist. Use hotel lobbies, department stores (Macy's/Bloomingdale's), or buy a coffee at Starbucks to get the code.",
-        "Money: Cards are accepted almost everywhere. Keep cash for tips, small bodegas, and street carts. ATM fees in bodegas are high.",
-        "Stairs Everywhere: The subway is old (built 1904). Elevators are rare or broken. Be prepared to carry luggage up many flights."
+        "The Bathroom Code: Public restrooms are rare. Use the 'Got2Go' or 'NYRestroom' apps. Reliable options: Bryant Park, Grand Central, Macy's.",
+        "Navigation Math: 20 street blocks (North-South) = 1 mile (20 mins). Avenue blocks (East-West) are 3x longer. Use the 'Avenue Math' algorithm to find cross streets.",
+        "Money: Cards are accepted almost everywhere. Keep cash for tips, small bodegas, and street carts. ATM fees in bodegas are high."
       ]
     },
     {
@@ -108,20 +161,7 @@
         "The Golden Rule: Treat the sidewalk like a highway. Walk on the right. Pass on the left.",
         "Never Stop Here: Subway exits, top of escalators, or crosswalk corners. Stopping here creates a pile-up.",
         "Pull Over: If you need to check a map or text, step flush against a building. Standing still in the flow of traffic is the ultimate sin.",
-        "Luggage: Stopping with luggage in rush hour will result in instant verbal hostility."
-      ]
-    },
-    {
-      "id": "logistics-transit",
-      "slug": "getting-around",
-      "title": "Getting Around",
-      "icon": "Train",
-      "summary": "The Subway is the lifeline. Taxis are for rain.",
-      "details": [
-        "Express vs. Local: Same line color ≠ same stops. 'Express' trains skip many stations. Check the map carefully. 'Uptown' and 'Downtown' often have separate entrances.",
-        "Rush Hour: 07:30–10:00 and 16:30–18:30 are intense. Trains are packed. Pushing is physics, not aggression.",
-        "Payment: Use OMNY (tap credit card/phone) at the turnstile. Fare evasion fines are real ($100) and police do check.",
-        "Walking: You will walk 15,000+ steps a day. Wear comfortable shoes. Heels are for Uber rides only."
+        "Jaywalking (2025): Legalized, but cars still have right of way. Cross when safe, but stay alert."
       ]
     },
     {
@@ -133,7 +173,8 @@
       "details": [
         "Block-by-Block: Safety changes instantly. A busy street is safe; a deserted one is not. Late night, stick to populated avenues.",
         "The Unstable: If someone is yelling or talking to themselves, ignore them. Do not stare, do not engage, just keep walking.",
-        "Times Square Scams: Men handing out 'free' CDs will demand money. Costumed characters (Elmo/Spiderman) can get aggressive if you take photos without paying.",
+        "Times Square Scams: Costumed characters (Elmo/Mickey) will demand money ($20+) if you take a photo. 'Free' CD guys will intimidate you into paying. Ignore them.",
+        "Pedicabs: A notorious trap. They charge exorbitant per-minute rates. Avoid or negotiate price upfront.",
         "Phone Snatching: Don't stand near the subway doors holding your phone loosely. Thieves grab them just as doors close."
       ]
     }
@@ -146,8 +187,28 @@
       "name_local": "A Slice",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The 'Slice' is a distinct food group from the 'Whole Pie'. It is the fast food of daily life, eaten standing up or walking. It is thin, greasy, and foldable. Do not compare it to sit-down pizza; it serves a different purpose.",
+      "description": "The 'Slice' is a distinct food group from the 'Whole Pie'. It is the fast food of daily life, eaten standing up or walking. It is thin, greasy, and foldable. Order a 'Regular' slice (not 'cheese'). Fold it to eat.",
       "image": "/images/new-york/pizza-slice.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "bagel",
+      "name_en": "Bagel with Lox",
+      "name_local": "Everything Bagel",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Brought by Polish-Jewish immigrants, a true NYC bagel is boiled before baking. 'Everything' seasoning is the default. The Toasting Schism: Purists say never toast a fresh morning bagel. Locals often do anyway. Know your order before reaching the counter.",
+      "image": "/images/new-york/bagel.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "bacon-egg-cheese",
+      "name_en": "Bacon Egg and Cheese",
+      "name_local": "BEC",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "The bodega breakfast staple. Served on a roll (not toast), it is efficient, salty, and cheap. Order it as one word: 'Baconeggandcheese'. Add 'saltpepperketchup' for the full experience.",
+      "image": "/images/new-york/bec.jpg"
     },
     {
       "id": "food-010",
@@ -170,24 +231,14 @@
       "image": "/images/new-york/appetizing.jpg"
     },
     {
-      "id": "food-002",
-      "slug": "bagel",
-      "name_en": "Bagel with Lox",
-      "name_local": "Everything Bagel",
+      "id": "food-016",
+      "slug": "chopped-cheese",
+      "name_en": "Chopped Cheese",
+      "name_local": "Chopped Cheese",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Brought by Polish-Jewish immigrants, a true NYC bagel is boiled before baking, creating a shiny, crispy crust and dense, chewy interior. 'Everything' seasoning is the local default. Never toast a fresh bagel.",
-      "image": "/images/new-york/bagel.jpg"
-    },
-    {
-      "id": "food-004",
-      "slug": "bacon-egg-cheese",
-      "name_en": "Bacon Egg and Cheese",
-      "name_local": "BEC",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": "The bodega breakfast staple. Served on a roll (not toast), it is efficient, salty, and cheap. It is the great equalizer of New York, eaten by construction workers and CEOs alike. Order it 'salt-pepper-ketchup'.",
-      "image": "/images/new-york/bec.jpg"
+      "description": "A Harlem/Bronx icon now citywide. Ground beef chopped on a grill with onions, peppers, and melted American cheese on a hero roll. A working-class staple. Authenticity check: cheese must be melted INTO the meat.",
+      "image": "/images/new-york/chopped-cheese.jpg"
     },
     {
       "id": "food-015",
@@ -262,7 +313,7 @@
           "name_local": "Central Park",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Designed in 1857 by Frederick Law Olmsted and Calvert Vaux as the nation's first major public park. It was conceived as a 'democratic space' for all classes to mingle, requiring the movement of millions of cartloads of earth to create. It is entirely man-made. Don't just stay at the entrance; go deep to the Ramble to find true silence or the Jacqueline Kennedy Onassis Reservoir for the classic jogging loop.",
+          "description": "Designed in 1857 by Frederick Law Olmsted and Calvert Vaux as the nation's first major public park. It was conceived as a 'democratic space' for all classes to mingle, requiring the movement of millions of cartloads of earth to create. It is entirely man-made. Don't just stay at the entrance; go deep to the Ramble to find true silence or the Jacqueline Kennedy Onassis Reservoir for the classic jogging loop. Use lampposts to navigate.",
           "image": "/images/new-york/central-park.jpg",
           "geo": { "lat": 40.7829, "lng": -73.9654 }
         },
@@ -284,7 +335,7 @@
           "name_local": "Prospect Park",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Brooklyn's masterpiece. The designers considered this their 'better' park because they weren't constrained by a rectangular grid. It features the Long Meadow, a mile of unbroken green space.",
+          "description": "Brooklyn's masterpiece. The designers considered this their 'better' park because they weren't constrained by a rectangular grid. It features the Long Meadow, a mile of unbroken green space. Less manicured than Central Park.",
           "image": "/images/new-york/prospect-park.jpg",
           "geo": { "lat": 40.6602, "lng": -73.9690 }
         },
@@ -315,6 +366,17 @@
           "description": "A vital transit hub and home to the city's most famous Greenmarket (Farmers Market). It is a center for political protests, street chess, and raw urban energy. It grounds you in the reality of daily NY life.",
           "image": "/images/new-york/union-square.jpg",
           "geo": { "lat": 40.7359, "lng": -73.9911 }
+        },
+        {
+          "id": "mar-02",
+          "slug": "queens-night-market",
+          "name_en": "Queens Night Market",
+          "name_local": "Queens Night Market",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "The ultimate food event (Saturdays). Features price-capped ($5-$6) global cuisines from the most diverse borough. A true community vibe.",
+          "image": "/images/new-york/queens-market.jpg",
+          "geo": { "lat": 40.7456, "lng": -73.8464 }
         }
       ]
     },
@@ -354,6 +416,17 @@
           "description": "A 1930s Art Deco masterpiece. It offers a better view than the Empire State Building because you can actually *see* the Empire State Building from here, alongside a sweeping view of Central Park.",
           "image": "/images/new-york/top-rock.jpg",
           "geo": { "lat": 40.7587, "lng": -73.9787 }
+        },
+        {
+          "id": "view-004",
+          "slug": "summit-one",
+          "name_en": "Summit One Vanderbilt",
+          "name_local": "Summit",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "The modern view experience. Immersive art, glass floors, and mirrored rooms. Very Instagram-centric but offers incredible perspectives of Midtown.",
+          "image": "/images/new-york/summit.jpg",
+          "geo": { "lat": 40.7527, "lng": -73.9776 }
         }
       ]
     },
