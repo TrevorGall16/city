@@ -6,7 +6,7 @@ import { createClient } from '@/lib/supabase/client'
 import { User, Loader2, Lock, KeyRound } from 'lucide-react'
 import { useRouter } from 'next/navigation'
 
-export function ProfileForm() {
+export default function ProfileForm() {
   const supabase = createClient()
   const router = useRouter()
   
