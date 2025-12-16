@@ -9,7 +9,7 @@
   "general_info": {
     "population": "~14 million (city) / ~38 million (metro area)",
     "is_capital": true,
-    "description": "Tokyo is the capital of Japan and the world's most populous metropolitan area. A city of contrasts, Tokyo seamlessly blends ancient temples with skyscrapers, traditional tea ceremonies with cutting-edge technology, and serene gardens with the chaotic energy of Shibuya Crossing."
+    "description": "Tokyo is not just a city; it is a high-efficiency operating system designed to process 37 million people. It is defined by rigid unwritten protocols ('Meiwaku' or avoiding nuisance) and complex logistical flows. To enjoy it, you must shift from being a passive tourist to an active participant in its rhythm."
   },
   "stats": {
     "currency": "JPY",
@@ -31,58 +31,64 @@
   ],
   "culture": {
     "etiquette_tips": [
+      "The 'Meiwaku' Rule: The golden rule of Tokyo is 'Meiwaku'—avoiding nuisance to others. This explains why trains are silent and backpacks are worn on the front. It is not just politeness; it is infrastructure.",
+      "Silence is Social Glue: Noise creates social friction. Talking on the phone on the train is a major taboo. Conversations should be hushed. Silence is an active behavior to respect shared space.",
+      "Tabearuki (No Eating While Walking): Walking while eating is frowned upon ('sloppy'). If you buy street food, stand near the shop to eat it, dispose of trash there, and then move on.",
+      "The Trash Reality: There are NO public trash cans (a legacy of 1995 security measures). Carry a Ziploc bag for your trash. Disposal nodes are at Konbini, vending machines (bottles only), and train platforms.",
+      "Escalator Logic: Stand on the LEFT, walk on the RIGHT. This is rigidly enforced by peer pressure. (Note: It swaps in Osaka to Stand Right/Walk Left).",
       "Procedural Politeness: Japanese politeness is about correctness and efficiency, not emotional warmth. A lack of smiles doesn't mean they are rude; it means they are focused on doing their job perfectly.",
-      "Silence is Social Glue: Being quiet on trains isn't just a rule; it's an active behavior to respect others' space. Noise creates social friction.",
-      "The Trash Reality: There are NO public trash cans. You must carry your trash with you until you find a bin at a convenience store (konbini) or your hotel. Eat where you buy—don't walk and eat.",
-      "Queue Culture: Lining up is sacred. Whether it's for the train or a restaurant, never cut the line. If there's a queue, the food is probably worth it.",
-      "Cash vs Card: While modernizing, many Ramen shops, ticket machines, and temples are still CASH ONLY. Always carry 10,000 Yen in cash.",
-      "Escalator Sides: Stand on the LEFT, walk on the RIGHT. (Note: This swaps in Osaka).",
-      "No Tipping: Excellent service is standard. Tipping causes confusion and may be returned to you as 'lost money'.",
-      "Shoes Off: Look for the entryway step. If there are slippers, use them. Never wear toilet slippers outside the bathroom."
+      "Shoes Off: Look for the entryway step (genkan). If there are slippers, use them. Never wear toilet slippers outside the bathroom."
     ],
     "essential_phrases": [
-      { "src": "Hello", "local": "こんにちは (Konnichiwa)", "phonetic": "kon-nee-chee-wah" },
-      { "src": "Thank you", "local": "ありがとうございます (Arigatou gozaimasu)", "phonetic": "ah-ree-gah-toh goh-zai-mahs" },
-      { "src": "Excuse me", "local": "すみません (Sumimasen)", "phonetic": "soo-mee-mah-sen" },
-      { "src": "I don't understand", "local": "わかりません (Wakarimasen)", "phonetic": "wah-kah-ree-mah-sen" },
-      { "src": "The bill please", "local": "お会計お願いします (Okaikei onegaishimasu)", "phonetic": "oh-kai-keh oh-neh-gai-shee-mahs" }
+      { "src": "Excuse me / Sorry / Thanks", "local": "Sumimasen", "phonetic": "soo-mee-mah-sen", "note": "The ultimate multi-tool word. Use it to call a waiter, apologize, or say thanks. It implies 'I am sorry for the trouble'." },
+      { "src": "I am truly sorry", "local": "Gomennasai", "phonetic": "goh-men-nah-sai", "note": "Use this only for personal mistakes/apologies." },
+      { "src": "Thank you", "local": "Arigatou gozaimasu", "phonetic": "ah-ree-gah-toh goh-zai-mahs" },
+      { "src": "The bill please", "local": "Okaikei onegaishimasu", "phonetic": "oh-kai-keh oh-neh-gai-shee-mahs" },
+      { "src": "I don't understand", "local": "Wakarimasen", "phonetic": "wah-kah-ree-mah-sen" }
     ]
   },
   "neighborhoods": [
     {
-      "name": "Shibuya",
-      "vibe": "Youth & Energy",
-      "description": "The beating heart of Tokyo's youth culture. Famous for the busiest crossing in the world, trendy fashion, and neon lights.",
-      "highlights": ["Shibuya Crossing", "Hachiko Statue", "Center Gai street"],
-      "image": "/images/tokyo/shibuya.jpg"
-    },
-    {
       "name": "Shinjuku",
-      "vibe": "Neon Metropolis",
-      "description": "Tokyo's busiest district. A mix of skyscrapers, chaotic nightlife (Kabukicho), and the serene Shinjuku Gyoen garden. Beware: The station is a labyrinth.",
-      "highlights": ["Kabukicho nightlife", "Omoide Yokocho", "Golden Gai"],
+      "vibe": "Cardinal Orientation Model",
+      "description": "The world's busiest transport hub. Navigate by cardinal direction: East Gate = Neon/Noise (Kabukicho). West Gate = Verticality/Business (Skyscrapers). South Gate = Shopping/Open Air. Do not cross East-West underground unless you know the route.",
+      "highlights": ["Kabukicho", "Golden Gai", "Metropolitan Gov Building View"],
       "image": "/images/tokyo/shinjuku.jpg"
     },
     {
+      "name": "Shibuya",
+      "vibe": "Vertical Valley",
+      "description": "Defined by verticality and valley topography. The station is a stack; the Ginza line is on the 3rd floor, others are deep underground (B5). Use 'Urban Cores' (elevators) to move up. Home to youth culture.",
+      "highlights": ["Shibuya Sky", "Center Gai", "Hachiko"],
+      "image": "/images/tokyo/shibuya.jpg"
+    },
+    {
       "name": "Yanaka",
-      "vibe": "Old Town Calm",
-      "description": "A rare survivor of WWII bombings. Low-rise buildings, many temples, and a distinct 'Shitamachi' (downtown) residential vibe. It feels like a different era.",
+      "vibe": "Shitamachi (Low City)",
+      "description": "A rare survivor of WWII bombings. Low-rise buildings, many temples, and a distinct residential vibe. Walk the 'Yanesen' route from Ueno to Nippori for a glimpse of pre-war Tokyo.",
       "highlights": ["Yanaka Ginza", "Nezu Shrine", "Local Cats"],
       "image": "/images/tokyo/yanaka.jpg"
     },
     {
+      "name": "Daikanyama & Ebisu",
+      "vibe": "Yamanote Sophistication",
+      "description": "The 'Brooklyn of Tokyo'. Stylish, expensive, and residential. Home to T-Site bookstore and riverside walks. This is where fashionable Tokyoites spend their weekends.",
+      "highlights": ["T-Site Bookstore", "Meguro River", "Yebisu Garden Place"],
+      "image": "/images/tokyo/daikanyama.jpg"
+    },
+    {
       "name": "Shimokitazawa",
       "vibe": "Bohemian & Vintage",
-      "description": "The hipster capital. Narrow pedestrian streets packed with vintage clothing stores, vinyl shops, cafes, and small theaters.",
-      "highlights": ["Vintage Shopping", "Indie Cafes", "Live Music Venues"],
+      "description": "The hipster capital. Narrow pedestrian streets packed with vintage clothing stores and indie cafes. Check out the new 'Bonus Track' greenway connecting to Setagaya-Daita.",
+      "highlights": ["Vintage Shopping", "Bonus Track", "Live Houses"],
       "image": "/images/tokyo/shimokitazawa.jpg"
     },
     {
-      "name": "Asakusa",
-      "vibe": "Traditional Tokyo",
-      "description": "Old Tokyo preserved. Historic temples, traditional shops, and the nostalgic atmosphere of Edo-era Japan.",
-      "highlights": ["Senso-ji Temple", "Nakamise Shopping Street", "Rickshaws"],
-      "image": "/images/tokyo/asakusa.jpg"
+      "name": "Koenji",
+      "vibe": "Punk & Retro",
+      "description": "Raw, lived-in, and famous for its punk rock roots and vintage culture. A great place to experience 'everyday' Tokyo life away from the glitz.",
+      "highlights": ["Vintage Clothes", "Izakayas", "Awa Odori"],
+      "image": "/images/tokyo/koenji.jpg"
     }
   ],
   "logistics": [
@@ -91,36 +97,48 @@
       "slug": "local-survival",
       "title": "Local Survival Tips",
       "icon": "Info",
-      "summary": "Essential friction-removers for a smooth trip.",
+      "summary": "Friction-removers for the modern traveler.",
       "details": [
-        "Station Shock: Major stations (Shinjuku, Tokyo) are mini-cities. Taking the wrong exit can put you 20 minutes away from your destination. Check exit numbers carefully.",
-        "Last Train: Trains stop around midnight. If you miss it, taxis are expensive. Locals sleep in Manga Cafes or Karaoke booths.",
-        "Rush Hour: Avoid trains between 7:30am - 9:00am. It is crush-capacity.",
-        "Luggage Forwarding (Takkyubin): Don't haul bags on trains. Send luggage from the airport to your hotel for ~$20. Look for the 'Black Cat' logo."
+        "Station Shock: Major stations are mini-cities. Exiting the wrong side (e.g., East vs West in Shinjuku) puts you 20 mins away. Check exit numbers carefully.",
+        "Last Train Protocol: Trains stop between 23:30-00:30. 'Last Train' often means to the terminal, not *your* station. Missing it means a $50+ taxi or a Manga Cafe stay.",
+        "Rush Hour: Avoid trains 7:30am-9:00am. It is physical crush capacity. Silence is mandatory.",
+        "Luggage: Don't haul bags. Use 'Takkyubin' (Black Cat) to ship luggage between hotels for ~$20."
       ]
     },
     {
       "id": "logistics-transit",
-      "slug": "getting-around",
-      "title": "Getting Around",
-      "icon": "Train",
-      "summary": "Tokyo's train system is legendary. Clean, punctual, and covers everywhere.",
+      "slug": "ic-cards",
+      "title": "IC Card Reality (2025)",
+      "icon": "CreditCard",
+      "summary": "Physical Suica cards are scarce. Go mobile.",
       "details": [
-        "JR Yamanote Line: The green circular line connecting major hubs (Shibuya, Shinjuku, Tokyo).",
-        "Tokyo Metro: 13 subway lines. Google Maps is essential for navigating transfers.",
-        "IC Cards (Suica/Pasmo): Use these for EVERYTHING—trains, vending machines, and convenience stores."
+        "The Shortage: Due to chip shortages, physical Suica/Pasmo cards are hard to buy. 'Welcome Suica' (tourist version) is available ONLY at airports.",
+        "Mobile Suica: The Gold Standard. Add 'Suica' to Apple Wallet. Charge with Mastercard/Amex (Visa often fails). Works even if phone battery dies.",
+        "Day Passes: Often a false economy. They limit you to Metro lines and exclude JR (Yamanote), causing slower travel. Pay-as-you-go is better."
       ]
     },
     {
-      "id": "logistics-scams",
-      "slug": "common-scams",
-      "title": "Scams to Avoid",
-      "icon": "AlertTriangle",
-      "summary": "Tokyo is extremely safe, but avoid 'Touts'.",
+      "id": "logistics-money",
+      "slug": "money-connectivity",
+      "title": "Money & Wifi",
+      "icon": "Wifi",
+      "summary": "Cash is King. Wifi is spotty.",
       "details": [
-        "Kabukicho Touts: NEVER follow a street promoter into a bar in Shinjuku. You will be spiked and drained of thousands of dollars.",
-        "Fake Monks: Do not accept 'golden cards' or blessings from monks on the street who demand cash.",
-        "'Girl' Bars: Avoid places where staff stand outside aggressively pulling you in."
+        "Cash Rule: Always carry ¥20,000. Many ramen shops and ticket machines are still cash-only.",
+        "7-Eleven ATMs: The most reliable for foreign cards. 24/7.",
+        "Connectivity: Public Wifi is unreliable. Pre-arrange an eSIM or Pocket Wifi. Navigation without live data is impossible."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "nightlife-safety",
+      "title": "Nightlife Safety",
+      "icon": "Shield",
+      "summary": "Tokyo is safe, but Touts are predatory.",
+      "details": [
+        "The Tout Rule: NEVER follow a street promoter in Kabukicho or Roppongi. The script is 'Massages?' or 'Cheap drink?'. You will be spiked and drained of thousands.",
+        "Defense: Ignore them completely. Do not say 'maybe later'. Walk with purpose.",
+        "Safe Zones: Stick to Golden Gai (regulars only?), listening bars (Jazz Kissa), or craft beer spots."
       ]
     }
   ],
@@ -132,28 +150,38 @@
       "name_local": "定食",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The real lunch of Tokyo office workers. A balanced tray with a main (grilled fish, ginger pork, fried chicken), rice, miso soup, and pickles. Fast, healthy, and everywhere (Ootoya, Yayoiken).",
+      "description": "The real lunch of Tokyo. A balanced tray with a main (grilled fish, ginger pork, karaage), rice, miso soup, and pickles. Fast, healthy, and served at chains like Ootoya or Yayoiken.",
       "image": "/images/tokyo/teishoku.jpg"
     },
     {
       "id": "food-016",
       "slug": "izakaya-culture",
-      "name_en": "Izakaya (Japanese Pub)",
+      "name_en": "Izakaya & Otoshi",
       "name_local": "居酒屋",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Where Tokyo unwinds. Alcohol is the social lubricant that allows strict hierarchies to dissolve. Order shared plates: karaage, agedashi tofu, potato salad, and sashimi. It's noisy, smoky, and essential.",
+      "description": "Tokyo's social release valve. Note the 'Otoshi': a mandatory table charge (¥300-500) that comes with a small appetizer. It is not a scam; it is the cover charge. Shout 'Sumimasen!' to order.",
       "image": "/images/tokyo/izakaya.jpg"
     },
     {
       "id": "food-017",
       "slug": "depachika",
-      "name_en": "Department Store Food Halls",
+      "name_en": "Depachika (Food Halls)",
       "name_local": "デパ地下",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Located in the basements of massive department stores (Isetan, Mitsukoshi). A wonderland of high-end bento boxes, sweets, and gifts. Go after 7pm for discounts.",
+      "description": "Located in basements of department stores (Isetan, Mitsukoshi). A wonderland of high-end bento, sweets, and gifts. Go at 7:30pm for the discount rush. Great for hotel room picnics.",
       "image": "/images/tokyo/depachika.jpg"
+    },
+    {
+      "id": "food-019",
+      "slug": "tachinomi",
+      "name_en": "Tachinomi (Standing Bar)",
+      "name_local": "立ち飲み",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Standing bars for salarymen. Cheap, loud, and social. Often Cash-on-Delivery (COD), making them scam-proof and authentic. Try Shimbashi or Ueno.",
+      "image": "/images/tokyo/tachinomi.jpg"
     },
     {
       "id": "food-018",
@@ -162,7 +190,7 @@
       "name_local": "朝ご飯",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Don't look for eggs and toast. The local breakfast is either a traditional set (rice, fish, miso soup) or a pastry from a bakery/konbini. Cafes opening before 10am are rare.",
+      "description": "Don't look for eggs and toast. The local breakfast is either a traditional set (rice, fish) or a convenience store pastry. Cafes opening before 10am are rare.",
       "image": "/images/tokyo/breakfast.jpg"
     },
     {
@@ -172,28 +200,18 @@
       "name_local": "ラーメン",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Tokyo's soul food. Rich broth, springy noodles, and toppings. Slurping is encouraged—it cools the noodles and enhances flavor. One bowl per person is mandatory.",
+      "description": "Soul food. Order via ticket machine. 'Eat, wipe, leave'—lingering is rude. One bowl per person is mandatory. Do not share.",
       "image": "/images/tokyo/ramen.jpg"
     },
     {
-      "id": "food-001",
-      "slug": "sushi",
-      "name_en": "Sushi",
-      "name_local": "寿司",
+      "id": "food-005",
+      "slug": "konbini",
+      "name_en": "Konbini",
+      "name_local": "コンビニ",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Fresh fish over vinegared rice. From high-end Omakase to budget-friendly Kaiten-zushi (conveyor belt). Don't mix wasabi into your soy sauce.",
-      "image": "/images/tokyo/sushi.jpg"
-    },
-    {
-      "id": "food-010",
-      "slug": "yakitori",
-      "name_en": "Yakitori",
-      "name_local": "焼き鳥",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": "Grilled chicken skewers cooked over charcoal. Not just breast meat—try skin (kawa), thigh (momo), and meatballs (tsukune).",
-      "image": "/images/tokyo/yakitori.jpg"
+      "description": "Life support systems. 7-Eleven for Bento, FamilyMart for Fried Chicken (Famichiki), Lawson for sweets. Also use them for ATMs, toilets, and tickets.",
+      "image": "/images/tokyo/konbini.jpg"
     },
     {
       "id": "food-011",
@@ -202,18 +220,8 @@
       "name_local": "とんかつ",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Breaded, deep-fried pork cutlet. Crisp, juicy, and surgically precise. Served with shredded cabbage, rice, and miso soup.",
+      "description": "Breaded, deep-fried pork cutlet. Crisp, juicy, and surgically precise. Served with shredded cabbage (often refillable).",
       "image": "/images/tokyo/tonkatsu.jpg"
-    },
-    {
-      "id": "food-005",
-      "slug": "konbini",
-      "name_en": "Konbini (Convenience Store)",
-      "name_local": "コンビニ",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": "7-Eleven, Lawson, FamilyMart. The food quality is shockingly high. Try the Egg Salad Sandwich, Onigiri (rice balls), and Famichiki (fried chicken).",
-      "image": "/images/tokyo/konbini.jpg"
     }
   ],
   "must_see": [
@@ -228,7 +236,7 @@
           "name_local": "商店街",
           "category": "sight",
           "is_generic_staple": true,
-          "description": "Traditional covered shopping arcades found in every neighborhood. No big brands, just local butchers, tea shops, and cheap croquette stands. This is where real life happens.",
+          "description": "Traditional covered shopping arcades. No big brands, just local butchers, tea shops, and croquette stands. This is where real life happens.",
           "image": "/images/tokyo/shotengai.jpg"
         }
       ]
@@ -244,7 +252,7 @@
           "name_local": "新宿",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The neon soul of Tokyo. Wander Omoide Yokocho (Piss Alley) for smoky yakitori, or just walk the streets to feel the cyberpunk energy.",
+          "description": "The neon soul of Tokyo. Wander Omoide Yokocho (Piss Alley) for smoky yakitori. Avoid the touts in Kabukicho.",
           "image": "/images/tokyo/shinjuku-night.jpg",
           "geo": { "lat": 35.6938, "lng": 139.7034 }
         },
@@ -255,7 +263,7 @@
           "name_local": "ゴールデン街",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A cluster of over 200 tiny bars (seating 4-6 people) packed into narrow alleys. A relic of post-war Tokyo. Cover charges apply.",
+          "description": "200+ tiny bars in narrow alleys. Safe but tight. Large groups (3+) are often turned away. Cover charges apply.",
           "image": "/images/tokyo/golden-gai.jpg",
           "geo": { "lat": 35.6944, "lng": 139.7047 }
         }
@@ -272,7 +280,7 @@
           "name_local": "浅草寺",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Tokyo's oldest and most famous temple. Walk through the giant lantern gate and the Nakamise shopping street.",
+          "description": "Tokyo's oldest temple. Go at 6:00 AM for spiritual quiet or after 8:00 PM for atmosphere. Mid-day is a crush.",
           "image": "/images/tokyo/sensoji.jpg",
           "geo": { "lat": 35.7148, "lng": 139.7967 }
         },
@@ -283,14 +291,14 @@
           "name_local": "明治神宮",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A serene forest in the middle of the city. Dedicated to Emperor Meiji. A peaceful escape from the Harajuku crowds next door.",
+          "description": "A serene forest in the middle of the city. Dedicated to Emperor Meiji. A peaceful escape from the Harajuku crowds.",
           "image": "/images/tokyo/meiji.jpg",
           "geo": { "lat": 35.6764, "lng": 139.6993 }
         }
       ]
     },
     {
-      "title": "Views & Greenery",
+      "title": "Views & Tech",
       "id": "views",
       "items": [
         {
@@ -300,27 +308,10 @@
           "name_local": "東京都庁",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The best FREE view in Tokyo. See Mt. Fuji on a clear day. Less crowded than Shibuya Sky or Skytree.",
+          "description": "The best FREE view in Tokyo. See Mt. Fuji on a clear day. Less crowded than Shibuya Sky. Located in West Shinjuku.",
           "image": "/images/tokyo/metro-gov.jpg",
           "geo": { "lat": 35.6896, "lng": 139.6917 }
         },
-        {
-          "id": "view-002",
-          "slug": "shinjuku-gyoen",
-          "name_en": "Shinjuku Gyoen",
-          "name_local": "新宿御苑",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Massive traditional garden. A perfect reset button when the city gets too loud. Famous for cherry blossoms.",
-          "image": "/images/tokyo/shinjuku-gyoen.jpg",
-          "geo": { "lat": 35.6852, "lng": 139.7101 }
-        }
-      ]
-    },
-    {
-      "title": "Tech & Modern",
-      "id": "tech",
-      "items": [
         {
           "id": "art-001",
           "slug": "teamlab-planets",
@@ -328,20 +319,9 @@
           "name_local": "チームラボ",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Immersive digital art where you walk barefoot through water and crystal lights. Extremely popular—book weeks in advance.",
+          "description": "Immersive digital art where you walk barefoot through water. Extremely popular—book weeks in advance.",
           "image": "/images/tokyo/teamlab.jpg",
           "geo": { "lat": 35.6455, "lng": 139.7925 }
-        },
-        {
-          "id": "tech-001",
-          "slug": "akihabara",
-          "name_en": "Akihabara Electric Town",
-          "name_local": "秋葉原",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "The center of Anime and Otaku culture. Arcades, maid cafes, and towering electronics stores.",
-          "image": "/images/tokyo/akihabara.jpg",
-          "geo": { "lat": 35.6984, "lng": 139.7731 }
         }
       ]
     }
@@ -357,17 +337,17 @@
     },
     {
       "id": "aff-002",
-      "title": "Pocket WiFi / eSIM",
-      "image": "/images/tokyo/wifi.jpg",
-      "reason": "Free WiFi is rare in public. You need data for Google Maps and translation. Rent a Pocket WiFi or buy an eSIM.",
-      "amazon_url": "https://www.amazon.com/s?k=pocket+wifi+japan",
+      "title": "eSIM for Data",
+      "image": "/images/tokyo/esim.jpg",
+      "reason": "Public Wifi is poor. You need constant data for Google Maps/Translate. An eSIM is the easiest solution.",
+      "amazon_url": "https://www.amazon.com/s?k=japan+esim",
       "category": "electronics"
     },
     {
       "id": "aff-003",
       "title": "Coin Purse",
       "image": "/images/tokyo/coin-purse.jpg",
-      "reason": "Cash is still king, and you will accumulate a LOT of coins. A dedicated coin purse is a life-saver.",
+      "reason": "Cash is king. You will accumulate a LOT of coins (100 and 500 yen). A dedicated purse is essential.",
       "amazon_url": "https://www.amazon.com/s?k=coin+purse",
       "category": "accessories"
     }

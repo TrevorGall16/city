@@ -1,0 +1,311 @@
+{
+  "id": "city-009",
+  "name": "Istanbul",
+  "slug": "istanbul",
+  "country": "Turkey",
+  "country_code": "tr",
+  "hero_image": "/images/istanbul/hero.jpg",
+  "intro_vibe": "The Bipolar Metropolis: A fractured ecosystem where the curated 'Museum City' meets the chaotic, authentic 'Living City'.",
+  "general_info": {
+    "population": "~16 million",
+    "is_capital": false,
+    "description": "Istanbul is not just a bridge between East and West; it is a city of distinct 'villages' struggling with hyper-inflation and rapid gentrification. To navigate it effectively, you must shift from being a spectator of monuments to an operator of its complex logistics—mastering the ferry commute, the unwritten rules of the shared taxi (dolmuş), and the subtle political codes of its neighborhoods."
+  },
+  "stats": {
+    "currency": "TRY",
+    "plug_type": "Type F"
+  },
+  "weather_breakdown": [
+    { "id": 1, "name": "January", "temp": "3°C - 9°C", "vibe": "Grey & Melancholic", "pros": ["Empty museums", "Hüzün (melancholy) atmosphere", "Hot tea culture"], "cons": ["Cold rain/snow", "Short days", "Windy Bosphorus"], "clothing": "Heavy coat, waterproof boots, scarf" },
+    { "id": 2, "name": "February", "temp": "3°C - 9°C", "vibe": "Winter Grit", "pros": ["Lower prices", "Hamam season", "Cozy cafes"], "cons": ["Damp cold", "Gloomy skies"], "clothing": "Warm layers, thermal wear" },
+    { "id": 3, "name": "March", "temp": "5°C - 12°C", "vibe": "Unpredictable", "pros": ["Tulips begin to bloom", "Newroz celebrations", "Fewer crowds"], "cons": ["Sudden rainstorms", "Chilly winds"], "clothing": "Waterproof jacket, layers" },
+    { "id": 4, "name": "April", "temp": "8°C - 17°C", "vibe": "Tulip Season", "pros": ["Tulip Festival in parks", "Milder days", "Ferry rides improve"], "cons": ["Variable weather", "Tourist season starts"], "clothing": "Light jacket, comfortable shoes" },
+    { "id": 5, "name": "May", "temp": "13°C - 22°C", "vibe": "Perfect Balance", "pros": ["Ideal walking weather", "Rooftop bars open", "Lively streets"], "cons": ["Prices rise", "May 1st protests (avoid Taksim)"], "clothing": "T-shirts, light sweater" },
+    { "id": 6, "name": "June", "temp": "18°C - 27°C", "vibe": "Summer Start", "pros": ["Long days", "Bosphorus dining", "Music festivals"], "cons": ["Humidity rises", "Crowded transport"], "clothing": "Summer clothes, sunglasses" },
+    { "id": 7, "name": "July", "temp": "21°C - 30°C", "vibe": "Sweltering", "pros": ["Swimming in Princes' Islands", "Warm nights", "Outdoor concerts"], "cons": ["High humidity", "Sweaty commute"], "clothing": "Breathable fabrics, linen" },
+    { "id": 8, "name": "August", "temp": "21°C - 30°C", "vibe": "Empty & Hot", "pros": ["Locals leave for holidays", "Less traffic", "Relaxed pace"], "cons": ["Oppressive heat", "Mosquitoes"], "clothing": "Minimal clothing, hat" },
+    { "id": 9, "name": "September", "temp": "17°C - 26°C", "vibe": "Cultural Peak", "pros": ["Art Biennial", "Perfect evenings", "City wakes up"], "cons": ["Traffic returns", "School rush"], "clothing": "Summer clothes + light layer" },
+    { "id": 10, "name": "October", "temp": "13°C - 21°C", "vibe": "Golden Hour", "pros": ["Best sunsets", "Fish season starts", "Comfortable walking"], "cons": ["Occasional rain", "Shorter days"], "clothing": "Light jacket, jeans" },
+    { "id": 11, "name": "November", "temp": "9°C - 16°C", "vibe": "Autumn Chill", "pros": ["Istanbul Marathon", "Cozy meyhanes", "Low rates"], "cons": ["Grey skies return", "Windy"], "clothing": "Warm coat, boots" },
+    { "id": 12, "name": "December", "temp": "5°C - 11°C", "vibe": "Festive & Wet", "pros": ["New Year's excitement", "Roasted chestnuts", "Shopping sales"], "cons": ["Cold rain", "Traffic gridlock"], "clothing": "Winter coat, umbrella" }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "The 'Misafir' Concept: You are considered a 'Guest sent by God'. Locals will fight to pay the bill. The polite dance involves offering to pay, being refused, and eventually accepting with grace.",
+      "The 'Tut' of Negation: A sharp upward click of the head with a 'tut' sound means 'No'. It is not rude; it is efficient.",
+      "Hand on Heart: A universal gesture of sincerity. Use it when thanking someone or softening a refusal (like saying no to a carpet seller).",
+      "Tea Ritual: Refusing tea can be seen as cold. If you must, place your hand on your heart. To signal you are finished, place your teaspoon across the rim of the glass.",
+      "Communal Cats: Cats are citizens. They are allowed in cafes and mosques. Disturbing a sleeping cat is a major social faux pas.",
+      "Mosque Modesty: Shoulders and knees must be covered. Women must cover hair. Shoes off. With Hagia Sophia's 2025 rules, tourists are restricted to upper galleries."
+    ],
+    "essential_phrases": [
+      { "src": "Hello", "local": "Merhaba", "phonetic": "mer-ha-ba" },
+      { "src": "Thank you", "local": "Teşekkürler", "phonetic": "te-shek-kur-ler" },
+      { "src": "Excuse me / Sorry", "local": "Pardon", "phonetic": "par-don" },
+      { "src": "The bill please", "local": "Hesap lütfen", "phonetic": "he-sap lut-fen" },
+      { "src": "Easy / Good Work", "local": "Kolay Gelsin", "phonetic": "ko-lay gel-sin", "note": "Say this to workers/drivers/waiters. It acknowledges their effort." }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Kadıköy",
+      "vibe": "The Liberal Bastion",
+      "description": "On the Asian side, this is the stronghold of secular, creative Istanbul. It functions almost as an independent city. The 'Moda' seaside is the communal living room where thousands gather to drink beer on the rocks.",
+      "highlights": ["Moda Coastal Park", "Tellalzade Antique St", "Bar Street"],
+      "image": "/images/istanbul/kadikoy.jpg"
+    },
+    {
+      "name": "Beşiktaş",
+      "vibe": "The Secular Dynamo",
+      "description": "The energetic, chaotic heart of modern life. Home to a fierce football club and university students. The 'Çarşı' (market) is a labyrinth of bars and fish restaurants. Loud, communal, and alive.",
+      "highlights": ["Breakfast Street", "Fish Market", "Naval Museum"],
+      "image": "/images/istanbul/besiktas.jpg"
+    },
+    {
+      "name": "Fatih / Sultanahmet",
+      "vibe": "The Museum City",
+      "description": "The historic peninsula containing the Hagia Sophia and Blue Mosque. While architecturally stunning, it has been 'museumified'. It lacks organic life and becomes a ghost town after dark. Visit for history, do not stay here.",
+      "highlights": ["Hagia Sophia", "Topkapi Palace", "Basilica Cistern"],
+      "image": "/images/istanbul/sultanahmet.jpg"
+    },
+    {
+      "name": "Kuzguncuk",
+      "vibe": "Nostalgic Village",
+      "description": "A valley neighborhood on the Asian side that retains the atmosphere of a multicultural Ottoman village. Mosques, churches, and synagogues stand side-by-side. A 'Slow City' escape within the megacity.",
+      "highlights": ["Community Garden", "Nail Kitabevi", "Historic Wooden Houses"],
+      "image": "/images/istanbul/kuzguncuk.jpg"
+    },
+    {
+      "name": "Nişantaşı",
+      "vibe": "Old Money Luxury",
+      "description": "The domain of the secular bourgeoisie. Manicured streets, Art Nouveau architecture, and luxury brands. It offers a European-style shopping experience and high-end dining, contrasting with the chaotic bazaars.",
+      "highlights": ["Atiye Street", "City's Mall", "Maçka Park"],
+      "image": "/images/istanbul/nisantasi.jpg"
+    },
+    {
+      "name": "Bomonti",
+      "vibe": "Post-Industrial Cool",
+      "description": "Centered around the historic Beer Factory (Bomontiada), now a cultural hub. On Sundays, the Feriköy Antique Market is the best place to hunt for vinyl and retro cameras.",
+      "highlights": ["Feriköy Antique Market", "Bomontiada", "Babylon"],
+      "image": "/images/istanbul/bomonti.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-survival",
+      "slug": "local-survival",
+      "title": "Local Survival Tips",
+      "icon": "Info",
+      "summary": "Navigate inflation and infrastructure.",
+      "details": [
+        "Tap Water: Do not drink it. Pipe infrastructure is old. Use it for brushing teeth, but buy bottled water for drinking.",
+        "Inflation & Menus: The 'Menu Law' requires prices to be visible outside. If there is no menu, walk away. Prices change weekly.",
+        "Toilets: The 'bidet nozzle' inside the bowl is standard. Use it. Public toilets often cost 5-10 TL (coins/card).",
+        "Museum Costs: Entry fees for foreigners have skyrocketed (e.g., €25 Hagia Sophia, €50+ Topkapi). Plan your budget."
+      ]
+    },
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Getting Around",
+      "icon": "Train",
+      "summary": "Master the Istanbulkart and the Ferry.",
+      "details": [
+        "Istanbulkart: The universal key. Buy at yellow machines. Note: The deposit is non-refundable. Top up in small increments.",
+        "The Ferry (Vapur): The soul of the city. Commuting between Europe and Asia with a tea in hand is the best experience in Istanbul.",
+        "Marmaray Refund: The undersea train charges the MAX fare on entry. You MUST tap your card at the 'Refund Machine' upon exiting to get money back.",
+        "Dolmuş (Minibus): Yellow shared vans. Cash only. Pass money forward to the driver via other passengers. Say 'Müsait bir yerde' to get off."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-scams",
+      "title": "Safety & Scams",
+      "icon": "Shield",
+      "summary": "Safe city, predatory taxis.",
+      "details": [
+        "Taxis: The weakest link. Drivers may refuse short rides or scam tourists. NEVER hail from the street. Use BiTaksi or Uber.",
+        "Shoe Shine Scam: A shiner drops a brush. You pick it up. They offer a 'free' thanks shine, then demand money. Ignore the brush.",
+        "Drink Scam: 'Let's have a drink' from a friendly stranger leads to a nightclub with a $1000 bill. Never go to a second location with a stranger.",
+        "Political Protests: Avoid Taksim/Istiklal on May 1st or March 8th. If you see police barricades, leave."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "simit",
+      "name_en": "Simit",
+      "name_local": "Simit",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "The sesame-encrusted bread ring that fuels the city. Buy from street carts in the morning when they are fresh. By afternoon, they are rocks.",
+      "image": "/images/istanbul/simit.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "turkish-breakfast",
+      "name_en": "Serpme Breakfast",
+      "name_local": "Serpme Kahvaltı",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "An industrial complex of small plates: cheeses, olives, jams, eggs (menemen). Avoid the 'Grand Breakfasts' in tourist zones. Go to 'Breakfast Street' in Beşiktaş.",
+      "image": "/images/istanbul/breakfast.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "esnaf-lokantasi",
+      "name_en": "Tradesmen's Restaurant",
+      "name_local": "Esnaf Lokantası",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "The backbone of lunch culture. Cafeteria-style, point at what you want. Stews, rice, beans (Kuru Fasulye). Cheap, fast, and home-cooked taste.",
+      "image": "/images/istanbul/esnaf.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "meyhane",
+      "name_en": "Meyhane Culture",
+      "name_local": "Meyhane",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "A tavern for Rakı and Meze. It is about conversation. Toast by touching the BOTTOM of your glass (humility). Order cold mezes from the tray first.",
+      "image": "/images/istanbul/meyhane.jpg"
+    },
+    {
+      "id": "food-005",
+      "slug": "midye-dolma",
+      "name_en": "Stuffed Mussels",
+      "name_local": "Midye Dolma",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Mussels stuffed with spiced rice, sold on street corners. Rule: Only eat at stalls with high turnover to avoid food poisoning. You pay by the count.",
+      "image": "/images/istanbul/midye.jpg"
+    },
+    {
+      "id": "food-006",
+      "slug": "kokorec",
+      "name_en": "Kokoreç",
+      "name_local": "Kokoreç",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Grilled lamb intestines wrapped in bread, heavily spiced. The ultimate late-night food. Hygiene matters; stick to busy chains like Şampiyon.",
+      "image": "/images/istanbul/kokorec.jpg"
+    },
+    {
+      "id": "food-007",
+      "slug": "turkish-coffee",
+      "name_en": "Turkish Coffee",
+      "name_local": "Türk Kahvesi",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "A slow-sipping digestif. Order by sweetness: 'Sade' (no sugar), 'Orta' (medium), 'Şekerli' (sweet). Do not drink the sludge at the bottom.",
+      "image": "/images/istanbul/coffee.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "The Big Icons",
+      "id": "icons",
+      "items": [
+        {
+          "id": "sight-001",
+          "slug": "hagia-sophia",
+          "name_en": "Hagia Sophia",
+          "name_local": "Ayasofya",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "The architectural marvel. 2025 Reality: Tourists enter via a separate gallery entrance (€25 fee) and cannot access the main prayer floor. Queue early.",
+          "image": "/images/istanbul/hagia-sophia.jpg",
+          "geo": { "lat": 41.0086, "lng": 28.9802 }
+        },
+        {
+          "id": "sight-002",
+          "slug": "topkapi-palace",
+          "name_en": "Topkapi Palace",
+          "name_local": "Topkapı Sarayı",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "The Ottoman imperial residence. Massive and expensive (€50+). The Harem section is essential to understand the private life of the Sultans.",
+          "image": "/images/istanbul/topkapi.jpg",
+          "geo": { "lat": 41.0115, "lng": 28.9833 }
+        },
+        {
+          "id": "sight-003",
+          "slug": "basilica-cistern",
+          "name_en": "Basilica Cistern",
+          "name_local": "Yerebatan Sarnıcı",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "An underground water reservoir with Medusa heads. Atmospheric but expensive (1300 TL). Buy tickets online to skip the line.",
+          "image": "/images/istanbul/cistern.jpg",
+          "geo": { "lat": 41.0084, "lng": 28.9779 }
+        }
+      ]
+    },
+    {
+      "title": "Local Experiences",
+      "id": "experiences",
+      "items": [
+        {
+          "id": "exp-001",
+          "slug": "bosphorus-ferry",
+          "name_en": "Commuter Ferry Ride",
+          "name_local": "Vapur",
+          "category": "sight",
+          "is_generic_staple": true,
+          "description": "The 'Long Bosphorus Tour' by Şehir Hatları offers a round trip to the Black Sea for cheap. Or just take the Kadıköy-Karaköy ferry at sunset.",
+          "image": "/images/istanbul/ferry.jpg"
+        },
+        {
+          "id": "exp-002",
+          "slug": "ferikoy-market",
+          "name_en": "Feriköy Antique Market",
+          "name_local": "Feriköy Antika Pazarı",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Sunday ritual. A massive covered market for antiques, vinyl, and retro cameras. On Saturdays, it is an organic food market.",
+          "image": "/images/istanbul/ferikoy.jpg",
+          "geo": { "lat": 41.0576, "lng": 28.9835 }
+        },
+        {
+          "id": "exp-003",
+          "slug": "hamam-kilic-ali",
+          "name_en": "Kılıç Ali Paşa Hamam",
+          "name_local": "Kılıç Ali Paşa Hamamı",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "A stunning 16th-century bathhouse restored to perfection. High-end, foreigner-friendly, and impeccable service. Booking essential.",
+          "image": "/images/istanbul/hamam.jpg",
+          "geo": { "lat": 41.0266, "lng": 28.9808 }
+        }
+      ]
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Turkey Travel Adapter (Type F)",
+      "image": "/images/istanbul/adapter.jpg",
+      "reason": "Turkey uses Type F (two round pins). Essential for charging.",
+      "amazon_url": "https://www.amazon.com/s?k=turkey+travel+adapter+type+f",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-002",
+      "title": "Anti-Theft Crossbody Bag",
+      "image": "/images/istanbul/bag.jpg",
+      "reason": "Crowded trams and bazaars are pickpocket hotspots. Keep valuables secure.",
+      "amazon_url": "https://www.amazon.com/s?k=anti+theft+crossbody+bag",
+      "category": "security"
+    },
+    {
+      "id": "aff-003",
+      "title": "eSIM for Data",
+      "image": "/images/istanbul/esim.jpg",
+      "reason": "You need data for maps and translation. Buying a SIM locally can be a hassle with registration.",
+      "amazon_url": "https://www.amazon.com/s?k=esim+turkey",
+      "category": "electronics"
+    }
+  ]
+}

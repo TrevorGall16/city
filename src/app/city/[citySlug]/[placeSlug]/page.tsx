@@ -2,8 +2,8 @@
  * Place Detail Page (SSG)
  * Following 03_UI and implementation plan specifications
  * Fixed for Next.js 16+ (params is now a Promise)
+ * CLEARED: Favorites feature removed
  */
-import { SaveButton } from '@/components/features/SaveButton'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -146,18 +146,12 @@ export default async function PlacePage({ params }: PageProps) {
               />
             </div>
 
-            {/* Title + Save Button */}
+            {/* Title (Button Removed) */}
             <div className="flex items-start justify-between gap-4 mb-4">
               <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
                 {place.name_en}
               </h1>
-              <div className="mt-2">
-                <SaveButton 
-                  placeSlug={place.slug} 
-                  citySlug={city.slug} 
-                  variant="default"
-                />
-              </div>
+              {/* SAVE BUTTON WAS HERE - DELETED */}
             </div>
 
             {/* Translation Hook */}
