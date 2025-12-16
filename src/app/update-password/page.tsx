@@ -53,12 +53,19 @@ export default function UpdatePasswordPage() {
     }
 
     // 2. Update the user's password using the session token from the URL
-    const { error: updateError } = await supabase.auth.updateUser({
+const { error: updateError } = await supabase.auth.updateUser({
       password: password,
     })
 
     if (updateError) {
-      setError(updateError.message || 'Failed to update password. Please ensure your link is valid.')
+      // 🚨 NEW CODE: Customize the error message 🚨
+      if (updateError.message.includes("Password should contain")) {
+         setError("Password must contain at least one letter and one number.")
+      } else {
+         setError(updateError.message || 'Failed to update password.')
+      }
+      // ---------------------------------------------
+      
       setLoading(false)
       return
     }

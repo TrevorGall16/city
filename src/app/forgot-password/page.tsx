@@ -36,6 +36,7 @@ export default function ForgotPasswordPage() {
     if (resetError) {
       // Supabase is intentionally vague on this error to prevent fishing attacks.
       // We must tell the user it failed without giving away too much information.
+      console.error("SUPABASE ERROR:", resetError)
       setError('Could not process request. Please check the email and try again later.')
       setLoading(false)
       return
