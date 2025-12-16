@@ -2,14 +2,14 @@
   "name": "city-sheet",
   "version": "1.0.0",
   "description": "City Sheet - Travel Directory & Utility Tool",
-  "scripts": {
+"scripts": {
     "dev": "next dev",
     "build": "npm run generate:sitemap && next build",
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "generate:sitemap": "node scripts/generate-sitemap.js",
-    "validate": "node scripts/validate-data.js"
+    "validate": "node scripts/validate-data.js" 
   },
   "repository": {
     "type": "git",
