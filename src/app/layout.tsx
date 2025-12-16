@@ -28,6 +28,7 @@ import { Toaster } from 'sonner'
 import './globals.css'
 import type { Metadata } from 'next'
 import { CookieConsent } from '@/components/features/CookieConsent'
+import Script from 'next/script'
 
 // --- 1. GLOBAL FONTS ---
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans', display: 'swap' })
@@ -48,6 +49,10 @@ const hkFont = Barlow_Condensed({ weight: '800', subsets: ['latin'], variable: '
 export const metadata: Metadata = {
   title: 'CitySheet - The Ultimate Travel Guides',
   description: 'Curated travel recommendations with instant translation for international travelers. Navigate foreign cities without language barriers.',
+  // ✅ ADDED: Google Verification
+  verification: {
+    google: 'rFFpomnX_REM4YyHzqaM9x5fP3fygbI2clEJ31zFtpA',
+  },
 }
 
 export default function RootLayout({
@@ -111,6 +116,13 @@ export default function RootLayout({
           </AuthProvider>
         </ThemeProvider>
         <CookieConsent />
+{/* ✅ GOOGLE ADSENSE SCRIPT */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8732422930809097"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   )
