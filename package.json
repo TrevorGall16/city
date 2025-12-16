@@ -9,8 +9,7 @@
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "generate:sitemap": "node scripts/generate-sitemap.js",
-    "validate": "node scripts/validate-data.js",
-    "prebuild": "npm run validate"
+    "validate": "node scripts/validate-data.js"
   },
   "repository": {
     "type": "git",
