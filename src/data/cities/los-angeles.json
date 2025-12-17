@@ -77,7 +77,7 @@
       "image": "/images/los-angeles/arts-district.jpg"
     }
   ],
-  "logistics": [
+ "logistics": [
     {
       "id": "logistics-survival",
       "slug": "local-survival",
@@ -88,7 +88,8 @@
         "The Uber Strategy: Don't wait until you leave the venue to call a car. Call it 10-15 minutes early. Distances are long and drivers are far away.",
         "Sunsets: The sun sets over the ocean. Plan your day to end facing West (Santa Monica/Malibu) for the view, but remember traffic heading West at 5pm is a nightmare.",
         "Homelessness: Visible homelessness is a reality of daily life here. Most people are non-confrontational. Do not engage, do not stare, do not film. Just move on calmly.",
-        "Jaywalking: Recently decriminalized, but drivers are not used to it. Cars will not stop for you outside of crosswalks."
+        "Jaywalking: Recently decriminalized, but drivers are not used to it. Cars will not stop for you outside of crosswalks.",
+        "The Marine Layer: 'May Grey' and 'June Gloom' are real. The beach is often cloudy and cold in the morning until 1pm. Don't plan a morning beach day in early summer."
       ]
     },
     {
@@ -100,7 +101,7 @@
       "details": [
         "Car Rental: Essential if you want to see Malibu, hiking trails, or multiple neighborhoods. The car is your passport to the city.",
         "Public Transit Reality: The Metro exists (Expo Line is good for Downtown -> Beach), but it is patchy and inconsistent. Locals with cars rarely use it. Late night service is sparse.",
-        "Uber/Lyft: Viable for nights out, but expensive as a primary mode of transport due to the sheer size of the city.",
+        "Uber/Lyft: Viable for nights out, but expensive as a primary mode of transport due to the sheer size of the city. Expect to pay $30+ for a 20-minute ride.",
         "Walking: Only possible WITHIN neighborhoods (e.g., walking around Silver Lake). You cannot walk BETWEEN neighborhoods."
       ]
     },
@@ -111,10 +112,50 @@
       "icon": "MapPin",
       "summary": "Parking is a bloodsport. Know the curb colors.",
       "details": [
-        "Red Curb: Absolute No Parking. You will be towed.",
-        "Yellow Curb: Commercial loading only (usually 7am-6pm). You can park here briefly after hours (check signs).",
+        "Red Curb: Absolute No Parking. You will be towed instantly.",
+        "Yellow Curb: Commercial loading only (usually 7am-6pm). You can park here briefly after hours (check signs carefully).",
         "White Curb: Passenger loading only. 5 minutes max. Driver must stay in car.",
-        "Street Cleaning: Check the signs. If it says 'No Parking Tuesday 10am-12pm', they will ticket you at 10:01am."
+        "Street Cleaning: Check the signs. If it says 'No Parking Tuesday 10am-12pm', they will ticket you at 10:01am.",
+        "Valet Culture: Many restaurants have NO self-parking. Valet is mandatory ($10-15 + tip). Keep small cash bills handy."
+      ]
+    },
+    {
+      "id": "logistics-dining",
+      "slug": "dining-protocol",
+      "title": "Dining Logistics",
+      "icon": "Utensils",
+      "summary": "Reservations, tipping, and early kitchens.",
+      "details": [
+        "Reservations: Reservations are mandatory for dinner at any popular spot. Walk-ins are rarely accommodated on weekends. Use Resy or OpenTable 1-2 weeks in advance.",
+        "Tipping: 18-20% is the standard minimum for table service. Service is NOT included. 15% implies bad service. $1 per drink at bars.",
+        "Kitchen Hours: Surprisingly early. Many kitchens close at 9:30pm or 10pm, even on weekends. Late-night dining is limited to specific zones (K-Town, Tacos).",
+        "Dietary Normalcy: LA is the most accommodating city in the world. Gluten-free, Vegan, Keto are standard menu options, not annoyances."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-scams",
+      "title": "Safety & Scams",
+      "icon": "Shield",
+      "summary": "Hollywood hustles and car safety.",
+      "details": [
+        "The CD Bully: On Hollywood Blvd, guys will shove a 'free' music CD into your hand/chest. If you take it, they surround you demanding money. Do not take it. Hands in pockets, keep walking.",
+        "Costumed Characters: Spider-Man or Elmo on the Walk of Fame will demand $20 if you take a photo. They can be aggressive.",
+        "Car Break-ins: Never leave ANYTHING visible in your rental car. Not a charging cable, not a jacket, not a bag. 'Smash and grab' is common in tourist areas.",
+        "Venice Boardwalk: Colorful by day, sketchy by night. Avoid the boardwalk/beach area after sunset."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Apps to Download",
+      "icon": "Smartphone",
+      "summary": "Digital tools for the sprawl.",
+      "details": [
+        "SpotHero: Finds and books cheaper parking garages in advance. Essential for Downtown/Santa Monica.",
+        "Resy / OpenTable: The only way to get a dinner table.",
+        "Google Maps: Superior to Apple Maps for LA traffic data. Trust the ETA, traffic is real.",
+        "Citizen: Real-time safety alerts based on your location. Good for situational awareness."
       ]
     }
   ],

@@ -77,20 +77,7 @@
       "image": "/images/rome/centro-storico.jpg"
     }
   ],
-  "logistics": [
-    {
-      "id": "logistics-survival",
-      "slug": "local-survival",
-      "title": "Local Survival Tips",
-      "icon": "Info",
-      "summary": "How to navigate the chaos.",
-      "details": [
-        "Coffee Bar Rule: Price is regulated at the bar (~€1.10), but doubles if you sit at a table. Drink standing up like a local.",
-        "The Coperto: Restaurants add a €2-3 'cover charge' per person for bread/table. This is normal. Tipping is NOT required.",
-        "August Shutdown: The city empties in mid-August. Many authentic restaurants close for 2 weeks. Tourist traps stay open.",
-        "Heat Survival: In summer, locals avoid walking between 1pm-4pm. Shade-hopping is a survival skill."
-      ]
-    },
+ "logistics": [
     {
       "id": "logistics-transit",
       "slug": "getting-around",
@@ -98,9 +85,48 @@
       "icon": "Train",
       "summary": "Walk whenever possible. Public transit is notoriously unreliable.",
       "details": [
-        "Walking: The historic center is compact. It is the best way to see the city. Wear comfortable shoes; cobblestones are unforgiving.",
-        "Metro: Only 3 lines (A, B, C). Useful for getting across town (e.g. Vatican to Termini), but useless for the center.",
-        "Taxi: Do not hail on the street (they won't stop). Go to a Taxi Rank or use the 'FreeNow' app. Uber is available but expensive."
+        "Walking: The historic center is compact. It is the best way to see the city. Wear comfortable shoes; cobblestones ('Sampietrini') are unforgiving.",
+        "Metro: Only 3 lines (A, B, C). Useful for crossing town (e.g. Vatican to Termini), but useless for the historic center. Beware: Metro A closes early (9pm) for work often—check schedules.",
+        "Tickets (BIT): A standard ticket (€1.50) lasts 100 minutes. You MUST validate it in the yellow machines on buses/trams. Inspectors target tourists with unstamped tickets.",
+        "Taxi Apps: Do not hail on the street (they won't stop). Use 'FreeNow' or go to a designated Taxi Rank. Uber is available but is 'Black' only (expensive)."
+      ]
+    },
+    {
+      "id": "logistics-dining",
+      "slug": "dining-protocol",
+      "title": "Dining Logistics",
+      "icon": "Utensils",
+      "summary": "Strict hours and bill rituals.",
+      "details": [
+        "Strict Meal Times: Lunch is 1:00pm–3:00pm. Dinner is 8:00pm–11:00pm. Most authentic kitchens CLOSE between these times. You cannot eat dinner at 6pm.",
+        "The Bill Ritual: The check will never come automatically. You must catch the waiter's eye and mime scribbling or say 'Il conto'. Lingering is culturally expected.",
+        "Coperto & Tipping: A €2–3 'Coperto' (cover charge) is added per person. This is normal. Tipping is NOT required; locals might leave small change, but 20% is not a thing.",
+        "Water Rule: Restaurants serve bottled water by default. However, outside, the thousands of 'Nasoni' (street fountains) flow with cold, safe volcanic water. Refill your bottle for free."
+      ]
+    },
+    {
+      "id": "logistics-airports",
+      "slug": "airport-strategy",
+      "title": "Airport Strategy",
+      "icon": "Plane",
+      "summary": "Fiumicino (FCO) vs. Ciampino (CIA).",
+      "details": [
+        "FCO (Fiumicino): The main airport. Take the 'Leonardo Express' train to Termini (32 mins, €14, guaranteed connection). Taxis have a FIXED RATE of €50 to anywhere inside the Aurelian Walls.",
+        "CIA (Ciampino): Budget hub (Ryanair). No train station. Take a Shuttle Bus (Terravision/SitBus) to Termini (~€6). Taxi fixed rate is €31.",
+        "Taxi Warning: Verify the fixed rate with the driver BEFORE getting in. Ignore touts inside the terminal; go to the official line outside."
+      ]
+    },
+    {
+      "id": "logistics-survival",
+      "slug": "local-survival",
+      "title": "Local Survival Tips",
+      "icon": "Info",
+      "summary": "How to navigate the chaos.",
+      "details": [
+        "Coffee Bar Rule: Price is regulated at the bar (~€1.10) but can double or triple if you sit at a table. Do as locals do: drink standing up at the counter.",
+        "Chaos Mindset: Lines are loose suggestions. Buses don't stop unless you wave. Things take time. Fighting the chaos causes stress; accepting it is the Roman way.",
+        "August Shutdown: The city empties around Ferragosto (Aug 15). Many authentic family-run spots close for 2 weeks. Tourist traps stay open.",
+        "Heat Survival: In summer, the sun is brutal. Locals avoid walking between 1pm–4pm. Plan museums or naps during these hours."
       ]
     },
     {
@@ -110,9 +136,22 @@
       "icon": "Shield",
       "summary": "Safe city, aggressive scammers.",
       "details": [
-        "Pickpocket Routes: Be hyper-vigilant on Bus 64 (Vatican bus), crowded Metro A, and queues for the Colosseum.",
-        "The Bracelet Scam: Men will try to tie a 'free' bracelet on your wrist then demand money. Keep hands in pockets.",
-        "Termini Station: The area around the main train station is gritty at night. Stay on main streets."
+        "Pickpocket Routes: Be hyper-vigilant on Bus 64 (Vatican bus), the crowded Metro A, and in queues for the Colosseum.",
+        "The Bracelet Scam: Men at tourist sites will try to tie a 'free' bracelet on your wrist, then aggressively demand money. Keep hands in pockets and walk away.",
+        "Termini Station: The area around the main train station can be gritty and sketchy late at night. Stick to main, well-lit streets."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Apps to Download",
+      "icon": "Smartphone",
+      "summary": "Digital tools for the Eternal City.",
+      "details": [
+        "FreeNow: The main app for calling official white taxis.",
+        "Trenitalia: Essential for checking train times and buying tickets for the Leonardo Express.",
+        "Citymapper / Google Maps: Both work decent for transit, though bus timings are often 'aspirational' rather than accurate.",
+        "Acea Waidy: Finds the nearest free water fountain (Nasone)."
       ]
     }
   ],

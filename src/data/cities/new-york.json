@@ -123,7 +123,7 @@
       "image": "/images/new-york/flushing.jpg"
     }
   ],
-  "logistics": [
+"logistics": [
     {
       "id": "logistics-transit",
       "slug": "getting-around",
@@ -131,11 +131,35 @@
       "icon": "Train",
       "summary": "The Subway is the lifeline. Taxis are for rain.",
       "details": [
-        "OMNY vs. MetroCard: The MetroCard is sunsetting. Use OMNY (tap credit card/phone) at the turnstile. The 'Fare Cap' gives you free rides after 12 paid trips/week (Mon-Sun) on the SAME device.",
+        "OMNY vs. MetroCard: The MetroCard is dying. Use OMNY (tap credit card/phone) at the turnstile. Fare Cap: Rides are free after your 12th paid ride (Mon-Sun) on the SAME device.",
         "Express vs. Local: Crucial! 'Express' trains (white circle on map) skip minor stations. 'Local' trains (black circle) stop everywhere. Locals 'cross-platform transfer' to save time.",
-        "Rush Hour: 07:30–10:00 and 16:30–18:30 are intense. Trains are packed. Pushing is physics, not aggression.",
-        "Navigation Apps: Use 'Citymapper' for subway details (which car to board). Use Google Maps for general walking.",
-        "Weekend Changes: Trains often re-route on weekends for maintenance. Check the MTA website or apps before travel."
+        "Rush Hour: 07:30–10:00 and 16:30–18:30. Trains are crush-capacity. Backpacks off. Pushing is physics, not aggression.",
+        "Weekend Service: The subway is 24/7, but lines drastically re-route on weekends for construction. Always check the MTA website or Citymapper before traveling Sat/Sun."
+      ]
+    },
+    {
+      "id": "logistics-dining",
+      "slug": "dining-protocol",
+      "title": "Dining Logistics",
+      "icon": "Utensils",
+      "summary": "Tipping is mandatory. Hygiene is graded.",
+      "details": [
+        "The 20% Rule: Tipping is not optional. 20% is the standard for table service. 15% is seen as bad. $1 per drink at bars. Service staff live on tips.",
+        "The Letter Grade: Look for the blue 'A' card in the restaurant window. This is the Health Department grade. 'B' or 'C' means hygiene violations. 'Grade Pending' is a gamble.",
+        "Resy Culture: For trendy spots, you cannot just walk in. Reservations open 14-30 days in advance on Resy/OpenTable and vanish in seconds. Plan ahead.",
+        "The Bar Seat: NYC is the best city for solo dining. Eating at the bar is socially acceptable and often the fastest way to get a seat at popular restaurants."
+      ]
+    },
+    {
+      "id": "logistics-airports",
+      "slug": "airport-transfers",
+      "title": "Airport Strategy",
+      "icon": "Plane",
+      "summary": "JFK, LGA, or EWR? Pick your poison.",
+      "details": [
+        "JFK (Queens): The AirTrain ($8.25) connects to the Subway ($2.90). Cheap ($11 total) but takes 60-90 mins. Taxis offer a flat rate (~$70 + tolls/tip) to Manhattan.",
+        "LGA (Queens): Closest to the city but no subway. Take the M60 SBS Bus (free transfer to subway) or a Taxi/Uber (~$40-60). Uber pickup area is chaotic.",
+        "EWR (New Jersey): Take the NJ Transit train to Penn Station. It is fast and reliable. Taxis from NJ to NYC are extremely expensive (cross-state surcharges)."
       ]
     },
     {
@@ -145,10 +169,9 @@
       "icon": "Info",
       "summary": "How to survive the concrete jungle.",
       "details": [
-        "Sensory Reality: Sirens are constant. Trash bags sit on sidewalks (no alleys). In summer, the subway platforms can be 10-15°C hotter than the street. Accept the grit.",
-        "The Bathroom Code: Public restrooms are rare. Use the 'Got2Go' or 'NYRestroom' apps. Reliable options: Bryant Park, Grand Central, Macy's.",
-        "Navigation Math: 20 street blocks (North-South) = 1 mile (20 mins). Avenue blocks (East-West) are 3x longer. Use the 'Avenue Math' algorithm to find cross streets.",
-        "Money: Cards are accepted almost everywhere. Keep cash for tips, small bodegas, and street carts. ATM fees in bodegas are high."
+        "The Bathroom Code: Public restrooms don't exist. Use the 'Got2Go' app to find codes. Reliable free options: Bryant Park, Grand Central Terminal, Macy's, Whole Foods.",
+        "Navigation Math: 20 street blocks (North-South) = 1 mile. Avenue blocks (East-West) are 3x longer. 'Even' streets run East, 'Odd' streets run West (mostly).",
+        "Sensory Reality: Sirens are constant. Trash bags sit on sidewalks (no alleys). In summer, subway platforms are 10-15°F hotter than the street."
       ]
     },
     {
@@ -158,10 +181,10 @@
       "icon": "User",
       "summary": "Walk right, pass left, never stop.",
       "details": [
-        "The Golden Rule: Treat the sidewalk like a highway. Walk on the right. Pass on the left.",
+        "The Golden Rule: Treat the sidewalk like a highway. Walk on the right. Pass on the left. Don't walk 3-abreast.",
         "Never Stop Here: Subway exits, top of escalators, or crosswalk corners. Stopping here creates a pile-up.",
         "Pull Over: If you need to check a map or text, step flush against a building. Standing still in the flow of traffic is the ultimate sin.",
-        "Jaywalking (2025): Legalized, but cars still have right of way. Cross when safe, but stay alert."
+        "Jaywalking: Legalized in 2025, but cars still have right of way. Cross whenever safe, but stay alert."
       ]
     },
     {
@@ -171,11 +194,23 @@
       "icon": "Shield",
       "summary": "Generally safe, but stay alert.",
       "details": [
-        "Block-by-Block: Safety changes instantly. A busy street is safe; a deserted one is not. Late night, stick to populated avenues.",
-        "The Unstable: If someone is yelling or talking to themselves, ignore them. Do not stare, do not engage, just keep walking.",
-        "Times Square Scams: Costumed characters (Elmo/Mickey) will demand money ($20+) if you take a photo. 'Free' CD guys will intimidate you into paying. Ignore them.",
-        "Pedicabs: A notorious trap. They charge exorbitant per-minute rates. Avoid or negotiate price upfront.",
-        "Phone Snatching: Don't stand near the subway doors holding your phone loosely. Thieves grab them just as doors close."
+        "Times Square Scams: Men handing out 'free' CDs will intimidate you for money. Costumed characters (Elmo/Mickey) demand $20+ for photos. Ignore them.",
+        "The Unstable: If someone is yelling or talking to themselves, ignore them completely. Do not stare, do not engage, just keep walking.",
+        "Phone Snatching: Don't stand near subway doors holding your phone loosely. Thieves grab them just as the doors close.",
+        "Pedicabs: Avoid. They charge exorbitant per-minute rates ($5-$10/min) and are unregulated."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Apps to Download",
+      "icon": "Smartphone",
+      "summary": "The digital toolkit for NYC.",
+      "details": [
+        "Citymapper: Better than Google Maps for subway navigation (tells you which train car to engage).",
+        "Citizen: Real-time safety alerts. Good for situational awareness if you see police activity.",
+        "Resy: The primary engine for restaurant reservations.",
+        "Revel / Uber: Ride-share apps. Revel is an all-electric fleet (often cleaner/newer)."
       ]
     }
   ],

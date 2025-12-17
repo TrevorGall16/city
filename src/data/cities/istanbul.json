@@ -90,31 +90,32 @@
       "image": "/images/istanbul/bomonti.jpg"
     }
   ],
-  "logistics": [
-    {
-      "id": "logistics-survival",
-      "slug": "local-survival",
-      "title": "Local Survival Tips",
-      "icon": "Info",
-      "summary": "Navigate inflation and infrastructure.",
-      "details": [
-        "Tap Water: Do not drink it. Pipe infrastructure is old. Use it for brushing teeth, but buy bottled water for drinking.",
-        "Inflation & Menus: The 'Menu Law' requires prices to be visible outside. If there is no menu, walk away. Prices change weekly.",
-        "Toilets: The 'bidet nozzle' inside the bowl is standard. Use it. Public toilets often cost 5-10 TL (coins/card).",
-        "Museum Costs: Entry fees for foreigners have skyrocketed (e.g., €25 Hagia Sophia, €50+ Topkapi). Plan your budget."
-      ]
-    },
+ "logistics": [
     {
       "id": "logistics-transit",
       "slug": "getting-around",
       "title": "Getting Around",
       "icon": "Train",
-      "summary": "Master the Istanbulkart and the Ferry.",
+      "summary": "Master the Istanbulkart, the Refund Machine, and the Dolmuş.",
       "details": [
-        "Istanbulkart: The universal key. Buy at yellow machines. Note: The deposit is non-refundable. Top up in small increments.",
-        "The Ferry (Vapur): The soul of the city. Commuting between Europe and Asia with a tea in hand is the best experience in Istanbul.",
-        "Marmaray Refund: The undersea train charges the MAX fare on entry. You MUST tap your card at the 'Refund Machine' upon exiting to get money back.",
-        "Dolmuş (Minibus): Yellow shared vans. Cash only. Pass money forward to the driver via other passengers. Say 'Müsait bir yerde' to get off."
+        "Istanbulkart: Buy at yellow machines. Note: The ~130 TL deposit is non-refundable. Top up in small amounts as you cannot refund the balance.",
+        "Marmaray Refund (CRITICAL): The undersea train charges the MAX fare (full line) on entry. You MUST tap your card at the 'Refund Machine' (İade Makinesi) upon exiting to get the difference back.",
+        "Dolmuş (Minibus): Yellow shared vans. Cash only. Sit in the back and pass money forward to the driver via other passengers—this is normal. Say 'Müsait bir yerde' (At a convenient place) to get off.",
+        "Ferry Strategy: Avoid expensive 'Dinner Cruises'. Use the public 'Şehir Hatları' ferries for the authentic experience. The Kadıköy-Karaköy line at sunset is the city's best view.",
+        "Taxi Apps: Street taxis are risky. Use 'BiTaksi' or 'Uber' (which calls yellow taxis) to track your ride. 'Martı TAG' is a popular local alternative using private cars."
+      ]
+    },
+    {
+      "id": "logistics-dining",
+      "slug": "dining-protocol",
+      "title": "Dining Logistics",
+      "icon": "Utensils",
+      "summary": "Navigating menus, bills, and alcohol etiquette.",
+      "details": [
+        "The Inflation Rule: Prices change weekly. The 'Menu Law' requires prices to be displayed outside. If a place has no visible menu prices, walk away—it is a billing trap.",
+        "The Bill Battle: In Turkish culture, the host pays. If dining with locals, offering to split the bill is polite but will likely be refused. Let them pay, then buy drinks or dessert later.",
+        "Esnaf Mechanics: In 'Tradesmen Restaurants', there is no menu. Point at the food behind the glass. Water on the table is NOT free; if you open the bottle, you pay for it.",
+        "Rakı Toasting: When drinking Rakı (anise spirit), toast by touching the BOTTOM of your glass to your friend's glass. Clinking the top is seen as arrogant."
       ]
     },
     {
@@ -122,12 +123,36 @@
       "slug": "safety-scams",
       "title": "Safety & Scams",
       "icon": "Shield",
-      "summary": "Safe city, predatory taxis.",
+      "summary": "Generally safe, but watch out for these specific traps.",
       "details": [
-        "Taxis: The weakest link. Drivers may refuse short rides or scam tourists. NEVER hail from the street. Use BiTaksi or Uber.",
-        "Shoe Shine Scam: A shiner drops a brush. You pick it up. They offer a 'free' thanks shine, then demand money. Ignore the brush.",
-        "Drink Scam: 'Let's have a drink' from a friendly stranger leads to a nightclub with a $1000 bill. Never go to a second location with a stranger.",
-        "Political Protests: Avoid Taksim/Istiklal on May 1st or March 8th. If you see police barricades, leave."
+        "The 'Note Swap' Scam: A taxi driver takes your 200 TL note, drops it (sleight of hand), swaps it for a 20 TL note, and claims you underpaid. Counter-move: Hold the bill up and say 'Two Hundred' while making eye contact before handing it over.",
+        "The Shoe Shine: A cleaner drops a brush in front of you. If you pick it up, they offer a 'free' thank-you shine, then aggressively demand payment. Ignore the brush and keep walking.",
+        "The 'Let's Have a Drink': A friendly stranger (often well-dressed) invites you to a specific club/bar. You will be joined by women, ordered expensive drinks, and forced to pay a massive bill ($1000+). Never go to a second location with a stranger.",
+        "Carpet 'Fishermen': Friendly locals who guide you to landmarks, then invite you to their 'uncle's shop' for tea. The tea creates a psychological debt to buy a rug. A firm 'No, thank you' (hand on heart) works."
+      ]
+    },
+    {
+      "id": "logistics-hamam",
+      "slug": "hamam-guide",
+      "title": "The Hamam Ritual",
+      "icon": "Shower",
+      "summary": "How to navigate the Turkish Bath without embarrassment.",
+      "details": [
+        "Choice: Historic hamams (Kılıç Ali Paşa, Cağaloğlu) are expensive (€50-100) but foreigner-friendly and stunning. Neighborhood hamams are cheap but require Turkish know-how.",
+        "The Process: 1. Undress (keep underwear or wear provided disposable ones). 2. 'Sıcaklık' (Steam on the hot stone for 15 mins). 3. 'Kese' (Attendant scrubs you with a rough mitt—dead skin will roll off). 4. 'Köpük' (Foam wash).",
+        "Etiquette: Men and women are almost always separated (different hours or different sections). Tipping the attendants (10-20%) is customary at the end."
+      ]
+    },
+    {
+      "id": "logistics-survival",
+      "slug": "local-survival",
+      "title": "Survival Essentials",
+      "icon": "Info",
+      "summary": "Water, toilets, and the Museum City.",
+      "details": [
+        "Tap Water: Do not drink it. Locals use it for cleaning but drink bottled water or 'damacana' (delivered jugs). Brushing teeth with it is fine.",
+        "Toilets: Public toilets (mosques/malls) are clean but often cost 5-10 TL. Use the 'bidet nozzle' inside the bowl—it's standard hygiene here.",
+        "Museum Costs: Entry fees for foreigners are high (e.g., ~€25 Hagia Sophia, ~€55 Topkapi). The 'Museum Pass Istanbul' (€105) is only worth it if you visit 4+ Ministry of Culture sites (it does NOT cover the Basilica Cistern or Galata Tower)."
       ]
     }
   ],
@@ -139,7 +164,16 @@
       "name_local": "Simit",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The sesame-encrusted bread ring that fuels the city. Buy from street carts in the morning when they are fresh. By afternoon, they are rocks.",
+      "description": {
+        "short": "Simit is a circular sesame-encrusted bread ring, crispy on the outside and chewy inside, that serves as Istanbul's quintessential street food breakfast. Found on nearly every corner from dawn, it's traditionally eaten plain or with cheese. This ubiquitous snack is the fuel that powers the city's morning commute.",
+        "vibe": "Humble, Traditional, Energizing",
+        "history": "Simit has been sold in Istanbul's streets since Ottoman times, with historical records dating back to the 1500s. The name comes from the Arabic word 'samīd' meaning white bread or fine flour. Street vendors would balance large trays of simit on their heads while crying out to customers. In Ottoman palace kitchens, simit was considered a delicacy reserved for special occasions.",
+        "insider_tip": "Buy from street carts in the early morning when they're fresh and warm—by afternoon, they become dry and rock-hard. Look for carts with high turnover near ferry terminals and metro stations.",
+        "price_level": "Affordable",
+        "good_for": ["Quick bite", "Budget travelers", "Breakfast"],
+        "duration": "5-10 minutes",
+        "best_time": "Early morning"
+      },
       "image": "/images/istanbul/simit.jpg"
     },
     {
@@ -149,7 +183,16 @@
       "name_local": "Serpme Kahvaltı",
       "category": "food",
       "is_generic_staple": true,
-      "description": "An industrial complex of small plates: cheeses, olives, jams, eggs (menemen). Avoid the 'Grand Breakfasts' in tourist zones. Go to 'Breakfast Street' in Beşiktaş.",
+      "description": {
+        "short": "Serpme Kahvaltı is a sprawling Turkish breakfast spread featuring dozens of small plates including multiple cheeses, olives, jams, honey, eggs (often menemen—scrambled with tomatoes and peppers), fresh vegetables, and bread. The word 'serpme' means 'spread out,' reflecting the abundant, communal nature of this meal. It's designed to be leisurely, social, and substantial enough to fuel you until dinner.",
+        "vibe": "Communal, Abundant, Leisurely",
+        "history": "The elaborate Turkish breakfast tradition evolved from Ottoman court cuisine, where variety and abundance demonstrated hospitality and wealth. Van province in eastern Turkey claims to have originated the modern serpme style in the 1960s. What was once a weekend ritual has become Istanbul's most popular brunch culture, with dedicated 'breakfast streets' emerging in neighborhoods like Beşiktaş.",
+        "insider_tip": "Avoid the overpriced 'Grand Breakfasts' in tourist zones like Sultanahmet. Instead, head to Beşiktaş's 'Breakfast Street' for authentic, reasonably-priced spreads frequented by locals.",
+        "price_level": "Moderate",
+        "good_for": ["Groups", "Foodies", "Weekend brunch"],
+        "duration": "1-2 hours",
+        "best_time": "Morning to early afternoon"
+      },
       "image": "/images/istanbul/breakfast.jpg"
     },
     {
@@ -159,7 +202,16 @@
       "name_local": "Esnaf Lokantası",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The backbone of lunch culture. Cafeteria-style, point at what you want. Stews, rice, beans (Kuru Fasulye). Cheap, fast, and home-cooked taste.",
+      "description": {
+        "short": "Esnaf Lokantası literally means 'tradesmen's restaurant'—no-frills, cafeteria-style eateries where you point at pre-cooked dishes displayed in steam trays. Expect home-cooked Turkish staples like stews, rice, beans (kuru fasulye), and vegetable dishes served quickly and cheaply. These are the backbone of Istanbul's working-class lunch culture, offering authentic flavors without pretension.",
+        "vibe": "Unpretentious, Efficient, Homestyle",
+        "history": "Esnaf lokantası emerged in the early 20th century to feed Istanbul's growing working class during rapid industrialization. The model was simple: prepare large batches of traditional home dishes and sell them cheaply to laborers and tradesmen. During the 1970s economic boom, these restaurants became social hubs where craftsmen, taxi drivers, and office workers mixed. The cafeteria-style service evolved to maximize efficiency during the tight lunch hour.",
+        "insider_tip": "Arrive between 12-1 PM when food is freshest and selection is best. Point confidently at what you want—hesitation marks you as a tourist. Dishes are priced individually, so pace yourself.",
+        "price_level": "Affordable",
+        "good_for": ["Budget travelers", "Quick lunch", "Solo diners"],
+        "duration": "30-45 minutes",
+        "best_time": "Lunch (12-2 PM)"
+      },
       "image": "/images/istanbul/esnaf.jpg"
     },
     {
@@ -169,7 +221,16 @@
       "name_local": "Meyhane",
       "category": "food",
       "is_generic_staple": true,
-      "description": "A tavern for Rakı and Meze. It is about conversation. Toast by touching the BOTTOM of your glass (humility). Order cold mezes from the tray first.",
+      "description": {
+        "short": "A meyhane is a traditional Turkish tavern centered around rakı (anise-flavored spirit) and meze (small shared plates). Unlike dining for sustenance, meyhane culture is about slow, convivial evenings filled with conversation, music, and measured drinking. You'll order cold mezes first from a display tray, then hot dishes throughout the night. The experience is fundamentally social—going alone is culturally odd.",
+        "vibe": "Convivial, Musical, Unhurried",
+        "history": "Meyhane culture traces back to Byzantine taverns but flourished during the Ottoman era, particularly among Greek, Armenian, and Jewish communities in neighborhoods like Beyoğlu. The word 'meyhane' comes from Persian, meaning 'wine house.' These establishments were historically male-dominated spaces where poets, intellectuals, and artists gathered. After the 1923 population exchange, meyhane culture adapted and spread throughout Turkish society. Live fasıl music—a traditional Ottoman genre—became synonymous with meyhane evenings.",
+        "insider_tip": "Toast by touching the bottom of your glass to others' glasses—it's a gesture of humility. Order cold mezes from the display tray first, then pace hot dishes throughout the evening. Rakı should be diluted with water (it turns milky white) and sipped slowly.",
+        "price_level": "Moderate",
+        "good_for": ["Groups", "Couples", "Cultural experience"],
+        "duration": "2-4 hours",
+        "best_time": "Evening"
+      },
       "image": "/images/istanbul/meyhane.jpg"
     },
     {
@@ -179,7 +240,16 @@
       "name_local": "Midye Dolma",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Mussels stuffed with spiced rice, sold on street corners. Rule: Only eat at stalls with high turnover to avoid food poisoning. You pay by the count.",
+      "description": {
+        "short": "Midye dolma consists of black sea mussels stuffed with spiced rice, pine nuts, currants, and herbs, served cold with a squeeze of lemon. Sold by street vendors from large trays or carts, these are Istanbul's iconic street snack—you eat them standing up and pay by count. The combination of briny mussel and fragrant rice creates a unique flavor profile beloved by locals.",
+        "vibe": "Casual, Risky, Delicious",
+        "history": "Midye dolma originated in Ottoman palace kitchens as 'midye tava' (fried mussels) but evolved into the stuffed street food version in the late 19th century. Greek and Armenian communities in Istanbul refined the recipe, adding Aegean spices. The street vendor culture exploded in the 1970s-80s as rural migrants brought mussels from coastal villages to sell in the city. Today, entire families run multi-generational mussel businesses.",
+        "insider_tip": "Only eat at stalls with visibly high turnover to minimize food poisoning risk—look for crowds and vendors who are constantly restocking. Fresh midye should smell like the sea, not fishy. Squeeze lemon liberally and don't be shy about eating 10-15 in one go.",
+        "price_level": "Affordable",
+        "good_for": ["Adventurous eaters", "Quick bite", "Snack"],
+        "duration": "10-15 minutes",
+        "best_time": "Afternoon or evening"
+      },
       "image": "/images/istanbul/midye.jpg"
     },
     {
@@ -189,7 +259,16 @@
       "name_local": "Kokoreç",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Grilled lamb intestines wrapped in bread, heavily spiced. The ultimate late-night food. Hygiene matters; stick to busy chains like Şampiyon.",
+      "description": {
+        "short": "Kokoreç is grilled lamb intestines that are chopped, heavily spiced with oregano and red pepper flakes, and served in crusty bread. The texture is chewy and the flavor is intensely savory—divisive but beloved by locals. This is Istanbul's ultimate late-night street food, typically consumed after drinking. Hygiene is critical; choose busy, established vendors.",
+        "vibe": "Bold, Polarizing, Late-night",
+        "history": "Kokoreç has ancient Greek origins and was consumed throughout the Ottoman Empire, but it became particularly associated with Istanbul's street food culture. During the 1970s, kokoreç carts became fixtures outside bars and nightclubs in neighborhoods like Beyoğlu. The dish faced a brief ban in the early 2000s due to EU food safety regulations (during Turkey's EU accession talks), sparking massive protests—Turks defended their right to eat intestines. The ban was quickly reversed, cementing kokoreç as a symbol of cultural identity.",
+        "insider_tip": "Stick to busy chain vendors like Şampiyon where high turnover ensures freshness and hygiene standards are maintained. Ask for 'az acılı' (less spicy) if you're sensitive to heat. Eat it immediately while hot—kokoreç congeals unappetizingly when cold.",
+        "price_level": "Affordable",
+        "good_for": ["Adventurous eaters", "Late night", "Quick bite"],
+        "duration": "15-20 minutes",
+        "best_time": "Late night (after midnight)"
+      },
       "image": "/images/istanbul/kokorec.jpg"
     },
     {
@@ -199,8 +278,207 @@
       "name_local": "Türk Kahvesi",
       "category": "food",
       "is_generic_staple": true,
-      "description": "A slow-sipping digestif. Order by sweetness: 'Sade' (no sugar), 'Orta' (medium), 'Şekerli' (sweet). Do not drink the sludge at the bottom.",
+      "description": {
+        "short": "Turkish coffee is finely ground coffee beans boiled with water (and optionally sugar) in a special pot called a cezve, then served unfiltered in a small cup. The result is thick, strong, and meant to be sipped slowly—it's a digestif and social ritual, not a caffeine delivery system. The grounds settle at the bottom and are used for fortune-telling (tasseography).",
+        "vibe": "Contemplative, Traditional, Bitter",
+        "history": "Coffee arrived in Istanbul from Yemen in the 16th century during Suleiman the Magnificent's reign. The first coffeehouse, Kiva Han, opened in 1555 and became a hub for intellectuals, poets, and political debate—so influential that authorities periodically tried to ban them. Turkish coffee preparation was refined in Ottoman palace kitchens and spread throughout the empire. In 2013, UNESCO recognized Turkish coffee culture as Intangible Cultural Heritage, acknowledging its role in social bonding and fortune-telling traditions.",
+        "insider_tip": "Order by sweetness level: 'sade' (no sugar), 'orta' (medium sweet), or 'şekerli' (very sweet)—this must be decided before brewing. Never drink the thick sludge at the bottom—it's grounds, not part of the drink. Wait a few minutes after it's served to let grounds settle.",
+        "price_level": "Affordable",
+        "good_for": ["Cultural experience", "Afternoon break", "Solo travelers"],
+        "duration": "20-30 minutes",
+        "best_time": "After meals or afternoon"
+      },
       "image": "/images/istanbul/coffee.jpg"
+    },
+    {
+      "id": "food-008",
+      "slug": "balik-ekmek",
+      "name_en": "Fish Sandwich",
+      "name_local": "Balık Ekmek",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Balık ekmek is a grilled mackerel fillet served in half a loaf of crusty bread with lettuce, onions, and lemon—nothing more. This is Istanbul's most iconic street food, traditionally sold from rocking boats moored at Eminönü pier. The fish is grilled fresh on charcoal, the smoke mixing with sea air. It's messy, delicious, and fundamentally Istanbul.",
+        "vibe": "Chaotic, Fresh, Iconic",
+        "history": "The balık ekmek tradition began in the 1950s when fishermen at Eminönü started grilling their catch and selling sandwiches directly from their boats. The rocking boat restaurants became a symbol of Istanbul's waterfront culture. In the 1990s-2000s, these boats faced repeated government crackdowns over hygiene concerns and illegal mooring, leading to their eventual removal in 2017. Today, balık ekmek is sold from fixed stands at Eminönü and Karaköy, but purists mourn the loss of the boat experience.",
+        "insider_tip": "Go to the stands under Galata Bridge at Eminönü—look for the ones with the longest lines of locals. Eat it immediately while standing; it gets soggy fast. Squeeze lots of lemon and ask for extra onions. Avoid places that pre-cook fish; it should be grilled to order.",
+        "price_level": "Affordable",
+        "good_for": ["Quick bite", "Cultural experience", "Budget travelers"],
+        "duration": "10-15 minutes",
+        "best_time": "Lunch or late afternoon"
+      },
+      "image": "/images/istanbul/balik-ekmek.jpg"
+    },
+    {
+      "id": "food-009",
+      "slug": "borek",
+      "name_en": "Börek",
+      "name_local": "Börek",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Börek is flaky layered pastry made with thin sheets of dough (yufka) filled with cheese (peynirli), spinach (ıspanaklı), minced meat (kıymalı), or potatoes. It can be rolled (sigara böreği), layered in a pan (su böreği), or coiled (kol böreği). Eaten for breakfast or as a snack, börek is found everywhere from street carts to upscale bakeries.",
+        "vibe": "Comforting, Flaky, Versatile",
+        "history": "Börek has Central Asian Turkic origins, arriving in Anatolia with nomadic tribes over 1,000 years ago. The Ottoman palace kitchens refined it into an art form with dozens of regional variations. Each Anatolian region developed its own style—Trabzon has layered Vakfıkebir böreği, while Sarıyer is famous for its cheese-filled börek. The thin yufka dough technique was traditionally a skill passed from mother to daughter, though most modern börek uses factory-made sheets.",
+        "insider_tip": "For authentic börek, avoid chain bakeries. Look for small 'börekçi' shops where grandmothers are visibly rolling dough in the window. Su böreği (the layered, cheese-filled version) should be slightly wet and soft—if it's dry, it's old. Eat it warm.",
+        "price_level": "Affordable",
+        "good_for": ["Breakfast", "Quick bite", "Snack"],
+        "duration": "15-20 minutes",
+        "best_time": "Morning or mid-afternoon"
+      },
+      "image": "/images/istanbul/borek.jpg"
+    },
+    {
+      "id": "food-010",
+      "slug": "lahmacun",
+      "name_en": "Lahmacun",
+      "name_local": "Lahmacun",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Lahmacun is a thin, crispy flatbread topped with minced lamb or beef mixed with tomatoes, peppers, onions, and spices, then baked in a wood-fired oven. Often called 'Turkish pizza,' it's rolled up with fresh parsley, lemon, and sometimes pickles before eating. It's a fast, affordable meal found at specialized 'lahmacun salonu' restaurants.",
+        "vibe": "Spicy, Crispy, Casual",
+        "history": "Lahmacun has ancient Levantine origins, possibly dating back to Assyrian flatbreads. The name comes from Arabic 'lahm bi'ajin' (meat with dough). It spread throughout the Ottoman Empire and became particularly associated with southeastern Turkish cities like Gaziantep and Urfa. Armenian and Arab communities in Istanbul refined the recipe in the early 20th century. During the 1960s economic boom, lahmacun became Istanbul's working-class fast food as migrants from the southeast opened small eateries.",
+        "insider_tip": "Order at least two—they're thin and one is never enough. The proper way to eat it: squeeze lemon over the meat, add parsley and sumac, roll it tightly like a cigar, and eat with your hands. Good lahmacun should have a smoky char from the wood oven and the meat should be finely ground, almost paste-like.",
+        "price_level": "Affordable",
+        "good_for": ["Quick lunch", "Budget travelers", "Groups"],
+        "duration": "30-45 minutes",
+        "best_time": "Lunch or dinner"
+      },
+      "image": "/images/istanbul/lahmacun.jpg"
+    },
+    {
+      "id": "food-011",
+      "slug": "doner-kebab",
+      "name_en": "Döner Kebab",
+      "name_local": "Döner Kebap",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Döner kebab is seasoned meat (lamb, beef, or chicken) stacked on a vertical rotisserie, slow-roasted, then shaved off in thin slices. In Istanbul, it's served in bread (ekmek arası) or over rice (pilav üstü), with tomatoes, peppers, onions, and sometimes yogurt. This is not the late-night drunk food of Europe—authentic Istanbul döner is a craft with quality meat and proper technique.",
+        "vibe": "Savory, Satisfying, Ubiquitous",
+        "history": "Döner was invented in 19th-century Ottoman Bursa when cooks began stacking seasoned meat vertically to roast evenly. Iskender Efendi is credited with creating the modern döner format around 1867. The dish spread to Istanbul and became a staple. In the 1960s-70s, Turkish immigrants brought döner to Germany, where it evolved into the fast-food version known worldwide. Istanbul's döner culture remains more refined, with quality establishments using whole cuts of meat rather than processed blends.",
+        "insider_tip": "Avoid tourist traps near Sultanahmet. Look for places where locals queue and meat is actually stacked in layers (not a mystery meat log). Ask for 'az yağlı' (less fatty) if you want leaner cuts. The best döner is 'döner pilav' (over rice) rather than in bread. Drink ayran with it—the yogurt cuts the richness.",
+        "price_level": "Affordable",
+        "good_for": ["Quick meal", "Solo diners", "Late night"],
+        "duration": "20-30 minutes",
+        "best_time": "Lunch or late evening"
+      },
+      "image": "/images/istanbul/doner.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "balik-season",
+      "name_en": "Fresh Fish Culture",
+      "name_local": "Balık Mevsimi",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Istanbul's fish culture is deeply seasonal, with autumn and winter being prime time when fish migrate through the Bosphorus from the Black Sea. Turks have a saying: 'Balık baştan kokar' (fish rots from the head)—freshness is everything. Fish restaurants line the Bosphorus, and locals know which species are in season. Common varieties include lüfer (bluefish), palamut (bonito), hamsi (anchovies), and levrek (sea bass).",
+        "vibe": "Seasonal, Fresh, Social",
+        "history": "Istanbul's strategic position on the Bosphorus made it a fishing capital for millennia. Byzantine fishermen supplied the city with Black Sea catch, and Ottoman guilds regulated fishing rights. The annual hamsi (anchovy) migration in winter became a cultural phenomenon—entire festivals celebrate this tiny fish. The meyhane tradition evolved around fresh fish and rakı. In the 1980s-90s, waterfront fish restaurants in neighborhoods like Kumkapı and Arnavutköy became symbols of Istanbul nightlife.",
+        "insider_tip": "Check what's in season—autumn brings lüfer and palamut, winter is hamsi season. In fish restaurants, go to the display case and pick your fish yourself; it should have clear eyes and firm flesh. Grilled (ızgara) is the standard preparation. Pair with rakı and cold mezes. Avoid summer when fish selection is limited and quality drops.",
+        "price_level": "Moderate",
+        "good_for": ["Foodies", "Groups", "Cultural experience"],
+        "duration": "2-3 hours",
+        "best_time": "Autumn and winter evenings"
+      },
+      "image": "/images/istanbul/balik.jpg"
+    },
+    {
+      "id": "food-013",
+      "slug": "kumpir",
+      "name_en": "Kumpir (Loaded Baked Potato)",
+      "name_local": "Kumpir",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Kumpir is a massive baked potato split open, mashed with butter and cheese until creamy, then loaded with your choice from a dizzying array of toppings: corn, pickles, olives, sausages, Russian salad, carrots, peas, and more. It originated in the Ortaköy neighborhood and became a cult food. One kumpir is a full meal—cheap, filling, and customizable.",
+        "vibe": "Indulgent, Customizable, Youthful",
+        "history": "Kumpir came to Turkey in the 1980s, inspired by baked potato stands in Eastern Europe. The Ortaköy district, a bohemian waterfront area popular with students, became ground zero for kumpir culture. What started as simple baked potatoes evolved into the loaded, over-the-top version known today as vendors competed by offering more and more outrageous toppings. By the 1990s, Ortaköy's kumpir street had become a pilgrimage site for teenagers and tourists. The dish represents Istanbul's ability to take foreign foods and make them excessively Turkish.",
+        "insider_tip": "Go to Ortaköy's waterfront kumpir row—the street with a dozen competing stalls. The standard move: butter, cheese, then 4-6 toppings of your choice (avoid overdoing it or flavors get muddled). Eat it fresh while the potato is hot. Sunday afternoons get extremely crowded; weekday evenings are better.",
+        "price_level": "Affordable",
+        "good_for": ["Budget travelers", "Vegetarians", "Quick meal"],
+        "duration": "20-30 minutes",
+        "best_time": "Lunch or early dinner"
+      },
+      "image": "/images/istanbul/kumpir.jpg"
+    },
+    {
+      "id": "drink-001",
+      "slug": "cay",
+      "name_en": "Turkish Tea",
+      "name_local": "Çay",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Çay is strong black tea brewed in a double-stacked teapot (çaydanlık) and served in small tulip-shaped glasses. It's the social glue of Turkey—offered constantly in shops, drunk on ferries, and consumed all day long. The tea is always hot, often accompanied by sugar cubes, and refusing it can seem cold. Turks drink an estimated 3-4 glasses per day on average.",
+        "vibe": "Ubiquitous, Social, Comforting",
+        "history": "Tea only became popular in Turkey in the early 20th century. Coffee was the traditional drink, but after World War I coffee imports became expensive. Mustafa Kemal Atatürk promoted tea cultivation in the Black Sea region (Rize) in the 1920s as part of agricultural modernization. By the 1930s-40s, tea had replaced coffee as the everyday drink. The distinctive tulip glass was designed in the 1950s to show the tea's color and keep hands from burning. Tea houses (çay bahçesi) became central to male social life.",
+        "insider_tip": "To signal you're done drinking, place your spoon across the rim of the glass—otherwise, it will be refilled endlessly. If you want it less strong, ask for 'açık çay' (light tea). The best çay experience is on a Bosphorus ferry at sunrise or in a traditional tea garden overlooking the water.",
+        "price_level": "Affordable",
+        "good_for": ["Everyone", "Cultural experience", "Anytime"],
+        "duration": "10-20 minutes",
+        "best_time": "Anytime"
+      },
+      "image": "/images/istanbul/cay.jpg"
+    },
+    {
+      "id": "drink-002",
+      "slug": "ayran",
+      "name_en": "Ayran",
+      "name_local": "Ayran",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Ayran is a savory yogurt drink made by mixing yogurt, water, and salt until frothy. It's served cold and is the traditional accompaniment to kebabs, döner, and heavy meat dishes—the salt and probiotics help with digestion. Ayran is found everywhere from street carts to restaurants. It's an acquired taste for some foreigners but beloved by Turks.",
+        "vibe": "Refreshing, Salty, Traditional",
+        "history": "Ayran's origins trace back to ancient Turkic nomads in Central Asia who discovered that diluted, salted yogurt stayed fresh longer during travel. The drink migrated to Anatolia with the Seljuks and Ottomans. In Ottoman army campaigns, ayran was a staple ration. The modern bottled ayran industry began in the 1950s-60s as Turkey industrialized. Today, Turkey is the world's largest ayran consumer, drinking over 1 billion liters annually.",
+        "insider_tip": "Fresh ayran from restaurants and street vendors is far superior to bottled versions—it should be frothy on top and not too watery. Always drink it with greasy food like döner or lahmacun; it cuts the richness. If you find it too salty, ask for 'az tuzlu' (less salt).",
+        "price_level": "Affordable",
+        "good_for": ["Foodies", "With meals", "Everyone"],
+        "duration": "5 minutes",
+        "best_time": "With lunch or dinner"
+      },
+      "image": "/images/istanbul/ayran.jpg"
+    },
+    {
+      "id": "drink-003",
+      "slug": "salgam",
+      "name_en": "Şalgam",
+      "name_local": "Şalgam Suyu",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Şalgam is a deep purple, fermented turnip juice with a sharp, tangy, slightly spicy taste. It's made from purple carrots, turnips, bulgur, and salt, then fermented. This polarizing drink is beloved in southern Turkey (especially Adana) and is traditionally drunk with kebabs or rakı. In Istanbul, it's found at kebab restaurants and some street vendors.",
+        "vibe": "Polarizing, Tangy, Pungent",
+        "history": "Şalgam originated in Adana and southeastern Turkey, where the fermentation technique preserved vegetables through hot summers. The drink gained popularity across Turkey in the mid-20th century as migrants from the southeast brought their food culture to Istanbul. It became associated with kebab houses—particularly Adana kebab specialists. The fermentation process is similar to pickling, and traditionally each family had their own recipe. Industrial production began in the 1980s, making it widely available.",
+        "insider_tip": "Şalgam is extremely divisive—you'll either love or hate it on first sip. Order the 'acı' (spicy) version for the authentic experience. It's traditionally drunk alongside rakı (not mixed with it) or with fatty kebabs to cut the grease. Many Turks won't drink it in front of foreigners because they know the reaction is usually horror.",
+        "price_level": "Affordable",
+        "good_for": ["Adventurous eaters", "With kebabs", "Cultural experience"],
+        "duration": "5 minutes",
+        "best_time": "With dinner"
+      },
+      "image": "/images/istanbul/salgam.jpg"
+    },
+    {
+      "id": "drink-004",
+      "slug": "boza",
+      "name_en": "Boza",
+      "name_local": "Boza",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Boza is a thick, slightly fermented drink made from bulgur wheat or millet, with a sweet-sour taste and porridge-like consistency. It has a very low alcohol content (around 1%) from fermentation. Traditionally a winter drink, boza is served with roasted chickpeas (leblebi) on top and cinnamon. It's an acquired taste that many foreigners find strange.",
+        "vibe": "Thick, Sweet-sour, Nostalgic",
+        "history": "Boza dates back thousands of years to Central Asia and ancient Mesopotamia. Ottoman soldiers drank it for energy, and it was sold in the streets of Istanbul by boza vendors who would call out 'Bozaaa!' The most famous producer, Vefa Bozacısı, opened in 1876 and still operates in the same location. Mustafa Kemal Atatürk was a regular customer. In the 20th century, boza nearly disappeared as modern soft drinks took over, but it survived as a winter nostalgic treat.",
+        "insider_tip": "Visit Vefa Bozacısı in the Fatih district—it's been making boza since 1876 and the interior is a time capsule. Boza is best enjoyed in cold weather (November-February). Don't expect to love it immediately; it's an acquired taste. The roasted chickpeas on top are essential—they add texture and nuttiness.",
+        "price_level": "Affordable",
+        "good_for": ["Cultural experience", "Winter visit", "Adventurous eaters"],
+        "duration": "15-20 minutes",
+        "best_time": "Winter afternoons"
+      },
+      "image": "/images/istanbul/boza.jpg"
     }
   ],
   "must_see": [
@@ -215,7 +493,16 @@
           "name_local": "Ayasofya",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The architectural marvel. 2025 Reality: Tourists enter via a separate gallery entrance (€25 fee) and cannot access the main prayer floor. Queue early.",
+          "description": {
+            "short": "Hagia Sophia is a 6th-century architectural marvel that served as a Byzantine cathedral for nearly 1,000 years, then an Ottoman mosque for 500 years, and a museum from 1935-2020. It was reconverted to a mosque in 2020, fundamentally changing the visitor experience. The massive dome, stunning mosaics, and layered history make it one of the world's most significant buildings.",
+            "vibe": "Monumental, Sacred, Controversial",
+            "history": "Emperor Justinian I built the current Hagia Sophia in 537 CE after two previous churches on the site burned down. Its dome was an engineering marvel—so ambitious that it partially collapsed in 558 and had to be rebuilt. When Ottoman Sultan Mehmed II conquered Constantinople in 1453, he immediately converted it to a mosque, adding minarets and covering Christian mosaics with plaster. Mustafa Kemal Atatürk secularized it as a museum in 1935 as part of his modernization reforms. In 2020, President Erdoğan reconverted it to a mosque, sparking international controversy.",
+            "insider_tip": "As of 2025, tourists enter via a separate gallery entrance (€25 fee) and cannot access the main prayer floor during prayer times. Arrive before 9 AM to avoid massive queues, especially in summer. The upper galleries offer the best views of mosaics.",
+            "price_level": "Expensive",
+            "good_for": ["History buffs", "Architecture lovers", "First-time visitors"],
+            "duration": "1.5-2 hours",
+            "best_time": "Early morning (8-9 AM)"
+          },
           "image": "/images/istanbul/hagia-sophia.jpg",
           "geo": { "lat": 41.0086, "lng": 28.9802 }
         },
@@ -226,7 +513,16 @@
           "name_local": "Topkapı Sarayı",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The Ottoman imperial residence. Massive and expensive (€50+). The Harem section is essential to understand the private life of the Sultans.",
+          "description": {
+            "short": "Topkapi Palace was the primary residence and administrative center of Ottoman sultans for nearly 400 years (1465-1856). This sprawling complex contains courtyards, pavilions, treasury rooms filled with jewels and artifacts, and the infamous Harem where the sultan's family and concubines lived. The views over the Bosphorus are stunning, and the scale reveals the power of the Ottoman Empire at its height.",
+            "vibe": "Opulent, Sprawling, Imperial",
+            "history": "Sultan Mehmed II commissioned Topkapi Palace shortly after conquering Constantinople in 1453, completing it in 1465. The palace grew organically over centuries as successive sultans added buildings—at its peak, it housed over 4,000 people. The Harem section was the most private area, governed by the Valide Sultan (sultan's mother), where complex political intrigue unfolded. In 1856, Sultan Abdülmecid I moved to the European-style Dolmabahçe Palace, and Topkapi was gradually abandoned. It opened as a museum in 1924.",
+            "insider_tip": "The Harem section requires a separate ticket (€35) but is essential for understanding Ottoman domestic life and power dynamics—don't skip it. The palace is enormous and can take 3-4 hours; arrive when it opens to beat tour groups. Skip the overpriced on-site restaurant.",
+            "price_level": "Expensive",
+            "good_for": ["History buffs", "First-time visitors", "Photography"],
+            "duration": "3-4 hours",
+            "best_time": "Early morning (9-10 AM)"
+          },
           "image": "/images/istanbul/topkapi.jpg",
           "geo": { "lat": 41.0115, "lng": 28.9833 }
         },
@@ -237,7 +533,16 @@
           "name_local": "Yerebatan Sarnıcı",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "An underground water reservoir with Medusa heads. Atmospheric but expensive (1300 TL). Buy tickets online to skip the line.",
+          "description": {
+            "short": "The Basilica Cistern is an underground Byzantine water reservoir featuring 336 marble columns rising from shallow water in a dimly lit, cathedral-like space. The most famous features are two Medusa head column bases—one sideways, one upside down. Built in 532 CE, it's an atmospheric engineering marvel that once supplied water to the Great Palace. The acoustics and lighting create an eerie, cinematic experience.",
+            "vibe": "Mysterious, Atmospheric, Ancient",
+            "history": "Emperor Justinian I built the cistern in 532 CE to store water for the Great Palace and surrounding buildings, with capacity for 80,000 cubic meters. It was constructed using columns and materials salvaged from ruined temples, explaining the mismatched styles and mysterious Medusa heads (likely from a Roman temple). After the Ottoman conquest, the cistern was forgotten and rediscovered in 1545 when a scholar noticed locals drawing water through basement floors. It underwent major restoration in 1985 and has been featured in films like 'From Russia with Love.'",
+            "insider_tip": "Entry is expensive (1,300 TL / ~€35 as of 2025) for what amounts to a 20-30 minute visit. Buy tickets online in advance to skip the frequently massive queues. Visit late afternoon when crowds thin. The wooden walkways can be slippery—watch your step.",
+            "price_level": "Expensive",
+            "good_for": ["Photography", "Couples", "Quick visit"],
+            "duration": "30-45 minutes",
+            "best_time": "Late afternoon (4-5 PM)"
+          },
           "image": "/images/istanbul/cistern.jpg",
           "geo": { "lat": 41.0084, "lng": 28.9779 }
         }
@@ -254,7 +559,16 @@
           "name_local": "Vapur",
           "category": "sight",
           "is_generic_staple": true,
-          "description": "The 'Long Bosphorus Tour' by Şehir Hatları offers a round trip to the Black Sea for cheap. Or just take the Kadıköy-Karaköy ferry at sunset.",
+          "description": {
+            "short": "The Bosphorus ferry (vapur) is Istanbul's iconic public transport connecting the European and Asian sides across the strait. This isn't a tourist cruise—it's how locals commute, complete with tea vendors walking the aisles. The views of palaces, mosques, and waterside mansions are unmatched. For a full experience, take Şehir Hatları's 'Long Bosphorus Tour' which goes all the way to the Black Sea.",
+            "vibe": "Authentic, Scenic, Relaxing",
+            "history": "Ferry service across the Bosphorus dates to the 17th century when rowboats carried passengers. The first modern steam ferries launched in 1851 by the private Şirket-i Hayriye company, revolutionizing city life by making cross-strait commuting practical. The iconic white ferries with red trim became symbols of Istanbul. After various privatization attempts, the municipal Şehir Hatları company now operates most routes. For 150+ years, the morning ferry tea ritual has remained unchanged—a glass of çay served in a tulip-shaped glass while watching the sunrise.",
+            "insider_tip": "Skip expensive private 'Bosphorus tours.' Instead, take the regular Kadıköy-Karaköy ferry at sunset for stunning views at commuter prices (50 TL with Istanbulkart). For the full experience, take the weekend 'Long Tour' to Anadolu Kavağı near the Black Sea—it takes 6 hours round trip. Buy tea (çay) from the vendor onboard.",
+            "price_level": "Affordable",
+            "good_for": ["Couples", "Photography", "Budget travelers"],
+            "duration": "20 minutes (short route) / 6 hours (long tour)",
+            "best_time": "Sunset"
+          },
           "image": "/images/istanbul/ferry.jpg"
         },
         {
@@ -264,7 +578,16 @@
           "name_local": "Feriköy Antika Pazarı",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Sunday ritual. A massive covered market for antiques, vinyl, and retro cameras. On Saturdays, it is an organic food market.",
+          "description": {
+            "short": "Feriköy Antique Market is a massive covered Sunday market in the Bomonti district specializing in antiques, vinyl records, vintage cameras, Ottoman-era objects, and retro collectibles. Unlike tourist-trap bazaars, this is where serious collectors and Istanbul hipsters hunt for treasures. The atmosphere is chaotic but genuine—vendors are knowledgeable and prices are negotiable. On Saturdays, the same space hosts an organic food market.",
+            "vibe": "Chaotic, Authentic, Treasure-hunting",
+            "history": "The Feriköy market began informally in the 1990s when elderly residents of this historically Greek and Armenian neighborhood began selling family heirlooms after economic hardship. What started as a sidewalk flea market grew into Istanbul's premier antique bazaar. The covered structure was built in 2008 to formalize the market. Many vendors are second or third-generation dealers whose families escaped to Istanbul during regional conflicts, bringing objects from across Anatolia, the Caucasus, and the Balkans.",
+            "insider_tip": "Arrive early (8-9 AM) for the best selection before serious collectors pick through everything. Prices are marked but expect to negotiate—starting at 60-70% of the asking price is normal. Bring cash; many vendors don't accept cards. The vinyl section is world-class for Turkish psychedelic rock and Anatolian pop from the 1970s.",
+            "price_level": "Moderate",
+            "good_for": ["Collectors", "Shoppers", "Culture enthusiasts"],
+            "duration": "2-3 hours",
+            "best_time": "Sunday morning (8-11 AM)"
+          },
           "image": "/images/istanbul/ferikoy.jpg",
           "geo": { "lat": 41.0576, "lng": 28.9835 }
         },
@@ -275,9 +598,138 @@
           "name_local": "Kılıç Ali Paşa Hamamı",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A stunning 16th-century bathhouse restored to perfection. High-end, foreigner-friendly, and impeccable service. Booking essential.",
+          "description": {
+            "short": "Kılıç Ali Paşa Hamam is a meticulously restored 16th-century Ottoman bathhouse designed by the legendary architect Mimar Sinan. After decades of abandonment, it reopened in 2012 as a luxury hamam experience combining historical authenticity with modern hygiene standards. The ritual includes time in the hot room (sıcaklık), an exfoliating scrub (kese), and a foam massage. Unlike many tourist-trap hamams, this is architectural and experiential excellence.",
+            "vibe": "Historic, Luxurious, Tranquil",
+            "history": "Built in 1580 by Mimar Sinan—the Ottoman Empire's greatest architect—for Admiral Kılıç Ali Paşa, this hamam was part of a larger complex including a mosque and madrasa. Sinan was 93 years old when he designed it, one of his final masterpieces. The hamam operated continuously until the 1970s when the neighborhood declined and it fell into disrepair. A meticulous 2009-2012 restoration by Turkish historian Ergin Çanak brought it back to its original splendor, winning international conservation awards.",
+            "insider_tip": "Book at least 2-3 days in advance, especially on weekends—this is Istanbul's most sought-after hamam. The full ritual (scrub, massage, private room) costs 1,500-2,500 TL but is worth it for the architecture and service quality. Bring your own swimsuit if modest; robes and towels are provided. Go midweek for a quieter experience.",
+            "price_level": "Luxury",
+            "good_for": ["Couples", "Relaxation", "Cultural experience"],
+            "duration": "1.5-2 hours",
+            "best_time": "Midweek mornings"
+          },
           "image": "/images/istanbul/hamam.jpg",
           "geo": { "lat": 41.0266, "lng": 28.9808 }
+        },
+        {
+          "id": "exp-004",
+          "slug": "grand-bazaar",
+          "name_en": "Grand Bazaar",
+          "name_local": "Kapalı Çarşı",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The Grand Bazaar is one of the world's oldest and largest covered markets, with 61 streets and over 4,000 shops within its labyrinthine structure. Built in 1461, it sells everything from carpets and ceramics to gold jewelry and leather goods. While heavily touristy, it remains a functioning market where locals shop. The architecture, scale, and energy make it essential despite the aggressive salesmanship.",
+            "vibe": "Chaotic, Historic, Overwhelming",
+            "history": "Sultan Mehmed II ordered construction of the first covered bedesten (warehouse) in 1461, shortly after conquering Constantinople. The market grew organically over centuries as shops and hans (caravanserais) were added around it. By the 17th century, it had become the trading heart of the Ottoman Empire, where silk road merchants sold goods from Persia, Central Asia, and beyond. The bazaar survived multiple fires and earthquakes, each time being rebuilt. During its peak, over 100,000 people worked or visited daily.",
+            "insider_tip": "Enter through the Nuruosmaniye Gate (southeast entrance) to start in the more authentic section. Visit early morning (9-10 AM) before tour groups arrive. Prices are marked but always negotiable—start at 50% of asking price. The best finds are in the back streets and hans (covered courtyards) off the main arteries. Avoid gold shops near main gates—they target tourists.",
+            "price_level": "Moderate",
+            "good_for": ["Shopping", "Photography", "Cultural experience"],
+            "duration": "2-3 hours",
+            "best_time": "Early morning (9-10 AM)"
+          },
+          "image": "/images/istanbul/grand-bazaar.jpg",
+          "geo": { "lat": 41.0108, "lng": 28.9680 }
+        },
+        {
+          "id": "exp-005",
+          "slug": "spice-bazaar",
+          "name_en": "Spice Bazaar",
+          "name_local": "Mısır Çarşısı",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The Spice Bazaar (Egyptian Bazaar) is a L-shaped covered market built in 1664, smaller and more manageable than the Grand Bazaar. It specializes in spices, dried fruits, nuts, Turkish delight, teas, and traditional sweets. The sensory overload of colors and aromas is intense. While touristy, it's still where locals buy spices and specialty foods, making it more authentic than it appears.",
+            "vibe": "Aromatic, Colorful, Sensory",
+            "history": "Built in 1664 as part of the New Mosque complex, the bazaar was funded by taxes on Egyptian imports—hence the name 'Egyptian Bazaar.' It became the center of spice trade in Istanbul, importing from India, Persia, and Egypt. In the Ottoman era, it sold exotic ingredients unavailable elsewhere: saffron, cinnamon, medicinal herbs. The original 16th-century wooden structure burned down; the current stone building dates to the reconstruction. During the 19th century, it expanded to sell Turkish delight and coffee as tourism grew.",
+            "insider_tip": "Avoid buying spices from the first stalls near the entrances—they're overpriced and geared to tourists. Walk to the back corners and side streets where locals shop; prices are 30-40% lower. Buy Turkish delight in bulk by weight, not pre-packaged boxes. Sample everything—vendors expect it. The best time is late afternoon when vendors are more willing to negotiate.",
+            "price_level": "Moderate",
+            "good_for": ["Shopping", "Foodies", "Quick visit"],
+            "duration": "1-1.5 hours",
+            "best_time": "Late afternoon (4-5 PM)"
+          },
+          "image": "/images/istanbul/spice-bazaar.jpg",
+          "geo": { "lat": 41.0166, "lng": 28.9708 }
+        },
+        {
+          "id": "exp-006",
+          "slug": "istiklal-street",
+          "name_en": "Istiklal Street",
+          "name_local": "İstiklal Caddesi",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Istiklal Street is a 1.4-kilometer pedestrian avenue running through Beyoğlu, serving as the commercial and cultural spine of modern Istanbul. Lined with 19th-century architecture, international brands, historic passages, churches, consulates, and entertainment venues, it sees millions of visitors weekly. A nostalgic red tram runs its length. It's touristy but essential for understanding contemporary Istanbul's energy.",
+            "vibe": "Bustling, Eclectic, Modern",
+            "history": "Originally called the 'Grande Rue de Péra' during the Ottoman era, Istiklal Street was the heart of the cosmopolitan Pera district where European diplomats, merchants, and minorities lived. The area flourished in the 19th century with theaters, cafes, and embassies. After the 1923 Turkish Republic, it declined as minorities left. The 1980s-90s saw urban decay, but a 1990 pedestrianization project revitalized it. Today, it's Istanbul's most walked street, though gentrification has replaced independent shops with global chains.",
+            "insider_tip": "Avoid weekends when it's shoulder-to-shoulder crowds. Explore the side streets and passages (pasaj) off the main avenue—these contain hidden bars, vintage shops, and authentic eateries. Çiçek Pasajı and Avrupa Pasajı are must-sees for their Belle Époque architecture. The historic tram is more photo-op than transport. Walk all the way to Taksim Square at one end and Tünel at the other.",
+            "price_level": "Moderate",
+            "good_for": ["First-time visitors", "Shopping", "Architecture"],
+            "duration": "2-3 hours",
+            "best_time": "Weekday afternoons"
+          },
+          "image": "/images/istanbul/istiklal.jpg",
+          "geo": { "lat": 41.0337, "lng": 28.9784 }
+        },
+        {
+          "id": "exp-007",
+          "slug": "galata-tower",
+          "name_en": "Galata Tower",
+          "name_local": "Galata Kulesi",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The Galata Tower is a 67-meter-tall medieval stone tower built in 1348, dominating the Beyoğlu skyline. Originally a Genoese watchtower, it now functions as a museum and observation deck offering 360-degree views of Istanbul—the Golden Horn, Bosphorus, and Old City spread below. It's touristy and expensive, but the panoramic views are genuinely spectacular, especially at sunset.",
+            "vibe": "Iconic, Touristy, Panoramic",
+            "history": "The Genoese built the current tower in 1348 as part of their fortified colony of Galata. It served as a watchtower to protect their trading interests. In 1632, Ottoman polymath Hezârfen Ahmed Çelebi supposedly strapped on artificial wings and flew from the tower across the Bosphorus—a legend celebrated in Turkish culture. Over centuries, it functioned as a fire watchtower, prison, and observatory. After decades of neglect, it was restored in the 1960s and opened as a tourist attraction.",
+            "insider_tip": "Entry is expensive (650 TL as of 2025) and lines can be 1-2 hours in peak season. Book tickets online to skip some queuing. Go at sunset for golden hour views, but arrive 45 minutes early. The neighborhood around the tower (Galata/Karaköy) is more interesting than the tower itself—explore the cobblestone streets, cafes, and street art.",
+            "price_level": "Expensive",
+            "good_for": ["Photography", "First-time visitors", "Couples"],
+            "duration": "1 hour",
+            "best_time": "Sunset (arrive 45 min early)"
+          },
+          "image": "/images/istanbul/galata-tower.jpg",
+          "geo": { "lat": 41.0256, "lng": 28.9744 }
+        },
+        {
+          "id": "exp-008",
+          "slug": "princes-islands",
+          "name_en": "Princes' Islands",
+          "name_local": "Adalar",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The Princes' Islands are an archipelago of nine islands in the Sea of Marmara, accessible by ferry from Istanbul. The four largest (Büyükada, Heybeliada, Burgazada, Kınalıada) are car-free, relying on bicycles, electric vehicles, and walking. They offer a tranquil escape with Victorian mansions, pine forests, swimming spots, and fish restaurants. Büyükada is the largest and most visited.",
+            "vibe": "Tranquil, Nostalgic, Car-free",
+            "history": "The islands served as a place of exile for Byzantine royalty—hence 'Princes' Islands.' During the Ottoman era, they became home to Greek, Armenian, and Jewish communities seeking escape from the city. In the 19th-20th centuries, wealthy Istanbulites built wooden mansions as summer retreats. Leon Trotsky lived in exile on Büyükada from 1929-1933, writing 'The History of the Russian Revolution' there. After the 1950s, the islands declined as wealthy families left, but they've become popular day-trip destinations.",
+            "insider_tip": "Take the ferry to Büyükada (largest island) early in the day—ferries get packed on summer weekends. Rent a bike immediately upon arrival to explore before crowds arrive. Avoid the touristy horse carriages (phaeton)—animal welfare is questionable. Swim at Yörükali Beach or Halik Koyu. Have lunch at waterfront fish restaurants on the backside of the island, not the ferry dock area.",
+            "price_level": "Moderate",
+            "good_for": ["Day trips", "Couples", "Nature lovers"],
+            "duration": "Full day (6-8 hours)",
+            "best_time": "Weekday mornings (summer)"
+          },
+          "image": "/images/istanbul/princes-islands.jpg",
+          "geo": { "lat": 40.8572, "lng": 29.1219 }
+        },
+        {
+          "id": "exp-009",
+          "slug": "balat",
+          "name_en": "Balat",
+          "name_local": "Balat",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Balat is a historic neighborhood on the Golden Horn, once home to Istanbul's Jewish and Greek communities. Its colorful, crumbling Ottoman houses cascading down narrow streets became Instagram-famous in the 2010s. The area is rapidly gentrifying, with hip cafes and vintage shops replacing traditional workshops. It's photogenic and atmospheric, though increasingly self-aware of its tourist appeal.",
+            "vibe": "Colorful, Gentrifying, Instagrammable",
+            "history": "After the 1492 Spanish Inquisition, Sultan Bayezid II invited expelled Sephardic Jews to settle in Balat, which became Istanbul's primary Jewish quarter. Greek Orthodox communities also lived here for centuries. The Ahrida Synagogue (15th century) still stands. In the 20th century, as minorities emigrated, the neighborhood fell into poverty and neglect. In the 2000s-2010s, UNESCO restoration projects and Instagram culture transformed it into a tourist hotspot, pricing out remaining locals.",
+            "insider_tip": "Go early morning (8-9 AM) to see the neighborhood before Instagram photographers descend. The most photogenic street is Kiremit Caddesi with its rainbow-colored houses. Beyond the tourist façade, explore side streets to find authentic workshops, Greek tavernas, and local markets. Visit the Fener Greek Orthodox Patriarchate and Ahrida Synagogue (call ahead). Avoid weekends when it's overrun.",
+            "price_level": "Affordable",
+            "good_for": ["Photography", "Architecture lovers", "Walking tours"],
+            "duration": "2-3 hours",
+            "best_time": "Early morning (8-9 AM)"
+          },
+          "image": "/images/istanbul/balat.jpg",
+          "geo": { "lat": 41.0296, "lng": 28.9487 }
         }
       ]
     }
