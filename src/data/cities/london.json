@@ -135,7 +135,7 @@
     },
     {
       "id": "logistics-safety",
-      "slug": "safety-tips",
+      "slug": "phone-snatch",
       "title": "Safety: The Phone Snatch",
       "icon": "Shield",
       "summary": "London is safe, but phone theft is an epidemic.",
@@ -206,7 +206,16 @@
       "name_local": "Sunday Roast",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The sacred weekly ritual. Roasted meat (beef, pork, lamb) served with Yorkshire pudding, roast potatoes, veg, and gravy. Served in pubs strictly on Sundays from 12pm until sold out (usually 4pm). Book a table in advance.",
+      "description": {
+        "short": "The Sunday Roast is Britain's sacred weekly ritual: roasted meat (beef, pork, or lamb) served with Yorkshire pudding, roast potatoes, vegetables, and thick gravy. It's served in pubs strictly on Sundays from noon until sold out (usually by 4pm). Booking a table in advance is essential as it's one of the most popular meals of the week.",
+        "vibe": "Traditional, comforting",
+        "history": "The Sunday Roast dates back centuries to when families would place meat in the oven before attending church, returning home to a cooked meal. Yorkshire pudding was originally served first with gravy as a cheap filler before the meat course to reduce meat consumption.",
+        "insider_tip": "Book a table by Thursday for popular pubs. Arrive by 1pm for the best selection before dishes sell out. Yorkshire pudding should be crispy outside, fluffy inside—if it's soggy, the kitchen isn't serious.",
+        "price_level": "Moderate",
+        "good_for": ["Families", "Traditional meals"],
+        "duration": "1-2 hours",
+        "best_time": "Sunday lunch (12pm-3pm)"
+      },
       "image": "/images/london/sunday-roast.jpg"
     },
     {
@@ -216,7 +225,16 @@
       "name_local": "Fish & Chips",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The quintessential British dish: battered white fish (cod/haddock) with thick chips and mushy peas. Best from a proper 'chippy' (takeaway shop) wrapped in paper, not a fancy restaurant. Add salt and vinegar.",
+      "description": {
+        "short": "Fish & Chips is the quintessential British dish: battered white fish (cod or haddock) deep-fried until golden, served with thick-cut chips (fries), mushy peas, and tartar sauce. The best versions come from proper 'chippies' (takeaway shops) wrapped in paper, not fancy restaurants. Traditionalists add salt and malt vinegar liberally.",
+        "vibe": "Casual, iconic",
+        "history": "Fish and chips became working-class staple food in the 1860s when fried fish shops merged with chip shops. It was one of the few foods not rationed during WWII, cementing its national importance. The dish was traditionally wrapped in newspaper until health regulations banned it in the 1980s.",
+        "insider_tip": "Order 'fish and chips to go' wrapped in paper for the authentic experience. The fish should have a crispy, non-greasy batter. Add vinegar before salt—the acid enhances flavor better. Avoid tourist traps near landmarks; local chippies are always better.",
+        "price_level": "Affordable",
+        "good_for": ["Casual meals", "Takeaway"],
+        "duration": "Quick bite",
+        "best_time": "Anytime"
+      },
       "image": "/images/london/fish-chips.jpg"
     },
     {
@@ -226,17 +244,35 @@
       "name_local": "Fry-Up",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The legendary breakfast: bacon, sausages, eggs, beans, tomatoes, mushrooms, and toast. The ultimate hangover cure. Find it in a 'Greasy Spoon' cafe for the authentic experience.",
+      "description": {
+        "short": "The Full English Breakfast (or 'Fry-Up') is a legendary plate of bacon, sausages, fried eggs, baked beans, grilled tomatoes, mushrooms, and buttered toast. Black pudding (blood sausage) is optional. It's the ultimate hangover cure and traditionally eaten on weekends. Find the authentic experience in a 'Greasy Spoon' cafe—basic decor, formica tables, no frills.",
+        "vibe": "Hearty, comforting",
+        "history": "The Full English became standardized in the Victorian era as a display of wealth and hospitality. During rationing in WWII, the breakfast became smaller but remained a cultural touchstone. The term 'Fry-Up' emerged post-war when frying everything in a pan became the norm.",
+        "insider_tip": "Greasy Spoon cafes serve the best versions—look for condensation on windows and builders eating inside. The eggs should be fried in the same pan as everything else for maximum flavor. Order strong tea ('builder's tea') to cut through the richness.",
+        "price_level": "Affordable",
+        "good_for": ["Breakfast", "Hangovers"],
+        "duration": "30-45 minutes",
+        "best_time": "Weekend morning"
+      },
       "image": "/images/london/full-english.jpg"
     },
     {
       "id": "food-005",
       "slug": "curry-brick-lane",
-      "name_en": "Curry (Brick Lane / Tooting)",
+      "name_en": "Curry",
       "name_local": "Curry",
       "category": "food",
       "is_generic_staple": true,
-      "description": "London's 'true' national dish. Brick Lane is famous but touristy; try Tayyabs (Whitechapel) or Dishoom for superior quality. Tooting ('Curry Corridor') is the authentic local spot.",
+      "description": {
+        "short": "Curry is often called London's 'true national dish' due to British-Indian fusion history. Dishes range from creamy tikka masala (invented in Britain) to fiery vindaloo. Brick Lane is the famous curry hub but has become touristy. The best authentic curry is found in neighborhoods like Tooting ('Curry Corridor'), Whitechapel, and Southall, where South Asian communities live.",
+        "vibe": "Flavorful, diverse",
+        "history": "Indian restaurants exploded in London post-WWII when immigrants from Bangladesh, Pakistan, and India opened curry houses. Chicken Tikka Masala was allegedly invented in Glasgow in the 1970s to suit British tastes. Curry houses became Britain's most popular restaurant type by the 1990s.",
+        "insider_tip": "Avoid Brick Lane's aggressive touts—restaurants there are mediocre and overpriced. Tooting has the best authentic South Indian and Sri Lankan food. For top-quality Pakistani-style, go to Whitechapel. Order naan bread, not rice, for mopping up sauce.",
+        "price_level": "Affordable",
+        "good_for": ["Dinner", "Groups"],
+        "duration": "1-2 hours",
+        "best_time": "Evening"
+      },
       "image": "/images/london/curry.jpg"
     },
     {
@@ -246,17 +282,35 @@
       "name_local": "The Pub",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Cornerstone of culture. Try a pint of real ale or cider. Order at the bar. 'Gastropubs' serve excellent restaurant-quality food, distinct from 'chain pubs' (Wetherspoons).",
+      "description": {
+        "short": "The British pub (short for 'public house') is the cornerstone of social culture: a place to drink, eat, and socialize. Traditional pubs serve real ale and cider on tap, with food ranging from simple bar snacks to full meals. 'Gastropubs' serve restaurant-quality food, while 'chain pubs' like Wetherspoons offer cheap drinks and basic food. Always order at the bar—there's rarely table service for drinks.",
+        "vibe": "Social, traditional",
+        "history": "Pubs have existed since Roman times but took modern form in the 1800s. The 'tied house' system meant breweries owned pubs, ensuring beer quality. Smoking bans (2007) and opening hour changes transformed pub culture. Many historic pubs are over 500 years old.",
+        "insider_tip": "Order a pint of 'real ale' (cask-conditioned beer) for the authentic experience. If you're in a group, participate in 'rounds'—buying drinks for everyone in turn. Say 'and one for yourself' when ordering to offer the bartender a £1 tip.",
+        "price_level": "Moderate",
+        "good_for": ["Socializing", "Locals experience"],
+        "duration": "1-3 hours",
+        "best_time": "Evening"
+      },
       "image": "/images/london/pub.jpg"
     },
     {
       "id": "food-020",
       "slug": "meal-deal-culture",
-      "name_en": "The Tesco Meal Deal",
+      "name_en": "The Meal Deal",
       "name_local": "Meal Deal",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The inflation-beater. A sandwich, a snack (crisps/chocolate), and a drink for about £3.50-£4.00 from supermarkets like Tesco or Sainsbury's. The fuel of the office worker.",
+      "description": {
+        "short": "The Meal Deal is Britain's inflation-beating lunch: a sandwich, a snack (crisps or chocolate), and a drink for £3.50-£4.00 from supermarket chains like Tesco, Sainsbury's, or Boots. It's the fuel of office workers across London and beloved for its value and convenience. The ritual involves strategically choosing the most expensive individual items to maximize savings.",
+        "vibe": "Practical, economical",
+        "history": "Meal Deals were introduced by supermarkets in the early 2000s to compete with sandwich shops. They became a cultural phenomenon during the 2008 recession and are now a daily ritual for millions of Brits. The format hasn't changed in 20 years.",
+        "insider_tip": "Choose the most expensive drink (usually smoothies or premium juices worth £2-3) to maximize value. Tesco has the best variety; Boots has healthier options. Peak time is 12-2pm when offices empty out—shelves get picked clean.",
+        "price_level": "Affordable",
+        "good_for": ["Lunch", "Budget travelers"],
+        "duration": "Quick bite",
+        "best_time": "Lunch"
+      },
       "image": "/images/london/meal-deal.jpg"
     },
     {
@@ -266,7 +320,16 @@
       "name_local": "Street Food",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Modern London eats at markets. Borough Market is the titan (try the chorizo roll or paella), but Maltby Street Market is the cooler, locals-only alternative under the railway arches.",
+      "description": {
+        "short": "Street food markets are modern London's dining revolution: international cuisine from food stalls and trucks in covered markets or open-air spaces. Borough Market is the titan with gourmet offerings, while Maltby Street Market, Pop Brixton, and Street Feast offer cooler, locals-focused alternatives. Cuisine ranges from Korean BBQ to Venezuelan arepas to Middle Eastern mezze.",
+        "vibe": "Vibrant, international",
+        "history": "London's street food scene exploded in the 2010s, influenced by food truck culture from the US and Portland. Borough Market transformed from wholesale to tourist destination. The 2008 recession made independent food stalls financially viable for young chefs.",
+        "insider_tip": "Borough Market is best Wed-Sat mornings before tourist crowds. Maltby Street Market (Saturdays under railway arches) is the insider's alternative—smaller, less crowded, equally delicious. Bring cash as some vendors don't accept cards.",
+        "price_level": "Moderate",
+        "good_for": ["Foodies", "Lunch"],
+        "duration": "1-2 hours",
+        "best_time": "Weekend"
+      },
       "image": "/images/london/street-food.jpg"
     },
     {
@@ -276,7 +339,16 @@
       "name_local": "Pie & Mash",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Traditional East End working-class dish: meat pie with mash and green parsley 'liquor'. A taste of old London.",
+      "description": {
+        "short": "Pie & Mash is a traditional East End working-class dish: a meat pie (minced beef) served with mashed potatoes and green parsley 'liquor' (a parsley sauce). It's eaten with a spoon and fork, often with vinegar or chili vinegar. A taste of old London from the Victorian era, still served in historic 'pie and mash shops' with tiled walls and wooden benches.",
+        "vibe": "Traditional, humble",
+        "history": "Pie and Mash shops emerged in the 1800s as cheap food for London's working class. Originally made with eel (cheap Thames fish), it switched to beef when eels became scarce. The green 'liquor' is made from the water used to stew eels, giving it a distinctive flavor.",
+        "insider_tip": "The dish is an acquired taste—the liquor is unusual for first-timers. Add malt vinegar or chili vinegar to cut through the richness. Historic shops like M. Manze or F. Cooke & Sons have been operating for 100+ years. Eat it hot and fast.",
+        "price_level": "Affordable",
+        "good_for": ["Traditional meals", "History buffs"],
+        "duration": "30 minutes",
+        "best_time": "Lunch"
+      },
       "image": "/images/london/pie-mash.jpg"
     },
     {
@@ -286,7 +358,16 @@
       "name_local": "Beigel",
       "category": "food",
       "is_generic_staple": true,
-      "description": "A Brick Lane icon. Hot salt beef with mustard and pickles in a chewy boiled bagel. Open 24/7 at Beigel Bake (the white one).",
+      "description": {
+        "short": "The Salt Beef Bagel (spelled 'beigel' locally) is a Brick Lane icon: hot salt beef (corned beef brisket) piled high with mustard and pickles inside a dense, chewy boiled bagel. Beigel Bake (the white shop) is open 24/7 and sells them for £6. It's the legendary late-night or early-morning post-pub meal beloved by locals.",
+        "vibe": "Iconic, satisfying",
+        "history": "Jewish immigrants from Eastern Europe brought bagel-making to London's East End in the late 1800s. Beigel Bake opened in 1974 and has operated 24/7 ever since, serving generations of clubbers, taxi drivers, and locals. The recipe hasn't changed.",
+        "insider_tip": "Go to Beigel Bake (the WHITE shop, not the yellow one next door). Ask for 'salt beef with mustard and pickle.' The bagels are boiled, not baked, making them denser than American bagels. Queue moves fast even when long. Perfect at 3am after a night out.",
+        "price_level": "Affordable",
+        "good_for": ["Late night", "Quick bite"],
+        "duration": "Quick bite",
+        "best_time": "Late night or early morning"
+      },
       "image": "/images/london/bagel.jpg"
     },
     {
@@ -296,7 +377,16 @@
       "name_local": "Jerk Chicken",
       "category": "food",
       "is_generic_staple": true,
-      "description": "A core part of London's identity. Jerk chicken, patties, and rice & peas. Authentic spots found in Brixton and Notting Hill.",
+      "description": {
+        "short": "Caribbean food is a core part of London's identity, brought by the Windrush generation from Jamaica, Trinidad, and Barbados in the 1950s-60s. Jerk chicken (spicy grilled chicken), beef or vegetable patties (flaky pastries), and rice & peas are staples. Authentic spots are concentrated in Brixton (the heart of Caribbean culture) and Notting Hill. The food is bold, spicy, and deeply cultural.",
+        "vibe": "Flavorful, cultural",
+        "history": "Caribbean immigrants arrived in the 1950s to rebuild post-war Britain, bringing their cuisine. Notting Hill Carnival (started 1966) celebrates Caribbean culture every August. Jerk seasoning originates from Jamaica's Maroons who smoked meat over pimento wood. Brixton became the cultural center of Caribbean London.",
+        "insider_tip": "Brixton Village Market and Market Row have the best authentic Caribbean food. Try jerk chicken with rice & peas and plantain. Patties are sold at bakeries throughout South London—eat them hot. Visit during Notting Hill Carnival in August for maximum cultural immersion.",
+        "price_level": "Affordable",
+        "good_for": ["Foodies", "Cultural exploration"],
+        "duration": "30-45 minutes",
+        "best_time": "Lunch or Dinner"
+      },
       "image": "/images/london/caribbean.jpg"
     }
   ],
@@ -312,7 +402,16 @@
           "name_local": "Big Ben",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The iconic clock tower and seat of government. Best viewed from Westminster Bridge.",
+          "description": {
+            "short": "Big Ben is the nickname for the Great Bell inside the Elizabeth Tower at the Palace of Westminster, home to the UK Parliament. The Gothic Revival building is an iconic symbol of London and British democracy. The tower stands 316 feet tall and the clock faces are 23 feet in diameter. Best viewed from Westminster Bridge for classic photos.",
+            "vibe": "Iconic, historic",
+            "history": "Built in 1859 after a fire destroyed the old Palace of Westminster. The tower was renamed Elizabeth Tower in 2012 for Queen Elizabeth II's Diamond Jubilee. Big Ben (the bell) weighs 13.7 tons and has chimed almost continuously since 1859 except during wars and restoration.",
+            "insider_tip": "Cross Westminster Bridge to the South Bank for the best angle without crowds. The tower is best photographed at dusk when lights come on. Tours of the tower require advance booking months ahead and UK residency or special permission.",
+            "price_level": "Affordable",
+            "good_for": ["First-timers", "Photography"],
+            "duration": "15-30 minutes",
+            "best_time": "Dusk"
+          },
           "image": "/images/london/big-ben.jpg",
           "geo": { "lat": 51.5007, "lng": -0.1246 }
         },
@@ -323,7 +422,16 @@
           "name_local": "London Eye",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Giant Ferris wheel offering panoramic city views. Book online to skip queues. Alternatively, view from Parliament Hill for free.",
+          "description": {
+            "short": "The London Eye is a 443-foot tall observation wheel on the South Bank of the Thames, offering 360° views of London. Each rotation takes 30 minutes in enclosed glass capsules holding up to 25 people. Built for the millennium celebration in 2000, it was meant to be temporary but became one of London's most popular attractions.",
+            "vibe": "Modern, panoramic",
+            "history": "Opened on December 31, 1999 (though technical problems delayed public opening to March 2000). It was the world's tallest Ferris wheel until 2006. Originally sponsored by British Airways, it's now owned by Merlin Entertainments. Over 3.5 million people ride it annually.",
+            "insider_tip": "Book tickets online weeks in advance to save 15-20%. Go at sunset for the best views and photos. Alternatively, get free panoramic views from Parliament Hill in Hampstead or the Sky Garden (free but requires advance booking).",
+            "price_level": "Expensive",
+            "good_for": ["Couples", "Views"],
+            "duration": "1 hour (including queue)",
+            "best_time": "Sunset"
+          },
           "image": "/images/london/london-eye.jpg",
           "geo": { "lat": 51.5033, "lng": -0.1195 }
         },
@@ -334,7 +442,16 @@
           "name_local": "Tower Bridge",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Most famous bridge in London. Watch the bridge lift times online.",
+          "description": {
+            "short": "Tower Bridge is London's most famous bridge, a Victorian Gothic suspension bridge with twin towers and a glass walkway at the top. Built in 1894, the bridge still lifts (bascules rise) to allow tall ships through—you can watch the bridge lift times online. Often confused with London Bridge, which is a plain modern bridge nearby.",
+            "vibe": "Victorian, grand",
+            "history": "Took 8 years to build (1886-1894) and required 432 construction workers. The bridge lifts around 800 times per year for river traffic. During WWII, it was camouflaged to avoid German bombers. The glass floor walkway was added in 2014.",
+            "insider_tip": "Check the bridge lift schedule online and arrive 10 minutes early to watch it open—it's dramatic and free to watch from ground level. The glass walkway ticket (£12) is skippable unless you love bridges. Best photographed from the south bank or HMS Belfast.",
+            "price_level": "Affordable",
+            "good_for": ["Photography", "Architecture lovers"],
+            "duration": "20-30 minutes",
+            "best_time": "Bridge lift times or golden hour"
+          },
           "image": "/images/london/tower-bridge.jpg",
           "geo": { "lat": 51.5055, "lng": -0.0754 }
         }
@@ -351,7 +468,16 @@
           "name_local": "The Queen's Walk",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The best free activity. Walk from Westminster to Tower Bridge along the river. Street performers, book markets, and pubs.",
+          "description": {
+            "short": "The South Bank Walk (officially The Queen's Walk) is a pedestrian path along the Thames from Westminster to Tower Bridge, passing landmarks, street performers, book markets, pubs, and cultural venues. It's the best free activity in London, offering constantly changing views of the river and city. The walk is about 3 miles and takes 1-2 hours at a leisurely pace.",
+            "vibe": "Scenic, lively",
+            "history": "The South Bank was transformed in the 1950s with the Festival of Britain. Previously industrial and bombed-out from WWII, it's now London's cultural heart with theaters, galleries, and restaurants. The riverside path was formalized in the 1980s-90s.",
+            "insider_tip": "Start at Westminster and walk east toward Tower Bridge—this keeps landmarks ahead of you. Stop at the book market under Waterloo Bridge for secondhand books. Gabriel's Wharf has independent shops and cafes. Go in late afternoon for golden hour light on the water.",
+            "price_level": "Affordable",
+            "good_for": ["Walking", "Photography"],
+            "duration": "1-2 hours",
+            "best_time": "Afternoon"
+          },
           "image": "/images/london/thames-walk.jpg",
           "geo": { "lat": 51.5080, "lng": -0.1000 }
         },
@@ -362,7 +488,16 @@
           "name_local": "Regent's Canal",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A peaceful towpath walk from Little Venice to Camden. Houseboats, cafes, and greenery away from traffic. See the London Zoo for free from the path.",
+          "description": {
+            "short": "Regent's Canal is a peaceful towpath walk from Little Venice to Camden through hidden corners of London, passing colorful houseboats, canal-side cafes, and greenery away from traffic. The full walk is 8.6 miles but most people walk the scenic section from Little Venice to Camden (about 2.5 miles, 1 hour). You can see London Zoo animals for free from the path.",
+            "vibe": "Peaceful, scenic",
+            "history": "Built 1812-1820 to link the Grand Junction Canal at Paddington to the Thames at Limehouse, enabling goods transport across London. It fell into disuse with railways but was restored in the 1980s-90s for recreation. The houseboats began appearing in the 1960s.",
+            "insider_tip": "Start at Little Venice (Warwick Avenue tube) and walk to Camden Lock for the best route. Stop at the Towpath Cafe (near Haggerston) for excellent coffee and pastries. You'll see free glimpses of London Zoo animals from the path—look for giraffes and birds. Camden Lock has weekend markets.",
+            "price_level": "Affordable",
+            "good_for": ["Walking", "Nature lovers"],
+            "duration": "1-2 hours",
+            "best_time": "Morning or afternoon"
+          },
           "image": "/images/london/regents-canal.jpg",
           "geo": { "lat": 51.5230, "lng": -0.1700 }
         },
@@ -373,7 +508,16 @@
           "name_local": "The Theatre",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "World-class theatre. Get discount same-day tickets at the TKTS booth in Leicester Square.",
+          "description": {
+            "short": "The West End is London's theater district, equivalent to New York's Broadway, with world-class musicals and plays in historic theaters. Productions range from long-running classics like The Lion King and Les Misérables to new hits and Shakespearean drama. Tickets range from £25 to £150+. Same-day discounted tickets are available at the TKTS booth in Leicester Square.",
+            "vibe": "Theatrical, grand",
+            "history": "London theater dates back to the 1600s with Shakespeare's Globe, but the West End as we know it emerged in the 1800s with gas-lit theaters. Many theaters are Victorian buildings with ornate interiors. Andrew Lloyd Webber musicals dominated the 1980s-2000s.",
+            "insider_tip": "Use the TKTS booth in Leicester Square for same-day discount tickets (up to 50% off). Arrive by 10am for best selection. Avoid overpriced theater district restaurants—eat beforehand in Soho or Covent Garden. Dress is casual; jeans and trainers are fine.",
+            "price_level": "Expensive",
+            "good_for": ["Theater lovers", "Date night"],
+            "duration": "3 hours",
+            "best_time": "Evening"
+          },
           "image": "/images/london/west-end.jpg",
           "geo": { "lat": 51.5115, "lng": -0.1280 }
         },
@@ -384,7 +528,16 @@
           "name_local": "Highgate Cemetery",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Stunning Victorian cemetery overgrown with nature. Gothic atmosphere and Karl Marx's grave.",
+          "description": {
+            "short": "Highgate Cemetery is a stunning Victorian cemetery overgrown with ivy and nature, creating a Gothic, romantic atmosphere. Opened in 1839, it's the burial site of Karl Marx, George Eliot, and other notable Victorians. The East Cemetery is open for self-guided visits; the West Cemetery requires a guided tour. It's a unique blend of nature, history, and architecture.",
+            "vibe": "Gothic, peaceful",
+            "history": "Built as one of the 'Magnificent Seven' cemeteries encircling London during the Victorian burial crisis. It became fashionable to be buried here in elaborate tombs. Fell into disrepair in the 1970s but was rescued by volunteers. Now a protected historic site and nature reserve.",
+            "insider_tip": "The East Cemetery (£5) is self-guided and includes Karl Marx's grave. The West Cemetery tour (£15, book ahead) is far more atmospheric with Victorian Gothic tombs and Egyptian Avenue. Go in autumn when leaves create a golden canopy. Combine with a walk on Hampstead Heath.",
+            "price_level": "Affordable",
+            "good_for": ["History buffs", "Photography"],
+            "duration": "1-2 hours",
+            "best_time": "Autumn afternoon"
+          },
           "image": "/images/london/highgate.jpg",
           "geo": { "lat": 51.5670, "lng": -0.1470 }
         }
@@ -401,7 +554,16 @@
           "name_local": "The British Museum",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Home to the Rosetta Stone and Elgin Marbles. Dedicated to human history, art, and culture. Free entry.",
+          "description": {
+            "short": "The British Museum is dedicated to human history, art, and culture, with over 8 million works spanning 2 million years. Famous for the Rosetta Stone, Elgin Marbles (Parthenon sculptures), Egyptian mummies, and artifacts from across the world. Entry is free. The Great Court with its glass roof is architecturally stunning. One of the world's greatest museums.",
+            "vibe": "Grand, educational",
+            "history": "Founded in 1753, making it the world's first national public museum. The building was designed by Robert Smirke in 1823 in Greek Revival style. The Rosetta Stone (1799 discovery) unlocked hieroglyphics. Many artifacts are controversial, acquired during British colonial rule—debates about repatriation continue.",
+            "insider_tip": "Download the museum's free app for audio tours. Focus on 2-3 galleries rather than trying to see everything. The Rosetta Stone and Elgin Marbles are most crowded 11am-3pm—go early or late. The Great Court has free WiFi and a cafe. Entry is free but donations encouraged.",
+            "price_level": "Affordable",
+            "good_for": ["History buffs", "Families"],
+            "duration": "2-4 hours",
+            "best_time": "Early morning"
+          },
           "image": "/images/london/british-museum.jpg",
           "geo": { "lat": 51.5194, "lng": -0.1270 }
         },
@@ -412,7 +574,16 @@
           "name_local": "Tate Modern",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Contemporary art housed in a colossal former power station. The Turbine Hall installations are world-famous. Free entry.",
+          "description": {
+            "short": "Tate Modern is Britain's national museum of modern and contemporary art, housed in a colossal former power station on the South Bank. The cavernous Turbine Hall hosts massive installations by world-famous artists. Collections include Picasso, Warhol, Rothko, and contemporary works. Entry is free except for special exhibitions. The building itself is a masterpiece of industrial architecture.",
+            "vibe": "Contemporary, industrial",
+            "history": "The building was Bankside Power Station, designed in 1947 and decommissioned in 1981. Converted to a museum and opened in 2000, transforming London's art scene. The Turbine Hall is 3,400 square meters and hosts major installations. The 2016 expansion added 60% more gallery space.",
+            "insider_tip": "The Turbine Hall installation is free and changes annually—often the most memorable part. Go to the 10th floor viewing terrace for free panoramic views of St. Paul's Cathedral. The museum stays open until 10pm on Fridays and Saturdays. Skip the restaurant; eat elsewhere in Southwark.",
+            "price_level": "Affordable",
+            "good_for": ["Art lovers", "Architecture fans"],
+            "duration": "2-3 hours",
+            "best_time": "Late afternoon"
+          },
           "image": "/images/london/tate-modern.jpg",
           "geo": { "lat": 51.5076, "lng": -0.0994 }
         },
@@ -423,7 +594,16 @@
           "name_local": "NHM",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Dinosaurs and the blue whale in a stunning cathedral-like building. Free entry.",
+          "description": {
+            "short": "The Natural History Museum houses 80 million specimens spanning billions of years of natural history, from dinosaur skeletons to the famous blue whale hanging in the main hall. The Romanesque building is a Victorian cathedral of science with terracotta facades and soaring arches. Entry is free. The dinosaur gallery and earthquake simulator are highlights.",
+            "vibe": "Majestic, educational",
+            "history": "Opened in 1881, designed by Alfred Waterhouse in Romanesque Revival style. The building was conceived as a 'cathedral to nature.' The museum split from the British Museum in 1963. The blue whale model (1938) is 82 feet long. Charles Darwin's specimens are in the collections.",
+            "insider_tip": "Arrive at opening (10am) to avoid school groups who dominate by 11am. The dinosaur gallery gets crushingly crowded—go first or skip it. The Earth galleries (Red Zone) and whale hall are underrated and quieter. Entry is free but special exhibitions require tickets.",
+            "price_level": "Affordable",
+            "good_for": ["Families", "Dinosaur fans"],
+            "duration": "2-3 hours",
+            "best_time": "Opening time (10am)"
+          },
           "image": "/images/london/natural-history.jpg",
           "geo": { "lat": 51.4967, "lng": -0.1764 }
         }
@@ -440,7 +620,16 @@
           "name_local": "Borough Market",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "London's premier food market. Go Wed-Sat. It is crowded but smells divine. Great for cheese, bread, and street food.",
+          "description": {
+            "short": "Borough Market is London's premier food market, operating since at least 1014 AD, making it one of the oldest in Britain. Located under railway arches near London Bridge, it's a gourmet haven for cheese, bread, street food, fresh produce, and international cuisine. Open Wednesday-Saturday. It's crowded but the atmosphere and smells are intoxicating.",
+            "vibe": "Bustling, aromatic",
+            "history": "Records show a market here in 1014 AD. The current Victorian structure dates to 1851. It was a wholesale market for centuries but transformed into a retail/tourist market in the 1990s-2000s. The market nearly closed in the 1990s but was saved by local campaigners.",
+            "insider_tip": "Go Wednesday or Thursday morning (8-10am) before tourist crowds arrive. Saturday is a mob scene—avoid if possible. The chorizo sandwich and raclette are legendary. Many vendors offer free samples. Bring cash as some stalls don't take cards.",
+            "price_level": "Moderate",
+            "good_for": ["Foodies", "Markets"],
+            "duration": "1-2 hours",
+            "best_time": "Wednesday morning"
+          },
           "image": "/images/london/borough-market.jpg",
           "geo": { "lat": 51.5055, "lng": -0.0903 }
         },
@@ -451,7 +640,16 @@
           "name_local": "God's Own Junkyard",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A neon wonderland in Walthamstow. A niche, Instagrammable warehouse filled with vintage signs and props. Very cool.",
+          "description": {
+            "short": "God's Own Junkyard is a neon wonderland in Walthamstow, East London: a warehouse filled with vintage neon signs, film props, and illuminated art collected over 40 years. Created by the late Chris Bracey, the 'Neon Man' who made props for films like Batman and Charlie and the Chocolate Factory. It's wildly Instagrammable and totally unique.",
+            "vibe": "Psychedelic, neon",
+            "history": "Chris Bracey spent 40 years collecting neon signs from Soho's strip clubs, cinemas, and shops as they closed down. After his death in 2014, his family opened the warehouse to the public. It's become a cult destination and film location (Bohemian Rhapsody, Muppets).",
+            "insider_tip": "Entry is free but there's a small cafe inside. Go on a cloudy day when the neon pops more dramatically against grey skies. The cafe serves coffee and snacks. It's open Friday-Sunday only. Combine with Walthamstow Market (Europe's longest outdoor market) nearby.",
+            "price_level": "Affordable",
+            "good_for": ["Photography", "Unique experiences"],
+            "duration": "1 hour",
+            "best_time": "Afternoon (cloudy day)"
+          },
           "image": "/images/london/neon.jpg",
           "geo": { "lat": 51.5835, "lng": -0.0076 }
         }
@@ -468,7 +666,16 @@
           "name_local": "Tower of London",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "1000-year-old fortress housing the Crown Jewels. Former prison and palace. Beefeater tours are essential theater.",
+          "description": {
+            "short": "The Tower of London is a 1,000-year-old fortress that has served as a royal palace, prison, execution site, armory, and now houses the Crown Jewels. Beefeaters (Yeoman Warders) give theatrical tours of its bloody history—executions, torture, and royal intrigue. The White Tower is the original 11th-century castle. Ravens are kept at the tower because legend says Britain will fall if they leave.",
+            "vibe": "Historic, dramatic",
+            "history": "Built by William the Conqueror in 1078. Famous prisoners include Anne Boleyn (executed 1536), Guy Fawkes (tortured 1605), and Rudolf Hess (held in 1941). The Crown Jewels have been housed here since 1661. Six ravens are always kept with clipped wings—tradition holds Britain will fall if they leave.",
+            "insider_tip": "Book tickets online to skip massive queues. Join a free Beefeater tour immediately upon entry—they're entertaining and informative. The Crown Jewels line is longest 11am-2pm. Visit on weekday mornings for thinner crowds. Allow 3+ hours to see everything properly.",
+            "price_level": "Expensive",
+            "good_for": ["History buffs", "Families"],
+            "duration": "3-4 hours",
+            "best_time": "Opening time (9am)"
+          },
           "image": "/images/london/tower-london.jpg",
           "geo": { "lat": 51.5081, "lng": -0.0759 }
         },
@@ -479,7 +686,16 @@
           "name_local": "The Abbey",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The setting for coronations and royal weddings. A stunning gothic masterpiece packed with history.",
+          "description": {
+            "short": "Westminster Abbey is a 1,000-year-old Gothic masterpiece where British monarchs are crowned, married, and buried. It's the setting for royal weddings (William and Kate, 2011) and coronations (Charles III, 2023). Over 3,000 notable Britons are buried here, including Newton, Darwin, Dickens, and monarchs dating back centuries. The architecture is breathtaking.",
+            "vibe": "Sacred, grand",
+            "history": "Founded in 960 AD, rebuilt by Edward the Confessor in 1065. Every monarch since William the Conqueror (1066) has been crowned here except two. The current Gothic structure mostly dates from 1245 onwards. Poets' Corner contains graves and memorials of Britain's greatest writers.",
+            "insider_tip": "Book tickets online in advance—queues are brutal. Audio guide is included and excellent. Go first thing at opening (9:30am) or late afternoon for thinner crowds. Free entry to evening prayers (5pm weekdays) if you're willing to sit through the service. Photography is forbidden inside.",
+            "price_level": "Expensive",
+            "good_for": ["History buffs", "Architecture lovers"],
+            "duration": "2 hours",
+            "best_time": "Opening time or evening prayer"
+          },
           "image": "/images/london/westminster-abbey.jpg",
           "geo": { "lat": 51.4993, "lng": -0.1273 }
         },
@@ -490,7 +706,16 @@
           "name_local": "St Paul's",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Iconic dome dominating the skyline. Climb to the top for views.",
+          "description": {
+            "short": "St Paul's Cathedral is an Anglican cathedral with an iconic dome dominating London's skyline, designed by Christopher Wren and completed in 1710. It's the site of major events like Churchill's funeral (1965) and Prince Charles and Diana's wedding (1981). Climb 528 steps to the Golden Gallery at the dome's summit for panoramic views. The Whispering Gallery has famous acoustics.",
+            "vibe": "Majestic, spiritual",
+            "history": "Built 1675-1710 after the Great Fire of London destroyed the medieval cathedral. Wren's Baroque masterpiece survived WWII bombing while the surrounding city burned. The dome was inspired by St. Peter's Basilica in Rome. It's the seat of the Bishop of London.",
+            "insider_tip": "Buy tickets online to skip queues. The dome climb (528 steps, no elevator) is exhausting but worth it—spectacular views from the top. The Whispering Gallery (259 steps up) has acoustics where whispers travel around the circular walls. Go on Sunday for free entry during services (no sightseeing during worship).",
+            "price_level": "Expensive",
+            "good_for": ["Architecture lovers", "Views"],
+            "duration": "2 hours",
+            "best_time": "Early morning"
+          },
           "image": "/images/london/st-pauls.jpg",
           "geo": { "lat": 51.5138, "lng": -0.0984 }
         }
@@ -507,7 +732,16 @@
           "name_local": "The Heath",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Wild, rolling hills overlooking the city. A stark contrast to manicured Royal Parks. Swim in the ponds if you dare.",
+          "description": {
+            "short": "Hampstead Heath is 790 acres of wild, rolling hills in North London offering panoramic views of the city. It's a stark contrast to London's manicured Royal Parks—deliberately kept wild with woodlands, meadows, and swimming ponds. Parliament Hill offers the best city views. The Heath has three swimming ponds (men's, women's, mixed) for year-round open-water swimming.",
+            "vibe": "Wild, peaceful",
+            "history": "Protected from development in 1871 after public protest. It's been a retreat from the city since the 1600s when Londoners fled plague outbreaks. The swimming ponds were formed by damming the River Fleet in the 1700s. The Heath inspired poets like Keats who lived nearby.",
+            "insider_tip": "Parliament Hill (south edge) has the best skyline views—especially at sunset. The swimming ponds (£4) are open year-round to brave locals, even in winter. Combine with exploring Hampstead village's narrow streets, historic pubs, and Keats House. Wear sturdy shoes—paths get muddy.",
+            "price_level": "Affordable",
+            "good_for": ["Nature lovers", "Views"],
+            "duration": "2-3 hours",
+            "best_time": "Afternoon or sunset"
+          },
           "image": "/images/london/hampstead-heath.jpg",
           "geo": { "lat": 51.5608, "lng": -0.1631 }
         }

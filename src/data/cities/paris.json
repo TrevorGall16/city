@@ -16,18 +16,198 @@
     "plug_type": "Type E"
   },
   "weather_breakdown": [
-    { "id": 1, "name": "January", "temp": "1°C - 7°C", "vibe": "Quiet & Brisk", "pros": ["Very few tourists", "Winter Sales (Soldes)", "Crisp mood"], "cons": ["Short days", "Grey skies"], "clothing": "Heavy coat, scarf, waterproof shoes" },
-    { "id": 2, "name": "February", "temp": "1°C - 8°C", "vibe": "Crisp & Intimate", "pros": ["Romantic atmosphere", "Lower prices", "Early blooms"], "cons": ["Cold snaps", "Wind chill"], "clothing": "Insulating layers, warm hat" },
-    { "id": 3, "name": "March", "temp": "4°C - 12°C", "vibe": "Changeable", "pros": ["Spring blooms", "Shoulder season prices", "Livelier streets"], "cons": ["Unpredictable rain", "Chilly mornings"], "clothing": "Light jacket + umbrella" },
-    { "id": 4, "name": "April", "temp": "8°C - 16°C", "vibe": "Blooming", "pros": ["Cherry blossoms", "Moderate temps", "Parks open up"], "cons": ["April showers", "Crowds grow"], "clothing": "Layers, waterproof jacket" },
-    { "id": 5, "name": "May", "temp": "11°C - 20°C", "vibe": "Mild & Social", "pros": ["Long days", "Terrace culture peaks", "Outdoor events"], "cons": ["Higher hotel prices", "Sudden heat"], "clothing": "Breathable layers, sunhat" },
-    { "id": 6, "name": "June", "temp": "14°C - 24°C", "vibe": "Festive", "pros": ["Music Festival", "Late sunsets (10pm)", "Seine picnics"], "cons": ["High season rates", "Heatwaves"], "clothing": "Summer clothes + light jacket" },
-    { "id": 7, "name": "July", "temp": "16°C - 27°C", "vibe": "Hot & Busy", "pros": ["Bastille Day", "Paris Plages", "Summer vibes"], "cons": ["Crowded", "Lack of A/C"], "clothing": "Very light clothes, sandals" },
-    { "id": 8, "name": "August", "temp": "15°C - 26°C", "vibe": "Uneven & Calm", "pros": ["Quiet streets (locals leave)", "Relaxed pace", "Empty metro"], "cons": ["Independent shops/bakeries closed", "Tourist spots packed"], "clothing": "Summer clothes" },
-    { "id": 9, "name": "September", "temp": "12°C - 22°C", "vibe": "Golden", "pros": ["Perfect walking weather", "Cultural season starts", "Energetic"], "cons": ["Fashion Week prices", "Occasional rain"], "clothing": "Smart casual layers" },
-    { "id": 10, "name": "October", "temp": "9°C - 17°C", "vibe": "Colorful", "pros": ["Autumn foliage", "Cozy cafes", "Great light"], "cons": ["Shorter days", "Dampness"], "clothing": "Warm mid-layers, boots" },
-    { "id": 11, "name": "November", "temp": "6°C - 12°C", "vibe": "Atmospheric", "pros": ["Museum exhibitions", "Hot chocolate season", "Low rates"], "cons": ["Grey & gloom", "Windy"], "clothing": "Warm coat, umbrella" },
-    { "id": 12, "name": "December", "temp": "3°C - 8°C", "vibe": "Festive", "pros": ["Christmas Markets", "Holiday lights", "Cheer"], "cons": ["Cold & Dark", "Holiday crowds"], "clothing": "Thermals, heavy coat, gloves" }
+    {
+      "id": 1,
+      "name": "January",
+      "temp": "1°C - 7°C",
+      "vibe": "Quiet & Brisk",
+      "pros": [
+        "Very few tourists",
+        "Winter Sales (Soldes)",
+        "Crisp mood"
+      ],
+      "cons": [
+        "Short days",
+        "Grey skies"
+      ],
+      "clothing": "Heavy coat, scarf, waterproof shoes"
+    },
+    {
+      "id": 2,
+      "name": "February",
+      "temp": "1°C - 8°C",
+      "vibe": "Crisp & Intimate",
+      "pros": [
+        "Romantic atmosphere",
+        "Lower prices",
+        "Early blooms"
+      ],
+      "cons": [
+        "Cold snaps",
+        "Wind chill"
+      ],
+      "clothing": "Insulating layers, warm hat"
+    },
+    {
+      "id": 3,
+      "name": "March",
+      "temp": "4°C - 12°C",
+      "vibe": "Changeable",
+      "pros": [
+        "Spring blooms",
+        "Shoulder season prices",
+        "Livelier streets"
+      ],
+      "cons": [
+        "Unpredictable rain",
+        "Chilly mornings"
+      ],
+      "clothing": "Light jacket + umbrella"
+    },
+    {
+      "id": 4,
+      "name": "April",
+      "temp": "8°C - 16°C",
+      "vibe": "Blooming",
+      "pros": [
+        "Cherry blossoms",
+        "Moderate temps",
+        "Parks open up"
+      ],
+      "cons": [
+        "April showers",
+        "Crowds grow"
+      ],
+      "clothing": "Layers, waterproof jacket"
+    },
+    {
+      "id": 5,
+      "name": "May",
+      "temp": "11°C - 20°C",
+      "vibe": "Mild & Social",
+      "pros": [
+        "Long days",
+        "Terrace culture peaks",
+        "Outdoor events"
+      ],
+      "cons": [
+        "Higher hotel prices",
+        "Sudden heat"
+      ],
+      "clothing": "Breathable layers, sunhat"
+    },
+    {
+      "id": 6,
+      "name": "June",
+      "temp": "14°C - 24°C",
+      "vibe": "Festive",
+      "pros": [
+        "Music Festival",
+        "Late sunsets (10pm)",
+        "Seine picnics"
+      ],
+      "cons": [
+        "High season rates",
+        "Heatwaves"
+      ],
+      "clothing": "Summer clothes + light jacket"
+    },
+    {
+      "id": 7,
+      "name": "July",
+      "temp": "16°C - 27°C",
+      "vibe": "Hot & Busy",
+      "pros": [
+        "Bastille Day",
+        "Paris Plages",
+        "Summer vibes"
+      ],
+      "cons": [
+        "Crowded",
+        "Lack of A/C"
+      ],
+      "clothing": "Very light clothes, sandals"
+    },
+    {
+      "id": 8,
+      "name": "August",
+      "temp": "15°C - 26°C",
+      "vibe": "Uneven & Calm",
+      "pros": [
+        "Quiet streets (locals leave)",
+        "Relaxed pace",
+        "Empty metro"
+      ],
+      "cons": [
+        "Independent shops/bakeries closed",
+        "Tourist spots packed"
+      ],
+      "clothing": "Summer clothes"
+    },
+    {
+      "id": 9,
+      "name": "September",
+      "temp": "12°C - 22°C",
+      "vibe": "Golden",
+      "pros": [
+        "Perfect walking weather",
+        "Cultural season starts",
+        "Energetic"
+      ],
+      "cons": [
+        "Fashion Week prices",
+        "Occasional rain"
+      ],
+      "clothing": "Smart casual layers"
+    },
+    {
+      "id": 10,
+      "name": "October",
+      "temp": "9°C - 17°C",
+      "vibe": "Colorful",
+      "pros": [
+        "Autumn foliage",
+        "Cozy cafes",
+        "Great light"
+      ],
+      "cons": [
+        "Shorter days",
+        "Dampness"
+      ],
+      "clothing": "Warm mid-layers, boots"
+    },
+    {
+      "id": 11,
+      "name": "November",
+      "temp": "6°C - 12°C",
+      "vibe": "Atmospheric",
+      "pros": [
+        "Museum exhibitions",
+        "Hot chocolate season",
+        "Low rates"
+      ],
+      "cons": [
+        "Grey & gloom",
+        "Windy"
+      ],
+      "clothing": "Warm coat, umbrella"
+    },
+    {
+      "id": 12,
+      "name": "December",
+      "temp": "3°C - 8°C",
+      "vibe": "Festive",
+      "pros": [
+        "Christmas Markets",
+        "Holiday lights",
+        "Cheer"
+      ],
+      "cons": [
+        "Cold & Dark",
+        "Holiday crowds"
+      ],
+      "clothing": "Thermals, heavy coat, gloves"
+    }
   ],
   "culture": {
     "etiquette_tips": [
@@ -43,40 +223,76 @@
       "Dining Pace: Meals are slow. You must ask for the bill ('L'addition'). Leaving quickly is seen as rushing the pleasure."
     ],
     "essential_phrases": [
-      { "src": "Hello", "local": "Bonjour", "phonetic": "bon-ZHOOR" },
-      { "src": "Thank you", "local": "Merci", "phonetic": "mair-SEE" },
-      { "src": "The bill please", "local": "L'addition s'il vous plaît", "phonetic": "lah-dee-SYON" },
-      { "src": "Excuse me", "local": "Excusez-moi", "phonetic": "ex-kew-ZAY mwah" },
-      { "src": "I don't speak French", "local": "Je ne parle pas français", "phonetic": "zhuh nuh parl pah" }
+      {
+        "src": "Hello",
+        "local": "Bonjour",
+        "phonetic": "bon-ZHOOR"
+      },
+      {
+        "src": "Thank you",
+        "local": "Merci",
+        "phonetic": "mair-SEE"
+      },
+      {
+        "src": "The bill please",
+        "local": "L'addition s'il vous plaît",
+        "phonetic": "lah-dee-SYON"
+      },
+      {
+        "src": "Excuse me",
+        "local": "Excusez-moi",
+        "phonetic": "ex-kew-ZAY mwah"
+      },
+      {
+        "src": "I don't speak French",
+        "local": "Je ne parle pas français",
+        "phonetic": "zhuh nuh parl pah"
+      }
     ]
   },
-"neighborhoods": [
+  "neighborhoods": [
     {
       "name": "Le Marais",
       "vibe": "Trendy & Historic",
       "description": "Tight cobbled streets, hôtels particuliers, and a mix of Jewish heritage and LGBTQ+ nightlife.",
-      "highlights": ["Place des Vosges", "Rue des Rosiers", "Musée Picasso"],
+      "highlights": [
+        "Place des Vosges",
+        "Rue des Rosiers",
+        "Musée Picasso"
+      ],
       "image": "/images/paris/marais.jpg"
     },
     {
       "name": "Montmartre",
       "vibe": "Bohemian Village",
       "description": "Perched on a hill, it retains a village atmosphere with artists, vineyards, and winding streets.",
-      "highlights": ["Place du Tertre", "Rue Lepic", "Sacré-Cœur steps"],
+      "highlights": [
+        "Place du Tertre",
+        "Rue Lepic",
+        "Sacré-Cœur steps"
+      ],
       "image": "/images/paris/montmartre.jpg"
     },
     {
       "name": "Latin Quarter",
       "vibe": "Intellectual",
       "description": "Home to the Sorbonne, filled with bookshops, student cafes, and medieval history.",
-      "highlights": ["Shakespeare & Co", "Pantheon", "Rue Mouffetard"],
+      "highlights": [
+        "Shakespeare & Co",
+        "Pantheon",
+        "Rue Mouffetard"
+      ],
       "image": "/images/paris/latin-quarter.jpg"
     },
     {
       "name": "Saint-Germain",
       "vibe": "Chic & Literary",
       "description": "Famous for historic literary cafes like Les Deux Magots and high-end galleries.",
-      "highlights": ["Café de Flore", "Luxembourg Gardens", "Bon Marché"],
+      "highlights": [
+        "Café de Flore",
+        "Luxembourg Gardens",
+        "Bon Marché"
+      ],
       "image": "/images/paris/saint-germain.jpg"
     }
   ],
@@ -156,7 +372,7 @@
       ]
     }
   ],
- "must_eat": [
+  "must_eat": [
     {
       "id": "food-001",
       "slug": "butter-croissant",
@@ -164,7 +380,19 @@
       "name_local": "Croissant au Beurre",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The quintessential French breakfast staple. A true croissant au beurre is made with pure butter (not margarine), creating its characteristic flaky, golden layers. Look for the curved shape (vs. the straight 'croissant ordinaire'). Best enjoyed warm from the bakery in the morning.",
+      "description": {
+        "short": "The croissant au beurre is the quintessential French breakfast staple: a crescent-shaped laminated pastry made with pure butter (not margarine), creating its characteristic golden, flaky layers. A true croissant shatters when you bite it, releasing buttery steam. Straight croissants are 'ordinaire' (margarine), curved croissants are 'au beurre' (butter)—always choose curved. Best eaten warm from the bakery within hours of baking.",
+        "vibe": "Flaky, buttery",
+        "history": "Croissants originated in Vienna (Austrian 'kipferl') but were perfected in Paris in the 1830s-1840s when Viennese bakers opened shops. The laminated dough technique (butter folded into dough 27+ times) creates the layers. By the 1900s, it became France's breakfast icon. The curved shape distinguishes butter croissants from straight margarine ones (a practice starting in the 1980s).",
+        "insider_tip": "Buy from a real boulangerie (bakery), not a chain or grocery store. Look for 'fait maison' (homemade) signs. The best croissants are honeycomb-textured inside, deeply golden outside, and weigh surprisingly little. Eat plain—no butter, no jam. Parisians tear pieces and dunk them in café au lait or hot chocolate. Morning is the only proper time to eat them. Never microwave a croissant—it kills the texture.",
+        "price_level": "Affordable",
+        "good_for": [
+          "Breakfast",
+          "Morning snack"
+        ],
+        "duration": "5 minutes",
+        "best_time": "Morning (7-10am)"
+      },
       "image": "/images/paris/croissant.jpg"
     },
     {
@@ -174,77 +402,195 @@
       "name_local": "La Baguette Tradition",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The daily ritual. Look for 'Tradition' on the sign—it means no additives allowed by law. The perfect baguette has a golden, crackly crust and a soft, airy interior. Locals buy them twice daily.",
+      "description": {
+        "short": "The baguette tradition is a long, thin loaf with a golden, crackly crust and a soft, airy interior with irregular holes. 'Tradition' means it's made by law with only four ingredients (flour, water, salt, yeast) and no additives—superior to regular baguettes. Locals buy them twice daily (morning and evening) because they go stale within hours. The perfect baguette sounds hollow when tapped, cracks when squeezed, and has a wheaty aroma.",
+        "vibe": "Essential, daily",
+        "history": "Baguettes emerged in the 1920s-1930s in Paris when a law prohibited bakers from working before 4am, forcing them to create fast-baking bread. The 'baguette tradition' was legally defined in 1993 to preserve artisanal methods against industrial bread. It's so iconic that UNESCO recognized French baguette-making as intangible cultural heritage in 2022. Over 10 billion baguettes are consumed in France annually.",
+        "insider_tip": "Buy from an 'artisan boulanger' (sign on door)—they bake on-site. Chains (Paul, Marie Blachère) are inferior. Ask for 'une baguette tradition' not just 'baguette.' The best ones cost €1.20-1.50. Locals tear off the end ('le quignon') and eat it on the walk home—this is culturally approved. Store baguettes cut-side down on the counter, never in plastic. Stale baguettes make excellent French toast or pain perdu.",
+        "price_level": "Affordable",
+        "good_for": [
+          "Daily ritual",
+          "Every meal"
+        ],
+        "duration": "Immediate consumption",
+        "best_time": "Morning or evening"
+      },
       "image": "/images/paris/baguette.jpg"
     },
     {
-      "id": "food-12",
+      "id": "food-026",
+      "slug": "pain-au-chocolat",
+      "name_en": "Pain au Chocolat",
+      "name_local": "Pain au Chocolat / Chocolatine",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Pain au chocolat is a rectangular croissant dough pastry with two sticks of dark chocolate baked inside. The dough is the same laminated butter dough as croissants, but shaped differently. When pulled apart, the chocolate should be melted and gooey, the dough flaky and buttery. It's France's second most popular breakfast pastry after croissants. In southwest France, it's controversially called 'chocolatine'—a divide that sparks genuine debates.",
+        "vibe": "Chocolatey, indulgent",
+        "history": "Emerged in the mid-1800s when Viennese bakers in Paris started adding chocolate to laminated dough. The name 'pain au chocolat' (chocolate bread) is standard in Paris and most of France. The term 'chocolatine' in Bordeaux/Toulouse creates a north-south cultural divide—Parisians mock it, southerners defend it. The debate is a running joke in French culture.",
+        "insider_tip": "Like croissants, buy fresh in the morning from real bakeries, not chains. The chocolate should be dark (at least 60% cocoa), not milk chocolate. Eat it warm—the chocolate melts perfectly. Some bakeries offer variations with almond cream or hazelnut, but purists stick to classic dark chocolate. Pair with café au lait. Never reheat in a microwave—use a toaster oven if stale.",
+        "price_level": "Affordable",
+        "good_for": [
+          "Breakfast",
+          "Chocolate lovers"
+        ],
+        "duration": "5 minutes",
+        "best_time": "Morning"
+      },
+      "image": "/images/paris/pain-au-chocolat.jpg"
+    },
+    {
+      "id": "food-012",
       "slug": "jambon-beurre",
       "name_en": "Parisian Ham Sandwich",
       "name_local": "Jambon-Beurre",
       "category": "food",
       "is_generic_staple": true,
-      "description": "A simple but perfect baguette sandwich with high-quality Parisian ham and salted butter. It is the true on-the-go lunch of locals, selling over a billion units a year.",
+      "description": {
+        "short": "The jambon-beurre is France's most popular sandwich: a baguette sliced lengthwise, spread with salted butter, filled with high-quality Paris ham (jambon de Paris—lightly cooked, tender, pink ham). That's it. No lettuce, no cheese, no condiments. The quality comes from three perfect ingredients. Over 1 billion are sold annually in France. It's the true Parisian lunch, eaten on park benches, at desks, on the go.",
+        "vibe": "Simple, perfect",
+        "history": "The jambon-beurre became popular in the 1950s-1960s as fast workers' lunch. Paris ham dates to the 1700s. The sandwich represents French culinary philosophy: perfect ingredients need nothing extra. It's now a symbol of French simplicity—UNESCO declared it 'intangible cultural heritage' candidate. Every bakery and café sells them for €3.50-5.",
+        "insider_tip": "Buy from bakeries (boulangeries), not supermarkets—the bread and ham quality matters. The butter should be salted (beurre salé) and generous. The ham should be hand-sliced, not processed deli meat. Eat within 2 hours of purchase—the bread goes stale and butter soaks in. Don't ask for mayo, mustard, or vegetables—you'll get judged. This is anti-American simplicity at its finest.",
+        "price_level": "Affordable",
+        "good_for": [
+          "Lunch",
+          "Picnics"
+        ],
+        "duration": "10 minutes",
+        "best_time": "Lunch"
+      },
       "image": "/images/paris/jambon-beurre.jpg"
     },
     {
-      "id": "food-20",
+      "id": "food-020",
       "slug": "escargots",
       "name_en": "Escargots de Bourgogne",
       "name_local": "Escargots",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Snails baked in garlic-parsley butter. Ordered as a starter in traditional brasseries; use bread to soak up the butter. More common at dinner than lunch.",
+      "description": {
+        "short": "Escargots are land snails (Burgundy snails) baked in their shells with garlic-parsley butter (beurre d'escargot). Served as a starter (6 or 12 snails) in traditional brasseries. You use a special fork and tongs to extract the snail, then soak up the garlicky butter with bread. The snails themselves taste like earthy mushrooms; the butter is the star. More common at dinner than lunch.",
+        "vibe": "Classic, garlicky",
+        "history": "Snails have been eaten since Roman times but became a French delicacy in the 1800s when Antonin Carême popularized them. Burgundy snails (Helix pomatia) are the traditional variety. The garlic-parsley butter was perfected by Burgundian chefs. Now they're a symbol of French haute cuisine, though most snails are farmed or imported from Eastern Europe.",
+        "insider_tip": "Order them at traditional bistros or brasseries, not touristy cafés. The butter should be bright green from parsley, intensely garlicky. Use the bread to soak up every drop of butter—this is encouraged. Don't overthink the texture—they're chewy like mussels. If you're squeamish, close your eyes and focus on the butter. Pair with white wine (Chablis or Sancerre). They're rich, so 6 snails is enough as an appetizer.",
+        "price_level": "Moderate",
+        "good_for": [
+          "Trying French classics",
+          "Adventurous eaters"
+        ],
+        "duration": "20 minutes",
+        "best_time": "Dinner starter"
+      },
       "image": "/images/paris/escargots.jpg"
     },
     {
-      "id": "food-21",
+      "id": "food-021",
       "slug": "duck-confit",
       "name_en": "Confit de Canard",
       "name_local": "Confit de Canard",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Slow-cooked duck leg in its own fat until tender. A classic bistro main, often served with potatoes cooked in duck fat (pommes sarladaises).",
+      "description": {
+        "short": "Confit de canard is duck leg slow-cooked in its own fat until the meat is fall-off-the-bone tender and the skin is crispy. It's a preservation technique from southwest France. The duck is salted, aged, then submerged in fat and cooked slowly for hours. Served as a main course with potatoes cooked in duck fat (pommes sarladaises) or green salad. The meat is rich, savory, and deeply flavorful.",
+        "vibe": "Rich, traditional",
+        "history": "Confit (from 'confire,' to preserve) dates to medieval times as a way to preserve meat before refrigeration. Duck legs were salted, cooked in fat, and stored in clay pots for months. It became a delicacy of Gascony and Périgord regions. Paris bistros adopted it in the 1900s. Now it's a classic French dish representing rustic cuisine.",
+        "insider_tip": "Order at traditional bistros or brasseries. The skin should be golden and crispy (if it's pale and soft, it's been improperly cooked). The meat should pull apart with a fork. Pommes sarladaises (potatoes fried in duck fat with garlic and parsley) are the classic accompaniment. It's heavy, so don't order it in summer heat—best in fall/winter. Pair with red wine from Cahors or Bordeaux.",
+        "price_level": "Moderate",
+        "good_for": [
+          "Dinner",
+          "Hearty meals"
+        ],
+        "duration": "1 hour",
+        "best_time": "Dinner (fall/winter)"
+      },
       "image": "/images/paris/duck-confit.jpg"
     },
     {
-      "id": "food-22",
+      "id": "food-022",
       "slug": "boeuf-bourguignon",
       "name_en": "Boeuf Bourguignon",
       "name_local": "Bœuf Bourguignon",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Beef braised in red wine with carrots and onions. Found in traditional bistros; best in colder months for a hearty meal.",
+      "description": {
+        "short": "Boeuf bourguignon is beef braised in red wine (traditionally Burgundy wine) with carrots, onions, mushrooms, and lardons (bacon). The beef (usually chuck or brisket) is cooked for 2-3 hours until tender and the wine reduces into a rich, velvety sauce. It's a rustic bistro classic, often served with mashed potatoes or egg noodles. Best eaten in colder months as a hearty, warming meal.",
+        "vibe": "Hearty, warming",
+        "history": "Originated in Burgundy (Bourgogne) in the 1800s as peasant food—cheap cuts of beef slow-cooked in local wine. Julia Child's 1961 cookbook brought it to American fame, but it was already a French staple. Auguste Escoffier codified the recipe in 1903. It represents French comfort food—simple ingredients transformed by time and technique.",
+        "insider_tip": "Order at traditional bistros in fall/winter—it's rarely available in summer. The meat should be fork-tender, not chewy. The sauce should be thick and glossy, not watery. Good versions take 3+ hours to make, so cheap restaurants cut corners. Expect to pay €18-25 for a proper portion. Pair with red Burgundy wine (Pinot Noir) or Côtes du Rhône. Eat with crusty bread to soak up sauce.",
+        "price_level": "Moderate",
+        "good_for": [
+          "Dinner",
+          "Comfort food"
+        ],
+        "duration": "1 hour",
+        "best_time": "Dinner (fall/winter)"
+      },
       "image": "/images/paris/boeuf-bourguignon.jpg"
     },
     {
-      "id": "food-23",
+      "id": "food-023",
       "slug": "steak-tartare",
       "name_en": "Steak Tartare",
       "name_local": "Steak Tartare",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Raw minced beef mixed tableside or pre-seasoned. Order 'préparé' if you don't want to mix it yourself. Served with fries or salad.",
+      "description": {
+        "short": "Steak tartare is raw minced beef (usually high-quality sirloin or filet) seasoned with capers, onions, Worcestershire sauce, Dijon mustard, and a raw egg yolk on top. It's served cold with fries (frites) or salad. Some restaurants prepare it tableside, others serve it pre-mixed. You mix the egg yolk into the meat yourself. It's rich, savory, and surprisingly delicate. Trust the beef quality—good restaurants use fresh, high-grade meat.",
+        "vibe": "Bold, raw",
+        "history": "Despite its name, steak tartare is French (not Tartar). It emerged in Paris bistros in the early 1900s, inspired by Russian/Eastern European raw meat dishes. The French refined it into a delicacy. It became a test of a restaurant's quality—if they serve great tartare, they source great beef. Now it's a bistro staple and a rite of passage for adventurous eaters.",
+        "insider_tip": "Order 'préparé' if you want it pre-seasoned (easier for first-timers) or 'nature' if you want to season it yourself. The beef must be freshly minced that day—never order it at cheap restaurants or tourist traps. Quality places cost €18-25. Mix the egg yolk thoroughly before eating. Pair with red wine (Côtes du Rhône) or beer. It's safe to eat at reputable restaurants—food poisoning is rare with proper handling.",
+        "price_level": "Moderate",
+        "good_for": [
+          "Adventurous eaters",
+          "Lunch or dinner"
+        ],
+        "duration": "30 minutes",
+        "best_time": "Lunch or dinner"
+      },
       "image": "/images/paris/steak-tartare.jpg"
     },
     {
-      "id": "food-24",
+      "id": "food-024",
       "slug": "oysters-seafood",
       "name_en": "Oysters & Seafood",
       "name_local": "Huîtres et Fruits de Mer",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Raw oysters and shellfish, especially popular in brasseries and seafood halls. Best season is months with 'R' (September-April).",
+      "description": {
+        "short": "French oysters (huîtres) are served raw on ice with lemon, shallot vinegar, or mignonette sauce. Eaten straight from the shell, slurped down in one go. Sizes range from 0 (largest) to 5 (smallest)—beginners should start with 3 or 4. Oysters are the star of 'plateau de fruits de mer' (seafood platters) which include clams, whelks, prawns, crab, and langoustines on ice. Best season is months with 'R' (September-April).",
+        "vibe": "Fresh, briny",
+        "history": "Oysters have been eaten in France since Roman times. Parisian brasseries adopted oyster bars in the 1800s when railway refrigeration allowed Atlantic oysters to reach Paris fresh. The tradition of eating oysters with white wine and bread-and-butter became bourgeois culture. Now oyster bars are everywhere, from Michelin restaurants to market stalls.",
+        "insider_tip": "Order 6 or 12 oysters depending on appetite. Fine de Claire (delicate, mild) and Spéciale de Claires (meatier, richer) are most common varieties. Slurp them straight from the shell—no chewing needed, just swallow. Use lemon or shallot vinegar sparingly. Pair with white wine (Muscadet, Chablis, or Champagne). Oyster season is September-April; summer oysters are milky and less prized. Prices: €2-4 per oyster at brasseries, €1.50-2.50 at markets.",
+        "price_level": "Moderate",
+        "good_for": [
+          "Seafood lovers",
+          "Apéro"
+        ],
+        "duration": "30 minutes",
+        "best_time": "Lunch or dinner"
+      },
       "image": "/images/paris/oysters.jpg"
     },
     {
-      "id": "food-25",
+      "id": "food-025",
       "slug": "cheese-charcuterie",
       "name_en": "Cheese & Charcuterie Board",
       "name_local": "Planche Mixte",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Ordered as a shared plate or pre-dinner apéro. Highlights regional cheeses and cured meats. The perfect accompaniment to wine.",
+      "description": {
+        "short": "A planche mixte (mixed board) features regional French cheeses (Camembert, Brie, Comté, Roquefort, chèvre) and charcuterie (dried sausages, pâté, rillettes, prosciutto). Served as a shared appetizer or pre-dinner apéro with wine. Cheese is eaten with bread, never crackers. It's the perfect introduction to French cheese culture without committing to the full cheese course. Meant to be shared, eaten slowly with conversation.",
+        "vibe": "Social, sharing",
+        "history": "Cheese boards have been French tradition since the 1700s. Originally a regional farmhouse meal, they became restaurant staples in the 1900s. The 'planche' (wooden board) presentation emerged in the 1980s-90s. France has 1,200+ cheese varieties—more than any country. Charles de Gaulle famously said 'How can you govern a country with 246 varieties of cheese?'",
+        "insider_tip": "Order at wine bars (bars à vin) or bistros. Good boards cost €12-20 and serve 2-3 people. Eat cheese from mildest to strongest: chèvre (goat) → Brie (soft) → Comté (hard) → Roquefort (blue). Don't cut the 'nose' (tip) of the cheese—slice from the side. Pair with red wine (Côtes du Rhône) or white (Sancerre). Bread is included; crackers are American and not served.",
+        "price_level": "Moderate",
+        "good_for": [
+          "Sharing",
+          "Wine pairing"
+        ],
+        "duration": "1 hour",
+        "best_time": "Apéro (6-8pm)"
+      },
       "image": "/images/paris/cheese-board.jpg"
     },
     {
@@ -254,17 +600,41 @@
       "name_local": "Macaron",
       "category": "food",
       "is_generic_staple": true,
-      "description": "A delicate almond-based confection filled with ganache or buttercream. While available everywhere, specialized boutiques like Pierre Hermé and Ladurée are the benchmarks for texture and flavor.",
+      "description": {
+        "short": "The macaron is a delicate almond-based meringue cookie sandwich: two crisp-chewy shells with smooth ganache, buttercream, or jam filling. Not to be confused with coconut macaroons (American). Perfect macarons have a smooth, shiny shell, crisp exterior, chewy interior, and 'feet' (ruffled base). Flavors range from classic (vanilla, chocolate, pistachio) to seasonal (rose, salted caramel, yuzu). They're expensive (€2-3 each) but iconic.",
+        "vibe": "Elegant, delicate",
+        "history": "Macarons originated in Italy, arrived in France in the 1500s with Catherine de Medici. The Parisian ganache-filled version was created by Ladurée in 1930. Pierre Hermé elevated them to high art in the 1990s-2000s with inventive flavors (olive oil, foie gras). Now they're global symbols of French pâtisserie, though purists debate if modern versions are over-hyped.",
+        "insider_tip": "Ladurée (since 1862) is famous but touristy and overpriced (€2.90 each). Pierre Hermé is superior quality (€2.50 each). Local pâtisseries often have better value (€1.80-2 each) and less hype. Macarons should be stored in the fridge and eaten at room temperature after 20 minutes out. They're best eaten in 2-3 bites to appreciate texture. Don't buy them from supermarkets—they're stale and disappointing.",
+        "price_level": "Moderate",
+        "good_for": [
+          "Gifts",
+          "Dessert"
+        ],
+        "duration": "5 minutes",
+        "best_time": "Afternoon"
+      },
       "image": "/images/paris/macaron.jpg"
     },
     {
-      "id": "food-13",
+      "id": "food-013",
       "slug": "croque-monsieur",
       "name_en": "Croque-Monsieur",
       "name_local": "Croque-Monsieur",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The ultimate French comfort food: a hot sandwich made with ham and cheese, topped with béchamel sauce and grated cheese, then grilled until bubbling. Add a fried egg on top to make it a 'Croque-Madame'.",
+      "description": {
+        "short": "The croque-monsieur is France's ultimate comfort food: a hot sandwich made with ham and Gruyère cheese between toasted bread, topped with béchamel sauce and more grated cheese, then grilled until bubbling and golden. It's rich, gooey, and decadent. Add a fried egg on top to make it a 'croque-madame.' Served in cafés and bistros as a lunch or casual dinner. Eaten with a knife and fork, not hands.",
+        "vibe": "Comforting, cheesy",
+        "history": "Invented in Paris cafés in 1910 as a quick hot sandwich. The name means 'mister crunch.' The croque-madame (with egg) was added later as the 'female' version. It became a café staple throughout the 1900s. Despite its simplicity, making a proper croque-monsieur requires technique—the béchamel must be smooth, the cheese properly melted. It's now quintessential French café food.",
+        "insider_tip": "Order at cafés or bistros for lunch (€10-15). Good versions are made to order, not pre-made and reheated. The béchamel should be creamy, not gummy. The cheese should be properly melted and slightly browned on top. Croque-madame (with egg) is the superior version—the runny yolk enriches the sandwich. Eat with a green salad (included). Pair with white wine or beer. It's heavy, so don't order it in summer heat.",
+        "price_level": "Affordable",
+        "good_for": [
+          "Lunch",
+          "Comfort food"
+        ],
+        "duration": "30 minutes",
+        "best_time": "Lunch"
+      },
       "image": "/images/paris/croque-monsieur.jpg"
     },
     {
@@ -274,7 +644,19 @@
       "name_local": "Le Bistrot",
       "category": "food",
       "is_generic_staple": true,
-      "description": "A cultural institution characterized by zinc-topped bars and handwritten menus. Classic dishes include boeuf bourguignon and pot-au-feu. Service is fast and efficient.",
+      "description": {
+        "short": "The Paris bistro is a cultural institution: small, casual restaurants with zinc-topped bars, bentwood chairs, chalkboard menus, and handwritten daily specials. They serve classic French comfort food (boeuf bourguignon, pot-au-feu, confit de canard, steak-frites) in a convivial atmosphere. Service is fast and efficient, not chatty. Bistros are neighborhood anchors where regulars eat weekly. It's not gourmet—it's honest, well-executed French cooking at fair prices.",
+        "vibe": "Classic, neighborhood",
+        "history": "Bistros emerged in the 1800s as small, affordable restaurants for workers. The name possibly comes from Russian 'bystro' (quickly), coined by Russian soldiers in 1814 demanding fast service. Zinc-topped bars (to protect wood from spilled drinks) became standard by the 1900s. Bistros represent French working-class dining culture—simple food done well. They nearly disappeared in the 1980s-90s but have had a revival in the 2000s-2010s.",
+        "insider_tip": "Look for bistros with handwritten menus (changes daily based on market ingredients). Avoid 'bistronomie' (modern, expensive bistros)—they're trendy but less authentic. Real bistros have paper tablecloths, 1970s tile floors, and zinc bars. Order the 'plat du jour' (dish of the day) for best value. Lunch formules (€15-20) are excellent. Locals don't make reservations at casual bistros—just walk in. Dinner requires booking 1-2 days ahead for popular spots.",
+        "price_level": "Moderate",
+        "good_for": [
+          "Classic French food",
+          "Neighborhood dining"
+        ],
+        "duration": "1.5-2 hours",
+        "best_time": "Lunch or dinner"
+      },
       "image": "/images/paris/bistrot.jpg"
     },
     {
@@ -284,27 +666,63 @@
       "name_local": "Steak-Frites",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The classic bistro dish: a seared steak (often sirloin or entraña) served with crisp, thin French fries and Béarnaise or pepper sauce. Order it 'saignant' (rare) for the best flavor.",
+      "description": {
+        "short": "Steak-frites is the quintessential French bistro dish: a seared steak (usually sirloin, entrecôte, or bavette) served with crisp, thin French fries and a choice of sauce (béarnaise, pepper sauce, or herb butter). The steak is cooked rare to medium-rare ('saignant' or 'à point'). Fries are golden, crispy outside and fluffy inside. Simple but executed perfectly—the test of a good bistro. Always served with green salad on the side.",
+        "vibe": "Classic, satisfying",
+        "history": "Steak-frites became a Paris bistro staple in the 1900s when beef prices dropped and frying technology improved. Belgian immigrants brought frites (fries) to Paris in the 1800s. The combination represents French comfort food—high-quality ingredients simply prepared. It's now the most-ordered dish in Parisian bistros and brasseries, beloved by locals and tourists.",
+        "insider_tip": "Order your steak 'saignant' (rare—cool red center) or 'à point' (medium-rare—warm red center). French beef is leaner than American, so rare is optimal. Sauce béarnaise (tarragon butter sauce) is traditional; pepper sauce (au poivre) is also popular. Fries should be fresh-cut and double-fried—if they're soggy, the bistro cut corners. Prices: €18-28 depending on cut. Pair with red wine (Bordeaux or Côtes du Rhône).",
+        "price_level": "Moderate",
+        "good_for": [
+          "Lunch or dinner",
+          "Bistro classic"
+        ],
+        "duration": "1 hour",
+        "best_time": "Lunch or dinner"
+      },
       "image": "/images/paris/steak-frites.jpg"
     },
     {
       "id": "food-008",
       "slug": "french-onion-soup",
       "name_en": "French Onion Soup",
-      "name_local": "Soupe à l’Oignon",
+      "name_local": "Soupe à l'Oignon",
       "category": "food",
       "is_generic_staple": true,
-      "description": "A deeply caramelized onion broth topped with a slice of toasted bread and a generous layer of melted Comté or Gruyère cheese. A warming classic often eaten late at night.",
+      "description": {
+        "short": "French onion soup is a deeply caramelized onion broth (beef or chicken stock) topped with a thick slice of toasted bread and a generous layer of melted Comté or Gruyère cheese. The onions are slowly cooked for 30-40 minutes until sweet and golden. The cheese melts over the bread, forming a gooey, stringy cap. It's warming, savory, and intensely flavorful. Often eaten late at night as post-party comfort food.",
+        "vibe": "Warming, comforting",
+        "history": "Onion soup has ancient origins (Roman times) but the modern French version emerged in 18th-century Paris. It became iconic as late-night food at Les Halles market, where workers ate it at 4am after overnight shifts. The cheese topping was added in the 1800s. Now it's a bistro and brasserie staple, especially in fall/winter. It's also traditional hangover food after a night out.",
+        "insider_tip": "Order at traditional bistros or brasseries, not tourist cafés. The onions should be deeply caramelized (brown, not pale), the broth rich and savory, and the cheese properly melted and browned. The bread should be toasted hard enough to withstand the broth without dissolving. Use a spoon to scoop the cheese and bread together. It's rich and filling—consider it a meal, not a starter. Best in winter months.",
+        "price_level": "Affordable",
+        "good_for": [
+          "Winter comfort",
+          "Late night"
+        ],
+        "duration": "30 minutes",
+        "best_time": "Dinner or late night"
+      },
       "image": "/images/paris/onion-soup.jpg"
     },
     {
       "id": "food-005",
       "slug": "french-cheese",
-      "name_en": "French Cheese",
+      "name_en": "French Cheese Course",
       "name_local": "Fromage",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Served after the main course and before dessert. Know the progression: fresh (chèvre), soft (Brie), hard (Comté), and blue (Roquefort).",
+      "description": {
+        "short": "In traditional French meals, cheese is served after the main course and before dessert—not as an appetizer. A cheese plate features 3-5 varieties representing different textures and flavors: fresh (chèvre goat cheese), soft (Brie, Camembert), hard (Comté, Beaufort), and blue (Roquefort). Eaten with bread, never crackers. The progression goes from mild to strong. It's meant to cleanse the palate and extend the wine course before dessert.",
+        "vibe": "Refined, traditional",
+        "history": "The cheese course dates to the 1700s-1800s when multi-course meals became standard in bourgeois French dining. Serving cheese after the main course allows wine to continue flowing before sweet dessert wines. France produces 1,200+ cheeses—the most diverse cheese culture in the world. Each region has distinct varieties tied to local terroir and traditions.",
+        "insider_tip": "Cheese courses appear on formal restaurant menus, not casual bistros. Expect €12-18 for a selection. Eat from mildest (chèvre) to strongest (blue cheese). Cut cheese from the edge, never the tip ('nose'). Use bread to cleanse palate between cheeses. Pair with red wine (Bordeaux, Burgundy) or white (Sancerre). Don't refrigerate cheese before eating—it should be room temperature. If you're full from dinner, skip the cheese course—it's optional.",
+        "price_level": "Moderate",
+        "good_for": [
+          "Fine dining",
+          "Wine pairing"
+        ],
+        "duration": "20 minutes",
+        "best_time": "After dinner main course"
+      },
       "image": "/images/paris/cheese.jpg"
     },
     {
@@ -314,7 +732,19 @@
       "name_local": "Vin",
       "category": "food",
       "is_generic_staple": true,
-      "description": "An essential part of the meal's rhythm. House wine by the carafe is common and affordable. Paris is currently experiencing a massive 'Natural Wine' boom.",
+      "description": {
+        "short": "Wine is an essential part of French meals, not an add-on. House wine ('vin de la maison') by the carafe is common, affordable (€8-15 per carafe), and often excellent quality. French wine culture emphasizes regional pairing: Loire whites, Bordeaux reds, Burgundy Pinot Noirs, Rhône blends. Paris is experiencing a massive natural wine ('vin nature') boom—minimal-intervention wines that are funky, cloudy, and trendy. Wine bars ('bars à vin') are everywhere.",
+        "vibe": "Integral, everyday",
+        "history": "France has produced wine for 2,600+ years since Greek colonization. French wine became the global standard in the 1700s-1800s. The AOC (Appellation d'Origine Contrôlée) system established in 1935 protects regional wine identities. Parisians have always drunk wine daily with meals—it's not special occasion drinking. The natural wine movement exploded in Paris in the 2010s, led by young vignerons rejecting industrial winemaking.",
+        "insider_tip": "Order house wine ('vin de la maison') by the carafe (€8-12) or pitcher—it's better value than bottles. Ask for 'rouge' (red), 'blanc' (white), or 'rosé.' Don't be intimidated by wine lists—ask the waiter 'Qu'est-ce que vous recommandez?' (What do you recommend?). Wine bars in the Marais, Oberkampf, and Belleville specialize in natural wines. Pair red with meat, white with fish, rosé with charcuterie. Drink what you like—snobs exist but most Parisians aren't precious about wine.",
+        "price_level": "Moderate",
+        "good_for": [
+          "Meals",
+          "Wine lovers"
+        ],
+        "duration": "Throughout meal",
+        "best_time": "Lunch or dinner"
+      },
       "image": "/images/paris/wine.jpg"
     },
     {
@@ -324,7 +754,19 @@
       "name_local": "Le Café",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Where locals spend hours over a single espresso. Seating is strategic: 'en terrasse' (outside) costs more than inside. People-watching is the primary activity.",
+      "description": {
+        "short": "Parisian café culture is about lingering over a single espresso ('un café') or glass of wine for hours, watching life pass by from a terrace table. It's a social institution, not just coffee service. Seating is strategic: 'en terrasse' (outside sidewalk) costs more than 'en salle' (inside), and 'au comptoir' (standing at the bar) is cheapest. The café is your office, living room, and people-watching theater. Ordering once buys you hours of space—no one rushes you.",
+        "vibe": "Leisurely, social",
+        "history": "Parisian cafés emerged in the 1600s-1700s, becoming intellectual hubs in the 1800s-1900s (Café de Flore, Les Deux Magots hosted Sartre, Hemingway, Picasso). The terrace culture exploded after WWII when sidewalk seating was permitted. Cafés became democratic spaces where everyone—from workers to intellectuals—could afford to sit. They're protected by law: cafés cannot be turned into banks or chain stores.",
+        "insider_tip": "Order 'un café' (espresso), 'un crème' (espresso with milk), or 'un café allongé' (americano). Sitting at the terrace costs 20-50% more than standing at the bar. You pay when you leave, not when you order—this allows lingering. Waiters won't rush you; you can sit for hours over one drink. Prime people-watching spots: Café de Flore, Les Deux Magots, Café de la Paix (tourist prices but iconic). Locals use neighborhood cafés in non-touristy areas (cheaper, authentic).",
+        "price_level": "Moderate",
+        "good_for": [
+          "People watching",
+          "Reading"
+        ],
+        "duration": "1-3 hours",
+        "best_time": "Morning or afternoon"
+      },
       "image": "/images/paris/cafe.jpg"
     },
     {
@@ -334,7 +776,19 @@
       "name_local": "Crêpes",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Beloved street food ranging from sweet (Nutella, sugar) to savory buckwheat galettes (sarrasin). Best enjoyed from a walk-up window (guichet).",
+      "description": {
+        "short": "Crêpes are thin pancakes folded into triangles or rolled into cones, filled with sweet (Nutella, sugar and lemon, jam) or savory (ham and cheese, egg). Savory buckwheat crêpes are called 'galettes' (from Brittany). They're street food sold from walk-up windows ('guichets') or crêperies. Watching the crêpe-maker spread batter on the hot griddle with a wooden rake is part of the experience. Cheap (€4-8), filling, and perfect on-the-go food.",
+        "vibe": "Casual, street food",
+        "history": "Crêpes originated in Brittany (northwest France) in the 1200s-1300s. Bretons brought crêpe culture to Paris in the 1800s-1900s, opening crêperies and street stands. The Nutella crêpe became iconic in the 1960s-70s. Street crêpe stands cluster around tourist areas and Latin Quarter. Sweet crêpes are dessert or snack; savory galettes are meals.",
+        "insider_tip": "Buy from street stands ('guichets') for €4-6, not sit-down crêperies (€10-15 for same thing). Classic fillings: Nutella, sugar-and-lemon, or Nutella-banana for sweet; ham-cheese-egg (complète) for savory. Galettes (buckwheat) are gluten-free and heartier. Watch the crêpe-maker—fresh-made crêpes are better than pre-made. Eat while walking or sitting on a park bench. Best areas: Latin Quarter, Montmartre, Île de la Cité.",
+        "price_level": "Affordable",
+        "good_for": [
+          "Snacking",
+          "Street food"
+        ],
+        "duration": "10 minutes",
+        "best_time": "Afternoon or dessert"
+      },
       "image": "/images/paris/crepes.jpg"
     },
     {
@@ -344,18 +798,64 @@
       "name_local": "Éclair",
       "category": "food",
       "is_generic_staple": true,
-      "description": "A choux pastry filled with vanilla, chocolate, or coffee cream and topped with a glossy fondant glaze. Modern pâtisseries offer colorful seasonal variations.",
+      "description": {
+        "short": "An éclair is an oblong choux pastry (same dough as cream puffs) filled with vanilla, chocolate, or coffee pastry cream and topped with glossy fondant icing. It's light, airy, and not overly sweet. Modern pâtisseries offer creative flavors (pistachio, salted caramel, passion fruit) with colorful glazes. A proper éclair has a crisp shell, creamy filling, and shiny glaze. It's eaten in 2-3 bites, never with utensils.",
+        "vibe": "Elegant, classic",
+        "history": "Éclairs emerged in France in the 1840s-1850s, possibly created by chef Antonin Carême. The name means 'lightning'—either because they're eaten quickly or because the glaze shines like lightning. They became pâtisserie staples by the late 1800s. Modern pastry chefs like Christophe Adam and Pierre Hermé elevated them with inventive flavors in the 2000s-2010s.",
+        "insider_tip": "Buy from real pâtisseries, not chain bakeries or supermarkets. The shell should be light and crisp, not soggy. The cream should be smooth and not too sweet. Classic flavors (chocolate, coffee, vanilla) are reliably good; trendy flavors can be hit-or-miss. Eat them the day you buy—they don't keep. Prices: €3-5 depending on pâtisserie. L'Éclair de Génie specializes in creative éclairs (€5-6 each).",
+        "price_level": "Affordable",
+        "good_for": [
+          "Dessert",
+          "Afternoon treat"
+        ],
+        "duration": "5 minutes",
+        "best_time": "Afternoon"
+      },
       "image": "/images/paris/eclair.jpg"
     },
     {
-      "id": "food-14",
+      "id": "food-014",
       "slug": "canele",
       "name_en": "The Canelé",
       "name_local": "Canelé de Bordeaux",
       "category": "food",
       "is_generic_staple": true,
-      "description": "A small caramelized cake with a dark, thick crust and a soft, custardy center flavored with rum and vanilla. Originally from Bordeaux but now a staple in Paris.",
+      "description": {
+        "short": "The canelé is a small ridged cake from Bordeaux with a dark, thick caramelized crust and a soft, custardy interior. It's flavored with rum and vanilla, with a hint of caramel from the burnt sugar coating. The contrast between crunchy exterior and creamy interior is the appeal. About 2 inches tall, eaten in 3-4 bites. Originally from Bordeaux but now a Paris pâtisserie staple.",
+        "vibe": "Caramelized, custardy",
+        "history": "Canelés originated in Bordeaux in the 1700s, created by nuns using leftover egg yolks from wine-making (egg whites were used to filter wine). The recipe was nearly lost but revived in the 1980s. The distinctive fluted copper molds create the thick caramelized crust. Now they're found in every Paris pâtisserie, though purists insist Bordeaux versions are superior.",
+        "insider_tip": "Best eaten at room temperature or slightly warm—the caramel flavor intensifies. The crust should be very dark brown (almost black), thick, and crunchy. The interior should be pale yellow and custardy, not cake-like. Buy from specialized pâtisseries, not supermarkets. They keep for 1-2 days but are best same-day. Prices: €2-2.50 each. Pair with coffee or sweet wine.",
+        "price_level": "Affordable",
+        "good_for": [
+          "Afternoon snack",
+          "Coffee pairing"
+        ],
+        "duration": "5 minutes",
+        "best_time": "Afternoon"
+      },
       "image": "/images/paris/canele.jpg"
+    },
+    {
+      "id": "food-027",
+      "slug": "tarte-tatin",
+      "name_en": "Tarte Tatin",
+      "name_local": "Tarte Tatin",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Tarte Tatin is an upside-down caramelized apple tart: apples are cooked in butter and sugar until golden, covered with pastry, baked, then flipped so the caramelized apples are on top. The apples are tender, deeply caramelized, and sweet with a buttery puff pastry base. Served warm with crème fraîche, vanilla ice cream, or whipped cream. It's rustic, elegant, and quintessentially French dessert.",
+        "vibe": "Caramelized, rustic",
+        "history": "Created by accident in the 1880s at Hôtel Tatin in Lamotte-Beuvron (south of Paris). Legend says Stéphanie Tatin forgot to put pastry in the pan first, so she added it on top and flipped the tart. The 'mistake' became famous. Now it's a classic French dessert served in bistros and brasseries nationwide. It represents French ingenuity and rustic elegance.",
+        "insider_tip": "Order at traditional bistros or brasseries, not touristy cafés. The apples should be golden-brown and caramelized, not pale or mushy. The pastry should be crisp and buttery. Best served warm (not hot or cold). Crème fraîche is the traditional accompaniment—its tanginess balances the sweetness. Prices: €8-12 for a portion. Share if possible—it's rich. Pair with sweet wine (Sauternes) or coffee.",
+        "price_level": "Moderate",
+        "good_for": [
+          "Dessert",
+          "Sharing"
+        ],
+        "duration": "20 minutes",
+        "best_time": "After dinner"
+      },
+      "image": "/images/paris/tarte-tatin.jpg"
     }
   ],
   "must_see": [
@@ -370,9 +870,24 @@
           "name_local": "Musée du Louvre",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The world's largest art museum, home to the Mona Lisa.",
+          "description": {
+            "short": "The Louvre is the world's largest art museum and a historic monument in Paris. Originally a medieval fortress built in the 12th century, it became a royal palace before opening as a museum in 1793. Houses 38,000+ artworks spanning 9,000 years, including the Mona Lisa, Venus de Milo, and Winged Victory. The glass pyramid entrance (1989) is iconic. It's vast—you cannot see everything in one visit.",
+            "vibe": "Monumental, overwhelming",
+            "history": "Built as a fortress by Philippe Auguste in 1190, expanded into a Renaissance palace by François I in the 1500s. Became a public museum during the French Revolution (1793). The controversial glass pyramid by I.M. Pei was added in 1989, modernizing the entrance. Napoleon expanded the collections with artworks seized during his conquests. Today it's the world's most-visited museum with 9.6 million annual visitors.",
+            "insider_tip": "Pre-book timed tickets 2-7 days ahead (mandatory). Enter via Porte des Lions (fewer crowds) or Carrousel du Louvre underground. Go directly to Mona Lisa at opening (9am) or closing (5:30pm) to avoid peak crowds. The painting is small, behind glass, and mobbed—manage expectations. Focus on ONE wing: Denon (Italian Renaissance), Sully (Egyptian), or Richelieu (French paintings). Use the Louvre app for offline maps and audio guides.",
+            "price_level": "Moderate",
+            "good_for": [
+              "Art lovers",
+              "First-time visitors"
+            ],
+            "duration": "2-4 hours",
+            "best_time": "Opening (9am) or late afternoon"
+          },
           "image": "/images/paris/louvre.jpg",
-          "geo": { "lat": 48.8606, "lng": 2.3376 }
+          "geo": {
+            "lat": 48.8606,
+            "lng": 2.3376
+          }
         },
         {
           "id": "mus-02",
@@ -381,9 +896,24 @@
           "name_local": "Musée d'Orsay",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Impressionist masterpieces in a stunning former railway station.",
+          "description": {
+            "short": "Musée d'Orsay is housed in a stunning Beaux-Arts former railway station (Gare d'Orsay, built 1900). It's the world's premier collection of Impressionist and Post-Impressionist art: Monet, Renoir, Degas, Van Gogh, Cézanne, Gauguin. The top floor galleries feature Water Lilies, Starry Night Over the Rhone, and Ballet Dancers. The building itself—with its massive ornate clock and glass roof—is an artwork. Smaller and more manageable than the Louvre.",
+            "vibe": "Light-filled, elegant",
+            "history": "Built as Gare d'Orsay railway station for the 1900 World's Fair. Trains stopped using it in 1939 (platforms too short for modern trains). Nearly demolished in the 1970s, it was saved and converted into a museum, opening in 1986. The conversion preserved the industrial architecture while creating intimate gallery spaces. It bridges the Louvre (ancient-1848) and Pompidou (modern) chronologically, covering 1848-1914.",
+            "insider_tip": "Book timed tickets online 3-5 days ahead. Enter via the side entrance (less crowded than main). Go directly to the top floor (Level 5) for Impressionists—most visitors start at ground level, so top floor is quieter early. The giant clock window offers stunning Seine views. Wednesday/Friday evenings (open until 9:45pm) are magical and less crowded. Allow 2-3 hours minimum. Skip the gift shop—it's overpriced.",
+            "price_level": "Moderate",
+            "good_for": [
+              "Impressionist art fans",
+              "Couples"
+            ],
+            "duration": "2-3 hours",
+            "best_time": "Opening or Wednesday/Friday evenings"
+          },
           "image": "/images/paris/orsay.jpg",
-          "geo": { "lat": 48.8600, "lng": 2.3266 }
+          "geo": {
+            "lat": 48.86,
+            "lng": 2.3266
+          }
         },
         {
           "id": "mus-03",
@@ -392,9 +922,24 @@
           "name_local": "Musée Rodin",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Serene sculpture garden featuring The Thinker.",
+          "description": {
+            "short": "Musée Rodin is a serene sculpture museum in an 18th-century mansion (Hôtel Biron) with beautiful gardens. It houses the largest collection of Auguste Rodin's work, including The Thinker, The Kiss, The Gates of Hell, and Balzac. The sculpture garden is the highlight—bronze statues scattered among rose bushes and tree-lined paths. It's peaceful, intimate, and often overlooked by tourists rushing to bigger museums. Perfect for a calm afternoon.",
+            "vibe": "Peaceful, contemplative",
+            "history": "Hôtel Biron was built in 1730 as an aristocratic mansion. Rodin rented rooms here from 1908 until his death in 1917, using it as his studio. He donated his entire collection to the French state in exchange for converting the building into a museum. It opened in 1919. The gardens were designed by landscape architect Jacques Sgard, reflecting French formal garden traditions. Camille Claudel (Rodin's student and lover) has her own room in the museum.",
+            "insider_tip": "Visit on sunny days—the gardens are the main attraction. Entry is cheaper if you only visit the gardens (€4 vs. €14 full museum). The Thinker is in the front garden (free photo from outside gates if you don't want to pay). Combine with nearby Musée d'Orsay (10-minute walk). Picnics aren't allowed, but you can sit on benches. Less crowded than Louvre/Orsay—usually no advance booking needed except summer weekends.",
+            "price_level": "Moderate",
+            "good_for": [
+              "Sculpture lovers",
+              "Peaceful retreats"
+            ],
+            "duration": "1-2 hours",
+            "best_time": "Morning or late afternoon (good light)"
+          },
           "image": "/images/paris/rodin.jpg",
-          "geo": { "lat": 48.8553, "lng": 2.3159 }
+          "geo": {
+            "lat": 48.8553,
+            "lng": 2.3159
+          }
         },
         {
           "id": "mus-04",
@@ -403,9 +948,24 @@
           "name_local": "Centre Pompidou",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Inside-out architecture housing modern art.",
+          "description": {
+            "short": "Centre Pompidou is a radical inside-out building with exposed pipes, ducts, and escalators color-coded on the exterior (blue=air, green=water, yellow=electrical, red=circulation). Houses Europe's largest modern art collection: Picasso, Matisse, Kandinsky, Duchamp, Warhol. The rooftop terrace offers panoramic Paris views. The surrounding plaza hosts street performers and is a social hub. Controversial when built (1977), now beloved.",
+            "vibe": "Bold, avant-garde",
+            "history": "Designed by Renzo Piano and Richard Rogers, opened in 1977. The design was revolutionary—placing all infrastructure (pipes, escalators, structural supports) on the exterior to maximize interior gallery space. It was hugely controversial, called an 'oil refinery' and 'cultural supermarket.' President Georges Pompidou championed it to revitalize the Marais/Beaubourg area. Now it's an icon of High-Tech architecture and attracts 3 million visitors yearly.",
+            "insider_tip": "The rooftop view is free if you have a museum ticket (or buy rooftop-only ticket for €5). Skip the museum and just take the external escalators for views—they're transparent and offer amazing perspectives. The 6th floor restaurant has Michelin-star dining with Eiffel Tower views. The plaza (free) is great for people-watching and street performers. First Sunday of month is free entry but crowded. Closed Tuesdays.",
+            "price_level": "Moderate",
+            "good_for": [
+              "Modern art fans",
+              "Architecture lovers"
+            ],
+            "duration": "2 hours (museum) or 30 mins (rooftop only)",
+            "best_time": "Late afternoon for rooftop sunset views"
+          },
           "image": "/images/paris/pompidou.jpg",
-          "geo": { "lat": 48.8606, "lng": 2.3522 }
+          "geo": {
+            "lat": 48.8606,
+            "lng": 2.3522
+          }
         }
       ]
     },
@@ -422,7 +982,10 @@
           "is_generic_staple": false,
           "description": "The Iron Lady. Best views from Trocadéro.",
           "image": "/images/paris/eiffel.jpg",
-          "geo": { "lat": 48.8584, "lng": 2.2945 }
+          "geo": {
+            "lat": 48.8584,
+            "lng": 2.2945
+          }
         },
         {
           "id": "mon-02",
@@ -433,7 +996,10 @@
           "is_generic_staple": false,
           "description": "Napoleon's triumphal arch. Climb to the top for city views.",
           "image": "/images/paris/arc-triomphe.jpg",
-          "geo": { "lat": 48.8738, "lng": 2.2950 }
+          "geo": {
+            "lat": 48.8738,
+            "lng": 2.295
+          }
         },
         {
           "id": "mon-03",
@@ -444,7 +1010,10 @@
           "is_generic_staple": false,
           "description": "Mausoleum of French heroes like Voltaire and Rousseau.",
           "image": "/images/paris/pantheon.jpg",
-          "geo": { "lat": 48.8462, "lng": 2.3461 }
+          "geo": {
+            "lat": 48.8462,
+            "lng": 2.3461
+          }
         },
         {
           "id": "mon-04",
@@ -455,7 +1024,10 @@
           "is_generic_staple": false,
           "description": "Opulent 19th-century opera house, inspiration for Phantom of the Opera.",
           "image": "/images/paris/opera.jpg",
-          "geo": { "lat": 48.8719, "lng": 2.3316 }
+          "geo": {
+            "lat": 48.8719,
+            "lng": 2.3316
+          }
         }
       ]
     },
@@ -472,7 +1044,10 @@
           "is_generic_staple": false,
           "description": "Elegant 19th-century shopping arcade with mosaic floors. Quiet, historic, and ideal for rainy days.",
           "image": "/images/paris/galerie-vivienne.jpg",
-          "geo": { "lat": 48.8662, "lng": 2.3395 }
+          "geo": {
+            "lat": 48.8662,
+            "lng": 2.3395
+          }
         },
         {
           "id": "pas-02",
@@ -483,7 +1058,10 @@
           "is_generic_staple": false,
           "description": "Oldest covered passage in Paris, packed with small eateries and stamp shops. Good for casual dining.",
           "image": "/images/paris/passage-panoramas.jpg",
-          "geo": { "lat": 48.8711, "lng": 2.3417 }
+          "geo": {
+            "lat": 48.8711,
+            "lng": 2.3417
+          }
         }
       ]
     },
@@ -500,7 +1078,10 @@
           "is_generic_staple": false,
           "description": "Oldest covered food market in Paris. Mix of French and international stalls; casual lunch spot.",
           "image": "/images/paris/enfants-rouges.jpg",
-          "geo": { "lat": 48.8622, "lng": 2.3615 }
+          "geo": {
+            "lat": 48.8622,
+            "lng": 2.3615
+          }
         },
         {
           "id": "mar-02",
@@ -511,7 +1092,10 @@
           "is_generic_staple": false,
           "description": "Lively pedestrian food street with bakeries, fishmongers, and cafes. Shows daily Paris life.",
           "image": "/images/paris/montorgueil.jpg",
-          "geo": { "lat": 48.8650, "lng": 2.3470 }
+          "geo": {
+            "lat": 48.865,
+            "lng": 2.347
+          }
         }
       ]
     },
@@ -528,7 +1112,10 @@
           "is_generic_staple": false,
           "description": "One-hour boat ride offering efficient views of major landmarks. Evening cruises show monuments illuminated.",
           "image": "/images/paris/seine-cruise.jpg",
-          "geo": { "lat": 48.8630, "lng": 2.3000 }
+          "geo": {
+            "lat": 48.863,
+            "lng": 2.3
+          }
         },
         {
           "id": "sei-02",
@@ -539,11 +1126,13 @@
           "is_generic_staple": false,
           "description": "Pedestrian-only paths for walking, picnicking, and sunset views. Popular with locals in warm months.",
           "image": "/images/paris/seine-banks.jpg",
-          "geo": { "lat": 48.8556, "lng": 2.3476 }
+          "geo": {
+            "lat": 48.8556,
+            "lng": 2.3476
+          }
         }
       ]
     },
-
     {
       "title": "Churches & Sacred Sites",
       "id": "churches",
@@ -557,7 +1146,10 @@
           "is_generic_staple": false,
           "description": "Gothic masterpiece on the Île de la Cité.",
           "image": "/images/paris/notre-dame.jpg",
-          "geo": { "lat": 48.8529, "lng": 2.3500 }
+          "geo": {
+            "lat": 48.8529,
+            "lng": 2.35
+          }
         },
         {
           "id": "chu-02",
@@ -568,7 +1160,10 @@
           "is_generic_staple": false,
           "description": "White domed basilica overlooking the city from Montmartre.",
           "image": "/images/paris/sacre-coeur.jpg",
-          "geo": { "lat": 48.8867, "lng": 2.3431 }
+          "geo": {
+            "lat": 48.8867,
+            "lng": 2.3431
+          }
         },
         {
           "id": "chu-03",
@@ -579,7 +1174,10 @@
           "is_generic_staple": false,
           "description": "Stunning 13th-century stained glass windows.",
           "image": "/images/paris/sainte-chapelle.jpg",
-          "geo": { "lat": 48.8554, "lng": 2.3450 }
+          "geo": {
+            "lat": 48.8554,
+            "lng": 2.345
+          }
         }
       ]
     },
@@ -596,7 +1194,10 @@
           "is_generic_staple": false,
           "description": "Classic Parisian park with green chairs and a palace.",
           "image": "/images/paris/luxembourg.jpg",
-          "geo": { "lat": 48.8462, "lng": 2.3372 }
+          "geo": {
+            "lat": 48.8462,
+            "lng": 2.3372
+          }
         },
         {
           "id": "par-02",
@@ -607,7 +1208,10 @@
           "is_generic_staple": false,
           "description": "Formal garden between the Louvre and Place de la Concorde.",
           "image": "/images/paris/tuileries.jpg",
-          "geo": { "lat": 48.8635, "lng": 2.3274 }
+          "geo": {
+            "lat": 48.8635,
+            "lng": 2.3274
+          }
         },
         {
           "id": "par-03",
@@ -618,7 +1222,10 @@
           "is_generic_staple": false,
           "description": "Romantic hilly park with a lake, waterfall, and temple.",
           "image": "/images/paris/buttes-chaumont.jpg",
-          "geo": { "lat": 48.8809, "lng": 2.3828 }
+          "geo": {
+            "lat": 48.8809,
+            "lng": 2.3828
+          }
         }
       ]
     },
@@ -635,7 +1242,10 @@
           "is_generic_staple": false,
           "description": "Most ornate bridge in Paris with Art Nouveau lamps.",
           "image": "/images/paris/alexandre-iii.jpg",
-          "geo": { "lat": 48.8636, "lng": 2.3135 }
+          "geo": {
+            "lat": 48.8636,
+            "lng": 2.3135
+          }
         },
         {
           "id": "bri-02",
@@ -646,7 +1256,10 @@
           "is_generic_staple": false,
           "description": "The oldest standing bridge across the Seine.",
           "image": "/images/paris/pont-neuf.jpg",
-          "geo": { "lat": 48.8570, "lng": 2.3413 }
+          "geo": {
+            "lat": 48.857,
+            "lng": 2.3413
+          }
         },
         {
           "id": "bri-03",
@@ -657,7 +1270,10 @@
           "is_generic_staple": false,
           "description": "Trendy waterway lined with cafes and iron footbridges.",
           "image": "/images/paris/canal.jpg",
-          "geo": { "lat": 48.8718, "lng": 2.3637 }
+          "geo": {
+            "lat": 48.8718,
+            "lng": 2.3637
+          }
         }
       ]
     }

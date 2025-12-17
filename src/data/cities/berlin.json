@@ -145,7 +145,16 @@
       "name_local": "Döner",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Berlin's #1 street food. Invented here. Crispy meat, fresh salad, and garlic sauce in toasted bread. A 'Gemüse Kebap' adds roasted veggies and feta. Don't queue for hours at tourist spots; your local neighborhood Döner is likely just as good.",
+      "description": {
+        "short": "Döner Kebap is Berlin's #1 street food, invented here in the 1970s by Turkish immigrants. It's shaved rotisserie meat (lamb, chicken, or veal) stuffed into toasted flatbread with fresh salad, tomatoes, onions, cabbage, and garlic yogurt sauce. A 'Gemüse Kebap' (vegetable döner) adds grilled vegetables and feta cheese. It's fast, cheap (€4-6), and consumed at all hours—especially post-club at 4am.",
+        "vibe": "Satisfying, ubiquitous",
+        "history": "Created in Berlin in 1972 by Turkish immigrant Kadir Nurman who adapted the Turkish dürüm wrap for German fast-food culture. It spread across Germany and Europe. Berlin now has 1,600+ döner shops. The dish is so iconic that Berliners debate which shop is 'best' with religious fervor.",
+        "insider_tip": "Don't queue for hours at famous tourist spots like Mustafa's Gemüse Kebap—your local neighborhood döner is likely just as good and has no wait. Order 'mit alles' (with everything) or 'mit scharf' (with spicy sauce). Eat it immediately while the bread is still crispy. Post-club döner at 4am is a Berlin rite of passage.",
+        "price_level": "Affordable",
+        "good_for": ["Quick meals", "Late night"],
+        "duration": "Quick bite",
+        "best_time": "Anytime (especially late night)"
+      },
       "image": "/images/berlin/doner.jpg"
     },
     {
@@ -155,7 +164,16 @@
       "name_local": "Wegbier",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Beer here is like coffee in Italy: cheap, everywhere, and consumed casually day or night. It is not ceremonial. A 'Wegbier' (road beer) for the walk is culturally normal. Public drinking is legal and common.",
+      "description": {
+        "short": "Beer in Berlin is like coffee in Italy: cheap (€1-2 from Spätis), everywhere, and consumed casually at any time of day or night. It's not ceremonial or special—it's utilitarian. A 'Wegbier' (road beer) for the walk home or to the club is culturally normal and legal. Public drinking is accepted and common. The most popular local beers are Berliner Pilsner, Berliner Kindl, and Schultheiss.",
+        "vibe": "Casual, social",
+        "history": "Berlin has been a brewing city since the Middle Ages. The 'Reinheitsgebot' (beer purity law from 1516) regulated German beer quality. Post-war, East and West Berlin developed separate beer cultures. After reunification, the casual, outdoor drinking culture flourished. The Späti (late-night corner store) became the social hub for cheap beer and socializing.",
+        "insider_tip": "Buy beer from a Späti (€1-2) rather than bars (€4-5). The 'Pfand' deposit system means bottles are worth €0.08-0.25—don't throw them away, return them or leave them next to bins for collectors. A half-liter (0.5L) bottle is standard. Drinking on public transit is technically not allowed but widely tolerated. Outdoor beer garden culture is peak summer.",
+        "price_level": "Affordable",
+        "good_for": ["Socializing", "Outdoor drinking"],
+        "duration": "Anytime",
+        "best_time": "Anytime"
+      },
       "image": "/images/berlin/beer.jpg"
     },
     {
@@ -165,7 +183,16 @@
       "name_local": "Currywurst",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Steamed then fried pork sausage cut into slices and drowned in curry ketchup and powder. Served with fries or a bread roll. A cult classic.",
+      "description": {
+        "short": "Currywurst is a Berlin icon: steamed then fried pork sausage cut into bite-sized slices, drowned in curry ketchup and sprinkled with curry powder. Served with fries or a bread roll. It's fast food, invented in post-war Berlin, and still a cult classic. The sauce is sweet, tangy, and mildly spiced. It's eaten at Imbiss stands (snack stalls) standing up at tall tables.",
+        "vibe": "Iconic, nostalgic",
+        "history": "Invented in 1949 by Herta Heuwer in West Berlin, who mixed ketchup with curry powder from British soldiers. It became the ultimate working-class fast food during reconstruction. Over 800 million are consumed annually in Germany. There's even a Currywurst Museum in Berlin (now closed). It's working-class comfort food with a cult following.",
+        "insider_tip": "Order 'mit Darm' (with casing) for the traditional version with snappy texture, or 'ohne Darm' (without casing) for the smoother version. The sauce quality varies wildly—locals have fierce loyalty to their favorite Imbiss. Curry 36 in Kreuzberg is famous but touristy. Eat it standing at the tall table like a local. Pair with fries ('Pommes').",
+        "price_level": "Affordable",
+        "good_for": ["Quick meals", "Street food"],
+        "duration": "Quick bite",
+        "best_time": "Lunch or late night"
+      },
       "image": "/images/berlin/currywurst.jpg"
     },
     {
@@ -175,7 +202,16 @@
       "name_local": "Der Imbiss",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The Imbiss is not a restaurant; it is a snack stand where you eat standing up at a tall table. It serves utilitarian, greasy, salty food (fries, sausages, meatballs) designed to keep you moving. Fast, cheap, essential.",
+      "description": {
+        "short": "The Imbiss is a German snack stand—not a restaurant—where you eat standing up at tall tables. It serves utilitarian, greasy, salty fast food: fries, sausages (bratwurst, currywurst), meatballs (Frikadellen), and schnitzel sandwiches. The goal is to keep you moving, not to sit and linger. It's fast, cheap (€3-6), and essential working-class infrastructure. You order at the window, eat quickly, and leave.",
+        "vibe": "Utilitarian, no-frills",
+        "history": "Imbiss culture emerged in post-war Germany as a quick, affordable food solution for workers rebuilding the country. The standing tables and no-seating model kept things efficient and cheap. Imbiss stands are everywhere—at train stations, street corners, and markets. They're a democratic space where businesspeople and construction workers eat the same food.",
+        "insider_tip": "Order a 'Bratwurst im Brötchen' (sausage in a roll) with mustard—the classic Imbiss meal. Don't expect friendly service; efficiency is the priority. The tall standing tables are intentional—they prevent lingering. Imbiss is where you eat when you're in a hurry or broke or both. Found on every street corner and train station.",
+        "price_level": "Affordable",
+        "good_for": ["Quick meals", "Budget eating"],
+        "duration": "5-10 minutes",
+        "best_time": "Anytime"
+      },
       "image": "/images/berlin/imbiss.jpg"
     },
     {
@@ -185,7 +221,16 @@
       "name_local": "Späti Essen",
       "category": "food",
       "is_generic_staple": true,
-      "description": "When the clubs close (or don't), the Späti is your 24/7 supermarket. They sustain the nightlife economy with frozen pizzas, instant noodles, chips, chocolate bars, and cold beer. It is how you survive 4am.",
+      "description": {
+        "short": "The Späti (Spätkauf) is a late-night corner store open until 2am or later, sustaining Berlin's nightlife economy with survival food: frozen pizzas, instant noodles, chips, chocolate bars, energy drinks, and cold beer. It's how you survive 4am when everything else is closed and you're too broke or lazy for a restaurant. Spätis are the social heart of neighborhoods—buy a beer and sit on the bench outside with locals.",
+        "vibe": "Essential, nocturnal",
+        "history": "Spätis emerged in East Berlin (GDR) as 'Spätkauf' (late purchase) stores staying open past normal hours. After reunification, they exploded in popularity as Berlin's nightlife culture grew. Now they're everywhere, often run by Turkish, Arab, or Vietnamese families. They're open when everything else is closed, making them essential infrastructure.",
+        "insider_tip": "Stock up on Späti snacks before a night out—frozen pizza, chips, chocolate. Beer is €1-2, much cheaper than bars. Many Spätis have benches outside where locals gather—this is the Berlin social scene. Some sell fresh sandwiches and hot food. If you're visiting on Sunday when supermarkets are closed, Spätis save your life (though prices are higher).",
+        "price_level": "Affordable",
+        "good_for": ["Late night", "Emergency food"],
+        "duration": "Quick stop",
+        "best_time": "Late night or Sunday"
+      },
       "image": "/images/berlin/spati-food.jpg"
     },
     {
@@ -195,7 +240,16 @@
       "name_local": "Vegan",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Berlin is the vegan capital of Europe. You don't need to hunt for it. From dirty punk bars to high-end dining, vegan options are standard, clearly labeled, and delicious. You never have to ask 'is there meat in this?'.",
+      "description": {
+        "short": "Berlin is the vegan capital of Europe—you don't need to hunt for vegan options, they're standard everywhere. From dirty punk bars to Michelin-starred restaurants, vegan dishes are clearly labeled, plentiful, and delicious. The city has dozens of fully vegan restaurants, vegan döner shops, vegan ice cream parlors, and vegan supermarkets. You never have to ask 'is there meat in this?'—it's always labeled.",
+        "vibe": "Progressive, normalized",
+        "history": "Berlin's vegan scene exploded in the 2000s-2010s alongside the city's counterculture and environmental movements. Kreuzberg and Neukölln became vegan hotspots. The alt-right punk scene, animal rights activism, and environmental consciousness converged. By 2020, Berlin had 60+ fully vegan restaurants. It's now normalized—not niche or hippie, just standard.",
+        "insider_tip": "Vegan döner at Vöner (Kreuzberg) is indistinguishable from the real thing. Every supermarket (Edeka, Rewe) has entire vegan sections. Restaurants mark vegan items with a 'V' or leaf symbol. Even traditional German restaurants offer vegan schnitzel and currywurst. Veganz is Berlin's vegan supermarket chain. You'll never struggle to find options.",
+        "price_level": "Moderate",
+        "good_for": ["Vegans", "Health-conscious"],
+        "duration": "Varies",
+        "best_time": "Anytime"
+      },
       "image": "/images/berlin/vegan.jpg"
     },
     {
@@ -205,7 +259,16 @@
       "name_local": "Vietnamesische Küche",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Berlin has a massive Vietnamese community. The Pho, Banh Mi, and Bun Cha here are some of the best in Europe. Look for 'Monsieur Vuong' or holes-in-the-wall in Mitte/Prenzlauer Berg.",
+      "description": {
+        "short": "Berlin has a massive Vietnamese community (60,000+), making the Vietnamese food scene one of the best in Europe. Pho (noodle soup), Banh Mi (sandwiches), and Bun Cha (grilled pork with noodles) here rival what you'd find in Hanoi. The food is fresh, flavorful, and affordable (€7-12). Concentrated in Mitte, Prenzlauer Berg, and Lichtenberg, with both sit-down restaurants and quick takeaway spots.",
+        "vibe": "Fresh, authentic",
+        "history": "Vietnamese migration to Berlin came in two waves: 'contract workers' sent to East Germany (GDR) in the 1980s, and refugees from South Vietnam in the 1970s-80s. After reunification, many stayed and opened restaurants. The community now thrives, with authentic family-run spots serving regional Vietnamese cuisine.",
+        "insider_tip": "Go to Mitte or Prenzlauer Berg for the highest concentration of Vietnamese restaurants. Order pho with rare beef (Pho Tai) and add fresh herbs, lime, and chili yourself. Banh Mi should have crispy baguette, pâté, pickled vegetables, and cilantro. Avoid touristy spots near Alexanderplatz. Holes-in-the-wall are usually the best and cheapest.",
+        "price_level": "Affordable",
+        "good_for": ["Lunch", "Comfort food"],
+        "duration": "30-45 minutes",
+        "best_time": "Lunch or dinner"
+      },
       "image": "/images/berlin/vietnamese.jpg"
     },
     {
@@ -215,7 +278,16 @@
       "name_local": "Falafel Teller",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Huge, cheap, and delicious. Crispy falafel, hummus, halloumi, and roasted veggies. A staple of Kreuzberg and Neukölln diets.",
+      "description": {
+        "short": "The Falafel Teller (falafel plate) is a staple of Berlin's Middle Eastern food scene: crispy fried chickpea falafel balls, creamy hummus, grilled halloumi cheese, roasted vegetables (eggplant, zucchini, peppers), tahini sauce, and fresh salad served over rice or with pita bread. It's huge, vegetarian, cheap (€7-10), filling, and delicious. Found everywhere in Kreuzberg and Neukölln.",
+        "vibe": "Hearty, satisfying",
+        "history": "Middle Eastern immigrants (Lebanese, Syrian, Palestinian, Egyptian) brought falafel culture to Berlin in the 1970s-80s. It became a vegetarian staple in the alternative Kreuzberg scene. The 'teller' (plate) format—as opposed to a wrap—became the Berlin standard. It's now as common as döner.",
+        "insider_tip": "Order extra tahini sauce—it makes everything better. The falafel should be crispy outside, fluffy inside—if it's dense and heavy, the restaurant cut corners. Halloumi (grilled cheese) is a premium add-on worth getting. Kreuzberg and Neukölln have the best and cheapest spots. Pair with fresh mint tea.",
+        "price_level": "Affordable",
+        "good_for": ["Vegetarians", "Lunch"],
+        "duration": "30 minutes",
+        "best_time": "Lunch or dinner"
+      },
       "image": "/images/berlin/falafel.jpg"
     },
     {
@@ -225,7 +297,16 @@
       "name_local": "Club-Mate",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The fuel of Berlin. A caffeinated, sparkling yerba mate tea. Tastes like cigarette ash the first time, but you'll be addicted by the third bottle.",
+      "description": {
+        "short": "Club Mate is Berlin's unofficial fuel: a carbonated, caffeinated iced tea made from yerba mate (South American herb). It's lightly sweet, tastes like 'cigarette ash' or 'dirty gym socks' on first sip (locals swear by it by the third bottle), and contains as much caffeine as Red Bull. It's everywhere—clubs, bars, Spätis, vending machines. It's the drink of hackers, artists, and clubbers who need to stay awake for 48-hour weekends.",
+        "vibe": "Caffeinated, iconic",
+        "history": "Club Mate originated in 1920s Bavaria but became synonymous with Berlin's hacker and club culture in the 1990s-2000s. The Chaos Computer Club (hacker collective) adopted it, and it spread through the techno scene. By 2010, it was Berlin's signature drink. The bottle design (minimalist, retro) is iconic.",
+        "insider_tip": "Your first sip will taste horrible—everyone says this. Push through to your third bottle and you'll be converted. It's sold everywhere in Berlin—Spätis, clubs, cafes, vending machines (€1.50-2). Don't shake the bottle; it's carbonated. Mix it with vodka for a 'Vodka Mate' (clubber's favorite). The 'Flora Power' version is slightly sweeter.",
+        "price_level": "Affordable",
+        "good_for": ["Clubbing", "Staying awake"],
+        "duration": "Quick drink",
+        "best_time": "Anytime (especially clubs)"
+      },
       "image": "/images/berlin/club-mate.jpg"
     },
     {
@@ -235,7 +316,16 @@
       "name_local": "Bäckerei",
       "category": "food",
       "is_generic_staple": true,
-      "description": "German bread is world-class. Grab a 'Belegtes Brötchen' (sandwich) or a 'Laugenbrezel' (pretzel) for a cheap breakfast. Breakfast here is savory, simple, and eaten early.",
+      "description": {
+        "short": "German bakeries (Bäckerei) are world-class and everywhere in Berlin, offering dense, dark breads (rye, whole grain, sunflower seed), sandwiches (Belegtes Brötchen), pretzels (Laugenbrezel), and pastries. German breakfast is savory, not sweet—cold cuts, cheese, bread, not croissants. A fresh pretzel with butter or a sandwich for breakfast costs €2-4. Bakeries open early (6-7am) and are essential daily infrastructure.",
+        "vibe": "Traditional, efficient",
+        "history": "Germany's bread culture is UNESCO-recognized with 3,000+ varieties. Bakeries are community institutions, with Germans buying fresh bread daily. Post-war, bakeries became symbols of normalcy and routine. The tradition continues—Berliners stop at the bakery on their way to work every morning.",
+        "insider_tip": "Order a 'Belegtes Brötchen' (sandwich roll) with cheese and salami—classic German breakfast. 'Laugenbrezel' (pretzel) with butter is incredible when fresh (before 10am). Avoid chain bakeries (Backwerk, Kamps)—go to independent 'Handwerksbäckerei' (craft bakeries) for quality. German bread is dense and filling—one roll is a meal.",
+        "price_level": "Affordable",
+        "good_for": ["Breakfast", "Quick snacks"],
+        "duration": "Quick bite",
+        "best_time": "Morning"
+      },
       "image": "/images/berlin/bakery.jpg"
     },
     {
@@ -245,8 +335,36 @@
       "name_local": "Schnitzel",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Breaded, fried cutlet (pork or veal). Best enjoyed in a traditional Wirtshaus with potato salad and a cold beer.",
+      "description": {
+        "short": "Schnitzel is a breaded and fried cutlet (traditionally veal or pork), pounded thin, breaded in flour/egg/breadcrumbs, and fried until golden. Served with potato salad, fries, or lemon. It's a German staple eaten in traditional Wirtshaus (tavern) restaurants with a cold beer. The breading should be crispy and flaky, the meat tender. It's comfort food—simple, satisfying, and everywhere.",
+        "vibe": "Traditional, hearty",
+        "history": "Schnitzel originated in Austria (Wiener Schnitzel) but became a German staple in the 1800s-1900s. It was working-class food made affordable by using pork instead of expensive veal. Post-war, it became a symbol of German comfort and normalcy. Every traditional German restaurant serves it.",
+        "insider_tip": "Order 'Schweineschnitzel' (pork) for the authentic German version—it's cheaper and more common than 'Wiener Schnitzel' (veal). The breading should be light, crispy, and slightly detached from the meat—this is the quality test. Pair with potato salad and a Pilsner. Avoid tourist traps near Brandenburg Gate; go to neighborhood Wirtshäuser for authentic versions.",
+        "price_level": "Moderate",
+        "good_for": ["Dinner", "Traditional meals"],
+        "duration": "1 hour",
+        "best_time": "Dinner"
+      },
       "image": "/images/berlin/schnitzel.jpg"
+    },
+    {
+      "id": "food-019",
+      "slug": "berliner-pfannkuchen",
+      "name_en": "Berliner (Pfannkuchen)",
+      "name_local": "Pfannkuchen / Berliner",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "The Berliner (called 'Pfannkuchen' in Berlin, confusingly) is a jelly-filled donut: deep-fried dough dusted with powdered sugar and filled with jam (usually raspberry or plum). It's soft, sweet, and iconic. Famous from JFK's 1963 speech ('Ich bin ein Berliner') which technically translates to 'I am a jelly donut' though this interpretation is debated. Sold at bakeries year-round but especially popular during Fasching (carnival season).",
+        "vibe": "Sweet, nostalgic",
+        "history": "The Berliner/Pfannkuchen dates back to the 1700s in Germany. The name varies by region—Berliners call it 'Pfannkuchen' (pancake), while the rest of Germany calls it 'Berliner.' JFK's 1963 'Ich bin ein Berliner' speech made the donut internationally famous. It's traditional carnival food, especially on Fat Tuesday (Rosenmontag).",
+        "insider_tip": "Buy from traditional bakeries (Bäckerei), not supermarkets—the quality difference is massive. The donut should be light and airy inside, not dense. Raspberry jam is most common, but plum (Pflaumenmus) is traditional. Eat it fresh the day it's made. During carnival season (February-March), bakeries make special versions with different fillings.",
+        "price_level": "Affordable",
+        "good_for": ["Snacking", "Dessert"],
+        "duration": "Quick bite",
+        "best_time": "Morning or afternoon"
+      },
+      "image": "/images/berlin/berliner.jpg"
     }
   ],
   "must_see": [
@@ -261,7 +379,16 @@
           "name_local": "Techno",
           "category": "sight",
           "is_generic_staple": true,
-          "description": "Berlin clubs are not places to be seen; they are places to disappear. They are dark, industrial, and have strict 'no photo' policies. It is about the music and the freedom. The party often lasts from Friday night to Monday morning.",
+          "description": {
+            "short": "Berlin's club culture is legendary and unique: industrial warehouses converted into dark, cavernous spaces with world-class sound systems, strict 'no photo' policies, and door policies that reject based on vibes. Clubs like Berghain, Tresor, and Sisyphos operate Friday-Monday non-stop (48-72 hours). It's not about being seen—it's about disappearing into music, freedom, and hedonism. The experience is intense, inclusive, and life-changing for electronic music fans.",
+            "vibe": "Hedonistic, intense",
+            "history": "Berlin's techno scene exploded after the Wall fell in 1989. Empty buildings, abandoned factories, and legal grey areas created a lawless party culture. Clubs like Tresor opened in bank vaults. By the 2000s, Berlin became the global techno capital. Berghain (2004) became the world's most famous club. The scene is protected—clubs are granted cultural heritage status.",
+            "insider_tip": "Dress in black, minimize accessories, and don't be visibly drunk in line—bouncers reject based on 'vibes.' Sticker your phone camera to respect the no-photo rule. Expect to wait 2+ hours; rejections are common and impersonal. Once inside, it's marathon dancing—wear comfortable shoes. Most clubs are cash-only. Go on Sunday afternoon for 'after-hours' when the vibe mellows.",
+            "price_level": "Moderate",
+            "good_for": ["Clubbers", "Electronic music fans"],
+            "duration": "6-24 hours",
+            "best_time": "Friday night through Monday morning"
+          },
           "image": "/images/berlin/techno.jpg"
         },
         {
@@ -271,7 +398,16 @@
           "name_local": "Badesee",
           "category": "sight",
           "is_generic_staple": true,
-          "description": "In summer, Berliners leave the city for the lakes (Wannsee, Müggelsee, Schlachtensee). It is pure nature within city limits. Note that FKK (public nudity) is common, non-sexual, and accepted.",
+          "description": {
+            "short": "In summer, Berliners flee to the city's lakes (Badeseen)—Wannsee, Müggelsee, Schlachtensee, Plötzensee—for swimming, sunbathing, and grilling. These are natural lakes within city limits, surrounded by forests and beaches. FKK (Freikörperkultur—public nudity) is common, non-sexual, and culturally accepted at designated sections. It's pure nature, surprisingly clean water, and a stark contrast to urban Berlin. Locals bring beer, portable grills, and spend entire Sundays lakeside.",
+            "vibe": "Relaxed, natural",
+            "history": "Berlin's lakes became recreational spaces in the 1800s-1900s as the city industrialized. Wannsee became famous for beach culture in the 1920s. FKK (nudist culture) has deep roots in German naturalism movements dating to the early 1900s. After WWII, East Germans especially embraced FKK as a form of freedom. The tradition continues today.",
+            "insider_tip": "Wannsee is the most famous but crowded—go to Schlachtensee or Krumme Lanke for fewer tourists. FKK areas are clearly marked; respect boundaries and don't stare. Bring cash for entrance fees (€3-5 at some lakes). Pack a picnic—lakeside food is expensive. Go on weekdays to avoid crowds. Water quality is surprisingly good and monitored.",
+            "price_level": "Affordable",
+            "good_for": ["Nature lovers", "Swimming"],
+            "duration": "Half day",
+            "best_time": "Summer (June-August)"
+          },
           "image": "/images/berlin/lakes.jpg"
         }
       ]
@@ -287,7 +423,16 @@
           "name_local": "Tempelhofer Feld",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "An abandoned airport turned into a massive public park. Locals skate on the runways, BBQ, and fly kites. The ultimate symbol of Berlin's freedom.",
+          "description": {
+            "short": "Tempelhofer Feld is a decommissioned airport turned into a massive 900-acre public park—the ultimate symbol of Berlin's freedom and transformation. The former runways are now used for skating, cycling, kiteboarding, grilling, and urban gardening. It's wide-open, flat, and surreal—you can see the entire city skyline. Locals voted in 2014 to keep it undeveloped, rejecting luxury housing plans. It's pure Berlin: reclaiming history for public space.",
+            "vibe": "Free, vast",
+            "history": "Tempelhof Airport opened in 1923 and was expanded by the Nazis in 1936 into a massive terminal (once the world's largest building). It became famous during the 1948 Berlin Airlift when Western Allies flew in supplies during the Soviet blockade. The airport closed in 2008 and reopened as a public park in 2010. Berliners voted to keep it open and undeveloped.",
+            "insider_tip": "Rent bikes or rollerblades at the entrance—the field is massive and takes 30+ minutes to walk across. Go in late afternoon/evening for golden hour light and fewer crowds. The old terminal building offers tours (book ahead). Pack a picnic or grill—it's allowed. In summer, it's packed with kite-surfers. The field is completely flat and exposed—bring sunscreen.",
+            "price_level": "Affordable",
+            "good_for": ["Outdoor activities", "History buffs"],
+            "duration": "2-3 hours",
+            "best_time": "Late afternoon or weekend"
+          },
           "image": "/images/berlin/tempelhof.jpg",
           "geo": { "lat": 52.4730, "lng": 13.4030 }
         },
@@ -298,7 +443,16 @@
           "name_local": "Spätkauf",
           "category": "sight",
           "is_generic_staple": true,
-          "description": "Skip the expensive bar. Buy a €1.50 beer from a corner store (Späti), sit on the bench outside, and watch the city go by.",
+          "description": {
+            "short": "Späti culture is quintessential Berlin: skip the expensive bar, buy a €1.50 beer from a late-night corner store (Spätkauf/Späti), and sit on the bench outside watching the city go by. It's where neighbors gather, strangers become friends, and Berlin's social fabric lives. Spätis are open late (until 2am+), making them essential infrastructure for nightlife and community. It's democratic, cheap, and real.",
+            "vibe": "Social, local",
+            "history": "Spätis originated in East Berlin (GDR) as 'Spätkauf' shops staying open past normal hours. After reunification, they exploded across the city. They're often run by Turkish, Arab, or Vietnamese families and have become neighborhood social hubs. The bench outside is sacred—it's where Berlin happens.",
+            "insider_tip": "Buy beer from the Späti fridge and ask if they have a bottle opener (most do). Sit on the bench outside with locals—this is where you meet real Berliners. Spätis are lifesavers on Sundays when supermarkets are closed. They cluster in Kreuzberg, Neukölln, and Friedrichshain. Don't be surprised if strangers join you on the bench—it's communal.",
+            "price_level": "Affordable",
+            "good_for": ["Socializing", "Local experience"],
+            "duration": "1-2 hours",
+            "best_time": "Evening"
+          },
           "image": "/images/berlin/spati.jpg"
         },
         {
@@ -308,7 +462,16 @@
           "name_local": "Mauerpark Flohmarkt",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A Sunday ritual. Huge flea market followed by public 'Bearpit Karaoke' where thousands cheer on strangers singing.",
+          "description": {
+            "short": "Mauerpark on Sundays is a Berlin ritual: a massive flea market with vintage clothes, records, art, and junk, followed by the legendary 'Bearpit Karaoke' where thousands gather to cheer strangers belting out songs in an amphitheater. It's chaotic, loud, joyful, and uniquely Berlin. The park sits on the former Berlin Wall border strip ('Mauer' means wall). Come for the market, stay for the karaoke spectacle.",
+            "vibe": "Chaotic, joyful",
+            "history": "Mauerpark ('Wall Park') was the death strip between East and West Berlin during the Wall era. After reunification, it became a park and graffiti haven. The Sunday flea market started in 2004. Bearpit Karaoke was founded in 2009 by Irish artist Joe Hatchiban and became a Berlin institution. Thousands now attend weekly.",
+            "insider_tip": "Arrive early (10am-12pm) for best flea market selection before it gets mobbed. Bearpit Karaoke starts at 3pm—grab a spot on the amphitheater steps by 2:30pm. Bring beer and snacks. The karaoke is free and open—anyone can sign up to sing. The market has tons of vintage clothes, records, and art. Haggling is expected.",
+            "price_level": "Moderate",
+            "good_for": ["Vintage shopping", "Entertainment"],
+            "duration": "3-4 hours",
+            "best_time": "Sunday afternoon"
+          },
           "image": "/images/berlin/mauerpark.jpg",
           "geo": { "lat": 52.5400, "lng": 13.4050 }
         }
@@ -325,7 +488,16 @@
           "name_local": "Brandenburger Tor",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The symbol of reunification. Best viewed at night when fewer crowds are present. Walk through it to feel the history.",
+          "description": {
+            "short": "The Brandenburg Gate is Berlin's most iconic monument, a neoclassical 18th-century triumphal arch that became the symbol of German reunification. Built in 1791, it stood in the no-man's-land during the Berlin Wall era, inaccessible to both sides. When the Wall fell on November 9, 1989, over 100,000 people gathered here to celebrate. The gate's Quadriga (chariot sculpture) was stolen by Napoleon in 1806 and returned in 1814. It's beautiful at night when crowds thin.",
+            "vibe": "Iconic, historic",
+            "history": "Commissioned by Prussian King Frederick William II in 1788-1791 as a 'peace gate.' Napoleon stole the Quadriga in 1806; Prussia reclaimed it in 1814. During the Cold War, the gate sat in the death strip—untouchable. Reagan's 'Tear down this wall' speech was nearby in 1987. The gate reopened officially in 1989 after the Wall fell.",
+            "insider_tip": "Visit at night (after 10pm) when tourist crowds disappear and the gate is beautifully lit. During the day, it's mobbed with selfie sticks. Walk through the gate to feel the history—it's a public passage, not a barricade. Pariser Platz (the square) has historical markers explaining the Wall era. Avoid costumed performers demanding money.",
+            "price_level": "Affordable",
+            "good_for": ["History buffs", "Photography"],
+            "duration": "30 minutes",
+            "best_time": "Night or early morning"
+          },
           "image": "/images/berlin/brandenburg.jpg",
           "geo": { "lat": 52.5163, "lng": 13.3777 }
         },
@@ -336,7 +508,16 @@
           "name_local": "East Side Gallery",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The longest remaining stretch of the Berlin Wall, covered in murals. It's an open-air gallery, free to walk.",
+          "description": {
+            "short": "The East Side Gallery is the longest remaining stretch of the Berlin Wall (1.3 km), transformed into an open-air gallery with 105 murals painted by artists from around the world in 1990. The iconic 'Fraternal Kiss' (Brezhnev kissing Honecker) and 'Trabant breaking through the Wall' are here. It's powerful, free, and exposed to the elements—some murals are fading. The Wall stood 1961-1989, dividing the city for 28 years.",
+            "vibe": "Historic, artistic",
+            "history": "After the Wall fell in November 1989, artists from 21 countries painted the eastern side in 1990 as a celebration of freedom. The murals comment on politics, hope, and division. By the 2000s, the murals were fading; restoration happened in 2009. The Wall itself stood 1961-1989, killing at least 140 people who tried to cross.",
+            "insider_tip": "Walk the entire 1.3 km stretch—it takes 20-30 minutes. The most famous murals ('Fraternal Kiss,' 'Trabant') are near the Oberbaum Bridge end. Go early morning (before 9am) to avoid tour groups and get photos without crowds. The graffiti on top of murals is vandalism—respect the art. Nearby Warschauer Straße has good bars and restaurants.",
+            "price_level": "Affordable",
+            "good_for": ["History buffs", "Photography"],
+            "duration": "1 hour",
+            "best_time": "Early morning"
+          },
           "image": "/images/berlin/east-side.jpg",
           "geo": { "lat": 52.5058, "lng": 13.4397 }
         },
@@ -347,7 +528,16 @@
           "name_local": "Denkmal für die ermordeten Juden",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A haunting field of 2,711 concrete slabs. Walking into the center is disorienting and powerful. Please remain respectful (no selfies on the blocks).",
+          "description": {
+            "short": "The Holocaust Memorial (Memorial to the Murdered Jews of Europe) is a haunting field of 2,711 concrete slabs (stelae) of varying heights arranged in a grid. Walking into the center is disorienting—the ground undulates, the slabs tower overhead, and you lose sight of others. It's intentionally overwhelming and claustrophobic. The underground information center documents Holocaust victims. The memorial opened in 2005 after decades of debate. Remain respectful—no climbing, no selfies on the blocks.",
+            "vibe": "Somber, powerful",
+            "history": "Designed by architect Peter Eisenman and opened in 2005 after 17 years of debate over how to memorialize the Holocaust. The abstract design was intentional—no explicit symbolism, just disorientation and reflection. It sits near Hitler's former bunker site. 6 million Jews were murdered in the Holocaust; the memorial honors them without naming individuals (except in the underground center).",
+            "insider_tip": "Enter from the edges and walk toward the center where the slabs become taller and more claustrophobic—this is the intended experience. Spend time in the underground information center (free) which documents victims' stories. Visit early morning or late evening for solitude. Do NOT pose for selfies on the slabs—it's deeply disrespectful. The memorial is always open (24/7).",
+            "price_level": "Affordable",
+            "good_for": ["History buffs", "Reflection"],
+            "duration": "1 hour",
+            "best_time": "Early morning or evening"
+          },
           "image": "/images/berlin/holocaust-memorial.jpg",
           "geo": { "lat": 52.5139, "lng": 13.3786 }
         }
@@ -364,7 +554,16 @@
           "name_local": "Teufelsberg",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Abandoned NSA listening station on a hill made of WWII rubble. Covered in graffiti with incredible city views. A bit of a hike.",
+          "description": {
+            "short": "Teufelsberg ('Devil's Mountain') is an abandoned Cold War NSA listening station atop a man-made hill built from 25 million cubic meters of WWII rubble. During the Cold War, the US and UK used massive radomes (golf ball-shaped structures) to intercept Soviet communications. Abandoned after reunification, it's now covered in graffiti and offers incredible 360° views of Berlin. You can explore the ruins on guided tours. It's surreal, eerie, and uniquely Berlin.",
+            "vibe": "Abandoned, eerie",
+            "history": "After WWII, Allies buried a destroyed Nazi military academy under rubble, creating a 120-meter hill—Berlin's highest point. The US built a listening station on top in the 1950s-60s to spy on East Germany and the USSR. After 1989, it was abandoned. Attempts to develop it failed. Now it's a legal graffiti zone and urban exploration site.",
+            "insider_tip": "Book a guided tour (€8-15)—entering without permission is illegal and dangerous. Wear sturdy shoes; the site is crumbling and full of debris. The views from the top are stunning—bring a camera. Tours run April-October, weekends only. Combine with a walk in Grunewald Forest nearby. It's a 20-minute walk uphill from the parking area.",
+            "price_level": "Affordable",
+            "good_for": ["Urban exploration", "History buffs"],
+            "duration": "2 hours",
+            "best_time": "Weekend afternoon (tour times)"
+          },
           "image": "/images/berlin/teufelsberg.jpg",
           "geo": { "lat": 52.4969, "lng": 13.2410 }
         },
@@ -375,7 +574,16 @@
           "name_local": "Stasimuseum",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Located in the former HQ of the East German secret police. A chilling look at surveillance and control.",
+          "description": {
+            "short": "The Stasi Museum is located in the former headquarters of East Germany's secret police (Stasi), one of history's most effective surveillance states. The museum preserves the office of Erich Mielke (Stasi chief 1957-1989) and displays the terrifying surveillance technology used to monitor 6 million citizens: hidden cameras, mail-opening equipment, smell jars (to track people by scent). It's chilling, educational, and essential for understanding East German totalitarianism.",
+            "vibe": "Chilling, educational",
+            "history": "The Stasi (Ministerium für Staatssicherheit) operated 1950-1990 as East Germany's secret police, employing 91,000 full-time agents and 173,000 informants. They spied on one-third of the population. After the Wall fell in 1989, citizens stormed Stasi offices to prevent document destruction. The headquarters became a museum in 1990.",
+            "insider_tip": "Take the free audio guide—it's essential for context. Mielke's preserved office is eerie—wood paneling, telephones, and a safe. The surveillance technology is disturbing but fascinating. Allow 1.5-2 hours. The museum is in Lichtenberg (East Berlin)—not touristy, so it's quiet. Combine with a visit to the Stasi Records Archive (Stasi-Unterlagen-Archiv) nearby where victims can request their files.",
+            "price_level": "Affordable",
+            "good_for": ["History buffs", "Cold War enthusiasts"],
+            "duration": "2 hours",
+            "best_time": "Weekday afternoon"
+          },
           "image": "/images/berlin/stasi-museum.jpg",
           "geo": { "lat": 52.5145, "lng": 13.4880 }
         }
@@ -392,7 +600,16 @@
           "name_local": "Museumsinsel",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "UNESCO World Heritage site with five world-renowned museums including the Pergamon (check for closures) and Neues Museum.",
+          "description": {
+            "short": "Museum Island is a UNESCO World Heritage site containing five world-renowned museums on a small island in the Spree River: Pergamon Museum (ancient Middle Eastern art—partially closed for renovation until 2027), Neues Museum (Egyptian Museum with Nefertiti bust), Altes Museum (Greek/Roman antiquities), Alte Nationalgalerie (19th-century European art), and Bode Museum (Byzantine art). It's overwhelming—each museum deserves 2-3 hours. Buy a day pass to visit multiple.",
+            "vibe": "Grand, cultural",
+            "history": "Built 1830s-1930s as Prussia's cultural showcase. The Pergamon Museum (1930) housed massive ancient structures like the Pergamon Altar and Ishtar Gate from Babylon. WWII damage was extensive; restoration took decades. The Nefertiti bust (1340 BC) is the Neues Museum's star, discovered in Egypt in 1912. The island is a monument to 19th-century museum culture.",
+            "insider_tip": "Buy the 'Museum Island Day Pass' (€19) to visit all five museums. The Pergamon's main hall is closed for renovation until 2027—check what's open before visiting. The Neues Museum (Nefertiti) is the most popular—go early (10am) to avoid crowds. Altes Museum and Bode Museum are underrated and less crowded. Plan a full day; trying to see everything in 3 hours is impossible.",
+            "price_level": "Moderate",
+            "good_for": ["Museum lovers", "History buffs"],
+            "duration": "4-6 hours",
+            "best_time": "Weekday morning"
+          },
           "image": "/images/berlin/museum-island.jpg",
           "geo": { "lat": 52.5210, "lng": 13.3986 }
         }

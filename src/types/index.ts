@@ -1,7 +1,78 @@
 /**
  * Core TypeScript Interfaces for City Sheet
- * Following strict schema from 05_Data_API
+ * Final Merged Version: Preserves DB types + Adds SEO/Itinerary features
  */
+
+// --- 1. DATA TYPES (JSON CONTENT) ---
+
+export interface Place {
+  id: string
+  slug: string
+  name_en: string
+  name_local?: string // Made optional to prevent errors if missing
+  category: string // Supports 'food' | 'sight' | dynamic strings
+  description: string | { 
+    short: string; 
+    history?: string; 
+    insider_tip?: string; 
+    price_level?: string; 
+    duration?: string; 
+    best_time?: string;
+    good_for?: string[];
+  } // Supports both old string and new object format
+  image: string
+  is_generic_staple?: boolean
+  geo?: {
+    lat: number
+    lng: number
+  }
+}
+
+export interface WeatherMonth {
+  id: string | number
+  name: string
+  temp: string        // Keeps original string format "15°C"
+  condition: string   // For the Icon (e.g., "Sunny")
+  rain_days?: number  // Optional, in case some cities miss it
+  vibe?: string
+  clothing?: string   // ✅ Restored
+  pros?: string[]     // ✅ Restored
+  cons?: string[]     // ✅ Restored
+}
+
+export interface Neighborhood {
+  name: string
+  vibe: string
+  description: string
+  image: string
+  highlights: string[]
+}
+
+export interface AffiliateProduct {
+  id: string
+  title: string
+  image: string
+  reason: string
+  amazon_url: string
+  category: string
+}
+
+export interface ItineraryStop {
+  time: string
+  title: string
+  description: string
+  image?: string
+  ticket_link?: string
+}
+
+export interface LogisticsTopic {
+  id: string
+  slug: string
+  title: string
+  icon: string
+  summary: string
+  details: string[] // Array of strings (can include "Label: Content" format)
+}
 
 export interface City {
   id: string
@@ -11,24 +82,34 @@ export interface City {
   country_code: string
   hero_image: string
   intro_vibe: string
+  
   general_info: {
     population: string
     is_capital: boolean
     description: string
   }
+  
   stats: {
     currency: string
     plug_type: string
   }
-  weather_breakdown: Array<{
-    id: number
-    name: string
-    temp: string
-    vibe: string
-    pros: string[]
-    cons: string[]
-    clothing: string
+  
+  // Updated arrays to use specific interfaces
+  weather_breakdown: WeatherMonth[]
+  neighborhoods: Neighborhood[]
+  
+  // ✅ NEW: Itinerary Support
+  itinerary?: ItineraryStop[]
+  
+  logistics: LogisticsTopic[]
+  
+  must_eat: Place[]
+  must_see: Array<{
+    title: string
+    id: string
+    items: Place[]
   }>
+  
   culture: {
     etiquette_tips: string[]
     essential_phrases: Array<{
@@ -37,54 +118,11 @@ export interface City {
       phonetic: string
     }>
   }
-  neighborhoods: Array<{
-    name: string
-    vibe: string
-    description: string
-    highlights: string[]
-    image: string
-  }>
-  logistics: Array<{
-    id: string
-    slug: string
-    title: string
-    icon: string
-    summary: string
-    details: string[]
-  }>
-  must_eat: Place[]
-  must_see: Array<{
-    title: string
-    id: string
-    description?: string
-    items: Place[]
-  }>
-  affiliate_products?: Array<{
-    id: string
-    title: string
-    image: string
-    reason: string
-    amazon_url: string
-    category?: string
-  }>
+  
+  affiliate_products?: AffiliateProduct[]
 }
 
-export interface Place {
-  id: string
-  slug: string
-  name_en: string
-  name_local: string
-  category: string // Now supports dynamic categories like 'Museum', 'Temple', 'Food', etc.
-  description: string
-  image: string
-  is_generic_staple: boolean
-  geo?: {
-    lat: number
-    lng: number
-  }
-}
-
-// Component Prop Interfaces (from 03_UI)
+// --- 2. COMPONENT PROPS (UI) ---
 
 export interface CityCardProps {
   name: string
@@ -95,17 +133,13 @@ export interface CityCardProps {
 }
 
 export interface PlaceCardProps {
-  name_en: string
-  name_local: string
-  image: string
-  category: 'food' | 'sight'
-  slug: string
+  place: Place
   citySlug: string
 }
 
 export interface TranslationHookProps {
   text: string
-  label?: string
+  placeName?: string // Added for context
   className?: string
 }
 
@@ -119,7 +153,7 @@ export interface CommentThreadProps {
   citySlug: string
 }
 
-// Database Types (Supabase)
+// --- 3. DATABASE TYPES (SUPABASE) ---
 
 export interface Comment {
   id: string
@@ -151,7 +185,7 @@ export interface Profile {
   created_at: string
 }
 
-// Search API Response Types
+// --- 4. API RESPONSES ---
 
 export interface SearchResponse {
   cities: Array<{

@@ -124,7 +124,16 @@
       "name_local": "Carbonara",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Rome's holy dish. Egg yolks, Pecorino Romano cheese, Guanciale (cured pork cheek), and black pepper. NO cream. Cream is a crime here.",
+      "description": {
+        "short": "Carbonara is a Roman pasta dish made with egg yolks, Pecorino Romano cheese, guanciale (cured pork cheek), and black pepper—absolutely no cream. The heat of the pasta cooks the raw egg into a silky, creamy sauce that coats each strand. It's Rome's most iconic dish, fiercely protected by locals who consider adding cream a culinary crime.",
+        "vibe": "Rich, traditional",
+        "history": "Carbonara's origins are debated but likely emerged in mid-20th century Rome. The dish relies on precise technique: the egg must coat the pasta without scrambling. It must be made with guanciale, never bacon or pancetta.",
+        "insider_tip": "If the menu lists cream in the carbonara, walk out immediately—it's a tourist trap. Order at lunch when kitchens are freshest. Traditional pasta shapes are rigatoni or tonnarelli.",
+        "price_level": "Moderate",
+        "good_for": ["Foodies", "First-timers"],
+        "duration": "30-45 minutes",
+        "best_time": "Lunch"
+      },
       "image": "/images/rome/carbonara.jpg"
     },
     {
@@ -134,7 +143,16 @@
       "name_local": "Trattoria Romana",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Know where to eat. A good Trattoria looks boring, is loud, and has paper tablecloths. Avoid places with photos on the menu, a 'Tourist Menu', or a host outside inviting you in. Authentic places don't need to beg.",
+      "description": {
+        "short": "A trattoria is a family-run, casual Italian restaurant serving simple regional food at affordable prices, typically with paper tablecloths and handwritten menus. Real trattorias never advertise, never have English menus with photos, and never seat tourists preferentially. They're loud because Romans talk loudly, cramped because space is expensive, and serve food locals eat daily.",
+        "vibe": "Authentic, unpretentious",
+        "history": "Trattorias emerged as working-class restaurants in contrast to formal ristorantes. In the 1980s-90s, as tourism exploded, fake trattorias multiplied around landmarks with laminated menus in six languages.",
+        "insider_tip": "Look for paper tablecloths, handwritten chalkboard menus, and locals dining alone reading newspapers. If there's a 'tourist menu' or photos, it's fake. Authentic spots are in residential areas.",
+        "price_level": "Affordable",
+        "good_for": ["Budget travelers", "Foodies"],
+        "duration": "1-2 hours",
+        "best_time": "Lunch or Dinner"
+      },
       "image": "/images/rome/trattoria.jpg"
     },
     {
@@ -144,28 +162,17 @@
       "name_local": "I Fritti",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Fried food is a religion here. Before pizza or pasta, you order 'Fritti'. Includes Supplì, potato croquettes, and fried zucchini flowers (Fiori di Zucca). Eaten with hands, shared, and essential.",
+      "description": {
+        "short": "Fritti are fried appetizers served before pasta or pizza, including supplì (fried rice balls with mozzarella), fiori di zucca (fried zucchini flowers), and potato croquettes. They're crispy, hot, eaten with hands, and central to Roman dining. It's a social ritual: you order one plate for the table and everyone picks.",
+        "vibe": "Crispy, communal",
+        "history": "Fried food culture in Rome dates to the Jewish Ghetto, where frying in olive oil became an art form. The technique matters: oil must be extremely hot, batter light, items served immediately.",
+        "insider_tip": "Order supplì al telefono—the mozzarella stretches like a telephone cord when you bite it. Fiori di zucca must be eaten within 2 minutes or they get soggy. Found at any trattoria or friggitoria.",
+        "price_level": "Affordable",
+        "good_for": ["Groups", "Snackers"],
+        "duration": "Quick bite",
+        "best_time": "Anytime"
+      },
       "image": "/images/rome/fritti.jpg"
-    },
-    {
-      "id": "food-007",
-      "slug": "jewish-cuisine",
-      "name_en": "Roman-Jewish Cuisine",
-      "name_local": "Cucina Giudaico-Romanesca",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": "Rome has the oldest Jewish community in Europe. Their cuisine is legendary, especially 'Carciofi alla Giudia' (deep-fried whole artichokes). Simple, oil-heavy, and crispy.",
-      "image": "/images/rome/artichoke.jpg"
-    },
-    {
-      "id": "food-017",
-      "slug": "house-wine",
-      "name_en": "House Wine Culture",
-      "name_local": "Vino della Casa",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": "Wine is food here. 'Vino della Casa' is cheap, served in a carafe, and perfectly acceptable. You don't need to order a bottle. It is drunk casually at lunch and dinner.",
-      "image": "/images/rome/wine.jpg"
     },
     {
       "id": "food-002",
@@ -174,38 +181,55 @@
       "name_local": "Cacio e Pepe",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Pasta with Pecorino cheese and black pepper. Simple ingredients, incredibly hard to master. Creamy, spicy, salty perfection.",
-      "image": "/images/rome/cacio-e-pepe.jpg"
+      "description": {
+        "short": "Cacio e Pepe is a minimalist Roman pasta with just three ingredients: pecorino cheese, black pepper, and pasta water. The cheese must be finely grated and tempered with hot pasta water to create a smooth emulsion, not clumps. Despite its simplicity, it requires extreme technical skill and has become a test of a restaurant's quality.",
+        "vibe": "Simple, elegant",
+        "history": "Cacio e Pepe originated as shepherd's food in the hills around Rome—pecorino was portable, pepper preserved food, and dried pasta cooked over a fire. Many chefs fail because it's unforgiving.",
+        "insider_tip": "Order it as your first course to judge the kitchen's quality. If it arrives clumpy or oily, the restaurant isn't serious. Always order tonnarelli, never spaghetti.",
+        "price_level": "Moderate",
+        "good_for": ["Foodies", "Minimalists"],
+        "duration": "30-45 minutes",
+        "best_time": "Lunch or Dinner"
+      },
+      "image": "/images/rome/cacio-pepe.jpg"
     },
     {
-      "id": "food-010",
+      "id": "food-003",
       "slug": "amatriciana",
       "name_en": "Amatriciana",
-      "name_local": "L'Amatriciana",
+      "name_local": "Amatriciana",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Tomato, Guanciale, Pecorino, and chili. The spicy, red cousin of Carbonara. Rich, savory, and essential.",
+      "description": {
+        "short": "Amatriciana is a tomato-based pasta sauce with guanciale (cured pork cheek), pecorino cheese, and chili. It comes from Amatrice, a mountain town destroyed by a 2016 earthquake. The recipe is legally protected: only guanciale, pecorino, tomato, white wine, and chili are allowed—onions and garlic are forbidden by purists.",
+        "vibe": "Robust, tangy",
+        "history": "The original dish had no tomato (tomatoes arrived in Italy in the 1500s). After the 2016 earthquake, Romans rallied around the dish with restaurants donating proceeds to rebuilding efforts.",
+        "insider_tip": "August 24 is Amatriciana Day in Rome, commemorating the earthquake. Order bucatini, the traditional thick hollow pasta that holds the sauce perfectly.",
+        "price_level": "Moderate",
+        "good_for": ["Pasta lovers", "Hearty eaters"],
+        "duration": "30-45 minutes",
+        "best_time": "Lunch or Dinner"
+      },
       "image": "/images/rome/amatriciana.jpg"
     },
     {
-      "id": "food-011",
-      "slug": "pizza-al-taglio",
-      "name_en": "Pizza by the Slice",
-      "name_local": "Pizza al Taglio",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": "Rectangular pizza sold by weight. Point to the one you want, show them how much with your hands. It is the standard Roman fast lunch.",
-      "image": "/images/rome/pizza-taglio.jpg"
-    },
-    {
       "id": "food-004",
-      "slug": "suppli",
-      "name_en": "Supplì",
-      "name_local": "Supplì",
+      "slug": "roman-artichokes",
+      "name_en": "Roman-Style Artichokes",
+      "name_local": "Carciofi alla Romana / Giudia",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Fried rice ball stuffed with ragù and mozzarella. Rome's favorite street snack. Break it open to see the 'telephone wire' of cheese.",
-      "image": "/images/rome/suppli.jpg"
+      "description": {
+        "short": "Roman artichokes come in two styles: carciofi alla romana (braised with garlic, mint, and olive oil) and carciofi alla giudia (fried whole until crispy like flower petals). Both use the tender romanesco artichoke variety, prized for its lack of inner choke. Artichokes are Rome's seasonal obsession from November to April.",
+        "vibe": "Seasonal, delicate",
+        "history": "Carciofi alla giudia originated in the Jewish Ghetto in the 1500s. The fried version requires mammoth artichokes beaten against a table to open the leaves, then submerged twice in boiling oil.",
+        "insider_tip": "Peak season is February-March when they're at peak flavor. Eat with your hands, leaf by leaf. Available at any traditional Roman restaurant during artichoke season.",
+        "price_level": "Moderate",
+        "good_for": ["Vegetarians", "Seasonal eaters"],
+        "duration": "30-45 minutes",
+        "best_time": "Lunch or Dinner"
+      },
+      "image": "/images/rome/artichokes.jpg"
     },
     {
       "id": "food-005",
@@ -214,23 +238,193 @@
       "name_local": "Maritozzo",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Sweet breakfast bun filled with an insane amount of fresh whipped cream. Messy and delicious. Get it at Regoli.",
+      "description": {
+        "short": "Maritozzo is a soft brioche bun split open and stuffed with whipped cream—the filling should be twice the height of the bun. It's a Roman breakfast staple eaten as a mid-morning snack with coffee, never as dessert. The bun must be soft, lightly sweetened, and brushed with honey.",
+        "vibe": "Sweet, fluffy",
+        "history": "Maritozzo dates to ancient Rome as simple bread eaten during Lent. The name comes from 'marito' (husband) because young men would hide jewelry inside to propose. The cream-filled version became standard in the 1800s.",
+        "insider_tip": "Go before 11am when they're freshest at any bakery. Order a 'caffè in ghiaccio' (iced coffee) to balance the sweetness. Found at most Roman bakeries and cafes.",
+        "price_level": "Affordable",
+        "good_for": ["Breakfast", "Sweet lovers"],
+        "duration": "Quick bite",
+        "best_time": "Morning"
+      },
       "image": "/images/rome/maritozzo.jpg"
     },
     {
-      "id": "food-012",
-      "slug": "porchetta",
-      "name_en": "Porchetta Sandwich",
-      "name_local": "Panino con Porchetta",
+      "id": "food-006",
+      "slug": "roman-pizza",
+      "name_en": "Roman-Style Pizza",
+      "name_local": "Pizza Romana",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Slow-roasted pork heavily seasoned with herbs and garlic. Served in crusty bread. The ultimate street food lunch.",
+      "description": {
+        "short": "Roman pizza is thin, crispy, rectangular, and sold by weight at bakeries (pizzerie al taglio). The dough has more olive oil than Neapolitan pizza, creating a cracker-like crust. It's street food cut with scissors, eaten standing up, folded like a sandwich. Toppings are simple: margherita, potato and rosemary, or zucchini flowers.",
+        "vibe": "Crunchy, casual",
+        "history": "Roman pizza emerged as street food in the 1950s, sold by weight from bakeries. It's a lunch item or afternoon snack, never dinner. Pizza bianca (just olive oil, salt, rosemary) is eaten plain or sliced for sandwiches.",
+        "insider_tip": "They sell by weight—point at what you want. Eat it immediately while it's hot. Available at pizzerie al taglio throughout the city.",
+        "price_level": "Affordable",
+        "good_for": ["Quick lunch", "Budget eaters"],
+        "duration": "Quick bite",
+        "best_time": "Lunch"
+      },
+      "image": "/images/rome/roman-pizza.jpg"
+    },
+    {
+      "id": "food-007",
+      "slug": "gricia",
+      "name_en": "Gricia",
+      "name_local": "Gricia",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Gricia is the oldest Roman pasta—carbonara without egg, or amatriciana without tomato. It's just guanciale, pecorino, black pepper, and pasta water. Some say it's the original shepherd's pasta before tomatoes or eggs were added. Despite being the foundation of Roman pasta, it's the least famous, overshadowed by its descendants.",
+        "vibe": "Porky, rustic",
+        "history": "The name possibly comes from a Swiss town or from 'gricio,' a local baker. Purists consider it the purest expression of pork and cheese harmony.",
+        "insider_tip": "Order it at a trattoria to gauge their guanciale quality—there's nowhere to hide bad ingredients. Rigatoni is the classic pasta shape for gricia.",
+        "price_level": "Moderate",
+        "good_for": ["Purists", "Pork lovers"],
+        "duration": "30-45 minutes",
+        "best_time": "Lunch or Dinner"
+      },
+      "image": "/images/rome/gricia.jpg"
+    },
+    {
+      "id": "food-008",
+      "slug": "porchetta",
+      "name_en": "Porchetta",
+      "name_local": "Porchetta",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Porchetta is a whole pig, deboned and stuffed with wild fennel, garlic, rosemary, and black pepper, then roasted on a spit for 8+ hours until the skin crackles. It's sliced thick and served in crusty bread as a sandwich. Porchetta is street food, market food, and Sunday lunch food found at markets and porchetta trucks.",
+        "vibe": "Meaty, aromatic",
+        "history": "Porchetta originated in the Castelli Romani hills southeast of Rome, traditionally prepared for festivals. Porchetta trucks appear at festivals and markets across Lazio. The best come from Ariccia, where it's a protected food product.",
+        "insider_tip": "Find porchetta at markets like Testaccio Market. Ask for 'con ciccioli' (crispy skin bits) mixed in. Eat it standing up immediately; the fat congeals when cold.",
+        "price_level": "Affordable",
+        "good_for": ["Meat lovers", "Markets"],
+        "duration": "Quick bite",
+        "best_time": "Lunch"
+      },
       "image": "/images/rome/porchetta.jpg"
+    },
+    {
+      "id": "food-009",
+      "slug": "gelato-rules",
+      "name_en": "Gelato (The Rules)",
+      "name_local": "Gelato Artigianale",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Gelato is Italian ice cream churned at a slower speed with less air and fat than American ice cream, resulting in denser, more intense flavor. Real artisanal gelato is made daily in small batches, stored in covered metal tins, and has muted natural colors. Pistachio should be brown-green, not neon; banana should be grey-white, not yellow. If it's piled in tall colorful mounds, it's fake industrial gelato.",
+        "vibe": "Creamy, artisanal",
+        "history": "Gelato has been made in Italy since the Renaissance. In the 2000s, fake gelaterias multiplied with pre-made industrial gelato and artificial colors designed to attract tourists.",
+        "insider_tip": "Real gelato is stored flat in covered tins, not piled high. Avoid places near major monuments. Always taste before buying. Look for gelaterias displaying 'produzione propria' (made on premises).",
+        "price_level": "Affordable",
+        "good_for": ["Everyone", "Dessert hunters"],
+        "duration": "Quick bite",
+        "best_time": "Afternoon"
+      },
+      "image": "/images/rome/gelato.jpg"
+    },
+    {
+      "id": "food-010",
+      "slug": "trippa",
+      "name_en": "Tripe Stew",
+      "name_local": "Trippa alla Romana",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Trippa is slow-cooked beef tripe (cow stomach lining) in tomato sauce with mint and pecorino. It's nose-to-tail eating from Rome's slaughterhouse culture in Testaccio. The tripe must be cleaned, boiled, then stewed for hours until tender. The texture is slippery and chewy, which polarizes diners unfamiliar with offal.",
+        "vibe": "Traditional, challenging",
+        "history": "Tripe was poor people's food, requiring hours of preparation. It's Saturday lunch food in traditional trattorias. Younger Romans rarely eat it anymore, making it increasingly rare on menus.",
+        "insider_tip": "Only order it at old-school trattorias, especially in Testaccio. It's traditionally a Saturday dish. Eat it with bread to soak up the sauce.",
+        "price_level": "Affordable",
+        "good_for": ["Adventurous eaters", "Offal lovers"],
+        "duration": "1 hour",
+        "best_time": "Saturday lunch"
+      },
+      "image": "/images/rome/trippa.jpg"
+    },
+    {
+      "id": "food-011",
+      "slug": "saltimbocca",
+      "name_en": "Saltimbocca",
+      "name_local": "Saltimbocca alla Romana",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Saltimbocca is a thin veal cutlet topped with prosciutto and a sage leaf, secured with a toothpick, then pan-fried in butter and white wine. The name means 'jumps in the mouth,' referring to its explosive flavor. Cooking time is under 5 minutes—overcooking makes the veal tough. It's a secondo (main course) served after pasta.",
+        "vibe": "Elegant, delicate",
+        "history": "Saltimbocca likely originated in Brescia but was adopted by Roman cuisine in the 1800s. It's traditionally paired with simple sides like spinach or roasted potatoes.",
+        "insider_tip": "Order it at lunch when veal is freshest. If the menu lists chicken saltimbocca, it's a budget version—traditional uses veal only. Eat it immediately; it doesn't reheat well.",
+        "price_level": "Expensive",
+        "good_for": ["Fine dining", "Veal lovers"],
+        "duration": "1-2 hours",
+        "best_time": "Lunch"
+      },
+      "image": "/images/rome/saltimbocca.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "jewish-ghetto-food",
+      "name_en": "Jewish Ghetto Cuisine",
+      "name_local": "Cucina Giudaico-Romanesca",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Jewish Ghetto cuisine is a 500-year fusion of Jewish dietary laws with Roman ingredients, including carciofi alla giudia (fried artichokes), concia (fried zucchini with vinegar and mint), and baccalà (salt cod). Frying in olive oil became central since butter (dairy) couldn't be mixed with meat under kosher law. These dishes are found in the Jewish Ghetto neighborhood and many traditional Roman restaurants.",
+        "vibe": "Historic, fried",
+        "history": "Rome's Jewish Ghetto was established in 1555. Despite persecution, a unique cuisine emerged. After the ghetto's demolition in 1888, these dishes entered mainstream Roman cuisine. Many recipes are still made by Jewish families after 400+ years.",
+        "insider_tip": "Eat in the Ghetto itself for the most authentic experience. Try concia di zucchine—it's unknown outside Rome. Avoid Sundays when kosher places are closed for Shabbat.",
+        "price_level": "Moderate",
+        "good_for": ["History buffs", "Foodies"],
+        "duration": "1-2 hours",
+        "best_time": "Lunch or Dinner"
+      },
+      "image": "/images/rome/jewish-food.jpg"
+    },
+    {
+      "id": "food-013",
+      "slug": "espresso-culture",
+      "name_en": "Espresso Rules",
+      "name_local": "Caffè",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Espresso (called 'caffè' in Italy) is a concentrated coffee shot consumed in under 60 seconds while standing at the bar. Sitting adds a €2-4 surcharge. Cappuccino is strictly a breakfast drink before 11am; ordering it after lunch marks you as a tourist. Romans drink caffè (espresso) after meals with a small glass of water.",
+        "vibe": "Fast, ritualistic",
+        "history": "Espresso culture arrived in Rome in the 1900s with modern machines. The ritual is social: you stop at your local bar twice daily, greet the barista by name, and exchange neighborhood gossip while sipping.",
+        "insider_tip": "At bars, pay at the register first, take your receipt to the bar, then order. Never order 'espresso'—say 'un caffè.' For strong coffee, ask for 'caffè ristretto.'",
+        "price_level": "Affordable",
+        "good_for": ["Everyone", "Coffee lovers"],
+        "duration": "2 minutes",
+        "best_time": "Morning or after meals"
+      },
+      "image": "/images/rome/espresso.jpg"
+    },
+    {
+      "id": "food-014",
+      "slug": "wine-strategy",
+      "name_en": "Roman Wine Culture",
+      "name_local": "Vino Laziale",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Roman wine culture centers on Frascati and Castelli Romani whites made from Malvasia and Trebbiano grapes. The tradition of ordering 'vino della casa' (house wine) by the carafe remains strong—house wine is local, cheap (€8-12 per liter), and perfectly fine for daily drinking. Romans view wine as a meal accompaniment, not an event.",
+        "vibe": "Unpretentious, local",
+        "history": "The Castelli Romani hills have produced white wine since ancient Roman times. Historically, Romans drank wine with every meal, diluted with water. Wine snobbery is less common than in Tuscany.",
+        "insider_tip": "Always order house white wine by the half-liter carafe—it costs €4-6 and pairs perfectly with Roman food. Avoid expensive bottles in trattorias; they're unnecessary.",
+        "price_level": "Affordable",
+        "good_for": ["Meals", "White wine fans"],
+        "duration": "With meal",
+        "best_time": "Lunch or Dinner"
+      },
+      "image": "/images/rome/wine.jpg"
     }
   ],
   "must_see": [
     {
-      "title": "Daily Roman Life",
+      "title": "Daily Life",
       "id": "daily-life",
       "items": [
         {
@@ -240,7 +434,16 @@
           "name_local": "Mercato Rionale",
           "category": "sight",
           "is_generic_staple": true,
-          "description": "Markets (like Testaccio or Campo de' Fiori) are morning-only affairs. They are loud, functional, and where real food shopping happens. Go for the atmosphere and a fresh fruit snack.",
+          "description": {
+            "short": "Mercato rionale are neighborhood markets where Romans buy fresh produce daily—loud, functional affairs that close by 2pm. Vendors shout prices, argue with regulars, and sell seasonal ingredients. Romans shop daily because refrigerators are small and the tradition is to buy what's seasonal and eat it that day.",
+            "vibe": "Chaotic, authentic",
+            "history": "Roman markets date back to ancient times. Campo de' Fiori has operated since 1869, though now tourist-heavy. Testaccio Market, rebuilt in 2012, remains primarily local. The atmosphere is functional chaos, not Instagram-friendly.",
+            "insider_tip": "Go to Testaccio Market between 9-11am for the authentic experience. Buy seasonal fruit for a snack—vendors will slice it for you. Don't take photos of people without asking.",
+            "price_level": "Affordable",
+            "good_for": ["Early risers", "Foodies"],
+            "duration": "1 hour",
+            "best_time": "Morning (9-11am)"
+          },
           "image": "/images/rome/market.jpg"
         },
         {
@@ -250,7 +453,16 @@
           "name_local": "Roma di Notte",
           "category": "sight",
           "is_generic_staple": true,
-          "description": "Rome transforms after dark. The ruins are lit up, the air cools down, and the piazzas fill with locals. Walking the center at midnight is safer, quieter, and more magical than at noon.",
+          "description": {
+            "short": "Rome transforms after dark with dramatically lit ancient ruins, cooler air, and piazzas filled with locals. Night walks have been a tradition since the Grand Tour era (1600s-1800s). The daytime crowds disappear and the city belongs to locals again.",
+            "vibe": "Magical, quiet",
+            "history": "The city's monuments were first systematically lit in the 1930s. Modern LED lighting installed in the 2000s dramatically highlights the Colosseum, Trevi Fountain, and Forum. Romans have a tradition of 'passeggiata' (evening stroll) after dinner.",
+            "insider_tip": "Walk from Piazza Venezia to the Colosseum around 10pm-midnight for the best lighting and zero crowds. In summer, check the Lungo il Tevere festival for riverside bars.",
+            "price_level": "Affordable",
+            "good_for": ["Photographers", "Couples"],
+            "duration": "2-3 hours",
+            "best_time": "Night (10pm-midnight)"
+          },
           "image": "/images/rome/night-rome.jpg"
         }
       ]
@@ -266,7 +478,16 @@
           "name_local": "Colosseo",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The world's largest amphitheater. Book tickets WEEKS in advance. The underground tour is worth it.",
+          "description": {
+            "short": "The Colosseum is the largest amphitheater ever built, constructed between 70-80 AD to hold 50,000-80,000 spectators for gladiatorial combat, animal hunts, and executions. The floor could be flooded for mock naval battles. It's Italy's most-visited monument and the defining symbol of ancient Rome's power.",
+            "vibe": "Monumental, ancient",
+            "history": "After Rome's fall, it was quarried for building materials—marble was stripped for St. Peter's Basilica. The hypogeum (underground tunnels where gladiators and animals waited) only opened to tourists in 2010.",
+            "insider_tip": "Book the 'Full Experience' ticket online 2-4 weeks ahead—it includes underground and arena floor, far more interesting than standard tour. Go at 8am opening or late afternoon.",
+            "price_level": "Expensive",
+            "good_for": ["History buffs", "First-timers"],
+            "duration": "2-3 hours",
+            "best_time": "Early morning or late afternoon"
+          },
           "image": "/images/rome/colosseum.jpg",
           "geo": { "lat": 41.8902, "lng": 12.4922 }
         },
@@ -277,7 +498,16 @@
           "name_local": "Pantheon",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The best-preserved building from ancient Rome. The dome is an engineering miracle. Entry is now paid, book online.",
+          "description": {
+            "short": "The Pantheon is the best-preserved building from ancient Rome, built in 126 AD by Emperor Hadrian. Its concrete dome remained the world's largest unreinforced dome for 1,300 years. The oculus (9-meter hole at the dome's peak) is the only light source and lets rain fall directly onto the marble floor with drainage holes.",
+            "vibe": "Awe-inspiring, architectural",
+            "history": "It survived intact because it was converted to a church in 609 AD. The building's proportions are mathematically perfect: the dome's diameter equals its height. In 2023, it began charging admission for the first time.",
+            "insider_tip": "Go right at opening (9am) before tour groups arrive. Visit on a rainy day to see water pouring through the oculus—it's dramatic. Buy tickets online to skip the line.",
+            "price_level": "Affordable",
+            "good_for": ["Architecture lovers", "History buffs"],
+            "duration": "30-45 minutes",
+            "best_time": "Early morning"
+          },
           "image": "/images/rome/pantheon.jpg",
           "geo": { "lat": 41.8986, "lng": 12.4769 }
         }
@@ -294,7 +524,16 @@
           "name_local": "San Luigi",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A church, but actually a free art museum. Contains three stunning Caravaggio masterpieces. Bring coins to light up the paintings.",
+          "description": {
+            "short": "San Luigi dei Francesi is a church containing three massive Caravaggio paintings in the Contarelli Chapel: The Calling, The Inspiration, and The Martyrdom of St. Matthew (1599-1602). These paintings revolutionized art with their dramatic use of light and shadow. Entry is free, making it one of Rome's best art bargains.",
+            "vibe": "Intimate, dramatic",
+            "history": "The church was built in 1589 as the French national church in Rome. The chapel is small and dark; paintings are lit by coin-operated lights (€1 for 3 minutes). Many tourists walk past without realizing three masterpieces are inside.",
+            "insider_tip": "Bring €1 coins to light the paintings—the effect is theatrical. Go midday when the church is quieter. Stand close to see incredible detail in faces and hands.",
+            "price_level": "Affordable",
+            "good_for": ["Art lovers", "Budget travelers"],
+            "duration": "20-30 minutes",
+            "best_time": "Midday"
+          },
           "image": "/images/rome/san-luigi.jpg",
           "geo": { "lat": 41.8996, "lng": 12.4731 }
         },
@@ -305,7 +544,16 @@
           "name_local": "Giardino degli Aranci",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The most romantic sunset view in Rome. Overlooks the river and St. Peter's dome. Quiet and scented with orange trees.",
+          "description": {
+            "short": "The Orange Garden is a small hilltop park on the Aventine Hill with the best sunset view in Rome: St. Peter's dome perfectly framed by pine trees across the Tiber. The garden was created in 1932 when the city planted bitter orange trees (not edible). It's a local secret for sunset, though increasingly popular.",
+            "vibe": "Romantic, peaceful",
+            "history": "The park sits on one of Rome's original seven hills. In the 13th century, it was the site of a fortress for the Knights Templar. The adjacent Basilica of Santa Sabina is one of Rome's oldest churches (5th century).",
+            "insider_tip": "Arrive 45 minutes before sunset to claim a bench. The view is best in winter/spring when the air is clearer. The garden closes at dusk.",
+            "price_level": "Affordable",
+            "good_for": ["Couples", "Photographers"],
+            "duration": "1 hour",
+            "best_time": "Sunset"
+          },
           "image": "/images/rome/orange-garden.jpg",
           "geo": { "lat": 41.8845, "lng": 12.4797 }
         },
@@ -316,7 +564,16 @@
           "name_local": "Gianicolo",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The highest hill in Rome (not one of the 7). Sweeping panoramic views. A canon is fired daily at noon.",
+          "description": {
+            "short": "Gianicolo is the highest viewpoint in Rome with 360° panoramic views of the entire city. A cannon has been fired every day at noon from the terrace since 1847 to synchronize the city's clocks. The terrace offers the best overview: all seven hills, the Vatican, and the Apennine Mountains.",
+            "vibe": "Panoramic, breezy",
+            "history": "Gianicolo is not one of Rome's original seven hills but the tallest point. During the 1849 siege of Rome, Garibaldi's forces defended the city here. The equestrian statue of Garibaldi was erected in 1895.",
+            "insider_tip": "Go at 11:55am to watch the noon cannon firing—it's loud and dramatic. The walk up is steep; take bus 115 from Trastevere. Avoid midday in summer; no shade.",
+            "price_level": "Affordable",
+            "good_for": ["Panoramic views", "Families"],
+            "duration": "1 hour",
+            "best_time": "Before noon"
+          },
           "image": "/images/rome/gianicolo.jpg",
           "geo": { "lat": 41.8914, "lng": 12.4616 }
         }
@@ -333,7 +590,16 @@
           "name_local": "Basilica di San Pietro",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The center of the Catholic world. Massive, opulent, and free. Go at 7am to avoid the 2-hour line.",
+          "description": {
+            "short": "St. Peter's Basilica is the largest church in the world and the center of Catholicism, built over St. Peter's tomb. The current Renaissance structure was built 1506-1626 under multiple popes. Michelangelo designed the iconic dome at age 71. It contains masterpieces by Michelangelo, Bernini, and Raphael. Entry is free but lines can be 2+ hours.",
+            "vibe": "Opulent, massive",
+            "history": "The original basilica was built by Constantine in 326 AD. The basilica took 120 years to build and bankrupted the papacy, partly funding the Protestant Reformation. Bernini designed the surrounding colonnade in the 1660s.",
+            "insider_tip": "Go at 7am opening to skip lines entirely. The basilica is free, but climbing the dome costs €10 (elevator + stairs)—the view is worth it. Dress code: no shoulders or knees showing.",
+            "price_level": "Affordable",
+            "good_for": ["Catholics", "Architecture lovers"],
+            "duration": "2-3 hours",
+            "best_time": "Early morning (7am)"
+          },
           "image": "/images/rome/st-peters.jpg",
           "geo": { "lat": 41.9029, "lng": 12.4534 }
         },
@@ -344,7 +610,16 @@
           "name_local": "Musei Vaticani",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Home to the Sistine Chapel. It is incredibly crowded. Book the 'Early Morning' tour or prepare to be crushed.",
+          "description": {
+            "short": "The Vatican Museums contain 7km of corridors with one of the world's greatest art collections, ending in the Sistine Chapel with Michelangelo's ceiling (painted 1508-1512). The museums hold Egyptian artifacts, Greek statues, Renaissance paintings, and tapestries accumulated over 500 years. Over 6 million people visit annually, making it crushingly crowded.",
+            "vibe": "Crowded, world-class",
+            "history": "The museums began in 1506 when Pope Julius II placed ancient sculptures in the Cortile Ottagono. The Sistine Chapel is the final room; photography and talking are forbidden.",
+            "insider_tip": "Book the 'Early Morning' tour at 7:30am—you'll see the Sistine Chapel nearly empty. Regular entry is 9am and immediately packed. Plan 3-4 hours minimum. Wear comfortable shoes.",
+            "price_level": "Expensive",
+            "good_for": ["Art lovers", "Catholics"],
+            "duration": "3-4 hours",
+            "best_time": "Early morning (7:30am)"
+          },
           "image": "/images/rome/vatican-museums.jpg",
           "geo": { "lat": 41.9067, "lng": 12.4525 }
         }

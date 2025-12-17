@@ -51,7 +51,7 @@
     {
       "name": "Silver Lake & Echo Park",
       "vibe": "Creative & Hip",
-      "description": "The hills of East LA. Vintage stores, independent coffee shops, steep staircases, and a very localized community feel. It’s where the 'cool' crowd actually lives.",
+      "description": "The hills of East LA. Vintage stores, independent coffee shops, steep staircases, and a very localized community feel. It's where the 'cool' crowd actually lives.",
       "highlights": ["Sunset Junction", "Echo Park Lake", "Vintage Shopping"],
       "image": "/images/los-angeles/silver-lake.jpg"
     },
@@ -126,7 +126,16 @@
       "name_local": "Comida Mexicana",
       "category": "food",
       "is_generic_staple": true,
-      "description": "LA is arguably the best Mexican food city in the world. Know the difference: 'Taco Trucks' are for speed, street energy, and late nights (Al Pastor spit-roasted on the sidewalk). 'Taquerías' are for sit-down regional specialties like Oaxacan Mole or Yucatecan Cochinita Pibil. Do not limit yourself to just tacos.",
+      "description": {
+        "short": "Los Angeles is arguably the best Mexican food city in the world outside of Mexico itself, with diverse regional styles from Oaxaca, Jalisco, Yucatán, and beyond. Taco trucks offer fast, late-night street tacos with al pastor (spit-roasted pork) shaved fresh. Taquerías are sit-down restaurants serving regional specialties like mole negro, cochinita pibil, or birria. The food spans from $1 street tacos to upscale modern Mexican cuisine.",
+        "vibe": "Authentic, diverse",
+        "history": "LA's Mexican food culture predates California statehood—this was Mexico until 1848. Massive immigration waves in the 20th century brought regional cuisines. The taco truck boom exploded in the 1980s-90s, becoming LA's iconic street food. Today, LA has more authentic Mexican regional styles than most cities in Mexico.",
+        "insider_tip": "Don't limit yourself to tacos—try birria (goat stew), tlayudas (Oaxacan pizza), or sopes. Taco trucks parked near construction sites or churches often have the best quality. Look for al pastor spits rotating on the sidewalk. East LA and Boyle Heights have the most authentic concentrations.",
+        "price_level": "Affordable",
+        "good_for": ["Foodies", "Late night"],
+        "duration": "30-45 minutes",
+        "best_time": "Anytime"
+      },
       "image": "/images/los-angeles/tacos.jpg"
     },
     {
@@ -136,7 +145,16 @@
       "name_local": "K-BBQ",
       "category": "food",
       "is_generic_staple": true,
-      "description": "K-Town is a city within a city. K-BBQ is not just a meal; it is a 2-hour social event. Meat is grilled at your table, accompanied by endless 'banchan' (side dishes). It is loud, smoky, and communal. Leaving smelling like grilled meat is a badge of honor.",
+      "description": {
+        "short": "Korean BBQ is a 2-hour communal dining experience where marinated meats are grilled at your table, accompanied by endless banchan (small side dishes like kimchi, pickled radish, and seasoned vegetables). Koreatown is a dense city-within-a-city in Mid-Wilshire with dozens of 24-hour K-BBQ restaurants. It's loud, smoky, interactive, and social. Leaving smelling like grilled meat is a badge of honor.",
+        "vibe": "Social, smoky",
+        "history": "Koreatown exploded in the 1970s-80s as Korean immigrants settled in the Mid-Wilshire area. It's now the densest Korean enclave outside Korea. K-BBQ became mainstream in LA in the 1990s-2000s, introducing Americans to DIY grilling. The all-you-can-eat format is uniquely American—in Korea, you order à la carte.",
+        "insider_tip": "Go with a group of 3-4 people to share grilling duties and maximize meat variety. Wrap grilled meat in lettuce leaves (ssam) with garlic, ssamjang paste, and banchan. Order galbi (short ribs) and bulgogi (marinated beef). Many spots are open 24/7—post-club K-BBQ at 2am is a LA ritual.",
+        "price_level": "Moderate",
+        "good_for": ["Groups", "Social dining"],
+        "duration": "2 hours",
+        "best_time": "Dinner or late night"
+      },
       "image": "/images/los-angeles/korean-food.jpg"
     },
     {
@@ -146,7 +164,16 @@
       "name_local": "In-N-Out",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The California classic. Order a 'Double-Double Animal Style' (grilled onions + extra sauce). It is fast food, but the ingredients are never frozen and chopped fresh daily. The menu is simple for a reason.",
+      "description": {
+        "short": "In-N-Out is California's iconic fast-food burger chain, founded in 1948 and still family-owned. The menu is deliberately simple: burgers, fries, shakes. The secret is fresh ingredients—beef is never frozen, potatoes are hand-cut daily, and produce arrives fresh. The 'secret menu' includes 'Animal Style' (grilled onions, extra sauce, pickles) and 'Protein Style' (lettuce wrap instead of bun). Quality fast food at shocking prices ($5-8).",
+        "vibe": "Casual, Californian",
+        "history": "Founded by Harry and Esther Snyder in Baldwin Park in 1948 as California's first drive-thru burger stand. The company refuses to franchise or go public, maintaining quality control. It's become a cultural icon—visitors from outside California make pilgrimages. The palm tree logo is instantly recognizable.",
+        "insider_tip": "Order a 'Double-Double Animal Style' with grilled onions—it's the classic. 'Well-done fries' makes them extra crispy. The secret menu is real but not posted—staff know all the variations. Avoid lunch rush (12-2pm) when drive-thru lines are 30 minutes. Locations are everywhere.",
+        "price_level": "Affordable",
+        "good_for": ["Quick meals", "First-timers"],
+        "duration": "Quick bite",
+        "best_time": "Anytime (avoid lunch rush)"
+      },
       "image": "/images/los-angeles/in-n-out.jpg"
     },
     {
@@ -156,7 +183,16 @@
       "name_local": "Sushi",
       "category": "food",
       "is_generic_staple": true,
-      "description": "LA has the highest Japanese population in the US. The best sushi is often found in unassuming strip malls in the Valley or West LA, not just flashy noble places. The fish quality is universally high, from Omakase bars to casual hand-roll counters.",
+      "description": {
+        "short": "Los Angeles has the largest Japanese population in the US and some of the best sushi outside Japan. The best sushi is often found in unassuming strip malls in the Valley, West LA, or Torrance—not flashy restaurants. Options range from $300 omakase (chef's choice tasting menu) at intimate sushi bars to $12 hand-roll counters. The fish quality is universally high due to proximity to ports and Japanese suppliers.",
+        "vibe": "Fresh, authentic",
+        "history": "Japanese immigration to LA began in the early 1900s, with Little Tokyo established by 1920. Post-WWII, the community rebuilt and spread to Gardena, Torrance, and the Valley. Sushi exploded in mainstream American culture in the 1980s-90s, with LA as the epicenter. Today, LA's sushi rivals Tokyo in quality and innovation.",
+        "insider_tip": "Don't judge by appearances—strip mall sushi can be world-class. Look for Japanese-speaking clientele as a quality indicator. Omakase counters require reservations weeks ahead. For casual, hand-roll spots serve fresh fish at counter-service speed. Torrance and Gardena have the highest concentration of authentic spots. Avoid sushi at non-Japanese restaurants.",
+        "price_level": "Moderate",
+        "good_for": ["Foodies", "Sushi lovers"],
+        "duration": "1 hour",
+        "best_time": "Dinner"
+      },
       "image": "/images/los-angeles/sushi.jpg"
     },
     {
@@ -166,7 +202,16 @@
       "name_local": "Green Juice / Açaí",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Health is a flavor profile here. Expect to find Cold-Pressed Juice, Açaí Bowls, and 'Adaptogenic Smoothies' on every corner. It’s not a diet; it’s a lifestyle. Breakfast often looks like a $14 smoothie rather than a pastry.",
+      "description": {
+        "short": "Health and wellness food is a lifestyle in LA, not a diet trend. Cold-pressed juice, açaí bowls, adaptogenic smoothies, and grain bowls dominate breakfast and lunch culture. Ingredients like spirulina, activated charcoal, and CBD are mainstream. Breakfast often looks like a $14 green smoothie rather than pastries. It's available on every corner, from Venice to Silver Lake to Beverly Hills.",
+        "vibe": "Healthy, trendy",
+        "history": "LA's health food culture dates to the 1970s hippie movement but exploded in the 2010s with Instagram and wellness influencers. The rise of juice bars, vegan restaurants, and 'superfood' culture became synonymous with LA lifestyle. Companies like Moon Juice and Erewhon (luxury supermarket) epitomize the scene.",
+        "insider_tip": "Açaí bowls are Instagram-friendly but high in sugar—treat them as dessert. Cold-pressed juice is expensive ($10-15) but genuinely fresh. Erewhon is the luxury wellness supermarket where smoothies cost $20—it's absurd but culturally iconic. Order the 'glow bowl' or 'green goddess smoothie' at any juice bar.",
+        "price_level": "Expensive",
+        "good_for": ["Health-conscious", "Breakfast"],
+        "duration": "Quick bite",
+        "best_time": "Morning or post-workout"
+      },
       "image": "/images/los-angeles/juice.jpg"
     },
     {
@@ -176,7 +221,16 @@
       "name_local": "Donuts",
       "category": "food",
       "is_generic_staple": true,
-      "description": "A distinct LA morning ritual, often driven by Cambodian-American families who own the majority of independent shops. These pink-box donut shops are everywhere, open early (or 24/7), cheap, and unpretentious. The 'Old Fashioned' or 'Apple Fritter' are staples.",
+      "description": {
+        "short": "LA's donut culture is driven by Cambodian-American families who own 90% of independent donut shops—a unique immigrant success story. These pink-box donut shops are everywhere, open early (5am) or 24/7, cheap ($1-2 per donut), and unpretentious. Classic varieties include old-fashioned buttermilk, apple fritters, and glazed twists. The shops are community hubs, often the only thing open in neighborhoods at 6am.",
+        "vibe": "Casual, nostalgic",
+        "history": "Cambodian refugees arrived in the 1970s-80s fleeing the Khmer Rouge. Ted Ngoy, the 'Donut King,' sponsored hundreds of refugees and trained them in donut-making. By the 1990s, Cambodian families dominated LA's independent donut market. The pink box became iconic through Cambodian shops using the cheapest supplier. It's now LA's signature packaging.",
+        "insider_tip": "The pink box is iconic—if you're bringing donuts to someone's house, get the pink box. Old-fashioned buttermilk and apple fritters are the classics. Many shops are 24/7, making them perfect for late-night munchies. Support independent shops over chains—they're family-run and make everything fresh daily.",
+        "price_level": "Affordable",
+        "good_for": ["Breakfast", "Snacks"],
+        "duration": "Quick bite",
+        "best_time": "Morning"
+      },
       "image": "/images/los-angeles/donuts.jpg"
     },
     {
@@ -186,7 +240,16 @@
       "name_local": "Grand Central Market",
       "category": "food",
       "is_generic_staple": false,
-      "description": "A historic food hall in Downtown since 1917. It brings together the city's diversity under one roof: pupusas, currywurst, tacos, and trendy egg sandwiches. It is crowded, loud, and iconic.",
+      "description": {
+        "short": "Grand Central Market is a historic food hall in Downtown LA operating since 1917. It's a chaotic, multicultural food bazaar under one roof: pupusas, currywurst, tacos, Thai boat noodles, and trendy egg sandwiches. The market survived decades of downtown decline and gentrified in the 2010s, now mixing old-school vendors with hipster food stalls. It's crowded, loud, and iconic.",
+        "vibe": "Bustling, diverse",
+        "history": "Opened in 1917 as a produce and meat market serving downtown workers. It declined in the 1980s-90s as downtown hollowed out. The 2013 renovation brought trendy vendors, preserving historic stalls. It became a symbol of DTLA's revival. Old vendors like Roast to Go coexist with newcomers like Eggslut.",
+        "insider_tip": "Go on weekdays before noon to avoid crushing crowds. The pupusas at Sarita's Pupuseria are legendary—order with curtido (pickled cabbage). Roast to Go (since 1952) serves cheap, massive pastrami sandwiches. Sit at the communal tables upstairs for people-watching. Parking is a nightmare—take the Metro.",
+        "price_level": "Affordable",
+        "good_for": ["Foodies", "Quick lunch"],
+        "duration": "1 hour",
+        "best_time": "Weekday morning"
+      },
       "image": "/images/los-angeles/grand-central.jpg",
       "geo": { "lat": 34.0508, "lng": -118.2487 }
     }
@@ -203,7 +266,16 @@
           "name_local": "Venice Boardwalk",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Do not confuse this with Santa Monica. Venice is the gritty, artistic, chaotic soul of the coast. Walk the Boardwalk to see Muscle Beach, street performers, skaters, and the sheer weirdness of LA on display. It is raw and unapologetic.",
+          "description": {
+            "short": "Venice Beach is the gritty, artistic, chaotic soul of LA's coast—completely different from polished Santa Monica next door. The Boardwalk features Muscle Beach (outdoor gym), street performers, skaters, artists, and vendors selling everything from incense to hand-painted portraits. It's raw, unapologetic, and showcases LA's weirdness. The canals nearby offer a quieter, picturesque alternative.",
+            "vibe": "Chaotic, artistic",
+            "history": "Founded in 1905 by Abbot Kinney as 'Venice of America' with canals mimicking Venice, Italy. It became a bohemian artist colony in the 1950s-60s. Muscle Beach attracted bodybuilders like Arnold Schwarzenegger in the 1970s. Gentrification in the 2000s-2010s pushed out many artists but preserved the counterculture vibe.",
+            "insider_tip": "Go in the afternoon when performers are most active. Muscle Beach is free to watch (or join). Walk the Venice Canals (a few blocks inland) for a surreal, quiet contrast to the boardwalk chaos. Avoid walking alone at night—Venice has higher petty crime than Santa Monica. Street parking is impossible; use paid lots.",
+            "price_level": "Affordable",
+            "good_for": ["People watching", "Photography"],
+            "duration": "2 hours",
+            "best_time": "Afternoon"
+          },
           "image": "/images/los-angeles/venice.jpg",
           "geo": { "lat": 33.9850, "lng": -118.4695 }
         },
@@ -214,7 +286,16 @@
           "name_local": "Mulholland",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "LA is a city meant to be seen from a car. Driving the winding ridges of Mulholland offers spectacular views of the LA Basin on one side and the San Fernando Valley on the other. Stop at the scenic overlooks at sunset.",
+          "description": {
+            "short": "Mulholland Drive is a winding ridgeline road offering spectacular views of the LA Basin on one side and the San Fernando Valley on the other. The drive is quintessential LA—a car experience through the Hollywood Hills with scenic overlooks. Sunset is the prime time. The road inspired the David Lynch film and countless songs. It's where LA's geography and mythology intersect.",
+            "vibe": "Scenic, cinematic",
+            "history": "Named after William Mulholland, the engineer who built LA's aqueduct in 1913, bringing water from 200 miles away and enabling the city's explosive growth. The drive was completed in the 1920s. It's featured in countless films and music videos as the archetypal LA vista.",
+            "insider_tip": "Drive west to east in late afternoon so the sun is behind you for better views. Stop at the overlooks near Cahuenga Pass or the Sepulveda Pass for panoramic photos. The road is narrow and winding—drive carefully. Combine with Griffith Observatory (just south) for a full day. Go on weekdays to avoid weekend traffic.",
+            "price_level": "Affordable",
+            "good_for": ["Scenic drives", "Photography"],
+            "duration": "1-2 hours",
+            "best_time": "Sunset"
+          },
           "image": "/images/los-angeles/mulholland.jpg",
           "geo": { "lat": 34.1336, "lng": -118.3526 }
         },
@@ -225,7 +306,16 @@
           "name_local": "Griffith Observatory",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The best vantage point in the city. You get a direct line of sight to the Hollywood Sign and a panoramic view of the grid below. It is a stunning Art Deco monument to public science. Go on a weekday to survive the parking.",
+          "description": {
+            "short": "Griffith Observatory is an Art Deco monument to public science perched on Mount Hollywood with the best vantage point in the city. You get direct views of the Hollywood Sign, downtown skyline, and the entire LA basin sprawling to the ocean. Inside are planetarium shows, telescopes, and exhibits. Entry to the building and grounds is free. It's appeared in countless films including Rebel Without a Cause and La La Land.",
+            "vibe": "Iconic, panoramic",
+            "history": "Opened in 1935, funded by mining magnate Griffith J. Griffith who donated the land. The building's Art Deco design by John C. Austin has remained largely unchanged. Free public telescopes were revolutionary—Griffith believed astronomy should be accessible to all. It's been a filming location since the 1940s.",
+            "insider_tip": "Go on weekdays to survive the parking nightmare—weekends have 2-hour waits for parking. The best view is from the front lawn at sunset. The planetarium show ($7) is worth it. Free telescopes are available after dark. Hike up from the Greek Theatre parking lot to avoid car chaos. The cafe is overpriced—eat before or after.",
+            "price_level": "Affordable",
+            "good_for": ["Views", "Photography"],
+            "duration": "2-3 hours",
+            "best_time": "Sunset or weekday"
+          },
           "image": "/images/los-angeles/griffith.jpg",
           "geo": { "lat": 34.1184, "lng": -118.3004 }
         }
@@ -242,7 +332,16 @@
           "name_local": "The Flea",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Vintage shopping is a sport here. The massive Rose Bowl Flea Market (monthly) or the weekly Melrose Trading Post are where locals build their 'casual' aesthetic. It’s about hunting for unique denim, furniture, and art.",
+          "description": {
+            "short": "Vintage shopping is a sport in LA, where people build their 'effortlessly cool' aesthetic by hunting through flea markets. The Rose Bowl Flea Market (second Sunday monthly in Pasadena) is the massive, famous one with 2,500 vendors. Melrose Trading Post (Sundays in Fairfax) is smaller, more curated, and local-focused. You'll find vintage Levi's, mid-century furniture, band t-shirts, and art. Arrive early for best selection.",
+            "vibe": "Vintage, bustling",
+            "history": "The Rose Bowl Flea Market started in 1968 and has become one of America's largest vintage markets. LA's vintage culture exploded in the 1990s-2000s as the city's thrift and resale scene became legendary. The markets feed LA's fashion industry and film costume departments.",
+            "insider_tip": "Rose Bowl early entry ($20, 5am) gets you first pick before the crowds. Regular entry starts at 9am ($12). Bring cash—many vendors don't take cards. Wear comfortable shoes and sunscreen—it's massive and exposed. Melrose Trading Post is more manageable (3 hours vs. 6+ at Rose Bowl). Haggling is expected but be respectful.",
+            "price_level": "Moderate",
+            "good_for": ["Vintage hunters", "Furniture shopping"],
+            "duration": "3-6 hours",
+            "best_time": "Early morning"
+          },
           "image": "/images/los-angeles/flea-market.jpg",
           "geo": { "lat": 34.1613, "lng": -118.1676 }
         }
@@ -259,7 +358,16 @@
           "name_local": "Runyon",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The 'social hike'. Great city views, lots of dogs, and a high chance of a celebrity sighting (or at least an influencer filming a workout). Wear your best matching workout set; this is a place to be seen.",
+          "description": {
+            "short": "Runyon Canyon is LA's 'social hike'—a 3-mile loop in the Hollywood Hills with city views, off-leash dogs everywhere, and a high probability of celebrity or influencer sightings. It's less about nature and more about being seen in your best matching workout set. The views are spectacular, the hike is moderate, and the people-watching is unmatched. It's peak LA culture.",
+            "vibe": "Social, performative",
+            "history": "The land was owned by various Hollywood figures including Errol Flynn. It became a public park in 1984. The off-leash dog policy made it LA's unofficial dog park. In the 2010s, it became an Instagram hotspot and the quintessential LA fitness flex.",
+            "insider_tip": "Go early (7-8am) to avoid crowds and heat—by 10am it's a parade. Park on residential streets north of the entrance (Fuller Ave) to avoid the parking nightmare. The main trail is wide and easy; the side trails are steeper. Wear stylish athleisure—you're being judged. Bring water and bags for dog poop (even if you don't have a dog).",
+            "price_level": "Affordable",
+            "good_for": ["Hiking", "People watching"],
+            "duration": "1-2 hours",
+            "best_time": "Early morning"
+          },
           "image": "/images/los-angeles/runyon.jpg",
           "geo": { "lat": 34.1107, "lng": -118.3503 }
         },
@@ -270,7 +378,16 @@
           "name_local": "The Getty",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A modernist masterpiece by Richard Meier perched on a hilltop. It offers world-class art, stunning architecture, and white travertine gardens. The tram ride up sets the tone: you are leaving the city noise behind.",
+          "description": {
+            "short": "The Getty Center is a hilltop modernist masterpiece by architect Richard Meier, housing world-class art (Van Gogh, Monet, Renaissance paintings), stunning architecture, and white travertine gardens with panoramic city views. Entry is free (parking is $20). The tram ride up sets the tone—you're leaving the city chaos behind. It's serene, beautiful, and one of LA's best free attractions.",
+            "vibe": "Serene, sophisticated",
+            "history": "Opened in 1997, funded by oil tycoon J. Paul Getty's trust—at the time the wealthiest art institution in the world. Richard Meier's design uses travertine stone and natural light throughout. The gardens were designed by artist Robert Irwin. The Getty Villa (separate location in Malibu) focuses on antiquities.",
+            "insider_tip": "Parking reservations are required—book online days ahead. Arrive by 11am before crowds surge. The Central Garden is stunning and often overlooked. Bring a picnic for the outdoor terraces (no food inside galleries). Sunset visits offer golden light on the architecture. The cafe is overpriced; pack snacks.",
+            "price_level": "Affordable",
+            "good_for": ["Art lovers", "Architecture fans"],
+            "duration": "3-4 hours",
+            "best_time": "Morning or sunset"
+          },
           "image": "/images/los-angeles/getty.jpg",
           "geo": { "lat": 34.0780, "lng": -118.4741 }
         },
@@ -281,7 +398,16 @@
           "name_local": "WB Tour",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The most authentic studio tour. Unlike theme parks, this takes you into working soundstages and backlots where 'Friends', 'Gilmore Girls', and Batman movies were actually filmed. Essential for film history fans.",
+          "description": {
+            "short": "Warner Bros. Studio Tour is the most authentic behind-the-scenes Hollywood experience, taking you into working soundstages and backlots where Friends, Gilmore Girls, The Big Bang Theory, and Batman films were actually shot. Unlike Universal Studios (a theme park), this is a real working studio. Tours are small groups (12 people) led by guides. You see sets, props, costumes, and learn how films and TV are made.",
+            "vibe": "Authentic, cinematic",
+            "history": "Warner Bros. Studios opened in Burbank in 1928 during Hollywood's Golden Age. The backlot has been used for thousands of productions over 95+ years. The tour started in 1973, evolving from a simple tram ride to an immersive experience. The studio still produces major shows and films today.",
+            "insider_tip": "Book weeks in advance—tours sell out. The deluxe tour ($70+) allows more time and access. Go early in the week when productions are actively filming—you might see celebrities. The backlot's 'Midwest Street' has been in countless films. Photography is allowed on backlot but not in soundstages. Combine with lunch at nearby Porto's Bakery (Cuban pastries).",
+            "price_level": "Expensive",
+            "good_for": ["Film fans", "Behind-the-scenes"],
+            "duration": "3 hours",
+            "best_time": "Weekday morning"
+          },
           "image": "/images/los-angeles/wb-tour.jpg",
           "geo": { "lat": 34.1486, "lng": -118.3377 }
         }

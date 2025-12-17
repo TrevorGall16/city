@@ -187,7 +187,16 @@
       "name_local": "A Slice",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The 'Slice' is a distinct food group from the 'Whole Pie'. It is the fast food of daily life, eaten standing up or walking. It is thin, greasy, and foldable. Order a 'Regular' slice (not 'cheese'). Fold it to eat.",
+      "description": {
+        "short": "The 'Slice' is a distinct food category in NYC—different from a 'whole pie'—and serves as fast food for daily life. It's a thin-crust, greasy, triangular slice eaten standing up or while walking. The proper technique is to fold it lengthwise ('Libretto style') so the tip doesn't flop. Order a 'Regular' slice or 'Plain' slice, never 'cheese slice.' It's available 24/7 at pizzerias across all five boroughs.",
+        "vibe": "Quick, utilitarian",
+        "history": "Pizza slices emerged in NYC in the 1930s-40s as Italian immigrants adapted Neapolitan pizza for American fast-food culture. The 'dollar slice' phenomenon started in the 2000s with $1 slices, now $1.50-3 due to inflation. It became the unofficial fuel of working New Yorkers.",
+        "insider_tip": "Never use a fork and knife—you'll be judged. Fold the slice down the middle to prevent tip flop and contain the grease. Late-night slices (post-bar, 2-4am) are a NYC ritual. Reheat methods are debated: skillet vs. oven vs. eating cold. Found everywhere, but avoid tourist traps near Times Square.",
+        "price_level": "Affordable",
+        "good_for": ["Quick meals", "Late night"],
+        "duration": "5 minutes",
+        "best_time": "Anytime (especially late night)"
+      },
       "image": "/images/new-york/pizza-slice.jpg"
     },
     {
@@ -197,7 +206,16 @@
       "name_local": "Everything Bagel",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Brought by Polish-Jewish immigrants, a true NYC bagel is boiled before baking. 'Everything' seasoning is the default. The Toasting Schism: Purists say never toast a fresh morning bagel. Locals often do anyway. Know your order before reaching the counter.",
+      "description": {
+        "short": "A NYC bagel is a hand-rolled, boiled-then-baked bread ring with a dense, chewy interior and shiny crust. The 'Everything' bagel (topped with sesame seeds, poppy seeds, onion, garlic, salt) is the quintessential NYC order. Bagels are served with cream cheese ('schmear'), lox (cured salmon), tomato, onion, and capers. The 'Toasting Schism' divides purists (never toast fresh) from pragmatists (toast if not fresh).",
+        "vibe": "Classic, rushed",
+        "history": "Brought by Polish-Jewish immigrants in the late 1800s. NYC's water quality (soft water with specific mineral content) is credited for the distinctive taste and texture. Bagel-making was a protected craft guild until the 1960s. The everything bagel was invented in the 1980s at a Queens shop.",
+        "insider_tip": "Know your order before reaching the counter—the line moves fast and countermen have no patience. A 'schmear' means a thin layer of cream cheese, not a glob. Fresh morning bagels (before 10am) don't need toasting. Order like a local: 'Everything, lox, schmear, tomato, onion.' Found at bagel shops and bodegas citywide.",
+        "price_level": "Affordable",
+        "good_for": ["Breakfast", "Brunch"],
+        "duration": "Quick bite",
+        "best_time": "Morning"
+      },
       "image": "/images/new-york/bagel.jpg"
     },
     {
@@ -207,7 +225,16 @@
       "name_local": "BEC",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The bodega breakfast staple. Served on a roll (not toast), it is efficient, salty, and cheap. Order it as one word: 'Baconeggandcheese'. Add 'saltpepperketchup' for the full experience.",
+      "description": {
+        "short": "The BEC (Bacon Egg and Cheese) is the quintessential bodega breakfast sandwich: fried eggs, bacon, and American cheese on a roll (never toast), wrapped in foil. It's efficient, greasy, salty, and cheap ($4-6). Order it as one rushed word at the bodega counter: 'Baconeggandcheese.' Add 'saltpepperketchup' (SPK) for the full working-class NYC experience.",
+        "vibe": "Working-class, rushed",
+        "history": "The BEC emerged in the 1950s-60s as bodegas (corner stores run by Puerto Rican and later Yemeni/Dominican immigrants) added griddles. It became the fuel of construction workers, cab drivers, and office workers. The roll vs. bagel debate is eternal—roll is traditional, bagel is bourgeois.",
+        "insider_tip": "The key is the bodega griddle technique—eggs fried in butter with crispy edges, cheese melted directly on the eggs. Order on a 'roll' (Kaiser roll) for authenticity. Ask for 'SPK' (salt, pepper, ketchup) to sound like a local. Eat it hot and immediately—the foil keeps it warm for exactly 10 minutes.",
+        "price_level": "Affordable",
+        "good_for": ["Breakfast", "Hangover cure"],
+        "duration": "5 minutes",
+        "best_time": "Morning"
+      },
       "image": "/images/new-york/bec.jpg"
     },
     {
@@ -217,7 +244,16 @@
       "name_local": "Whole Pie",
       "category": "food",
       "is_generic_staple": true,
-      "description": "This is a destination meal, not a snack. Cooked in 100-year-old anthracite coal ovens at 900°F, these pies are charred, crispy, and smoky. You must sit down, wait in line, and order the whole pie. It is a social event.",
+      "description": {
+        "short": "Coal oven pizza is a sit-down, destination meal cooked in 100-year-old anthracite coal ovens at 900°F (480°C), creating a charred, crispy, smoky crust in under 3 minutes. This is a 'whole pie' experience, not a slice—you sit down, wait in line, and order an entire pizza. The crust bubbles and chars ('leoparding'), and the center stays chewy. It's a social event requiring planning and patience.",
+        "vibe": "Iconic, charred",
+        "history": "Coal ovens arrived with Italian immigrants in the early 1900s. Lombardi's (1905) claims to be America's first pizzeria. Coal was phased out citywide in the 1960s due to Clean Air Act regulations, but a few historic ovens were grandfathered in. The ovens are 100+ years old and irreplaceable.",
+        "insider_tip": "Make reservations or arrive before opening to avoid 2-hour waits. Coal oven pizzerias don't do slices—you're ordering a full pie. The charred spots (leoparding) are desirable, not burnt. Iconic spots are in Brooklyn and Manhattan. Don't ask for extra toppings—simplicity is the point (margherita or white pie).",
+        "price_level": "Moderate",
+        "good_for": ["Dinner", "Groups"],
+        "duration": "1-2 hours",
+        "best_time": "Dinner"
+      },
       "image": "/images/new-york/coal-pizza.jpg"
     },
     {
@@ -227,7 +263,16 @@
       "name_local": "Bagel & Lox",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Distinct from a 'Deli' (which does cured meats), an 'Appetizing Store' specializes in smoked fish and dairy. This is where you get Lox, Sable, Whitefish Salad, and Scallion Cream Cheese. The ordering process is fast, loud, and by the numbers.",
+      "description": {
+        "short": "An 'Appetizing Store' is distinct from a 'Deli' (which sells cured meats)—it specializes in smoked fish, dairy, and pickled vegetables. This is where you get lox, nova (cold-smoked salmon), sable (smoked black cod), whitefish salad, and scallion cream cheese. The ordering process is fast, loud, and uses numbered tickets. Staff shout orders and slice fish to order.",
+        "vibe": "Traditional, efficient",
+        "history": "Appetizing stores emerged in the early 1900s to serve kosher-observant Jews who couldn't mix meat and dairy. Russ & Daughters (1914) on the Lower East Side is the iconic survivor. The term 'appetizing' refers to foods eaten as appetizers or with bread—fish, cheese, pickles.",
+        "insider_tip": "Take a number and know your order before reaching the counter—staff are gruff but efficient. Order by weight: '1/4 pound nova, scallion schmear, half sour pickles.' Lox is salt-cured and oily; nova is milder and smoked. Sable is richer than salmon and an insider favorite. Eat the fish within 2 days.",
+        "price_level": "Moderate",
+        "good_for": ["Brunch", "Foodies"],
+        "duration": "30 minutes",
+        "best_time": "Weekend morning"
+      },
       "image": "/images/new-york/appetizing.jpg"
     },
     {
@@ -237,7 +282,16 @@
       "name_local": "Chopped Cheese",
       "category": "food",
       "is_generic_staple": true,
-      "description": "A Harlem/Bronx icon now citywide. Ground beef chopped on a grill with onions, peppers, and melted American cheese on a hero roll. A working-class staple. Authenticity check: cheese must be melted INTO the meat.",
+      "description": {
+        "short": "The Chopped Cheese is a Harlem and Bronx icon: ground beef chopped and fried on a griddle with onions, mixed with melted American cheese until inseparable, then served on a hero roll with lettuce, tomato, and mayo. It's a working-class bodega staple, similar in spirit to a Philly cheesesteak. The authenticity check is that the cheese must be melted INTO the meat, not on top.",
+        "vibe": "Gritty, local",
+        "history": "The Chopped Cheese emerged in Harlem bodegas in the 1990s, possibly inspired by Arabic lamb sandwiches from Yemeni bodega owners. It spread through the Bronx and Upper Manhattan, remaining hyperlocal until the 2010s when it became 'discovered' by food media and went citywide. It's still most authentic in its birthplace neighborhoods.",
+        "insider_tip": "Order it from a bodega in Harlem, the Bronx, or Washington Heights for authenticity. The griddle technique matters—the meat and cheese should form a cohesive, gooey mass. Add hot sauce if you want. It's a $6-8 meal that's filling and greasy. Avoid gentrified versions at trendy restaurants.",
+        "price_level": "Affordable",
+        "good_for": ["Lunch", "Comfort food"],
+        "duration": "Quick bite",
+        "best_time": "Lunch or late night"
+      },
       "image": "/images/new-york/chopped-cheese.jpg"
     },
     {
@@ -247,7 +301,16 @@
       "name_local": "Diner",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The cultural safety net of the city. Usually Greek-owned, often 24/7, with massive laminated menus. It is not gourmet; it is comfort. Highlights include endless coffee refills, disco fries, and breakfast at 3pm.",
+      "description": {
+        "short": "The NYC diner is the cultural safety net of the city: usually Greek-owned, often open 24/7, with enormous laminated menus offering everything from Greek salads to matzoh ball soup to disco fries (cheese fries with gravy). It's not gourmet—it's comfort, consistency, and endlessly refilled coffee. You can order breakfast at 3pm, dinner at 7am. The diner accepts everyone at any hour without judgment.",
+        "vibe": "Comforting, democratic",
+        "history": "Greek immigrants dominated NYC diners starting in the 1950s-60s, buying out Art Deco railroad-car-style diners and expanding menus to appeal to everyone. The '24/7' culture made diners essential infrastructure for shift workers, insomniacs, and late-night revelers. They're shrinking in number due to rising rents but remain iconic.",
+        "insider_tip": "Order 'disco fries' (cheese fries with brown gravy—superior to poutine). Coffee refills are infinite and free. Diners serve breakfast all day—this is the law. Booths are prime seating. Tipping is 15-20%. Diners are judgment-free zones: you can sit for hours nursing coffee. Found throughout the city, especially Queens.",
+        "price_level": "Affordable",
+        "good_for": ["Late night", "Comfort food"],
+        "duration": "1 hour",
+        "best_time": "Late night or breakfast"
+      },
       "image": "/images/new-york/diner.jpg"
     },
     {
@@ -257,8 +320,36 @@
       "name_local": "Cheesecake",
       "category": "food",
       "is_generic_staple": true,
-      "description": "New York style cheesecake is dense, rich, and baked. It relies on heavy cream and cream cheese, not fluffiness. It is often eaten plain, without fruit toppings. A slice is substantial enough to be a meal.",
+      "description": {
+        "short": "New York-style cheesecake is dense, rich, and baked—not fluffy. It's made with heavy cream, cream cheese (Philadelphia brand is canonical), eggs, and sugar on a graham cracker crust. The texture is firm and creamy, never airy. It's often served plain, without fruit toppings, though strawberry topping is acceptable. A slice is substantial enough to be a meal and requires a strategic eating approach.",
+        "vibe": "Rich, indulgent",
+        "history": "Cheesecake arrived with Jewish immigrants who adapted European recipes using American cream cheese (invented 1872). Junior's in Brooklyn (1950) and Lindy's in Manhattan (1921-closed) became legendary. The NY style (baked, dense) contrasts with Italian (ricotta-based) and Japanese (light, jiggly) versions.",
+        "insider_tip": "Junior's in Brooklyn is the most famous, but many delis and diners serve excellent versions. Eat it cold, never room temperature. A slice is huge—consider sharing. Plain or with strawberry topping are traditional; chocolate or other flavors are tourist traps. Pair with black coffee to cut the richness.",
+        "price_level": "Affordable",
+        "good_for": ["Dessert", "Sharing"],
+        "duration": "20 minutes",
+        "best_time": "After dinner"
+      },
       "image": "/images/new-york/cheesecake.jpg"
+    },
+    {
+      "id": "food-017",
+      "slug": "hot-dog",
+      "name_en": "Street Hot Dogs",
+      "name_local": "Dirty Water Dog",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "The NYC street hot dog (affectionately called a 'dirty water dog') is a beef or pork frank boiled in metal cart water, served on a steamed bun with optional toppings: mustard, sauerkraut, onions in tomato sauce, and relish. They're sold from iconic metal pushcarts by vendors with umbrellas. It's cheap ($2-4), fast, and eaten while walking. The 'dirty water' refers to the murky water that simmers the hot dogs all day.",
+        "vibe": "Iconic, gritty",
+        "history": "Hot dog carts arrived with German immigrants in the 1860s-1870s. Nathan's Famous in Coney Island (1916) became the most famous purveyor. By the 1900s, street carts were ubiquitous. The metal cart design and the dirty water cooking method became NYC signatures. Gray's Papaya and Papaya King (1932) offer cheap sit-down versions.",
+        "insider_tip": "The classic topping combo is mustard and sauerkraut—never ketchup (locals will judge you). The onions in tomato sauce are a NYC specialty. Eat it in 4-5 bites before the bun disintegrates. Carts cluster near subway exits, tourist sites, and outside bars at 2am. Nathan's in Coney Island is the pilgrimage site.",
+        "price_level": "Affordable",
+        "good_for": ["Quick snack", "Late night"],
+        "duration": "5 minutes",
+        "best_time": "Anytime"
+      },
+      "image": "/images/new-york/hot-dog.jpg"
     },
     {
       "id": "food-014",
@@ -267,8 +358,55 @@
       "name_local": "Street Cart",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The smell of winter in NYC. Carts roast honey-peanuts, cashews, and almonds on site. They also sell soft, salty pretzels with mustard. Cheap, fast, and eaten while walking to the subway.",
+      "description": {
+        "short": "Street carts sell hot soft pretzels (large, salty, chewy) with mustard, and roasted nuts (honey-roasted peanuts, cashews, almonds) roasted on-site in rotating drums. The smell of roasting nuts is the smell of NYC winter. They're cheap ($2-5), fast, and eaten while walking to the subway or between errands. The pretzels are dense and require serious jaw work.",
+        "vibe": "Nostalgic, warming",
+        "history": "Soft pretzels arrived with German immigrants in the 1800s. Street cart culture exploded in the early 1900s as immigrants found entrepreneurial opportunities. The iconic metal carts became regulated by the city. Roasted nuts were added in the mid-1900s as vendors diversified. The smell of roasting nuts is now synonymous with NYC street corners.",
+        "insider_tip": "Pretzels are best with yellow mustard—no other condiments. They're dense and filling, essentially a meal. Honey-roasted peanuts are the most popular nut flavor. Buy them in paper bags and eat them hot. Carts cluster near subway stations and office buildings during lunch. Winter is peak pretzel and nut season.",
+        "price_level": "Affordable",
+        "good_for": ["Snacking", "Winter"],
+        "duration": "5 minutes",
+        "best_time": "Winter, anytime"
+      },
       "image": "/images/new-york/street-nuts.jpg"
+    },
+    {
+      "id": "food-018",
+      "slug": "black-white-cookie",
+      "name_en": "Black and White Cookie",
+      "name_local": "Black and White",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "The Black and White Cookie is a soft, cake-like cookie (about 4 inches diameter) with a flat top covered in half chocolate icing and half vanilla icing. It's more cookie-shaped cake than actual cookie—tender and spongy. Despite the name, it's not truly a cookie (no crunch). It's sold at delis, bakeries, and bodegas across NYC and is eaten as a snack or dessert with coffee.",
+        "vibe": "Sweet, nostalgic",
+        "history": "Created by Glaser's Bake Shop in Yorkville (German-Jewish neighborhood) in the early 1900s. Originally called 'half-moon cookies,' they became 'black and whites.' The treat gained fame from a Seinfeld episode where Jerry used it as a metaphor for racial harmony. It's uniquely New York—rarely found outside the city.",
+        "insider_tip": "Eat it by alternating bites to get both chocolate and vanilla in each bite—this is Seinfeld-approved technique. The cake should be soft and fresh, not dry. Buy from old-school Jewish bakeries or delis, not Starbucks (inferior). Best paired with black coffee. It's not a breakfast item—afternoon snack or dessert.",
+        "price_level": "Affordable",
+        "good_for": ["Snacking", "Coffee pairing"],
+        "duration": "10 minutes",
+        "best_time": "Afternoon"
+      },
+      "image": "/images/new-york/black-white-cookie.jpg"
+    },
+    {
+      "id": "food-019",
+      "slug": "knish",
+      "name_en": "Knish",
+      "name_local": "Knish",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A knish is a baked or fried dumpling of Eastern European Jewish origin: a ball of mashed potato filling wrapped in dough, either round or square. Fillings vary (potato, kasha, spinach, cheese) but potato is the classic. It's dense, filling, cheap ($3-5), and served hot. You eat it with your hands, often with mustard. It's working-class fuel—a hot, portable meal in one package.",
+        "vibe": "Hearty, old-school",
+        "history": "Brought by Jewish immigrants from Ukraine and Poland in the late 1800s. Yonah Schimmel's Knish Bakery (1910) on the Lower East Side is the oldest surviving knishery and still uses original recipes. Knishes were sold by street vendors from hot boxes throughout the 1900s. The square shape (vs. round) is a Yonah Schimmel signature.",
+        "insider_tip": "Order potato knish with mustard—this is the traditional combination. Yonah Schimmel's on Houston Street is the pilgrimage site (since 1910). The knish should be hot, dense, and filling—it's a meal, not a snack. Kasha (buckwheat) is the second most popular flavor. Found at Jewish delis and bakeries, increasingly rare outside the Lower East Side.",
+        "price_level": "Affordable",
+        "good_for": ["Snacking", "Comfort food"],
+        "duration": "10 minutes",
+        "best_time": "Anytime"
+      },
+      "image": "/images/new-york/knish.jpg"
     },
     {
       "id": "food-011",
@@ -277,7 +415,16 @@
       "name_local": "Dim Sum",
       "category": "food",
       "is_generic_staple": true,
-      "description": "NYC has incredible Chinese food, rooted in the massive waves of immigration to Chinatown (Manhattan) and later Flushing (Queens). Go for 'Soup Dumplings' (Xiao Long Bao) or massive banquet-style Dim Sum halls.",
+      "description": {
+        "short": "NYC's Chinese food scene is rooted in waves of immigration to Manhattan's Chinatown and later Flushing, Queens. Dim sum is a Cantonese tradition of small plates (dumplings, buns, rolls) served from rolling carts or ordered off menus, traditionally eaten for brunch. Soup dumplings (xiao long bao)—pork dumplings filled with hot broth—are the star. The dining experience is loud, communal, and fast-paced.",
+        "vibe": "Bustling, authentic",
+        "history": "Cantonese immigrants established Chinatown in the 1870s-1900s. Dim sum arrived in the early 1900s, with cart service becoming standard by mid-century. Flushing's Chinatown (Queens) exploded in the 1980s-90s with immigrants from mainland China, Taiwan, and Hong Kong, bringing regional diversity. NYC now rivals Hong Kong for authenticity.",
+        "insider_tip": "Go to Flushing for the most authentic, diverse Chinese food—Sichuan, Northern, Taiwanese, and more. Dim sum is traditionally eaten 10am-2pm on weekends. Soup dumplings (xiao long bao) require technique: bite a small hole, sip the broth, then eat. Carts are disappearing—most places now use order sheets. Bring cash; many spots don't take cards.",
+        "price_level": "Affordable",
+        "good_for": ["Groups", "Brunch"],
+        "duration": "1-2 hours",
+        "best_time": "Weekend brunch"
+      },
       "image": "/images/new-york/dim-sum.jpg"
     },
     {
@@ -287,7 +434,16 @@
       "name_local": "Pastrami Sandwich",
       "category": "food",
       "is_generic_staple": true,
-      "description": "A Jewish deli icon. Beef brisket is brined, seasoned, smoked, and steamed to tender perfection, then hand-carved into a massive tower on rye bread. Katz's Deli (since 1888) is the historic standard-bearer.",
+      "description": {
+        "short": "Pastrami on rye is a Jewish deli icon: beef brisket brined in spices for weeks, rubbed with peppercorns and coriander, smoked for hours, then steamed until fork-tender. It's hand-carved into a towering pile (often 1 pound of meat) on rye bread with mustard—no mayo, no lettuce. Katz's Delicatessen (since 1888) on the Lower East Side is the historic standard-bearer. The sandwich is messy, massive, and requires two hands.",
+        "vibe": "Historic, indulgent",
+        "history": "Pastrami arrived with Romanian-Jewish immigrants in the late 1800s who adapted Romanian pastramă (cured goose). Using cheaper beef brisket, they created the NYC version. Katz's Deli opened in 1888 and survived generations. The 'Send a Salami to Your Boy in the Army' WWII campaign is legendary. The deli culture peaked mid-1900s but declined as Jewish communities dispersed.",
+        "insider_tip": "Order at Katz's: take a ticket at the door (don't lose it or you pay $50 fine), order pastrami on rye with mustard at the counter, tip the carver $1-2 for extra meat. Don't ask for mayo—it's a cardinal sin. Sharing is smart; the sandwich is 1+ pounds. Go during off-peak (2-4pm weekdays) to avoid lines.",
+        "price_level": "Expensive",
+        "good_for": ["Lunch", "Experience"],
+        "duration": "1 hour",
+        "best_time": "Lunch"
+      },
       "image": "/images/new-york/pastrami.jpg"
     },
     {
@@ -297,7 +453,16 @@
       "name_local": "Halal Cart",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The modern street food king. Originally for Muslim taxi drivers needing a quick halal meal, it is now ubiquitous. Chopped spiced chicken, yellow rice, and the famous 'White Sauce' (mayo-based) and 'Red Sauce' (lethal chili).",
+      "description": {
+        "short": "Chicken Over Rice is NYC's modern street food king: chopped spiced chicken (or lamb) over yellow turmeric rice with lettuce, tomato, and the famous 'white sauce' (mayo-yogurt-based) and optional 'red sauce' (extremely spicy harissa-style chili). Served in Styrofoam containers from yellow metal carts. Originally created for Muslim taxi drivers needing quick halal meals, it's now ubiquitous across the city, available 24/7 at hundreds of carts.",
+        "vibe": "Fast, satisfying",
+        "history": "Halal carts emerged in the 1990s as Middle Eastern and South Asian immigrants (especially Egyptian, Yemeni, Bangladeshi) became taxi drivers and needed halal food. The 53rd & 6th cart (The Halal Guys) became legendary, spawning imitators citywide. By the 2000s-2010s, chicken over rice became NYC's default late-night meal, rivaling pizza.",
+        "insider_tip": "Ask for 'white sauce' and decide if you can handle 'red sauce' (extremely spicy—start with a little). The Halal Guys on 53rd & 6th is the most famous but has long lines. Any cart with a line of locals is good. Order 'combo over rice' to get both chicken and lamb. Open late—perfect for 2am post-bar hunger. Cash only at most carts.",
+        "price_level": "Affordable",
+        "good_for": ["Late night", "Quick meals"],
+        "duration": "10 minutes",
+        "best_time": "Late night"
+      },
       "image": "/images/new-york/halal.jpg"
     }
   ],
@@ -313,7 +478,16 @@
           "name_local": "Central Park",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Designed in 1857 by Frederick Law Olmsted and Calvert Vaux as the nation's first major public park. It was conceived as a 'democratic space' for all classes to mingle, requiring the movement of millions of cartloads of earth to create. It is entirely man-made. Don't just stay at the entrance; go deep to the Ramble to find true silence or the Jacqueline Kennedy Onassis Reservoir for the classic jogging loop. Use lampposts to navigate.",
+          "description": {
+            "short": "Central Park is an 843-acre entirely man-made park in the heart of Manhattan, designed in 1857 by Frederick Law Olmsted and Calvert Vaux. It required moving millions of cartloads of earth and was conceived as a 'democratic space' where all social classes could mingle. The park contains woodlands, meadows, lakes, theaters, ice rinks, and the Metropolitan Museum. Don't just stay at the entrance—venture deep to find The Ramble (wild woodlands), Bow Bridge, or Bethesda Fountain.",
+            "vibe": "Peaceful, iconic",
+            "history": "Central Park was NYC's first major public park, a revolutionary concept in urban planning. It was built 1858-1873 on rocky, swampy terrain. The designers created an illusion of rural nature in the urban core. Lampposts are numbered to help navigate—the first two digits indicate the nearest street.",
+            "insider_tip": "Use lamppost numbers to navigate: the first two digits tell you the nearest cross street (e.g., 7801 = near 78th Street). The Ramble (woodland area) offers true solitude. Rent bikes at 59th Street to cover more ground. Avoid the horse carriages (overpriced tourist traps). Visit Strawberry Fields (John Lennon memorial) early morning to avoid crowds.",
+            "price_level": "Affordable",
+            "good_for": ["Walking", "Nature"],
+            "duration": "2-4 hours",
+            "best_time": "Morning or late afternoon"
+          },
           "image": "/images/new-york/central-park.jpg",
           "geo": { "lat": 40.7829, "lng": -73.9654 }
         },
@@ -324,7 +498,16 @@
           "name_local": "The High Line",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A 1.45-mile elevated linear park built on a historic freight rail line. It weaves through buildings 30 feet above the street, connecting the Meatpacking District to Hudson Yards. It is a masterpiece of landscape architecture.",
+          "description": {
+            "short": "The High Line is a 1.45-mile elevated linear park built on a historic freight rail line 30 feet above street level. It weaves through buildings from the Meatpacking District to Hudson Yards, featuring native plantings, public art, and unique city perspectives. It's a masterpiece of adaptive reuse and landscape architecture that transformed a rusted rail line into one of NYC's most popular parks.",
+            "vibe": "Modern, elevated",
+            "history": "Built in the 1930s for freight trains serving meatpacking and manufacturing, the rail line fell into disuse by 1980. Slated for demolition, local activists saved it in 1999. Landscape architecture firm James Corner Field Operations converted it to a park (2009-2014). It sparked massive gentrification and real estate development in Chelsea.",
+            "insider_tip": "Enter at Gansevoort Street (southern end) and walk north to avoid crowds walking in reverse. Go early morning (7am) or late evening for fewer tourists. The best views are near 23rd Street overlooking the city. Free tours are offered some days. Skip the overpriced Chelsea Market and eat elsewhere. Combine with Whitney Museum (at southern end).",
+            "price_level": "Affordable",
+            "good_for": ["Walking", "Architecture"],
+            "duration": "1 hour",
+            "best_time": "Early morning or sunset"
+          },
           "image": "/images/new-york/high-line.jpg",
           "geo": { "lat": 40.7484, "lng": -74.0049 }
         },
@@ -335,7 +518,16 @@
           "name_local": "Prospect Park",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Brooklyn's masterpiece. The designers considered this their 'better' park because they weren't constrained by a rectangular grid. It features the Long Meadow, a mile of unbroken green space. Less manicured than Central Park.",
+          "description": {
+            "short": "Prospect Park is Brooklyn's 526-acre masterpiece, designed by Olmsted and Vaux (the same designers as Central Park). They considered this their 'better' park because they weren't constrained by Manhattan's rectangular grid. It features the Long Meadow (90 acres of unbroken green space), a lake, forests, and the Prospect Park Bandshell. It's less manicured and more naturalistic than Central Park.",
+            "vibe": "Relaxed, green",
+            "history": "Completed in 1873, Prospect Park was designed after Central Park and incorporated lessons learned. The Long Meadow is the longest unbroken meadow in any American park. The park nearly fell into ruin in the 1970s-80s but was restored in the 1990s-2000s by local activists and funding.",
+            "insider_tip": "The Long Meadow is perfect for picnics and frisbee—locals claim it's superior to Central Park's Sheep Meadow. The Prospect Park Bandshell hosts free summer concerts. The lake is stocked for fishing. Smorgasburg (food market) sets up here on Sundays in summer. Less crowded than Central Park—this is where Brooklynites actually hang out.",
+            "price_level": "Affordable",
+            "good_for": ["Picnics", "Relaxing"],
+            "duration": "2-3 hours",
+            "best_time": "Afternoon or weekend"
+          },
           "image": "/images/new-york/prospect-park.jpg",
           "geo": { "lat": 40.6602, "lng": -73.9690 }
         },
@@ -346,7 +538,16 @@
           "name_local": "Washington Square",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Historically a potter's field (mass grave), it became the heart of the Beatnik and Folk movements. Today it is the best people-watching spot in the world, filled with musicians, chess players, and NYU students.",
+          "description": {
+            "short": "Washington Square Park is the 9.75-acre heart of Greenwich Village and the best people-watching spot in NYC. It's centered on the iconic marble arch (modeled after Paris's Arc de Triomphe) and features the famous fountain. Historically a potter's field (mass grave for the poor), it became the epicenter of the 1960s Beatnik and Folk movements. Today it's filled with street musicians, chess hustlers, NYU students, and pure NYC energy.",
+            "vibe": "Vibrant, eclectic",
+            "history": "Originally a potter's field and public execution ground (hanging tree stood until 1820s). It became a parade ground, then a park in the 1870s. The Washington Arch was built in 1892. In the 1950s-60s, it was the center of the folk music revival (Bob Dylan played here). It's been a constant site of counterculture and protest.",
+            "insider_tip": "Watch the chess hustlers play speed chess for money on the southwest corner—they're skilled and entertaining. Street musicians perform daily (especially weekends). The fountain is the social center—sit on the edge to watch humanity. Avoid at night (becomes sketchy). Combine with exploring the winding West Village streets nearby.",
+            "price_level": "Affordable",
+            "good_for": ["People watching", "Music"],
+            "duration": "1 hour",
+            "best_time": "Afternoon or weekend"
+          },
           "image": "/images/new-york/washington-square.jpg",
           "geo": { "lat": 40.7308, "lng": -73.9973 }
         }
@@ -359,11 +560,20 @@
         {
           "id": "mar-01",
           "slug": "union-square",
-          "name_en": "Union Square",
+          "name_en": "Union Square Greenmarket",
           "name_local": "Union Square",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A vital transit hub and home to the city's most famous Greenmarket (Farmers Market). It is a center for political protests, street chess, and raw urban energy. It grounds you in the reality of daily NY life.",
+          "description": {
+            "short": "Union Square Greenmarket is NYC's most famous farmers market, operating Monday/Wednesday/Friday/Saturday year-round. Over 100 regional farmers sell produce, meats, cheeses, breads, and flowers directly to consumers. It's also a major transit hub (six subway lines) and historical site of protests and political gatherings. The market embodies NYC's connection to upstate farms and local food culture.",
+            "vibe": "Bustling, local",
+            "history": "The Greenmarket started in 1976 with just 12 farmers as NYC's food culture was collapsing. It revived the farm-to-city connection and sparked the farmers market movement nationally. Union Square itself has been a protest and gathering site since the 1800s—from labor rallies to 9/11 memorials.",
+            "insider_tip": "Go Saturday for the most vendors (over 100). Arrive early (8-9am) for best selection before office workers swarm at lunch. Buy apple cider donuts and maple syrup from upstate vendors. Cash is preferred by many farmers. The square is also great for people-watching—street performers, chess players, and political activists.",
+            "price_level": "Moderate",
+            "good_for": ["Foodies", "Shopping"],
+            "duration": "1 hour",
+            "best_time": "Saturday morning"
+          },
           "image": "/images/new-york/union-square.jpg",
           "geo": { "lat": 40.7359, "lng": -73.9911 }
         },
@@ -374,7 +584,16 @@
           "name_local": "Queens Night Market",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The ultimate food event (Saturdays). Features price-capped ($5-$6) global cuisines from the most diverse borough. A true community vibe.",
+          "description": {
+            "short": "Queens Night Market is a seasonal open-air night market (April-October, Saturdays 5-midnight) at the New York Hall of Science in Flushing Meadows-Corona Park. It features 100+ vendors selling global street food from the world's most diverse borough, with all food capped at $6 maximum. The market emphasizes Queens' immigrant communities: Tibetan momos, Peruvian anticuchos, Filipino sisig, Colombian arepas. It's authentic, cheap, and community-focused.",
+            "vibe": "Festive, diverse",
+            "history": "Started in 2015 by John Wang to showcase Queens' immigrant cuisines and support small vendors. The $6 price cap ensures accessibility. The market grew from 40 to 100+ vendors, becoming one of NYC's most popular food events. It celebrates the fact that Queens is the most linguistically diverse place on Earth (138+ languages spoken).",
+            "insider_tip": "Arrive before 6pm to beat massive crowds (peak is 7-9pm). Bring cash—many vendors don't take cards. The $6 cap is strictly enforced—it's genuinely affordable. Try foods you've never heard of from immigrant communities. Go hungry with a plan to try 5-6 items. Parking is a nightmare; take the 7 train to Mets-Willets Point.",
+            "price_level": "Affordable",
+            "good_for": ["Foodies", "Groups"],
+            "duration": "2-3 hours",
+            "best_time": "Saturday evening (April-October)"
+          },
           "image": "/images/new-york/queens-market.jpg",
           "geo": { "lat": 40.7456, "lng": -73.8464 }
         }
@@ -391,7 +610,16 @@
           "name_local": "The Ferry",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The smartest free ride in New York. Running 24/7 between Manhattan and Staten Island, it provides the best views of the Statue of Liberty and the harbor without costing a cent. Join the commuters for a beer on the boat.",
+          "description": {
+            "short": "The Staten Island Ferry is a free, 24/7 commuter ferry running between Manhattan (Whitehall Terminal) and Staten Island (St. George). The 25-minute ride offers spectacular views of the Statue of Liberty, Ellis Island, and Lower Manhattan skyline without costing a cent. It's NYC's best free attraction. Locals drink beer on the boat (sold onboard). You can just ride round-trip without leaving the terminal—tourists do this for the views.",
+            "vibe": "Iconic, free",
+            "history": "Ferry service dates to the 1700s but became municipally operated in 1905. It carries 25 million passengers annually—mostly commuters but also tourists. The ferry fleet was upgraded in the 2000s-2010s. It's featured in countless films and music videos as the quintessential NYC experience.",
+            "insider_tip": "Board on the right side (facing forward) for Statue of Liberty views heading to Staten Island; left side for skyline views heading back to Manhattan. Go at sunset for golden hour light. Don't leave the ferry at Staten Island unless you want to explore—just stay on and ride back. Beers are sold onboard. It's 100% free, no ticket needed.",
+            "price_level": "Affordable",
+            "good_for": ["Views", "Budget travel"],
+            "duration": "1 hour (round trip)",
+            "best_time": "Sunset"
+          },
           "image": "/images/new-york/staten-island-ferry.jpg",
           "geo": { "lat": 40.7011, "lng": -74.0135 }
         },
@@ -402,7 +630,16 @@
           "name_local": "DUMBO Waterfront",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The best view of the Manhattan skyline. The bridge itself (completed 1883) was the world's first steel-wire suspension bridge and dubbed the 'Eighth Wonder of the World' at opening. Its construction cost its designer John Roebling his life.",
+          "description": {
+            "short": "Brooklyn Bridge Park offers the best views of the Manhattan skyline, framed by the Brooklyn Bridge (completed 1883)—the world's first steel-wire suspension bridge. The park stretches 1.3 miles along the Brooklyn waterfront in DUMBO with multiple piers, lawns, playgrounds, and iconic photo spots. Walk the bridge itself for pedestrian/bike paths with stunning views. The bridge's construction cost designer John Roebling his life (crushed foot led to tetanus).",
+            "vibe": "Scenic, historic",
+            "history": "Brooklyn Bridge opened in 1883 after 14 years of construction and 27 worker deaths. It was called the 'Eighth Wonder of the World.' The park beneath was created in 2010 by converting abandoned piers and industrial waterfront. The DUMBO (Down Under Manhattan Bridge Overpass) neighborhood transformed from industrial to residential in the 1990s-2000s.",
+            "insider_tip": "Walk the Brooklyn Bridge early morning (7-8am) to avoid crushing tourist crowds. Start in Brooklyn and walk toward Manhattan for better views ahead of you. Main Street Park in DUMBO has the iconic Instagram shot (bridge framed by buildings). Pebble Beach and Jane's Carousel are nearby. Avoid walking the bridge on weekends (mobbed).",
+            "price_level": "Affordable",
+            "good_for": ["Photography", "Walking"],
+            "duration": "1-2 hours",
+            "best_time": "Early morning or sunset"
+          },
           "image": "/images/new-york/brooklyn-bridge-park.jpg",
           "geo": { "lat": 40.7003, "lng": -73.9967 }
         },
@@ -413,7 +650,16 @@
           "name_local": "Rockefeller Center",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A 1930s Art Deco masterpiece. It offers a better view than the Empire State Building because you can actually *see* the Empire State Building from here, alongside a sweeping view of Central Park.",
+          "description": {
+            "short": "Top of the Rock is the observation deck atop Rockefeller Center (70 floors, 850 feet up) with 360° views of Manhattan, Central Park, and the Empire State Building. Built in 1933 in Art Deco style, it offers better views than the Empire State Building because you can actually see the Empire State Building from here. Three levels of outdoor decks allow unobstructed views. Sunset is prime time but requires timed tickets.",
+            "vibe": "Classic, panoramic",
+            "history": "Rockefeller Center was built 1931-1939 during the Great Depression as a massive Art Deco complex. Top of the Rock originally opened in 1933, closed in the 1980s, and reopened in 2005 after renovation. The Christmas tree lighting tradition started in 1933. The skating rink opened in 1936.",
+            "insider_tip": "Book timed tickets online days in advance—sunset slots sell out. Arrive 30 minutes early for your time slot. The top (70th floor) has no barriers, just glass—better for photos than Empire State's caged fence. Sunrise tickets are cheapest and least crowded. Skip the VIP ticket—not worth extra cost. Go in winter to see the Christmas tree.",
+            "price_level": "Expensive",
+            "good_for": ["Views", "Photography"],
+            "duration": "1 hour",
+            "best_time": "Sunset"
+          },
           "image": "/images/new-york/top-rock.jpg",
           "geo": { "lat": 40.7587, "lng": -73.9787 }
         },
@@ -424,7 +670,16 @@
           "name_local": "Summit",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The modern view experience. Immersive art, glass floors, and mirrored rooms. Very Instagram-centric but offers incredible perspectives of Midtown.",
+          "description": {
+            "short": "Summit One Vanderbilt is NYC's newest observation experience, opened in 2021 atop the One Vanderbilt tower (1,401 feet) next to Grand Central. It's an immersive art installation with mirrored rooms, glass floors, and outdoor glass ledges creating infinite reflections and vertigo-inducing perspectives of Midtown. It's Instagram-centric and experiential—part observation deck, part art museum. Very modern, very theatrical.",
+            "vibe": "Modern, immersive",
+            "history": "One Vanderbilt was completed in 2020 as one of NYC's tallest buildings. Summit opened in 2021 with installations by artist Kenzo Digital. It quickly became one of NYC's most popular attractions, emphasizing 'experience' over traditional observation. The building is directly connected to Grand Central Terminal.",
+            "insider_tip": "Book timed tickets online weeks ahead—it sells out. Sunset and night tickets are most expensive but most dramatic. The mirrored rooms create infinite reflections—wear something you want photographed. The outdoor glass ledge ('Ascent') requires separate ticket and courage. Go midweek to avoid weekend crowds. Dress well—it's trendy and photo-focused.",
+            "price_level": "Expensive",
+            "good_for": ["Instagram", "Modern art"],
+            "duration": "1-2 hours",
+            "best_time": "Sunset or night"
+          },
           "image": "/images/new-york/summit.jpg",
           "geo": { "lat": 40.7527, "lng": -73.9776 }
         }
@@ -441,7 +696,16 @@
           "name_local": "Metropolitan Museum",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Founded in 1870, this Beaux-Arts colossus houses 5,000 years of art. It is massive. Pick one section (e.g., the Temple of Dendur, saved from the Nile) and enjoy it. Don't try to see it all.",
+          "description": {
+            "short": "The Metropolitan Museum of Art (The Met) is one of the world's largest and greatest art museums, housing over 2 million works spanning 5,000 years of human history. The Beaux-Arts building (1880) on Fifth Avenue has 2 million square feet of gallery space. Highlights include the Temple of Dendur (Egyptian temple saved from the Nile), European paintings (Vermeer, Rembrandt), and the rooftop garden with city views. It's impossible to see everything in one visit.",
+            "vibe": "Grand, overwhelming",
+            "history": "Founded in 1870 by civic leaders to bring art education to Americans. The current building opened in 1880 and has expanded continuously. The Temple of Dendur was gifted by Egypt in 1965 and installed in 1978. The Met is NYC's most-visited museum (6+ million annually). Admission is 'suggested' but mandatory for non-NY residents ($30).",
+            "insider_tip": "Pick one section and explore deeply—trying to see everything is exhausting and futile. The Egyptian wing and Temple of Dendur are must-sees. The rooftop garden (open May-October) has drinks and skyline views. Go on weekday mornings for thinner crowds. 'Pay what you wish' ended—admission is now mandatory for tourists. Plan 3-4 hours minimum.",
+            "price_level": "Expensive",
+            "good_for": ["Art lovers", "History buffs"],
+            "duration": "3-5 hours",
+            "best_time": "Weekday morning"
+          },
           "image": "/images/new-york/the-met.jpg",
           "geo": { "lat": 40.7794, "lng": -73.9632 }
         },
@@ -452,7 +716,16 @@
           "name_local": "Tenement Museum",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A tour through preserved apartments at 97 Orchard Street, home to 7,000 working-class immigrants between 1863 and 1935. It offers a deeply moving look at the 'Old Law' housing reality and the waves of German, Irish, and Jewish history.",
+          "description": {
+            "short": "The Tenement Museum offers guided tours through preserved apartments at 97 Orchard Street (Lower East Side), where 7,000 working-class immigrants lived between 1863-1935. The museum recreates the cramped, difficult living conditions of German, Irish, Jewish, and Italian families. Tours focus on specific families' stories, bringing immigrant history to visceral life. It's deeply moving and historically essential. Advance reservations required.",
+            "vibe": "Historic, intimate",
+            "history": "97 Orchard Street was built in 1863 as a tenement housing 20 families. It was sealed in 1935 and remained a time capsule until the 1980s when historians discovered it. The museum opened in 1992, restoring apartments to different time periods. It documents the brutal reality of 'Old Law' tenements (windowless rooms, shared toilets).",
+            "insider_tip": "Book tours weeks in advance—they sell out. The 'Hard Times' and 'Irish Outsiders' tours are most popular. Tours are 90 minutes and involve stairs (no elevator—it's a real tenement). The museum shop has excellent books on immigration history. Combine with exploring the Lower East Side's food scene (Katz's, Russ & Daughters). Not suitable for young children.",
+            "price_level": "Moderate",
+            "good_for": ["History buffs", "Education"],
+            "duration": "2 hours",
+            "best_time": "Weekday afternoon"
+          },
           "image": "/images/new-york/tenement.jpg",
           "geo": { "lat": 40.7188, "lng": -73.9901 }
         }
