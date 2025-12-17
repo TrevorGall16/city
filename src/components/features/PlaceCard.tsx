@@ -42,13 +42,15 @@ export function PlaceCard({ place, citySlug }: PlaceCardProps) {
         </Link>
 
         <p className="text-sm text-slate-600 dark:text-slate-400 mt-2 line-clamp-2">
-          {place.description}
+          {typeof place.description === 'string' 
+  ? place.description 
+  : place.description.short}
         </p>
 
         {/* Translation Hook - CRITICAL FEATURE */}
         {showTranslation && (
           <div className="mt-4">
-            <TranslationHook text={place.name_local} />
+            <TranslationHook text={place.name_local ?? place.name_en} />
           </div>
         )}
       </div>
