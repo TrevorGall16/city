@@ -47,7 +47,7 @@ const dubaiFont = Gravitas_One({ weight: '400', subsets: ['latin'], variable: '-
 const hkFont = Barlow_Condensed({ weight: '800', subsets: ['latin'], variable: '--font-hk', display: 'swap' })
 
 export const metadata: Metadata = {
-  title: 'CitySheet - The Ultimate Travel Guides',
+  title: 'CityBasic - The Ultimate Travel Guides',
   description: 'Curated travel recommendations with instant translation for international travelers. Navigate foreign cities without language barriers.',
 // 1. Google Search Console Verification (Keep this)
   verification: {
@@ -109,7 +109,7 @@ export default function RootLayout({
                   {/* Logo */}
                   <Link href="/" className="flex items-center">
                     <div className="text-xl font-bold text-indigo-600">
-                      CitySheet
+                      CityBasic
                     </div>
                   </Link>
 

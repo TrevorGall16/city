@@ -7,7 +7,7 @@
 const fs = require('fs')
 const path = require('path')
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://citysheet.com'
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://CityBasic.com'
 
 async function generateSitemap() {
   console.log('🗺️  Generating sitemap...')

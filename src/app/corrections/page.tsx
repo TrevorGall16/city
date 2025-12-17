@@ -8,8 +8,8 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Submit a Correction - CitySheet',
-  description: 'Help keep CitySheet accurate. Report outdated info directly to the developer.',
+  title: 'Submit a Correction - CityBasic',
+  description: 'Help keep CityBasic accurate. Report outdated info directly to the developer.',
 }
 
 export default function CorrectionsPage() {
@@ -21,7 +21,7 @@ export default function CorrectionsPage() {
       {/* The Honest Intro */}
       <div className="mb-12 max-w-2xl">
         <p className="text-xl text-slate-600 dark:text-slate-300 leading-relaxed">
-          Since I'm just one person managing all these cities, things can change without me noticing. A restaurant might close, or a museum might change its hours.
+          Since I'm just one person managing all these cities, things can change without me noticing. A restaurant might close, or a tip might be wrong.
           <br /><br />
           If you spot an error, I would really appreciate your help fixing it.
         </p>
@@ -40,7 +40,7 @@ export default function CorrectionsPage() {
             The fastest way to reach me. Feel free to send screenshots or just a quick note about what's wrong.
           </p>
           <a 
-            href="mailto:efwfew1611@gmail.com?subject=Correction for CitySheet" 
+            href="mailto:efwfew1611@gmail.com?subject=Correction for CityBasic" 
             className="text-lg font-medium text-blue-600 dark:text-blue-400 hover:underline break-all"
           >
             efwfew1611@gmail.com

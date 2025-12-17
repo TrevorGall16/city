@@ -8,20 +8,20 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'How to Use CitySheet',
-  description: 'Simple guide to planning your trip with CitySheet.',
+  title: 'How to Use CityBasic',
+  description: 'Simple guide to planning your trip with CityBasic.',
 }
 
 export default function HowToUsePage() {
   return (
     <InfoPageLayout
-      title="How to Use CitySheet"
+      title="How to Use CityBasic"
       lastUpdated="2025-12-15"
     >
       {/* Intro */}
       <div className="mb-12 max-w-2xl">
         <p className="text-xl text-slate-600 dark:text-slate-300 leading-relaxed">
-          CitySheet is designed to be your instant travel companion. No fluff, just the curated essentials. Here is how to plan your perfect trip in minutes.
+          CityBasic is designed to be your instant travel companion. No fluff, just the curated essentials. Here is how to plan your perfect trip in minutes.
         </p>
       </div>
 
@@ -84,7 +84,7 @@ export default function HowToUsePage() {
             <span className="bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 p-1 rounded">📱</span>
             <div>
               <strong className="block text-slate-900 dark:text-white">Go Offline</strong>
-              <span className="text-slate-600 dark:text-slate-400">Add CitySheet to your phone's home screen. It works like an app and loads pages offline.</span>
+              <span className="text-slate-600 dark:text-slate-400">Add CityBasic to your phone's home screen. It works like an app and loads pages offline.</span>
             </div>
           </li>
           

@@ -28,7 +28,7 @@ Key Feature ("The Hook"): A "Translation Bridge" that allows users to copy local
 
 [PLACEHOLDERS & ASSETS]
 - Images: Use "https://placehold.co/800x600/e2e8f0/475569?text=City+Image" for testing.
-- Logo: Use text "CitySheet" in a <div> until SVG is provided.
+- Logo: Use text "CityBasic" in a <div> until SVG is provided.
 - Mock Data:
    - City: Paris
    - Place: "Croissant Shop" (Local: クロワッサン)

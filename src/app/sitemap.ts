@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next'
 import { promises as fs } from 'fs'
 import path from 'path'
 
-// ⚠️ CHANGE THIS to your actual domain when you deploy (e.g., https://citysheet.vercel.app)
-const BASE_URL = 'https://citysheet.com' 
+// ⚠️ CHANGE THIS to your actual domain when you deploy (e.g., https://CityBasic.vercel.app)
+const BASE_URL = 'https://CityBasic.com' 
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // 1. Static Routes

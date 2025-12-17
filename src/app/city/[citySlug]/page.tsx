@@ -55,13 +55,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!city) {
     return {
-      title: 'City Not Found | CitySheet',
+      title: 'City Not Found | CityBasic',
       description: 'This city is not available in our travel guides yet.',
     }
   }
 
   return {
-    title: `${city.name} Travel Guide | CitySheet`,
+    title: `${city.name} Travel Guide | CityBasic`,
     description: `Complete ${city.name} travel guide. ${city.intro_vibe}`,
   }
 }

@@ -15,7 +15,7 @@ export function Footer() {
           {/* About */}
           <div>
             <h3 className="font-semibold text-slate-900 dark:text-slate-50 mb-3">
-              CitySheet
+              CityBasic
             </h3>
             <p className="text-sm text-slate-600 dark:text-slate-400">
               No-fluff travel guides with instant translation.
@@ -60,7 +60,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
               <li>
                 <Link href="/about" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
-                  About CitySheet
+                  About CityBasic
                 </Link>
               </li>
               <li>
@@ -94,7 +94,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:hello@citysheet.com"
+                  href="mailto:hello@CityBasic.com"
                   className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
                 >
                   Contact Us
@@ -108,7 +108,7 @@ export function Footer() {
         <div className="mt-8 pt-8 border-t border-slate-200 dark:border-slate-800">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-slate-500 dark:text-slate-400">
-              © 2025 CitySheet. All rights reserved.
+              © 2025 CityBasic. All rights reserved.
             </p>
             <p className="text-sm text-slate-500 dark:text-slate-400">
               Built with ❤️ using Next.js, Tailwind CSS, and Supabase

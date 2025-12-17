@@ -113,7 +113,7 @@ export default function SignInPage() {
           {isSigningUp ? 'Create Account' : 'Welcome Back'}
         </h1>
         <p className="text-slate-400 mb-8">
-          {isSigningUp ? 'Join CitySheet and save your favorite places.' : 'Sign in to access your saved trips.'}
+          {isSigningUp ? 'Join CityBasic and save your favorite places.' : 'Sign in to access your saved trips.'}
         </p>
 
   {/* GOOGLE BUTTON */}

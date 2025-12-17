@@ -121,7 +121,7 @@ export function CheatSheetWidget({ city, trigger }: CheatSheetWidgetProps) {
 
             {/* Footer */}
             <div className="bg-slate-50 dark:bg-slate-950 p-4 text-center border-t border-slate-200 dark:border-slate-800">
-              <p className="text-xs font-bold text-slate-400 tracking-widest uppercase">CitySheet.com</p>
+              <p className="text-xs font-bold text-slate-400 tracking-widest uppercase">CityBasic.com</p>
             </div>
           </div>
         </div>

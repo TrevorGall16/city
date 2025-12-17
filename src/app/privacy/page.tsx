@@ -7,8 +7,8 @@ import { InfoPageLayout } from '@/components/layout/InfoPageLayout'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy - CitySheet',
-  description: 'How CitySheet collects, uses, and protects your personal information.',
+  title: 'Privacy Policy - CityBasic',
+  description: 'How CityBasic collects, uses, and protects your personal information.',
 }
 
 export default function PrivacyPage() {
@@ -18,7 +18,7 @@ export default function PrivacyPage() {
       {/* Intro */}
       <div className="prose dark:prose-invert max-w-none">
         <p className="text-lg text-slate-700 dark:text-slate-300 font-medium leading-relaxed">
-          We believe privacy should be simple and transparent. We collect minimal data to make CitySheet work, use Supabase for security, and never sell your personal information.
+          We believe privacy should be simple and transparent. We collect minimal data to make CityBasic work, use Supabase for security, and never sell your personal information.
         </p>
 
         {/* Section 1 */}

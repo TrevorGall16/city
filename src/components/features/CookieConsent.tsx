@@ -8,7 +8,7 @@ export function CookieConsent() {
 
   useEffect(() => {
     // Check if user has already accepted
-    const consent = localStorage.getItem('citysheet_cookie_consent')
+    const consent = localStorage.getItem('CityBasic_cookie_consent')
     if (!consent) {
       // Small delay to not annoy user immediately
       const timer = setTimeout(() => setIsVisible(true), 1000)
@@ -17,7 +17,7 @@ export function CookieConsent() {
   }, [])
 
   const handleAccept = () => {
-    localStorage.setItem('citysheet_cookie_consent', 'true')
+    localStorage.setItem('CityBasic_cookie_consent', 'true')
     setIsVisible(false)
   }
 

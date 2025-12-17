@@ -106,7 +106,7 @@ If `hasConsent === false` → render **placeholder only**
 Every page **must self-reference**:
 
 ```
-<link rel="canonical" href="https://citysheet.com/city/paris" />
+<link rel="canonical" href="https://CityBasic.com/city/paris" />
 ```
 
 No query parameters allowed in canonical URLs.

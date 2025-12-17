@@ -83,7 +83,7 @@ export function InfoPageLayout({
             className="inline-flex items-center gap-2 text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors font-medium"
           >
             <Home className="w-4 h-4" />
-            Back to CitySheet
+            Back to CityBasic
           </Link>
         </div>
       </article>
