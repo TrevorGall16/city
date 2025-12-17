@@ -53,7 +53,7 @@ export function EnhancedPlaceCard({ place, citySlug }: EnhancedPlaceCardProps) {
         {/* Translation Hook (Pushed to bottom) */}
         {showTranslation && (
           <div className="mt-auto pt-4">
-            <TranslationHook text={place.name_local} />
+            <TranslationHook text={place.name_local ?? place.name_en} />
           </div>
         )}
       </div>
