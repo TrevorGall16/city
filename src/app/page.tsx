@@ -13,6 +13,7 @@
 import { promises as fs } from 'fs'
 import path from 'path'
 import { Metadata } from 'next'
+import { Suspense } from 'react'
 import { HomePageClient } from '@/components/pages/HomePageClient'
 
 // Server-side: Load ALL cities from JSON files
@@ -70,6 +71,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const cityCount = cities.length
   
   return {
+    metadataBase: new URL('https://citybasic.com'), // ✅ Add this line
     title: `CityBasic: Travel Cheat Sheets for ${cityCount} Cities | Food, Sights & Local Tips`,
     description: `Fast, practical travel guides for ${cityCount} cities worldwide. Discover essential restaurants, must-see attractions, cultural etiquette, and local logistics—minus the travel blog fluff. Start planning smarter trips today.`,
     keywords: [
@@ -167,7 +169,7 @@ export default async function HomePage() {
     }))
   }
   
-  return (
+return (
     <>
       {/* Structured Data */}
       <script
@@ -179,8 +181,10 @@ export default async function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionPageData) }}
       />
       
-      {/* Client Component handles interactivity */}
-      <HomePageClient cities={allCities} regions={regions} />
+      {/* ✅ Wrap this in Suspense to fix the Netlify build error */}
+      <Suspense fallback={<div className="min-h-screen bg-slate-50" />}>
+        <HomePageClient cities={allCities} regions={regions} />
+      </Suspense>
     </>
   )
 }
