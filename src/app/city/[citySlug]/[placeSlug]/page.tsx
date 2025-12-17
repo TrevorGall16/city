@@ -151,7 +151,7 @@ export default async function PlacePage({ params }: PageProps) {
             {/* Translation */}
             {showTranslation && (
               <TranslationHook
-                text={place.name_local}
+                text={place.name_local ?? place.name_en}
                 placeName={place.name_en}
                 className="mb-6"
               />
