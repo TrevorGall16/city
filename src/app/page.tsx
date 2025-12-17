@@ -185,32 +185,40 @@ export default async function HomePage() {
   )
 }
 
-// Helper: Group cities by region
+// Helper: Group cities by region (Fixed for TypeScript compatibility)
 function groupCitiesByRegion(cities: any[]) {
-  const regionMap: Record<string, any> = {}
+  // Define a stricter structure for the map to satisfy the compiler
+  const regionMap: Record<string, { 
+    name: string; 
+    countries: Record<string, { 
+      name: string; 
+      country_code: string; 
+      cities: any[] 
+    }> 
+  }> = {}
   
   cities.forEach(city => {
-    const region = getRegionForCountry(city.country)
+    const regionName = getRegionForCountry(city.country)
     
-    if (!regionMap[region]) {
-      regionMap[region] = {
-        name: region,
+    if (!regionMap[regionName]) {
+      regionMap[regionName] = {
+        name: regionName,
         countries: {}
       }
     }
     
-    if (!regionMap[region].countries[city.country]) {
-      regionMap[region].countries[city.country] = {
+    if (!regionMap[regionName].countries[city.country]) {
+      regionMap[regionName].countries[city.country] = {
         name: city.country,
         country_code: city.country_code,
         cities: []
       }
     }
     
-    regionMap[region].countries[city.country].cities.push(city)
+    regionMap[regionName].countries[city.country].cities.push(city)
   })
   
-  // Convert to array format
+  // Convert the nested objects into the clean array format the Client Component expects
   return Object.values(regionMap).map(region => ({
     name: region.name,
     countries: Object.values(region.countries)
