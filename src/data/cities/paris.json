@@ -296,18 +296,45 @@
       "image": "/images/paris/saint-germain.jpg"
     }
   ],
-  "logistics": [
+ "logistics": [
     {
       "id": "logistics-transit",
       "slug": "getting-around",
       "title": "Getting Around",
       "icon": "Train",
-      "summary": "The Metro is the lifeline of Paris. Cheap, fast, and everywhere.",
+      "summary": "The Metro is the lifeline. Efficient, dense, but unforgiving.",
       "details": [
-        "The Inspection: Ticket controls are frequent and unforgiving. Keep your ticket until you exit the station. Fines start at €35–50, cash on the spot, with no negotiation.",
-        "Escalator Etiquette: Stand on the right, walk on the left. Locals will judge you silently if you block the left side.",
-        "Night Transport: The Metro stops around 00:30 (weekdays) or 01:45 (weekends). Uber/Taxi prices surge after 1am.",
-        "Navigo Easy: Buy this reloadable card for the cheapest fares (t+ tickets)."
+        "Metro Basics: Trains run 5:30am–1:15am (2:15am weekends). Avoid Rush Hour (8-9:30am, 5:30-7pm) on Lines 1, 4, 13.",
+        "Tickets (2025): Single t+ is €2.10. 'Navigo Easy' (€2) is the modern reloadable card. 'Navigo Découverte' (€30/week) is best for long stays (Mon-Sun validity).",
+        "The Inspection: Keep your ticket until you exit! Fines are €50 on the spot. Inspectors are plainclothes and ruthless.",
+        "Escalator Law: Stand on the RIGHT, walk on the LEFT. Blocking the left is the #1 tourist offense.",
+        "RER vs Metro: RER (Lines A-E) is for suburbs/airports. Metro tickets work on RER in Zone 1 only. You need specific tickets for airports.",
+        "Night Transport: After ~1am, use 'Noctilien' night buses or the G7 Taxi app. Uber surges heavily."
+      ]
+    },
+    {
+      "id": "logistics-airports",
+      "slug": "airport-transfers",
+      "title": "Airport Transfers",
+      "icon": "Plane",
+      "summary": "CDG and Orly are far. Know your route.",
+      "details": [
+        "CDG Options: RER B (€11.45, 35-50 mins) is standard but watch bags. RoissyBus (€16.60) to Opéra is easier with luggage. Taxis have fixed rates (€56 Right Bank / €65 Left Bank).",
+        "Orly Options: OrlyBus (€11.20) or Orlyval+RER B. Taxis are fixed (€37 Left Bank / €42 Right Bank).",
+        "Beauvais Warning: This is 85km away. The €17 shuttle bus takes 90 mins. Only fly here if the flight is practically free."
+      ]
+    },
+    {
+      "id": "logistics-dining",
+      "slug": "dining-protocol",
+      "title": "Dining Protocol",
+      "icon": "Utensils",
+      "summary": "Strict hours and specific rituals define Parisian eating.",
+      "details": [
+        "Strict Hours: Lunch 12–2:30pm. Dinner 7:30–10:30pm. Most kitchens CLOSE between these times. You cannot eat dinner at 6pm.",
+        "Water Ritual: Ask for 'une carafe d'eau' for free tap water. Asking for 'water' often gets you expensive bottled water.",
+        "The Bill: You must ask for it ('L'addition, s'il vous plaît'). Waiters will not bring it automatically; lingering is encouraged.",
+        "Lunch Value: Look for the 'Formule Midi' or 'Menu du Jour' (€15–25) for the best value. Dinner à la carte is significantly more expensive."
       ]
     },
     {
@@ -315,12 +342,24 @@
       "slug": "safety-tips",
       "title": "Safety & Scams",
       "icon": "Shield",
-      "summary": "Paris is safe, but pickpockets are skilled. Watch your phone.",
+      "summary": "Violent crime is rare; skilled theft is common.",
       "details": [
-        "Phone Snatching: Don't stand near the curb scrolling. Thieves on scooters or bikes snatch phones and ride off. Keep it in your pocket.",
-        "The Distraction: Pickpockets work in teams. If there is a sudden commotion, or kids with clipboards/petitions surround you, secure your valuables immediately.",
-        "The Friendly Stranger: Normal Parisians do not randomly stop you to chat. If a stranger is overly friendly, it is likely a setup or distraction.",
-        "Pickpocket Zones: Metro Line 1, Châtelet, and the Eiffel Tower/Louvre areas."
+        "Phone Snatching: An epidemic. Thieves on e-bikes snatch phones from hands near curbs. Never scroll while standing at a crosswalk.",
+        "Metro Pickpockets: Gangs work the doors on Lines 1, 4, 9. Keep bags zipped and front-worn. Be alert at Châtelet and Gare du Nord.",
+        "Street Scams: Ignore 'Petition' signers (distraction theft), 'Friendship Bracelet' tiers at Sacré-Cœur, and 'Gold Ring' finders. Just walk away.",
+        "Fake Taxis: Ignore anyone soliciting rides inside airport terminals. Only use the official taxi line outside."
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "money-payments",
+      "title": "Money & Payments",
+      "icon": "CreditCard",
+      "summary": "Cards are standard, but cash has its place.",
+      "details": [
+        "Card vs Cash: Visa/Mastercard accepted almost everywhere. Carry ~€50 cash for small cafés, markets, and toilets.",
+        "Tipping: Service is included ('Service Compris'). Round up or leave €1–2 coins. The US 20% culture does not exist here.",
+        "ATMs: Use official bank ATMs (BNP, Société Générale). Avoid 'Euronet' machines which charge high fees and bad rates."
       ]
     },
     {
@@ -328,22 +367,22 @@
       "slug": "restrooms",
       "title": "Public Toilets",
       "icon": "MapPin",
-      "summary": "Public restrooms are rare. Know your options.",
+      "summary": "Plan ahead; they are scarce.",
       "details": [
-        "The Reality: It is hard to find a toilet. Cafés are for customers only (buy an espresso to use it).",
-        "Sanisettes: Free, self-cleaning gray pods on sidewalks. They are safe and hygienic, but check the light is green before entering.",
-        "Department Stores: Galeries Lafayette or BHV are the safest bets for clean, accessible restrooms."
+        "Sanisettes: Free, self-cleaning gray pods on sidewalks. Wait for the green light. They are safe and hygienic.",
+        "Department Stores: The best 'hack'. Galeries Lafayette, BHV, and Bon Marché have clean, free restrooms on upper floors.",
+        "Café Rule: Toilets are for customers. Buy an espresso at the bar (€1.50) to gain access."
       ]
     },
     {
       "id": "logistics-health",
       "slug": "health-pharmacy",
-      "title": "Pharmacies & Health",
+      "title": "Health & Pharmacies",
       "icon": "Cross",
-      "summary": "Look for the flashing Green Cross.",
+      "summary": "Pharmacists are your first line of defense.",
       "details": [
-        "The Hub: Pharmacies are everywhere and pharmacists are highly trained. Go there for minor ailments before a doctor.",
-        "Advice: They can refuse to sell you medication if they suspect misuse. They are serious healthcare providers, not convenience stores."
+        "The Green Cross: Pharmacists are highly trained doctors. Go there for minor ailments (colds, allergies, stomach) before a clinic.",
+        "Night Pharmacy: Look for 'Pharmacie de Garde' for 24/7 service. Addresses are listed on the doors of closed pharmacies."
       ]
     },
     {
@@ -351,11 +390,11 @@
       "slug": "museum-strategy",
       "title": "Museum Strategy",
       "icon": "Ticket",
-      "summary": "Don't wing it. Pre-booking is mandatory.",
+      "summary": "Pre-booking is not optional.",
       "details": [
-        "Timed Tickets: For the Louvre, Orsay, and Versailles, booking a time slot online is essentially mandatory. You will likely be turned away without one.",
-        "Security: Even with tickets, security lines take time. Arrive 30 mins early.",
-        "Free Sundays: The first Sunday of the month is free for many museums, but it is chaotic and crowded. Avoid if you want a peaceful experience."
+        "Timed Entry: Mandatory for Louvre, Orsay, and Versailles. Walk-ups are turned away. Book weeks in advance.",
+        "Museum Pass: Great value for 4+ museums, but you STILL need to reserve time slots online.",
+        "Louvre Tip: The 'Carrousel du Louvre' underground entrance usually has shorter security lines than the Pyramid."
       ]
     },
     {
@@ -363,12 +402,12 @@
       "slug": "essential-apps",
       "title": "Apps to Download",
       "icon": "Smartphone",
-      "summary": "These apps will make your trip smoother.",
+      "summary": "The digital toolkit for Paris.",
       "details": [
-        "CityMapper: The absolute best for transit navigation.",
-        "TheFork (LaFourchette): Great for restaurant bookings and discounts.",
-        "G7 Taxi: The official Paris taxi app (better/safer than Uber in some areas).",
-        "Google Translate: Download the French offline pack."
+        "CityMapper: Essential. Better than Google Maps for Paris transit (shows exact metro car to board).",
+        "G7 Taxi: The official taxi app. Reliable, fixed rates, no surge pricing.",
+        "TheFork: Essential for restaurant reservations and sometimes offers 20-30% discounts.",
+        "Google Translate: Download the French offline pack for menus."
       ]
     }
   ],
