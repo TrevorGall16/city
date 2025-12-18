@@ -46,19 +46,30 @@ const istanbulFont = Aladin({ weight: '400', subsets: ['latin'], variable: '--fo
 const dubaiFont = Gravitas_One({ weight: '400', subsets: ['latin'], variable: '--font-dubai', display: 'swap' })
 const hkFont = Barlow_Condensed({ weight: '800', subsets: ['latin'], variable: '--font-hk', display: 'swap' })
 
+// 1. Update the Metadata object for global SEO
 export const metadata: Metadata = {
-  title: 'CityBasic - The Ultimate Travel Guides',
+  // ✅ NEW: Critical for resolving OG images and Canonical tags
+  metadataBase: new URL('https://citybasic.com'), 
+  
+  title: {
+    default: 'CityBasic | Essential Travel Cheat Sheets',
+    template: '%s | CityBasic' // Automatically appends "| CityBasic" to city/place titles
+  },
   description: 'Curated travel recommendations with instant translation for international travelers. Navigate foreign cities without language barriers.',
-// 1. Google Search Console Verification (Keep this)
+  
+  // ✅ NEW: Prevents "Duplicate without user-selected canonical"
+  alternates: {
+    canonical: '/',
+  },
+
   verification: {
     google: 'rFFpomnX_REM4YyHzqaM9x5fP3fygbI2clEJ31zFtpA',
   },
 
-  // 2. ✅ ADD THIS SECTION (Missing in your file)
   other: {
     'google-adsense-account': 'ca-pub-8732422930809097',
   },
-// 3. ✅ NEW: Favicons & Manifest
+
   icons: {
     icon: [
       { url: '/favicon-96x96.png', type: 'image/png', sizes: '96x96' },
@@ -72,6 +83,8 @@ export const metadata: Metadata = {
   manifest: '/site.webmanifest',
   appleWebApp: {
     title: 'CityBasic',
+    statusBarStyle: 'default',
+    capable: true,
   },
 }
 
@@ -82,6 +95,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        {/* ✅ ADD THIS: Prevents mobile layout shifts */}
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+      </head>
       <body className={`
         ${inter.variable} 
         ${tokyoFont.variable}
@@ -97,46 +114,30 @@ export default function RootLayout({
         ${hkFont.variable}
         font-sans antialiased bg-slate-50 dark:bg-slate-950
       `}>
+        {/* Keep the rest of your Providers and Components as they were */}
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <AuthProvider>
             <AdProvider>
-              {/* Toast Notifications */}
               <Toaster position="top-center" richColors />
-
-              {/* Header - Sticky (Logo + Auth Only) */}
               <header className="h-16 border-b border-slate-200/50 dark:border-slate-800/50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md sticky top-0 z-50">
                 <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 h-full flex items-center justify-between">
-                  {/* Logo */}
                   <Link href="/" className="flex items-center">
-                    <div className="text-xl font-bold text-indigo-600">
-                      CityBasic
-                    </div>
+                    <div className="text-xl font-bold text-indigo-600">CityBasic</div>
                   </Link>
-
-                  {/* Right side - Auth & Mobile Menu */}
                   <div className="flex items-center gap-4">
                     <HeaderAuth />
-
-                    {/* Mobile Menu Button */}
                     <button className="md:hidden p-2">
                       <Menu className="w-6 h-6 text-slate-700 dark:text-slate-300" />
                     </button>
                   </div>
                 </div>
               </header>
-
-              {/* Main Content */}
-              <main className="min-h-[calc(100vh-4rem)]">
-                {children}
-              </main>
-
-              {/* Footer */}
+              <main className="min-h-[calc(100vh-4rem)]">{children}</main>
               <Footer />
             </AdProvider>
           </AuthProvider>
         </ThemeProvider>
         <CookieConsent />
-{/* ✅ GOOGLE ADSENSE SCRIPT */}
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8732422930809097"

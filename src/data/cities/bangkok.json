@@ -1,4 +1,350 @@
-{
+"must_see": [
+    {
+      "title": "Essential Bangkok",
+      "id": "essential",
+      "items": [
+        {
+          "id": "temp-001",
+          "slug": "grand-palace",
+          "name_en": "Grand Palace",
+          "name_local": "พระบรมมหาราชวัง",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The Grand Palace is Bangkok's most iconic landmark—a sprawling complex of buildings that served as the royal residence from 1782 until 1925. Within its walls sits Wat Phra Kaew (Temple of the Emerald Buddha), Thailand's most sacred temple housing a 15th-century jade Buddha statue. The architecture is a dazzling display of golden spires, intricate mosaics, and mythological guardians. It's touristy but essential for understanding Thai cultural identity.",
+            "vibe": "Opulent, Sacred, Crowded",
+            "history": "King Rama I founded the Grand Palace in 1782 when he moved the capital from Thonburi to Bangkok. It was modeled on the former capital Ayutthaya's palace. For 150 years, it was the administrative and royal residence center. The Emerald Buddha was captured from Laos in 1778 and became the palladium of Thailand—a protective talisman for the kingdom. After King Rama V built the European-style Dusit Palace in the early 1900s, the Grand Palace gradually became ceremonial rather than residential.",
+            "insider_tip": "Arrive at 8:30 AM when gates open to beat the tour bus crowds. Dress code is strictly enforced—shoulders and knees covered, no sandals. Sarongs and shirts are available for rent if needed. The Emerald Buddha temple is the main highlight; the palace buildings are only viewable from outside. Audio guides are worth it for understanding the symbolism. Avoid weekends and Thai holidays.",
+            "price_level": "Expensive",
+            "good_for": ["First-time visitors", "History buffs", "Photography"],
+            "duration": "2-3 hours",
+            "best_time": "8:30 AM (opening time)"
+          },
+          "image": "/images/bangkok/grand-palace.jpg",
+          "geo": { "lat": 13.7500, "lng": 100.4915 }
+        },
+        {
+          "id": "temp-002",
+          "slug": "wat-arun",
+          "name_en": "Wat Arun",
+          "name_local": "วัดอรุณ",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Wat Arun (Temple of Dawn) is a Khmer-style Buddhist temple on the Thonburi side of the Chao Phraya River, famous for its 70-meter central prang (tower) covered in colorful porcelain and seashells. The tower is steep and climbable, offering views over the river. At sunset, the temple glows golden—though ironically, it's more photogenic from across the river at sunrise when the first light hits it.",
+            "vibe": "Majestic, Riverside, Architectural",
+            "history": "Wat Arun dates to the Ayutthaya period but was renovated and enlarged during King Rama II's reign (early 19th century). The central prang represents Mount Meru, the center of the universe in Buddhist cosmology. The colorful decorations are broken Chinese porcelain—ballast from trading ships repurposed as art. It was briefly home to the Emerald Buddha before it moved to the Grand Palace. The temple's name comes from Aruna, the Hindu god of dawn.",
+            "insider_tip": "The stairs up the central prang are extremely steep (almost 70-degree angle)—not for those with vertigo or mobility issues. Go late afternoon (4-5 PM) when the heat subsides but before sunset crowds arrive. The best photos are actually from across the river at Tha Tien Pier or from rooftop bars in the Old City. Cross by ferry (4 Baht) rather than taxi to avoid the traffic nightmare.",
+            "price_level": "Affordable",
+            "good_for": ["Photography", "Architecture lovers", "River views"],
+            "duration": "1-1.5 hours",
+            "best_time": "Late afternoon (4-5 PM)"
+          },
+          "image": "/images/bangkok/wat-arun.jpg",
+          "geo": { "lat": 13.7437, "lng": 100.4887 }
+        },
+        {
+          "id": "temp-003",
+          "slug": "wat-pho",
+          "name_en": "Wat Pho",
+          "name_local": "วัดโพธิ์",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Wat Pho is Bangkok's largest and oldest temple, home to the massive 46-meter-long Reclining Buddha covered in gold leaf. Beyond the famous statue, the temple complex contains over 1,000 Buddha images, beautiful murals, and is considered the birthplace of traditional Thai massage—a massage school still operates on-site. It's less crowded and more peaceful than the Grand Palace despite being next door.",
+            "vibe": "Serene, Historic, Authentic",
+            "history": "Wat Pho was founded in the 16th century during the Ayutthaya period but was extensively renovated by King Rama I in the late 1700s. King Rama III transformed it into Thailand's first public university in the 1830s, with medical and massage knowledge inscribed on stone tablets throughout the complex. The Reclining Buddha was added in 1832, depicting Buddha's entry into nirvana. The temple was designated a UNESCO site as it houses the largest collection of Buddha images in Thailand.",
+            "insider_tip": "Visit Wat Pho before or after the Grand Palace since they're walking distance apart—but Wat Pho is calmer and less overwhelming. The traditional Thai massage school offers 30-minute sessions (cheap and authentic). Remove shoes before entering all temple buildings. Walk beyond the Reclining Buddha to explore the quieter courtyards and pavilions. Early morning (8-9 AM) or late afternoon (4-5 PM) are best to avoid midday heat.",
+            "price_level": "Affordable",
+            "good_for": ["Culture enthusiasts", "Photography", "Massage"],
+            "duration": "1.5-2 hours",
+            "best_time": "Early morning or late afternoon"
+          },
+          "image": "/images/bangkok/wat-pho.jpg",
+          "geo": { "lat": 13.7465, "lng": 100.4927 }
+        },
+        {
+          "id": "act-001",
+          "slug": "chao-phraya-boat",
+          "name_en": "Chao Phraya Express Boat",
+          "name_local": "เรือด่วนเจ้าพระยา",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The Chao Phraya Express Boat is Bangkok's river bus system—wooden commuter boats that zip up and down the river stopping at piers along the way. The Orange Flag boats are the local workhorse (cheap, frequent, no air-con), while tourist boats are overpriced gimmicks. This is authentic Bangkok transit—crowded, breezy, and offering views of temples, palaces, and riverside life impossible to see from land.",
+            "vibe": "Authentic, Scenic, Practical",
+            "history": "River transport has been Bangkok's lifeblood since its founding—the city was called the 'Venice of the East' when canals were the primary roads. The modern express boat service began in the 1970s as traffic congestion worsened. The iconic wooden boats with canvas roofs became symbols of Bangkok. While most canals have been paved over for roads, the Chao Phraya remains a functioning commuter artery, carrying over 50,000 passengers daily.",
+            "insider_tip": "Buy a day pass (180 Baht) for unlimited Orange Flag boat rides—it pays for itself after 3-4 trips. Avoid the Blue Flag tourist boat (triple the price). Sit outside on the back or sides for breeze and photos. Key stops: Tha Tien (Wat Pho/Wat Arun), Ratchawong (Chinatown), Sathorn (for Skytrain connection). Boats get packed during rush hours (7-9 AM, 5-7 PM). Have exact change ready—conductors move fast.",
+            "price_level": "Affordable",
+            "good_for": ["Everyone", "River views", "Commuting"],
+            "duration": "Varies (20 min-2 hours)",
+            "best_time": "Late afternoon (4-6 PM)"
+          },
+          "image": "/images/bangkok/river-boat.jpg",
+          "geo": { "lat": 13.7200, "lng": 100.5100 }
+        }
+      ]
+    },
+    {
+      "title": "Local Life & Culture",
+      "id": "local-life",
+      "items": [
+        {
+          "id": "act-002",
+          "slug": "yaowarat-night-food",
+          "name_en": "Yaowarat Night Food Walk",
+          "name_local": "เยาวราช",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Yaowarat Road in Chinatown transforms after sunset into Bangkok's most spectacular street food scene—neon-lit chaos with hundreds of stalls selling seafood, noodles, dim sum, and desserts. The street itself becomes a dining room with plastic tables and stools. The energy is electric, the smells overwhelming, and the food is some of Bangkok's best. This is essential Bangkok—not a tourist attraction, but living culture.",
+            "vibe": "Chaotic, Electric, Delicious",
+            "history": "Yaowarat was established in 1891 under King Rama V as Bangkok's Chinatown when the Chinese community was relocated from Rattanakosin to make way for the Grand Palace expansion. The Teochew Chinese dominated trade and commerce, making Yaowarat the economic heart of Bangkok. The street food culture emerged as workers needed cheap meals, evolving into the epic night market by the 1970s-80s. Today, it's protected as cultural heritage.",
+            "insider_tip": "Go after 7 PM when the street comes alive—earlier and it's just traffic. Start at Odeon Circle and walk the length of Yaowarat Road. Must-tries: crab fried rice at Jay Fai area, oyster omelet (hoy tod), bird's nest soup stalls. Bring cash—nowhere takes cards. The side alleys (Soi Texas, Soi Plaeng Nam) have the best hidden gems. Weekend nights are insane—go weekday if possible.",
+            "price_level": "Moderate",
+            "good_for": ["Foodies", "Night owls", "Street food lovers"],
+            "duration": "2-3 hours",
+            "best_time": "7 PM-midnight"
+          },
+          "image": "/images/bangkok/chinatown.jpg",
+          "geo": { "lat": 13.7410, "lng": 100.5085 }
+        },
+        {
+          "id": "act-003",
+          "slug": "thai-massage-local",
+          "name_en": "Traditional Thai Massage",
+          "name_local": "นวดแผนไทย",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Traditional Thai massage (nuad phaen Thai) is a 2,000-year-old healing practice involving stretching, acupressure, and assisted yoga poses. Unlike Swedish massage, you stay clothed in loose pajamas while the therapist uses hands, elbows, knees, and feet to manipulate your body. It can be intense—sometimes painful—but leaves you feeling realigned. This is daily health maintenance for locals, not a luxury spa treatment.",
+            "vibe": "Therapeutic, Intense, Traditional",
+            "history": "Thai massage has roots in Indian Ayurvedic medicine and Chinese acupressure, brought to Thailand by Buddhist monks over 2,000 years ago. Wat Pho became the center for codifying and teaching the practice. Massage was part of traditional medicine, treating ailments through pressure points ('sen' energy lines). In the 20th century, commercial massage shops proliferated as tourism grew. In 2019, UNESCO recognized Thai massage as Intangible Cultural Heritage.",
+            "insider_tip": "Avoid tourist trap spas near Khao San or Sukhumvit—they're overpriced and mediocre. Go to the Wat Pho Traditional Thai Massage School for authentic, affordable sessions (500-600 Baht for 2 hours). Alternatively, find local shops in residential neighborhoods where prices are 300-400 Baht. Communicate if pressure is too much—'bao bao' means gentle. Don't eat a heavy meal before; stretching on a full stomach is uncomfortable.",
+            "price_level": "Affordable",
+            "good_for": ["Relaxation", "Cultural experience", "Everyone"],
+            "duration": "1-2 hours",
+            "best_time": "Afternoon"
+          },
+          "image": "/images/bangkok/massage.jpg",
+          "geo": { "lat": 13.7465, "lng": 100.4927 }
+        },
+        {
+          "id": "act-004",
+          "slug": "lumpini-park",
+          "name_en": "Lumpini Park",
+          "name_local": "สวนลุมพินี",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Lumpini Park is Bangkok's largest and most famous green space—120 acres of lakes, paths, and open lawns in the heart of the business district. At dawn, locals practice Tai Chi, jog, and feed the massive monitor lizards that roam freely. At sunset, outdoor aerobics classes blast music while hundreds exercise in sync. It's Bangkok's communal living room—where the city breathes.",
+            "vibe": "Green, Communal, Peaceful",
+            "history": "King Rama VI donated the land and opened Lumpini Park in the 1920s, naming it after Buddha's birthplace in Nepal. It was Bangkok's first public park, part of modernization efforts copying European cities. During WWII, it was used for military training. By the 1980s-90s, it became the city's exercise hub. The monitor lizards arrived naturally from nearby canals and now number in the hundreds—protected and fed by visitors.",
+            "insider_tip": "Go at 6-7 AM to see morning Tai Chi, traditional Chinese exercise groups, and the most active wildlife (monitor lizards sunbathe near the lake). At 6 PM, witness the outdoor aerobics phenomenon—hundreds of people dancing in unison to pounding music. Paddle boats are available on the lake (cheap, relaxing). The park is safe day and night. Watch for monitor lizards on paths—they're harmless but can be startling when large (2 meters).",
+            "price_level": "Affordable",
+            "good_for": ["Morning exercise", "Wildlife", "Relaxation"],
+            "duration": "1-2 hours",
+            "best_time": "6-7 AM or 6 PM"
+          },
+          "image": "/images/bangkok/lumpini.jpg",
+          "geo": { "lat": 13.7314, "lng": 100.5417 }
+        },
+        {
+          "id": "act-005",
+          "slug": "muay-thai",
+          "name_en": "Muay Thai Boxing",
+          "name_local": "มวยไทย",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Muay Thai is Thailand's national sport—an 8-point striking martial art using fists, elbows, knees, and shins. Watching a live fight at Rajadamnern or Lumpinee Stadium means experiencing the ritualistic wai kru dance, the hypnotic traditional music, the roaring crowd, and the violent beauty of the combat. This isn't a tourist show; it's real fighting with betting, blood, and cultural significance.",
+            "vibe": "Intense, Traditional, Visceral",
+            "history": "Muay Thai evolved from ancient Siamese battlefield combat techniques, formalized as a sport in the 16th century. It was entertainment for royalty and commoners alike. Modern rules were codified in the 1920s, adopting Western boxing elements like gloves and rounds. For centuries, Muay Thai was both martial art and gambling vehicle—betting is integral to the experience. Lumpinee and Rajadamnern stadiums opened in the 1950s-60s and remain the sport's temples.",
+            "insider_tip": "Rajadamnern Stadium has fights on Mondays, Wednesdays, Thursdays, and Sundays; Lumpinee on Tuesdays, Fridays, and Saturdays. Ringside seats are expensive (2,000+ Baht) but immersive; third-class seats are cheaper and still atmospheric. The earlier fights feature younger/amateur fighters; main events are later (9-10 PM). Watch the betting signals in the crowd—it's a parallel show. Don't go to tourist 'Muay Thai dinner shows'—they're watered-down performances.",
+            "price_level": "Moderate",
+            "good_for": ["Sports fans", "Cultural experience", "Evening activity"],
+            "duration": "3-4 hours",
+            "best_time": "Evening (6-10 PM)"
+          },
+          "image": "/images/bangkok/muay-thai.jpg",
+          "geo": { "lat": 13.7600, "lng": 100.5090 }
+        },
+        {
+          "id": "act-006",
+          "slug": "listening-bars",
+          "name_en": "Audiophile Listening Bars",
+          "name_local": "Vinyl Bars",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Bangkok's listening bar scene is a sophisticated alternative to loud clubs—intimate venues with audiophile-grade sound systems, extensive vinyl collections (especially Thai Molam, Luk Thung, and jazz), and craft cocktails. The ethos is respectful silence during songs, deep listening, and music appreciation. Venues like Studio Lam, Alonetogether, and Badmotel attract Bangkok's creative class seeking sonic refuge.",
+            "vibe": "Intimate, Sonic, Sophisticated",
+            "history": "The listening bar concept came from Japan's 'jazz kissa' culture but adapted to Bangkok in the 2010s as young Thais rediscovered vintage Thai music—particularly Molam (Isaan folk) and Luk Thung (country). Audiophiles invested in high-end analog systems to share their collections. These bars became cultural spaces celebrating Thai musical heritage alongside Western classics. They represent Bangkok's creative renaissance and rejection of mindless nightlife.",
+            "insider_tip": "Studio Lam in Ari is the pioneer—specializes in Thai Molam and Luk Thung with an incredible sound system. Alonetogether near Chulalongkorn University focuses on jazz and soul. Most have a cover charge (200-300 Baht) including one drink. Respect the 'no talking during songs' rule. Ask the DJ/owner for recommendations—they're passionate educators. Many only open 8 PM onwards and are closed Mondays-Wednesdays.",
+            "price_level": "Moderate",
+            "good_for": ["Music lovers", "Date night", "Evening activity"],
+            "duration": "2-3 hours",
+            "best_time": "9 PM-midnight"
+          },
+          "image": "/images/bangkok/listening-bar.jpg",
+          "geo": { "lat": 13.7314, "lng": 100.5817 }
+        },
+        {
+          "id": "act-007",
+          "slug": "talad-noi-walk",
+          "name_en": "Talad Noi Heritage Walk",
+          "name_local": "ตลาดน้อย",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Talad Noi is a riverside neighborhood of narrow alleys, crumbling shophouses, street art, and hidden cafes near Chinatown. It's Bangkok's oldest Chinese community, now a hub for scrap metal traders, auto parts shops, and emerging creative businesses. Walking these lanes reveals layers—old temples next to hipster coffee shops, vintage car graveyards, and the famous 'Mother Roaster' cafe atop a scrap heap.",
+            "vibe": "Gritty, Artistic, Layered",
+            "history": "Talad Noi (Little Market) was settled by Chinese immigrants in the late 18th century when Bangkok was founded. It became a trading port for rice, timber, and later auto parts. The neighborhood declined in the late 20th century as Bangkok modernized. In the 2010s, artists and creative entrepreneurs discovered its cheap rents and atmospheric decay. Murals appeared, cafes opened in old shophouses. It's now the poster child for 'hip gentrification' in Bangkok.",
+            "insider_tip": "Start at the Chao Phraya River and wander inward—Talad Noi is designed for getting lost. Must-sees: So Heng Tai Mansion (Instagrammable Fiat graveyard), Mother Roaster cafe, Talad Noi street art murals. Go on weekdays when workshops are active and it feels authentic; weekends bring Instagram crowds. Respect that people live and work here—it's not a theme park. Best explored in early morning (8-10 AM) or late afternoon (4-6 PM).",
+            "price_level": "Affordable",
+            "good_for": ["Photography", "Walking tours", "Art lovers"],
+            "duration": "2-3 hours",
+            "best_time": "Early morning or late afternoon"
+          },
+          "image": "/images/bangkok/talad-noi-walk.jpg",
+          "geo": { "lat": 13.7346, "lng": 100.5135 }
+        },
+        {
+          "id": "nat-001",
+          "slug": "bang-krachao",
+          "name_en": "Bang Krachao (Green Lung)",
+          "name_local": "บางกระเจ้า",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Bang Krachao is a 12-square-kilometer jungle island in a bend of the Chao Phraya River, nicknamed Bangkok's 'Green Lung.' It's agricultural land, mangrove forests, and villages connected by elevated concrete bike paths. Despite being in central Bangkok, it feels rural—wooden houses, fruit orchards, monitor lizards, and silence. Rent a bike and ride the network of paths through green tunnels—a total escape from concrete chaos.",
+            "vibe": "Rural, Peaceful, Green",
+            "history": "Bang Krachao remained undeveloped because it's on the flood-prone west bank and protected by geography—the river loops create a natural moat. In the 1990s-2000s, developers eyed it for housing, but environmental groups campaigned to preserve it as Bangkok's 'lung.' The elevated bike paths were built in the 2000s to promote ecotourism. It represents what Bangkok was before urbanization—an agricultural delta with canals and villages.",
+            "insider_tip": "Take a ferry from Klong Toei Pier (40 Baht) to Bang Krachao—it's a 5-minute crossing. Rent a bike immediately upon arrival (50-100 Baht for the day). The Bang Nampheung Floating Market (weekends only) is touristy but fine for lunch. The real charm is cycling the quiet paths through jungle. Go on weekdays to avoid crowds. Bring water, sunscreen, and mosquito repellent. It's hot and humid—go early morning (8-11 AM) or late afternoon.",
+            "price_level": "Affordable",
+            "good_for": ["Nature lovers", "Cycling", "Escape from city"],
+            "duration": "Half day (3-5 hours)",
+            "best_time": "Early morning (8-11 AM)"
+          },
+          "image": "/images/bangkok/bang-krachao.jpg",
+          "geo": { "lat": 13.6953, "lng": 100.5600 }
+        }
+      ]
+    },
+    {
+      "title": "Markets & Modern",
+      "id": "markets",
+      "items": [
+        {
+          "id": "mar-001",
+          "slug": "chatuchak-market",
+          "name_en": "Chatuchak Weekend Market",
+          "name_local": "ตลาดนัดจตุจักร",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Chatuchak is one of the world's largest weekend markets—15,000 stalls across 35 acres selling everything from vintage clothes and antiques to live animals, plants, and street food. It's organized into numbered sections but still feels like a maze. The heat, crowds, and sensory overload are intense, but it's essential Bangkok—where locals shop for bargains and unique finds.",
+            "vibe": "Massive, Chaotic, Treasure-hunt",
+            "history": "Chatuchak started in 1942 as a government initiative to provide affordable goods post-WWII. It moved to its current location in 1982. What began as farmers selling produce evolved into a mega-market as Bangkok's economy grew. By the 1990s-2000s, it became a tourist attraction while remaining authentically local. It's now a Bangkok institution—families come to shop, eat, and spend entire Saturdays navigating its sections.",
+            "insider_tip": "Go early (9-10 AM) before the midday heat becomes unbearable—afternoons are brutal. Wear light clothes, comfortable shoes, and bring water. The market has numbered sections: Section 2-3 for clothes, Section 7-8 for vintage, Section 26-27 for home decor. Bargain hard—starting price is often 30-40% inflated. Eat at the interior food courts (cheaper than edge stalls). An afternoon visit means fewer crowds but punishing heat.",
+            "price_level": "Moderate",
+            "good_for": ["Shopping", "Everyone", "Weekends only"],
+            "duration": "3-5 hours",
+            "best_time": "Saturday-Sunday, 9 AM-noon"
+          },
+          "image": "/images/bangkok/chatuchak.jpg",
+          "geo": { "lat": 13.7990, "lng": 100.5499 }
+        },
+        {
+          "id": "mar-004",
+          "slug": "local-night-market",
+          "name_en": "Jodd Fairs / Night Markets",
+          "name_local": "ตลาดนัดกลางคืน",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Bangkok's night markets are evening gathering places with food stalls, bars, live music, and shopping. Jodd Fairs (near Rama IX) is the current hot spot—a sprawling open-air market with hundreds of food vendors, craft beer bars, and a festival atmosphere. Unlike tourist traps, these markets are where young Bangkok locals hang out, eat, drink, and socialize.",
+            "vibe": "Lively, Social, Contemporary",
+            "history": "Night markets have existed in Bangkok since its founding, but the modern iteration—entertainment-focused rather than just commerce—emerged in the 2010s. Markets like Rot Fai (Train Market) and later Jodd Fairs pioneered the formula: Instagram-worthy food, craft beer, vintage aesthetics, and live music. They became date night destinations for young middle-class Thais. The trend reflects Bangkok's growing creative economy and youth culture.",
+            "insider_tip": "Jodd Fairs is near Rama IX MRT—open Thursday-Sunday, 5 PM-midnight. Arrive around 6-7 PM when it's filling up but not packed. Food is reasonably priced (80-200 Baht per dish). Try the craft beer bars at the back. The scene peaks around 8-9 PM. Other good options: Talad Neon Pratunam (neon-lit Instagram heaven) and the weekend Train Market. These markets are about atmosphere as much as food—plan to hang out, not rush through.",
+            "price_level": "Moderate",
+            "good_for": ["Foodies", "Young travelers", "Evening activity"],
+            "duration": "2-3 hours",
+            "best_time": "6-9 PM"
+          },
+          "image": "/images/bangkok/night-market.jpg",
+          "geo": { "lat": 13.7570, "lng": 100.5650 }
+        },
+        {
+          "id": "mar-005",
+          "slug": "flower-market",
+          "name_en": "Pak Khlong Talat",
+          "name_local": "ปากคลองตลาด",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Pak Khlong Talat is Bangkok's 24-hour wholesale flower market—a riot of colors, smells, and activity where florists buy orchids, roses, marigolds, and lotus flowers by the truckload. Located near the Old City by the river, it's most atmospheric late at night or very early morning when deliveries arrive and vendors prepare bouquets. It's working commerce, not a tourist attraction.",
+            "vibe": "Colorful, Fragrant, Active",
+            "history": "Pak Khlong Talat has operated since King Rama I's era (late 1700s) when it was a major produce and goods landing—'pak khlong' means 'mouth of the canal.' Flowers became the specialty in the early 20th century as Bangkok's middle class grew and Buddhist offerings created steady demand. The market runs 24 hours because temple ceremonies and events require fresh flowers at all hours. It survived multiple relocation attempts and remains in its original spot.",
+            "insider_tip": "Visit between midnight and 5 AM for the most dramatic scene—trucks unloading, vendors arranging mountains of flowers, and the magical lighting. Alternatively, go at dawn (6-7 AM) to see the buying frenzy. Bring a camera—the visual overload is incredible. You can buy flowers dirt cheap (wholesale prices). The adjacent produce market is also worth exploring. Be careful walking—wet floors, fast-moving carts, and chaotic energy.",
+            "price_level": "Affordable",
+            "good_for": ["Photography", "Early risers", "Night owls"],
+            "duration": "1 hour",
+            "best_time": "Midnight-5 AM or 6-7 AM"
+          },
+          "image": "/images/bangkok/flower-market.jpg",
+          "geo": { "lat": 13.7415, "lng": 100.4965 }
+        },
+        {
+          "id": "mod-001",
+          "slug": "rooftop-bars",
+          "name_en": "Sky Bars",
+          "name_local": "บาร์บนดาดฟ้า",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Bangkok's rooftop bar scene offers spectacular sunset views from 40-60 floors up—the city sprawling below, rivers of traffic, and temple spires glowing golden. Venues like Octave, Vertigo, and Sky Bar (from The Hangover 2) serve expensive cocktails in glamorous settings. It's touristy and pricey, but the views are genuinely spectacular and the experience is quintessentially Bangkok.",
+            "vibe": "Glamorous, Expensive, Panoramic",
+            "history": "Bangkok's rooftop bar boom began in the 2000s as the skyline reached new heights. Sirocco's Sky Bar, opened in 2003, pioneered the concept—featured in The Hangover Part II, it became a global symbol of Bangkok nightlife. As luxury hotels proliferated, rooftop bars became competitive amenities. They cater to affluent locals, expats, and tourists willing to pay 500+ Baht per cocktail for the view. They represent Bangkok's transformation from low-rise chaos to vertical metropolis.",
+            "insider_tip": "Most rooftop bars enforce dress codes (no flip-flops, shorts, or tank tops). Go at sunset (around 6 PM) to watch the city transition from day to night—arrive 30 minutes early to secure a good spot. Drinks are expensive (400-600 Baht per cocktail) but you're paying for the view. Octave at Marriott Sukhumvit is less touristy than Sky Bar and has 360-degree views. Tichuca at T-One building is newer and less crowded. Book ahead on weekends.",
+            "price_level": "Expensive",
+            "good_for": ["Couples", "Photography", "Sunset"],
+            "duration": "1-2 hours",
+            "best_time": "Sunset (6-7 PM)"
+          },
+          "image": "/images/bangkok/rooftop.jpg",
+          "geo": { "lat": 13.7226, "lng": 100.5142 }
+        }
+      ]
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Portable Neck Fan",
+      "image": "/images/bangkok/neck-fan.jpg",
+      "reason": "Bangkok heat is brutal. A hands-free neck fan keeps you cool while sightseeing.",
+      "amazon_url": "https://www.amazon.com/s?k=portable+neck+fan",
+      "category": "weather"
+    },
+    {
+      "id": "aff-002",
+      "title": "Mosquito Repellent",
+      "image": "/images/bangkok/repellent.jpg",
+      "reason": "Dengue is a risk. DEET-based repellent is essential for outdoor evenings.",
+      "amazon_url": "https://www.amazon.com/s?k=deet+mosquito+repellent",
+      "category": "health"
+    },
+    {
+      "id": "aff-003",
+      "title": "Travel Money Belt",
+      "image": "/images/bangkok/money-belt.jpg",
+      "reason": "Pickpockets are active in markets. Keep your cash secure.",
+      "amazon_url": "https://www.amazon.com/s?k=travel+money+belt",
+      "category": "security"
+    }
+  ]
+}{
   "id": "city-005",
   "name": "Bangkok",
   "slug": "bangkok",
@@ -213,7 +559,16 @@
       "name_local": "ผัดไทย",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Thailand's most famous dish: stir-fried rice noodles with shrimp or chicken, eggs, peanuts, bean sprouts, and tamarind sauce. Street cart versions are often better than restaurant ones.",
+      "description": {
+        "short": "Pad Thai is Thailand's most internationally famous dish—stir-fried rice noodles with shrimp or chicken, eggs, tofu, bean sprouts, peanuts, and a sweet-savory tamarind sauce. The dish balances sweet, salty, sour, and umami flavors in every bite. Contrary to tourist expectations, street cart versions cooked over roaring flames often surpass fancy restaurant renditions.",
+        "vibe": "Sweet, Savory, Iconic",
+        "history": "Pad Thai was invented in the 1930s-40s during Prime Minister Plaek Phibunsongkhram's nationalist campaign to create a 'national dish' that would unify Thailand and reduce rice consumption during shortages. The government actively promoted the recipe through cookbooks and contests. It was designed to be cheap, filling, and distinctly Thai despite Chinese noodle influences. The dish gained international fame during the Vietnam War when American soldiers stationed in Thailand brought it home.",
+        "insider_tip": "The best Pad Thai comes from street carts with high turnover and charcoal woks that create 'wok hei' (breath of the wok)—a smoky flavor impossible to replicate in restaurants. Order 'mai wan' (not sweet) if you prefer less sugar. Squeeze fresh lime and add chili flakes yourself to control the flavor profile.",
+        "price_level": "Affordable",
+        "good_for": ["First-time visitors", "Quick meal", "Street food"],
+        "duration": "15-20 minutes",
+        "best_time": "Lunch or dinner"
+      },
       "image": "/images/bangkok/pad-thai.jpg"
     },
     {
@@ -223,7 +578,16 @@
       "name_local": "ผัดกะเพรา",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The real national dish. Minced pork or chicken stir-fried with holy basil, garlic, and chili, served over rice with a crispy fried egg (Kai Dao). Spicy and savory.",
+      "description": {
+        "short": "Pad Kra Pao (holy basil stir-fry) is arguably Thailand's true national dish—minced pork, chicken, or seafood stir-fried with garlic, chilies, and holy basil, served over jasmine rice with a crispy fried egg (kai dao) on top. The runny yolk mixing with spicy meat and rice is the defining Bangkok lunch experience. It's fast, cheap, and deeply satisfying.",
+        "vibe": "Spicy, Comforting, Everyday",
+        "history": "Unlike Pad Thai's manufactured origin, Pad Kra Pao evolved organically as Thai-Chinese street food in the early 20th century. The use of holy basil (kra pao) distinguishes it from similar stir-fries—this herb is sacred in Hinduism and believed to have medicinal properties. The dish became the default 'quick lunch' for Bangkok's working class by the 1960s-70s. Every 'aharn tam sang' (made-to-order) stall can make it in under 5 minutes.",
+        "insider_tip": "Order it as locals do: 'Pad Kra Pao Moo/Gai, Kai Dao, Khai Mook' (basil pork/chicken, fried egg, with extra garlic). Specify spice level—'phet maak' is very spicy. The egg must be crispy on the edges and runny in the middle. Don't order it at tourist restaurants; find a street-side 'tam sang' stall where workers eat.",
+        "price_level": "Affordable",
+        "good_for": ["Quick meal", "Budget travelers", "Locals' favorite"],
+        "duration": "15-20 minutes",
+        "best_time": "Lunch (11 AM-2 PM)"
+      },
       "image": "/images/bangkok/pad-kra-pao.jpg"
     },
     {
@@ -233,7 +597,16 @@
       "name_local": "อาหารตามสั่ง",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The backbone of local dining. Small stalls with a wok and fresh ingredients. You construct the dish: [Protein] + [Style] + [Rice/Egg]. Example: 'Grapow Gai Khai Dao' (Basil Chicken + Fried Egg).",
+      "description": {
+        "short": "Aharn Tam Sang literally means 'food made to order'—small street-side stalls with a gas wok, fresh ingredients displayed in metal containers, and a cook who can execute dozens of dishes in minutes. You construct your meal by choosing protein (chicken, pork, seafood), cooking style (stir-fried, fried, soup), and additions (fried egg, extra vegetables). This is how most Bangkok locals eat daily—it's the backbone of the city's food system.",
+        "vibe": "Fast, Customizable, Authentic",
+        "history": "The tam sang system emerged in the 1960s-70s as Bangkok industrialized and workers needed fast, affordable meals during short lunch breaks. The model is brilliant in its efficiency: standardized techniques (stir-frying, deep-frying) applied to modular ingredients. Most tam sang vendors specialize in 5-10 core dishes they can execute perfectly. The system democratized restaurant-quality food, making it accessible to construction workers and office employees alike.",
+        "insider_tip": "Learn the formula: [Cooking style] + [Protein] + [Addition]. Example: 'Pad Kra Pao Gai Kai Dao' (stir-fried basil chicken with fried egg). Point at ingredients if your Thai is limited—vendors are used to this. The best tam sang stalls have workers lined up at lunch. Sit at the plastic tables nearby; it's faster than takeaway.",
+        "price_level": "Affordable",
+        "good_for": ["Budget travelers", "Quick meal", "Cultural experience"],
+        "duration": "20-30 minutes",
+        "best_time": "Lunch (11 AM-2 PM)"
+      },
       "image": "/images/bangkok/tam-sang.jpg"
     },
     {
@@ -243,7 +616,16 @@
       "name_local": "เอ็มเค สุกี้",
       "category": "food",
       "is_generic_staple": true,
-      "description": "A cultural institution for the Thai middle class. Communal hotpot (Suki) in air-conditioned comfort. Clean, vegetable-heavy, and a necessary reset from oily street food.",
+      "description": {
+        "short": "MK is a Thai hotpot chain serving 'suki'—a Thai-Chinese hybrid of Japanese sukiyaki and Chinese steamboat. Diners cook thinly sliced meats, seafood, vegetables, and noodles in a communal pot of clear or spicy broth, then dip everything in MK's signature sour-sweet sauce. It's a cultural institution for Bangkok's middle class—air-conditioned, vegetable-heavy, and a necessary reset from oily street food.",
+        "vibe": "Clean, Communal, Middle-class",
+        "history": "MK was founded in 1962 as a small street stall by a Chinese-Thai immigrant family. It pioneered the 'Thai suki' format—adapting Japanese sukiyaki with Thai flavors and Chinese hotpot technique. By the 1980s-90s, as Bangkok's middle class grew, MK positioned itself as affordable family dining with consistent quality. It became a default choice for celebrations, Sunday lunches, and air-conditioned relief. Today, it's one of Thailand's largest restaurant chains.",
+        "insider_tip": "Order the 'suki nam' (soup version) over 'suki haeng' (dry version) for first-timers. The signature dipping sauce is the key—it's sweet, sour, and packed with chili. Load up on vegetables and glass noodles; the portions are generous. Go during off-peak hours (2-5 PM) to avoid family crowds on weekends.",
+        "price_level": "Moderate",
+        "good_for": ["Groups", "Families", "Rainy days"],
+        "duration": "1-1.5 hours",
+        "best_time": "Lunch or dinner"
+      },
       "image": "/images/bangkok/mk-suki.jpg"
     },
     {
@@ -253,7 +635,16 @@
       "name_local": "ต้มยำกุ้ง",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Iconic hot and sour soup with shrimp, lemongrass, galangal, kaffir lime leaves, and chili. Intensely aromatic and flavorful.",
+      "description": {
+        "short": "Tom Yum Goong is Thailand's most iconic soup—a hot and sour broth packed with shrimp, lemongrass, galangal, kaffir lime leaves, Thai chilies, lime juice, and fish sauce. The aroma is intensely citrusy and herbal, the flavor simultaneously spicy, sour, and umami-rich. There are two versions: clear (nam sai) and creamy with evaporated milk (nam khon).",
+        "vibe": "Aromatic, Spicy, Complex",
+        "history": "Tom Yum's origins are murky but likely emerged in central Thailand during the Ayutthaya period (14th-18th century), utilizing abundant freshwater shrimp and local herbs. The dish gained national prominence in the 20th century as Bangkok's middle class embraced it. During the 1997 Asian Financial Crisis, dubbed the 'Tom Yum Goong Crisis' in Thailand, the soup became a symbol of Thai resilience. It's now protected as part of Thai cultural heritage.",
+        "insider_tip": "The best Tom Yum balances sour, spicy, and salty without being overwhelmingly hot. Order 'phet noi' (little spicy) if sensitive. The clear version (nam sai) is more traditional and lighter; the creamy version is richer but less refined. Always eat it with rice to balance the intensity. Street-side seafood restaurants often make it better than tourist spots.",
+        "price_level": "Affordable",
+        "good_for": ["Foodies", "Soup lovers", "Dinner"],
+        "duration": "30-45 minutes",
+        "best_time": "Dinner"
+      },
       "image": "/images/bangkok/tom-yum.jpg"
     },
     {
@@ -263,7 +654,16 @@
       "name_local": "ก๋วยเตี๋ยวเรือ",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Rich, dark noodle soup thickened with pig blood (nam tok). Traditionally served in tiny bowls, so locals order stacks of them at once.",
+      "description": {
+        "short": "Boat noodles (kuay teow reua) are small bowls of intensely flavored noodle soup made with pork or beef, fresh herbs, bean sprouts, and a dark, rich broth thickened with pig or cow blood. The name comes from their origin—sold from boats on Bangkok's canals. Each bowl is tiny (3-4 sips), so locals traditionally order 5-10 bowls in one sitting, stacking the empty bowls to tally the bill.",
+        "vibe": "Rich, Intense, Addictive",
+        "history": "Boat noodles originated in the canals (khlongs) of Bangkok and Ayutthaya in the early 20th century when vendors paddled boats selling noodles to riverside residents. The small portions were designed for quick consumption and low prices—workers could afford multiple bowls. The blood-thickened broth (nam tok) is essential for authenticity, providing iron-rich depth. As canals were paved over, boat noodle vendors moved to land but kept the format.",
+        "insider_tip": "Order at least 5 bowls to start—they're tiny and designed to be eaten in volume. 'Nam tok' (with blood) is the authentic version; 'nam sai' (clear) is for the squeamish. Add lots of vinegar with chilies, sugar, and fish sauce from the table condiments—customization is expected. Victory Monument area has the highest concentration of boat noodle alleys.",
+        "price_level": "Affordable",
+        "good_for": ["Adventurous eaters", "Quick meal", "Budget travelers"],
+        "duration": "20-30 minutes",
+        "best_time": "Lunch or late night"
+      },
       "image": "/images/bangkok/boat-noodles.jpg"
     },
     {
@@ -273,17 +673,35 @@
       "name_local": "ข้าวมันไก่",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Poached chicken served on oily ginger-garlic rice with a spicy dipping sauce and cucumber. A simple, comforting lunch staple everywhere.",
+      "description": {
+        "short": "Khao Man Gai is Thailand's version of Hainanese chicken rice—tender poached chicken served on fragrant rice cooked in chicken fat and ginger, accompanied by a spicy fermented soybean sauce, chicken broth, and cucumber slices. It's simple, comforting, and ubiquitous across Bangkok. The dish's elegance lies in its restraint—perfect execution of basic ingredients.",
+        "vibe": "Simple, Comforting, Universal",
+        "history": "Hainanese immigrants brought this dish to Thailand in the early 20th century, adapting it with Thai flavors—particularly the spicy, funky dipping sauce made from fermented soybeans, garlic, and chilies. By the 1960s-70s, Khao Man Gai had become a Bangkok lunch staple, with specialized stalls opening across the city. The most famous vendor, Raan Kaithong Pratunam (Pink Polo Shirt), has served it since 1960 and now sees thousands of customers daily.",
+        "insider_tip": "The sauce makes or breaks the dish—it should be spicy, garlicky, and slightly fermented. Ask for 'nam soup' (extra broth) on the side. The chicken should be room temperature or slightly warm, never hot—this indicates it was poached hours ago and stayed moist. Look for stalls with whole chickens hanging in the window.",
+        "price_level": "Affordable",
+        "good_for": ["Quick meal", "Solo diners", "Lunch"],
+        "duration": "20-30 minutes",
+        "best_time": "Lunch"
+      },
       "image": "/images/bangkok/chicken-rice.jpg"
     },
     {
       "id": "food-022",
       "slug": "temporal-breakfast",
       "name_en": "Jok & Pa Thong Ko",
-      "name_local": "โจ๊ก / ปาท่องโก๋",
+      "name_local": "โจ๊ก / ปาทองโก๋",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Bangkok breakfast is temporal. 'Jok' (Rice Porridge) and 'Pa Thong Ko' (Chinese Doughnuts) are sold by carts that disappear by 9 AM. You won't find them at lunch.",
+      "description": {
+        "short": "Jok is Thai rice porridge (congee)—soft, broken rice cooked into a creamy soup with minced pork, ginger, and a soft-boiled egg, garnished with crispy garlic, white pepper, and green onions. Pa Thong Ko are Chinese-style fried dough sticks (youtiao), crispy outside and chewy inside, meant for dipping into jok or sweetened condensed milk. These are temporal foods—sold by mobile carts from dawn until 9 AM, then they vanish.",
+        "vibe": "Comforting, Ephemeral, Traditional",
+        "history": "Both dishes arrived with Chinese immigrants in the 19th-20th centuries. Jok became the Thai worker's breakfast—cheap, filling, easy to digest. Pa Thong Ko (the name is Thai corruption of Cantonese) were traditionally eaten by dockworkers and laborers before dawn shifts. The temporal nature developed because vendors used the same carts for different meals throughout the day—breakfast items disappeared as lunch preparation began.",
+        "insider_tip": "Hunt for these between 6-9 AM near wet markets, temple entrances, or major intersections. After 9 AM, you won't find them. Jok should be silky and broken down, not chunky—good vendors cook it for hours. Order Pa Thong Ko 'sot' (fresh) and eat immediately; they get chewy fast. Dip in sweetened condensed milk for dessert.",
+        "price_level": "Affordable",
+        "good_for": ["Early risers", "Breakfast", "Cultural experience"],
+        "duration": "15-20 minutes",
+        "best_time": "6-9 AM only"
+      },
       "image": "/images/bangkok/jok.jpg"
     },
     {
@@ -293,7 +711,16 @@
       "name_local": "ข้าวต้ม",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The post-nightlife meal. Boiled rice soup served with side dishes like spicy salads, stir-fried morning glory, or salted egg. Institutions like Saengchai Pochana open until 4 AM.",
+      "description": {
+        "short": "Khao Tom is boiled rice soup—a gentle, watery rice porridge served with an array of side dishes like spicy Thai salads (yum), stir-fried morning glory, grilled fish, salted eggs, and fried pork. Unlike jok (thick congee), khao tom keeps rice grains intact. It's the traditional post-drinking, late-night meal that soothes the stomach. Institutions like Saengchai Pochana operate until 4 AM serving clubgoers and night shift workers.",
+        "vibe": "Soothing, Late-night, Restorative",
+        "history": "Khao Tom has ancient roots as a gentle breakfast for monks and the elderly. By the 1970s-80s, as Bangkok's nightlife exploded, clever vendors stayed open past midnight serving the post-club crowd. The format adapted—instead of just rice soup, they offered full spreads of side dishes to satisfy drunk hunger. These 24-hour khao tom restaurants became Bangkok institutions, serving everyone from taxi drivers to socialites.",
+        "insider_tip": "Go between midnight and 4 AM when the scene is most authentic—you'll see club-goers still in party clothes mixing with taxi drivers. Order the rice soup bland (it's meant to be gentle) and load up on spicy side dishes for contrast. Saengchai Pochana near Sukhumvit is legendary. The combination of bland and spicy is intentional—it balances drunk stomachs.",
+        "price_level": "Affordable",
+        "good_for": ["Night owls", "After drinking", "Late night"],
+        "duration": "30-45 minutes",
+        "best_time": "Midnight to 4 AM"
+      },
       "image": "/images/bangkok/khao-tom.jpg"
     },
     {
@@ -303,7 +730,16 @@
       "name_local": "ส้มตำ",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Spicy, sour, sweet, and crunchy salad made from shredded green papaya, tomatoes, peanuts, and chili. Order 'mai phet' (not spicy) if you can't handle heat.",
+      "description": {
+        "short": "Som Tam is a spicy, sour, crunchy salad made from shredded unripe green papaya pounded in a mortar with chilies, garlic, tomatoes, lime juice, fish sauce, palm sugar, peanuts, and often dried shrimp. It's simultaneously spicy, sour, sweet, salty, and umami. The texture is crisp and refreshing. This is Isaan (northeastern) cuisine that became a national obsession.",
+        "vibe": "Spicy, Refreshing, Addictive",
+        "history": "Som Tam originated in Laos and northeastern Thailand (Isaan), where the Lao ethnic group dominates. As Isaan migrants moved to Bangkok seeking work in the mid-20th century, they brought their cuisine. By the 1970s-80s, som tam stalls proliferated across Bangkok, becoming the default street food lunch for construction workers and office staff alike. The dish's heat and crunch made it perfect for Bangkok's climate.",
+        "insider_tip": "There are many variations: 'Som Tam Thai' (with peanuts and dried shrimp, sweetest), 'Som Tam Poo' (with raw fermented crab, funky and intense), and 'Som Tam Lao' (no sugar, just spicy and sour). Order 'phet noi' or 'mai phet' if you can't handle heat—Thai 'medium' will destroy you. The best som tam is made to order in wooden mortars at Isaan restaurants, not pre-made.",
+        "price_level": "Affordable",
+        "good_for": ["Lunch", "Spicy food lovers", "Refreshing snack"],
+        "duration": "15-20 minutes",
+        "best_time": "Lunch"
+      },
       "image": "/images/bangkok/som-tam.jpg"
     },
     {
@@ -313,7 +749,16 @@
       "name_local": "ข้าวเหนียวมะม่วง",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Sweet sticky rice cooked in coconut milk, served with ripe mango slices. The perfect end to a spicy meal. Seasonal (best Apr-Jun).",
+      "description": {
+        "short": "Khao Niao Mamuang is sweet sticky rice cooked in coconut milk and sugar, served with slices of ripe, fragrant mango and drizzled with more coconut cream and sometimes crispy mung beans. The combination of warm, salty-sweet sticky rice with cool, juicy mango is transcendent. This dessert is seasonal—mango season runs April through June, when the fruit is at peak ripeness.",
+        "vibe": "Sweet, Tropical, Seasonal",
+        "history": "Sticky rice has been cultivated in Thailand for millennia, particularly in the north and northeast where it's the staple grain. The pairing with mango likely emerged in central Thailand where both ingredients were abundant. The dish gained international fame in the 2000s as Thai restaurants worldwide added it to menus. It represents the Thai ability to balance flavors—the salty coconut rice against sweet mango creates perfect harmony.",
+        "insider_tip": "Only eat this during mango season (April-June) when mangoes are naturally ripe, sweet, and fragrant. Off-season versions use inferior imports. The sticky rice should be warm, not cold—cold sticky rice is unpleasant. Look for vendors who cook rice to order rather than pre-made batches. The coconut sauce should be slightly salty to balance the sweetness.",
+        "price_level": "Affordable",
+        "good_for": ["Dessert", "Everyone", "Mango season"],
+        "duration": "15-20 minutes",
+        "best_time": "April to June"
+      },
       "image": "/images/bangkok/mango-sticky-rice.jpg"
     },
     {
@@ -323,7 +768,16 @@
       "name_local": "หมูปิ้ง",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Sweet and savory marinated pork grilled over charcoal. A favorite breakfast or late-night snack, usually eaten with a bag of sticky rice.",
+      "description": {
+        "short": "Moo Ping are marinated pork skewers grilled over charcoal until caramelized and slightly charred. The marinade is sweet and savory—soy sauce, fish sauce, palm sugar, garlic, and white pepper. They're sold from carts with smoking grills, usually paired with sticky rice in a plastic bag. This is Bangkok's ultimate grab-and-go snack—cheap, filling, and available from breakfast through late night.",
+        "vibe": "Smoky, Sweet, Portable",
+        "history": "Moo Ping has Isaan origins but became a Bangkok street food staple in the 1970s-80s as northeastern migrants opened food carts. The skewers were originally breakfast for rural workers—portable protein to fuel physical labor. In Bangkok, they evolved into an all-day snack sold near BTS stations, markets, and construction sites. The pairing with sticky rice (khao niao) is traditional Isaan—sticky rice is eaten with hands, making it perfect street food.",
+        "insider_tip": "Buy from carts actively grilling—you want the skewers hot with charred edges. The pork should be fatty (neck or shoulder cuts), not lean. Order with sticky rice (khao niao) and spicy dipping sauce (nam jim jaew). Best eaten while standing or walking—it's designed to be portable. Morning vendors near wet markets often have the best quality.",
+        "price_level": "Affordable",
+        "good_for": ["Quick bite", "Breakfast", "Snack"],
+        "duration": "10-15 minutes",
+        "best_time": "Morning or late afternoon"
+      },
       "image": "/images/bangkok/moo-ping.jpg"
     },
     {
@@ -333,7 +787,16 @@
       "name_local": "แกงมัสมั่น",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Rich, mild curry with Persian influences. Made with beef or chicken, potatoes, peanuts, and coconut milk. Less spicy, more sweet.",
+      "description": {
+        "short": "Massaman curry is a rich, mild curry with Persian and Indian influences, made with beef or chicken, potatoes, peanuts, and coconut milk. Unlike most Thai curries, it's subtly spiced rather than fiery—warming spices like cinnamon, cardamom, and star anise dominate. The sauce is thick and slightly sweet. It's the comfort food curry—less challenging for Western palates but still deeply flavorful.",
+        "vibe": "Rich, Mild, Aromatic",
+        "history": "Massaman curry's name likely derives from 'Mussulman' (Muslim), reflecting its Islamic/Persian origins. It arrived in Thailand during the Ayutthaya period (14th-18th century) through trade with Persian and Indian Muslim merchants. The royal court adapted it, adding coconut milk and Thai ingredients. In 2011, CNN declared it the 'world's most delicious food,' sparking a global Massaman craze. It represents Thailand's history as a cultural crossroads.",
+        "insider_tip": "Authentic Massaman is cooked slowly for hours—the beef should be fall-apart tender. Muslim restaurants (look for halal signs) often make the best versions since they stayed closer to the original recipe. Eat it with roti (flatbread) or jasmine rice. The curry is better the next day after flavors meld. Avoid tourist restaurants where it's made from paste—it should be complex and layered.",
+        "price_level": "Moderate",
+        "good_for": ["Dinner", "Curry lovers", "Less spicy option"],
+        "duration": "45 minutes-1 hour",
+        "best_time": "Dinner"
+      },
       "image": "/images/bangkok/massaman.jpg"
     },
     {
@@ -343,7 +806,16 @@
       "name_local": "อาหารอีสาน",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Cuisine from Northeast Thailand. Think grilled chicken (Gai Yang), spicy minced meat salad (Larb), and sticky rice. Bold, funky, and spicy.",
+      "description": {
+        "short": "Isaan food refers to the cuisine of northeastern Thailand—bold, spicy, fermented, and rustic. Signature dishes include grilled chicken (gai yang), spicy minced meat salad (larb), som tam, and sticky rice. The flavors are intensely sour, spicy, and funky from fermented fish sauce (pla ra). Isaan cuisine dominates Bangkok street food despite being from the poorest region—migrants brought their food culture to the capital.",
+        "vibe": "Bold, Funky, Rustic",
+        "history": "Isaan is Thailand's poorest and most populous region, historically marginalized by Bangkok's central Thai elite. Massive migration to Bangkok for work in the 1960s-80s brought Isaan culture, including cuisine. What was initially 'peasant food' became mainstream as Bangkok's working class embraced its bold flavors and affordability. Today, Isaan restaurants outnumber central Thai ones in Bangkok—it's the people's cuisine. The food reflects the region's harsh climate and poverty—fermentation preserved scarce protein.",
+        "insider_tip": "Find authentic Isaan restaurants in working-class neighborhoods like Huai Khwang or near construction sites. The food should be aggressively spicy and sour—if it's mild, it's been Bangkok-ized. Essential dishes: gai yang (grilled chicken), larb (minced meat salad), and tam maak hoong (Lao-style papaya salad). Always order sticky rice (khao niao)—it's meant to be eaten with hands.",
+        "price_level": "Affordable",
+        "good_for": ["Adventurous eaters", "Spicy food lovers", "Dinner"],
+        "duration": "1-1.5 hours",
+        "best_time": "Dinner"
+      },
       "image": "/images/bangkok/isaan-food.jpg"
     },
     {
@@ -353,7 +825,16 @@
       "name_local": "หอยทอด",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Crispy egg batter fried with plump oysters or mussels, served with bean sprouts and chili sauce. A greasy, delicious Chinatown classic.",
+      "description": {
+        "short": "Hoy Tod is a crispy omelet made with oysters or mussels, fried in egg batter mixed with tapioca starch until the edges are lacy and crisp, then topped with bean sprouts and served with sweet-spicy chili sauce. It's greasy, crunchy, and addictive. This is Chinatown (Yaowarat) classic street food—best eaten at night when the woks are blazing and the crowds gather.",
+        "vibe": "Crispy, Greasy, Indulgent",
+        "history": "Hoy Tod came to Thailand with Chinese immigrants, particularly the Teochew community that dominated Bangkok's Chinatown. The dish is a Thai adaptation of Taiwanese oyster omelette. It became a Yaowarat staple by the mid-20th century, sold from street-side woks surrounded by plastic stools. The tapioca starch creates the signature crispy texture. It's traditionally cooked in large amounts of lard, making it deeply savory.",
+        "insider_tip": "Go to Yaowarat (Chinatown) after dark when the street food stalls fire up—this is a night food. The best vendors have massive queues and cook in giant flat woks over roaring flames. Order 'hoy tod moo sap' (with minced pork) for extra richness. Eat it immediately while the edges are still crispy—it gets soggy fast. The chili sauce is essential for cutting through the grease.",
+        "price_level": "Affordable",
+        "good_for": ["Night food", "Chinatown visit", "Greasy cravings"],
+        "duration": "20-30 minutes",
+        "best_time": "Evening (7 PM-midnight)"
+      },
       "image": "/images/bangkok/oyster-omelet.jpg"
     },
     {
@@ -363,219 +844,15 @@
       "name_local": "ขนมไทย",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Look for Kanom Krok (coconut pancakes) or Bualoy (rice balls in coconut milk). Usually sweet, warm, and very cheap.",
+      "description": {
+        "short": "Thai street desserts (kanom) encompass dozens of traditional sweets, often made from coconut, rice flour, palm sugar, and pandan. Popular items include kanom krok (coconut-rice pancakes), bualoy (rice balls in warm coconut milk), and various steamed cakes. These desserts are usually sweet, warm, and very cheap. They're sold from specialized carts that appear in afternoons and evenings.",
+        "vibe": "Sweet, Traditional, Nostalgic",
+        "history": "Thai desserts have complex origins blending indigenous techniques with influences from Portuguese traders (who introduced egg-based sweets in the 16th century), Chinese immigrants, and Indian cuisine. Many traditional kanom were royal court foods that eventually spread to street level. The use of coconut, palm sugar, and pandan gives them distinctly Southeast Asian flavors. Each dessert had specific occasions—some for weddings, some for merit-making at temples.",
+        "insider_tip": "Look for kanom krok carts in late afternoon—these coconut pancakes must be eaten hot and fresh from the cast-iron pan. Bualoy is perfect for rainy, cool evenings. Most kanom are very sweet by Western standards—they're meant as treats, not meals. Temple fairs and markets have the widest variety. Don't confuse these with modern Thai desserts like 'Thai tea' or ice cream—traditional kanom are humble, made-from-scratch treats.",
+        "price_level": "Affordable",
+        "good_for": ["Sweet tooth", "Cultural experience", "Afternoon snack"],
+        "duration": "10-15 minutes",
+        "best_time": "Afternoon or evening"
+      },
       "image": "/images/bangkok/thai-desserts.jpg"
     }
-  ],
-  "must_see": [
-    {
-      "title": "Essential Bangkok",
-      "id": "essential",
-      "items": [
-        {
-          "id": "temp-001",
-          "slug": "grand-palace",
-          "name_en": "Grand Palace",
-          "name_local": "พระบรมมหาราชวัง",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "The most iconic landmark. Former royal residence with stunning architecture and the Emerald Buddha. Go at 8:30 AM to beat buses.",
-          "image": "/images/bangkok/grand-palace.jpg",
-          "geo": { "lat": 13.7500, "lng": 100.4915 }
-        },
-        {
-          "id": "temp-002",
-          "slug": "wat-arun",
-          "name_en": "Wat Arun",
-          "name_local": "วัดอรุณ",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Temple of Dawn. Stunning riverside temple with a towering colorful spire. Climb the steep steps for a view.",
-          "image": "/images/bangkok/wat-arun.jpg",
-          "geo": { "lat": 13.7437, "lng": 100.4887 }
-        },
-        {
-          "id": "temp-003",
-          "slug": "wat-pho",
-          "name_en": "Wat Pho",
-          "name_local": "วัดโพธิ์",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Home to the massive Reclining Buddha and the birthplace of Thai massage. Peaceful and beautiful.",
-          "image": "/images/bangkok/wat-pho.jpg",
-          "geo": { "lat": 13.7465, "lng": 100.4927 }
-        },
-        {
-          "id": "act-001",
-          "slug": "chao-phraya-boat",
-          "name_en": "Chao Phraya Express Boat",
-          "name_local": "เรือด่วนเจ้าพระยา",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "The local way to travel. Take the Orange Flag boat for a cheap, scenic cruise past the temples. Authentic and breezy.",
-          "image": "/images/bangkok/river-boat.jpg",
-          "geo": { "lat": 13.7200, "lng": 100.5100 }
-        }
-      ]
-    },
-    {
-      "title": "Local Life & Culture",
-      "id": "local-life",
-      "items": [
-        {
-          "id": "act-002",
-          "slug": "yaowarat-night-food",
-          "name_en": "Yaowarat Night Food Walk",
-          "name_local": "เยาวราช",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "After dark, Chinatown turns into the world's greatest street food buffet. Neon lights, crowds, and incredible seafood.",
-          "image": "/images/bangkok/chinatown.jpg",
-          "geo": { "lat": 13.7410, "lng": 100.5085 }
-        },
-        {
-          "id": "act-003",
-          "slug": "thai-massage-local",
-          "name_en": "Traditional Thai Massage",
-          "name_local": "นวดแผนไทย",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Affordable and intense. Visit a reputable shop or the massage school at Wat Pho. Part of daily health maintenance here.",
-          "image": "/images/bangkok/massage.jpg",
-          "geo": { "lat": 13.7465, "lng": 100.4927 }
-        },
-        {
-          "id": "act-004",
-          "slug": "lumpini-park",
-          "name_en": "Lumpini Park",
-          "name_local": "สวนลุมพินี",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Bangkok's 'Central Park'. Go at 7 AM to see locals doing Tai Chi, or sunset for aerobics. Watch out for monitor lizards.",
-          "image": "/images/bangkok/lumpini.jpg",
-          "geo": { "lat": 13.7314, "lng": 100.5417 }
-        },
-        {
-          "id": "act-005",
-          "slug": "muay-thai",
-          "name_en": "Muay Thai Boxing",
-          "name_local": "มวยไทย",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Thailand's national sport. Watch a real fight at Rajadamnern Stadium for the noise, gambling, and atmosphere.",
-          "image": "/images/bangkok/muay-thai.jpg",
-          "geo": { "lat": 13.7600, "lng": 100.5090 }
-        },
-        {
-          "id": "act-006",
-          "slug": "listening-bars",
-          "name_en": "Audiophile Listening Bars",
-          "name_local": "Vinyl Bars",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "A sophisticated alternative to loud clubs. Venues like 'Studio Lam' or 'Alonetogether' focus on high-fidelity sound, rare vinyl (Thai Molam/Jazz), and craft cocktails.",
-          "image": "/images/bangkok/listening-bar.jpg",
-          "geo": { "lat": 13.7314, "lng": 100.5817 }
-        },
-        {
-          "id": "act-007",
-          "slug": "talad-noi-walk",
-          "name_en": "Talad Noi Heritage Walk",
-          "name_local": "ตลาดน้อย",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Walk through the alleyways of Bangkok's oldest Chinese community. See the 'Mother Roaster' cafe atop a scrap metal heap and the Fiat vintage car graveyard.",
-          "image": "/images/bangkok/talad-noi-walk.jpg",
-          "geo": { "lat": 13.7346, "lng": 100.5135 }
-        },
-        {
-          "id": "nat-001",
-          "slug": "bang-krachao",
-          "name_en": "Bang Krachao (Green Lung)",
-          "name_local": "บางกระเจ้า",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "A jungle island in the middle of the city loop. Rent a bike and ride the elevated concrete pathways through mangroves. A total escape from concrete.",
-          "image": "/images/bangkok/bang-krachao.jpg",
-          "geo": { "lat": 13.6953, "lng": 100.5600 }
-        }
-      ]
-    },
-    {
-      "title": "Markets & Modern",
-      "id": "markets",
-      "items": [
-        {
-          "id": "mar-001",
-          "slug": "chatuchak-market",
-          "name_en": "Chatuchak Weekend Market",
-          "name_local": "ตลาดนัดจตุจักร",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "15,000 stalls selling everything from vintage clothes to pets. Hot, crowded, and essential. Weekend only.",
-          "image": "/images/bangkok/chatuchak.jpg",
-          "geo": { "lat": 13.7990, "lng": 100.5499 }
-        },
-        {
-          "id": "mar-004",
-          "slug": "local-night-market",
-          "name_en": "Jodd Fairs / Night Markets",
-          "name_local": "ตลาดนัดกลางคืน",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Evening markets with food, bars, and live music. Less touristy than Chatuchak. Great for dinner and hanging out.",
-          "image": "/images/bangkok/night-market.jpg",
-          "geo": { "lat": 13.7570, "lng": 100.5650 }
-        },
-        {
-          "id": "mar-005",
-          "slug": "flower-market",
-          "name_en": "Pak Khlong Talat",
-          "name_local": "ปากคลองตลาด",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Massive 24-hour flower market. Best visited late at night or very early morning. A riot of colors and smells.",
-          "image": "/images/bangkok/flower-market.jpg",
-          "geo": { "lat": 13.7415, "lng": 100.4965 }
-        },
-        {
-          "id": "mod-001",
-          "slug": "rooftop-bars",
-          "name_en": "Sky Bars",
-          "name_local": "บาร์บนดาดฟ้า",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": "Sunset drinks with a view. Octave, Tichuca, or Vertigo are popular choices. Dress code usually applies (no flip-flops).",
-          "image": "/images/bangkok/rooftop.jpg",
-          "geo": { "lat": 13.7226, "lng": 100.5142 }
-        }
-      ]
-    }
-  ],
-  "affiliate_products": [
-    {
-      "id": "aff-001",
-      "title": "Portable Neck Fan",
-      "image": "/images/bangkok/neck-fan.jpg",
-      "reason": "Bangkok heat is brutal. A hands-free neck fan keeps you cool while sightseeing.",
-      "amazon_url": "https://www.amazon.com/s?k=portable+neck+fan",
-      "category": "weather"
-    },
-    {
-      "id": "aff-002",
-      "title": "Mosquito Repellent",
-      "image": "/images/bangkok/repellent.jpg",
-      "reason": "Dengue is a risk. DEET-based repellent is essential for outdoor evenings.",
-      "amazon_url": "https://www.amazon.com/s?k=deet+mosquito+repellent",
-      "category": "health"
-    },
-    {
-      "id": "aff-003",
-      "title": "Travel Money Belt",
-      "image": "/images/bangkok/money-belt.jpg",
-      "reason": "Pickpockets are active in markets. Keep your cash secure.",
-      "amazon_url": "https://www.amazon.com/s?k=travel+money+belt",
-      "category": "security"
-    }
-  ]
-}
