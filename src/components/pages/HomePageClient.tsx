@@ -315,6 +315,7 @@ export function HomePageClient({ cities, regions }: HomePageClientProps) {
         <InteractiveWorldMap 
           searchQuery={searchQuery} 
           onCountryClick={handleCountryClick} 
+          cities={cities} // ✅ Add this prop to make the map dynamic
         />
         <p className="text-center text-sm text-slate-500 dark:text-slate-400 mt-4">
           Click on a country to filter cities below
