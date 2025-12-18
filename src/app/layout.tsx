@@ -1,22 +1,9 @@
 /**
- * Root Layout
- * Includes Google Fonts for City Personalities
+ * Root Layout - Performance Optimized
+ * Only loads Inter globally. City fonts loaded per-route.
  */
 
-import { 
-  Inter, 
-  Geo,              // Tokyo
-  Modak,            // Bangkok
-  Corinthia,        // Paris
-  Quintessential,   // Rome
-  Style_Script,     // Los Angeles
-  Russo_One,        // New York
-  Bungee,           // Berlin
-  Playball,         // London
-  Aladin,           // Istanbul
-  Gravitas_One,     // Dubai
-  Barlow_Condensed  // Hong Kong
-} from 'next/font/google'
+import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import { Menu } from 'lucide-react'
 import { AuthProvider } from '@/components/providers/AuthProvider'
@@ -30,34 +17,23 @@ import type { Metadata } from 'next'
 import { CookieConsent } from '@/components/features/CookieConsent'
 import Script from 'next/script'
 
-// --- 1. GLOBAL FONTS ---
-const inter = Inter({ subsets: ['latin'], variable: '--font-sans', display: 'swap' })
+// Global font only
+const inter = Inter({ 
+  subsets: ['latin'], 
+  variable: '--font-sans', 
+  display: 'swap',
+  preload: true,
+})
 
-// --- 2. CITY PERSONALITY FONTS ---
-const tokyoFont = Geo({ weight: '400', subsets: ['latin'], variable: '--font-tokyo', display: 'swap' })
-const bangkokFont = Modak({ weight: '400', subsets: ['latin'], variable: '--font-bangkok', display: 'swap' })
-const parisFont = Corinthia({ weight: '700', subsets: ['latin'], variable: '--font-paris', display: 'swap' })
-const romeFont = Quintessential({ weight: '400', subsets: ['latin'], variable: '--font-rome', display: 'swap' })
-const laFont = Style_Script({ weight: '400', subsets: ['latin'], variable: '--font-la', display: 'swap' })
-const nyFont = Russo_One({ weight: '400', subsets: ['latin'], variable: '--font-ny', display: 'swap' })
-const berlinFont = Bungee({ weight: '400', subsets: ['latin'], variable: '--font-berlin', display: 'swap' })
-const londonFont = Playball({ weight: '400', subsets: ['latin'], variable: '--font-london', display: 'swap' })
-const istanbulFont = Aladin({ weight: '400', subsets: ['latin'], variable: '--font-istanbul', display: 'swap' })
-const dubaiFont = Gravitas_One({ weight: '400', subsets: ['latin'], variable: '--font-dubai', display: 'swap' })
-const hkFont = Barlow_Condensed({ weight: '800', subsets: ['latin'], variable: '--font-hk', display: 'swap' })
-
-// 1. Update the Metadata object for global SEO
 export const metadata: Metadata = {
-  // ✅ NEW: Critical for resolving OG images and Canonical tags
   metadataBase: new URL('https://citybasic.com'), 
   
   title: {
     default: 'CityBasic | Essential Travel Cheat Sheets',
-    template: '%s | CityBasic' // Automatically appends "| CityBasic" to city/place titles
+    template: '%s | CityBasic',
   },
   description: 'Curated travel recommendations with instant translation for international travelers. Navigate foreign cities without language barriers.',
   
-  // ✅ NEW: Prevents "Duplicate without user-selected canonical"
   alternates: {
     canonical: '/',
   },
@@ -96,25 +72,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* ✅ ADD THIS: Prevents mobile layout shifts */}
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
       </head>
-      <body className={`
-        ${inter.variable} 
-        ${tokyoFont.variable}
-        ${bangkokFont.variable}
-        ${parisFont.variable}
-        ${romeFont.variable}
-        ${laFont.variable}
-        ${nyFont.variable}
-        ${berlinFont.variable}
-        ${londonFont.variable}
-        ${istanbulFont.variable}
-        ${dubaiFont.variable}
-        ${hkFont.variable}
-        font-sans antialiased bg-slate-50 dark:bg-slate-950
-      `}>
-        {/* Keep the rest of your Providers and Components as they were */}
+      <body className={`${inter.variable} font-sans antialiased bg-slate-50 dark:bg-slate-950`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <AuthProvider>
             <AdProvider>

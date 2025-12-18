@@ -27,6 +27,8 @@ import * as Icons from 'lucide-react'
 import { HeroGlass } from '@/components/ui/HeroGlass'
 import { CollapsibleSection } from '@/components/ui/CollapsibleSection'
 import { LogisticsSection } from '@/components/features/LogisticsSection'
+import { getCityFont } from '@/lib/fonts/cityFonts'
+
 
 interface PageProps {
   params: Promise<{ citySlug: string }>
@@ -154,6 +156,7 @@ export default async function CityPage({ params }: PageProps) {
 
   // Get related cities for internal linking
   const relatedCities = await getRelatedCities(citySlug, city.country_code)
+  const cityFontClass = getCityFont(citySlug)
 
   // 🔴 Replace with your actual Booking.com Affiliate ID
   const BOOKING_AID = '123456' 
@@ -193,25 +196,6 @@ export default async function CityPage({ params }: PageProps) {
     return gradients[countryCode] || 'from-indigo-600 via-slate-200 to-indigo-600'
   }
 
-  const getCityFont = (slug: string) => {
-    const fonts: Record<string, string> = {
-      tokyo: 'font-tokyo text-7xl md:text-9xl tracking-widest text-cyan-400',
-      bangkok: 'font-bangkok text-7xl md:text-9xl tracking-wide text-amber-500',
-      paris: 'font-paris text-8xl md:text-[10rem] tracking-tight text-white',
-      rome: 'font-rome text-6xl md:text-8xl text-green-600',
-      'los-angeles': 'font-la text-7xl md:text-9xl text-orange-400',
-      'new-york': 'font-ny text-6xl md:text-8xl uppercase tracking-wider text-blue-500',
-      berlin: 'font-berlin text-6xl md:text-8xl uppercase text-yellow-400',
-      london: 'font-london text-7xl md:text-9xl text-red-600',
-      istanbul: 'font-istanbul text-7xl md:text-9xl tracking-wide text-orange-400',
-      dubai: 'font-dubai text-6xl md:text-8xl uppercase text-amber-200',
-      'hong-kong': 'font-hk text-7xl md:text-9xl uppercase tracking-tighter text-red-500',
-      'new-delhi': 'font-serif font-bold text-orange-400',
-      mecca: 'font-serif font-medium text-emerald-400',
-      guangzhou: 'font-sans font-bold text-white',
-    }
-    return fonts[slug] || 'font-sans font-bold text-white'
-  }
 
   // Generate structured data for SEO
   const structuredData = {
@@ -272,7 +256,8 @@ export default async function CityPage({ params }: PageProps) {
   }
 
   return (
-    <main className="min-h-screen bg-slate-50 dark:bg-slate-950">
+    <div className={cityFontClass}>
+  <main className="min-h-screen bg-slate-50 dark:bg-slate-950">
       
       {/* ✅ Structured Data - JSON-LD */}
       <script
@@ -372,7 +357,7 @@ export default async function CityPage({ params }: PageProps) {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/60" />
         <div className="absolute inset-0 flex items-center justify-center p-4">
-          <HeroGlass title={city.name} subtitle={city.intro_vibe} fontClass={getCityFont(citySlug)} />
+          <HeroGlass title={city.name} subtitle={city.intro_vibe} fontClass="font-city"/>
         </div>
       </section>
 
@@ -647,5 +632,6 @@ export default async function CityPage({ params }: PageProps) {
         <AdUnit type="banner" />
       </section>
     </main>
+    </div>
   )
 }

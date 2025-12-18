@@ -19,6 +19,8 @@ import { TranslationHook } from '@/components/features/TranslationHook'
 import { AdContainer } from '@/components/ads/AdContainer'
 import { CommentThread } from '@/components/features/CommentThread'
 import type { Metadata } from 'next'
+import { getCityFont } from '@/lib/fonts/cityFonts'
+
 
 interface PageProps {
   params: Promise<{ citySlug: string; placeSlug: string }>
@@ -50,6 +52,7 @@ async function getPlaceData(
     const allPlaces = [...city.must_eat, ...mustSeeItems]
     
     const place = allPlaces.find(p => p.slug === placeSlug)
+  
     if (!place) return null
 
     // ✅ SMART NEARBY ALGORITHM: Prioritize by distance if geo available
@@ -191,6 +194,7 @@ export default async function PlacePage({ params }: PageProps) {
   if (!data) notFound()
 
   const { city, place, nearbyPlaces, sameCategoryPlaces } = data
+  const cityFontClass = getCityFont(citySlug)
   
   const showTranslation = place.name_local && place.name_local !== place.name_en
   const isGenericStaple = place.is_generic_staple
@@ -273,7 +277,8 @@ export default async function PlacePage({ params }: PageProps) {
   }
 
   return (
-    <main className="min-h-screen bg-slate-50 dark:bg-slate-950">
+    <div className={cityFontClass}>
+  <main className="min-h-screen">
       
       {/* ✅ STRUCTURED DATA - JSON-LD */}
       <script
@@ -325,9 +330,9 @@ export default async function PlacePage({ params }: PageProps) {
             </div>
 
             {/* Title */}
-            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-slate-900 dark:text-slate-100 mb-4">
-              {place.name_en}
-            </h1>
+  <h1 className="font-city text-4xl md:text-5xl font-bold tracking-tight text-slate-900 dark:text-slate-100 mb-4">
+  {place.name_en}
+</h1>
 
             {/* Translation */}
             {showTranslation && (
@@ -713,5 +718,6 @@ export default async function PlacePage({ params }: PageProps) {
         </div>
       </div>
     </main>
+    </div>
   )
 }

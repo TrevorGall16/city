@@ -12,22 +12,10 @@ const config: Config = {
       colors: {
         // Using default Tailwind colors
       },
-      // ✅ ADDED FONTS HERE
+      // ✅ MASTER AI OPTIMIZED FONTS
       fontFamily: {
         sans: ['var(--font-sans)'], // Default font (Inter)
-        
-        // City Personalities
-        tokyo: ['var(--font-tokyo)'],
-        bangkok: ['var(--font-bangkok)'],
-        paris: ['var(--font-paris)'],
-        rome: ['var(--font-rome)'],
-        la: ['var(--font-la)'],
-        ny: ['var(--font-ny)'],
-        berlin: ['var(--font-berlin)'],
-        london: ['var(--font-london)'],
-        istanbul: ['var(--font-istanbul)'],
-        dubai: ['var(--font-dubai)'],
-        hk: ['var(--font-hk)'],
+        city: ['var(--font-city)', 'var(--font-sans)'], // Dynamic city font with Inter fallback
       },
     },
   },
