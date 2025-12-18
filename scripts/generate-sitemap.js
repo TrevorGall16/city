@@ -1,6 +1,6 @@
 /**
  * ✅ MASTER AI SITEMAP GENERATOR - CLEAN URL VERSION
- * Reads all city JSON files and generates sitemap.xml
+ * Generates sitemap.xml for: Homepage, City Hubs, Place Pages, Logistics Topics
  */
 
 const fs = require('fs')
@@ -21,15 +21,19 @@ async function generateSitemap() {
 
     const files = fs.readdirSync(citiesDir).filter(f => f.endsWith('.json'))
     const urls = []
+    const today = new Date().toISOString().split('T')[0]
 
     // 1. Add homepage
     urls.push({
       loc: '',
       changefreq: 'weekly',
       priority: '1.0',
+      lastmod: today,
     })
 
     // 2. Process each city file
+    let skippedFiles = []
+    
     for (const file of files) {
       const citySlug = file.replace('.json', '')
       const content = fs.readFileSync(path.join(citiesDir, file), 'utf-8')
@@ -39,32 +43,48 @@ async function generateSitemap() {
         city = JSON.parse(content)
       } catch (error) {
         console.error(`❌ Invalid JSON in ${file}:`, error.message)
-        continue // Skip broken files instead of crashing
+        skippedFiles.push(file)
+        continue
       }
 
-      // ✅ FIX 1: Clean City URL (e.g., /paris)
+      // City Hub Page (e.g., /paris)
       urls.push({
-        loc: `${citySlug}`,
+        loc: citySlug,
         changefreq: 'weekly',
         priority: '0.9',
+        lastmod: today,
       })
 
-      // ✅ FIX 2: Clean Place Pages (e.g., /paris/eiffel-tower)
+      // Place Pages (e.g., /paris/eiffel-tower)
       const allPlaces = [...(city.must_eat || []), ...(city.must_see || [])]
       allPlaces.forEach(place => {
         urls.push({
           loc: `${citySlug}/${place.slug}`,
           changefreq: 'weekly',
           priority: '0.8',
+          lastmod: today,
         })
       })
-    } // <--- This bracket was missing in your version!
 
-    // 3. Generate XML
+      // Logistics/Info Topic Pages (e.g., /paris/getting-sim-card)
+      if (city.logistics && Array.isArray(city.logistics)) {
+        city.logistics.forEach(topic => {
+          urls.push({
+            loc: `${citySlug}/${topic.slug}`,
+            changefreq: 'monthly',
+            priority: '0.7',
+            lastmod: today,
+          })
+        })
+      }
+    }
+
+    // 3. Generate XML with proper URL formatting
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(url => `  <url>
-    <loc>${SITE_URL}${url.loc ? `/${url.loc}` : ''}</loc>
+    <loc>${url.loc ? `${SITE_URL}/${url.loc}` : SITE_URL}</loc>
+    <lastmod>${url.lastmod}</lastmod>
     <changefreq>${url.changefreq}</changefreq>
     <priority>${url.priority}</priority>
   </url>`).join('\n')}
@@ -74,7 +94,11 @@ ${urls.map(url => `  <url>
     fs.writeFileSync(outputPath, sitemap)
 
     console.log(`✅ Sitemap generated with ${urls.length} URLs`)
-    console.log(`📍 Output: ${outputPath}`)
+    console.log(`📁 Output: ${outputPath}`)
+    
+    if (skippedFiles.length > 0) {
+      console.warn(`⚠️  Skipped ${skippedFiles.length} invalid files:`, skippedFiles.join(', '))
+    }
 
   } catch (error) {
     console.error('❌ Error generating sitemap:', error)
