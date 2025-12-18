@@ -1,0 +1,633 @@
+{
+  "id": "city-hk",
+  "name": "Hong Kong",
+  "slug": "hong-kong",
+  "country": "Hong Kong",
+  "country_code": "hk",
+  "hero_image": "/images/hong-kong/hero.jpg",
+  "intro_vibe": "Where East meets West in a vertical city of neon, dim sum, and skyscrapers.",
+  "general_info": {
+    "population": "~7.5 million",
+    "is_capital": false,
+    "description": "Hong Kong is a Special Administrative Region of China and one of the world's most densely populated cities. A former British colony, it blends Chinese and Western influences into a unique culture. Known for its dramatic skyline, world-class cuisine, efficient public transit, and vibrant street life, Hong Kong operates as a global financial hub while maintaining deep cultural traditions."
+  },
+  "stats": {
+    "currency": "HKD (Hong Kong Dollar)",
+    "plug_type": "Type G (British)"
+  },
+  "weather_breakdown": [
+    { "id": 1, "name": "January", "temp": "14°C - 19°C", "vibe": "Cool & Dry", "pros": ["Clear skies", "Low humidity", "Chinese New Year festivities"], "cons": ["Chilly evenings", "Occasional cold snaps"], "clothing": "Light jacket, long pants, layers" },
+    { "id": 2, "name": "February", "temp": "15°C - 20°C", "vibe": "Festive", "pros": ["Chinese New Year", "Comfortable temps", "Spring blooms start"], "cons": ["High hotel prices", "Crowds"], "clothing": "Light layers, jacket for evening" },
+    { "id": 3, "name": "March", "temp": "18°C - 23°C", "vibe": "Warming Up", "pros": ["Pleasant weather", "Spring vibes", "Lower prices"], "cons": ["Humidity rising", "Occasional fog"], "clothing": "T-shirts, light layers" },
+    { "id": 4, "name": "April", "temp": "21°C - 27°C", "vibe": "Humid Start", "pros": ["Warm days", "Art Basel week", "Outdoor weather"], "cons": ["Humidity spikes", "Frequent rain"], "clothing": "Breathable fabrics, umbrella" },
+    { "id": 5, "name": "May", "temp": "24°C - 30°C", "vibe": "Hot & Sticky", "pros": ["Beach season begins", "Buddha's Birthday", "Long days"], "cons": ["High humidity", "Heavy rain showers"], "clothing": "Shorts, tank tops, rain gear" },
+    { "id": 6, "name": "June", "temp": "26°C - 31°C", "vibe": "Peak Summer", "pros": ["Dragon Boat Festival", "Beach weather", "Mangoes in season"], "cons": ["Oppressive humidity", "Typhoon season starts"], "clothing": "Minimal clothes, sunscreen" },
+    { "id": 7, "name": "July", "temp": "27°C - 32°C", "vibe": "Hottest Month", "pros": ["Beach life", "Summer vibes", "Rooftop bars peak"], "cons": ["Extreme heat", "Typhoons possible", "A/C everywhere"], "clothing": "Light, breathable fabrics" },
+    { "id": 8, "name": "August", "temp": "27°C - 32°C", "vibe": "Typhoon Season", "pros": ["Tropical storms exciting", "Mid-Autumn prep", "Fewer tourists"], "cons": ["Typhoon disruptions", "Heavy rain", "Humidity maxed"], "clothing": "Rain gear essential, light clothes" },
+    { "id": 9, "name": "September", "temp": "26°C - 31°C", "vibe": "Still Hot", "pros": ["Mid-Autumn Festival", "Beach still good", "Mooncakes everywhere"], "cons": ["Typhoons continue", "Humid"], "clothing": "Summer clothes, rain backup" },
+    { "id": 10, "name": "October", "temp": "23°C - 28°C", "vibe": "Golden Season", "pros": ["Perfect weather", "Clear skies", "Hiking season"], "cons": ["Crowded weekends", "Higher prices"], "clothing": "T-shirts, light jacket for evening" },
+    { "id": 11, "name": "November", "temp": "19°C - 24°C", "vibe": "Ideal Weather", "pros": ["Best month overall", "Dry & comfortable", "Outdoor activities"], "cons": ["Popular (book ahead)", "Cooling down"], "clothing": "Light layers, comfortable shoes" },
+    { "id": 12, "name": "December", "temp": "15°C - 20°C", "vibe": "Festive & Cool", "pros": ["Christmas markets", "Winter Sales", "Pleasant temps"], "cons": ["Chilly mornings", "Short days"], "clothing": "Jacket, long pants, warm layers" }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "Octopus Card is Life: This rechargeable smart card works on all public transit (MTR, buses, ferries, trams) plus 7-Eleven, Starbucks, and vending machines. Buy one immediately at any MTR station.",
+      "Queue Culture: Hong Kong takes queueing seriously. Form orderly lines for everything—MTR, escalators, restaurants, taxis. Cutting in line is social suicide.",
+      "Escalator Rules: Stand on the right, walk on the left. MTR escalators move fast and locals don't tolerate blockers. This rule is strictly enforced.",
+      "No Tipping: Service charge is included in restaurant bills (10%). Additional tipping is not expected or necessary. Rounding up taxi fare is polite but optional.",
+      "Name Cards Matter: In business settings, receive name cards with both hands and study them briefly before putting away. It's a sign of respect.",
+      "Shoes Off: Some traditional restaurants and all homes require shoe removal. Look for slippers by the entrance as a signal.",
+      "Chopstick Etiquette: Never stick chopsticks upright in rice (funeral symbolism). Don't point them at people. Place them on the rest, not the bowl.",
+      "Dim Sum Protocol: Share everything. Pour tea for others before yourself. Tap two fingers on table to thank someone for pouring your tea. Servers tally dishes at end.",
+      "Public Behavior: Keep voices down on MTR and in restaurants. Loud phone conversations are frowned upon. Public drunkenness is rare and embarrassing.",
+      "Respect for Elders: Give up MTR seats for elderly, pregnant women, and anyone with a baby. It's not optional—locals will judge you."
+    ],
+    "essential_phrases": [
+      { "src": "Hello", "local": "Nei hou", "phonetic": "NAY-ho" },
+      { "src": "Thank you", "local": "M̀h'gōi", "phonetic": "m-GOY" },
+      { "src": "Excuse me", "local": "M̀h'gōi", "phonetic": "m-GOY" },
+      { "src": "How much?", "local": "Géi dō chín?", "phonetic": "GAY-daw CHIN" },
+      { "src": "The bill please", "local": "Màaih dāan", "phonetic": "MY-daan" },
+      { "src": "I don't understand", "local": "Ŋóh m̀h mìhng", "phonetic": "ngor m-ming" },
+      { "src": "Delicious", "local": "Hóu sihk", "phonetic": "ho-sick" },
+      { "src": "Too expensive", "local": "Taai gwai", "phonetic": "TIE-gway" },
+      { "src": "Where is...?", "local": "...hái bīndouh?", "phonetic": "...hi bin-DOH" },
+      { "src": "No need (for change)", "local": "M̀h sái", "phonetic": "m-sigh" }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Central",
+      "vibe": "Financial Powerhouse",
+      "description": "The beating heart of Hong Kong's business district. Glass skyscrapers, luxury malls, and the famous Mid-Levels Escalator. Expensive restaurants and rooftop bars dominate.",
+      "highlights": ["IFC Mall", "Lan Kwai Fong nightlife", "Mid-Levels Escalator"],
+      "image": "/images/hong-kong/central.jpg"
+    },
+    {
+      "name": "Tsim Sha Tsui",
+      "vibe": "Tourist Central",
+      "description": "Kowloon's main tourist hub on the harbor. Museums, luxury hotels, tailors, and the iconic Avenue of Stars. Best views of Hong Kong Island skyline.",
+      "highlights": ["Victoria Harbour promenade", "Museum district", "Temple Street Night Market"],
+      "image": "/images/hong-kong/tsim-sha-tsui.jpg"
+    },
+    {
+      "name": "Mong Kok",
+      "vibe": "Chaotic & Electric",
+      "description": "The densest neighborhood on Earth. Neon signs, street markets, electronics shops, and constant energy. Ladies Market and sneaker street are here.",
+      "highlights": ["Ladies Market", "Sneaker Street", "Flower Market"],
+      "image": "/images/hong-kong/mong-kok.jpg"
+    },
+    {
+      "name": "Sheung Wan",
+      "vibe": "Old Meets New",
+      "description": "Traditional Chinese medicine shops next to hipster cafes. Dried seafood wholesalers beside art galleries. The gentrifying edge of old Hong Kong.",
+      "highlights": ["Cat Street antiques", "Man Mo Temple", "Hip cafes"],
+      "image": "/images/hong-kong/sheung-wan.jpg"
+    },
+    {
+      "name": "Causeway Bay",
+      "vibe": "Shopping Madness",
+      "description": "Hong Kong's retail epicenter. Massive malls, department stores, and street-level shops. Locals come here to shop, eat, and hang out.",
+      "highlights": ["Times Square mall", "Victoria Park", "Sogo department store"],
+      "image": "/images/hong-kong/causeway-bay.jpg"
+    },
+    {
+      "name": "Sham Shui Po",
+      "vibe": "Working Class Grit",
+      "description": "The most authentic Hong Kong neighborhood. Electronics markets, fabric wholesalers, and cheap street food. Minimal English, maximum character.",
+      "highlights": ["Apliu Street electronics", "Fabric market", "Local dai pai dongs"],
+      "image": "/images/hong-kong/sham-shui-po.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Getting Around",
+      "icon": "Train",
+      "summary": "Hong Kong has one of the world's best public transit systems. Fast, clean, and intuitive.",
+      "details": [
+        "MTR (Metro): The backbone. Covers all major areas, runs 6am-1am, air-conditioned, signs in English. Get an Octopus Card (HK$50 deposit + starting balance).",
+        "Trams: The iconic double-decker street trams run along Hong Kong Island's north shore. Dirt cheap (HK$3), slow, charming. Board at back, exit at front, pay when leaving.",
+        "Buses: Extensive but confusing for tourists. Double-decker buses go everywhere. Use Citymapper app for routes. Pay exact change or Octopus Card.",
+        "Star Ferry: The legendary harbor crossing between Kowloon and Hong Kong Island. HK$3-4, runs since 1888. Take it at sunset for magic.",
+        "Taxis: Plentiful and cheap. Red (urban), green (New Territories), blue (Lantau). Drivers rarely speak English—have address in Chinese. Octopus accepted.",
+        "Walking: Central/Admiralty/Sheung Wan are walkable. Use the extensive system of covered walkways and escalators connecting buildings.",
+        "Minibuses: Green (fixed routes) or red (flexible routes). For advanced users only—drivers speak no English and routes are mysterious."
+      ]
+    },
+    {
+      "id": "logistics-airport",
+      "slug": "airport-transfers",
+      "title": "Airport to City",
+      "icon": "Plane",
+      "summary": "Hong Kong Airport (HKIA) is on Lantau Island, connected to the city by fast rail and bus.",
+      "details": [
+        "Airport Express Train: Fastest option (24 mins to Central). HK$115 one-way. Runs 5:50am-12:48am. Buy Octopus at airport or use credit card at gates. Free shuttle buses from stations to hotels.",
+        "Airport Bus: Cheaper (HK$40-50) but slower (45-60 mins). Routes go to every district. A21 goes to Tsim Sha Tsui, A11 to Causeway Bay. Comfortable and air-conditioned.",
+        "Taxi: HK$250-350 to Hong Kong Island, HK$200-250 to Kowloon. Follow queue signs—don't accept street offers. Red taxis only (urban). 30-50 min depending on traffic.",
+        "Hotel Shuttle: Many hotels offer private transfers. Expensive (HK$500+) but convenient with luggage.",
+        "Pro Tip: If arriving late (after midnight), taxi is your only option. Airport Express stops at 12:48am."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "Safety & Scams",
+      "icon": "Shield",
+      "summary": "Hong Kong is one of the world's safest cities. Violent crime is rare, but tourist scams exist.",
+      "details": [
+        "Overall Safety: You can walk anywhere at any time. Violent crime against tourists is virtually nonexistent. Women traveling alone feel safe.",
+        "Common Scams: Fake monks asking for donations (ignore them). 'Massage' card girls in Tsim Sha Tsui (legitimate spas don't street promote). Overpriced tailors targeting tourists.",
+        "Taxi Scams: Rare. Meters are used and honest. If driver refuses meter, exit immediately. Make sure they turn on meter at start.",
+        "Restaurant Scams: Some seafood restaurants in tourist areas inflate prices or add hidden charges. Check prices before ordering. Avoid places with aggressive touts outside.",
+        "Pickpockets: Minimal but watch belongings on crowded MTR during rush hour. Keep valuables in front pockets.",
+        "Protests: Political demonstrations happen occasionally. Avoid them entirely—police response can be intense. Check news before travel.",
+        "Lost Property: Report to police. There's a good chance you'll get it back—Hong Kongers are honest and the city has extensive CCTV."
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "money-matters",
+      "title": "Money & Payments",
+      "icon": "DollarSign",
+      "summary": "Hong Kong Dollar (HKD) is the currency. Cards widely accepted but cash still king in local places.",
+      "details": [
+        "Currency: HK$1 ≈ $0.13 USD. Coins: $0.1, 0.2, 0.5, 1, 2, 5, 10. Notes: $10, 20, 50, 100, 500, 1000. Three different banks print notes—all legal tender.",
+        "ATMs: Everywhere. 7-Eleven has ATMs. Withdraw from HSBC or Bank of China for best rates. Most accept international cards (Visa, Mastercard, UnionPay).",
+        "Credit Cards: Visa and Mastercard accepted at restaurants, malls, and hotels. Many small shops and dai pai dongs are cash only.",
+        "Octopus Card: The secret weapon. Rechargeable smart card works on all transit, 7-Eleven, McDonald's, Starbucks, vending machines. HK$50 deposit + initial value. Top up at MTR stations or 7-Eleven.",
+        "Exchange: Avoid airport (terrible rates). Use city money changers in Central or Tsim Sha Tsui (Chungking Mansions has good rates but chaotic). Banks also exchange.",
+        "Tipping: Not expected. 10% service charge automatically added to restaurant bills. No tips for taxis, MTR, or casual dining. High-end restaurants may expect small extra tip.",
+        "Bargaining: Expected at street markets (Ladies Market, Temple Street). Start at 50-60% of asking price. Not acceptable in malls or regular stores."
+      ]
+    },
+    {
+      "id": "logistics-weather",
+      "slug": "when-to-visit",
+      "title": "When to Visit",
+      "icon": "Sun",
+      "summary": "October-December is peak season. Summer is hot and humid. Avoid Chinese New Year if you hate crowds.",
+      "details": [
+        "Best Time: October-December. Dry, sunny, comfortable temperatures (18-25°C). Perfect for hiking and outdoor activities. Highest prices.",
+        "Good Time: January-March. Cool and dry. Chinese New Year (late Jan/early Feb) is festive but crowded and expensive. Book 3+ months ahead.",
+        "Avoid: June-September. Typhoon season, extreme heat (32°C+), oppressive humidity (80-90%). Daily rain showers. Everything is air-conditioned to arctic levels.",
+        "Budget Travel: April-May or September. Shoulder season with lower prices but increasing humidity and rain. Still good for city exploration.",
+        "Festivals: Chinese New Year (biggest), Dragon Boat Festival (June), Mid-Autumn Festival (September), Christmas lights (December).",
+        "Typhoons: Tropical cyclones hit June-October. Typhoon signal system: T1 (be aware), T3 (stay indoors), T8+ (everything shuts down). Hotels stay open. Can be exciting.",
+        "Pro Tip: November has clear skies, low humidity, perfect temperatures, and lower prices than October. The secret best month."
+      ]
+    },
+    {
+      "id": "logistics-language",
+      "slug": "language-tips",
+      "title": "Language & Communication",
+      "icon": "MessageCircle",
+      "summary": "Cantonese is the main language. English signage is everywhere but spoken English varies.",
+      "details": [
+        "Official Languages: Cantonese (90%), English (official but limited proficiency), Mandarin (increasing).",
+        "English: All MTR signs, street signs, and tourist areas have English. Government and business use English. But many locals speak limited English, especially elderly.",
+        "Cantonese Basics: Learn 'M̀h'gōi' (thank you) and 'Nei hou' (hello). Even basic attempts are appreciated. Pronunciation is tonal—don't worry about getting it perfect.",
+        "Written Chinese: Traditional characters (not simplified like Mainland China). Even if you read Mandarin Chinese, some characters differ.",
+        "Restaurant Strategy: Many local restaurants have English menus or picture menus. Point at what others are eating if you can't read the menu. Google Translate camera feature helps.",
+        "Apps: Download Google Translate offline Cantonese. Pleco dictionary app. WhatsApp is the main messaging app in Hong Kong.",
+        "Getting Help: Young people and service industry workers speak better English. Hotel staff and tourist information centers are fluent."
+      ]
+    },
+    {
+      "id": "logistics-health",
+      "slug": "health-essentials",
+      "title": "Health & Medical",
+      "icon": "Heart",
+      "summary": "Excellent healthcare system. Tap water is safe. Pharmacies everywhere.",
+      "details": [
+        "Healthcare: World-class. Public hospitals are cheap but crowded. Private clinics and hospitals are expensive but fast. Get travel insurance.",
+        "Tap Water: Safe to drink. Hong Kong has high water quality standards. Hotels and restaurants serve it freely.",
+        "Pharmacies: Watsons and Mannings are everywhere. Open late. Most medications available without prescription (antibiotics, etc). Pharmacists speak some English.",
+        "Emergency: Dial 999 for ambulance/police/fire. English operators available. Queen Mary Hospital and Prince of Wales Hospital are major public hospitals.",
+        "Pollution: Air quality can be poor (especially summer). Check AQI levels if you have respiratory issues. Wear a mask if needed—it's culturally normal.",
+        "Heat & Humidity: Summer humidity causes heat exhaustion. Drink water constantly. Seek air-conditioned spaces. Locals use parasols for sun protection.",
+        "Mosquitoes: Dengue exists but rare. Use repellent if hiking or in parks. Urban areas have minimal mosquitoes.",
+        "Clinics: Central Health Medical Practice, OT&P Healthcare. Expect HK$500-1000 for consultation."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Essential Apps",
+      "icon": "Smartphone",
+      "summary": "These apps will make navigating Hong Kong infinitely easier.",
+      "details": [
+        "Citymapper: THE transit app for Hong Kong. Real-time MTR, bus, ferry, and walking directions. Better than Google Maps for public transit.",
+        "MTR Mobile: Official app with route planning and service updates. Shows which exit to use at stations.",
+        "OpenRice: Hong Kong's Yelp for restaurants. Reviews in English and Chinese. Essential for finding good local spots.",
+        "WhatsApp: Everyone uses it. Free calls and messages. Download before arrival.",
+        "WeChat: Needed for some Chinese businesses and Mainland friends. Not as essential as in Mainland China.",
+        "Google Maps: Works perfectly in Hong Kong (unlike Mainland China). Offline maps recommended.",
+        "Deliveroo / Foodpanda: Food delivery. Massive selection. English interface. Late-night lifesaver."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-hk-001",
+      "slug": "dim-sum",
+      "name_en": "Dim Sum",
+      "name_local": "點心 (Dim Sam)",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "The quintessential Hong Kong meal. Small steamed and fried dishes served in bamboo baskets with tea. Order har gow (shrimp dumplings), siu mai, char siu bao, and cheong fun.",
+      "image": "/images/hong-kong/dim-sum.jpg"
+    },
+    {
+      "id": "food-hk-002",
+      "slug": "roast-goose",
+      "name_en": "Roast Goose",
+      "name_local": "燒鵝 (Siu Ngo)",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Crispy mahogany skin, succulent meat, served over rice with sweet plum sauce. The king of Cantonese roasted meats.",
+      "image": "/images/hong-kong/roast-goose.jpg"
+    },
+    {
+      "id": "food-hk-003",
+      "slug": "wonton-noodles",
+      "name_en": "Wonton Noodles",
+      "name_local": "雲吞麵 (Wan Tan Min)",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Springy egg noodles in clear broth with shrimp wontons. The ultimate Hong Kong comfort food.",
+      "image": "/images/hong-kong/wonton-noodles.jpg"
+    },
+    {
+      "id": "food-hk-004",
+      "slug": "egg-tart",
+      "name_en": "Egg Tart",
+      "name_local": "蛋撻 (Daan Taat)",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Flaky pastry shell filled with silky egg custard. Best eaten warm when the custard still jiggles.",
+      "image": "/images/hong-kong/egg-tart.jpg"
+    },
+    {
+      "id": "food-hk-005",
+      "slug": "pineapple-bun",
+      "name_en": "Pineapple Bun with Butter",
+      "name_local": "菠蘿油 (Bo Lo Yau)",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Sweet bun with crackly topping, sliced open and stuffed with a thick slab of cold butter.",
+      "image": "/images/hong-kong/pineapple-bun.jpg"
+    },
+    {
+      "id": "food-hk-006",
+      "slug": "milk-tea",
+      "name_en": "Hong Kong Milk Tea",
+      "name_local": "絲襪奶茶 (Si Mat Naai Cha)",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Strong black tea mixed with evaporated milk. Smooth, rich, slightly sweet. Essential Hong Kong identity.",
+      "image": "/images/hong-kong/milk-tea.jpg"
+    },
+    {
+      "id": "food-hk-007",
+      "slug": "char-siu",
+      "name_en": "BBQ Pork",
+      "name_local": "叉燒 (Cha Siu)",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Sweet, sticky, caramelized pork with red glaze. Served over rice or in buns.",
+      "image": "/images/hong-kong/char-siu.jpg"
+    },
+    {
+      "id": "food-hk-008",
+      "slug": "cheung-fun",
+      "name_en": "Rice Noodle Rolls",
+      "name_local": "腸粉 (Cheung Fan)",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Silky rice noodle sheets rolled around shrimp, beef, or BBQ pork. Drizzled with sweet soy sauce.",
+      "image": "/images/hong-kong/cheung-fun.jpg"
+    },
+    {
+      "id": "food-hk-009",
+      "slug": "claypot-rice",
+      "name_en": "Claypot Rice",
+      "name_local": "煲仔飯 (Bo Zai Faan)",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Rice cooked in clay pot over charcoal with toppings. The crispy bottom layer is the prize.",
+      "image": "/images/hong-kong/claypot-rice.jpg"
+    },
+    {
+      "id": "food-hk-010",
+      "slug": "cart-noodles",
+      "name_en": "Cart Noodles",
+      "name_local": "車仔麵 (Che Zai Min)",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Customizable noodle soup where you choose noodles, broth, and toppings. Ultimate budget meal.",
+      "image": "/images/hong-kong/cart-noodles.jpg"
+    },
+    {
+      "id": "food-hk-011",
+      "slug": "french-toast",
+      "name_en": "Hong Kong French Toast",
+      "name_local": "西多士 (Sai Do Si)",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Peanut butter between bread, deep-fried, drizzled with condensed milk and butter. Decadent.",
+      "image": "/images/hong-kong/french-toast.jpg"
+    },
+    {
+      "id": "food-hk-012",
+      "slug": "fish-balls",
+      "name_en": "Curry Fish Balls",
+      "name_local": "咖喱魚蛋 (Ga Lei Yu Dan)",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Bouncy fish paste balls in curry sauce. Hong Kong's unofficial street food emblem.",
+      "image": "/images/hong-kong/fish-balls.jpg"
+    },
+    {
+      "id": "food-hk-013",
+      "slug": "congee",
+      "name_en": "Century Egg & Pork Congee",
+      "name_local": "皮蛋瘦肉粥 (Pei Dan Sau Yuk Juk)",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Silky rice porridge with century egg and lean pork. Comfort food for sick days or hangovers.",
+      "image": "/images/hong-kong/congee.jpg"
+    },
+    {
+      "id": "food-hk-014",
+      "slug": "egg-waffle",
+      "name_en": "Egg Waffle",
+      "name_local": "雞蛋仔 (Gai Daan Zai)",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Sweet crispy waffle with bubble-shaped pieces. Eaten hot, folded into cone shape.",
+      "image": "/images/hong-kong/egg-waffle.jpg"
+    },
+    {
+      "id": "food-hk-015",
+      "slug": "hot-pot",
+      "name_en": "Hot Pot",
+      "name_local": "火鍋 (Fo Wo)",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": "Communal cooking where diners cook ingredients in bubbling broth at the table. Social and interactive.",
+      "image": "/images/hong-kong/hot-pot.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Iconic Landmarks",
+      "id": "landmarks",
+      "items": [
+        {
+          "id": "sight-hk-001",
+          "slug": "victoria-peak",
+          "name_en": "Victoria Peak",
+          "name_local": "太平山 (Tai Ping Shan)",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "The highest point on Hong Kong Island offering panoramic views of the skyline, Victoria Harbour, and Kowloon.",
+          "image": "/images/hong-kong/victoria-peak.jpg",
+          "geo": { "lat": 22.2783, "lng": 114.1747 }
+        },
+        {
+          "id": "sight-hk-002",
+          "slug": "star-ferry",
+          "name_en": "Star Ferry",
+          "name_local": "天星小輪",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "The legendary ferry crossing Victoria Harbour. Running since 1888, offers unbeatable harbor views for HK$3-4.",
+          "image": "/images/hong-kong/star-ferry.jpg",
+          "geo": { "lat": 22.2934, "lng": 114.1680 }
+        },
+        {
+          "id": "sight-hk-003",
+          "slug": "symphony-of-lights",
+          "name_en": "Symphony of Lights",
+          "name_local": "幻彩詠香江",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "World's largest permanent light show. Every night at 8pm, 40+ buildings synchronize lights and music.",
+          "image": "/images/hong-kong/symphony-lights.jpg",
+          "geo": { "lat": 22.2944, "lng": 114.1722 }
+        },
+        {
+          "id": "sight-hk-004",
+          "slug": "big-buddha",
+          "name_en": "Tian Tan Buddha",
+          "name_local": "天壇大佛",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Massive 34-meter bronze Buddha on Lantau Island. Climb 268 steps for panoramic views.",
+          "image": "/images/hong-kong/big-buddha.jpg",
+          "geo": { "lat": 22.2542, "lng": 113.9048 }
+        }
+      ]
+    },
+    {
+      "title": "Markets & Shopping",
+      "id": "markets",
+      "items": [
+        {
+          "id": "sight-hk-005",
+          "slug": "temple-street-night-market",
+          "name_en": "Temple Street Night Market",
+          "name_local": "廟街夜市",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Hong Kong's most atmospheric night market. Fortune tellers, Cantonese opera, cheap electronics, and jade.",
+          "image": "/images/hong-kong/temple-street.jpg",
+          "geo": { "lat": 22.3123, "lng": 114.1712 }
+        },
+        {
+          "id": "sight-hk-006",
+          "slug": "ladies-market",
+          "name_en": "Ladies Market",
+          "name_local": "女人街",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Kilometer-long street market in Mong Kok. Clothing, accessories, souvenirs, and trinkets.",
+          "image": "/images/hong-kong/ladies-market.jpg",
+          "geo": { "lat": 22.3193, "lng": 114.1710 }
+        },
+        {
+          "id": "sight-hk-007",
+          "slug": "pmq",
+          "name_en": "PMQ",
+          "name_local": "元創方",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Revitalized heritage site with local designers, artists, and independent boutiques.",
+          "image": "/images/hong-kong/pmq.jpg",
+          "geo": { "lat": 22.2847, "lng": 114.1524 }
+        }
+      ]
+    },
+    {
+      "title": "Temples & Heritage",
+      "id": "temples",
+      "items": [
+        {
+          "id": "sight-hk-008",
+          "slug": "man-mo-temple",
+          "name_en": "Man Mo Temple",
+          "name_local": "文武廟",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Hong Kong's oldest temple (1847). Massive spiral incense coils hanging from ceiling.",
+          "image": "/images/hong-kong/man-mo-temple.jpg",
+          "geo": { "lat": 22.2845, "lng": 114.1503 }
+        },
+        {
+          "id": "sight-hk-009",
+          "slug": "wong-tai-sin-temple",
+          "name_en": "Wong Tai Sin Temple",
+          "name_local": "黃大仙祠",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Massive Taoist temple famous for fortune-telling using bamboo sticks. Active worship site.",
+          "image": "/images/hong-kong/wong-tai-sin.jpg",
+          "geo": { "lat": 22.3422, "lng": 114.1934 }
+        },
+        {
+          "id": "sight-hk-010",
+          "slug": "tai-o-fishing-village",
+          "name_en": "Tai O Fishing Village",
+          "name_local": "大澳漁村",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Traditional fishing village with stilt houses over water. The 'Venice of Hong Kong.'",
+          "image": "/images/hong-kong/tai-o.jpg",
+          "geo": { "lat": 22.2547, "lng": 113.8574 }
+        }
+      ]
+    },
+    {
+      "title": "Nature & Hiking",
+      "id": "nature",
+      "items": [
+        {
+          "id": "sight-hk-011",
+          "slug": "dragon-back-trail",
+          "name_en": "Dragon's Back Trail",
+          "name_local": "龍脊",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "Hong Kong's most famous hiking trail. 8.5km ridge walk with panoramic mountain and beach views.",
+          "image": "/images/hong-kong/dragon-back.jpg",
+          "geo": { "lat": 22.2447, "lng": 114.2487 }
+        },
+        {
+          "id": "sight-hk-012",
+          "slug": "sai-kung",
+          "name_en": "Sai Kung",
+          "name_local": "西貢",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "The 'back garden of Hong Kong.' Hiking trails, beaches, and fresh seafood restaurants.",
+          "image": "/images/hong-kong/sai-kung.jpg",
+          "geo": { "lat": 22.3814, "lng": 114.2743 }
+        }
+      ]
+    },
+    {
+      "title": "Urban Experiences",
+      "id": "urban",
+      "items": [
+        {
+          "id": "sight-hk-013",
+          "slug": "mid-levels-escalator",
+          "name_en": "Mid-Levels Escalator",
+          "name_local": "中環至半山自動扶梯",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "World's longest outdoor escalator (800m). Moving observation deck of Hong Kong life.",
+          "image": "/images/hong-kong/escalator.jpg",
+          "geo": { "lat": 22.2837, "lng": 114.1544 }
+        },
+        {
+          "id": "sight-hk-014",
+          "slug": "ozone-bar",
+          "name_en": "Ozone Bar",
+          "name_local": "Ozone Bar",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": "World's highest bar on 118th floor. Expensive cocktails but unbeatable 360° views.",
+          "image": "/images/hong-kong/ozone-bar.jpg",
+          "geo": { "lat": 22.3039, "lng": 114.1580 }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "9:00 AM",
+      "title": "Dim Sum at Tim Ho Wan",
+      "description": "Start with Michelin-starred dim sum. Order BBQ pork buns, har gow, siu mai, and turnip cake.",
+      "image": "/images/hong-kong/tim-ho-wan.jpg"
+    },
+    {
+      "time": "11:00 AM",
+      "title": "Central & Mid-Levels Escalator",
+      "description": "Explore Central's skyscrapers, ride the world's longest escalator, visit Man Mo Temple.",
+      "image": "/images/hong-kong/central-morning.jpg"
+    },
+    {
+      "time": "1:00 PM",
+      "title": "Roast Goose Lunch",
+      "description": "Michelin-starred roasted meat at Yat Lok or Kam's. Half goose over rice for HK$100.",
+      "image": "/images/hong-kong/roast-goose.jpg"
+    },
+    {
+      "time": "3:00 PM",
+      "title": "Victoria Peak",
+      "description": "Take bus 15 to skip tram queue. Panoramic views of skyline, harbor, and mountains.",
+      "image": "/images/hong-kong/peak-afternoon.jpg"
+    },
+    {
+      "time": "6:30 PM",
+      "title": "Star Ferry Sunset",
+      "description": "Take the legendary harbor crossing at golden hour. HK$4 for one of the world's great journeys.",
+      "image": "/images/hong-kong/star-ferry-sunset.jpg"
+    },
+    {
+      "time": "8:00 PM",
+      "title": "Symphony of Lights & Night Market",
+      "description": "Watch the 8pm light show, then explore Temple Street Night Market for chaos and curry fish balls.",
+      "image": "/images/hong-kong/night-market.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "name": "Octopus Card Holder",
+      "reason": "You'll tap it 20+ times daily on MTR, buses, and convenience stores.",
+      "image_url": "https://m.media-amazon.com/images/I/61VxVqG7SQL._AC_SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B07VWJF8PX?tag=YOUR_TAG"
+    },
+    {
+      "name": "Portable Phone Charger",
+      "reason": "Constant use of maps and camera drains batteries fast.",
+      "image_url": "https://m.media-amazon.com/images/I/61N3Z5L2JjL._AC_SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B08LH26PFT?tag=YOUR_TAG"
+    },
+    {
+      "name": "Compact Umbrella",
+      "reason": "Sudden downpours common. Typhoons June-September. Locals carry year-round.",
+      "image_url": "https://m.media-amazon.com/images/I/71K1N0xq2bL._AC_SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B07QG2PQTL?tag=YOUR_TAG"
+    },
+    {
+      "name": "Cooling Towel",
+      "reason": "Summer humidity (32°C + 80%) is oppressive. Instant relief when wet.",
+      "image_url": "https://m.media-amazon.com/images/I/81vpmtqxCzL._AC_SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B01N7MLQXI?tag=YOUR_TAG"
+    }
+  ]
+}

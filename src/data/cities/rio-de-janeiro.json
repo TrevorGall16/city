@@ -1,0 +1,912 @@
+{
+  "id": "city-rio",
+  "name": "Rio de Janeiro",
+  "slug": "rio-de-janeiro",
+  "country": "Brazil",
+  "country_code": "br",
+  "hero_image": "/images/rio/hero.jpg",
+  "intro_vibe": "Samba, sun, and endless beach culture where mountains meet the ocean.",
+  "general_info": {
+    "population": "~6.7 million (city) / ~13 million (metro area)",
+    "is_capital": false,
+    "description": "Rio de Janeiro is Brazil's second-most populous city and former capital. Known worldwide for its beaches, Carnival, and dramatic landscape of mountains plunging into the Atlantic, Rio blends natural beauty with urban energy. The city hosted the 2016 Olympics and is a cultural powerhouse of music, football, and beach life."
+  },
+  "stats": {
+    "currency": "BRL (Brazilian Real)",
+    "plug_type": "Type N"
+  },
+  "weather_breakdown": [
+    { "id": 1, "name": "January", "temp": "23°C - 30°C", "vibe": "Hot & Humid", "pros": ["Beach weather", "Carnival prep vibes", "Peak summer"], "cons": ["Crowded beaches", "Afternoon rain storms", "High humidity"], "clothing": "Light, breathable fabrics, swimwear" },
+    { "id": 2, "name": "February", "temp": "23°C - 30°C", "vibe": "Carnival Madness", "pros": ["Carnival festival", "Perfect beach days", "Electric atmosphere"], "cons": ["Sky-high prices", "Massive crowds", "Exhausting heat"], "clothing": "Minimal clothes, costumes, sunscreen" },
+    { "id": 3, "name": "March", "temp": "23°C - 29°C", "vibe": "Post-Carnival Calm", "pros": ["Fewer tourists", "Still warm", "Prices drop"], "cons": ["Rainy afternoons", "City recovers from Carnival"], "clothing": "Shorts, tank tops, light rain jacket" },
+    { "id": 4, "name": "April", "temp": "22°C - 27°C", "vibe": "Pleasant", "pros": ["Comfortable temps", "Less rain", "Good beach days"], "cons": ["Cooling down", "Shorter days"], "clothing": "T-shirts, light layers for evening" },
+    { "id": 5, "name": "May", "temp": "20°C - 26°C", "vibe": "Mild & Dry", "pros": ["Clear skies", "Hiking weather", "Lower humidity"], "cons": ["Ocean gets chilly", "Fewer beach crowds"], "clothing": "Light jacket for evenings, jeans" },
+    { "id": 6, "name": "June", "temp": "19°C - 25°C", "vibe": "Winter Chill", "pros": ["Lowest prices", "São João festivals", "Clear views"], "cons": ["Cold for beach", "Gloomy days"], "clothing": "Sweater, long pants, closed shoes" },
+    { "id": 7, "name": "July", "temp": "18°C - 25°C", "vibe": "Coolest Month", "pros": ["Perfect hiking", "Crisp air", "Low season deals"], "cons": ["Beach unappealing", "Some places close"], "clothing": "Layers, light jacket, comfortable shoes" },
+    { "id": 8, "name": "August", "temp": "19°C - 26°C", "vibe": "Warming Up", "pros": ["Spring begins", "Outdoor activities", "Festivals return"], "cons": ["Variable weather", "Ocean still cold"], "clothing": "Mix of summer and winter clothes" },
+    { "id": 9, "name": "September", "temp": "20°C - 26°C", "vibe": "Spring Blooms", "pros": ["Beautiful weather", "City awakens", "Shoulder season"], "cons": ["Occasional rain", "Prices rising"], "clothing": "Light layers, sunglasses" },
+    { "id": 10, "name": "October", "temp": "21°C - 27°C", "vibe": "Pre-Summer", "pros": ["Beach season starts", "Warm & sunny", "Festivals"], "cons": ["Humidity returns", "Crowds increase"], "clothing": "Summer clothes, swimwear ready" },
+    { "id": 11, "name": "November", "temp": "22°C - 28°C", "vibe": "Hot & Energetic", "pros": ["Perfect beach weather", "Clear skies", "Outdoor events"], "cons": ["Getting crowded", "Afternoon storms"], "clothing": "Minimal clothing, beach gear" },
+    { "id": 12, "name": "December", "temp": "23°C - 29°C", "vibe": "Summer Kickoff", "pros": ["New Year's Eve (Réveillon)", "Long beach days", "Festive energy"], "cons": ["Peak prices", "Crowded", "Intense heat"], "clothing": "Light clothes, white for Réveillon" }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "Beach Culture is King: Cariocas (Rio locals) live on the beach. It's not just for tourists—it's their living room, gym, and social club. Each beach has different tribes (postos) with distinct vibes.",
+      "Cheek Kiss Greeting: Two cheek kisses (beijinhos) are standard, even with strangers in social settings. Start on the right. Men often hug or handshake other men but kiss women.",
+      "Cashless Beach: Don't bring valuables. Beach vendors accept cards now, but keep cash minimal. Use waterproof pouches for phones.",
+      "The '10%' Service Charge: Called 'taxa de serviço' and usually included in restaurant bills. It's not mandatory but refusing it is socially awkward. Check if it's already added.",
+      "Late Dining: Dinner starts at 9pm or later. Lunch is the big meal (12-2pm). Eating dinner at 6pm marks you as a tourist.",
+      "Football is Religion: Never disparage someone's football team. The rivalry between Flamengo, Fluminense, Botafogo, and Vasco is serious. Wearing rival colors in certain neighborhoods can cause problems.",
+      "Samba Respect: If you're at a roda de samba (samba circle), don't talk during performances. Clap and sing along if you know the words, but never interrupt the musicians.",
+      "Safety Awareness: Don't flash expensive jewelry, phones, or cameras. Use ride apps instead of hailing taxis. Avoid empty beaches at night. Trust your instincts.",
+      "Sunga Culture: Brazilian men wear speedos (sungas) at the beach. Board shorts are for tourists. Women wear minimal bikinis (fio dental - dental floss). No one judges.",
+      "Politeness Matters: Say 'bom dia' (good morning), 'boa tarde' (good afternoon), 'boa noite' (good evening). Using 'por favor' (please) and 'obrigado/a' (thank you) is essential."
+    ],
+    "essential_phrases": [
+      { "src": "Hello / Good morning", "local": "Bom dia", "phonetic": "bom JEE-ah" },
+      { "src": "Good afternoon", "local": "Boa tarde", "phonetic": "BO-ah TAR-jee" },
+      { "src": "Good evening", "local": "Boa noite", "phonetic": "BO-ah NOY-chee" },
+      { "src": "Thank you (m/f)", "local": "Obrigado / Obrigada", "phonetic": "oh-bree-GAH-doo / dah" },
+      { "src": "Please", "local": "Por favor", "phonetic": "poor fah-VOR" },
+      { "src": "Excuse me", "local": "Com licença", "phonetic": "kom lee-SEN-sah" },
+      { "src": "How much?", "local": "Quanto custa?", "phonetic": "KWAN-too KOOS-tah" },
+      { "src": "Where is...?", "local": "Onde fica...?", "phonetic": "ON-jee FEE-kah" },
+      { "src": "The bill please", "local": "A conta por favor", "phonetic": "ah KON-tah poor fah-VOR" },
+      { "src": "I don't speak Portuguese", "local": "Não falo português", "phonetic": "now FAH-loo poor-too-GAYS" }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Copacabana",
+      "vibe": "Tourist Central",
+      "description": "The most famous beach in the world. Packed with hotels, beach vendors, and tourists. Classic Rio but can feel overwhelming. Great people-watching.",
+      "highlights": ["Copacabana Beach", "Forte de Copacabana", "Sunday Hippie Fair"],
+      "image": "/images/rio/copacabana.jpg"
+    },
+    {
+      "name": "Ipanema",
+      "vibe": "Chic & Sophisticated",
+      "description": "More upscale than Copacabana. Home to boutiques, juice bars, and beautiful people. The beach crowd is younger and more fashionable.",
+      "highlights": ["Ipanema Beach", "Posto 9", "Lagoa Rodrigo de Freitas"],
+      "image": "/images/rio/ipanema.jpg"
+    },
+    {
+      "name": "Santa Teresa",
+      "vibe": "Bohemian Hills",
+      "description": "Artistic neighborhood on a hill with winding streets, colonial houses, and street art. Home to musicians, artists, and creative types.",
+      "highlights": ["Parque das Ruínas", "Escadaria Selarón", "Largo do Guimarães"],
+      "image": "/images/rio/santa-teresa.jpg"
+    },
+    {
+      "name": "Lapa",
+      "vibe": "Nightlife Central",
+      "description": "The heart of Rio's nightlife and samba scene. Bars, street parties, and live music venues. Can be sketchy late at night—stay aware.",
+      "highlights": ["Arcos da Lapa", "Samba clubs", "Street bars"],
+      "image": "/images/rio/lapa.jpg"
+    },
+    {
+      "name": "Leblon",
+      "vibe": "Upscale & Residential",
+      "description": "Rio's wealthiest beach neighborhood. High-end restaurants, bars, and shops. More locals, fewer tourists. Quieter beach vibe.",
+      "highlights": ["Leblon Beach", "Dias Ferreira street", "Mirante do Leblon"],
+      "image": "/images/rio/leblon.jpg"
+    },
+    {
+      "name": "Botafogo",
+      "vibe": "Up-and-Coming",
+      "description": "Residential neighborhood with a growing food and bar scene. More affordable than beach areas. Great view of Sugarloaf.",
+      "highlights": ["Praia de Botafogo", "Shopping Rio Sul", "Cobal market"],
+      "image": "/images/rio/botafogo.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Getting Around",
+      "icon": "Train",
+      "summary": "Rio's public transit is improving but still tricky. Ride apps rule.",
+      "details": [
+        "Metro: Clean, safe, and cheap (R$5.50/ride). Covers major tourist areas: Ipanema, Copacabana, Botafogo, Centro. Doesn't reach Christ the Redeemer or Sugarloaf.",
+        "Uber/99: The safest way to get around. Cheaper than taxis and less risk of scams. Always use apps—never hail cabs on the street.",
+        "Bus System: Complex and crowded. Not recommended for tourists unless you're adventurous and speak Portuguese. Routes change frequently.",
+        "Bike Rental: Bike Rio (orange bikes) along the beach paths. R$5 for 1 hour. Bike path from Leblon to Flamengo is stunning.",
+        "Walking: Neighborhoods are walkable individually, but distances between them are huge. Don't walk between neighborhoods—take transport."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "Safety & Scams",
+      "icon": "Shield",
+      "summary": "Rio is generally safe in tourist zones but requires street smarts.",
+      "details": [
+        "Beach Theft: Most common crime. Don't bring phones, cameras, or jewelry to the beach. Use waterproof pouches and keep eyes on belongings.",
+        "Favela Tours: Only go with reputable companies. Never wander into favelas alone—many are safe but some are controlled by gangs.",
+        "ATM Scams: Use ATMs inside banks or shopping malls during business hours. Cover the keypad. Avoid street ATMs at night.",
+        "Taxi Scams: Official yellow taxis can overcharge. Always use Uber/99 instead. If you must take a taxi, insist on the meter ('taxímetro').",
+        "Late Night Safety: Avoid empty streets and beaches after midnight. Stick to well-lit, busy areas. Take Uber directly to/from venues.",
+        "Phone Snatching: Keep phones in pockets or bags when walking. Don't hold them out on crowded streets or buses. Motorbike thieves snatch phones.",
+        "Trusting Instincts: If an area feels wrong, leave immediately. Locals will often warn you. Listen to them."
+      ]
+    },
+    {
+      "id": "logistics-airport",
+      "slug": "airport-transfers",
+      "title": "Airport Transfers",
+      "icon": "Plane",
+      "summary": "Galeão Airport is 20km from the beach neighborhoods.",
+      "details": [
+        "Uber/99: Most convenient. R$70-100 to Copacabana/Ipanema (45-60min depending on traffic). Use the app pickup zone.",
+        "Airport Bus (Frescão): Cheap (R$20) and safe. Stops at major hotels along the coast. Runs 5:30am-11pm. Slow (can take 90min).",
+        "Metro + Uber: Take the metro to Botafogo (R$7), then Uber to your hotel (R$20). Saves money but awkward with luggage.",
+        "Pre-booked Transfer: Hotels offer them for R$150-200. Convenient if arriving late or with lots of luggage.",
+        "Avoid: Street taxis at the airport. High scam risk. Always use apps or pre-booked services."
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "money-matters",
+      "title": "Money & Payments",
+      "icon": "DollarSign",
+      "summary": "Brazil uses the Real (BRL). Cards widely accepted but cash still needed.",
+      "details": [
+        "Currency: R$1 ≈ $0.20 USD. Bills come in R$2, 5, 10, 20, 50, 100, 200. Coins: R$0.05 to R$1.",
+        "ATMs: Withdraw from bank ATMs inside shopping malls (limit: R$1,000-2,000 per transaction). Santander and Banco do Brasil are everywhere.",
+        "Credit Cards: Visa and Mastercard widely accepted. Amex less common. Small vendors and beach sellers prefer cash.",
+        "Beach Vendors: Now accept card machines! But cash (small bills) is faster. Keep R$20-50 in a waterproof pouch.",
+        "Tipping: 10% service charge usually included. If not, 10% is standard. Round up for taxis/Uber. No tip needed for street food.",
+        "Bargaining: Not common in stores/restaurants. Street markets (like Hippie Fair) expect some negotiation but don't be aggressive."
+      ]
+    },
+    {
+      "id": "logistics-weather",
+      "slug": "when-to-visit",
+      "title": "When to Visit",
+      "icon": "Sun",
+      "summary": "Summer (Dec-Mar) is peak season. Winter (Jun-Aug) is mild and quiet.",
+      "details": [
+        "Best Time Overall: April-May or September-November. Warm, fewer crowds, lower prices.",
+        "Carnival (February): The ultimate Rio experience but book 6+ months ahead. Prices triple. Streets turn into one giant party.",
+        "Summer (Dec-Mar): Peak beach weather but hot, humid, and crowded. Daily afternoon thunderstorms. Book accommodations early.",
+        "Winter (Jun-Aug): Too cold for beach (18-25°C) but perfect for hiking. Cheapest time to visit. Some beach restaurants close.",
+        "New Year's Eve (Réveillon): Copacabana hosts one of the world's biggest parties. Wear white for good luck. Book 12+ months ahead.",
+        "Avoid: March (post-Carnival hangover, variable weather), June-July if beach is your priority."
+      ]
+    },
+    {
+      "id": "logistics-health",
+      "slug": "health-essentials",
+      "title": "Health & Hygiene",
+      "icon": "Heart",
+      "summary": "Tap water isn't drinkable. Sun protection is critical.",
+      "details": [
+        "Water: Don't drink tap water. Buy bottled water (água mineral) everywhere for R$3-5. Hotels often provide free bottles.",
+        "Sunscreen: SPF 50+ minimum. Reapply every 2 hours at the beach. Brazilian sun is intense even on cloudy days. Locals use factor 70.",
+        "Mosquitoes: Dengue, Zika, and chikungunya exist. Use repellent (OFF! or Exposis brands). Wear long sleeves at dawn/dusk.",
+        "Pharmacies: Drogarias everywhere (Drogaria São Paulo, Pacheco). No prescription needed for most meds. Pharmacists speak some English.",
+        "Emergency: Dial 192 for ambulance, 193 for fire. Private hospitals (Copa D'Or, Samaritano) better than public. Get travel insurance.",
+        "Beach Hygiene: Don't walk barefoot on beach concrete (can get cuts). Use flip-flops. Beach showers available but limited."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Essential Apps",
+      "icon": "Smartphone",
+      "summary": "These apps will make navigating Rio much easier.",
+      "details": [
+        "99 (99Taxi): Brazil's version of Uber. Often cheaper. Both work well in Rio.",
+        "Google Maps: Accurate for navigation and transit. Download offline maps for your neighborhoods.",
+        "iFood: Food delivery (like Uber Eats). Great for late-night snacks or avoiding restaurants.",
+        "XE Currency: Convert Real to your currency instantly. Rates update daily.",
+        "Google Translate: Download Portuguese offline pack. Camera translate feature helps with menus.",
+        "Moovit: Best app for public transit routes and schedules. Better than Google Maps for buses."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-rio-001",
+      "slug": "feijoada",
+      "name_en": "Feijoada",
+      "name_local": "Feijoada",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Brazil's national dish: a rich black bean stew with pork, sausage, and beef. Traditionally eaten on Wednesdays and Saturdays with rice, farofa (toasted cassava flour), orange slices, and collard greens.",
+        "history": "Originated in Brazil's colonial era, created by enslaved Africans using discarded pig parts. Over time it evolved into a beloved weekend ritual for families and restaurants alike.",
+        "insider_tip": "Order it at lunch, never dinner—it's heavy and meant to be savored slowly. The best feijoadas come with 'caldo' (the thick bean broth) served separately. Pour it over your rice.",
+        "price_level": "Moderate",
+        "duration": "1.5-2 hours",
+        "best_time": "Saturday lunch",
+        "vibe": "Traditional and hearty",
+        "good_for": ["Groups", "Foodies", "Weekend lunch"]
+      },
+      "image": "/images/rio/feijoada.jpg"
+    },
+    {
+      "id": "food-rio-002",
+      "slug": "churrasco",
+      "name_en": "Brazilian BBQ",
+      "name_local": "Churrasco",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "All-you-can-eat grilled meats brought to your table on skewers. The rodízio style lets you try picanha (top sirloin), fraldinha (flank), and cupim (beef hump). Flip the card to green to keep meat coming.",
+        "history": "Gaucho tradition from southern Brazil that spread nationwide. Cowboys (gaúchos) would grill meat over open fires on long cattle drives.",
+        "insider_tip": "Start with lighter meats (chicken, sausage) and work up to the premium cuts like picanha and lamb. Don't fill up on the buffet—it's a trap. Pace yourself.",
+        "price_level": "Expensive",
+        "duration": "2-3 hours",
+        "best_time": "Lunch or dinner",
+        "vibe": "Carnivore heaven",
+        "good_for": ["Meat lovers", "Groups", "Special occasions"]
+      },
+      "image": "/images/rio/churrasco.jpg"
+    },
+    {
+      "id": "food-rio-003",
+      "slug": "acai-bowl",
+      "name_en": "Açaí Bowl",
+      "name_local": "Açaí na Tigela",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Thick, frozen açaí berry pulp served in a bowl with granola, banana, and sometimes honey or condensed milk. Beach culture staple eaten as a post-workout snack or light meal.",
+        "history": "Açaí berries are native to the Amazon. Rio popularized the bowl format in the 1980s as surfers and beachgoers needed quick energy.",
+        "insider_tip": "Cariocas eat it unsweetened or with just guaraná powder. Tourists get it loaded with toppings. Try 'puro' (pure) or 'tradicional' (with just banana and granola) for authenticity.",
+        "price_level": "Affordable",
+        "duration": "15-30 mins",
+        "best_time": "After beach or workout",
+        "vibe": "Healthy beach vibes",
+        "good_for": ["Health-conscious", "Beach-goers", "Quick energy"]
+      },
+      "image": "/images/rio/acai.jpg"
+    },
+    {
+      "id": "food-rio-004",
+      "slug": "caipirinha",
+      "name_en": "Caipirinha",
+      "name_local": "Caipirinha",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Brazil's national cocktail made with cachaça (sugarcane liquor), lime, sugar, and ice. Muddle, shake, serve. Simple but dangerous—it goes down easy and hits hard.",
+        "history": "Originated in São Paulo countryside as a cold remedy. Became Brazil's signature drink in the 1900s and is now consumed globally.",
+        "insider_tip": "Ask for 'batida' if you want fruit variations (passion fruit, strawberry). Order 'menos gelo' (less ice) if you want it stronger. Two is the perfect amount—three gets messy.",
+        "price_level": "Affordable",
+        "duration": "N/A (drink)",
+        "best_time": "Sunset at beach bars",
+        "vibe": "Laid-back party",
+        "good_for": ["Beach bars", "Socializing", "Sunset"]
+      },
+      "image": "/images/rio/caipirinha.jpg"
+    },
+    {
+      "id": "food-rio-005",
+      "slug": "pao-de-queijo",
+      "name_en": "Cheese Bread",
+      "name_local": "Pão de Queijo",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Small, addictive cheese rolls made with tapioca flour and cheese. Crispy outside, gooey inside, naturally gluten-free. Eaten as a snack or breakfast.",
+        "history": "Originated in Minas Gerais state in the 18th century. Enslaved people used tapioca flour (cassava) instead of wheat to make bread.",
+        "insider_tip": "Best eaten fresh and warm from bakeries or street vendors. Frozen supermarket versions are acceptable but lack the magic. Pair with coffee for a true Brazilian breakfast.",
+        "price_level": "Affordable",
+        "duration": "5-10 mins (snack)",
+        "best_time": "Breakfast or coffee break",
+        "vibe": "Comforting snack",
+        "good_for": ["Quick bite", "Coffee break", "Gluten-free"]
+      },
+      "image": "/images/rio/pao-de-queijo.jpg"
+    },
+    {
+      "id": "food-rio-006",
+      "slug": "moqueca",
+      "name_en": "Fish Stew",
+      "name_local": "Moqueca",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A creamy fish stew made with coconut milk, palm oil, tomatoes, onions, and peppers. Served in a clay pot with rice and farofa. The coastal version is lighter than inland preparations.",
+        "history": "Indigenous Brazilian dish with African and Portuguese influences. Each coastal region has its own version—Bahian style uses dendê oil, while Espírito Santo omits it.",
+        "insider_tip": "Order it with white fish (robalo or badejo) for the most authentic taste. Use farofa to soak up the broth. Share between two people—portions are huge.",
+        "price_level": "Moderate",
+        "duration": "1-1.5 hours",
+        "best_time": "Lunch or dinner",
+        "vibe": "Coastal comfort",
+        "good_for": ["Seafood lovers", "Sharing", "Authentic local food"]
+      },
+      "image": "/images/rio/moqueca.jpg"
+    },
+    {
+      "id": "food-rio-007",
+      "slug": "brigadeiro",
+      "name_en": "Chocolate Truffle",
+      "name_local": "Brigadeiro",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A sweet, fudgy chocolate truffle made from condensed milk, cocoa powder, butter, and chocolate sprinkles. Rolled into balls and served at every birthday party and celebration.",
+        "history": "Created in the 1940s during the presidential campaign of Brigadier Eduardo Gomes. Women made the sweets to raise funds, and the name stuck.",
+        "insider_tip": "Buy from brigadeiro boutiques (like Maria Brigadeiro) for gourmet versions with flavors like passion fruit, pistachio, or bourbon. Traditional ones from bakeries are simpler but equally addictive.",
+        "price_level": "Affordable",
+        "duration": "5 mins (treat)",
+        "best_time": "Anytime dessert craving hits",
+        "vibe": "Sweet nostalgia",
+        "good_for": ["Sweet tooth", "Gifts", "Party dessert"]
+      },
+      "image": "/images/rio/brigadeiro.jpg"
+    },
+    {
+      "id": "food-rio-008",
+      "slug": "pastel",
+      "name_en": "Fried Pastry",
+      "name_local": "Pastel",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A crispy, thin fried pastry filled with cheese, meat, shrimp, or hearts of palm. Sold at street fairs and markets, best eaten hot and fresh with a sugarcane juice.",
+        "history": "Brought by Japanese immigrants in the early 20th century (inspired by Chinese spring rolls). Brazilians made it bigger, crispier, and filled it with local ingredients.",
+        "insider_tip": "Go to Sunday's Hippie Fair in Ipanema for the best pastels. Order 'queijo' (cheese) or 'camarão' (shrimp). Pair with caldo de cana (sugarcane juice) for the ultimate combo.",
+        "price_level": "Affordable",
+        "duration": "10-15 mins",
+        "best_time": "Street fairs and markets",
+        "vibe": "Crispy street food",
+        "good_for": ["Quick lunch", "Street fairs", "Casual eating"]
+      },
+      "image": "/images/rio/pastel.jpg"
+    },
+    {
+      "id": "food-rio-009",
+      "slug": "tapioca-crepe",
+      "name_en": "Tapioca Crepe",
+      "name_local": "Tapioca",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A naturally gluten-free crepe made from tapioca starch, filled with sweet or savory ingredients like cheese, coconut, banana, or meat. Crispy-chewy texture unique to Brazil.",
+        "history": "Indigenous Brazilian food dating back centuries. Originally a plain flatbread, modern versions have endless fillings. Now a popular street food and breakfast option.",
+        "insider_tip": "Get it fresh from beach vendors early morning. Sweet combinations (banana + Nutella) are delicious but savory (cheese + jerky) is more traditional.",
+        "price_level": "Affordable",
+        "duration": "10-15 mins",
+        "best_time": "Breakfast or beach snack",
+        "vibe": "Light and versatile",
+        "good_for": ["Gluten-free", "Beach snack", "Breakfast"]
+      },
+      "image": "/images/rio/tapioca.jpg"
+    },
+    {
+      "id": "food-rio-010",
+      "slug": "mate-gelado",
+      "name_en": "Iced Mate Tea",
+      "name_local": "Mate Gelado",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Cold yerba mate tea served with lemon and sugar. Cariocas drink it constantly—it's Rio's unofficial beverage. Sold everywhere from beach vendors to restaurants.",
+        "history": "Yerba mate is from southern Brazil and Argentina. Rio adopted it in the 20th century and turned it into a cold, sweetened beach drink.",
+        "insider_tip": "Order it 'sem açúcar' (no sugar) if you want to taste the actual tea. Most places serve it syrup-sweet by default. Beach vendors sell it in 1L bottles—perfect for sharing.",
+        "price_level": "Affordable",
+        "duration": "N/A (drink)",
+        "best_time": "Hot beach days",
+        "vibe": "Refreshing and energizing",
+        "good_for": ["Beach hydration", "Caffeine boost", "Hot days"]
+      },
+      "image": "/images/rio/mate.jpg"
+    },
+    {
+      "id": "food-rio-011",
+      "slug": "bolinhos-bacalhau",
+      "name_en": "Codfish Fritters",
+      "name_local": "Bolinhos de Bacalhau",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Fried balls of salted cod mixed with potato, onion, and parsley. Crispy outside, soft inside. Classic Portuguese-Brazilian appetizer served with beer at bars.",
+        "history": "Portuguese colonizers brought salted cod (bacalhau) to Brazil. The fritter format became a bar staple in the 1800s and remains a favorite petisco (snack).",
+        "insider_tip": "Order at traditional boteco bars (neighborhood taverns). Pair with ice-cold chopp (draft beer). Best spots are in Lapa or Leblon's Baixo Leblon.",
+        "price_level": "Affordable",
+        "duration": "30 mins (bar snack)",
+        "best_time": "Happy hour",
+        "vibe": "Casual bar food",
+        "good_for": ["Beer pairing", "Socializing", "Pre-dinner snack"]
+      },
+      "image": "/images/rio/bacalhau.jpg"
+    },
+    {
+      "id": "food-rio-012",
+      "slug": "picanha",
+      "name_en": "Top Sirloin Cap",
+      "name_local": "Picanha",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "The king of Brazilian steaks. Top sirloin cap with a thick fat layer grilled to perfection. Served in chunks at churrascarias or as a steak at restaurants.",
+        "history": "Always part of gaucho culture but became Brazil's premium cut in the 1960s. Now considered the best cut for churrasco nationwide.",
+        "insider_tip": "Order it 'mal passado' (rare to medium-rare). The fat cap is essential—don't trim it. If at a churrascaria, wait for the second round when the premium cuts come out.",
+        "price_level": "Expensive",
+        "duration": "1.5-2 hours",
+        "best_time": "Dinner",
+        "vibe": "Premium carnivore",
+        "good_for": ["Steak lovers", "Special occasions", "Quality meat"]
+      },
+      "image": "/images/rio/picanha.jpg"
+    },
+    {
+      "id": "food-rio-013",
+      "slug": "coxinha",
+      "name_en": "Chicken Croquette",
+      "name_local": "Coxinha",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Tear-drop shaped fried snack filled with shredded chicken and cream cheese, then breaded and fried. Ubiquitous at bakeries, parties, and snack bars.",
+        "history": "Legend says it was created for a Brazilian prince in the 19th century who only ate chicken drumsticks. When they ran out, cooks shaped chicken into drumstick form.",
+        "insider_tip": "Get them from small neighborhood bakeries (padarias), not chains. Best eaten fresh and hot. The dough should be thin and crispy, not thick and doughy.",
+        "price_level": "Affordable",
+        "duration": "5-10 mins (snack)",
+        "best_time": "Afternoon snack",
+        "vibe": "Comforting classic",
+        "good_for": ["Quick snack", "Budget eating", "Nostalgic comfort"]
+      },
+      "image": "/images/rio/coxinha.jpg"
+    },
+    {
+      "id": "food-rio-014",
+      "slug": "acaraje",
+      "name_en": "Black-Eyed Pea Fritter",
+      "name_local": "Acarajé",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Afro-Brazilian street food: black-eyed pea fritters fried in palm oil, split open, and stuffed with vatapá (shrimp paste), caruru (okra), and hot pepper sauce.",
+        "history": "Brought by West African enslaved people, particularly from Yoruba culture. Originally a sacred food offered to Iansã, the goddess of winds. Now sold by Bahian women (baianas) across Brazil.",
+        "insider_tip": "Only get it from traditional baianas wearing white dresses—they make it properly. Ask for 'pouco dendê' (less palm oil) if you have a sensitive stomach. The hot pepper is VERY hot.",
+        "price_level": "Affordable",
+        "duration": "15 mins (street food)",
+        "best_time": "Lunch or beach snack",
+        "vibe": "Spicy Afro-Brazilian",
+        "good_for": ["Adventurous eaters", "Cultural experience", "Street food"]
+      },
+      "image": "/images/rio/acaraje.jpg"
+    },
+    {
+      "id": "food-rio-015",
+      "slug": "coconut-water",
+      "name_en": "Coconut Water",
+      "name_local": "Água de Coco",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Fresh coconut water served straight from a young green coconut. Beach vendors chop the top with a machete and stick a straw in. Natural electrolyte replacement and the ultimate beach hydration.",
+        "history": "Coconuts grow abundantly in coastal Brazil. Drinking straight from the coconut became a beach ritual in the 20th century as Rio's beach culture exploded.",
+        "insider_tip": "Look for coconuts kept in ice. After drinking, ask them to split it open ('abrir') so you can eat the soft coconut flesh inside. It's included in the price.",
+        "price_level": "Affordable",
+        "duration": "10-15 mins",
+        "best_time": "Hot beach afternoons",
+        "vibe": "Natural refreshment",
+        "good_for": ["Hydration", "Beach essential", "Healthy drink"]
+      },
+      "image": "/images/rio/coconut-water.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Iconic Landmarks",
+      "id": "landmarks",
+      "items": [
+        {
+          "id": "sight-rio-001",
+          "slug": "christ-redeemer",
+          "name_en": "Christ the Redeemer",
+          "name_local": "Cristo Redentor",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The iconic 30-meter tall statue of Jesus overlooking Rio from Corcovado mountain. One of the New Seven Wonders of the World. Best visited early morning for sunrise views before crowds.",
+            "history": "Built between 1922-1931 as a symbol of Christianity and Brazilian identity. Designed by Brazilian engineer Heitor da Silva Costa and sculpted by French artist Paul Landowski. The statue has been struck by lightning multiple times.",
+            "insider_tip": "Book tickets online days in advance—it sells out. Take the van up ($), not the train ($$$$). Go at 8am opening or after 4pm for golden hour. Avoid weekends and holidays.",
+            "price_level": "Expensive",
+            "duration": "2-3 hours",
+            "best_time": "Sunrise (8am) or late afternoon",
+            "vibe": "Breathtaking and iconic",
+            "good_for": ["First-time visitors", "Photography", "Panoramic views"]
+          },
+          "image": "/images/rio/christ.jpg",
+          "geo": { "lat": -22.9519, "lng": -43.2105 }
+        },
+        {
+          "id": "sight-rio-002",
+          "slug": "sugarloaf-mountain",
+          "name_en": "Sugarloaf Mountain",
+          "name_local": "Pão de Açúcar",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 396-meter granite peak accessed by cable car. The ride has two stages, with views getting progressively more stunning. Sunset from the top is one of Rio's most romantic experiences.",
+            "history": "Portuguese explorers named it 'Sugarloaf' in the 16th century due to its resemblance to traditional sugarloaf molds. The cable car system opened in 1912 and was revolutionary for its time.",
+            "insider_tip": "Go 1.5 hours before sunset. Watch the sun drop from the top, then take the cable car down as city lights turn on. Bring a light jacket—it gets windy at the summit.",
+            "price_level": "Expensive",
+            "duration": "2-3 hours",
+            "best_time": "Sunset (5-6pm)",
+            "vibe": "Romantic and scenic",
+            "good_for": ["Couples", "Photographers", "Sunset seekers"]
+          },
+          "image": "/images/rio/sugarloaf.jpg",
+          "geo": { "lat": -22.9489, "lng": -43.1569 }
+        },
+        {
+          "id": "sight-rio-003",
+          "slug": "selaron-steps",
+          "name_en": "Selarón Steps",
+          "name_local": "Escadaria Selarón",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A colorful mosaic staircase created by Chilean artist Jorge Selarón. 250 steps covered in tiles from 60+ countries. An ever-evolving art project that became Rio's most photographed staircase.",
+            "history": "Selarón started the project in 1990 as a tribute to the Brazilian people. He worked on it obsessively until his death in 2013. The steps connect Lapa and Santa Teresa.",
+            "insider_tip": "Go early (8-9am) or late afternoon (5pm) to avoid tour groups. The steps are public and free. Watch for pickpockets—it's crowded. Combine with a walk through Santa Teresa.",
+            "price_level": "Free",
+            "duration": "30 mins",
+            "best_time": "Early morning or late afternoon",
+            "vibe": "Colorful and artistic",
+            "good_for": ["Instagram photos", "Art lovers", "Quick visit"]
+          },
+          "image": "/images/rio/selaron.jpg",
+          "geo": { "lat": -22.9153, "lng": -43.1792 }
+        }
+      ]
+    },
+    {
+      "title": "Beaches",
+      "id": "beaches",
+      "items": [
+        {
+          "id": "sight-rio-004",
+          "slug": "copacabana-beach",
+          "name_en": "Copacabana Beach",
+          "name_local": "Praia de Copacabana",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The world's most famous beach. A 4km crescent of sand with the iconic black-and-white wave mosaic sidewalk. Packed with tourists, beach vendors, football games, and people-watching.",
+            "history": "Named after a Bolivian village with a famous Virgin Mary shrine. Became Rio's tourism hub in the 1920s-30s. The wave mosaic sidewalk was designed by Burle Marx in the 1970s.",
+            "insider_tip": "Each 'posto' (lifeguard station) has a different vibe. Posto 4 near the Copacabana Palace is calmer. Posto 6 is where locals hang out. Bring minimal valuables—theft is common.",
+            "price_level": "Free",
+            "duration": "Half-day minimum",
+            "best_time": "Morning or late afternoon",
+            "vibe": "Iconic and touristy",
+            "good_for": ["Beach culture", "People-watching", "First-time visitors"]
+          },
+          "image": "/images/rio/copacabana-beach.jpg",
+          "geo": { "lat": -22.9711, "lng": -43.1822 }
+        },
+        {
+          "id": "sight-rio-005",
+          "slug": "ipanema-beach",
+          "name_en": "Ipanema Beach",
+          "name_local": "Praia de Ipanema",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "More upscale and less touristy than Copacabana. Posto 9 is the social epicenter—where beautiful people gather. Cleaner water, better vibe, and the inspiration for 'The Girl from Ipanema.'",
+            "history": "Made famous by the 1962 bossa nova song 'The Girl from Ipanema' (Garota de Ipanema). Became Rio's bohemian beach in the 1960s and evolved into the sophisticated neighborhood it is today.",
+            "insider_tip": "Posto 9 is the LGBT+ friendly section. Posto 10 is for families. Go on Sunday when Avenida Vieira Souto closes to cars—locals bike, rollerblade, and picnic.",
+            "price_level": "Free",
+            "duration": "Half-day minimum",
+            "best_time": "Late afternoon for sunset",
+            "vibe": "Chic and sophisticated",
+            "good_for": ["Beach lovers", "Sunset views", "People-watching"]
+          },
+          "image": "/images/rio/ipanema-beach.jpg",
+          "geo": { "lat": -22.9868, "lng": -43.2045 }
+        },
+        {
+          "id": "sight-rio-006",
+          "slug": "arpoador-beach",
+          "name_en": "Arpoador Beach",
+          "name_local": "Praia do Arpoador",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A small rocky beach between Copacabana and Ipanema famous for its sunset. Locals gather on the rocks every evening to applaud as the sun sets behind Two Brothers Mountain.",
+            "history": "Named 'Arpoador' (harpooner) because 19th-century whalers used the rocks to spot whales. The sunset clapping tradition started spontaneously in the 1970s and continues today.",
+            "insider_tip": "Arrive 30 mins before sunset to get a good rock spot. The tradition is to clap and cheer when the sun touches the horizon. Bring a beer and join the ritual.",
+            "price_level": "Free",
+            "duration": "1-2 hours",
+            "best_time": "Sunset (5:30-6:30pm)",
+            "vibe": "Local tradition",
+            "good_for": ["Sunset ritual", "Photography", "Local culture"]
+          },
+          "image": "/images/rio/arpoador.jpg",
+          "geo": { "lat": -22.9874, "lng": -43.1903 }
+        },
+        {
+          "id": "sight-rio-007",
+          "slug": "prainha-beach",
+          "name_en": "Prainha Beach",
+          "name_local": "Prainha",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A small, pristine beach 45 minutes west of the city. Surrounded by lush mountains and protected as an environmental reserve. Popular with surfers and those seeking nature.",
+            "history": "Remained undeveloped due to environmental protection laws. Still maintains its wild, natural character. Local surfers have protected it from overdevelopment for decades.",
+            "insider_tip": "No beach infrastructure—bring food, water, and sunscreen. Parking fills up by 11am on weekends. Best surf in Rio but strong currents make swimming dangerous for non-surfers.",
+            "price_level": "Free",
+            "duration": "Half-day",
+            "best_time": "Weekday mornings",
+            "vibe": "Wild and pristine",
+            "good_for": ["Surfers", "Nature lovers", "Escaping crowds"]
+          },
+          "image": "/images/rio/prainha.jpg",
+          "geo": { "lat": -23.0442, "lng": -43.5028 }
+        }
+      ]
+    },
+    {
+      "title": "Nature & Parks",
+      "id": "nature",
+      "items": [
+        {
+          "id": "sight-rio-008",
+          "slug": "tijuca-forest",
+          "name_en": "Tijuca National Park",
+          "name_local": "Floresta da Tijuca",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The world's largest urban rainforest. Trails lead to waterfalls, viewpoints, and wildlife. Home to Christ the Redeemer. Perfect escape from beach crowds into nature.",
+            "history": "Originally cleared for coffee plantations in the 1800s. Emperor Pedro II ordered reforestation in 1861—the first large-scale reforestation project in history. Now a UNESCO World Heritage Site.",
+            "insider_tip": "Hire a guide for safety and wildlife spotting (monkeys, toucans). The Cascatinha Waterfall trail is easy and beautiful. Don't hike alone—trails are isolated. Go in the morning before heat/rain.",
+            "price_level": "Free (guide extra)",
+            "duration": "Half-day",
+            "best_time": "Early morning",
+            "vibe": "Jungle adventure",
+            "good_for": ["Hikers", "Nature lovers", "Wildlife spotting"]
+          },
+          "image": "/images/rio/tijuca.jpg",
+          "geo": { "lat": -22.9628, "lng": -43.2839 }
+        },
+        {
+          "id": "sight-rio-009",
+          "slug": "botanical-garden",
+          "name_en": "Rio Botanical Garden",
+          "name_local": "Jardim Botânico",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A serene 140-hectare garden with over 6,000 plant species. Famous for its towering royal palm avenue. Peaceful escape from Rio's intensity with lakes, orchids, and sculptures.",
+            "history": "Founded in 1808 by Portuguese Prince Regent João VI to cultivate spices from the West Indies. Originally a private royal garden, opened to the public in 1822 after independence.",
+            "insider_tip": "Go on weekday mornings for solitude. The Japanese garden and the sensory garden are hidden gems. Bring mosquito repellent. Café inside serves great fresh juices.",
+            "price_level": "Affordable",
+            "duration": "2-3 hours",
+            "best_time": "Weekday mornings",
+            "vibe": "Peaceful and botanical",
+            "good_for": ["Plant lovers", "Quiet time", "Photography"]
+          },
+          "image": "/images/rio/botanical.jpg",
+          "geo": { "lat": -22.9670, "lng": -43.2247 }
+        },
+        {
+          "id": "sight-rio-010",
+          "slug": "parque-lage",
+          "name_en": "Lage Park",
+          "name_local": "Parque Lage",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A stunning mansion and gardens at the foot of Corcovado. The café inside the mansion has views of Christ the Redeemer through the arches. Free entry, romantic atmosphere, popular photo spot.",
+            "history": "Built in the early 1900s for industrialist Henrique Lage and his opera singer wife. The mansion now houses an art school (EAV). The gardens were designed by English landscape architect John Tyndale.",
+            "insider_tip": "The café is Instagrammer heaven—go early to avoid crowds. Free trails lead into Tijuca Forest from here. On weekends, there are often outdoor exhibitions and performances.",
+            "price_level": "Free (café affordable)",
+            "duration": "1-2 hours",
+            "best_time": "Morning for photos",
+            "vibe": "Romantic and artistic",
+            "good_for": ["Instagram photos", "Relaxing", "Architecture"]
+          },
+          "image": "/images/rio/parque-lage.jpg",
+          "geo": { "lat": -22.9596, "lng": -43.2108 }
+        }
+      ]
+    },
+    {
+      "title": "Culture & Nightlife",
+      "id": "culture",
+      "items": [
+        {
+          "id": "sight-rio-011",
+          "slug": "lapa-arches",
+          "name_en": "Lapa Arches",
+          "name_local": "Arcos da Lapa",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "An 18th-century aqueduct that's now Rio's nightlife landmark. The area underneath transforms into street parties (rodas de samba) on Friday and Saturday nights. Bars, clubs, and live music everywhere.",
+            "history": "Built in 1750 to carry water from Santa Teresa to downtown. Converted to a tram viaduct in 1896. Now connects Lapa's nightlife district to Santa Teresa's bohemian hills.",
+            "insider_tip": "Go after 10pm when the street party starts. Stay in groups and watch valuables—pickpockets work the crowds. Nearby clubs like Rio Scenarium and Carioca da Gema have live samba.",
+            "price_level": "Varies",
+            "duration": "3-5 hours",
+            "best_time": "Friday/Saturday nights after 10pm",
+            "vibe": "Wild nightlife",
+            "good_for": ["Party people", "Samba lovers", "Night owls"]
+          },
+          "image": "/images/rio/lapa-arches.jpg",
+          "geo": { "lat": -22.9131, "lng": -43.1792 }
+        },
+        {
+          "id": "sight-rio-012",
+          "slug": "maracana-stadium",
+          "name_en": "Maracanã Stadium",
+          "name_local": "Estádio do Maracanã",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The iconic football cathedral that hosted two World Cup finals (1950, 2014) and the 2016 Olympics opening ceremony. Catch a Flamengo or Fluminense match to experience Brazilian football passion.",
+            "history": "Built for the 1950 World Cup. Once held over 200,000 fans (now 78,000 after renovations). Site of Pelé's 1,000th goal. The energy during a Flamengo vs. Fluminense derby is unforgettable.",
+            "insider_tip": "Buy tickets online in advance. Sit in the lower tier for atmosphere. Wear your team's colors or neutral—never rival colors. The pre-match build-up is just as thrilling as the game.",
+            "price_level": "Moderate",
+            "duration": "3-4 hours",
+            "best_time": "Match days (weekends)",
+            "vibe": "Electric football culture",
+            "good_for": ["Football fans", "Cultural experience", "Adrenaline"]
+          },
+          "image": "/images/rio/maracana.jpg",
+          "geo": { "lat": -22.9122, "lng": -43.2302 }
+        },
+        {
+          "id": "sight-rio-013",
+          "slug": "santa-teresa-tram",
+          "name_en": "Santa Teresa Tram",
+          "name_local": "Bondinho de Santa Teresa",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A vintage yellow tram that climbs from downtown to the bohemian hilltop neighborhood of Santa Teresa. Crosses the Lapa Arches and offers stunning views. One of the last working tram systems in Brazil.",
+            "history": "Opened in 1877, making it one of the oldest streetcar systems in Latin America. Suspended in 2011 after an accident, partially reopened in 2015. A beloved Rio icon and tourist attraction.",
+            "insider_tip": "Currently only one route operates (Largo da Carioca to Largo do Guimarães). Runs infrequently—check schedule. Sit on the right side for best views. Explore Santa Teresa after—it's full of bars and art studios.",
+            "price_level": "Affordable",
+            "duration": "30 mins (ride only)",
+            "best_time": "Late afternoon",
+            "vibe": "Nostalgic and scenic",
+            "good_for": ["History buffs", "Scenic rides", "Photography"]
+          },
+          "image": "/images/rio/tram.jpg",
+          "geo": { "lat": -22.9138, "lng": -43.1869 }
+        },
+        {
+          "id": "sight-rio-014",
+          "slug": "pedra-do-sal",
+          "name_en": "Pedra do Sal",
+          "name_local": "Pedra do Sal",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Historic stone square in the port zone where samba was born. Free outdoor samba rodas (circles) on Monday and Friday nights. Locals dance, sing, and drink in the street until late.",
+            "history": "Former site of the slave market in colonial times. Enslaved Africans met here to maintain cultural traditions through music and dance. Considered the birthplace of modern samba.",
+            "insider_tip": "Go on Monday nights—it's the most authentic and local. Arrive by 8pm to get space near the musicians. Bring cash for drinks from street vendors. Watch your belongings.",
+            "price_level": "Free",
+            "duration": "2-4 hours",
+            "best_time": "Monday nights (from 8pm)",
+            "vibe": "Raw and cultural",
+            "good_for": ["Samba lovers", "Cultural immersion", "Local experience"]
+          },
+          "image": "/images/rio/pedra-sal.jpg",
+          "geo": { "lat": -22.8940, "lng": -43.1840 }
+        }
+      ]
+    },
+    {
+      "title": "Viewpoints",
+      "id": "viewpoints",
+      "items": [
+        {
+          "id": "sight-rio-015",
+          "slug": "mirante-dona-marta",
+          "name_en": "Dona Marta Viewpoint",
+          "name_local": "Mirante Dona Marta",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A helicopter-pad viewpoint offering 360° views of Rio: Christ, Sugarloaf, beaches, and favelas. Famous from Michael Jackson's 'They Don't Care About Us' video. Best views for photography.",
+            "history": "Located on the Dona Marta favela hillside. Became internationally known after Michael Jackson filmed here in 1996. The community has since embraced tourism while maintaining local character.",
+            "insider_tip": "Go with a tour or private driver—don't navigate alone. Sunset and blue hour are magical for photos. Small cafes sell drinks and snacks. The community is safe but respect locals' space.",
+            "price_level": "Free (transport extra)",
+            "duration": "1-2 hours",
+            "best_time": "Sunset or late afternoon",
+            "vibe": "Panoramic and stunning",
+            "good_for": ["Photographers", "Sunset seekers", "Wide views"]
+          },
+          "image": "/images/rio/dona-marta.jpg",
+          "geo": { "lat": -22.9491, "lng": -43.1943 }
+        },
+        {
+          "id": "sight-rio-016",
+          "slug": "pedra-bonita",
+          "name_en": "Pedra Bonita",
+          "name_local": "Pedra Bonita",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 696m peak reached by a relatively easy 1.5-hour hike. Launch point for hang gliders. Panoramic views of the entire South Zone, beaches, and mountains. Popular with local hikers.",
+            "history": "Has been a hang-gliding launch site since the 1970s. The name means 'beautiful stone.' Part of Tijuca National Park. Used to train Brazilian Olympic hang gliders.",
+            "insider_tip": "Start early (7-8am) to avoid heat. The trail is moderate but has some steep sections. No entrance fee. Bring water and snacks. Watch hang gliders launch if you time it right (10am-2pm).",
+            "price_level": "Free",
+            "duration": "3-4 hours (round trip)",
+            "best_time": "Early morning",
+            "vibe": "Adventurous hiking",
+            "good_for": ["Hikers", "Nature lovers", "Views without crowds"]
+          },
+          "image": "/images/rio/pedra-bonita.jpg",
+          "geo": { "lat": -22.9953, "lng": -43.2831 }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "8:00 AM",
+      "title": "Sunrise at Christ the Redeemer",
+      "description": "Start your day at the top—literally. Take the first van up Corcovado mountain to beat the crowds. Watch the sunrise illuminate Rio's beaches and mountains from 710 meters high. The golden morning light makes for the best photos, and you'll have the statue mostly to yourself for 30-45 minutes.",
+      "image": "/images/rio/christ-morning.jpg",
+      "ticket_link": "https://www.getyourguide.com/rio-de-janeiro-l61/"
+    },
+    {
+      "time": "11:00 AM",
+      "title": "Ipanema Beach & Açaí",
+      "description": "Head to Posto 9 on Ipanema Beach—the social epicenter of Rio. Rent a chair and umbrella, swim in the Atlantic, and watch beautiful people play footvolley. Grab an açaí bowl from a beach vendor to refuel. This is peak Carioca culture.",
+      "image": "/images/rio/ipanema-morning.jpg"
+    },
+    {
+      "time": "2:00 PM",
+      "title": "Lunch: Feijoada at a Traditional Restaurant",
+      "description": "Saturday is feijoada day. Head to a traditional restaurant in Ipanema or Leblon for Brazil's national dish—a slow-cooked black bean stew with pork and beef. It's served with rice, farofa, orange slices, and collard greens. This is a leisurely, communal meal meant to be savored over 1.5-2 hours.",
+      "image": "/images/rio/feijoada.jpg"
+    },
+    {
+      "time": "5:00 PM",
+      "title": "Sunset at Arpoador",
+      "description": "Walk to Arpoador, the rocky point between Copacabana and Ipanema. Claim a spot on the rocks 30 minutes before sunset. As the sun touches the horizon behind Two Brothers Mountain, join locals in applauding—a Rio tradition. Bring a cold beer or caipirinha from a nearby kiosk.",
+      "image": "/images/rio/arpoador-sunset.jpg"
+    },
+    {
+      "time": "8:00 PM",
+      "title": "Selarón Steps & Santa Teresa",
+      "description": "Uber to the famous Selarón Steps—a mosaic masterpiece connecting Lapa and Santa Teresa. Climb the colorful stairs and explore Santa Teresa's bohemian neighborhood. Winding streets, colonial houses, art galleries, and bars with live music. Perfect pre-dinner exploration.",
+      "image": "/images/rio/selaron-night.jpg"
+    },
+    {
+      "time": "10:00 PM",
+      "title": "Samba & Caipirinhas in Lapa",
+      "description": "End your night in Lapa, Rio's nightlife epicenter. Hit a traditional samba club like Rio Scenarium or join the street party under the Lapa Arches. Live music, dancing, and caipirinhas flow until dawn. This is Rio at its most energetic and joyful. Stay aware of your surroundings and stick with your group.",
+      "image": "/images/rio/lapa-night.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "name": "Waterproof Phone Pouch",
+      "reason": "Essential for beach days. Keep your phone safe from water, sand, and thieves while swimming.",
+      "image_url": "https://m.media-amazon.com/images/I/71K7fqVqvdL._AC_SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B07VPZT1DH?tag=YOUR_TAG"
+    },
+    {
+      "name": "Reef-Safe Sunscreen SPF 50+",
+      "reason": "Rio sun is brutal. You need SPF 50+ minimum. Reapply every 2 hours. Brazilian sun doesn't play games.",
+      "image_url": "https://m.media-amazon.com/images/I/71wFPvLKExL._SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B004XGPMFA?tag=YOUR_TAG"
+    },
+    {
+      "name": "Quick-Dry Beach Towel",
+      "reason": "Lightweight, compact, and dries fast between beach sessions. Traditional towels stay damp in Rio's humidity.",
+      "image_url": "https://m.media-amazon.com/images/I/81iEXhZPk8L._AC_SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B07H3J6TPN?tag=YOUR_TAG"
+    },
+    {
+      "name": "Portuguese Phrasebook",
+      "reason": "English is limited outside tourist zones. Basic Portuguese phrases go a long way with locals.",
+      "image_url": "https://m.media-amazon.com/images/I/51jTjYv2tPL._SX348_BO1,204,203,200_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/1786574756?tag=YOUR_TAG"
+    }
+  ]
+}
