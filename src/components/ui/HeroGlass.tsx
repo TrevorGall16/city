@@ -5,9 +5,10 @@ interface HeroGlassProps {
   subtitle: string;
   fontClass: string;          // For the City Name (e.g., Fancy Script)
   subtitleFontClass?: string; // For the Subtitle (e.g., Clean Sans-Serif)
+  titleColor?: string;        // Added dynamic color prop
 }
 
-export function HeroGlass({ title, subtitle, fontClass }: HeroGlassProps) {
+export function HeroGlass({ title, subtitle, fontClass, titleColor = 'text-white' }: HeroGlassProps) {
   return (
     <div className="relative max-w-4xl mx-auto text-center p-8 md:p-12">
       
@@ -39,9 +40,8 @@ export function HeroGlass({ title, subtitle, fontClass }: HeroGlassProps) {
 
       {/* Content Layer (Z-10 ensures text sits ON TOP of the blur, not inside it) */}
       <div className="relative z-10 px-4">
- {/* Removed the extra highlight line here */}
-
-        <h1 className={`text-5xl md:text-8xl drop-shadow-2xl mb-6 ${fontClass}`}>
+        {/* Dynamic color applied to H1 below */}
+        <h1 className={`text-5xl md:text-8xl drop-shadow-2xl mb-6 ${fontClass} ${titleColor}`}>
           {title}
         </h1>
         
