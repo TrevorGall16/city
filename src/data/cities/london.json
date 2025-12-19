@@ -748,6 +748,46 @@
       ]
     }
   ],
+  "itinerary": [
+  {
+    "time": "8:00 AM",
+    "title": "Full English Breakfast in Shoreditch",
+    "description": "Start in Shoreditch at a proper greasy spoon café. Order a full English: fried eggs, bacon, sausage, baked beans, mushrooms, grilled tomato, black pudding, and toast. Wash it down with builder's tea (strong black tea with milk and sugar). This breakfast will fuel you until dinner. Shoreditch's street art—Banksy originated here—covers every alley. The neighborhood transformed from working-class to hipster central, but the cafés remain authentically working-class.",
+    "image": "/images/london/full-english-breakfast.jpg"
+  },
+  {
+    "time": "10:00 AM",
+    "title": "Tower of London & Crown Jewels",
+    "description": "Arrive when doors open at 9am to beat tour groups. The Tower held prisoners, executed queens, and housed the Royal Mint for 500 years. See the Crown Jewels (moving walkway past the coronation regalia), climb the White Tower, and hear Beefeater guards tell gory execution stories. Ravens patrol the grounds—legend says if they leave, the kingdom falls. Book tickets online for £34. The Tower Bridge is next door for photos but skip the interior—the view doesn't justify £13.",
+    "image": "/images/london/tower-of-london.jpg",
+    "ticket_link": "https://www.getyourguide.com/london-l57/tower-of-london-early-access-tour-with-crown-jewels-t65488/"
+  },
+  {
+    "time": "1:00 PM",
+    "title": "Lunch: Borough Market",
+    "description": "Walk along the Thames to Borough Market—London's oldest food market (1,000+ years). Try Roast for a sit-down meal or graze the stalls: Scotch eggs, salt beef sandwiches, chorizo rolls, and artisan cheese. Kappacasein's grilled cheese sandwich is legendary. Monmouth Coffee roasts beans on-site. The market is touristy but the quality is real. Thursdays-Saturdays are best. The covered Victorian structure survived WWII bombings and now feeds thousands daily.",
+    "image": "/images/london/borough-market.jpg"
+  },
+  {
+    "time": "3:30 PM",
+    "title": "Westminster Abbey & Big Ben Walk",
+    "description": "Take the Tube to Westminster. Tour Westminster Abbey (£29, book ahead)—where royals marry, are crowned, and are buried. The architecture is breathtaking Gothic. Then walk past Big Ben (currently under renovation but still iconic) and the Houses of Parliament. Cross Westminster Bridge for the classic Parliament photo. Walk along the Southbank to Shakespeare's Globe Theatre and Tate Modern. The Thames Path offers 40 miles of walkable riverfront—London's best free attraction.",
+    "image": "/images/london/westminster-afternoon.jpg",
+    "ticket_link": "https://www.getyourguide.com/london-l57/westminster-abbey-entrance-ticket-t65347/"
+  },
+  {
+    "time": "6:00 PM",
+    "title": "Sunset from Primrose Hill",
+    "description": "Take the Tube to Chalk Farm and walk to Primrose Hill—a 256-foot hill with perfect London skyline views. Locals picnic here at sunset with wine and cheese from nearby shops. The view captures St. Paul's, the Shard, the London Eye, and all of central London. It's less touristy than the London Eye and free. After sunset, explore Primrose Hill village's pubs and boutiques. The neighborhood feels like a village inside the city.",
+    "image": "/images/london/primrose-hill-sunset.jpg"
+  },
+  {
+    "time": "8:00 PM",
+    "title": "Pub Dinner & Pint in Soho",
+    "description": "Head to Soho for a traditional pub. Order fish and chips, steak and ale pie, or Sunday roast (if it's Sunday) with a pint of cask ale. Pubs like The French House or The Coach & Horses have served writers, artists, and drunks for centuries. Then explore Soho's nightlife—Ronnie Scott's Jazz Club (since 1959) or theatre shows in the West End. Walk through Chinatown for late-night dim sum. London's pub culture is the soul of the city—don't skip it.",
+    "image": "/images/london/soho-pub-night.jpg"
+  }
+],
   "affiliate_products": [
     {
       "id": "aff-001",

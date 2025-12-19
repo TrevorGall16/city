@@ -767,6 +767,46 @@
       ]
     }
   ],
+  "itinerary": [
+  {
+    "time": "8:00 AM",
+    "title": "Bagels & Schmear in the Lower East Side",
+    "description": "Start at Russ & Daughters Cafe (opened 1914) for New York's quintessential breakfast. Order a bagel with lox (smoked salmon), cream cheese, tomato, onion, and capers. The bagels are hand-rolled, boiled, then baked—nothing like the bread circles elsewhere. Pair with coffee or fresh OJ. Then walk the LES streets where immigrant culture built New York. This neighborhood invented American bagels, pickles, and attitude.",
+    "image": "/images/new-york/bagel-breakfast.jpg"
+  },
+  {
+    "time": "10:00 AM",
+    "title": "Brooklyn Bridge Walk to DUMBO",
+    "description": "Walk across the Brooklyn Bridge—built in 1883, it's still one of the world's most iconic spans. Start in Manhattan, walk toward Brooklyn for the best skyline views. The wooden pedestrian path sits above traffic. Arrive in DUMBO (Down Under the Manhattan Bridge Overpass) and snap the famous photo of the Empire State Building framed by the bridge. Then explore Brooklyn Bridge Park's waterfront piers. The contrast between industrial history and modern Brooklyn is striking.",
+    "image": "/images/new-york/brooklyn-bridge.jpg"
+  },
+  {
+    "time": "12:30 PM",
+    "title": "Pizza at Juliana's or Grimaldi's",
+    "description": "DUMBO sits between two legendary coal-oven pizzerias—Juliana's and Grimaldi's (long story involving a divorce and dueling restaurants). Both serve thin-crust pizza with slightly charred edges and fresh mozzarella. Order a margherita or the white pizza. No slices—whole pies only. The queue can stretch 45 minutes but moves fast. This is New York pizza at its finest: simple, perfect, no gimmicks.",
+    "image": "/images/new-york/julianas-pizza.jpg"
+  },
+  {
+    "time": "3:00 PM",
+    "title": "Central Park: Bethesda Fountain to Bow Bridge",
+    "description": "Take the subway to 72nd St and enter Central Park at Bethesda Terrace. The fountain is instantly recognizable from 1,000 movies. Walk north to the Bow Bridge—Central Park's most romantic spot. Then rent a rowboat on the lake ($20/hour) or just sit and people-watch. The park is 843 acres of designed nature in the middle of Manhattan. On weekends, you'll see musicians, dancers, and artists performing. This manufactured wilderness somehow feels essential.",
+    "image": "/images/new-york/central-park-afternoon.jpg"
+  },
+  {
+    "time": "6:00 PM",
+    "title": "Sunset from Top of the Rock",
+    "description": "Head to Rockefeller Center's Top of the Rock observation deck (70th floor). Unlike the Empire State Building, this one has unobstructed views of Central Park, the Empire State Building itself, and all of Manhattan. Book the sunset time slot weeks ahead. As the city lights up, you understand why 8 million people choose to live on this tiny island. The outdoor deck means perfect photos with no glass glare. Stay through blue hour for the full experience.",
+    "image": "/images/new-york/top-of-rock-sunset.jpg",
+    "ticket_link": "https://www.getyourguide.com/new-york-l59/top-of-the-rock-observation-deck-tickets-t61711/"
+  },
+  {
+    "time": "8:30 PM",
+    "title": "Dinner & Broadway Show in Times Square",
+    "description": "Grab dinner in Hell's Kitchen (9th Ave)—Joe Allen or Becco for pre-theater crowds. Then catch a Broadway show. TodayTix app offers same-day discounted tickets ($50-100). The lights of Times Square are overwhelming but you have to see them once. After the show, walk through the neon chaos—it's bright enough to read a book at midnight. New York's energy at night is electric. Grab a slice at 2 Bros Pizza or a hot dog from a cart. The city never actually sleeps.",
+    "image": "/images/new-york/broadway-night.jpg",
+    "ticket_link": "https://www.getyourguide.com/new-york-l59/broadway-show-tickets-t445698/"
+  }
+],
   "affiliate_products": [
     {
       "id": "aff-001",

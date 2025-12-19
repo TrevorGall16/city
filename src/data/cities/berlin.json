@@ -616,6 +616,45 @@
       ]
     }
   ],
+  "itinerary": [
+  {
+    "time": "9:00 AM",
+    "title": "Breakfast at Markthalle Neun",
+    "description": "Start at this 19th-century market hall in Kreuzberg. Grab a Leberkäse sandwich or fresh pretzel from local vendors. The coffee is strong, the vibe is neighborhood-authentic, and you'll see Berliners in their natural habitat. Thursday mornings have a street food market with Turkish börek that'll ruin you for all other pastries.",
+    "image": "/images/berlin/markthalle-morning.jpg"
+  },
+  {
+    "time": "11:00 AM",
+    "title": "Berlin Wall Memorial & East Side Gallery",
+    "description": "Head to Bernauer Straße for the Berlin Wall Memorial—the most moving section with preserved death strip and watchtower. Then visit East Side Gallery, where 1.3km of wall became the world's longest open-air gallery. The Brezhnev-Honecker kiss mural is iconic, but the less-photographed murals tell deeper stories. Reality hits when you realize this barrier split families for 28 years.",
+    "image": "/images/berlin/wall-memorial.jpg"
+  },
+  {
+    "time": "1:30 PM",
+    "title": "Currywurst Lunch at Curry 36",
+    "description": "You can't leave Berlin without currywurst. Curry 36 in Kreuzberg is the people's champion—locals queue at lunch. Order currywurst pommes with a Berliner Kindl beer. Eat standing at the counter like a true Berliner. It's greasy, cheap, and somehow exactly what you need. This is Germany's most beloved street food, invented in 1949 by a Berlin woman with ketchup and curry powder.",
+    "image": "/images/berlin/currywurst.jpg"
+  },
+  {
+    "time": "3:30 PM",
+    "title": "Museum Island: Pergamon or Neues Museum",
+    "description": "Pick one museum and do it right. Pergamon has the massive Ishtar Gate and ancient architecture reconstructed room by room. Neues Museum holds Nefertiti's bust—3,400 years old and impossibly perfect. Book tickets online weeks ahead. The island itself is UNESCO-listed. Pro tip: Wednesday and Thursday have extended hours until 8pm.",
+    "image": "/images/berlin/museum-island.jpg",
+    "ticket_link": "https://www.getyourguide.com/berlin-l17/pergamon-museum-skip-the-line-ticket-t67682/"
+  },
+  {
+    "time": "6:00 PM",
+    "title": "Sunset at Tempelhofer Feld",
+    "description": "The former Nazi airport, then Cold War airlift hub, now Berlin's massive public park. Rent a bike, rollerblades, or just walk the old runways where planes once landed. Berliners barbecue, kite-surf on wheels, and urban garden on the tarmac. As the sun sets over this repurposed space, you understand Berlin's genius for transformation. Bring beers—it's legal and encouraged.",
+    "image": "/images/berlin/tempelhof-sunset.jpg"
+  },
+  {
+    "time": "9:00 PM",
+    "title": "Dinner & Nightlife in Kreuzberg",
+    "description": "Start with dinner at a Turkish restaurant on Kottbusser Tor—Berlin has the best Turkish food outside Turkey. Then bar-hop through Kreuzberg's gritty cocktail scene. If you're up for it, Berlin's techno clubs (Berghain, Sisyphos, Watergate) open around midnight and go until Monday morning. Strict door policies: no phones on dance floor, all black clothing helps, act like you belong. Berlin doesn't sleep—it just rests between parties.",
+    "image": "/images/berlin/kreuzberg-night.jpg"
+  }
+],
   "affiliate_products": [
     {
       "id": "aff-001",

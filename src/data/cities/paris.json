@@ -1317,6 +1317,46 @@
       ]
     }
   ],
+  "itinerary": [
+  {
+    "time": "8:00 AM",
+    "title": "Sunrise at Trocadéro with Fresh Croissants",
+    "description": "Start your day at Trocadéro Gardens facing the Eiffel Tower. Grab warm croissants from a nearby boulangerie and watch the Iron Lady emerge from the morning mist. The early light creates golden photo opportunities without the tour group chaos. This is the Paris of postcards, but real.",
+    "image": "/images/paris/trocadero-sunrise.jpg"
+  },
+  {
+    "time": "10:00 AM",
+    "title": "Louvre Masterpieces Speed Run",
+    "description": "Skip the all-day museum marathon. Enter at 9am when doors open, head straight for the Denon wing. See the Mona Lisa, Winged Victory, and Venus de Milo in 90 minutes. Book tickets online days ahead—the queue wraps around the pyramid. Exit before museum fatigue sets in.",
+    "image": "/images/paris/louvre-morning.jpg",
+    "ticket_link": "https://www.getyourguide.com/paris-l16/louvre-museum-timed-entrance-ticket-t403985/"
+  },
+  {
+    "time": "1:00 PM",
+    "title": "Lunch: Classic Bistro in Le Marais",
+    "description": "Walk to Le Marais for a proper French bistro lunch. Order the formule (fixed menu): steak-frites or duck confit, a glass of Côtes du Rhône, and crème brûlée. Places like Chez Janou or L'As du Fallafel (for falafel) capture the neighborhood's energy. Service is brisk, not rude—that's just efficiency.",
+    "image": "/images/paris/marais-lunch.jpg"
+  },
+  {
+    "time": "3:30 PM",
+    "title": "Seine River Walk & Bouquinistes",
+    "description": "Stroll along the Seine from Pont Neuf to Musée d'Orsay. Browse the green bouquiniste boxes selling vintage books, posters, and prints—they've been here since the 16th century. Stop for une carafe d'eau (free tap water) at a café terrace. Watch boats pass and locals kiss on benches. This is the Paris you imagined.",
+    "image": "/images/paris/seine-afternoon.jpg"
+  },
+  {
+    "time": "6:00 PM",
+    "title": "Sunset from Sacré-Cœur",
+    "description": "Take the metro to Abbesses, then walk up through Montmartre's winding streets to Sacré-Cœur. Arrive by 6pm to claim steps space. As the sun sets, the entire city turns golden below you. Street musicians play, artists sketch, and the city's lights start flickering on. The climb is steep but the view is unmatched.",
+    "image": "/images/paris/sacre-coeur-sunset.jpg"
+  },
+  {
+    "time": "9:00 PM",
+    "title": "Dinner & Champagne at Eiffel Tower",
+    "description": "Book a table at Madame Brasserie (2nd floor) or splurge on Jules Verne. If dining elsewhere, grab champagne from a supermarché and picnic on Champ de Mars. At 10pm, the tower sparkles for 5 minutes—thousands of lights shimmer in sequence. Every hour on the hour until 1am. The sparkle show makes first-timers cry. It's okay to be one of them.",
+    "image": "/images/paris/eiffel-night.jpg",
+    "ticket_link": "https://www.getyourguide.com/paris-l16/eiffel-tower-summit-or-second-floor-access-t63761/"
+  }
+],
   "affiliate_products": [
     {
       "id": "aff-001",

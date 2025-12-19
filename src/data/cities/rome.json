@@ -665,6 +665,46 @@
       ]
     }
   ],
+  "itinerary": [
+  {
+    "time": "8:00 AM",
+    "title": "Cappuccino & Cornetto in Trastevere",
+    "description": "Start in Trastevere, Rome's most charming neighborhood. Find a local bar (café) and order cappuccino and cornetto at the counter—sitting costs double. Locals drink cappuccino only until 11am; after that it's espresso. The cobblestone streets are empty at this hour, golden light filters through ivy-covered buildings. This is the Rome of La Dolce Vita.",
+    "image": "/images/rome/trastevere-morning.jpg"
+  },
+  {
+    "time": "9:30 AM",
+    "title": "Vatican Museums & Sistine Chapel",
+    "description": "Book first-entry tickets (8:30am) weeks ahead—it's the only way to see the Sistine Chapel without being crushed. Michelangelo's ceiling is breathtaking but security rushes you through. The Gallery of Maps and Raphael Rooms are equally stunning and less crowded. Exit into St. Peter's Basilica (free) to see Michelangelo's Pietà. The entire Vatican City is 0.44 square kilometers of overwhelming art.",
+    "image": "/images/rome/vatican-morning.jpg",
+    "ticket_link": "https://www.getyourguide.com/vatican-city-l136/vatican-museums-sistine-chapel-skip-the-line-ticket-t52643/"
+  },
+  {
+    "time": "1:00 PM",
+    "title": "Lunch: Cacio e Pepe in Centro Storico",
+    "description": "Walk to the historic center for lunch at a traditional trattoria. Order cacio e pepe (pecorino cheese and black pepper pasta)—Rome's signature dish that's deceptively simple yet rarely perfected. Add Flavio al Velavevodetto or Felice a Testaccio to your list. Pair with a carafe of house white wine. Romans lunch for 2+ hours—embrace the pace. No cappuccino after meals; that's a tourist tell.",
+    "image": "/images/rome/cacio-e-pepe.jpg"
+  },
+  {
+    "time": "3:30 PM",
+    "title": "Colosseum & Roman Forum",
+    "description": "Book a timed-entry combo ticket (Colosseum + Forum + Palatine Hill). Enter the Colosseum where 50,000 Romans once cheered gladiator battles. Then explore the Forum—the heartbeat of ancient Rome where emperors walked. Palatine Hill offers the best views over the ruins. Bring water; Rome's heat is brutal. The stones you're walking on are 2,000 years old and still standing.",
+    "image": "/images/rome/colosseum-afternoon.jpg",
+    "ticket_link": "https://www.getyourguide.com/rome-l33/colosseum-roman-forum-palatine-hill-priority-access-t189736/"
+  },
+  {
+    "time": "6:00 PM",
+    "title": "Golden Hour at Trevi Fountain & Spanish Steps",
+    "description": "Navigate through narrow streets to Trevi Fountain. Toss a coin over your left shoulder with your right hand—legend says you'll return to Rome. The fountain is stunning but mobbed; see it and move on. Walk to the Spanish Steps (15 min) for sunset people-watching. The steps are a social amphitheater where Romans hang out. Gelato from nearby Giolitti or Fassi is mandatory.",
+    "image": "/images/rome/trevi-golden-hour.jpg"
+  },
+  {
+    "time": "8:30 PM",
+    "title": "Aperitivo & Dinner in Monti",
+    "description": "Head to Monti, Rome's hipster-bohemian neighborhood. Start with aperitivo (6-9pm)—buy one cocktail, get free buffet of snacks, pizza, pasta, and salads. Romans call it 'aperitivo' not happy hour. Then move to dinner: carbonara, amatriciana, or saltimbocca alla romana. End the night wandering the ancient streets, maybe stumbling upon a hidden piazza. Rome doesn't need nightclubs—the city itself is the entertainment.",
+    "image": "/images/rome/monti-night.jpg"
+  }
+],
   "affiliate_products": [
     {
       "id": "aff-001",

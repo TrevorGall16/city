@@ -1105,7 +1105,45 @@
     }
 
   ],
-
+"itinerary": [
+  {
+    "time": "7:00 AM",
+    "title": "Sunrise Alms Ceremony & Street Food Breakfast",
+    "description": "Wake up early to witness monks collecting alms in Khao San or along Chao Phraya River. Locals offer food to saffron-robed monks in silent procession—a 2,600-year Buddhist tradition. Then hit a street food stall for jok (rice porridge), pa thong ko (Chinese fried dough), and Thai iced tea. Street food is safest in the morning when ingredients are fresh. This quiet pre-tourist Bangkok won't last past 9am.",
+    "image": "/images/bangkok/alms-ceremony.jpg"
+  },
+  {
+    "time": "9:00 AM",
+    "title": "Grand Palace & Wat Phra Kaew",
+    "description": "Arrive when doors open at 8:30am to beat tour groups. The Grand Palace is a dazzling complex of gold spires, intricate mosaics, and the sacred Emerald Buddha. Strict dress code: no shorts, no bare shoulders, no torn jeans. Rentals available but avoid the hassle. Entry is ฿500 but worth every baht. Guides swarm the entrance—hire official ones inside. The palace was the royal residence for 150 years; now it's used only for ceremonies.",
+    "image": "/images/bangkok/grand-palace2.jpg",
+    "ticket_link": "https://www.getyourguide.com/bangkok-l26/grand-palace-and-wat-phra-kaew-guided-tour-t61796/"
+  },
+  {
+    "time": "12:00 PM",
+    "title": "Boat Noodles at Victory Monument",
+    "description": "Take the BTS to Victory Monument for boat noodles (kuay teow rua)—originally sold from boats in canals. Order multiple small bowls (฿10-15 each) of pork or beef broth with noodles, meatballs, and herbs. Locals stack 5-8 bowls. The broth is dark, rich, and slightly sweet with pig's blood. It's intense but incredible. Nearby street stalls sell mango sticky rice for dessert. This is working-class Bangkok—zero English, maximum flavor.",
+    "image": "/images/bangkok/boat-noodles.jpg"
+  },
+  {
+    "time": "3:00 PM",
+    "title": "Temples: Wat Pho & Wat Arun",
+    "description": "Walk from the Grand Palace to Wat Pho to see the 46-meter Reclining Buddha covered in gold leaf. The temple complex is massive with 1,000+ Buddha images. Get a traditional Thai massage at the temple's massage school (฿300/hour)—it'll hurt but loosen every muscle. Then take the ferry across Chao Phraya River (฿5) to Wat Arun (Temple of Dawn). Climb the steep stairs for river views. The temple is covered in colorful Chinese porcelain.",
+    "image": "/images/bangkok/wat-pho-afternoon.jpg"
+  },
+  {
+    "time": "6:00 PM",
+    "title": "Sunset Rooftop Bar at Lebua",
+    "description": "Head to Lebua State Tower's Sky Bar (63rd floor) for sunset cocktails. The bar from 'The Hangover 2' offers 360° views of Bangkok's skyline and Chao Phraya River. Cocktails cost ฿500-800, dress code is smart casual (no flip-flops). Arrive by 5:30pm for sunset. Alternative: Octave Rooftop Bar at Marriott Sukhumvit is less touristy. As the city lights up, Bangkok transforms into a neon-lit sprawl stretching to the horizon.",
+    "image": "/images/bangkok/lebua-sunset.jpg"
+  },
+  {
+    "time": "8:00 PM",
+    "title": "Dinner at Yaowarat (Chinatown) Night Market",
+    "description": "Take a taxi to Yaowarat Road when the street vendors set up at 7pm. This is Bangkok's Chinatown—a sensory assault of sizzling woks, neon signs, and 10,000 people eating in the street. Order pad thai from Thip Samai (Bangkok's oldest pad thai spot), crab curry at Hua Seng Hong, or roast duck on rice from a street cart. Try durian fruit if you're brave. End with kanom krok (coconut pancakes). Yaowarat is chaotic, sweaty, and absolutely essential Bangkok.",
+    "image": "/images/bangkok/yaowarat-night.jpg"
+  }
+],
   "affiliate_products": [
 
     {

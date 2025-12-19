@@ -455,6 +455,44 @@
       ]
     }
   ],
+  "itinerary": [
+  {
+    "time": "8:00 AM",
+    "title": "Breakfast Burrito in Santa Monica",
+    "description": "Start at Santa Monica's beach for sunrise joggers, surfers, and the end of Route 66. Grab a breakfast burrito from Tacos Por Favor or The Trails—eggs, bacon, cheese, salsa verde wrapped in a flour tortilla the size of your head. Eat on the beach or the pier. The morning marine layer (fog) usually burns off by 10am, revealing that famous California sun. Rent a bike if you're feeling active—the beach path runs 22 miles to Torrance.",
+    "image": "/images/los-angeles/santa-monica-breakfast.jpg"
+  },
+  {
+    "time": "10:00 AM",
+    "title": "Venice Beach Boardwalk",
+    "description": "Bike or drive to Venice Beach—LA's freak show in the best way. Muscle Beach gym, street performers, tarot readers, medical marijuana dispensaries, and artists selling paintings. Watch skateboarders at the legendary Venice Skatepark. The canals (replicas of Venice, Italy) are a hidden gem 3 blocks inland. Venice is gentrifying fast, but the boardwalk maintains its wonderfully weird edge. Come for the spectacle, stay for the people-watching.",
+    "image": "/images/los-angeles/venice-beach.jpg"
+  },
+  {
+    "time": "12:30 PM",
+    "title": "Lunch: In-N-Out Burger",
+    "description": "This is non-negotiable. In-N-Out is California's burger religion. Order from the 'secret menu': Double-Double animal style (extra sauce, grilled onions), fries well-done, Neapolitan shake. The ingredients are fresh, never frozen, and the prices are shockingly cheap for LA. The Westwood location has been there since the 1950s. Locals will defend In-N-Out's superiority with evangelical fervor. Just eat it and decide for yourself.",
+    "image": "/images/los-angeles/in-n-out.jpg"
+  },
+  {
+    "time": "2:30 PM",
+    "title": "Griffith Observatory & Hollywood Sign Hike",
+    "description": "Drive to Griffith Observatory for panoramic views of LA sprawling to the Pacific. The observatory is free and surprisingly excellent—planetarium shows, Tesla coils, and space exhibits. If you're fit, hike to the Hollywood Sign from the observatory (3 miles round-trip, moderate). Alternatively, drive to the Griffith Observatory parking lot viewpoint. The sign looks smaller in person but it's an LA rite of passage. Golden hour here is stunning.",
+    "image": "/images/los-angeles/griffith-observatory.jpg"
+  },
+  {
+    "time": "6:00 PM",
+    "title": "Sunset at El Matador Beach, Malibu",
+    "description": "Drive up PCH (Pacific Coast Highway) to Malibu's hidden gem—El Matador State Beach. Climb down the stairs to a dramatic cove with rock formations, sea caves, and tide pools. Arrive 90 minutes before sunset. Watch surfers, seals, and the sun melting into the Pacific. Bring a jacket—it gets windy. This is the California of dreams: wild coastline, crashing waves, and endless horizon. The drive alone justifies the trip.",
+    "image": "/images/los-angeles/malibu-sunset.jpg"
+  },
+  {
+    "time": "8:30 PM",
+    "title": "Dinner & Drinks in West Hollywood",
+    "description": "Head to WeHo (West Hollywood) for dinner. Try Republique for French-inspired California cuisine, or Night + Market for explosive Thai food. Then bar-hop on Sunset Strip—the Whisky a Go Go, Viper Room, and Rainbow Bar & Grill are rock 'n' roll history. Alternatively, explore the gay bars on Santa Monica Blvd (The Abbey is legendary). LA nightlife is spread out and expensive, but WeHo concentrates the energy. Uber everywhere—DUIs are serious and common.",
+    "image": "/images/los-angeles/weho-night.jpg"
+  }
+],
   "affiliate_products": [
     {
       "id": "aff-001",

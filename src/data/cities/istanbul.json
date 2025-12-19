@@ -734,6 +734,46 @@
       ]
     }
   ],
+  "itinerary": [
+  {
+    "time": "8:00 AM",
+    "title": "Sunrise at Blue Mosque & Hagia Sophia",
+    "description": "Start at Sultanahmet Square when the first call to prayer echoes across Istanbul. The Blue Mosque opens after morning prayers (around 8:30am); remove shoes and women cover heads. Then cross to Hagia Sophia—1,500 years old, once a church, then mosque, then museum, now mosque again. The early light through its massive dome is ethereal. Few tourists at this hour means you can actually feel the weight of Byzantine and Ottoman history.",
+    "image": "/images/istanbul/blue-mosque-sunrise.jpg",
+    "ticket_link": "https://www.getyourguide.com/istanbul-l85/hagia-sophia-guided-tour-with-skip-the-line-ticket-t395667/"
+  },
+  {
+    "time": "10:30 AM",
+    "title": "Breakfast: Kahvaltı Feast in Karaköy",
+    "description": "Take the tram to Karaköy for proper Turkish breakfast (kahvaltı). Order the mixed platter: olives, tomatoes, cucumbers, beyaz peynir (white cheese), kaymak (clotted cream) with honey, menemen (Turkish scrambled eggs), and simit (sesame bread). Wash it down with çay (tea) served in tulip glasses. This isn't a quick meal—Turks breakfast for hours. The spread costs 150-250 TL and feeds two people for the day.",
+    "image": "/images/istanbul/kahvalti-breakfast.jpg"
+  },
+  {
+    "time": "1:00 PM",
+    "title": "Grand Bazaar & Spice Market",
+    "description": "Navigate the Grand Bazaar's 4,000 shops across 61 covered streets—one of the world's oldest markets (1461). Bargain hard: start at 40% of asking price. Then walk to the Egyptian Spice Market for mountains of colorful spices, Turkish delight, and saffron. The sensory overload is intentional. Don't buy from the first seller who talks to you. Compare prices. Accept tea offers but know it obligates nothing.",
+    "image": "/images/istanbul/grand-bazaar.jpg"
+  },
+  {
+    "time": "4:00 PM",
+    "title": "Bosphorus Ferry Cruise",
+    "description": "Take the public Bosphorus ferry from Eminönü to Anadolu Kavağı (northern terminus). This isn't a tourist cruise—it's locals' daily commute. For 25 TL, you'll sail between Europe and Asia for 90 minutes, passing Ottoman palaces, waterfront mansions (yalı), and the Rumeli Fortress. The wind, the çay from vendors, and the skyline create pure Istanbul magic. Return ferry leaves hourly.",
+    "image": "/images/istanbul/bosphorus-ferry.jpg"
+  },
+  {
+    "time": "7:00 PM",
+    "title": "Sunset from Galata Tower",
+    "description": "Climb Galata Tower for 360° views of Istanbul at golden hour. Watch the sun set over the Golden Horn while minarets puncture the skyline. The tower was built by Genoese traders in 1348 and still stands tall. Book tickets online to skip the brutal queue. After sunset, explore Galata's narrow streets—tiny bars, cafés, and galleries tucked into medieval buildings.",
+    "image": "/images/istanbul/galata-sunset.jpg",
+    "ticket_link": "https://www.getyourguide.com/istanbul-l85/galata-tower-entrance-ticket-t408521/"
+  },
+  {
+    "time": "9:00 PM",
+    "title": "Dinner: Meyhane on Nevizade Sokak",
+    "description": "Head to Nevizade Sokak in Beyoğlu for meyhane (Turkish tavern) culture. Order rakı (anise liquor that turns milky white with water)—Turkey's national drink. Get meze plates: hummus, haydari, ezme, çiğ köfte, midye dolma (stuffed mussels), and grilled octopus. Then order kebabs or sea bass. Meyhane is about slow eating, drinking, and conversation with strangers at neighboring tables. This is how Istanbulites end their nights—loud, messy, and joyful.",
+    "image": "/images/istanbul/meyhane-night.jpg"
+  }
+],
   "affiliate_products": [
     {
       "id": "aff-001",

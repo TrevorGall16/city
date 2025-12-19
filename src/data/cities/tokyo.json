@@ -712,6 +712,45 @@
       ]
     }
   ],
+  "itinerary": [
+  {
+    "time": "6:00 AM",
+    "title": "Sunrise at Tsukiji Outer Market",
+    "description": "Wake up early for Tokyo's famous fish market. The inner wholesale market moved to Toyosu, but Tsukiji's outer market still thrives with 400+ vendors. Watch chefs select the day's catch, then grab fresh uni (sea urchin) or toro (fatty tuna) sushi for breakfast. Stalls open around 5am; arrive by 6:30am before tour groups. Street food vendors sell tamagoyaki (sweet egg omelet) and grilled seafood. This is Tokyo at its most authentic and delicious.",
+    "image": "/images/tokyo/tsukiji-sunrise.jpg"
+  },
+  {
+    "time": "9:00 AM",
+    "title": "Meiji Shrine & Yoyogi Park",
+    "description": "Take the Yamanote line to Harajuku for Meiji Shrine—Tokyo's most important Shinto shrine hidden in a 170-acre forest. Watch priests perform ceremonies and write wishes on ema (wooden plaques). Then cross to Yoyogi Park where you'll see rockabilly dancers, street performers, and locals practicing tai chi. On Sundays, Harajuku's Takeshita Street floods with teenagers in wild fashion. The contrast between ancient shrine and modern chaos is pure Tokyo.",
+    "image": "/images/tokyo/meiji-shrine.jpg"
+  },
+  {
+    "time": "12:00 PM",
+    "title": "Ramen Lunch in Shibuya",
+    "description": "Navigate to Shibuya for Tokyo's best ramen. Ichiran offers solo booths where you customize your bowl via vending machine—tonkotsu broth, noodle firmness, spice level. Or try Afuri for yuzu-infused ramen. Slurping is not just allowed but encouraged—it aerates the noodles and shows appreciation. After lunch, cross Shibuya Scramble—the world's busiest intersection where 3,000 people cross simultaneously. Watch from Starbucks' 2nd floor for the aerial view.",
+    "image": "/images/tokyo/shibuya-ramen.jpg"
+  },
+  {
+    "time": "3:00 PM",
+    "title": "Senso-ji Temple & Asakusa",
+    "description": "Take the metro to Asakusa for Tokyo's oldest temple (628 AD). Walk through Kaminarimon Gate (the giant red lantern), then browse Nakamise Shopping Street's 90 stalls selling traditional snacks and souvenirs. At Senso-ji, throw a coin in the offering box, bow twice, clap twice, bow once. Fortune-telling papers (omikuji) cost ¥100—if you get bad luck, tie it to the racks and leave it behind. The temple complex is massive; explore side streets for old Tokyo atmosphere.",
+    "image": "/images/tokyo/sensoji-afternoon.jpg"
+  },
+  {
+    "time": "6:00 PM",
+    "title": "Shibuya Sky Sunset",
+    "description": "Return to Shibuya for sunset from Shibuya Sky observation deck (47th floor). Watch the city transform as 13 million lights flicker on. Mt. Fuji appears on clear days. The rooftop is open-air—bring a jacket. Book tickets online for ¥2,000. After sunset, explore Shibuya's chaos: department stores, izakayas, and endless neon. Don Quijote (discount store) is 5 floors of organized insanity worth visiting.",
+    "image": "/images/tokyo/shibuya-sky-sunset.jpg",
+    "ticket_link": "https://www.getyourguide.com/tokyo-l193/shibuya-sky-observation-deck-tickets-t394823/"
+  },
+  {
+    "time": "8:00 PM",
+    "title": "Izakaya Dinner & Shinjuku Nightlife",
+    "description": "Head to Shinjuku for izakaya hopping in Omoide Yokocho (Memory Lane)—narrow alleys packed with tiny bars seating 6-10 people. Order yakitori (grilled chicken skewers), edamame, karaage (fried chicken), and beer or sake. Then explore Golden Gai—200+ micro-bars in a two-block radius, each with unique themes. Some charge cover fees, some are regulars-only. Robot Restaurant is touristy but wonderfully bizarre. End at Kabukicho for neon overload and late-night ramen.",
+    "image": "/images/tokyo/shinjuku-night.jpg"
+  }
+],
   "affiliate_products": [
     {
       "id": "aff-001",
