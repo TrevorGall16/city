@@ -2,10 +2,8 @@
  * City Sheet Page (SSG)
  * COMPLETE SEO-OPTIMIZED VERSION
  * ✅ Dynamic Font Loading Integrated
- * ✅ Future-Proof Country Themes (20+ Countries)
- * ✅ All sections (Itinerary, Culture, Logistics) Restored
- * ✅ TypeScript "Red Lines" Fixed
- * ✅ Individual City Title Color Overrides Integrated
+ * ✅ TypeScript "sectionId" Error Fixed
+ * ✅ Custom City Title Colors Integrated
  */
 
 import { notFound } from 'next/navigation'
@@ -123,45 +121,38 @@ export default async function CityPage({ params }: PageProps) {
   const cityFontClass = getCityFont(citySlug)
   const BOOKING_AID = '123456' 
 
-// ✅ INDIVIDUAL CITY COLOR OVERRIDES
-const CITY_COLOR_OVERRIDES: Record<string, string> = {
-  'bangkok': 'text-yellow-400',
-  'hong-kong': 'text-red-600',
-  'tokyo': 'text-sky-400',
-  'berlin': 'text-yellow-400',
-  'london': 'text-red-600',
-  'paris': 'text-white',
-  'rome': 'text-green-500',
-  'istanbul': 'text-orange-300',      // Note: Ensure your slug is 'turkey' or 'istanbul'
-  'los-angeles': 'text-orange-500',
-  'new-york': 'text-blue-500',
-  'rio': 'text-lime-400',
-}
+  // ✅ CUSTOM CITY COLOR OVERRIDES (Your Requested Palette)
+  const CITY_COLOR_OVERRIDES: Record<string, string> = {
+    'bangkok': 'text-yellow-400',
+    'hong-kong': 'text-red-600',
+    'tokyo': 'text-sky-400',
+    'berlin': 'text-yellow-400',
+    'london': 'text-red-600',
+    'paris': 'text-white',
+    'rome': 'text-green-500',
+    'turkey': 'text-red-600',
+    'los-angeles': 'text-orange-500',
+    'new-york': 'text-blue-500',
+    'rio': 'text-lime-400',
+  }
 
-  // ✅ UPDATED THEMES: Added 'heroTitle' property for country-wide defaults
   const COUNTRY_THEMES: Record<string, any> = {
-    fr: { weather: 'bg-blue-50 dark:bg-[#0f172a] border-t-4 border-t-blue-100', heroTitle: 'text-white', neighborhoods: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100', accentText: 'text-blue-900' },
-    gb: { weather: 'bg-blue-50 dark:bg-[#0f172a] border-t-4 border-t-blue-100', heroTitle: 'text-white', neighborhoods: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100', accentText: 'text-blue-900' },
-    de: { weather: 'bg-yellow-50 dark:bg-yellow-950/40 border-t-4 border-t-yellow-100', heroTitle: 'text-white', neighborhoods: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100', accentText: 'text-yellow-700' },
-    jp: { weather: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100', heroTitle: 'text-white', neighborhoods: 'bg-white dark:bg-slate-950 border-t-4 border-t-slate-200', accentText: 'text-red-700' },
-    th: { weather: 'bg-amber-50 dark:bg-amber-950/40 border-t-4 border-t-amber-100', heroTitle: 'text-white', neighborhoods: 'bg-purple-50 dark:bg-purple-950/40 border-t-4 border-t-purple-100', accentText: 'text-amber-700' },
-    us: { weather: 'bg-cyan-50 dark:bg-cyan-950/40 border-t-4 border-t-cyan-100', heroTitle: 'text-white', neighborhoods: 'bg-pink-50 dark:bg-pink-950/40 border-t-4 border-t-pink-100', accentText: 'text-cyan-700' },
-    br: { weather: 'bg-green-50 dark:bg-green-900/10 border-t-4 border-t-green-100', heroTitle: 'text-yellow-400', neighborhoods: 'bg-yellow-50 dark:bg-yellow-900/10 border-t-4 border-t-yellow-100', accentText: 'text-green-700' },
-    hk: { weather: 'bg-red-50 dark:bg-red-900/10 border-t-4 border-t-red-100', heroTitle: 'text-white', neighborhoods: 'bg-slate-50 dark:bg-slate-900 border-t-4 border-t-slate-200', accentText: 'text-red-600' },
-    cn: { weather: 'bg-red-50 dark:bg-red-950/40 border-t-4 border-t-red-200', heroTitle: 'text-yellow-500', neighborhoods: 'bg-yellow-50 dark:bg-yellow-950/20 border-t-4 border-t-yellow-200', accentText: 'text-red-700' },
-    es: { weather: 'bg-yellow-50 dark:bg-yellow-950/40 border-t-4 border-t-yellow-200', heroTitle: 'text-white', neighborhoods: 'bg-red-50 dark:bg-red-950/20 border-t-4 border-t-red-200', accentText: 'text-red-600' },
-    it: { weather: 'bg-green-50 dark:bg-green-950/20 border-t-4 border-t-green-200', heroTitle: 'text-white', neighborhoods: 'bg-white dark:bg-slate-950 border-t-4 border-t-red-100', accentText: 'text-green-700' },
+    fr: { weather: 'bg-blue-50 dark:bg-[#0f172a] border-t-4 border-t-blue-100', neighborhoods: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100', accentText: 'text-blue-900 dark:text-blue-400' },
+    gb: { weather: 'bg-blue-50 dark:bg-[#0f172a] border-t-4 border-t-blue-100', neighborhoods: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100', accentText: 'text-blue-900 dark:text-blue-400' },
+    de: { weather: 'bg-yellow-50 dark:bg-yellow-950/40 border-t-4 border-t-yellow-100', neighborhoods: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100', accentText: 'text-yellow-700 dark:text-yellow-400' },
+    jp: { weather: 'bg-red-50 dark:bg-[#1a0f0f] border-t-4 border-t-red-100', neighborhoods: 'bg-white dark:bg-slate-950 border-t-4 border-t-slate-200', accentText: 'text-red-700 dark:text-red-400' },
+    th: { weather: 'bg-amber-50 dark:bg-amber-950/40 border-t-4 border-t-amber-100', neighborhoods: 'bg-purple-50 dark:bg-purple-950/40 border-t-4 border-t-purple-100', accentText: 'text-amber-700 dark:text-amber-400' },
+    us: { weather: 'bg-cyan-50 dark:bg-cyan-950/40 border-t-4 border-t-cyan-100', neighborhoods: 'bg-pink-50 dark:bg-pink-950/40 border-t-4 border-t-pink-100', accentText: 'text-cyan-700 dark:text-cyan-400' },
+    br: { weather: 'bg-green-50 dark:bg-green-900/10 border-t-4 border-t-green-100', neighborhoods: 'bg-yellow-50 dark:bg-yellow-900/10 border-t-4 border-t-yellow-100', accentText: 'text-green-700 dark:text-green-400' },
   }
 
   const theme = COUNTRY_THEMES[city.country_code] || {
     weather: 'bg-slate-50 dark:bg-slate-950',
-    heroTitle: 'text-white',
     neighborhoods: 'bg-white dark:bg-slate-950',
     accentText: 'text-indigo-900 dark:text-white',
   }
 
-  // FINAL RESOLUTION: Specific City Override > Country Default > Standard White
-  const finalTitleColor = CITY_COLOR_OVERRIDES[citySlug] || theme.heroTitle || 'text-white'
+  const finalHeroColor = CITY_COLOR_OVERRIDES[citySlug] || 'text-white'
 
   const getFlagGradient = (countryCode: string): string => {
     const gradients: Record<string, string> = {
@@ -245,12 +236,7 @@ const CITY_COLOR_OVERRIDES: Record<string, string> = {
           <Image src={city.hero_image} alt={city.name} fill priority sizes="100vw" quality={85} className="object-cover transition-transform duration-[20s] group-hover:scale-110" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/60" />
           <div className="absolute inset-0 flex items-center justify-center p-4">
-            <HeroGlass 
-              title={city.name} 
-              subtitle={city.intro_vibe} 
-              fontClass="font-city" 
-              titleColor={finalTitleColor}
-            />
+            <HeroGlass title={city.name} subtitle={city.intro_vibe} fontClass="font-city" titleColor={finalHeroColor} />
           </div>
         </section>
 
@@ -375,10 +361,16 @@ const CITY_COLOR_OVERRIDES: Record<string, string> = {
           <AffiliateSection products={city.affiliate_products} cityName={city.name} countryCode={city.country_code} accentText={theme.accentText} />
         )}
 
-        {/* Must See Section */}
+        {/* Must See Section - ✅ FIXED sectionId prop here */}
         <section id="must-see" className="relative scroll-mt-20">
           <div className="max-w-[1600px] mx-auto">
-            <CityPlacesSection places={city.must_see.flatMap((group) => group.items)} citySlug={citySlug} sectionTitle="Must See" accentText={theme.accentText} />
+            <CityPlacesSection 
+              places={city.must_see.flatMap((group) => group.items)} 
+              citySlug={citySlug} 
+              sectionTitle="Must See" 
+              sectionId="must-see"
+              accentText={theme.accentText} 
+            />
           </div>
         </section>
 
