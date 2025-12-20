@@ -1,1199 +1,620 @@
 {
-
   "id": "city-005",
-
   "name": "Bangkok",
-
   "slug": "bangkok",
-
   "country": "Thailand",
-
   "country_code": "th",
-
   "hero_image": "/images/bangkok/hero.jpg",
-
   "intro_vibe": "The Polycentric Organism: Where golden temples meet neon-lit chaos, disconnected villages, and street food reigns supreme.",
-
   "general_info": {
-
     "population": "~11 million (city) / ~16 million (metro area)",
-
     "is_capital": true,
-
-    "description": "Bangkok is the capital and most populous city of Thailand. Unlike planned cities, it operates as a sprawling, polycentric organismâ€”a collection of disconnected nuclei (historic, commercial, residential) linked by a fragmented transit system. To navigate it effectively in 2025, you must understand its logistical layers: the canal boats that cut through traffic, the 'coupon' economy of food courts, and the invisible social web of 'Kreng Jai' that governs every interaction."
-
+    "description": "Bangkok is the capital and most populous city of Thailand. Unlike planned cities, it operates as a sprawling, polycentric organism—a collection of disconnected nuclei (historic, commercial, residential) linked by a fragmented transit system. To navigate it effectively in 2025, you must understand its logistical layers: the canal boats that cut through traffic, the 'coupon' economy of food courts, and the invisible social web of 'Kreng Jai' that governs every interaction."
   },
-
   "stats": {
-
     "currency": "THB (Baht)",
-
     "plug_type": "Type A/B/C"
-
   },
-
   "weather_breakdown": [
-
-    { "id": 1, "name": "January", "temp": "21Â°C - 32Â°C", "vibe": "Cool & Dry", "pros": ["Best weather", "Clear skies", "Low humidity"], "cons": ["High season prices", "Crowded"], "clothing": "Light clothes, sunscreen" },
-
-    { "id": 2, "name": "February", "temp": "23Â°C - 33Â°C", "vibe": "Hot & Dry", "pros": ["Still great weather", "Chinese New Year", "Festivals"], "cons": ["Getting hotter", "Crowds"], "clothing": "Very light clothes, hat" },
-
-    { "id": 3, "name": "March", "temp": "25Â°C - 34Â°C", "vibe": "Very Hot", "pros": ["Songkran prep", "Fewer tourists"], "cons": ["Intense heat", "Pollution (PM 2.5 peak)"], "clothing": "Minimal clothes, lots of water" },
-
-    { "id": 4, "name": "April", "temp": "26Â°C - 35Â°C", "vibe": "Scorching", "pros": ["Songkran Water Festival", "Festive atmosphere"], "cons": ["Hottest month", "Exhausting heat"], "clothing": "Swimwear ready, waterproof bag" },
-
-    { "id": 5, "name": "May", "temp": "26Â°C - 34Â°C", "vibe": "Rainy Season Starts", "pros": ["Cooler after rain", "Fewer crowds", "Green"], "cons": ["Daily thunderstorms", "Flooding possible"], "clothing": "Rain jacket, quick-dry clothes" },
-
-    { "id": 6, "name": "June", "temp": "26Â°C - 33Â°C", "vibe": "Monsoon", "pros": ["Lower prices", "Lush greenery", "Cooler than summer"], "cons": ["Frequent rain", "Humidity"], "clothing": "Rain gear, breathable fabrics" },
-
-    { "id": 7, "name": "July", "temp": "26Â°C - 33Â°C", "vibe": "Peak Monsoon", "pros": ["Low season deals", "Fewer tourists"], "cons": ["Heavy rain", "Flooding risk"], "clothing": "Waterproof everything" },
-
-    { "id": 8, "name": "August", "temp": "26Â°C - 33Â°C", "vibe": "Still Rainy", "pros": ["Great food deals", "Cultural festivals"], "cons": ["Persistent rain", "Muggy"], "clothing": "Light layers, umbrella" },
-
-    { "id": 9, "name": "September", "temp": "25Â°C - 33Â°C", "vibe": "Rainy but Quieter", "pros": ["Rain decreases", "Vegetarian Festival", "Bargains"], "cons": ["Still humid", "Occasional storms"], "clothing": "Mix of sun and rain gear" },
-
-    { "id": 10, "name": "October", "temp": "25Â°C - 32Â°C", "vibe": "Transition", "pros": ["Rain ending", "Pleasant evenings", "Good prices"], "cons": ["Unpredictable weather", "Flooding possible"], "clothing": "Light jacket, umbrella" },
-
-    { "id": 11, "name": "November", "temp": "24Â°C - 32Â°C", "vibe": "Perfect Weather Returns", "pros": ["Ideal conditions", "Loy Krathong Festival", "Dry season"], "cons": ["Prices rise", "Crowds return"], "clothing": "Summer clothes, light layers" },
-
-    { "id": 12, "name": "December", "temp": "22Â°C - 31Â°C", "vibe": "Peak Season", "pros": ["Best weather", "New Year celebrations", "Festive vibes"], "cons": ["Very expensive", "Extremely crowded"], "clothing": "Light clothes, comfortable shoes" }
-
+    { "id": 1, "name": "January", "temp": "21°C - 32°C", "vibe": "Cool & Dry", "pros": ["Best weather", "Clear skies", "Low humidity"], "cons": ["High season prices", "Crowded"], "clothing": "Light clothes, sunscreen" },
+    { "id": 2, "name": "February", "temp": "23°C - 33°C", "vibe": "Hot & Dry", "pros": ["Still great weather", "Chinese New Year", "Festivals"], "cons": ["Getting hotter", "Crowds"], "clothing": "Very light clothes, hat" },
+    { "id": 3, "name": "March", "temp": "25°C - 34°C", "vibe": "Very Hot", "pros": ["Songkran prep", "Fewer tourists"], "cons": ["Intense heat", "Pollution (PM 2.5 peak)"], "clothing": "Minimal clothes, lots of water" },
+    { "id": 4, "name": "April", "temp": "26°C - 35°C", "vibe": "Scorching", "pros": ["Songkran Water Festival", "Festive atmosphere"], "cons": ["Hottest month", "Exhausting heat"], "clothing": "Swimwear ready, waterproof bag" },
+    { "id": 5, "name": "May", "temp": "26°C - 34°C", "vibe": "Rainy Season Starts", "pros": ["Cooler after rain", "Fewer crowds", "Green"], "cons": ["Daily thunderstorms", "Flooding possible"], "clothing": "Rain jacket, quick-dry clothes" },
+    { "id": 6, "name": "June", "temp": "26°C - 33°C", "vibe": "Monsoon", "pros": ["Lower prices", "Lush greenery", "Cooler than summer"], "cons": ["Frequent rain", "Humidity"], "clothing": "Rain gear, breathable fabrics" },
+    { "id": 7, "name": "July", "temp": "26°C - 33°C", "vibe": "Peak Monsoon", "pros": ["Low season deals", "Fewer tourists"], "cons": ["Heavy rain", "Flooding risk"], "clothing": "Waterproof everything" },
+    { "id": 8, "name": "August", "temp": "26°C - 33°C", "vibe": "Still Rainy", "pros": ["Great food deals", "Cultural festivals"], "cons": ["Persistent rain", "Muggy"], "clothing": "Light layers, umbrella" },
+    { "id": 9, "name": "September", "temp": "25°C - 33°C", "vibe": "Rainy but Quieter", "pros": ["Rain decreases", "Vegetarian Festival", "Bargains"], "cons": ["Still humid", "Occasional storms"], "clothing": "Mix of sun and rain gear" },
+    { "id": 10, "name": "October", "temp": "25°C - 32°C", "vibe": "Transition", "pros": ["Rain ending", "Pleasant evenings", "Good prices"], "cons": ["Unpredictable weather", "Flooding possible"], "clothing": "Light jacket, umbrella" },
+    { "id": 11, "name": "November", "temp": "24°C - 32°C", "vibe": "Perfect Weather Returns", "pros": ["Ideal conditions", "Loy Krathong Festival", "Dry season"], "cons": ["Prices rise", "Crowds return"], "clothing": "Summer clothes, light layers" },
+    { "id": 12, "name": "December", "temp": "22°C - 31°C", "vibe": "Peak Season", "pros": ["Best weather", "New Year celebrations", "Festive vibes"], "cons": ["Very expensive", "Extremely crowded"], "clothing": "Light clothes, comfortable shoes" }
   ],
-
   "culture": {
-
     "etiquette_tips": [
-
       "The 'Kreng Jai' Concept: The core lubricant of Thai society. It means 'reluctance to impose'. It explains why locals smile when confused or say 'yes' when they mean 'no'. Do not force a confrontation; you will both lose face.",
-
       "The Wai Hierarchy: Do not Wai service staff first. The junior initiates, the senior acknowledges. If you Wai a waiter, you embarrass them. A polite nod is sufficient.",
-
       "Cooling Powder: A local survival hack. Mentholated talc (Snake Brand) applied after a shower provides a chemical cooling sensation. Essential for surviving April heat.",
-
       "Jai Yen (Cool Heart): Getting angry in public makes you 'lose face'. No matter how frustrated you are (traffic, scams), maintain a calm smile. It is a tactical necessity.",
-
       "Respect the Monarchy: Never disrespect the King or Royal Family. It is illegal and deeply offensive (Lese Majeste).",
-
       "Don't Touch Heads: The head is sacred. Never touch anyone's head, including children.",
-
       "Remove Shoes: Take off shoes before entering temples, homes, and some shops.",
-
       "Dress Modestly: Cover shoulders and knees at temples. No tank tops.",
-
       "Cannabis Reality (2025): Public consumption is illegal and fined. Smoking is restricted to private residences or dispensary designated areas. The 'Wild West' era is over.",
-
       "Spice is Serious: 'Medium' spice is very hot. Order 'Mai Phet' (no spice) or 'Phet Nit Noi' (little spice) to be safe.",
-
       "Street Food and Water: Do not drink tap water. Stick to bottled water.",
-
       "Cash is King: Street vendors and taxis rarely take cards. Keep small bills (20s, 50s, 100s) handy.",
-
       "Cool Down: 7-Eleven and malls are essential cooling centers during the midday heat."
-
     ],
-
     "essential_phrases": [
-
-      { "src": "Hello", "local": "à¸ªà¸§à¸±à¸ªà¸”à¸µ (Sawasdee)", "phonetic": "sah-wah-DEE (add 'krap' if male, 'ka' if female)" },
-
-      { "src": "Thank you", "local": "à¸‚à¸­à¸šà¸„à¸¸à¸“ (Khob khun)", "phonetic": "kop-KOON (+ krap/ka)" },
-
-      { "src": "Excuse me", "local": "à¸‚à¸­à¹‚à¸—à¸© (Khor thot)", "phonetic": "kor-TOHT" },
-
-      { "src": "How much?", "local": "à¹€à¸—à¹ˆà¸²à¹„à¸«à¸£à¹ˆ (Tao rai)", "phonetic": "tao-RAI" },
-
-      { "src": "Not spicy", "local": "à¹„à¸¡à¹ˆà¹€à¸œà¹‡à¸” (Mai phet)", "phonetic": "my-PET" },
-
-      { "src": "No plastic bag", "local": "à¹„à¸¡à¹ˆà¹€à¸­à¸²à¸–à¸¸à¸‡ (Mai ao thung)", "phonetic": "my-ow-TOONG" },
-
-      { "src": "Turn on the meter", "local": "à¸à¸”à¸¡à¸´à¹€à¸•à¸­à¸£à¹Œà¸”à¹‰à¸§à¸¢ (Kod meter duay)", "phonetic": "god-MEE-ter duay" }
-
+      { "src": "Hello", "local": "สวัสดี (Sawasdee)", "phonetic": "sah-wah-DEE (add 'krap' if male, 'ka' if female)" },
+      { "src": "Thank you", "local": "ขอบคุณ (Khob khun)", "phonetic": "kop-KOON (+ krap/ka)" },
+      { "src": "Excuse me", "local": "ขอโทษ (Khor thot)", "phonetic": "kor-TOHT" },
+      { "src": "How much?", "local": "เท่าไหร่ (Tao rai)", "phonetic": "tao-RAI" },
+      { "src": "Not spicy", "local": "ไม่เผ็ด (Mai phet)", "phonetic": "my-PET" },
+      { "src": "No plastic bag", "local": "ไม่เอาถุง (Mai ao thung)", "phonetic": "my-ow-TOONG" },
+      { "src": "Turn on the meter", "local": "กดมิเตอร์ด้วย (Kod meter duay)", "phonetic": "god-MEE-ter duay" }
     ]
-
   },
-
   "neighborhoods": [
-
     {
-
       "name": "Khao San Road",
-
       "vibe": "Backpacker Central",
-
       "description": "The legendary backpacker street. Cheap hostels, street food, bucket cocktails, and travelers from every corner of the globe. Chaos and party vibes.",
-
       "highlights": ["Night market", "Street food", "Bars & clubs"],
-
       "image": "/images/bangkok/khao-san.jpg"
-
     },
-
     {
-
       "name": "Sukhumvit",
-
       "vibe": "The Expat Spine",
-
       "description": "A linear downtown defined by its 'Sois' (side streets). Lower Sukhumvit (Soi 1-21) is chaotic tourist nightlife. Mid-Sukhumvit (Thong Lo/Ekkamai) is high-end dining and wealthy nightlife. Great connectivity, zero traditional culture.",
-
       "highlights": ["Terminal 21 Mall", "Nana & Asok nightlife", "Rooftop bars"],
-
       "image": "/images/bangkok/sukhumvit.jpg"
-
     },
-
     {
-
       "name": "Rattanakosin (Old City)",
-
       "vibe": "The Historic Vacuum",
-
-      "description": "The cultural heart containing the Grand Palace and Wat Pho. It operates in a 'transit vacuum'â€”no BTS Skytrain. Traffic is brutal. Stay here for history, but know that getting out is hard.",
-
+      "description": "The cultural heart containing the Grand Palace and Wat Pho. It operates in a 'transit vacuum'—no BTS Skytrain. Traffic is brutal. Stay here for history, but know that getting out is hard.",
       "highlights": ["Grand Palace", "Wat Pho (Reclining Buddha)", "Sanam Luang park"],
-
       "image": "/images/bangkok/old-city.jpg"
-
     },
-
     {
-
       "name": "Chinatown (Yaowarat)",
-
       "vibe": "Street Food Paradise",
-
       "description": "Neon-lit chaos of gold shops, street food stalls, and traditional Chinese medicine stores. The best street food in Bangkok.",
-
       "highlights": ["Yaowarat Road food stalls", "Sampeng Market", "Golden Buddha Temple"],
-
       "image": "/images/bangkok/chinatown-hood.jpg"
-
     },
-
     {
-
       "name": "Ari",
-
       "vibe": "The Compromise Zone",
-
       "description": "The perfect balance. A leafy, gentrified neighborhood north of Victory Monument. It has a distinct Thai neighborhood feel with cafe culture, yet stays plugged into the BTS line. A respite from the chaos.",
-
       "highlights": ["Cafe hopping", "Street food Sois", "Gump's Ari"],
-
       "image": "/images/bangkok/ari.jpg"
-
     },
-
     {
-
       "name": "Huai Khwang",
-
       "vibe": "The New Chinatown",
-
       "description": "Distinct from the historic Yaowarat. This is the modern hub for the new wave of Chinese expats. Authentic Sichuan hotpot, neon signs in Mandarin, and late-night spicy dining. Not touristy, but culturally specific.",
-
       "highlights": ["Sichuan Hotpot", "Night Market", "Ganesh Shrine"],
-
       "image": "/images/bangkok/huai-khwang.jpg"
-
     },
-
     {
-
       "name": "Charoen Krung / Talad Noi",
-
       "vibe": "The Creative District",
-
       "description": "Bangkok's oldest paved road, now a hub for art galleries, design centers (TCDC), and hidden cafes in crumbling shophouses. A living museum of grit and gentrification.",
-
       "highlights": ["Warehouse 30", "Mother Roaster", "River City"],
-
       "image": "/images/bangkok/talad-noi.jpg"
-
     },
-
     {
-
       "name": "Thonburi",
-
       "vibe": "The Quiet Side",
-
       "description": "The West Bank of the river. This is Bangkok before the skyscrapers. Canals (Khlongs) are still used for transport. Home to Wang Lang market and the Portuguese-Thai community of Kudeejeen.",
-
       "highlights": ["Wang Lang Market", "Kudeejeen", "Canal Tours"],
-
       "image": "/images/bangkok/thonburi.jpg"
-
     }
-
   ],
-
   "logistics": [
-
     {
-
       "id": "logistics-transit",
-
       "slug": "getting-around",
-
       "title": "Getting Around",
-
       "icon": "Train",
-
       "summary": "The rail system is fragmented. Master the payment divide.",
-
       "details": [
-
-        "BTS Skytrain: Elevated train covering central areas. It is a CLOSED LOOPâ€”you cannot use credit cards at the gate. You need a 'Rabbit Card' or cash for tickets.",
-
-        "MRT Metro: Underground lines. It is an OPEN LOOPâ€”you can tap Visa/Mastercard directly at the gate.",
-
+        "BTS Skytrain: Elevated train covering central areas. It is a CLOSED LOOP—you cannot use credit cards at the gate. You need a 'Rabbit Card' or cash for tickets.",
+        "MRT Metro: Underground lines. It is an OPEN LOOP—you can tap Visa/Mastercard directly at the gate.",
         "River Boats: The Orange Flag boat is the workhorse (cheap, frequent). Avoid the overpriced 'Blue Flag' tourist boat.",
-
         "Ride Apps: Download BOTH 'Grab' (Reliable, card payment, expensive) and 'Bolt' (Cheaper, cash often preferred, longer waits).",
-
         "Canal Boats: The Saen Saep canal boat cuts through traffic horizontally. It is fast, dirty, and requires agility to board. Use with caution."
-
       ]
-
     },
-
     {
-
       "id": "logistics-money",
-
       "slug": "financial-landscape",
-
       "title": "Money & Payments",
-
       "icon": "CreditCard",
-
       "summary": "Digital for locals, cash for tourists.",
-
       "details": [
-
         "PromptPay Barrier: Locals pay everything via QR code (PromptPay), which requires a Thai bank account. Tourists are often excluded and must rely on cash.",
-
         "Cash is King: Street food, tuk-tuks, and non-app taxis are cash-only. Break 1,000 Baht notes at 7-Eleven; small vendors cannot change them.",
-
         "Food Court Cards: Malls use a 'Coupon Card' system. You exchange cash for a card at a central counter, buy food, and refund the balance when leaving."
-
       ]
-
     },
-
     {
-
       "id": "logistics-nightlife",
-
       "slug": "nightlife-reality",
-
       "title": "Red-Light Districts",
-
       "icon": "EyeOff",
-
       "summary": "Adult entertainment zones exist. They are localized and optional.",
-
       "details": [
-
         "Key Areas: Patpong (Silom), Nana Plaza (Sukhumvit), Soi Cowboy (Asok).",
-
         "The Reality: While technically illegal, these zones are regulated and tolerated. They are not representative of daily Thai life.",
-
         "Advice: Participation is optional. Aggressive touting and scams ('Ping Pong Shows') are common. Avoid venues with pushy staff outside.",
-
         "Photography: Strictly forbidden in these areas."
-
       ]
-
     },
-
     {
-
       "id": "logistics-scams",
-
       "slug": "common-scams",
-
       "title": "Scams to Avoid",
-
       "icon": "AlertTriangle",
-
       "summary": "Sophisticated traps targeting polite tourists.",
-
       "details": [
-
         "Grand Palace Closed: A stranger tells you the palace is closed for a 'ceremony'. It isn't. They want to put you in a tuk-tuk to a gem shop.",
-
         "The Gem Scam: Buying 'export grade' gems to resell at home for profit. The gems are worthless. There is no 'government sale'.",
-
         "Taxi Meter Scam: Taxi refuses to use the meter. Insist on the meter or get out. Never engage a stationary taxi in a tourist zone.",
-
         "Ping Pong Touts: In Patpong/Soi Cowboy, never follow a tout upstairs to a show. You will be locked in and charged thousands of Baht per drink."
-
       ]
-
     },
-
     {
-
       "id": "logistics-safety",
-
       "slug": "safety-tips",
-
       "title": "Safety Basics",
-
       "icon": "Shield",
-
       "summary": "Bangkok is generally safe, but use common sense.",
-
       "details": [
-
         "Pickpockets: Active in crowded areas like Chatuchak Market and Khao San Road.",
-
         "Traffic: Vehicles do not stop for pedestrians. Cross with extreme caution.",
-
         "Mosquitoes: Dengue fever is a risk. Use repellent, especially at dusk.",
-
         "Emergency Number: 191 for police, 1669 for ambulance."
-
       ]
-
     },
-
     {
-
       "id": "logistics-survival",
-
       "slug": "survival-tips",
-
       "title": "Environment Survival",
-
       "icon": "Sun",
-
       "summary": "Heat and pollution are biological hazards.",
-
       "details": [
-
         "PM 2.5: Dec-Mar is pollution season. If the AQI is Red, wear an N95 mask. Cloth masks do nothing.",
-
         "Mall Walking: Use the elevated 'Skywalks' connecting malls (Siam to Chit Lom) to walk kilometers in the shade/AC.",
-
         "Flood Risk: In monsoon (May-Oct), Ratchada and Sukhumvit roads flash-flood. Stay near a BTS/MRT station to avoid being stranded."
-
       ]
-
     },
-
     {
-
       "id": "logistics-apps",
-
       "slug": "essential-apps",
-
       "title": "Apps to Download",
-
       "icon": "Smartphone",
-
       "summary": "These apps will make Bangkok navigation seamless.",
-
       "details": [
-
         "Grab & Bolt: Essential for taxis and bikes.",
-
         "Google Maps: Works well for transit and walking.",
-
         "Wongnai: The 'Thai Yelp' for food reviews.",
-
         "Klook: Good for discount tickets to attractions."
-
       ]
-
     }
-
   ],
-
   "must_eat": [
-
     {
-
       "id": "food-001",
-
       "slug": "pad-thai",
-
       "name_en": "Pad Thai",
-
-      "name_local": "à¸œà¸±à¸”à¹„à¸—à¸¢",
-
+      "name_local": "ผัดไทย",
       "category": "food",
-
       "is_generic_staple": true,
-
       "description": "Thailand's most famous dish: stir-fried rice noodles with shrimp or chicken, eggs, peanuts, bean sprouts, and tamarind sauce. Street cart versions are often better than restaurant ones.",
-
       "image": "/images/bangkok/pad-thai.jpg"
-
     },
-
     {
-
       "id": "food-10",
-
       "slug": "pad-kra-pao",
-
       "name_en": "Pad Kra Pao",
-
-      "name_local": "à¸œà¸±à¸”à¸à¸°à¹€à¸žà¸£à¸²",
-
+      "name_local": "ผัดกะเพรา",
       "category": "food",
-
       "is_generic_staple": true,
-
       "description": "The real national dish. Minced pork or chicken stir-fried with holy basil, garlic, and chili, served over rice with a crispy fried egg (Kai Dao). Spicy and savory.",
-
       "image": "/images/bangkok/pad-kra-pao.jpg"
-
     },
-
     {
-
       "id": "food-020",
-
       "slug": "aharn-tam-sang",
-
       "name_en": "Aharn Tam Sang (Made to Order)",
-
-      "name_local": "à¸­à¸²à¸«à¸²à¸£à¸•à¸²à¸¡à¸ªà¸±à¹ˆà¸‡",
-
+      "name_local": "อาหารตามสั่ง",
       "category": "food",
-
       "is_generic_staple": true,
-
       "description": "The backbone of local dining. Small stalls with a wok and fresh ingredients. You construct the dish: [Protein] + [Style] + [Rice/Egg]. Example: 'Grapow Gai Khai Dao' (Basil Chicken + Fried Egg).",
-
       "image": "/images/bangkok/tam-sang.jpg"
-
     },
-
     {
-
       "id": "food-021",
-
       "slug": "mk-restaurants",
-
       "name_en": "MK Restaurants (Suki)",
-
-      "name_local": "à¹€à¸­à¹‡à¸¡à¹€à¸„ à¸ªà¸¸à¸à¸µà¹‰",
-
+      "name_local": "เอ็มเค สุกี้",
       "category": "food",
-
       "is_generic_staple": true,
-
       "description": "A cultural institution for the Thai middle class. Communal hotpot (Suki) in air-conditioned comfort. Clean, vegetable-heavy, and a necessary reset from oily street food.",
-
       "image": "/images/bangkok/mk-suki.jpg"
-
     },
-
     {
-
       "id": "food-002",
-
       "slug": "tom-yum-goong",
-
       "name_en": "Tom Yum Goong",
-
-      "name_local": "à¸•à¹‰à¸¡à¸¢à¸³à¸à¸¸à¹‰à¸‡",
-
+      "name_local": "ต้มยำกุ้ง",
       "category": "food",
-
       "is_generic_staple": true,
-
       "description": "Iconic hot and sour soup with shrimp, lemongrass, galangal, kaffir lime leaves, and chili. Intensely aromatic and flavorful.",
-
       "image": "/images/bangkok/tom-yum.jpg"
-
     },
-
     {
-
       "id": "food-11",
-
       "slug": "boat-noodles",
-
       "name_en": "Boat Noodles",
-
-      "name_local": "à¸à¹‹à¸§à¸¢à¹€à¸•à¸µà¹‹à¸¢à¸§à¹€à¸£à¸·à¸­",
-
+      "name_local": "ก๋วยเตี๋ยวเรือ",
       "category": "food",
-
       "is_generic_staple": true,
-
       "description": "Rich, dark noodle soup thickened with pig blood (nam tok). Traditionally served in tiny bowls, so locals order stacks of them at once.",
-
       "image": "/images/bangkok/boat-noodles.jpg"
-
     },
-
     {
-
       "id": "food-12",
-
       "slug": "khao-man-gai",
-
       "name_en": "Hainanese Chicken Rice",
-
-      "name_local": "à¸‚à¹‰à¸²à¸§à¸¡à¸±à¸™à¹„à¸à¹ˆ",
-
+      "name_local": "ข้าวมันไก่",
       "category": "food",
-
       "is_generic_staple": true,
-
       "description": "Poached chicken served on oily ginger-garlic rice with a spicy dipping sauce and cucumber. A simple, comforting lunch staple everywhere.",
-
       "image": "/images/bangkok/chicken-rice.jpg"
-
     },
-
     {
-
       "id": "food-022",
-
       "slug": "temporal-breakfast",
-
       "name_en": "Jok & Pa Thong Ko",
-
-      "name_local": "à¹‚à¸ˆà¹Šà¸ / à¸›à¸²à¸—à¹ˆà¸­à¸‡à¹‚à¸à¹‹",
-
+      "name_local": "โจ๊ก / ปาท่องโก๋",
       "category": "food",
-
       "is_generic_staple": true,
-
       "description": "Bangkok breakfast is temporal. 'Jok' (Rice Porridge) and 'Pa Thong Ko' (Chinese Doughnuts) are sold by carts that disappear by 9 AM. You won't find them at lunch.",
-
       "image": "/images/bangkok/jok.jpg"
-
     },
-
     {
-
       "id": "food-023",
-
       "slug": "khao-tom",
-
       "name_en": "Khao Tom (Late Night Rice)",
-
-      "name_local": "à¸‚à¹‰à¸²à¸§à¸•à¹‰à¸¡",
-
+      "name_local": "ข้าวต้ม",
       "category": "food",
-
       "is_generic_staple": true,
-
       "description": "The post-nightlife meal. Boiled rice soup served with side dishes like spicy salads, stir-fried morning glory, or salted egg. Institutions like Saengchai Pochana open until 4 AM.",
-
       "image": "/images/bangkok/khao-tom.jpg"
-
     },
-
     {
-
       "id": "food-003",
-
       "slug": "som-tam",
-
       "name_en": "Som Tam (Papaya Salad)",
-
-      "name_local": "à¸ªà¹‰à¸¡à¸•à¸³",
-
+      "name_local": "ส้มตำ",
       "category": "food",
-
       "is_generic_staple": true,
-
       "description": "Spicy, sour, sweet, and crunchy salad made from shredded green papaya, tomatoes, peanuts, and chili. Order 'mai phet' (not spicy) if you can't handle heat.",
-
       "image": "/images/bangkok/som-tam.jpg"
-
     },
-
     {
-
       "id": "food-004",
-
       "slug": "mango-sticky-rice",
-
       "name_en": "Mango Sticky Rice",
-
-      "name_local": "à¸‚à¹‰à¸²à¸§à¹€à¸«à¸™à¸µà¸¢à¸§à¸¡à¸°à¸¡à¹ˆà¸§à¸‡",
-
+      "name_local": "ข้าวเหนียวมะม่วง",
       "category": "food",
-
       "is_generic_staple": true,
-
       "description": "Sweet sticky rice cooked in coconut milk, served with ripe mango slices. The perfect end to a spicy meal. Seasonal (best Apr-Jun).",
-
       "image": "/images/bangkok/mango-sticky-rice.jpg"
-
     },
-
     {
-
       "id": "food-13",
-
       "slug": "moo-ping",
-
       "name_en": "Grilled Pork Skewers",
-
-      "name_local": "à¸«à¸¡à¸¹à¸›à¸´à¹‰à¸‡",
-
+      "name_local": "หมูปิ้ง",
       "category": "food",
-
       "is_generic_staple": true,
-
       "description": "Sweet and savory marinated pork grilled over charcoal. A favorite breakfast or late-night snack, usually eaten with a bag of sticky rice.",
-
       "image": "/images/bangkok/moo-ping.jpg"
-
     },
-
     {
-
       "id": "food-006",
-
       "slug": "massaman-curry",
-
       "name_en": "Massaman Curry",
-
-      "name_local": "à¹à¸à¸‡à¸¡à¸±à¸ªà¸¡à¸±à¹ˆà¸™",
-
+      "name_local": "แกงมัสมั่น",
       "category": "food",
-
       "is_generic_staple": true,
-
       "description": "Rich, mild curry with Persian influences. Made with beef or chicken, potatoes, peanuts, and coconut milk. Less spicy, more sweet.",
-
       "image": "/images/bangkok/massaman.jpg"
-
     },
-
     {
-
       "id": "food-14",
-
       "slug": "isaan-food",
-
       "name_en": "Isaan Food",
-
-      "name_local": "à¸­à¸²à¸«à¸²à¸£à¸­à¸µà¸ªà¸²à¸™",
-
+      "name_local": "อาหารอีสาน",
       "category": "food",
-
       "is_generic_staple": true,
-
       "description": "Cuisine from Northeast Thailand. Think grilled chicken (Gai Yang), spicy minced meat salad (Larb), and sticky rice. Bold, funky, and spicy.",
-
       "image": "/images/bangkok/isaan-food.jpg"
-
     },
-
     {
-
       "id": "food-15",
-
       "slug": "oyster-omelet",
-
       "name_en": "Crispy Oyster Omelet",
-
-      "name_local": "à¸«à¸­à¸¢à¸—à¸­à¸”",
-
+      "name_local": "หอยทอด",
       "category": "food",
-
       "is_generic_staple": true,
-
       "description": "Crispy egg batter fried with plump oysters or mussels, served with bean sprouts and chili sauce. A greasy, delicious Chinatown classic.",
-
       "image": "/images/bangkok/oyster-omelet.jpg"
-
     },
-
     {
-
       "id": "food-16",
-
       "slug": "thai-desserts",
-
       "name_en": "Thai Street Desserts",
-
-      "name_local": "à¸‚à¸™à¸¡à¹„à¸—à¸¢",
-
+      "name_local": "ขนมไทย",
       "category": "food",
-
       "is_generic_staple": true,
-
       "description": "Look for Kanom Krok (coconut pancakes) or Bualoy (rice balls in coconut milk). Usually sweet, warm, and very cheap.",
-
       "image": "/images/bangkok/thai-desserts.jpg"
-
     }
-
   ],
-
   "must_see": [
-
     {
-
       "title": "Essential Bangkok",
-
       "id": "essential",
-
       "items": [
-
         {
-
           "id": "temp-001",
-
           "slug": "grand-palace",
-
           "name_en": "Grand Palace",
-
-          "name_local": "à¸žà¸£à¸°à¸šà¸£à¸¡à¸¡à¸«à¸²à¸£à¸²à¸Šà¸§à¸±à¸‡",
-
+          "name_local": "พระบรมมหาราชวัง",
           "category": "sight",
-
           "is_generic_staple": false,
-
           "description": "The most iconic landmark. Former royal residence with stunning architecture and the Emerald Buddha. Go at 8:30 AM to beat buses.",
-
           "image": "/images/bangkok/grand-palace.jpg",
-
           "geo": { "lat": 13.7500, "lng": 100.4915 }
-
         },
-
         {
-
           "id": "temp-002",
-
           "slug": "wat-arun",
-
           "name_en": "Wat Arun",
-
-          "name_local": "à¸§à¸±à¸”à¸­à¸£à¸¸à¸“",
-
+          "name_local": "วัดอรุณ",
           "category": "sight",
-
           "is_generic_staple": false,
-
           "description": "Temple of Dawn. Stunning riverside temple with a towering colorful spire. Climb the steep steps for a view.",
-
           "image": "/images/bangkok/wat-arun.jpg",
-
           "geo": { "lat": 13.7437, "lng": 100.4887 }
-
         },
-
         {
-
           "id": "temp-003",
-
           "slug": "wat-pho",
-
           "name_en": "Wat Pho",
-
-          "name_local": "à¸§à¸±à¸”à¹‚à¸žà¸˜à¸´à¹Œ",
-
+          "name_local": "วัดโพธิ์",
           "category": "sight",
-
           "is_generic_staple": false,
-
           "description": "Home to the massive Reclining Buddha and the birthplace of Thai massage. Peaceful and beautiful.",
-
           "image": "/images/bangkok/wat-pho.jpg",
-
           "geo": { "lat": 13.7465, "lng": 100.4927 }
-
         },
-
         {
-
           "id": "act-001",
-
           "slug": "chao-phraya-boat",
-
           "name_en": "Chao Phraya Express Boat",
-
-          "name_local": "à¹€à¸£à¸·à¸­à¸”à¹ˆà¸§à¸™à¹€à¸ˆà¹‰à¸²à¸žà¸£à¸°à¸¢à¸²",
-
+          "name_local": "เรือด่วนเจ้าพระยา",
           "category": "sight",
-
           "is_generic_staple": false,
-
           "description": "The local way to travel. Take the Orange Flag boat for a cheap, scenic cruise past the temples. Authentic and breezy.",
-
           "image": "/images/bangkok/river-boat.jpg",
-
           "geo": { "lat": 13.7200, "lng": 100.5100 }
-
         }
-
       ]
-
     },
-
     {
-
       "title": "Local Life & Culture",
-
       "id": "local-life",
-
       "items": [
-
         {
-
           "id": "act-002",
-
           "slug": "yaowarat-night-food",
-
           "name_en": "Yaowarat Night Food Walk",
-
-          "name_local": "à¹€à¸¢à¸²à¸§à¸£à¸²à¸Š",
-
+          "name_local": "เยาวราช",
           "category": "sight",
-
           "is_generic_staple": false,
-
           "description": "After dark, Chinatown turns into the world's greatest street food buffet. Neon lights, crowds, and incredible seafood.",
-
           "image": "/images/bangkok/chinatown.jpg",
-
           "geo": { "lat": 13.7410, "lng": 100.5085 }
-
         },
-
         {
-
           "id": "act-003",
-
           "slug": "thai-massage-local",
-
           "name_en": "Traditional Thai Massage",
-
-          "name_local": "à¸™à¸§à¸”à¹à¸œà¸™à¹„à¸—à¸¢",
-
+          "name_local": "นวดแผนไทย",
           "category": "sight",
-
           "is_generic_staple": false,
-
           "description": "Affordable and intense. Visit a reputable shop or the massage school at Wat Pho. Part of daily health maintenance here.",
-
           "image": "/images/bangkok/massage.jpg",
-
           "geo": { "lat": 13.7465, "lng": 100.4927 }
-
         },
-
         {
-
           "id": "act-004",
-
           "slug": "lumpini-park",
-
           "name_en": "Lumpini Park",
-
-          "name_local": "à¸ªà¸§à¸™à¸¥à¸¸à¸¡à¸žà¸´à¸™à¸µ",
-
+          "name_local": "สวนลุมพินี",
           "category": "sight",
-
           "is_generic_staple": false,
-
           "description": "Bangkok's 'Central Park'. Go at 7 AM to see locals doing Tai Chi, or sunset for aerobics. Watch out for monitor lizards.",
-
           "image": "/images/bangkok/lumpini.jpg",
-
           "geo": { "lat": 13.7314, "lng": 100.5417 }
-
         },
-
         {
-
           "id": "act-005",
-
           "slug": "muay-thai",
-
           "name_en": "Muay Thai Boxing",
-
-          "name_local": "à¸¡à¸§à¸¢à¹„à¸—à¸¢",
-
+          "name_local": "มวยไทย",
           "category": "sight",
-
           "is_generic_staple": false,
-
           "description": "Thailand's national sport. Watch a real fight at Rajadamnern Stadium for the noise, gambling, and atmosphere.",
-
           "image": "/images/bangkok/muay-thai.jpg",
-
           "geo": { "lat": 13.7600, "lng": 100.5090 }
-
         },
-
         {
-
           "id": "act-006",
-
           "slug": "listening-bars",
-
           "name_en": "Audiophile Listening Bars",
-
           "name_local": "Vinyl Bars",
-
           "category": "sight",
-
           "is_generic_staple": false,
-
           "description": "A sophisticated alternative to loud clubs. Venues like 'Studio Lam' or 'Alonetogether' focus on high-fidelity sound, rare vinyl (Thai Molam/Jazz), and craft cocktails.",
-
           "image": "/images/bangkok/listening-bar.jpg",
-
           "geo": { "lat": 13.7314, "lng": 100.5817 }
-
         },
-
         {
-
           "id": "act-007",
-
           "slug": "talad-noi-walk",
-
           "name_en": "Talad Noi Heritage Walk",
-
-          "name_local": "à¸•à¸¥à¸²à¸”à¸™à¹‰à¸­à¸¢",
-
+          "name_local": "ตลาดน้อย",
           "category": "sight",
-
           "is_generic_staple": false,
-
           "description": "Walk through the alleyways of Bangkok's oldest Chinese community. See the 'Mother Roaster' cafe atop a scrap metal heap and the Fiat vintage car graveyard.",
-
           "image": "/images/bangkok/talad-noi-walk.jpg",
-
           "geo": { "lat": 13.7346, "lng": 100.5135 }
-
         },
-
         {
-
           "id": "nat-001",
-
           "slug": "bang-krachao",
-
           "name_en": "Bang Krachao (Green Lung)",
-
-          "name_local": "à¸šà¸²à¸‡à¸à¸£à¸°à¹€à¸ˆà¹‰à¸²",
-
+          "name_local": "บางกระเจ้า",
           "category": "sight",
-
           "is_generic_staple": false,
-
           "description": "A jungle island in the middle of the city loop. Rent a bike and ride the elevated concrete pathways through mangroves. A total escape from concrete.",
-
           "image": "/images/bangkok/bang-krachao.jpg",
-
           "geo": { "lat": 13.6953, "lng": 100.5600 }
-
         }
-
       ]
-
     },
-
     {
-
       "title": "Markets & Modern",
-
       "id": "markets",
-
       "items": [
-
         {
-
           "id": "mar-001",
-
           "slug": "chatuchak-market",
-
           "name_en": "Chatuchak Weekend Market",
-
-          "name_local": "à¸•à¸¥à¸²à¸”à¸™à¸±à¸”à¸ˆà¸•à¸¸à¸ˆà¸±à¸à¸£",
-
+          "name_local": "ตลาดนัดจตุจักร",
           "category": "sight",
-
           "is_generic_staple": false,
-
           "description": "15,000 stalls selling everything from vintage clothes to pets. Hot, crowded, and essential. Weekend only.",
-
           "image": "/images/bangkok/chatuchak.jpg",
-
           "geo": { "lat": 13.7990, "lng": 100.5499 }
-
         },
-
         {
-
           "id": "mar-004",
-
           "slug": "local-night-market",
-
           "name_en": "Jodd Fairs / Night Markets",
-
-          "name_local": "à¸•à¸¥à¸²à¸”à¸™à¸±à¸”à¸à¸¥à¸²à¸‡à¸„à¸·à¸™",
-
+          "name_local": "ตลาดนัดกลางคืน",
           "category": "sight",
-
           "is_generic_staple": false,
-
           "description": "Evening markets with food, bars, and live music. Less touristy than Chatuchak. Great for dinner and hanging out.",
-
           "image": "/images/bangkok/night-market.jpg",
-
           "geo": { "lat": 13.7570, "lng": 100.5650 }
-
         },
-
         {
-
           "id": "mar-005",
-
           "slug": "flower-market",
-
           "name_en": "Pak Khlong Talat",
-
-          "name_local": "à¸›à¸²à¸à¸„à¸¥à¸­à¸‡à¸•à¸¥à¸²à¸”",
-
+          "name_local": "ปากคลองตลาด",
           "category": "sight",
-
           "is_generic_staple": false,
-
           "description": "Massive 24-hour flower market. Best visited late at night or very early morning. A riot of colors and smells.",
-
           "image": "/images/bangkok/flower-market.jpg",
-
           "geo": { "lat": 13.7415, "lng": 100.4965 }
-
         },
-
         {
-
           "id": "mod-001",
-
           "slug": "rooftop-bars",
-
           "name_en": "Sky Bars",
-
-          "name_local": "à¸šà¸²à¸£à¹Œà¸šà¸™à¸”à¸²à¸”à¸Ÿà¹‰à¸²",
-
+          "name_local": "บาร์บนดาดฟ้า",
           "category": "sight",
-
           "is_generic_staple": false,
-
           "description": "Sunset drinks with a view. Octave, Tichuca, or Vertigo are popular choices. Dress code usually applies (no flip-flops).",
-
           "image": "/images/bangkok/rooftop.jpg",
-
           "geo": { "lat": 13.7226, "lng": 100.5142 }
-
         }
-
       ]
-
     }
-
   ],
-"itinerary": [
-  {
-    "time": "7:00 AM",
-    "title": "Sunrise Alms Ceremony & Street Food Breakfast",
-    "description": "Wake up early to witness monks collecting alms in Khao San or along Chao Phraya River. Locals offer food to saffron-robed monks in silent procession—a 2,600-year Buddhist tradition. Then hit a street food stall for jok (rice porridge), pa thong ko (Chinese fried dough), and Thai iced tea. Street food is safest in the morning when ingredients are fresh. This quiet pre-tourist Bangkok won't last past 9am.",
-    "image": "/images/bangkok/alms-ceremony.jpg"
-  },
-  {
-    "time": "9:00 AM",
-    "title": "Grand Palace & Wat Phra Kaew",
-    "description": "Arrive when doors open at 8:30am to beat tour groups. The Grand Palace is a dazzling complex of gold spires, intricate mosaics, and the sacred Emerald Buddha. Strict dress code: no shorts, no bare shoulders, no torn jeans. Rentals available but avoid the hassle. Entry is ฿500 but worth every baht. Guides swarm the entrance—hire official ones inside. The palace was the royal residence for 150 years; now it's used only for ceremonies.",
-    "image": "/images/bangkok/grand-palace2.jpg",
-    "ticket_link": "https://www.getyourguide.com/bangkok-l26/grand-palace-and-wat-phra-kaew-guided-tour-t61796/"
-  },
-  {
-    "time": "12:00 PM",
-    "title": "Boat Noodles at Victory Monument",
-    "description": "Take the BTS to Victory Monument for boat noodles (kuay teow rua)—originally sold from boats in canals. Order multiple small bowls (฿10-15 each) of pork or beef broth with noodles, meatballs, and herbs. Locals stack 5-8 bowls. The broth is dark, rich, and slightly sweet with pig's blood. It's intense but incredible. Nearby street stalls sell mango sticky rice for dessert. This is working-class Bangkok—zero English, maximum flavor.",
-    "image": "/images/bangkok/boat-noodles.jpg"
-  },
-  {
-    "time": "3:00 PM",
-    "title": "Temples: Wat Pho & Wat Arun",
-    "description": "Walk from the Grand Palace to Wat Pho to see the 46-meter Reclining Buddha covered in gold leaf. The temple complex is massive with 1,000+ Buddha images. Get a traditional Thai massage at the temple's massage school (฿300/hour)—it'll hurt but loosen every muscle. Then take the ferry across Chao Phraya River (฿5) to Wat Arun (Temple of Dawn). Climb the steep stairs for river views. The temple is covered in colorful Chinese porcelain.",
-    "image": "/images/bangkok/wat-pho-afternoon.jpg"
-  },
-  {
-    "time": "6:00 PM",
-    "title": "Sunset Rooftop Bar at Lebua",
-    "description": "Head to Lebua State Tower's Sky Bar (63rd floor) for sunset cocktails. The bar from 'The Hangover 2' offers 360° views of Bangkok's skyline and Chao Phraya River. Cocktails cost ฿500-800, dress code is smart casual (no flip-flops). Arrive by 5:30pm for sunset. Alternative: Octave Rooftop Bar at Marriott Sukhumvit is less touristy. As the city lights up, Bangkok transforms into a neon-lit sprawl stretching to the horizon.",
-    "image": "/images/bangkok/lebua-sunset.jpg"
-  },
-  {
-    "time": "8:00 PM",
-    "title": "Dinner at Yaowarat (Chinatown) Night Market",
-    "description": "Take a taxi to Yaowarat Road when the street vendors set up at 7pm. This is Bangkok's Chinatown—a sensory assault of sizzling woks, neon signs, and 10,000 people eating in the street. Order pad thai from Thip Samai (Bangkok's oldest pad thai spot), crab curry at Hua Seng Hong, or roast duck on rice from a street cart. Try durian fruit if you're brave. End with kanom krok (coconut pancakes). Yaowarat is chaotic, sweaty, and absolutely essential Bangkok.",
-    "image": "/images/bangkok/yaowarat-night.jpg"
-  }
-],
-  "affiliate_products": [
-
+  "itinerary": [
     {
-
-      "id": "aff-001",
-
-      "title": "Portable Neck Fan",
-
-      "image": "/images/bangkok/neck-fan.jpg",
-
-      "reason": "Bangkok heat is brutal. A hands-free neck fan keeps you cool while sightseeing.",
-
-      "amazon_url": "https://www.amazon.com/s?k=portable+neck+fan",
-
-      "category": "weather"
-
+      "time": "7:00 AM",
+      "title": "Sunrise Alms Ceremony & Street Food Breakfast",
+      "description": "Wake up early to witness monks collecting alms in Khao San or along Chao Phraya River. Locals offer food to saffron-robed monks in silent procession—a 2,600-year Buddhist tradition. Then hit a street food stall for jok (rice porridge), pa thong ko (Chinese fried dough), and Thai iced tea. Street food is safest in the morning when ingredients are fresh. This quiet pre-tourist Bangkok won't last past 9am.",
+      "image": "/images/bangkok/alms-ceremony.jpg"
     },
-
     {
-
-      "id": "aff-002",
-
-      "title": "Mosquito Repellent",
-
-      "image": "/images/bangkok/repellent.jpg",
-
-      "reason": "Dengue is a risk. DEET-based repellent is essential for outdoor evenings.",
-
-      "amazon_url": "https://www.amazon.com/s?k=deet+mosquito+repellent",
-
-      "category": "health"
-
+      "time": "9:00 AM",
+      "title": "Grand Palace & Wat Phra Kaew",
+      "description": "Arrive when doors open at 8:30am to beat tour groups. The Grand Palace is a dazzling complex of gold spires, intricate mosaics, and the sacred Emerald Buddha. Strict dress code: no shorts, no bare shoulders, no torn jeans. Rentals available but avoid the hassle. Entry is ฿500 but worth every baht. Guides swarm the entrance—hire official ones inside. The palace was the royal residence for 150 years; now it's used only for ceremonies.",
+      "image": "/images/bangkok/grand-palace2.jpg",
+      "ticket_link": "https://www.getyourguide.com/bangkok-l26/grand-palace-and-wat-phra-kaew-guided-tour-t61796/"
     },
-
     {
-
-      "id": "aff-003",
-
-      "title": "Travel Money Belt",
-
-      "image": "/images/bangkok/money-belt.jpg",
-
-      "reason": "Pickpockets are active in markets. Keep your cash secure.",
-
-      "amazon_url": "https://www.amazon.com/s?k=travel+money+belt",
-
-      "category": "security"
-
+      "time": "12:00 PM",
+      "title": "Boat Noodles at Victory Monument",
+      "description": "Take the BTS to Victory Monument for boat noodles (kuay teow rua)—originally sold from boats in canals. Order multiple small bowls (฿10-15 each) of pork or beef broth with noodles, meatballs, and herbs. Locals stack 5-8 bowls. The broth is dark, rich, and slightly sweet with pig's blood. It's intense but incredible. Nearby street stalls sell mango sticky rice for dessert. This is working-class Bangkok—zero English, maximum flavor.",
+      "image": "/images/bangkok/boat-noodles.jpg"
+    },
+    {
+      "time": "3:00 PM",
+      "title": "Temples: Wat Pho & Wat Arun",
+      "description": "Walk from the Grand Palace to Wat Pho to see the 46-meter Reclining Buddha covered in gold leaf. The temple complex is massive with 1,000+ Buddha images. Get a traditional Thai massage at the temple's massage school (฿300/hour)—it'll hurt but loosen every muscle. Then take the ferry across Chao Phraya River (฿5) to Wat Arun (Temple of Dawn). Climb the steep stairs for river views. The temple is covered in colorful Chinese porcelain.",
+      "image": "/images/bangkok/wat-pho-afternoon.jpg"
+    },
+    {
+      "time": "6:00 PM",
+      "title": "Sunset Rooftop Bar at Lebua",
+      "description": "Head to Lebua State Tower's Sky Bar (63rd floor) for sunset cocktails. The bar from 'The Hangover 2' offers 360° views of Bangkok's skyline and Chao Phraya River. Cocktails cost ฿500-800, dress code is smart casual (no flip-flops). Arrive by 5:30pm for sunset. Alternative: Octave Rooftop Bar at Marriott Sukhumvit is less touristy. As the city lights up, Bangkok transforms into a neon-lit sprawl stretching to the horizon.",
+      "image": "/images/bangkok/lebua-sunset.jpg"
+    },
+    {
+      "time": "8:00 PM",
+      "title": "Dinner at Yaowarat (Chinatown) Night Market",
+      "description": "Take a taxi to Yaowarat Road when the street vendors set up at 7pm. This is Bangkok's Chinatown—a sensory assault of sizzling woks, neon signs, and 10,000 people eating in the street. Order pad thai from Thip Samai (Bangkok's oldest pad thai spot), crab curry at Hua Seng Hong, or roast duck on rice from a street cart. Try durian fruit if you're brave. End with kanom krok (coconut pancakes). Yaowarat is chaotic, sweaty, and absolutely essential Bangkok.",
+      "image": "/images/bangkok/yaowarat-night.jpg"
     }
-
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Portable Neck Fan",
+      "image": "/images/bangkok/neck-fan.jpg",
+      "reason": "Bangkok heat is brutal. A hands-free neck fan keeps you cool while sightseeing.",
+      "amazon_url": "https://www.amazon.com/s?k=portable+neck+fan",
+      "category": "weather"
+    },
+    {
+      "id": "aff-002",
+      "title": "Mosquito Repellent",
+      "image": "/images/bangkok/repellent.jpg",
+      "reason": "Dengue is a risk. DEET-based repellent is essential for outdoor evenings.",
+      "amazon_url": "https://www.amazon.com/s?k=deet+mosquito+repellent",
+      "category": "health"
+    },
+    {
+      "id": "aff-003",
+      "title": "Travel Money Belt",
+      "image": "/images/bangkok/money-belt.jpg",
+      "reason": "Pickpockets are active in markets. Keep your cash secure.",
+      "amazon_url": "https://www.amazon.com/s?k=travel+money+belt",
+      "category": "security"
+    }
   ]
-
 }
