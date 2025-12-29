@@ -308,37 +308,48 @@ export default async function CityPage({ params }: PageProps) {
           </div>
         </section>
 
-        {/* 24h Itinerary Timeline */}
+   {/* 24h Itinerary Timeline */}
         {city.itinerary && (
-          <section id="day-plan" className="bg-slate-50 dark:bg-slate-900 border-b border-slate-200 scroll-mt-20">
-            <div className="max-w-[1000px] mx-auto px-4 md:px-8 py-12">
-              <SectionHeader title="The Perfect 24 Hours" countryCode={city.country_code as any} subtitle="One perfect day, planned for you." accentText={theme.accentText} />
-              <div className="relative border-l-2 border-indigo-200 ml-4 md:ml-6 space-y-12 my-8">
-                {city.itinerary.map((stop, idx) => (
-                  <div key={idx} className="relative pl-8 md:pl-12">
-                    <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-indigo-600 border-4 border-white dark:border-slate-900 shadow-sm"></div>
-                    <div className="flex flex-col md:flex-row gap-6 group">
-                      <div className="flex-1">
-                        <span className="inline-block px-2 py-1 bg-indigo-100 text-indigo-700 text-xs font-bold rounded mb-2">{stop.time}</span>
-                        <h3 className="text-xl font-bold mb-2">{stop.title}</h3>
-                        <p className="text-slate-600 dark:text-slate-400 mb-4 leading-relaxed">{stop.description}</p>
-                        {stop.ticket_link && (
-                          <a href={stop.ticket_link} target="_blank" className="inline-flex items-center gap-1.5 text-sm font-bold text-indigo-600 hover:text-indigo-800 transition-colors">
-                            <Icons.Ticket className="w-4 h-4" /> Get Skip-the-Line Tickets →
-                          </a>
+          <>
+            {/* ✅ NEW: Banner before the 24h Plan */}
+            <section className="max-w-[1200px] mx-auto px-4 py-8 flex justify-center">
+               <AdsterraBanner 
+                 height={90} 
+                 width={728} 
+                 pKey="258fbd7f9475277565c29c04ed1299f6" 
+               />
+            </section>
+            
+            <section id="day-plan" className="bg-slate-50 dark:bg-slate-900 border-b border-slate-200 scroll-mt-20">
+              <div className="max-w-[1000px] mx-auto px-4 md:px-8 py-12">
+                <SectionHeader title="The Perfect 24 Hours" countryCode={city.country_code as any} subtitle="One perfect day, planned for you." accentText={theme.accentText} />
+                <div className="relative border-l-2 border-indigo-200 ml-4 md:ml-6 space-y-12 my-8">
+                  {city.itinerary.map((stop, idx) => (
+                    <div key={idx} className="relative pl-8 md:pl-12">
+                      <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-indigo-600 border-4 border-white dark:border-slate-900 shadow-sm"></div>
+                      <div className="flex flex-col md:flex-row gap-6 group">
+                        <div className="flex-1">
+                          <span className="inline-block px-2 py-1 bg-indigo-100 text-indigo-700 text-xs font-bold rounded mb-2">{stop.time}</span>
+                          <h3 className="text-xl font-bold mb-2">{stop.title}</h3>
+                          <p className="text-slate-600 dark:text-slate-400 mb-4 leading-relaxed">{stop.description}</p>
+                          {stop.ticket_link && (
+                            <a href={stop.ticket_link} target="_blank" className="inline-flex items-center gap-1.5 text-sm font-bold text-indigo-600 hover:text-indigo-800 transition-colors">
+                              <Icons.Ticket className="w-4 h-4" /> Get Skip-the-Line Tickets →
+                            </a>
+                          )}
+                        </div>
+                        {stop.image && (
+                          <div className="w-full md:w-48 h-32 relative rounded-lg overflow-hidden flex-shrink-0 shadow-md border border-slate-200 dark:border-slate-800">
+                            <Image src={stop.image} alt={stop.title} fill sizes="192px" className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                          </div>
                         )}
                       </div>
-                      {stop.image && (
-                        <div className="w-full md:w-48 h-32 relative rounded-lg overflow-hidden flex-shrink-0 shadow-md border border-slate-200 dark:border-slate-800">
-                          <Image src={stop.image} alt={stop.title} fill sizes="192px" className="object-cover group-hover:scale-105 transition-transform duration-500" />
-                        </div>
-                      )}
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
-            </div>
-          </section>
+            </section>
+          </> 
         )}
 
         {/* Culture & Etiquette */}
@@ -412,7 +423,7 @@ export default async function CityPage({ params }: PageProps) {
                 </div>
               </div>
               <div className="sticky top-24 h-fit">
-                {/* ✅ UPDATED: Sidebar uses Native Ad (fits better than fixed banner) */}
+                {/* ✅ UPDATED: Sidebar uses Native Ad */}
                 <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2 text-center">Sponsored</h4>
                 <AdsterraNative 
                   placementId="container-b6e0031bcc444be2bd24c5b310c73cb3" 
@@ -455,7 +466,7 @@ export default async function CityPage({ params }: PageProps) {
           </div>
         </section>
 
-        {/* ✅ UPDATED: Footer Banner uses Adsterra 728x90 */}
+        {/* ✅ UPDATED: Footer Banner */}
         <section className="max-w-[1200px] mx-auto px-4 py-12 flex justify-center">
           <AdsterraBanner 
              height={90} 
