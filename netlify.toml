@@ -7,7 +7,11 @@
 
 [build.environment]
   NODE_VERSION = "18"
-
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+    CDN-Cache-Control = "no-cache"
 [[headers]]
   for = "/*"
   [headers.values]

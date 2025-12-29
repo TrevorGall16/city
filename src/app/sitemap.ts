@@ -1,8 +1,10 @@
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 import { MetadataRoute } from 'next'
 import { promises as fs } from 'fs'
 import path from 'path'
 import type { City } from '@/types'
-export const revalidate = 0; // ✅ This forces the sitemap to be rebuilt on every visit
+
 
 // ✅ FIX 1: MATCH YOUR CANONICAL DOMAIN (No WWW)
 const BASE_URL = 'https://citybasic.com'
