@@ -3,7 +3,7 @@ import { promises as fs } from 'fs'
 import path from 'path'
 import type { City } from '@/types'
 
-// ✅ 1. Define Base URL (Non-WWW)
+// ✅ FIX 1: MATCH YOUR CANONICAL DOMAIN (No WWW)
 const BASE_URL = 'https://citybasic.com'
 
 async function getCities(): Promise<City[]> {
@@ -18,7 +18,6 @@ async function getCities(): Promise<City[]> {
         return JSON.parse(content)
       })
   )
-  
   return cities
 }
 
@@ -26,7 +25,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const cities = await getCities()
   const currentDate = new Date().toISOString().split('T')[0]
 
-  // 1. Static Routes
   const routes: MetadataRoute.Sitemap = [
     {
       url: BASE_URL,
@@ -36,9 +34,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
   ]
 
-  // 2. Dynamic City Routes
   cities.forEach((city) => {
-    // A. Main City Page
+    // ✅ FIX 2: Ensure city slug exists
+    if (!city.slug) return;
+
     routes.push({
       url: `${BASE_URL}/${city.slug}`,
       lastModified: currentDate,
@@ -46,50 +45,47 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.9,
     })
 
-    // B. Must Eat Items
+    // ✅ FIX 3: Safety filter for Must Eat
     if (city.must_eat) {
-      city.must_eat.forEach((food) => {
-        if (food.slug) {
+      city.must_eat
+        .filter(food => food.slug && food.slug !== 'undefined') // Filter out "undefined"
+        .forEach((food) => {
           routes.push({
             url: `${BASE_URL}/${city.slug}/${food.slug}`,
             lastModified: currentDate,
             changeFrequency: 'monthly',
             priority: 0.8,
           })
-        }
-      })
+        })
     }
 
-    // C. Must See Items (✅ THE FIX: Flatten the groups!)
+    // ✅ FIX 4: Safety filter for Must See
     if (city.must_see) {
-      // 1. Flatten the groups into a single list of places
       const allSights = city.must_see.flatMap((group: any) => group.items || [])
-      
-      // 2. Loop through the actual places, NOT the groups
-      allSights.forEach((sight: any) => {
-        if (sight.slug) {
+      allSights
+        .filter((sight: any) => sight.slug && sight.slug !== 'undefined') // Filter out "undefined"
+        .forEach((sight: any) => {
           routes.push({
             url: `${BASE_URL}/${city.slug}/${sight.slug}`,
             lastModified: currentDate,
             changeFrequency: 'monthly',
             priority: 0.8,
           })
-        }
-      })
+        })
     }
 
-    // D. Logistics Pages
+    // ✅ FIX 5: Safety filter for Logistics
     if (city.logistics) {
-      city.logistics.forEach((topic) => {
-        if (topic.slug) {
+      city.logistics
+        .filter(topic => topic.slug && topic.slug !== 'undefined') // Filter out "undefined"
+        .forEach((topic) => {
           routes.push({
             url: `${BASE_URL}/${city.slug}/${topic.slug}`,
             lastModified: currentDate,
             changeFrequency: 'yearly',
             priority: 0.7,
           })
-        }
-      })
+        })
     }
   })
 
