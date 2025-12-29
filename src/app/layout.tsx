@@ -7,7 +7,6 @@ import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import { Menu } from 'lucide-react'
 import { AuthProvider } from '@/components/providers/AuthProvider'
-import { AdProvider } from '@/components/ads/AdProvider'
 import { ThemeProvider } from '@/components/providers/ThemeProvider'
 import { HeaderAuth } from '@/components/ui/HeaderAuth'
 import { Footer } from '@/components/ui/Footer'
@@ -42,9 +41,6 @@ export const metadata: Metadata = {
     google: 'rFFpomnX_REM4YyHzqaM9x5fP3fygbI2clEJ31zFtpA',
   },
 
-  other: {
-    'google-adsense-account': 'ca-pub-8732422930809097',
-  },
 
   icons: {
     icon: [
@@ -77,7 +73,6 @@ export default function RootLayout({
       <body className={`${inter.variable} font-sans antialiased bg-slate-50 dark:bg-slate-950`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <AuthProvider>
-            <AdProvider>
               <Toaster position="top-center" richColors />
               <header className="h-16 border-b border-slate-200/50 dark:border-slate-800/50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md sticky top-0 z-50">
                 <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 h-full flex items-center justify-between">
@@ -94,16 +89,10 @@ export default function RootLayout({
               </header>
               <main className="min-h-[calc(100vh-4rem)]">{children}</main>
               <Footer />
-            </AdProvider>
+
           </AuthProvider>
         </ThemeProvider>
         <CookieConsent />
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8732422930809097"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
       </body>
     </html>
   )
