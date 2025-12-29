@@ -3,8 +3,7 @@
  * ✅ Dynamic Font Loading Integrated
  * ✅ Supabase Heartbeat (Keeps DB Awake)
  * ✅ Custom City Title Colors Palette
- * ✅ Resolved Duplicate Function Errors
- * ✅ Resolved CityPlacesSection Red Line
+ * ✅ Adsterra Integrated (Google AdSense Removed)
  */
 
 import { notFound } from 'next/navigation'
@@ -19,7 +18,10 @@ import { SectionHeader } from '@/components/ui/SectionHeader'
 import { AtAGlanceDashboard } from '@/components/features/AtAGlanceDashboard'
 import { CityPlacesSection } from '@/components/features/CityPlacesSection'
 import { AffiliateSection } from '@/components/features/AffiliateSection'
-import { AdUnit } from '@/components/ads/AdUnit' 
+// ✅ NEW: Import Adsterra Components
+import AdsterraBanner from '../../../../components/ads/AdsterraBanner'
+import AdsterraNative from '../../../../components/ads/AdsterraNative'
+
 import type { Metadata } from 'next'
 import * as Icons from 'lucide-react'
 import { HeroGlass } from '@/components/ui/HeroGlass'
@@ -184,11 +186,21 @@ export default async function CityPage({ params }: PageProps) {
     return gradients[countryCode] || 'from-indigo-600 via-slate-200 to-indigo-600'
   }
 
+  // ✅ UPDATED: Renders Adsterra Native inside the grid
   const renderPlacesWithAds = (places: any[]) => {
     const elements: React.ReactNode[] = []
     places.forEach((place, index) => {
       elements.push(<EnhancedPlaceCard key={place.id} place={place} citySlug={citySlug} />)
-      if (index === 3) elements.push(<div key="mobile-ad-grid" className="col-span-full py-4"><AdUnit type="grid" /></div>)
+      if (index === 3) {
+        elements.push(
+          <div key="mobile-ad-grid" className="col-span-full py-4">
+             <AdsterraNative 
+               placementId="container-b6e0031bcc444be2bd24c5b310c73cb3" 
+               scriptSrc="https://pl28360621.effectivegatecpm.com/b6e0031bcc444be2bd24c5b310c73cb3/invoke.js" 
+             />
+          </div>
+        )
+      }
     })
     return elements
   }
@@ -377,13 +389,13 @@ export default async function CityPage({ params }: PageProps) {
         {/* Must See Section */}
         <section id="must-see" className="relative scroll-mt-20">
           <div className="max-w-[1600px] mx-auto">
-<CityPlacesSection
-  places={city.must_see.flatMap((group: any) => group.items) as any}
-  citySlug={citySlug}
-  sectionTitle="Must See"
-  sectionId="must-see-content"
-  accentText={theme.accentText}
-/>
+            <CityPlacesSection
+              places={city.must_see.flatMap((group: any) => group.items) as any}
+              citySlug={citySlug}
+              sectionTitle="Must See"
+              sectionId="must-see-content"
+              accentText={theme.accentText}
+            />
           </div>
         </section>
 
@@ -400,7 +412,12 @@ export default async function CityPage({ params }: PageProps) {
                 </div>
               </div>
               <div className="sticky top-24 h-fit">
-                <AdUnit type="sidebar" />
+                {/* ✅ UPDATED: Sidebar uses Native Ad (fits better than fixed banner) */}
+                <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2 text-center">Sponsored</h4>
+                <AdsterraNative 
+                  placementId="container-b6e0031bcc444be2bd24c5b310c73cb3" 
+                  scriptSrc="https://pl28360621.effectivegatecpm.com/b6e0031bcc444be2bd24c5b310c73cb3/invoke.js" 
+                />
               </div>
             </div>
             <div className="lg:hidden">
@@ -438,7 +455,14 @@ export default async function CityPage({ params }: PageProps) {
           </div>
         </section>
 
-        <section className="max-w-[1200px] mx-auto px-4 py-12"><AdUnit type="banner" /></section>
+        {/* ✅ UPDATED: Footer Banner uses Adsterra 728x90 */}
+        <section className="max-w-[1200px] mx-auto px-4 py-12 flex justify-center">
+          <AdsterraBanner 
+             height={90} 
+             width={728} 
+             pKey="258fbd7f9475277565c29c04ed1299f6" 
+           />
+        </section>
       </main>
     </div>
   )

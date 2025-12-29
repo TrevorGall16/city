@@ -12,7 +12,6 @@ import { useRouter, useSearchParams } from 'next/navigation'
 import { Search } from 'lucide-react'
 import { CityCard } from '@/components/features/CityCard'
 import { InteractiveWorldMap } from '@/components/features/InteractiveWorldMap'
-import { AdUnit } from '@/components/ads/AdUnit'
 
 // Country flag emojis
 const COUNTRY_FLAGS: Record<string, string> = {
@@ -302,10 +301,7 @@ export function HomePageClient({ cities, regions }: HomePageClientProps) {
         </div>
       </section>
 
-      {/* Ad Banner - Between Hero and Content */}
-      <section className="max-w-[1400px] mx-auto px-4 md:px-6 lg:px-8 py-8 border-b border-slate-200 dark:border-slate-800">
-        <AdUnit type="banner" className="max-w-[970px] mx-auto" />
-      </section>
+
 
       {/* Interactive World Map - Desktop Only */}
       <section className="hidden lg:block max-w-[1400px] mx-auto px-4 md:px-6 lg:px-8 py-12 border-b border-slate-200 dark:border-slate-800">
@@ -409,11 +405,6 @@ export function HomePageClient({ cities, regions }: HomePageClientProps) {
             ))}
           </div>
         )}
-      </section>
-
-      {/* Footer Ad */}
-      <section className="max-w-[1400px] mx-auto px-4 md:px-6 lg:px-8 py-8">
-        <AdUnit type="banner" className="max-w-[970px] mx-auto" />
       </section>
     </main>
   )

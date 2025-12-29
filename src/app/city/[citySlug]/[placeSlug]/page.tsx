@@ -16,7 +16,8 @@ import path from 'path'
 import { MapPin, Clock, Sun, ArrowLeft, ExternalLink, Utensils, Ticket, Star, DollarSign, Users } from 'lucide-react'
 import type { City, Place } from '@/types'
 import { TranslationHook } from '@/components/features/TranslationHook'
-import { AdContainer } from '@/components/ads/AdContainer'
+//import { AdContainer } from '@/components/ads/AdContainer'//
+import AdsterraNative from '../../../../../components/ads/AdsterraNative'
 import { CommentThread } from '@/components/features/CommentThread'
 import type { Metadata } from 'next'
 import { getCityFont } from '@/lib/fonts/cityFonts'
@@ -544,7 +545,16 @@ export default async function PlacePage({ params }: PageProps) {
                 </div>
               </div>
             )}
-
+{/* ✅ NEW: ADSTERRA NATIVE AD (IN THE MIDDLE) */}
+            <div className="my-10">
+              <h3 className="text-sm font-bold text-slate-400 uppercase tracking-wider mb-2">
+                Recommended
+              </h3>
+              <AdsterraNative 
+                placementId="container-b6e0031bcc444be2bd24c5b310c73cb3" 
+                scriptSrc="https://pl28360621.effectivegatecpm.com/b6e0031bcc444be2bd24c5b310c73cb3/invoke.js" 
+              />
+            </div>
             {/* ✅ SMART NEARBY SECTION (Distance-Based) */}
             {nearbyPlaces && nearbyPlaces.length > 0 && (
               <div className="mt-16 mb-12 border-t border-slate-200 dark:border-slate-800 pt-10">
@@ -670,7 +680,6 @@ export default async function PlacePage({ params }: PageProps) {
           {showLocationSection && (
             <div className="hidden lg:block">
               <div className="sticky top-24 space-y-6">
-                <AdContainer slot="sidebar" />
                 
                 {/* Quick Info Card */}
                 {isComplex && (
