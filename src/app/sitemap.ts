@@ -5,8 +5,7 @@ import { promises as fs } from 'fs'
 import path from 'path'
 import type { City } from '@/types'
 
-
-// ✅ FIX 1: MATCH YOUR CANONICAL DOMAIN (No WWW)
+// ✅ 1. Define Base URL (Non-WWW)
 const BASE_URL = 'https://citybasic.com'
 
 async function getCities(): Promise<City[]> {
@@ -38,23 +37,23 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ]
 
   cities.forEach((city) => {
-    // ✅ FIX 2: Ensure city slug exists
     if (!city.slug) return;
 
+    // ✅ FIX: Added /city/ to match your folder structure
     routes.push({
-      url: `${BASE_URL}/${city.slug}`,
+      url: `${BASE_URL}/city/${city.slug}`,
       lastModified: currentDate,
       changeFrequency: 'weekly',
       priority: 0.9,
     })
 
-    // ✅ FIX 3: Safety filter for Must Eat
+    // ✅ FIX: Added /city/ to Must Eat
     if (city.must_eat) {
       city.must_eat
-        .filter(food => food.slug && food.slug !== 'undefined') // Filter out "undefined"
+        .filter(food => food.slug && food.slug !== 'undefined')
         .forEach((food) => {
           routes.push({
-            url: `${BASE_URL}/${city.slug}/${food.slug}`,
+            url: `${BASE_URL}/city/${city.slug}/${food.slug}`,
             lastModified: currentDate,
             changeFrequency: 'monthly',
             priority: 0.8,
@@ -62,14 +61,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         })
     }
 
-    // ✅ FIX 4: Safety filter for Must See
+    // ✅ FIX: Added /city/ to Must See
     if (city.must_see) {
       const allSights = city.must_see.flatMap((group: any) => group.items || [])
       allSights
-        .filter((sight: any) => sight.slug && sight.slug !== 'undefined') // Filter out "undefined"
+        .filter((sight: any) => sight.slug && sight.slug !== 'undefined')
         .forEach((sight: any) => {
           routes.push({
-            url: `${BASE_URL}/${city.slug}/${sight.slug}`,
+            url: `${BASE_URL}/city/${city.slug}/${sight.slug}`,
             lastModified: currentDate,
             changeFrequency: 'monthly',
             priority: 0.8,
@@ -77,13 +76,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         })
     }
 
-    // ✅ FIX 5: Safety filter for Logistics
+    // ✅ FIX: Added /city/ to Logistics
     if (city.logistics) {
       city.logistics
-        .filter(topic => topic.slug && topic.slug !== 'undefined') // Filter out "undefined"
+        .filter(topic => topic.slug && topic.slug !== 'undefined')
         .forEach((topic) => {
           routes.push({
-            url: `${BASE_URL}/${city.slug}/${topic.slug}`,
+            url: `${BASE_URL}/city/${city.slug}/${topic.slug}`,
             lastModified: currentDate,
             changeFrequency: 'yearly',
             priority: 0.7,
