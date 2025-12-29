@@ -15,6 +15,8 @@ import path from 'path'
 import { Metadata } from 'next'
 import { Suspense } from 'react'
 import { HomePageClient } from '@/components/pages/HomePageClient'
+import AdsterraNative from '../../components/ads/AdsterraNative'
+import AdsterraBanner from '../../components/ads/AdsterraBanner'
 
 // Server-side: Load ALL cities from JSON files
 async function getAllCities() {
@@ -158,7 +160,7 @@ export default async function HomePage() {
     "name": "Travel Guides Collection",
     "description": `Comprehensive travel guides for ${allCities.length} cities`,
     "url": "https://citybasic.com",
-    "hasPart": allCities.slice(0, 50).map(city => ({ // Limit to 50 for performance
+    "hasPart": allCities.slice(0, 50).map(city => ({ 
       "@type": "TravelGuide",
       "name": `${city.name} Travel Guide`,
       "url": `https://citybasic.com/${city.slug}`,
@@ -169,7 +171,7 @@ export default async function HomePage() {
     }))
   }
   
-return (
+  return (
     <>
       {/* Structured Data */}
       <script
@@ -183,12 +185,36 @@ return (
       
       {/* ✅ Wrap this in Suspense to fix the Netlify build error */}
       <Suspense fallback={<div className="min-h-screen bg-slate-50" />}>
+        
+        {/* --- 1. TOP BANNER ADS (728x90) --- */}
+        {/* Placed BEFORE the content so it loads at the top */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 flex justify-center">
+           <AdsterraBanner 
+             height={90} 
+             width={728} 
+             pKey="258fbd7f9475277565c29c04ed1299f6" 
+           />
+        </div>
+
+        {/* Main Content (Search & City List) */}
         <HomePageClient cities={allCities} regions={regions} />
+
+        {/* --- 2. NATIVE ADS (Bottom/Middle) --- */}
+        {/* Placed AFTER the content */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+          <h3 className="text-xl font-semibold mb-4 text-slate-900 dark:text-white">
+            You might also like
+          </h3>
+          <AdsterraNative 
+            placementId="container-b6e0031bcc444be2bd24c5b310c73cb3" 
+            scriptSrc="https://pl28360621.effectivegatecpm.com/b6e0031bcc444be2bd24c5b310c73cb3/invoke.js" 
+          />
+        </div>
+
       </Suspense>
     </>
   )
 }
-
 // Helper: Group cities by region (Fixed for TypeScript compatibility)
 function groupCitiesByRegion(cities: any[]) {
   // Define a stricter structure for the map to satisfy the compiler
