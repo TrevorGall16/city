@@ -237,7 +237,16 @@
       "name_local": "點心 (Dim Sam)",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The quintessential Hong Kong meal. Small steamed and fried dishes served in bamboo baskets with tea. Order har gow (shrimp dumplings), siu mai, char siu bao, and cheong fun.",
+      "description": {
+        "short": "The quintessential Hong Kong culinary experience, featuring bite-sized portions of steamed, fried, and baked delicacies served in bamboo baskets.",
+        "history": "Originally a snack for travelers on the Silk Road, it evolved in Hong Kong into the 'Yum Cha' tradition, where families gather for morning tea and conversation.",
+        "insider_tip": "If a server pours your tea, tap two fingers on the table to say 'thank you' without interrupting the conversation. Order 'Har Gow' (shrimp dumplings) to test a chef's skill.",
+        "price_level": "Moderate",
+        "duration": "1-1.5 hours",
+        "best_time": "Weekend brunch (before 1 PM)",
+        "vibe": "Bustling and social",
+        "good_for": ["Groups", "Traditionalists", "Foodies"]
+      },
       "image": "/images/hong-kong/dim-sum.jpg"
     },
     {
@@ -247,7 +256,16 @@
       "name_local": "燒鵝 (Siu Ngo)",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Crispy mahogany skin, succulent meat, served over rice with sweet plum sauce. The king of Cantonese roasted meats.",
+      "description": {
+        "short": "Succulent goose roasted to perfection with mahogany-crisp skin and tender, flavorful meat, often served over rice with a tangy plum sauce.",
+        "history": "A labor-intensive specialty of Cantonese cuisine, traditional Hong Kong roast goose is often prepared in charcoal-fired ovens for a distinct smoky depth.",
+        "insider_tip": "Visit the legendary Yat Lok in Central or Kam's in Wan Chai, but arrive 15 minutes before they open to secure a seat without a 2-hour wait.",
+        "price_level": "Expensive",
+        "duration": "45-60 mins",
+        "best_time": "Lunch",
+        "vibe": "Efficient and high-quality",
+        "good_for": ["Meat lovers", "Gourmet travelers", "Quick lunch"]
+      },
       "image": "/images/hong-kong/roast-goose.jpg"
     },
     {
@@ -257,7 +275,16 @@
       "name_local": "雲吞麵 (Wan Tan Min)",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Springy egg noodles in clear broth with shrimp wontons. The ultimate Hong Kong comfort food.",
+      "description": {
+        "short": "Al dente egg noodles served in a clear, dried-flounder broth with plump shrimp wontons hidden beneath the noodles.",
+        "history": "A working-class staple that rose to fame in the 1940s. The 'Hong Kong style' is defined by the noodles' distinct snap and the broth's umami depth.",
+        "insider_tip": "Real wonton noodles are served in a small bowl with the spoon at the bottom to prevent the noodles from getting soggy in the broth.",
+        "price_level": "Affordable",
+        "duration": "30 mins",
+        "best_time": "Anytime",
+        "vibe": "Casual and comforting",
+        "good_for": ["Budget travelers", "Quick bite", "Solo diners"]
+      },
       "image": "/images/hong-kong/wonton-noodles.jpg"
     },
     {
@@ -267,7 +294,16 @@
       "name_local": "蛋撻 (Daan Taat)",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Flaky pastry shell filled with silky egg custard. Best eaten warm when the custard still jiggles.",
+      "description": {
+        "short": "A silky, bright yellow egg custard nestled in either a crumbly shortcrust or a multi-layered flaky pastry shell.",
+        "history": "A hybrid creation born from British custard tarts and Portuguese pasteis de nata, adapted by Hong Kong's 'Cha Chaan Tengs' (tea cafes) in the 1940s.",
+        "insider_tip": "Flaky crust (sau pei) is more traditional for afternoon tea, while shortcrust (tai pei) is often found in local bakeries. Tai Cheong Bakery is the most famous spot.",
+        "price_level": "Affordable",
+        "duration": "5-10 mins",
+        "best_time": "3:00 PM (Afternoon tea)",
+        "vibe": "Sweet and nostalgic",
+        "good_for": ["Snacking", "Sweet tooth", "On-the-go"]
+      },
       "image": "/images/hong-kong/egg-tart.jpg"
     },
     {
@@ -277,7 +313,16 @@
       "name_local": "菠蘿油 (Bo Lo Yau)",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Sweet bun with crackly topping, sliced open and stuffed with a thick slab of cold butter.",
+      "description": {
+        "short": "A soft, sweet bun topped with a crackly, sugary crust, served warm with a thick slab of cold, salty butter inside.",
+        "history": "Contains no actual pineapple; its name comes from the checkered, golden-brown crust that resembles the fruit's skin.",
+        "insider_tip": "The 'Pineapple Oil' (Bo Lo Yau) version is the pro choice—the contrast between the hot bun and the melting cold butter is essential.",
+        "price_level": "Affordable",
+        "duration": "15-20 mins",
+        "best_time": "Breakfast or Afternoon snack",
+        "vibe": "Local cafe culture",
+        "good_for": ["Budget eats", "Comfort food", "Breakfast"]
+      },
       "image": "/images/hong-kong/pineapple-bun.jpg"
     },
     {
@@ -287,7 +332,16 @@
       "name_local": "絲襪奶茶 (Si Mat Naai Cha)",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Strong black tea mixed with evaporated milk. Smooth, rich, slightly sweet. Essential Hong Kong identity.",
+      "description": {
+        "short": "A potent blend of several types of black tea mixed with evaporated milk, known for its creamy texture and high caffeine kick.",
+        "history": "Also known as 'Pantyhose Milk Tea' because the tea is traditionally strained through a fine sack that resembles a silk stocking.",
+        "insider_tip": "Order it 'Yuenyeung' to get a local favorite mix of 3 parts coffee and 7 parts milk tea for an even bigger energy boost.",
+        "price_level": "Affordable",
+        "duration": "10-15 mins",
+        "best_time": "Afternoon tea",
+        "vibe": "Energizing and smooth",
+        "good_for": ["Caffeine lovers", "Local experience", "Drink lovers"]
+      },
       "image": "/images/hong-kong/milk-tea.jpg"
     },
     {
@@ -297,7 +351,16 @@
       "name_local": "叉燒 (Cha Siu)",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Sweet, sticky, caramelized pork with red glaze. Served over rice or in buns.",
+      "description": {
+        "short": "Strips of boneless pork marinated in a sweet honey and five-spice mixture, then roasted until caramelized and tender.",
+        "history": "The word 'Char Siu' literally means 'fork roasted,' referring to the traditional method of skewering the meat on long forks over a fire.",
+        "insider_tip": "Ask for 'Bun Fei Sau' (half fat, half lean) to get the perfect balance of melt-in-your-mouth fat and savory meat.",
+        "price_level": "Moderate",
+        "duration": "30-45 mins",
+        "best_time": "Lunch",
+        "vibe": "Savoury and sweet",
+        "good_for": ["Meat lovers", "Families", "Everyday dining"]
+      },
       "image": "/images/hong-kong/char-siu.jpg"
     },
     {
@@ -307,7 +370,16 @@
       "name_local": "腸粉 (Cheung Fan)",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Silky rice noodle sheets rolled around shrimp, beef, or BBQ pork. Drizzled with sweet soy sauce.",
+      "description": {
+        "short": "Silky, translucent rice noodle sheets rolled around fillings like shrimp or beef, drizzled with seasoned sweet soy sauce.",
+        "history": "A dim sum staple that originated as a street snack. The best versions are made by hand-steaming rice batter on a cloth.",
+        "insider_tip": "Street-style Cheung Fun is often served plain in a roll with sesame seeds, hoisin sauce, and peanut sauce—very different from the dim sum version.",
+        "price_level": "Affordable",
+        "duration": "20 mins",
+        "best_time": "Breakfast or Dim Sum",
+        "vibe": "Smooth and light",
+        "good_for": ["Seafood lovers", "Breakfast", "Light meals"]
+      },
       "image": "/images/hong-kong/cheung-fun.jpg"
     },
     {
@@ -317,7 +389,16 @@
       "name_local": "煲仔飯 (Bo Zai Faan)",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Rice cooked in clay pot over charcoal with toppings. The crispy bottom layer is the prize.",
+      "description": {
+        "short": "Rice cooked in a clay pot over an open flame with toppings like preserved sausage, chicken, or beef, resulting in a crispy, charred bottom layer.",
+        "history": "A seasonal winter favorite in Hong Kong, traditionally cooked over charcoal to give the rice a distinct smoky aroma.",
+        "insider_tip": "Don't scrape the bottom immediately; let the pot sit for a few minutes with the lid on to ensure the rice 'crust' becomes perfectly crispy.",
+        "price_level": "Moderate",
+        "duration": "45-60 mins",
+        "best_time": "Dinner (especially in winter)",
+        "vibe": "Warm and rustic",
+        "good_for": ["Winter visits", "Adventure eaters", "Authentic culture"]
+      },
       "image": "/images/hong-kong/claypot-rice.jpg"
     },
     {
@@ -327,7 +408,16 @@
       "name_local": "車仔麵 (Che Zai Min)",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Customizable noodle soup where you choose noodles, broth, and toppings. Ultimate budget meal.",
+      "description": {
+        "short": "A highly customizable bowl of noodle soup where diners choose their noodle type, broth, and a variety of toppings like pig blood curd or daikon.",
+        "history": "Born in the 1950s when street vendors sold noodles from wooden carts to refugees. It remains the ultimate 'choose-your-own-adventure' budget meal.",
+        "insider_tip": "Don't be afraid of the 'weird' toppings; braised chicken wings and honey-glazed pig skin are local favorites that add great texture.",
+        "price_level": "Affordable",
+        "duration": "30 mins",
+        "best_time": "Lunch",
+        "vibe": "Casual and bustling",
+        "good_for": ["Budget travelers", "Custom meals", "Quick bite"]
+      },
       "image": "/images/hong-kong/cart-noodles.jpg"
     },
     {
@@ -337,7 +427,16 @@
       "name_local": "西多士 (Sai Do Si)",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Peanut butter between bread, deep-fried, drizzled with condensed milk and butter. Decadent.",
+      "description": {
+        "short": "Thick slices of white bread with a peanut butter filling, egg-washed and deep-fried, then topped with golden syrup and a pat of butter.",
+        "history": "A decadent example of 'Canto-Western' fusion cuisine that emerged in local tea cafes to satisfy a Western-influenced sweet tooth.",
+        "insider_tip": "Pour the syrup generously. It is a calorie bomb meant to be shared as a snack, not eaten as a healthy breakfast.",
+        "price_level": "Affordable",
+        "duration": "20-30 mins",
+        "best_time": "Afternoon snack",
+        "vibe": "Indulgent and greasy",
+        "good_for": ["Sweet tooth", "Sharing", "Local cafes"]
+      },
       "image": "/images/hong-kong/french-toast.jpg"
     },
     {
@@ -347,7 +446,16 @@
       "name_local": "咖喱魚蛋 (Ga Lei Yu Dan)",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Bouncy fish paste balls in curry sauce. Hong Kong's unofficial street food emblem.",
+      "description": {
+        "short": "Spongy, bouncy balls made of fish paste, simmered in a rich, mildly spicy yellow curry sauce and served on a skewer.",
+        "history": "The undisputed king of Hong Kong street food. It is estimated that Hong Kongers consume millions of these daily.",
+        "insider_tip": "Look for vendors in Mong Kok or Sham Shui Po where the curry sauce is bubbling and thick; if the sauce looks like water, move on.",
+        "price_level": "Affordable",
+        "duration": "5-10 mins",
+        "best_time": "Evening snack",
+        "vibe": "Quintessential street food",
+        "good_for": ["Quick snack", "On-the-go", "Budget eaters"]
+      },
       "image": "/images/hong-kong/fish-balls.jpg"
     },
     {
@@ -357,7 +465,16 @@
       "name_local": "皮蛋瘦肉粥 (Pei Dan Sau Yuk Juk)",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Silky rice porridge with century egg and lean pork. Comfort food for sick days or hangovers.",
+      "description": {
+        "short": "A thick, silky rice porridge flavored with bits of preserved 'century egg' and tender strips of lean pork.",
+        "history": "Regarded as the ultimate healing food in Chinese culture, congee is easy on the stomach and often eaten for breakfast or late-night supper.",
+        "insider_tip": "Order a 'Yau Zaa Gwai' (fried dough stick) on the side to dip into the congee for a satisfying crunch.",
+        "price_level": "Affordable",
+        "duration": "30-45 mins",
+        "best_time": "Breakfast",
+        "vibe": "Calm and nourishing",
+        "good_for": ["Wellness", "Breakfast", "Mild flavors"]
+      },
       "image": "/images/hong-kong/congee.jpg"
     },
     {
@@ -367,7 +484,16 @@
       "name_local": "雞蛋仔 (Gai Daan Zai)",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Sweet crispy waffle with bubble-shaped pieces. Eaten hot, folded into cone shape.",
+      "description": {
+        "short": "A honeycomb-shaped waffle with bubble-like pieces that are crispy on the outside and soft and cakey on the inside.",
+        "history": "Legend says it was invented by a grocer who used broken eggs to make a batter so they wouldn't go to waste. Now a global street food icon.",
+        "insider_tip": "Eat them plain first to appreciate the malted egg flavor before trying trendy versions with chocolate or matcha.",
+        "price_level": "Affordable",
+        "duration": "10 mins",
+        "best_time": "Afternoon snack",
+        "vibe": "Fun and nostalgic",
+        "good_for": ["Kids", "Snacking", "Photography"]
+      },
       "image": "/images/hong-kong/egg-waffle.jpg"
     },
     {
@@ -377,11 +503,20 @@
       "name_local": "火鍋 (Fo Wo)",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Communal cooking where diners cook ingredients in bubbling broth at the table. Social and interactive.",
+      "description": {
+        "short": "A communal dining experience where fresh raw ingredients are cooked in a pot of simmering broth in the center of the table.",
+        "history": "In Hong Kong, hot pot is a year-round social event, though it is most popular during the brief, chilly winter months.",
+        "insider_tip": "Create your own dipping sauce at the condiment bar—garlic, scallions, soy sauce, and a little chili oil is the standard local base.",
+        "price_level": "Moderate",
+        "duration": "2 hours",
+        "best_time": "Dinner",
+        "vibe": "Lively and interactive",
+        "good_for": ["Socializing", "Groups", "Foodies"]
+      },
       "image": "/images/hong-kong/hot-pot.jpg"
     }
   ],
-  "must_see": [
+ "must_see": [
     {
       "title": "Iconic Landmarks",
       "id": "landmarks",
@@ -393,7 +528,16 @@
           "name_local": "太平山 (Tai Ping Shan)",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The highest point on Hong Kong Island offering panoramic views of the skyline, Victoria Harbour, and Kowloon.",
+          "description": {
+            "short": "The highest point on Hong Kong Island, providing the world-famous view of the skyscraper skyline and Victoria Harbour.",
+            "history": "During the colonial era, the Peak was an exclusive residential area for Europeans; the Peak Tram was built in 1888 to facilitate their commute.",
+            "insider_tip": "Skip the long Peak Tram queue by taking the #15 bus from Central Ferry Pier; it's cheaper and offers stunning winding-road views.",
+            "price_level": "Free (Tram is Expensive)",
+            "duration": "2-3 hours",
+            "best_time": "Sunset (watch the city lights flicker on)",
+            "vibe": "Breath-taking and iconic",
+            "good_for": ["Photography", "First-time visitors", "Views"]
+          },
           "image": "/images/hong-kong/victoria-peak.jpg",
           "geo": { "lat": 22.2783, "lng": 114.1747 }
         },
@@ -404,7 +548,16 @@
           "name_local": "天星小輪",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The legendary ferry crossing Victoria Harbour. Running since 1888, offers unbeatable harbor views for HK$3-4.",
+          "description": {
+            "short": "A legendary green-and-white ferry service that has been shuttling passengers across Victoria Harbour for over 130 years.",
+            "history": "National Geographic rated this as one of the '50 places of a lifetime.' It remains one of the world's most affordable and scenic public transits.",
+            "insider_tip": "Sit on the upper deck for better views, or the lower deck to hear the water slap against the hull and smell the sea air.",
+            "price_level": "Affordable",
+            "duration": "10-15 mins",
+            "best_time": "Twilight (golden hour)",
+            "vibe": "Nostalgic and scenic",
+            "good_for": ["Budget travel", "Romance", "Photography"]
+          },
           "image": "/images/hong-kong/star-ferry.jpg",
           "geo": { "lat": 22.2934, "lng": 114.1680 }
         },
@@ -415,7 +568,16 @@
           "name_local": "幻彩詠香江",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "World's largest permanent light show. Every night at 8pm, 40+ buildings synchronize lights and music.",
+          "description": {
+            "short": "A synchronized laser and light show involving over 40 skyscrapers on both sides of Victoria Harbour.",
+            "history": "Launched in 2004, it is recognized by Guinness World Records as the world's largest permanent light and sound show.",
+            "insider_tip": "The best viewing spot is the Tsim Sha Tsui waterfront near the Clock Tower; download the show's app to listen to the synchronized music.",
+            "price_level": "Free",
+            "duration": "15 mins",
+            "best_time": "8:00 PM precisely",
+            "vibe": "Spectacular and futuristic",
+            "good_for": ["Families", "Night owls", "Free activities"]
+          },
           "image": "/images/hong-kong/symphony-lights.jpg",
           "geo": { "lat": 22.2944, "lng": 114.1722 }
         },
@@ -426,7 +588,16 @@
           "name_local": "天壇大佛",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Massive 34-meter bronze Buddha on Lantau Island. Climb 268 steps for panoramic views.",
+          "description": {
+            "short": "A massive 34-meter high bronze statue of Buddha sitting serenely atop a mountain on Lantau Island.",
+            "history": "Completed in 1993, the statue faces North toward Mainland China, symbolizing the stability of the region and the prosperity of the people.",
+            "insider_tip": "Take the Ngong Ping 360 cable car (Crystal Cabin) to get there—the glass floor offers a thrilling view of the forest below.",
+            "price_level": "Moderate",
+            "duration": "Half-day",
+            "best_time": "Weekday morning (to avoid massive queues)",
+            "vibe": "Majestic and spiritual",
+            "good_for": ["Nature lovers", "Spirituality", "History"]
+          },
           "image": "/images/hong-kong/big-buddha.jpg",
           "geo": { "lat": 22.2542, "lng": 113.9048 }
         }
@@ -443,7 +614,16 @@
           "name_local": "廟街夜市",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Hong Kong's most atmospheric night market. Fortune tellers, Cantonese opera, cheap electronics, and jade.",
+          "description": {
+            "short": "A lively nocturnal bazaar in Kowloon filled with street food, trinkets, fortune tellers, and opera singers.",
+            "history": "Often used as a backdrop for triad films, it is the last place in Hong Kong where you can truly feel the grit and energy of old Kowloon.",
+            "insider_tip": "Walk to the end near the temple to find the fortune tellers—some even have trained birds that 'pick' your fortune card.",
+            "price_level": "Free (Shopping is Affordable)",
+            "duration": "1.5-2 hours",
+            "best_time": "9:00 PM (when energy peaks)",
+            "vibe": "Chaotic and electric",
+            "good_for": ["Night owls", "Foodies", "Budget shopping"]
+          },
           "image": "/images/hong-kong/temple-street.jpg",
           "geo": { "lat": 22.3123, "lng": 114.1712 }
         },
@@ -454,7 +634,16 @@
           "name_local": "女人街",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Kilometer-long street market in Mong Kok. Clothing, accessories, souvenirs, and trinkets.",
+          "description": {
+            "short": "A kilometer-long stretch of street stalls in Mong Kok selling everything from clothing and bags to quirky souvenirs.",
+            "history": "Established in the 1970s, it earned its name for the sheer volume of low-priced women’s clothing and accessories once sold here.",
+            "insider_tip": "Bargaining is mandatory; start at 50% of the asking price and be prepared to walk away to get the best deal.",
+            "price_level": "Free",
+            "duration": "1 hour",
+            "best_time": "Afternoon",
+            "vibe": "Frenetic and crowded",
+            "good_for": ["Budget shopping", "Souvenir hunters", "People watching"]
+          },
           "image": "/images/hong-kong/ladies-market.jpg",
           "geo": { "lat": 22.3193, "lng": 114.1710 }
         },
@@ -465,7 +654,16 @@
           "name_local": "元創方",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Revitalized heritage site with local designers, artists, and independent boutiques.",
+          "description": {
+            "short": "A creative landmark housed in a revitalized historic building, now filled with local designer boutiques and art galleries.",
+            "history": "Formerly the Police Married Quarters, the site was saved from demolition and transformed into a hub for Hong Kong's creative industry.",
+            "insider_tip": "Check the central courtyard schedule—there are often high-end night markets or international art installations occurring on weekends.",
+            "price_level": "Free",
+            "duration": "1.5 hours",
+            "best_time": "Weekend afternoon",
+            "vibe": "Hip and creative",
+            "good_for": ["Design lovers", "Shopping", "Hipsters"]
+          },
           "image": "/images/hong-kong/pmq.jpg",
           "geo": { "lat": 22.2847, "lng": 114.1524 }
         }
@@ -482,7 +680,16 @@
           "name_local": "文武廟",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Hong Kong's oldest temple (1847). Massive spiral incense coils hanging from ceiling.",
+          "description": {
+            "short": "A stunning, incense-filled temple dedicated to the gods of Literature (Man) and War (Mo).",
+            "history": "Built in 1847, it is one of the oldest and most important temples in the city, once serving as a court for resolving community disputes.",
+            "insider_tip": "Look up to see the giant spiral incense coils; they can burn for weeks and fill the temple with a thick, mystical haze.",
+            "price_level": "Free",
+            "duration": "30-45 mins",
+            "best_time": "Morning",
+            "vibe": "Spiritual and smoky",
+            "good_for": ["History buffs", "Photography", "Quiet reflection"]
+          },
           "image": "/images/hong-kong/man-mo-temple.jpg",
           "geo": { "lat": 22.2845, "lng": 114.1503 }
         },
@@ -493,7 +700,16 @@
           "name_local": "黃大仙祠",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Massive Taoist temple famous for fortune-telling using bamboo sticks. Active worship site.",
+          "description": {
+            "short": "A sprawling Taoist temple complex famous for 'Kau Cim'—a form of fortune telling using bamboo sticks.",
+            "history": "Dedicated to a legendary monk who achieved immortality, it is the most popular temple for locals seeking medical advice or career fortunes.",
+            "insider_tip": "Even if you don't speak Cantonese, you can pay a small fee to have your bamboo stick's number interpreted by an English-speaking fortune teller in the adjacent arcade.",
+            "price_level": "Free",
+            "duration": "1 hour",
+            "best_time": "Weekday morning",
+            "vibe": "Active and bustling",
+            "good_for": ["Cultural immersion", "Architecture", "Photography"]
+          },
           "image": "/images/hong-kong/wong-tai-sin.jpg",
           "geo": { "lat": 22.3422, "lng": 114.1934 }
         },
@@ -504,7 +720,16 @@
           "name_local": "大澳漁村",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Traditional fishing village with stilt houses over water. The 'Venice of Hong Kong.'",
+          "description": {
+            "short": "A traditional Tanka fishing community famous for its stilt houses built over the tidal flats of Lantau Island.",
+            "history": "Known as the 'Venice of the Orient,' it offers a glimpse into Hong Kong's past as a series of humble fishing outposts.",
+            "insider_tip": "Take a 20-minute boat ride for HK$20 to see the stilt houses from the water and try to spot the rare pink dolphins in the bay.",
+            "price_level": "Free (Boat is Affordable)",
+            "duration": "2-3 hours",
+            "best_time": "Weekend afternoon",
+            "vibe": "Nostalgic and rustic",
+            "good_for": ["Day trips", "History", "Nature lovers"]
+          },
           "image": "/images/hong-kong/tai-o.jpg",
           "geo": { "lat": 22.2547, "lng": 113.8574 }
         }
@@ -521,7 +746,16 @@
           "name_local": "龍脊",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Hong Kong's most famous hiking trail. 8.5km ridge walk with panoramic mountain and beach views.",
+          "description": {
+            "short": "A stunning ridge-line hike that offers panoramic views of Hong Kong Island’s coastline and the South China Sea.",
+            "history": "Voted by Time Magazine as the best urban hike in Asia, it connects Wan Chai to the surfer village of Big Wave Bay.",
+            "insider_tip": "The trail ends at Big Wave Bay beach; bring your swimwear and have a celebratory beer and pizza at the local beach shacks.",
+            "price_level": "Free",
+            "duration": "3-4 hours",
+            "best_time": "November (cool and dry)",
+            "vibe": "Scenic and invigorating",
+            "good_for": ["Hikers", "Nature lovers", "Active travelers"]
+          },
           "image": "/images/hong-kong/dragon-back.jpg",
           "geo": { "lat": 22.2447, "lng": 114.2487 }
         },
@@ -532,7 +766,16 @@
           "name_local": "西貢",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The 'back garden of Hong Kong.' Hiking trails, beaches, and fresh seafood restaurants.",
+          "description": {
+            "short": "A coastal district known as the 'Back Garden of Hong Kong,' famous for its pristine beaches, volcanic rock formations, and seafood.",
+            "history": "Once a quiet fishing port, it is now the gateway to the UNESCO Global Geopark and the city's premier weekend escape.",
+            "insider_tip": "Take a 'sampan' (small boat) from the pier to Sharp Island for some of the city's best snorkeling and clear water.",
+            "price_level": "Moderate",
+            "duration": "Full-day",
+            "best_time": "Sunny weekends",
+            "vibe": "Laid-back and coastal",
+            "good_for": ["Nature lovers", "Seafood fans", "Families"]
+          },
           "image": "/images/hong-kong/sai-kung.jpg",
           "geo": { "lat": 22.3814, "lng": 114.2743 }
         }
@@ -549,7 +792,16 @@
           "name_local": "中環至半山自動扶梯",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "World's longest outdoor escalator (800m). Moving observation deck of Hong Kong life.",
+          "description": {
+            "short": "The world's longest covered outdoor escalator system, spanning 800 meters and climbing over 135 meters in elevation.",
+            "history": "Built in 1993 to provide a better commute for residents of the Mid-Levels, it unintentionally became a major tourist attraction and nightlife hub.",
+            "insider_tip": "The escalator moves downhill in the morning (6-10 AM) and uphill from 10 AM to midnight; plan your walk accordingly.",
+            "price_level": "Free",
+            "duration": "30-45 mins",
+            "best_time": "After 10 AM",
+            "vibe": "Quirky and efficient",
+            "good_for": ["People watching", "Unique urbanism", "Lazy hikers"]
+          },
           "image": "/images/hong-kong/escalator.jpg",
           "geo": { "lat": 22.2837, "lng": 114.1544 }
         },
@@ -560,7 +812,16 @@
           "name_local": "Ozone Bar",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "World's highest bar on 118th floor. Expensive cocktails but unbeatable 360° views.",
+          "description": {
+            "short": "One of the world's highest bars, located on the 118th floor of the ICC tower in West Kowloon.",
+            "history": "Designed by Masamichi Katayama, the bar's futuristic 'honeycomb' interior matches the dizzying heights of the Ritz-Carlton hotel.",
+            "insider_tip": "Check the weather before going; if it's a foggy day, you will be sitting in a cloud with zero visibility.",
+            "price_level": "Expensive",
+            "duration": "1.5 hours",
+            "best_time": "Blue hour (just after sunset)",
+            "vibe": "Ultra-modern and glamorous",
+            "good_for": ["Special occasions", "Photography", "Views"]
+          },
           "image": "/images/hong-kong/ozone-bar.jpg",
           "geo": { "lat": 22.3039, "lng": 114.1580 }
         }
@@ -610,25 +871,25 @@
       "name": "Octopus Card Holder",
       "reason": "You'll tap it 20+ times daily on MTR, buses, and convenience stores.",
       "image_url": "https://m.media-amazon.com/images/I/61VxVqG7SQL._AC_SL1500_.jpg",
-      "affiliate_link": "https://www.amazon.com/dp/B07VWJF8PX?tag=YOUR_TAG"
+      "affiliate_link": "https://www.amazon.com/dp/B07VWJF8PX?tag=canibringonpl-20"
     },
     {
       "name": "Portable Phone Charger",
       "reason": "Constant use of maps and camera drains batteries fast.",
       "image_url": "https://m.media-amazon.com/images/I/61N3Z5L2JjL._AC_SL1500_.jpg",
-      "affiliate_link": "https://www.amazon.com/dp/B08LH26PFT?tag=YOUR_TAG"
+      "affiliate_link": "https://www.amazon.com/dp/B08LH26PFT?tag=canibringonpl-20"
     },
     {
       "name": "Compact Umbrella",
       "reason": "Sudden downpours common. Typhoons June-September. Locals carry year-round.",
       "image_url": "https://m.media-amazon.com/images/I/71K1N0xq2bL._AC_SL1500_.jpg",
-      "affiliate_link": "https://www.amazon.com/dp/B07QG2PQTL?tag=YOUR_TAG"
+      "affiliate_link": "https://www.amazon.com/dp/B07QG2PQTL?tag=canibringonpl-20"
     },
     {
       "name": "Cooling Towel",
       "reason": "Summer humidity (32°C + 80%) is oppressive. Instant relief when wet.",
       "image_url": "https://m.media-amazon.com/images/I/81vpmtqxCzL._AC_SL1500_.jpg",
-      "affiliate_link": "https://www.amazon.com/dp/B01N7MLQXI?tag=YOUR_TAG"
+      "affiliate_link": "https://www.amazon.com/dp/B01N7MLQXI?tag=canibringonpl-20"
     }
   ]
 }

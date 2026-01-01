@@ -205,7 +205,7 @@
       ]
     }
   ],
-  "must_eat": [
+ "must_eat": [
     {
       "id": "food-001",
       "slug": "pad-thai",
@@ -213,7 +213,16 @@
       "name_local": "ผัดไทย",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Thailand's most famous dish: stir-fried rice noodles with shrimp or chicken, eggs, peanuts, bean sprouts, and tamarind sauce. Street cart versions are often better than restaurant ones.",
+      "description": {
+        "short": "Thailand's most famous dish: stir-fried rice noodles with shrimp, tofu, peanuts, and a signature tangy tamarind sauce.",
+        "history": "Promoted by the Thai government in the 1930s to foster national identity and reduce rice consumption during a period of grain shortage.",
+        "insider_tip": "The true flavor balance is achieved at the table; squeeze the lime and add a pinch of the provided chili flakes and sugar to your liking.",
+        "price_level": "Affordable",
+        "duration": "30 minutes",
+        "best_time": "Lunch or Dinner",
+        "vibe": "Classic and Comforting",
+        "good_for": ["First-timers", "Noodle lovers", "Street food"]
+      },
       "image": "/images/bangkok/pad-thai.jpg"
     },
     {
@@ -223,7 +232,16 @@
       "name_local": "ผัดกะเพรา",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The real national dish. Minced pork or chicken stir-fried with holy basil, garlic, and chili, served over rice with a crispy fried egg (Kai Dao). Spicy and savory.",
+      "description": {
+        "short": "A spicy, fragrant stir-fry of minced meat and holy basil, widely considered by locals to be the 'true' national dish of Thailand.",
+        "history": "A cornerstone of 'Aharn Tam Sang' (made-to-order) culture, it grew in popularity as a fast, savory lunch for the city's working class.",
+        "insider_tip": "Always order it with a 'Kai Dao' (crispy fried egg) to balance the salt and heat; ask for 'Phet Nit Noi' if you aren't ready for serious spice.",
+        "price_level": "Affordable",
+        "duration": "30 minutes",
+        "best_time": "Lunch",
+        "vibe": "Spicy and Authentic",
+        "good_for": ["Local favorite", "Spice lovers", "Quick meal"]
+      },
       "image": "/images/bangkok/pad-kra-pao.jpg"
     },
     {
@@ -233,7 +251,16 @@
       "name_local": "อาหารตามสั่ง",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The backbone of local dining. Small stalls with a wok and fresh ingredients. You construct the dish: [Protein] + [Style] + [Rice/Egg]. Example: 'Grapow Gai Khai Dao' (Basil Chicken + Fried Egg).",
+      "description": {
+        "short": "A flexible style of street dining where customers choose ingredients and a cooking style from a modular, high-heat wok menu.",
+        "history": "These ubiquitous stalls evolved to serve the diverse tastes of Bangkok's workforce, specializing in rapid, affordable cooking.",
+        "insider_tip": "If the menu is only in Thai, look at what other diners are eating and point, or ask for 'Grapow'—it is the universal safe bet.",
+        "price_level": "Affordable",
+        "duration": "30-45 minutes",
+        "best_time": "Lunch",
+        "vibe": "Busy and Functional",
+        "good_for": ["Budget travelers", "Authentic experience", "Quick bite"]
+      },
       "image": "/images/bangkok/tam-sang.jpg"
     },
     {
@@ -243,7 +270,16 @@
       "name_local": "เอ็มเค สุกี้",
       "category": "food",
       "is_generic_staple": true,
-      "description": "A cultural institution for the Thai middle class. Communal hotpot (Suki) in air-conditioned comfort. Clean, vegetable-heavy, and a necessary reset from oily street food.",
+      "description": {
+        "short": "Thailand's most popular communal hotpot (Suki) chain, known for its clean, family-friendly environment and green-themed branding.",
+        "history": "What started as a single shop in the 1980s turned into a nationwide cultural phenomenon that defined modern casual dining in malls.",
+        "insider_tip": "While the hotpot is the main event, the 'MK Roasted Duck' is legendary and frequently sells out by the evening.",
+        "price_level": "Moderate",
+        "duration": "1-1.5 hours",
+        "best_time": "Dinner",
+        "vibe": "Clean and Social",
+        "good_for": ["Families", "Groups", "Healthy eating"]
+      },
       "image": "/images/bangkok/mk-suki.jpg"
     },
     {
@@ -253,7 +289,16 @@
       "name_local": "ต้มยำกุ้ง",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Iconic hot and sour soup with shrimp, lemongrass, galangal, kaffir lime leaves, and chili. Intensely aromatic and flavorful.",
+      "description": {
+        "short": "A bold, aromatic soup featuring shrimp, lemongrass, and galangal that masterfully balances spicy, sour, and salty profiles.",
+        "history": "Originating from Central Thailand, this dish exemplifies the Thai philosophy of using medicinal herbs to create intense, fat-free flavors.",
+        "insider_tip": "Specify 'Nam Khon' if you want the creamy version made with evaporated milk, or 'Nam Sai' for the clear, herbal original.",
+        "price_level": "Moderate",
+        "duration": "30-45 minutes",
+        "best_time": "Dinner",
+        "vibe": "Fragrant and Intense",
+        "good_for": ["Soup lovers", "Traditional flavors", "Seafood fans"]
+      },
       "image": "/images/bangkok/tom-yum.jpg"
     },
     {
@@ -263,7 +308,16 @@
       "name_local": "ก๋วยเตี๋ยวเรือ",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Rich, dark noodle soup thickened with pig blood (nam tok). Traditionally served in tiny bowls, so locals order stacks of them at once.",
+      "description": {
+        "short": "Rich noodle soup traditionally served in small portions with a dark broth thickened with pig or cow blood for depth.",
+        "history": "Originally sold from boats in Bangkok's canals, the tiny bowls were designed to prevent spilling as vendors paddled through water.",
+        "insider_tip": "Visit the 'Boat Noodle Alley' at Victory Monument; it's a rite of passage to stack at least five empty bowls on your table.",
+        "price_level": "Affordable",
+        "duration": "30-45 minutes",
+        "best_time": "Lunch",
+        "vibe": "Fast-paced and Nostalgic",
+        "good_for": ["Adventurous eaters", "Noodle lovers", "Cheap eats"]
+      },
       "image": "/images/bangkok/boat-noodles.jpg"
     },
     {
@@ -273,7 +327,16 @@
       "name_local": "ข้าวมันไก่",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Poached chicken served on oily ginger-garlic rice with a spicy dipping sauce and cucumber. A simple, comforting lunch staple everywhere.",
+      "description": {
+        "short": "Succulent poached chicken served over fragrant rice cooked in chicken fat, ginger, and garlic, accompanied by a spicy dipping sauce.",
+        "history": "Brought to Thailand by Chinese immigrants, it was adapted with a local spicy-sour sauce to suit the Thai palate.",
+        "insider_tip": "The soul of the dish is the sauce; mix it thoroughly into the rice rather than dipping the chicken to get the full experience.",
+        "price_level": "Affordable",
+        "duration": "30 minutes",
+        "best_time": "Morning to Mid-afternoon",
+        "vibe": "Simple and Comforting",
+        "good_for": ["Breakfast", "Lunch", "Mild palates"]
+      },
       "image": "/images/bangkok/chicken-rice.jpg"
     },
     {
@@ -283,7 +346,16 @@
       "name_local": "โจ๊ก / ปาท่องโก๋",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Bangkok breakfast is temporal. 'Jok' (Rice Porridge) and 'Pa Thong Ko' (Chinese Doughnuts) are sold by carts that disappear by 9 AM. You won't find them at lunch.",
+      "description": {
+        "short": "The quintessential Thai morning ritual: savory rice congee (Jok) paired with airy, deep-fried dough sticks (Pa Thong Ko).",
+        "history": "These dishes reflect the deep influence of Teochew Chinese culinary traditions on Bangkok's daily morning routines.",
+        "insider_tip": "These vendors are highly temporal; the best stalls are usually sold out and packed away by 8:30 AM.",
+        "price_level": "Affordable",
+        "duration": "20-30 minutes",
+        "best_time": "Early Morning (6-8 AM)",
+        "vibe": "Early Morning Hustle",
+        "good_for": ["Early risers", "Breakfast", "Local ritual"]
+      },
       "image": "/images/bangkok/jok.jpg"
     },
     {
@@ -293,7 +365,16 @@
       "name_local": "ข้าวต้ม",
       "category": "food",
       "is_generic_staple": true,
-      "description": "The post-nightlife meal. Boiled rice soup served with side dishes like spicy salads, stir-fried morning glory, or salted egg. Institutions like Saengchai Pochana open until 4 AM.",
+      "description": {
+        "short": "A boiled rice soup served with an array of small savory side dishes, popular as a restorative meal after a night out.",
+        "history": "Originally a versatile farmhouse meal using leftovers, it has transitioned into a nightlife recovery staple for Bangkok's night owls.",
+        "insider_tip": "Order 'Morning Glory with Crispy Pork'—it is the universal companion to the plain boiled rice soup.",
+        "price_level": "Affordable",
+        "duration": "45 minutes",
+        "best_time": "Late Night (After 10 PM)",
+        "vibe": "Casual and Late-night",
+        "good_for": ["Night owls", "Post-party meal", "Sharing"]
+      },
       "image": "/images/bangkok/khao-tom.jpg"
     },
     {
@@ -303,7 +384,16 @@
       "name_local": "ส้มตำ",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Spicy, sour, sweet, and crunchy salad made from shredded green papaya, tomatoes, peanuts, and chili. Order 'mai phet' (not spicy) if you can't handle heat.",
+      "description": {
+        "short": "A vibrant green papaya salad pounded in a mortar to blend sweet, sour, salty, and fiercely spicy flavors.",
+        "history": "A regional staple from the Isaan (Northeast) region that migrated to Bangkok and became a nationwide culinary obsession.",
+        "insider_tip": "Order 'Som Tam Thai' if you prefer the sweeter version with peanuts; specify 'Mai Phet' unless you have a high spice tolerance.",
+        "price_level": "Affordable",
+        "duration": "30 minutes",
+        "best_time": "Lunch or Afternoon",
+        "vibe": "Fresh and Zesty",
+        "good_for": ["Healthy options", "Spice lovers", "Iconic flavors"]
+      },
       "image": "/images/bangkok/som-tam.jpg"
     },
     {
@@ -313,7 +403,16 @@
       "name_local": "ข้าวเหนียวมะม่วง",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Sweet sticky rice cooked in coconut milk, served with ripe mango slices. The perfect end to a spicy meal. Seasonal (best Apr-Jun).",
+      "description": {
+        "short": "Thailand's most beloved dessert, featuring sweet glutinous rice, rich coconut cream, and slices of perfectly ripe mango.",
+        "history": "A seasonal delicacy traditionally celebrated during the hot months when mangoes are at their peak of sugar concentration.",
+        "insider_tip": "The best sticky rice is slightly warm and salty to contrast the intense sweetness of the mango.",
+        "price_level": "Affordable",
+        "duration": "15-20 minutes",
+        "best_time": "Dessert or Afternoon Snack",
+        "vibe": "Sweet and Tropical",
+        "good_for": ["Dessert lovers", "Fruit fans", "Sweet tooth"]
+      },
       "image": "/images/bangkok/mango-sticky-rice.jpg"
     },
     {
@@ -323,7 +422,16 @@
       "name_local": "หมูปิ้ง",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Sweet and savory marinated pork grilled over charcoal. A favorite breakfast or late-night snack, usually eaten with a bag of sticky rice.",
+      "description": {
+        "short": "Thinly sliced, marinated pork grilled over charcoal until caramelized, usually served with a small bag of sticky rice.",
+        "history": "A quintessential street snack that has been a go-to for school children and commuters for decades.",
+        "insider_tip": "Follow the smoke; the best 'Moo Ping' comes from carts using real charcoal rather than electric grills.",
+        "price_level": "Affordable",
+        "duration": "10 minutes",
+        "best_time": "Morning or Late Night",
+        "vibe": "Smoky Street Snack",
+        "good_for": ["Quick snack", "On-the-go", "Budget eaters"]
+      },
       "image": "/images/bangkok/moo-ping.jpg"
     },
     {
@@ -333,7 +441,16 @@
       "name_local": "แกงมัสมั่น",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Rich, mild curry with Persian influences. Made with beef or chicken, potatoes, peanuts, and coconut milk. Less spicy, more sweet.",
+      "description": {
+        "short": "A thick, mild, and nutty curry featuring potatoes and peanuts, often ranked as the world's most delicious dish by food critics.",
+        "history": "Influenced by Persian and Malay traders, it uses dry spices like cinnamon and cardamom that are uncommon in other Thai curries.",
+        "insider_tip": "Massaman is often sweeter than other curries; it is a great introductory dish for those who fear Thai spice.",
+        "price_level": "Moderate",
+        "duration": "45-60 minutes",
+        "best_time": "Dinner",
+        "vibe": "Rich and Sophisticated",
+        "good_for": ["Mild palates", "Dinner", "Curry lovers"]
+      },
       "image": "/images/bangkok/massaman.jpg"
     },
     {
@@ -343,7 +460,16 @@
       "name_local": "อาหารอีสาน",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Cuisine from Northeast Thailand. Think grilled chicken (Gai Yang), spicy minced meat salad (Larb), and sticky rice. Bold, funky, and spicy.",
+      "description": {
+        "short": "A bold category of cuisine from the Northeast characterized by grilled meats, sticky rice, and funky, spicy salads.",
+        "history": "Born from the arid plateaus of Isaan, this cuisine relies on fermentation and grilling to enhance rustic, earthy flavors.",
+        "insider_tip": "Eat with your hands; roll the sticky rice into small balls to dip directly into the spicy Larb or Nam Tok juices.",
+        "price_level": "Affordable",
+        "duration": "1-1.5 hours",
+        "best_time": "Lunch or Dinner",
+        "vibe": "Social and Rustic",
+        "good_for": ["Groups", "Adventurous eaters", "Social dining"]
+      },
       "image": "/images/bangkok/isaan-food.jpg"
     },
     {
@@ -353,7 +479,16 @@
       "name_local": "หอยทอด",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Crispy egg batter fried with plump oysters or mussels, served with bean sprouts and chili sauce. A greasy, delicious Chinatown classic.",
+      "description": {
+        "short": "A savory, crispy omelet made with a glutinous batter and plump oysters, served over fresh bean sprouts.",
+        "history": "A Teochew Chinese specialty that became a pillar of Bangkok’s street markets, especially in the Chinatown area.",
+        "insider_tip": "Ask for 'Hoi Tod' if you want it crispy, or 'Or Suan' if you prefer a softer, more gelatinous texture.",
+        "price_level": "Moderate",
+        "duration": "30-45 minutes",
+        "best_time": "Dinner",
+        "vibe": "Greasy and Delicious",
+        "good_for": ["Seafood lovers", "Chinatown visits", "Street food"]
+      },
       "image": "/images/bangkok/oyster-omelet.jpg"
     },
     {
@@ -363,11 +498,20 @@
       "name_local": "ขนมไทย",
       "category": "food",
       "is_generic_staple": true,
-      "description": "Look for Kanom Krok (coconut pancakes) or Bualoy (rice balls in coconut milk). Usually sweet, warm, and very cheap.",
+      "description": {
+        "short": "A colorful array of bite-sized treats like coconut pancakes (Kanom Krok) or mung bean cakes sold from street-side carts.",
+        "history": "Many traditional sweets use coconut milk and palm sugar as a base, reflecting the ingredients available in the central plains.",
+        "insider_tip": "Eat 'Kanom Krok' while hot; the contrast between the crispy shell and molten coconut center is best when fresh off the griddle.",
+        "price_level": "Affordable",
+        "duration": "10-15 minutes",
+        "best_time": "Afternoon",
+        "vibe": "Varied and Sweet",
+        "good_for": ["Quick treats", "Snacking", "Dessert"]
+      },
       "image": "/images/bangkok/thai-desserts.jpg"
     }
   ],
-  "must_see": [
+ "must_see": [
     {
       "title": "Essential Bangkok",
       "id": "essential",
@@ -379,7 +523,16 @@
           "name_local": "พระบรมมหาราชวัง",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The most iconic landmark. Former royal residence with stunning architecture and the Emerald Buddha. Go at 8:30 AM to beat buses.",
+          "description": {
+            "short": "The city's most iconic landmark: a dazzling complex of gold spires and mosaics that served as the royal residence for 150 years.",
+            "history": "Built in 1782 to mark the founding of Bangkok as the capital, it houses the Emerald Buddha, the most sacred image in Thailand.",
+            "insider_tip": "Arrive at 8:15 AM to be first in line; strict dress codes apply—shoulders and knees must be completely covered (no exceptions).",
+            "price_level": "Expensive (฿500)",
+            "duration": "2-3 hours",
+            "best_time": "8:30 AM opening to avoid tour group crowds.",
+            "vibe": "Majestic and Crowded",
+            "good_for": ["History lovers", "First-time visitors", "Photography"]
+          },
           "image": "/images/bangkok/grand-palace.jpg",
           "geo": { "lat": 13.7500, "lng": 100.4915 }
         },
@@ -390,7 +543,16 @@
           "name_local": "วัดอรุณ",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Temple of Dawn. Stunning riverside temple with a towering colorful spire. Climb the steep steps for a view.",
+          "description": {
+            "short": "The 'Temple of Dawn,' an architectural marvel covered in colorful porcelain and seashells on the west bank of the river.",
+            "history": "Dating back to the Ayutthaya period, it briefly housed the Emerald Buddha before it was moved across the river.",
+            "insider_tip": "The view from the temple is grand, but the view of the temple at sunset from across the river is even better.",
+            "price_level": "Affordable (฿100)",
+            "duration": "1-1.5 hours",
+            "best_time": "Late afternoon for golden light or sunset across the river.",
+            "vibe": "Majestic and Riverside",
+            "good_for": ["Photography", "History", "Architecture"]
+          },
           "image": "/images/bangkok/wat-arun.jpg",
           "geo": { "lat": 13.7437, "lng": 100.4887 }
         },
@@ -401,7 +563,16 @@
           "name_local": "วัดโพธิ์",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Home to the massive Reclining Buddha and the birthplace of Thai massage. Peaceful and beautiful.",
+          "description": {
+            "short": "Home to the massive 46-meter long gold-leaf Reclining Buddha and the historic birthplace of traditional Thai massage.",
+            "history": "Regarded as Thailand's first public university, the temple walls are covered in inscriptions teaching history, geography, and medicine.",
+            "insider_tip": "The massage school inside is world-renowned; book a session as soon as you arrive as slots fill up quickly while you tour.",
+            "price_level": "Affordable (฿200)",
+            "duration": "1.5-2 hours",
+            "best_time": "9:00 AM before the heat and crowds peak.",
+            "vibe": "Serene and Educational",
+            "good_for": ["Wellness", "History", "Iconic sights"]
+          },
           "image": "/images/bangkok/wat-pho.jpg",
           "geo": { "lat": 13.7465, "lng": 100.4927 }
         },
@@ -412,7 +583,16 @@
           "name_local": "เรือด่วนเจ้าพระยา",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The local way to travel. Take the Orange Flag boat for a cheap, scenic cruise past the temples. Authentic and breezy.",
+          "description": {
+            "short": "The local way to travel: a high-speed river transit system offering a breezy, scenic perspective of the historic skyline.",
+            "history": "Bangkok was once known as the 'Venice of the East,' and the river remains its most vital and historic highway today.",
+            "insider_tip": "Use the 'Orange Flag' boat for a true local experience at a fraction of the cost of the 'Blue Flag' tourist boat.",
+            "price_level": "Affordable (฿16)",
+            "duration": "30-60 minutes",
+            "best_time": "Early Morning or Late Afternoon.",
+            "vibe": "Breezy and Authentic",
+            "good_for": ["Budget transit", "Sightseeing", "River views"]
+          },
           "image": "/images/bangkok/river-boat.jpg",
           "geo": { "lat": 13.7200, "lng": 100.5100 }
         }
@@ -424,12 +604,21 @@
       "items": [
         {
           "id": "act-002",
-          "slug": "yaowarat-night-food",
+          "slug": "yaowarat-night-food-walk",
           "name_en": "Yaowarat Night Food Walk",
           "name_local": "เยาวราช",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "After dark, Chinatown turns into the world's greatest street food buffet. Neon lights, crowds, and incredible seafood.",
+          "description": {
+            "short": "A sensory assault of neon lights and sizzle in Chinatown, serving as the world's greatest open-air seafood and street food buffet.",
+            "history": "One of the oldest and largest Chinatowns globally, it has been the commercial heartbeat of Bangkok for over 200 years.",
+            "insider_tip": "Look for the longest lines—in Yaowarat, they are almost always a reliable indicator of high turnover and quality.",
+            "price_level": "Moderate",
+            "duration": "2-3 hours",
+            "best_time": "7:00 PM - 10:00 PM when the lights are brightest.",
+            "vibe": "Chaotic and Electric",
+            "good_for": ["Foodies", "Nightlife", "Local Culture"]
+          },
           "image": "/images/bangkok/chinatown.jpg",
           "geo": { "lat": 13.7410, "lng": 100.5085 }
         },
@@ -440,7 +629,16 @@
           "name_local": "นวดแผนไทย",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Affordable and intense. Visit a reputable shop or the massage school at Wat Pho. Part of daily health maintenance here.",
+          "description": {
+            "short": "A therapeutic art form using rhythmic pressure and yoga-like stretching to release physical and energetic tension.",
+            "history": "Codified at Wat Pho centuries ago, this 'lazy man's yoga' is a respected pillar of traditional Thai healthcare.",
+            "insider_tip": "Wear the loose clothing provided; expect 'therapeutic pain' as practitioners use elbows and knees to work deep muscles.",
+            "price_level": "Moderate",
+            "duration": "1-2 hours",
+            "best_time": "Late afternoon after a day of heavy walking.",
+            "vibe": "Relaxing yet Intense",
+            "good_for": ["Wellness", "Recovery", "Cultural experience"]
+          },
           "image": "/images/bangkok/massage.jpg",
           "geo": { "lat": 13.7465, "lng": 100.4927 }
         },
@@ -451,7 +649,16 @@
           "name_local": "สวนลุมพินี",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Bangkok's 'Central Park'. Go at 7 AM to see locals doing Tai Chi, or sunset for aerobics. Watch out for monitor lizards.",
+          "description": {
+            "short": "Bangkok's premier urban park, offering a peaceful lake, running tracks, and the famous resident water monitor lizards.",
+            "history": "Established in the 1920s on royal land, it was the city's first public space dedicated to citizen recreation.",
+            "insider_tip": "Don't miss the 6:00 PM national anthem; everyone stops moving in a surreal moment of collective silence.",
+            "price_level": "Free",
+            "duration": "1-2 hours",
+            "best_time": "7:00 AM or 5:30 PM to catch the community exercise groups.",
+            "vibe": "Peaceful and Communal",
+            "good_for": ["Exercise", "Nature", "People watching"]
+          },
           "image": "/images/bangkok/lumpini.jpg",
           "geo": { "lat": 13.7314, "lng": 100.5417 }
         },
@@ -462,7 +669,16 @@
           "name_local": "มวยไทย",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Thailand's national sport. Watch a real fight at Rajadamnern Stadium for the noise, gambling, and atmosphere.",
+          "description": {
+            "short": "The 'Art of Eight Limbs': a high-energy combat sport and deeply respected part of Thai cultural identity.",
+            "history": "Evolved from ancient military training (Muay Boran), it is now the national sport and a symbol of strength and discipline.",
+            "insider_tip": "Visit Rajadamnern Stadium on a Monday or Wednesday for the most authentic atmosphere and traditional live music accompaniment.",
+            "price_level": "Expensive (฿1,500+)",
+            "duration": "3-4 hours",
+            "best_time": "Match evenings (check the schedule for the main card).",
+            "vibe": "High-energy and Intense",
+            "good_for": ["Sports fans", "Cultural immersion", "Adrenaline"]
+          },
           "image": "/images/bangkok/muay-thai.jpg",
           "geo": { "lat": 13.7600, "lng": 100.5090 }
         },
@@ -473,7 +689,16 @@
           "name_local": "Vinyl Bars",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A sophisticated alternative to loud clubs. Venues like 'Studio Lam' or 'Alonetogether' focus on high-fidelity sound, rare vinyl (Thai Molam/Jazz), and craft cocktails.",
+          "description": {
+            "short": "Sophisticated bars focused on high-fidelity sound and curated vinyl collections ranging from vintage Thai pop to global jazz.",
+            "history": "Part of a modern 'slow living' movement in Bangkok reacting against the loud, EDM-heavy commercial nightlife.",
+            "insider_tip": "Studio Lam is the premier spot for hearing vintage Thai 'Molam' (Isaan folk) music mixed with world beats.",
+            "price_level": "Moderate",
+            "duration": "2-3 hours",
+            "best_time": "9:00 PM - Midnight for the best musical sets.",
+            "vibe": "Cool and Intimate",
+            "good_for": ["Music lovers", "Cocktail fans", "Trendy vibes"]
+          },
           "image": "/images/bangkok/listening-bar.jpg",
           "geo": { "lat": 13.7314, "lng": 100.5817 }
         },
@@ -484,7 +709,16 @@
           "name_local": "ตลาดน้อย",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Walk through the alleyways of Bangkok's oldest Chinese community. See the 'Mother Roaster' cafe atop a scrap metal heap and the Fiat vintage car graveyard.",
+          "description": {
+            "short": "A stroll through one of Bangkok's oldest neighborhoods where scrap metal yards sit alongside historic mansions and street art.",
+            "history": "This riverside community was once the center of the city's shipping industry, now reborn as a gritty creative hub.",
+            "insider_tip": "Look for the vintage Fiat car graveyard—it is the neighborhood's most iconic and photographed spot.",
+            "price_level": "Free",
+            "duration": "1-2 hours",
+            "best_time": "Afternoon when the lighting hits the shophouse textures.",
+            "vibe": "Gritty and Artistic",
+            "good_for": ["Photography", "Hidden Gems", "History"]
+          },
           "image": "/images/bangkok/talad-noi-walk.jpg",
           "geo": { "lat": 13.7346, "lng": 100.5135 }
         },
@@ -495,7 +729,16 @@
           "name_local": "บางกระเจ้า",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "A jungle island in the middle of the city loop. Rent a bike and ride the elevated concrete pathways through mangroves. A total escape from concrete.",
+          "description": {
+            "short": "A massive jungle island in a bend of the river, accessible only by boat and best explored on two wheels.",
+            "history": "Preserved from urban development to serve as a natural air filter for the city, earning it the nickname 'Green Lung'.",
+            "insider_tip": "Rent a bike at the pier for ฿100; follow the 'elevated alleys' but watch out for oncoming motorbikes.",
+            "price_level": "Affordable",
+            "duration": "Half-day",
+            "best_time": "Weekend Morning to visit the local floating market.",
+            "vibe": "Lush and Quiet",
+            "good_for": ["Nature lovers", "Cycling", "Escaping the city"]
+          },
           "image": "/images/bangkok/bang-krachao.jpg",
           "geo": { "lat": 13.6953, "lng": 100.5600 }
         }
@@ -512,7 +755,16 @@
           "name_local": "ตลาดนัดจตุจักร",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "15,000 stalls selling everything from vintage clothes to pets. Hot, crowded, and essential. Weekend only.",
+          "description": {
+            "short": "One of the world's largest outdoor markets, featuring over 15,000 stalls selling everything from vintage fashion to furniture.",
+            "history": "Originally moved from Sanam Luang in the 1980s, it has grown into a global destination for bargain hunters and collectors.",
+            "insider_tip": "If you see something you like, buy it immediately; the market's layout is so complex you will likely never find that stall again.",
+            "price_level": "Affordable",
+            "duration": "Half-day",
+            "best_time": "Saturday Morning (9:00 AM) before the midday heat becomes intense.",
+            "vibe": "Chaotic and Endless",
+            "good_for": ["Shopping", "Foodies", "Photography"]
+          },
           "image": "/images/bangkok/chatuchak.jpg",
           "geo": { "lat": 13.7990, "lng": 100.5499 }
         },
@@ -523,7 +775,16 @@
           "name_local": "ตลาดนัดกลางคืน",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Evening markets with food, bars, and live music. Less touristy than Chatuchak. Great for dinner and hanging out.",
+          "description": {
+            "short": "Trendy, modern night markets featuring white tents, hipster food stalls, live music, and photogenic 'Instagram' food.",
+            "history": "A modern evolution of the traditional market, Jodd Fairs has become the blueprint for Bangkok's contemporary evening culture.",
+            "insider_tip": "Try the 'Leng Saap' (Spicy Pork Bone Soup); it is the signature dish of the market and usually comes in mountain-sized portions.",
+            "price_level": "Moderate",
+            "duration": "2-3 hours",
+            "best_time": "7:00 PM - 9:00 PM for the best evening energy.",
+            "vibe": "Trendy and Festive",
+            "good_for": ["Dinner", "Nightlife", "Socializing"]
+          },
           "image": "/images/bangkok/night-market.jpg",
           "geo": { "lat": 13.7570, "lng": 100.5650 }
         },
@@ -534,7 +795,16 @@
           "name_local": "ปากคลองตลาด",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Massive 24-hour flower market. Best visited late at night or very early morning. A riot of colors and smells.",
+          "description": {
+            "short": "Bangkok's primary flower market: a 24-hour operation that is a riot of color, fragrance, and frenetic midnight logistics.",
+            "history": "A former fish market that shifted to flowers in the 18th century to supply the city's countless temples and hotels.",
+            "insider_tip": "Visit between 2:00 AM and 4:00 AM to see the massive trucks unloading fresh jasmine and marigolds from the countryside.",
+            "price_level": "Affordable",
+            "duration": "1 hour",
+            "best_time": "Midnight to 4:00 AM for the most dramatic action.",
+            "vibe": "Vibrant and Fragrant",
+            "good_for": ["Photography", "Night owls", "Sensory experience"]
+          },
           "image": "/images/bangkok/flower-market.jpg",
           "geo": { "lat": 13.7415, "lng": 100.4965 }
         },
@@ -545,7 +815,16 @@
           "name_local": "บาร์บนดาดฟ้า",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Sunset drinks with a view. Octave, Tichuca, or Vertigo are popular choices. Dress code usually applies (no flip-flops).",
+          "description": {
+            "short": "High-altitude cocktail bars offering dramatic, panoramic views of the city's neon-lit sprawl and the winding river.",
+            "history": "Sky bars became a global hallmark of Bangkok after the 1997 financial crisis, as developers sought ways to utilize rooftops.",
+            "insider_tip": "Most have a strict dress code; Tichuca is the trendiest for its 'glowing tree,' while Octave offers better value for sunset.",
+            "price_level": "Expensive",
+            "duration": "1.5-2 hours",
+            "best_time": "6:00 PM to catch the sunset transition into the city lights.",
+            "vibe": "Glamorous and Panoramic",
+            "good_for": ["Couples", "Photography", "Special occasions"]
+          },
           "image": "/images/bangkok/rooftop.jpg",
           "geo": { "lat": 13.7226, "lng": 100.5142 }
         }

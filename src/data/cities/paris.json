@@ -1008,7 +1008,7 @@
         }
       ]
     },
-    {
+{
       "title": "Iconic Monuments",
       "id": "monuments",
       "items": [
@@ -1019,12 +1019,18 @@
           "name_local": "Tour Eiffel",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The Iron Lady. Best views from Trocadéro.",
+          "description": {
+            "short": "The global symbol of France, this 330-meter iron lattice tower offers the most famous skyline views in the world.",
+            "history": "Built by Gustave Eiffel for the 1889 World's Fair, it was initially hated by Parisians and meant to be demolished after 20 years. It was saved only because its height made it a perfect radiotelegraph station.",
+            "insider_tip": "Avoid the massive elevator lines; climb the 674 stairs to the 2nd floor for a cheaper ticket and a much more intimate view of the ironwork.",
+            "price_level": "Expensive",
+            "duration": "2-3 hours",
+            "best_time": "Sunset, to watch the 'sparkle' show begin on the hour.",
+            "vibe": "Iconic and Romantic",
+            "good_for": ["First-timers", "Views", "Photography"]
+          },
           "image": "/images/paris/eiffel.jpg",
-          "geo": {
-            "lat": 48.8584,
-            "lng": 2.2945
-          }
+          "geo": { "lat": 48.8584, "lng": 2.2945 }
         },
         {
           "id": "mon-02",
@@ -1033,12 +1039,18 @@
           "name_local": "Arc de Triomphe",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Napoleon's triumphal arch. Climb to the top for city views.",
+          "description": {
+            "short": "A massive Neoclassical triumphal arch honoring those who fought for France, standing at the center of the world's most chaotic traffic circle.",
+            "history": "Commissioned by Napoleon in 1806 after his victory at Austerlitz, it houses the Tomb of the Unknown Soldier and the Eternal Flame, which has been relit every evening since 1923.",
+            "insider_tip": "Do NOT try to cross the traffic circle on foot. Use the underground pedestrian tunnel located on the Champs-Élysées to reach the base safely.",
+            "price_level": "Moderate",
+            "duration": "1 hour",
+            "best_time": "Late afternoon for golden light hitting the 12 radiating avenues.",
+            "vibe": "Grand and Historic",
+            "good_for": ["History", "Views", "Photography"]
+          },
           "image": "/images/paris/arc-triomphe.jpg",
-          "geo": {
-            "lat": 48.8738,
-            "lng": 2.295
-          }
+          "geo": { "lat": 48.8738, "lng": 2.295 }
         },
         {
           "id": "mon-03",
@@ -1047,12 +1059,18 @@
           "name_local": "Panthéon",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Mausoleum of French heroes like Voltaire and Rousseau.",
+          "description": {
+            "short": "A secular mausoleum in the Latin Quarter housing the remains of France's greatest citizens, featuring a massive dome and Foucault’s pendulum.",
+            "history": "Originally built as a church dedicated to St. Genevieve, it was converted during the French Revolution into a temple to 'the great men of the era of French liberty.'",
+            "insider_tip": "Head to the crypt to see the tombs of Voltaire, Victor Hugo, and Marie Curie. Between April and October, you can climb the dome for one of the best 360° views in Paris.",
+            "price_level": "Moderate",
+            "duration": "1.5 hours",
+            "best_time": "Mid-morning to avoid student crowds from the nearby Sorbonne.",
+            "vibe": "Solemn and Intellectual",
+            "good_for": ["History", "Architecture", "Science lovers"]
+          },
           "image": "/images/paris/pantheon.jpg",
-          "geo": {
-            "lat": 48.8462,
-            "lng": 2.3461
-          }
+          "geo": { "lat": 48.8462, "lng": 2.3461 }
         },
         {
           "id": "mon-04",
@@ -1061,12 +1079,18 @@
           "name_local": "Palais Garnier",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Opulent 19th-century opera house, inspiration for Phantom of the Opera.",
+          "description": {
+            "short": "An architectural masterpiece of the Second Empire, this opulent opera house is famous for its grand staircase and Chagall-painted ceiling.",
+            "history": "Commissioned by Napoleon III and designed by Charles Garnier, it served as the primary inspiration and setting for Gaston Leroux's 'The Phantom of the Opera.'",
+            "insider_tip": "Visit the 'Grand Foyer'—it was designed to mimic the Hall of Mirrors at Versailles and is arguably more impressive than the actual theater.",
+            "price_level": "Moderate",
+            "duration": "1.5 hours",
+            "best_time": "10:00 AM right at opening before the rehearsal noise starts.",
+            "vibe": "Lavish and Dramatic",
+            "good_for": ["Architecture", "Music lovers", "Interior Design"]
+          },
           "image": "/images/paris/opera.jpg",
-          "geo": {
-            "lat": 48.8719,
-            "lng": 2.3316
-          }
+          "geo": { "lat": 48.8719, "lng": 2.3316 }
         }
       ]
     },
@@ -1081,12 +1105,18 @@
           "name_local": "Galerie Vivienne",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Elegant 19th-century shopping arcade with mosaic floors. Quiet, historic, and ideal for rainy days.",
+          "description": {
+            "short": "The most elegant of Paris's surviving 19th-century shopping arcades, featuring intricate mosaic floors and a stunning glass roof.",
+            "history": "Built in 1823, it was the 'it' place for bourgeois shopping before the rise of department stores. It remains one of the few passages to never fall into total disrepair.",
+            "insider_tip": "Stop by the bookstore 'Librairie Jousseaume'—it has been in the passage since 1826 and still feels like a time capsule.",
+            "price_level": "Free",
+            "duration": "45 minutes",
+            "best_time": "Rainy afternoons for a cozy, sheltered walk.",
+            "vibe": "Quiet and Sophisticated",
+            "good_for": ["Hidden Gems", "Shopping", "Photography"]
+          },
           "image": "/images/paris/galerie-vivienne.jpg",
-          "geo": {
-            "lat": 48.8662,
-            "lng": 2.3395
-          }
+          "geo": { "lat": 48.8662, "lng": 2.3395 }
         },
         {
           "id": "pas-02",
@@ -1095,12 +1125,18 @@
           "name_local": "Passage des Panoramas",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Oldest covered passage in Paris, packed with small eateries and stamp shops. Good for casual dining.",
+          "description": {
+            "short": "The oldest covered passage in Paris, now a bustling hub for foodies, stamp collectors, and vintage postcard hunters.",
+            "history": "Opened in 1799, it was one of the first places in Paris to use gas lighting, which attracted massive evening crowds in the early 1800s.",
+            "insider_tip": "This is a great spot for an affordable lunch. Check out 'Gyoza Bar' or 'Bisou' for a break from traditional French heavy cream sauces.",
+            "price_level": "Free",
+            "duration": "1 hour",
+            "best_time": "Weekday lunch hours to eat with the locals.",
+            "vibe": "Nostalgic and Culinary",
+            "good_for": ["Foodies", "Collectors", "History"]
+          },
           "image": "/images/paris/passage-panoramas.jpg",
-          "geo": {
-            "lat": 48.8711,
-            "lng": 2.3417
-          }
+          "geo": { "lat": 48.8711, "lng": 2.3417 }
         }
       ]
     },
@@ -1115,12 +1151,18 @@
           "name_local": "Marché des Enfants Rouges",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Oldest covered food market in Paris. Mix of French and international stalls; casual lunch spot.",
+          "description": {
+            "short": "The oldest covered food market in Paris, located in the Marais, serving a mix of fresh produce and ready-to-eat international street food.",
+            "history": "Founded in 1615, its name comes from the nearby orphanage where children wore red capes (the color of charity).",
+            "insider_tip": "Head straight to 'Chez Alain Miam Miam' for the most famous giant sandwiches in Paris, but be prepared for a 30-minute wait.",
+            "price_level": "Affordable",
+            "duration": "1.5 hours",
+            "best_time": "11:30 AM to beat the rush for seating.",
+            "vibe": "Lively and Social",
+            "good_for": ["Lunch", "Foodies", "Local Culture"]
+          },
           "image": "/images/paris/enfants-rouges.jpg",
-          "geo": {
-            "lat": 48.8622,
-            "lng": 2.3615
-          }
+          "geo": { "lat": 48.8622, "lng": 2.3615 }
         },
         {
           "id": "mar-02",
@@ -1129,12 +1171,18 @@
           "name_local": "Rue Montorgueil",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Lively pedestrian food street with bakeries, fishmongers, and cafes. Shows daily Paris life.",
+          "description": {
+            "short": "A vibrant pedestrian market street lined with the city's best bakeries, fishmongers, florists, and historic cafes.",
+            "history": "This street served as the gateway for fish coming from the coast into the central Les Halles market for centuries.",
+            "insider_tip": "Visit 'Stohrer' at #51—it is the oldest pâtisserie in Paris (founded 1730). Their 'Baba au Rhum' was invented here.",
+            "price_level": "Moderate",
+            "duration": "1 hour",
+            "best_time": "Sunday morning when the atmosphere is at its peak.",
+            "vibe": "Energetic and Gastronomic",
+            "good_for": ["Daily Ritual", "Foodies", "Walking"]
+          },
           "image": "/images/paris/montorgueil.jpg",
-          "geo": {
-            "lat": 48.865,
-            "lng": 2.347
-          }
+          "geo": { "lat": 48.865, "lng": 2.347 }
         }
       ]
     },
@@ -1149,12 +1197,18 @@
           "name_local": "Croisière sur la Seine",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "One-hour boat ride offering efficient views of major landmarks. Evening cruises show monuments illuminated.",
+          "description": {
+            "short": "A classic boat tour that passes the Louvre, Notre Dame, and the Eiffel Tower, providing a unique perspective from the water.",
+            "history": "The 'Bateaux-Mouche' were popularized after WWII and remain the primary way for visitors to see the city's 'monumental' heart without walking miles.",
+            "insider_tip": "Take the 'Vedettes du Pont Neuf' instead of the bigger boats; they are smaller, more central, and the guides provide live commentary.",
+            "price_level": "Moderate",
+            "duration": "1 hour",
+            "best_time": "Late evening to see the monuments illuminated.",
+            "vibe": "Relaxed and Scenic",
+            "good_for": ["Families", "First-timers", "Views"]
+          },
           "image": "/images/paris/seine-cruise.jpg",
-          "geo": {
-            "lat": 48.863,
-            "lng": 2.3
-          }
+          "geo": { "lat": 48.863, "lng": 2.3 }
         },
         {
           "id": "sei-02",
@@ -1163,12 +1217,18 @@
           "name_local": "Berges de Seine",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Pedestrian-only paths for walking, picnicking, and sunset views. Popular with locals in warm months.",
+          "description": {
+            "short": "A UNESCO World Heritage site consisting of pedestrianized paths that offer the ultimate space for Parisian 'flânerie' and picnicking.",
+            "history": "Formerly a highway, the banks were reclaimed by the city in 2013 and transformed into a permanent park for pedestrians and cyclists.",
+            "insider_tip": "Bring a bottle of wine and some cheese to the tip of Île de la Cité (Square du Vert-Galant) to watch the sunset like a true local.",
+            "price_level": "Free",
+            "duration": "1-2 hours",
+            "best_time": "Summer evenings (7 PM - 10 PM).",
+            "vibe": "Romantic and Social",
+            "good_for": ["Picnics", "Walking", "Budget-friendly"]
+          },
           "image": "/images/paris/seine-banks.jpg",
-          "geo": {
-            "lat": 48.8556,
-            "lng": 2.3476
-          }
+          "geo": { "lat": 48.8556, "lng": 2.3476 }
         }
       ]
     },
@@ -1183,12 +1243,18 @@
           "name_local": "Cathédrale Notre-Dame",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Gothic masterpiece on the Île de la Cité.",
+          "description": {
+            "short": "A masterpiece of French Gothic architecture and the literal heart of the city (Point Zero).",
+            "history": "Built between 1163 and 1345, it survived the French Revolution and a devastating fire in 2019, leading to one of the most significant restoration projects in modern history.",
+            "insider_tip": "Even while restoration is ongoing, visit the crypt below the square for a fascinating look at the Roman-era foundations of Paris.",
+            "price_level": "Free",
+            "duration": "45 minutes (exterior/crypt)",
+            "best_time": "Early morning to avoid the tourist crowds in the square.",
+            "vibe": "Majestic and Resilient",
+            "good_for": ["History", "Architecture", "First-timers"]
+          },
           "image": "/images/paris/notre-dame.jpg",
-          "geo": {
-            "lat": 48.8529,
-            "lng": 2.35
-          }
+          "geo": { "lat": 48.8529, "lng": 2.35 }
         },
         {
           "id": "chu-02",
@@ -1197,12 +1263,18 @@
           "name_local": "Basilique du Sacré-Cœur",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "White domed basilica overlooking the city from Montmartre.",
+          "description": {
+            "short": "A white-domed Romano-Byzantine basilica sitting at the highest point in Paris, offering unrivaled views of the entire city.",
+            "history": "Built as a penance after the Franco-Prussian War, its unique white stone (travertine) actually bleaches itself when it rains, keeping it bright white.",
+            "insider_tip": "The steps are always crowded; walk around to the side entrance and climb the Dome for the highest accessible viewpoint in the city outside the Eiffel Tower.",
+            "price_level": "Free",
+            "duration": "1.5 hours",
+            "best_time": "Sunrise to see the city wake up in total silence.",
+            "vibe": "Ethereal and Busy",
+            "good_for": ["Views", "Photography", "Spirituality"]
+          },
           "image": "/images/paris/sacre-coeur.jpg",
-          "geo": {
-            "lat": 48.8867,
-            "lng": 2.3431
-          }
+          "geo": { "lat": 48.8867, "lng": 2.3431 }
         },
         {
           "id": "chu-03",
@@ -1211,12 +1283,18 @@
           "name_local": "Sainte-Chapelle",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Stunning 13th-century stained glass windows.",
+          "description": {
+            "short": "A 13th-century royal chapel containing some of the most spectacular stained glass windows in the world.",
+            "history": "Built by King Louis IX to house his collection of Passion Relics, including the Crown of Thorns (now at Notre-Dame).",
+            "insider_tip": "Visit on a bright, sunny day. The 1,113 panels of glass literally glow when the sun hits them, turning the chapel into a jewel box.",
+            "price_level": "Moderate",
+            "duration": "1 hour",
+            "best_time": "12:00 PM when the sun is directly overhead.",
+            "vibe": "Awe-inspiring and Intense",
+            "good_for": ["Art lovers", "History", "Architecture"]
+          },
           "image": "/images/paris/sainte-chapelle.jpg",
-          "geo": {
-            "lat": 48.8554,
-            "lng": 2.345
-          }
+          "geo": { "lat": 48.8554, "lng": 2.345 }
         }
       ]
     },
@@ -1231,12 +1309,18 @@
           "name_local": "Jardin du Luxembourg",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Classic Parisian park with green chairs and a palace.",
+          "description": {
+            "short": "The crown jewel of Left Bank parks, featuring French formal gardens, a palace, and the iconic green metal chairs.",
+            "history": "Created in 1612 by Marie de' Medici, widow of King Henry IV, to remind her of her native Florence and its Pitti Palace.",
+            "insider_tip": "Locals know that the 'Medici Fountain' (Fontaine Médicis) is the most romantic, shaded spot in the park for reading or a date.",
+            "price_level": "Free",
+            "duration": "2 hours",
+            "best_time": "Afternoons when the toy sailboats are active in the central pond.",
+            "vibe": "Stately and Relaxed",
+            "good_for": ["Picnics", "Families", "Flâneurs"]
+          },
           "image": "/images/paris/luxembourg.jpg",
-          "geo": {
-            "lat": 48.8462,
-            "lng": 2.3372
-          }
+          "geo": { "lat": 48.8462, "lng": 2.3372 }
         },
         {
           "id": "par-02",
@@ -1245,12 +1329,18 @@
           "name_local": "Jardin des Tuileries",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Formal garden between the Louvre and Place de la Concorde.",
+          "description": {
+            "short": "The manicured royal garden connecting the Louvre to the Place de la Concorde, famous for its gravel paths and sculptures.",
+            "history": "Originally the gardens of the Tuileries Palace (burned down in 1871), it was designed by André Le Nôtre, the same man who designed the Gardens of Versailles.",
+            "insider_tip": "Visit the 'Musée de l'Orangerie' in the southwest corner to see Monet’s massive Water Lilies in a custom-built oval room.",
+            "price_level": "Free",
+            "duration": "1 hour",
+            "best_time": "Early morning before the crowds moving between the Louvre and Concorde peak.",
+            "vibe": "Symmetrical and Grand",
+            "good_for": ["Walking", "Art lovers", "Photography"]
+          },
           "image": "/images/paris/tuileries.jpg",
-          "geo": {
-            "lat": 48.8635,
-            "lng": 2.3274
-          }
+          "geo": { "lat": 48.8635, "lng": 2.3274 }
         },
         {
           "id": "par-03",
@@ -1259,12 +1349,18 @@
           "name_local": "Parc des Buttes-Chaumont",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Romantic hilly park with a lake, waterfall, and temple.",
+          "description": {
+            "short": "A hilly, rugged park in the 19th arrondissement featuring a suspension bridge, a waterfall, and a cliff-top temple.",
+            "history": "Before becoming a park in 1867, the site was a limestone quarry and a sewage dump. It was transformed by Napoleon III into a romantic landscape.",
+            "insider_tip": "This is a 'no-tourist' zone. Head to 'Rosa Bonheur' (a bar inside the park) for a drink and tapas with local 20-somethings.",
+            "price_level": "Free",
+            "duration": "2 hours",
+            "best_time": "Sunday afternoons for a truly local experience.",
+            "vibe": "Bohemian and Wild",
+            "good_for": ["Locals", "Nature lovers", "Budget-friendly"]
+          },
           "image": "/images/paris/buttes-chaumont.jpg",
-          "geo": {
-            "lat": 48.8809,
-            "lng": 2.3828
-          }
+          "geo": { "lat": 48.8809, "lng": 2.3828 }
         }
       ]
     },
@@ -1279,12 +1375,18 @@
           "name_local": "Pont Alexandre III",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Most ornate bridge in Paris with Art Nouveau lamps.",
+          "description": {
+            "short": "The most ornate bridge in Paris, decorated with Art Nouveau lamps, cherubs, and gold-leaf statues of winged horses.",
+            "history": "Built for the 1900 World's Fair, it was named after Tsar Alexander III to celebrate the newly formed Franco-Russian Alliance.",
+            "insider_tip": "This is the 'money shot' for photography. Stand on the bridge at sunset for a view that aligns the bridge's gold statues with the Eiffel Tower.",
+            "price_level": "Free",
+            "duration": "30 minutes",
+            "best_time": "Golden hour (sunset).",
+            "vibe": "Opulent and Cinematic",
+            "good_for": ["Photography", "Views", "Couples"]
+          },
           "image": "/images/paris/alexandre-iii.jpg",
-          "geo": {
-            "lat": 48.8636,
-            "lng": 2.3135
-          }
+          "geo": { "lat": 48.8636, "lng": 2.3135 }
         },
         {
           "id": "bri-02",
@@ -1293,12 +1395,18 @@
           "name_local": "Pont Neuf",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "The oldest standing bridge across the Seine.",
+          "description": {
+            "short": "Despite the name (New Bridge), it is actually the oldest standing bridge across the Seine, famous for its curved stone 'bastions.'",
+            "history": "Completed in 1607, it was the first bridge in Paris to be built of stone and the first not to have houses built on top of it.",
+            "insider_tip": "Look at the 'mascarons' (stone faces) lining the bridge—there are 381 unique, grotesque faces representing Greek forest deities.",
+            "price_level": "Free",
+            "duration": "30 minutes",
+            "best_time": "Dusk, when the yellow streetlights hit the white stone.",
+            "vibe": "Historic and Solid",
+            "good_for": ["History", "Architecture", "Walking"]
+          },
           "image": "/images/paris/pont-neuf.jpg",
-          "geo": {
-            "lat": 48.857,
-            "lng": 2.3413
-          }
+          "geo": { "lat": 48.857, "lng": 2.3413 }
         },
         {
           "id": "bri-03",
@@ -1307,12 +1415,18 @@
           "name_local": "Canal Saint-Martin",
           "category": "sight",
           "is_generic_staple": false,
-          "description": "Trendy waterway lined with cafes and iron footbridges.",
+          "description": {
+            "short": "A 4.5km waterway lined with iron footbridges and trendy boutiques, serving as the heart of East Paris nightlife.",
+            "history": "Ordered by Napoleon in 1802 to bring fresh water to the city and bypass the traffic of the Seine.",
+            "insider_tip": "The canal actually goes underground for a section near the Place de la République. Take a boat tour that starts at the Bastille to experience the 'catacombs' portion.",
+            "price_level": "Free",
+            "duration": "1-2 hours",
+            "best_time": "Friday evening for apéro with the local 'bobos' (bourgeois-bohemians).",
+            "vibe": "Trendy and Youthful",
+            "good_for": ["Nightlife", "Walking", "Hidden Gems"]
+          },
           "image": "/images/paris/canal.jpg",
-          "geo": {
-            "lat": 48.8718,
-            "lng": 2.3637
-          }
+          "geo": { "lat": 48.8718, "lng": 2.3637 }
         }
       ]
     }
