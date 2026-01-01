@@ -420,7 +420,7 @@ export default async function PlacePage({ params }: PageProps) {
                   {isSight && (
                     <>
                       <a
-                        href={`https://www.getyourguide.com/s/?q=${encodeURIComponent(place.name_en + ' ' + city.name)}&partner_id=YOUR_ID`}
+                        href={`https://www.getyourguide.com/s/?q=${encodeURIComponent(place.name_en + ' ' + city.name)}&partner_id=YORQ0VA`}
                         target="_blank"
                         rel="noopener noreferrer sponsored"
                         className="flex items-center justify-center gap-3 px-6 py-4 bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all group"
