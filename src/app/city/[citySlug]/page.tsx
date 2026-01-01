@@ -98,22 +98,25 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const mustSeeCount = city.must_see.flatMap(g => g.items).length
   const mustEatCount = city.must_eat.length
   
+  // Master AI Optimization: Focus on "Activities" and "Things to do" keywords
+  const seoTitle = `${city.name} Travel Guide 2025: ${mustSeeCount} Best Activities & ${mustEatCount} Local Foods`
+  const seoDescription = `Discover the top activities in ${city.name}. Our local guide covers ${city.intro_vibe} includes transit tips, etiquette, and must-see landmarks.`
+
   return {
-    title: `${city.name} Travel Guide 2025: ${mustEatCount} Foods, ${mustSeeCount} Sights | CityBasic`,
-    description: city.intro_vibe,
+    title: seoTitle,
+    description: seoDescription,
     openGraph: {
-      title: `${city.name} Travel Guide | CityBasic`,
-      description: city.intro_vibe,
+      title: seoTitle,
+      description: seoDescription,
       images: [city.hero_image],
       type: 'website',
-      url: `https://citybasic.com/${citySlug}`,
+      url: `https://citybasic.com/city/${citySlug}`, // ✅ FIXED: Included /city/
     },
     alternates: {
-      canonical: `https://citybasic.com/${citySlug}`,
+      canonical: `https://citybasic.com/city/${citySlug}`, // ✅ FIXED: Included /city/
     }
   }
 }
-
 export default async function CityPage({ params }: PageProps) {
   const { citySlug } = await params
   const city = await getCityData(citySlug)
@@ -210,7 +213,7 @@ export default async function CityPage({ params }: PageProps) {
     "@type": "TravelGuide",
     "name": `${city.name} Travel Guide`,
     "description": city.intro_vibe,
-    "url": `https://citybasic.com/${citySlug}`,
+    "url": `https://citybasic.com/city/${citySlug}`,
     "about": { "@type": "City", "name": city.name, "containedInPlace": { "@type": "Country", "name": city.country } }
   }
 
@@ -452,8 +455,13 @@ export default async function CityPage({ params }: PageProps) {
           <div className="max-w-[1600px] mx-auto px-4 md:px-8">
             <h2 className="text-3xl font-bold mb-8">More Destinations</h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-              {relatedCities.map((related) => (
-                <Link key={related.slug} href={`/${related.slug}`} className="group relative aspect-[3/4] rounded-xl overflow-hidden shadow-sm">
+{/* Related Cities Fix */}
+{relatedCities.map((related) => (
+  <Link 
+    key={related.slug} 
+    href={`/city/${related.slug}`} // ✅ FIXED: Added /city/ prefix
+    className="group relative aspect-[3/4] rounded-xl overflow-hidden shadow-sm"
+  >
                   <Image src={related.hero_image} alt={related.name} fill sizes="300px" className="object-cover group-hover:scale-110 transition-transform duration-500" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                   <div className="absolute bottom-3 left-3">
