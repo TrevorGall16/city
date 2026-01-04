@@ -24,6 +24,14 @@
   NETLIFY_SKIP_BLOBS_UPLOAD = "true"
   NODE_VERSION = "20" # 🎯 UPGRADED: Next.js 16/Turbopack performs best on Node 20
 
+  [[edge_functions]]
+  path = "/sitemap_index.xml"
+  function = "sitemap-fix"
+
+[[edge_functions]]
+  path = "/sitemap.xml"
+  function = "sitemap-fix"
+
 # 🛰️ 3. SEO & SECURITY HEADERS
 [[headers]]
   for = "/sitemap.xml"
