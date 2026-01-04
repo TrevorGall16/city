@@ -1,8 +1,8 @@
 /**
- * 🛰️ MASTER AI: GLOBAL MIDDLEWARE (V7.0 - ULTIMATE SEO LOCK)
+ * 🛰️ MASTER AI: GLOBAL PROXY (V8.0 - NEXT.JS 16 COMPLIANT)
  * ✅ Feature: Prevents language redirects on SEO & Static files.
  * ✅ Fixed: Direct root access for sitemap.xml and robots.txt.
- * ✅ Optimization: Protects the /images/ folder from middleware interference.
+ * ✅ Updated: Function name changed to 'proxy' for Next.js 16 standards.
  */
 
 import { NextResponse } from "next/server";
@@ -23,21 +23,20 @@ function getLocale(request: NextRequest) {
   return detected || defaultLocale;
 }
 
-export function middleware(request: NextRequest) {
+// 🎯 MASTER AI FIX: Changed from 'export function middleware' to 'export function proxy'
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   // 🛡️ 1. MASTER AI ROOT LOCK: 
-  // If the path is an image or an SEO file, STOP the middleware immediately.
-  // This prevents the redirect to /fr/sitemap.xml or /fr/images/...
   if (
     pathname === '/sitemap.xml' || 
-    pathname === '/sitemap_index.xml' || // 🎯 Added this
+    pathname === '/sitemap_index.xml' || 
     pathname === '/robots.txt' || 
     pathname === '/favicon.ico' ||
-    pathname === '/sitemap' || // Next.js internal alias
+    pathname === '/sitemap' || 
     pathname.startsWith('/images/') ||
     pathname.startsWith('/_next/') ||
-    pathname.includes('.') // Catch-all for any file with an extension (.jpg, .xml, etc)
+    pathname.includes('.') 
   ) {
     return NextResponse.next();
   }
