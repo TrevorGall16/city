@@ -42,6 +42,8 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  // matcher updated to be more efficient for 2026 performance standards
-  matcher: ["/((?!api|_next/static|_next/image|images|favicon.ico|site.webmanifest|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)"],
+  matcher: [
+    // 🎯 ADD 'images' and 'public' to the exclusion list below
+    '/((?!api|_next/static|_next/image|images|favicon.ico|sw.js).*)',
+  ],
 };
