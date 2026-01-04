@@ -22,7 +22,10 @@
 
 [build.environment]
   NETLIFY_SKIP_BLOBS_UPLOAD = "true"
-  NODE_VERSION = "20" # 🎯 UPGRADED: Next.js 16/Turbopack performs best on Node 20
+  NODE_VERSION = "20"
+  # 🎯 MASTER AI MEMORY FIX:
+  NODE_OPTIONS = "--max-old-space-size=4096" 
+  NEXT_CPU_LIMIT = "4" # Prevents 31 workers from crashing the RAM
 
   [[edge_functions]]
   path = "/sitemap_index.xml"
