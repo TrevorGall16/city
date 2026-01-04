@@ -173,8 +173,11 @@ export default async function CityPage({ params }: PageProps) {
         {city.affiliate_products && (
           <section id="essentials" className="py-20 px-4 md:px-8 max-w-[1600px] mx-auto bg-slate-50 dark:bg-slate-950 border-y border-slate-200 dark:border-slate-800">
             <div className="mb-12"><SectionHeader title={dict.travel_essentials} countryCode={city.country_code as any} /></div>
-            <AffiliateSection products={city.affiliate_products} countryCode={city.country_code} /> 
-          </section>
+<AffiliateSection 
+  products={city.affiliate_products} 
+  countryCode={city.country_code} 
+  cityName={city.name} // ✅ This satisfies the required prop
+/>          </section>
         )}
 
         <section id="food" className="py-16 px-4 md:px-8 max-w-[1600px] mx-auto">
