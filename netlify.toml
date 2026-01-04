@@ -24,8 +24,8 @@
   NETLIFY_SKIP_BLOBS_UPLOAD = "true"
   NODE_VERSION = "20"
   # 🎯 MASTER AI MEMORY FIX:
-  NODE_OPTIONS = "--max-old-space-size=4096" 
-  NEXT_CPU_LIMIT = "4" # Prevents 31 workers from crashing the RAM
+NODE_OPTIONS = "--max-old-space-size=4096"
+  NEXT_CPU_LIMIT = "1"
 
   [[edge_functions]]
   path = "/sitemap_index.xml"
