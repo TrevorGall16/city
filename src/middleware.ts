@@ -59,14 +59,9 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     /*
-     * 🎯 MASTER AI MATCHER:
-     * Match all request paths except for the ones starting with:
-     * - api (API routes)
-     * - _next/static (static files)
-     * - _next/image (image optimization files)
-     * - images (local public images)
-     * - sitemap.xml, robots.txt, favicon.ico (SEO files)
+     * 🛰️ MASTER AI: EMERGENCY SIMPLIFIED MATCHER
+     * Exclude ANYTHING with a file extension (contains a dot)
      */
-    '/((?!api|_next|images|sitemap\\.xml|robots\\.txt|favicon\\.ico).*)',
+    '/((?!api|_next|images|.*\\..*).*)', 
   ],
 };

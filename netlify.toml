@@ -1,13 +1,13 @@
 # 🛡️ 1. THE "NUCLEAR" REDIRECTS (Must stay at the top)
 [[redirects]]
   from = "/sitemap_index.xml"
-  to = "/sitemap_index.xml"
+  to = "/seo/sitemap_index.xml" # 🎯 Pull from the new sub-folder
   status = 200
   force = true
 
 [[redirects]]
-  from = "/robots.txt"
-  to = "/robots.txt"
+  from = "/sitemap.xml"
+  to = "/seo/sitemap_index.xml" # 🎯 Backup for the old name
   status = 200
   force = true
 
