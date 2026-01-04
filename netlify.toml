@@ -1,3 +1,17 @@
+# 🛡️ 1. THE "NUCLEAR" REDIRECTS (Must stay at the top)
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap.xml"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/robots.txt"
+  to = "/robots.txt"
+  status = 200
+  force = true
+
+# 🏗️ 2. BUILD SETTINGS
 [build]
   command = "npm run build"
   publish = ".next"
@@ -6,13 +20,17 @@
   package = "@netlify/plugin-nextjs"
 
 [build.environment]
-NETLIFY_SKIP_BLOBS_UPLOAD = "true"
-  NODE_VERSION = "18"
+  NETLIFY_SKIP_BLOBS_UPLOAD = "true"
+  NODE_VERSION = "20" # 🎯 UPGRADED: Next.js 16/Turbopack performs best on Node 20
+
+# 🛰️ 3. SEO & SECURITY HEADERS
 [[headers]]
   for = "/sitemap.xml"
   [headers.values]
+    Content-Type = "application/xml" # 🎯 FIXED: Ensures Google identifies it as XML
     Cache-Control = "no-cache, no-store, must-revalidate"
     CDN-Cache-Control = "no-cache"
+
 [[headers]]
   for = "/*"
   [headers.values]
