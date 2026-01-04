@@ -1,7 +1,7 @@
 # 🛡️ 1. THE "NUCLEAR" REDIRECTS (Must stay at the top)
 [[redirects]]
-  from = "/sitemap.xml"
-  to = "/sitemap.xml"
+  from = "/sitemap_index.xml"
+  to = "/sitemap_index.xml"
   status = 200
   force = true
 
