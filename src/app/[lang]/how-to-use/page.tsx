@@ -1,6 +1,8 @@
 /**
- * How to Use Page
- * Simplified guide focusing on core user journey
+ * 🛰️ MASTER AI: HOW TO USE PAGE (V6.5 - FIXED & PRESERVED)
+ * ✅ Fixed: Resolved 'lang' error by awaiting params Promise.
+ * ✅ Fixed: Provided required 'lang' prop to InfoPageLayout.
+ * ✅ Content: 100% original 4-step guide and text preserved.
  */
 
 import { InfoPageLayout } from '@/components/layout/InfoPageLayout'
@@ -12,20 +14,30 @@ export const metadata: Metadata = {
   description: 'Simple guide to planning your trip with CityBasic.',
 }
 
-export default function HowToUsePage() {
+// 🎯 ADD THIS INTERFACE
+interface HowToUsePageProps {
+  params: Promise<{ lang: string }>
+}
+
+// 🎯 UPDATE TO ASYNC AND ADD PARAMS
+export default async function HowToUsePage({ params }: HowToUsePageProps) {
+  // 🎯 EXTRACT THE LANG VARIABLE (This removes the red underline)
+  const { lang } = await params
+
   return (
     <InfoPageLayout
       title="How to Use CityBasic"
       lastUpdated="2025-12-15"
+      lang={lang} // ✅ NO LONGER RED
     >
-      {/* Intro */}
+      {/* Intro - TEXT KEPT AS IS */}
       <div className="mb-12 max-w-2xl">
         <p className="text-xl text-slate-600 dark:text-slate-300 leading-relaxed">
           CityBasic is designed to be your instant travel companion. No fluff, just the curated essentials. Here is how to plan your perfect trip in minutes.
         </p>
       </div>
 
-      {/* The 4-Step Guide - Grid Layout for better readability */}
+      {/* The 4-Step Guide - TEXT KEPT AS IS */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
         
         {/* Step 1 */}
@@ -57,7 +69,7 @@ export default function HowToUsePage() {
             3. Create an Account
           </h3>
           <p className="text-slate-600 dark:text-slate-300">
-            <Link href="/signup" className="text-blue-600 dark:text-blue-400 font-medium hover:underline">Sign up for free</Link> to unlock personal features. It takes seconds and syncs your data across all your devices.
+            <Link href={`/${lang}/signup`} className="text-blue-600 dark:text-blue-400 font-medium hover:underline">Sign up for free</Link> to unlock personal features. It takes seconds and syncs your data across all your devices.
           </p>
         </div>
 
@@ -73,7 +85,7 @@ export default function HowToUsePage() {
         </div>
       </div>
 
-      {/* Pro Tips Section */}
+      {/* Pro Tips Section - TEXT KEPT AS IS */}
       <div className="border-t border-slate-200 dark:border-white/10 pt-12">
         <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6">
           Pro Tips
@@ -98,16 +110,15 @@ export default function HowToUsePage() {
         </ul>
       </div>
 
-      {/* CTA */}
+      {/* CTA - TEXT KEPT AS IS */}
       <div className="mt-16 text-center">
         <Link 
-          href="/" 
+          href={`/${lang}`} 
           className="inline-flex items-center justify-center px-8 py-3 text-base font-medium text-white bg-slate-900 rounded-full hover:bg-slate-800 transition-colors"
         >
           Start Exploring Now
         </Link>
       </div>
-
     </InfoPageLayout>
   )
 }
