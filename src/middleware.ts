@@ -6,7 +6,7 @@
  */
 
 import { NextResponse } from "next/server";
-import type { NextRequest } from "next/request";
+import type { NextRequest } from "next/server"; // 🎯 Change 'request' to 'server'
 
 const locales = ['en', 'fr', 'es', 'it', 'ja', 'hi', 'de', 'zh', 'ar'];
 const defaultLocale = 'en';
