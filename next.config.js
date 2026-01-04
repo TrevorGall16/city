@@ -4,36 +4,28 @@ const nextConfig = {
   compress: true, 
   
   images: {
+    // 🎯 MASTER AI FINAL FIX: Since direct URLs work, this forces 
+    // the UI to show them without failing at the optimization step.
+    unoptimized: true, 
+    
     dangerouslyAllowSVG: true,
     formats: ['image/webp', 'image/avif'],
-    // 🎯 MASTER AI FIX: Allow local images + remote sources
     remotePatterns: [
-      { protocol: 'https', hostname: 'citybasic.com' },
       { protocol: 'https', hostname: 'images.unsplash.com' },
-      { protocol: 'https', hostname: '**.supabase.co' }, // Added for your profile avatars
+      { protocol: 'https', hostname: '**.supabase.co' },
     ],
-    // 🛡️ Added for local public folder reliability on Netlify
-    unoptimized: process.env.NODE_ENV === 'production' ? false : false, 
   },
 
   async headers() {
     return [
       {
-        // 🎯 FIXED: Updated path to include /[lang]/ structure
+        // 🎯 Matches your new [lang] directory structure
         source: '/:lang/city/:path*', 
         headers: [
           {
             key: 'Cache-Control',
             value: 'public, s-maxage=604800, stale-while-revalidate=86400',
           },
-        ],
-      },
-      {
-        source: '/(.*)',
-        headers: [
-          { key: 'X-Content-Type-Options', value: 'nosniff' },
-          { key: 'X-Frame-Options', value: 'DENY' },
-          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
         ],
       },
     ]
