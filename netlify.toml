@@ -1,16 +1,15 @@
-# 🛡️ 1. THE "NUCLEAR" REDIRECTS (Must stay at the top)
+# 🛡️ 1. THE "NUCLEAR" REDIRECTS (Supreme Priority)
 [[redirects]]
   from = "/sitemap_index.xml"
-  to = "/api/sitemap" # 🎯 Point to the new API
+  to = "/api/sitemap"
   status = 200
   force = true
 
 [[redirects]]
   from = "/sitemap.xml"
-  to = "/api/sitemap" # 🎯 Backup for the old name
+  to = "/api/sitemap"
   status = 200
   force = true
-
 
 # 🏗️ 2. BUILD SETTINGS
 [build]
@@ -25,24 +24,12 @@
   NODE_VERSION = "20"
   NODE_OPTIONS = "--max-old-space-size=4096"
   NEXT_CPU_LIMIT = "1"
-  
-  # 🎯 MASTER AI: THE "POST-PROCESSING" CRASH FIX
-  # This stops Netlify from running out of memory during the "Functions bundling" phase.
-  NETLIFY_NEXT_FORCE_ISOLATION = "true"
-  DISABLE_NEXTJS_BIPACK = "true" 
-  
-  # Keep the worker limit for the build phase
-  NEXT_CPU_LIMIT = "1"
-
-[[edge_functions]]
-  path = "/sitemap.xml"
-  function = "sitemap-fix"
 
 # 🛰️ 3. SEO & SECURITY HEADERS
 [[headers]]
   for = "/sitemap.xml"
   [headers.values]
-    Content-Type = "application/xml" # 🎯 FIXED: Ensures Google identifies it as XML
+    Content-Type = "application/xml"
     Cache-Control = "no-cache, no-store, must-revalidate"
     CDN-Cache-Control = "no-cache"
 
@@ -52,8 +39,3 @@
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
-
-[[headers]]
-  for = "/city/*"
-  [headers.values]
-    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
