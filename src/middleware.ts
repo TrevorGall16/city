@@ -66,6 +66,6 @@ export const config = {
      * - images (local public images)
      * - sitemap.xml, robots.txt, favicon.ico (SEO files)
      */
-    '/((?!api|_next/static|_next/image|images|favicon.ico|sitemap.xml|robots.txt|sw.js).*)',
+    '/((?!api|_next|images|sitemap\\.xml|robots\\.txt|favicon\\.ico).*)',
   ],
 };
