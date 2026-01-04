@@ -77,6 +77,7 @@ export function AtAGlanceDashboard({ city, dict }: AtAGlanceDashboardProps) {
         <div className="w-full lg:w-auto border-t lg:border-t-0 lg:border-l border-slate-100 dark:border-slate-800 pt-6 lg:pt-0 lg:pl-8">
           <CheatSheetWidget 
             city={city} 
+            dict={dict}
             trigger={
               <button className="w-full lg:w-auto bg-slate-950 dark:bg-white text-white dark:text-slate-950 px-8 py-4 rounded-2xl font-black text-xs hover:scale-105 transition-all flex items-center justify-center gap-3 shadow-xl active:scale-95 uppercase tracking-widest">
                 <FileText className="w-4 h-4" />
