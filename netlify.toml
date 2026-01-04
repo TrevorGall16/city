@@ -1,15 +1,16 @@
 # 🛡️ 1. THE "NUCLEAR" REDIRECTS (Must stay at the top)
 [[redirects]]
   from = "/sitemap_index.xml"
-  to = "/seo/sitemap_index.xml" # 🎯 Pull from the new sub-folder
+  to = "/api/sitemap" # 🎯 Point to the new API
   status = 200
   force = true
 
 [[redirects]]
   from = "/sitemap.xml"
-  to = "/seo/sitemap_index.xml" # 🎯 Backup for the old name
+  to = "/api/sitemap" # 🎯 Backup for the old name
   status = 200
   force = true
+
 
 # 🏗️ 2. BUILD SETTINGS
 [build]
