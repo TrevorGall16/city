@@ -25,16 +25,13 @@
   NODE_VERSION = "20"
   NODE_OPTIONS = "--max-old-space-size=4096"
   
-  # 🎯 MASTER AI: THE BUNDLING MEMORY FIX
-  # This prevents the "Edge Functions bundling" crash
+  # 🎯 MASTER AI: THE "POST-PROCESSING" CRASH FIX
+  # This stops Netlify from running out of memory during the "Functions bundling" phase.
   NETLIFY_NEXT_FORCE_ISOLATION = "true"
-  AWS_LAMBDA_JS_RUNTIME = "nodejs20.x"
+  DISABLE_NEXTJS_BIPACK = "true" 
   
   # Keep the worker limit for the build phase
   NEXT_CPU_LIMIT = "1"
-  [[edge_functions]]
-  path = "/sitemap_index.xml"
-  function = "sitemap-fix"
 
 [[edge_functions]]
   path = "/sitemap.xml"
