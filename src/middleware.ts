@@ -1,12 +1,11 @@
 /**
- * 🛰️ MASTER AI: GLOBAL MIDDLEWARE (V6.0)
- * ✅ Feature: Auto-detects browser language (Accept-Language).
- * ✅ Optimization: Zero-delay redirects for international users.
- * ✅ Safety: Excludes all static assets and internal Next.js paths.
+ * 🛰️ MASTER AI: GLOBAL MIDDLEWARE (V6.5 - SEO REPAIR)
+ * ✅ Fixed: Excluded sitemap.xml and robots.txt from redirects.
+ * ✅ Fixed: Resolved NextRequest import for Next.js 16.
  */
 
 import { NextResponse } from "next/server";
-import type { NextRequest } from "next/server"; // 🎯 Change 'request' to 'server'
+import type { NextRequest } from "next/server"; 
 
 const locales = ['en', 'fr', 'es', 'it', 'ja', 'hi', 'de', 'zh', 'ar'];
 const defaultLocale = 'en';
@@ -15,7 +14,6 @@ function getLocale(request: NextRequest) {
   const acceptLanguage = request.headers.get("accept-language");
   if (!acceptLanguage) return defaultLocale;
 
-  // Simple parser for browser language headers (e.g., "fr-FR,fr;q=0.9")
   const detected = acceptLanguage
     .split(",")
     .map((lang) => lang.split(";")[0].split("-")[0].toLowerCase())
@@ -27,14 +25,23 @@ function getLocale(request: NextRequest) {
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // 1. Check if the path already has a supported locale
+  // 🛡️ 1. Immediate Safety Check: Allow SEO files to be served from root
+  if (
+    pathname === '/sitemap.xml' || 
+    pathname === '/robots.txt' || 
+    pathname === '/favicon.ico'
+  ) {
+    return NextResponse.next();
+  }
+
+  // 2. Check if the path already has a supported locale
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
   if (pathnameHasLocale) return;
 
-  // 2. Redirect if locale is missing (e.g., /city/paris -> /fr/city/paris)
+  // 3. Redirect if locale is missing
   const locale = getLocale(request);
   request.nextUrl.pathname = `/${locale}${pathname}`;
   
@@ -43,7 +50,7 @@ export function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    // 🎯 ADD 'images' and 'public' to the exclusion list below
-    '/((?!api|_next/static|_next/image|images|favicon.ico|sw.js).*)',
+    // 🎯 MASTER AI MATCHER: Explicitly exclude static assets and SEO files
+    '/((?!api|_next/static|_next/image|images|favicon.ico|sitemap.xml|robots.txt|sw.js).*)',
   ],
 };
