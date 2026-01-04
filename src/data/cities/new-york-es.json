@@ -1,0 +1,1202 @@
+{
+  "id": "city-008",
+  "name": "New York City",
+  "slug": "new-york",
+  "lat": 40.7128,
+  "lng": -74.006,
+  "country": "United States",
+  "country_code": "us",
+  "hero_image": "/images/new-york/hero.jpg",
+  "intro_vibe": {
+    "description": "La jungla de concreto: Rápida, ruidosa, amable pero no simpática, y el único lugar donde la pizza a las 4 a.m. es un grupo alimenticio."
+  },
+  "general_info": {
+    "population": "~8.5 millones (ciudad) / ~20 millones (área metropolitana)",
+    "is_capital": false,
+    "description": "Nueva York es una colección de cinco distritos distintos, cada uno con su propio ritmo. Recompensa la eficiencia y castiga la indecisión. Es áspera, glamurosa y implacable. Los locales son 'amables' (le ayudarán a llevar un carrito de niño por las escaleras) pero no 'simpáticos' (no sonreirán mientras lo hacen). Es una ciudad de capas, donde la historia del siglo XIX se encuentra directamente debajo de la ambición del siglo XXI."
+  },
+  "stats": {
+    "currency": "$",
+    "plug_type": "Tipo A/B"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "Enero",
+      "temp": "-3°C - 4°C",
+      "vibe": "Glacial",
+      "pros": [
+        "Ofertas de hoteles",
+        "Semana de restaurantes",
+        "Winter Jazzfest"
+      ],
+      "cons": [
+        "Túneles de viento glacial",
+        "Charcos de nieve derretida",
+        "Días cortos"
+      ],
+      "clothing": "Abrigo grueso, capas térmicas, botas impermeables"
+    },
+    {
+      "id": 2,
+      "name": "Febrero",
+      "temp": "-2°C - 6°C",
+      "vibe": "Riguroso",
+      "pros": [
+        "Semana de la moda",
+        "Año Nuevo chino",
+        "Museos interiores"
+      ],
+      "cons": [
+        "Tormentas de nieve posibles",
+        "Cielos grises"
+      ],
+      "clothing": "Abrigo caliente, guantes, bufanda"
+    },
+    {
+      "id": 3,
+      "name": "Marte",
+      "temp": "2°C - 10°C",
+      "vibe": "Impredecible",
+      "pros": [
+        "Día de San Patricio",
+        "Sombras de primavera",
+        "Días propicios para caminar"
+      ],
+      "cons": [
+        "Ventoso",
+        "Mezcla de lluvia/nieve"
+      ],
+      "clothing": "Abrigo caliente, capas, paraguas"
+    },
+    {
+      "id": 4,
+      "name": "Abril",
+      "temp": "7°C - 16°C",
+      "vibe": "Floreciente",
+      "pros": [
+        "Flores de cerezo (Brooklyn Botanic)",
+        "Festival de Cine de Tribeca",
+        "Los parques se llenan"
+      ],
+      "cons": [
+        "Aguaceros",
+        "Temperaturas variables"
+      ],
+      "clothing": "Chaqueta ligera, equipo de lluvia"
+    },
+    {
+      "id": 5,
+      "name": "Mai",
+      "temp": "12°C - 22°C",
+      "vibe": "Perfecto",
+      "pros": [
+        "Clima ideal para pasear",
+        "Comienzo de las comidas al aire libre",
+        "Semana de la flota"
+      ],
+      "cons": [
+        "Los hoteles se vuelven caros",
+        "Afluencia de turistas"
+      ],
+      "clothing": "Capas ligeras, zapatos cómodos"
+    },
+    {
+      "id": 6,
+      "name": "Junio",
+      "temp": "18°C - 27°C",
+      "vibe": "Inicio animado",
+      "pros": [
+        "Mes de la orgullo",
+        "Bares en las azoteas",
+        "Conciertos gratuitos al aire libre"
+      ],
+      "cons": [
+        "La humedad comienza",
+        "Las estaciones de metro se vuelven calurosas"
+      ],
+      "clothing": "Ropa de verano, chaqueta ligera para la climatización"
+    },
+    {
+      "id": 7,
+      "name": "Julio",
+      "temp": "21°C - 30°C",
+      "vibe": "Húmedo",
+      "pros": [
+        "Fuegos artificiales del 4 de julio",
+        "Calles veraniegas",
+        "Coney Island"
+      ],
+      "cons": [
+        "Olor a basura",
+        "Las plataformas del metro son saunas"
+      ],
+      "clothing": "Tejidos transpirables, desodorante"
+    },
+    {
+      "id": 8,
+      "name": "Agosto",
+      "temp": "21°C - 29°C",
+      "vibe": "Húmedo",
+      "pros": [
+        "Calles de verano (sin coches)",
+        "Abierto de tenis de EE. UU.",
+        "Los habitantes se van"
+      ],
+      "cons": [
+        "Humedad opresiva",
+        "Tormentas repentinas"
+      ],
+      "clothing": "Ropa lo más ligera posible"
+    },
+    {
+      "id": 9,
+      "name": "Septiembre",
+      "temp": "17°C - 25°C",
+      "vibe": "El mejor mes",
+      "pros": [
+        "Festival de San Gennaro",
+        "Clima perfecto",
+        "Semana de la moda"
+      ],
+      "cons": [
+        "Hoteles caros",
+        "Repleto"
+      ],
+      "clothing": "Capas ligeras"
+    },
+    {
+      "id": 10,
+      "name": "Octubre",
+      "temp": "11°C - 18°C",
+      "vibe": "Otoño fresco",
+      "pros": [
+        "Follaje de Central Park",
+        "Desfile de Halloween",
+        "Todo de especia de calabaza"
+      ],
+      "cons": [
+        "Noches más frescas",
+        "Lluvia"
+      ],
+      "clothing": "Chaqueta de cuero, botas, bufanda"
+    },
+    {
+      "id": 11,
+      "name": "Noviembre",
+      "temp": "6°C - 12°C",
+      "vibe": "Preparación de las fiestas",
+      "pros": [
+        "Desfile de Acción de Gracias",
+        "Maratón",
+        "Mercados de Navidad abiertos"
+      ],
+      "cons": [
+        "Atardecer temprano (16h30)",
+        "Frío"
+      ],
+      "clothing": "Abrigo cálido, capas"
+    },
+    {
+      "id": 12,
+      "name": "Diciembre",
+      "temp": "0°C - 7°C",
+      "vibe": "Mágico y Maniaco",
+      "pros": [
+        "Árbol de Rockefeller",
+        "Vitrinas de Navidad",
+        "Energía festiva"
+      ],
+      "cons": [
+        "Multitud inmensa en Midtown",
+        "Caro"
+      ],
+      "clothing": "Abrigo de invierno, paciencia"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "El Código de la Acera: Trate la acera como una carretera. Camine a la derecha, pase a la izquierda. Nunca se detenga en el medio; muévase al lado. Los grupos deben hacerse a un lado para dejar pasar a los demás.",
+      "La Regla de la Mochila: En el metro, quítese la mochila y sosténgala entre sus piernas. Llevarla aumenta su espacio y puede golpear a las personas. Es el marcador turístico número 1.",
+      "La Eficiencia es Respeto: Moverse rápido es cómo los neoyorquinos muestran respeto por el tiempo de los demás. No se detenga en medio de la acera. Muévase a un lado.",
+      "Amable, No Simpático: Un neoyorquino no le sonreirá ni hará charla pequeña, pero si se cae por las escaleras, será el primero en ayudarlo a levantarse. No confunda la rapidez con la grosería.",
+      "Matiz de las Propinas: El 20% antes de impuestos es el mínimo para un servicio en mesa. ¿Mal servicio? Aún así, 15-18%. Para el servicio en el mostrador/tabletas, $1-2 o no dejar nada está bien. En los bares, $1/cerveza o $2/cóctel. Para limpieza, $3-5/día. No es opcional; es su salario.",
+      "La Actitud del Metro: Deje salir a las personas antes de entrar. Póngase a un lado. Si un vagón está vacío en hora pico, NO ENTRE (tiene el aire acondicionado roto o un mal olor).",
+      "Sin Saludos: No diga hola a extraños en ascensores o pasillos. El silencio es privacidad. Se valora la claridad; si necesita ayuda, pregunte directamente y la recibirá.",
+      "Reglas de la Pizza: Doble la porción por la mitad ('estilo Libretto'). Nunca use un tenedor y cuchillo a menos que quiera ser ridiculizado. Pida una porción 'Regular' o 'Sencilla', no 'Queso'.",
+      "Disciplina en la Escalera Mecánica: Póngase a la derecha, camine a la izquierda. Bloquear el lado izquierdo es una ofensa grave.",
+      "Contacto Visual: Nos ignoramos mutuamente para dar privacidad en una ciudad concurrida. Si ve a alguien gritando o hablando consigo mismo (incluidos los 'performers de Showtime'), no interactúe, no mire fijamente, simplemente siga caminando."
+    ],
+    "essential_phrases": [
+      {
+        "src": "Hello",
+        "local": "Hey / Hi",
+        "phonetic": "Estándar"
+      },
+      {
+        "src": "Excuse me (move)",
+        "local": "Cuidado con su espalda",
+        "phonetic": "Estándar"
+      },
+      {
+        "src": "Coffee",
+        "local": "Café Regular",
+        "phonetic": "Significa 'con leche y azúcar'"
+      },
+      {
+        "src": "Train",
+        "local": "El Metro",
+        "phonetic": "No 'Metro' o 'Tube'"
+      },
+      {
+        "src": "Convenience Store",
+        "local": "Bodega",
+        "phonetic": "boh-DAY-gah"
+      },
+      {
+        "src": "Sandwich Order",
+        "local": "Baconeggandcheese",
+        "phonetic": "Una palabra. Agregue 'salpimentaketchup'."
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Chinatown",
+      "vibe": "Ecosistema caótico",
+      "description": "Un barrio denso y rico en especies que da la impresión de ser una ciudad dentro de otra ciudad. No es una trampa para turistas, sino una comunidad vibrante de pescaderos, herbolarios y panaderías. Ofrece la comida más barata y auténtica en Manhattan.",
+      "highlights": [
+        "Doyers Street",
+        "Columbus Park (Mahjong)",
+        "Salones de Dim Sum"
+      ],
+      "image": "/images/new-york/chinatown.jpg"
+    },
+    {
+      "name": "West Village",
+      "vibe": "Encantador y caro",
+      "description": "Antiguamente el centro de la bohemia de los años 1960 y del movimiento por los derechos de los homosexuales (Stonewall), ahora es un parque de diversiones para celebridades. Sus calles sinuosas, fuera de lo común (algunas aún empedradas), desafían el sistema de cuadrícula de Manhattan. La navegación aquí se realiza por puntos de referencia.",
+      "highlights": [
+        "Washington Square Park",
+        "Bleeker Street",
+        "Clubs de jazz"
+      ],
+      "image": "/images/new-york/west-village.jpg"
+    },
+    {
+      "name": "Williamsburg",
+      "vibe": "Chic Hipster",
+      "description": "Antiguamente un duro centro industrial dominado por la refinería de azúcar Domino, se ha transformado en una capital mundial de tendencias. Espere lofts de antiguos almacenes, parques junto al mar y vistas increíbles del horizonte.",
+      "highlights": [
+        "Parque Domino",
+        "Avenida Bedford",
+        "Smorgasburg"
+      ],
+      "image": "/images/new-york/williamsburg.jpg"
+    },
+    {
+      "name": "Astoria & LIC",
+      "vibe": "Mundial y Diversificado",
+      "description": "El corazón de Queens, históricamente arraigado por una importante población griega y los Kaufman Studios. Ofrece auténticos jardines de cerveza y vistas al horizonte sin el precio de Manhattan.",
+      "highlights": [
+        "Museo de la Imagen en Movimiento",
+        "Parque Gantry Plaza",
+        "Tabernas Griegas"
+      ],
+      "image": "/images/new-york/astoria.jpg"
+    },
+    {
+      "name": "Harlem",
+      "vibe": "Historia y Alma",
+      "description": "La cuna de la Renacimiento de Harlem en los años 1920. Sigue siendo una capital cultural con edificios históricos, el legendario Apollo Theater y una energía comunitaria dinámica.",
+      "highlights": [
+        "Apollo Theater",
+        "Sylvia's",
+        "Marcus Garvey Park"
+      ],
+      "image": "/images/new-york/harlem.jpg"
+    },
+    {
+      "name": "Ridgewood",
+      "vibe": "La Cool Frontier",
+      "description": "Identificado como un barrio a vigilar en 2025. Ofrece una mezcla de arquitectura histórica y nuevos lugares culturales, sirviendo como una alternativa más tranquila y ligeramente más asequible a Williamsburg, que ahora está comercializado.",
+      "highlights": [
+        "Arquitectura Histórica",
+        "Cafés Locales",
+        "Lugares Artísticos"
+      ],
+      "image": "/images/new-york/ridgewood.jpg"
+    },
+    {
+      "name": "Bushwick",
+      "vibe": "Industrial y Arte",
+      "description": "El centro de la vida nocturna underground, raves en almacenes y arte callejero. Es menos pulido que Manhattan, ofreciendo una estética más cruda e industrial.",
+      "highlights": [
+        "Colectivo de Arte Callejero",
+        "Fiestas en Almacenes",
+        "Roberta's"
+      ],
+      "image": "/images/new-york/bushwick.jpg"
+    },
+    {
+      "name": "Arthur Avenue (El Bronx)",
+      "vibe": "Verdadera Pequeña Italia",
+      "description": "Conocido como la 'Verdadera Pequeña Italia', este barrio conserva los mercados auténticos, las charcuterías y las familias italianas multigeneracionales que han desaparecido en gran medida de Mulberry Street en Manhattan.",
+      "highlights": [
+        "Mercados minoristas",
+        "Tiendas de pasta fresca",
+        "Enrolladores de cigarros"
+      ],
+      "image": "/images/new-york/arthur-avenue.jpg"
+    },
+    {
+      "name": "Jackson Heights",
+      "vibe": "Épicentre mundial",
+      "description": "El código postal más diverso del planeta. 'Pequeña India/Himalaya' se encuentra con un inmenso centro latinoamericano. El lugar para degustar momos tibetanos y arepas colombianas.",
+      "highlights": [
+        "74ª Calle",
+        "Avenida Roosevelt",
+        "Cocina diversa"
+      ],
+      "image": "/images/new-york/jackson-heights.jpg"
+    },
+    {
+      "name": "Flushing",
+      "vibe": "El verdadero Chinatown",
+      "description": "Una inmensa metrópoli asiática moderna. Ofrece una mayor diversidad de cocinas regionales (sichuanesa, del norte, taiwanesa) que el Chinatown de Manhattan.",
+      "highlights": [
+        "Mercados de comida",
+        "Cocina china regional",
+        "Mercados animados"
+      ],
+      "image": "/images/new-york/flushing.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Cómo moverse",
+      "icon": "Tren",
+      "summary": "El metro es el salvavidas. Los taxis son para la lluvia.",
+      "details": [
+        "OMNY vs. MetroCard: La MetroCard está desapareciendo. Utilice OMNY (toque la tarjeta de crédito/dispositivo) en la barrera. Límite de tarifas: Los viajes son gratis después de su 12° viaje pagado (de lun. a dom.) en el MISMO dispositivo.",
+        "Expreso vs. Local: ¡Crucial! Los trenes 'Expreso' (círculo blanco en el mapa) saltan las estaciones menores. Los trenes 'Local' (círculo negro) se detienen en todas partes. Los locales realizan un 'cambio de andén' para ahorrar tiempo.",
+        "Hora pico: 07:30–10:00 y 16:30–18:30. Los trenes están llenos. Las mochilas fuera. Empujar es física, no agresión.",
+        "Servicio de fin de semana: El metro funciona 24/7, pero las líneas cambian drásticamente los fines de semana por trabajos. Siempre verifique el sitio de la MTA o Citymapper antes de viajar el sáb./dom."
+      ]
+    },
+    {
+      "id": "logistics-dining",
+      "slug": "dining-protocol",
+      "title": "Logística de Restauración",
+      "icon": "Utensils",
+      "summary": "Las propinas son obligatorias. Se evalúa la higiene.",
+      "details": [
+        "La Regla del 20 %: Dejar una propina no es opcional. El 20 % es el estándar para el servicio en la mesa. El 15 % se percibe como malo. 1 $ por bebida en los bares. El personal de servicio depende de las propinas.",
+        "La Calificación: Busque la tarjeta azul 'A' en la ventana del restaurante. Es la calificación del departamento de salud. 'B' o 'C' significa violaciones de higiene. 'Calificación Pendiente' es una apuesta.",
+        "Cultura de Reservación: Para los lugares de moda, no se puede simplemente entrar. Las reservas se abren de 14 a 30 días antes en Resy/OpenTable y desaparecen en segundos. Planifique con anticipación.",
+        "El Asiento en la Barra: NYC es la mejor ciudad para comer solo. Comer en la barra es socialmente aceptable y a menudo es la manera más rápida de conseguir un lugar en restaurantes populares."
+      ]
+    },
+    {
+      "id": "logistics-airports",
+      "slug": "airport-transfers",
+      "title": "Estrategia aeroportuaria",
+      "icon": "Avión",
+      "summary": "¿JFK, LGA o EWR? Elija su opción.",
+      "details": [
+        "JFK (Queens): El AirTrain (8,25 $) se conecta al metro (2,90 $). Es económico (11 $ en total) pero tarda entre 60 y 90 minutos. Los taxis ofrecen una tarifa fija (~70 $ + peajes/propina) hacia Manhattan.",
+        "LGA (Queens): El más cercano a la ciudad, pero no tiene metro. Tome el autobús M60 SBS (transferencia gratuita al metro) o un taxi/Uber (~40-60 $). La zona de recogida de Uber es caótica.",
+        "EWR (Nueva Jersey): Tome el tren NJ Transit hasta Penn Station. Es rápido y fiable. Los taxis desde NJ a NYC son extremadamente costosos (cargos por viajes inter-estatales)."
+      ]
+    },
+    {
+      "id": "logistics-survival",
+      "slug": "local-survival",
+      "title": "Consejos de supervivencia locales",
+      "icon": "Info",
+      "summary": "Cómo sobrevivir en la jungla de concreto.",
+      "details": [
+        "El código de los baños: No existen baños públicos. Utilice la aplicación 'Got2Go' para encontrar códigos. Opciones gratuitas confiables: Bryant Park, Grand Central Terminal, Macy's, Whole Foods.",
+        "Matemáticas de navegación: 20 bloques de calle (Norte-Sur) = 1 milla. Los bloques de avenida (Este-Oeste) son 3 veces más largos. Las calles 'par' van hacia el Este, las calles 'impar' van hacia el Oeste (principalmente).",
+        "Realidad sensorial: Las sirenas son constantes. Se dejan bolsas de basura en las aceras (no hay callejones). En verano, las plataformas de metro están 10-15°F más calientes que la calle."
+      ]
+    },
+    {
+      "id": "logistics-pedestrian",
+      "slug": "pedestrian-law",
+      "title": "El Código de las Aceras",
+      "icon": "User",
+      "summary": "Camíne a la derecha, supere a la izquierda, nunca se detenga.",
+      "details": [
+        "La Regla de Oro: Trate la acera como una autopista. Camíne a la derecha. Supere a la izquierda. No camine en tres en fila.",
+        "Nunca se detenga aquí: Salidas de metro, en la parte superior de las escaleras mecánicas, o esquinas de paso de peatones. Detenerse aquí crea un embotellamiento.",
+        "Póngase a un lado: Si necesita consultar un mapa o enviar un mensaje, acérquese a un edificio. Quedarse inmóvil en el flujo de tráfico es el pecado máximo.",
+        "Cruce ilegal: Legalizado en 2025, pero los coches aún tienen prioridad. Cruce cuando sea seguro, pero mantenga la vigilancia."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "Seguridad y Estafas",
+      "icon": "Escudo",
+      "summary": "Generalmente seguro, pero manténgase alerta.",
+      "details": [
+        "Estafas en Times Square: Hombres que distribuyen CD 'gratuitos' lo intimidarán para obtener dinero. Los personajes disfrazados (Elmo/Mickey) piden más de 20 $ por fotos. Ignórelos.",
+        "Los inestables: Si alguien grita o habla solo, ignórelo completamente. No lo mire, no inicie conversación, simplemente continúe caminando.",
+        "Robo de teléfono: No se quede cerca de las puertas del metro sosteniendo su teléfono de manera despreocupada. Los ladrones lo atrapan justo cuando las puertas se cierran.",
+        "Rickshaws: Evítelos. Cobran tarifas exorbitantes por minuto (5 $ a 10 $/min) y no están regulados."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Aplicaciones para Descargar",
+      "icon": "Smartphone",
+      "summary": "La herramienta digital para Nueva York.",
+      "details": [
+        "Citymapper: Mejor que Google Maps para la navegación en el metro (indica qué vagón tomar).",
+        "Citizen: Alertas de seguridad en tiempo real. Bueno para la concienciación situacional si usted ve actividad policial.",
+        "Resy: El motor principal para las reservas de restaurantes.",
+        "Revel / Uber: Aplicaciones de viaje compartido. Revel cuenta con una flota completamente eléctrica (a menudo más limpia y más reciente)."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "pizza-slice",
+      "name_en": "Tranche a un dólar (1,50 $+)",
+      "name_local": "Una porción",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "La 'Porción' es una categoría de comida distinta en Nueva York—diferente de una 'pizza entera'—y se considera comida rápida para la vida cotidiana. Es una porción triangular, con corteza delgada y grasosa, que se come de pie o caminando. La técnica adecuada consiste en doblarla a lo largo ('estilo Libretto') para que la punta no se caiga. Pida una porción 'Regular' o 'Natural', nunca una 'porción de queso'. Está disponible las 24 horas, los 7 días de la semana en las pizzerías de los cinco distritos.",
+        "vibe": "Rápido, utilitario",
+        "history": "Las porciones de pizza aparecieron en Nueva York en los años 1930-40 cuando los inmigrantes italianos adaptaron la pizza napolitana a la cultura de comida rápida estadounidense. El fenómeno de la 'porción a un dólar' comenzó en los años 2000 con porciones a 1 $, ahora entre 1,50 $-3 debido a la inflación. Se ha convertido en el combustible oficioso de los neoyorquinos en el trabajo.",
+        "insider_tip": "Nunca use cuchillo y tenedor—será juzgado. Doble la porción a la mitad para evitar que la punta se caiga y para contener la grasa. Las porciones de fin de noche (después del bar, 2-4 a.m.) son un ritual en Nueva York. Los métodos de recalentamiento se debaten: sartén vs. horno vs. comer frío. Se encuentran en todas partes, pero evite los lugares turísticos cerca de Times Square.",
+        "price_level": "Asequible",
+        "good_for": [
+          "Comidas rápidas",
+          "Fin de noche"
+        ],
+        "duration": "5 minutos",
+        "best_time": "En cualquier momento (especialmente tarde en la noche)"
+      },
+      "image": "/images/new-york/pizza-slice.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "bagel",
+      "name_en": "Bagel con Lox",
+      "name_local": "Everything Bagel",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Un bagel de NYC es un aro de pan moldeado a mano, hervido y luego horneado, con un interior denso y esponjoso y una corteza brillante. El bagel 'Everything' (cubierto de semillas de sésamo, semillas de amapola, cebolla, ajo, sal) es el pedido emblemático de NYC. Los bagels se sirven con queso crema ('schmear'), lox (salmón ahumado), tomate, cebolla y alcaparras. La 'batalla del tostado' divide a los puristas (nunca tostar lo fresco) de los pragmáticos (tostar si no está fresco).",
+        "vibe": "Clásico, rápido",
+        "history": "Introducido por inmigrantes judíos polacos a finales de 1800. La calidad del agua de NYC (agua dulce con un contenido mineral específico) es lo que se dice que le da su sabor y textura distintivos. La fabricación de bagels fue un oficio protegido hasta la década de 1960. El bagel everything fue inventado en los años 1980 en una tienda del Queens.",
+        "insider_tip": "Conozca su pedido antes de llegar al mostrador - la cola avanza rápidamente y los empleados no tienen paciencia. Un 'schmear' significa una fina capa de queso crema, no un montón. Los bagels frescos de la mañana (antes de las 10 a.m.) no necesitan ser tostados. Pida como un local: 'Everything, lox, schmear, tomate, cebolla.' Se encuentran en las tiendas de bagels y las bodegas de toda la ciudad."
+      },
+      "price_level": "Asequible",
+      "good_for": [
+        "Desayuno",
+        "Brunch"
+      ],
+      "duration": "Snack rápido",
+      "best_time": "Mañana"
+    },
+    {
+      "id": "food-004",
+      "slug": "bacon-egg-cheese",
+      "name_en": "Bacon Egg and Cheese",
+      "name_local": "BEC",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "El BEC (Bacon Egg and Cheese) es el sándwich de desayuno emblemático de las bodegas: huevos fritos, bacon y queso americano en un panecillo (nunca tostado), envuelto en papel de aluminio. Es eficaz, graso, salado y económico (4-6 $). Pídalo de una sola vez en el mostrador de la bodega: 'Baconeggandcheese.' Agregue 'saltpepperketchup' (SPK) para vivir la experiencia completa de la clase trabajadora en Nueva York.",
+        "vibe": "Clase trabajadora, apurado",
+        "history": "El BEC apareció en los años 1950-60 cuando las bodegas (tiendas del vecindario administradas por inmigrantes puertorriqueños y luego yemeníes/dominicanos) añadieron placas de cocción. Se convirtió en el combustible de los trabajadores de la construcción, taxistas y empleados de oficina. El debate entre el panecillo y el bagel es eterno: el panecillo es tradicional, el bagel es burgués.",
+        "insider_tip": "La clave está en la técnica de la bodega: huevos fritos en mantequilla con bordes crujientes, queso derretido directamente sobre los huevos. Pídalo en un 'roll' (Kaiser roll) para mayor autenticidad. Diga 'SPK' (sal, pimienta, ketchup) para hablar como un local. Cómaselo caliente y de inmediato - el papel de aluminio lo mantiene caliente durante exactamente 10 minutos.",
+        "price_level": "Asequible",
+        "good_for": [
+          "Desayuno",
+          "Remedio contra la resaca"
+        ],
+        "duration": "5 minutos",
+        "best_time": "Mañana"
+      },
+      "image": "/images/new-york/bec.jpg"
+    },
+    {
+      "id": "food-010",
+      "slug": "coal-oven-pizza",
+      "name_en": "Pizza al horno de carbón",
+      "name_local": "Whole Pie",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "La pizza al horno de carbón es una comida para disfrutar en el lugar, cocinada en hornos de antracita de más de 100 años a 900°F (480°C), creando una corteza carbonizada, crujiente y ahumada en menos de 3 minutos. Es una experiencia de 'pizza entera', no una porción—usted se sienta, espera en la fila y pide una pizza entera. La corteza burbujea y se mancha ('leoparding'), mientras que el centro se mantiene suave. Es un evento social que requiere planificación y paciencia.",
+        "vibe": "Icónica, carbonizada",
+        "history": "Los hornos de carbón llegaron con los inmigrantes italianos al principio de 1900. Lombardi's (1905) afirma ser la primera pizzería de América. El carbón fue desechado en toda la ciudad en los años 1960 debido a las regulaciones sobre la calidad del aire, pero algunos hornos históricos han sido preservados. Los hornos tienen más de 100 años y son insustituibles.",
+        "insider_tip": "Haga reservaciones o llegue antes de la apertura para evitar esperas de 2 horas. Las pizzerías al horno de carbón no sirven porciones—usted pide una pizza entera. Las manchas carbonizadas (leoparding) son deseables, no quemadas. Los lugares emblemáticos se encuentran en Brooklyn y Manhattan. No pida ingredientes adicionales—la simplicidad es clave (margherita o pizza blanca).",
+        "price_level": "Moderado",
+        "good_for": [
+          "Cena",
+          "Grupos"
+        ],
+        "duration": "1-2 horas",
+        "best_time": "Cena"
+      },
+      "image": "/images/new-york/coal-pizza.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "appetizing-store",
+      "name_en": "Le Comptoir Appétissant",
+      "name_local": "Bagel & Lox",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Un 'Comptoir Appétissant' se distingue d'un 'Deli' (que vende carnes secas) — se especializa en pescado ahumado, productos lácteos y verduras en escabeche. Aquí es donde usted encontrará lox, nova (salmón ahumado en frío), sable (bacalao negro ahumado), ensalada de pescado blanco y queso crema con cebollas verdes. El proceso de pedido es rápido, ruidoso y utiliza boletos numerados. El personal grita los pedidos y corta el pescado a demanda.",
+        "vibe": "Tradicional, eficiente",
+        "history": "Los comptoirs appétissants emergieron a principios de 1900 para servir a los judíos observantes que no podían mezclar carne y productos lácteos. Russ & Daughters (1914) en la Lower East Side es el sobreviviente icónico. El término 'appétissant' se refiere a los alimentos consumidos como entrantes o con pan — pescado, queso, encurtidos.",
+        "insider_tip": "Tome un número y sepa su pedido antes de llegar al mostrador — el personal es rudo pero eficiente. Pida al peso: '1/4 de libra de nova, crema de cebollas verdes, pepinillos agridulces.' El lox es salado y aceitoso; el nova es más suave y ahumado. El sable es más rico que el salmón y un favorito de los conocedores. Consuma el pescado en los 2 días.",
+        "price_level": "Moderado",
+        "good_for": [
+          "Brunch",
+          "Gastrónomos"
+        ],
+        "duration": "30 minutos",
+        "best_time": "Mañana de fin de semana"
+      },
+      "image": "/images/new-york/appetizing.jpg"
+    },
+    {
+      "id": "food-016",
+      "slug": "chopped-cheese",
+      "name_en": "Chopped Cheese",
+      "name_local": "Chopped Cheese",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "El Chopped Cheese es un ícono de Harlem y el Bronx: carne de res picada, cocinada en una plancha con cebollas, mezclada con queso americano derretido hasta que es inseparable, y luego servido en un pan hero con lechuga, tomates y mayonesa. Es un alimento básico de las bodegas de clase trabajadora, similar en espíritu a un Philly cheesesteak. El criterio de autenticidad es que el queso debe estar derretido DENTRO de la carne, y no encima.",
+        "vibe": "Rústico, local",
+        "history": "El Chopped Cheese apareció en las bodegas de Harlem en los años 90, probablemente inspirado en sándwiches de cordero árabes de los dueños de bodegas yemeníes. Se ha extendido a través del Bronx y el Alto Manhattan, manteniéndose hiperlocal hasta los años 2010 cuando fue 'descubierto' por los medios de comunicación de comida y ganó popularidad en toda la ciudad. Todavía es el más auténtico en sus barrios de origen.",
+        "insider_tip": "Pídalo en una bodega en Harlem, en el Bronx o en Washington Heights para mayor autenticidad. La técnica de la plancha es importante: la carne y el queso deben formar una masa cohesiva y derretida. Agregue salsa picante si lo desea. Es una comida de $6-8 que es abundante y grasosa. Evite las versiones gentrificadas en restaurantes de moda.",
+        "price_level": "Asequible",
+        "good_for": [
+          "Almuerzo",
+          "Comida reconfortante"
+        ],
+        "duration": "Snack rápido",
+        "best_time": "Almuerzo o tarde en la noche"
+      },
+      "image": "/images/new-york/chopped-cheese.jpg"
+    },
+    {
+      "id": "food-015",
+      "slug": "nyc-diner",
+      "name_en": "Le Diner",
+      "name_local": "Diner",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "El diner de Nueva York es el hilo cultural de la ciudad: generalmente es propiedad de griegos, a menudo abierto 24/7, con enormes menús laminados que ofrecen de todo, desde ensaladas griegas hasta bolas de matzá y las 'disco fries' (papas fritas con queso y salsa). No es cocina gourmet — es comodidad, constancia y un café siempre lleno. Puede pedir el desayuno a las 15h, la cena a las 7h. El diner acoge a todo el mundo a cualquier hora sin juicios.",
+        "vibe": "Reconfortante, democrático",
+        "history": "Los inmigrantes griegos dominaron los diners de Nueva York desde los años 1950-60, comprando diners de estilo vagón de tren Art Deco y ampliando los menús para complacer a todos. La cultura '24/7' hizo que los diners fueran esenciales para los trabajadores nocturnos, los insomnes y los trasnochadores. Están en declive debido al aumento de los alquileres, pero siguen siendo emblemáticos.",
+        "insider_tip": "Pida las 'disco fries' (papas fritas con queso y salsa marrón — superiores a la poutine). Los rellenos de café son infinitos y gratuitos. Los diners sirven desayuno todo el día — es la ley. Las cabinas son asientos privilegiados. Las propinas son del 15 al 20%. Los diners son zonas sin juicios: puede quedarse horas disfrutando de un café. Se encuentran en toda la ciudad, especialmente en Queens.",
+        "price_level": "Asequible",
+        "good_for": [
+          "Noche tardía",
+          "Comida reconfortante"
+        ],
+        "duration": "1 hora",
+        "best_time": "Noche tardía o desayuno"
+      },
+      "image": "/images/new-york/diner.jpg"
+    },
+    {
+      "id": "food-013",
+      "slug": "cheesecake",
+      "name_en": "Cheesecake NY",
+      "name_local": "Cheesecake",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "El cheesecake neoyorquino es denso, rico y horneado, no airy. Se prepara con crema espesa, queso crema (la marca Philadelphia es canónica), huevos y azúcar sobre una corteza de galleta Graham. La textura es firme y cremosa, nunca ligera. A menudo se sirve solo, sin cobertura de frutas, aunque una cobertura de fresas es aceptable. Una porción es suficientemente grande como para constituir una comida y requiere un enfoque estratégico para ser disfrutada.",
+        "vibe": "Rico, indulgente",
+        "history": "El cheesecake llegó con inmigrantes judíos que adaptaron recetas europeas utilizando queso crema americano (inventado en 1872). Junior's en Brooklyn (1950) y Lindy's en Manhattan (1921-cerrado) se han vuelto legendarios. El estilo neoyorquino (horneado, denso) contrasta con las versiones italianas (a base de ricotta) y japonesas (ligeras, temblorosas).",
+        "insider_tip": "Junior's en Brooklyn es el más famoso, pero muchos delis y diners sirven excelentes variantes. Cómaselo frío, nunca a temperatura ambiente. Una porción es enorme, piense en compartir. Solo o con una cobertura de fresas son tradicionales; el chocolate u otros sabores son trampas para turistas. Acompáñelo con un café negro para cortar la riqueza.",
+        "price_level": "Asequible",
+        "good_for": [
+          "Postre",
+          "Compartir"
+        ],
+        "duration": "20 minutos",
+        "best_time": "Después de la cena"
+      },
+      "image": "/images/new-york/cheesecake.jpg"
+    },
+    {
+      "id": "food-017",
+      "slug": "hot-dog",
+      "name_en": "Hot-Dogs de Rue",
+      "name_local": "Dirty Water Dog",
+      "category": "aliment",
+      "is_generic_staple": true,
+      "description": {
+        "short": "El hot-dog de la calle de NYC (afectuosamente llamado 'dirty water dog') es un frankfurter de res o cerdo hervido en agua de un carrito de metal, servido en un pan al vapor con coberturas opcionales: mostaza, chucrut, cebollas en salsa de tomate y relish. Se venden por vendedores con paraguas desde carritos metálicos icónicos. Es barato (2-4 $), rápido y se come mientras se camina. El término 'dirty water' se refiere al agua turbia que hierve los hot-dogs todo el día.",
+        "vibe": "Icónico, urbano",
+        "history": "Los carritos de hot-dogs llegaron con los inmigrantes alemanes en las décadas de 1860-1870. Nathan's Famous en Coney Island (1916) se convirtió en el proveedor más famoso. A principios de 1900, los carritos de la calle eran omnipresentes. El diseño del carrito de metal y el método de cocción en agua sucia se convirtieron en firmas de NYC. Gray's Papaya y Papaya King (1932) ofrecen versiones a precios asequibles para sentarse.",
+        "insider_tip": "La combinación clásica de coberturas es mostaza y chucrut—nunca ketchup (los locales lo juzgarán). Las cebollas en la salsa de tomate son una especialidad de NYC. Cómaselo en 4-5 bocados antes de que el pan se deshaga. Los carritos se agrupan cerca de las salidas del metro, de los sitios turísticos y frente a los bares a las 2 a.m. Nathan's en Coney Island es el sitio de peregrinación.",
+        "price_level": "Asequible",
+        "good_for": [
+          "Aperitivo rápido",
+          "Tarde en la noche"
+        ],
+        "duration": "5 minutos",
+        "best_time": "En cualquier momento"
+      },
+      "image": "/images/new-york/hot-dog.jpg"
+    },
+    {
+      "id": "food-014",
+      "slug": "street-carts",
+      "name_en": "Prézel et Noix de Rue",
+      "name_local": "Carrito de Calle",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Los carritos de calle venden pretzels calientes y esponjosos (grandes, salados, esponjosos) con mostaza, y nueces tostadas (cacahuetes caramelizados, anacardos, almendras) asadas en el lugar en tambores rotativos. El olor de las nueces tostadas es el aroma del invierno en NYC. Son económicos (2-5 $), rápidos y se consumen mientras se camina hacia el metro o entre las compras. Los pretzels son densos y requieren un esfuerzo serio de la mandíbula.",
+        "vibe": "Nostálgico, reconfortante",
+        "history": "Los pretzels esponjosos llegaron con los inmigrantes alemanes en el siglo XIX. La cultura de los carritos de calle estalló a principios del siglo XX cuando los inmigrantes encontraron oportunidades empresariales. Los emblemáticos carritos metálicos se regularon por la ciudad. Las nueces tostadas se añadieron a mediados del siglo XX a medida que los vendedores diversificaban sus ofertas. El olor de las nueces tostadas ahora es sinónimo de las esquinas de la calle en NYC.",
+        "insider_tip": "Los pretzels son mejores con mostaza amarilla—ningún otro condimento. Son densos y saciantes, constituyendo esencialmente una comida. Los cacahuetes tostados son el sabor de nuez más popular. Cómprelos en bolsas de papel y cómelos calientes. Los carritos se agrupan cerca de las estaciones de metro y de los edificios de oficinas durante el almuerzo. El invierno es la temporada ideal para los pretzels y las nueces.",
+        "price_level": "Asequible",
+        "good_for": [
+          "Picar",
+          "Invierno"
+        ],
+        "duration": "5 minutos",
+        "best_time": "Invierno, en cualquier momento"
+      },
+      "image": "/images/new-york/street-nuts.jpg"
+    },
+    {
+      "id": "food-018",
+      "slug": "black-white-cookie",
+      "name_en": "Cookie Noir et Blanc",
+      "name_local": "Cookie Noir et Blanc",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "El Cookie Noir et Blanc es una galleta suave, similar a un pastel (alrededor de 10 cm de diámetro) con una parte superior plana cubierta de glaseado de chocolate de un lado y de glaseado de vainilla del otro. Se parece más a un pastel en forma de galleta que a una verdadera galleta: tierno y esponjoso. A pesar de su nombre, no es realmente una galleta (sin crujiente). Se vende en delicatessen, panaderías y bodegas en toda Nueva York y se consume como merienda o postre con café.",
+        "vibe": "Dulce, nostálgico",
+        "history": "Creado por la Glaser's Bake Shop en el barrio de Yorkville (barrio alemán-judío) a principios de 1900. Originalmente llamado 'galletas media luna', se convirtieron en 'negras y blancas'. El dulce ganó popularidad gracias a un episodio de Seinfeld donde Jerry lo usaba como metáfora de la armonía racial. Es típicamente neoyorquino—raramente se encuentra fuera de la ciudad.",
+        "insider_tip": "Cómaselo alternando los bocados para obtener tanto chocolate como vainilla en cada bocado—es una técnica aprobada por Seinfeld. El pastel debe ser suave y fresco, no seco. Cómplelo en panaderías judías tradicionales o delicatessen, no en Starbucks (inferior). Mejor acompañado de café negro. No es un artículo para el desayuno—es una merienda de la tarde o un postre.",
+        "price_level": "Asequible",
+        "good_for": [
+          "Merienda",
+          "Acompañamiento de café"
+        ],
+        "duration": "10 minutos",
+        "best_time": "Tarde"
+      },
+      "image": "/images/new-york/black-white-cookie.jpg"
+    },
+    {
+      "id": "food-019",
+      "slug": "knish",
+      "name_en": "Knish",
+      "name_local": "Knish",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Un knish es un dumpling cocido o frito de origen judío de Europa del Este: una bola de puré de patatas envuelta en masa, ya sea redonda o cuadrada. Los rellenos varían (patatas, kasha, espinacas, queso) pero la patata es la clásica. Es denso, sustancioso, barato ($3-5), y se sirve caliente. Se come con las manos, a menudo con mostaza. Es el combustible de la clase trabajadora: una comida caliente y portátil en un solo paquete.",
+        "vibe": "Reconfortante, a la antigua",
+        "history": "Traído por inmigrantes judíos de Ucrania y Polonia a finales de 1800. La panadería Yonah Schimmel's Knish (1910) en el Lower East Side es la knisher más antigua que aún sobrevive y utiliza recetas originales. Los knishes eran vendidos por vendedores ambulantes en cajas calientes a lo largo de los años 1900. La forma cuadrada (en lugar de la redonda) es una firma de Yonah Schimmel.",
+        "insider_tip": "Pida un knish de patatas con mostaza: es la combinación tradicional. Yonah Schimmel's en Houston Street es el lugar de peregrinación (desde 1910). El knish debe estar caliente, denso y sustancioso: es una comida, no un bocadillo. Kasha (trigo sarraceno) es el segundo sabor más popular. Se encuentra en los delis y panaderías judías, cada vez más raro fuera del Lower East Side.",
+        "price_level": "Asequible",
+        "good_for": [
+          "Tentempié",
+          "Comida reconfortante"
+        ],
+        "duration": "10 minutos",
+        "best_time": "En cualquier momento"
+      },
+      "image": "/images/new-york/knish.jpg"
+    },
+    {
+      "id": "food-011",
+      "slug": "dim-sum",
+      "name_en": "Dim Sum & Dumplings",
+      "name_local": "Dim Sum",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "La escena gastronómica china de Nueva York tiene raíces en olas de inmigración hacia el Chinatown de Manhattan y luego Flushing, Queens. El dim sum es una tradición cantonesa de pequeños platos (dumplings, bollos, rollos) servidos desde carros rodantes o pedidos a la carta, tradicionalmente consumidos durante el brunch. Los dumplings de sopa (xiao long bao) – dumplings de cerdo rellenos de caldo caliente – son los protagonistas. La experiencia culinaria es ruidosa, comunitaria y rápida.",
+        "vibe": "Animado, auténtico",
+        "history": "Los inmigrantes cantoneses establecieron Chinatown entre 1870 y 1900. El dim sum llegó a principios de 1900, con el servicio de carros convirtiéndose en estándar a mediados de siglo. El Chinatown de Flushing (Queens) creció explosivamente en las décadas de 1980 y 1990 con inmigrantes de China continental, Taiwán y Hong Kong, trayendo una diversidad regional. Nueva York ahora compite con Hong Kong en términos de autenticidad.",
+        "insider_tip": "Visite Flushing para la comida china más auténtica y diversa: Sichuan, del Norte, taiwanesa, y más. El dim sum se consume tradicionalmente de 10 a 14 horas durante los fines de semana. Los dumplings de sopa (xiao long bao) requieren técnica: haga un pequeño agujero, sorba el caldo y luego cómalo. Los carros han desaparecido; la mayoría de los lugares ahora utilizan hojas de pedido. Lleve efectivo; muchos lugares no aceptan tarjetas.",
+        "price_level": "Asequible",
+        "good_for": [
+          "Grupos",
+          "Brunch"
+        ],
+        "duration": "1-2 horas",
+        "best_time": "Brunch del fin de semana"
+      },
+      "image": "/images/new-york/dim-sum.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "pastrami",
+      "name_en": "Pastrami sur seigle",
+      "name_local": "Sándwich de Pastrami",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "El pastrami sobre centeno es un ícono de los delis judíos: un brisket de res marinado en especias durante semanas, frotado con granos de pimienta y cilantro, ahumado durante horas y luego cocido al vapor hasta que esté tierno con un tenedor. Se corta a mano en una pila impresionante (a menudo 450 g de carne) sobre pan de centeno con mostaza, sin mayonesa ni lechuga. Katz's Delicatessen (desde 1888) en el Lower East Side es el estandarte histórico. El sándwich es desordenado, masivo y requiere dos manos.",
+        "vibe": "Histórico, gourmet",
+        "history": "El pastrami llegó con inmigrantes judíos rumanos a finales de 1800, quienes adaptaron el pastramă rumano (ganso seco). Al usar brisket de res más barato, crearon la versión de NYC. Katz's Deli abrió en 1888 y ha sobrevivido a generaciones. La campaña de la Segunda Guerra Mundial 'Envíen un salami a su chico en el ejército' es legendaria. La cultura del deli alcanzó su apogeo a mediados del siglo XX, pero declinó a medida que las comunidades judías se dispersaron.",
+        "insider_tip": "Pida en Katz's: tome un ticket en la puerta (no lo pierda, de lo contrario pagará una multa de 50 $), pida pastrami sobre centeno con mostaza en el mostrador, déle al cortador una propina de 1-2 $ por más carne. No pida mayonesa - es un pecado capital. Compartir es una buena idea; el sándwich pesa más de 450 g. Vaya fuera de las horas pico (14:00-16:00 entre semana) para evitar las colas."
+      },
+      "price_level": "Caro",
+      "good_for": [
+        "Almuerzo",
+        "Experiencia"
+      ],
+      "duration": "1 hora",
+      "best_time": "Almuerzo",
+      "image": "/images/new-york/pastrami.jpg"
+    },
+    {
+      "id": "food-005",
+      "slug": "halal-cart",
+      "name_en": "Poulet sur Riz",
+      "name_local": "Halal Cart",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "El Poulet sur Riz es el rey moderno de la comida callejera en Nueva York: pollo picante desmenuzado (o cordero) sobre arroz amarillo con cúrcuma, lechuga, tomates y la famosa 'salsa blanca' (a base de mayonesa y yogur) y una 'salsa roja' opcional (muy picante estilo harissa). Se sirve en envases de espuma a partir de carritos metálicos amarillos. Originalmente creado para taxistas musulmanes que necesitaban comidas halal rápidas, ahora está presente en toda la ciudad, disponible 24/7 en cientos de carritos.",
+        "vibe": "Rápido, satisfactorio",
+        "history": "Los carritos halal surgieron en los años 1990 cuando inmigrantes de Oriente y del sur de Asia (en particular egipcios, yemeníes, bangladesíes) se convirtieron en taxistas y necesitaban comida halal. El carrito 53rd & 6th (The Halal Guys) se volvió legendario, generando imitadores en toda la ciudad. En los años 2000-2010, el pollo sobre arroz se convirtió en la comida nocturna por defecto en Nueva York, compitiendo con la pizza.",
+        "insider_tip": "Pida la 'salsa blanca' y decida si puede soportar la 'salsa roja' (extremadamente picante - comience con un poco). Los Halal Guys en 53rd & 6th son los más famosos, pero tienen largas filas de espera. Cualquier carrito con una fila de locales es bueno. Pida 'combo sobre arroz' para obtener tanto pollo como cordero. Abierto hasta tarde - perfecto para el hambre después del bar a las 2 a.m. Pago en efectivo solamente en la mayoría de los carritos.",
+        "price_level": "Asequible",
+        "good_for": [
+          "Fin de noche",
+          "Comidas rápidas"
+        ],
+        "duration": "10 minutos",
+        "best_time": "Fin de noche"
+      },
+      "image": "/images/new-york/halal.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Parques y Naturaleza",
+      "id": "parks",
+      "items": [
+        {
+          "id": "park-001",
+          "slug": "central-park",
+          "name_en": "Central Park",
+          "name_local": "Central Park",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Central Park es un parque completamente artificial de 843 acres en el corazón de Manhattan, diseñado en 1857 por Frederick Law Olmsted y Calvert Vaux. Requirió el desplazamiento de millones de carretadas de tierra y fue concebido como un 'espacio democrático' donde todas las clases sociales podrían convivir. El parque contiene bosques, praderas, lagos, teatros, pistas de patinaje y el Museo Metropolitano. No se quede solo en la entrada—descubra en profundidad The Ramble (bosques salvajes), Bow Bridge o Bethesda Fountain.",
+            "vibe": "Pacífico, icónico",
+            "history": "Central Park fue el primer gran parque público de Nueva York, un concepto revolucionario en urbanismo. Se construyó entre 1858 y 1873 en un terreno rocoso y pantanoso. Los diseñadores crearon una ilusión de naturaleza rural en el corazón urbano. Los candelabros están numerados para ayudar en la navegación—los dos primeros dígitos indican la calle más cercana.",
+            "insider_tip": "Utilice los números de los candelabros para orientarse: los dos primeros dígitos le indican la calle transversal más cercana (por ejemplo, 7801 = cerca de la calle 78). The Ramble (zona boscosa) ofrece una verdadera soledad. Alquile bicicletas en la calle 59 para cubrir más terreno. Evite las carrozas (trampas turísticas demasiado caras). Visite Strawberry Fields (monumento a John Lennon) temprano por la mañana para evitar las multitudes.",
+            "price_level": "Asequible",
+            "good_for": [
+              "Caminar",
+              "Naturaleza"
+            ],
+            "duration": "2-4 horas",
+            "best_time": "Mañana o fin de tarde"
+          },
+          "image": "/images/new-york/central-park.jpg",
+          "geo": {
+            "lat": 40.7829,
+            "lng": -73.9654
+          }
+        },
+        {
+          "id": "park-004",
+          "slug": "high-line",
+          "name_en": "The High Line",
+          "name_local": "The High Line",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The High Line es un parque lineal elevado de 1,45 millas construido sobre una antigua línea de ferrocarril a 30 pies sobre el nivel de la calle. Se serpentea a través de edificios desde el Meatpacking District hasta Hudson Yards, presentando plantaciones autóctonas, arte público y perspectivas únicas sobre la ciudad. Es una obra maestra de reutilización adaptativa y arquitectura paisajística que ha transformado una línea de ferrocarril oxidada en uno de los parques más populares de Nueva York.",
+            "vibe": "Moderno, elevado",
+            "history": "Construido en la década de 1930 para trenes de carga que servían a la industria de la carne y la fabricación, la línea de ferrocarril se abandonó en 1980. Prevista para ser demolida, activistas locales la salvaron en 1999. La firma de arquitectura paisajística James Corner Field Operations la convirtió en parque (2009-2014). Esto generó una masiva gentrificación y un desarrollo inmobiliario en Chelsea.",
+            "insider_tip": "Entrar por la calle Gansevoort (lado sur) y caminar hacia el norte para evitar las multitudes caminando en sentido inverso. Venga temprano por la mañana (7 a.m.) o a última hora de la noche para menos turistas. Las mejores vistas están cerca de la calle 23 con vistas a la ciudad. Se ofrecen visitas gratuitas algunos días. Evite el Chelsea Market demasiado caro y coma en otro lugar. Combine con el Museo Whitney (en el extremo sur).",
+            "price_level": "Asequible",
+            "good_for": [
+              "Caminar",
+              "Arquitectura"
+            ],
+            "duration": "1 hora",
+            "best_time": "Temprano por la mañana o al atardecer"
+          },
+          "image": "/images/new-york/high-line.jpg",
+          "geo": {
+            "lat": 40.7484,
+            "lng": -74.0049
+          }
+        },
+        {
+          "id": "park-002",
+          "slug": "prospect-park",
+          "name_en": "Prospect Park",
+          "name_local": "Prospect Park",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Prospect Park es la obra maestra de Brooklyn, extendiéndose sobre 526 acres, diseñado por Olmsted y Vaux (los mismos diseñadores que Central Park). Ellos consideraron esto como su parque 'mejor' porque no estaban restringidos por la cuadrícula rectangular de Manhattan. Presenta la Long Meadow (90 acres de espacio verde ininterrumpido), un lago, bosques y el Prospect Park Bandshell. Es menos cuidado y más naturalista que Central Park.",
+            "vibe": "Relajado, verde",
+            "history": "Terminado en 1873, Prospect Park fue diseñado después de Central Park e incorporó las lecciones aprendidas. La Long Meadow es la pradera continua más larga de cualquier parque estadounidense. El parque estuvo a punto de caer en ruinas en las décadas de 1970-80, pero fue restaurado en las décadas de 1990-2000 por activistas locales y financiamiento.",
+            "insider_tip": "La Long Meadow es perfecta para picnics y frisbees—los locales afirman que es superior al Sheep Meadow de Central Park. El Prospect Park Bandshell alberga conciertos gratuitos en verano. El lago está lleno para la pesca. Smorgasburg (mercado de alimentos) se instala aquí los domingos en verano. Menos concurrido que Central Park—es aquí donde realmente salen los brooklynitas.",
+            "price_level": "Asequible",
+            "good_for": [
+              "Picnics",
+              "Relajación"
+            ],
+            "duration": "2-3 horas",
+            "best_time": "Tarde o fin de semana"
+          },
+          "image": "/images/new-york/prospect-park.jpg",
+          "geo": {
+            "lat": 40.6602,
+            "lng": -73.969
+          }
+        },
+        {
+          "id": "park-003",
+          "slug": "washington-square",
+          "name_en": "Washington Square Park",
+          "name_local": "Washington Square",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Washington Square Park es el corazón de 9,75 acres de Greenwich Village y el mejor lugar para observar personas en Nueva York. Está centrado en el icónico arco de mármol (inspirado en el Arco de Triunfo en París) y presenta la famosa fuente. Históricamente un campo de alfareros (tumba común para los pobres), se convirtió en el epicentro de los movimientos Beatnik y Folk de los años 1960. Hoy en día, está lleno de músicos callejeros, jugadores de ajedrez, estudiantes de NYU y la pura energía de Nueva York.",
+            "vibe": "Vibrante, ecléctico",
+            "history": "Originalmente un campo de alfareros y un lugar de ejecución pública (el árbol de ahorcamiento se mantuvo hasta la década de 1820). Se convirtió en un terreno de desfile, luego en un parque en la década de 1870. El arco de Washington fue construido en 1892. En las décadas de 1950-60, fue el centro del renacimiento de la música folk (Bob Dylan se presentó allí). Es un sitio constante de contracultura y protesta.",
+            "insider_tip": "Vea a los jugadores de ajedrez jugar partidas rápidas por dinero en la esquina suroeste—son hábiles y entretenidos. Los músicos callejeros tocan a diario (especialmente los fines de semana). La fuente es el centro social—siéntese en el borde para observar a la humanidad. Evítelo por la noche (se vuelve dudoso). Combine con la exploración de las sinuosas calles del West Village cercanas.",
+            "price_level": "Asequible",
+            "good_for": [
+              "Observación de personas",
+              "Música"
+            ],
+            "duration": "1 hora",
+            "best_time": "Tarde o fin de semana"
+          },
+          "image": "/images/new-york/washington-square.jpg",
+          "geo": {
+            "lat": 40.7308,
+            "lng": -73.9973
+          }
+        }
+      ]
+    },
+    {
+      "title": "Mercados y Vida Local",
+      "id": "marches",
+      "items": [
+        {
+          "id": "mar-01",
+          "slug": "union-square",
+          "name_en": "Mercado de Union Square",
+          "name_local": "Union Square",
+          "category": "sitio",
+          "is_generic_staple": false,
+          "description": {
+            "short": "El mercado de Union Square es el mercado de agricultores más famoso de Nueva York, abierto todo el año los lunes, miércoles, viernes y sábados. Más de 100 agricultores de la región venden productos, carnes, quesos, panes y flores directamente a los consumidores. También es un importante centro de transporte (seis líneas de metro) y un sitio histórico de manifestaciones y reuniones políticas. El mercado encarna el vínculo de Nueva York con las granjas del norte del estado y la cultura alimentaria local.",
+            "vibe": "Animado, local",
+            "history": "El Greenmarket comenzó en 1976 con solo 12 agricultores mientras la cultura alimentaria de Nueva York estaba en declive. Esto revitalizó el vínculo entre la granja y la ciudad y lanzó el movimiento de mercados de agricultores a nivel nacional. Union Square en sí ha sido un sitio de protesta y reunión desde el siglo XIX, desde manifestaciones de trabajadores hasta memoriales del 11 de septiembre.",
+            "insider_tip": "Visite el sábado para tener más vendedores (más de 100). Llegue temprano (8-9h) para obtener la mejor selección antes de que los trabajadores de oficina lleguen a la hora del almuerzo. Compre donuts de sidra de manzana y jarabe de arce de vendedores del norte del estado. Muchos agricultores prefieren el pago en efectivo. La plaza también es ideal para observar a la gente: artistas callejeros, jugadores de ajedrez y activistas políticos.",
+            "price_level": "Moderado",
+            "good_for": [
+              "Gourmets",
+              "Compras"
+            ],
+            "duration": "1 hora",
+            "best_time": "Sábado por la mañana"
+          },
+          "image": "/images/new-york/union-square.jpg",
+          "geo": {
+            "lat": 40.7359,
+            "lng": -73.9911
+          }
+        },
+        {
+          "id": "mar-02",
+          "slug": "queens-night-market",
+          "name_en": "Mercado Nocturno de Queens",
+          "name_local": "Queens Night Market",
+          "category": "sitio",
+          "is_generic_staple": false,
+          "description": {
+            "short": "El Mercado Nocturno de Queens es un mercado al aire libre estacional (de abril a octubre, sábados de 17h a medianoche) en el New York Hall of Science en el parque Flushing Meadows-Corona. Ofrece más de 100 vendedores con comida callejera global del barrio más diverso del mundo, con todos los platos limitados a un máximo de 6 $. El mercado destaca las comunidades inmigrantes de Queens: momos tibetanos, anticuchos peruanos, sisig filipino, arepas colombianas. Es auténtico, barato y centrado en la comunidad.",
+            "vibe": "Festivo, diverso",
+            "history": "Iniciado en 2015 por John Wang para resaltar las cocinas inmigrantes de Queens y apoyar a los pequeños vendedores. El límite de precio de 6 $ garantiza la accesibilidad. El mercado pasó de 40 a más de 100 vendedores, convirtiéndose en uno de los eventos culinarios más populares de Nueva York. Celebra el hecho de que Queens es el lugar más lingüísticamente diverso del mundo (más de 138 idiomas hablados).",
+            "insider_tip": "Llegue antes de las 18h para evitar las enormes multitudes (la afluencia es entre 19h y 21h). Lleve dinero en efectivo, muchos vendedores no aceptan tarjetas. El límite de 6 $ se aplica estrictamente: es realmente asequible. Pruebe platos que nunca ha escuchado de otras comunidades inmigrantes. Vaya con hambre y un plan para probar de 5 a 6 platos. Encontrar estacionamiento es un desafío; tome el tren 7 hasta Mets-Willets Point.",
+            "price_level": "Asequible",
+            "good_for": [
+              "Gourmets",
+              "Grupos"
+            ],
+            "duration": "2-3 horas",
+            "best_time": "Sábado por la noche (de abril a octubre)"
+          },
+          "image": "/images/new-york/queens-market.jpg",
+          "geo": {
+            "lat": 40.7456,
+            "lng": -73.8464
+          }
+        }
+      ]
+    },
+    {
+      "title": "Vistas e Íconos",
+      "id": "views",
+      "items": [
+        {
+          "id": "view-003",
+          "slug": "staten-island-ferry",
+          "name_en": "Ferry de Staten Island",
+          "name_local": "El Ferry",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "El Ferry de Staten Island es un servicio de ferry gratuito y este disponible las 24 horas del día, los 7 días de la semana, que conecta Manhattan (Terminal Whitehall) con Staten Island (St. George). El trayecto de 25 minutos ofrece vistas espectaculares de la Estatua de la Libertad, Ellis Island y el horizonte de Lower Manhattan sin gastar un centavo. Es la mejor atracción gratuita de Nueva York. Los locales beben cerveza a bordo (vendida en el ferry). Puede simplemente hacer ida y vuelta sin salir del terminal: los turistas lo hacen por las vistas.",
+            "vibe": "Icónico, gratuito",
+            "history": "El servicio de ferry se remonta a los años 1700, pero se gestionó por la municipalidad en 1905. Transporta 25 millones de pasajeros al año, principalmente commuters, pero también turistas. La flota de ferries fue modernizada entre 2000 y 2010. Ha aparecido en innumerables películas y videos musicales como una experiencia emblemática de Nueva York.",
+            "insider_tip": "Suba por el lado correcto (mirando hacia adelante) para ver la Estatua de la Libertad en dirección a Staten Island; del lado izquierdo para ver el horizonte al regresar a Manhattan. Vaya al atardecer para disfrutar de una luz dorada. No baje del ferry en Staten Island a menos que desee explorar: permanezca a bordo y regrese. Se vende cerveza a bordo. Es 100% gratuito, no se necesita boleto.",
+            "price_level": "Asequible",
+            "good_for": [
+              "Vistas",
+              "Viajes low cost"
+            ],
+            "duration": "1 hora (ida y vuelta)",
+            "best_time": "Atardecer"
+          },
+          "image": "/images/new-york/staten-island-ferry.jpg",
+          "geo": {
+            "lat": 40.7011,
+            "lng": -74.0135
+          }
+        },
+        {
+          "id": "view-001",
+          "slug": "brooklyn-bridge-park",
+          "name_en": "Parc du Pont de Brooklyn",
+          "name_local": "DUMBO Waterfront",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "El Parque del Puente de Brooklyn ofrece las mejores vistas del horizonte de Manhattan, enmarcado por el Puente de Brooklyn (terminado en 1883), el primer puente colgante de acero del mundo. El parque se extiende a lo largo de 1,3 millas a lo largo de los muelles de Brooklyn en DUMBO con varios muelles, praderas, áreas de juegos y puntos icónicos para fotos. Cruce el puente mismo para encontrar senderos peatonales/ciclistas con vistas impresionantes. La construcción del puente costó la vida del diseñador John Roebling (un pie aplastado causó tétano).",
+            "vibe": "Escénico, histórico",
+            "history": "El Puente de Brooklyn se inauguró en 1883 después de 14 años de construcción y 27 muertes de trabajadores. Se le llamó la 'Octava Maravilla del Mundo'. El parque debajo fue creado en 2010, convirtiendo muelles abandonados y riberas industriales. El barrio de DUMBO (Down Under Manhattan Bridge Overpass) pasó de industrial a residencial en los años 1990-2000.",
+            "insider_tip": "Camina sobre el Puente de Brooklyn temprano por la mañana (7-8 am) para evitar las abrumadoras multitudes de turistas. Comienza en Brooklyn y camina hacia Manhattan para obtener mejores vistas frente a usted. El parque Main Street en DUMBO tiene el icónico atractivo de Instagram (puente enmarcado por edificios). Pebble Beach y el carrusel de Jane están cerca. Evite caminar sobre el puente los fines de semana (masificado).",
+            "price_level": "Asequible",
+            "good_for": [
+              "Fotografía",
+              "Paseo"
+            ],
+            "duration": "1-2 horas",
+            "best_time": "Temprano por la mañana o al atardecer"
+          },
+          "image": "/images/new-york/brooklyn-bridge-park.jpg",
+          "geo": {
+            "lat": 40.7003,
+            "lng": -73.9967
+          }
+        },
+        {
+          "id": "view-002",
+          "slug": "top-of-the-rock",
+          "name_en": "Top of the Rock",
+          "name_local": "Rockefeller Center",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "El Top of the Rock es el mirador situado en la cima del Rockefeller Center (70 pisos, 850 pies) con vistas de 360° de Manhattan, Central Park y el Empire State Building. Construido en 1933 en estilo Art Déco, ofrece mejores vistas que el Empire State Building, ya que se puede ver el Empire State Building desde aquí. Tres niveles de terrazas al aire libre permiten vistas despejadas. El atardecer es el mejor momento, pero se necesitan boletos con horarios fijos.",
+            "vibe": "Clásico, panorámico",
+            "history": "El Rockefeller Center se construyó de 1931 a 1939 durante la Gran Depresión como un complejo masivo Art Déco. El Top of the Rock se inauguró inicialmente en 1933, se cerró en los años 80 y reabrió en 2005 tras su renovación. La tradición de iluminar el árbol de Navidad comenzó en 1933. La pista de patinaje se inauguró en 1936.",
+            "insider_tip": "Reserve los boletos con horarios fijos en línea varios días antes: los horarios del atardecer se venden rápidamente. Llega 30 minutos antes de tu horario. La cima (70º piso) no tiene barreras, solo vidrio: mejor para fotos que la cerca del Empire State. Los boletos para el amanecer son los más baratos y menos concurridos. Evite el boleto VIP: no vale el costo adicional. Vaya en invierno para ver el árbol de Navidad.",
+            "price_level": "Caro",
+            "good_for": [
+              "Vistas",
+              "Fotografía"
+            ],
+            "duration": "1 hora",
+            "best_time": "Atardecer"
+          },
+          "image": "/images/new-york/top-rock.jpg",
+          "geo": {
+            "lat": 40.7587,
+            "lng": -73.9787
+          }
+        },
+        {
+          "id": "view-004",
+          "slug": "summit-one",
+          "name_en": "Summit One Vanderbilt",
+          "name_local": "Summit",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Summit One Vanderbilt es la nueva experiencia de observación de Nueva York, inaugurada en 2021 en la cima de la torre One Vanderbilt (1,401 pies) al lado de Grand Central. Es una instalación artística inmersiva con salas de espejos, suelos de vidrio y cornisas de vidrio exteriores que crean reflexiones infinitas y perspectivas vertiginosas sobre Midtown. Es un lugar centrado en Instagram y experiencial: tanto un mirador como un museo de arte. Muy moderno, muy teatral.",
+            "vibe": "Moderno, inmersivo",
+            "history": "One Vanderbilt se completó en 2020 como uno de los edificios más altos de Nueva York. Summit se abrió en 2021 con instalaciones del artista Kenzo Digital. Se ha convertido rápidamente en una de las atracciones más populares de Nueva York, enfocándose en la 'experiencia' en lugar de en la observación tradicional. El edificio está directamente conectado a la estación Grand Central.",
+            "insider_tip": "Reserve boletos con horarios fijos en línea con semanas de antelación: se agotan rápido. Los boletos para el atardecer y la noche son los más caros pero los más dramáticos. Las salas de espejos crean reflexiones infinitas: use algo que desee fotografiar. La cornisa de vidrio exterior ('Ascent') requiere un boleto separado y coraje. Vaya en medio de la semana para evitar las multitudes del fin de semana. Vístase bien: es un lugar de moda y orientado a la fotografía.",
+            "price_level": "Caro",
+            "good_for": [
+              "Instagram",
+              "Arte moderno"
+            ],
+            "duration": "1-2 horas",
+            "best_time": "Atardecer o noche"
+          },
+          "image": "/images/new-york/summit.jpg",
+          "geo": {
+            "lat": 40.7527,
+            "lng": -73.9776
+          }
+        }
+      ]
+    },
+    {
+      "title": "Museos",
+      "id": "museums",
+      "items": [
+        {
+          "id": "mus-001",
+          "slug": "the-met",
+          "name_en": "The Met",
+          "name_local": "Museo Metropolitano",
+          "category": "sitio",
+          "is_generic_staple": false,
+          "description": {
+            "short": "El Museo Metropolitano de Arte (El Met) es uno de los museos de arte más grandes y prestigiosos del mundo, albergando más de 2 millones de obras que abarcan 5,000 años de historia humana. El edificio Beaux-Arts (1880) en la Quinta Avenida cuenta con 200,000 metros cuadrados de espacio de exhibición. Los puntos destacados incluyen el Templo de Dendur (templo egipcio salvado del Nilo), pinturas europeas (Vermeer, Rembrandt) y el jardín en la azotea con vistas a la ciudad. Es imposible verlo todo en una sola visita.",
+            "vibe": "Imponente, abrumador",
+            "history": "Fundado en 1870 por líderes cívicos para llevar la educación artística a los estadounidenses. El edificio actual se inauguró en 1880 y ha sido ampliado continuamente. El Templo de Dendur fue donado por Egipto en 1965 y se instaló en 1978. El Met es el museo más visitado de NYC (más de 6 millones al año). La entrada es 'sugerida' pero obligatoria para los residentes no neoyorquinos (30 $).",
+            "insider_tip": "Elija una sección y explórela en profundidad: intentar verlo todo es agotador y fútil. El ala egipcia y el Templo de Dendur son imprescindibles. El jardín en la azotea (abierto de mayo a octubre) ofrece bebidas y vistas del horizonte. Vaya por la mañana entre semana para evitar multitudes. La entrada 'pague lo que quiera' ha sido eliminada; ahora la entrada es obligatoria para los turistas. Planee al menos 3-4 horas."
+          },
+          "price_level": "Caro",
+          "good_for": [
+            "Amantes del arte",
+            "Entusiastas de la historia"
+          ],
+          "duration": "3-5 horas",
+          "best_time": "Mañana entre semana",
+          "image": "/images/new-york/the-met.jpg",
+          "geo": {
+            "lat": 40.7794,
+            "lng": -73.9632
+          }
+        },
+        {
+          "id": "mus-002",
+          "slug": "tenement-museum",
+          "name_en": "Tenement Museum",
+          "name_local": "Museo de los Inquilinos",
+          "category": "sitio",
+          "is_generic_staple": false,
+          "description": {
+            "short": "El Museo de los Inquilinos ofrece visitas guiadas a través de apartamentos preservados en el 97 Orchard Street (Lower East Side), donde 7,000 inmigrantes de clase trabajadora vivieron entre 1863 y 1935. El museo recrea las condiciones de vida estrechas y difíciles de familias alemanas, irlandesas, judías e italianas. Las visitas se centran en historias de familias específicas, haciendo que la historia de los inmigrantes sea más vívida. Es profundamente conmovedor y esencial desde el punto de vista histórico. Se requieren reservas con antelación.",
+            "vibe": "Histórico, íntimo",
+            "history": "El 97 Orchard Street fue construido en 1863 como un edificio de apartamentos que albergaba a 20 familias. Se selló en 1935 y permaneció como una cápsula del tiempo hasta los años 80, cuando los historiadores lo descubrieron. El museo se inauguró en 1992, restaurando los apartamentos a diferentes períodos. Documenta la dura realidad de los edificios de apartamentos de la 'Vieja Ley' (habitaciones sin ventanas, baños compartidos).",
+            "insider_tip": "Reserve las visitas con varias semanas de anticipación; suelen estar completas. Las visitas 'Tiempos Difíciles' y 'Irlandeses Extranjeros' son las más populares. Las visitas duran 90 minutos e implican escaleras (no hay ascensor; es un verdadero edificio de apartamentos). La tienda del museo ofrece excelentes libros sobre la historia de la inmigración. Combine con la exploración de la escena gastronómica de Lower East Side (Katz's, Russ & Daughters). No es apto para niños pequeños."
+          },
+          "price_level": "Moderado",
+          "good_for": [
+            "Entusiastas de la historia",
+            "Educación"
+          ],
+          "duration": "2 horas",
+          "best_time": "Tarde entre semana",
+          "image": "/images/new-york/tenement.jpg",
+          "geo": {
+            "lat": 40.7188,
+            "lng": -73.9901
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "8:00 AM",
+      "title": "Bagels y Schmear en el Lower East Side",
+      "description": "Comience en el Russ & Daughters Cafe (abierto desde 1914) para disfrutar del desayuno emblemático de Nueva York. Pida un bagel con lox (salmón ahumado), queso crema, un tomate, una cebolla y alcaparras. Los bagels son moldeados a mano, hervidos y luego horneados: no tienen nada que ver con los panes redondos de otros lugares. Acompáñelo con café o jugo de naranja fresco. Luego, dê un paseo por las calles del LES donde la cultura de los inmigrantes construyó Nueva York. Este barrio inventó los bagels americanos, los encurtidos y la actitud.",
+      "image": "/images/new-york/bagel-breakfast.jpg"
+    },
+    {
+      "time": "10:00 AM",
+      "title": "Paseo por el puente de Brooklyn hasta DUMBO",
+      "description": "Cruce el puente de Brooklyn—construido en 1883, sigue siendo una de las obras más emblemáticas del mundo. Comience en Manhattan, camine hacia Brooklyn para disfrutar de las mejores vistas del horizonte. La pasarela peatonal de madera se encuentra sobre el tráfico. Llegue a DUMBO (Down Under the Manhattan Bridge Overpass) y tome la famosa foto del Empire State Building enmarcado por el puente. Luego, explore los muelles a lo largo del mar del Brooklyn Bridge Park. El contraste entre la historia industrial y el Brooklyn moderno es impresionante.",
+      "image": "/images/new-york/brooklyn-bridge.jpg"
+    },
+    {
+      "time": "12:30 PM",
+      "title": "Pizza en Juliana's o Grimaldi's",
+      "description": "DUMBO se encuentra entre dos famosas pizzerías al carbón: Juliana's y Grimaldi's (una larga historia que involucra un divorcio y restaurantes en competencia). Ambas sirven pizzas de masa delgada con bordes ligeramente carbonizados y mozzarella fresca. Pida una margarita o la pizza blanca. No hay porciones, solo pizzas enteras. La espera puede durar 45 minutos, pero avanza rápidamente. Es la mejor pizza de Nueva York: sencilla, perfecta, sin adornos.",
+      "image": "/images/new-york/julianas-pizza.jpg"
+    },
+    {
+      "time": "15h00",
+      "title": "Central Park: De la fuente Bethesda al Bow Bridge",
+      "description": "Tome el metro hasta 72nd St y entre en Central Park por Bethesda Terrace. La fuente es instantáneamente reconocible de 1,000 películas. Camine hacia el norte hasta Bow Bridge, el lugar más romántico de Central Park. Luego, alquile una barca en el lago (20 $/hora) o simplemente siéntese y observe a los transeúntes. El parque cubre 843 acres de naturaleza diseñada en el corazón de Manhattan. Durante el fin de semana, verá músicos, bailarines y artistas actuar. Esta naturaleza artificial parece, de alguna manera, esencial.",
+      "image": "/images/new-york/central-park-afternoon.jpg"
+    },
+    {
+      "time": "18h00",
+      "title": "Atardecer desde el Top of the Rock",
+      "description": "Vaya al mirador del Top of the Rock en el Rockefeller Center (70º piso). A diferencia del Empire State Building, este ofrece una vista despejada de Central Park, del propio Empire State Building y de todo Manhattan. Reserve su horario para el atardecer con varias semanas de antelación. A medida que la ciudad se ilumina, comprenderá por qué 8 millones de personas eligen vivir en esta pequeña isla. La terraza exterior permite tomar excelentes fotos sin reflejos de vidrio. Quédese hasta la hora azul para vivir la experiencia completa.",
+      "image": "/images/new-york/top-of-rock-sunset.jpg",
+      "ticket_link": "https://www.getyourguide.com/new-york-l59/top-of-the-rock-observation-deck-tickets-t61711/"
+    },
+    {
+      "time": "20h30",
+      "title": "Cena y Espectáculo de Broadway en Times Square",
+      "description": "Cene en Hell's Kitchen (9th Ave) — Joe Allen o Becco para atraer a las multitudes antes del teatro. Luego, asista a un espectáculo de Broadway. La aplicación TodayTix ofrece entradas a precios reducidos para el mismo día (50-100 $). Las luces de Times Square son abrumadoras, pero debe verlas al menos una vez. Después del espectáculo, pasee por el caos de neón — es lo suficientemente claro como para leer un libro a la medianoche. La energía de Nueva York por la noche es eléctrica. Pruebe una porción de pizza en 2 Bros Pizza o un hot-dog de un puesto. La ciudad nunca realmente duerme.",
+      "image": "/images/new-york/broadway-night.jpg",
+      "ticket_link": "https://www.getyourguide.com/new-york-l59/broadway-show-tickets-t445698/"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Zapatillas de caminar",
+      "image": "/images/new-york/shoes.jpg",
+      "reason": "Usted caminará al menos 15 000 pasos al día. Evite usar tacones o chanclas. La comodidad es esencial.",
+      "amazon_url": "https://www.amazon.com/s?k=comfortable+walking+shoes",
+      "category": "zapatos"
+    },
+    {
+      "id": "aff-002",
+      "title": "Cargador Externo Portátil",
+      "image": "/images/new-york/charger.jpg",
+      "reason": "Usar mapas y tomar fotos agota rápidamente la batería. No será fácil encontrar tomacorrientes.",
+      "amazon_url": "https://www.amazon.com/s?k=portable+charger",
+      "category": "electrónica"
+    },
+    {
+      "id": "aff-003",
+      "title": "Adaptador de viaje US",
+      "image": "/images/new-york/adapter.jpg",
+      "reason": "Si usted viene del extranjero, necesitará un adaptador de tipo A/B.",
+      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter",
+      "category": "electrónicos"
+    }
+  ],
+  "region": "North America"
+}

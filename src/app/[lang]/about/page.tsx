@@ -1,6 +1,8 @@
 /**
- * About Page
- * Personal story + Project Mission
+ * 🛰️ MASTER AI: ABOUT PAGE (V6.1 - TEXT-PRESERVED & BUILD-FIXED)
+ * ✅ Fixed: Resolved params Promise for Next.js 16.
+ * ✅ Fixed: Passed required 'lang' prop to InfoPageLayout.
+ * ✅ Content: 100% original "Solo Guy" story preserved.
  */
 
 import { InfoPageLayout } from '@/components/layout/InfoPageLayout'
@@ -12,13 +14,21 @@ export const metadata: Metadata = {
   description: 'Meet the solo developer behind CityBasic and learn why we prioritize no-fluff, actionable travel guides.',
 }
 
-export default function AboutPage() {
+interface AboutPageProps {
+  params: Promise<{ lang: string }>
+}
+
+export default async function AboutPage({ params }: AboutPageProps) {
+  // 🎯 Technical requirement: Await the dynamic language parameter
+  const { lang } = await params
+
   return (
     <InfoPageLayout
       title="About CityBasic"
       lastUpdated="2025-12-15"
+      lang={lang} // ✅ Fixes the TypeScript build error
     >
-      {/* 1. The Personal Intro (The "Solo Guy" Story) */}
+      {/* 1. The Personal Intro (The "Solo Guy" Story) - TEXT KEPT AS IS */}
       <div className="mb-16 p-8 bg-blue-50 dark:bg-blue-900/10 rounded-3xl border border-blue-100 dark:border-blue-800/30">
         <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-4">
           👋 Hi, I'm the guy behind CityBasic.
@@ -32,7 +42,7 @@ export default function AboutPage() {
         </p>
       </div>
 
-      {/* 2. The "Why" - Visual Grid */}
+      {/* 2. The "Why" - Visual Grid - TEXT KEPT AS IS */}
       <div className="mb-16">
         <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-8">
           Why I Built This
@@ -61,8 +71,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-
-{/* 4. Contact / Feedback */}
+      {/* 4. Contact / Feedback - TEXT KEPT AS IS */}
       <div className="border-t border-slate-200 dark:border-white/10 pt-12">
         <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-6">
           Help Me Improve
@@ -72,16 +81,14 @@ export default function AboutPage() {
         </p>
         
         <div className="flex flex-wrap gap-4">
-          {/* Removed the "Email Me" button, kept only the correction link */}
           <Link 
-            href="/corrections" 
+            href={`/${lang}/corrections`} 
             className="inline-flex items-center px-6 py-2.5 bg-slate-100 dark:bg-white/10 text-slate-900 dark:text-white rounded-lg font-medium hover:bg-slate-200 dark:hover:bg-white/20 transition-colors"
           >
             Submit a Correction
           </Link>
         </div>
       </div>
-
     </InfoPageLayout>
   )
 }
