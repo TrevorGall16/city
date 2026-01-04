@@ -31,6 +31,7 @@ export function middleware(request: NextRequest) {
   // This prevents the redirect to /fr/sitemap.xml or /fr/images/...
   if (
     pathname === '/sitemap.xml' || 
+    pathname === '/sitemap_index.xml' || // 🎯 Added this
     pathname === '/robots.txt' || 
     pathname === '/favicon.ico' ||
     pathname === '/sitemap' || // Next.js internal alias
