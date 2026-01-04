@@ -11,6 +11,7 @@ export interface Place {
   name_en: string
   name_local?: string // Made optional to prevent errors if missing
   category: string // Supports 'food' | 'sight' | dynamic strings
+  price_level?: string
   description: string | { 
     short: string; 
     history?: string; 
