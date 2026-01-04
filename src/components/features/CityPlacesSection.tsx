@@ -18,6 +18,7 @@ interface CityPlacesSectionProps {
   sectionId: string
   accentText?: string // Country-specific text color for section header
   lang: string // ✅ Correctly defined in Interface
+  dict: any // 🎯 Ensure this is here
 }
 
 // Extract unique category tags from places
@@ -41,6 +42,7 @@ export function CityPlacesSection({
   sectionId,
   accentText,
   lang, // ✅ FIXED: Added 'lang' here so it is defined!
+  dict, // 🎯 ADD THIS: This picks up the prop so the red error goes away!
 }: CityPlacesSectionProps) {
   const supabase = createClient()
   const [activeFilter, setActiveFilter] = useState<FilterCategory>('all')
@@ -144,12 +146,13 @@ export function CityPlacesSection({
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6">
             {filteredPlaces.map((place) => (
-              <EnhancedPlaceCard
-                key={place.id}
-                place={place}
-                citySlug={citySlug}
-                lang={lang} // ✅ Now this works because 'lang' is defined above
-              />
+<EnhancedPlaceCard
+  key={place.id}
+  place={place}
+  citySlug={citySlug}
+  lang={lang}
+  dict={dict} // ✅ This fixes the "Property 'dict' is missing" error
+/>
             ))}
           </div>
         )}
