@@ -1,0 +1,1629 @@
+{
+  "id": "city-001",
+  "name": "Paris",
+  "slug": "paris",
+  "country": "France",
+  "country_code": "fr",
+  "hero_image": "/images/paris/hero.jpg",
+  "intro_vibe": "Die Stadt des Lichts, der Liebe und der endlosen Kohlenhydrate.",
+  "general_info": {
+    "population": "~2,1 Millionen (Stadt) / ~12 Millionen (Metropolregion)",
+    "is_capital": true,
+    "description": "Paris ist die Hauptstadt und die bevölkerungsreichste Stadt Frankreichs. Mit einer offiziellen geschätzten Bevölkerung von 2.102.650 Einwohnern am 1. Januar 2023 in einem Gebiet von mehr als 105 km² ist Paris die viertbevölkerungsreichste Stadt in der Europäischen Union und die 30. am dichtesten besiedelte Stadt der Welt."
+  },
+  "stats": {
+    "currency": "€",
+    "plug_type": "Typ E"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "Januar",
+      "temp": "1°C - 7°C",
+      "vibe": "Ruhig und kühl",
+      "pros": [
+        "Wenig Touristen",
+        "Winterschlussverkauf",
+        "Kalte Luft"
+      ],
+      "cons": [
+        "Kurze Tage",
+        "Grauer Himmel"
+      ],
+      "clothing": "Dicker Mantel, Schal, wasserdichte Schuhe"
+    },
+    {
+      "id": 2,
+      "name": "Februar",
+      "temp": "1°C - 8°C",
+      "vibe": "Frische und intime Atmosphäre",
+      "pros": [
+        "Romantische Stimmung",
+        "Niedrige Preise",
+        "Zeit des Blumenblühens"
+      ],
+      "cons": [
+        "Kalte Wellen",
+        "Der Wind ist kühl"
+      ],
+      "clothing": "Winter-Lagen, warme Mütze"
+    },
+    {
+      "id": 3,
+      "name": "März",
+      "temp": "4°C - 12°C",
+      "vibe": "wechselnd",
+      "pros": [
+        "Frühling Blumen",
+        "Nebensaison Preise",
+        "belebte Straßen"
+      ],
+      "cons": [
+        "unregelmäßiger Regen",
+        "kalte Morgen"
+      ],
+      "clothing": "leichte Jacke + Regenschirm"
+    },
+    {
+      "id": 4,
+      "name": "April",
+      "temp": "8°C - 16°C",
+      "vibe": "Blühende Blumen",
+      "pros": [
+        "Kirschblüten",
+        "Angenehmes Wetter",
+        "Offene Parks"
+      ],
+      "cons": [
+        "Aprilregen",
+        "Menschenmengen"
+      ],
+      "clothing": "Schichten, wasserfeste Jacke"
+    },
+    {
+      "id": 5,
+      "name": "Mai",
+      "temp": "11°C - 20°C",
+      "vibe": "Gemütliche soziale Atmosphäre",
+      "pros": [
+        "Lange Tage",
+        "Höhepunkt der Terrassenkultur",
+        "Veranstaltungen im Freien"
+      ],
+      "cons": [
+        "Hohe Hotelpreise",
+        "Plötzliche Hitze"
+      ],
+      "clothing": "Luftige Schichten, Sonnenschutz-Hut"
+    },
+    {
+      "id": 6,
+      "name": "Juni",
+      "temp": "14°C - 24°C",
+      "vibe": "Festlich",
+      "pros": [
+        "Musikfestivals",
+        "Später Sonnenuntergang (22:00)",
+        "Picknick am Seine-River"
+      ],
+      "cons": [
+        "Preise während der Hauptsaison",
+        "Hitzewelle"
+      ],
+      "clothing": "Sommerkleidung + leichte Jacke"
+    },
+    {
+      "id": 7,
+      "name": "Juli",
+      "temp": "16°C - 27°C",
+      "vibe": "Warm und lebhaft",
+      "pros": [
+        "Nationalfeiertag",
+        "Strände in Paris",
+        "Sommeratmosphäre"
+      ],
+      "cons": [
+        "Hohe Besucherzahlen",
+        "Keine Klimaanlage"
+      ],
+      "clothing": "Sehr leichte Kleidung, Sandalen"
+    },
+    {
+      "id": 8,
+      "name": "August",
+      "temp": "15°C - 26°C",
+      "vibe": "Einzigartige und ruhige Atmosphäre",
+      "pros": [
+        "Ruhige Straßen (Einheimische unterwegs)",
+        "Gemächliches Tempo",
+        "Leere U-Bahn"
+      ],
+      "cons": [
+        "Unabhängige Geschäfte und Bäckereien sind geschlossen",
+        "Touristenattraktionen sind überfüllt"
+      ],
+      "clothing": "Sommerkleidung"
+    },
+    {
+      "id": 9,
+      "name": "September",
+      "temp": "12°C - 22°C",
+      "vibe": "Goldene",
+      "pros": [
+        "Hervorragendes Wetter zum Fahren",
+        "Beginn der Kultursaison",
+        "Energisch"
+      ],
+      "cons": [
+        "Preise der Fashion Week",
+        "Manchmal Regen"
+      ],
+      "clothing": "Schicke und bequeme Schichten"
+    },
+    {
+      "id": 10,
+      "name": "Oktober",
+      "temp": "9°C - 17°C",
+      "vibe": "bunt",
+      "pros": [
+        "Herbstblätter",
+        "gemütliche Cafés",
+        "schönes Licht"
+      ],
+      "cons": [
+        "kurze Tage",
+        "Feuchtigkeit"
+      ],
+      "clothing": "warme Mittel-Schicht, Stiefel"
+    },
+    {
+      "id": 11,
+      "name": "November",
+      "temp": "6°C - 12°C",
+      "vibe": "Die Atmosphäre ist",
+      "pros": [
+        "Museumsausstellungen",
+        "Heiße Schokolade Wetter",
+        "Günstige Preise"
+      ],
+      "cons": [
+        "Grau und dunkel",
+        "Starker Wind"
+      ],
+      "clothing": "Warme Jacke, Regenschirm"
+    },
+    {
+      "id": 12,
+      "name": "Dezember",
+      "temp": "3°C - 8°C",
+      "vibe": "Festliche Atmosphäre",
+      "pros": [
+        "Weihnachtsmarkt",
+        "Strahlende Lichter",
+        "Freude"
+      ],
+      "cons": [
+        "Kälte und Dunkelheit",
+        "Überfüllte Märkte"
+      ],
+      "clothing": "Warme Kleidung, warmer Mantel, Handschuhe"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "Die 'Bonjour'-Regel: Es ist nicht nur Höflichkeit, sondern ein sozialer Schlüssel. Wenn Sie es auslassen, wirkt es, als würden Sie einen Befehl geben. Sagen Sie immer Bonjour, wenn Sie ein Geschäft betreten. Augenkontakt ist während dieser Begrüßung normal. Es ist kein großes Problem, Bonjour statt Bonsoir zu sagen; die Franzosen machen diesen 'Fehler' ständig.",
+      "Service ist Inbegriffen: Es gibt keine Trinkgeldkultur von 15-20 %. 'Service Compris' ist das Gesetz. Ein leichtes Aufrunden ist höflich, aber große Trinkgelder werden als seltsam und nicht großzügig angesehen.",
+      "Die Kaffeepreisstufen: Wissen Sie, dass ein Kaffee drei Preise hat. 'Au comptoir' (Stehen an der Bar) ist am günstigsten. 'En salle' (am Tisch innen) ist der Standard. 'En terrasse' (draußen) ist am teuersten – hier bezahlen Sie die Miete für die Aussicht.",
+      "Kein Smalltalk: Effizienz > Freundlichkeit. Geschäftsinhaber und Kellner sind professionell, nicht gesprächig. Stille ist neutral, nicht unhöflich. Erwarten Sie keine zufälligen Lächeln von Fremden.",
+      "Butter Realität: Butter wird nicht automatisch mit Brot zum Abendessen serviert. Sie ist für das Frühstück oder bestimmte Gerichte (wie Austern) gedacht. Nach Butter mit Ihrem Brotkorb zu fragen, kennzeichnet Sie als Touristen.",
+      "Das Brot-Kauf-Ritual: Sagen Sie 'une baguette tradition, s'il vous plaît', bezahlen Sie (Bargeld ist schnell), und nehmen Sie niemals eine Tüte an, es sei denn, sie wird angeboten. Das Abreißen des Endes ('le quignon') draußen ist kulturell akzeptiert.",
+      "Die Mittagsformel (Formule Midi): Zwischen 12:00 und 14:00 Uhr suchen Sie nach der 'Formule'. So essen die Einheimischen preiswert (ca. 15-20 €).",
+      "Sonntagsrealität: Die meisten Geschäfte sind geschlossen, außer in Marais oder Touristenvierteln. Planen Sie Museen oder Parks. Beachten Sie, dass Feiertage oft wie Sonntage funktionieren.",
+      "Wasserregeln: Leitungswasser ist sicher. Fragen Sie nach 'une carafe d'eau' für kostenloses Wasser. Wenn Sie nur nach 'Wasser' fragen, werden Sie für eine Flasche berechnet.",
+      "Essensgeschwindigkeit: Mahlzeiten dauern länger. Sie müssen nach der Rechnung fragen ('L'addition'). Schnell zu gehen, wird als Eile betrachtet."
+    ],
+    "essential_phrases": [
+      {
+        "src": "Hello",
+        "local": "Bonjour",
+        "phonetic": "bon-ZHOOR"
+      },
+      {
+        "src": "Thank you",
+        "local": "Merci",
+        "phonetic": "mair-SEE"
+      },
+      {
+        "src": "The bill please",
+        "local": "L'addition s'il vous plaît",
+        "phonetic": "lah-dee-SYON"
+      },
+      {
+        "src": "Excuse me",
+        "local": "Excusez-moi",
+        "phonetic": "ex-kew-ZAY mwah"
+      },
+      {
+        "src": "I don't speak French",
+        "local": "Je ne parle pas français",
+        "phonetic": "zhuh nuh parl pah"
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Le Marais",
+      "vibe": "Trendy & Historic",
+      "description": "Tight cobbled streets, hôtels particuliers, and a mix of Jewish heritage and LGBTQ+ nightlife.",
+      "highlights": [
+        "Place des Vosges",
+        "Rue des Rosiers",
+        "Musée Picasso"
+      ],
+      "image": "/images/paris/marais.jpg"
+    },
+    {
+      "name": "Montmartre",
+      "vibe": "Bohemian Village",
+      "description": "Perched on a hill, it retains a village atmosphere with artists, vineyards, and winding streets.",
+      "highlights": [
+        "Place du Tertre",
+        "Rue Lepic",
+        "Sacré-Cœur steps"
+      ],
+      "image": "/images/paris/montmartre.jpg"
+    },
+    {
+      "name": "Latin Quarter",
+      "vibe": "Intellectual",
+      "description": "Home to the Sorbonne, filled with bookshops, student cafes, and medieval history.",
+      "highlights": [
+        "Shakespeare & Co",
+        "Pantheon",
+        "Rue Mouffetard"
+      ],
+      "image": "/images/paris/latin-quarter.jpg"
+    },
+    {
+      "name": "Saint-Germain",
+      "vibe": "Chic & Literary",
+      "description": "Famous for historic literary cafes like Les Deux Magots and high-end galleries.",
+      "highlights": [
+        "Café de Flore",
+        "Luxembourg Gardens",
+        "Bon Marché"
+      ],
+      "image": "/images/paris/saint-germain.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Getting Around",
+      "icon": "Train",
+      "summary": "The Metro is the lifeline. Efficient, dense, but unforgiving.",
+      "details": [
+        "Metro Basics: Trains run 5:30am–1:15am (2:15am weekends). Avoid Rush Hour (8-9:30am, 5:30-7pm) on Lines 1, 4, 13.",
+        "Tickets (2025): Single t+ is €2.10. 'Navigo Easy' (€2) is the modern reloadable card. 'Navigo Découverte' (€30/week) is best for long stays (Mon-Sun validity).",
+        "The Inspection: Keep your ticket until you exit! Fines are €50 on the spot. Inspectors are plainclothes and ruthless.",
+        "Escalator Law: Stand on the RIGHT, walk on the LEFT. Blocking the left is the #1 tourist offense.",
+        "RER vs Metro: RER (Lines A-E) is for suburbs/airports. Metro tickets work on RER in Zone 1 only. You need specific tickets for airports.",
+        "Night Transport: After ~1am, use 'Noctilien' night buses or the G7 Taxi app. Uber surges heavily."
+      ]
+    },
+    {
+      "id": "logistics-airports",
+      "slug": "airport-transfers",
+      "title": "Airport Transfers",
+      "icon": "Plane",
+      "summary": "CDG and Orly are far. Know your route.",
+      "details": [
+        "CDG Options: RER B (€11.45, 35-50 mins) is standard but watch bags. RoissyBus (€16.60) to Opéra is easier with luggage. Taxis have fixed rates (€56 Right Bank / €65 Left Bank).",
+        "Orly Options: OrlyBus (€11.20) or Orlyval+RER B. Taxis are fixed (€37 Left Bank / €42 Right Bank).",
+        "Beauvais Warning: This is 85km away. The €17 shuttle bus takes 90 mins. Only fly here if the flight is practically free."
+      ]
+    },
+    {
+      "id": "logistics-dining",
+      "slug": "dining-protocol",
+      "title": "Dining Protocol",
+      "icon": "Utensils",
+      "summary": "Strict hours and specific rituals define Parisian eating.",
+      "details": [
+        "Strict Hours: Lunch 12–2:30pm. Dinner 7:30–10:30pm. Most kitchens CLOSE between these times. You cannot eat dinner at 6pm.",
+        "Water Ritual: Ask for 'une carafe d'eau' for free tap water. Asking for 'water' often gets you expensive bottled water.",
+        "The Bill: You must ask for it ('L'addition, s'il vous plaît'). Waiters will not bring it automatically; lingering is encouraged.",
+        "Lunch Value: Look for the 'Formule Midi' or 'Menu du Jour' (€15–25) for the best value. Dinner à la carte is significantly more expensive."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "Safety & Scams",
+      "icon": "Shield",
+      "summary": "Violent crime is rare; skilled theft is common.",
+      "details": [
+        "Phone Snatching: An epidemic. Thieves on e-bikes snatch phones from hands near curbs. Never scroll while standing at a crosswalk.",
+        "Metro Pickpockets: Gangs work the doors on Lines 1, 4, 9. Keep bags zipped and front-worn. Be alert at Châtelet and Gare du Nord.",
+        "Street Scams: Ignore 'Petition' signers (distraction theft), 'Friendship Bracelet' tiers at Sacré-Cœur, and 'Gold Ring' finders. Just walk away.",
+        "Fake Taxis: Ignore anyone soliciting rides inside airport terminals. Only use the official taxi line outside."
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "money-payments",
+      "title": "Money & Payments",
+      "icon": "CreditCard",
+      "summary": "Cards are standard, but cash has its place.",
+      "details": [
+        "Card vs Cash: Visa/Mastercard accepted almost everywhere. Carry ~€50 cash for small cafés, markets, and toilets.",
+        "Tipping: Service is included ('Service Compris'). Round up or leave €1–2 coins. The US 20% culture does not exist here.",
+        "ATMs: Use official bank ATMs (BNP, Société Générale). Avoid 'Euronet' machines which charge high fees and bad rates."
+      ]
+    },
+    {
+      "id": "logistics-toilets",
+      "slug": "restrooms",
+      "title": "Public Toilets",
+      "icon": "MapPin",
+      "summary": "Plan ahead; they are scarce.",
+      "details": [
+        "Sanisettes: Free, self-cleaning gray pods on sidewalks. Wait for the green light. They are safe and hygienic.",
+        "Department Stores: The best 'hack'. Galeries Lafayette, BHV, and Bon Marché have clean, free restrooms on upper floors.",
+        "Café Rule: Toilets are for customers. Buy an espresso at the bar (€1.50) to gain access."
+      ]
+    },
+    {
+      "id": "logistics-health",
+      "slug": "health-pharmacy",
+      "title": "Health & Pharmacies",
+      "icon": "Cross",
+      "summary": "Pharmacists are your first line of defense.",
+      "details": [
+        "The Green Cross: Pharmacists are highly trained doctors. Go there for minor ailments (colds, allergies, stomach) before a clinic.",
+        "Night Pharmacy: Look for 'Pharmacie de Garde' for 24/7 service. Addresses are listed on the doors of closed pharmacies."
+      ]
+    },
+    {
+      "id": "logistics-museums",
+      "slug": "museum-strategy",
+      "title": "Museum Strategy",
+      "icon": "Ticket",
+      "summary": "Pre-booking is not optional.",
+      "details": [
+        "Timed Entry: Mandatory for Louvre, Orsay, and Versailles. Walk-ups are turned away. Book weeks in advance.",
+        "Museum Pass: Great value for 4+ museums, but you STILL need to reserve time slots online.",
+        "Louvre Tip: The 'Carrousel du Louvre' underground entrance usually has shorter security lines than the Pyramid."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Apps to Download",
+      "icon": "Smartphone",
+      "summary": "The digital toolkit for Paris.",
+      "details": [
+        "CityMapper: Essential. Better than Google Maps for Paris transit (shows exact metro car to board).",
+        "G7 Taxi: The official taxi app. Reliable, fixed rates, no surge pricing.",
+        "TheFork: Essential for restaurant reservations and sometimes offers 20-30% discounts.",
+        "Google Translate: Download the French offline pack for menus."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "butter-croissant",
+      "name_en": "Buttercroissant",
+      "name_local": "バタークロワッサン",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Ein Buttercroissant ist ein klassisches Frühstück in Frankreich. Es handelt sich um ein blätterteigiges süßes Gebäck, das aus reinem Butter (nicht Margarine) hergestellt wird und spezielle goldene Schichten bildet. Ein echtes Croissant bricht beim Kauen und gibt den butterigen Dampf ab. Das klassische Croissant ist mit 'normal' (Margarine), während das gedrehte Croissant 'Butter' (Butter) ist. Wählen Sie immer das gedrehte. Probieren Sie es frisch aus der Bäckerei, warm serviert.",
+        "vibe": "blätterig, buttriger Geschmack",
+        "history": "Das Croissant hat seinen Ursprung in Wien (Österreichs 'Kipferl'), wurde aber in den 1830er und 1840er Jahren in Paris weiterentwickelt. Als Wiener Bäcker ihre Geschäfte eröffneten, verbreitete sich diese Technik. Die Technik des Blätterteigs (Teig mit Butter, der mehr als 27 Mal gefaltet wurde) schafft die Schichten. Zu Beginn des 20. Jahrhunderts wurde es zum Symbol des französischen Frühstücks. Der Unterschied zwischen buttrigen Croissants und solchen mit Margarine entstand (dies begann in den 1980er Jahren).",
+        "insider_tip": "Kaufen Sie aus einer echten Bäckerei, nicht aus Kettenläden oder Supermärkten. Suchen Sie nach dem Hinweis 'handgemacht'. Die besten Croissants sind innen luftig, die äußere Schicht ist tiefgolden und erstaunlich leicht. Genießen Sie es pur - ohne Butter oder Marmelade. Pariser brechen es in kleine Stücke und tauchen es in Café au Lait oder heiße Schokolade. Dies ist die einzige richtige Zeit, um es zum Frühstück zu essen. Wärmen Sie Croissants nicht in der Mikrowelle auf - das ruiniert die Textur.",
+        "price_level": "guter Preis",
+        "good_for": [
+          "Frühstück",
+          "Morgenessen"
+        ],
+        "duration": "5 Minuten",
+        "best_time": "Morgen (7-10 Uhr)"
+      },
+      "image": "/images/paris/croissant.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "the-baguette",
+      "name_en": "Die Baguette-Tradition",
+      "name_local": "Die Baguette-Tradition",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Die Baguette-Tradition ist ein langes und dünnes Brot mit einer goldenen und knusprigen Kruste und einem weichen, luftigen Inneren mit unregelmäßigen Löchern. 'Tradition' bedeutet, dass es aus vier Zutaten (Weizenmehl, Wasser, Salz und Hefe) hergestellt wird, die gesetzlich festgelegt sind, und es enthält keine zusätzlichen Zutaten, was es besser macht als ein gewöhnliches Baguette. Die Einheimischen kaufen es morgens und abends in zwei Stücken, bevor es hart wird. Ein perfektes Baguette klingt hohl, wenn man darauf klopft, ist knusprig, wenn man darauf drückt, und verbreitet einen Weizenaroma.",
+        "vibe": "Notwendig, Alltags",
+        "history": "Das Baguette kam in den 1920er und 1930er Jahren nach Paris. Zu dieser Zeit durften Bäcker gesetzlich nicht vor 4 Uhr morgens arbeiten, und es gab eine Nachfrage nach schnell gebackenen Broten. Die 'Baguette-Tradition' wurde 1993 rechtlich definiert, um das handwerkliche Backen von industriellen Broten zu schützen. Aufgrund ihres symbolischen Wertes erkannte die UNESCO 2022 die Herstellung französischer Baguettes als immaterielles Kulturerbe an. In Frankreich werden jährlich über 10 Milliarden Baguettes konsumiert.",
+        "insider_tip": "Es ist empfehlenswert, von der 'Artisan-Bäckerei' (Hinweis an der Tür) zu kaufen - dort gibt es frische Baguettes. Kettenläden (Paul, Meunier Boulanger) sind unterdurchschnittlich. Fordern Sie die 'Baguette-Tradition' und sagen Sie nicht einfach 'Baguette'. Der Preis für das Beste liegt zwischen 1,20 € und 1,50 €. Die Einheimischen essen es auf dem Weg nach Hause - das ist kulturell akzeptiert. Legen Sie das Baguette mit der geschnittenen Seite nach unten auf die Theke und stecken Sie es niemals in Plastik. Hartes Baguette wird für Crostini oder French Toast verwendet.",
+        "price_level": "Günstig",
+        "good_for": [
+          "Alltagsrituale",
+          "Alle Mahlzeiten"
+        ],
+        "duration": "Sofortiger Verzehr",
+        "best_time": "Morgen oder Abend"
+      },
+      "image": "/images/paris/baguette.jpg"
+    },
+    {
+      "id": "food-026",
+      "slug": "pain-au-chocolat",
+      "name_en": "Pain au Chocolat",
+      "name_local": "Pain au Chocolat / Chocolatine",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Pain au Chocolat ist ein rechteckiges Blätterteiggebäck, das zwei Streifen dunkler Schokolade enthält. Die Teigart ähnelt der butterhaltigen Croissant-Teigart, hat jedoch eine andere Form. Wenn es aufgebrochen wird, schmilzt die Schokolade und wird flüssig, und der Teig ist knusprig und butterig im Geschmack. Es ist das beliebteste Frühstücksgebäck in Frankreich nach dem Croissant. In Westfrankreich wird es umstritten als 'Chocolatine' bezeichnet, was zu hitzigen Debatten führt.",
+        "vibe": "Schokoladengeschmack, prächtig",
+        "history": "Mitte des 19. Jahrhunderts begannen Bäcker aus Wien, Schokolade in Blätterteig in Paris zu integrieren. Der Name 'Pain au Chocolat' ist im Großteil von Paris und Frankreich der Standard, jedoch entsteht das Wort 'Chocolatine' in Bordeaux und Toulouse, das eine kulturelle Trennung zwischen Norden und Süden schafft. Pariser machen Scherze darüber, während die Südländer es verteidigen. Diese Kontroversen sind ein klassischer Witz in der französischen Kultur geworden.",
+        "insider_tip": "Wie beim Croissant, kaufen Sie es frisch am Morgen aus einer echten Bäckerei, nicht aus Kettenläden. Die Schokolade sollte dunkel sein (über 60% Kakao). Genießen Sie es warm: Die Schokolade schmilzt perfekt. Einige Bäckereien bieten Varianten mit Mandel- oder Haselnusscreme an, aber Puristen konzentrieren sich auf die klassische dunkle Schokolade. Kombinieren Sie es mit einem Café Latte. Bitte nicht in der Mikrowelle aufwärmen: Wenn es alt geworden ist, verwenden Sie den Toaster.",
+        "price_level": "Normal",
+        "good_for": [
+          "Frühstück",
+          "Schokoladenliebhaber"
+        ],
+        "duration": "5 Minuten",
+        "best_time": "Morgen"
+      },
+      "image": "/images/paris/pain-au-chocolat.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "jambon-beurre",
+      "name_en": "Jambon-Beurre",
+      "name_local": "Jambon-Beurre",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Jambon-Beurre ist das beliebteste Sandwich Frankreichs. Ein Baguette wird längs aufgeschnitten, mit gesalzener Butter bestrichen und hochwertiger Pariser Schinken (Pariser Schinken – leicht gegart, zart und rosa) wird hineingelegt. Das ist alles. Es enthält keinen Salat, keinen Käse oder Gewürze. Die Qualität kommt von diesen drei erstklassigen Zutaten. Jedes Jahr werden in Frankreich über eine Milliarde dieser Sandwiches verkauft. Genießen Sie das echte Pariser Mittagessen auf einer Parkbank oder unterwegs.",
+        "vibe": "Einfach und perfekt",
+        "history": "Jambon-Beurre wurde in den 1950er und 1960er Jahren schnell zu einem beliebten Mittagessen für Arbeitende. Der Pariser Schinken hat seinen Ursprung im 18. Jahrhundert. Dieses Sandwich verkörpert die französische Kochphilosophie: Für die besten Zutaten braucht man nicht mehr. Heute ist es ein Symbol für die Einfachheit Frankreichs und wurde von der UNESCO als 'immaterielles Kulturerbe' anerkannt. Es wird in jeder Bäckerei und jedem Café für 3,50 bis 5 € verkauft.",
+        "insider_tip": "Kaufen Sie es in der Bäckerei statt im Supermarkt - die Qualität von Brot und Schinken ist wichtig. Die Butter sollte gesalzen und großzügig aufgetragen sein. Der Schinken sollte handgeschnitten sein, vermeiden Sie verarbeiteten Fleisch. Essen Sie es innerhalb von 2 Stunden nach dem Kauf - das Brot wird hart und die Butter zieht ein. Bitten Sie nicht um Mayonnaise, Senf oder Gemüse - das wird Sie in den Augen anderer bewerten. Es ist das beste Beispiel für Einfachheit, das nicht amerikanisch ist.",
+        "price_level": "Günstig",
+        "good_for": [
+          "Mittagessen",
+          "Picknick"
+        ],
+        "duration": "10 Minuten",
+        "best_time": "Mittagessen"
+      },
+      "image": "/images/paris/jambon-beurre.jpg"
+    },
+    {
+      "id": "food-020",
+      "slug": "escargots",
+      "name_en": "Escargots de Bourgogne",
+      "name_local": "Escargots",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Escargots sind burgundische Schnecken, die mit Butter, Knoblauch und Petersilie zubereitet werden. Sie werden in traditionellen Brasserien als Vorspeise (6 oder 12 Stück) serviert. Verwenden Sie spezielle Gabeln und Zangen, um die Schnecke herauszuholen, und tauchen Sie Brot in die Butter. Der Geschmack der Escargots ist erdig, während die Butter der wahre Star ist. Sie werden normalerweise zum Abendessen serviert.",
+        "vibe": "Klassisch, knoblauchig",
+        "history": "Escargots werden seit der römischen Zeit gegessen, aber im 19. Jahrhundert wurde dieses französische Gericht von Antoine Béchalerm kreiert. Die burgundische Escargot (Helix pomatia) ist die traditionelle Art. Butter, Knoblauch und Petersilie wurden von burgundischen Köchen perfektioniert. Heute ist es ein Symbol der gehobenen französischen Küche, aber die meisten Escargots werden in Osteuropa gezüchtet oder importiert.",
+        "insider_tip": "Versuchen Sie es in traditionellen Bistros oder Brasserien statt in Touristen-Cafés. Die Butter sollte frisch grün sein und der Knoblauchgeschmack intensiv. Vergessen Sie nicht, ein Stück Brot in die Butter zu tauchen - das ist erlaubt. Machen Sie sich keine Sorgen über die Textur - sie ähnelt Muscheln. Wenn Ihnen leicht übel wird, schließen Sie die Augen und konzentrieren Sie sich auf die Butter. Es wird empfohlen, sie mit Weißwein (Chablis oder Sancerre) zu servieren. Aufgrund ihres reichen Geschmacks sind 6 Stücke als Vorspeise perfekt.",
+        "price_level": "Mittel",
+        "good_for": [
+          "Die französische Klassiker erleben",
+          "Abenteuerlustige Esser"
+        ],
+        "duration": "20 Minuten",
+        "best_time": "Abendessen Vorspeise"
+      },
+      "image": "/images/paris/escargots.jpg"
+    },
+    {
+      "id": "food-021",
+      "slug": "duck-confit",
+      "name_en": "Confit de Canard",
+      "name_local": "Confit de Canard",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Confit de Canard ist eine Methode, um Entenbeine in ihrem eigenen Fett langsam zu garen, wodurch das Fleisch zart und knusprig wird. Es ist eine Konservierungstechnik aus Südwestfrankreich. Die Ente wird gesalzen, konserviert, dann in Fett eingetaucht und mehrere Stunden bei niedriger Temperatur gegart. Serviert wird es als Hauptgericht mit in Entenfett gegarten Kartoffeln (Sarladaise-Kartoffeln) oder einem grünen Salat. Das Fleisch ist reichhaltig und köstlich, mit einem tiefen Aroma.",
+        "vibe": "Reichhaltig und traditionell",
+        "history": "Confit (von der Konservierungstechnik) ist eine Methode zur Konservierung von Fleisch, die aus der Zeit des Mittelalters stammt, vor der Erfindung der Kühltechniken. Entenbeine werden gesalzen, in Fett gegart und Monate lang in Tontöpfen konserviert. Es ist zu einem speziellen Gericht der Regionen Gascogne und Périgord geworden. In den 1900er Jahren wurde es in den Bistrots von Paris populär. Heute repräsentiert es eine klassische darstellung der rustikalen französischen Küche.",
+        "insider_tip": "Bestellen Sie es in einem traditionellen Bistro oder einer Brasserie. Die Haut sollte goldbraun und knusprig sein (wenn die Farbe blass und weich ist, ist es nicht richtig gegart). Das Fleisch sollte sich leicht mit einer Gabel zerdrücken lassen. Sarladaise-Kartoffeln (in Knoblauch und Petersilie im Entenfett gebratene Kartoffeln) sind eine klassische Beilage. Es ist schwer, also ist es besser, es nicht im heißen Wetter des Sommers zu bestellen - es ist am besten für den Herbst/Winter geeignet. Kombinieren Sie es mit einem KhaoL oder Bordeaux Rotwein.",
+        "price_level": "Mittel",
+        "good_for": [
+          "Abendessen",
+          "Herzhaftes Essen"
+        ],
+        "duration": "1 Stunde",
+        "best_time": "Abendessen (Herbst/Winter)"
+      },
+      "image": "/images/paris/duck-confit.jpg"
+    },
+    {
+      "id": "food-022",
+      "slug": "boeuf-bourguignon",
+      "name_en": "Boeuf Bourguignon",
+      "name_local": "Boeuf Bourguignon",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Boeuf Bourguignon besteht aus Rindfleisch, das in Rotwein (traditionell Burgunderwein) mit Karotten, Zwiebeln, Champignons und Speck gegart wird. Das Fleisch (in der Regel ein Stück von der Brust oder Schulter) wird 2-3 Stunden gegart, wodurch es zart wird und der Wein zu einer reichen und glatten Sauce reduziert wird. Es ist ein traditionelles regionales Gericht aus einer Bistro, das oft mit Kartoffelpüree oder Pasta serviert wird. Es wird empfohlen, es als warmes und gemütliches Gericht in der kalten Jahreszeit zu genießen.",
+        "vibe": "Gemütlich, warm",
+        "history": "Dieses regionale Gericht stammt aus dem Burgund im 19. Jahrhundert, in dem Stücke von kostengünstigem Rindfleisch langsam in lokalem Wein gegart werden. Es wurde 1961 durch Julia Childs Kochbuch in den USA bekannt, war jedoch in Frankreich bereits ein Grundnahrungsmittel. Auguste Escoffier definierte 1903 das Rezept. Es ist ein Symbol für die französische Hausmannskost, bei der einfachste Zutaten durch Zeit und Technik veredelt werden.",
+        "insider_tip": "Es wird empfohlen, es in traditionellen Bistros während des Herbst- und Wintermonats zu bestellen – im Sommer wird es meist nicht serviert. Das Fleisch sollte zart und leicht mit einer Gabel zerteilbar sein und nicht gummiartig. Die Sauce sollte reichhaltig und glänzend sein, nicht wässrig. Eine gute Qualität erfordert eine Garzeit von über 3 Stunden, sodass günstige Restaurants möglicherweise die Rezeptur beschleunigen. Erwarten Sie, für eine angemessene Portion zwischen 18 und 25 € zu zahlen. Genießen Sie es mit Burgunder Rotwein (Pinot Noir) oder Côtes du Rhône. Servieren Sie es mit knusprigem Brot, um die Sauce aufzutunken.",
+        "price_level": "Mittel",
+        "good_for": [
+          "Abendessen",
+          "Gemütliches Gericht"
+        ],
+        "duration": "1 Stunde",
+        "best_time": "Abendessen (Herbst/Winter)"
+      },
+      "image": "/images/paris/boeuf-bourguignon.jpg"
+    },
+    {
+      "id": "food-023",
+      "slug": "steak-tartare",
+      "name_en": "Steak Tartare",
+      "name_local": "Steak Tartare",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Steak Tartare wird aus hochwertigem rohem Rindfleisch zubereitet, das fein gehackt wird (idealerweise in langen Streifen oder Filet), und mit Kapern, Zwiebeln, Worcestershire-Sauce, Dijon-Senf und rohem Eigelb serviert wird. Es wird kalt mit Pommes Frites oder Salat serviert. Einige Restaurants bereiten es am Tisch zu, während andere es bereits gemischt anbieten. Genießen Sie es mit dem Eigelb vermischt. Der Geschmack ist tief und reichhaltig und überraschend zart. Verlassen Sie sich auf die Qualität des Fleisches: Gute Restaurants verwenden frisches und hochwertiges Fleisch.",
+        "vibe": "Kraftvoll und roh",
+        "history": "Trotz seines Namens ist Steak Tartare ein französisches Gericht (nicht tatarisch). Es wurde Anfang des 20. Jahrhunderts in Pariser Bistros geboren und ist von rohen Fleischgerichten aus Russland/Osteuropa inspiriert. Die Franzosen haben es verfeinert und zu etwas Wundervollem gemacht. Es beweist die Qualität des Restaurants, und Restaurants, die ein gutes Tartare anbieten, kaufen hochwertiges Fleisch. Heute ist es ein unverzichtbares Gericht in Bistros und ein Ritual für abenteuerlustige Esser.",
+        "insider_tip": "Wenn Sie hier zum ersten Mal sind, bestellen Sie zunächst das bereits zubereitete 'Préparé', oder sagen Sie 'Nature', wenn Sie es selbst zubereiten möchten. Das Fleisch sollte am selben Tag frisch gehackt werden: Fragen Sie auf keinen Fall in billigen Restaurants oder Touristenfallen. Gute Orte kosten zwischen 18€ und 25€. Vor dem Essen das Eigelb gut vermischen. Genießen Sie es mit Rotwein (Côtes du Rhône) oder Bier. In renommierten Restaurants ist das Essen sicher: Bei guter Zubereitung ist Lebensmittelvergiftung selten.",
+        "price_level": "Mäßig",
+        "good_for": [
+          "Abenteuerlustige Esser",
+          "Mittag- oder Abendessen"
+        ],
+        "duration": "30 Minuten",
+        "best_time": "Mittag- oder Abendessen"
+      },
+      "image": "/images/paris/steak-tartare.jpg"
+    },
+    {
+      "id": "food-024",
+      "slug": "oysters-seafood",
+      "name_en": "Austern und Meeresfrüchte",
+      "name_local": "Austern und Meeresfrüchte",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Die Austern aus Frankreich (nackig) werden roh auf Eis mit Zitrone, Schalotten-Essig oder Mignonette-Sauce serviert. Direkt aus der Schale in den Mund und einfach schlucken. Die Größe reicht von 0 (groß) bis 5 (klein), und es ist besser, mit 3 oder 4 für Anfänger zu beginnen. Austern sind die Hauptdarsteller der 'Meeresfrüchte-Platte', zusammen mit auf Eis gelegten Austern, Escargots, Garnelen, Krabben und Jakobsmuscheln. Die beste Saison ist in den Monaten mit 'R' (September bis April).",
+        "vibe": "frisch und salzig",
+        "history": "Austern werden seit der römischen Zeit in Frankreich gegessen. Im 19. Jahrhundert wurde in Pariser Brasserien ein Austernstand eingerichtet, wodurch die Atlantik-Austern frisch in Paris ankamen. Die Kultur, Austern mit Weißwein und Butter zu genießen, wurde zum bourgeoisischen Genuss. Heute gibt es Austernstände an fast jedem Ort, von Michelin-Restaurants bis hin zu Marktständen.",
+        "insider_tip": "Bestellen Sie 6 oder 12 Austern je nach Appetit. Fine de Claire (zart und mild) und Spéciale de Claire (kräftig und lecker) sind gängige Varianten. Lassen Sie sie direkt aus der Schale in den Mund fallen. Kein Kauen nötig, einfach schlucken. Verwenden Sie Zitrone oder Schalotten-Essig sparsam. Genießen Sie sie mit einem Weißwein (Muscadet, Chablis oder Champagner). Die Austern-Saison dauert von September bis April, und im Sommer schmecken die Austern weniger gut. Die Preise liegen in der Brasserie bei 2-4€ und auf dem Markt bei 1,50-2,50€.",
+        "price_level": "Mittel",
+        "good_for": [
+          "Meeresfrüchte-Liebhaber",
+          "Aperitif"
+        ],
+        "duration": "30 Minuten",
+        "best_time": "Mittagessen oder Abendessen"
+      },
+      "image": "/images/paris/oysters.jpg"
+    },
+    {
+      "id": "food-025",
+      "slug": "cheese-charcuterie",
+      "name_en": "Käse- und Wurstplatte",
+      "name_local": "Käse- und Wurstplatte",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Die Käseplatte enthält lokale italienische Käsesorten (Mozzarella, Gorgonzola, Parmesan, Pecorino, Ziegenmilch) und Wurstwaren (Salami, Paté, Rillettes, Prosciutto). Sie wird als Appetizer oder als Aperitif vor dem Abendessen zusammen mit Wein serviert. Käse sollte mit Brot gegessen und nicht mit einer Gabel gereicht werden. Es ist ein hervorragender Einstieg in die italienische Käses Kultur, um den Genuss einer großen Käseplatte zu erleben. Am besten teilt man sie für langsamem Genuss beim Gespräch.",
+        "vibe": "Gesellig, gemeinschaftlich",
+        "history": "Die Käseplatte ist eine jahrhundertealte Tradition in Italien. Sie war ursprünglich ein lokales Gericht, wurde jedoch im 20. Jahrhundert zu einer festen Einrichtung in Restaurants. Die Tradition, sie auf 'Tagliere' (Holzbrett) zu servieren, entstand in den 1980er und 90er Jahren. Italien hat mehr als 400 Käsesorten, mehr als jedes andere Land. Karl der Große sagte: 'Wahre Einheit liegt im Käse.'",
+        "insider_tip": "Bestellen Sie dies in einer Weinbar oder einem Restaurant. Eine gute Platte kostet zwischen 12 € und 20 € und reicht für 2-3 Personen. Essen Sie den Käse in der Reihenfolge von mild bis kräftig: Ziegenmilch → Brie → Comté → Roquefort. Schneiden Sie die 'Nase' des Käses (den Rand der Platte) nicht ab, sondern schneiden Sie von der Seite. Kombinieren Sie es mit Rotwein (Chianti) oder Weißwein (Sauvignon Blanc). Brot ist inbegriffen, während Cracker in der amerikanischen Version nicht angeboten werden."
+      },
+      "price_level": "Mittel",
+      "good_for": [
+        "Teilen",
+        "Essen und Wein-Kombination"
+      ],
+      "duration": "1 Stunde",
+      "best_time": "Aperitif (18 - 20 Uhr)"
+    },
+    {
+      "id": "food-007",
+      "slug": "the-macaron",
+      "name_en": "Die Macaron",
+      "name_local": "Macaron",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Macarons sind zarte Kekse aus Mandelmeringue: Sie haben eine knackige Außenschicht und eine weiche Innenseite zwischen zwei Schalen, gefüllt mit Ganache, Buttercreme oder Marmelade. Verwechseln Sie sie nicht mit amerikanischen Kokosmakronen. Ein perfekter Macaron ist glatt und glänzend, mit einer knackigen Außenschicht und einer weichen Innenseite sowie 'Füßen' (rauhen Schichten) an der Unterseite. Die Geschmäcker variieren von klassisch (Vanille, Schokolade, Pistazie) bis saisonal (Rose, salzige Karamell, Yuzu). Sie sind teuer (jeweils 2-3 €), aber symbolisch.",
+        "vibe": "Ansprechend und zart",
+        "history": "Die Herkunft des Macarons liegt in Italien, und er kam im 16. Jahrhundert mit Catherine de Medici nach Frankreich. Die in Paris entstandene, mit Ganache gefüllte Version wurde 1930 von Ladurée kreiert. Pierre Hermé brachte ihn in den 1990er und 2000er Jahren mit originellen Geschmäckern (Olivenöl, Foie Gras) in die Kunst. Heute sind sie ein weltweites Symbol der französischen Patisserie, jedoch debattieren Puristen darüber, ob moderne Versionen überbewertet sind.",
+        "insider_tip": "Ladurée (1862 gegründet) ist berühmt, aber am touristischen Standort sehr teuer (je 2,90 €). Pierre Hermé bietet hochwertige Qualität (je 2,50 €). Lokale Patisserien haben oft ein gutes Preis-Leistungs-Verhältnis (je 1,80-2 €) und es gibt dort weniger Menschen. Macarons sollten im Kühlschrank aufbewahrt und nach 20 Minuten bei Raumtemperatur gegessen werden. Um den vollen Geschmack zu erleben, ist es am besten, sie in 2-3 Bissen zu genießen. Kaufen Sie sie nicht im Supermarkt; sie sind alt und enttäuschend.",
+        "price_level": "Mittel",
+        "good_for": [
+          "Geschenke",
+          "Süßes"
+        ],
+        "duration": "5 Minuten",
+        "best_time": "Nachmittag"
+      },
+      "image": "/images/paris/macaron.jpg"
+    },
+    {
+      "id": "food-013",
+      "slug": "croque-monsieur",
+      "name_en": "Croque Monsieur",
+      "name_local": "Croque Monsieur",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Croque Monsieur ist das ultimative Komfortessen aus Frankreich: Ein warmes Sandwich aus zwei Scheiben geröstetem Brot, gefüllt mit Schinken und Gruyère-Käse, überbacken mit Béchamelsauce und geriebenem Käse. Es ist reichhaltig, cremig und köstlich. Mit einem Ei obendrauf wird es zum 'Croque Madame'. In Cafés und Bistros wird es als lässiges Mittag- oder Abendessen serviert und nicht mit der Hand, sondern mit Messer und Gabel gegessen.",
+        "vibe": "Einladend, käsehaltig",
+        "history": "1910 wurde es als warmes Sandwich in einem Café in Paris etabliert. Der Name bedeutet 'knusprige Nacht'. Später wurde mit dem Hinzufügen eines Eis die 'Damenvariante' Croque Madame geschaffen. Im 20. Jahrhundert wurde es zur Hauptattraktion der Cafés. Trotz seiner Einfachheit erfordert die Zubereitung eines köstlichen Croque Monsieur Geschick: Die Béchamel muss glatt sein und der Käse perfekt schmelzen. Heute ist es ein ikonisches Gericht der französischen Cafés.",
+        "insider_tip": "Bestellen Sie ein Mittagessen (€10-15) in einem Café oder Bistro. Eine qualitativ hochwertige Version wird frisch zubereitet und nicht vorab zubereitet und dann nur aufgeheizt. Die Béchamel sollte cremig sein, nicht gummiartig. Der Käse sollte gut schmelzen und leicht gebräunt sein. Croque Madame (mit Ei) ist eine bessere Variante: Das flüssige Eigelb bereichert das Sandwich. Servieren Sie es mit einem grünen Salat. Es passt gut zu Weißwein oder Bier. Es ist sättigend, daher ist es besser, es an heißen Sommertagen nicht zu bestellen.",
+        "price_level": "Moderat",
+        "good_for": [
+          "Mittagessen",
+          "Komfortessen"
+        ],
+        "duration": "30 Minuten",
+        "best_time": "Mittagessen"
+      },
+      "image": "/images/paris/croque-monsieur.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "bistro-culture",
+      "name_en": "Le Bistro Parisien",
+      "name_local": "Le Bistro",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Pariser Biströs sind kulturelle Identitäten. Es sind kleine, legere Restaurants mit Zinkbars, klappbaren Holztischen, Tafeln mit handgeschriebenen Menüs und Tagesgerichten. In einer gemütlichen Atmosphäre werden traditionelle französische Gerichte (Boeuf Bourguignon, Pot-au-Feu, Confit de Canard, Steak-Frites) serviert. Der Service ist schnell und effizient, ohne überflüssige Gespräche. Ein Bistro ist ein Ort, an dem Stammgäste jede Woche speisen. Es handelt sich nicht um gehobene Küche, sondern um das Erlebnis, echte und gut zubereitete französische Gerichte zu erschwinglichen Preisen zu genießen.",
+        "vibe": "klassisch, lokales Ambiente",
+        "history": "Das Bistro tauchte im 19. Jahrhundert auf und wurde als kleines Restaurant für Arbeiter populär. Der Name stammt wahrscheinlich von dem russischen Wort \"bystro\" (schnell), das von russischen Soldaten im Jahr 1814 zur Aufforderung schnellerer Bedienung verwendet wurde. In der frühen 1900er-Jahren wurden Zinkbars üblich, um Holzschäden durch Getränke zu vermeiden. Biströs repräsentieren die populäre Gastronomiekultur Frankreichs. Es handelt sich um einfache, aber gut zubereitete Speisen. In den 1980er und 1990er Jahren fast verschwunden, erlebte es eine Wiederbelebung in den 2000er und 2010er Jahren.",
+        "insider_tip": "Suchen Sie nach Biströs mit handgeschriebenen Menüs (die täglich je nach Marktzutaten wechseln). Vermeiden Sie \"Bistronomie\" (moderne und teure Biströs). Sie sind trendig, aber nicht authentisch. Echte Biströs haben Papiertischdecken, Kacheln aus den 1970ern und Zinkbars. Wenn Sie das \"Plat du Jour\" bestellen, erhalten Sie das beste Preis-Leistungs-Verhältnis. Mittagsmenüs (€15-20) sind großartig. Einheimische machen in legeren Biströs normalerweise keine Reservierungen, also gehen Sie einfach hin. Für das Abendessen ist es ratsam, 1-2 Tage im Voraus in beliebten Lokalen zu reservieren.",
+        "price_level": "moderat",
+        "good_for": [
+          "traditionelle französische Küche",
+          "lokale Speisen"
+        ],
+        "duration": "1,5-2 Stunden",
+        "best_time": "Mittagessen oder Abendessen"
+      },
+      "image": "/images/paris/bistrot.jpg"
+    },
+    {
+      "id": "food-009",
+      "slug": "steak-frites",
+      "name_en": "Steak-Frites",
+      "name_local": "Steak-Frites",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Steak-Frites ist ein bekanntes französisches Bistro-Gericht, das aus gegrilltem Filetfleisch (meist Rinderhüfte, Steak oder Brust) und knusprigen, dünnen Pommes Frites besteht, serviert mit einer Soße Ihrer Wahl (Béarnaise, Pfeffersauce oder Kräuterbutter). Das Fleisch wird rare oder medium zubereitet, und die Pommes Frites sind goldbraun, außen knusprig und innen weich. Es ist ein einfaches, aber perfekt zubereitetes Gericht, das das Markenzeichen eines guten Bistros ist. Immer mit einem grünen Salat als Beilage serviert.",
+        "vibe": "Klassisch und zufriedenstellend",
+        "history": "Steak-Frites gewann in den 1900er Jahren in den Bistros von Paris an Beliebtheit, als die Fleischpreise sanken und sich die Technik des Frittierens verbesserte. Belgische Einwanderer brachten im 19. Jahrhundert die Pommes Frites nach Paris. Diese Kombination symbolisiert einfaches französisches Comfort Food aus hochwertigen Zutaten. Heutzutage ist es das am häufigsten bestellte Gericht in Pariser Bistros und Brasserien und bei Einheimischen sowie Touristen beliebt.",
+        "insider_tip": "Ich empfehle Ihnen, das Steak 'à point' (rare - innen kühl und rot) oder 'bien cuit' (medium - innen warm und rot) zu bestellen. Französisches Rindfleisch hat weniger Fett als amerikanisches, daher ist rare die beste Wahl. Béarnaise-Sauce (Estragonbuttersauce) ist traditionell, und Pfeffersauce ist ebenfalls beliebt. Die Pommes Frites sollten frisch geschnitten und doppelt frittiert werden; wenn sie weich sind, hat das Bistro die Qualität beeinträchtigt. Der Preis liegt je nach Schnitt zwischen 18-28 €. Servieren Sie es mit Rotwein (Bordeaux oder Côtes du Rhône)."
+      },
+      "price_level": "günstig",
+      "good_for": [
+        "Mittag- und Abendessen",
+        "klassisches Bistro"
+      ],
+      "duration": "1 Stunde",
+      "best_time": "Mittag- und Abendessen"
+    },
+    {
+      "id": "food-008",
+      "slug": "sopa-di-cipolla-francese",
+      "name_en": "Sopa di Cipolla Francese",
+      "name_local": "Sopa di Cipolla Francese",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Zwiebel-Suppe, eine mit karamellisierten Zwiebeln zubereitete Suppe (Rinder- oder Hühnerbrühe), die auf dicken, gerösteten Brotscheiben mit geschmolzenem Gruyère oder Käse großzügig belegt ist. Die Zwiebeln werden 30-40 Minuten lang gut gekocht, bis sie weich und goldbraun sind. Der Käse schmilzt auf dem Brot und bildet eine cremige, geschmackvolle Bräunung. Es ist ein angenehles, schmackhaftes und duftendes Gericht. Oft wird es spät in der Nacht nach einer Party genossen.",
+        "vibe": "angenehm, warm",
+        "history": "Die Zwiebelsuppe hat ihren Ursprung im antiken Rom, aber die moderne französische Version tauchte im 18. Jahrhundert in Paris auf. Sie wurde zu einem Symbol, das von Arbeitern im Stadtteil Les Halles am Ende des Abendessens gegen 4 Uhr morgens genossen wurde. Im 19. Jahrhundert wurde die Käsesorte hinzugefügt. Heute ist es ein traditionelles Gericht, besonders im Herbst und Winter, in Bistros und Brasserien. Es ist auch ein klassisches Gericht gegen einen Kater nach einem Abend draußen.",
+        "insider_tip": "Bestellen Sie bitte in einem traditionellen Bistro oder einer Brasserie und nicht in einem Café für Touristen. Die Zwiebeln sollten tief karamellisiert sein (nicht hell, sondern braun) und die Brühe sollte reichhaltig und geschmackvoll sein, der Käse muss korrekt schmelzen und goldbraun sein. Das Brot sollte ausreichend geröstet sein, um in die Brühe eingetaucht zu werden. Verwenden Sie einen Löffel, um Käse und Brot zusammen aufzunehmen. Es ist reichhaltig und nahrhaft, also denken Sie daran, es nicht als Vorspeise, sondern als Hauptgericht zu betrachten. Es schmeckt am besten in den Wintermonaten.",
+        "price_level": "praktisch",
+        "good_for": [
+          "Winterwärme",
+          "späte Nächte"
+        ],
+        "duration": "30 Minuten",
+        "best_time": "Abendessen oder spät in der Nacht"
+      },
+      "image": "/images/paris/onion-soup.jpg"
+    },
+    {
+      "id": "food-005",
+      "slug": "french-cheese",
+      "name_en": "Französischer Käsekurs",
+      "name_local": "Formaggio Francese",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Bei einem traditionellen französischen Abendessen wird Käse nach dem Hauptgericht und vor dem Dessert serviert, und nicht als Appetitanreger. Auf einer Käseplatte finden sich drei bis fünf verschiedene Käsesorten mit unterschiedlichen Texturen und Geschmäckern: frisch (Ziegenkäse), cremig (Brie, Camembert), hart (Comté, Beaufort), blau (Roquefort). Es wird mit Brot anstelle von Crackern gegessen. Man startet mit mildem Käse und geht zu stärkeren über. Dies wird als Methode angesehen, um den Gaumen zu erfrischen und den Weingenuss vor dem Dessert zu steigern.",
+        "vibe": "raffiniert, traditionell",
+        "history": "Die Käsepräsentation reicht bis ins 18. Jahrhundert, als das vielfältige Mittagessen zum Standard der französischen Bourgeois-Küche wurde. Das Servieren von Käse nach dem Hauptgericht ermöglicht es, den Wein vor dem süßen Dessert zu genießen. In Frankreich werden über 1200 Käsesorten hergestellt, und es gibt hier die vielfältigste Käsekultur. Jede Region hat ihre eigenen speziellen Sorten, die mit dem lokalen Terroir und den Traditionen verbunden sind.",
+        "insider_tip": "Käsegerichte erscheinen auf den Menüs hochklassiger Restaurants und sind in lässigen Bistros nicht zu finden. Seien Sie bereit, für Optionen zwischen 12-18€ zu zahlen. Genießen Sie von mild (Ziege) bis kräftig (blauer Käse). Schneiden Sie den Käse vom Rand ab und nicht von der Mitte (\"Nase\"). Nutzen Sie Brot, um den Mund zwischen den Käsesorten zu reinigen. Kombinieren Sie Käse mit Rotwein (Bordeaux, Burgund) oder Weißwein (Sancerre). Lagern Sie den Käse nicht im Kühlschrank vor dem Servieren; er sollte bei Zimmertemperatur serviert werden. Wenn Sie nach dem Abendessen bereits satt sind, ist es in Ordnung, das Käsegericht auszulassen.",
+        "price_level": "Mittel",
+        "good_for": [
+          "gourmet Essen",
+          "Weinbegleitung"
+        ],
+        "duration": "20 Minuten",
+        "best_time": "nach dem Hauptgericht des Abendessens"
+      },
+      "image": "/images/paris/cheese.jpg"
+    },
+    {
+      "id": "food-006",
+      "slug": "french-wine",
+      "name_en": "Französischer Wein",
+      "name_local": "Wein",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Wein ist ein unverzichtbarer Bestandteil der französischen Küche und nicht nur eine Beilage. Der Hauswein ('vin de la maison') wird in Karaffen serviert, ist preiswert (8-15 €) und häufig von hervorragender Qualität. Die Weinkultur Frankreichs hebt regionale Besonderheiten hervor, darunter Weißweine aus der Loire, Rotweine aus Bordeaux, Pinot Noir aus Burgund und Mischungen aus dem Rhône-Tal. In Paris gibt es einen Trend zu Naturweinen ('vin nature'), bei denen einzigartige und organische Weine mit minimalem Eingriff beliebt sind. Weinbars sind überall zu finden.",
+        "vibe": "Alltäglich",
+        "history": "Die Weinproduktion in Frankreich begann vor mehr als 2600 Jahren während der griechischen Kolonialzeit. Im 18. und 19. Jahrhundert wurden französische Weine zum weltweiten Standard. Das 1935 gegründete AOC-System (Appellation d'Origine Contrôlée) schützt die Identität regionaler Weine. Die Pariser trinken immer Wein zu ihren Mahlzeiten – es ist nicht nur für besondere Anlässe. In den 2010er Jahren breitete sich die Bewegung der Naturweine in Paris aus, angeführt von jungen Winzern, die der industriellen Weinproduktion entgegenwirkten.",
+        "insider_tip": "Es ist ein besseres Angebot, den Hauswein ('vin de la maison') in Karaffen (8-12 €) oder Dekantern zu bestellen als in Flaschen. Sie können Rot (rouge), Weiß (blanc) oder Rosé (rosé) ausprobieren. Lassen Sie sich nicht von der Weinkarte überwältigen – fragen Sie den Kellner: 'Was empfehlen Sie?'. Die Weinbars in Le Marais, Oberkampf und Belleville sind auf Naturweine spezialisiert. Probieren Sie sie zu rotem Fleisch, weißem Fisch und rosa Schinken. Genießen Sie, was Ihnen schmeckt – einige haben strenge Kriterien für Wein, aber die meisten Pariser sind unkompliziert in Bezug auf Wein.",
+        "price_level": "Moderat",
+        "good_for": [
+          "Mittagessen",
+          "Weinliebhaber"
+        ],
+        "duration": "Beim gesamten Essen",
+        "best_time": "Mittagessen oder Abendessen"
+      },
+      "image": "/images/paris/wine.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "cafe-culture",
+      "name_en": "Café-Kultur",
+      "name_local": "Le Café",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Die Café-Kultur in Paris, wo Sie stundenlang an einem Terrassentisch einen Espresso ('Café') oder ein Glas Wein genießen. Es ist nicht nur ein Kaffeebetrieb, sondern eine soziale Institution. Die Standorte sind strategisch, 'Terrasse' (außen) ist teurer als 'Salon' (innen), und 'Theke' (stehen trinken) ist am günstigsten. Cafés sind Theater, um das Büro, den Salon und das Alltagsleben zu beobachten. Sie können viele Stunden bei einer Bestellung verbringen, und niemand drängt Sie.",
+        "vibe": "Gemütliche soziale Atmosphäre",
+        "history": "Die Pariser Cafés erschienen im 17. und 18. Jahrhundert und wurden im 19. und 20. Jahrhundert zum Zentrum der Intellektuellen (Café de Flore, Les Deux Magots begrüßten Sartre, Hemingway, Picasso). Die Terrassenkultur breitete sich nach dem Zweiten Weltkrieg schnell aus, als das Sitzen im Freien erlaubt wurde. Cafés wurden zu einem demokratischen Ort, an dem Menschen von Arbeitern bis zu Intellektuellen Platz nehmen konnten. Es ist gesetzlich geschützt, und Cafés können keine Banken oder Filialen werden.",
+        "insider_tip": "Bestellen Sie 'Café' (Espresso), 'Crème' (Espresso mit Milch), 'Café Long' (Americano). An der Terrasse zu sitzen ist 20% bis 50% teurer als an der Theke zu stehen. Die Bezahlung erfolgt nicht beim Bestellen, sondern beim Gehen, sodass Sie sich in Ihrem eigenen Tempo aufhalten können. Die Kellner drängen nicht; Sie können Stunden mit einem Getränk verbringen. Die besten Orte zur Menschenbeobachtung: Café de Flore, Les Deux Magots, Café de la Paix (touristische Preise, aber ikonisch). Einheimische besuchen Cafés in der Nähe von Orten mit weniger Touristen (günstiger und authentischer).",
+        "price_level": "Mäßig",
+        "good_for": [
+          "Menschenbeobachtung",
+          "Studium"
+        ],
+        "duration": "1-3 Stunden",
+        "best_time": "Morgens oder abends"
+      },
+      "image": "/images/paris/cafe.jpg"
+    },
+    {
+      "id": "food-010",
+      "slug": "paris-crepe",
+      "name_en": "Pariser Crêpe",
+      "name_local": "Crêpe",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Eine Crêpe ist ein dünner Teig, der mit süßen Zutaten (Nutella, Zucker und Zitrone, Marmelade) oder herzhaften Zutaten (Schinken und Käse, Ei) gefüllt wird. Herzhafte Crêpes aus Buchweizenmehl werden als \"Galette\" bezeichnet (eine Spezialität aus der Bretagne) und werden als Street Food an Fensterständen (\"Ventanita\") oder in Crêperien verkauft. Es ist auch ein Erlebnis, die Crêpiers zu sehen, die den Teig mit einem Holzlöffel auf der heißen Platten ausbreiten. Die Preise sind günstig (4-8 €) und ideal für unterwegs.",
+        "vibe": "Lässig, Street Food",
+        "history": "Die Crêpe entstand zwischen 1200 und 1300 in der Bretagne, Nordwestfrankreich. Die Bretonen brachten im 19. und frühen 20. Jahrhundert die Crêpe-Kultur nach Paris und eröffneten Crêperien und Stände. Die Nutella-Crêpe wurde in den 1960er und 1970er Jahren zu einem Icon. Crêpe-Stände konzentrieren sich auf touristische Orte und im Latin Quarter. Süße Crêpes werden als Dessert oder Frühstück serviert, herzhafte Galettes als Hauptgericht.",
+        "insider_tip": "Kaufen Sie an Street-Ständen (\"Ventanita\") für 4-6 € und vermeiden Sie den Service in Crêperien (die das Gleiche für 10-15 € anbieten). Beliebte Füllungen: süß mit Nutella, Zucker und Zitrone oder Nutella und Banane, herzhaft mit Schinken und Käse sowie Ei (Komplett). Galette (Buchweizenmehl) ist glutenfrei und reichhaltiger. Schauen Sie den Crêpiers bei der Arbeit zu – frische Crêpes sind schmackhafter als vorverpackte. Es ist besser, unterwegs zu essen oder auf einer Parkbank zu sitzen. Empfohlene Gegenden: Latin Quarter, Montmartre, Île de la Cité.",
+        "price_level": "Günstig",
+        "good_for": [
+          "Frühstück",
+          "Street Food"
+        ],
+        "duration": "10 Minuten",
+        "best_time": "Mittags oder als Dessert"
+      },
+      "image": "/images/paris/crepes.jpg"
+    },
+    {
+      "id": "food-011",
+      "slug": "eclair",
+      "name_en": "L'Éclair",
+      "name_local": "L'Éclair",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Ein Éclair ist ein langer Pâtisserie, der aus Choux-Teig besteht und mit Vanille-, Schokolade- oder Kaffeepudding gefüllt ist, wobei er mit einer glänzenden Glasur überzogen wird. Er ist leicht und luftig und nicht zu süß. Moderne Pâtissiers präsentieren kreative Geschmacksrichtungen (Pistazie, Karamell, Maracuja) in bunten Glasuren. Ein echtes Éclair hat eine knusprige Außenschicht, eine cremige Füllung und eine glänzende Glasur. Man isst es in 2-3 Bissen, und es sollte nicht mit Löffel oder Messer gegessen werden.",
+        "vibe": "Malerisch und klassisch",
+        "history": "Das Éclair kam in den 1840er bis 1850er Jahren nach Frankreich, möglicherweise kreiert von Chef Antoine Carême. Der Name stammt von 'blitzschnell', was auf die schnelle Essgewohnheit und den Glanz der Glasur verweist. Bis zum Ende des 19. Jahrhunderts wurde es zu einem unverzichtbaren Artikel der Pâtisserie. Moderne Pâtissiers wie Christophe Adam und Pierre Hermé haben in den 2000er und 2010er Jahren das Éclair mit kreativen Geschmacksrichtungen gefördert.",
+        "insider_tip": "Kaufen Sie es bei einer echten Pâtisserie. Nicht bei einer Kette oder im Supermarkt. Die äußere Schicht sollte leicht und knusprig sein, nicht weich. Die Creme sollte weich, aber nicht zu süß sein. Verlassen Sie sich auf klassische Geschmacksrichtungen (Schokolade, Kaffee, Vanille), aber trendige Geschmacksrichtungen können manchmal unbeständig sein. Essen Sie es am selben Tag, an dem Sie es gekauft haben. Es hält nicht lange. Preis: 3-5 € je nach Pâtisserie. Éclair du Génie ist spezialisiert auf kreative Éclairs (1 Stück kostet 5-6 €).",
+        "price_level": "Mässig",
+        "good_for": [
+          "Desserts",
+          "Glamouröse Stopps"
+        ],
+        "duration": "5 Minuten",
+        "best_time": "Nachmittag"
+      },
+      "image": "/images/paris/eclair.jpg"
+    },
+    {
+      "id": "food-014",
+      "slug": "canele",
+      "name_en": "Le Canelé",
+      "name_local": "Canelé de Bordeaux",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Canelé ist ein kleines Gebäck aus Bordeaux, das eine tief karamellisierte, dicke äußere Schicht und eine cremige Innenseite hat. Sein Aroma erinnert an Rum und Vanille und es hat den Geschmack von karamelisiertem Zucker. Der Kontrast zwischen der knusprigen Außenschicht und der cremigen Textur innen ist ansprechend. Es hat einen Durchmesser von etwa 5 cm und kann in 3-4 Bissen genossen werden. Dieses Gebäck stammt aus Bordeaux und ist zu einer festen Größe in den Patisserien von Paris geworden.",
+        "vibe": "Karamellgeschmack, cremig",
+        "history": "Canelé entstand im 18. Jahrhundert in Bordeaux und wurde von Nonnen hergestellt, die die Eigelb verwendeten, die bei der Weinherstellung übrigblieben (das Eiweiß wurde zum Filtern des Weins verwendet). Dieses Rezept war nahezu vergessen, erlebte jedoch in den 1980er Jahren eine Wiederbelebung. Die gewellten Kupferformen erzeugen die dicke karamellisierte Außenschicht. Heutzutage kann man es in allen Patisserien in Paris finden, aber Puristen behaupten, dass die Bordeaux-Version die bessere ist.",
+        "insider_tip": "Es wird empfohlen, es bei Raumtemperatur oder leicht erwärmt zu genießen: Der Karamellgeschmack kommt besser zur Geltung. Die äußere Schicht sollte sehr hellbraun (fast schwarz) sein, dick und knusprig. Die Innenseite hat eine hellgelbe, cremige Farbe und ist nicht kuchenartig. Es wird empfohlen, es nicht im Supermarkt, sondern in speziellen Patisserien zu kaufen. Die Haltbarkeit beträgt 1-2 Tage, aber der Geschmack am Einkaufstag ist der beste. Preis: pro Stück 2-2,50 €. Genießen Sie es mit Kaffee oder süßem Wein.",
+        "price_level": "Günstig",
+        "good_for": [
+          "zum Probieren",
+          "als Begleitung zum Kaffee"
+        ],
+        "duration": "5 Minuten",
+        "best_time": "Mittag"
+      },
+      "image": "/images/paris/canele.jpg"
+    },
+    {
+      "id": "food-027",
+      "slug": "tarte-tatin",
+      "name_en": "Tarte Tatin",
+      "name_local": "Tarte Tatin",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Tarte Tatin ist ein karamellisierter Apfelkuchen, der auf den Kopf gestellt gebacken wird. Äpfel werden mit Butter und Zucker bis zur goldenen Farbe karamellisiert, mit einem Teig bedeckt und im Ofen gebacken, bevor er umgedreht wird, damit die karamellisierten Äpfel oben liegen. Die Äpfel sind weich und süß mit einem tiefen Karamellgeschmack und liegen auf einem buttrigen Teig. Er wird heiß mit Sahne, Vanilleeis oder Schlagsahne serviert. Dies ist ein einfaches und prächtiges traditionelles französisches Dessert.",
+        "vibe": "Karamellgeschmack, einfach",
+        "history": "Er wurde in den 1880er Jahren im Hôtel Tatin im Süden von Paris zufällig hergestellt. Der Legende nach vergaß Stéphanie Tatin, den Teig in die Form zu geben, und deckte den Kuchen oben drauf, bevor sie ihn umdrehte. Dieser 'Fehler' wurde berühmt. Heute ist es ein klassisches französisches Dessert, das in Bistrots und Brasserien im ganzen Land angeboten wird. Es spiegelt die Klugheit und schlichte Pracht Frankreichs wider.",
+        "insider_tip": "Bitte bestellen Sie es in einem traditionellen Bistro oder einer Brasserie, nicht in einem Café für Touristen. Die Äpfel sollten goldbraun und karamellisiert sein, nicht weiß oder weich. Der Teig sollte knusprig und buttrig sein. Er sollte heiß (nicht sehr heiß oder kalt) serviert werden. Sauerrahm ist das traditionelle Topping und sein Säure schafft ein Gleichgewicht zur Süße. Der Preis liegt bei 8-12€ pro Portion. Wenn möglich, teilen Sie ihn, da er sehr reichhaltig ist. Genießen Sie ihn mit Süßwein (Sauternes) oder Kaffee.",
+        "price_level": "Mittel",
+        "good_for": [
+          "Dessert",
+          "Teilen"
+        ],
+        "duration": "20 Minuten",
+        "best_time": "Nach dem Abendessen"
+      },
+      "image": "/images/paris/tarte-tatin.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Weltklasse Museen",
+      "id": "museums",
+      "items": [
+        {
+          "id": "mus-01",
+          "slug": "louvre",
+          "name_en": "Louvre Museum",
+          "name_local": "Louvre Museum",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Das Louvre Museum ist das größte Museum der Welt und ein historisches Monument in Paris. Ursprünglich als mittelalterliche Festung im 12. Jahrhundert erbaut, wurde es später zu einem königlichen Palast und 1793 als Museum eröffnet. Es beherbergt über 38.000 Artefakte aus 9.000 Jahren, darunter die Mona Lisa, die Venus von Milo und die Siegesgöttin. Der 1989 errichtete gläserne Pyramideneingang ist ikonisch. Es ist riesig, und es ist schwierig, alles auf einmal zu sehen.",
+            "vibe": "Erbe, beeindruckend",
+            "history": "1190 wurde es von Philippe Auguste als Festung erbaut und im 16. Jahrhundert von Franz I. renoviert. Während der Französischen Revolution (1793) wurde es zu einem öffentlichen Museum, und die umstrittene Glas-Pyramide, hinzugefügt von I.M. Pei im Jahr 1989, macht es modern. Napoleon erweiterte die Sammlung mit eroberten Artefakten. Heute ist es das meistbesuchte Museum der Welt, mit über 9,6 Millionen Besuchern pro Jahr.",
+            "insider_tip": "Buchen Sie die Tickets für einen bestimmten Tag 2-7 Tage im Voraus (es ist Pflicht). Vermeiden Sie die Schlange und betreten Sie durch das Löwentor oder die unterirdische Carré. Gehen Sie gleich nach der Eröffnung (9 Uhr morgens) oder kurz vor Schluss (17:30 Uhr) direkt zur Mona Lisa. Die Bilder sind klein und hinter Glas, und es kann sehr voll werden, also verwalten Sie Ihre Erwartungen. Konzentrieren Sie sich auf ein Werk: wählen Sie Denon (italienische Renaissance), Sully (ägyptisch), Richelieu (französische Malerei). Nutzen Sie die Offline-Karten und Audioguide-App des Louvre.",
+            "price_level": "Mittel",
+            "good_for": [
+              "Kunstliebhaber",
+              "Erstbesucher"
+            ],
+            "duration": "2-4 Stunden",
+            "best_time": "Bei Eröffnung (9 Uhr morgens) oder am späten Abend"
+          },
+          "image": "/images/paris/louvre.jpg",
+          "geo": {
+            "lat": 48.8606,
+            "lng": 2.3376
+          }
+        },
+        {
+          "id": "mus-02",
+          "slug": "musee-orsay",
+          "name_en": "Orsay Museum",
+          "name_local": "Musée d'Orsay",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Das Musée d'Orsay befindet sich im wunderschönen alten Bahnhof im Beaux-Arts-Stil (Gare d'Orsay), der 1900 erbaut wurde. Es enthält die größte Impressionisten- und Post-Impressionisten-Sammlung der Welt mit Werken von Monet, Renoir, Degas, Van Gogh, Cézanne und Gauguin. In der obersten Galerie befinden sich Ausstellungen wie der Springbrunnen, der sternenklare Nachthimmel über der Rhône und die Ballerina. Das Gebäude selbst ist ein Kunstwerk mit einer riesigen dekorativen Uhr und einem Glasdach. Es ist kleiner und überschaubarer als der Louvre.",
+            "vibe": "Helligkeit, traditionell",
+            "history": "Es wurde 1900 als Gare d'Orsay für die Weltausstellung erbaut. 1939 wurde es aufgrund zu kurzer Gleise für moderne Züge geschlossen. Nach beinahe der Zerstörung in den 1970er Jahren wurde es gerettet und in ein Museum umgewandelt, das 1986 eröffnet wurde. Die Umgestaltung bewahrte die industrielle Struktur und schuf intime Ausstellungsräume. Es dient als Verbindung zwischen dem Louvre (Antike-1848) und dem Pompidou (modern), das die Zeit von 1848 bis 1914 abdeckt.",
+            "insider_tip": "Buchen Sie Ihre zeitgesteuerten Tickets 3-5 Tage im Voraus online. Betreten Sie durch den Seiteneingang, um weniger Menschenmengen als am Haupteingang zu haben. Gehen Sie direkt zur obersten Etage (5. Stock), um die Impressionisten-Sammlung zu sehen—die meisten Besucher beginnen im ersten Stock, daher ist die oberste Etage am Morgen ruhiger. Von der großen Uhrenenster hat man einen großartigen Blick auf die Seine. Mittwoch- und Freitagabende (bis 21:45 Uhr geöffnet) sind magisch und weniger überfüllt. Planen Sie mindestens 2-3 Stunden ein. Vermeiden Sie die Souvenirläden—die Preise sind hoch.",
+            "price_level": "Mittel",
+            "good_for": [
+              "Impressionismus-Kunstliebhaber",
+              "Paare"
+            ],
+            "duration": "2-3 Stunden",
+            "best_time": "Bei Eröffnung oder Mittwoch und Freitagabends"
+          },
+          "image": "/images/paris/orsay.jpg",
+          "geo": {
+            "lat": 48.86,
+            "lng": 2.3266
+          }
+        },
+        {
+          "id": "mus-03",
+          "slug": "musee-rodin",
+          "name_en": "Rodin Museum",
+          "name_local": "Musée Rodin",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Das Rodin Museum ist ein ruhiges Kunstmuseum, das in einem prachtvollen Gebäude aus dem 18. Jahrhundert (Hôtel Biron) mit einem schönen Garten untergebracht ist. Es beherbergt die größte Sammlung von Werken des Auguste Rodin, einschließlich ‚Der Denker‘, ‚Der Kuss‘, ‚Die Tore der Hölle‘ und ‚Balzac‘. Der Skulpturengarten gilt als Hauptattraktion, wo bronzene Statuen zwischen Rosen und Baumreihen verstreut sind. Es ist ruhig und intim und wird oft ignoriert, während andere Touristen in größere Museen strömen. Es ist ideal für einen ruhigen Nachmittag.",
+            "vibe": "Ruhig, nachdenklich",
+            "history": "Das Hôtel Biron wurde 1730 als nobles Hotel erbaut. Rodin mietete von 1908 bis 1917 hier Zimmer und nutzte es als sein Atelier. Er schenkte seine Sammlung der französischen Regierung, im Austausch für die Erlaubnis zur Renovierung des Gebäudes. Es wurde 1919 eröffnet. Der Garten wurde vom Landschaftsarchitekten Camille Saviard gestaltet und spiegelt die Tradition französischer Gärten wider. Er umfasst einen Raum für Camille Claudel (Rodins Schülerin und Geliebte).",
+            "insider_tip": "Besuchen Sie den Garten an einem sonnigen Tag, er ist die Hauptattraktion. Der Eintritt nur zum Garten ist günstig (€4, während das gesamte Museum €14 kostet). Der Denker steht im Haupthof, Sie können kostenlos von außen Bilder machen (wenn Sie keine Gebühren zahlen möchten). Es ist auch schön, das Musée d'Orsay in der Nähe zu besuchen (10 Minuten zu Fuß). Picknicks sind nicht erlaubt, aber Sie können auf einer Bank sitzen. Im Vergleich zum Louvre oder Musée d'Orsay ist es weniger überfüllt, weshalb in der Regel keine Buchung erforderlich ist, aber achten Sie auf das Wochenende im Sommer.",
+            "price_level": "Mittel",
+            "good_for": [
+              "Skulpturenliebhaber",
+              "Ruhesuchende"
+            ],
+            "duration": "1-2 Stunden",
+            "best_time": "Morgens oder am späten Abend (für gutes Licht)"
+          },
+          "image": "/images/paris/rodin.jpg",
+          "geo": {
+            "lat": 48.8553,
+            "lng": 2.3159
+          }
+        },
+        {
+          "id": "mus-04",
+          "slug": "centre-pompidou",
+          "name_en": "Pompidou Center",
+          "name_local": "Centre Pompidou",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Das Pompidou Center ist ein umgedrehtes Gebäude mit bunten Rohren, Kanälen und Außentreppen. Es beherbergt die größte Sammlung moderner Kunst in Europa, mit Arbeiten von Picasso, Matisse, Kandinsky, Duchamp und Warhol. Von der Dachterrasse aus hat man einen Panoramablick auf Paris. Auf dem Platz sind Straßenkünstler aktiv, die das Zentrum des sozialen Lebens bilden. Zum Zeitpunkt der Konstruktion war es umstritten (1977), wird jetzt aber geschätzt.",
+            "vibe": "Kühn, avantgardistisch",
+            "history": "Es wurde von Renzo Piano und Richard Rogers entworfen und 1977 eröffnet. Das Design war revolutionär und maximierte den inneren Ausstellungsraum, indem die gesamte Infrastruktur (Rohre, Treppen, strukturelle Unterstützung) nach außen verlegt wurde. Es war sehr umstritten und wurde 'Ölraffinerie' oder 'kultureller Supermarkt' genannt. Präsident Georges Pompidou unterstützte es, um das Gebiet Marais-Bonjour zu aktivieren. Heute ist es ein Symbol für High-Tech-Architektur und zieht jährlich über 3 Millionen Besucher an.",
+            "insider_tip": "Wenn Sie ein Ticket für das Museum haben, ist der Zugang zur Dachterrasse kostenlos (oder kaufen Sie ein Ticket für nur die Dachterrasse für €5). Genießen Sie die Aussicht, indem Sie die Außentreppen hinaufsteigen, ohne das Museum zu betreten—es bietet eine großartige Perspektive. Das Restaurant in der 6. Etage bietet mit Michelin-Stern ausgezeichnete Küche und einen fantastischen Blick auf den Eiffelturm. Der Platz ist der beste Ort, um Leute und Straßenkünstler zu beobachten. Der Eintritt ist jeden ersten Sonntag im Monat kostenlos, ist aber überfüllt. Geschlossen am Dienstag.",
+            "price_level": "Mittel",
+            "good_for": [
+              "Moderne Kunstliebhaber",
+              "Architekturinteressierte"
+            ],
+            "duration": "2 Stunden (Museum) oder 30 Minuten (nur Dachterrasse)",
+            "best_time": "Abends für einen spektakulären Sonnenuntergang"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Symbolische Monumente",
+      "id": "monumenti",
+      "items": [
+        {
+          "id": "mon-01",
+          "slug": "eiffel-tower",
+          "name_en": "Eiffelturm",
+          "name_local": "Eiffelturm",
+          "category": "Besuch",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Ein globales Symbol Frankreichs, 330 Meter hoch, bietet dieser Eisenturm einen Blick auf eine der berühmtesten Skylines der Welt.",
+            "history": "Erbaut von Gustave Eiffel für die Weltausstellung von 1889, wurde er anfangs von den Pariser Bürgern abgelehnt und sollte 20 Jahre später abgerissen werden. Seine Höhe machte ihn jedoch zur idealen Basis für drahtlose Telegraphie und rettete ihn.",
+            "insider_tip": "Um die langen Lift-Warteschlangen zu vermeiden, nehmen Sie günstige Tickets und steigen Sie die 674 Treppen zum zweiten Stock, um diese eiserne Struktur aus nächster Nähe zu sehen.",
+            "price_level": "Luxus",
+            "duration": "2-3 Stunden",
+            "best_time": "Abend, um die stündlich beginnenden 'Licht'-Shows zu sehen.",
+            "vibe": "Symbolisch und romantisch",
+            "good_for": [
+              "Erstbesuch",
+              "Aussicht",
+              "Fotos"
+            ]
+          },
+          "image": "/images/paris/eiffel.jpg",
+          "geo": {
+            "lat": 48.8584,
+            "lng": 2.2945
+          }
+        },
+        {
+          "id": "mon-02",
+          "slug": "arc-de-triomphe",
+          "name_en": "Arc de Triomphe",
+          "name_local": "Arc de Triomphe",
+          "category": "Besuch",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Dieses traditionelle, monumentale Tor, errichtet zu Ehren der kämpfenden Menschen Frankreichs, befindet sich im Zentrum des verkehrsreichsten Kreisels der Welt.",
+            "history": "Erbaut 1806 nach Napoleons Sieg bei Austerlitz, beherbergt es das Grabmal des unbekannten Soldaten und die ewige Flamme, die seit 1923 jede Nacht neu entzündet wird.",
+            "insider_tip": "Versuchen Sie niemals, den Kreisel zu Fuß zu überqueren. Nutzen Sie den Fußgängertunnel an der Champs-Élysées, um sicher zum Fundament zu gelangen.",
+            "price_level": "Mittel",
+            "duration": "1 Stunde",
+            "best_time": "Nachmittags, wenn das goldene Licht die 12 diagonalen Straßen erleuchtet.",
+            "vibe": "Erhaben und historisch",
+            "good_for": [
+              "Geschichte",
+              "Aussicht",
+              "Fotos"
+            ]
+          },
+          "image": "/images/paris/arc-triomphe.jpg",
+          "geo": {
+            "lat": 48.8738,
+            "lng": 2.295
+          }
+        },
+        {
+          "id": "mon-03",
+          "slug": "pantheon",
+          "name_en": "Panthéon",
+          "name_local": "Panthéon",
+          "category": "Besuch",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Dieses weltliche Grab im Lateinischen Viertel beherbergt die Überreste großer Bürger Frankreichs und beeindruckt mit seiner riesigen Kuppel und dem Pendel von Foucault.",
+            "history": "Ursprünglich als Kirche zu Ehren der heiligen Genoveva erbaut, wurde es während der Französischen Revolution in einen Tempel für die 'großen Männer des Zeitalters der Freiheit Frankreichs' umgewandelt.",
+            "insider_tip": "Es wird empfohlen, in die Krypta zu gehen und die Gräber von Voltaire, Victor Hugo und Marie Curie zu besichtigen. Von April bis Oktober sollten Sie die Kuppel besteigen, um die 360° atemberaubende Aussicht auf Paris zu genießen.",
+            "price_level": "Mittel",
+            "duration": "1.5 Stunden",
+            "best_time": "Morgens, um der Menschenmenge der nahegelegenen Sorbonne-Universität zu entkommen.",
+            "vibe": "Erhaben und intellektuell",
+            "good_for": [
+              "Geschichte",
+              "Architektur",
+              "Wissenschaftsinteressierte"
+            ]
+          },
+          "image": "/images/paris/pantheon.jpg",
+          "geo": {
+            "lat": 48.8462,
+            "lng": 2.3461
+          }
+        },
+        {
+          "id": "mon-04",
+          "slug": "opera-garnier",
+          "name_en": "Opéra Garnier",
+          "name_local": "Palais Garnier",
+          "category": "Besuch",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Ein Meisterwerk des Zweiten Kaiserreichs, dieses prächtige Opernhaus ist berühmt für seine beeindruckenden Treppen und die von Chagall gemalte Decke.",
+            "history": "Beauftragt von Napoleon III und entworfen von Charles Garnier, wurde es zur Hauptinspirationsquelle und Dekoration für Gaston Lerouxs 'Das Phantom der Oper'.",
+            "insider_tip": "Besuchen Sie die 'Grandes Escaliers', die nach dem Vorbild des Spiegelsaals von Versailles gestaltet sind und zweifellos beeindruckender sind als das Theater selbst.",
+            "price_level": "Mittel",
+            "duration": "1.5 Stunden",
+            "best_time": "10:00, direkt nach der Öffnung, bevor die Proben beginnen.",
+            "vibe": "Prächtig und dramatisch",
+            "good_for": [
+              "Architektur",
+              "Musikliebhaber",
+              "Inneneinrichtungsdesign"
+            ]
+          },
+          "image": "/images/paris/opera.jpg",
+          "geo": {
+            "lat": 48.8719,
+            "lng": 2.3316
+          }
+        }
+      ]
+    },
+    {
+      "title": "Passagen in Paris",
+      "id": "passaggi",
+      "items": [
+        {
+          "id": "pas-01",
+          "slug": "galerie-vivienne",
+          "name_en": "Galerie Vivienne",
+          "name_local": "Galerie Vivienne",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Der eleganteste überdachte Gang aus dem 19. Jahrhundert in Paris mit kunstvollen Fliesenverzierungen und einem beeindruckenden Glasdach.",
+            "history": "Erbaut im Jahr 1823, war es einer der eindrucksvollen Einkaufsorte vor dem Aufkommen der großen Kaufhäuser. Es gehört zu den wenigen Gängen, die nicht verfallen sind.",
+            "insider_tip": "Besuchen Sie bitte die Buchhandlung 'Librairie Jousseaume'. Sie ist seit 1826 in diesem Gang und sieht immer wie eine Zeitkapsel aus.",
+            "price_level": "Kostenlos",
+            "duration": "45 Minuten",
+            "best_time": "Perfekt für einen entspannten Rundgang an regnerischen Nachmittagen.",
+            "vibe": "Ruhige und raffinierte Atmosphäre",
+            "good_for": [
+              "versteckte Schätze",
+              "Einkaufen",
+              "Fotos"
+            ]
+          },
+          "image": "/images/paris/galerie-vivienne.jpg",
+          "geo": {
+            "lat": 48.8662,
+            "lng": 2.3395
+          }
+        },
+        {
+          "id": "pas-02",
+          "slug": "passage-des-panoramas",
+          "name_en": "Passage des Panoramas",
+          "name_local": "Passage des Panoramas",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Der älteste überdachte Gang in Paris, der heute ein lebendiger Ort für Gaumenfreunde, Briefmarkensammler und alte Postkartenjäger ist.",
+            "history": "Eröffnet im Jahr 1799, war es einer der ersten Orte in Paris, die Gasbeleuchtung nutzten, und zog in den frühen 1800er Jahren viele Menschen in der Nacht an.",
+            "insider_tip": "Ein hervorragender Ort, um ein günstiges Mittagessen zu genießen. Probieren Sie die reichhaltigen Saucen und die französische Creme im 'Gyozabar' oder 'Bizou'.",
+            "price_level": "Kostenlos",
+            "duration": "1 Stunde",
+            "best_time": "Wochentags am Nachmittag, um mit Einheimischen zu Mittag zu essen.",
+            "vibe": "Nostalgische und gastronomische Atmosphäre",
+            "good_for": [
+              "Gastronomen",
+              "Sammler",
+              "Geschichte"
+            ]
+          },
+          "image": "/images/paris/passage-panoramas.jpg",
+          "geo": {
+            "lat": 48.8711,
+            "lng": 2.3417
+          }
+        }
+      ]
+    },
+    {
+      "title": "Märkte und lokales Leben",
+      "id": "marches",
+      "items": [
+        {
+          "id": "mar-01",
+          "slug": "marche-des-enfants-rouges",
+          "name_en": "Markt der roten Kinder",
+          "name_local": "Markt der roten Kinder",
+          "category": "Ort",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Der älteste überdachte Lebensmittelmarkt in Paris, gelegen in Le Marais, bietet frische Produkte und internationale Takeaway-Gerichte.",
+            "history": "Er wurde 1615 gegründet und trägt den Namen der roten Mäntel tragenden Kinder aus dem nahegelegenen Waisenhaus (eine Farbe der Wohltätigkeit).",
+            "insider_tip": "Gehen Sie direkt zu 'Chez Alain Miam Miam' für die speziellen großen Sandwiches von Paris. Seien Sie jedoch bereit, 30 Minuten zu warten.",
+            "price_level": "Erschwinglich",
+            "duration": "1,5 Stunden",
+            "best_time": "Um 11:30 Uhr, um den Menschenmengen zu entkommen.",
+            "vibe": "Lebhaft und gesellig",
+            "good_for": [
+              "Mittagessen",
+              "Gastronomie",
+              "lokale Kultur"
+            ]
+          },
+          "image": "/images/paris/enfants-rouges.jpg",
+          "geo": {
+            "lat": 48.8622,
+            "lng": 2.3615
+          }
+        },
+        {
+          "id": "mar-02",
+          "slug": "rue-montorgueil",
+          "name_en": "Rue Montorgueil",
+          "name_local": "Rue Montorgueil",
+          "category": "Ort",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Ein lebhafter Fußgänger-Markt mit den besten Bäckereien, Fischläden, Blumenläden und historischen Cafés der Stadt.",
+            "history": "Diese Straße hat für Generationen als Zugang zum zentralen Fischmarkt von Le-Halles gedient.",
+            "insider_tip": "Besuchen Sie die #51 'Strehl' – die älteste Patisserie von Paris (gegründet 1730), wo 'Baba au Rhum' erfunden wurde.",
+            "price_level": "Mittel",
+            "duration": "1 Stunde",
+            "best_time": "Sonntagmorgen, wenn die Atmosphäre am besten ist.",
+            "vibe": "Energisch und gastronomisch",
+            "good_for": [
+              "Tägliche Rituale",
+              "Gastronomie",
+              "Spaziergänge"
+            ]
+          },
+          "image": "/images/paris/montorgueil.jpg",
+          "geo": {
+            "lat": 48.865,
+            "lng": 2.347
+          }
+        }
+      ]
+    },
+    {
+      "title": "Seine und Ufer",
+      "id": "seine",
+      "items": [
+        {
+          "id": "sei-01",
+          "slug": "seine-river-cruise",
+          "name_en": "Seine-Flusskreuzfahrt",
+          "name_local": "Seine-Kreuzfahrt",
+          "category": "Sicht",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Eine klassische Kreuzfahrt, die an Louvre, Kunstmuseum und Eiffelturm vorbeifährt und einen einzigartigen Blick vom Wasser aus bietet.",
+            "history": "„Bato-Mouche“ wurde nach dem Zweiten Weltkrieg populär und ist ein wichtiges Verkehrsmittel geworden, um das monumentale Zentrum der Stadt zu sehen, ohne zu Fuß zu gehen.",
+            "insider_tip": "Nutzen Sie 'Vedette du Pont Neuf' anstelle des großen Boots. Es ist kleiner, näher am Zentrum und der Guide bietet lebendige Erklärungen.",
+            "price_level": "Mittel",
+            "duration": "1 Stunde",
+            "best_time": "Später Abend, um die beleuchteten Denkmäler zu sehen.",
+            "vibe": "Entspannende Panoramaansicht",
+            "good_for": [
+              "Familien",
+              "Einsteiger",
+              "Sicht"
+            ]
+          },
+          "image": "/images/paris/seine-cruise.jpg",
+          "geo": {
+            "lat": 48.863,
+            "lng": 2.3
+          }
+        },
+        {
+          "id": "sei-02",
+          "slug": "seine-riverbanks",
+          "name_en": "Seine-Ufer",
+          "name_local": "Seine-Ufer",
+          "category": "Sicht",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Ein UNESCO-Weltkulturerbe, das aus touristischen Fußwegen besteht und der beste Ort in Paris für Spaziergänge und Picknicks ist.",
+            "history": "Ursprünglich als Hauptstraße genutzt, wurde das Ufer 2013 von der Stadt entwickelt und in einen dauerhaften Park für Fußgänger und Radfahrer umgewandelt.",
+            "insider_tip": "Nehmen Sie Wein und Käse mit, um den Sonnenuntergang wie ein Einheimischer an der Spitze von Île de la Cité (Place Ver Garen) zu genießen.",
+            "price_level": "Kostenlos",
+            "duration": "1-2 Stunden",
+            "best_time": "Sommerabende (von 19 bis 22 Uhr).",
+            "vibe": "Romantisch und gesellig",
+            "good_for": [
+              "Picknick",
+              "Spazieren",
+              "Nutzen"
+            ]
+          },
+          "image": "/images/paris/seine-banks.jpg",
+          "geo": {
+            "lat": 48.8556,
+            "lng": 2.3476
+          }
+        }
+      ]
+    },
+    {
+      "title": "Kirchen und Heilige Stätten",
+      "id": "churches",
+      "items": [
+        {
+          "id": "chu-01",
+          "slug": "notre-dame",
+          "name_en": "Kathedrale Notre-Dame",
+          "name_local": "Kathedrale Notre-Dame",
+          "category": "Stätte",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Ein Meisterwerk der gotischen Architektur Frankreichs, das sich im wahren Zentrum der Stadt (Nullpunkt) befindet.",
+            "history": "Von 1163 bis 1345 erbaut, wurde sie zu einem der bedeutendsten Restaurierungsprojekte der modernen Geschichte, nachdem sie sowohl die Französische Revolution als auch das verheerende Feuer von 2019 überstanden hat.",
+            "insider_tip": "Obwohl die Restaurierungsarbeiten noch andauern, besuchen Sie bitte die Krypta unter dem Platz, um die grundlegenden Merkmale des römischen Paris zu erleben.",
+            "price_level": "Kostenlos",
+            "duration": "45 Minuten (außen/Krypta)",
+            "best_time": "Frühmorgens, bevor sich die Touristen auf dem Platz versammeln.",
+            "vibe": "Majestätisch und flexibel",
+            "good_for": [
+              "Geschichte",
+              "Architektur",
+              "Besucher"
+            ]
+          },
+          "image": "/images/paris/notre-dame.jpg",
+          "geo": {
+            "lat": 48.8529,
+            "lng": 2.35
+          }
+        },
+        {
+          "id": "chu-02",
+          "slug": "sacre-coeur",
+          "name_en": "Basilika Sacré-Cœur",
+          "name_local": "Basilika Sacré-Cœur",
+          "category": "Stätte",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Eine romanisch-byzantinische Kirche mit weißer Kuppel, die sich an der höchsten Stelle von Paris befindet und einen großartigen Blick auf die Stadt bietet.",
+            "history": "Nach dem deutsch-französischen Krieg als Opfergabe errichtet, leuchtet ihr einzigartiger weißer Stein (Travertin) im Regen und behält seinen Glanz.",
+            "insider_tip": "Die Treppen sind oft überfüllt, vermeiden Sie daher den Vordereingang und gehen Sie über den Fußweg zur Kuppel, um den höchsten Blick auf die Stadt, fern vom Eiffelturm, zu genießen.",
+            "price_level": "Kostenlos",
+            "duration": "1,5 Stunden",
+            "best_time": "Am Morgen, wenn die Stadt friedlich erwacht.",
+            "vibe": "Mystisch und lebhaft",
+            "good_for": [
+              "Aussicht",
+              "Fotografie",
+              "Spiritualität"
+            ]
+          },
+          "image": "/images/paris/sacre-coeur.jpg",
+          "geo": {
+            "lat": 48.8867,
+            "lng": 2.3431
+          }
+        },
+        {
+          "id": "chu-03",
+          "slug": "sainte-chapelle",
+          "name_en": "Sainte-Chapelle",
+          "name_local": "Sainte-Chapelle",
+          "category": "Stätte",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Ein königlicher Gebetsort aus dem 13. Jahrhundert, der einige der schönsten Buntglasfenster der Welt enthält.",
+            "history": "Sie wurde von Ludwig IX. erbaut, um die Reliquien des Leidens zu beherbergen, darunter die Dornenkrone (die sich heute in Notre-Dame befindet).",
+            "insider_tip": "Besuchen Sie an einem klaren Tag. 1.113 Glasfenster leuchten im Sonnenlicht und machen den Gebetsort zu einem Juwel.",
+            "price_level": "Mittel",
+            "duration": "1 Stunde",
+            "best_time": "Wenn die Sonne hoch am Himmel steht, um 12:00 Uhr.",
+            "vibe": "Inspirierend und fokussierend",
+            "good_for": [
+              "Kunstliebhaber",
+              "Geschichte",
+              "Architektur"
+            ]
+          },
+          "image": "/images/paris/sainte-chapelle.jpg",
+          "geo": {
+            "lat": 48.8554,
+            "lng": 2.345
+          }
+        }
+      ]
+    },
+    {
+      "title": "Parks und Natur",
+      "id": "parks",
+      "items": [
+        {
+          "id": "par-01",
+          "slug": "luxembourg-gardens",
+          "name_en": "Luxembourg-Garten",
+          "name_local": "Luxembourg-Garten",
+          "category": "Aussicht",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Ein Juwel am linken Seine-Ufer, ein französischer Stil Garten mit einem Palais und den berühmten grünen Metallstühlen.",
+            "history": "Er wurde 1612 von Marie de' Medici, der Witwe von Heinrich IV., gegründet, um ihrer Heimatstadt Florenz und dem Palazzo Pitti zu gedenken.",
+            "insider_tip": "Die Einheimischen wissen, dass der 'Medici-Brunnen' der romantischste und schattigste Ort im Park ist, ideal zum Lesen und für Dates.",
+            "price_level": "Kostenlos",
+            "duration": "2 Stunden",
+            "best_time": "Nachmittags, wenn die Spielzeugsboote im mittleren Teich aktiv sind.",
+            "vibe": "Erlesene und entspannte Atmosphäre",
+            "good_for": [
+              "Picknick",
+              "Familien",
+              "Spaziergänge"
+            ]
+          },
+          "image": "/images/paris/luxembourg.jpg",
+          "geo": {
+            "lat": 48.8462,
+            "lng": 2.3372
+          }
+        },
+        {
+          "id": "par-02",
+          "slug": "tuileries-garden",
+          "name_en": "Tuilerien-Garten",
+          "name_local": "Tuilerien-Garten",
+          "category": "Aussicht",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Ein prächtiger Garten, der den Louvre und den Place de la Concorde verbindet, berühmt für seine asphaltierten Wege und Statuen.",
+            "history": "Ursprünglich war es der Garten des Tuilerienpalastes (der 1871 abgebrannt ist) und wurde von André Le Nôtre, dem Designer der Gärten von Versailles, angelegt.",
+            "insider_tip": "Besuchen Sie das 'Musée de l'Orangerie' in der Südwest-Ecke und sehen Sie die riesigen Wasserlilien von Monet im maßgeschneiderten ovalen Raum.",
+            "price_level": "Kostenlos",
+            "duration": "1 Stunde",
+            "best_time": "Frühmorgens, bevor die Touristen zwischen Louvre und Concorde schlendern.",
+            "vibe": "Symmetrische und prächtige Atmosphäre",
+            "good_for": [
+              "Spaziergänge",
+              "Kunstliebhaber",
+              "Fotografie"
+            ]
+          },
+          "image": "/images/paris/tuileries.jpg",
+          "geo": {
+            "lat": 48.8635,
+            "lng": 2.3274
+          }
+        },
+        {
+          "id": "par-03",
+          "slug": "buttes-chaumont",
+          "name_en": "Buttes-Chaumont Park",
+          "name_local": "Buttes-Chaumont Park",
+          "category": "Aussicht",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Im 19. Arrondissement gelegen, ein hügeliger Park mit schwingenden Brücken, Brunnen und einem Tempel auf einer Felsenhöhe.",
+            "history": "Vor der Erschaffung des Parks im Jahr 1867 war dies ein Kalksteinbruch und eine Müllhalde. Napoleon III. verwandelte es in eine romantische Landschaft.",
+            "insider_tip": "Hier sind keine Touristen. Genießen Sie ein Getränk und Tapas im 'Rosa Bonheur' Bar im Inneren des Parks mit den Einheimischen.",
+            "price_level": "Kostenlos",
+            "duration": "2 Stunden",
+            "best_time": "Sonntagnachmittags für ein echtes lokales Erlebnis.",
+            "vibe": "Bohemien und wildes Ambiente",
+            "good_for": [
+              "Einheimische",
+              "Naturfreunde",
+              "Budgetfreundlich"
+            ]
+          },
+          "image": "/images/paris/buttes-chaumont.jpg",
+          "geo": {
+            "lat": 48.8809,
+            "lng": 2.3828
+          }
+        }
+      ]
+    },
+    {
+      "title": "Brücken und Aussichtsplätze",
+      "id": "bridges",
+      "items": [
+        {
+          "id": "bri-01",
+          "slug": "pont-alexandre-iii",
+          "name_en": "Pont Alexandre III",
+          "name_local": "Pont Alexandre III",
+          "category": "Spot",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Die dekorativste Brücke in Paris, geschmückt mit Art Nouveau Straßenlaternen, Engeln und Statuen von Pferden mit goldenen Flügeln.",
+            "history": "Sie wurde für die Weltausstellung 1900 erbaut und zu Ehren des Alexander III. anlässlich des kürzlichen Franco-Russischen Vertrags errichtet.",
+            "insider_tip": "Ein großartiger Ort für Fotos. Machen Sie ein Bild mit den goldenen Statuen und dem Eiffelturm im Hintergrund, während Sie auf der Brücke stehen, während der Sonnenuntergang.",
+            "price_level": "Kostenlos",
+            "duration": "30 Minuten",
+            "best_time": "Goldene Stunde (Sonnenuntergang).",
+            "vibe": "Luxuriös und filmisch",
+            "good_for": [
+              "Fotografie",
+              "Aussicht",
+              "Paare"
+            ]
+          },
+          "image": "/images/paris/alexandre-iii.jpg",
+          "geo": {
+            "lat": 48.8636,
+            "lng": 2.3135
+          }
+        },
+        {
+          "id": "bri-02",
+          "slug": "pont-neuf",
+          "name_en": "Pont Neuf",
+          "name_local": "Pont Neuf",
+          "category": "Spot",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Trotz seines Namens (neue Brücke) ist es tatsächlich die älteste Brücke am Ufer der Seine, berühmt für ihre gebogenen Stein 'Bastionen'.",
+            "history": "Sie wurde 1607 fertiggestellt und ist die erste Brücke in Paris, die aus Stein gebaut wurde und keine Häuser darauf hat.",
+            "insider_tip": "Achten Sie auf die 'Masquerons' (Steingesichter), die die Brücke schmücken. 381 einzigartige und groteske Gesichter, die die Waldgötter darstellen.",
+            "price_level": "Kostenlos",
+            "duration": "30 Minuten",
+            "best_time": "Abends, wenn das gelbe Licht die weißen Steine beleuchtet.",
+            "vibe": "Historisch und stark",
+            "good_for": [
+              "Geschichte",
+              "Architektur",
+              "Spazieren"
+            ]
+          },
+          "image": "/images/paris/pont-neuf.jpg",
+          "geo": {
+            "lat": 48.857,
+            "lng": 2.3413
+          }
+        },
+        {
+          "id": "bri-03",
+          "slug": "canal-saint-martin",
+          "name_en": "Canal Saint-Martin",
+          "name_local": "Canal Saint-Martin",
+          "category": "Spot",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Eine 4,5 km lange Kanal, umgeben von Mode-Boutiquen und Metallgehwegen, die das Zentrum des Nachtlebens im östlichen Paris ist.",
+            "history": "Er wurde 1802 von Napoleon in Auftrag gegeben, um die Stadt mit frischem Wasser zu versorgen und den Transport auf der Seine zu vermeiden.",
+            "insider_tip": "Der Kanal ist tatsächlich in einigen Teilen in der Nähe des Gebiets République unterirdisch. Machen Sie eine Bootsfahrt, die in der Bastille beginnt, und entdecken Sie Teile der 'Katakomben'.",
+            "price_level": "Kostenlos",
+            "duration": "1-2 Stunden",
+            "best_time": "Am Freitagabend, um einen Aperitif mit den lokalen 'Bobo' (Bourgeois Bohèmes) zu genießen.",
+            "vibe": "Trendig und jung",
+            "good_for": [
+              "Nachtleben",
+              "Spazieren",
+              "versteckte Schätze"
+            ]
+          },
+          "image": "/images/paris/canal.jpg",
+          "geo": {
+            "lat": 48.8718,
+            "lng": 2.3637
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "8 Uhr",
+      "title": "Morgens am Trocadéro und frische Croissants",
+      "description": "Beginnen Sie den Tag mit einem fantastischen Ausblick im Trocadéro-Garten vor dem Eiffelturm. Holen Sie sich ein warmes Croissant aus der nahegelegenen Bäckerei und genießen Sie die Aussicht auf die eiserne Dame im Morgennebel. Das Morgenlicht bietet ausgezeichnete Fotomöglichkeiten ohne die Menschenmenge von Touristen. Es fühlt sich an wie eine Postkarte aus Paris.",
+      "image": "/images/paris/trocadero-sunrise.jpg"
+    },
+    {
+      "time": "10:00",
+      "title": "Schneller Überblick über die Kunstwerke im Louvre",
+      "description": "Vergessen Sie einen Besuch mehrerer Museen an einem Tag. Gehen Sie um 9 Uhr morgens, wenn das Museum öffnet, hinein und machen Sie sich auf den Weg zur Dino-Installation. In 90 Minuten können Sie die Mona Lisa, die Viktoria von Samothrake und die Venus von Milo entdecken. Bitte buchen Sie einige Tage im Voraus online Tickets - es kann um den Pyramideneingang voll werden. Verlassen Sie das Museum, bevor Sie müde werden.",
+      "image": "/images/paris/louvre-morning.jpg",
+      "ticket_link": "https://www.getyourguide.com/paris-l16/louvre-museum-timed-entrance-ticket-t403985/"
+    },
+    {
+      "time": "13:00",
+      "title": "Mittagessen: Klassisches Bistro im Marais",
+      "description": "Besuchen Sie das Marais und genießen Sie ein echtes Mittagessen in einem französischen Bistro. Auf der Speisekarte stehen möglicherweise Steak mit Pommes frites oder Enten-Confit, dazu ein Glas Côte du Rhône und Crème Brûlée. Orte wie Chez Janou und L'As du Fallafel spiegeln die Lebhaftigkeit der Gegend wider. Der Service ist schnell, freundlich und effizient.",
+      "image": "/images/paris/marais-lunch.jpg"
+    },
+    {
+      "time": "15:30 Uhr",
+      "title": "Spaziergang entlang der Seine und Bibliothek",
+      "description": "Spazieren Sie von Pont Neuf bis zum Musée d'Orsay entlang der Seine. Entdecken Sie die grünen Bibliotheksstände, die seit dem 16. Jahrhundert antike Bücher, Poster und Drucke verkaufen. Genießen Sie einen Wasserkrug (kostenloses Trinkwasser) auf der Caféterrasse und beobachten Sie die vorbeifahrenden Boote und sich umarmenden Menschen auf den Bänken. Dies ist die Szene, die Sie sich von Paris vorgestellt haben.",
+      "image": "/images/paris/seine-afternoon.jpg"
+    },
+    {
+      "time": "18:00",
+      "title": "Sakrálně-krvavá katedrála bei Sonnenuntergang",
+      "description": "Nehmen Sie die U-Bahn bis zur Abesses-Station und gehen Sie die gewundenen Straßen von Montmartre hinauf zur Sacré-Cœur-Kathedrale. Kommen Sie um 18:00 Uhr an und suchen Sie sich einen Platz auf den Treppen. Während die Sonne untergeht, erstrahlt die ganze Stadt in goldenem Licht. Straßenmusiker spielen Musik, Künstler malen Bilder, und die Lichter der Stadt beginnen zu leuchten. Der Aufstieg ist etwas anstrengend, aber die Aussicht ist einzigartig.",
+      "image": "/images/paris/sacre-coeur-sunset.jpg"
+    },
+    {
+      "time": "21:00",
+      "title": "Abendessen und Champagner im Eiffelturm",
+      "description": "Reservieren Sie einen Tisch im Madam Brasserie (zweite Etage) oder genießen Sie eine Mahlzeit im Jules Verne. Wenn Sie woanders zu Abend essen möchten, kaufen Sie Champagner im Supermarkt und machen Sie ein Picknick im Champ de Mars. Um 22 Uhr leuchtet der Turm für 5 Minuten: Unzählige Lichter blitzen nacheinander. Dies geschieht jede Stunde bis 1 Uhr nachts. Die Lichtshow beeindruckt die Neuankömmlinge. Es ist üblich, daran teilzunehmen.",
+      "image": "/images/paris/eiffel-night.jpg",
+      "ticket_link": "https://www.getyourguide.com/paris-l16/eiffel-tower-summit-or-second-floor-access-t63761/"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Reiseadapter für Europa (Typ E)",
+      "image": "/images/paris/adapter.jpg",
+      "reason": "Frankreich verwendet Steckdosen des Typs E (zwei runde Stecker und ein Erdungslöcher). Er ist unerlässlich zum Laden von Geräten.",
+      "amazon_url": "https://www.amazon.com/s?k=adattatore+da+viaggio+europeo+tipo+e",
+      "category": "Elektronik"
+    },
+    {
+      "id": "aff-002",
+      "title": "Kompakter Reise-Regenschirm",
+      "image": "/images/paris/umbrella.jpg",
+      "reason": "Das Wetter in Paris ist unberechenbar. Ein kleiner Regenschirm passt bequem in Ihre Tasche und schützt Sie vor plötzlichem Regen.",
+      "amazon_url": "https://www.amazon.com/s?k=compact+travel+umbrella",
+      "category": "Wetter"
+    },
+    {
+      "id": "aff-003",
+      "title": "Bequeme Wanderschuhe",
+      "image": "/images/paris/shoes.jpg",
+      "reason": "Um Paris zu verstehen, ist es wichtig, zu Fuß zu gehen. Bequeme Schuhe sind notwendig für die Erkundung der Kopfsteinpflasterstraßen und Kunstgalerien.",
+      "amazon_url": "https://www.amazon.com/s?k=comfortable+walking+shoes",
+      "category": "Schuhe"
+    }
+  ],
+  "lat": 48.8566,
+  "lng": 2.3522,
+  "region": "Europe"
+}

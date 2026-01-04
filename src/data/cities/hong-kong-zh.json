@@ -1,0 +1,1306 @@
+{
+  "id": "city-hk",
+  "name": "Hong Kong",
+  "slug": "hong-kong",
+  "lat": 22.3193,
+  "lng": 114.1694,
+  "country": "Hong Kong",
+  "country_code": "hk",
+  "geo": {
+    "lat": 22.3193,
+    "lng": 114.1694
+  },
+  "hero_image": "/images/hong-kong/hero.jpg",
+  "intro_vibe": {
+    "description": "东方与西方在霓虹灯、点心和摩天大楼交汇的垂直城市。"
+  },
+  "general_info": {
+    "population": "~750万人",
+    "is_capital": false,
+    "description": "香港是中国的一个特别行政区，也是世界上人口密度最高的城市之一。作为前英国殖民地，它将中西方文化融汇成独特的文化。香港以其壮观的天际线、世界一流的美食、便捷的公共交通和充满活力的街头生活而闻名，同时作为全球金融中心，依然保持着深厚的文化传统。"
+  },
+  "stats": {
+    "currency": "香港元 (HKD)",
+    "plug_type": "G型插头 (英国)"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "一月",
+      "temp": "14°C - 19°C",
+      "vibe": "清新干燥",
+      "pros": [
+        "晴朗的天空",
+        "低湿度",
+        "庆祝中国新年"
+      ],
+      "cons": [
+        "寒冷的夜晚",
+        "有时会有寒冷的海浪"
+      ],
+      "clothing": "轻便夹克、长裤、可分层穿着"
+    },
+    {
+      "id": 2,
+      "name": "二月",
+      "temp": "15°C - 20°C",
+      "vibe": "节日",
+      "pros": [
+        "春节",
+        "舒适的温度",
+        "早春盛开的花朵"
+      ],
+      "cons": [
+        "高昂的酒店价格",
+        "拥挤"
+      ],
+      "clothing": "轻便的层叠服装，夜间需要外套"
+    },
+    {
+      "id": 3,
+      "name": "三月",
+      "temp": "18°C - 23°C",
+      "vibe": "温暖",
+      "pros": [
+        "宜人的天气",
+        "春天的气息",
+        "较低的价格"
+      ],
+      "cons": [
+        "湿度增加",
+        "有时有雾"
+      ],
+      "clothing": "T恤，轻便层"
+    },
+    {
+      "id": 4,
+      "name": "四月",
+      "temp": "21°C - 27°C",
+      "vibe": "湿度开始上升",
+      "pros": [
+        "温暖的日子",
+        "艺术巴塞尔周",
+        "户外舒适的天气"
+      ],
+      "cons": [
+        "湿度达到峰值",
+        "频繁降雨"
+      ],
+      "clothing": "轻便衣物，雨伞"
+    },
+    {
+      "id": 5,
+      "name": "美（Mai）",
+      "temp": "24°C - 30°C",
+      "vibe": "温暖而潮湿",
+      "pros": [
+        "海滩季节开始",
+        "佛诞节",
+        "漫长的日子"
+      ],
+      "cons": [
+        "高湿度",
+        "强降雨"
+      ],
+      "clothing": "短裤，背心，雨衣"
+    },
+    {
+      "id": 6,
+      "name": "六月",
+      "temp": "26°C - 31°C",
+      "vibe": "盛夏",
+      "pros": [
+        "龙舟节",
+        "完美的海滩天气",
+        "年度最佳漂流"
+      ],
+      "cons": [
+        "潮湿，呼吸困难",
+        "台风季节开始"
+      ],
+      "clothing": "轻便的衣物，防晒霜"
+    },
+    {
+      "id": 7,
+      "name": "七月",
+      "temp": "27°C - 32°C",
+      "vibe": "最热的月份",
+      "pros": [
+        "海滩生活",
+        "夏季氛围",
+        "屋顶酒吧"
+      ],
+      "cons": [
+        "极端热浪",
+        "暴风雨的可能性",
+        "随处可见空调"
+      ],
+      "clothing": "轻便透气的材料"
+    },
+    {
+      "id": 8,
+      "name": "八月",
+      "temp": "27°C - 32°C",
+      "vibe": "暴风天气",
+      "pros": [
+        "刺激的热带风暴",
+        "中夏鸟类节的准备",
+        "游客较少"
+      ],
+      "cons": [
+        "风暴带来的中断",
+        "更频繁的降雨",
+        "高湿度"
+      ],
+      "clothing": "需要雨具，轻便衣物"
+    },
+    {
+      "id": 9,
+      "name": "九月",
+      "temp": "26°C - 31°C",
+      "vibe": "依然温暖",
+      "pros": [
+        "中秋节",
+        "海滩依然舒适",
+        "您可以在各地享受月饼"
+      ],
+      "cons": [
+        "可能会有风暴",
+        "湿度较高"
+      ],
+      "clothing": "轻便衣物，备有雨具"
+    },
+    {
+      "id": 10,
+      "name": "奥托布伦（Ottobrunn）",
+      "temp": "23°C - 28°C",
+      "vibe": "金色的天气",
+      "pros": [
+        "理想的气候",
+        "晴朗的天空",
+        "徒步旅行的好时光"
+      ],
+      "cons": [
+        "周末人满为患",
+        "高价格"
+      ],
+      "clothing": "T恤，晚上穿轻便外套"
+    },
+    {
+      "id": 11,
+      "name": "十一月",
+      "temp": "19°C - 24°C",
+      "vibe": "理想的天气",
+      "pros": [
+        "一般来说是最佳月份",
+        "干燥且宜人",
+        "适合户外活动"
+      ],
+      "cons": [
+        "受欢迎（需要提前预订）",
+        "可能会变凉"
+      ],
+      "clothing": "轻薄的层搭配，舒适的鞋子"
+    },
+    {
+      "id": 12,
+      "name": "十二月",
+      "temp": "15°C - 20°C",
+      "vibe": "节日氛围和舒适",
+      "pros": [
+        "圣诞市场",
+        "冬季促销",
+        "舒适的气温"
+      ],
+      "cons": [
+        "早上很冷",
+        "白天较短"
+      ],
+      "clothing": "夹克，长裤，保暖层"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "八达通卡是生活必需：这张可充值的智能卡适用于所有公共交通（地铁、巴士、渡轮、电车），还可在7-Eleven、星巴克和自动售货机使用。请立即在任何地铁站购买一张。",
+      "排队文化：香港非常重视排队。所有场合——地铁、扶手电梯、餐厅、出租车都要排队。插队是社会自杀。",
+      "扶手电梯规则：右侧站立，左侧行走。地铁的扶手电梯速度快，当地人不容忍阻碍者。此规则严格执行。",
+      "不小费：餐厅账单中已包含服务费（10%）。不期望或需要额外的小费。四舍五入出租车费用是礼貌但可选的。",
+      "名片很重要：在商务场合，用双手接收名片并简短阅读后再收起。这是一种尊重的表现。",
+      "脱鞋：一些传统餐厅和所有家庭都要求脱鞋。入口处如果有拖鞋，可以作为信号。",
+      "筷子礼仪：绝不要将筷子竖立插入米饭中（象征葬礼）。不要指着别人。将筷子放在筷子架上，而不是碗里。",
+      "点心协议：共享所有食物。先为他人倒茶，再倒自己。用两根手指在桌子上轻轻敲击以感谢为您倒茶的人。服务员会在最后结算菜品。",
+      "公共行为：在地铁和餐厅请保持低声交谈。大声讲电话是不被欢迎的。公共场合酗酒是非常少见和令人尴尬的。",
+      "尊重老人：请让出地铁座位给老年人、孕妇和抱小孩的人。这不是可选的，当地人会评判您。"
+    ],
+    "essential_phrases": [
+      {
+        "src": "Hello",
+        "local": "您好",
+        "phonetic": "nín hǎo"
+      },
+      {
+        "src": "Thank you",
+        "local": "谢谢您",
+        "phonetic": "xièxiè nín"
+      },
+      {
+        "src": "Excuse me",
+        "local": "对不起",
+        "phonetic": "duìbùqǐ"
+      },
+      {
+        "src": "How much?",
+        "local": "多少钱？",
+        "phonetic": "duōshǎo qián?"
+      },
+      {
+        "src": "The bill please",
+        "local": "请给我账单",
+        "phonetic": "qǐng gěi wǒ zhàngdān"
+      },
+      {
+        "src": "I don't understand",
+        "local": "我不明白",
+        "phonetic": "wǒ bù míngbái"
+      },
+      {
+        "src": "Delicious",
+        "local": "很好吃",
+        "phonetic": "hěn hǎo chī"
+      },
+      {
+        "src": "Too expensive",
+        "local": "太贵了",
+        "phonetic": "tài guìle"
+      },
+      {
+        "src": "Where is...?",
+        "local": "...在哪里？",
+        "phonetic": "...zài nǎlǐ?"
+      },
+      {
+        "src": "No need (for change)",
+        "local": "没有找零",
+        "phonetic": "méiyǒu zhǎolíng"
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "中央",
+      "vibe": "金融中心",
+      "description": "这里是香港的商业区。高耸的玻璃建筑、令人印象深刻的购物中心以及著名的中环半山自动扶梯都在这里。这里有许多高档餐厅和优雅的酒吧。",
+      "highlights": [
+        "国际金融中心购物商场",
+        "兰桂坊夜生活",
+        "中环半山自动扶梯"
+      ],
+      "image": "/images/hong-kong/central.jpg"
+    },
+    {
+      "name": "尖沙咀",
+      "vibe": "旅游景点",
+      "description": "这是九龙的主要旅游目的地，坐落在海滨。这里有博物馆、豪华酒店、裁缝店和标志性的星光码头。您可以欣赏到香港天际线的最佳景观。",
+      "highlights": [
+        "维多利亚港长廊",
+        "博物馆区",
+        "庙街夜市"
+      ],
+      "image": "/images/hong-kong/tsim-sha-tsui.jpg"
+    },
+    {
+      "name": "旺角",
+      "vibe": "热闹而充满活力",
+      "description": "这是世界上人口最密集的地区。这里有霓虹灯、街市和电子商店，源源不断地散发着能量。您可以在这里找到女人市场和鞋子街。",
+      "highlights": [
+        "女人市场",
+        "鞋子街",
+        "花卉市场"
+      ],
+      "image": "/images/hong-kong/mong-kok.jpg"
+    },
+    {
+      "name": "上环",
+      "vibe": "旧与新的结合",
+      "description": "一家传统的中药店旁边是一家现代咖啡馆。 一家干海鲜批发商靠近一家艺术画廊。 这是旧香港的城市更新进程。",
+      "highlights": [
+        "猫街上的古董",
+        "文武庙",
+        "现代咖啡馆"
+      ],
+      "image": "/images/hong-kong/sheung-wan.jpg"
+    },
+    {
+      "name": "铜锣湾",
+      "vibe": "购物狂潮",
+      "description": "这是香港的商业中心。这里有巨大的购物中心、百货商店和街头精品店。当地人来这里购物、享受美食和社交。",
+      "highlights": [
+        "时代广场",
+        "维多利亚公园",
+        "百货商店Sogo"
+      ],
+      "image": "/images/hong-kong/causeway-bay.jpg"
+    },
+    {
+      "name": "深水埗",
+      "vibe": "工作氛围",
+      "description": "这是香港最 authentic 的地区。这里有电子产品市场、服装批发商以及各种便宜的街头小吃。这里英语不太通用，但有很多独特的地方可以探索。",
+      "highlights": [
+        "在鸭寮街购买电子产品",
+        "服装市场",
+        "当地大排档"
+      ],
+      "image": "/images/hong-kong/sham-shui-po.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "出行方式",
+      "icon": "火车",
+      "summary": "香港拥有世界上最好的公共交通系统之一。它快速、干净且用户友好。",
+      "details": [
+        "港铁（MTR）：这是主要的交通工具。它覆盖所有重要区域，运营时间为早上6:00至凌晨1:00。车厢内设有空调，标识为英文。请购买八达通卡（50港币押金 + 初始余额）。",
+        "电车：这是著名的双层电车，行驶在香港的北岸。票价极为便宜（3港币），由于缓慢的行驶速度，增添了独特的魅力。请从后门上车，从前门下车，并在下车时付费。",
+        "巴士：网络非常广泛，但对于游客来说可能有些复杂。双层巴士通往各处。请使用Citymapper应用程序。请准备好零钱或使用八达通卡。",
+        "星际渡轮：这是著名的渡轮，穿梭于九龙与香港岛之间。票价为3-4港币，自1888年以来便开始运营。如果您在晚上乘坐，欣赏日落的体验非常棒。",
+        "出租车：数量众多且价格便宜。有红色（市区）、绿色（新界）和蓝色（大屿山）出租车。司机通常不讲英语，请提前准备好中文地址。建议使用八达通卡。",
+        "步行：中环/金钟/上环适合步行探索。请利用大型的有盖步行道和电梯系统，在建筑间穿行。",
+        "小巴：有绿色（固定路线）或红色（灵活路线）小巴。对于经验丰富的人：司机通常不讲英语，路线可能较为神秘。"
+      ]
+    },
+    {
+      "id": "logistics-airport",
+      "slug": "airport-transfers",
+      "title": "从机场到市区",
+      "icon": "飞机",
+      "summary": "香港国际机场（HKIA）位于大屿山，您可以通过机场快线和巴士到达市区。",
+      "details": [
+        "机场快线：最快的选择（至中环仅需24分钟），单程票价为HK$115。营业时间为5:50至0:48。您可以在机场购买八达通卡或在自动售票机上使用信用卡。车站提供免费的酒店班车服务。",
+        "机场巴士：更经济实惠的选择（HK$40-50），但较慢（需时45-60分钟）。有多条线路前往不同地区。A21路车去尖沙咀，A11路车去九龙。巴士舒适且配有空调。",
+        "出租车：前往香港岛费用约为HK$250-350，前往九龙约为HK$200-250。请注意排队等候区的标志——不要在路边叫车。仅乘坐红色出租车（前往市区）。根据交通情况，车程可能需要30-50分钟。",
+        "酒店班车：许多酒店提供私人班车服务。费用较高（超过HK$500），但如果您携带行李，选择这种服务会很方便。",
+        "小贴士：如果您凌晨到达（零点后），出租车将是唯一的选择，因为机场快线在0:48停止运营。"
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "安全与诈骗",
+      "icon": "盾",
+      "summary": "香港是世界上最安全的城市之一，几乎没有暴力犯罪，但可能会出现针对游客的诈骗。",
+      "details": [
+        "一般安全：您可以随时随地自由行走。针对游客的暴力犯罪几乎不存在。单独旅行的女性也可以感到安全。",
+        "一般诈骗：假和尚乞求捐款（请忽视他们）。在尖沙咀发放“按摩”传单的女性（合法的水疗中心不会在街上宣传）。向游客收取更高费用的裁缝。",
+        "出租车诈骗：这种情况很少见。出租车使用计价表，司机诚实。如果司机拒绝使用计价表，请立即下车。确保计价表在出发时已开启。",
+        "餐厅诈骗：一些旅游景点的海鲜餐厅可能会提高价格或添加隐藏费用。在下单之前确认价格。避免与激进的推销员接触。",
+        "盗窃：这种情况很少，但在高峰时段请注意您的行李。贵重物品应放在前面口袋中。",
+        "抗议：政治抗议偶尔会发生。请务必避免这些情况——警方的行为可能会很强硬。出行前请检查新闻。",
+        "遗失物品：请向警方报告丢失情况。找回的机会更高——香港人诚实，城市有全面的监控摄像头。"
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "money-matters",
+      "title": "货币与支付方式",
+      "icon": "DollarSign",
+      "summary": "货币是港元（HKD）。信用卡被广泛接受，但在当地商店中现金依然重要。",
+      "details": [
+        "货币：HK$1 ≈ 0.13美元。硬币：0.1, 0.2, 0.5, 1, 2, 5, 10。纸币：10, 20, 50, 100, 500, 1000美元。所有三种不同的纸币都被视为有效的支付方式。",
+        "自动取款机：随处可见。7-Eleven商店也设有自动取款机。HSBC和中国银行提供最佳的取款费率。大多数国际卡（Visa, Mastercard, UnionPay）均被接受。",
+        "信用卡：在餐馆、购物中心和酒店中，Visa和Mastercard被接受。许多小商店和摊位只接受现金。",
+        "八达通卡：您的秘密武器。这是一种可充值的智能卡，可以用于所有交通工具、7-Eleven、麦当劳、星巴克和自动取款机。押金为HK$50加上第一次充值的费用。可以在MTR站和7-Eleven充值。",
+        "兑换：避免在机场兑换货币（汇率非常糟糕）。在中环和尖沙咀的货币兑换商使用汇率更佳（重庆大厦提供良好的汇率，但可能会很拥挤）。银行也可以进行货币兑换。",
+        "小贴士：不被期望。在餐厅账单上自动加收10%的服务费。在出租车、MTR和非正式餐馆中不提供小费。在高档餐馆中可能会期待小额小费。",
+        "讨价还价：在跳蚤市场（女人街、庙街）是常见的。可以从建议价格的50-60%开始。在购物中心和普通商店中不进行讨价还价。"
+      ]
+    },
+    {
+      "id": "logistics-weather",
+      "slug": "when-to-visit",
+      "title": "最佳访问时间",
+      "icon": "太阳",
+      "summary": "十月至十二月是旅游旺季。夏季则炎热潮湿。如果您想避开人群，建议避免春节。",
+      "details": [
+        "最佳天气条件：十月至十二月。干燥和阳光明媚，气温宜人（18-25°C）。最适合徒步旅行和户外活动。价格稍高。",
+        "好时光：一月至三月。凉爽且干燥。春节的庆祝（年底一月/年初二月）是一个假期，但人多且价格贵。请提前三个月预订。",
+        "避免：六月至九月。是气旋季节，炎热（超过32°C），湿度高（80-90%）。每天都有降雨。所有地方的空调都很凉快。",
+        "预算旅行者：四月至五月或九月。过渡期，价格较低，但湿度和降雨增加。始终是探索城市的好时光。",
+        "节日：春节（最大）、龙舟节（六月）、中秋节（九月）、圣诞灯饰（十二月）。",
+        "气旋：热带气旋在六月到十月期间出现。气旋警报系统：T1（小心），T3（待在室内），T8+（一切停止）。酒店保持开放。可能会很刺激。",
+        "提示：十一月蓝天，湿度较低，气温最佳，价格低于十月。这是最被保护的月份。"
+      ]
+    },
+    {
+      "id": "logistics-language",
+      "slug": "language-tips",
+      "title": "语言与沟通",
+      "icon": "MessageCircle",
+      "summary": "粤语是主要语言。英语标识随处可见，但口语水平因人而异。",
+      "details": [
+        "官方语言：粤语（90%），英语（官方，但使用有限），普通话（逐渐增加）。",
+        "英语：地铁（MTR）上的所有标识、街道标识和旅游景点的标识均为英语。政府及企业也使用英语。然而，许多居民，尤其是年长者，英语水平较低。",
+        "粤语基础：学习'多谢'（谢谢）和'你好'（您好）。您的努力会受到赞赏。发音是有声调的，因此请不要担心准确性。",
+        "书面语言：繁体中文（与中国使用的简体中文不同）。当您阅读普通话的汉字时，某些字符可能会有所不同。",
+        "餐厅策略：许多本地餐厅提供英文菜单或带图片的菜单。如果您无法阅读菜单，您可以指着其他人正在吃的食物。Google翻译的相机功能非常实用。",
+        "应用程序：下载离线使用的Google翻译粤语。此外，Pleco词典应用也很有用。WhatsApp是香港最常用的消息应用。",
+        "请求帮助：年轻人和服务行业的员工通常英语更流利。酒店和旅游信息中心的工作人员通常会提供帮助。"
+      ]
+    },
+    {
+      "id": "logistics-health",
+      "slug": "health-essentials",
+      "title": "健康与医疗",
+      "icon": "心",
+      "summary": "示范性的健康系统。自来水可饮用。药店随处可见。",
+      "details": [
+        "健康：世界级。公立医院费用便宜，但通常人满为患。私立诊所和医院费用较高，但提供更好的服务可用性。",
+        "自来水：安全饮用。香港的水质标准很高。在酒店和餐厅免费提供饮用水。",
+        "药店：Watsons 和 Mannings 随处可见。这些药店营业时间长。大部分药物无需处方即可购买（包括抗生素）。药店有一些会说英语的员工。",
+        "紧急情况：拨打 999 联系救护车/警察/消防部门。那里有会说英语的接线员。玛丽皇后医院和威尔士亲王医院是主要的公立医院。",
+        "污染：夏季空气质量可能特别差。有呼吸问题的人应检查空气质量指数（AQI）。必要时佩戴口罩 - 这是文化习惯。",
+        "炎热和潮湿：夏季高湿度可能使您更难忍受热量。始终饮水。寻找空调场所。当地人使用雨伞来遮阳。",
+        "蚊子：登革热存在，但很少见。在公园或徒步旅行时请使用蚊帐。在城市地区，蚊子相对较少。",
+        "诊所：中央健康医疗诊所，OT&P 健康护理。看医生的费用约在 HK$500 到 HK$1000 之间。"
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "重要应用",
+      "icon": "智能手机",
+      "summary": "这些应用让您在香港的旅行变得无比简单。",
+      "details": [
+        "Citymapper：香港的交通应用。提供MTR、巴士、渡轮和步行的实时信息。比Google Maps在公共交通方面更好。",
+        "MTR Mobile：官方应用，支持路线规划和服务更新。还提供车站的出站指示。",
+        "OpenRice：香港餐厅的Yelp。评价有英文和中文可选。寻找优质本地餐厅必备。",
+        "WhatsApp：每个人都会使用。提供免费通话和消息。确保在旅行前下载。",
+        "WeChat：对于一些中国大陆的活动和朋友非常重要。但是在香港不如在大陆那么必需。",
+        "Google Maps：在香港运行良好（与大陆中国相比）。建议使用离线地图。",
+        "Deliveroo / Foodpanda：食品配送。无限选择。英语言用户界面。夜间的救星。"
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-hk-001",
+      "slug": "dim-sum",
+      "name_en": "点心",
+      "name_local": "點心 (Dim Sam)",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "这是您在香港必试的美食体验，提供美味的蒸、炸和煮的菜肴，以单份量装在竹篮中。",
+        "history": "最初是丝绸之路旅行者的早餐，后来发展成香港的“点心”传统。在这里，家庭享用早茶并进行交谈。",
+        "insider_tip": "当服务员端茶时，轻轻拍两下桌子以示“谢谢”，而不打断谈话。点“虾饺”（蒸虾饺）来考验厨师的技艺。",
+        "price_level": "价格适中",
+        "duration": "1-1.5小时",
+        "best_time": "周末早午餐（下午1点前）",
+        "vibe": "热闹和友好",
+        "good_for": [
+          "团体",
+          "传统",
+          "美食家"
+        ]
+      },
+      "image": "/images/hong-kong/dim-sum.jpg"
+    },
+    {
+      "id": "food-hk-002",
+      "slug": "roast-goose",
+      "name_en": "Röstgans",
+      "name_local": "燒鵝 (Siu Ngo)",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "这是一只完美烤制的多汁鹅，外皮酥脆，肉质鲜嫩，通常配以辣梅子酱和米饭一起享用。",
+        "history": "传统的香港烤鹅是粤菜，通常在煤炭炉中烤制，以获得独特的烟熏味。",
+        "insider_tip": "您一定要尝试中环的著名 'Yee Shun' 或湾仔的 'Kam's'。建议在开门前15分钟到达，以便在不到2小时内预订到座位。",
+        "price_level": "昂贵",
+        "duration": "45-60分钟",
+        "best_time": "午餐",
+        "vibe": "高效且质量上乘",
+        "good_for": [
+          "肉食爱好者",
+          "美食游客",
+          "快速午餐"
+        ]
+      },
+      "image": "/images/hong-kong/roast-goose.jpg"
+    },
+    {
+      "id": "food-hk-003",
+      "slug": "wonton-noodles",
+      "name_en": "雲吞麵",
+      "name_local": "雲吞麵 (Wan Tan Min)",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "弹牙的鸡蛋面，配以清汤，里面藏着大虾云吞面。",
+        "history": "这是工人阶级的主食，20世纪40年代开始流行。'香港风格'的特点是面条独特的酥脆层和汤的丰富口味。",
+        "insider_tip": "正宗的云吞面会在小碗中供应，以防止面条在汤中变软；并且勺子要倒放。",
+        "price_level": "物美价廉",
+        "duration": "30分钟",
+        "best_time": "随时",
+        "vibe": "轻松舒适",
+        "good_for": [
+          "预算有限的旅客",
+          "快餐",
+          "独自用餐者"
+        ]
+      },
+      "image": "/images/hong-kong/wonton-noodles.jpg"
+    },
+    {
+      "id": "food-hk-004",
+      "slug": "tarta-de-huevo",
+      "name_en": "蛋撻 (Daan Taat)",
+      "name_local": "蛋撻 (Daan Taat)",
+      "category": "饮食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "它是一种柔软的蛋奶冻，呈鲜亮的黄色，放在松脆的底层或酥皮上。",
+        "history": "它是英国蛋挞和葡萄牙蛋挞（Pastéis de Nata）的混合品，由香港的‘茶餐厅’在1940年代创制。",
+        "insider_tip": "酥皮（沙皮）通常在下午茶时供应，而饼干面团（泰皮）在当地面包店更为普遍。太冲面包店是最著名的。",
+        "price_level": "便宜",
+        "duration": "5-10分钟",
+        "best_time": "15:00（下午茶）",
+        "vibe": "甜美而怀旧",
+        "good_for": [
+          "尝试",
+          "喜欢甜食的人",
+          "匆忙的人"
+        ]
+      },
+      "image": "/images/hong-kong/egg-tart.jpg"
+    },
+    {
+      "id": "food-hk-005",
+      "slug": "pineapple-bun",
+      "name_en": "黄油菠萝包",
+      "name_local": "菠蘿油 (Bo Lo Yau)",
+      "category": "食物",
+      "is_generic_staple": true,
+      "description": {
+        "short": "这是一种柔软甜美的小面包，上面覆盖着一层酥脆的甜皮，热吃时配上厚厚一层冷却咸黄油。",
+        "history": "它并不含有真正的菠萝。这个名字源于金色格子状的表层，类似于菠萝的外皮。",
+        "insider_tip": "专业挑选的'菠萝油' (Bo Lo Yau)以热面包与冷融化黄油之间的对比而闻名。",
+        "price_level": "便宜",
+        "duration": "15-20分钟",
+        "best_time": "早餐或下午点心",
+        "vibe": "当地咖啡文化",
+        "good_for": [
+          "实惠的食物",
+          "舒适的用餐",
+          "早餐"
+        ]
+      },
+      "image": "/images/hong-kong/pineapple-bun.jpg"
+    },
+    {
+      "id": "food-hk-006",
+      "slug": "milk-tea",
+      "name_en": "香港奶茶",
+      "name_local": "絲襪奶茶 (Si Mat Naai Cha)",
+      "category": "饮食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "这是一种由多种茶和炼乳制成的浓稠饮品，以其奶油般的口感和高咖啡因含量而闻名。",
+        "history": "它也被称为“丝袜奶茶”，因为它是用丝袜过滤制成的。",
+        "insider_tip": "如果您想进一步提振精神，可以尝试当地的热门混合饮品“Yunyang”，由3份咖啡和7份奶茶混合而成。",
+        "price_level": "实惠",
+        "duration": "10-15分钟",
+        "best_time": "下午茶",
+        "vibe": "充满活力和顺滑",
+        "good_for": [
+          "咖啡因爱好者",
+          "本地体验",
+          "饮品爱好者"
+        ]
+      },
+      "image": "/images/hong-kong/milk-tea.jpg"
+    },
+    {
+      "id": "food-hk-007",
+      "slug": "char-siu",
+      "name_en": "叉燒 (Cha Siu)",
+      "name_local": "叉燒 (Cha Siu)",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "瘦猪肉浸泡在甜蜜的蜂蜜和五香粉混合物中，然后焦糖化，直到变得嫩滑。",
+        "history": "'叉燒' 传统上是指将肉用长叉在明火上烹调的方法，字面意思是 '串烧'。",
+        "insider_tip": "如果您点 '混合叉烧'（一种肉油和肉质的混合），可以获得融化的脂肪与丰富肉质的完美平衡。",
+        "price_level": "中等",
+        "duration": "30-45分钟",
+        "best_time": "午餐",
+        "vibe": "美味而甜",
+        "good_for": [
+          "肉食爱好者",
+          "家庭",
+          "日常餐"
+        ]
+      },
+      "image": "/images/hong-kong/char-siu.jpg"
+    },
+    {
+      "id": "food-hk-008",
+      "slug": "cheung-fun",
+      "name_en": "腸粉 (Cheung Fan)",
+      "category": "饮食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "光滑透明的米粉皮，里面填充了虾或牛肉等材料。",
+        "history": "最初是一种街头早餐，这是一种您绝对不能错过的点心。最佳版本是在布料上蒸制的米粉。",
+        "insider_tip": "街头风格的腸粉通常搭配香油、海鲜酱和花生酱，味道与点心版截然不同。",
+        "price_level": "实惠",
+        "duration": "20分钟",
+        "best_time": "早餐或点心时间",
+        "vibe": "嫩滑轻盈",
+        "good_for": [
+          "海鲜爱好者",
+          "早餐",
+          "小吃"
+        ]
+      },
+      "image": "/images/hong-kong/cheung-fun.jpg"
+    },
+    {
+      "id": "food-hk-009",
+      "slug": "claypot-rice",
+      "name_en": "煲仔飯",
+      "name_local": "煲仔飯 (Bo Zai Faan)",
+      "category": "饮食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "这道米饭用烟熏香肠、鸡肉或牛肉等食材在陶锅中用明火烹制，底部形成酥脆的外壳。",
+        "history": "它是香港冬季饮食的一个重要组成部分，传统上是用炭火烹制，使米饭渗入独特的烟熏香气。",
+        "insider_tip": "不要立即刮去外壳；让锅盖上几分钟，这样米饭的'酥脆部分'会完全酥脆。",
+        "price_level": "中等",
+        "duration": "45-60分钟",
+        "best_time": "晚餐（尤其是在冬季）",
+        "vibe": "舒适而乡村",
+        "good_for": [
+          "冬季探访",
+          "冒险美食",
+          "真实文化"
+        ]
+      },
+      "image": "/images/hong-kong/claypot-rice.jpg"
+    },
+    {
+      "id": "food-hk-010",
+      "slug": "cart-noodles",
+      "name_en": "车仔面 (Che Zai Min)",
+      "name_local": "车仔面 (Che Zai Min)",
+      "category": "饮食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "这是一碗可以 customize 的面条汤，客人可以选择不同种类的面条、汤底、猪血豆腐和萝卜。",
+        "history": "在1950年代，一个移动摊位开始在木车上为难民提供面条。至今仍然是受欢迎且便宜的‘选择您的冒险’食品。",
+        "insider_tip": "不要害怕尝试奇怪的配料。糖醋鸡爪和焦糖猪皮是当地人的最爱，增加了很好的口感。",
+        "price_level": "便宜",
+        "duration": "30分钟",
+        "best_time": "午餐",
+        "vibe": "气氛轻松活泼",
+        "good_for": [
+          "精打细算的旅客",
+          "定制餐点",
+          "快餐"
+        ]
+      },
+      "image": "/images/hong-kong/cart-noodles.jpg"
+    },
+    {
+      "id": "food-hk-011",
+      "slug": "french-toast",
+      "name_en": "香港法式吐司",
+      "name_local": "西多士 (Sai Do Si)",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "大块白面包夹着花生酱，浸入蛋液中，然后油炸，最后淋上金色糖浆和黄油。",
+        "history": "它是在本地咖啡馆中推出的，以满足对甜品的需求，同时又带有西方影响，是“广式融合料理”的奢华例子。",
+        "insider_tip": "加上丰富的美味糖浆。这是一种热量爆表的美食，最好是和朋友一起分享，而不是一个人享用作为早餐。",
+        "price_level": "合理价格",
+        "duration": "20-30分钟",
+        "best_time": "下午茶时间",
+        "vibe": "奢华而丝滑",
+        "good_for": [
+          "甜食爱好者",
+          "分享",
+          "本地咖啡馆"
+        ]
+      },
+      "image": "/images/hong-kong/french-toast.jpg"
+    },
+    {
+      "id": "food-hk-012",
+      "slug": "fish-balls",
+      "name_en": "Krebs-Masallen",
+      "name_local": "咖喱魚蛋 (Ga Lei Yu Dan)",
+      "category": "食物",
+      "is_generic_staple": true,
+      "description": {
+        "short": "由魚漿製成的輕巧彈性球狀小吃，配以香氣四溢、微辣的黃色咖喱醬煮制，並以串燒形式呈現。",
+        "history": "這是香港街頭小吃之王。香港人每天都會享用數百萬份。",
+        "insider_tip": "在旺角和深水埗尋找攤販。如果咖喱醬在冒泡且濃稠，那是個好跡象。如果醬汁看起來水汪汪的，那就繼續走吧。",
+        "price_level": "實惠",
+        "duration": "5-10分鐘",
+        "best_time": "晚間小吃",
+        "vibe": "街頭美食的真實精神",
+        "good_for": [
+          "快速小吃",
+          "外帶",
+          "符合預算"
+        ]
+      },
+      "image": "/images/hong-kong/fish-balls.jpg"
+    },
+    {
+      "id": "food-hk-013",
+      "slug": "congee",
+      "name_en": "皮蛋瘦肉粥",
+      "name_local": "皮蛋瘦肉粥 (Pei Dan Sau Yuk Juk)",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "用各种皮蛋和薄切猪肉装饰，这是一个丰富而奶油状的米粥。",
+        "history": "在中国文化中，米粥被视为最佳的保健食品之一，易于消化，通常在早餐或深夜享用。",
+        "insider_tip": "可以询问“油条”，把它放进粥里享受酥脆的口感。",
+        "price_level": "价格适中",
+        "duration": "30-45分钟",
+        "best_time": "早餐",
+        "vibe": "宁静而营养",
+        "good_for": [
+          "健康",
+          "早餐",
+          "细腻的风味"
+        ]
+      },
+      "image": "/images/hong-kong/congee.jpg"
+    },
+    {
+      "id": "food-hk-014",
+      "slug": "egg-waffle",
+      "name_en": "鸡蛋仔 (Gai Daan Zai)",
+      "name_local": "鸡蛋仔 (Gai Daan Zai)",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "外脆内松的蜂巢形状华夫饼。",
+        "history": "传说这位商人发明了这种面糊，以免浪费破碎的鸡蛋。如今，它已成为全球街头美食的象征。",
+        "insider_tip": "在尝试流行的巧克力和抹茶版本之前，您应该先品尝经典的原味，并体验季节性蛋香。",
+        "price_level": "实惠",
+        "duration": "10分钟",
+        "best_time": "早餐",
+        "vibe": "有趣而难忘",
+        "good_for": [
+          "儿童",
+          "早餐",
+          "摄影"
+        ]
+      },
+      "image": "/images/hong-kong/egg-waffle.jpg"
+    },
+    {
+      "id": "food-hk-015",
+      "slug": "hot-pot",
+      "name_en": "火鍋",
+      "name_local": "火鍋 (Fo Wo)",
+      "category": "烹饪",
+      "is_generic_staple": true,
+      "description": {
+        "short": "这是一种共享的用餐体验，在桌子中央的热汤锅中烹饪新鲜和生的食材。",
+        "history": "在香港，火锅是一年四季的社交活动，但在寒冷的月份尤其受欢迎。",
+        "insider_tip": "尝试在调料吧调配自己的蘸酱：大蒜、葱、酱油和一点辣椒油是当地的标准。",
+        "price_level": "中等",
+        "duration": "2 小时",
+        "best_time": "晚餐",
+        "vibe": "热闹且互动",
+        "good_for": [
+          "社交聚会",
+          "团体",
+          "热爱温暖的人"
+        ]
+      },
+      "image": "/images/hong-kong/hot-pot.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "标志性旅游景点",
+      "id": "landmarks",
+      "items": [
+        {
+          "id": "sight-hk-001",
+          "slug": "victoria-peak",
+          "name_en": "Victoria Peak",
+          "name_local": "太平山 (Tai Ping Shan)",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "在香港岛的最高点，享受壮丽的摩天大楼和维多利亚港的美丽景色。",
+            "history": "在殖民时代，太平山是欧洲人的专属住宅区。太平山缆车建于1888年，以方便前往。",
+            "insider_tip": "为了避免太平山缆车的长队，请从中环渡轮码头搭乘15路巴士。这更便宜，并且沿途风景优美。",
+            "price_level": "免费（缆车费用昂贵）",
+            "duration": "2-3小时",
+            "best_time": "傍晚（观看城市的灯光）",
+            "vibe": "壮观且具有象征意义",
+            "good_for": [
+              "摄影",
+              "首次游客",
+              "观景"
+            ]
+          },
+          "image": "/images/hong-kong/victoria-peak.jpg",
+          "geo": {
+            "lat": 22.2783,
+            "lng": 114.1747
+          }
+        },
+        {
+          "id": "sight-hk-002",
+          "slug": "star-ferry",
+          "name_en": "Star Ferry",
+          "name_local": "天星小輪",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "这条著名的绿白相间的渡轮线路，已跨越维多利亚港130年。",
+            "history": "被国家地理杂志评选为“生命中必须去的50个地方”之一。至今仍然是世界上最经济且风景如画的公共交通工具之一。",
+            "insider_tip": "坐在上层甲板可以欣赏更好的景色，或在下层甲板上感受海风和水花。",
+            "price_level": "便宜",
+            "duration": "10-15分钟",
+            "best_time": "黄昏时（黄金时刻）",
+            "vibe": "怀旧且美丽",
+            "good_for": [
+              "经济旅行",
+              "浪漫气氛",
+              "摄影"
+            ]
+          },
+          "image": "/images/hong-kong/star-ferry.jpg",
+          "geo": {
+            "lat": 22.2934,
+            "lng": 114.168
+          }
+        },
+        {
+          "id": "sight-hk-003",
+          "slug": "symphony-of-lights",
+          "name_en": "Symphonie der Lichter",
+          "name_local": "幻彩詠香江",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "一场光与激光的表演，与维多利亚港两岸的40多座摩天大楼同步进行。",
+            "history": "自2004年开始，被吉尼斯世界纪录认定为世界上最大的永久性灯光和音乐秀。",
+            "insider_tip": "最佳观赏点为钟楼附近的海滨长廊。下载音乐应用以享受演出。",
+            "price_level": "免费",
+            "duration": "15分钟",
+            "best_time": "在20:00整",
+            "vibe": "宏伟且充满未来感",
+            "good_for": [
+              "家庭",
+              "夜间活动者",
+              "免费活动"
+            ]
+          },
+          "image": "/images/hong-kong/symphony-lights.jpg",
+          "geo": {
+            "lat": 22.2944,
+            "lng": 114.1722
+          }
+        },
+        {
+          "id": "sight-hk-004",
+          "slug": "big-buddha",
+          "name_en": "Big Buddha",
+          "name_local": "天壇大佛",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "一座高34米的青铜大佛雕像，宁静地位于大屿山的山顶。",
+            "history": "于1993年完工，象征着地区的稳定与人们的富裕，面朝北方的中国。",
+            "insider_tip": "建议搭乘玻璃底的昂坪360缆车，能看到下方的壮观植被。",
+            "price_level": "中等",
+            "duration": "半天",
+            "best_time": "周一至周五早上（避免长队）",
+            "vibe": "宏伟且富有灵性",
+            "good_for": [
+              "自然爱好者",
+              "灵性探索",
+              "历史"
+            ]
+          },
+          "image": "/images/hong-kong/big-buddha.jpg",
+          "geo": {
+            "lat": 22.2542,
+            "lng": 113.9048
+          }
+        }
+      ]
+    },
+    {
+      "title": "市场与购物",
+      "id": "marches",
+      "items": [
+        {
+          "id": "sight-hk-005",
+          "slug": "temple-street-night-market",
+          "name_en": "Temple Street Night Market",
+          "name_local": "廟街夜市",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "九龙的一处热闹夜市，您可以找到街头小吃、家居用品、算命师和歌手。",
+            "history": "这个地方常常作为黑帮电影的拍摄场景，让您体验老一辈的生活及其挑战。",
+            "insider_tip": "在庙的尽头有算命师——一些有训练的鸟类能帮助选牌。",
+            "price_level": "免费（可购物）",
+            "duration": "1.5-2小时",
+            "best_time": "21:00（能量的高峰期）",
+            "vibe": "混乱而热闹",
+            "good_for": [
+              "夜生活",
+              "美味食物",
+              "实惠购物"
+            ]
+          },
+          "image": "/images/hong-kong/temple-street.jpg",
+          "geo": {
+            "lat": 22.3123,
+            "lng": 114.1712
+          }
+        },
+        {
+          "id": "sight-hk-006",
+          "slug": "ladies-market",
+          "name_en": "Ladies' Market",
+          "name_local": "女人街",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "在旺角的一个1公里长的摊位区，您可以找到从衣服和包包到独特礼物的各种商品。",
+            "history": "市场成立于1970年代，因这里销售廉价女性服装和配饰而得名。",
+            "insider_tip": "必须讨价还价；从初始价格的一半开始，并准备好离开以获得最佳优惠。",
+            "price_level": "免费",
+            "duration": "1小时",
+            "best_time": "下午",
+            "vibe": "繁忙而生机勃勃",
+            "good_for": [
+              "实惠购物",
+              "纪念品猎人",
+              "观察人士"
+            ]
+          },
+          "image": "/images/hong-kong/ladies-market.jpg",
+          "geo": {
+            "lat": 22.3193,
+            "lng": 114.171
+          }
+        },
+        {
+          "id": "sight-hk-007",
+          "slug": "pmq",
+          "name_en": "PMQ",
+          "name_local": "元創方",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "在一座历史翻新的建筑内的创意空间，现在满是当地设计师的精品店和艺术画廊。",
+            "history": "该地原为已婚警员的总部，曾被拯救于拆迁前，现在是香港创意产业的中心。",
+            "insider_tip": "查看中心庭院的项目——周末常常会有高质量的夜市和国际艺术装置。",
+            "price_level": "免费",
+            "duration": "1.5小时",
+            "best_time": "周末下午",
+            "vibe": "现代而富有创意",
+            "good_for": [
+              "设计爱好者",
+              "购物",
+              "潮人"
+            ]
+          },
+          "image": "/images/hong-kong/pmq.jpg",
+          "geo": {
+            "lat": 22.2847,
+            "lng": 114.1524
+          }
+        }
+      ]
+    },
+    {
+      "title": "寺庙与遗产",
+      "id": "temples",
+      "items": [
+        {
+          "id": "sight-hk-008",
+          "slug": "man-mo-temple",
+          "name_en": "文武廟",
+          "name_local": "文武廟",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "这是一座令人惊叹的寺庙，专门供奉文学之神（文）和战争之神（武），烟雾缭绕。",
+            "history": "它建于1847年，是这座城市最古老和最重要的寺庙之一，还曾用作调解当地争端的法院。",
+            "insider_tip": "请抬头看看天花板，您可以看到巨大的烟圈。这些香烟段可以燃烧数周，让寺庙充满神秘的雾气。",
+            "price_level": "免费",
+            "duration": "30-45分钟",
+            "best_time": "上午",
+            "vibe": "灵性与烟雾弥漫",
+            "good_for": [
+              "历史爱好者",
+              "摄影",
+              "安静思考"
+            ]
+          },
+          "image": "/images/hong-kong/man-mo-temple.jpg",
+          "geo": {
+            "lat": 22.2845,
+            "lng": 114.1503
+          }
+        },
+        {
+          "id": "sight-hk-009",
+          "slug": "wong-tai-sin-temple",
+          "name_en": "黃大仙祠",
+          "name_local": "黃大仙祠",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "一个巨大的道教寺庙综合体，以竹签占卜'九占'而闻名。",
+            "history": "这座寺庙是为一位获得不朽的著名隐士而建，是当地人祈求健康和事业成功的最受欢迎的寺庙。",
+            "insider_tip": "如果您不懂粤语，可以在附近的拱廊区域小付费请一位讲英语的算命师解读竹签的数量。",
+            "price_level": "免费",
+            "duration": "1小时",
+            "best_time": "工作日上午",
+            "vibe": "活跃与生气勃勃",
+            "good_for": [
+              "文化体验",
+              "建筑",
+              "摄影"
+            ]
+          },
+          "image": "/images/hong-kong/wong-tai-sin.jpg",
+          "geo": {
+            "lat": 22.3422,
+            "lng": 114.1934
+          }
+        },
+        {
+          "id": "sight-hk-010",
+          "slug": "tai-o-fishing-village",
+          "name_en": "大澳漁村",
+          "name_local": "大澳漁村",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "一个传统的塔卡渔民社区，位于大屿山的湿地上。",
+            "history": "它被称为'东方的威尼斯'，您可以从这里看到过去的香港的简单渔村景象。",
+            "insider_tip": "参加一次20港币的20分钟乘船游，看看高架水上房屋或在海湾寻找稀有的粉红海豚。",
+            "price_level": "免费（有便宜的船可用）",
+            "duration": "2-3小时",
+            "best_time": "周末的下午",
+            "vibe": "怀旧与乡村气息",
+            "good_for": [
+              "短途旅行",
+              "历史",
+              "自然爱好者"
+            ]
+          },
+          "image": "/images/hong-kong/tai-o.jpg",
+          "geo": {
+            "lat": 22.2547,
+            "lng": 113.8574
+          }
+        }
+      ]
+    },
+    {
+      "title": "自然与徒步旅行",
+      "id": "natura",
+      "items": [
+        {
+          "id": "sight-hk-011",
+          "slug": "dragon-back-trail",
+          "name_en": "龙背山",
+          "name_local": "Dragon's Back",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "您可以在一个奇妙的山脊上徒步旅行，同时享受香港海岸和南中国海的美丽风景。",
+            "history": "它被《时代杂志》评选为亚洲最佳城市徒步路线之一，连接湾仔与冲浪村大浪湾。",
+            "insider_tip": "步道的尽头是大浪湾海滩，记得带上游泳衣，与好友在海滩小摊共享啤酒和比萨。",
+            "price_level": "免费",
+            "duration": "3-4小时",
+            "best_time": "11月（凉爽干燥的季节）",
+            "vibe": "风景壮观，令人耳目一新",
+            "good_for": [
+              "徒步旅行者",
+              "自然爱好者",
+              "活跃的旅行者"
+            ]
+          },
+          "image": "/images/hong-kong/dragon-back.jpg",
+          "geo": {
+            "lat": 22.2447,
+            "lng": 114.2487
+          }
+        },
+        {
+          "id": "sight-hk-012",
+          "slug": "sai-kung",
+          "name_en": "西贡",
+          "name_local": "Sai Kung",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "这是一个被称为香港后花园的海岸区域，以沙滩、火山岩和海鲜而闻名。",
+            "history": "曾经是一个宁静的渔港，如今是联合国教科文组织世界地质公园的入口，是理想的周末旅行地。",
+            "insider_tip": "从尖沙咀码头乘坐短途船（小木船）前往城市最佳的潜水地点。",
+            "price_level": "中等",
+            "duration": "全天",
+            "best_time": "阳光明媚的周末",
+            "vibe": "悠闲的海滩氛围",
+            "good_for": [
+              "自然爱好者",
+              "海鲜爱好者",
+              "家庭"
+            ]
+          },
+          "image": "/images/hong-kong/sai-kung.jpg",
+          "geo": {
+            "lat": 22.3814,
+            "lng": 114.2743
+          }
+        }
+      ]
+    },
+    {
+      "title": "城市体验",
+      "id": "urban",
+      "items": [
+        {
+          "id": "sight-hk-013",
+          "slug": "mid-levels-escalator",
+          "name_en": "中環至半山自動扶梯",
+          "name_local": "中環至半山自動扶梯",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "这是世界上最长的室内自动扶梯系统，绵延超过800米，高差超过135米。",
+            "history": "1993年建成，作为改善中环居民的交通工具，意外成为一个重要的旅游景点和夜生活中心。",
+            "insider_tip": "扶梯早上（6点至10点）是往下的，10点至午夜是往上的，请做好相应的安排。",
+            "price_level": "免费",
+            "duration": "30-45分钟",
+            "best_time": "10点后",
+            "vibe": "独特而令人印象深刻",
+            "good_for": [
+              "观察人群",
+              "独特的城市规划",
+              "休闲"
+            ]
+          },
+          "image": "/images/hong-kong/escalator.jpg",
+          "geo": {
+            "lat": 22.2837,
+            "lng": 114.1544
+          }
+        },
+        {
+          "id": "sight-hk-014",
+          "slug": "ozone-bar",
+          "name_en": "Ozone Bar",
+          "name_local": "Ozone Bar",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "这是世界上最高的酒吧之一，位于西九龙的ICC大楼第118层。",
+            "history": "设计来自Masato Katayama，酒吧的未来感蜂窝图案融入到瑞士凯宾斯基酒店的顶部。",
+            "insider_tip": "出发前检查天气。雾天您可能会在云中看不见风景。",
+            "price_level": "昂贵",
+            "duration": "1.5小时",
+            "best_time": "蓝色时刻（刚日落后）",
+            "vibe": "超级现代且迷人",
+            "good_for": [
+              "特殊场合",
+              "摄影",
+              "观景"
+            ]
+          },
+          "image": "/images/hong-kong/ozone-bar.jpg",
+          "geo": {
+            "lat": 22.3039,
+            "lng": 114.158
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "9:00 AM",
+      "title": "添好運",
+      "description": "您可以享用获得米其林星级的点心。推荐您尝试烧腩包、虾饺、烧卖和萝卜糕。",
+      "image": "/images/hong-kong/tim-ho-wan.jpg"
+    },
+    {
+      "time": "11:00",
+      "title": "中环与半山",
+      "description": "探索中环的高楼大厦，使用世界最长的扶梯，并参观文武庙。",
+      "image": "/images/hong-kong/central-morning.jpg"
+    },
+    {
+      "time": "13:00",
+      "title": "烤鹅午餐",
+      "description": "来自Yat Lok或Kam's的米其林星级烤肉。整只鹅的价格为100港币，配米饭一起享用。",
+      "image": "/images/hong-kong/roast-goose2.jpg"
+    },
+    {
+      "time": "15:00",
+      "title": "维多利亚峰",
+      "description": "乘坐15路公交车，避免排长队乘坐登山火车。您可以欣赏到天际线、港口和山脉的全景。",
+      "image": "/images/hong-kong/peak-afternoon.jpg"
+    },
+    {
+      "time": "18:30",
+      "title": "星光渡轮观日落",
+      "description": "您可以享受这趟传奇之旅，穿越港口，欣赏黄金时刻。这是世界上最美好的旅行之一，收费为 HK$4。",
+      "image": "/images/hong-kong/star-ferry2.jpg"
+    },
+    {
+      "time": "20:00",
+      "title": "灯光秀和夜市",
+      "description": "请您享受晚上8点的灯光秀，然后探索庙街的夜市。感受热闹的氛围，并尝试咖喱味炸鱼丸。",
+      "image": "/images/hong-kong/night-market.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "name": "章鱼卡",
+      "reason": "您将在MTR、公交车和便利店中在一天内使用超过20次。",
+      "image_url": "https://m.media-amazon.com/images/I/61VxVqG7SQL._AC_SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B07VWJF8PX?tag=canibringonpl-20"
+    },
+    {
+      "name": "便携式充电器",
+      "reason": "使用地图和相机时电池消耗很快。",
+      "image_url": "https://m.media-amazon.com/images/I/61N3Z5L2JjL._AC_SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B08LH26PFT?tag=canibringonpl-20"
+    },
+    {
+      "name": "可折叠雨伞",
+      "reason": "突如其来的雨水很常见。风暴通常发生在六月到九月之间。当地人一年四季都会携带它。",
+      "image_url": "https://m.media-amazon.com/images/I/71K1N0xq2bL._AC_SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B07QG2PQTL?tag=canibringonpl-20"
+    },
+    {
+      "name": "清凉湿巾",
+      "reason": "炎热和湿润的天气（32°C + 80%）可能非常令人窒息。用一些水，您可以立即找到缓解。",
+      "image_url": "https://m.media-amazon.com/images/I/81vpmtqxCzL._AC_SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B01N7MLQXI?tag=canibringonpl-20"
+    }
+  ],
+  "region": "Asia"
+}

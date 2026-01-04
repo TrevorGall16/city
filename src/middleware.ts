@@ -1,80 +1,47 @@
 /**
- * Middleware for Supabase Session Refresh
- * Automatically refreshes user sessions on each request
- * Required for @supabase/ssr
+ * 🛰️ MASTER AI: GLOBAL MIDDLEWARE (V6.0)
+ * ✅ Feature: Auto-detects browser language (Accept-Language).
+ * ✅ Optimization: Zero-delay redirects for international users.
+ * ✅ Safety: Excludes all static assets and internal Next.js paths.
  */
 
-import { createServerClient, type CookieOptions } from '@supabase/ssr'
-import { NextResponse, type NextRequest } from 'next/server'
+import { NextResponse } from "next/server";
+import type { NextRequest } from "next/request";
 
-export async function middleware(request: NextRequest) {
-  let response = NextResponse.next({
-    request: {
-      headers: request.headers,
-    },
-  })
+const locales = ['en', 'fr', 'es', 'it', 'ja', 'hi', 'de', 'zh', 'ar'];
+const defaultLocale = 'en';
 
-  const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    {
-      cookies: {
-        get(name: string) {
-          return request.cookies.get(name)?.value
-        },
-        set(name: string, value: string, options: CookieOptions) {
-          request.cookies.set({
-            name,
-            value,
-            ...options,
-          })
-          response = NextResponse.next({
-            request: {
-              headers: request.headers,
-            },
-          })
-          response.cookies.set({
-            name,
-            value,
-            ...options,
-          })
-        },
-        remove(name: string, options: CookieOptions) {
-          request.cookies.set({
-            name,
-            value: '',
-            ...options,
-          })
-          response = NextResponse.next({
-            request: {
-              headers: request.headers,
-            },
-          })
-          response.cookies.set({
-            name,
-            value: '',
-            ...options,
-          })
-        },
-      },
-    }
-  )
+function getLocale(request: NextRequest) {
+  const acceptLanguage = request.headers.get("accept-language");
+  if (!acceptLanguage) return defaultLocale;
 
-  // Refresh session if expired
-  await supabase.auth.getUser()
+  // Simple parser for browser language headers (e.g., "fr-FR,fr;q=0.9")
+  const detected = acceptLanguage
+    .split(",")
+    .map((lang) => lang.split(";")[0].split("-")[0].toLowerCase())
+    .find((lang) => locales.includes(lang));
 
-  return response
+  return detected || defaultLocale;
+}
+
+export function middleware(request: NextRequest) {
+  const { pathname } = request.nextUrl;
+
+  // 1. Check if the path already has a supported locale
+  const pathnameHasLocale = locales.some(
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+  );
+
+  if (pathnameHasLocale) return;
+
+  // 2. Redirect if locale is missing (e.g., /city/paris -> /fr/city/paris)
+  const locale = getLocale(request);
+  request.nextUrl.pathname = `/${locale}${pathname}`;
+  
+  return NextResponse.redirect(request.nextUrl);
 }
 
 export const config = {
-  matcher: [
-    /*
-     * Match all request paths except for the ones starting with:
-     * - _next/static (static files)
-     * - _next/image (image optimization files)
-     * - favicon.ico (favicon file)
-     * Feel free to modify this pattern to include more paths.
-     */
-    '/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)',
-  ],
-}
+  // matcher updated to be more efficient for 2026 performance standards
+  matcher: ["/((?!api|_next/static|_next/image|images|favicon.ico|site.webmanifest|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)"],
+};

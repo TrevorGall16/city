@@ -1,0 +1,1022 @@
+{
+  "id": "city-007",
+  "name": "Rome",
+  "slug": "rome",
+  "country": "Italy",
+  "country_code": "it",
+  "hero_image": "/images/rome/hero.jpg",
+  "intro_vibe": "永恒之城：一个混乱的露天博物馆，古老的遗迹与摩托车流量和完美的意大利面交汇。",
+  "general_info": {
+    "population": "~280万（市区） / ~430万（大都市区）",
+    "is_capital": true,
+    "description": "罗马运行在仪式而非效率之上。它是三千年历史、粗糙街头生活和严格饮食规则的碰撞。不要着急；用餐是神圣的时间块。这里嘈杂、混乱，却又美得惊人。接受这种混乱；这就是魅力所在。"
+  },
+  "stats": {
+    "currency": "€",
+    "plug_type": "F型 / L型"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "一月",
+      "temp": "3°C - 12°C",
+      "vibe": "宁静的冬天",
+      "pros": [
+        "空荡荡的博物馆",
+        "分层折扣季节",
+        "舒适的意大利餐馆"
+      ],
+      "cons": [
+        "雨",
+        "寒冷的潮湿"
+      ],
+      "clothing": "温暖的大衣、围巾、防水鞋"
+    },
+    {
+      "id": 2,
+      "name": "二月",
+      "temp": "4°C - 13°C",
+      "vibe": "清新",
+      "pros": [
+        "狂欢节小吃",
+        "游客较少",
+        "晴朗的天空"
+      ],
+      "cons": [
+        "不可预测的降雨",
+        "夜间天气寒冷"
+      ],
+      "clothing": "分层穿着，暖和的外套"
+    },
+    {
+      "id": 3,
+      "name": "三月",
+      "temp": "6°C - 16°C",
+      "vibe": "春天的觉醒",
+      "pros": [
+        "花朵盛开",
+        "户外餐饮的开始",
+        "舒适的散步"
+      ],
+      "cons": [
+        "春季降雨",
+        "多变的天气"
+      ],
+      "clothing": "轻便外套，雨伞"
+    },
+    {
+      "id": 4,
+      "name": "四月",
+      "temp": "9°C - 19°C",
+      "vibe": "令人兴奋的春天",
+      "pros": [
+        "西班牙阶梯上的杜鹃花",
+        "复活节庆祝活动",
+        "完美的天气"
+      ],
+      "cons": [
+        "复活节周期间的人潮",
+        "高昂的价格"
+      ],
+      "clothing": "多层着装，太阳镜"
+    },
+    {
+      "id": 5,
+      "name": "五月",
+      "temp": "13°C - 24°C",
+      "vibe": "黄金的月份",
+      "pros": [
+        "玫瑰园开园",
+        "白昼变长",
+        "拍照的绝佳光线"
+      ],
+      "cons": [
+        "人群开始增多",
+        "炎热开始显现"
+      ],
+      "clothing": "轻便衣物，太阳帽"
+    },
+    {
+      "id": 6,
+      "name": "六月",
+      "temp": "17°C - 28°C",
+      "vibe": "夏季天气",
+      "pros": [
+        "露天电影院",
+        "隆戈托雷节",
+        "夜间野生动物园探险"
+      ],
+      "cons": [
+        "热浪的开始",
+        "人群密集"
+      ],
+      "clothing": "轻便衣物，亚麻"
+    },
+    {
+      "id": 7,
+      "name": "七月",
+      "temp": "20°C - 31°C",
+      "vibe": "令人兴奋",
+      "pros": [
+        "夏季促销",
+        "城市空荡荡的（当地人缺席）",
+        "温暖的夜晚"
+      ],
+      "cons": [
+        "炎热令人窒息",
+        "许多地方没有空调"
+      ],
+      "clothing": "轻便的服装，风扇"
+    },
+    {
+      "id": 8,
+      "name": "八月",
+      "temp": "20°C - 31°C",
+      "vibe": "Feragosto",
+      "pros": [
+        "没有拥堵",
+        "轻松的氛围",
+        "体验温暖"
+      ],
+      "cons": [
+        "许多商店关门",
+        "极端的高温"
+      ],
+      "clothing": "您可能需要穿最轻便的衣物"
+    },
+    {
+      "id": 9,
+      "name": "九月",
+      "temp": "16°C - 27°C",
+      "vibe": "第二次温暖",
+      "pros": [
+        "天气再次宜人",
+        "文化季节开始",
+        "令人振奋"
+      ],
+      "cons": [
+        "人群拥挤",
+        "仍然潮湿"
+      ],
+      "clothing": "夏季服装 + 轻薄外套"
+    },
+    {
+      "id": 10,
+      "name": "十月",
+      "temp": "12°C - 22°C",
+      "vibe": "十月节奏",
+      "pros": [
+        "著名的罗马日落",
+        "温暖的白天 / 寒冷的夜晚",
+        "收获季节的美食"
+      ],
+      "cons": [
+        "月中有雨",
+        "白天变短"
+      ],
+      "clothing": "轻便外套，舒适鞋子"
+    },
+    {
+      "id": 11,
+      "name": "十一月",
+      "temp": "8°C - 17°C",
+      "vibe": "雨季",
+      "pros": [
+        "朝鲜蓟季节",
+        "舒适的氛围",
+        "低价"
+      ],
+      "cons": [
+        "降雨最多的月份",
+        "天空阴沉"
+      ],
+      "clothing": "防雨衣，耐磨靴子"
+    },
+    {
+      "id": 12,
+      "name": "十二月",
+      "temp": "4°C - 13°C",
+      "vibe": "节日气氛",
+      "pros": [
+        "圣诞灯饰",
+        "处处彩色",
+        "节日氛围"
+      ],
+      "cons": [
+        "市中心人潮拥挤",
+        "寒冷"
+      ],
+      "clothing": "冬季外套, 手套"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "上午11点后不要点卡布奇诺：牛奶是早餐专属，午餐后点卡布奇诺是一种消化罪。请点 'caffè'（意式浓缩咖啡）或 'caffè macchiato'。",
+      "账单仪式：账单很少会自动送到。您必须引起服务员的注意并做出写字的手势。在桌子上支付和在收银台支付有所不同；留意当地人的做法。",
+      "时间是流动的（除了用餐）：火车可能会晚点，商店可能会随意关门，但用餐时间是严格的。午餐时间是下午1点到3点，晚餐时间是下午8:30以后。请不要尝试在下午6点吃晚餐。",
+      "着装要求：前往圣彼得大教堂/万神殿时，肩部和膝盖必须遮盖。总体而言，罗马人穿着讲究。市中心穿运动服会让您看起来像游客。",
+      "混乱心态：排队只是建议，中断是正常的。争论效率没有意义。罗马的运行基于社交流动，而不是系统。放松心情，随波逐流。",
+      "票据验证：请在黄色机器中验证公交/电车票。检查员非常严厉，会特别针对游客。",
+      "水龙头（Nasoni）：街头的饮水龙头不断流出冰凉干净的火山水。请从中饮水！随身携带可重复使用的瓶子。"
+    ],
+"essential_phrases": [
+  { "src": "你好 / 再见", "local": "Ciao", "phonetic": "CHOW (非正式)" },
+  { "src": "早上好 / 日安", "local": "Buongiorno", "phonetic": "bwon-JOR-no (正式)" },
+  { "src": "谢谢", "local": "Grazie", "phonetic": "GRAHT-see-eh" },
+  { "src": "请给我账单", "local": "Il conto, per favore", "phonetic": "eel KON-toh" },
+  { "src": "不好意思", "local": "Scusi / Permesso", "phonetic": "SKOO-zee (引起注意) / per-MESS-oh (路过)" }
+]
+
+  },
+  "neighborhoods": {
+    "data": [
+      {
+        "name": "特拉斯提弗列",
+        "vibe": "迷人而热闹",
+        "description": "被常春藤覆盖的建筑、鹅卵石街道，和强烈的夜生活。白天美丽，夜晚如同街头派对。虽然非常拥挤，但魅力无可否认。",
+        "highlights": [
+          "圣玛丽亚广场",
+          "法尔内西纳别墅",
+          "夜生活"
+        ],
+        "image": "/images/rome/trastevere.jpg"
+      },
+      {
+        "name": "蒙提",
+        "vibe": "波希米亚风格与酷炫",
+        "description": "位于斗兽场旁的罗马潮人村。复古店、酒吧和工匠聚集地。当地人聚集的地方，以避开游客的拥挤。",
+        "highlights": [
+          "圣母广场",
+          "复古市场",
+          "博斯克托街"
+        ],
+        "image": "/images/rome/monti.jpg"
+      },
+      {
+        "name": "特斯塔乔",
+        "vibe": "美食爱好者的天堂",
+        "description": "罗马美食的核心地带。老屠宰场和最正宗的传统餐馆所在地。虽然不算美丽，但美味而地道。",
+        "highlights": [
+          "特斯塔乔市场",
+          "科基山",
+          "地道美食"
+        ],
+        "image": "/images/rome/testaccio.jpg"
+      },
+      {
+        "name": "历史中心",
+        "vibe": "宏伟经典",
+        "description": "巴洛克罗马的心脏。万神殿、纳沃纳广场、特雷维喷泉。壮观、拥挤且昂贵。建议早晨或深夜前来访问。",
+        "highlights": [
+          "万神殿",
+          "纳沃纳广场",
+          "特雷维喷泉"
+        ],
+        "image": "/images/rome/centro-storico.jpg"
+      }
+    ]
+  },
+  "logistics": {
+    "logistics-transit": {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "出行方式",
+      "icon": "火车",
+      "summary": "尽量步行。公共交通系统常常不可靠。",
+      "details": [
+        "步行：历史中心区域较小，步行是游览城市的最佳方式。请穿舒适的鞋子；鹅卵石（'Sampietrini'）非常考验脚力。",
+        "地铁：仅有3条线（A、B、C）。对于穿越城市（例如从梵蒂冈到特米尼）很有用，但对历史中心无效。请注意：A线经常于晚上9点提前关闭，务必查看时刻表。",
+        "车票（BIT）：标准票（€1.50）有效时间为100分钟。您必须在公交车/电车上的黄色机器上进行验证。检查员会专门检查没有盖章的游客票。",
+        "出租车应用：不要在街上招手（他们不会停）。使用'FreeNow'或者前往指定的出租车站。Uber可用，但仅限于'黑车'（价格较高）。"
+      ]
+    },
+    "logistics-dining": {
+      "id": "logistics-dining",
+      "slug": "dining-protocol",
+      "title": "用餐指南",
+      "icon": "餐具",
+      "summary": "严格的用餐时间和账单习俗。",
+      "details": [
+        "严格的用餐时间：午餐时间为下午1:00至3:00。晚餐时间为晚上8:00至11:00。大部分正宗餐厅在这段时间会关门。您不可以在下午6点用餐。",
+        "账单习俗：账单不会自动送来。您必须引起服务员的注意并假装写字或说'Il conto'。待坐是文化上被期望的。",
+        "服务费与小费：每人需支付€2-3的'Coperto'（餐桌费）。这是正常的。小费不是必须的；当地人可能会留小额零钱，但20%的小费并不普遍。",
+        "饮水规则：餐馆默认提供瓶装水。然而，路边的成千上万的'Nasoni'（街头喷泉）提供安全的冷火山水。可以免费为您的瓶子加水。"
+      ]
+    },
+    "logistics-airports": {
+      "id": "logistics-airports",
+      "slug": "airport-strategy",
+      "title": "机场攻略",
+      "icon": "飞机",
+      "summary": "菲乌米奇诺（FCO）与恰姆皮诺（CIA）。",
+      "details": [
+        "FCO（菲乌米奇诺）：主要机场。乘坐'Leonardo Express'火车到特米尼（32分钟，€14，确保连接）。出租车到奥鲁利亚墙内的任何地方有固定费用€50。",
+        "CIA（恰姆皮诺）：低成本机场（瑞安航空）。没有火车站。乘坐班车（Terravision/SitBus）到特米尼（约€6）。出租车固定费为€31。",
+        "出租车警告：在上车前请与司机确认固定费。忽略航站楼内的拉客者；请前往外面的官方出租车队伍。"
+      ]
+    },
+    "logistics-survival": {
+      "id": "logistics-survival",
+      "slug": "local-survival",
+      "title": "当地生存小贴士",
+      "icon": "信息",
+      "summary": "如何驾驭混乱。",
+      "details": [
+        "咖啡吧规则：吧台的价格（约€1.10）是固定的，但如果坐在桌子旁，价格可能会翻倍或三倍。请像当地人一样：站在吧台享用。",
+        "混乱心态：排队仅是松散的建议。公交车不会停除非您挥手。事情需要时间。对抗混乱会导致压力；接受它是罗马人的方式。",
+        "八月关停：环法拉戈斯托（8月15日）期间，城市会变得空荡荡的。许多家庭经营的正宗餐馆会关闭两周。旅游陷阱则持续营业。",
+        "夏季生存：夏天，阳光非常强烈。当地人避免在下午1点至4点之间步行。建议在这个时间段安排参观博物馆或小憩。"
+      ]
+    },
+    "logistics-safety": {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "安全与骗局",
+      "icon": "盾牌",
+      "summary": "安全的城市，活跃的骗子。",
+      "details": [
+        "扒手路线：在64路公交车（梵蒂冈公交车）、拥挤的A线地铁和斗兽场排队时请保持高度警惕。",
+        "手环骗局：在旅游景点，男人会试图把'免费'手环绑在您的手腕上，然后强行索要费用。请把手放进口袋，迅速离开。",
+        "特米尼车站：主要火车站周围的地区晚上可能会显得阴暗不堪。请尽量待在主要的、光线明亮的街道上。"
+      ]
+    },
+    "logistics-apps": {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "必下载应用",
+      "icon": "智能手机",
+      "summary": "永恒之城的数字工具。",
+      "details": [
+        "FreeNow：召唤官方白色出租车的主要应用。",
+        "Trenitalia：检查火车时刻和购买Leonardo Express票的必备应用。",
+        "Citymapper / Google Maps：这两个应用在交通上表现不错，尽管公交车的时刻往往是'期望'而非准确。",
+        "Acea Waidy：查找最近的免费饮水喷泉（Nasone）。"
+      ]
+    }
+  },
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "carbonara",
+      "name_en": "Carbonara",
+      "name_local": "Carbonara",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "意大利式碳ara是罗马的一道面食，采用蛋黄、佩科里诺罗马诺奶酪、猪腮肉（干腊肉）和黑胡椒制作——完全不加奶油。意面的热量将生鸡蛋煮成丝滑而奶油状的酱汁，包裹住每一块。这是罗马最具标志性的菜肴，当地人认为加奶油是一种烹饪罪行。",
+        "vibe": "丰盛，传统",
+        "history": "碳ara的起源众说纷纭，但它可能是在20世纪中叶在罗马出现的。这道菜依赖于精确的技巧：鸡蛋应该无滑腻地裹住意面。它应该始终使用猪腮肉制作，绝不能使用培根或意大利腊肠。",
+        "insider_tip": "如果菜单上提到碳ara含有奶油，请立刻离开——那是一个游客陷阱。请在厨房最新鲜时选择用餐，推荐在午餐时间。传统的意面形状包括通心粉或细条意面。",
+        "price_level": "中等",
+        "good_for": [
+          "美食家",
+          "首次游客"
+        ],
+        "duration": "30-45分钟",
+        "best_time": "午餐"
+      },
+      "image": "/images/rome/carbonara.jpg"
+    },
+    {
+      "id": "food-015",
+      "slug": "trattoria-hierarchy",
+      "name_en": "小餐馆规则",
+      "name_local": "罗马小餐馆",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "小餐馆是一家家庭经营的非正式意大利餐厅，提供地方特色菜肴，价格实惠，通常配有纸桌布和手写菜单。真正的小餐馆从不做广告，菜单从不提供英文，并不总是欢迎游客。由于罗马人喜欢大声说话，因此它们通常会很嘈杂；空间有限，因为房租昂贵；提供的菜肴是当地人日常食用的。",
+        "vibe": "真实，简单",
+        "history": "小餐馆起源于工人餐厅，与正式餐厅不同。随着1980年代和90年代旅游业的兴起，假冒的小餐馆在旅游景点周围涌现，菜单使用六种语言的塑料菜单。",
+        "insider_tip": "注意纸桌布、黑板上手写的菜单以及独自看报纸的当地人。如果有“游客菜单”或图片，则是伪造的。您可以在居民区找到真实的地方。",
+        "price_level": "经济实惠",
+        "good_for": [
+          "预算有限的旅行者",
+          "美食家"
+        ],
+        "duration": "1-2小时",
+        "best_time": "午餐或晚餐"
+      },
+      "image": "/images/rome/trattoria.jpg"
+    },
+    {
+      "id": "food-016",
+      "slug": "roman-fried-food",
+      "name_en": "炸开胃菜 (Fritti)",
+      "name_local": "I Fritti",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Fritti 是在意大利面或比萨饼之前提供的炸开胃菜，包括 Supplì（炸米球搭配马苏里拉奶酪）、Fiori di Zucchino（炸西葫芦花）和土豆可乐饼。它们酥脆、热，触手可及，是真正的罗马美食必备。这里是一个社交场合：您可以为桌子点一盘，大家一起分享。",
+        "vibe": "酥脆，团体共享",
+        "history": "罗马的炸制文化始于犹太区，炸制在橄榄油中的技艺已成为一种艺术形式。技巧是关键：油必须非常热，质地轻盈，食材应立即上桌。",
+        "insider_tip": "务必点一份 Supplì al Telefono：当您撕下一块时，马苏里拉奶酪像电话线一样拉伸。Fiori di Zucchino 应在 2 分钟内食用，否则会变得湿软。您可以在每一家小餐馆或炸食店找到它们。",
+        "price_level": "实惠",
+        "good_for": [
+          "团体",
+          "早餐爱好者"
+        ],
+        "duration": "快餐",
+        "best_time": "随时"
+      },
+      "image": "/images/rome/fritti.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "cacio-e-pepe",
+      "name_en": "Cacio e Pepe",
+      "name_local": "Cacio e Pepe",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Cacio e Pepe 是一道罗马的意大利面菜肴，只用三种原料制作：佩科里诺奶酪、黑胡椒和意大利面的煮水。奶酪应当被细致刨成碎末，并与热的意大利面水混合成光滑的乳化液。然而，尽管其简单，却需要较高的技术水平，也成为每家餐厅品质的试金石。",
+        "vibe": "简单，非正式",
+        "history": "Cacio e Pepe 的起源可以追溯到罗马周围的丘陵地区，它是为牧羊人而生的食物：佩科里诺奶酪便于携带，胡椒用于保存食物，干意大利面在火上煮熟。许多厨师在制作过程中失败，因为它毫不留情。",
+        "insider_tip": "请将其作为第一道菜点，以评估菜肴的质量。如果它是块状或颗粒状的，餐厅并不重视它。请始终点 Tonarelli，而不是意大利面。",
+        "price_level": "中等",
+        "good_for": [
+          "美食家",
+          "极简主义者"
+        ],
+        "duration": "30-45 分钟",
+        "best_time": "午餐或晚餐"
+      },
+      "image": "/images/rome/cacio-pepe.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "amatriciana",
+      "name_en": "Amatriciana",
+      "name_local": "Amatriciana",
+      "category": "饮食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "阿马特里恰纳是一种意大利面酱，由番茄、咸猪颊肉、佩科里诺奶酪和胡椒制成。它源于阿马特里切（Amatrice），这座山城在2016年遭遇地震而被摧毁。制作方法受到法律保护：只允许使用咸猪颊肉、佩科里诺、番茄、白葡萄酒和胡椒——洋葱和大蒜对纯粹主义者来说是禁忌。",
+        "vibe": "浓烈，辛辣",
+        "history": "最初的菜肴没有番茄（番茄在16世纪才传入意大利）。2016年地震后，罗马人聚集在一起享用这道菜，餐馆将利润用于重建工作。",
+        "insider_tip": "每年8月24日，罗马会庆祝阿马特里切日，以纪念地震。请您点一份布卡蒂尼（Bucatini），这种传统的粗而中空的意大利面能够完美吸附酱汁。",
+        "price_level": "中等",
+        "good_for": [
+          "意大利面爱好者",
+          "美食家"
+        ],
+        "duration": "30-45分钟",
+        "best_time": "午餐或晚餐"
+      },
+      "image": "/images/rome/amatriciana.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "roman-artichokes",
+      "name_en": "罗马朝鲜蓟",
+      "name_local": "Carciofi alla Romana / Giudia",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "罗马朝鲜蓟有两种变体：Carciofi alla Romana（用大蒜、薄荷和橄榄油炸）和Carciofi alla Giudia（完全油炸，外脆如花瓣）。这两种都使用柔嫩的罗马朝鲜蓟，因其苦涩的心而受到欢迎。朝鲜蓟在罗马的季节性热情从11月持续到4月。",
+        "vibe": "季节性，柔嫩",
+        "history": "Carciofi alla Giudia起源于16世纪的犹太区。这种油炸的变体需要大个的朝鲜蓟，在餐桌上将其打开，让花瓣舒展，然后在热油中炸两遍。",
+        "insider_tip": "品尝最佳风味的最佳时间是2月至3月。享用时请用手，一片一片地来。在朝鲜蓟的季节里，传统的罗马餐厅可以找到它们。",
+        "price_level": "适中",
+        "good_for": [
+          "素食者",
+          "季节性产品爱好者"
+        ],
+        "duration": "30-45分钟",
+        "best_time": "午餐或晚餐"
+      },
+      "image": "/images/rome/artichokes.jpg"
+    },
+    {
+      "id": "food-005",
+      "slug": "maritozzo",
+      "name_en": "马里托佐",
+      "name_local": "Maritozzo",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "马里托佐是一种柔软的小面包，切开后填入鲜奶油，填充物的高度应为面包的两倍。它是罗马早餐不可或缺的一部分，通常在上午与咖啡一起食用，绝不是作为甜点。面包应该柔软、微甜，并涂上蜂蜜。",
+        "vibe": "柔软，细腻",
+        "history": "马里托佐起源于古罗马，当时只是一个在禁食期间食用的面包。这个名字来源于'丈夫'（marito），因为年轻男子常常将其填满珠宝以用于求婚。填有奶油的版本在19世纪成为标准。",
+        "insider_tip": "请在11点之前去买，因为它们在每个面包店里都是最新鲜的。建议您点一杯'冰咖啡'（Caffè in ghiaccio），以平衡甜味。这在大多数面包店和罗马咖啡馆都可以找到。",
+        "price_level": "实惠",
+        "good_for": [
+          "早餐",
+          "甜点爱好者"
+        ],
+        "duration": "快速小吃",
+        "best_time": "上午"
+      },
+      "image": "/images/rome/maritozzo.jpg"
+    },
+    {
+      "id": "food-006",
+      "slug": "roman-pizza",
+      "name_en": "罗马披萨",
+      "name_local": "Pizza Romana",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "罗马披萨薄而酥脆，呈矩形，并以克计重在面包店出售（Pizzerie Albeccario）。其面团中橄榄油的使用量比那不勒斯披萨更多，形成饼干般的外壳。它被切成纸状，像三明治一样站着吃。配料简单：玛格丽塔、迷迭香土豆或西葫芦花。",
+        "vibe": "酥脆, 简单",
+        "history": "罗马披萨在1950年代作为街头食品出现，并在面包店按重量出售。它是午餐或晚间小吃，但绝不作为晚餐享用。白披萨（仅橄榄油、盐、迷迭香）可以单吃或作为三明治食用。",
+        "insider_tip": "它们是按重量出售的——只需展示您想要的。请立即享用，趁热。它在全市的Pizzerie Albeccario均有提供。",
+        "price_level": "实惠",
+        "good_for": [
+          "快餐午餐",
+          "预算有限的食客"
+        ],
+        "duration": "快餐午餐",
+        "best_time": "午餐"
+      },
+      "image": "/images/rome/roman-pizza.jpg"
+    },
+    {
+      "id": "food-007",
+      "slug": "gricia",
+      "name_en": "Gricia",
+      "name_local": "Gricia",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Gricia 是罗马最古老的意大利面之一：它是没有鸡蛋的 carbonara 或没有番茄的 amatriciana。它仅由 Guanciale、Pecorino、黑胡椒和水组成。有些人说，这实际上是最真实的牧羊人意大利面，在番茄或鸡蛋被加入之前。尽管它是罗马意大利面的基础，但与后代相比，它不那么知名。",
+        "vibe": "乡村和肉味浓郁",
+        "history": "它的名字可能来源于一个瑞士城市或本地面包店 'Grisicio'。纯粹主义者认为它是肉与奶酪之间平衡的最纯粹形式。",
+        "insider_tip": "请在一家 Trattoria 点餐，以评估其 Guanciale 的质量：劣质食材是不可接受的。Rigatoni 是传统的 Gricia 意大利面形状。",
+        "price_level": "中等",
+        "good_for": [
+          "纯粹主义者",
+          "猪肉爱好者"
+        ],
+        "duration": "30-45 分钟",
+        "best_time": "午餐或晚餐"
+      },
+      "image": "/images/rome/gricia.jpg"
+    },
+    {
+      "id": "food-008",
+      "slug": "porchetta",
+      "name_en": "Porchetta",
+      "name_local": "Porchetta",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Porchetta 是一整只猪，塞满了野生莳萝、大蒜、迷迭香和胡椒等多种香料，烤制超过 8 小时，直到皮脆。通常以厚片的形式夹在脆皮面包中作为三明治食用。您可以在街头、市场和周日午餐时的 Porchetta 卡车找到它。",
+        "vibe": "肉质丰富，芳香四溢",
+        "history": "Porchetta 起源于罗马东南部的卡斯特利·罗马尼山丘，传统上用于庆祝活动。Porchetta 卡车会出现在拉齐奥地区的节日和市场上。最好的 Porchetta 来自阿里恰，那里的 Porchetta 是一种受保护的食品产品。",
+        "insider_tip": "您可以在诸如特斯塔奇奥市场这样的市场中寻找 Porchetta。请问是否能加上 'con ciccioli'（脆皮块）。建议您立即在站着的状态下享用；冷却后脂肪会变硬。"
+      },
+      "price_level": "实惠",
+      "good_for": [
+        "肉食爱好者",
+        "市场摊贩"
+      ],
+      "duration": "快速餐点",
+      "best_time": "午餐时间",
+      "image": "/images/rome/porchetta.jpg"
+    },
+    {
+      "id": "food-009",
+      "slug": "gelato-rules",
+      "name_en": "意大利冰淇淋（规则）",
+      "name_local": "Gelato Artigianale",
+      "category": "早餐",
+      "is_generic_staple": true,
+      "description": {
+        "short": "意大利冰淇淋是用较慢的搅拌、较少的空气和脂肪制作的，赋予它浓郁而强烈的口感。真正的手工冰淇淋通常每天以少量制作，并保存在金属罐容器中，颜色自然。开心果的颜色应该是棕绿色，而不是霓虹色；香蕉的颜色应该是灰白色，而不是黄色。如果它以高大的五颜六色的堆积方式呈现，那就是工业假冰淇淋。",
+        "vibe": "奶油味，手工制作",
+        "history": "意大利冰淇淋自文艺复兴时期以来就开始制作。在2000年代，出现了许多假冰淇淋店，它们使用工业预制的冰淇淋和人工色素来吸引游客。",
+        "insider_tip": "真正的冰淇淋保存在扁平的容器中，而不是高的。避免靠近主要景点的地方。总是先尝试一下。寻找标有'produzione propria'（自制）的冰淇淋店。",
+        "price_level": "经济实惠",
+        "good_for": [
+          "适合所有人",
+          "适合甜食爱好者"
+        ],
+        "duration": "快餐",
+        "best_time": "下午"
+      },
+      "image": "/images/rome/gelato.jpg"
+    },
+    {
+      "id": "food-010",
+      "slug": "trippa",
+      "name_en": "牛肚炖菜",
+      "name_local": "罗马风味牛肚",
+      "category": "早餐",
+      "is_generic_staple": true,
+      "description": {
+        "short": "牛肚是慢炖的牛内脏（肠衣），配以番茄酱、薄荷和佩科里诺奶酪烹制。这道菜源自罗马特斯塔乔地区的肉类文化，基于剩余食物制作。制作过程包括清洗、煮沸，然后用温和的火慢慢炖煮数小时，直到变得嫩滑。其质地光滑且富有弹性，这可能对不熟悉内脏的客人来说是一种挑战。",
+        "vibe": "传统，有挑战性",
+        "history": "曾经，牛肚是穷人的食物，制作需要许多小时。这道菜传统上在星期六中午的餐厅中提供。如今，年轻的罗马人越来越少吃它，这导致它在菜单上的出现频率也在减少。",
+        "insider_tip": "只在老牌餐厅点这道菜，尤其是在特斯塔乔地区。传统上，它是星期六中午的菜肴。搭配面包享用，以便吸收酱汁。",
+        "price_level": "实惠",
+        "good_for": [
+          "冒险吃货",
+          "内脏爱好者"
+        ],
+        "duration": "1小时",
+        "best_time": "星期六中午"
+      },
+      "image": "/images/rome/trippa.jpg"
+    },
+    {
+      "id": "food-011",
+      "slug": "saltimbocca",
+      "name_en": "盐焗小牛肉片",
+      "name_local": "Saltimbocca alla Romana",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "盐焗小牛肉片是一道嫩滑的肉类菜肴，用火腿和一片鼠尾草用牙签固定，随后在黄油和白葡萄酒中煎制。名字的意思是‘跳入您的嘴中’，暗示其爆炸般的味道。烹饪时间少于5分钟；长时间烹饪会使肉变得坚韧。这是一道在意大利面后作为主菜（secondo）供应的菜肴。",
+        "vibe": "极佳，细腻",
+        "history": "盐焗小牛肉片的起源可能在布雷西亚，但19世纪时被融入了罗马厨房。传统上，它配有简单的配菜，如菠菜或烤土豆。",
+        "insider_tip": "建议您在午餐时点这道菜，肉最为新鲜。如果菜单上有鸡肉盐焗小牛肉片，这是一个经济实惠的替代品：传统版本仅使用牛肉。请立即食用；这道菜不容易重新加热。",
+        "price_level": "昂贵",
+        "good_for": [
+          "高级餐饮",
+          "肉类爱好者"
+        ],
+        "duration": "1-2 小时",
+        "best_time": "午餐"
+      },
+      "image": "/images/rome/saltimbocca.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "jewish-ghetto-food",
+      "name_en": "犹太区美食",
+      "name_local": "犹太区美食",
+      "category": "饮食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "犹太区美食是500年的融合，包含犹太饮食法和罗马食材，其中包括Carciofi alla Giudia（炸朝鲜蓟）、Concia（醋和薄荷炸西葫芦）和Baccalà（咸鳕鱼）。在橄榄油中炸制的食物是中心，因为黄油（乳制品）不得与肉类混合。这些菜肴在犹太区和许多传统的罗马餐厅中都能找到。",
+        "vibe": "历史悠久，油炸",
+        "history": "罗马犹太区于1555年成立。尽管遭受迫害，却形成了独特的烹饪风格。1888年犹太区被解散后，这些菜肴被融入了传统罗马料理中。许多食谱在400年后仍由犹太家庭制作。",
+        "insider_tip": "最好在犹太区直接用餐以获得真实的体验。一定要尝试Concia di Zucchini——在罗马以外地区并不常见。避免在星期天去，因为因逾安息日而关闭的犹太饮食场所。"
+      },
+      "price_level": "中等",
+      "good_for": [
+        "历史爱好者",
+        "美食家"
+      ],
+      "duration": "1-2小时",
+      "best_time": "午餐或晚餐",
+      "image": "/images/rome/jewish-food.jpg"
+    },
+    {
+      "id": "food-013",
+      "slug": "espresso-culture",
+      "name_en": "浓缩咖啡",
+      "name_local": "Caffè",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "浓缩咖啡（在意大利称为'Caffè'）是一种浓缩的咖啡，通常在60秒内站着饮用。若在座位上饮用，将收取2至4欧元的额外费用。拿铁仅在上午11点之前饮用；如果您在午餐后点它，您会被视为游客。罗马人通常在餐后饮用Caffè（浓缩咖啡），并配上一小杯水。",
+        "vibe": "热闹，仪式感",
+        "history": "浓缩咖啡文化在20世纪随着现代咖啡机传入罗马。这是一种社交仪式：您在当地酒吧停驻两次，称呼咖啡师的名字并聊天，同时享用咖啡。",
+        "insider_tip": "请先在收银员处付款，然后在酒吧领取收据并下单。绝不要说'Espresso'——请说'一杯Caffè'。如果您想要浓咖啡，可以询问'咖啡浓缩'。",
+        "price_level": "实惠",
+        "good_for": [
+          "所有人",
+          "咖啡爱好者"
+        ],
+        "duration": "2分钟",
+        "best_time": "早晨或餐后"
+      },
+      "image": "/images/rome/espresso.jpg"
+    },
+    {
+      "id": "food-014",
+      "slug": "wine-strategy",
+      "name_en": "罗马葡萄酒文化",
+      "name_local": "Vino Laziale",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "罗马葡萄酒文化主要集中在弗拉斯卡蒂和卡斯特利罗马尼的白葡萄酒，这些酒是由马尔瓦西亚和特雷比亚诺葡萄酿制而成。点一壶《Vino della casa》（家酒）的传统依然强烈：家酒通常是当地的，价格实惠（€8-12每升），非常适合日常享用。罗马人将酒视作菜肴的伴侣，而不是一种事件。",
+        "vibe": "朴实无华，当地特色",
+        "history": "卡斯特利罗马尼的山丘自古以来便酿造白葡萄酒。从历史上看，罗马人在每一餐中都饮用用水稀释的葡萄酒。与托斯卡纳相比，葡萄酒的势利观念并不那么普遍。",
+        "insider_tip": "您总是可以点一半升的家白葡萄酒，价格在€4-6，非常适合搭配罗马美食。尽量避免在餐馆点昂贵的瓶装酒，这并不必要。",
+        "price_level": "价格合理",
+        "good_for": [
+          "美食",
+          "葡萄酒爱好者"
+        ],
+        "duration": "用餐时",
+        "best_time": "午餐或晚餐时"
+      },
+      "image": "/images/rome/wine.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "日常生活",
+      "id": "daily-life",
+      "items": [
+        {
+          "id": "lif-001",
+          "slug": "market-culture",
+          "name_en": "早晨市场",
+          "name_local": "Mercato Rionale",
+          "category": "地点",
+          "is_generic_staple": true,
+          "description": {
+            "short": "这里是罗马人每天购买新鲜产品的市场，氛围热闹而实用，下午2点关门。商贩们叫卖价格，与常客交谈，并出售当季商品。由于冰箱较小，罗马人每天都来采购，购买应季食材并在同一天食用，这是种传统。",
+            "vibe": "混乱，真实",
+            "history": "罗马的市场自古罗马时期就存在。Campo de' Fiori自1869年以来一直运营，尽管现在主要是游客聚集地。于2012年翻新的Testaccio市场主要是当地人使用。这里有一种功能性混乱的氛围，不太适合在社交媒体上分享。",
+            "insider_tip": "建议您在早上9点到11点之间去Testaccio市场，体验真实的氛围。购买应季水果作为小吃，商贩会为您切好。拍摄当地人时，请务必事先征得他们的同意。",
+            "price_level": "简单的价格区间",
+            "good_for": [
+              "早起者",
+              "美食家"
+            ],
+            "duration": "1小时",
+            "best_time": "早晨（9点-11点）"
+          },
+          "image": "/images/rome/market.jpg"
+        },
+        {
+          "id": "lif-002",
+          "slug": "night-rome",
+          "name_en": "夜晚的罗马",
+          "name_local": "Roma di Notte",
+          "category": "地点",
+          "is_generic_staple": true,
+          "description": {
+            "short": "夜晚的罗马展现出独特的光辉，古老的遗迹被美丽地照亮，空气清新，广场上有当地居民。夜间散步是一项传统，追溯到大旅行（1600-1800年）。白天的游客消失，城市重新属于居民。",
+            "vibe": "神奇，宁静",
+            "history": "城市的纪念碑在1930年代首次被系统性照明。2000年代安装的现代LED灯使斗兽场、特雷维喷泉和罗马论坛焕发出惊人的光彩。罗马人保持着晚餐后散步的传统，称为'passeggiata'。",
+            "insider_tip": "在晚上10点到12点之间，从威尼斯广场步行到斗兽场，能够体验到最佳的灯光效果和没有人群的宁静。在夏天，您可以看到Lungo il Tevere节日，那里有水边的酒吧。",
+            "price_level": "简单的价格区间",
+            "good_for": [
+              "摄影师",
+              "情侣"
+            ],
+            "duration": "2-3小时",
+            "best_time": "夜晚（10点-12点）"
+          },
+          "image": "/images/rome/night-rome.jpg"
+        }
+      ]
+    },
+    {
+      "title": "古代符号",
+      "id": "ancient",
+      "items": [
+        {
+          "id": "anc-001",
+          "slug": "colosseum",
+          "name_en": "罗马斗兽场",
+          "name_local": "Colosseo",
+          "category": "纪念碑",
+          "is_generic_staple": false,
+          "description": {
+            "short": "斗兽场是世界上最大的圆形剧场，建于公元70年至80年间，能容纳50,000到80,000观众观看角斗士比赛、动物屠杀和处决。场地可以注满水进行海战表演。它是意大利最受欢迎的纪念碑，是古罗马权力的象征。",
+            "vibe": "宏伟，古老",
+            "history": "罗马灭亡后，因建筑材料被拆除：大理石被取走用于圣彼得大教堂。地下通道（角斗士和动物等待的隧道）直到2010年才向游客开放。",
+            "insider_tip": "请提前2至4周在线预订“完整体验”门票：这包括进入隧道和舞台底部，这比普通旅游更有趣。建议在早上8点或晚上访问。"
+          },
+          "price_level": "昂贵",
+          "good_for": [
+            "历史爱好者",
+            "首次访问者"
+          ],
+          "duration": "2-3小时",
+          "best_time": "早晨或晚上"
+        },
+        {
+          "id": "anc-002",
+          "slug": "pantheon",
+          "name_en": "万神庙",
+          "name_local": "Pantheon",
+          "category": "纪念碑",
+          "is_generic_staple": false,
+          "description": {
+            "short": "万神庙是古罗马保存最完好的建筑，建于公元126年，由哈德良皇帝建造。它的混凝土屋顶在1300年内保持世界上最大的自由拱顶。天窗（拱顶顶部的9米洞）是唯一的光源，让雨水直接落在设有排水孔的大理石地板上。",
+            "vibe": "令人印象深刻，建筑性",
+            "history": "由于在公元609年被改建为教堂，因此保持完好。建筑的比例在数学上是完美的：拱顶的直径等于其高度。2023年首次收取入场费。",
+            "insider_tip": "请在早上9点之前尽早到达，以避免旅游团。建议在下雨天前往，观看水如何通过天窗流下：非常壮观。在线购票以避免排队。"
+          },
+          "price_level": "便宜",
+          "good_for": [
+            "建筑爱好者",
+            "历史爱好者"
+          ],
+          "duration": "30-45分钟",
+          "best_time": "早晨"
+        }
+      ]
+    },
+    {
+      "title": "隐藏的宝藏与景观",
+      "id": "hidden",
+      "items": [
+        {
+          "id": "gem-001",
+          "slug": "san-luigi",
+          "name_en": "圣路易教堂",
+          "name_local": "San Luigi",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "圣路易教堂是一座教堂，里面有卡拉瓦乔的三幅大型画作，位于基基礼拜堂：圣马太的召唤、灵感及圣马太的殉道（1599-1602）。这些画作通过戏剧性的光与影的运用，彻底改变了艺术。入场免费，使其成为罗马最具艺术价值的去处之一。",
+            "vibe": "亲密，戏剧性",
+            "history": "这座教堂建于1589年，是罗马的法国国家教堂。基基礼拜堂小而阴暗；画作的灯光以1€照亮3分钟。许多游客路过，却不知道里面有三件大师作品。",
+            "insider_tip": "请带上1€硬币来照亮画作：效果十分戏剧。建议在下午参观，当教堂比较安静。请靠近观看，以欣赏面孔和手中的惊人细节。",
+            "price_level": "便宜",
+            "good_for": [
+              "艺术爱好者",
+              "预算有限的旅行者"
+            ],
+            "duration": "20-30分钟",
+            "best_time": "下午"
+          },
+          "image": "/images/rome/san-luigi.jpg",
+          "geo": {
+            "lat": 41.8996,
+            "lng": 12.4731
+          }
+        },
+        {
+          "id": "gem-002",
+          "slug": "orange-garden",
+          "name_en": "橙园",
+          "name_local": "Giardino degli Aranci",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "橙园是一个小公园，位于亚文提诺山顶，可以欣赏到罗马日落的最佳景观：圣彼得大教堂的圆顶，完美地被河边的松树环绕。这个花园建于1932年，当时城市种植了苦橙（不可食用）。这是一个当地的日落秘密，尽管逐渐变得更加知名和受欢迎。",
+            "vibe": "浪漫，宁静",
+            "history": "该公园位于罗马七个山丘之一。13世纪时，它作为圣殿骑士的堡垒。紧挨着的就是圣萨宾娜大殿，这是罗马最古老的教堂之一（5世纪）。",
+            "insider_tip": "在日落前45分钟到达，以便抢到一张长椅。冬春季节的视野更好，空气更清晰。花园包围着地平线。",
+            "price_level": "便宜",
+            "good_for": [
+              "情侣",
+              "摄影爱好者"
+            ],
+            "duration": "1小时",
+            "best_time": "日落时"
+          },
+          "image": "/images/rome/orange-garden.jpg",
+          "geo": {
+            "lat": 41.8845,
+            "lng": 12.4797
+          }
+        },
+        {
+          "id": "gem-003",
+          "slug": "gianicolo",
+          "name_en": "贾尼科洛山",
+          "name_local": "Gianicolo",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "贾尼科洛是罗马最高的观景点，从这里可以360°俯瞰整个城市。自1847年以来，每天下午这里会鸣炮，以此调整城市的时间。露台是欣赏全景的最佳地方：所有七个山丘、梵蒂冈和亚平宁山脉尽收眼底。",
+            "vibe": "全景，通透",
+            "history": "贾尼科洛并不是罗马七个原始山丘之一，但它是最高的。1849年，在罗马被围时，加里波第的部队在这里捍卫城市。加里波第骑马的雕像于1895年竖立。",
+            "insider_tip": "请在11:55到达，见证下午炮声的轰鸣：声音响亮而富有戏剧性。前往的道路陡峭；请乘坐115号公交车从特拉斯提弗列出发。夏天的中午请避免来访；那时没有阴凉。 ",
+            "price_level": "便宜",
+            "good_for": [
+              "全景观赏",
+              "家庭"
+            ],
+            "duration": "1小时",
+            "best_time": "下午前"
+          },
+          "image": "/images/rome/gianicolo.jpg",
+          "geo": {
+            "lat": 41.8914,
+            "lng": 12.4616
+          }
+        }
+      ]
+    },
+    {
+      "title": "梵蒂冈",
+      "id": "vatican",
+      "items": [
+        {
+          "id": "vat-001",
+          "slug": "st-peters",
+          "name_en": "圣彼得大教堂",
+          "name_local": "Basilica di San Pietro",
+          "category": "地点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "圣彼得大教堂是世界上最大的教堂之一，也是天主教的中心，建在圣彼得的墓上。现存的建筑是文艺复兴风格的，从1506年到1626年在多个教皇的监督下建造。米开朗基罗在71岁时设计了标志性的穹顶。这里有米开朗基罗、贝尔尼尼和拉斐尔的杰作。入场免费，但排队时间可能超过2小时。",
+            "vibe": "壮丽，宏伟",
+            "history": "最初的教堂是公元326年由君士坦丁建造的。建造总共花费了120年，导致教皇面临财政困境，部分助长了新教改革的融资。贝尔尼尼在1660年代设计了圭道。",
+            "insider_tip": "建议您在早上7点访问教堂，以避免排队。入场免费，但登顶穹顶费用为10欧元（电梯+楼梯）——景色值得。着装要求：肩膀和膝盖需遮盖。",
+            "price_level": "实惠",
+            "good_for": [
+              "天主教徒",
+              "建筑爱好者"
+            ],
+            "duration": "2-3小时",
+            "best_time": "早上（7点）"
+          },
+          "image": "/images/rome/st-peters.jpg",
+          "geo": {
+            "lat": 41.9029,
+            "lng": 12.4534
+          }
+        },
+        {
+          "id": "vat-002",
+          "slug": "vatican-museums",
+          "name_en": "梵蒂冈博物馆",
+          "name_local": "Musei Vaticani",
+          "category": "地点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "梵蒂冈博物馆拥有7公里长的走廊，收藏着世界上最大的一些艺术品，最终在米开朗基罗于1508年至1512年间创作的西斯廷礼拜堂的天花板画作中达到了艺术高潮。博物馆内包含古埃及文物、希腊雕像、文艺复兴时期的绘画和超过500年收集的挂毯。每年有超过600万人造访这里，这使得这里非常拥挤。",
+            "vibe": "拥挤，世界级",
+            "history": "博物馆于1506年开始建造，当时教皇朱利叶斯二世在奥塔戈廊（Cortile Ottagono）放置了古代雕像。西斯廷礼拜堂是最后一个房间；禁止摄影和交谈。",
+            "insider_tip": "预约一个早上7:30的游览——您将几乎独自看西斯廷礼拜堂。普通入场时间为9点，并且会很快导致拥挤。请至少预留3-4个小时。请穿上舒适的鞋子。",
+            "price_level": "昂贵",
+            "good_for": [
+              "艺术爱好者",
+              "天主教徒"
+            ],
+            "duration": "3-4小时",
+            "best_time": "早上（7:30）"
+          },
+          "image": "/images/rome/vatican-museums.jpg",
+          "geo": {
+            "lat": 41.9067,
+            "lng": 12.4525
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "上午8:00",
+      "title": "特拉斯提弗列的卡布奇诺和角面包",
+      "description": "在特拉斯提弗列开始您的一天，这里是罗马最迷人的区域。寻找一家当地的酒吧（咖啡馆），在吧台点一杯卡布奇诺和一个角面包——坐下消费要双倍价格。当地人通常在上午11点之前喝卡布奇诺；之后则是意式浓缩咖啡。在这个时间，石板街道空无一人，阳光透过覆盖着藤蔓的建筑洒下温暖的金色光芒。这就是罗马的甜蜜生活。",
+      "image": "/images/rome/trastevere-morning.jpg"
+    },
+    {
+      "time": "9h30",
+      "title": "梵蒂冈博物馆和西斯廷礼拜堂",
+      "description": "请提前预约您的门票（8h30），以便参观，这是体验西斯廷礼拜堂而不被人群打扰的唯一方法。米开朗基罗的天花板非常值得一看，但安保人员会请您加快速度。卡片画廊和拉斐尔的房间同样令人印象深刻且人较少。您可以免费参观圣彼得大教堂，欣赏米开朗基罗的《哀悼基督》。整个梵蒂冈城为您提供大约0.44平方公里的艺术作品。",
+      "image": "/images/rome/vatican-morning.jpg",
+      "ticket_link": "https://www.getyourguide.com/vatican-city-l136/vatican-museums-sistine-chapel-skip-the-line-ticket-t52643/"
+    },
+    {
+      "time": "13:00",
+      "title": "午餐：Centro Storico的Cacio e Pepe",
+      "description": "漫步前往历史中心，在一家传统的Trattoria享用午餐。点一份Cacio e Pepe（配有佩科里诺奶酪和黑胡椒的意面）——这道罗马的招牌菜看似简单，但很少有人能做到完美。将Flavio al Velavevodetto或Felice a Testaccio加入您的名单。可以搭配一壶自家酿制的白葡萄酒。罗马人在午餐时通常会花超过2个小时的时间——请跟随这个节奏。避免在用餐后点卡布奇诺；这被视为游客的标志。",
+      "image": "/images/rome/cacio-e-pepe2.jpg"
+    },
+    {
+      "time": "15时30分",
+      "title": "罗马斗兽场和罗马广场",
+      "description": "预订包含特定入场时间的联票（罗马斗兽场 + 罗马广场 + 帕拉蒂尼山）。进入可以容纳50,000名罗马人同时观看角斗士比赛的罗马斗兽场。之后探索罗马广场，这是古代罗马的心脏，曾是皇帝们散步的地方。从帕拉蒂尼山可以俯瞰到废墟的最佳景色。别忘了带水；罗马的炎热非常强烈。踏上这块已有2,000年历史、依然屹立的石头。",
+      "image": "/images/rome/colosseum-afternoon.jpg",
+      "ticket_link": "https://www.getyourguide.com/rome-l33/colosseum-roman-forum-palatine-hill-priority-access-t189736/"
+    },
+    {
+      "time": "18h00",
+      "title": "特雷维喷泉和西班牙阶梯的黄金时刻",
+      "description": "沿着狭窄的小巷前往特雷维喷泉。用右手将一枚硬币抛过左肩：传说您将会重返罗马。喷泉十分美丽，但人很拥挤；享受它后继续前行。步行前往西班牙阶梯（约15分钟），在日落时欣赏人们的聚会。这座阶梯就像一个社交的露天剧场，罗马人在这里相聚。您一定要在附近的Giolitti或Fassi品尝一杯意大利冰淇淋。",
+      "image": "/images/rome/trevi-golden-hour.jpg"
+    },
+    {
+      "time": "20h30",
+      "title": "在蒙蒂享受开胃酒和晚餐",
+      "description": "在罗马的时尚波希米亚区蒙蒂相聚。首先享用开胃酒（18h-21h）：购买一杯鸡尾酒并享用免费的小吃、自助餐，包括比萨、意大利面和沙拉。罗马人称之为“开胃酒”，而不是“快乐时光”。接下来是晚餐：意大利面碳ara、阿马特里奇安或罗马盐焗小牛肉。最后，您可以在古老的小巷中散步，或许能找到一个隐藏的广场。罗马无需夜总会，这座城市本身就是一种娱乐。",
+      "image": "/images/rome/monti-night.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "意大利旅行适配器（类型 L）",
+      "image": "/images/rome/adapter.jpg",
+      "reason": "意大利有一种独特的三孔插座（类型 L），除了标准的欧盟插座之外。这对您给设备充电是必不可少的。",
+      "amazon_url": "https://www.amazon.com/s?k=italy+travel+adapter+type+l",
+      "category": "电子产品"
+    },
+    {
+      "id": "aff-002",
+      "title": "防盗斜挎包",
+      "image": "/images/rome/bag.jpg",
+      "reason": "在公交车和地铁上，扒手非常狡猾。一个可以锁的包让您安心和安全。",
+      "amazon_url": "https://www.amazon.com/s?k=anti+theft+crossbody+bag",
+      "category": "安全"
+    },
+    {
+      "id": "aff-003",
+      "title": "可重复使用的水瓶",
+      "image": "/images/rome/bottle.jpg",
+      "reason": "在罗马，有成千上万的免费饮用水喷泉（Nasoni）。您可以全天候免费给您的水瓶加水。",
+      "amazon_url": "https://www.amazon.com/s?k=reusable+water+bottle",
+      "category": "户外活动"
+    }
+  ],
+  "lat": 41.9028,
+  "lng": 12.4964,
+  "region": "Europe"
+}

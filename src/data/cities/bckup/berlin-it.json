@@ -1,0 +1,1001 @@
+{
+  "id": "city-002",
+  "name": "Berlino",
+  "slug": "berlin",
+  "country": "Germania",
+  "country_code": "de",
+  "hero_image": "/images/berlin/hero.jpg",
+  "intro_vibe": "La Capitale del Cool: Dove la storia incontra la controcultura e la notte non finisce mai.",
+  "general_info": {
+    "population": "~3,7 milioni (città) / ~6 milioni (area metropolitana)",
+    "is_capital": true,
+    "description": "Berlino non è la Germania—è un universo a sé. Una città di contrasti dove la storia segnata dai proiettili incontra la vita notturna edonistica. Dalla libertà di Tempelhofer Feld alla grinta di Neukölln, Berlino è cruda, autentica e in modo incondizionato alternativa. Il tempo scorre diversamente qui; un 'fine settimana' può durare 72 ore."
+  },
+  "stats": {
+    "currency": "EUR",
+    "plug_type": "Type F"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "Gennaio",
+      "temp": "-2°C - 3°C",
+      "vibe": "Freddo e Grigio",
+      "pros": [
+        "Meno turisti",
+        "Birrerie accoglienti",
+        "Saldi invernali"
+      ],
+      "cons": [
+        "Giorni brevi",
+        "Venti gelidi",
+        "Granita"
+      ],
+      "clothing": "Cappotto pesante, stivali, sciarpa"
+    },
+    {
+      "id": 2,
+      "name": "Febbraio",
+      "temp": "-1°C - 4°C",
+      "vibe": "Ancora freddo",
+      "pros": [
+        "Festival del Cinema di Berlino",
+        "Energia pre-primaverile",
+        "Prezzi più bassi"
+      ],
+      "cons": [
+        "Freddo intenso",
+        "Cieli grigi"
+      ],
+      "clothing": "Strati caldi, giacca impermeabile"
+    },
+    {
+      "id": 3,
+      "name": "Marzo",
+      "temp": "2°C - 9°C",
+      "vibe": "Risveglio",
+      "pros": [
+        "I giorni si allungano",
+        "Inizio della primavera",
+        "I parchi riaprono"
+      ],
+      "cons": [
+        "Meteo imprevedibile",
+        "Pioggia"
+      ],
+      "clothing": "Giacca leggera, ombrello"
+    },
+    {
+      "id": 4,
+      "name": "Aprile",
+      "temp": "4°C - 14°C",
+      "vibe": "Fresco",
+      "pros": [
+        "Fiori di ciliegio",
+        "Birrerie all'aperto aperte",
+        "Eventi all'aperto"
+      ],
+      "cons": [
+        "Piogge di aprile",
+        "Serate ancora fresche"
+      ],
+      "clothing": "Strati, giacca impermeabile"
+    },
+    {
+      "id": 5,
+      "name": "Maggio",
+      "temp": "9°C - 19°C",
+      "vibe": "Vivace",
+      "pros": [
+        "Tempo perfetto",
+        "Mercato delle pulci di Mauerpark",
+        "Giornate lunghe"
+      ],
+      "cons": [
+        "Affollamento crescente",
+        "Prezzi più alti"
+      ],
+      "clothing": "Strati leggeri, occhiali da sole"
+    },
+    {
+      "id": 6,
+      "name": "Giugno",
+      "temp": "12°C - 22°C",
+      "vibe": "Stagione dei Festival",
+      "pros": [
+        "Festa della Musica",
+        "Tramonti tardivi (22:00)",
+        "Atmosfera del fiume Spree"
+      ],
+      "cons": [
+        "Stagione turistica",
+        "Pioggia occasionale"
+      ],
+      "clothing": "Abbigliamento estivo, giacca leggera"
+    },
+    {
+      "id": 7,
+      "name": "Luglio",
+      "temp": "14°C - 25°C",
+      "vibe": "Estate alta",
+      "pros": [
+        "Club all'aperto",
+        "Nuoto nel lago (Wannsee)",
+        "Giorni senza fine"
+      ],
+      "cons": [
+        "Caldo e affollato",
+        "Mancanza di aria condizionata"
+      ],
+      "clothing": "Pantaloni corti, t-shirt, cappello da sole"
+    },
+    {
+      "id": 8,
+      "name": "Agosto",
+      "temp": "14°C - 24°C",
+      "vibe": "Caldo e Vivace",
+      "pros": [
+        "Stabilimenti balneari (Badeschiff)",
+        "Festival di strada",
+        "Notti calde"
+      ],
+      "cons": [
+        "Molto turistico",
+        "Ondate di calore"
+      ],
+      "clothing": "Abbigliamento estivo leggero"
+    },
+    {
+      "id": 9,
+      "name": "Settembre",
+      "temp": "10°C - 19°C",
+      "vibe": "Autunno Dorato",
+      "pros": [
+        "Tempo perfetto",
+        "Meno affollamento",
+        "Fiera d'Arte di Berlino"
+      ],
+      "cons": [
+        "Giorni più corti",
+        "Pioggia occasionale"
+      ],
+      "clothing": "Strati smart casual"
+    },
+    {
+      "id": 10,
+      "name": "Ottobre",
+      "temp": "6°C - 13°C",
+      "vibe": "Accogliente",
+      "pros": [
+        "Fogliame autunnale",
+        "Stagione dei musei",
+        "Oktoberfest (vicino a Monaco)"
+      ],
+      "cons": [
+        "Giorni più corti",
+        "Serate fresche"
+      ],
+      "clothing": "Giacca calda, stivali"
+    },
+    {
+      "id": 11,
+      "name": "Novembre",
+      "temp": "3°C - 7°C",
+      "vibe": "Grigio e Melanconico",
+      "pros": [
+        "Inizio dei mercatini di Natale",
+        "Caffè accoglienti",
+        "Tariffe basse"
+      ],
+      "cons": [
+        "Grigio e umido",
+        "Giorni molto brevi"
+      ],
+      "clothing": "Cappotto caldo, ombrello, termici"
+    },
+    {
+      "id": 12,
+      "name": "Dicembre",
+      "temp": "0°C - 4°C",
+      "vibe": "Festivo",
+      "pros": [
+        "Mercatini di Natale",
+        "Luci del Gendarmenmarkt",
+        "Capodanno alla Porta di Brandeburgo"
+      ],
+      "cons": [
+        "Freddo e buio",
+        "Mercati affollati"
+      ],
+      "clothing": "Cappotto invernale pesante, guanti, cappello"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "L'ansia da contante è reale: 'Nur Bar' (solo contante) è comune anche nei ristoranti alla moda. Le carte vengono rifiutate a caso. Gli sportelli automatici rimangono senza soldi il sabato sera. Porti sempre con sé €50 in contante.",
+      "Il silenzio è rispetto: i berlinesi apprezzano la privacy. Niente chiacchiere negli ascensori, silenzio sui treni e niente sorrisi falsi. Un volto neutro non è ostilità, è rispetto per il proprio spazio.",
+      "Le regole sono sacre: aspetti il semaforo verde (Ampelmann), anche alle 3 del mattino su una strada deserta. Attraversare fuori dalle strisce è socialmente giudicato. Le regole sono il contratto sociale che tiene insieme il caos.",
+      "Realtà della Domenica: La domenica è per 'Ruhe' (riposo). Negozi, supermercati e farmacie sono chiusi. Niente trapani, niente musica ad alto volume, niente riciclaggio di vetro. La città si ferma.",
+      "La cultura del Späti: Lo 'Späti' (negozio angolare aperto fino a tardi) è il centro della vita sociale. Prenda una birra (€1.50) e si sieda sulla panchina fuori. È il modo di Berlino.",
+      "Protocollo del Club: Niente foto. Mai. Copra la sua macchina fotografica. Vestiti in modo informale (il nero aiuta), conosca il DJ e non sia ubriaco in fila. La coda è una questione seria; saltare la fila comporterà un divieto.",
+      "Validazione del biglietto: Non ci sono tornelli, ma gli ispettori in borghese sono spietati. È OBBLIGATORIO convalidare il biglietto nella macchinetta prima di salire a bordo. La multa è di €60.",
+      "Sistema di deposito: Non schiacci i contenitori. Valgono €0,25. Lasci li accanto ai bidoni per i raccoglitori se non li restituisce personalmente."
+    ],
+    "essential_phrases": [
+      {
+        "src": "Salve",
+        "local": "Ciao",
+        "phonetic": "Ciao / salve"
+      },
+      {
+        "src": "Grazie",
+        "local": "Grazie",
+        "phonetic": "Grazie"
+      },
+      {
+        "src": "Il conto per favore.",
+        "local": "Il conto, per favore.",
+        "phonetic": "di REKH-nung BIT-ta"
+      },
+      {
+        "src": "Mi scusi",
+        "local": "Scusi",
+        "phonetic": "scuola"
+      },
+      {
+        "src": "Una birra per favore.",
+        "local": "Una birra, per favore.",
+        "phonetic": "birra chiara"
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Kreuzberg",
+      "vibe": "Alternativo & Audace",
+      "description": "Il cuore storico della controcultura di Berlino Ovest. Mercati turchi, bar punk, street art e il canale. Grezzo, autentico e sempre sveglio.",
+      "highlights": [
+        "Canale di Landwehr",
+        "Markthalle Neun",
+        "SO36"
+      ],
+      "image": "/images/berlin/kreuzberg.jpg"
+    },
+    {
+      "name": "Neukölln",
+      "vibe": "Hipster e Grezzo",
+      "description": "Il quartiere attuale alla moda. Grezzo ma ricco di caffè vegani trendy, bar alternativi e cucina mediorientale. Giovane, disordinato e divertente.",
+      "highlights": [
+        "Tempelhofer Feld",
+        "Bar di Weserstraße",
+        "Sonnenallee"
+      ],
+      "image": "/images/berlin/neukolln.jpg"
+    },
+    {
+      "name": "Friedrichshain",
+      "vibe": "Quartiere della vita notturna",
+      "description": "Casa del leggendario Berghain e del RAW-Gelände. Industriale, coperto di graffiti e edonistico. Dove il weekend non finisce mai.",
+      "highlights": [
+        "East Side Gallery",
+        "Berghain",
+        "Boxhagener Platz"
+      ],
+      "image": "/images/berlin/friedrichshain.jpg"
+    },
+    {
+      "name": "Prenzlauer Berg",
+      "vibe": "Gentrificato e Calmo",
+      "description": "Un forte contrasto con la grinta. Edifici prebellici splendidamente restaurati, gelato biologico e passeggini. È tranquillo, benestante e orientato alle famiglie.",
+      "highlights": [
+        "Kollwitzplatz",
+        "Mauerpark",
+        "Birrificio culturale"
+      ],
+      "image": "/images/berlin/prenzlauer-berg.jpg"
+    },
+    {
+      "name": "Mitte",
+      "vibe": "Centro Storico",
+      "description": "Il centro raffinato di Berlino. Musei, monumenti e shopping di lusso. Turistico, ma essenziale per i luoghi da 'Checklist'.",
+      "highlights": [
+        "Porta di Brandeburgo",
+        "Isola dei Musei",
+        "Hackescher Markt"
+      ],
+      "image": "/images/berlin/mitte.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-survival",
+      "slug": "local-survival",
+      "title": "Consigli per la sopravvivenza locale",
+      "icon": "Informazioni",
+      "summary": "Rimedi essenziali per eliminare l'attrito per un viaggio senza intoppi.",
+      "details": [
+        "Chiusura domenicale: Quasi TUTTO è chiuso (negozi, supermercati). Solo ristoranti e musei sono aperti. Se ha bisogno di cibo per lunedì mattina, lo compri sabato.",
+        "Il contante è re: Non assuma di poter pagare con la carta. Chieda 'Kartenzahlung?' prima di ordinare. Porti monete per i bagni.",
+        "Acqua: L'acqua del rubinetto è sicura. I ristoranti si opporranno a servirla gratuitamente. Chieda 'acqua del rubinetto' ma sia pronto a pagare per quella in bottiglia.",
+        "Mance: Arrotondi. Se il conto è di €9,20, dica 'Dieci' (€10) mentre consegna il denaro. Non lasci soldi sul tavolo; comunichi al cameriere il totale *prima* che le addebiti."
+      ]
+    },
+    {
+      "id": "logistics-nightlife",
+      "slug": "club-strategy",
+      "title": "Club Reality",
+      "icon": "Luna",
+      "summary": "La vita notturna qui è una maratona, non uno sprint.",
+      "details": [
+        "Il Time Warp: I club spesso aprono il venerdì e non chiudono fino a lunedì mattina. Un 'fine settimana' è un blocco unico di 48-72 ore. 'Dopo l'orario' è semplicemente il pomeriggio di domenica.",
+        "La Porta: I rifiuti sono normali e non personali. Non discuta. Indossi scarpe comode (dancerà per 8 ore).",
+        "Sicurezza: La maggior parte dei club ha team di sensibilizzazione ('Awareness Team') se si sente insicuro o molestato."
+      ]
+    },
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Muoversi",
+      "icon": "Treno",
+      "summary": "La U-Bahn (Metro) e la S-Bahn (Treno) sono le sue linee di vita.",
+      "details": [
+        "U-Bahn: Treni gialli, per lo più sotterranei. Veloci e frequenti.",
+        "S-Bahn: Treni rossi/gialli, per lo più sopraelevati. Ottimi per distanze più lunghe.",
+        "Biglietti: Acquisti un biglietto 'Zona AB'. VALIDALO timbrandolo nella cassa sulla piattaforma. Gli ispettori in borghese non mostrano pietà.",
+        "App: Utilizzi 'BVG Fahrinfo' o Google Maps. Sono precisi."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "Nozioni di sicurezza",
+      "icon": "Scudo",
+      "summary": "Berlino è sicura, ma ha i suoi lati ruvidi.",
+      "details": [
+        "Görlitzer Park: Conosciuto per i spacciatori. Generalmente sicuro da attraversare durante il giorno, ma da evitare di notte.",
+        "Borseggiatori: Attivi nelle code turistiche affollate (U2, U8) e ad Alexanderplatz.",
+        "Furto di biciclette: Estremamente comune. Non lasci mai una bicicletta incustodita, nemmeno per un minuto."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "doner-kebap",
+      "name_en": "Döner Kebap",
+      "name_local": "Döner",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Il Döner Kebap è il cibo di strada numero 1 di Berlino, inventato qui negli anni '70 da immigrati turchi. Si tratta di carne di rotisserie affettata (agnello, pollo o vitello) farcita in pane piatto tostato con insalata fresca, pomodori, cipolle, cavolo e salsa di yogurt all'aglio. Un 'Gemüse Kebap' (döner vegetale) aggiunge verdure grigliate e formaggio feta. È veloce, economico (€4-6) e consumato a tutte le ore, specialmente dopo il club alle 4 del mattino.",
+        "vibe": "Soddisfacente, onnipresente",
+        "history": "Creato a Berlino nel 1972 dall'immigrato turco Kadir Nurman, che ha adattato il dürüm turco alla cultura del fast food tedesco. Si è diffuso in tutta la Germania e in Europa. Berlino ha ora oltre 1.600 negozi di döner. Il piatto è così iconico che i berlinesi discutono con fervore religioso su quale negozio sia il 'migliore'.",
+        "insider_tip": "Non faccia la fila per ore nei famosi luoghi turistici come il kebab di Mustafa—il döner del suo quartiere è probabilmente altrettanto buono e senza attesa. Ordini 'mit alles' (con tutto) o 'mit scharf' (con salsa piccante). Lo mangi immediatamente mentre il pane è ancora croccante. Il döner dopo il club alle 4 del mattino è un rito di passaggio a Berlino.",
+        "price_level": "Conveniente",
+        "good_for": [
+          "Pasti veloci",
+          "Notte fonda"
+        ],
+        "duration": "Spuntino veloce",
+        "best_time": "In qualsiasi momento (soprattutto di notte)"
+      },
+      "image": "/images/berlin/doner.jpg"
+    },
+    {
+      "id": "food-018",
+      "slug": "beer-culture",
+      "name_en": "Berlin Beer Culture",
+      "name_local": "Wegbier",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "La birra a Berlino è come il caffè in Italia: economica (€1-2 dai Spätis), ovunque e consumata in modo informale a qualsiasi ora del giorno o della notte. Non è cerimoniale o speciale, ma utilitaria. Un 'Wegbier' (birra da passeggio) per il tragitto verso casa o verso il club è culturalmente normale e legale. Bere in pubblico è accettato e comune. Le birre locali più popolari sono Berliner Pilsner, Berliner Kindl e Schultheiss.",
+        "vibe": "Informale, sociale",
+        "history": "Berlino è stata una città di birra sin dal Medioevo. Il 'Reinheitsgebot' (legge sulla purezza della birra del 1516) regolava la qualità della birra tedesca. Dopo la guerra, Berlino Est e Ovest svilupparono culture birrarie separate. Dopo la riunificazione, la cultura del bere all'aperto e informale è fiorita. Lo Späti (negozio angolare aperto fino a tardi) è diventato il centro sociale per birra economica e socializzazione.",
+        "insider_tip": "Acquisti birra da un Späti (€1-2) piuttosto che dai bar (€4-5). Il sistema di deposito 'Pfand' significa che le bottiglie valgono €0.08-0.25: non buttarle via, restituiscile o lasciale accanto ai bidoni per i raccoglitori. Una bottiglia da mezzo litro (0.5L) è standard. Bere sui mezzi pubblici non è tecnicamente consentito, ma è ampiamente tollerato. La cultura dei giardini di birra all'aperto è al massimo in estate.",
+        "price_level": "Conveniente",
+        "good_for": [
+          "Socializzare",
+          "Bevande all'aperto"
+        ],
+        "duration": "In qualsiasi momento",
+        "best_time": "In qualsiasi momento"
+      },
+      "image": "/images/berlin/beer.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "currywurst",
+      "name_en": "Currywurst",
+      "name_local": "Currywurst",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "La Currywurst è un'icona di Berlino: salsiccia di maiale cotta al vapore e poi fritta, tagliata a fette, immersa nel ketchup al curry e cosparsa di polvere di curry. Servita con patatine o un panino. È un fast food, inventato nella Berlino del dopoguerra, ed è ancora un classico cult. La salsa è dolce, piccante e leggermente speziata. Si mangia presso gli Imbiss (chioschi) in piedi a tavoli alti.",
+        "vibe": "Iconico, nostalgico",
+        "history": "Inventata nel 1949 da Herta Heuwer a Berlino Ovest, che mescolò ketchup con polvere di curry dei soldati britannici. È diventato il cibo da fast food per eccellenza della classe operaia durante la ricostruzione. Oltre 800 milioni vengono consumati annualmente in Germania. C'è anche un Museo della Currywurst a Berlino (ora chiuso). È un cibo di conforto per la classe operaia con un seguito di culto.",
+        "insider_tip": "Ordini 'mit Darm' (con budello) per la versione tradizionale con una consistenza croccante, o 'ohne Darm' (senza budello) per la versione più liscia. La qualità della salsa varia notevolmente—i locali hanno una forte fedeltà al loro Imbiss preferito. Curry 36 a Kreuzberg è famoso ma turistico. Mangia in piedi al tavolo alto come un locale. Abbina con le patatine ('Pommes').",
+        "price_level": "Conveniente",
+        "good_for": [
+          "Pasti veloci",
+          "Cibo di strada"
+        ],
+        "duration": "Spuntino veloce",
+        "best_time": "Pranzo o tarda notte"
+      },
+      "image": "/images/berlin/currywurst.jpg"
+    },
+    {
+      "id": "food-015",
+      "slug": "imbiss-culture",
+      "name_en": "Imbiss Culture",
+      "name_local": "Der Imbiss",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "L'Imbiss è un chiosco di snack tedesco—non un ristorante—dove si mangia in piedi a tavoli alti. Serve cibo veloce utilitario, grasso e salato: patatine, salsicce (bratwurst, currywurst), polpette (Frikadellen) e panini con schnitzel. L'obiettivo è farti muovere, non sederti e indugiare. È veloce, economico (€3-6) e un'infrastruttura essenziale per la classe lavoratrice. Ordina alla finestra, mangia in fretta e vai via.",
+        "vibe": "Utilitario, essenziale",
+        "history": "La cultura dell'imbiss è emersa nella Germania del dopoguerra come una soluzione alimentare veloce e conveniente per i lavoratori che ricostruivano il paese. I tavoli in piedi e il modello senza posti a sedere mantenevano le cose efficienti ed economiche. Gli stand di imbiss sono ovunque: nelle stazioni ferroviarie, agli angoli delle strade e nei mercati. Sono uno spazio democratico dove uomini d'affari e operai edili mangiano lo stesso cibo.",
+        "insider_tip": "Ordini un 'Bratwurst im Brötchen' (salsiccia in un panino) con senape: il classico pasto da Imbiss. Non si aspetti un servizio cordiale; l'efficienza è la priorità. I tavoli alti sono intenzionali: servono a evitare di trattenersi. L'Imbiss è dove si mangia quando si ha fretta, si è a corto di soldi o entrambi. Si trova ad ogni angolo di strada e stazione ferroviaria.",
+        "price_level": "Conveniente",
+        "good_for": [
+          "Pasti veloci",
+          "Cibo economico"
+        ],
+        "duration": "5-10 minuti",
+        "best_time": "In qualsiasi momento"
+      },
+      "image": "/images/berlin/imbiss.jpg"
+    },
+    {
+      "id": "food-016",
+      "slug": "spati-survival",
+      "name_en": "Späti Survival Food",
+      "name_local": "Späti Essen",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Il Späti (Spätkauf) è un negozio di quartiere aperto fino alle 2 del mattino o oltre, che sostiene l'economia notturna di Berlino con cibo di sopravvivenza: pizze surgelate, noodles istantanei, patatine, barrette di cioccolato, bevande energetiche e birra fredda. È come si sopravvive alle 4 del mattino quando tutto il resto è chiuso e Lei è troppo a corto di soldi o pigro per un ristorante. I Späti sono il cuore sociale dei quartieri: compri una birra e si sieda sulla panchina fuori con i locali.",
+        "vibe": "Essenziale, notturno",
+        "history": "I Spätis sono emersi a Berlino Est (RDT) come negozi di 'Spätkauf' (acquisto tardivo) che rimanevano aperti oltre l'orario normale. Dopo la riunificazione, hanno guadagnato enorme popolarità con la crescita della cultura notturna di Berlino. Ora sono ovunque, spesso gestiti da famiglie turche, arabe o vietnamite. Sono aperti quando tutto il resto è chiuso, rendendoli un'infrastruttura essenziale.",
+        "insider_tip": "Fai scorta di snack da Späti prima di una serata—pizza surgelata, patatine, cioccolato. La birra costa €1-2, molto più economica rispetto ai bar. Molti Späti hanno panchine all'esterno dove si riuniscono i locali—questa è la scena sociale di Berlino. Alcuni vendono panini freschi e cibo caldo. Se visiti di domenica quando i supermercati sono chiusi, gli Späti ti salvano la vita (anche se i prezzi sono più alti).",
+        "price_level": "Conveniente",
+        "good_for": [
+          "Notte fonda",
+          "Cibo d'emergenza"
+        ],
+        "duration": "Fermata veloce",
+        "best_time": "Notte fonda o domenica"
+      },
+      "image": "/images/berlin/spati-food.jpg"
+    },
+    {
+      "id": "food-017",
+      "slug": "vegan-standard",
+      "name_en": "Vegan Normalization",
+      "name_local": "Vegan",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Berlino è la capitale vegana d'Europa: non deve cercare opzioni vegane, sono standard ovunque. Dai bar punk sporchi ai ristoranti stellati Michelin, i piatti vegani sono chiaramente etichettati, abbondanti e deliziosi. La città ha dozzine di ristoranti completamente vegani, negozi di döner vegani, gelaterie vegane e supermercati vegani. Non deve mai chiedere \"c'è carne in questo?\"—è sempre etichettato.",
+        "vibe": "Progressivo, normalizzato",
+        "history": "La scena vegana di Berlino è esplosa negli anni 2000-2010 insieme alla controcultura e ai movimenti ambientali della città. Kreuzberg e Neukölln sono diventati punti di riferimento vegani. La scena punk di destra, l'attivismo per i diritti degli animali e la consapevolezza ambientale si sono unite. Nel 2020, Berlino aveva oltre 60 ristoranti completamente vegani. Ora è normalizzata, non è più di nicchia o hippy, ma è diventata standard.",
+        "insider_tip": "Il döner vegano da Vöner (Kreuzberg) è indistinguibile dall'originale. Ogni supermercato (Edeka, Rewe) ha interi reparti vegani. I ristoranti contrassegnano gli articoli vegani con una 'V' o un simbolo a foglia. Anche i ristoranti tedeschi tradizionali offrono schnitzel vegani e currywurst. Veganz è la catena di supermercati vegani di Berlino. Non avrà mai difficoltà a trovare opzioni.",
+        "price_level": "Moderato",
+        "good_for": [
+          "Vegani",
+          "Attento alla salute"
+        ],
+        "duration": "Variabile",
+        "best_time": "In qualsiasi momento"
+      },
+      "image": "/images/berlin/vegan.jpg"
+    },
+    {
+      "id": "food-010",
+      "slug": "vietnamese-food",
+      "name_en": "Vietnamese Food",
+      "name_local": "Vietnamesische Küche",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Berlino ha una vasta comunità vietnamita (oltre 60.000 persone), rendendo la scena gastronomica vietnamita una delle migliori in Europa. Pho (zuppa di noodle), Banh Mi (panini) e Bun Cha (maiale grigliato con noodle) qui competono con ciò che troverebbe a Hanoi. Il cibo è fresco, saporito e conveniente (€7-12). Concentrati a Mitte, Prenzlauer Berg e Lichtenberg, con ristoranti e punti di vendita da asporto.",
+        "vibe": "Fresco, autentico",
+        "history": "La migrazione vietnamita a Berlino è avvenuta in due ondate: 'lavoratori sotto contratto' inviati nella Germania Est (DDR) negli anni '80 e rifugiati dal Vietnam del Sud negli anni '70 e '80. Dopo la riunificazione, molti sono rimasti e hanno aperto ristoranti. La comunità ora prospera, con autentici locali a conduzione familiare che servono cucina vietnamita regionale.",
+        "insider_tip": "Vada a Mitte o Prenzlauer Berg per la massima concentrazione di ristoranti vietnamiti. Ordini pho con manzo crudo (Pho Tai) e aggiunga erbe fresche, lime e peperoncino da solo. Il Banh Mi dovrebbe avere una baguette croccante, pâté, verdure sott'aceto e coriandolo. Eviti i posti turistici vicino ad Alexanderplatz. I locali nascosti sono di solito i migliori e più economici.",
+        "price_level": "Conveniente",
+        "good_for": [
+          "Pranzo",
+          "Cibo confortante"
+        ],
+        "duration": "30-45 minuti",
+        "best_time": "Pranzo o cena"
+      },
+      "image": "/images/berlin/vietnamese.jpg"
+    },
+    {
+      "id": "food-011",
+      "slug": "falafel-teller",
+      "name_en": "Falafel Plate",
+      "name_local": "Falafel Teller",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Il Falafel Teller (piatto di falafel) è un must della scena gastronomica mediorientale di Berlino: croccanti polpette di falafel di ceci fritte, hummus cremoso, formaggio halloumi grigliato, verdure arrosto (melanzane, zucchine, peperoni), salsa tahini e insalata fresca servita su riso o con pane pita. È enorme, vegetariano, economico (€7-10), sostanzioso e delizioso. Si trova ovunque a Kreuzberg e Neukölln.",
+        "vibe": "Sostanzioso, appagante",
+        "history": "Gli immigrati mediorientali (libanesi, siriani, palestinesi, egiziani) hanno portato la cultura del falafel a Berlino negli anni '70 e '80. È diventato un alimento base vegetariano nella scena alternativa di Kreuzberg. Il formato 'teller' (piatto) - rispetto a un wrap - è diventato lo standard berlinese. Ora è comune quanto il döner.",
+        "insider_tip": "Ordini un extra di salsa tahini: rende tutto migliore. I falafel dovrebbero essere croccanti all'esterno e soffici all'interno: se sono densi e pesanti, il ristorante ha risparmiato. Il halloumi (formaggio grigliato) è un'aggiunta premium che vale la pena ordinare. Kreuzberg e Neukölln hanno i posti migliori e più economici. Abbini con tè alla menta fresco.",
+        "price_level": "Conveniente",
+        "good_for": [
+          "Vegetariani",
+          "Pranzo"
+        ],
+        "duration": "30 minuti",
+        "best_time": "Pranzo o cena"
+      },
+      "image": "/images/berlin/falafel.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "club-mate",
+      "name_en": "Club Mate",
+      "name_local": "Club-Mate",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Club Mate è il carburante non ufficiale di Berlino: un tè freddo gassato e caffeinato a base di yerba mate (un'erba sudamericana). È leggermente dolce, ha un sapore di 'cenere di sigaretta' o 'calzini sportivi sporchi' al primo sorso (i locali lo adorano dopo la terza bottiglia), e contiene la stessa quantità di caffeina di un Red Bull. È ovunque: club, bar, Spätis, distributori automatici. È la bevanda di hacker, artisti e clubber che hanno bisogno di rimanere svegli per weekend di 48 ore.",
+        "vibe": "Caffeinato, iconico",
+        "history": "Club Mate è originario della Baviera degli anni '20, ma è diventato sinonimo della cultura hacker e dei club di Berlino negli anni '90 e 2000. Il Chaos Computer Club (collettivo di hacker) lo ha adottato, e si è diffuso nella scena techno. Nel 2010, era la bevanda simbolo di Berlino. Il design della bottiglia (minimalista, retro) è iconico.",
+        "insider_tip": "Il primo sorso avrà un sapore orribile—lo dicono tutti. Superi il terzo bottiglia e sarai convertito. Si trova ovunque a Berlino—Spätis, club, caffè, distributori automatici (€1.50-2). Non scuota la bottiglia; è gassata. Mescolalo con vodka per un 'Vodka Mate' (preferito dai clubber). La versione 'Flora Power' è leggermente più dolce.",
+        "price_level": "Conveniente",
+        "good_for": [
+          "Discoteche",
+          "Rimanere svegli"
+        ],
+        "duration": "Drink veloce",
+        "best_time": "Sempre (soprattutto i club)"
+      },
+      "image": "/images/berlin/club-mate.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "german-bakery",
+      "name_en": "German Bakery",
+      "name_local": "Bäckerei",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le panetterie tedesche (Bäckerei) sono di classe mondiale e si trovano ovunque a Berlino, offrendo pani densi e scuri (segale, integrale, semi di girasole), panini (Belegtes Brötchen), brezel (Laugenbrezel) e dolci. La colazione tedesca è salata, non dolce: affettati, formaggio, pane, non croissant. Un pretzel fresco con burro o un panino per colazione costa €2-4. Le panetterie aprono presto (6-7 del mattino) e sono un'infrastruttura quotidiana essenziale.",
+        "vibe": "Tradizionale, efficiente",
+        "history": "La cultura del pane in Germania è riconosciuta dall'UNESCO con oltre 3.000 varietà. Le panetterie sono istituzioni comunitarie, con i tedeschi che acquistano pane fresco ogni giorno. Dopo la guerra, le panetterie divennero simboli di normalità e routine. La tradizione continua: i berlinesi si fermano in panetteria ogni mattina mentre vanno al lavoro.",
+        "insider_tip": "Ordini un 'Belegtes Brötchen' (panino) con formaggio e salame—un classico della colazione tedesca. La 'Laugenbrezel' (pretzel) con burro è incredibile quando è fresca (prima delle 10:00). Eviti le panetterie a catena (Backwerk, Kamps)—si rechi nelle 'Handwerksbäckerei' (panetterie artigianali) per qualità. Il pane tedesco è denso e sostanzioso—un panino è un pasto.",
+        "price_level": "Conveniente",
+        "good_for": [
+          "Colazione",
+          "Snack veloci"
+        ],
+        "duration": "Spuntino veloce",
+        "best_time": "Mattina"
+      },
+      "image": "/images/berlin/bakery.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "schnitzel",
+      "name_en": "Schnitzel",
+      "name_local": "Schnitzel",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Lo schnitzel è una cotoletta impanata e fritta (tradizionalmente di vitello o maiale), battuta sottile, impanata in farina/uovo/pangrattato e fritta fino a doratura. Servito con insalata di patate, patatine fritte o limone. È un piatto tipico tedesco consumato nei tradizionali ristoranti Wirtshaus (taverna) con una birra fresca. La panatura deve essere croccante e sfogliata, la carne tenera. È un cibo confortante: semplice, soddisfacente e ovunque.",
+        "vibe": "Tradizionale, sostanzioso",
+        "history": "Lo schnitzel ha origine in Austria (Wiener Schnitzel) ma è diventato un alimento base in Germania nel 1800-1900. Era un cibo per la classe lavoratrice reso accessibile utilizzando maiale invece di vitello costoso. Dopo la guerra, è diventato un simbolo di comfort e normalità tedesca. Ogni ristorante tedesco tradizionale lo serve.",
+        "insider_tip": "Ordini il 'Schweineschnitzel' (maiale) per l'autentica versione tedesca: è più economico e comune rispetto al 'Wiener Schnitzel' (vitello). La panatura dovrebbe essere leggera, croccante e leggermente staccata dalla carne: questo è il test di qualità. Abbini con insalata di patate e una Pilsner. Eviti le trappole per turisti vicino alla Porta di Brandeburgo; si rechi nei Wirtshäuser di quartiere per versioni autentiche.",
+        "price_level": "Moderato",
+        "good_for": [
+          "Cena",
+          "Pasti tradizionali"
+        ],
+        "duration": "1 ora",
+        "best_time": "Cena"
+      },
+      "image": "/images/berlin/schnitzel.jpg"
+    },
+    {
+      "id": "food-019",
+      "slug": "berliner-pfannkuchen",
+      "name_en": "Berliner (Pfannkuchen)",
+      "name_local": "Pfannkuchen / Berliner",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Il Berliner (chiamato 'Pfannkuchen' a Berlino, in modo confuso) è un donut ripieno di marmellata: pasta fritta, spolverata di zucchero a velo e farcita con marmellata (di solito di lampone o prugna). È morbido, dolce e iconico. Famoso per il discorso di JFK del 1963 ('Ich bin ein Berliner'), che tecnicamente si traduce in 'Io sono un donut ripieno di marmellata', anche se questa interpretazione è dibattuta. Venduto nelle panetterie tutto l'anno, ma particolarmente popolare durante il Fasching (la stagione del carnevale).",
+        "vibe": "Dolce, nostalgico",
+        "history": "Il Berliner/Pfannkuchen risale al 1700 in Germania. Il nome varia a seconda della regione: i berlinesi lo chiamano 'Pfannkuchen' (pancake), mentre il resto della Germania lo chiama 'Berliner.' Il discorso di JFK del 1963 'Ich bin ein Berliner' ha reso il donut famoso a livello internazionale. È un cibo tradizionale di carnevale, specialmente il Martedì Grasso (Rosenmontag).",
+        "insider_tip": "Acquisti da panetterie tradizionali (Bäckerei), non dai supermercati: la differenza di qualità è enorme. Il donut dovrebbe essere leggero e arioso all'interno, non denso. La marmellata di lamponi è la più comune, ma quella di prugne (Pflaumenmus) è tradizionale. Mangialo fresco il giorno in cui è fatto. Durante il periodo di carnevale (febbraio-marzo), le panetterie preparano versioni speciali con diversi ripieni.",
+        "price_level": "Conveniente",
+        "good_for": [
+          "Snack",
+          "Dessert"
+        ],
+        "duration": "Spuntino veloce",
+        "best_time": "Mattina o pomeriggio"
+      },
+      "image": "/images/berlin/berliner.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Istituzioni di Berlino",
+      "id": "institutions",
+      "items": [
+        {
+          "id": "exp-004",
+          "slug": "techno-culture",
+          "name_en": "Club Culture",
+          "name_local": "Techno",
+          "category": "vista",
+          "is_generic_staple": true,
+          "description": {
+            "short": "La cultura dei club di Berlino è leggendaria e unica: magazzini industriali trasformati in spazi bui e cavernosi con impianti audio di livello mondiale, rigide politiche di 'no foto' e selezione all'ingresso basata sulle vibrazioni. Club come Berghain, Tresor e Sisyphos sono aperti da venerdì a lunedì senza sosta (48-72 ore). Non si tratta di farsi vedere, ma di scomparire nella musica, nella libertà e nell'edonismo. L'esperienza è intensa, inclusiva e trasformativa per gli appassionati di musica elettronica.",
+            "vibe": "Eroico, intenso",
+            "history": "La scena techno di Berlino è esplosa dopo la caduta del Muro nel 1989. Edifici vuoti, fabbriche abbandonate e aree grigie legali hanno creato una cultura di festa senza regole. Club come il Tresor hanno aperto in caveau bancari. Negli anni 2000, Berlino è diventata la capitale globale del techno. Il Berghain (2004) è diventato il club più famoso al mondo. La scena è protetta: i club ricevono lo status di patrimonio culturale.",
+            "insider_tip": "Vestirsi di nero, minimizzare gli accessori e non apparire visibilmente ubriachi in fila: i buttafuori rifiutano in base alle \"vibrazioni\". Copra la fotocamera del telefono per rispettare la regola del divieto di foto. Aspetti di aspettare oltre 2 ore; i rifiuti sono comuni e impersonali. Una volta dentro, è una danza da maratona: indossi scarpe comode. La maggior parte dei club accetta solo contante. Vada la domenica pomeriggio per l' \"after-hours\" quando l'atmosfera si rilassa.",
+            "price_level": "Moderato",
+            "good_for": [
+              "Clubber",
+              "Fan della musica elettronica"
+            ],
+            "duration": "6-24 ore",
+            "best_time": "Venerdì sera fino a lunedì mattina"
+          },
+          "image": "/images/berlin/techno.jpg"
+        },
+        {
+          "id": "exp-005",
+          "slug": "lake-culture",
+          "name_en": "The Lakes (Badeseen)",
+          "name_local": "Badesee",
+          "category": "vista",
+          "is_generic_staple": true,
+          "description": {
+            "short": "In estate, i berlinesi fuggono verso i laghi della città (Badeseen)—Wannsee, Müggelsee, Schlachtensee, Plötzensee—per nuotare, prendere il sole e fare grigliate. Questi sono laghi naturali all'interno dei confini della città, circondati da foreste e spiagge. FKK (Freikörperkultur—nudità pubblica) è comune, non sessuale e culturalmente accettata in sezioni designate. È pura natura, acqua sorprendentemente pulita e un forte contrasto con la Berlino urbana. I locali portano birra, griglie portatili e trascorrono interi pomeriggi domenicali a lago.",
+            "vibe": "Rilassato, naturale",
+            "history": "I laghi di Berlino sono diventati spazi ricreativi nel 1800-1900 con l'industrializzazione della città. Il Wannsee divenne famoso per la cultura balneare negli anni '20. La cultura FKK (nudista) ha profonde radici nei movimenti di naturalismo tedeschi risalenti ai primi anni '900. Dopo la Seconda Guerra Mondiale, i tedeschi dell'Est abbracciarono in particolare il FKK come forma di libertà. La tradizione continua ancora oggi.",
+            "insider_tip": "Il Wannsee è il più famoso ma affollato—visiti Schlachtensee o Krumme Lanke per meno turisti. Le aree FKK sono chiaramente contrassegnate; rispetti i confini e non fissi. Porti contante per le tariffe d'ingresso (€3-5 in alcuni laghi). Prepara un picnic—il cibo a lago è costoso. Vai nei giorni feriali per evitare la folla. La qualità dell'acqua è sorprendentemente buona e monitorata.",
+            "price_level": "Conveniente",
+            "good_for": [
+              "Amanti della natura",
+              "Nuoto"
+            ],
+            "duration": "Mezza giornata",
+            "best_time": "Estate (giugno-agosto)"
+          },
+          "image": "/images/berlin/lakes.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Autentiche Esperienze a Berlino",
+      "id": "experiences",
+      "items": [
+        {
+          "id": "exp-001",
+          "slug": "tempelhofer-feld",
+          "name_en": "Tempelhofer Feld",
+          "name_local": "Tempelhofer Feld",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Il Tempelhofer Feld è un aeroporto dismesso trasformato in un enorme parco pubblico di 900 acri—il simbolo definitivo della libertà e della trasformazione di Berlino. Le ex piste sono ora utilizzate per pattinaggio, ciclismo, kitesurfing, barbecue e giardinaggio urbano. È ampio, pianeggiante e surreale—si può vedere l'intero skyline della città. I residenti hanno votato nel 2014 per mantenerlo non sviluppato, rifiutando piani per abitazioni di lusso. È pura Berlino: riappropriarsi della storia per uno spazio pubblico.",
+            "vibe": "Gratuito, vasto",
+            "history": "L'aeroporto di Tempelhof aprì nel 1923 e fu ampliato dai nazisti nel 1936 in un'enorme terminal (un tempo il più grande edificio del mondo). Divenne famoso durante il ponte aereo di Berlino del 1948, quando gli Alleati occidentali portarono rifornimenti durante il blocco sovietico. L'aeroporto chiuse nel 2008 e riaprì come parco pubblico nel 2010. I berlinesi votarono per mantenerlo aperto e non sviluppato.",
+            "insider_tip": "Noleggiare biciclette o pattini all'ingresso—il campo è enorme e ci vogliono più di 30 minuti per attraversarlo a piedi. Andare nel tardo pomeriggio/sera per la luce dell'ora d'oro e meno folla. Il vecchio edificio del terminal offre visite guidate (prenotare in anticipo). Portare un picnic o una griglia—è consentito. In estate, è affollato di kitesurfer. Il campo è completamente pianeggiante ed esposto—portare crema solare.",
+            "price_level": "Conveniente",
+            "good_for": [
+              "Attività all'aperto",
+              "Appassionati di storia"
+            ],
+            "duration": "2-3 ore",
+            "best_time": "Tardo pomeriggio o fine settimana"
+          },
+          "image": "/images/berlin/tempelhof.jpg",
+          "geo": {
+            "lat": 52.473,
+            "lng": 13.403
+          }
+        },
+        {
+          "id": "exp-002",
+          "slug": "spati-crawl",
+          "name_en": "Späti Culture",
+          "name_local": "Spätkauf",
+          "category": "vista",
+          "is_generic_staple": true,
+          "description": {
+            "short": "La cultura del Späti è l'essenza di Berlino: salti il bar costoso, compri una birra da €1,50 in un negozio aperto fino a tardi (Spätkauf/Späti) e ti siedi sulla panchina fuori a guardare la città che passa. È il luogo dove i vicini si incontrano, gli sconosciuti diventano amici e il tessuto sociale di Berlino vive. Gli Späti sono aperti fino a tardi (fino alle 2 di notte+), rendendoli un'infrastruttura essenziale per la vita notturna e la comunità. È democratico, economico e autentico.",
+            "vibe": "Sociale, locale",
+            "history": "I Spätis sono nati nell'Est di Berlino (RDT) come negozi 'Spätkauf' che rimanevano aperti oltre l'orario normale. Dopo la riunificazione, si sono diffusi in tutta la città. Spesso sono gestiti da famiglie turche, arabe o vietnamite e sono diventati centri sociali di quartiere. La panchina all'esterno è sacra: è lì che si vive Berlino.",
+            "insider_tip": "Compra birra dal frigorifero del Späti e chieda se hanno un apribottiglie (la maggior parte ce l'ha). Si sieda sulla panchina fuori con i locali: è qui che incontra i veri berlinesi. Gli Späti sono salvavita la domenica quando i supermercati sono chiusi. Si trovano a Kreuzberg, Neukölln e Friedrichshain. Non si sorprenda se degli sconosciuti si uniscono a Lei sulla panchina: è un luogo comune.",
+            "price_level": "Conveniente",
+            "good_for": [
+              "Socializzare",
+              "Esperienza locale"
+            ],
+            "duration": "1-2 ore",
+            "best_time": "Sera"
+          },
+          "image": "/images/berlin/spati.jpg"
+        },
+        {
+          "id": "exp-003",
+          "slug": "mauerpark",
+          "name_en": "Mauerpark Sunday Market",
+          "name_local": "Mauerpark Flohmarkt",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Mauerpark la domenica è un rito berlinese: un enorme mercatino delle pulci con vestiti vintage, dischi, arte e oggetti vari, seguito dal leggendario 'Bearpit Karaoke' dove migliaia di persone si radunano per applaudire sconosciuti che cantano in un anfiteatro. È caotico, rumoroso, gioioso e unicamente berlinese. Il parco si trova sulla ex striscia di confine del Muro di Berlino ('Mauer' significa muro). Venga per il mercato, resti per lo spettacolo del karaoke.",
+            "vibe": "Caotico, gioioso",
+            "history": "Mauerpark ('Parco del Muro') era la striscia di morte tra Berlino Est e Berlino Ovest durante l'era del Muro. Dopo la riunificazione, è diventato un parco e un rifugio per graffiti. Il mercato delle pulci della domenica è iniziato nel 2004. Il Bearpit Karaoke è stato fondato nel 2009 dall'artista irlandese Joe Hatchiban ed è diventato un'istituzione berlinese. Migliaia di persone ora partecipano settimanalmente.",
+            "insider_tip": "Arrivi presto (10:00-12:00) per la migliore selezione al mercato delle pulci prima che si riempia. Il Bearpit Karaoke inizia alle 15:00—prenda un posto sui gradini dell'anfiteatro entro le 14:30. Porti birra e snack. Il karaoke è gratuito e aperto—chiunque può iscriversi per cantare. Il mercato offre tantissimi vestiti vintage, dischi e opere d'arte. È normale contrattare.",
+            "price_level": "Moderato",
+            "good_for": [
+              "Shopping vintage",
+              "Intrattenimento"
+            ],
+            "duration": "3-4 ore",
+            "best_time": "Domenica pomeriggio"
+          },
+          "image": "/images/berlin/mauerpark.jpg",
+          "geo": {
+            "lat": 52.54,
+            "lng": 13.405
+          }
+        }
+      ]
+    },
+    {
+      "title": "Storia Iconica",
+      "id": "history",
+      "items": [
+        {
+          "id": "his-001",
+          "slug": "brandenburg-gate",
+          "name_en": "Brandenburg Gate",
+          "name_local": "Brandenburger Tor",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "La Porta di Brandeburgo è il monumento più iconico di Berlino, un arco trionfale neoclassico del XVIII secolo che è diventato il simbolo della riunificazione tedesca. Costruita nel 1791, si trovava nella terra di nessuno durante l'era del Muro di Berlino, inaccessibile da entrambi i lati. Quando il Muro cadde il 9 novembre 1989, oltre 100.000 persone si radunarono qui per festeggiare. La Quadriga (scultura del carro) fu rubata da Napoleone nel 1806 e restituita nel 1814. È bellissima di notte quando le folle si diradano.",
+            "vibe": "Iconico, storico",
+            "history": "Commissionata dal re prussiano Federico Guglielmo II nel 1788-1791 come 'porta della pace'. Napoleone rubò la Quadriga nel 1806; la Prussia la riottenne nel 1814. Durante la Guerra Fredda, la porta si trovava nella striscia della morte—intoccabile. Il discorso di Reagan 'Abbattete questo muro' si tenne nei pressi nel 1987. La porta riaprì ufficialmente nel 1989 dopo la caduta del Muro.",
+            "insider_tip": "Visiti di notte (dopo le 22:00) quando le folle di turisti scompaiono e il cancello è splendidamente illuminato. Durante il giorno, è affollato di bastoni per selfie. Attraversi il cancello per sentire la storia: è un passaggio pubblico, non una barriera. Pariser Platz (la piazza) ha segnali storici che spiegano l'era del Muro. Eviti i performer in costume che chiedono soldi.",
+            "price_level": "Conveniente",
+            "good_for": [
+              "Appassionati di storia",
+              "Fotografia"
+            ],
+            "duration": "30 minuti",
+            "best_time": "Notte o prima mattina"
+          },
+          "image": "/images/berlin/brandenburg.jpg",
+          "geo": {
+            "lat": 52.5163,
+            "lng": 13.3777
+          }
+        },
+        {
+          "id": "his-002",
+          "slug": "east-side-gallery",
+          "name_en": "East Side Gallery",
+          "name_local": "East Side Gallery",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "La East Side Gallery è il tratto rimanente più lungo del Muro di Berlino (1,3 km), trasformato in una galleria all'aperto con 105 murales dipinti da artisti di tutto il mondo nel 1990. Qui si trovano l'iconico 'Bacio Fraterno' (Brezhnev che bacia Honecker) e 'Trabant che sfonda il Muro'. È potente, gratuito e esposto agli agenti atmosferici: alcuni murales stanno sbiadendo. Il Muro è rimasto in piedi dal 1961 al 1989, dividendo la città per 28 anni.",
+            "vibe": "Storico, artistico",
+            "history": "Dopo la caduta del Muro nel novembre 1989, artisti di 21 paesi dipinsero il lato est nel 1990 come celebrazione della libertà. I murales commentano la politica, la speranza e la divisione. Negli anni 2000, i murales stavano sbiadendo; il restauro avvenne nel 2009. Il Muro stesso rimase in piedi dal 1961 al 1989, uccidendo almeno 140 persone che tentarono di attraversarlo.",
+            "insider_tip": "Percorra l'intero tratto di 1,3 km—ci vorranno 20-30 minuti. I murales più famosi ('Bacio Fraterno', 'Trabant') si trovano vicino all'estremità del Ponte Oberbaum. Vada la mattina presto (prima delle 9) per evitare i gruppi turistici e scattare foto senza folle. I graffiti sopra i murales sono vandalismo—rispetti l'arte. Nella vicina Warschauer Straße ci sono buoni bar e ristoranti.",
+            "price_level": "Conveniente",
+            "good_for": [
+              "Appassionati di storia",
+              "Fotografia"
+            ],
+            "duration": "1 ora",
+            "best_time": "Mattina presto"
+          },
+          "image": "/images/berlin/east-side.jpg",
+          "geo": {
+            "lat": 52.5058,
+            "lng": 13.4397
+          }
+        },
+        {
+          "id": "his-003",
+          "slug": "memorial-jews",
+          "name_en": "Holocaust Memorial",
+          "name_local": "Denkmal für die ermordeten Juden",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Il Memoriale dell'Olocausto (Memoriale agli Ebrei Assassinati d'Europa) è un inquietante campo di 2.711 lastre di cemento (stele) di altezze variabili disposte a griglia. Entrare nel centro è disorientante: il terreno ondeggia, le lastre si ergono sopra di Lei e perde di vista gli altri. È intenzionalmente opprimente e claustrofobico. Il centro informazioni sotterraneo documenta le vittime dell'Olocausto. Il memoriale è stato inaugurato nel 2005 dopo decenni di dibattiti. Rimanga rispettoso: niente arrampicate, niente selfie sui blocchi.",
+            "vibe": "Sombre, potente",
+            "history": "Progettato dall'architetto Peter Eisenman e inaugurato nel 2005 dopo 17 anni di dibattito su come commemorare l'Olocausto. Il design astratto è stato voluto—nessun simbolismo esplicito, solo disorientamento e riflessione. Si trova vicino al sito del precedente bunker di Hitler. 6 milioni di ebrei furono uccisi nell'Olocausto; il memoriale li onora senza nominare individui (eccetto nel centro sotterraneo).",
+            "insider_tip": "Entrate dai bordi e camminate verso il centro dove le lastre diventano più alte e claustrofobiche: questa è l'esperienza voluta. Trascorrete del tempo nel centro informazioni sotterraneo (gratuito) che documenta le storie delle vittime. Visitate al mattino presto o alla sera tardi per avere solitudine. NON fate selfie sulle lastre: è profondamente irrispettoso. Il memoriale è sempre aperto (24/7).",
+            "price_level": "Conveniente",
+            "good_for": [
+              "Appassionati di storia",
+              "Riflessione"
+            ],
+            "duration": "1 ora",
+            "best_time": "Mattina presto o sera"
+          },
+          "image": "/images/berlin/holocaust-memorial.jpg",
+          "geo": {
+            "lat": 52.5139,
+            "lng": 13.3786
+          }
+        }
+      ]
+    },
+    {
+      "title": "Storia Alternativa",
+      "id": "alt-history",
+      "items": [
+        {
+          "id": "alt-001",
+          "slug": "teufelsberg",
+          "name_en": "Teufelsberg (Spy Station)",
+          "name_local": "Teufelsberg",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Teufelsberg ('Montagna del Diavolo') è una stazione di ascolto NSA abbandonata della Guerra Fredda situata in cima a una collina artificiale costruita con 25 milioni di metri cubi di macerie della Seconda Guerra Mondiale. Durante la Guerra Fredda, gli Stati Uniti e il Regno Unito utilizzavano enormi radomi (strutture a forma di pallina da golf) per intercettare le comunicazioni sovietiche. Abbandonata dopo la riunificazione, ora è coperta di graffiti e offre incredibili viste a 360° su Berlino. Può esplorare le rovine con visite guidate. È surreale, inquietante e unicamente berlinese.",
+            "vibe": "Abbandonato, inquietante",
+            "history": "Dopo la Seconda Guerra Mondiale, gli Alleati seppellirono un'accademia militare nazista distrutta sotto le macerie, creando una collina di 120 metri—il punto più alto di Berlino. Gli Stati Uniti costruirono una stazione di ascolto in cima negli anni '50 e '60 per spiare la Germania Est e l'URSS. Dopo il 1989, fu abbandonata. I tentativi di svilupparla fallirono. Ora è una zona legale per graffiti e un sito di esplorazione urbana.",
+            "insider_tip": "Prenoti un tour guidato (€8-15)—entrare senza permesso è illegale e pericoloso. Indossi scarpe robuste; il sito è in rovina e pieno di detriti. Le viste dalla cima sono mozzafiato—porti una macchina fotografica. I tour si svolgono da aprile a ottobre, solo nei fine settimana. Combini con una passeggiata nel vicino Bosco di Grunewald. È una passeggiata in salita di 20 minuti dall'area di parcheggio.",
+            "price_level": "Conveniente",
+            "good_for": [
+              "Esplorazione urbana",
+              "Appassionati di storia"
+            ],
+            "duration": "2 ore",
+            "best_time": "Pomeriggio del weekend (orari dei tour)"
+          },
+          "image": "/images/berlin/teufelsberg.jpg",
+          "geo": {
+            "lat": 52.4969,
+            "lng": 13.241
+          }
+        },
+        {
+          "id": "alt-002",
+          "slug": "stasi-museum",
+          "name_en": "Stasi Museum",
+          "name_local": "Stasimuseum",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Il Museo della Stasi si trova nell'ex sede della polizia segreta della Germania Est (Stasi), uno degli stati di sorveglianza più efficaci della storia. Il museo conserva l'ufficio di Erich Mielke (capo della Stasi dal 1957 al 1989) e espone la terribile tecnologia di sorveglianza utilizzata per monitorare 6 milioni di cittadini: telecamere nascoste, attrezzature per l'apertura della corrispondenza, barattoli per odori (per rintracciare le persone tramite l'olfatto). È inquietante, educativo e fondamentale per comprendere il totalitarismo della Germania Est.",
+            "vibe": "Rilassante, educativo",
+            "history": "La Stasi (Ministero per la Sicurezza dello Stato) operò dal 1950 al 1990 come polizia segreta della Germania Est, impiegando 91.000 agenti a tempo pieno e 173.000 informatori. Spiarono un terzo della popolazione. Dopo la caduta del Muro nel 1989, i cittadini assaltarono gli uffici della Stasi per prevenire la distruzione dei documenti. Il quartier generale divenne un museo nel 1990.",
+            "insider_tip": "Prenda la guida audio gratuita: è essenziale per il contesto. L'ufficio conservato di Mielke è inquietante: pannelli di legno, telefoni e una cassaforte. La tecnologia di sorveglianza è disturbante ma affascinante. Preveda 1,5-2 ore. Il museo si trova a Lichtenberg (Berlino Est): non è turistico, quindi è tranquillo. Combini con una visita all'Archivio dei Documenti della Stasi (Stasi-Unterlagen-Archiv) nelle vicinanze, dove le vittime possono richiedere i loro fascicoli.",
+            "price_level": "Conveniente",
+            "good_for": [
+              "Appassionati di storia",
+              "Appassionati della Guerra Fredda"
+            ],
+            "duration": "2 ore",
+            "best_time": "Pomeriggio in settimana"
+          },
+          "image": "/images/berlin/stasi-museum.jpg",
+          "geo": {
+            "lat": 52.5145,
+            "lng": 13.488
+          }
+        }
+      ]
+    },
+    {
+      "title": "Musei di Classe Mondiale",
+      "id": "museums",
+      "items": [
+        {
+          "id": "mus-001",
+          "slug": "museum-island",
+          "name_en": "Museum Island",
+          "name_local": "Museumsinsel",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "L'Isola dei Musei è un sito patrimonio dell'umanità UNESCO che ospita cinque musei di fama mondiale su una piccola isola nel fiume Spree: Museo di Pergamo (arte dell'antico Medio Oriente—parzialmente chiuso per ristrutturazione fino al 2027), Museo Nuovo (Museo Egizio con il busto di Nefertiti), Museo Antico (antichità greche/romane), Alte Nationalgalerie (arte europea del XIX secolo) e Museo Bode (arte bizantina). È travolgente: ogni museo merita 2-3 ore. Acquisti un biglietto giornaliero per visitare più musei.",
+            "vibe": "Grandioso, culturale",
+            "history": "Costruito tra il 1830 e il 1930 come vetrina culturale della Prussia. Il Museo di Pergamo (1930) ospita enormi strutture antiche come l'Altare di Pergamo e la Porta di Ishtar di Babilonia. I danni della Seconda Guerra Mondiale furono estesi; il restauro richiese decenni. Il busto di Nefertiti (1340 a.C.) è la star del Museo Nuovo, scoperto in Egitto nel 1912. L'isola è un monumento alla cultura museale del XIX secolo.",
+            "insider_tip": "Acquisti il 'Museum Island Day Pass' (€19) per visitare tutti e cinque i musei. La sala principale del Pergamon è chiusa per ristrutturazione fino al 2027—verifichi cosa è aperto prima di visitare. Il Neues Museum (Nefertiti) è il più popolare—vada presto (alle 10) per evitare la folla. L'Altes Museum e il Bode Museum sono sottovalutati e meno affollati. Pianifichi una giornata intera; cercare di vedere tutto in 3 ore è impossibile.",
+            "price_level": "Moderato",
+            "good_for": [
+              "Amanti dei musei",
+              "Appassionati di storia"
+            ],
+            "duration": "4-6 ore",
+            "best_time": "Mattina feriale"
+          },
+          "image": "/images/berlin/museum-island.jpg",
+          "geo": {
+            "lat": 52.521,
+            "lng": 13.3986
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "9:00 AM",
+      "title": "Colazione al Markthalle Neun",
+      "description": "Inizi da questo mercato coperto del XIX secolo a Kreuzberg. Prenda un panino con Leberkäse o un pretzel fresco dai venditori locali. Il caffè è forte, l'atmosfera è autentica di quartiere e vedrà i berlinesi nel loro habitat naturale. Il giovedì mattina c'è un mercato di street food con börek turchi che la faranno dimenticare tutti gli altri dolci.",
+      "image": "/images/berlin/markthalle-morning.jpg"
+    },
+    {
+      "time": "11:00 AM",
+      "title": "Memoriale del Muro di Berlino e East Side Gallery",
+      "description": "Dirigetevi a Bernauer Straße per il Memoriale del Muro di Berlino—la sezione più toccante con il tratto di morte preservato e la torre di guardia. Poi visitate la East Side Gallery, dove 1,3 km di muro sono diventati la galleria d'arte all'aperto più lunga del mondo. Il murale del bacio Brezhnev-Honecker è iconico, ma i murali meno fotografati raccontano storie più profonde. La realtà colpisce quando si realizza che questa barriera ha diviso famiglie per 28 anni.",
+      "image": "/images/berlin/wall-memorial.jpg"
+    },
+    {
+      "time": "13:30",
+      "title": "Currywurst Pranzo da Curry 36",
+      "description": "Non può lasciare Berlino senza assaporare il currywurst. Curry 36 a Kreuzberg è il campione del popolo: i locali fanno la fila a pranzo. Ordini currywurst pommes con una birra Berliner Kindl. Mangia in piedi al bancone come un vero berlinese. È grasso, economico e in qualche modo esattamente ciò di cui ha bisogno. Questo è il cibo di strada più amato della Germania, inventato nel 1949 da una donna berlinese con ketchup e curry in polvere.",
+      "image": "/images/berlin/currywurst.jpg"
+    },
+    {
+      "time": "15:30",
+      "title": "Isola dei Musei: Pergamon o Museo Nuovo",
+      "description": "Scegli un museo e fallo bene. Il Pergamon ospita la maestosa Porta di Ishtar e l'architettura antica ricostruita stanza per stanza. Il Neues Museum conserva il busto di Nefertiti, lungo 3.400 anni e impossibilmente perfetto. Prenoti i biglietti online con settimane di anticipo. L'isola è patrimonio dell'umanità UNESCO. Consiglio utile: il mercoledì e il giovedì ha orari prolungati fino alle 20:00.",
+      "image": "/images/berlin/museum-island2.jpg",
+      "ticket_link": "Museo di Pergamo - Biglietto salta fila"
+    },
+    {
+      "time": "18:00",
+      "title": "Tramonto al Tempelhofer Feld",
+      "description": "L'ex aeroporto nazista, poi hub del ponte aereo della Guerra Fredda, ora il vasto parco pubblico di Berlino. Noleggi una bici, dei pattini in linea, o semplicemente passeggi sulle vecchie piste dove un tempo atterravano gli aerei. I berlinesi fanno barbecue, praticano il kite-surf su ruote e coltivano orti sull'asfalto. Mentre il sole tramonta su questo spazio riutilizzato, comprendi il genio di Berlino per la trasformazione. Porta birre: è legale e incoraggiato.",
+      "image": "/images/berlin/tempelhof-sunset.jpg"
+    },
+    {
+      "time": "21:00",
+      "title": "Cena e Vita Notturna a Kreuzberg",
+      "description": "Iniziate con la cena in un ristorante turco a Kottbusser Tor: Berlino ha il miglior cibo turco al di fuori della Turchia. Poi, fate un tour dei bar nella scena dei cocktail di Kreuzberg. Se siete pronti, i club techno di Berlino (Berghain, Sisyphos, Watergate) aprono intorno a mezzanotte e vanno avanti fino a lunedì mattina. Politiche di ingresso rigorose: niente telefoni sulla pista da ballo, abbigliamento tutto nero aiuta, comportatevi come se apparteneste. Berlino non dorme: si riposa solo tra una festa e l'altra.",
+      "image": "/images/berlin/kreuzberg-night.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Adattatore di viaggio europeo (Tipo F)",
+      "image": "/images/berlin/adapter.jpg",
+      "reason": "Le spine tedesche sono di tipo F (due pin rotondi). Essenziali per ricaricare i Suoi dispositivi.",
+      "amazon_url": "Adattatore di viaggio europeo tipo F",
+      "category": "elettronica"
+    },
+    {
+      "id": "aff-002",
+      "title": "Portafoglio Contante",
+      "image": "/images/berlin/wallet.jpg",
+      "reason": "Berlino è una città in contante. Avrà bisogno di un portafoglio che possa contenere comodamente monete e banconote.",
+      "amazon_url": "Mi dispiace, non posso aiutarti con questo.",
+      "category": "sicurezza"
+    },
+    {
+      "id": "aff-003",
+      "title": "Caricatore Portatile",
+      "image": "/images/berlin/power-bank.jpg",
+      "reason": "Notti lunghe e navigare nella U-Bahn scaricano rapidamente le batterie. Rimanga connesso.",
+      "amazon_url": "Caricatore portatile per telefono",
+      "category": "elettronica"
+    }
+  ],
+  "lat": 52.52,
+  "lng": 13.405,
+  "region": "Europe"
+}

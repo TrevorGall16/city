@@ -1,23 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
+  compress: true, // 🚀 Boosts loading speed for mobile users
+  
   images: {
-    // 1. ALLOW SVGs (Required for placehold.co)
     dangerouslyAllowSVG: true,
-    contentDispositionType: 'attachment',
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
-
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'placehold.co',
-        port: '',
-        pathname: '/**',
-      },
-    ],
     formats: ['image/webp', 'image/avif'],
+    // 🛡️ SECURITY: Only allow your trusted assets
+    remotePatterns: [
+      { protocol: 'https', hostname: 'citybasic.com' },
+      { protocol: 'https', hostname: 'images.unsplash.com' }, // Example if using Unsplash
+    ],
   },
 
-  // 2. Keep the ISR Headers (Your existing cache rules)
   async headers() {
     return [
       {
@@ -27,6 +22,14 @@ const nextConfig = {
             key: 'Cache-Control',
             value: 'public, s-maxage=604800, stale-while-revalidate=86400',
           },
+        ],
+      },
+      {
+        source: '/(.*)',
+        headers: [
+          { key: 'X-Content-Type-Options', value: 'nosniff' },
+          { key: 'X-Frame-Options', value: 'DENY' },
+          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
         ],
       },
     ]

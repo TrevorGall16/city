@@ -1,0 +1,949 @@
+{
+  "id": "city-007",
+  "name": "Rome",
+  "slug": "rome",
+  "country": "Italy",
+  "country_code": "it",
+  "hero_image": "/images/rome/hero.jpg",
+  "intro_vibe": "La Città Eterna: Un museo a cielo aperto caotico dove rovine antiche incontrano il traffico delle Vespe e pasta perfetta.",
+  "general_info": {
+    "population": "~2,8 milioni (città) / ~4,3 milioni (area metropolitana)",
+    "is_capital": true,
+    "description": "Roma vive di rituali, non di efficienza. È una collisione di 3.000 anni di storia, vita di strada cruda e rigide regole alimentari. Non abbiate fretta; i pasti sono momenti sacri. È rumorosa, disordinata e straordinariamente bella. Accettate il caos; fa parte del fascino."
+  },
+  "stats": {
+    "currency": "€",
+    "plug_type": "Tipo F / L"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "Gennaio",
+      "temp": "3°C - 12°C",
+      "vibe": "Inverno tranquillo",
+      "pros": [
+        "Musei vuoti",
+        "Stagione dei saldi",
+        "Trattorie accoglienti"
+      ],
+      "cons": [
+        "Piovoso",
+        "Umidità fredda"
+      ],
+      "clothing": "Cappotto caldo, sciarpa, scarpe impermeabili"
+    },
+    {
+      "id": 2,
+      "name": "Febbraio",
+      "temp": "4°C - 13°C",
+      "vibe": "Rinfrescante",
+      "pros": [
+        "Cibo di Carnevale",
+        "Pochi turisti",
+        "Giornate soleggiate"
+      ],
+      "cons": [
+        "Piogge imprevedibili",
+        "Notti fresche"
+      ],
+      "clothing": "Strati, giacca calda"
+    },
+    {
+      "id": 3,
+      "name": "Marzo",
+      "temp": "6°C - 16°C",
+      "vibe": "Risveglio della primavera",
+      "pros": [
+        "Fiori in fiore",
+        "Inizio della ristorazione all'aperto",
+        "Passeggiate piacevoli"
+      ],
+      "cons": [
+        "Piogge primaverili",
+        "Temperature variabili"
+      ],
+      "clothing": "Giacca leggera, ombrello"
+    },
+    {
+      "id": 4,
+      "name": "Aprile",
+      "temp": "9°C - 19°C",
+      "vibe": "Primavera romana",
+      "pros": [
+        "Azalee nella Scalinata Spagnola",
+        "Celebrazioni di Pasqua",
+        "Tempo perfetto"
+      ],
+      "cons": [
+        "Folla della Settimana Santa",
+        "Prezzi elevati"
+      ],
+      "clothing": "Strati, occhiali da sole"
+    },
+    {
+      "id": 5,
+      "name": "Maggio",
+      "temp": "13°C - 24°C",
+      "vibe": "La mia dorata",
+      "pros": [
+        "Apertura del giardino delle rose",
+        "Giorni lunghi",
+        "Migliore luce per foto"
+      ],
+      "cons": [
+        "Aumento delle folle",
+        "Inizia a fare caldo"
+      ],
+      "clothing": "Abbigliamento leggero, cappello da sole"
+    },
+    {
+      "id": 6,
+      "name": "Giugno",
+      "temp": "17°C - 28°C",
+      "vibe": "Calore estivo",
+      "pros": [
+        "Cinema all'aperto",
+        "Festival del Lungotevere",
+        "Passeggiate serali"
+      ],
+      "cons": [
+        "Inizio delle ondate di caldo",
+        "Molto affollato"
+      ],
+      "clothing": "Abbigliamento estivo, lino"
+    },
+    {
+      "id": 7,
+      "name": "Luglio",
+      "temp": "20°C - 31°C",
+      "vibe": "Abrador",
+      "pros": [
+        "Saldi estivi",
+        "Città vuota (i locali se ne vanno)",
+        "Notti calde"
+      ],
+      "cons": [
+        "Caldo opprimente",
+        "Senza aria condizionata in molti luoghi"
+      ],
+      "clothing": "Abbigliamento minimale, ventilatore"
+    },
+    {
+      "id": 8,
+      "name": "Agosto",
+      "temp": "20°C - 31°C",
+      "vibe": "Ferragosto",
+      "pros": [
+        "Cero traffico",
+        "Ritmo rilassato",
+        "Ambiente estivo"
+      ],
+      "cons": [
+        "Molti negozi chiusi",
+        "Calore opprimente"
+      ],
+      "clothing": "Il vestito più leggero possibile"
+    },
+    {
+      "id": 9,
+      "name": "Settembre",
+      "temp": "16°C - 27°C",
+      "vibe": "Seconda estate",
+      "pros": [
+        "Tempo perfetto di nuovo",
+        "Inizia la stagione culturale",
+        "Vivace"
+      ],
+      "cons": [
+        "Affollato",
+        "Ancora umido"
+      ],
+      "clothing": "Abbigliamento estivo + strato leggero"
+    },
+    {
+      "id": 10,
+      "name": "Ottobre",
+      "temp": "12°C - 22°C",
+      "vibe": "Ottobrata",
+      "pros": [
+        "Famosi tramonti romani",
+        "Giorni caldi/notti fresche",
+        "Prodotti della raccolta"
+      ],
+      "cons": [
+        "Il ritorno della pioggia a metà mese",
+        "Giorni più corti"
+      ],
+      "clothing": "Giacca leggera, scarpe comode"
+    },
+    {
+      "id": 11,
+      "name": "Novembre",
+      "temp": "8°C - 17°C",
+      "vibe": "Stagione delle piogge",
+      "pros": [
+        "Stagione dei carciofi",
+        "Ambiente caldo",
+        "Prezzi ridotti"
+      ],
+      "cons": [
+        "Mese più umido",
+        "Cieli grigi"
+      ],
+      "clothing": "Impermeabile, stivali resistenti"
+    },
+    {
+      "id": 12,
+      "name": "Dicembre",
+      "temp": "4°C - 13°C",
+      "vibe": "Festivo",
+      "pros": [
+        "Luci di Natale",
+        "Panettone ovunque",
+        "Spirito festivo"
+      ],
+      "cons": [
+        "Centro affollato",
+        "Freddo"
+      ],
+      "clothing": "Cappotto invernale, guanti"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "Niente cappuccino dopo le 11:00: Il latte è per colazione. Ordinare un cappuccino dopo pranzo è un crimine digestivo. Ordini 'caffè' (espresso) o 'caffè macchiato'.",
+      "Il rito del conto: Il conto raramente arriva automaticamente. Deve catturare l'occhio del cameriere e mimare di scrivere. Pagare al tavolo o alla cassa varia; osservi cosa fanno i locali.",
+      "Il tempo è fluido (eccetto per il cibo): I treni possono essere in ritardo, i negozi possono chiudere a caso, ma gli orari dei pasti sono rigidi. Il pranzo è dalle 13:00 alle 15:00. La cena è dopo le 20:30. Non provi a cenare alle 18:00.",
+      "Codice di abbigliamento: Spalle e ginocchia DEVONO essere coperte per San Pietro/Pantheon. In generale, i romani si vestono bene. L'abbigliamento sportivo nel centro città segna come turista.",
+      "Mentalità caotica: Le file sono suggerimenti. Le interruzioni sono normali. Litigare sull'efficienza è futile. Roma funziona sul flusso sociale, non sui sistemi. Si rilassi e vada con il flusso.",
+      "Validazione dei biglietti: Validare i biglietti dell'autobus/tram nelle macchine gialle. Gli ispettori sono spietati e prendono di mira i turisti.",
+      "Fontane d'acqua (Nasoni): Le fontane d'acqua per strada scorrono costantemente con acqua vulcanica fredda e pulita. Beva da esse! Porti una bottiglia riutilizzabile."
+    ],
+    "essential_phrases": [
+      {
+        "src": "Hello / Goodbye",
+        "local": "Ciao",
+        "phonetic": "CHOW (informale)"
+      },
+      {
+        "src": "Good morning/day",
+        "local": "Buongiorno",
+        "phonetic": "bwon-JOR-no (formale)"
+      },
+      {
+        "src": "Thank you",
+        "local": "Grazie",
+        "phonetic": "GRAHT-see-eh"
+      },
+      {
+        "src": "The bill please",
+        "local": "Il conto, per favore",
+        "phonetic": "eel KON-toh"
+      },
+      {
+        "src": "Excuse me",
+        "local": "Scusi / Permesso",
+        "phonetic": "SKOO-zee (attenzione) / per-MESS-oh (passando)"
+      }
+    ]
+  },
+  "neighborhoods": {
+    "name": "Trastevere",
+    "vibe": "Affascinante & Vivace",
+    "description": "Edifici coperti di edera, strade acciottolate e vita notturna intensa. Bellissimo di giorno, una festa di strada di notte. Diventa molto affollato, ma il fascino è innegabile.",
+    "highlights": [
+      "Piazza Santa Maria",
+      "Villa Farnesina",
+      "Vita notturna"
+    ],
+    "image": "/images/rome/trastevere.jpg"
+  },
+  "logistics": {
+    "id": "logistics-transit",
+    "slug": "getting-around",
+    "title": "Muoversi",
+    "icon": "Treno",
+    "summary": "Camminare ogni volta che è possibile. I trasporti pubblici sono notoriamente inaffidabili.",
+    "details": [
+      "Camminare: Il centro storico è compatto. È il modo migliore per vedere la città. Indossare scarpe comode; i sanpietrini sono impietosi.",
+      "Metro: Solo 3 linee (A, B, C). Utile per attraversare la città (ad esempio, dal Vaticano a Termini), ma inutile per il centro storico. Attenzione: la Metro A chiude presto (21:00) per lavori frequenti—controllare gli orari.",
+      "Biglietti (BIT): Un biglietto standard (€1,50) dura 100 minuti. È OBBLIGATORIO convalidarlo nelle macchine gialle su autobus/tram. I controllori prendono di mira i turisti con biglietti non convalidati.",
+      "App Taxi: Non fermare un taxi per strada (non si fermeranno). Usare 'FreeNow' o andare a una fermata taxi designata. Uber è disponibile ma solo 'Black' (costoso)."
+    ]
+  },
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "carbonara",
+      "name_en": "Carbonara",
+      "name_local": "Carbonara",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "La carbonara è un piatto di pasta romano preparato con tuorli d'uovo, formaggio Pecorino Romano, guanciale e pepe nero—assolutamente nulla di panna. Il calore della pasta cuoce l'uovo crudo in una salsa setosa e cremosa che riveste ogni filo. È il piatto più emblematico di Roma, feroce protetto dai locali che considerano l'aggiunta di panna un crimine culinario.",
+        "vibe": "Gustoso, tradizionale",
+        "history": "Le origini della carbonara sono dibattute, ma probabilmente sono apparse a Roma a metà del XX secolo. Il piatto si basa su una tecnica precisa: l'uovo deve rivestire la pasta senza coagulare. Deve essere fatto con guanciale, mai con bacon o pancetta.",
+        "insider_tip": "Se il menu indica panna nella carbonara, uscite immediatamente—è una trappola per turisti. Chieda durante il pranzo quando le cucine sono più fresche. Le forme di pasta tradizionali sono i rigatoni o i tonnarelli.",
+        "price_level": "Moderato",
+        "good_for": [
+          "Gastronomi",
+          "Neofiti"
+        ],
+        "duration": "30-45 minuti",
+        "best_time": "Pranzo"
+      },
+      "image": "/images/rome/carbonara.jpg"
+    },
+    {
+      "id": "food-015",
+      "slug": "trattoria-hierarchy",
+      "name_en": "La Règle de la Trattoria",
+      "name_local": "Trattoria Romana",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Una trattoria è un ristorante italiano familiare e informale che serve cucina regionale semplice a prezzi accessibili, tipicamente con tovaglie di carta e menu scritti a mano. Le vere trattorie non fanno mai pubblicità, non hanno mai menu in inglese con foto e non danno mai la priorità ai turisti. Sono rumorose perché i romani parlano ad alta voce, strette perché lo spazio è costoso e servono piatti che i locali mangiano ogni giorno.",
+        "vibe": "Autentica, senza pretese",
+        "history": "Le trattorie sono emerse come ristoranti per le classi popolari, in contrasto con i ristoranti formali. Negli anni '80 e '90, con l'esplosione del turismo, sono proliferate false trattorie attorno ai monumenti con menu plastificati in sei lingue.",
+        "insider_tip": "Cercate tovaglie di carta, menu scritti a mano su lavagne, e locali che mangiano da soli leggendo giornali. Se c'è un 'menu turistico' o foto, è falso. I luoghi autentici si trovano nei quartieri residenziali.",
+        "price_level": "Accessibile",
+        "good_for": [
+          "Viaggiatori con budget limitato",
+          "Gourmet"
+        ],
+        "duration": "1-2 ore",
+        "best_time": "Pranzo o Cena"
+      },
+      "image": "/images/rome/trattoria.jpg"
+    },
+    {
+      "id": "food-016",
+      "slug": "roman-fried-food",
+      "name_en": "Frituras (Fritti)",
+      "name_local": "I Fritti",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le friture sono antipasti fritti che si servono prima della pasta o della pizza, tra cui supplì (palle di riso fritte con mozzarella), fiori di zucca (fiori di zucchine fritti) e crocchette di patate. Sono croccanti, caldi, si mangiano con le mani e sono centrali nella gastronomia romana. È un rituale sociale: si ordina un piatto per il tavolo e tutti si servono.",
+        "vibe": "Croccante, comunitario",
+        "history": "La cultura del cibo fritto a Roma risale al Ghetto ebraico, dove la frittura nell'olio d'oliva è diventata una forma d'arte. La tecnica è importante: l'olio deve essere estremamente caldo, la pastella leggera e gli articoli devono essere serviti subito.",
+        "insider_tip": "Chieda i supplì al telefono: la mozzarella si allunga come un filo telefonico quando morde. I fiori di zucca devono essere mangiati entro 2 minuti, altrimenti diventano molli. Si trovano in qualsiasi trattoria o friggitoria.",
+        "price_level": "Accessibile",
+        "good_for": [
+          "Gruppi",
+          "Antipasti"
+        ],
+        "duration": "Breve",
+        "best_time": "In qualsiasi momento"
+      },
+      "image": "/images/rome/fritti.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "cacio-e-pepe",
+      "name_en": "Cacio e Pepe",
+      "name_local": "Cacio e Pepe",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Cacio e Pepe è una pasta romana minimalista con solo tre ingredienti: formaggio pecorino, pepe nero e acqua di cottura della pasta. Il formaggio deve essere grattugiato finemente e riscaldato con acqua calda di cottura della pasta per creare un'emulsione liscia, senza grumi. Nonostante la sua semplicità, richiede una tecnica estrema ed è diventata una prova della qualità di un ristorante.",
+        "vibe": "Semplice, elegante",
+        "history": "Cacio e Pepe era originariamente un piatto dei pastori nelle colline intorno a Roma: il pecorino era portatile, il pepe conservava il cibo e la pasta secca veniva cotta sul fuoco. Molti chef falliscono perché è un piatto implacabile.",
+        "insider_tip": "Chieda di provarlo come primo piatto per valutare la qualità della cucina. Se arriva con grumi o olio, il ristorante non lo prende sul serio. Chieda sempre tonnarelli, mai spaghetti.",
+        "price_level": "Moderato",
+        "good_for": [
+          "Gourmet",
+          "Minimalisti"
+        ],
+        "duration": "30-45 minuti",
+        "best_time": "Pranzo o cena"
+      },
+      "image": "/images/rome/cacio-pepe.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "amatriciana",
+      "name_en": "Amatriciana",
+      "name_local": "Amatriciana",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "L'Amatriciana è un sugo a base di pomodoro per pasta con guanciale, pecorino e peperoncino. Proviene da Amatrice, una città di montagna distrutta da un terremoto nel 2016. La ricetta è legalmente protetta: è consentita solo la combinazione di guanciale, pecorino, pomodoro, vino bianco e peperoncino - le cipolle e l'aglio sono vietati dai puristi.",
+        "vibe": "Robusta, piccante",
+        "history": "Il piatto originale non conteneva pomodoro (i pomodori sono arrivati in Italia nel XVI secolo). Dopo il terremoto del 2016, i romani si sono mobilitati attorno al piatto, con i ristoranti che donavano i profitti agli sforzi di ricostruzione.",
+        "insider_tip": "Il 24 agosto è il Giorno dell'Amatriciana a Roma, in commemorazione del terremoto. Ordini bucatini, la pasta tradizionale spessa e cava che trattiene perfettamente il sugo.",
+        "price_level": "Moderato",
+        "good_for": [
+          "Amanti della pasta",
+          "Gourmet"
+        ],
+        "duration": "30-45 minuti",
+        "best_time": "Pranzo o Cena"
+      },
+      "image": "/images/rome/amatriciana.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "roman-artichokes",
+      "name_en": "Alcachofe alla romana",
+      "name_local": "Carciofi alla Romana / Giudia",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le alcachofe alla romana si presentano in due modi: carciofi alla romana (cottura lenta con aglio, menta e olio d'oliva) e carciofi alla giudia (fritte intere fino a diventare croccanti come petali di fiori). Entrambe utilizzano la varietà tenera di alcachofa romanesco, apprezzata per l'assenza di peluria interna. Le alcachofe sono un'ossessione stagionale a Roma da novembre ad aprile.",
+        "vibe": "Stagionale, delicato",
+        "history": "Le carciofi alla giudia sono nate nel Ghetto ebraico nel XVI secolo. La versione fritta richiede alcachofe enormi che vengono sbattute contro un tavolo per aprire le foglie, poi vengono immerse due volte in olio bollente.",
+        "insider_tip": "La stagione ottimale è da febbraio a marzo, quando il loro sapore raggiunge il suo apice. Mangiatele con le mani, foglia per foglia. Disponibili in tutti i ristoranti tradizionali romani durante la stagione delle alcachofe.",
+        "price_level": "Moderato",
+        "good_for": [
+          "Vegetariani",
+          "Amanti dei prodotti di stagione"
+        ],
+        "duration": "30-45 minuti",
+        "best_time": "Pranzo o Cena"
+      },
+      "image": "/images/rome/artichokes.jpg"
+    },
+    {
+      "id": "food-005",
+      "slug": "maritozzo",
+      "name_en": "Maritozzo",
+      "name_local": "Maritozzo",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Il maritozzo è un panino morbido e soffice, tagliato e farcito con panna montata; la copertura deve essere alta il doppio del pane. È una specialità della colazione romana, consumato come spuntino a metà mattina con un caffè, mai come dessert. Il pane deve essere dolce, leggermente zuccherato e spennellato con miele.",
+        "vibe": "Dolce, soffice",
+        "history": "Il maritozzo risale all'antica Roma come un pane semplice consumato durante la Quaresima. Il nome deriva da 'marito' perché i giovani nascondevano anelli all'interno per fare proposte di matrimonio. La versione farcita di crema è diventata uno standard nel XIX secolo.",
+        "insider_tip": "Vada prima delle 11 del mattino per ottenere i più freschi in qualsiasi panetteria. Chieda un 'caffè in ghiaccio' per bilanciare la dolcezza. Si trova nella maggior parte delle panetterie e caffè romani.",
+        "price_level": "Accessibile",
+        "good_for": [
+          "Colazione",
+          "Amanti dei dolci"
+        ],
+        "duration": "Capriccio veloce",
+        "best_time": "Mattina"
+      },
+      "image": "/images/rome/maritozzo.jpg"
+    },
+    {
+      "id": "food-006",
+      "slug": "roman-pizza",
+      "name_en": "Pizza a la romana",
+      "name_local": "Pizza Romana",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "La pizza romana è sottile, croccante, rettangolare e viene venduta al peso nelle panetterie (pizzerie al taglio). L'impasto contiene più olio d'oliva rispetto alla pizza napoletana, creando una crosta simile a un biscotto. È un cibo di strada tagliato con le forbici, mangiato in piedi, piegato come un panino. Le farciture sono semplici: margherita, patate e rosmarino, o fiori di zucchina.",
+        "vibe": "Croccante, informale",
+        "history": "La pizza romana è emersa come cibo veloce negli anni '50, venduta al peso nelle panetterie. È un piatto da mezzogiorno o uno spuntino pomeridiano, mai una cena. La pizza bianca (solo olio d'oliva, sale e rosmarino) è consumata naturale o a fette per panini.",
+        "insider_tip": "Vendono al peso—indichi con il dito ciò che desidera. Mangiatela immediatamente mentre è calda. Disponibile nelle pizzerie al taglio della città.",
+        "price_level": "Accessibile",
+        "good_for": [
+          "Pranzo veloce",
+          "Per budget limitati"
+        ],
+        "duration": "Spuntino veloce",
+        "best_time": "Pranzo"
+      },
+      "image": "/images/rome/roman-pizza.jpg"
+    },
+    {
+      "id": "food-007",
+      "slug": "gricia",
+      "name_en": "Gricia",
+      "name_local": "Gricia",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "La Gricia è la pasta romana più antica: carbonara senza uovo o amatriciana senza pomodoro. Contiene solo guanciale, pecorino, pepe nero e acqua di pasta. Alcuni dicono che sia la pasta originale dei pastori prima dell'aggiunta di pomodori o uova. Nonostante il suo status di base delle paste romane, è la meno conosciuta, oscurata dai suoi discendenti.",
+        "vibe": "Rustico e charcutier",
+        "history": "Il nome deriva forse da una città svizzera o da 'gricio', un panettiere locale. I puristi considerano che sia l'espressione più pura dell'armonia tra maiale e formaggio.",
+        "insider_tip": "Ordini in una trattoria per valutare la qualità del guanciale—non c'è spazio per nascondere ingredienti scadenti. I rigatoni sono la forma classica di pasta per la gricia.",
+        "price_level": "Moderato",
+        "good_for": [
+          "Puristi",
+          "Amanti del maiale"
+        ],
+        "duration": "30-45 minuti",
+        "best_time": "Pranzo o Cena"
+      },
+      "image": "/images/rome/gricia.jpg"
+    },
+    {
+      "id": "food-008",
+      "slug": "porchetta",
+      "name_en": "Porchetta",
+      "name_local": "Porchetta",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "La porchetta è un maiale intero, disossato e farcito con finocchio selvatico, aglio, rosmarino e pepe nero, poi arrostito su uno spiedo per oltre 8 ore fino a quando la pelle diventa croccante. Viene tagliata spessa e servita su pane croccante come un panino. La porchetta è cibo da strada, di mercato ed un piatto tipico del pranzo domenicale presente nei mercati e nei furgoni di porchetta.",
+        "vibe": "Carni, aromatico",
+        "history": "La porchetta proviene dalle colline dei Castelli Romani a sud-est di Roma, tradizionalmente preparata per festival. I furgoni di porchetta compaiono durante festival e nei mercati di tutto il Lazio. Le migliori provengono da Ariccia, dove è un alimento protetto.",
+        "insider_tip": "Trovi la porchetta nei mercati come il mercato di Testaccio. Chieda 'con ciccioli' (pezzi di pelle croccante) mescolati dentro. Mangii in piedi immediatamente; il grasso si indurisce quando si raffredda.",
+        "price_level": "Accessibile",
+        "good_for": [
+          "Amanti della carne",
+          "Mercati"
+        ],
+        "duration": "Breve",
+        "best_time": "Pranzo"
+      },
+      "image": "/images/rome/porchetta.jpg"
+    },
+    {
+      "id": "food-009",
+      "slug": "gelato-rules",
+      "name_en": "Gelato (Le regole)",
+      "name_local": "Gelato Artigianale",
+      "category": "alimentazione",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Il gelato è un gelato italiano preparato a una velocità più lenta, con meno aria e grasso rispetto al gelato americano, risultando in una consistenza più densa e un sapore più intenso. Il vero gelato artigianale è prodotto quotidianamente in piccole quantità, conservato in contenitori metallici coperti e presenta colori naturali attenuati. Il pistacchio deve essere marrone-verde, non neon; la banana deve essere grigio-bianca, non gialla. Se impilato in colori vivaci sopra, è un gelato industriale falso.",
+        "vibe": "Crema, artigianale",
+        "history": "Il gelato è prodotto in Italia sin dal Rinascimento. Negli anni 2000, le false gelaterie hanno cominciato a moltiplicarsi con gelato industriale prefabbricato e colori artificiali progettati per attrarre i turisti.",
+        "insider_tip": "Il vero gelato è conservato piatto in contenitori coperti, non impilato in alto. Eviti i posti vicino a grandi monumenti. Provi sempre prima di acquistare. Cerchi le gelaterie che mostrano 'produzione propria' (fatto in loco).",
+        "price_level": "Accessibile",
+        "good_for": [
+          "Tutti",
+          "Amanti dei dolci"
+        ],
+        "duration": "Veloce",
+        "best_time": "Da pomeriggio"
+      },
+      "image": "/images/rome/gelato.jpg"
+    },
+    {
+      "id": "food-010",
+      "slug": "trippa",
+      "name_en": "Ragoût de tripes",
+      "name_local": "Trippa alla Romana",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "La trippa è lo stomaco di manzo cotto lentamente in una salsa di pomodoro con menta e pecorino. È una pratica di consumo a testa e piedi che proviene dalla cultura dei macelli di Roma, a Testaccio. La trippa deve essere lavata, bollita e poi stufata per ore fino a quando non diventa tenera. La consistenza è scivolosa e gommosa, il che divide i commensali che non sono familiari con le interiora.",
+        "vibe": "Tradizionale, sfidante",
+        "history": "La trippa era un alimento per i poveri, che richiedeva ore di preparazione. È un piatto del pranzo del sabato nelle trattorie tradizionali. I giovani romani ormai quasi non la mangiano più, rendendola sempre più rara nei menù.",
+        "insider_tip": "Richiedetela solo nelle trattorie storiche, specialmente a Testaccio. Tradizionalmente è un piatto del sabato. Gustatela con pane per assorbire la salsa.",
+        "price_level": "Accessibile",
+        "good_for": [
+          "Commensali avventurosi",
+          "Amanti delle interiora"
+        ],
+        "duration": "1 ora",
+        "best_time": "Pranzo del sabato"
+      },
+      "image": "/images/rome/trippa.jpg"
+    },
+    {
+      "id": "food-011",
+      "slug": "saltimbocca",
+      "name_en": "Saltimbocca",
+      "name_local": "Saltimbocca alla Romana",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Il saltimbocca è una sottile fetta di manzo coperta con prosciutto e una foglia di salvia, tenuto con uno stuzzicadenti, e poi saltato in burro e vino bianco. Il suo nome significa 'salta in bocca', in riferimento al suo sapore esplosivo. Il tempo di cottura è inferiore a 5 minuti: cuocerlo troppo rende la carne dura. È un secondo piatto servito dopo la pasta.",
+        "vibe": "Elegante, delicato",
+        "history": "Il saltimbocca proviene probabilmente da Brescia, ma è stato adottato dalla cucina romana negli anni 1800. Tradizionalmente viene accompagnato con contorni semplici come spinaci o patate arrosto.",
+        "insider_tip": "Chiedetelo a pranzo quando il manzo è più fresco. Se il menu offre saltimbocca di pollo, è una versione economica: la ricetta tradizionale utilizza solo manzo. Mangiatelo immediatamente; non si riscalda bene.",
+        "price_level": "Costoso",
+        "good_for": [
+          "Gastronomia",
+          "Amanti del manzo"
+        ],
+        "duration": "1-2 ore",
+        "best_time": "Pranzo"
+      },
+      "image": "/images/rome/saltimbocca.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "jewish-ghetto-food",
+      "name_en": "Comida del Ghetto Judío",
+      "name_local": "Cucina Giudaico-Romanesca",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "La cucina del Ghetto Ebraico è una fusione di 500 anni di leggi alimentari ebraiche con ingredienti romani, tra cui i carciofi alla giudia, la concia e il baccalà. La frittura nell'olio d'oliva è diventata centrale poiché il burro non poteva essere mescolato con la carne secondo la legge kosher. Questi piatti si trovano nel quartiere del Ghetto Ebraico e in molti ristoranti romani tradizionali.",
+        "vibe": "Storico, fritto",
+        "history": "Il Ghetto Ebraico di Roma fu istituito nel 1555. Nonostante le persecuzioni, emerse una cucina unica. Dopo la demolizione del ghetto nel 1888, questi piatti si integrarono nella cucina romana comune. Molte ricette sono ancora preparate da famiglie ebree dopo più di 400 anni.",
+        "insider_tip": "Mangiare nel Ghetto stesso per un'esperienza autentica. Provate la concia di zucchine—è sconosciuta al di fuori di Roma. Evitate la domenica quando i luoghi kosher sono chiusi per lo Shabbat.",
+        "price_level": "Moderato",
+        "good_for": [
+          "Appassionati di storia",
+          "Gourmet"
+        ],
+        "duration": "1-2 ore",
+        "best_time": "Pranzo o Cena"
+      },
+      "image": "/images/rome/jewish-food.jpg"
+    },
+    {
+      "id": "food-013",
+      "slug": "espresso-culture",
+      "name_en": "Regole dell'Espresso",
+      "name_local": "Caffè",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "L'espresso (chiamato 'caffè' in Italia) è una dose di caffè concentrato consumata in meno di 60 secondi in piedi al bar. Sedersi comporta un supplemento di 2-4 €. Il cappuccino è rigorosamente una bevanda da colazione prima delle 11; ordinarlo dopo pranzo la etichetta come turista. I romani bevono caffè (espresso) dopo i pasti con un piccolo bicchiere d'acqua.",
+        "vibe": "Veloce, rituale",
+        "history": "La cultura dell'espresso è arrivata a Roma nel 1900 con le macchine moderne. Il rituale è sociale: Lei si ferma nel suo bar locale due volte al giorno, saluta il barista per nome e scambia pettegolezzi del quartiere mentre gusta.",
+        "insider_tip": "Nei bar, paghi prima alla cassa, prenda la ricevuta al bar e poi faccia il suo ordine. Non chieda 'espresso'—dica 'un caffè.' Per un caffè forte, chieda 'caffè ristretto.'",
+        "price_level": "Accessibile",
+        "good_for": [
+          "Tutti",
+          "Amanti del caffè"
+        ],
+        "duration": "2 minuti",
+        "best_time": "Mattina o dopo i pasti"
+      },
+      "image": "/images/rome/espresso.jpg"
+    },
+    {
+      "id": "food-014",
+      "slug": "wine-strategy",
+      "name_en": "Cultura vitivinícola romana",
+      "name_local": "Vino Laziale",
+      "category": "cibo",
+      "is_generic_staple": true,
+      "description": {
+        "short": "La cultura vitivinícola romana si concentra sui vini bianchi di Frascati e dei Castelli Romani, prodotti con uve Malvasia e Trebbiano. La tradizione di ordinare 'vino della casa' alla spina è ancora forte: il vino della casa è locale, economico (8-12 € al litro) e perfetto per un consumo quotidiano. I romani considerano il vino come un accompagnamento ai pasti, non come un evento.",
+        "vibe": "Semplice, locale",
+        "history": "Le colline dei Castelli Romani producono vino bianco fin dall'antichità romana. Storicamente, i romani bevevano vino ad ogni pasto, diluito con acqua. Lo snobismo vinicolo è meno comune che in Toscana.",
+        "insider_tip": "Richieda sempre vino bianco della casa in caraffa da mezzo litro: costa 4-6 € e si abbina perfettamente alla cucina romana. Eviti bottiglie costose nelle trattorie; non sono necessarie.",
+        "price_level": "Accessibile",
+        "good_for": [
+          "Pasti",
+          "Amanti del vino bianco"
+        ],
+        "duration": "Con il pasto",
+        "best_time": "Pranzo o Cena"
+      },
+      "image": "/images/rome/wine.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Vita Quotidiana",
+      "id": "daily-life",
+      "items": [
+        {
+          "id": "lif-001",
+          "slug": "market-culture",
+          "name_en": "Mercati del Mattino",
+          "name_local": "Mercato Rionale",
+          "category": "sight",
+          "is_generic_staple": true,
+          "description": {
+            "short": "I mercati rionali sono mercati di quartiere dove i romani acquistano prodotti freschi ogni giorno: luoghi vivaci e funzionali che chiudono alle 14h. I venditori urlano i prezzi, discutono con i clienti abituali e vendono ingredienti di stagione. I romani fanno la spesa quotidianamente perché i frigoriferi sono piccoli e la tradizione è comprare ciò che è di stagione e mangiarlo lo stesso giorno.",
+            "vibe": "Caotico, autentico",
+            "history": "I mercati romani esistono fin dall'antichità. Campo de' Fiori è attivo dal 1869, anche se ora è frequentato dai turisti. Il Mercato di Testaccio, ricostruito nel 2012, è ancora prevalentemente locale. L'atmosfera è un caos funzionale, non molto adatta per Instagram.",
+            "insider_tip": "Visiti il Mercato di Testaccio tra le 9h e le 11h per un'esperienza autentica. Comprate frutta di stagione per uno spuntino: i venditori la taglieranno per Lei. Non faccia foto di persone senza chiedere.",
+            "price_level": "Conveniente",
+            "good_for": [
+              "Mattinieri",
+              "Gourmet"
+            ],
+            "duration": "1 ora",
+            "best_time": "Mattina (9h-11h)"
+          },
+          "image": "/images/rome/market.jpg"
+        },
+        {
+          "id": "lif-002",
+          "slug": "night-rome",
+          "name_en": "Roma di Notte",
+          "name_local": "Roma di Notte",
+          "category": "sight",
+          "is_generic_staple": true,
+          "description": {
+            "short": "Roma si trasforma dopo il tramonto con antiche rovine drammaticamente illuminate, aria più fresca e piazze piene di gente del posto. Passeggiare di notte è una tradizione sin dall'epoca del Grand Tour (1600-1800). Le folle del giorno scompaiono e la città torna ad appartenere ai suoi abitanti.",
+            "vibe": "Magica, silenziosa",
+            "history": "I monumenti della città sono stati illuminati sistematicamente per la prima volta negli anni 1930. Un'illuminazione LED moderna installata negli anni 2000 mette in evidenza in modo spettacolare il Colosseo, la Fontana di Trevi e il Foro. I romani hanno la tradizione della 'passeggiata' dopo cena.",
+            "insider_tip": "Cammini da Piazza Venezia al Colosseo tra le 22h e mezzanotte per la migliore illuminazione e senza folle. In estate, controlli il festival Lungo il Tevere per bar lungo l'acqua.",
+            "price_level": "Conveniente",
+            "good_for": [
+              "Fotografi",
+              "Coppie"
+            ],
+            "duration": "2-3 ore",
+            "best_time": "Notte (22h-mezzanotte)"
+          },
+          "image": "/images/rome/night-rome.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Icone Antiche",
+      "id": "ancient",
+      "items": [
+        {
+          "id": "anc-001",
+          "slug": "colosseum",
+          "name_en": "Colosseo",
+          "name_local": "Colosseo",
+          "category": "sito",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Il Colosseo è l'anfiteatro più grande mai costruito, edificato tra il 70 e l'80 d.C. per ospitare da 50.000 a 80.000 spettatori per combattimenti di gladiatori, cacce di animali ed esecuzioni. Il suolo poteva allagarsi per simulazioni di battaglie navali. È il monumento più visitato d'Italia e il simbolo definitivo del potere dell'antica Roma.",
+            "vibe": "Monumentale, antico",
+            "history": "Dopo la caduta di Roma, fu sfruttato per i suoi materiali da costruzione: venne rimosso marmo per la basilica di San Pietro. L'ipogeo (gallerie sotterranee dove gladiatori e animali attendevano) ha aperto ai turisti solo nel 2010.",
+            "insider_tip": "Prenoti il biglietto 'Esperienza Completa' online 2-4 settimane prima: include l'accesso all'ipogeo e al pavimento dell'arena, molto più interessante della visita standard. Vada alle 8 del mattino o nel pomeriggio.",
+            "price_level": "Caro",
+            "good_for": [
+              "Appassionati di storia",
+              "Visitatori novizi"
+            ],
+            "duration": "2-3 ore",
+            "best_time": "Presto al mattino o tardi nel pomeriggio"
+          },
+          "image": "/images/rome/colosseum.jpg",
+          "geo": {
+            "lat": 41.8902,
+            "lng": 12.4922
+          }
+        },
+        {
+          "id": "anc-002",
+          "slug": "pantheon",
+          "name_en": "Pantheon",
+          "name_local": "Pantheon",
+          "category": "sito",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Il Pantheon è l'edificio meglio conservato dell'antica Roma, costruito nel 126 d.C. dall'imperatore Adriano. La sua cupola in cemento si è mantenuta come la cupola non rinforzata più grande del mondo per 1.300 anni. L'oculus (foro di 9 metri in cima alla cupola) è l'unica fonte di luce e permette alla pioggia di cadere direttamente sul pavimento di marmo con fori di drenaggio.",
+            "vibe": "Impressionante, architettonico",
+            "history": "È sopravvissuto intatto perché fu convertito in chiesa nel 609 d.C. Le proporzioni dell'edificio sono matematicamente perfette: il diametro della cupola corrisponde alla sua altezza. Nel 2023, ha cominciato a far pagare ingresso per la prima volta.",
+            "insider_tip": "Vada non appena apre (9 del mattino) prima dell'arrivo dei gruppi di turisti. Visiti in una giornata di pioggia per vedere l'acqua cadere attraverso l'oculus: è drammatico. Acquisti i biglietti online per evitare le code.",
+            "price_level": "Accessibile",
+            "good_for": [
+              "Amanti dell'architettura",
+              "Appassionati di storia"
+            ],
+            "duration": "30-45 minuti",
+            "best_time": "Presto al mattino"
+          },
+          "image": "/images/rome/pantheon.jpg",
+          "geo": {
+            "lat": 41.8986,
+            "lng": 12.4769
+          }
+        }
+      ]
+    },
+    {
+      "title": "Tesori nascosti e panorami",
+      "id": "hidden",
+      "items": [
+        {
+          "id": "gem-001",
+          "slug": "san-luigi",
+          "name_en": "San Luigi dei Francesi",
+          "name_local": "San Luigi",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "San Luigi dei Francesi è una chiesa che contiene tre grandi dipinti di Caravaggio nella cappella Contarelli: La Vocazione, L'ispirazione e Il Martirio di San Matteo (1599-1602). Questi dipinti hanno rivoluzionato l'arte per l'uso drammatico della luce e dell'ombra. L'ingresso è gratuito, il che rende questo luogo uno dei migliori tesori artistici di Roma.",
+            "vibe": "Intimo, drammatico",
+            "history": "La chiesa è stata costruita nel 1589 come chiesa nazionale francese a Roma. La cappella è piccola e buia; i dipinti sono illuminati da luci a moneta (€1 per 3 minuti). Molti turisti passano senza rendersi conto che qui si trovano tre capolavori.",
+            "insider_tip": "Porti monete da 1 € per illuminare i dipinti: l'effetto è teatrale. Visiti a mezzogiorno quando la chiesa è più tranquilla. Avvicinati per vedere i dettagli incredibili dei volti e delle mani.",
+            "price_level": "Accessibile",
+            "good_for": [
+              "Amanti dell'arte",
+              "Viaggiatori con budget limitato"
+            ],
+            "duration": "20-30 minuti",
+            "best_time": "Mezzogiorno"
+          },
+          "image": "/images/rome/san-luigi.jpg",
+          "geo": {
+            "lat": 41.8996,
+            "lng": 12.4731
+          }
+        },
+        {
+          "id": "gem-002",
+          "slug": "orange-garden",
+          "name_en": "The Orange Garden",
+          "name_local": "Giardino degli Aranci",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Il Giardino degli Aranci è un piccolo parco situato sulla cima del Colle Aventino con la migliore vista sul tramonto a Roma: la cupola di San Pietro incorniciata perfettamente da pini sopra il Tevere. Il giardino è stato creato nel 1932 quando la città ha piantato aranci amari (non commestibili). È un segreto locale per vedere il tramonto, anche se sta diventando sempre più popolare.",
+            "vibe": "Romantico, tranquillo",
+            "history": "Il parco si trova su una delle sette colline originali di Roma. Nel secolo XIII, era il sito di una fortezza per i Cavalieri Templari. La basilica adiacente di Santa Sabina è una delle chiese più antiche di Roma (secolo V).",
+            "insider_tip": "Arrivi 45 minuti prima del tramonto per trovare una panchina. La vista è migliore in inverno/primavera quando l'aria è più chiara. Il giardino chiude al calar della notte.",
+            "price_level": "Accessibile",
+            "good_for": [
+              "Coppie",
+              "Fotografi"
+            ],
+            "duration": "1 ora",
+            "best_time": "Tramonto"
+          },
+          "image": "/images/rome/orange-garden.jpg",
+          "geo": {
+            "lat": 41.8845,
+            "lng": 12.4797
+          }
+        },
+        {
+          "id": "gem-003",
+          "slug": "gianicolo",
+          "name_en": "Gianicolo Hill",
+          "name_local": "Gianicolo",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Il Gianicolo è il punto di vista più alto di Roma con panorami a 360° su tutta la città. Un cannone viene sparato ogni giorno a mezzogiorno dalla terrazza dal 1847 per sincronizzare gli orologi della città. La terrazza offre la migliore vista generale: tutte e sette le colline, il Vaticano e gli Appennini.",
+            "vibe": "Panoramico, ventilato",
+            "history": "Il Gianicolo non è una delle sette colline originali di Roma, ma è il punto più alto. Durante l'assedio di Roma nel 1849, le forze di Garibaldi difesero la città qui. La statua equestre di Garibaldi è stata eretta nel 1895.",
+            "insider_tip": "Visiti alle 11:55 per vedere lo sparo del cannone a mezzogiorno: è rumoroso e drammatico. La salita è ripida; prenda l'autobus 115 da Trastevere. Eviti mezzogiorno in estate, poiché non c'è ombra.",
+            "price_level": "Accessibile",
+            "good_for": [
+              "Panorami",
+              "Famiglie"
+            ],
+            "duration": "1 ora",
+            "best_time": "Prima di mezzogiorno"
+          },
+          "image": "/images/rome/gianicolo.jpg",
+          "geo": {
+            "lat": 41.8914,
+            "lng": 12.4616
+          }
+        }
+      ]
+    },
+    {
+      "title": "Città del Vaticano",
+      "id": "vatican",
+      "items": [
+        {
+          "id": "vat-001",
+          "slug": "st-peters",
+          "name_en": "Basilica di San Pietro",
+          "name_local": "Basilica di San Pietro",
+          "category": "sito",
+          "is_generic_staple": false,
+          "description": {
+            "short": "La basilica di San Pietro è la chiesa più grande del mondo e il centro del cattolicesimo, costruita sulla tomba di San Pietro. L'attuale struttura rinascimentale è stata edificata tra il 1506 e il 1626 sotto vari papi. Michelangelo ha progettato la iconica cupola a 71 anni. Ospita capolavori di Michelangelo, Bernini e Raffaello. L'ingresso è gratuito, ma le code possono durare più di 2 ore.",
+            "vibe": "Opulento, massiccio",
+            "history": "La basilica originale fu costruita da Costantino nel 326 d.C. Ci vollero 120 anni per completarla e portò alla rovina il papa, finanziando in parte la Riforma Protestante. Bernini progettò il colonnato circostante negli anni 1660.",
+            "insider_tip": "Arrivi all'apertura alle 7:00 per evitare completamente le code. L'ingresso è gratuito, ma salire sulla cupola costa 10 € (ascensore + scale) - la vista ne vale la pena. Codice di abbigliamento: niente spalle o ginocchia visibili.",
+            "price_level": "Accessibile",
+            "good_for": [
+              "Cattolici",
+              "Amanti dell'architettura"
+            ],
+            "duration": "2-3 ore",
+            "best_time": "Presto al mattino (7:00)"
+          },
+          "image": "/images/rome/st-peters.jpg",
+          "geo": {
+            "lat": 41.9029,
+            "lng": 12.4534
+          }
+        },
+        {
+          "id": "vat-002",
+          "slug": "vatican-museums",
+          "name_en": "Musei Vaticani",
+          "name_local": "Musei Vaticani",
+          "category": "sito",
+          "is_generic_staple": false,
+          "description": {
+            "short": "I Musei Vaticani contengono 7 km di corridoi con una delle collezioni d'arte più grandi del mondo, culminando nella Cappella Sistina con il soffitto di Michelangelo (dipinto dal 1508 al 1512). I musei ospitano reperti egizi, statue greche, dipinti rinascimentali e arazzi accumulati per 500 anni. Più di 6 milioni di persone li visitano ogni anno, rendendo il luogo estremamente affollato.",
+            "vibe": "Affollato, di classe mondiale",
+            "history": "I musei iniziarono nel 1506 quando Papa Giulio II posizionò antiche sculture nel Cortile Ottagono. La Cappella Sistina è l'ultima sala; la fotografia e le discussioni sono vietate.",
+            "insider_tip": "Prenoti la visita 'Presto al mattino' alle 7:30 - vedrà la Cappella Sistina quasi vuota. L'ingresso regolare è alle 9:00 e si riempie immediatamente. Prenoti almeno 3-4 ore. Indossi scarpe comode.",
+            "price_level": "Costosi",
+            "good_for": [
+              "Amanti dell'arte",
+              "Cattolici"
+            ],
+            "duration": "3-4 ore",
+            "best_time": "Presto al mattino (7:30)"
+          },
+          "image": "/images/rome/vatican-museums.jpg",
+          "geo": {
+            "lat": 41.9067,
+            "lng": 12.4525
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "8:00",
+      "title": "Cappuccino e Cornetto a Trastevere",
+      "description": "Iniziate a Trastevere, il quartiere più affascinante di Roma. Trovate un bar locale e ordinate un cappuccino e un cornetto al bancone—sedersi costa il doppio. I romani bevono cappuccino solo fino alle 11; dopo, è espresso. Le strade acciottolate sono deserte a quest'ora, la luce dorata filtra attraverso gli edifici ricoperti di edera. È la Roma de La Dolce Vita.",
+      "image": "/images/rome/trastevere-morning.jpg"
+    },
+    {
+      "time": "9h30",
+      "title": "Musei Vaticani e Cappella Sistina",
+      "description": "Prenoti i biglietti in anticipo (8h30) diverse settimane prima: è l'unico modo per vedere la Cappella Sistina senza essere schiacciati. Il soffitto di Michelangelo è impressionante, ma la sicurezza la invita a uscire rapidamente. La Galleria delle Mappe e le Stanze di Raffaello sono altrettanto belle e meno affollate. Esca nella basilica di San Pietro (gratuito) per vedere la Pietà di Michelangelo. La Città del Vaticano si estende su 0,44 chilometri quadrati di arte straordinaria.",
+      "image": "/images/rome/vatican-morning.jpg",
+      "ticket_link": "https://www.getyourguide.com/vatican-city-l136/vatican-museums-sistine-chapel-skip-the-line-ticket-t52643/"
+    },
+    {
+      "time": "13h00",
+      "title": "Pranzo: Cacio e Pepe nel Centro Storico",
+      "description": "Cammini verso il centro storico per pranzare in una trattoria tradizionale. Ordini cacio e pepe (pasta con pecorino e pepe nero) - il piatto emblematico di Roma, che sembra semplice ma raramente si padroneggia. Aggiunga Flavio al Velavevodetto o Felice a Testaccio alla sua lista. Accompagni con una caraffa di vino bianco della casa. I romani pranzano per 2 ore o più - adotti questo ritmo. Non prenda cappuccino dopo i pasti; è un segno per i turisti.",
+      "image": "/images/rome/cacio-e-pepe2.jpg"
+    },
+    {
+      "time": "15h30",
+      "title": "Colosseo & Foro Romano",
+      "description": "Prenoti un biglietto combinato (Colosseo + Foro + Colle Palatino). Entri nel Colosseo dove 50.000 romani applaudivano un tempo i combattimenti dei gladiatori. Poi esplori il Foro, il cuore dell'antica Roma dove passeggiavano gli imperatori. Il Colle Palatino offre le migliori vedute delle rovine. Porti acqua; il caldo di Roma è brutale. Le pietre su cui cammina hanno 2.000 anni e sono ancora in piedi.",
+      "image": "/images/rome/colosseum-afternoon.jpg",
+      "ticket_link": "https://www.getyourguide.com/rome-l33/colosseum-roman-forum-palatine-hill-priority-access-t189736/"
+    },
+    {
+      "time": "18h00",
+      "title": "Ora d'oro alla Fontana di Trevi e Scalinata Spagnola",
+      "description": "Passeggi per le stradine fino alla Fontana di Trevi. Lanci una moneta sopra la spalla sinistra con la mano destra: la leggenda dice che tornerà a Roma. La fontana è bellissima ma affollata; goditela e prosegua. Cammini fino alla Scalinata Spagnola (15 min) per vedere il tramonto e osservare i passanti. Le scale sono un anfiteatro sociale dove i romani si riuniscono. Un gelato di Giolitti o Fassi nelle vicinanze è un must.",
+      "image": "/images/rome/trevi-golden-hour.jpg"
+    },
+    {
+      "time": "20h30",
+      "title": "Aperitivo e Cena a Monti",
+      "description": "Incontratevi a Monti, il quartiere hipster-bohemien di Roma. Iniziate con un aperitivo (18h-21h): ordinate un cocktail e gustate un buffet gratuito di stuzzichini, pizza, pasta e insalate. I romani lo chiamano 'aperitivo', non happy hour. Poi, passate alla cena: carbonara, amatriciana o saltimbocca alla romana. Concludete la serata passeggiando per le antiche strade, magari scoprendo una piazza nascosta. Roma non ha bisogno di discoteche: la città stessa è l'intrattenimento.",
+      "image": "/images/rome/monti-night.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Adattatore da viaggio per Italia (Tipo L)",
+      "image": "/images/rome/adapter.jpg",
+      "reason": "L'Italia ha una presa unica a 3 pini (Tipo L) oltre alla presa Euro standard. Indispensabile per la ricarica.",
+      "amazon_url": "https://www.amazon.com/s?k=italy+travel+adapter+type+l",
+      "category": "elettronica"
+    },
+    {
+      "id": "aff-002",
+      "title": "Borsa a tracolla antitaccheggio",
+      "image": "/images/rome/bag.jpg",
+      "reason": "I borseggiatori sugli autobus e nelle metropolitane sono abili. Una borsa con chiusura offre tranquillità.",
+      "amazon_url": "https://www.amazon.com/s?k=anti+theft+crossbody+bag",
+      "category": "sicurezza"
+    },
+    {
+      "id": "aff-003",
+      "title": "Bottiglia d'acqua riutilizzabile",
+      "image": "/images/rome/bottle.jpg",
+      "reason": "Roma dispone di migliaia di fontane d'acqua gratuite e fresche (nasoni). Riempi la tua gratuitamente tutto il giorno.",
+      "amazon_url": "https://www.amazon.com/s?k=reusable+water+bottle",
+      "category": "attività all'aperto"
+    }
+  ],
+  "lat": 41.9028,
+  "lng": 12.4964,
+  "region": "Europe"
+}

@@ -1,0 +1,1307 @@
+{
+  "id": "city-005",
+  "name": "曼谷",
+  "slug": "bangkok",
+  "country": "泰国",
+  "country_code": "th",
+  "hero_image": "/images/bangkok/hero.jpg",
+  "intro_vibe": "多中心生物：金色寺庙与霓虹灯混乱相遇，村庄错落，街头美食称王。",
+  "general_info": {
+    "population": "约1100万（城市）/ 约1600万（都市区）",
+    "is_capital": true,
+    "description": "曼谷是泰国的首都和人口最多的城市。与规划城市不同，它作为一个广阔的多中心有机体运作——由多个不相连的核心（历史、商业、住宅）组成，通过一个支离破碎的交通系统相连。要在2025年有效地导航，您必须理解其物流层面：穿梭于交通中的运河船、食品广场的“优惠券”经济，以及支配每次互动的“克仁佳”无形社交网络。"
+  },
+  "stats": {
+    "currency": "泰铢 (THB)",
+    "plug_type": "Type A/B/C"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "一月",
+      "temp": "21°C - 32°C",
+      "vibe": "凉爽干燥",
+      "pros": [
+        "最佳天气",
+        "晴空",
+        "低湿度"
+      ],
+      "cons": [
+        "旺季价格",
+        "拥挤"
+      ],
+      "clothing": "轻便衣物，防晒霜"
+    },
+    {
+      "id": 2,
+      "name": "二月",
+      "temp": "23°C - 33°C",
+      "vibe": "炎热干燥",
+      "pros": [
+        "天气依然很好",
+        "春节",
+        "节日"
+      ],
+      "cons": [
+        "变得更热",
+        "人群"
+      ],
+      "clothing": "轻便衣物，帽子"
+    },
+    {
+      "id": 3,
+      "name": "三月",
+      "temp": "25°C - 34°C",
+      "vibe": "非常炎热",
+      "pros": [
+        "宋干节准备",
+        "游客较少"
+      ],
+      "cons": [
+        "强烈的热量",
+        "污染（PM 2.5 峰值）"
+      ],
+      "clothing": "少量衣物，多喝水"
+    },
+    {
+      "id": 4,
+      "name": "四月",
+      "temp": "26°C - 35°C",
+      "vibe": "炎热",
+      "pros": [
+        "宋干节水祭",
+        "节日气氛"
+      ],
+      "cons": [
+        "最热月份",
+        "酷热"
+      ],
+      "clothing": "泳装准备好，防水袋"
+    },
+    {
+      "id": 5,
+      "name": "五月",
+      "temp": "26°C - 34°C",
+      "vibe": "雨季开始",
+      "pros": [
+        "雨后凉爽",
+        "人少",
+        "绿色"
+      ],
+      "cons": [
+        "每日雷暴",
+        "可能发生洪水"
+      ],
+      "clothing": "雨衣，速干衣物"
+    },
+    {
+      "id": 6,
+      "name": "六月",
+      "temp": "26°C - 33°C",
+      "vibe": "季风",
+      "pros": [
+        "更低的价格",
+        "郁郁葱葱的绿意",
+        "比夏天凉爽"
+      ],
+      "cons": [
+        "频繁降雨",
+        "湿度"
+      ],
+      "clothing": "雨具，透气面料"
+    },
+    {
+      "id": 7,
+      "name": "七月",
+      "temp": "26°C - 33°C",
+      "vibe": "雨季高峰",
+      "pros": [
+        "淡季优惠",
+        "游客较少"
+      ],
+      "cons": [
+        "大雨",
+        "洪水风险"
+      ],
+      "clothing": "防水一切"
+    },
+    {
+      "id": 8,
+      "name": "八月",
+      "temp": "26°C - 33°C",
+      "vibe": "仍然下雨",
+      "pros": [
+        "美食优惠",
+        "文化节庆"
+      ],
+      "cons": [
+        "持续降雨",
+        "闷热"
+      ],
+      "clothing": "轻便衣物，雨伞"
+    },
+    {
+      "id": 9,
+      "name": "九月",
+      "temp": "25°C - 33°C",
+      "vibe": "雨天但更安静",
+      "pros": [
+        "降雨减少",
+        "素食节",
+        "特价"
+      ],
+      "cons": [
+        "仍然潮湿",
+        "偶尔暴风雨"
+      ],
+      "clothing": "阳光与雨具混合"
+    },
+    {
+      "id": 10,
+      "name": "十月",
+      "temp": "25°C - 32°C",
+      "vibe": "过渡",
+      "pros": [
+        "雨停了",
+        "愉快的夜晚",
+        "好价格"
+      ],
+      "cons": [
+        "不可预测的天气",
+        "可能发生洪水"
+      ],
+      "clothing": "轻便外套，雨伞"
+    },
+    {
+      "id": 11,
+      "name": "十一月",
+      "temp": "24°C - 32°C",
+      "vibe": "完美的天气回归",
+      "pros": [
+        "理想条件",
+        "水灯节",
+        "干季"
+      ],
+      "cons": [
+        "价格上涨",
+        "人潮回归"
+      ],
+      "clothing": "夏季服装，轻便层叠"
+    },
+    {
+      "id": 12,
+      "name": "十二月",
+      "temp": "22°C - 31°C",
+      "vibe": "旺季",
+      "pros": [
+        "最佳天气",
+        "新年庆祝活动",
+        "节日气氛"
+      ],
+      "cons": [
+        "非常昂贵",
+        "非常拥挤"
+      ],
+      "clothing": "轻便衣物，舒适鞋子"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "“克仁佳”概念：泰国社会的核心润滑剂。它意味着“不愿施加压力”。这解释了为什么当地人在困惑时微笑，或在想说“不是”时却说“是”。不要强迫对抗；这样您和对方都会失去面子。",
+      "合十礼等级：请不要首先对服务人员合十礼。由初级人员先行，资深人员再回应。如果您对服务员合十礼，会让他们感到尴尬。礼貌的点头就足够了。",
+      "清凉粉：当地生存技巧。淋浴后涂抹薄荷香体粉（蛇牌）能带来化学冷却感。在四月的炎热中必不可少。",
+      "冷静心态：在公共场合生气会让您“失面子”。无论您多么沮丧（交通、诈骗），都要保持冷静的微笑。这是一种策略上的必要。",
+      "尊重王室：绝不要对国王或王室家族不敬。这是违法的，且极具冒犯性（亵渎王室）。",
+      "不要触碰头部：头部是神圣的。切勿触碰任何人的头，包括儿童。",
+      "脱鞋：进入寺庙、家中和一些商店前请脱鞋。",
+      "穿着得体：在寺庙内请遮住肩膀和膝盖。请勿穿背心。",
+      "大麻现实（2025年）：公共消费是非法的，并会被罚款。吸烟仅限于私人住宅或指定的药房区域。“狂野西部”时代已经结束。",
+      "香料很重要：'中等' 辣味非常辣。为了安全起见，请点 'Mai Phet'（不辣）或 'Phet Nit Noi'（稍微辣）。",
+      "街头美食与饮水：请勿饮用自来水。请选择瓶装水。",
+      "现金为王：街头小贩和出租车很少接受信用卡。请随身携带小面额钞票（20元、50元、100元）。",
+      "降温：7-Eleven 和购物中心是正午炎热时必不可少的降温场所。"
+    ],
+    "essential_phrases": [
+      {
+        "src": "您好",
+        "local": "您好",
+        "phonetic": "萨瓦迪卡 (男性加“krap”，女性加“ka”)"
+      },
+      {
+        "src": "谢谢您",
+        "local": "谢谢 (xièxiè)",
+        "phonetic": "谢谢 (xièxiè)"
+      },
+      {
+        "src": "对不起",
+        "local": "对不起 (duì bù qǐ)",
+        "phonetic": "科尔托赫特"
+      },
+      {
+        "src": "多少钱？",
+        "local": "多少钱 (duō shǎo qián)",
+        "phonetic": "陶赖"
+      },
+      {
+        "src": "不辣",
+        "local": "不辣 (bù là)",
+        "phonetic": "我的宠物"
+      },
+      {
+        "src": "禁止使用塑料袋",
+        "local": "不需要袋子 (Bù xūyào dàizi)",
+        "phonetic": "美好时光"
+      },
+      {
+        "src": "请开启计价器。",
+        "local": "请按计价器 (qǐng àn jìjiàqì)",
+        "phonetic": "神秘之旅"
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "考山路",
+      "vibe": "背包客中心",
+      "description": "传奇的背包客街。便宜的旅馆，街头美食，桶装鸡尾酒，以及来自世界各地的旅行者。混乱与派对氛围。",
+      "highlights": [
+        "夜市",
+        "街头美食",
+        "酒吧与夜总会"
+      ],
+      "image": "/images/bangkok/khao-san.jpg"
+    },
+    {
+      "name": "素坤逸",
+      "vibe": "外籍人士脊柱",
+      "description": "以“巷道”（Sois）定义的线性市中心。下苏坤逸（Soi 1-21）是混乱的旅游夜生活。中苏坤逸（通罗/艾卡迈）是高档餐饮和富裕的夜生活。交通便利，缺乏传统文化。",
+      "highlights": [
+        "Terminal 21购物中心",
+        "娜娜与阿索克夜生活",
+        "屋顶酒吧"
+      ],
+      "image": "/images/bangkok/sukhumvit.jpg"
+    },
+    {
+      "name": "大皇宫（老城区）",
+      "vibe": "历史真空",
+      "description": "文化中心，包含大皇宫和卧佛寺。这里没有BTS轻轨，交通非常拥堵。您可以在这里体验历史，但请注意，出行不易。",
+      "highlights": [
+        "大皇宫",
+        "卧佛寺（卧佛）",
+        "圣母公园"
+      ],
+      "image": "/images/bangkok/old-city.jpg"
+    },
+    {
+      "name": "唐人街（耀华力）",
+      "vibe": "街头美食天堂",
+      "description": "霓虹灯闪烁的金店、街头小吃摊和传统中药店的喧嚣。曼谷最好的街头美食。",
+      "highlights": [
+        "耀华力路小吃摊",
+        "三平市场",
+        "黄金佛寺"
+      ],
+      "image": "/images/bangkok/chinatown-hood.jpg"
+    },
+    {
+      "name": "阿里",
+      "vibe": "妥协区",
+      "description": "完美的平衡。位于胜利纪念碑北部的一个绿意盎然、已改造的社区。这里有着独特的泰国社区氛围，咖啡文化浓厚，同时又紧邻BTS线路。是喧嚣中的一处宁静之地。",
+      "highlights": [
+        "咖啡馆巡游",
+        "街头美食",
+        "甘普的阿里"
+      ],
+      "image": "/images/bangkok/ari.jpg"
+    },
+    {
+      "name": "怀卡旺",
+      "vibe": "新唐人街",
+      "description": "与历史悠久的耀华力不同，这里是新一波中国侨民的现代中心。正宗的四川火锅、中文霓虹灯和深夜辛辣美食。不是旅游景点，但具有文化特色。",
+      "highlights": [
+        "四川火锅",
+        "夜市",
+        "甘尼许神庙"
+      ],
+      "image": "/images/bangkok/huai-khwang.jpg"
+    },
+    {
+      "name": "查龙区 / 塔拉德诺伊",
+      "vibe": "创意区",
+      "description": "曼谷最古老的铺装道路，现在是艺术画廊、设计中心（TCDC）和隐藏咖啡馆的中心，位于破旧的商铺中。一个充满韧性和城市更新的活生生的博物馆。",
+      "highlights": [
+        "仓库30",
+        "母烘焙师",
+        "河城"
+      ],
+      "image": "/images/bangkok/talad-noi.jpg"
+    },
+    {
+      "name": "托邦里",
+      "vibe": "宁静的一面",
+      "description": "河的西岸。这是摩天大楼之前的曼谷。运河（Khlongs）仍然用于交通。这里是旺朗市场和葡萄牙-泰国社区库迪金的家园。",
+      "highlights": [
+        "王朗市场",
+        "库迪金",
+        "运河游览"
+      ],
+      "image": "/images/bangkok/thonburi.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "出行方式",
+      "icon": "火车",
+      "summary": "铁路系统较为分散。掌握支付差异。",
+      "details": [
+        "BTS天铁：覆盖市中心区域的高架列车。它是一个封闭环线——您无法在闸口使用信用卡。您需要一张“兔子卡”或现金购票。",
+        "MRT 地铁：地下线路。它是一个开放环线——您可以直接在闸机上刷 Visa/Mastercard。",
+        "河船：橙旗船是主要的交通工具（便宜，频繁）。避免价格过高的“蓝旗”旅游船。",
+        "打车应用：下载“Grab”（可靠，支持信用卡支付，价格较高）和“Bolt”（更便宜，通常偏好现金，等待时间较长）。",
+        "运河船：赛恩赛普运河船横穿交通。它快速、肮脏，登船需要灵活性。请谨慎使用。"
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "financial-landscape",
+      "title": "货币与支付",
+      "icon": "信用卡",
+      "summary": "本地人使用数字支付，游客使用现金。",
+      "details": [
+        "PromptPay障碍：当地人通过二维码（PromptPay）支付一切，这需要一个泰国银行账户。游客通常被排除在外，必须依赖现金。",
+        "现金为王：街头美食、嘟嘟车和非应用程序出租车仅接受现金。在7-Eleven兑换1,000泰铢的钞票；小摊贩无法找零。",
+        "美食广场卡：购物中心使用“优惠卡”系统。您在中央柜台用现金兑换卡片，购买食物，离开时退还余额。"
+      ]
+    },
+    {
+      "id": "logistics-nightlife",
+      "slug": "nightlife-reality",
+      "title": "红灯区",
+      "icon": "眼睛离开",
+      "summary": "成人娱乐区存在。它们是局部的和可选的。",
+      "details": [
+        "主要区域：帕蓬（Silom）、娜娜广场（Sukhumvit）、小牛巷（Asok）。",
+        "现实：虽然在技术上是非法的，但这些区域受到监管和容忍。它们并不代表泰国日常生活。",
+        "建议：参与是可选的。激进的推销和骗局（“乒乓秀”）很常见。避免有外面强势员工的场所。",
+        "摄影：这些区域内严格禁止。"
+      ]
+    },
+    {
+      "id": "logistics-scams",
+      "slug": "common-scams",
+      "title": "避免的骗局",
+      "icon": "警告三角形",
+      "summary": "精明的陷阱针对礼貌的游客。",
+      "details": [
+        "大皇宫关闭：有个陌生人告诉您宫殿因“仪式”关闭。其实并不是。他们想把您放进嘟嘟车去珠宝店。",
+        "宝石骗局：购买“出口级”宝石以在家转售获利。这些宝石毫无价值。并不存在“政府销售”。",
+        "出租车计价器骗局：出租车拒绝使用计价器。坚持要求使用计价器或下车。切勿在旅游区与停靠的出租车交涉。",
+        "乒乓推销员：在帕蓬/索伊牛仔，绝不要跟随推销员上楼看表演。您会被锁住，并且每杯饮料会被收取数千泰铢。"
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "安全基础知识",
+      "icon": "盾牌",
+      "summary": "曼谷通常是安全的，但请保持常识。",
+      "details": [
+        "扒手：在像乍都乍市场和考山路这样的拥挤区域活跃。",
+        "交通：车辆不为行人停车。请极其小心过马路。",
+        "蚊子：登革热是一个风险。请使用驱虫剂，尤其是在黄昏时。",
+        "紧急电话：警察191，救护车1669。"
+      ]
+    },
+    {
+      "id": "logistics-survival",
+      "slug": "survival-tips",
+      "title": "环境生存",
+      "icon": "太阳",
+      "summary": "热和污染是生物危害。",
+      "details": [
+        "PM 2.5：12月至3月是污染季节。如果空气质量指数为红色，请佩戴N95口罩。布口罩没有效果。",
+        "购物中心步行：利用连接购物中心的高架“天桥”（从暹罗到吉姆隆）在阴凉处/空调下步行数公里。",
+        "洪水风险：在雨季（5月至10月），拉差达和素坤逸路会发生突发性洪水。请尽量靠近BTS/MRT车站，以避免被困。"
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "下载的应用程序",
+      "icon": "智能手机",
+      "summary": "这些应用程序将使您在曼谷的导航变得轻松顺畅。",
+      "details": [
+        "Grab和Bolt：出租车和自行车的必备应用。",
+        "谷歌地图：适合公共交通和步行。",
+        "Wongnai：泰国的“Yelp”美食评论平台。",
+        "Klook：适合购买景点折扣票。"
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "pad-thai",
+      "name_en": "Pad Thai",
+      "name_local": "ผัดไทย",
+      "category": "食物",
+      "is_generic_staple": true,
+      "description": {
+        "short": "泰国最著名的菜肴：虾仁、豆腐、花生炒米粉，配上独特的酸酸的罗望子酱。",
+        "history": "在1930年代，泰国政府推广以促进国家认同，并在粮食短缺期间减少米饭消费。",
+        "insider_tip": "真正的味道平衡是在餐桌上实现的；挤入青柠汁，按您的口味加入一小撮提供的辣椒 flakes 和糖。",
+        "price_level": "实惠",
+        "duration": "30分钟",
+        "best_time": "午餐或晚餐",
+        "vibe": "经典与舒适",
+        "good_for": [
+          "首次游客",
+          "爱面条的人",
+          "街头美食"
+        ]
+      },
+      "image": "/images/bangkok/pad-thai.jpg"
+    },
+    {
+      "id": "food-10",
+      "slug": "pad-kra-pao",
+      "name_en": "Pad Kra Pao",
+      "name_local": "ผัดกะเพรา",
+      "category": "食物",
+      "is_generic_staple": true,
+      "description": {
+        "short": "一道辛辣、芳香的剁碎肉和圣罗勒的炒菜，当地人普遍认为这是泰国的“真正”国菜。",
+        "history": "“Aharn Tam Sang”（定制餐）文化的基石，它因其作为城市工人阶级快速、美味的午餐而日益受到欢迎。",
+        "insider_tip": "总是搭配一个“开刀”（脆皮煎蛋）来平衡咸味和辣味；如果您还没有准备好接受强烈的辣味，可以要求“辣一点点”。",
+        "price_level": "实惠",
+        "duration": "30分钟",
+        "best_time": "午餐",
+        "vibe": "辛辣且正宗",
+        "good_for": [
+          "当地最爱",
+          "爱吃香料的人",
+          "快餐"
+        ]
+      },
+      "image": "/images/bangkok/pad-kra-pao.jpg"
+    },
+    {
+      "id": "food-020",
+      "slug": "aharn-tam-sang",
+      "name_en": "Aharn Tam Sang (Made to Order)",
+      "name_local": "อาหารตามสั่ง",
+      "category": "食物",
+      "is_generic_staple": true,
+      "description": {
+        "short": "一种灵活的街头用餐风格，顾客可以从模块化的高温炒锅菜单中选择食材和烹饪方式。",
+        "history": "这些无处不在的小摊位发展起来，旨在满足曼谷劳动力的多样化口味，专注于快速、实惠的烹饪。",
+        "insider_tip": "如果菜单只有泰文，可以看看其他食客在吃什么并指指，或者问“Grapow”——这是一个普遍安全的选择。",
+        "price_level": "实惠",
+        "duration": "30-45分钟",
+        "best_time": "午餐",
+        "vibe": "繁忙且实用",
+        "good_for": [
+          "预算旅行者",
+          "真实体验",
+          "快餐"
+        ]
+      },
+      "image": "/images/bangkok/tam-sang.jpg"
+    },
+    {
+      "id": "food-021",
+      "slug": "mk-restaurants",
+      "name_en": "MK Restaurants (Suki)",
+      "name_local": "เอ็มเค สุกี้",
+      "category": "食物",
+      "is_generic_staple": true,
+      "description": {
+        "short": "泰国最受欢迎的火锅连锁店（Suki），以其干净、适合家庭的环境和绿色主题的品牌形象而闻名。",
+        "history": "始于1980年代的一家小店，演变成了一种全国性的文化现象，定义了现代购物中心的休闲餐饮。",
+        "insider_tip": "火锅是主要活动，而“MK烤鸭”则是传奇，通常在晚上就会售罄。",
+        "price_level": "适中",
+        "duration": "1-1.5小时",
+        "best_time": "晚餐",
+        "vibe": "干净与社交",
+        "good_for": [
+          "家庭",
+          "团体",
+          "健康饮食"
+        ]
+      },
+      "image": "/images/bangkok/mk-suki.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "tom-yum-goong",
+      "name_en": "Tom Yum Goong",
+      "name_local": "ต้มยำกุ้ง",
+      "category": "食物",
+      "is_generic_staple": true,
+      "description": {
+        "short": "一款大胆而芳香的汤，特色在于虾、香茅和南姜，巧妙地平衡了辛辣、酸和咸的风味。",
+        "history": "这道菜源自泰国中部，体现了泰国利用药用草药创造浓郁、无脂肪风味的哲学。",
+        "insider_tip": "如果您想要用淡奶制作的奶油版，请指定“Nam Khon”；如果您想要清澈的草本原版，请选择“Nam Sai”。",
+        "price_level": "适中",
+        "duration": "30-45分钟",
+        "best_time": "晚餐",
+        "vibe": "芳香浓烈",
+        "good_for": [
+          "汤爱好者",
+          "传统风味",
+          "海鲜爱好者"
+        ]
+      },
+      "image": "/images/bangkok/tom-yum.jpg"
+    },
+    {
+      "id": "food-11",
+      "slug": "boat-noodles",
+      "name_en": "Boat Noodles",
+      "name_local": "ก๋วยเตี๋ยวเรือ",
+      "category": "食物",
+      "is_generic_staple": true,
+      "description": {
+        "short": "传统上以小份量供应的丰富面条汤，搭配用猪血或牛血增厚的深色高汤。",
+        "history": "最初在曼谷的运河上由小船出售，这些小碗的设计旨在防止在水中划行时洒出。",
+        "insider_tip": "请您前往胜利纪念碑的“船面条巷”；在您的桌子上叠放至少五个空碗是一个必经之路。",
+        "price_level": "实惠",
+        "duration": "30-45分钟",
+        "best_time": "午餐",
+        "vibe": "快节奏与怀旧",
+        "good_for": [
+          "冒险的食客",
+          "爱吃面条的人",
+          "便宜美食"
+        ]
+      },
+      "image": "/images/bangkok/boat-noodles.jpg"
+    },
+    {
+      "id": "food-12",
+      "slug": "khao-man-gai",
+      "name_en": "Hainanese Chicken Rice",
+      "name_local": "ข้าวมันไก่",
+      "category": "食物",
+      "is_generic_staple": true,
+      "description": {
+        "short": "鲜嫩的水煮鸡肉，搭配用鸡油、姜和大蒜烹制的香米，并附有辛辣的调味酱。",
+        "history": "由中国移民带到泰国，经过改良，加入了当地的酸辣酱，以适应泰国人的口味。",
+        "insider_tip": "这道菜的灵魂在于酱汁；请将其充分混合到米饭中，而不是单独沾鸡肉，以获得完整的体验。",
+        "price_level": "实惠",
+        "duration": "30分钟",
+        "best_time": "早晨至下午中段",
+        "vibe": "简单舒适",
+        "good_for": [
+          "早餐",
+          "午餐",
+          "温和口味"
+        ]
+      },
+      "image": "/images/bangkok/chicken-rice.jpg"
+    },
+    {
+      "id": "food-022",
+      "slug": "temporal-breakfast",
+      "name_en": "Jok & Pa Thong Ko",
+      "name_local": "โจ๊ก / ปาท่องโก๋",
+      "category": "食物",
+      "is_generic_staple": true,
+      "description": {
+        "short": "经典的泰国早晨仪式：咸香米粥（Jok）搭配松软的油条（Pa Thong Ko）。",
+        "history": "这些菜肴反映了潮州中国烹饪传统对曼谷日常早晨习惯的深远影响。",
+        "insider_tip": "这些摊贩的营业时间非常有限；最好的摊位通常在早上8:30之前就售罄并收摊了。",
+        "price_level": "实惠",
+        "duration": "20-30分钟",
+        "best_time": "清晨 (6-8 AM)",
+        "vibe": "清晨忙碌",
+        "good_for": [
+          "早起者",
+          "早餐",
+          "当地仪式"
+        ]
+      },
+      "image": "/images/bangkok/jok.jpg"
+    },
+    {
+      "id": "food-023",
+      "slug": "khao-tom",
+      "name_en": "Khao Tom (Late Night Rice)",
+      "name_local": "ข้าวต้ม",
+      "category": "食物",
+      "is_generic_staple": true,
+      "description": {
+        "short": "一碗煮米汤，配有多种小咸菜，作为夜晚外出后的恢复餐非常受欢迎。",
+        "history": "最初是一种利用剩菜的多功能农舍餐，现在已成为曼谷夜猫子的夜生活恢复必备。",
+        "insider_tip": "点一份“脆皮猪肉炒空心菜”——它是白米粥的完美搭配。",
+        "price_level": "实惠",
+        "duration": "45分钟",
+        "best_time": "深夜（晚上10点后）",
+        "vibe": "休闲与深夜",
+        "good_for": [
+          "夜猫子",
+          "派对后餐点",
+          "共享"
+        ]
+      },
+      "image": "/images/bangkok/khao-tom.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "som-tam",
+      "name_en": "Som Tam (Papaya Salad)",
+      "name_local": "ส้มตำ",
+      "category": "食物",
+      "is_generic_staple": true,
+      "description": {
+        "short": "生机勃勃的青木瓜沙拉在研钵中捣碎，融合了甜、酸、咸和强烈的辣味。",
+        "history": "来自伊桑（东北）地区的地方特色，迁移到曼谷后成为全国范围内的美食热潮。",
+        "insider_tip": "如果您喜欢带花生的甜味版本，请点“Som Tam Thai”；除非您能承受较高的辣度，请指定“Mai Phet”。",
+        "price_level": "实惠",
+        "duration": "30分钟",
+        "best_time": "午餐或下午",
+        "vibe": "新鲜而清爽",
+        "good_for": [
+          "健康选择",
+          "爱吃香料的人",
+          "标志性风味"
+        ]
+      },
+      "image": "/images/bangkok/som-tam.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "mango-sticky-rice",
+      "name_en": "Mango Sticky Rice",
+      "name_local": "ข้าวเหนียวมะม่วง",
+      "category": "食物",
+      "is_generic_staple": true,
+      "description": {
+        "short": "泰国最受欢迎的甜点，包含甜糯米、浓郁的椰奶和切片的完美成熟芒果。",
+        "history": "一种季节性美食，传统上在热季庆祝，当芒果的糖分达到巅峰时。",
+        "insider_tip": "最好的糯米饭略微温暖，带有咸味，以对比芒果的浓烈甜味。",
+        "price_level": "实惠",
+        "duration": "15-20分钟",
+        "best_time": "甜点或下午茶点心",
+        "vibe": "甜美与热带",
+        "good_for": [
+          "甜点爱好者",
+          "水果爱好者",
+          "甜食爱好者"
+        ]
+      },
+      "image": "/images/bangkok/mango-sticky-rice.jpg"
+    },
+    {
+      "id": "food-13",
+      "slug": "moo-ping",
+      "name_en": "Grilled Pork Skewers",
+      "name_local": "หมูปิ้ง",
+      "category": "食物",
+      "is_generic_staple": true,
+      "description": {
+        "short": "薄切腌制猪肉在炭火上烤至焦糖化，通常配有一小袋糯米饭。",
+        "history": "一种经典的街头小吃，几十年来一直是学生和通勤者的首选。",
+        "insider_tip": "跟随烟雾；最好的“牛肉串”来自使用真正木炭的摊位，而不是电烤架。",
+        "price_level": "实惠",
+        "duration": "10分钟",
+        "best_time": "早晨或深夜",
+        "vibe": "烟熏街头小吃",
+        "good_for": [
+          "快餐",
+          "随时随地",
+          "经济实惠的美食"
+        ]
+      },
+      "image": "/images/bangkok/moo-ping.jpg"
+    },
+    {
+      "id": "food-006",
+      "slug": "massaman-curry",
+      "name_en": "Massaman Curry",
+      "name_local": "แกงมัสมั่น",
+      "category": "食物",
+      "is_generic_staple": true,
+      "description": {
+        "short": "一种浓厚、温和且带有坚果风味的咖喱，主要成分是土豆和花生，常被美食评论家评选为世界上最美味的菜肴。",
+        "history": "受波斯和马来贸易者的影响，它使用肉桂和豆蔻等干香料，这在其他泰国咖喱中并不常见。",
+        "insider_tip": "马萨曼咖喱通常比其他咖喱更甜；对于那些害怕泰国香料的人来说，这是一个很好的入门菜。",
+        "price_level": "适中",
+        "duration": "45-60分钟",
+        "best_time": "晚餐",
+        "vibe": "奢华与精致",
+        "good_for": [
+          "温和口味",
+          "晚餐",
+          "咖喱爱好者"
+        ]
+      },
+      "image": "/images/bangkok/massaman.jpg"
+    },
+    {
+      "id": "food-14",
+      "slug": "isaan-food",
+      "name_en": "Isaan Food",
+      "name_local": "อาหารอีสาน",
+      "category": "食物",
+      "is_generic_staple": true,
+      "description": {
+        "short": "东北地区的大胆美食，以烤肉、糯米和独特辛辣的沙拉为特色。",
+        "history": "源自伊萨恩干燥高原，这种美食依靠发酵和烤制来增强质朴而浓郁的风味。",
+        "insider_tip": "用手吃；将粘米饭搓成小球，直接蘸入辛辣的Larb或Nam Tok汁中。",
+        "price_level": "实惠",
+        "duration": "1-1.5小时",
+        "best_time": "午餐或晚餐",
+        "vibe": "社交与乡村",
+        "good_for": [
+          "团体",
+          "冒险的食客",
+          "社交用餐"
+        ]
+      },
+      "image": "/images/bangkok/isaan-food.jpg"
+    },
+    {
+      "id": "food-15",
+      "slug": "oyster-omelet",
+      "name_en": "Crispy Oyster Omelet",
+      "name_local": "หอยทอด",
+      "category": "食物",
+      "is_generic_staple": true,
+      "description": {
+        "short": "一款咸香酥脆的煎蛋卷，采用糯米面糊和饱满的生蚝制成，搭配新鲜的豆芽。",
+        "history": "一种潮州菜，成为曼谷街头市场的支柱，尤其是在唐人街地区。",
+        "insider_tip": "如果您想要脆口的，可以点“Hoi Tod”；如果您更喜欢柔软、胶状的口感，可以点“Or Suan”。",
+        "price_level": "适中",
+        "duration": "30-45分钟",
+        "best_time": "晚餐",
+        "vibe": "油腻又美味",
+        "good_for": [
+          "海鲜爱好者",
+          "唐人街游览",
+          "街头美食"
+        ]
+      },
+      "image": "/images/bangkok/oyster-omelet.jpg"
+    },
+    {
+      "id": "food-16",
+      "slug": "thai-desserts",
+      "name_en": "Thai Street Desserts",
+      "name_local": "ขนมไทย",
+      "category": "食物",
+      "is_generic_staple": true,
+      "description": {
+        "short": "五彩缤纷的小吃，如椰子煎饼（Kanom Krok）或绿豆糕，常在街边小摊出售。",
+        "history": "许多传统甜点以椰奶和棕榈糖为基础，反映了中部平原可获得的食材。",
+        "insider_tip": "趁热吃“Kanom Krok”；脆皮与融化的椰子中心的对比在刚出锅时最为美妙。",
+        "price_level": "实惠",
+        "duration": "10-15分钟",
+        "best_time": "下午",
+        "vibe": "多样与甜美",
+        "good_for": [
+          "快速小吃",
+          "小吃",
+          "甜点"
+        ]
+      },
+      "image": "/images/bangkok/thai-desserts.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "曼谷必备",
+      "id": "essential",
+      "items": [
+        {
+          "id": "temp-001",
+          "slug": "grand-palace",
+          "name_en": "Grand Palace",
+          "name_local": "พระบรมมหาราชวัง",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "这座城市最具标志性的地标：一个闪耀的金色尖塔和马赛克的复杂建筑，曾作为皇家住所长达150年。",
+            "history": "建于1782年，标志着曼谷成为首都，内有泰国最神圣的佛像——翡翠佛。",
+            "insider_tip": "请您在早上8:15到达，以便排在第一位；有严格的着装要求——肩膀和膝盖必须完全覆盖（没有例外）。",
+            "price_level": "昂贵 (฿500)",
+            "duration": "2-3小时",
+            "best_time": "上午8:30开放，以避开旅游团的人潮。",
+            "vibe": "壮观与拥挤",
+            "good_for": [
+              "历史爱好者",
+              "首次访客",
+              "摄影"
+            ]
+          },
+          "image": "/images/bangkok/grand-palace.jpg",
+          "geo": {
+            "lat": 13.75,
+            "lng": 100.4915
+          }
+        },
+        {
+          "id": "temp-002",
+          "slug": "wat-arun",
+          "name_en": "Wat Arun",
+          "name_local": "วัดอรุณ",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "“黎明寺”，一座位于河西岸的建筑奇迹，外覆五彩瓷砖和贝壳。",
+            "history": "可以追溯到阿育他耶时期，它曾短暂地安放过翡翠佛，之后被移至河对岸。",
+            "insider_tip": "从寺庙的景色宏伟，但从河对岸在日落时分看到寺庙的景色更为迷人。",
+            "price_level": "实惠 (฿100)",
+            "duration": "1-1.5小时",
+            "best_time": "傍晚时分，河对岸的金色光线或日落。",
+            "vibe": "壮丽与河畔",
+            "good_for": [
+              "摄影",
+              "历史",
+              "建筑"
+            ]
+          },
+          "image": "/images/bangkok/wat-arun.jpg",
+          "geo": {
+            "lat": 13.7437,
+            "lng": 100.4887
+          }
+        },
+        {
+          "id": "temp-003",
+          "slug": "wat-pho",
+          "name_en": "Wat Pho",
+          "name_local": "วัดโพธิ์",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "这里是长达46米的金箔卧佛的所在地，也是传统泰式按摩的历史发源地。",
+            "history": "被认为是泰国第一所公立大学，寺庙的墙壁上布满了教授历史、地理和医学的铭文。",
+            "insider_tip": "内部的按摩学校享誉全球；一到达就预订一个疗程，因为在您游览时名额很快就会满。",
+            "price_level": "实惠 (฿200)",
+            "duration": "1.5-2小时",
+            "best_time": "上午9点，避开高温和人群的高峰时段。",
+            "vibe": "宁静且富有教育意义",
+            "good_for": [
+              "健康",
+              "历史",
+              "标志性景点"
+            ]
+          },
+          "image": "/images/bangkok/wat-pho.jpg",
+          "geo": {
+            "lat": 13.7465,
+            "lng": 100.4927
+          }
+        },
+        {
+          "id": "act-001",
+          "slug": "chao-phraya-boat",
+          "name_en": "Chao Phraya Express Boat",
+          "name_local": "เรือด่วนเจ้าพระยา",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "当地的出行方式：一条高速河流交通系统，提供轻松、风景如画的历史天际线视角。",
+            "history": "曼谷曾被称为“东方的威尼斯”，而这条河流至今仍是其最重要和历史悠久的交通干道。",
+            "insider_tip": "使用“橙色旗帜”船只，体验真正的当地风情，费用仅为“蓝色旗帜”旅游船的一小部分。",
+            "price_level": "实惠 (฿16)",
+            "duration": "30-60分钟",
+            "best_time": "清晨或傍晚。",
+            "vibe": "清新而真实",
+            "good_for": [
+              "经济交通",
+              "观光",
+              "河景"
+            ]
+          },
+          "image": "/images/bangkok/river-boat.jpg",
+          "geo": {
+            "lat": 13.72,
+            "lng": 100.51
+          }
+        }
+      ]
+    },
+    {
+      "title": "当地生活与文化",
+      "id": "local-life",
+      "items": [
+        {
+          "id": "act-002",
+          "slug": "yaowarat-night-food-walk",
+          "name_en": "Yaowarat Night Food Walk",
+          "name_local": "เยาวราช",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "在唐人街，五光十色的霓虹灯和美食的香气交织，成为世界上最棒的露天海鲜和街头美食自助餐。",
+            "history": "作为全球最古老和最大的唐人街之一，它在曼谷已经成为商业的心脏超过200年。",
+            "insider_tip": "在耀华力，寻找最长的队伍——它们几乎总是高周转和高质量的可靠指标。",
+            "price_level": "适中",
+            "duration": "2-3小时",
+            "best_time": "晚上7点到10点，灯光最亮的时候。",
+            "vibe": "混乱与电气",
+            "good_for": [
+              "美食爱好者",
+              "夜生活",
+              "当地文化"
+            ]
+          },
+          "image": "/images/bangkok/chinatown.jpg",
+          "geo": {
+            "lat": 13.741,
+            "lng": 100.5085
+          }
+        },
+        {
+          "id": "act-003",
+          "slug": "thai-massage-local",
+          "name_en": "Traditional Thai Massage",
+          "name_local": "นวดแผนไทย",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "一种通过节奏压力和类似瑜伽的拉伸来释放身体和能量紧张的治疗艺术形式。",
+            "history": "几世纪前在卧佛寺制定的这种“懒人的瑜伽”是泰国传统医疗的重要支柱。",
+            "insider_tip": "请穿上提供的宽松衣物；准备好感受“治疗性疼痛”，因为治疗师会使用肘部和膝盖深入肌肉。",
+            "price_level": "适中",
+            "duration": "1-2小时",
+            "best_time": "傍晚，经过一天的重度步行。",
+            "vibe": "放松而又紧张",
+            "good_for": [
+              "健康",
+              "恢复",
+              "文化体验"
+            ]
+          },
+          "image": "/images/bangkok/massage.jpg",
+          "geo": {
+            "lat": 13.7465,
+            "lng": 100.4927
+          }
+        },
+        {
+          "id": "act-004",
+          "slug": "lumpini-park",
+          "name_en": "Lumpini Park",
+          "name_local": "สวนลุมพินี",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "曼谷首屈一指的城市公园，提供宁静的湖泊、跑步道以及著名的水巨蜥居民。",
+            "history": "它成立于1920年代，位于皇家土地上，是城市首个专门为市民休闲而设的公共空间。",
+            "insider_tip": "不要错过下午6点的国歌；在这一刻，大家都停下动作，沉浸在超现实的集体沉默中。",
+            "price_level": "免费",
+            "duration": "1-2小时",
+            "best_time": "早上7:00或下午5:30参加社区健身小组。",
+            "vibe": "宁静与共享",
+            "good_for": [
+              "锻炼",
+              "自然",
+              "观察人群"
+            ]
+          },
+          "image": "/images/bangkok/lumpini.jpg",
+          "geo": {
+            "lat": 13.7314,
+            "lng": 100.5417
+          }
+        },
+        {
+          "id": "act-005",
+          "slug": "muay-thai",
+          "name_en": "Muay Thai Boxing",
+          "name_local": "มวยไทย",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "“八肢艺术”：一种高能量的格斗运动，也是泰国文化身份中备受尊重的一部分。",
+            "history": "源自古代军事训练（穆泰博然），如今已成为国家运动和力量与纪律的象征。",
+            "insider_tip": "在周一或周三访问拉贾达门体育场，体验最真实的氛围和传统的现场音乐伴奏。",
+            "price_level": "昂贵 (฿1,500+)",
+            "duration": "3-4小时",
+            "best_time": "比赛夜（请查看主卡的时间表）。",
+            "vibe": "高能量与强烈",
+            "good_for": [
+              "体育爱好者",
+              "文化沉浸",
+              "肾上腺素"
+            ]
+          },
+          "image": "/images/bangkok/muay-thai.jpg",
+          "geo": {
+            "lat": 13.76,
+            "lng": 100.509
+          }
+        },
+        {
+          "id": "act-006",
+          "slug": "listening-bars",
+          "name_en": "Audiophile Listening Bars",
+          "name_local": "Vinyl Bars",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "高档酒吧，专注于高保真音响和精心策划的黑胶唱片收藏，从复古泰国流行音乐到全球爵士乐应有尽有。",
+            "history": "曼谷现代“慢生活”运动的一部分，反对喧闹的电子舞曲商业夜生活。",
+            "insider_tip": "Studio Lam是聆听复古泰国“Molam”（伊桑民谣）音乐与世界节拍混合的首选场所。",
+            "price_level": "适中",
+            "duration": "2-3小时",
+            "best_time": "晚上9点到午夜，享受最佳音乐表演。",
+            "vibe": "凉爽而亲密",
+            "good_for": [
+              "音乐爱好者",
+              "鸡尾酒爱好者",
+              "时尚氛围"
+            ]
+          },
+          "image": "/images/bangkok/listening-bar.jpg",
+          "geo": {
+            "lat": 13.7314,
+            "lng": 100.5817
+          }
+        },
+        {
+          "id": "act-007",
+          "slug": "talad-noi-walk",
+          "name_en": "Talad Noi Heritage Walk",
+          "name_local": "ตลาดน้อย",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "在曼谷最古老的社区之一漫步，废金属场与历史悠久的豪宅和街头艺术并肩而立。",
+            "history": "这个河边社区曾是城市航运业的中心，现在重生为一个充满活力的创意中心。",
+            "insider_tip": "寻找复古菲亚特汽车墓地——这是该地区最具标志性和最受摄影师欢迎的地方。",
+            "price_level": "免费",
+            "duration": "1-2小时",
+            "best_time": "下午，当阳光照射在商铺的纹理上时。",
+            "vibe": "粗犷与艺术感",
+            "good_for": [
+              "摄影",
+              "隐藏宝藏",
+              "历史"
+            ]
+          },
+          "image": "/images/bangkok/talad-noi-walk.jpg",
+          "geo": {
+            "lat": 13.7346,
+            "lng": 100.5135
+          }
+        },
+        {
+          "id": "nat-001",
+          "slug": "bang-krachao",
+          "name_en": "Bang Krachao (Green Lung)",
+          "name_local": "บางกระเจ้า",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "一个位于河流弯道中的巨大丛林岛屿，仅可通过船只到达，最适合骑自行车探索。",
+            "history": "为了保护城市发展，作为城市的自然空气过滤器，因此获得了“绿色肺脏”的昵称。",
+            "insider_tip": "在码头租一辆自行车，价格为฿100；沿着“高架小巷”骑行，但要注意迎面而来的摩托车。",
+            "price_level": "实惠",
+            "duration": "半天",
+            "best_time": "周末早晨参观当地的水上市场。",
+            "vibe": "郁郁葱葱且宁静",
+            "good_for": [
+              "自然爱好者",
+              "骑行",
+              "逃离城市"
+            ]
+          },
+          "image": "/images/bangkok/bang-krachao.jpg",
+          "geo": {
+            "lat": 13.6953,
+            "lng": 100.56
+          }
+        }
+      ]
+    },
+    {
+      "title": "市场与现代",
+      "id": "markets",
+      "items": [
+        {
+          "id": "mar-001",
+          "slug": "chatuchak-market",
+          "name_en": "Chatuchak Weekend Market",
+          "name_local": "ตลาดนัดจตุจักร",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "世界上最大的户外市场之一，拥有超过15,000个摊位，出售从复古时尚到家具的各种商品。",
+            "history": "最初于1980年代从圣安南广场迁移而来，现已发展成为全球寻宝者和收藏家的热门目的地。",
+            "insider_tip": "如果您看到喜欢的东西，请立即购买；市场的布局非常复杂，您可能再也找不到那个摊位了。",
+            "price_level": "实惠",
+            "duration": "半天",
+            "best_time": "星期六早晨（上午9:00），在正午的炎热变得强烈之前。",
+            "vibe": "混乱与无尽",
+            "good_for": [
+              "购物",
+              "美食爱好者",
+              "摄影"
+            ]
+          },
+          "image": "/images/bangkok/chatuchak.jpg",
+          "geo": {
+            "lat": 13.799,
+            "lng": 100.5499
+          }
+        },
+        {
+          "id": "mar-004",
+          "slug": "local-night-market",
+          "name_en": "Jodd Fairs / Night Markets",
+          "name_local": "ตลาดนัดกลางคืน",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "时尚现代的夜市，设有白色帐篷、潮流美食摊位、现场音乐和适合拍照的“Instagram”美食。",
+            "history": "Jodd Fairs是传统市场的现代演变，已成为曼谷当代夜生活文化的蓝图。",
+            "insider_tip": "尝试一下“Leng Saap”（辣猪骨汤）；这是市场的招牌菜，通常分量巨大。",
+            "price_level": "适中",
+            "duration": "2-3小时",
+            "best_time": "晚上7点到9点，最佳的夜间活力。",
+            "vibe": "时尚与节日气氛",
+            "good_for": [
+              "晚餐",
+              "夜生活",
+              "社交"
+            ]
+          },
+          "image": "/images/bangkok/night-market.jpg",
+          "geo": {
+            "lat": 13.757,
+            "lng": 100.565
+          }
+        },
+        {
+          "id": "mar-005",
+          "slug": "flower-market",
+          "name_en": "Pak Khlong Talat",
+          "name_local": "ปากคลองตลาด",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "曼谷主要的花卉市场：一个24小时运作的地方，色彩斑斓，芬芳四溢，午夜的物流繁忙而热闹。",
+            "history": "一个曾经的鱼市场，在18世纪转型为花卉市场，以供应城市无数的寺庙和酒店。",
+            "insider_tip": "请在凌晨2点到4点之间前来，观看大型卡车从乡村卸下新鲜的茉莉花和万寿菊。",
+            "price_level": "实惠",
+            "duration": "1小时",
+            "best_time": "午夜至凌晨4点，最激动人心的时刻。",
+            "vibe": "生机勃勃与芬芳四溢",
+            "good_for": [
+              "摄影",
+              "夜猫子",
+              "感官体验"
+            ]
+          },
+          "image": "/images/bangkok/flower-market.jpg",
+          "geo": {
+            "lat": 13.7415,
+            "lng": 100.4965
+          }
+        },
+        {
+          "id": "mod-001",
+          "slug": "rooftop-bars",
+          "name_en": "Sky Bars",
+          "name_local": "บาร์บนดาดฟ้า",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "高空鸡尾酒吧，提供城市霓虹灯闪烁的广阔景观和蜿蜒河流的壮丽全景。",
+            "history": "自1997年金融危机以来，空中酒吧成为曼谷的全球标志，开发商们寻求利用屋顶的方式。",
+            "insider_tip": "大多数地方都有严格的着装要求；Tichuca因其“发光树”而最受欢迎，而Octave则在日落时提供更好的性价比。",
+            "price_level": "昂贵",
+            "duration": "1.5-2小时",
+            "best_time": "下午6点，欣赏日落与城市灯光的过渡。",
+            "vibe": "迷人和全景",
+            "good_for": [
+              "情侣",
+              "摄影",
+              "特殊场合"
+            ]
+          },
+          "image": "/images/bangkok/rooftop.jpg",
+          "geo": {
+            "lat": 13.7226,
+            "lng": 100.5142
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "早上7点",
+      "title": "日出施粥仪式与街头美食早餐",
+      "description": "早起去考山路或湄南河旁观看僧侣乞食。当地人默默地向身穿藏红色袍子的僧侣提供食物，这是一项有2600年历史的佛教传统。然后去街头小吃摊尝试粥、油条和泰式冰茶。早晨的街头小吃最安全，因为食材新鲜。这段宁静的非旅游时段的曼谷在上午9点后就不复存在了。",
+      "image": "/images/bangkok/alms-ceremony.jpg"
+    },
+    {
+      "time": "上午9:00",
+      "title": "大皇宫与玉佛寺",
+      "description": "请在早上8:30开门时到达，以避开旅游团。大皇宫是一个令人惊叹的金色尖塔、精美马赛克和神圣翡翠佛像的综合体。严格的着装要求：不允许穿短裤、裸露肩膀和破旧牛仔裤。虽然有租赁服务，但建议避免麻烦。入场费为฿500，但每一铢都值得。入口处有很多导游——请在内部雇佣官方导游。这个宫殿曾是皇家住所长达150年；现在仅用于仪式。",
+      "image": "/images/bangkok/grand-palace2.jpg",
+      "ticket_link": "大皇宫和玉佛寺导览游"
+    },
+    {
+      "time": "中午12:00",
+      "title": "胜利纪念碑的船面条",
+      "description": "搭乘BTS到胜利纪念碑，品尝船面（kuay teow rua）——最初是在运河的船上出售的。可以点多个小碗（฿10-15每碗）猪肉或牛肉汤，配上面条、肉丸和香草。当地人通常会叠5-8碗。汤底颜色深，味道浓郁，略带甜味，加入了猪血。味道强烈但令人惊叹。附近的街边摊有芒果糯米饭作为甜点。这是工人阶级的曼谷——没有英语，只有极致的美味。",
+      "image": "/images/bangkok/boat-noodles.jpg"
+    },
+    {
+      "time": "下午3点",
+      "title": "寺庙：卧佛寺和郑王庙",
+      "description": "从大皇宫步行到卧佛寺，欣赏那尊46米长的金箔卧佛。寺庙建筑群庞大，拥有超过1000尊佛像。在寺庙的按摩学校享受传统泰式按摩（฿300/小时）——虽然会有些疼，但能放松每一块肌肉。然后乘渡船横渡湄南河（฿5）前往黎明寺。攀登陡峭的楼梯，欣赏河景。寺庙外覆有色彩斑斓的中国瓷器。",
+      "image": "/images/bangkok/wat-pho-afternoon.jpg"
+    },
+    {
+      "time": "下午6点",
+      "title": "Lebua日落屋顶酒吧",
+      "description": "前往Lebua State Tower的Sky Bar（63楼）享受日落鸡尾酒。这个出现在《宿醉2》中的酒吧提供360°的曼谷天际线和湄南河的美景。鸡尾酒价格在฿500-800之间，着装要求为时尚休闲（不允许穿人字拖）。请在下午5:30之前到达以欣赏日落。另一个选择是位于万豪素坤逸的Octave Rooftop Bar，游客较少。随着城市的灯光亮起，曼谷变成了一片延伸至地平线的霓虹灯海。",
+      "image": "/images/bangkok/lebua-sunset.jpg"
+    },
+    {
+      "time": "晚上8点",
+      "title": "在耀华力（唐人街）夜市用晚餐",
+      "description": "晚上7点时，搭出租车前往耀华力路。这里是曼谷的唐人街——一个充满了翻炒锅声、霓虹灯和1万人在街头用餐的感官盛宴。从Thip Samai（曼谷最古老的泰式炒河粉店）点一份泰式炒河粉，在华盛红尝尝蟹咖喱，或者在街头小摊上点一份烧鸭饭。如果您勇敢的话，可以尝试榴莲。最后以椰子煎饼（kanom krok）结束您的美食之旅。耀华力路是混乱、潮湿，但绝对是曼谷不可或缺的一部分。",
+      "image": "/images/bangkok/yaowarat-night.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "便携式颈部风扇",
+      "image": "/images/bangkok/neck-fan.jpg",
+      "reason": "曼谷的热量非常严酷。一个免提的颈部风扇可以在观光时让您保持凉爽。",
+      "amazon_url": "便携式颈部风扇",
+      "category": "天气"
+    },
+    {
+      "id": "aff-002",
+      "title": "驱蚊剂",
+      "image": "/images/bangkok/repellent.jpg",
+      "reason": "登革热是一个风险。含DEET的驱虫剂在户外晚上是必不可少的。",
+      "amazon_url": "驱蚊剂",
+      "category": "健康"
+    },
+    {
+      "id": "aff-003",
+      "title": "旅行钱带",
+      "image": "/images/bangkok/money-belt.jpg",
+      "reason": "市场上小偷活跃。请确保您的现金安全。",
+      "amazon_url": "旅行钱带",
+      "category": "安全"
+    }
+  ],
+  "lat": 13.7563,
+  "lng": 100.5018,
+  "region": "Asia"
+}

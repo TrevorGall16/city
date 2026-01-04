@@ -1,0 +1,1307 @@
+{
+  "id": "city-hk",
+  "name": "Hong Kong",
+  "slug": "hong-kong",
+  "lat": 22.3193,
+  "lng": 114.1694,
+  "country": "Hong Kong",
+  "country_code": "hk",
+  "geo": {
+    "lat": 22.3193,
+    "lng": 114.1694
+  },
+  "hero_image": "/images/hong-kong/hero.jpg",
+  "intro_vibe": {
+    "description": "Donde el Este se encuentra con el Oeste en una ciudad vertical de neón, dim sum y rascacielos."
+  },
+  "general_info": {
+    "population": "~7.5 millones",
+    "is_capital": false,
+    "description": "Hong Kong es una Región Administrativa Especial de China y una de las ciudades más densamente pobladas del mundo. Antiguamente una colonia británica, combina influencias chinas y occidentales en una cultura única. Conocida por su impresionante horizonte, su cocina de clase mundial, su eficiente transporte público y su vibrante vida callejera, Hong Kong funciona como un centro financiero global mientras mantiene profundas tradiciones culturales."
+  },
+  "stats": {
+    "currency": "HKD (dólar de Hong Kong)",
+    "plug_type": "Tipo G (británico)"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "Enero",
+      "temp": "14°C - 19°C",
+      "vibe": "Fresco y seco",
+      "pros": [
+        "Cielos despejados",
+        "Baja humedad",
+        "Celebraciones del Año Nuevo Chino"
+      ],
+      "cons": [
+        "Noches frescas",
+        "A veces olas de frío"
+      ],
+      "clothing": "Chaqueta ligera, pantalones largos, capas"
+    },
+    {
+      "id": 2,
+      "name": "Febrero",
+      "temp": "15°C - 20°C",
+      "vibe": "Festivo",
+      "pros": [
+        "Año Nuevo Chino",
+        "Temperaturas agradables",
+        "Las flores de primavera comienzan a florecer"
+      ],
+      "cons": [
+        "Altos precios de los hoteles",
+        "Multitudes"
+      ],
+      "clothing": "Capas ligeras, chaqueta para la noche"
+    },
+    {
+      "id": 3,
+      "name": "Marzo",
+      "temp": "18°C - 23°C",
+      "vibe": "Calentamiento",
+      "pros": [
+        "Tiempo agradable",
+        "Ambiente primaveral",
+        "Precios más bajos"
+      ],
+      "cons": [
+        "Aumento de la humedad",
+        "Niebla ocasional"
+      ],
+      "clothing": "Camisetas, capas ligeras"
+    },
+    {
+      "id": 4,
+      "name": "Abril",
+      "temp": "21°C - 27°C",
+      "vibe": "Inicio húmedo",
+      "pros": [
+        "Días cálidos",
+        "Semana de Art Basel",
+        "Clima exterior"
+      ],
+      "cons": [
+        "Picos de humedad",
+        "Lluvias frecuentes"
+      ],
+      "clothing": "Telas transpirables, paraguas"
+    },
+    {
+      "id": 5,
+      "name": "Mai",
+      "temp": "24°C - 30°C",
+      "vibe": "Cálido y Pegajoso",
+      "pros": [
+        "Comienza la temporada de playa",
+        "El cumpleaños de Buda",
+        "Días largos"
+      ],
+      "cons": [
+        "Alta humedad",
+        "Fuertes lluvias"
+      ],
+      "clothing": "Shorts, camisetas sin mangas, equipo de lluvia"
+    },
+    {
+      "id": 6,
+      "name": "Junio",
+      "temp": "26°C - 31°C",
+      "vibe": "Verano en pleno apogeo",
+      "pros": [
+        "Festival de los barcos dragón",
+        "Tiempo de playa",
+        "Manguitos de temporada"
+      ],
+      "cons": [
+        "Humedad asfixiante",
+        "Inicio de la temporada de tifones"
+      ],
+      "clothing": "Ropa mínima, protector solar"
+    },
+    {
+      "id": 7,
+      "name": "Julio",
+      "temp": "27°C - 32°C",
+      "vibe": "Mes más cálido",
+      "pros": [
+        "Vida de playa",
+        "Ambiente veraniego",
+        "Bares en las azoteas"
+      ],
+      "cons": [
+        "Calor extremo",
+        "Posibles tifones",
+        "Aire acondicionado en todas partes"
+      ],
+      "clothing": "Tejidos ligeros y transpirables"
+    },
+    {
+      "id": 8,
+      "name": "Agosto",
+      "temp": "27°C - 32°C",
+      "vibe": "Temporada de tifones",
+      "pros": [
+        "Tormentas tropicales emocionantes",
+        "Preparación para el Festival de Medio Otoño",
+        "Menos turistas"
+      ],
+      "cons": [
+        "Perturbaciones debido a los tifones",
+        "Lluvia intensa",
+        "Humedad máxima"
+      ],
+      "clothing": "Equipo de lluvia esencial, ropa ligera"
+    },
+    {
+      "id": 9,
+      "name": "Septiembre",
+      "temp": "26°C - 31°C",
+      "vibe": "Aún cálido",
+      "pros": [
+        "Festival de mitad de otoño",
+        "Playa aún agradable",
+        "Pasteles de luna por todas partes"
+      ],
+      "cons": [
+        "Los tifones continúan",
+        "Húmedo"
+      ],
+      "clothing": "Ropa de verano, ropa de lluvia opcional"
+    },
+    {
+      "id": 10,
+      "name": "Octubre",
+      "temp": "23°C - 28°C",
+      "vibe": "Temporada dorada",
+      "pros": [
+        "Clima perfecto",
+        "Cielos despejados",
+        "Temporada de senderismo"
+      ],
+      "cons": [
+        "Fines de semana concurridos",
+        "Precios más altos"
+      ],
+      "clothing": "Camisetas, chaqueta ligera para la noche"
+    },
+    {
+      "id": 11,
+      "name": "Noviembre",
+      "temp": "19°C - 24°C",
+      "vibe": "Clima Ideal",
+      "pros": [
+        "Mejor mes en general",
+        "Seco y cómodo",
+        "Actividades al aire libre"
+      ],
+      "cons": [
+        "Popular (reserve con anticipación)",
+        "Rafraîchissement"
+      ],
+      "clothing": "Capas ligeras, zapatos cómodos"
+    },
+    {
+      "id": 12,
+      "name": "Diciembre",
+      "temp": "15°C - 20°C",
+      "vibe": "Festivo y Agradable",
+      "pros": [
+        "Mercados de Navidad",
+        "Rebajas de invierno",
+        "Temperaturas agradables"
+      ],
+      "cons": [
+        "Mañanas frescas",
+        "Días cortos"
+      ],
+      "clothing": "Chaqueta, pantalones largos, capas cálidas"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "La tarjeta Octopus es imprescindible: Esta tarjeta inteligente recargable funciona en todo el transporte público (MTR, autobuses, transbordadores, tranvías) además de en 7-Eleven, Starbucks y máquinas expendedoras. Compre una de inmediato en cualquier estación de MTR.",
+      "Cultura de colas: Hong Kong se toma en serio las filas. Forme líneas ordenadas para todo: MTR, escaleras mecánicas, restaurantes, taxis. Colarse es un suicidio social.",
+      "Reglas de escaleras mecánicas: Póngase de pie a la derecha, camine a la izquierda. Las escaleras mecánicas del MTR son rápidas y los locales no toleran a quienes bloquean el paso. Esta regla se aplica estrictamente.",
+      "Sin propinas: El cargo por servicio está incluido en las facturas de los restaurantes (10%). No se espera ni es necesario dar propina adicional. Redondear la tarifa del taxi es educado pero opcional.",
+      "Las tarjetas de presentación importan: En entornos de negocios, reciba las tarjetas de presentación con ambas manos y estudie brevemente antes de guardarlas. Es un signo de respeto.",
+      "Zapatos fuera: Algunos restaurantes tradicionales y todos los hogares requieren que se quiten los zapatos. Busque zapatillas en la entrada como señal.",
+      "Etiqueta de los palillos: Nunca coloque los palillos verticalmente en el arroz (simbolismo funerario). No los apunte a las personas. Colóquelos en el soporte, no en el cuenco.",
+      "Protocolo del Dim Sum: Comparta todo. Sirva té a los demás antes que a usted mismo. Golpee dos dedos en la mesa para agradecer a alguien por servir su té. Los servidores cuentan los platos al final.",
+      "Comportamiento público: Mantenga la voz baja en el MTR y en los restaurantes. Las conversaciones telefónicas ruidosas son mal vistas. La borrachera pública es rara y embarazosa.",
+      "Respeto por los mayores: Ceda los asientos del MTR a ancianos, mujeres embarazadas y a cualquier persona con un bebé. No es opcional: los locales lo juzgarán."
+    ],
+    "essential_phrases": [
+      {
+        "src": "Hello",
+        "local": "Nei hou",
+        "phonetic": "NAY-ho"
+      },
+      {
+        "src": "Thank you",
+        "local": "M̀h'gōi",
+        "phonetic": "m-GOY"
+      },
+      {
+        "src": "Excuse me",
+        "local": "M̀h'gōi",
+        "phonetic": "m-GOY"
+      },
+      {
+        "src": "How much?",
+        "local": "Géi dō chín?",
+        "phonetic": "GAY-daw CHIN"
+      },
+      {
+        "src": "The bill please",
+        "local": "Màaih dāan",
+        "phonetic": "MY-daan"
+      },
+      {
+        "src": "I don't understand",
+        "local": "Ŋóh m̀h mìhng",
+        "phonetic": "ngor m-ming"
+      },
+      {
+        "src": "Delicious",
+        "local": "Hóu sihk",
+        "phonetic": "ho-sick"
+      },
+      {
+        "src": "Too expensive",
+        "local": "Taai gwai",
+        "phonetic": "TIE-gway"
+      },
+      {
+        "src": "Where is...?",
+        "local": "...hái bīndouh?",
+        "phonetic": "...hi bin-DOH"
+      },
+      {
+        "src": "No need (for change)",
+        "local": "M̀h sái",
+        "phonetic": "m-sigh"
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Central",
+      "vibe": "Poder financiero",
+      "description": "El corazón palpitante del distrito de negocios de Hong Kong. Rascacielos de vidrio, centros comerciales de lujo y el famoso ascensor de Mid-Levels. Restaurantes caros y bares en las azoteas dominan.",
+      "highlights": [
+        "Centro comercial IFC",
+        "Vida nocturna de Lan Kwai Fong",
+        "Ascensor de Mid-Levels"
+      ],
+      "image": "/images/hong-kong/central.jpg"
+    },
+    {
+      "name": "Tsim Sha Tsui",
+      "vibe": "Centro turístico",
+      "description": "El principal centro turístico de Kowloon junto al puerto. Museos, hoteles de lujo, sastres y el emblemático Paseo de las Estrellas. Las mejores vistas del horizonte de la isla de Hong Kong.",
+      "highlights": [
+        "Paseo del Puerto Victoria",
+        "Distrito de los museos",
+        "Mercado nocturno de Temple Street"
+      ],
+      "image": "/images/hong-kong/tsim-sha-tsui.jpg"
+    },
+    {
+      "name": "Mong Kok",
+      "vibe": "Caótico y Eléctrico",
+      "description": "El barrio más denso del mundo. Carteles de neón, mercados callejeros, tiendas de electrónica y una energía constante. Aquí se encuentran el Mercado de Damas y la Calle de las Zapatillas.",
+      "highlights": [
+        "Mercado de Damas",
+        "Calle de las Zapatillas",
+        "Mercado de Flores"
+      ],
+      "image": "/images/hong-kong/mong-kok.jpg"
+    },
+    {
+      "name": "Sheung Wan",
+      "vibe": "Lo antiguo se encuentra con lo nuevo",
+      "description": "Tiendas de medicina tradicional china al lado de cafeterías modernas. Mayoristas de mariscos secos junto a galerías de arte. El auge gentrificador del viejo Hong Kong.",
+      "highlights": [
+        "Antigüedades de Cat Street",
+        "Templo Man Mo",
+        "Cafeterías modernas"
+      ],
+      "image": "/images/hong-kong/sheung-wan.jpg"
+    },
+    {
+      "name": "Causeway Bay",
+      "vibe": "Locura de Compras",
+      "description": "El centro neurálgico del comercio en Hong Kong. Enormes centros comerciales, grandes almacenes y boutiques en la calle. Los habitantes vienen aquí a comprar, comer y socializar.",
+      "highlights": [
+        "Centro comercial Times Square",
+        "Parque Victoria",
+        "Gran almacén Sogo"
+      ],
+      "image": "/images/hong-kong/causeway-bay.jpg"
+    },
+    {
+      "name": "Sham Shui Po",
+      "vibe": "Carácter Obrero",
+      "description": "El barrio más auténtico de Hong Kong. Mercados de electrónica, mayoristas de telas y comida callejera a buen precio. Poco inglés, máximo carácter.",
+      "highlights": [
+        "Electrónica de la calle Apliu",
+        "Mercado de telas",
+        "Dai pai dongs locales"
+      ],
+      "image": "/images/hong-kong/sham-shui-po.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Cómo moverse",
+      "icon": "Tren",
+      "summary": "Hong Kong cuenta con uno de los mejores sistemas de transporte público del mundo. Rápido, limpio e intuitivo.",
+      "details": [
+        "MTR (Metro): La columna vertebral. Cubre todas las grandes áreas, opera de 6h a 1h, con aire acondicionado, señales en inglés. Consiga una tarjeta Octopus (depósito de 50 HK$ + saldo inicial).",
+        "Tranvías: Los emblemáticos tranvías de dos pisos circulan a lo largo de la costa norte de Hong Kong. Muy baratos (3 HK$), lentos, encantadores. Suba por la parte trasera, baje por la delantera, pague al salir.",
+        "Autobuses: Amplios pero confusos para los turistas. Los autobuses de dos pisos van a todas partes. Utilice la aplicación Citymapper para las rutas. Pague con el cambio exacto o use la tarjeta Octopus.",
+        "Star Ferry: El legendario transbordador entre Kowloon y la Isla de Hong Kong. 3-4 HK$, en servicio desde 1888. Tómelo al atardecer para una atmósfera mágica.",
+        "Taxis: Abundantes y baratos. Rojos (urbanos), verdes (Nuevos Territorios), azules (Lantau). Los conductores rara vez hablan inglés, tenga la dirección en chino. Acepta Octopus.",
+        "A pie: Central / Admiralty / Sheung Wan son accesibles a pie. Utilice el extenso sistema de pasarelas cubiertas y escaleras mecánicas que conectan los edificios.",
+        "Minibuses: Verdes (rutas fijas) o rojos (rutas flexibles). Reservados solo para usuarios avanzados: los conductores no suelen hablar inglés y las rutas son misteriosas."
+      ]
+    },
+    {
+      "id": "logistics-airport",
+      "slug": "airport-transfers",
+      "title": "Del aeropuerto a la ciudad",
+      "icon": "Avión",
+      "summary": "El Aeropuerto de Hong Kong (HKIA) está situado en la isla de Lantau, conectado a la ciudad por un tren rápido y autobuses.",
+      "details": [
+        "Tren Airport Express: Opción más rápida (24 minutos hasta Central). HK$115 el sencillo. Funciona de 5:50 a 0:48. Compre una tarjeta Octopus en el aeropuerto o use una tarjeta de crédito en las puertas. Servicios de traslado gratuitos desde las estaciones a los hoteles.",
+        "Autobús del aeropuerto: Más económico (HK$40-50) pero más lento (45-60 minutos). Rutas a cada distrito. A21 va a Tsim Sha Tsui, A11 a Causeway Bay. Cómodo y con aire acondicionado.",
+        "Taxi: HK$250-350 hasta la isla de Hong Kong, HK$200-250 hasta Kowloon. Siga las señales de fila de espera—no acepte ofertas en la calle. Solo taxis rojos (urbanos). 30-50 minutos según el tráfico.",
+        "Transporte del hotel: Muchos hoteles ofrecen traslados privados. Costoso (HK$500+) pero práctico con equipaje.",
+        "Consejo: Si llega tarde (después de la medianoche), el taxi es su única opción. El Airport Express para a las 0:48."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "Seguridad y Estafas",
+      "icon": "Escudo",
+      "summary": "Hong Kong es una de las ciudades más seguras del mundo. La criminalidad violenta es rara, pero existen estafas dirigidas a turistas.",
+      "details": [
+        "Seguridad general: Puede caminar por cualquier parte en cualquier momento. La criminalidad violenta contra turistas es prácticamente inexistente. Las mujeres que viajan solas se sienten seguras.",
+        "Estafas comunes: Falsos monjes pidiendo donaciones (ignórelos). Chicas entregando tarjetas de 'masaje' en Tsim Sha Tsui (los spas legítimos no promocionan en la calle). Sastres que cobran de más dirigido a turistas.",
+        "Estafas de taxi: Raras. Se utilizan y son honestos los taxímetros. Si el conductor se niega a usar el taxímetro, salga inmediatamente. Asegúrese de que enciendan el taxímetro al inicio.",
+        "Estafas en restaurantes: Algunos restaurantes de mariscos en áreas turísticas inflan los precios o añaden cargos ocultos. Verifique los precios antes de hacer su pedido. Evite lugares con vendedores agresivos afuera.",
+        "Carteristas: Mínimos, pero esté atento a sus pertenencias en el MTR congestionado durante las horas pico. Mantenga los objetos de valor en los bolsillos delanteros.",
+        "Manifestaciones: Ocasionalmente ocurren manifestaciones políticas. Evítelas por completo - la respuesta de la policía puede ser intensa. Consulte las noticias antes de viajar.",
+        "Objetos perdidos: Informe a la policía. Hay buenas posibilidades de que los recupere - los hongkoneses son honestos y la ciudad tiene una extensa vigilancia por CCTV."
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "money-matters",
+      "title": "Dinero y Pagos",
+      "icon": "DollarSign",
+      "summary": "El Dólar de Hong Kong (HKD) es la moneda. Las tarjetas se aceptan ampliamente, pero el efectivo sigue siendo rey en los lugares locales.",
+      "details": [
+        "Moneda: HK$1 ≈ 0,13 $ USD. Monedas: 0,1, 0,2, 0,5, 1, 2, 5, 10. Billetes: 10, 20, 50, 100, 500, 1000 $. Tres bancos diferentes imprimen billetes; todos son medios de pago legales.",
+        "Cajeros automáticos: En todas partes. 7-Eleven tiene cajeros automáticos. Retire de HSBC o del Banco de China para obtener las mejores tasas. La mayoría acepta tarjetas internacionales (Visa, Mastercard, UnionPay).",
+        "Tarjetas de Crédito: Visa y Mastercard se aceptan en restaurantes, centros comerciales y hoteles. Muchas pequeñas tiendas y dai pai dongs solo aceptan efectivo.",
+        "Octopus Card: El arma secreta. Tarjeta inteligente recargable válida en todos los transportes, 7-Eleven, McDonald's, Starbucks, cajeros automáticos. Depósito de HK$50 + valor inicial. Recargue en las estaciones de MTR o en 7-Eleven.",
+        "Cambio: Evite el aeropuerto (tasas terribles). Utilice las casas de cambio en la ciudad en Central o Tsim Sha Tsui (Chungking Mansions ofrece buenas tasas pero es caótico). Los bancos también hacen cambios.",
+        "Propinas: No se esperan. Se añaden automáticamente cargos por servicio del 10 % a las facturas de los restaurantes. No hay propina para taxis, MTR o restauración informal. Los restaurantes de alta gama pueden esperar una pequeña propina adicional.",
+        "Negociación: Esperada en los mercados callejeros (Ladies Market, Temple Street). Comience en un 50-60 % del precio pedido. No es aceptable en centros comerciales o tiendas regulares."
+      ]
+    },
+    {
+      "id": "logistics-weather",
+      "slug": "when-to-visit",
+      "title": "Cuándo visitar",
+      "icon": "Sol",
+      "summary": "Desde octubre hasta diciembre es la temporada alta. El verano es caluroso y húmedo. Evite el Año Nuevo chino si odia las multitudes.",
+      "details": [
+        "Mejor momento: de octubre a diciembre. Seco, soleado, temperaturas confortables (18-25°C). Perfecto para senderismo y actividades al aire libre. Precios más altos.",
+        "Buen momento: de enero a marzo. Fresco y seco. El Año Nuevo chino (finales de enero/principios de febrero) es festivo pero lleno y caro. Reserve con 3 meses de antelación.",
+        "A evitar: de junio a septiembre. Temporada de tifones, calor extremo (más de 32°C), humedad opresiva (80-90%). Lluvias diarias. Todo está climatizado a niveles árticos.",
+        "Viaje de bajo presupuesto: abril-mayo o septiembre. Temporada intermedia con precios más bajos pero aumentando la humedad y las lluvias. Siempre es bueno para explorar la ciudad.",
+        "Festivales: Año Nuevo chino (el más grande), Festival de los botes dragón (junio), Festival de mitad de otoño (septiembre), luces de Navidad (diciembre).",
+        "Tifones: Los ciclones tropicales golpean de junio a octubre. Sistema de señalización de tifones: T1 (tenga cuidado), T3 (quédese adentro), T8+ (todo se detiene). Los hoteles permanecen abiertos. Puede ser emocionante.",
+        "Consejo: Noviembre tiene cielos despejados, baja humedad, temperaturas perfectas y precios inferiores a los de octubre. El mejor mes secreto."
+      ]
+    },
+    {
+      "id": "logistics-language",
+      "slug": "language-tips",
+      "title": "Lenguaje y comunicación",
+      "icon": "MessageCircle",
+      "summary": "El cantonés es el idioma principal. Los letreros en inglés están por todas partes, pero el inglés hablado varía.",
+      "details": [
+        "Idiomas oficiales: Cantonés (90 %), inglés (oficial pero con dominio limitado), mandarín (en aumento).",
+        "Inglés: Todos los letreros del MTR, los letreros de las calles y las zonas turísticas tienen inglés. El gobierno y las empresas utilizan el inglés. Sin embargo, muchos residentes hablan poco inglés, especialmente los ancianos.",
+        "Fundamentos del cantonés: Aprenda 'M̀h'gōi' (gracias) y 'Nei hou' (hola). Incluso los intentos básicos son bien recibidos. La pronunciación es tonal - no se preocupe por la exactitud.",
+        "Chino escrito: Caracteres tradicionales (no simplificados como en China continental). Incluso si lee chino mandarín, algunos caracteres difieren.",
+        "Estrategia de restaurante: Muchos restaurantes locales tienen menús en inglés o menús ilustrados. Señale lo que comen otros si no puede leer el menú. La función de cámara de Google Translate ayuda.",
+        "Aplicaciones: Descargue Google Translate para el cantonés sin conexión. Aplicación de diccionario Pleco. WhatsApp es la principal aplicación de mensajería en Hong Kong.",
+        "Obtener ayuda: Los jóvenes y los trabajadores del sector servicios hablan mejor inglés. El personal de los hoteles y los centros de información turística son comunes."
+      ]
+    },
+    {
+      "id": "logistics-health",
+      "slug": "health-essentials",
+      "title": "Salud y Médico",
+      "icon": "Corazón",
+      "summary": "Sistema de salud excelente. El agua del grifo es potable. Hay farmacias por todas partes.",
+      "details": [
+        "Salud: De clase mundial. Los hospitales públicos son económicos pero están saturados. Las clínicas y hospitales privados son caros pero rápidos. Contrate un seguro de viaje.",
+        "Agua del grifo: Segura para beber. Hong Kong tiene altos estándares de calidad del agua. Los hoteles y restaurantes la sirven gratis.",
+        "Farmacias: Watsons y Mannings están por todas partes. Abren hasta tarde. La mayoría de los medicamentos están disponibles sin receta (antibióticos, etc.). Los farmacéuticos hablan un poco de inglés.",
+        "Emergencia: Marque el 999 para ambulancia/policía/incendio. Hay operadores que hablan inglés disponibles. El Hospital Queen Mary y el Hospital Prince of Wales son hospitales públicos importantes.",
+        "Contaminación: La calidad del aire puede ser mala (especialmente en verano). Verifique los niveles de AQI si tiene problemas respiratorios. Use una mascarilla si es necesario - es culturalmente normal.",
+        "Calor y Humedad: La humedad del verano causa agotamientos por calor. Beba agua constantemente. Busque espacios con aire acondicionado. Los lugareños usan paraguas para protegerse del sol.",
+        "Mosquitos: El dengue existe pero es raro. Use un repelente si hace senderismo o está en parques. Las zonas urbanas tienen pocos mosquitos.",
+        "Clínicas: Central Health Medical Practice, OT&P Healthcare. Espere pagar entre HK$500 y 1000 por una consulta."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Aplicaciones Esenciales",
+      "icon": "Smartphone",
+      "summary": "Estas aplicaciones harán que moverse por Hong Kong sea infinitamente más fácil.",
+      "details": [
+        "Citymapper: La aplicación de transporte para Hong Kong. Direcciones MTR, autobuses, ferris y a pie en tiempo real. Mejor que Google Maps para el transporte público.",
+        "MTR Mobile: Aplicación oficial con planificación de rutas y actualizaciones de servicio. Indica qué salida usar en las estaciones.",
+        "OpenRice: El Yelp de Hong Kong para restaurantes. Reseñas en inglés y en chino. Esencial para encontrar buenos lugares locales.",
+        "WhatsApp: Todo el mundo lo usa. Llamadas y mensajes gratuitos. Descárguelo antes de su llegada.",
+        "WeChat: Necesario para ciertos negocios chinos y amigos del continente. No es tan esencial como en China continental.",
+        "Google Maps: Funciona perfectamente en Hong Kong (a diferencia de China continental). Se recomiendan mapas sin conexión.",
+        "Deliveroo / Foodpanda: Entrega de comida. Selección masiva. Interfaz en inglés. Un salvavidas para las noches tardías."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-hk-001",
+      "slug": "dim-sum",
+      "name_en": "Dim Sum",
+      "name_local": "點心 (Dim Sam)",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "La experiencia culinaria imprescindible de Hong Kong, con porciones individuales de deliciosas especialidades cocidas al vapor, fritas y al horno, servidas en cestas de bambú.",
+        "history": "Originalmente un bocadillo para los viajeros de la Ruta de la Seda, ha evolucionado en Hong Kong a una tradición llamada 'Yum Cha', donde las familias se reúnen para el té de la mañana y la conversación.",
+        "insider_tip": "Si un camarero sirve su té, golpee dos dedos sobre la mesa para decir 'gracias' sin interrumpir la conversación. Pida 'Har Gow' (empanadillas de camarones) para probar las habilidades de un chef.",
+        "price_level": "Moderado",
+        "duration": "1-1,5 horas",
+        "best_time": "Brunch del fin de semana (antes de las 13h)",
+        "vibe": "Animado y amigable",
+        "good_for": [
+          "Grupos",
+          "Tradicionalistas",
+          "Gourmet"
+        ]
+      },
+      "image": "/images/hong-kong/dim-sum.jpg"
+    },
+    {
+      "id": "food-hk-002",
+      "slug": "roast-goose",
+      "name_en": "Oie rôtie",
+      "name_local": "燒鵝 (Siu Ngo)",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Una oca jugosa asada a la perfección con una piel crujiente y carne tierna y sabrosa, a menudo servida sobre arroz con una salsa de ciruela picante.",
+        "history": "Una especialidad laboriosa de la cocina cantonesa, la oca asada tradicional de Hong Kong se prepara a menudo en hornos de carbón para lograr una profundidad ahumada distintiva.",
+        "insider_tip": "Visite el legendario Yat Lok en Central o Kam's en Wan Chai, pero llegue 15 minutos antes de la apertura para asegurar un lugar sin tener que esperar 2 horas.",
+        "price_level": "Caro",
+        "duration": "45-60 mins",
+        "best_time": "Almuerzo",
+        "vibe": "Eficiente y de alta calidad",
+        "good_for": [
+          "Amantes de la carne",
+          "Viajeros gourmet",
+          "Almuerzo rápido"
+        ]
+      },
+      "image": "/images/hong-kong/roast-goose.jpg"
+    },
+    {
+      "id": "food-hk-003",
+      "slug": "wonton-noodles",
+      "name_en": "Nouilles Wonton",
+      "name_local": "雲吞麵 (Wan Tan Min)",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Fideos de huevo al dente servidos en un caldo claro de lenguado seco con wontones de camarones gordos escondidos debajo de los fideos.",
+        "history": "Un alimento básico de la clase trabajadora que ganó popularidad en la década de 1940. El 'estilo hongkonés' se caracteriza por el crujiente distintivo de los fideos y la profundidad umami del caldo.",
+        "insider_tip": "Los verdaderos fideos wonton se sirven en un tazón pequeño con la cuchara en el fondo para evitar que los fideos se vuelvan blandos en el caldo.",
+        "price_level": "Asequible",
+        "duration": "30 min",
+        "best_time": "En cualquier momento",
+        "vibe": "Informal y reconfortante",
+        "good_for": [
+          "Viajeros con poco presupuesto",
+          "Comida rápida",
+          "Comensales solitarios"
+        ]
+      },
+      "image": "/images/hong-kong/wonton-noodles.jpg"
+    },
+    {
+      "id": "food-hk-004",
+      "slug": "tarta-de-huevo",
+      "name_en": "Tarta de huevo",
+      "name_local": "蛋撻 (Daan Taat)",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Una crema inglesa de huevo suave y de color amarillo brillante, ubicada en una base de masa quebrada desmenuzada o una masa hojaldrada de múltiples capas.",
+        "history": "Una creación híbrida nacida de las tartas de huevo británicas y los pasteis de nata portugueses, adaptada por los 'Cha Chaan Tengs' de Hong Kong en los años 1940.",
+        "insider_tip": "La masa hojaldrada (sau pei) es más tradicional para el té de la tarde, mientras que la masa quebrada (tai pei) se encuentra a menudo en las panaderías locales. La panadería Tai Cheong es el lugar más famoso.",
+        "price_level": "Asequible",
+        "duration": "5-10 minutos",
+        "best_time": "15:00 (Té de la tarde)",
+        "vibe": "Dulce y nostálgico",
+        "good_for": [
+          "Probar",
+          "Amantes de los dulces",
+          "A media carrera"
+        ]
+      },
+      "image": "/images/hong-kong/egg-tart.jpg"
+    },
+    {
+      "id": "food-hk-005",
+      "slug": "pineapple-bun",
+      "name_en": "Bun de piña con mantequilla",
+      "name_local": "菠蘿油 (Bo Lo Yau)",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Un pan suave y dulce, cubierto con una corteza crujiente y dulce, servido caliente con una gruesa rebanada de mantequilla fría y salada en su interior.",
+        "history": "No contiene piña real; su nombre proviene de la corteza en damero dorada que se parece a la piel de la fruta.",
+        "insider_tip": "La versión 'Pineapple Oil' (Bo Lo Yau) es la elección de los profesionales: el contraste entre el pan caliente y la mantequilla fría que se derrite es esencial.",
+        "price_level": "Asequible",
+        "duration": "15-20 minutos",
+        "best_time": "Desayuno o merienda de la tarde",
+        "vibe": "Cultura de los cafés locales",
+        "good_for": [
+          "Comidas económicas",
+          "Comida reconfortante",
+          "Desayuno"
+        ]
+      },
+      "image": "/images/hong-kong/pineapple-bun.jpg"
+    },
+    {
+      "id": "food-hk-006",
+      "slug": "milk-tea",
+      "name_en": "Té con leche de Hong Kong",
+      "name_local": "絲襪奶茶 (Si Mat Naai Cha)",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Una potente mezcla de varios tipos de té negro con leche evaporada, conocido por su textura cremosa y su alta cantidad de cafeína.",
+        "history": "También conocido como 'Té con leche en media de nylon' porque el té tradicionalmente se filtra a través de una bolsa fina que se asemeja a una media de seda.",
+        "insider_tip": "Pídalo como 'Yuenyeung' para obtener una mezcla local favorita de 3 partes de café y 7 partes de té con leche para un impulso energético aún mayor.",
+        "price_level": "Asequible",
+        "duration": "10-15 minutos",
+        "best_time": "TÉ de la tarde",
+        "vibe": "Energizante y suave",
+        "good_for": [
+          "Amantes de la cafeína",
+          "Experiencia local",
+          "Aficionados a las bebidas"
+        ]
+      },
+      "image": "/images/hong-kong/milk-tea.jpg"
+    },
+    {
+      "id": "food-hk-007",
+      "slug": "char-siu",
+      "name_en": "Porc BBQ",
+      "name_local": "叉燒 (Cha Siu)",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Trozos de cerdo deshuesado marinados en una mezcla dulce de miel y cinco especias, luego asados hasta caramelizados y tiernos.",
+        "history": "La palabra 'Char Siu' significa literalmente 'a la parrilla con un tenedor', en referencia al método tradicional de atravesar la carne con largas tenedores sobre un fuego.",
+        "insider_tip": "Pida 'Bun Fei Sau' (mitad grasa, mitad magra) para obtener el equilibrio perfecto entre la grasa derretida y la carne sabrosa.",
+        "price_level": "Moderado",
+        "duration": "30-45 minutos",
+        "best_time": "Almuerzo",
+        "vibe": "Sabroso y dulce",
+        "good_for": [
+          "Amantes de la carne",
+          "Familias",
+          "Comidas diarias"
+        ]
+      },
+      "image": "/images/hong-kong/char-siu.jpg"
+    },
+    {
+      "id": "food-hk-008",
+      "slug": "cheung-fun",
+      "name_en": "Rouleaux de nouilles de riz",
+      "name_local": "腸粉 (Cheung Fan)",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Hojas de fideos de arroz sedosas y translúcidas enrolladas alrededor de rellenos como camarones o carne de res, rociadas con salsa de soja dulce sazonada.",
+        "history": "Un plato imprescindible del dim sum que comenzó como un bocadillo callejero. Las mejores versiones se preparan al vapor usando una pasta de arroz sobre un tejido.",
+        "insider_tip": "El Cheung Fun estilo calle es a menudo servido sencillo en un rollo con semillas de sésamo, salsa hoisin y salsa de maní—muy diferente de la versión de dim sum.",
+        "price_level": "Asequible",
+        "duration": "20 mins",
+        "best_time": "Desayuno o Dim Sum",
+        "vibe": "Suave y ligero",
+        "good_for": [
+          "Amantes de los mariscos",
+          "Desayuno",
+          "Comidas ligeras"
+        ]
+      },
+      "image": "/images/hong-kong/cheung-fun.jpg"
+    },
+    {
+      "id": "food-hk-009",
+      "slug": "claypot-rice",
+      "name_en": "Arroz cocido en una olla de barro",
+      "name_local": "煲仔飯 (Bo Zai Faan)",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Arroz cocido en una olla de barro sobre una llama abierta con ingredientes como salchichas curadas, pollo o carne de res, resultando en una capa inferior crujiente y carbonizada.",
+        "history": "Un favorito de invierno en Hong Kong, tradicionalmente cocido a la parrilla con carbón para darle al arroz un aroma ahumado distintivo.",
+        "insider_tip": "No raspe el fondo inmediatamente; deje que la olla repose unos minutos con la tapa para asegurar que la 'costra' de arroz se vuelva perfectamente crujiente.",
+        "price_level": "Moderado",
+        "duration": "45-60 mins",
+        "best_time": "Cena (especialmente en invierno)",
+        "vibe": "Cálido y rústico",
+        "good_for": [
+          "Visitas invernales",
+          "Gourmets aventureros",
+          "Cultura auténtica"
+        ]
+      },
+      "image": "/images/hong-kong/claypot-rice.jpg"
+    },
+    {
+      "id": "food-hk-010",
+      "slug": "cart-noodles",
+      "name_en": "Nouilles de Chariot",
+      "name_local": "車仔麵 (Che Zai Min)",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Un tazón de sopa de fideos altamente personalizable donde los comensales eligen su tipo de fideos, su caldo y una variedad de ingredientes como el tofu de sangre de cerdo o el rábano daikon.",
+        "history": "Nació en los años 1950 cuando vendedores ambulantes vendían fideos desde carritos de madera a los refugiados. Sigue siendo la comida económica definitiva de 'elija su propia aventura'.",
+        "insider_tip": "No tenga miedo de los ingredientes 'raros'; las alas de pollo glaseadas y la piel de cerdo caramelizada son favoritas locales que añaden una excelente textura.",
+        "price_level": "Asequible",
+        "duration": "30 mins",
+        "best_time": "Almuerzo",
+        "vibe": "Informal y animado",
+        "good_for": [
+          "Viajeros con presupuesto limitado",
+          "Comidas personalizadas",
+          "Comidas rápidas"
+        ]
+      },
+      "image": "/images/hong-kong/cart-noodles.jpg"
+    },
+    {
+      "id": "food-hk-011",
+      "slug": "french-toast",
+      "name_en": "Tostadas Francesas de Hong Kong",
+      "name_local": "西多士 (Sai Do Si)",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Grandes rebanadas de pan blanco rellenas de mantequilla de maní, empapadas en huevo y fritas, luego cubiertas con jarabe dorado y una nuez de mantequilla.",
+        "history": "Un ejemplo decadente de cocina fusión 'Canto-Western' que ha surgido en los cafés de té locales para satisfacer un antojo dulce influenciado por Occidente.",
+        "insider_tip": "Vierta generosamente el jarabe. Es una bomba calórica para compartir como un refrigerio, no para comer como un desayuno saludable.",
+        "price_level": "Asequible",
+        "duration": "20-30 min",
+        "best_time": "Hora del té",
+        "vibe": "Indulgente y grasoso",
+        "good_for": [
+          "Amantes de los dulces",
+          "Compartir",
+          "Cafés locales"
+        ]
+      },
+      "image": "/images/hong-kong/french-toast.jpg"
+    },
+    {
+      "id": "food-hk-012",
+      "slug": "fish-balls",
+      "name_en": "Boulettes de poisson au curry",
+      "name_local": "咖喱魚蛋 (Ga Lei Yu Dan)",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Boulettes esponjosas y rebotantes hechas de pasta de pescado, cocinadas en una rica salsa de curry amarilla ligeramente picante y servidas en un palito.",
+        "history": "El rey indiscutible de la comida callejera en Hong Kong. Se estima que los hongkoneses consumen millones cada día.",
+        "insider_tip": "Busque vendedores en Mong Kok o Sham Shui Po donde la salsa de curry burbujea y es espesa; si la salsa parece agua, siga su camino.",
+        "price_level": "Asequible",
+        "duration": "5-10 minutos",
+        "best_time": "Tentempié nocturno",
+        "vibe": "La quintaesencia de la comida callejera",
+        "good_for": [
+          "Tentempié rápido",
+          "Para llevar",
+          "Presupuesto limitado"
+        ]
+      },
+      "image": "/images/hong-kong/fish-balls.jpg"
+    },
+    {
+      "id": "food-hk-013",
+      "slug": "congee",
+      "name_en": "Congee de huevos de cien años y cerdo",
+      "name_local": "皮蛋瘦肉粥 (Pei Dan Sau Yuk Juk)",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Una papilla de arroz espesa y sedosa aromatizada con trozos de huevos de cien años y tiras de cerdo magro.",
+        "history": "Considerado como el mejor alimento curativo en la cultura china, el congee es fácil de digerir y a menudo se consume en el desayuno o como cena tardía.",
+        "insider_tip": "Pida un 'Yau Zaa Gwai' (bastón de masa frita) al lado para sumergirlo en el congee y disfrutar de un crujido satisfactorio.",
+        "price_level": "Asequible",
+        "duration": "30-45 minutos",
+        "best_time": "Desayuno",
+        "vibe": "Tranquilo y nutritivo",
+        "good_for": [
+          "Bienestar",
+          "Desayuno",
+          "Sabores suaves"
+        ]
+      },
+      "image": "/images/hong-kong/congee.jpg"
+    },
+    {
+      "id": "food-hk-014",
+      "slug": "egg-waffle",
+      "name_en": "Gaufre aux œufs",
+      "name_local": "雞蛋仔 (Gai Daan Zai)",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Una gaufre en forma de panal con piezas en forma de burbuja que son crujientes por fuera y esponjosas por dentro.",
+        "history": "La leyenda dice que fue inventada por un tendero que utilizaba huevos rotos para hacer una masa para no desperdiciarlos. Ahora es un ícono mundial de la comida callejera.",
+        "insider_tip": "Pruebe primero la versión natural para apreciar el sabor del huevo maltado antes de intentar las versiones de moda con chocolate o matcha.",
+        "price_level": "Asequible",
+        "duration": "10 minutos",
+        "best_time": "Merienda de la tarde",
+        "vibe": "Divertida y nostálgica",
+        "good_for": [
+          "Niños",
+          "Picar",
+          "Fotografía"
+        ]
+      },
+      "image": "/images/hong-kong/egg-waffle.jpg"
+    },
+    {
+      "id": "food-hk-015",
+      "slug": "hot-pot",
+      "name_en": "Hot Pot",
+      "name_local": "火鍋 (Fo Wo)",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Una experiencia de comida comunitaria donde ingredientes frescos y crudos se cocinan en una olla de caldo hirviendo en el centro de la mesa.",
+        "history": "En Hong Kong, el hot pot es un evento social durante todo el año, aunque es más popular durante los breves meses fríos del invierno.",
+        "insider_tip": "Cree su propia salsa de acompañamiento en la barra de condimentos: ajo, cebollinos, salsa de soja y un poco de aceite de chile son la base estándar local.",
+        "price_level": "Moderado",
+        "duration": "2 horas",
+        "best_time": "Cena",
+        "vibe": "Animado e interactivo",
+        "good_for": [
+          "Socializar",
+          "Grupos",
+          "Gourmets"
+        ]
+      },
+      "image": "/images/hong-kong/hot-pot.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Monumentos emblemáticos",
+      "id": "landmarks",
+      "items": [
+        {
+          "id": "sight-hk-001",
+          "slug": "victoria-peak",
+          "name_en": "Victoria Peak",
+          "name_local": "太平山 (Tai Ping Shan)",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "El punto más alto de la isla de Hong Kong, que ofrece una vista famosa del horizonte de rascacielos y del puerto de Victoria.",
+            "history": "Durante la era colonial, el Peak era una zona residencial exclusiva para europeos; el Peak Tram se construyó en 1888 para facilitar su transporte.",
+            "insider_tip": "Evite la larga fila del Peak Tram tomando el autobús #15 desde Central Ferry Pier; es más barato y ofrece vistas espectaculares por las sinuosas carreteras.",
+            "price_level": "Gratis (el tranvía es caro)",
+            "duration": "2-3 horas",
+            "best_time": "Puesta de sol (mire las luces de la ciudad encenderse)",
+            "vibe": "Impresionante y emblemático",
+            "good_for": [
+              "Fotografía",
+              "Visitantes por primera vez",
+              "Vistas"
+            ]
+          },
+          "image": "/images/hong-kong/victoria-peak.jpg",
+          "geo": {
+            "lat": 22.2783,
+            "lng": 114.1747
+          }
+        },
+        {
+          "id": "sight-hk-002",
+          "slug": "star-ferry",
+          "name_en": "Star Ferry",
+          "name_local": "天星小輪",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un legendario servicio de ferry verde y blanco que transporta pasajeros a través del puerto de Victoria desde hace más de 130 años.",
+            "history": "National Geographic lo ha clasificado como uno de los '50 lugares de una vida'. Sigue siendo uno de los transportes públicos más asequibles y pintorescos del mundo.",
+            "insider_tip": "Siéntese en la cubierta superior para mejores vistas, o en la cubierta inferior para escuchar el agua golpeando el casco y sentir el aire marino.",
+            "price_level": "Asequible",
+            "duration": "10-15 minutos",
+            "best_time": "Crepúsculo (hora dorada)",
+            "vibe": "Nostálgico y pintoresco",
+            "good_for": [
+              "Viaje económico",
+              "Romance",
+              "Fotografía"
+            ]
+          },
+          "image": "/images/hong-kong/star-ferry.jpg",
+          "geo": {
+            "lat": 22.2934,
+            "lng": 114.168
+          }
+        },
+        {
+          "id": "sight-hk-003",
+          "slug": "symphony-of-lights",
+          "name_en": "Symphony of Lights",
+          "name_local": "幻彩詠香江",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un espectáculo de luz y láser sincronizado que involucra más de 40 rascacielos de ambos lados del puerto de Victoria.",
+            "history": "Inaugurado en 2004, es reconocido por el Libro Guinness de los Récords como el mayor espectáculo de luz y sonido permanente del mundo.",
+            "insider_tip": "El mejor lugar para verlo es el paseo marítimo de Tsim Sha Tsui cerca del Reloj; descargue la aplicación del espectáculo para escuchar la música sincronizada.",
+            "price_level": "Gratis",
+            "duration": "15 minutos",
+            "best_time": "20:00 en punto",
+            "vibe": "Espectacular y futurista",
+            "good_for": [
+              "Familias",
+              "Noctámbulos",
+              "Actividades gratuitas"
+            ]
+          },
+          "image": "/images/hong-kong/symphony-lights.jpg",
+          "geo": {
+            "lat": 22.2944,
+            "lng": 114.1722
+          }
+        },
+        {
+          "id": "sight-hk-004",
+          "slug": "big-buddha",
+          "name_en": "Tian Tan Buddha",
+          "name_local": "天壇大佛",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Una inmensa estatua de Buda de bronce de 34 metros de altura que se sienta serenamente en la cima de una montaña en la isla de Lantau.",
+            "history": "Terminada en 1993, la estatua mira hacia el norte hacia China continental, simbolizando la estabilidad de la región y la prosperidad del pueblo.",
+            "insider_tip": "Tome el teleférico Ngong Ping 360 (cabina de vidrio) para llegar; el suelo de vidrio ofrece una impresionante vista del bosque debajo.",
+            "price_level": "Moderado",
+            "duration": "Media jornada",
+            "best_time": "Mañana en días de semana (para evitar las largas filas)",
+            "vibe": "Majestuoso y espiritual",
+            "good_for": [
+              "Amantes de la naturaleza",
+              "Espiritualidad",
+              "Historia"
+            ]
+          },
+          "image": "/images/hong-kong/big-buddha.jpg",
+          "geo": {
+            "lat": 22.2542,
+            "lng": 113.9048
+          }
+        }
+      ]
+    },
+    {
+      "title": "Mercados y Compras",
+      "id": "marches",
+      "items": [
+        {
+          "id": "sight-hk-005",
+          "slug": "temple-street-night-market",
+          "name_en": "Mercado Nocturno de Temple Street",
+          "name_local": "廟街夜市",
+          "category": "sitio",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un animado bazar nocturno en Kowloon lleno de comida callejera, baratijas, adivinos y cantantes de ópera.",
+            "history": "A menudo usado como telón de fondo para películas de triadas, es el último lugar en Hong Kong donde realmente puede sentir la dureza y energía del viejo Kowloon.",
+            "insider_tip": "Camina hasta el final cerca del templo para encontrar a los adivinos—algunos incluso tienen aves entrenadas que 'eligen' tu tarjeta de la fortuna.",
+            "price_level": "Gratis (Compras Asequibles)",
+            "duration": "1,5-2 horas",
+            "best_time": "21:00 (cuando la energía alcanza su pico)",
+            "vibe": "Caótico y eléctrico",
+            "good_for": [
+              "Los noctámbulos",
+              "Los gourmets",
+              "Las compras a bajo costo"
+            ]
+          },
+          "image": "/images/hong-kong/temple-street.jpg",
+          "geo": {
+            "lat": 22.3123,
+            "lng": 114.1712
+          }
+        },
+        {
+          "id": "sight-hk-006",
+          "slug": "ladies-market",
+          "name_en": "Mercado de las Mujeres",
+          "name_local": "女人街",
+          "category": "sitio",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Una extensión de un kilómetro de puestos callejeros en Mong Kok que venden de todo, desde ropa y bolsos hasta souvenirs originales.",
+            "history": "Establecido en los años 1970, ganó su nombre debido al alto volumen de ropa y accesorios para mujeres a bajo precio que solían venderse aquí.",
+            "insider_tip": "La negociación es obligatoria; comience al 50 % del precio solicitado y esté listo para irse para obtener la mejor oferta.",
+            "price_level": "Gratis",
+            "duration": "1 hora",
+            "best_time": "Tarde",
+            "vibe": "Frenético y lleno de gente",
+            "good_for": [
+              "Las compras a bajo costo",
+              "Los cazadores de souvenirs",
+              "Observar a la gente"
+            ]
+          },
+          "image": "/images/hong-kong/ladies-market.jpg",
+          "geo": {
+            "lat": 22.3193,
+            "lng": 114.171
+          }
+        },
+        {
+          "id": "sight-hk-007",
+          "slug": "pmq",
+          "name_en": "PMQ",
+          "name_local": "元創方",
+          "category": "sitio",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un lugar creativo ubicado en un edificio histórico revitalizado, ahora lleno de boutiques de diseñadores locales y galerías de arte.",
+            "history": "Antiguamente el cuartel general de los policías casados, el sitio fue salvado de la demolición y transformado en un centro para la industria creativa de Hong Kong.",
+            "insider_tip": "Revise el programa del patio central—mercados nocturnos de alta gama o instalaciones artísticas internacionales a menudo tienen lugar los fines de semana.",
+            "price_level": "Gratis",
+            "duration": "1,5 horas",
+            "best_time": "Tarde de fin de semana",
+            "vibe": "Moderno y creativo",
+            "good_for": [
+              "Los amantes del diseño",
+              "Las compras",
+              "Los hipsters"
+            ]
+          },
+          "image": "/images/hong-kong/pmq.jpg",
+          "geo": {
+            "lat": 22.2847,
+            "lng": 114.1524
+          }
+        }
+      ]
+    },
+    {
+      "title": "Templos y Patrimonio",
+      "id": "temples",
+      "items": [
+        {
+          "id": "sight-hk-008",
+          "slug": "man-mo-temple",
+          "name_en": "Templo Man Mo",
+          "name_local": "文武廟",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un templo deslumbrante, lleno de incienso, dedicado a los dioses de la Literatura (Man) y de la Guerra (Mo).",
+            "history": "Construido en 1847, es uno de los templos más antiguos e importantes de la ciudad, habiendo servido anteriormente como tribunal para resolver conflictos comunitarios.",
+            "insider_tip": "Mire hacia arriba para ver las enormes espirales de incienso; pueden arder durante semanas y llenar el templo con una densa niebla mística.",
+            "price_level": "Gratis",
+            "duration": "30-45 minutos",
+            "best_time": "Mañana",
+            "vibe": "Espiritual y ahumado",
+            "good_for": [
+              "Amantes de la historia",
+              "Fotografía",
+              "Reflexión tranquila"
+            ]
+          },
+          "image": "/images/hong-kong/man-mo-temple.jpg",
+          "geo": {
+            "lat": 22.2845,
+            "lng": 114.1503
+          }
+        },
+        {
+          "id": "sight-hk-009",
+          "slug": "wong-tai-sin-temple",
+          "name_en": "Templo Wong Tai Sin",
+          "name_local": "黃大仙祠",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un vasto complejo de templo taoísta, famoso por el 'Kau Cim' - una forma de adivinación utilizando varillas de bambú.",
+            "history": "Dedicado a un monje legendario que alcanzó la inmortalidad, es el templo más popular entre los locales que buscan orientación médica o fortuna profesional.",
+            "insider_tip": "Incluso si no habla cantonés, puede pagar una pequeña suma para hacer interpretar el número de su varilla de bambú por un adivino angloparlante en el arcade adyacente.",
+            "price_level": "Gratis",
+            "duration": "1 hora",
+            "best_time": "Mañana durante la semana",
+            "vibe": "Activo y animado",
+            "good_for": [
+              "Inmersión cultural",
+              "Arquitectura",
+              "Fotografía"
+            ]
+          },
+          "image": "/images/hong-kong/wong-tai-sin.jpg",
+          "geo": {
+            "lat": 22.3422,
+            "lng": 114.1934
+          }
+        },
+        {
+          "id": "sight-hk-010",
+          "slug": "tai-o-fishing-village",
+          "name_en": "Pueblo de Pescadores Tai O",
+          "name_local": "大澳漁村",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Una comunidad de pescadores tradicional Tanka famosa por sus casas sobre pilotes construidas en las marismas de la isla de Lantau.",
+            "history": "Conocida como la 'Venecia de Oriente', ofrece una visión del pasado de Hong Kong como una serie de humildes avanzadas pesqueras.",
+            "insider_tip": "Tome un paseo en bote de 20 minutos por 20 HK$ para ver las casas sobre pilotes desde el agua e intentar avistar a los raros delfines rosados en la bahía.",
+            "price_level": "Gratis (Bote asequible)",
+            "duration": "2-3 horas",
+            "best_time": "Tarde de fin de semana",
+            "vibe": "Nostálgico y rústico",
+            "good_for": [
+              "Excursiones de un día",
+              "Historia",
+              "Amantes de la naturaleza"
+            ]
+          },
+          "image": "/images/hong-kong/tai-o.jpg",
+          "geo": {
+            "lat": 22.2547,
+            "lng": 113.8574
+          }
+        }
+      ]
+    },
+    {
+      "title": "Naturaleza y Senderismo",
+      "id": "naturaleza",
+      "items": [
+        {
+          "id": "sight-hk-011",
+          "slug": "dragon-back-trail",
+          "name_en": "Sendero Dragon's Back",
+          "name_local": "龍脊",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Una caminata espectacular en una cresta que ofrece vistas panorámicas de la costa de Hong Kong y el mar de China Meridional.",
+            "history": "Elegido por Time Magazine como la mejor caminata urbana en Asia, conecta Wan Chai con el pueblo de surfistas de Big Wave Bay.",
+            "insider_tip": "El sendero termina en la playa de Big Wave Bay; traiga su traje de baño y disfrute de una cerveza y una pizza en las cabañas de playa locales.",
+            "price_level": "Gratis",
+            "duration": "3-4 horas",
+            "best_time": "Noviembre (fresco y seco)",
+            "vibe": "Escénico y revitalizante",
+            "good_for": [
+              "Senderistas",
+              "Amantes de la naturaleza",
+              "Viajeros activos"
+            ]
+          },
+          "image": "/images/hong-kong/dragon-back.jpg",
+          "geo": {
+            "lat": 22.2447,
+            "lng": 114.2487
+          }
+        },
+        {
+          "id": "sight-hk-012",
+          "slug": "sai-kung",
+          "name_en": "Sai Kung",
+          "name_local": "西貢",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un distrito costero conocido como el 'jardín trasero de Hong Kong', famoso por sus playas vírgenes, sus formaciones rocosas volcánicas y sus mariscos.",
+            "history": "Anteriormente un tranquilo puerto pesquero, ahora es la puerta de entrada al Geoparque Mundial de la UNESCO y la escapada ideal para el fin de semana.",
+            "insider_tip": "Tome una 'sampan' (pequeño barco) desde el muelle hasta Sharp Island para hacer snorkel entre las mejores aguas de la ciudad.",
+            "price_level": "Moderado",
+            "duration": "Día completo",
+            "best_time": "Fines de semana soleados",
+            "vibe": "Relajado y costero",
+            "good_for": [
+              "Amantes de la naturaleza",
+              "Fanáticos de los mariscos",
+              "Familias"
+            ]
+          },
+          "image": "/images/hong-kong/sai-kung.jpg",
+          "geo": {
+            "lat": 22.3814,
+            "lng": 114.2743
+          }
+        }
+      ]
+    },
+    {
+      "title": "Experiencias Urbanas",
+      "id": "urban",
+      "items": [
+        {
+          "id": "sight-hk-013",
+          "slug": "mid-levels-escalator",
+          "name_en": "Escalera Mids-Levels",
+          "name_local": "中環至半山自動扶梯",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "El sistema de transporte en escaleras cubierto más largo del mundo, que se extiende por 800 metros y sube más de 135 metros en elevación.",
+            "history": "Construido en 1993 para ofrecer un mejor trayecto a los residentes de los Mid-Levels, se ha convertido inadvertidamente en una atracción turística principal y en un centro de vida nocturna.",
+            "insider_tip": "La escalera desciende por la mañana (de 6h a 10h) y asciende de 10h a medianoche; planifique su paseo en consecuencia.",
+            "price_level": "Gratis",
+            "duration": "30-45 minutos",
+            "best_time": "Después de las 10h",
+            "vibe": "Singular y eficiente",
+            "good_for": [
+              "Observación de personas",
+              "Urbanismo único",
+              "Senderistas perezosos"
+            ]
+          },
+          "image": "/images/hong-kong/escalator.jpg",
+          "geo": {
+            "lat": 22.2837,
+            "lng": 114.1544
+          }
+        },
+        {
+          "id": "sight-hk-014",
+          "slug": "ozone-bar",
+          "name_en": "Bar Ozone",
+          "name_local": "Ozone Bar",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Uno de los bares más altos del mundo, situado en el 118º piso de la torre ICC en West Kowloon.",
+            "history": "Diseñado por Masamichi Katayama, el interior futurista 'en forma de colmena' del bar se corresponde con las alturas vertiginosas del hotel Ritz-Carlton.",
+            "insider_tip": "Verifique el clima antes de ir; si es un día brumoso, estará sentado en una nube sin visibilidad.",
+            "price_level": "Caro",
+            "duration": "1,5 horas",
+            "best_time": "La hora azul (justo después de la puesta de sol)",
+            "vibe": "Ultra-moderno y glamuroso",
+            "good_for": [
+              "Ocasiones especiales",
+              "Fotografía",
+              "Vistas"
+            ]
+          },
+          "image": "/images/hong-kong/ozone-bar.jpg",
+          "geo": {
+            "lat": 22.3039,
+            "lng": 114.158
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "9:00 AM",
+      "title": "Dim Sum en Tim Ho Wan",
+      "description": "Comience con dim sum galardonados con estrellas Michelin. Pida bollos de cerdo a la barbacoa, har gows, siu mais y pastel de rábano.",
+      "image": "/images/hong-kong/tim-ho-wan.jpg"
+    },
+    {
+      "time": "11:00 AM",
+      "title": "Escalera Central y Mid-Levels",
+      "description": "Descubra los rascacielos de Central, tome la escalera mecánica más larga del mundo, visite el templo Man Mo.",
+      "image": "/images/hong-kong/central-morning.jpg"
+    },
+    {
+      "time": "13h00",
+      "title": "Almuerzo de Oca Asada",
+      "description": "Carne asada con estrella Michelin en Yat Lok o Kam's. Oca entera sobre arroz por 100 HK$.",
+      "image": "/images/hong-kong/roast-goose2.jpg"
+    },
+    {
+      "time": "15h00",
+      "title": "Victoria Peak",
+      "description": "Tome el autobús 15 para evitar la cola del tranvía. Vistas panorámicas del horizonte, el puerto y las montañas.",
+      "image": "/images/hong-kong/peak-afternoon.jpg"
+    },
+    {
+      "time": "18h30",
+      "title": "Atardecer en el Star Ferry",
+      "description": "Realice el legendario cruce del puerto en la hora dorada. HK$4 por uno de los grandes viajes del mundo.",
+      "image": "/images/hong-kong/star-ferry2.jpg"
+    },
+    {
+      "time": "20h00",
+      "title": "Sinfonía de las Luces y Mercado Nocturno",
+      "description": "Admire el espectáculo de luces a las 20h, luego explore el Mercado Nocturno de Temple Street para el caos y las albóndigas de pescado al curry.",
+      "image": "/images/hong-kong/night-market.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "name": "Tarjeta Octopus",
+      "reason": "La utilizará más de 20 veces al día en el MTR, los autobuses y las tiendas de conveniencia.",
+      "image_url": "https://m.media-amazon.com/images/I/61VxVqG7SQL._AC_SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B07VWJF8PX?tag=canibringonpl-20"
+    },
+    {
+      "name": "Cargador Portátil para Teléfono",
+      "reason": "El uso constante de mapas y de la cámara agota rápidamente las baterías.",
+      "image_url": "https://m.media-amazon.com/images/I/61N3Z5L2JjL._AC_SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B08LH26PFT?tag=canibringonpl-20"
+    },
+    {
+      "name": "Paraguas compacto",
+      "reason": "Las lluvias repentinas son frecuentes. Tifones de junio a septiembre. Los habitantes lo llevan todo el año.",
+      "image_url": "https://m.media-amazon.com/images/I/71K1N0xq2bL._AC_SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B07QG2PQTL?tag=canibringonpl-20"
+    },
+    {
+      "name": "Toalla refrescante",
+      "reason": "La humedad estival (32°C + 80%) es abrumadora. Alivio instantáneo tan pronto como se moja.",
+      "image_url": "https://m.media-amazon.com/images/I/81vpmtqxCzL._AC_SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B01N7MLQXI?tag=canibringonpl-20"
+    }
+  ],
+  "region": "Asia"
+}

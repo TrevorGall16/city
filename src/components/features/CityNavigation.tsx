@@ -13,45 +13,40 @@ interface NavLink {
   href: string
 }
 
-const NAV_LINKS: NavLink[] = [
-  { label: 'Weather', href: '#weather' },
-  { label: 'Neighborhoods', href: '#neighborhoods' },
-  { label: 'Culture', href: '#culture' },
-  { label: 'Must See', href: '#sights' },
-  { label: 'Must Eat', href: '#food' },
-  { label: 'Logistics', href: '#logistics' },
-]
+export function CityNavigation({ lang, dict }: CityNavigationProps) {
+  const NAV_LINKS = [
+    { label: dict.overview, href: '#at-a-glance' },
+    { label: dict.weather, href: '#weather' },
+    { label: dict.neighborhoods, href: '#neighborhoods' },
+    { label: dict.culture, href: '#culture' },
+    { label: dict.must_see, href: '#must-see' },
+    { label: dict.must_eat, href: '#food' },
+    { label: dict.logistics, href: '#logistics' },
+  ]
 
-export function CityNavigation() {
   return (
-    <nav className="sticky top-0 z-30 bg-white/80 backdrop-blur-md border-b border-slate-200 shadow-sm">
+    <nav className="sticky top-16 z-40 bg-white/95 dark:bg-slate-950/95 backdrop-blur-lg border-b border-slate-200 dark:border-slate-800 shadow-sm transition-all">
       <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-3">
-        {/* Mobile: Horizontal scroll */}
-        <div className="md:hidden overflow-x-auto scrollbar-hide -mx-4 px-4">
-          <div className="flex gap-2 min-w-max">
+        <div className="flex items-center gap-6 overflow-x-auto whitespace-nowrap scrollbar-hide">
+          
+          <Link 
+            href={`/${lang}`} 
+            className="text-xs font-bold uppercase text-slate-500 hover:text-indigo-600 transition-colors flex items-center gap-1"
+          >
+            <span className="text-base">←</span> {dict.home}
+          </Link>
+
+          <div className="flex gap-3">
             {NAV_LINKS.map((link) => (
-              <Link
+              <a
                 key={link.href}
                 href={link.href}
-                className="inline-block px-4 py-2 rounded-full text-sm font-medium text-slate-700 bg-slate-100 hover:bg-indigo-600 hover:text-white transition-colors whitespace-nowrap"
+                className="px-4 py-1.5 rounded-full text-sm font-bold text-slate-700 dark:text-slate-200 bg-slate-100 dark:bg-slate-800 hover:bg-indigo-600 hover:text-white transition-all active:scale-95"
               >
                 {link.label}
-              </Link>
+              </a>
             ))}
           </div>
-        </div>
-
-        {/* Desktop: Centered flex */}
-        <div className="hidden md:flex items-center justify-center gap-3">
-          {NAV_LINKS.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="px-5 py-2 rounded-full text-sm font-medium text-slate-700 bg-slate-100 hover:bg-indigo-600 hover:text-white transition-colors"
-            >
-              {link.label}
-            </Link>
-          ))}
         </div>
       </div>
     </nav>

@@ -1,0 +1,1117 @@
+{
+  "id": "city-003",
+  "name": "Tokyo",
+  "slug": "tokyo",
+  "country": "Japan",
+  "country_code": "jp",
+  "hero_image": "/images/tokyo/hero.jpg",
+  "intro_vibe": "La capitale électrique : où l'ancienne tradition rencontre un avenir illuminé au néon.",
+  "general_info": {
+    "population": "~14 millions (ville) / ~38 millions (zone métropolitaine)",
+    "is_capital": true,
+    "description": "Tokyo est la capitale du Japon et la plus grande zone métropolitaine du monde. Ville des contrastes, Tokyo mélange harmonieusement les anciens temples avec les gratte-ciels, les cérémonies de thé traditionnelles avec la technologie de pointe, et les jardins apaisants avec l'énergie chaotique de Shibuya Crossing. Mais au-delà des sites, c'est un système d'exploitation à haute efficacité, défini par des protocoles écrits rigides ('Meiwaku' ou éviter les nuisances) et des flux logistiques complexes."
+  },
+  "stats": {
+    "currency": "JPY",
+    "plug_type": "Type A/B"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "Janvier",
+      "temp": "0°C - 10°C",
+      "vibe": "Froid & Sec",
+      "pros": [
+        "Ciels dégagés",
+        "Soldes d'hiver",
+        "Moins de touristes"
+      ],
+      "cons": [
+        "Froid",
+        "Jours courts"
+      ],
+      "clothing": "Manteau d'hiver, couches"
+    },
+    {
+      "id": 2,
+      "name": "Février",
+      "temp": "1°C - 10°C",
+      "vibe": "Encore froid",
+      "pros": [
+        "Fleurs de prunier",
+        "Prix plus bas",
+        "Temps clair"
+      ],
+      "cons": [
+        "Vents froids",
+        "Air sec"
+      ],
+      "clothing": "Veste chaude, écharpe"
+    },
+    {
+      "id": 3,
+      "name": "Mars",
+      "temp": "5°C - 14°C",
+      "vibe": "Réveil du printemps",
+      "pros": [
+        "La saison des cerisiers en fleurs commence",
+        "Journées plus chaudes",
+        "Festivals"
+      ],
+      "cons": [
+        "Foule dans les parcs",
+        "Temps variable"
+      ],
+      "clothing": "Veste légère, couches"
+    },
+    {
+      "id": 4,
+      "name": "Avril",
+      "temp": "10°C - 19°C",
+      "vibe": "Sakura en pleine floraison",
+      "pros": [
+        "Fleurs de cerisier en pleine floraison",
+        "Météo parfaite",
+        "Fêtes de Hanami"
+      ],
+      "cons": [
+        "Très encombré",
+        "Prix élevés"
+      ],
+      "clothing": "Couches légères, chaussures confortables"
+    },
+    {
+      "id": 5,
+      "name": "Mai",
+      "temp": "14°C - 23°C",
+      "vibe": "Frais & Vert",
+      "pros": [
+        "Vacances de la Golden Week",
+        "Météo agréable",
+        "Fleurs de glycine"
+      ],
+      "cons": [
+        "Foule de la Golden Week",
+        "Débuts humides"
+      ],
+      "clothing": "T-shirts, veste légère"
+    },
+    {
+      "id": 6,
+      "name": "Juin",
+      "temp": "18°C - 26°C",
+      "vibe": "Saison des pluies",
+      "pros": [
+        "Fleurs d'hortensia",
+        "Moins de touristes",
+        "Plus frais qu'en été"
+      ],
+      "cons": [
+        "Pluie quotidienne",
+        "Humidité élevée"
+      ],
+      "clothing": "Veste de pluie, parapluie"
+    },
+    {
+      "id": 7,
+      "name": "Juillet",
+      "temp": "22°C - 30°C",
+      "vibe": "Chaud et Humide",
+      "pros": [
+        "Festivals (Tanabata)",
+        "Énergie d'été",
+        "Excursions à la plage à proximité"
+      ],
+      "cons": [
+        "Chaleur extrême",
+        "Humidité",
+        "Bondé"
+      ],
+      "clothing": "Vêtements légers, crème solaire"
+    },
+    {
+      "id": 8,
+      "name": "Août",
+      "temp": "23°C - 31°C",
+      "vibe": "Plein été",
+      "pros": [
+        "Festivals de feux d'artifice",
+        "Holidays Obon",
+        "Plats d'été"
+      ],
+      "cons": [
+        "Mois le plus chaud",
+        "Saison des typhons"
+      ],
+      "clothing": "Vêtements très légers, chapeau"
+    },
+    {
+      "id": 9,
+      "name": "Septembre",
+      "temp": "20°C - 27°C",
+      "vibe": "Transition",
+      "pros": [
+        "Plus frais que l'été",
+        "L'automne commence",
+        "Moins de monde"
+      ],
+      "cons": [
+        "Typhons",
+        "Encore humide"
+      ],
+      "clothing": "Couches légères, équipement de pluie"
+    },
+    {
+      "id": 10,
+      "name": "Octobre",
+      "temp": "15°C - 22°C",
+      "vibe": "Automne doré",
+      "pros": [
+        "Temps parfait",
+        "Les feuillages d'automne commencent",
+        "Promenade confortable"
+      ],
+      "cons": [
+        "Afflux de touristes",
+        "Les prix augmentent"
+      ],
+      "clothing": "Veste légère, chaussures confortables"
+    },
+    {
+      "id": 11,
+      "name": "Novembre",
+      "temp": "9°C - 17°C",
+      "vibe": "Coloré",
+      "pros": [
+        "Couleurs d'automne au sommet",
+        "Cieux dégagés",
+        "Observation des Koyos"
+      ],
+      "cons": [
+        "Soirées plus froides",
+        "Saison touristique"
+      ],
+      "clothing": "Veste chaude, couches"
+    },
+    {
+      "id": 12,
+      "name": "Décembre",
+      "temp": "4°C - 12°C",
+      "vibe": "Festif",
+      "pros": [
+        "Illuminations de Noël",
+        "Préparatifs du Nouvel An",
+        "Météo claire"
+      ],
+      "cons": [
+        "Froid",
+        "Vacances chères"
+      ],
+      "clothing": "Manteau d'hiver, couches chaudes"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "La règle du 'Meiwaku' : La règle d'or de Tokyo est 'Meiwaku'—éviter de déranger les autres. Cela explique pourquoi les trains sont silencieux et que les sacs à dos sont portés sur le devant. Ce n'est pas seulement de la politesse ; c'est une question d'infrastructure.",
+      "Le silence comme ciment social : Le bruit crée des frictions sociales. Parler au téléphone dans le train est un grand tabou. Les conversations doivent être murmurées. Le silence est un comportement actif pour respecter l'espace partagé.",
+      "La réalité des poubelles : Il n'y a AUCUNE poubelle publique (un héritage des mesures de sécurité de 1995). Vous devez garder vos déchets avec vous jusqu'à ce que vous trouviez une poubelle dans un konbini ou votre hôtel.",
+      "Tabearuki (Pas de nourriture en marchant) : Manger en marchant est mal vu ('chaotique'). Si vous achetez de la nourriture de rue, restez près du magasin pour la manger, jetez vos déchets là-bas, puis partez.",
+      "La culture de la file d'attente : Faire la queue est sacré. Que ce soit pour le train ou un restaurant, ne jamais couper la file. S'il y a une file, la nourriture en vaut probablement la peine.",
+      "Espèces contre carte : Bien que se modernisant, de nombreux restaurants de ramen, distributeurs de billets et temples ne fonctionnent toujours qu'en ESPÈCES. Transportez toujours 10 000 yens en espèces.",
+      "Côtés de l'escalator : Restez à GAUCHE, marchez à DROITE. Cela est rigidement appliqué par la pression des pairs. (Remarque : cela s'inverse à Osaka).",
+      "Politesse procédurale : La politesse japonaise repose sur la correction et l'efficacité, pas sur la chaleur émotionnelle. Un manque de sourires ne signifie pas qu'ils sont impolis ; cela signifie qu'ils se concentrent sur le fait de faire leur travail parfaitement.",
+      "Pas de pourboire : Un excellent service est standard. Le pourboire provoque de la confusion et peut vous être rendu comme de l'argent 'perdu'.",
+      "Enlevez vos chaussures : Regardez le pas d'entrée (genkan). S'il y a des pantoufles, utilisez-les. Ne portez jamais de pantoufles de bain à l'extérieur de la salle de bain."
+    ],
+"essential_phrases": [
+  { "src": "Bonjour", "local": "こんにちは", "phonetic": "kon-nee-chee-wah" },
+  { "src": "Merci", "local": "ありがとうございます", "phonetic": "ah-ree-gah-toh goh-zai-mahs" },
+  {
+    "src": "Excusez-moi / Désolé / Merci",
+    "local": "すみません",
+    "phonetic": "soo-mee-mah-sen",
+    "note": "Mot multi-usage pour appeler, s'excuser ou remercier."
+  },
+  {
+    "src": "Je suis vraiment désolé",
+    "local": "ごめんなさい",
+    "phonetic": "goh-men-nah-sai",
+    "note": "Seulement pour excuses personnelles."
+  },
+  { "src": "Je ne comprends pas", "local": "わかりません", "phonetic": "wah-kah-ree-mah-sen" },
+  { "src": "L’addition s’il vous plaît", "local": "お会計お願いします", "phonetic": "oh-kai-keh oh-neh-gai-shee-mahs" }
+]
+
+  },
+  "neighborhoods": {
+    "data": [
+      {
+        "name": "Shibuya",
+        "vibe": "Jeunesse & Énergie",
+        "description": "Le cœur battant de la culture jeune de Tokyo. Défini par la verticalité et la topographie vallonnée. La station est superposée ; la ligne Ginza se trouve au 3ème étage, les autres sont profondément sous terre. Utilisez les 'Urban Cores' (ascenseurs) pour monter.",
+        "highlights": [
+          "Shibuya Crossing",
+          "Statue d'Hachiko",
+          "Rue Center Gai",
+          "Shibuya Sky"
+        ],
+        "image": "/images/tokyo/shibuya.jpg"
+      },
+      {
+        "name": "Shinjuku",
+        "vibe": "Métropole Néon",
+        "description": "Le district le plus fréquenté de Tokyo et son hub de transport. Naviguez par direction cardinales : Porte Est = Néon/Bruit (Kabukicho). Porte Ouest = Verticalité/Affaires (Gratte-ciels). Porte Sud = Shopping/En plein air.",
+        "highlights": [
+          "Vie nocturne de Kabukicho",
+          "Omoide Yokocho",
+          "Golden Gai"
+        ],
+        "image": "/images/tokyo/shinjuku.jpg"
+      },
+      {
+        "name": "Asakusa",
+        "vibe": "Tokyo Traditionnel",
+        "description": "Ancien Tokyo préservé. Temples historiques, boutiques traditionnelles et atmosphère nostalgique du Japon à l'ère Edo. Visitez tôt (6h) ou tard (20h) pour éviter la foule.",
+        "highlights": [
+          "Temple Senso-ji",
+          "Rue commerçante Nakamise",
+          "Rickshaws"
+        ],
+        "image": "/images/tokyo/asakusa.jpg"
+      },
+      {
+        "name": "Shimokitazawa",
+        "vibe": "Bohemian & Vintage",
+        "description": "La capitale hipster. Rues piétonnes étroites remplies de magasins de vêtements vintage, de disquaires, de cafés et de petits théâtres. Découvrez le nouveau 'Bonus Track', la voie verte connectant à Setagaya-Daita.",
+        "highlights": [
+          "Shopping Vintage",
+          "Cafés Indépendants",
+          "Salles de Concert",
+          "Bonus Track"
+        ],
+        "image": "/images/tokyo/shimokitazawa.jpg"
+      },
+      {
+        "name": "Yanaka",
+        "vibe": "Shitamachi (Basse Ville)",
+        "description": "Un rare survivant des bombardements de la Seconde Guerre mondiale. Bâtiments bas, nombreux temples et une ambiance résidentielle distincte. Marchez sur la route 'Yanesen' d'Ueno à Nippori pour un aperçu de Tokyo d'avant-guerre.",
+        "highlights": [
+          "Yanaka Ginza",
+          "Sanctuaire Nezu",
+          "Chats Locaux"
+        ],
+        "image": "/images/tokyo/yanaka.jpg"
+      },
+      {
+        "name": "Daikanyama & Ebisu",
+        "vibe": "Sophistication Yamanote",
+        "description": "Le 'Brooklyn de Tokyo'. Élégant, cher et résidentiel. Accueille la librairie T-Site et des promenades au bord de l'eau. C'est ici que les Tokyoïtes à la mode passent leurs week-ends.",
+        "highlights": [
+          "Librairie T-Site",
+          "Rivière Meguro",
+          "Yebisu Garden Place"
+        ],
+        "image": "/images/tokyo/daikanyama.jpg"
+      },
+      {
+        "name": "Koenji",
+        "vibe": "Punk & Rétro",
+        "description": "Brut, vivant, et célèbre pour ses racines punk rock et sa culture vintage. Un excellent endroit pour expérimenter la vie quotidienne de Tokyo loin de l'éclat.",
+        "highlights": [
+          "Vêtements Vintage",
+          "Izakayas",
+          "Awa Odori"
+        ],
+        "image": "/images/tokyo/koenji.jpg"
+      }
+    ]
+  },
+  "logistics": {
+    "content": [
+      {
+        "id": "logistics-survival",
+        "slug": "local-survival",
+        "title": "Conseils de Survie Locaux",
+        "icon": "Info",
+        "summary": "Des astuces essentielles pour un voyage sans friction.",
+        "details": [
+          "Choc des stations : Les grandes stations sont des mini-villes. Sortir du mauvais côté (par exemple, Est contre Ouest à Shinjuku) vous éloigne de 20 minutes. Vérifiez soigneusement les numéros de sortie.",
+          "Protocole du Dernier Train : Les trains s'arrêtent entre 23h30 et 00h30. 'Dernier Train' signifie souvent vers le terminal, pas *votre* station. Le manquer signifie un taxi à plus de 50 $ ou un séjour dans un Manga Café.",
+          "Heure de Pointe : Évitez les trains de 7h30 à 9h00. C'est une capacité de crush physique. Le silence est obligatoire.",
+          "Transport de Bagages (Takkyubin) : Ne transportez pas vos bagages dans les trains. Envoyez vos bagages de l'aéroport à votre hôtel pour environ 20 $. Cherchez le logo 'Chat Noir'."
+        ]
+      },
+      {
+        "id": "logistics-transit",
+        "slug": "getting-around",
+        "title": "Se Déplacer",
+        "icon": "Train",
+        "summary": "Le système ferroviaire de Tokyo est légendaire. Propre, ponctuel et couvre tous les endroits.",
+        "details": [
+          "Ligne JR Yamanote : La ligne circulaire verte reliant les principaux centres (Shibuya, Shinjuku, Tokyo).",
+          "Tokyo Metro : 13 lignes de métro. Google Maps est essentiel pour naviguer dans les transferts.",
+          "Google Maps : La seule application de navigation dont vous avez besoin. Elle vous dit exactement quel wagon prendre pour la sortie la plus rapide.",
+          "Réalité de la Carte IC (2025) : Les cartes Suica physiques sont rares en raison de pénuries de puces. Utilisez 'Mobile Suica' sur iPhone (ajoutez à votre Apple Wallet, rechargez avec Mastercard/Amex) ou achetez une carte touristique 'Welcome Suica' à l'aéroport."
+        ]
+      },
+      {
+        "id": "logistics-money",
+        "slug": "money-connectivity",
+        "title": "Argent & Wifi",
+        "icon": "Wifi",
+        "summary": "L'argent liquide est roi. Le Wifi est inégal.",
+        "details": [
+          "Règle de l'Argent : Toujours avoir ¥20,000. De nombreux restaurants de ramen et machines à tickets n'acceptent toujours que les espèces.",
+          "Distributeurs 7-Eleven : Les plus fiables pour les cartes étrangères. Ouverts 24h/24 et 7j/7.",
+          "Connectivité : Le Wifi public est peu fiable. Prévoyez une eSIM ou un Pocket Wifi. La navigation sans données en direct est impossible."
+        ]
+      },
+      {
+        "id": "logistics-scams",
+        "slug": "common-scams",
+        "title": "Escroqueries à Éviter",
+        "icon": "AlertTriangle",
+        "summary": "Tokyo est extrêmement sûr, mais évitez les 'Touts'.",
+        "details": [
+          "Règle du Tout : NE JAMAIS suivre un promoteur de rue à Kabukicho ou Roppongi. Le script est 'Massages ?' ou 'Boisson pas chère ?'. Vous serez piégé et dépouillé de milliers.",
+          "Faux Moines : N'acceptez pas de 'cartes dorées' ou de bénédictions de moines dans la rue qui demandent de l'argent.",
+          "'Girl' Bars : Évitez les endroits où le personnel se tient à l'extérieur en vous tirant agressivement à l'intérieur.",
+          "Défense : Ignorez-les complètement. Ne dites pas 'peut-être plus tard'. Marchez avec détermination."
+        ]
+      },
+      {
+        "id": "logistics-apps",
+        "slug": "essential-apps",
+        "title": "Applications à Télécharger",
+        "icon": "Smartphone",
+        "summary": "Ces applications faciliteront la navigation à Tokyo.",
+        "details": [
+          "Google Maps : Essentiel pour les itinéraires de train.",
+          "Google Translate : Utilisez la fonction caméra pour lire les menus.",
+          "Suica (Apple Wallet) : Ajoutez une carte de transit directement à votre iPhone.",
+          "Tabelog : Le 'Yelp' japonais. 3,5 étoiles est une très bonne note ici."
+        ]
+      }
+    ]
+  },
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "sushi",
+      "name_en": "Sushi",
+      "name_local": "寿司",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le sushi est du poisson cru frais ou des fruits de mer servis sur du riz vinaigré, parfois avec du wasabi entre le poisson et le riz. Tokyo est la capitale mondiale du sushi, allant d'omakase ultra-coûteux (menus de dégustation à choix du chef dans des établissements comme Sukiyabashi Jiro) à kaiten-zushi abordable (sushi sur tapis roulant). Chaque pièce est destinée à être mangée en une seule bouchée. Ne mélangez pas le wasabi dans la sauce soja, il est déjà dans le sushi.",
+        "vibe": "Raffiné, délicat",
+        "history": "Le sushi est originaire de Tokyo (Edo) dans les années 1820 en tant que fast food : du poisson conservé avec du vinaigre et du riz, mangé à la main dans des stands de rue. Après la Seconde Guerre mondiale, la réfrigération a permis d'avoir du poisson cru frais. Le bar à sushi moderne a émergé dans les années 1950-60. Le marché de Tsukiji (maintenant Toyosu) est devenu le plus grand marché de poissons du monde, consolidant la suprématie du sushi à Tokyo.",
+        "insider_tip": "Dans les sushi sur tapis roulant (¥100-300/assiette), prenez les assiettes directement sur le tapis ou commandez via une tablette. Dans les omakase haut de gamme (¥20,000+), mangez chaque pièce immédiatement après que le chef l'ait placée, côté poisson sur votre langue. Utilisez vos doigts ou des baguettes. Trempez légèrement le côté poisson (pas le côté riz) dans la sauce soja. Le gingembre est un nettoyant pour le palais entre les pièces, pas un garniture.",
+        "price_level": "Modéré",
+        "good_for": [
+          "Gourmets",
+          "Occasions spéciales"
+        ],
+        "duration": "30 minutes-1 heure",
+        "best_time": "Déjeuner ou dîner"
+      },
+      "image": "/images/tokyo/sushi.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "ramen",
+      "name_en": "Ramen",
+      "name_local": "ラーメン",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le ramen est la nourriture de l'âme de Tokyo : des nouilles de blé dans un bouillon riche (sauce soja shoyu, miso, os de porc tonkotsu ou sel shio) avec des garnitures comme du porc chashu, un œuf mollet, du nori et des oignons verts. C'est rapide, bon marché (¥800-1,200) et consommé en solo au comptoir. Le slurp est encouragé – cela refroidit les nouilles et améliore la saveur en aérant le bouillon. La plupart des magasins exigent de commander via des distributeurs de billets avant de s'asseoir.",
+        "vibe": "Confortable, intense",
+        "history": "Le ramen est arrivé de Chine à la fin des années 1800 mais est devenu distinctement japonais après la Seconde Guerre mondiale, lorsque la farine de blé bon marché était abondante. Le ramen de style Tokyo présente un bouillon de shoyu (sauce soja) avec des nouilles ondulées. Dans les années 1980-90, le ramen est devenu une forme d'art avec des styles régionaux en concurrence. Maintenant, Tokyo compte plus de 5 000 magasins de ramen.",
+        "insider_tip": "Commandez depuis le distributeur de billets avant d'entrer (les menus en anglais sont rares - cherchez des images). Choisissez la fermeté de vos nouilles (katame = ferme). Slurpez bruyamment - c'est la bonne technique et cela montre votre appréciation. Mangez rapidement pendant que c'est chaud ; traîner est découragé. De nombreux magasins n'acceptent que des paiements en espèces. Essayez le tsukemen (ramen à tremper) pour des nouilles plus épaisses et un bouillon concentré.",
+        "price_level": "Abordable",
+        "good_for": [
+          "Repas rapides",
+          "Repas en solo"
+        ],
+        "duration": "15-20 minutes",
+        "best_time": "Déjeuner ou tard dans la nuit"
+      },
+      "image": "/images/tokyo/ramen.jpg"
+    },
+    {
+      "id": "food-020",
+      "slug": "tempura",
+      "name_en": "Tempura",
+      "name_local": "天ぷら",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le tempura est un mélange de fruits de mer ou de légumes enrobés dans une légère panure aérée et frits à des températures précises (160-180 °C) jusqu'à obtenir une texture croustillante mais non grasse. Les ingrédients courants incluent ebi (crevette), anago (anguille de mer), champignons shiitake, feuilles de shiso et patate douce. Servez-le sur du riz (tendon) ou avec une sauce de trempage (tentsuyu). Les restaurants de tempura haut de gamme servent chaque pièce individuellement au fur et à mesure qu'elle est frite. La panure doit éclater à la première bouchée.",
+        "vibe": "Délicat, croustillant",
+        "history": "Le tempura a été introduit par des missionnaires portugais dans les années 1500 (le nom proviendrait probablement de 'temporas', les jours de jeûne du Carême). Des vendeurs de rue de Tokyo à l'époque d'Edo l'ont popularisé comme fast food. Après la guerre, il est devenu une cuisine raffinée. Le style de Tokyo utilise de l'huile de sésame pour une saveur noisette, contrairement au style plus léger d'huile végétale de Kyoto.",
+        "insider_tip": "Dans les comptoirs de tempura haut de gamme (¥10,000+), mangez chaque pièce immédiatement dès qu'elle est servie par le chef – le tempura perd de son croustillant en 60 secondes. Trempez légèrement dans la sauce tentsuyu ou utilisez du sel (sel au matcha pour les légumes). La queue de la crevette est comestible et croustillante. Dans les endroits décontractés, le tendon (bol de riz tempura) est l'option économique (¥800-1,200). Mangez avec des baguettes, pas à la main.",
+        "price_level": "Modéré",
+        "good_for": [
+          "Gourmets",
+          "Déjeuner"
+        ],
+        "duration": "30-45 minutes",
+        "best_time": "Déjeuner ou dîner"
+      },
+      "image": "/images/tokyo/tempura.jpg"
+    },
+    {
+      "id": "food-013",
+      "slug": "japanese-curry",
+      "name_en": "Curry Japonais",
+      "name_local": "カレーライス",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le curry japonais (kare raisu) est épais, doux, légèrement sucré et complètement différent du curry indien ou thaï. Il est préparé avec une base de roux contenant de la poudre de curry, de la farine et de l'huile, ce qui donne une consistance semblable à une sauce. Servi sur du riz avec des garnitures telles que la côtelette de porc (katsu curry), du poulet ou des légumes. CoCo Ichibanya est la chaîne omniprésente où vous pouvez personnaliser le niveau d'épices (1-10) et les garnitures. C'est un plat réconfortant, pas exotique.",
+        "vibe": "Réconfortant, doux",
+        "history": "Le curry est arrivé au Japon via la marine britannique dans les années 1870 pendant l'ère Meiji. Les Japonais l'ont adapté en utilisant de la poudre de curry et du roux, le rendant plus sucré et plus doux. Dans les années 1960, des blocs de roux de curry instantané (Golden Curry, Vermont Curry) l'ont transformé en aliment de base dans les foyers. CoCo Ichibanya a ouvert en 1978 et est devenue la plus grande chaîne de curry du Japon.",
+        "insider_tip": "CoCo Ichibanya est parfait pour la personnalisation : choisissez la quantité de riz (200-400g), le niveau d'épices (1-5 pour la plupart des gens, 6-10 est vraiment épicé), et les garnitures (côtelette de porc frite, fromage, épinards). Le niveau 3 est légèrement épicé ; le niveau 5 a du piquant. Le curry est accompagné de fukujinzuke (légumes marinés rouges) sur le côté. Mangez en mélangeant le curry dans le riz. C'est bon marché (¥500-800) et rapide.",
+        "price_level": "Abordable",
+        "good_for": [
+          "Plat réconfortant",
+          "Personnalisation"
+        ],
+        "duration": "20-30 minutes",
+        "best_time": "Déjeuner ou dîner"
+      },
+      "image": "/images/tokyo/curry.jpg"
+    },
+    {
+      "id": "food-011",
+      "slug": "tonkatsu",
+      "name_en": "Tonkatsu",
+      "name_local": "とんかつ",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le tonkatsu est une côtelette de porc panée et frite (généralement dans le loin ou le filet), aplatie, enrobée de chapelure panko et frite à des températures précises pour obtenir un extérieur croustillant et un intérieur juteux. Il est servi avec du chou râpé (mangé avec une vinaigrette au sésame), une soupe miso, du riz et une sauce tonkatsu (épaisse, sucrée-salée). La panure devrait se casser ; le porc devrait être tendre et rose pâle à l'intérieur. C'est une précision chirurgicale appliquée au porc frit.",
+        "vibe": "Croustillant, réconfortant",
+        "history": "Le tonkatsu a été créé à Tokyo en 1899 dans un restaurant appelé Rengatei, adaptant le schnitzel européen en utilisant la chapelure panko japonaise. Il est devenu un aliment réconfortant essentiel après la Seconde Guerre mondiale. Les restaurants de tonkatsu haut de gamme se procurent désormais du porc de races patrimoniales (Kurobuta, Berkshire) et font frire à des températures exactes. L'art du tonkatsu est pris au sérieux.",
+        "insider_tip": "Le meilleur tonkatsu a une couche de panko croustillante de 3 à 5 mm et un intérieur juteux. Broyez les graines de sésame dans le mortier à votre table et mélangez avec la sauce fournie pour une saveur fraîche. Le chou râpé est illimité, destiné à couper la richesse. Mangez la côtelette avec du riz et de la soupe miso en alternant les bouchées (style de consommation japonais traditionnel). Tonkatsu Maisen et Butagumi sont des chaînes fiables.",
+        "price_level": "Modéré",
+        "good_for": [
+          "Alimentation réconfortante",
+          "Déjeuner"
+        ],
+        "duration": "30-45 minutes",
+        "best_time": "Déjeuner ou dîner"
+      },
+      "image": "/images/tokyo/tonkatsu.jpg"
+    },
+    {
+      "id": "food-010",
+      "slug": "yakitori",
+      "name_en": "Yakitori",
+      "name_local": "焼き鳥",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le yakitori est des brochettes de poulet grillées cuites sur du charbon binchotan, donnant une saveur fumée. Ce n'est pas seulement de la poitrine—essayez la cuisse (momo), la peau (kawa), le foie (reba), le cœur (hatsu), le gésier (sunagimo) et les boulettes de viande (tsukune). Commandez 'tare' (glace de soja sucrée) ou 'shio' (sel). C'est la nourriture incontournable après le travail, consommée debout dans des établissements décontractés ou assis dans des ruelles remplies de fumée, accompagnée de bière ou de highballs.",
+        "vibe": "Fumé, social",
+        "history": "Le yakitori a émergé dans le Tokyo d'après-guerre lorsque le poulet est devenu abordable. Les vendeurs de rue grillaient des brochettes sur du charbon dans les ruelles des gares. Dans les années 1960-70, le yakitori est devenu une culture de salaryman—bon marché, rapide et associé à l'alcool. La ruelle sous la gare de Yurakucho est emblématique. Maintenant, le yakitori va des stands de rue à ¥100 aux comptoirs omakase à ¥10,000.",
+        "insider_tip": "Commandez une variété de morceaux—ne vous limitez pas à la poitrine. Le negima (poulet et poireau) est le classique. La kawa (peau de poulet croustillante) est un incontournable. Essayez d'abord 'shio' (sel) pour goûter la qualité du poulet, puis 'tare' (sauce). Accompagnez de nama biiru (bière pression) ou de chuhai au citron. Les établissements de yakitori debout sont les moins chers ; les restaurants avec sièges sont plus chers mais plus confortables.",
+        "price_level": "Abordable",
+        "good_for": [
+          "Après le travail",
+          "Groupes"
+        ],
+        "duration": "1-2 heures",
+        "best_time": "Soirée"
+      },
+      "image": "/images/tokyo/yakitori.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "gyudon",
+      "name_en": "Gyudon (Bol de bœuf)",
+      "name_local": "牛丼",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le gyudon est du bœuf finement tranché et des oignons mijotés dans un bouillon sucré-salé à base de soja, servi sur un bol de riz blanc cuit à la vapeur. C'est rapide, bon marché (¥400-600), copieux et disponible 24h/24 et 7j/7 dans des chaînes comme Yoshinoya, Sukiya et Matsuya. Vous commandez à une machine à billets, vous vous asseyez au comptoir et vous mangez rapidement. C'est l'équivalent japonais de la restauration rapide : utilitaire, constant et omniprésent.",
+        "vibe": "Rapide, utilitaire",
+        "history": "Le gyudon a été inventé en 1899 pendant l'ère Meiji, lorsque la consommation de bœuf est devenue acceptable au Japon. Yoshinoya a ouvert en 1899 au marché de Tsukiji pour servir les travailleurs. Il est devenu un fast-food national dans les années 1970-80. Sa disponibilité 24h/24 et 7j/7 en a fait un aliment essentiel pour les salarymen, les étudiants et les travailleurs de nuit. Sukiya et Matsuya sont des concurrents majeurs.",
+        "insider_tip": "Commandez à la machine à tickets — cherchez des images. 'Nami' (normal) ou 'Atama no Oomori' (viande supplémentaire, moins de riz) sont des options populaires. Ajoutez un œuf cru (nama tamago) à mélanger dans le riz chaud et le bœuf. Des garnitures comme du kimchi ou du fromage sont disponibles. C'est un repas en solo — personne ne juge. Mangez rapidement et partez. Parfait pour un repas économique ou une fringale à 3h du matin.",
+        "price_level": "Abordable",
+        "good_for": [
+          "Repas rapides",
+          "Repas à petit prix"
+        ],
+        "duration": "10-15 minutes",
+        "best_time": "À tout moment (surtout tard le soir)"
+      },
+      "image": "/images/tokyo/gyudon.jpg"
+    },
+    {
+      "id": "food-021",
+      "slug": "monjayaki",
+      "name_en": "Monjayaki",
+      "name_local": "もんじゃ焼き",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le Monjayaki est le cousin plus liquide et plus chaotique de l'okonomiyaki d'Osaka : une crêpe salée faite avec du chou, des fruits de mer ou de la viande, et une pâte aqueuse cuite sur une plaque teppan à votre table. La pâte reste liquide et croustillante sur les bords. Vous la grattez de la plaque avec de petites spatules en métal et mangez directement de la surface chaude. C'est désordonné, interactif et se trouve principalement dans le quartier de Tsukishima à Tokyo ('Monja Street').",
+        "vibe": "Désordonné, interactif",
+        "history": "Le Monjayaki a vu le jour dans le quartier populaire de Tsukishima à Tokyo dans les années 1950-60, en tant que nourriture bon marché pour les enfants. Le nom vient de 'monji' (lettres) - les enfants dessinaient des caractères avec la pâte. Il est resté très local jusqu'aux années 1980-90, lorsque ce plat est devenu une spécialité de Tokyo. Tsukishima compte maintenant plus de 50 restaurants de Monjayaki sur 'Monja Street'.",
+        "insider_tip": "Rendez-vous à Tsukishima (Monja Street) pour une expérience authentique. Commandez des versions mentai-mochi (œufs de cabillaud et mochi) ou fruits de mer. Le personnel cuisinera le premier pour vous - regardez attentivement. Hachez les ingrédients, poussez-les dans un anneau, versez la pâte au centre, puis étalez-la finement. Laissez-la croustillante sur les bords, puis grattez et mangez avec les mini spatules directement de la plaque. C'est social et amusant.",
+        "price_level": "Modéré",
+        "good_for": [
+          "Groupes",
+          "Dîner interactif"
+        ],
+        "duration": "1-2 heures",
+        "best_time": "Dîner"
+      },
+      "image": "/images/tokyo/monjayaki.jpg"
+    },
+    {
+      "id": "food-005",
+      "slug": "konbini",
+      "name_en": "Konbini (magasin de proximité)",
+      "name_local": "コンビニ",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Les konbini (magasins de proximité) — 7-Eleven, Lawson, FamilyMart — sont le secret culinaire du Japon, offrant une nourriture de qualité surprenante 24h/24 et 7j/7. Articles célèbres : sandwichs à l'œuf (pain blanc moelleux, garniture crémeuse), onigiri (boulettes de riz avec saumon, thon mayo ou prune marinée), poulet frit (Famichiki chez FamilyMart), oden (plats en bouillon), et café frais. C'est bon marché (¥100-500), fiable et ouvert toute la nuit.",
+        "vibe": "Pratique, fiable",
+        "history": "Le premier 7-Eleven du Japon a ouvert en 1974, révolutionnant le commerce de proximité. Dans les années 1980-90, les konbini sont devenus une infrastructure urbaine essentielle — distributeurs automatiques, paiement de factures, impression, nourriture, tout en un. La qualité de la nourriture a augmenté dans les années 2000 avec des livraisons quotidiennes et des technologies de réfrigération. Aujourd'hui, les konbini sont visités plus de 60 millions de fois par jour à travers le Japon.",
+        "insider_tip": "chauffez les articles à la caisse — le personnel demandera 'atatamemasu ka?' (voulez-vous que je le réchauffe ?). Meilleurs choix : sandwich à l'œuf (tamago sando), onigiri thon mayo, poulet frit Famichiki, oden en hiver, et café konbini (¥100-200). Cherchez les articles saisonniers. Utilisez le distributeur d'eau chaude pour les ramen instantanés. Lawson a les meilleurs desserts (marque Uchi Cafe). C'est un repas sans jugement à 3h du matin.",
+        "price_level": "Abordable",
+        "good_for": [
+          "Repas rapides",
+          "Nuit tardive"
+        ],
+        "duration": "5 minutes",
+        "best_time": "À tout moment (surtout tard dans la nuit)"
+      },
+      "image": "/images/tokyo/konbini.jpg"
+    },
+    {
+      "id": "food-014",
+      "slug": "udon-soba",
+      "name_en": "Udon & Soba",
+      "name_local": "うどん / そば",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Les udon sont des nouilles de blé épaisses et moelleuses; les soba sont des nouilles de sarrasin fines et fruitées. Les deux se servent chauds dans un bouillon ou froids avec une sauce à tremper. Vous les trouverez aux comptoirs debout dans les gares (tachi-gui) où vous slurpez rapidement et partez, ou dans des restaurants où elles sont faites maison. C'est rapide, bon marché (¥300-800), et léger. Versions populaires : kake udon (bouillon chaud simple), tempura soba (avec des crevettes tempura), et zaru soba (nouilles froides).",
+        "vibe": "Rapide, simple",
+        "history": "Les soba datent de l'époque Edo (années 1600) quand elles étaient un aliment de base pour la classe ouvrière de Tokyo. Les udon sont plus anciennes, datant des années 1300. Les boutiques de soba debout dans les gares ont émergé dans les années 1960 pour les navetteurs pressés. Les soba faites maison sont devenues une forme d'art, avec des artisans maîtres confectionnant des nouilles fraîches chaque jour. Le bruit de slurp est traditionnel—cela refroidit les nouilles et aère le bouillon.",
+        "insider_tip": "Dans les comptoirs debout (tachi-gui soba), commandez à la machine, mangez en moins de 5 minutes debout, et partez—c'est la culture du rush. Pour les soba assises, essayez les 'zaru soba' froides avec une sauce à tremper (tsuyu)—trempez un tiers des nouilles, pas toute la bouchée. Finissez en buvant l'eau chaude des soba (sobayu) mélangée à la sauce à tremper restante. Chaînes de premier plan : Fuji Soba (24/7), Hanamaru Udon.",
+        "price_level": "Abordable",
+        "good_for": [
+          "Repas rapides",
+          "Repas à petit budget"
+        ],
+        "duration": "10-15 minutes",
+        "best_time": "Déjeuner ou collation rapide"
+      },
+      "image": "/images/tokyo/soba.jpg"
+    },
+    {
+      "id": "food-015",
+      "slug": "teishoku",
+      "name_en": "Teishoku (Set Meal)",
+      "name_local": "定食",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le teishoku est un repas équilibré : un plat principal (poisson grillé, porc au gingembre, poulet karaage, ou maquereau), du riz cuit à la vapeur, une soupe miso, des légumes marinés (tsukemono), et parfois une petite salade. C'est le véritable déjeuner de Tokyo—rapide, sain, abordable (¥800-1,200), et servi dans des chaînes comme Ootoya, Yayoiken, ou des shokudo locaux (cantines). Vous obtenez un repas complet et nutritif en 15 minutes.",
+        "vibe": "Équilibré, efficace",
+        "history": "Le teishoku a émergé au début des années 1900 comme repas pour les ouvriers d'usine, offrant une nutrition équilibrée à bas prix. Après la Seconde Guerre mondiale, les restaurants de teishoku (shokudo) sont devenus la norme pour le déjeuner. Dans les années 1980-90, des chaînes comme Ootoya ont standardisé le format. Le concept reflète les idées japonaises d'alimentation équilibrée (ichiju-sansai : une soupe, trois plats).",
+        "insider_tip": "Des chaînes comme Ootoya et Yayoiken ont des menus illustrés et en anglais. Plats populaires : saba no shioyaki (maquereau grillé salé), shogayaki (porc au gingembre), karaage (poulet frit). Les recharges de riz gratuites sont courantes—demandez 'okawari kudasai.' Le repas est équilibré par conception—mangez du riz, le plat principal, la soupe, et les pickles en rotation. C'est idéal pour manger seul ; personne ne juge.",
+        "price_level": "Abordable",
+        "good_for": [
+          "Déjeuner",
+          "Repas en solo"
+        ],
+        "duration": "20-30 minutes",
+        "best_time": "Déjeuner"
+      },
+      "image": "/images/tokyo/teishoku.jpg"
+    },
+    {
+      "id": "food-016",
+      "slug": "izakaya-culture",
+      "name_en": "Izakaya & Otoshi",
+      "name_local": "居酒屋",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Une izakaya est un pub japonais où les collègues se retrouvent après le travail pour boire et manger des petites assiettes (edamame, karaage, poisson grillé, yakitori). L 'otoshi' est un frais de table obligatoire (¥300-500) qui inclut une petite entrée—ce n'est pas une arnaque, c'est le couvert comme le pain dans les restaurants italiens. Criez 'Sumimasen!' pour appeler le serveur. Commandez de la bière (nama biiru), des highballs ou du saké, et partagez les plats. C'est la soupape de sécurité sociale de Tokyo.",
+        "vibe": "Social, bruyante",
+        "history": "Les izakayas sont apparues à l'époque Edo (années 1600) en tant que boutiques de saké où les clients pouvaient s'asseoir et boire. Après la Seconde Guerre mondiale, elles ont évolué en restaurants complets servant des petites assiettes. Dans les années 1980, les izakayas sont devenues une culture essentielle pour les salarymen—l'endroit pour se détendre après le travail. Des chaînes comme Torikizoku et Watami ont standardisé le format, mais les izakayas indépendantes conservent leur caractère.",
+        "insider_tip": "L'otoshi (frais de table) est automatique—ne le questionnez pas, mangez simplement la petite entrée. Commandez plusieurs plats à la fois—edamame, karaage, yakitori, sashimi. Boire sans manger est inhabituel au Japon. Criez 'Sumimasen!' haut et fort pour attirer l'attention du serveur. Le concept de 'tout ce que vous pouvez boire' (nomihoudai) est courant pour ¥2,000-3,000 pour 2 heures. Partez lorsque vous avez terminé; pas de pression pour rester.",
+        "price_level": "Modéré",
+        "good_for": [
+          "Groupes",
+          "Après le travail"
+        ],
+        "duration": "2-3 heures",
+        "best_time": "Soirée"
+      },
+      "image": "/images/tokyo/izakaya.jpg"
+    },
+    {
+      "id": "food-018",
+      "slug": "breakfast-reality",
+      "name_en": "Petit-déjeuner à Tokyo",
+      "name_local": "朝ご飯",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le petit-déjeuner à Tokyo n'est pas des œufs et du pain grillé — c'est soit un repas traditionnel japonais (poisson grillé, riz, soupe miso, pickles, natto) servi dans les buffets d'hôtels ou dans les restaurants teishoku, soit une pâtisserie/sandwich de konbini à emporter. Les cafés de style occidental ouvrant avant 10h sont rares ; les cafés (Doutor, Starbucks) servent des pâtisseries. Le concept de 'brunch' n'existe pas. La culture du petit-déjeuner est utilitaire, pas décontractée.",
+        "vibe": "Fonctionnel, rapide",
+        "history": "Le petit-déjeuner japonais traditionnel remonte à la période Edo (années 1600) — riz, soupe miso, poisson grillé et pickles. Le petit-déjeuner occidental a été introduit après la Seconde Guerre mondiale mais n'a jamais remplacé le format traditionnel. Dans les années 1980, les Tokyoïtes pressés se sont tournés vers les konbini ou ont complètement sauté le petit-déjeuner. La culture du petit-déjeuner assis est surtout pour les touristes dans les hôtels.",
+        "insider_tip": "Si vous souhaitez un petit-déjeuner japonais traditionnel, réservez un hôtel qui l'inclut ou rendez-vous dans un restaurant teishoku (ouvert de 7h à 9h). Pour un petit-déjeuner rapide, dirigez-vous vers un konbini pour un tamago sando (sandwich à l'œuf) ou un onigiri. Les cafés comme Doutor et Komeda ouvrent vers 7h-8h avec des ensembles de toasts. Ne vous attendez pas à du pain à l'avocat ou à une culture de brunch — ce n'est pas une chose ici. Mangez tôt ou attendez jusqu'au déjeuner.",
+        "price_level": "Abordable",
+        "good_for": [
+          "Les lève-tôt",
+          "Les petits-déjeuners d'hôtel"
+        ],
+        "duration": "15-30 minutes",
+        "best_time": "Matin (7h-9h)"
+      },
+      "image": "/images/tokyo/breakfast.jpg"
+    },
+    {
+      "id": "food-017",
+      "slug": "depachika",
+      "name_en": "Depachika (Food Halls)",
+      "name_local": "デパ地下",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le depachika est le hall alimentaire au sous-sol des grands magasins japonais (Isetan, Mitsukoshi, Takashimaya) — un pays des merveilles de bento haut de gamme, de douceurs, de produits frais, de biens importés et de cadeaux gourmets. Tout est impeccablement présenté et cher. Allez entre 19h30 et 20h pour la 'ruée vers les réductions' (waribiki) lorsque les plats préparés sont réduits de 20 à 50 % avant la fermeture. Parfait pour des pique-niques dans votre chambre d'hôtel ou des cadeaux.",
+        "vibe": "Luxueux, soigné",
+        "history": "Les grands magasins (depato) sont apparus au début des années 1900 en tant que commerce de style occidental. Les halls alimentaires au sous-sol (depachika) sont devenus la norme dans les années 1960-70, présentant des aliments japonais et importés haut de gamme. Dans les années 1990-2000, le depachika a évolué en destinations culinaires — tout artisanal, collaborations de chefs célèbres et obsessions saisonnières. C'est une culture de consommation aspirante.",
+        "insider_tip": "Visitez Isetan Shinjuku, Mitsukoshi Ginza ou Takashimaya Nihombashi pour le meilleur depachika. Allez à 19h30 pour obtenir des réductions sur les plats préparés (cherchez les étiquettes de réduction). Achetez des morceaux individuels de boeuf wagyu, des fruits raffinés ou des douceurs artisanales. Le sous-sol est aussi l'endroit où vous trouverez des omiyage (cadeaux) pour vos amis — des biscuits joliment emballés, du mochi, ou des spécialités régionales.",
+        "price_level": "Cher",
+        "good_for": [
+          "Gastronomes",
+          "Achats de cadeaux"
+        ],
+        "duration": "1 heure",
+        "best_time": "Soirée (19h30 pour les réductions)"
+      },
+      "image": "/images/tokyo/depachika.jpg"
+    },
+    {
+      "id": "food-019",
+      "slug": "tachinomi",
+      "name_en": "Tachinomi (Bar debout)",
+      "name_local": "立ち飲み",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le tachinomi est un bar debout (sans sièges) où les salarymen boivent de la bière bon marché, du saké ou des highballs et mangent des en-cas simples (poisson grillé, edamame, yakitori, oden) après le travail. C'est souvent à payer à la livraison (payez au fur et à mesure que vous commandez), ce qui le rend à l'abri des arnaques et authentique. Les tachinomi se concentrent près des grandes gares (Shimbashi, Ueno, Yurakucho) et sous les voies de train. C'est bruyant, enfumé, dominé par les hommes, et constitue la culture ouvrière typiquement tokyoïte.",
+        "vibe": "Brut, authentique",
+        "history": "Le tachinomi est apparu dans le Tokyo d'après-guerre près des gares comme des lieux de consommation d'alcool bon marché pour les travailleurs et les salarymen. Le fait de rester debout (tachi) permettait un roulement rapide et des coûts bas. Dans les années 1960-70, les tachinomi sont devenus des lieux emblématiques sous les voies de train (gaado shita). Le format perdure car il est économique : la bière coûte entre ¥300 et ¥500, les en-cas entre ¥200 et ¥500. C'est une nostalgie de l'ère Showa (1926-1989) à Tokyo.",
+        "insider_tip": "Payez au fur et à mesure que vous commandez (système de paiement à la livraison). Commandez en criant votre commande au personnel—'nama biiru!' (bière pression), 'oden!' (articles de pot chaud), 'yakitori!' (poulet grillé). Restez au comptoir ou aux tables hautes. Ce sont principalement des hommes d'âge moyen en costume, mais les étrangers sont les bienvenus. L'atmosphère est rugueuse et honnête. Partez quand vous avez terminé—pas de linger. Shimbashi et Yurakucho ont les meilleurs regroupements.",
+        "price_level": "Abordable",
+        "good_for": [
+          "Repas en solo",
+          "Expérience locale"
+        ],
+        "duration": "30-60 minutes",
+        "best_time": "Après le travail (18h-20h)"
+      },
+      "image": "/images/tokyo/tachinomi.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Temples et Traditions",
+      "id": "temples",
+      "items": [
+        {
+          "id": "temp-001",
+          "slug": "senso-ji",
+          "name_en": "Temple Senso-ji",
+          "name_local": "浅草寺",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Senso-ji est le plus ancien et le temple bouddhiste le plus célèbre de Tokyo (fondé en 645 après J.-C.), situé à Asakusa. L'entrée présente l'emblématique Kaminarimon ('Porte de la foudre') avec une immense lanterne rouge. Traversez la rue commerçante Nakamise (200 m de stands de souvenirs) pour atteindre le hall principal. L'entrée au temple est gratuite, toujours ouverte, et magnifiquement éclairée la nuit. C'est le temple le plus touristique mais aussi le plus photogénique et historiquement significatif.",
+            "vibe": "Historique, bondé",
+            "history": "Selon la légende, deux pêcheurs ont trouvé une statue dorée de Kannon (déesse de la miséricorde) dans la rivière Sumida en 628 après J.-C. Un temple a été construit pour l'abriter. Senso-ji a été détruit lors des raids aériens de la Seconde Guerre mondiale et reconstruit dans les années 1950. Les constructions actuelles sont des répliques en béton des originaux, mais la signification spirituelle demeure. C'est le site religieux le plus visité de Tokyo.",
+            "insider_tip": "Visitez tôt le matin (6-7h) ou tard le soir (après 20h) pour éviter les foules écrasantes et les groupes de touristes. Le terrain du temple est ouvert 24h/24 et 7j/7, mais les magasins ferment vers 18h. Effectuez le rituel traditionnel : purification des mains à la fontaine, allumez de l'encens, secouez les bâtons de fortune (omikuji) pour ¥100. Si vous obtenez une mauvaise chance (凶), attachez-le au support pour le laisser derrière. La pagode à cinq étages est magnifique la nuit.",
+            "price_level": "Abordable",
+            "good_for": [
+              "Photographie",
+              "Amateurs d'histoire"
+            ],
+            "duration": "1-2 heures",
+            "best_time": "Tôt le matin ou le soir"
+          },
+          "image": "/images/tokyo/sensoji.jpg",
+          "geo": {
+            "lat": 35.7148,
+            "lng": 139.7967
+          }
+        },
+        {
+          "id": "temp-002",
+          "slug": "meiji-shrine",
+          "name_en": "Sanctuaire Meiji",
+          "name_local": "明治神宮",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Le sanctuaire Meiji (Meiji Jingu) est un sanctuaire shintoïste serein dédié à l'empereur Meiji et à l'impératrice Shoken, situé dans un parc boisé de 175 acres au cœur de Tokyo. La promenade à travers les imposantes torii et la forêt crée une transition paisible depuis le chaos de Harajuku à côté. Le sanctuaire lui-même est construit en cyprès japonais et en cuivre. L'entrée est gratuite, toujours ouverte et offre une échappatoire spirituelle. Si vous avez de la chance, vous pourriez être témoin d'un mariage shintoïste traditionnel.",
+            "vibe": "Paisible, spirituel",
+            "history": "Construit en 1920 pour honorer l'empereur Meiji (1852-1912) qui a ouvert le Japon à l'Occident pendant la restauration Meiji. Le sanctuaire original a été détruit pendant la Seconde Guerre mondiale et reconstruit en 1958. La forêt environnante a été plantée avec 120 000 arbres offerts par tout le Japon. Plus de 3 millions de personnes visitent pour hatsumode (première visite du sanctuaire de l'année) le jour de l'An.",
+            "insider_tip": "Entrez par l'entrée principale sud (près de la gare de Harajuku) pour parcourir tout le chemin forestier - cela prend 10 minutes pour atteindre le sanctuaire, qui est le point. Arrêtez-vous aux fûts de sake et de vin offerts au sanctuaire. À la salle principale, inclinez-vous deux fois, applaudez deux fois, priez, inclinez-vous une fois (rituel shinto standard). Visitez tôt le matin (6-7h) pour la solitude avant l'arrivée des groupes de touristes. Entrée gratuite.",
+            "price_level": "Abordable",
+            "good_for": [
+              "Amateurs de nature",
+              "Expérience spirituelle"
+            ],
+            "duration": "1-2 heures",
+            "best_time": "Tôt le matin"
+          },
+          "image": "/images/tokyo/meiji.jpg",
+          "geo": {
+            "lat": 35.6764,
+            "lng": 139.6993
+          }
+        }
+      ]
+    },
+    {
+      "title": "Promenade dans le Quartier",
+      "id": "wandering",
+      "items": [
+        {
+          "id": "walk-002",
+          "slug": "shibuya-crossing",
+          "name_en": "Carrefour de Shibuya",
+          "name_local": "渋谷スクランブル交差点",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Le Carrefour de Shibuya est le carrefour piétonnier le plus fréquenté du monde : jusqu'à 3 000 personnes traversent simultanément à chaque cycle de feu (toutes les 2 minutes). C'est un spectacle de chaos organisé : des panneaux lumineux, des écrans vidéo, et une mer de personnes convergeant de cinq directions. L'expérience est surréaliste : vous faites partie du flux. Il est préférable de le voir d'en haut (toit de Mag's Park ou Starbucks) ou de l'expérimenter au niveau de la rue. Les heures de pointe (18h-20h en semaine) sont les plus dramatiques.",
+            "vibe": "Chaotique, emblématique",
+            "history": "Le Carrefour de Shibuya a pris sa forme actuelle en 1973 avec l'introduction du format de traversée (toutes les directions en même temps). Il est devenu un symbole mondial dans les années 2000 grâce à des films (Lost in Translation, Fast & Furious: Tokyo Drift) et des vidéos virales. La statue d'Hachiko (chien fidèle) à la sortie est le point de rendez-vous le plus célèbre de Tokyo. Shibuya était un quartier paisible jusqu'aux années 1960.",
+            "insider_tip": "Vivez-le d'abord au niveau de la rue : tenez-vous au milieu et absorbez le chaos. Pour des vues depuis les hauteurs, rendez-vous au toit de Mag's Park (gratuit, 11e étage du bâtiment Magnet) ou au Starbucks de Tsutaya (souvent bondé). Meilleurs moments : affluence en soirée en semaine (18h-20h) ou vendredi soir (22h-minuit) pour l'énergie néon. Le carrefour est décevant pendant la journée en semaine : il vous faut des foules pour l'effet complet.",
+            "price_level": "Abordable",
+            "good_for": [
+              "Photographie",
+              "Observation des gens"
+            ],
+            "duration": "30 minutes",
+            "best_time": "Heure de pointe du soir"
+          },
+          "image": "/images/tokyo/shibuya-crossing.jpg",
+          "geo": {
+            "lat": 35.6595,
+            "lng": 139.7004
+          }
+        },
+        {
+          "id": "walk-001",
+          "slug": "shimokitazawa-walk",
+          "name_en": "Shimokitazawa",
+          "name_local": "下北沢",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Shimokitazawa ('Shimokita') est le quartier branché de Tokyo : des rues piétonnes étroites remplies de boutiques de vêtements vintage, de disquaires, de cafés indépendants, de petits théâtres et de librairies d'occasion. Il n'y a ni gratte-ciels, ni magasins de chaînes, ni attractions touristiques—juste une ambiance de flânerie et de découverte. La nouvelle voie verte 'Bonus Track' (2020) relie Shimokita à Setagaya-Daita avec des boutiques. C'est là que les jeunes Tokyoïtes passent leurs weekends à chiner et à visiter des cafés.",
+            "vibe": "Bohème, vintage",
+            "history": "Shimokitazawa était une zone résidentielle tranquille jusqu'aux années 1960-70, lorsque de petits théâtres et cafés de jazz ont ouvert, attirant artistes et étudiants. Le boom du vêtement vintage des années 1990 en a fait la capitale du thrift à Tokyo. Un projet de ligne de train controversé (2013-2019) a redéveloppé une partie de la zone mais a préservé son caractère. C'est maintenant gentrifié mais conserve une crédibilité indépendante.",
+            "insider_tip": "Ne suivez pas une carte : flânez simplement et perdez-vous dans les rues étroites. Les boutiques vintage (Chicago, Flamingo, Santa Monica) proposent des vêtements d'occasion en excellent état. Ne manquez pas la librairie Village Vanguard (chaotique et amusante). La voie verte 'Bonus Track' compte des cafés indépendants et des boutiques. Les weekends sont les plus animés ; les jours de semaine sont plus calmes pour faire du shopping sérieux. Aucun point de repère spécifique : le quartier lui-même est l'attraction.",
+            "price_level": "Modéré",
+            "good_for": [
+              "Shopping",
+              "Visite de cafés"
+            ],
+            "duration": "3-4 heures",
+            "best_time": "Après-midi du weekend"
+          },
+          "image": "/images/tokyo/shimokitazawa-walk.jpg",
+          "geo": {
+            "lat": 35.6611,
+            "lng": 139.6672
+          }
+        }
+      ]
+    },
+    {
+      "title": "Vues & Verdure",
+      "id": "views",
+      "items": [
+        {
+          "id": "view-001",
+          "slug": "metro-gov-building",
+          "name_en": "Tokyo Metro Gov Building",
+          "name_local": "東京都庁",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Le bâtiment du gouvernement métropolitain de Tokyo (Tocho) offre la meilleure vue panoramique GRATUITE de Tokyo depuis ses plateformes d'observation au 45ème étage (202 mètres de haut). Les jours dégagés, vous pouvez voir le Mont Fuji. La vue rivalise avec des plateformes d'observation payantes telles que Shibuya Sky (¥2,500) ou Tokyo Skytree (¥3,000). Situé dans l'ouest de Shinjuku parmi les gratte-ciel, le bâtiment lui-même est une impressionnante architecture brutale. Deux tours—généralement au moins une est ouverte. Moins fréquenté que les plateformes d'observation touristiques.",
+            "vibe": "Panoramique, gratuit",
+            "history": "Construit en 1990 et conçu par l'architecte Kenzo Tange, les tours jumelles du bâtiment évoquent la cathédrale Notre-Dame. Il abrite les bureaux gouvernementaux de Tokyo et les plateformes d'observation. La 'bulle économique' des années 1980 a permis sa construction. C'est maintenant une partie emblématique de la silhouette de Shinjuku. Les plateformes d'observation ont ouvert pour promouvoir le tourisme à Tokyo.",
+            "insider_tip": "Allez-y lors d'une belle journée d'hiver (décembre-février) pour avoir la meilleure chance de voir le Mont Fuji—tôt le matin ou en fin d'après-midi pour un air plus clair. Arrivez 30 minutes avant le coucher de soleil pour l'heure dorée se transformant en vues nocturnes. La Tour Nord a un café ; la Tour Sud est plus calme. Entrée gratuite, aucune réservation nécessaire. C'est à l'ouest de Shinjuku—sortie à la station Tocho-mae ou marchez depuis JR Shinjuku (15 minutes).",
+            "price_level": "Abordable",
+            "good_for": [
+              "Vues",
+              "Voyage à petit budget"
+            ],
+            "duration": "1 heure",
+            "best_time": "Journée claire, coucher de soleil"
+          },
+          "image": "/images/tokyo/metro-gov.jpg",
+          "geo": {
+            "lat": 35.6896,
+            "lng": 139.6917
+          }
+        },
+        {
+          "id": "view-002",
+          "slug": "shinjuku-gyoen",
+          "name_en": "Shinjuku Gyoen",
+          "name_local": "新宿御苑",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Shinjuku Gyoen est un vaste jardin japonais traditionnel de 144 acres au cœur de Tokyo, combinant trois styles de jardin : formel français, paysage anglais et traditionnel japonais. Il est célèbre pour ses cerisiers en fleurs (plus de 1,000 arbres, mars-avril) et son feuillage d'automne (novembre). Le parc offre une réinitialisation paisible par rapport au chaos urbain de Shinjuku. L'entrée coûte ¥500, mais il est spacieux, bien entretenu et ne semble jamais bondé. Aucun nourriture/alcohol n'est autorisé—apportez juste vous-même.",
+            "vibe": "Serein, spacieux",
+            "history": "À l'origine le domaine privé de la famille seigneurale Naito (époque Edo), il est devenu un jardin impérial en 1906 et a ouvert au public en 1949. Il a survécu à la Seconde Guerre mondiale presque intact. Les trois styles de jardin reflètent la fascination du Japon pour l'aménagement paysager occidental de l'ère Meiji (1868-1912). C'est maintenant un jardin national et un bien culturel protégé.",
+            "insider_tip": "Visitez pendant la saison des cerisiers en fleurs (fin mars-début avril) ou le feuillage d'automne (mi-novembre) pour une beauté maximale, mais attendez-vous à des foules. Les matins en semaine sont les plus calmes. La section jardin japonais est la plus photogénique. Les pique-niques sont autorisés mais pas d'alcool (contrairement à la plupart des parcs de Tokyo pendant hanami). La serre (frais supplémentaires) abrite des plantes tropicales. Prévoyez 2-3 heures pour parcourir tout le jardin. Entrée ¥500.",
+            "price_level": "Abordable",
+            "good_for": [
+              "Amateurs de nature",
+              "Cerisiers en fleurs"
+            ],
+            "duration": "2-3 heures",
+            "best_time": "Saison des cerisiers en fleurs ou automne"
+          },
+          "image": "/images/tokyo/shinjuku-gyoen.jpg",
+          "geo": {
+            "lat": 35.6852,
+            "lng": 139.7101
+          }
+        }
+      ]
+    },
+    {
+      "title": "Vie nocturne & ruelles",
+      "id": "nightlife",
+      "items": [
+        {
+          "id": "night-001",
+          "slug": "shinjuku-night",
+          "name_en": "Shinjuku de nuit",
+          "name_local": "新宿",
+          "category": "point d'intérêt",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Shinjuku de nuit est l'âme néon de Tokyo : des écrans vidéo géants, des izakayas bondés, des quartiers chauds (Kabukicho) et des ruelles enfumées comme Omoide Yokocho ('ruelle des souvenirs')—une ruelle étroite de stands de yakitori où les salarymen boivent après le travail. La région est sûre mais chaotique, bruyante et écrasante. L'Est de Shinjuku (Kabukicho) est le quartier des divertissements ; Omoide Yokocho offre des brochettes grillées authentiques sous des plafonds bas. C'est une réalité cyberpunk.",
+            "vibe": "Néon, chaotique",
+            "history": "Shinjuku est devenu le centre de divertissement de Tokyo après la Seconde Guerre mondiale, lorsque des marchés noirs et des bars ont ouvert près de la gare (la plus fréquentée du Japon). Kabukicho—nommé d'après un théâtre kabuki prévu qui n'a jamais ouvert—est devenu le quartier chaud dans les années 1960. Omoide Yokocho ('ruelle des souvenirs') était une ruelle de bidonvilles après-guerre, maintenant préservée comme des stands de yakitori nostalgiques. L'esthétique néon a atteint son apogée dans les années 1980-90 pendant la bulle économique.",
+            "insider_tip": "Flânez dans l'Est de Shinjuku depuis la sortie Est—marchez simplement et absorbez le chaos néon. Omoide Yokocho (près de la sortie Ouest) est meilleur après 19h—commandé des yakitori et de la bière dans de petits stands (¥1,000-2,000 par personne). Évitez les rabatteurs à Kabukicho offrant des 'massages' ou des 'bars'—ce sont des arnaques. Golden Gai (à proximité) propose plus de 200 petits bars mais facture des frais d'entrée (¥500-1,000). Allez entre 20h et 23h pour une énergie maximale.",
+            "price_level": "Modéré",
+            "good_for": [
+              "Vie nocturne",
+              "Photographie"
+            ],
+            "duration": "2-3 heures",
+            "best_time": "Soirée (20-23h)"
+          },
+          "image": "/images/tokyo/shinjuku-night.jpg",
+          "geo": {
+            "lat": 35.6938,
+            "lng": 139.7034
+          }
+        },
+        {
+          "id": "night-002",
+          "slug": "golden-gai",
+          "name_en": "Golden Gai",
+          "name_local": "ゴールデン街",
+          "category": "point d'intérêt",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Golden Gai est un ensemble de plus de 200 petits bars (accueillant de 4 à 8 personnes) regroupés dans six ruelles étroites à Shinjuku. Chaque bar a son propre thème, ses habitués et sa personnalité—certains accueillent les touristes, d'autres non. La plupart facturent des frais d'entrée (¥500-1,000) en plus des coûts de boissons. C'est un vestige du Tokyo d'après-guerre, miraculeusement sauvé de la réurbanisation. L'atmosphère est intime, enfumée et nostalgique. Tous les bars n'acceptent pas les visiteurs sans réservation—cherchez des panneaux indiquant 'English OK' ou 'Touristes bienvenus.'",
+            "vibe": "Intime, nostalgique",
+            "history": "Golden Gai est apparu dans les années 1950-60 en tant que stands de boissons illégaux dans le Shinjuku d'après-guerre. Dans les années 1970-80, il est devenu un havre bohème pour écrivains, artistes et cinéastes. Des incendies dans les années 1990 ont détruit certaines parties, mais la communauté a reconstruit. La gentrification le menaçait dans les années 2000, mais les efforts de préservation ont sauvé les ruelles. C'est maintenant un bien culturel protégé mais aussi une attraction touristique.",
+            "insider_tip": "Visitez après 21h lorsque les bars ouvrent (la plupart ouvrent de 20h à 2h). Parcourez d'abord les ruelles pour trouver des bars qui accueillent les touristes—cherchez des panneaux 'English OK' ou des barmans sympathiques. Les frais d'entrée (¥500-1,000) sont standards—ce n'est pas une arnaque, c'est ainsi que les petits bars survivent. Commandez une boisson (¥700-1,000) et discutez. Attendez-vous à des places serrées—les bars accueillent de 4 à 8 personnes. Ne cherchez pas des boissons bon marché ; privilégiez l'expérience. Albatross Bar est amical pour les touristes.",
+            "price_level": "Modéré",
+            "good_for": [
+              "Expérience unique",
+              "Vie nocturne"
+            ],
+            "duration": "1-2 heures",
+            "best_time": "Nuit (21h-1h)"
+          },
+          "image": "/images/tokyo/golden-gai.jpg",
+          "geo": {
+            "lat": 35.6944,
+            "lng": 139.7047
+          }
+        }
+      ]
+    },
+    {
+      "title": "Technologie & Modernité",
+      "id": "tech",
+      "items": [
+        {
+          "id": "art-001",
+          "slug": "teamlab-planets",
+          "name_en": "teamLab Planets",
+          "name_local": "チームラボ",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "teamLab Planets est un musée d'art numérique immersif où vous marchez pieds nus dans l'eau, traversez des salles miroitées remplies de fleurs flottantes et découvrez des installations lumineuses interactives qui réagissent à votre mouvement. C'est surréaliste, Instagrammable et extrêmement populaire - les billets se vendent des semaines à l'avance. L'expérience est multi-sensorielle : toucher, marcher, évoluer. Chaque salle est un monde différent. C'est un mélange d'art, de technologie et de parc d'attractions. Prévoir 90 minutes.",
+            "vibe": "Immersif, surréaliste",
+            "history": "teamLab est un collectif d'art japonais fondé en 2001 regroupant artistes, programmeurs, ingénieurs et architectes. teamLab Planets a ouvert à Toyosu (près d'Odaiba) en 2018 en tant que musée 'immersif pour le corps'. C'est devenu l'une des attractions les plus photographiées de Tokyo. Le musée a été prolongé jusqu'en 2027. teamLab possède des musées permanents à Tokyo (Borderless à Azabudai Hills) et dans le monde entier.",
+            "insider_tip": "Réservez vos billets en ligne des semaines à l'avance - ils se vendent tous les jours. Allez-y en semaine ou tôt le matin (créneaux de 9h à 10h) pour éviter les foules. Vous marcherez pieds nus dans l'eau - portez un short ou retroussez vos pantalons. Pas de restrictions sur la photographie (contrairement à certains musées). L' 'Univers Cristallin Infini' et le 'Jardin de Fleurs Flottantes' sont les plus Instagrammables. Prévoir 90 minutes. Des casiers sont fournis pour les sacs. Billets ¥3,800-4,200.",
+            "price_level": "Cher",
+            "good_for": [
+              "Instagram",
+              "Amateurs d'art"
+            ],
+            "duration": "1,5 heures",
+            "best_time": "Matin en semaine"
+          },
+          "image": "/images/tokyo/teamlab.jpg",
+          "geo": {
+            "lat": 35.6455,
+            "lng": 139.7925
+          }
+        },
+        {
+          "id": "tech-001",
+          "slug": "akihabara",
+          "name_en": "Akihabara Electric Town",
+          "name_local": "秋葉原",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Akihabara ('Akiba') est le centre de la culture anime, manga et otaku (geek) : magasins d'électronique sur plusieurs étages, boutiques d'anime, cafés maid, arcades et magasins de produits pour adultes. C'est un véritable déluge sensoriel - enseignes néon, cosplayeurs et J-pop assourdissant. Vous pouvez acheter de tout, des jeux vidéo rétro aux derniers gadgets technologiques. Les cafés maid sont surréalistes - des serveuses en costumes de maid servent des plats avec des performances. C'est étrange, merveilleux et typiquement Tokyo. Ce n'est pas pour tout le monde.",
+            "vibe": "Néon, chaotique",
+            "history": "Akihabara était le marché noir des pièces électroniques et radio après la Seconde Guerre mondiale à Tokyo. Dans les années 1980-90, il est devenu 'Electric Town' vendant des ordinateurs et des gadgets. Le passage à la culture anime/manga dans les années 2000 a eu lieu alors que l'électronique se déplaçait en ligne. Les cafés maid ont ouvert au début des années 2000, cimentant Akiba comme le centre des otakus. C'est maintenant un site de pèlerinage pour la culture pop mondiale.",
+            "insider_tip": "Visitez le week-end lorsque les cosplayeurs apparaissent sur Chuo Dori (rue piétonne). Les magasins d'électronique (Yodobashi, Sofmap) sont immenses - idéaux pour le shopping hors taxes. Les boutiques d'anime (Animate, Mandarake) vendent tout, des mangas aux figurines. Les cafés maid sont chers (couverture de ¥1,000+) et un peu étranges mais mémorables - @Home Cafe est fameux. Les arcades (GiGO, Taito Station) ont des jeux rétro et des jeux de tir à la grue. C'est accablant - ne tentez pas de tout voir.",
+            "price_level": "Modéré",
+            "good_for": [
+              "Fans d'anime",
+              "Shopping tech"
+            ],
+            "duration": "2-3 heures",
+            "best_time": "Après-midi le week-end"
+          },
+          "image": "/images/tokyo/akihabara.jpg",
+          "geo": {
+            "lat": 35.6984,
+            "lng": 139.7731
+          }
+        }
+      ]
+    },
+    {
+      "title": "Vie locale",
+      "id": "local-life",
+      "items": [
+        {
+          "id": "loc-001",
+          "slug": "shotengai",
+          "name_en": "Shotengai (rue commerçante)",
+          "name_local": "商店街",
+          "category": "site",
+          "is_generic_staple": true,
+          "description": {
+            "short": "Les shotengai sont des arcades commerçantes traditionnelles couvertes que l'on trouve dans chaque quartier de Tokyo : de longues rues piétonnes bordées de magasins indépendants : boucheries, poissonneries, salons de thé, crackers de riz, pharmacies, stands de croquettes bon marché et restaurants familiaux. Pas de chaînes, pas de touristes, juste des habitants qui achètent des provisions et des produits du quotidien. Exemples célèbres : Nakano Broadway, Togoshi Ginza, Koenji. C'est ici que se passe la vraie vie quotidienne de Tokyo, loin des zones touristiques.",
+            "vibe": "Local, authentique",
+            "history": "Les shotengai sont apparues au début des années 1900 comme des centres commerciaux de quartier, atteignant leur apogée dans les années 1960-70 avant que les supermarchés et les centres commerciaux ne les menacent. Beaucoup ont survécu en se spécialisant ou en créant des événements communautaires. Ils sont maintenant protégés en tant qu'actifs culturels. Chaque shotengai reflète le caractère de son quartier : celle de Koenji est punk et vintage, tandis que Togoshi Ginza est ouvrière et abordable.",
+            "insider_tip": "Visitez les shotengai dans les quartiers résidentiels (pas à Shibuya/Shinjuku) - essayez Nakano Broadway (sous-culture anime/manga), Togoshi Ginza (la plus longue de Tokyo, 1.3 km, nourriture bon marché) ou Koenji (vintage/punk). Allez-y en fin d'après-midi (16h-18h) quand les locaux font leurs courses pour le dîner. Goûtez les croquettes bon marché (¥100), le taiyaki (gâteau en forme de poisson) ou le mochi. C'est une fenêtre sur la vie quotidienne de Tokyo - pas d'anglais, pas de touristes, juste des habitants.",
+            "price_level": "Abordable",
+            "good_for": [
+              "Expérience locale",
+              "Nourriture"
+            ],
+            "duration": "1-2 heures",
+            "best_time": "Fin d'après-midi"
+          },
+          "image": "/images/tokyo/shotengai.jpg"
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "6h00",
+      "title": "Lever de soleil au marché extérieur de Tsukiji",
+      "description": "Levez-vous tôt pour découvrir le célèbre marché aux poissons de Tokyo. Le marché de gros intérieur a déménagé à Toyosu, mais le marché extérieur de Tsukiji prospère toujours avec plus de 400 vendeurs. Regardez les chefs choisir les prises du jour, puis dégustez des sushis frais d'uni (oursin) ou de toro (thon gras) pour le petit-déjeuner. Les stands ouvrent vers 5h00 ; arrivez avant 6h30 pour éviter les groupes de touristes. Les vendeurs de street food proposent des tamagoyaki (omelette sucrée) et des fruits de mer grillés. Voici Tokyo à son état le plus authentique et délicieux.",
+      "image": "/images/tokyo/tsukiji-sunrise.jpg"
+    },
+    {
+      "time": "9h00",
+      "title": "Sanctuaire Meiji et parc Yoyogi",
+      "description": "Prenez la ligne Yamanote jusqu'à Harajuku pour le sanctuaire Meiji—le sanctuaire shinto le plus important de Tokyo, caché dans une forêt de 170 acres. Regardez les prêtres effectuer des cérémonies et écrire des souhaits sur des ema (plaques en bois). Ensuite, traversez vers le parc Yoyogi où vous verrez des danseurs rockabilly, des artistes de rue et des habitants pratiquant le tai-chi. Le dimanche, la rue Takeshita à Harajuku est envahie par des adolescents en mode extravagant. Le contraste entre le sanctuaire ancien et le chaos moderne est l'essence même de Tokyo.",
+      "image": "/images/tokyo/meiji-shrine.jpg"
+    },
+    {
+      "time": "12:00 PM",
+      "title": "Déjeuner Ramen à Shibuya",
+      "description": "Dirigez-vous vers Shibuya pour déguster les meilleurs ramen de Tokyo. Ichiran propose des cabines individuelles où vous pouvez personnaliser votre bol via un distributeur automatique : bouillon tonkotsu, fermeté des nouilles, niveau d'épice. Ou essayez Afuri pour des ramen infusés au yuzu. Slurper n'est pas seulement permis mais encouragé - cela aère les nouilles et montre votre appréciation. Après le déjeuner, traversez Shibuya Scramble, l'intersection la plus fréquentée au monde où 3 000 personnes traversent simultanément. Observez depuis le deuxième étage de Starbucks pour une vue aérienne.",
+      "image": "/images/tokyo/shibuya-ramen.jpg"
+    },
+    {
+      "time": "15h00",
+      "title": "Temple Senso-ji et Asakusa",
+      "description": "Prenez le métro pour Asakusa, le plus ancien temple de Tokyo (628 ap. J.-C.). Marchez à travers la porte Kaminarimon (la gigantesque lanterne rouge), puis parcourez la rue commerçante Nakamise avec ses 90 étals vendant des collations traditionnelles et des souvenirs. Au Senso-ji, jetez une pièce dans la boîte à offrandes, inclinez-vous deux fois, applaudez deux fois, puis inclinez-vous une fois. Les papiers de divination (omikuji) coûtent ¥100—si vous recevez une mauvaise fortune, attachez-le aux supports et laissez-le derrière vous. Le complexe du temple est immense ; explorez les rues adjacentes pour une atmosphère du vieux Tokyo.",
+      "image": "/images/tokyo/sensoji-afternoon.jpg"
+    },
+    {
+      "time": "18h00",
+      "title": "Coucher de soleil à Shibuya Sky",
+      "description": "Retournez à Shibuya pour le coucher de soleil depuis le deck d'observation Shibuya Sky (47e étage). Regardez la ville se transformer lorsque 13 millions de lumières s'allument. Le mont Fuji apparaît les jours clair. Le toit est en plein air - apportez une veste. Réservez des billets en ligne pour ¥2 000. Après le coucher de soleil, explorez le chaos de Shibuya : grands magasins, izakayas et néons à perte de vue. Don Quijote (magasin de discount) est 5 étages de folie organisée qui vaut le détour.",
+      "image": "/images/tokyo/shibuya-sky-sunset.jpg",
+      "ticket_link": "https://www.getyourguide.com/tokyo-l193/shibuya-sky-observation-deck-tickets-t394823/"
+    },
+    {
+      "time": "20h00",
+      "title": "Dîner Izakaya & Vie nocturne à Shinjuku",
+      "description": "Dirigez-vous vers Shinjuku pour faire le tour des izakayas dans Omoide Yokocho (la Rue de la Mémoire)—des ruelles étroites remplies de bars minuscules pouvant accueillir 6 à 10 personnes. Commandez des yakitori (brochettes de poulet grillées), des edamame, des karaage (poulet frit) et de la bière ou du saké. Ensuite, explorez le Golden Gai—plus de 200 micro-bars dans un rayon de deux pâtés de maisons, chacun avec des thèmes uniques. Certains prélèvent des frais d'entrée, d'autres sont réservés aux habitués. Le Robot Restaurant est touristique mais merveilleusement bizarre. Terminez à Kabukicho pour une explosion de néons et des ramen tard dans la nuit.",
+      "image": "/images/tokyo/shinjuku-night2.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Adaptateur de Voyage pour le Japon (Type A/B)",
+      "image": "/images/tokyo/adapter.jpg",
+      "reason": "Le Japon utilise le type A (deux broches plates). Les voyageurs européens et britanniques ont besoin d'un adaptateur.",
+      "amazon_url": "https://www.amazon.com/s?k=japan+travel+adapter+type+a",
+      "category": "électronique"
+    },
+    {
+      "id": "aff-002",
+      "title": "WiFi de poche / eSIM",
+      "image": "/images/tokyo/wifi.jpg",
+      "reason": "Le WiFi gratuit est rare dans les lieux publics. Vous avez besoin de données pour Google Maps et pour la traduction. Louez un WiFi de poche ou achetez une eSIM.",
+      "amazon_url": "https://www.amazon.com/s?k=pocket+wifi+japan",
+      "category": "électronique"
+    },
+    {
+      "id": "aff-003",
+      "title": "Portefeuille à pièces",
+      "image": "/images/tokyo/coin-purse.jpg",
+      "reason": "L'argent liquide est toujours roi, et vous allez accumuler beaucoup de pièces. Un portefeuille à pièces dédié est un véritable sauveur.",
+      "amazon_url": "https://www.amazon.com/s?k=coin+purse",
+      "category": "accessoires"
+    }
+  ],
+  "lat": 35.6895,
+  "lng": 139.6917,
+  "region": "Asia"
+}

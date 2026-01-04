@@ -16,18 +16,199 @@
     "plug_type": "Type A/B"
   },
   "weather_breakdown": [
-    { "id": 1, "name": "January", "temp": "0°C - 10°C", "vibe": "Cold & Dry", "pros": ["Clear skies", "Winter sales", "Fewer tourists"], "cons": ["Cold", "Short days"], "clothing": "Winter coat, layers" },
-    { "id": 2, "name": "February", "temp": "1°C - 10°C", "vibe": "Still Cold", "pros": ["Plum blossoms", "Lower prices", "Clear weather"], "cons": ["Cold winds", "Dry air"], "clothing": "Warm jacket, scarf" },
-    { "id": 3, "name": "March", "temp": "5°C - 14°C", "vibe": "Spring Awakening", "pros": ["Cherry blossom season starts", "Warmer days", "Festivals"], "cons": ["Crowds at parks", "Variable weather"], "clothing": "Light jacket, layers" },
-    { "id": 4, "name": "April", "temp": "10°C - 19°C", "vibe": "Peak Sakura", "pros": ["Full cherry blossoms", "Perfect weather", "Hanami parties"], "cons": ["Very crowded", "High prices"], "clothing": "Light layers, comfortable shoes" },
-    { "id": 5, "name": "May", "temp": "14°C - 23°C", "vibe": "Fresh & Green", "pros": ["Golden Week holidays", "Pleasant weather", "Wisteria blooms"], "cons": ["Golden Week crowds", "Humid starts"], "clothing": "T-shirts, light jacket" },
-    { "id": 6, "name": "June", "temp": "18°C - 26°C", "vibe": "Rainy Season", "pros": ["Hydrangea flowers", "Fewer tourists", "Cooler than summer"], "cons": ["Daily rain", "High humidity"], "clothing": "Rain jacket, umbrella" },
-    { "id": 7, "name": "July", "temp": "22°C - 30°C", "vibe": "Hot & Humid", "pros": ["Festivals (Tanabata)", "Summer energy", "Beach trips nearby"], "cons": ["Extreme heat", "Humid", "Crowded"], "clothing": "Light clothes, sunscreen" },
-    { "id": 8, "name": "August", "temp": "23°C - 31°C", "vibe": "Peak Summer", "pros": ["Fireworks festivals", "Obon holidays", "Summer foods"], "cons": ["Hottest month", "Typhoon season"], "clothing": "Very light clothes, hat" },
-    { "id": 9, "name": "September", "temp": "20°C - 27°C", "vibe": "Transition", "pros": ["Cooler than summer", "Autumn begins", "Less crowded"], "cons": ["Typhoons", "Still humid"], "clothing": "Light layers, rain gear" },
-    { "id": 10, "name": "October", "temp": "15°C - 22°C", "vibe": "Golden Autumn", "pros": ["Perfect weather", "Autumn foliage starts", "Comfortable walking"], "cons": ["Crowds increase", "Prices rise"], "clothing": "Light jacket, comfortable shoes" },
-    { "id": 11, "name": "November", "temp": "9°C - 17°C", "vibe": "Colorful", "pros": ["Peak autumn colors", "Clear skies", "Koyo viewing"], "cons": ["Colder evenings", "Tourist season"], "clothing": "Warm jacket, layers" },
-    { "id": 12, "name": "December", "temp": "4°C - 12°C", "vibe": "Festive", "pros": ["Christmas illuminations", "New Year prep", "Clear weather"], "cons": ["Cold", "Expensive holidays"], "clothing": "Winter coat, warm layers" }
+    {
+      "id": 1,
+      "name": "January",
+      "temp": "0°C - 10°C",
+      "vibe": "Cold & Dry",
+      "pros": [
+        "Clear skies",
+        "Winter sales",
+        "Fewer tourists"
+      ],
+      "cons": [
+        "Cold",
+        "Short days"
+      ],
+      "clothing": "Winter coat, layers"
+    },
+    {
+      "id": 2,
+      "name": "February",
+      "temp": "1°C - 10°C",
+      "vibe": "Still Cold",
+      "pros": [
+        "Plum blossoms",
+        "Lower prices",
+        "Clear weather"
+      ],
+      "cons": [
+        "Cold winds",
+        "Dry air"
+      ],
+      "clothing": "Warm jacket, scarf"
+    },
+    {
+      "id": 3,
+      "name": "March",
+      "temp": "5°C - 14°C",
+      "vibe": "Spring Awakening",
+      "pros": [
+        "Cherry blossom season starts",
+        "Warmer days",
+        "Festivals"
+      ],
+      "cons": [
+        "Crowds at parks",
+        "Variable weather"
+      ],
+      "clothing": "Light jacket, layers"
+    },
+    {
+      "id": 4,
+      "name": "April",
+      "temp": "10°C - 19°C",
+      "vibe": "Peak Sakura",
+      "pros": [
+        "Full cherry blossoms",
+        "Perfect weather",
+        "Hanami parties"
+      ],
+      "cons": [
+        "Very crowded",
+        "High prices"
+      ],
+      "clothing": "Light layers, comfortable shoes"
+    },
+    {
+      "id": 5,
+      "name": "May",
+      "temp": "14°C - 23°C",
+      "vibe": "Fresh & Green",
+      "pros": [
+        "Golden Week holidays",
+        "Pleasant weather",
+        "Wisteria blooms"
+      ],
+      "cons": [
+        "Golden Week crowds",
+        "Humid starts"
+      ],
+      "clothing": "T-shirts, light jacket"
+    },
+    {
+      "id": 6,
+      "name": "June",
+      "temp": "18°C - 26°C",
+      "vibe": "Rainy Season",
+      "pros": [
+        "Hydrangea flowers",
+        "Fewer tourists",
+        "Cooler than summer"
+      ],
+      "cons": [
+        "Daily rain",
+        "High humidity"
+      ],
+      "clothing": "Rain jacket, umbrella"
+    },
+    {
+      "id": 7,
+      "name": "July",
+      "temp": "22°C - 30°C",
+      "vibe": "Hot & Humid",
+      "pros": [
+        "Festivals (Tanabata)",
+        "Summer energy",
+        "Beach trips nearby"
+      ],
+      "cons": [
+        "Extreme heat",
+        "Humid",
+        "Crowded"
+      ],
+      "clothing": "Light clothes, sunscreen"
+    },
+    {
+      "id": 8,
+      "name": "August",
+      "temp": "23°C - 31°C",
+      "vibe": "Peak Summer",
+      "pros": [
+        "Fireworks festivals",
+        "Obon holidays",
+        "Summer foods"
+      ],
+      "cons": [
+        "Hottest month",
+        "Typhoon season"
+      ],
+      "clothing": "Very light clothes, hat"
+    },
+    {
+      "id": 9,
+      "name": "September",
+      "temp": "20°C - 27°C",
+      "vibe": "Transition",
+      "pros": [
+        "Cooler than summer",
+        "Autumn begins",
+        "Less crowded"
+      ],
+      "cons": [
+        "Typhoons",
+        "Still humid"
+      ],
+      "clothing": "Light layers, rain gear"
+    },
+    {
+      "id": 10,
+      "name": "October",
+      "temp": "15°C - 22°C",
+      "vibe": "Golden Autumn",
+      "pros": [
+        "Perfect weather",
+        "Autumn foliage starts",
+        "Comfortable walking"
+      ],
+      "cons": [
+        "Crowds increase",
+        "Prices rise"
+      ],
+      "clothing": "Light jacket, comfortable shoes"
+    },
+    {
+      "id": 11,
+      "name": "November",
+      "temp": "9°C - 17°C",
+      "vibe": "Colorful",
+      "pros": [
+        "Peak autumn colors",
+        "Clear skies",
+        "Koyo viewing"
+      ],
+      "cons": [
+        "Colder evenings",
+        "Tourist season"
+      ],
+      "clothing": "Warm jacket, layers"
+    },
+    {
+      "id": 12,
+      "name": "December",
+      "temp": "4°C - 12°C",
+      "vibe": "Festive",
+      "pros": [
+        "Christmas illuminations",
+        "New Year prep",
+        "Clear weather"
+      ],
+      "cons": [
+        "Cold",
+        "Expensive holidays"
+      ],
+      "clothing": "Winter coat, warm layers"
+    }
   ],
   "culture": {
     "etiquette_tips": [
@@ -42,63 +223,99 @@
       "No Tipping: Excellent service is standard. Tipping causes confusion and may be returned to you as 'lost money'.",
       "Shoes Off: Look for the entryway step (genkan). If there are slippers, use them. Never wear toilet slippers outside the bathroom."
     ],
-    "essential_phrases": [
-      { "src": "Hello", "local": "こんにちは (Konnichiwa)", "phonetic": "kon-nee-chee-wah" },
-      { "src": "Thank you", "local": "ありがとうございます (Arigatou gozaimasu)", "phonetic": "ah-ree-gah-toh goh-zai-mahs" },
-      { "src": "Excuse me / Sorry / Thanks", "local": "すみません (Sumimasen)", "phonetic": "soo-mee-mah-sen", "note": "The ultimate multi-tool word. Use it to call a waiter, apologize, or say thanks. It implies 'I am sorry for the trouble'." },
-      { "src": "I am truly sorry", "local": "ごめんなさい (Gomennasai)", "phonetic": "goh-men-nah-sai", "note": "Use this only for personal mistakes/apologies." },
-      { "src": "I don't understand", "local": "わかりません (Wakarimasen)", "phonetic": "wah-kah-ree-mah-sen" },
-      { "src": "The bill please", "local": "お会計お願いします (Okaikei onegaishimasu)", "phonetic": "oh-kai-keh oh-neh-gai-shee-mahs" }
-    ]
+"essential_phrases": [
+  { "src": "Hello", "local": "こんにちは", "phonetic": "kon-nee-chee-wah" },
+  { "src": "Thank you", "local": "ありがとうございます", "phonetic": "ah-ree-gah-toh goh-zai-mahs" },
+  {
+    "src": "Excuse me / Sorry / Thanks",
+    "local": "すみません",
+    "phonetic": "soo-mee-mah-sen",
+    "note": "Universal polite word."
+  },
+  { "src": "I am truly sorry", "local": "ごめんなさい", "phonetic": "goh-men-nah-sai" },
+  { "src": "I don't understand", "local": "わかりません", "phonetic": "wah-kah-ree-mah-sen" },
+  { "src": "The bill please", "local": "お会計お願いします", "phonetic": "oh-kai-keh oh-neh-gai-shee-mahs" }
+]
+
   },
   "neighborhoods": [
     {
       "name": "Shibuya",
       "vibe": "Youth & Energy",
       "description": "The beating heart of Tokyo's youth culture. Defined by verticality and valley topography. The station is a stack; the Ginza line is on the 3rd floor, others are deep underground. Use 'Urban Cores' (elevators) to move up.",
-      "highlights": ["Shibuya Crossing", "Hachiko Statue", "Center Gai street", "Shibuya Sky"],
+      "highlights": [
+        "Shibuya Crossing",
+        "Hachiko Statue",
+        "Center Gai street",
+        "Shibuya Sky"
+      ],
       "image": "/images/tokyo/shibuya.jpg"
     },
     {
       "name": "Shinjuku",
       "vibe": "Neon Metropolis",
       "description": "Tokyo's busiest district and transport hub. Navigate by cardinal direction: East Gate = Neon/Noise (Kabukicho). West Gate = Verticality/Business (Skyscrapers). South Gate = Shopping/Open Air.",
-      "highlights": ["Kabukicho nightlife", "Omoide Yokocho", "Golden Gai"],
+      "highlights": [
+        "Kabukicho nightlife",
+        "Omoide Yokocho",
+        "Golden Gai"
+      ],
       "image": "/images/tokyo/shinjuku.jpg"
     },
     {
       "name": "Asakusa",
       "vibe": "Traditional Tokyo",
       "description": "Old Tokyo preserved. Historic temples, traditional shops, and the nostalgic atmosphere of Edo-era Japan. Visit early (6am) or late (8pm) to avoid the crush.",
-      "highlights": ["Senso-ji Temple", "Nakamise Shopping Street", "Rickshaws"],
+      "highlights": [
+        "Senso-ji Temple",
+        "Nakamise Shopping Street",
+        "Rickshaws"
+      ],
       "image": "/images/tokyo/asakusa.jpg"
     },
     {
       "name": "Shimokitazawa",
       "vibe": "Bohemian & Vintage",
       "description": "The hipster capital. Narrow pedestrian streets packed with vintage clothing stores, vinyl shops, cafes, and small theaters. Check out the new 'Bonus Track' greenway connecting to Setagaya-Daita.",
-      "highlights": ["Vintage Shopping", "Indie Cafes", "Live Music Venues", "Bonus Track"],
+      "highlights": [
+        "Vintage Shopping",
+        "Indie Cafes",
+        "Live Music Venues",
+        "Bonus Track"
+      ],
       "image": "/images/tokyo/shimokitazawa.jpg"
     },
     {
       "name": "Yanaka",
       "vibe": "Shitamachi (Low City)",
       "description": "A rare survivor of WWII bombings. Low-rise buildings, many temples, and a distinct residential vibe. Walk the 'Yanesen' route from Ueno to Nippori for a glimpse of pre-war Tokyo.",
-      "highlights": ["Yanaka Ginza", "Nezu Shrine", "Local Cats"],
+      "highlights": [
+        "Yanaka Ginza",
+        "Nezu Shrine",
+        "Local Cats"
+      ],
       "image": "/images/tokyo/yanaka.jpg"
     },
     {
       "name": "Daikanyama & Ebisu",
       "vibe": "Yamanote Sophistication",
       "description": "The 'Brooklyn of Tokyo'. Stylish, expensive, and residential. Home to T-Site bookstore and riverside walks. This is where fashionable Tokyoites spend their weekends.",
-      "highlights": ["T-Site Bookstore", "Meguro River", "Yebisu Garden Place"],
+      "highlights": [
+        "T-Site Bookstore",
+        "Meguro River",
+        "Yebisu Garden Place"
+      ],
       "image": "/images/tokyo/daikanyama.jpg"
     },
     {
       "name": "Koenji",
       "vibe": "Punk & Retro",
       "description": "Raw, lived-in, and famous for its punk rock roots and vintage culture. A great place to experience 'everyday' Tokyo life away from the glitz.",
-      "highlights": ["Vintage Clothes", "Izakayas", "Awa Odori"],
+      "highlights": [
+        "Vintage Clothes",
+        "Izakayas",
+        "Awa Odori"
+      ],
       "image": "/images/tokyo/koenji.jpg"
     }
   ],
@@ -182,7 +399,10 @@
         "history": "Sushi originated in Tokyo (Edo) in the 1820s as fast food—fish preserved with vinegar and rice, eaten by hand at street stalls. After WWII, refrigeration allowed for fresh raw fish. The modern sushi bar emerged in the 1950s-60s. Tsukiji Market (now Toyosu) became the world's largest fish market, cementing Tokyo's sushi supremacy.",
         "insider_tip": "At conveyor belt sushi (¥100-300/plate), grab plates directly from the belt or order via tablet. At high-end omakase (¥20,000+), eat each piece immediately after the chef places it, fish-side down on your tongue. Use fingers or chopsticks. Dip fish side (not rice side) lightly in soy sauce. Ginger is a palate cleanser between pieces, not a topping.",
         "price_level": "Moderate",
-        "good_for": ["Foodies", "Special occasions"],
+        "good_for": [
+          "Foodies",
+          "Special occasions"
+        ],
         "duration": "30 minutes-1 hour",
         "best_time": "Lunch or dinner"
       },
@@ -201,7 +421,10 @@
         "history": "Ramen arrived from China in the late 1800s but became distinctly Japanese post-WWII when cheap wheat flour was abundant. Tokyo-style ramen features shoyu (soy sauce) broth with curly noodles. By the 1980s-90s, ramen became an art form with regional styles competing. Now Tokyo has 5,000+ ramen shops.",
         "insider_tip": "Order from the ticket vending machine before entering (English menus are rare—look for pictures). Choose your noodle firmness (katame = firm). Slurp loudly—it's proper technique and shows appreciation. Eat quickly while hot; lingering is discouraged. Many shops are cash-only. Try tsukemen (dipping ramen) for thicker noodles and concentrated broth.",
         "price_level": "Affordable",
-        "good_for": ["Quick meals", "Solo dining"],
+        "good_for": [
+          "Quick meals",
+          "Solo dining"
+        ],
         "duration": "15-20 minutes",
         "best_time": "Lunch or late night"
       },
@@ -220,7 +443,10 @@
         "history": "Tempura was introduced by Portuguese missionaries in the 1500s (the name likely comes from 'temporas,' Lenten fasting days). Edo-period Tokyo street vendors popularized it as fast food. Post-war, it became refined haute cuisine. Tokyo-style uses sesame oil for a nutty flavor, unlike Kyoto's lighter vegetable oil style.",
         "insider_tip": "At high-end tempura counters (¥10,000+), eat each piece immediately as the chef serves it—tempura loses crispness within 60 seconds. Dip lightly in tentsuyu sauce or use salt (matcha salt for vegetables). The tail of the shrimp is edible and crispy. At casual spots, tendon (tempura rice bowl) is the budget option (¥800-1,200). Eat with chopsticks, not hands.",
         "price_level": "Moderate",
-        "good_for": ["Foodies", "Lunch"],
+        "good_for": [
+          "Foodies",
+          "Lunch"
+        ],
         "duration": "30-45 minutes",
         "best_time": "Lunch or dinner"
       },
@@ -239,7 +465,10 @@
         "history": "Curry arrived in Japan via British Navy in the 1870s during the Meiji era. The Japanese adapted it using curry powder and roux, making it sweeter and milder. By the 1960s, instant curry roux blocks (Golden Curry, Vermont Curry) made it a household staple. CoCo Ichibanya opened in 1978 and became Japan's largest curry chain.",
         "insider_tip": "CoCo Ichibanya is perfect for customization—choose rice amount (200-400g), spice level (1-5 for most people, 6-10 is genuinely spicy), and toppings (fried pork cutlet, cheese, spinach). Level 3 is mildly spicy; level 5 has heat. The curry comes with fukujinzuke (red pickled vegetables) on the side. Eat by mixing curry into rice. It's cheap (¥500-800) and fast.",
         "price_level": "Affordable",
-        "good_for": ["Comfort food", "Customization"],
+        "good_for": [
+          "Comfort food",
+          "Customization"
+        ],
         "duration": "20-30 minutes",
         "best_time": "Lunch or dinner"
       },
@@ -258,7 +487,10 @@
         "history": "Tonkatsu was created in Tokyo in 1899 at a restaurant called Rengatei, adapting European schnitzel using Japanese panko breadcrumbs. It became a staple comfort food post-WWII. High-end tonkatsu restaurants now source heritage-breed pork (Kurobuta, Berkshire) and fry at exact temperatures. The craft of tonkatsu is taken seriously.",
         "insider_tip": "The best tonkatsu has 3-5mm crispy panko coating and juicy interior. Grind sesame seeds in the mortar at your table and mix with the provided sauce for fresh flavor. The shredded cabbage is unlimited—it's meant to cut the richness. Eat the cutlet with rice and miso soup in alternating bites (traditional Japanese eating style). Tonkatsu Maisen and Butagumi are reliable chains.",
         "price_level": "Moderate",
-        "good_for": ["Comfort food", "Lunch"],
+        "good_for": [
+          "Comfort food",
+          "Lunch"
+        ],
         "duration": "30-45 minutes",
         "best_time": "Lunch or dinner"
       },
@@ -277,7 +509,10 @@
         "history": "Yakitori emerged in post-war Tokyo when chicken became affordable. Street vendors grilled skewers over charcoal in train station alleys. By the 1960s-70s, yakitori became salaryman culture—cheap, fast, and paired with alcohol. The alley under Yurakucho Station is iconic. Now yakitori ranges from ¥100 street stands to ¥10,000 omakase counters.",
         "insider_tip": "Order a variety of parts—don't just stick to breast meat. Negima (chicken and leek) is the classic. Kawa (crispy chicken skin) is a must. Try 'shio' (salt) first to taste the chicken quality, then 'tare' (sauce). Pair with nama biiru (draft beer) or lemon chuhai. Stand-up yakitori joints are cheapest; seated restaurants are pricier but more comfortable.",
         "price_level": "Affordable",
-        "good_for": ["After work", "Groups"],
+        "good_for": [
+          "After work",
+          "Groups"
+        ],
         "duration": "1-2 hours",
         "best_time": "Evening"
       },
@@ -296,7 +531,10 @@
         "history": "Gyudon was invented in 1899 during the Meiji era when beef consumption became acceptable in Japan. Yoshinoya opened in 1899 at Tsukiji Market serving workers. It became national fast food in the 1970s-80s. The 24/7 availability made it essential for salarymen, students, and late-night workers. Sukiya and Matsuya are major competitors.",
         "insider_tip": "Order from the ticket vending machine—look for pictures. 'Nami' (regular) or 'Atama no Oomori' (extra meat, less rice) are popular options. Add a raw egg (nama tamago) to mix into the hot rice and beef. Toppings like kimchi or cheese are available. It's solo dining—no one judges. Eat quickly and leave. Perfect for budget meals or 3am hunger.",
         "price_level": "Affordable",
-        "good_for": ["Quick meals", "Budget eating"],
+        "good_for": [
+          "Quick meals",
+          "Budget eating"
+        ],
         "duration": "10-15 minutes",
         "best_time": "Anytime (especially late night)"
       },
@@ -315,7 +553,10 @@
         "history": "Monjayaki originated in Tokyo's working-class Tsukishima district in the 1950s-60s as cheap children's snack food. The name comes from 'monji' (letters)—kids would draw characters with the batter. It remained hyperlocal until the 1980s-90s when it became a Tokyo specialty. Tsukishima now has 50+ monjayaki restaurants on 'Monja Street.'",
         "insider_tip": "Go to Tsukishima (Monja Street) for the most authentic experience. Order mentai-mochi (cod roe and mochi) or seafood versions. The staff will cook the first one for you—watch carefully. Chop ingredients, push them into a ring, pour batter in the center, then spread thin. Let it crisp on the edges, then scrape and eat with mini spatulas directly from the grill. It's social and fun.",
         "price_level": "Moderate",
-        "good_for": ["Groups", "Interactive dining"],
+        "good_for": [
+          "Groups",
+          "Interactive dining"
+        ],
         "duration": "1-2 hours",
         "best_time": "Dinner"
       },
@@ -334,7 +575,10 @@
         "history": "Japan's first 7-Eleven opened in 1974 and revolutionized convenience retail. By the 1980s-90s, konbini became essential urban infrastructure—ATMs, bill payment, printing, food, all in one. The food quality escalated in the 2000s with daily deliveries and refrigeration tech. Now konbini are visited 60+ million times daily across Japan.",
         "insider_tip": "Heat items at the register—staff will ask 'atatamemasu ka?' (shall I warm it?). Top picks: egg salad sandwich (tamago sando), tuna mayo onigiri, Famichiki fried chicken, oden in winter, and konbini coffee (¥100-200). Look for seasonal items. Use the hot water dispenser for instant ramen. Lawson has the best desserts (Uchi Cafe brand). It's judgment-free eating at 3am.",
         "price_level": "Affordable",
-        "good_for": ["Quick meals", "Late night"],
+        "good_for": [
+          "Quick meals",
+          "Late night"
+        ],
         "duration": "5 minutes",
         "best_time": "Anytime (especially late night)"
       },
@@ -353,7 +597,10 @@
         "history": "Soba dates to the Edo period (1600s) when it was Tokyo's working-class staple. Udon is older, from the 1300s. Stand-up soba shops at train stations emerged in the 1960s for rushed commuters. Handmade soba became an art form, with master artisans making noodles fresh daily. The slurping sound is traditional—it cools noodles and aerates the broth.",
         "insider_tip": "At stand-up counters (tachi-gui soba), order at the machine, eat in under 5 minutes standing up, and leave—it's rush culture. For sit-down soba, try cold 'zaru soba' with dipping sauce (tsuyu)—dip 1/3 of the noodles, not the whole bite. Finish by drinking the hot soba water (sobayu) mixed with leftover dipping sauce. Top chains: Fuji Soba (24/7), Hanamaru Udon.",
         "price_level": "Affordable",
-        "good_for": ["Quick meals", "Budget eating"],
+        "good_for": [
+          "Quick meals",
+          "Budget eating"
+        ],
         "duration": "10-15 minutes",
         "best_time": "Lunch or quick snack"
       },
@@ -372,7 +619,10 @@
         "history": "Teishoku emerged in the early 1900s as factory worker meals, providing balanced nutrition cheaply. Post-WWII, teishoku restaurants (shokudo) became standard for lunch. In the 1980s-90s, chains like Ootoya standardized the format. The concept reflects Japanese ideas of balanced eating (ichiju-sansai: one soup, three dishes).",
         "insider_tip": "Chains like Ootoya and Yayoiken have picture menus and English. Popular mains: saba no shioyaki (grilled salted mackerel), shogayaki (ginger pork), karaage (fried chicken). Free rice refills are common—ask 'okawari kudasai.' The meal is balanced by design—eat rice, main, soup, and pickles in rotation. It's solo-friendly; no one judges.",
         "price_level": "Affordable",
-        "good_for": ["Lunch", "Solo dining"],
+        "good_for": [
+          "Lunch",
+          "Solo dining"
+        ],
         "duration": "20-30 minutes",
         "best_time": "Lunch"
       },
@@ -391,7 +641,10 @@
         "history": "Izakaya emerged in the Edo period (1600s) as sake shops where patrons could sit and drink. Post-WWII, they evolved into full restaurants serving small plates. By the 1980s, izakaya became essential salaryman culture—the place to decompress after work. Chains like Torikizoku and Watami standardized the format, but independent izakayas retain character.",
         "insider_tip": "The otoshi (table charge) is automatic—don't question it, just eat the small appetizer. Order a few dishes at a time—edamame, karaage, yakitori, sashimi. Drinking without eating is unusual in Japan. Shout 'Sumimasen!' loudly to get the waiter's attention. All-you-can-drink (nomihoudai) is common for ¥2,000-3,000 for 2 hours. Leave when you're done; no lingering pressure.",
         "price_level": "Moderate",
-        "good_for": ["Groups", "After work"],
+        "good_for": [
+          "Groups",
+          "After work"
+        ],
         "duration": "2-3 hours",
         "best_time": "Evening"
       },
@@ -410,7 +663,10 @@
         "history": "Traditional Japanese breakfast dates to the Edo period (1600s)—rice, miso soup, grilled fish, and pickles. Western breakfast was introduced post-WWII but never replaced the traditional format. By the 1980s, busy Tokyoites shifted to konbini or skipping breakfast entirely. The sit-down breakfast culture is mostly for tourists at hotels.",
         "insider_tip": "If you want a traditional Japanese breakfast, book a hotel that includes it or go to a teishoku restaurant (open 7-9am). For quick breakfast, hit a konbini for tamago sando (egg sandwich) or onigiri. Coffee shops like Doutor and Komeda open around 7-8am with toast sets. Don't expect avocado toast or brunch culture—it's not a thing. Eat early or wait until lunch.",
         "price_level": "Affordable",
-        "good_for": ["Early risers", "Hotel breakfasts"],
+        "good_for": [
+          "Early risers",
+          "Hotel breakfasts"
+        ],
         "duration": "15-30 minutes",
         "best_time": "Morning (7-9am)"
       },
@@ -429,7 +685,10 @@
         "history": "Department stores (depato) emerged in the early 1900s as Western-style retail. Basement food halls (depachika) became standard in the 1960s-70s, showcasing premium Japanese and imported foods. By the 1990s-2000s, depachika evolved into culinary destinations—artisanal everything, celebrity chef collaborations, and seasonal obsessions. It's aspirational consumption culture.",
         "insider_tip": "Visit Isetan Shinjuku, Mitsukoshi Ginza, or Takashimaya Nihombashi for the best depachika. Go at 7:30pm for discounts on prepared foods (look for discount stickers). Buy individual pieces of wagyu beef, fancy fruit, or artisanal sweets. The basement is also where you find omiyage (gifts) for friends—beautifully packaged cookies, mochi, or regional specialties.",
         "price_level": "Expensive",
-        "good_for": ["Foodies", "Gift shopping"],
+        "good_for": [
+          "Foodies",
+          "Gift shopping"
+        ],
         "duration": "1 hour",
         "best_time": "Evening (7:30pm for discounts)"
       },
@@ -448,7 +707,10 @@
         "history": "Tachinomi emerged in post-war Tokyo near train stations as cheap drinking spots for laborers and salarymen. Standing (tachi) kept turnover fast and costs low. By the 1960s-70s, tachinomi became fixtures under train tracks (gaado shita). The format survives because it's cheap—beer is ¥300-500, snacks are ¥200-500. It's nostalgia for Showa-era (1926-1989) Tokyo.",
         "insider_tip": "Pay as you order (cash-on-delivery system). Order by shouting your order to the staff—'nama biiru!' (draft beer), 'oden!' (hot pot items), 'yakitori!' (grilled chicken). Stand at the counter or tall tables. It's mostly middle-aged men in suits, but foreigners are welcome. The atmosphere is rough and honest. Leave when you're done—no lingering. Shimbashi and Yurakucho have the best clusters.",
         "price_level": "Affordable",
-        "good_for": ["Solo dining", "Local experience"],
+        "good_for": [
+          "Solo dining",
+          "Local experience"
+        ],
         "duration": "30-60 minutes",
         "best_time": "After work (6-8pm)"
       },
@@ -473,12 +735,18 @@
             "history": "According to legend, two fishermen found a golden statue of Kannon (goddess of mercy) in the Sumida River in 628 AD. A temple was built to house it. Senso-ji was destroyed in WWII air raids and rebuilt in the 1950s. The current structures are concrete replicas of the originals, but the spiritual significance remains. It's Tokyo's most-visited religious site.",
             "insider_tip": "Visit early morning (6-7am) or late evening (after 8pm) to avoid crushing crowds and tour groups. The temple grounds are open 24/7, but shops close around 6pm. Do the traditional ritual: purify hands at the water fountain, light incense, shake the fortune sticks (omikuji) for ¥100. If you get bad luck (凶), tie it to the rack to leave it behind. The five-story pagoda is beautiful at night.",
             "price_level": "Affordable",
-            "good_for": ["Photography", "History buffs"],
+            "good_for": [
+              "Photography",
+              "History buffs"
+            ],
             "duration": "1-2 hours",
             "best_time": "Early morning or evening"
           },
           "image": "/images/tokyo/sensoji.jpg",
-          "geo": { "lat": 35.7148, "lng": 139.7967 }
+          "geo": {
+            "lat": 35.7148,
+            "lng": 139.7967
+          }
         },
         {
           "id": "temp-002",
@@ -493,12 +761,18 @@
             "history": "Built in 1920 to honor Emperor Meiji (1852-1912) who opened Japan to the West during the Meiji Restoration. The original shrine was destroyed in WWII and rebuilt in 1958. The surrounding forest was planted with 120,000 trees donated from across Japan. Over 3 million people visit for hatsumode (first shrine visit of the year) on New Year's Day.",
             "insider_tip": "Enter from the main southern entrance (near Harajuku Station) to walk the full forest path—it takes 10 minutes to reach the shrine, which is the point. Stop at the sake and wine barrels donated to the shrine. At the main hall, bow twice, clap twice, pray, bow once (standard Shinto ritual). Visit early morning (6-7am) for solitude before tour groups arrive. Free admission.",
             "price_level": "Affordable",
-            "good_for": ["Nature lovers", "Spiritual experience"],
+            "good_for": [
+              "Nature lovers",
+              "Spiritual experience"
+            ],
             "duration": "1-2 hours",
             "best_time": "Early morning"
           },
           "image": "/images/tokyo/meiji.jpg",
-          "geo": { "lat": 35.6764, "lng": 139.6993 }
+          "geo": {
+            "lat": 35.6764,
+            "lng": 139.6993
+          }
         }
       ]
     },
@@ -519,12 +793,18 @@
             "history": "Shibuya Crossing achieved its current form in 1973 when the scramble format (all directions go at once) was introduced. It became a global icon in the 2000s through films (Lost in Translation, Fast & Furious: Tokyo Drift) and viral videos. The Hachiko statue (loyal dog) at the exit is Tokyo's most famous meeting point. Shibuya itself was a sleepy suburb until the 1960s.",
             "insider_tip": "Experience it from street level first—stand in the middle and absorb the chaos. For overhead views, go to Mag's Park rooftop (free, 11th floor of Magnet building) or the Starbucks in Tsutaya (packed). Best times: weekday evening rush (6-8pm) or Friday night (10pm-midnight) for neon energy. The crossing is underwhelming during daytime on weekdays—you need crowds for the full effect.",
             "price_level": "Affordable",
-            "good_for": ["Photography", "People watching"],
+            "good_for": [
+              "Photography",
+              "People watching"
+            ],
             "duration": "30 minutes",
             "best_time": "Evening rush hour"
           },
           "image": "/images/tokyo/shibuya-crossing.jpg",
-          "geo": { "lat": 35.6595, "lng": 139.7004 }
+          "geo": {
+            "lat": 35.6595,
+            "lng": 139.7004
+          }
         },
         {
           "id": "walk-001",
@@ -539,12 +819,18 @@
             "history": "Shimokitazawa was a sleepy residential area until the 1960s-70s when small theaters and jazz cafes opened, attracting artists and students. The vintage clothing boom of the 1990s made it Tokyo's thrift capital. A controversial train line project (2013-2019) redeveloped part of the area but preserved its character. It's now gentrified but retains indie credibility.",
             "insider_tip": "Don't follow a map—just wander and get lost in the narrow streets. The vintage shops (Chicago, Flamingo, Santa Monica) have excellent condition used clothing. Check out Village Vanguard bookstore (chaotic and fun). The 'Bonus Track' greenway has indie cafes and boutiques. Weekends are busiest; weekdays are calmer for serious shopping. No specific landmarks—the neighborhood itself is the attraction.",
             "price_level": "Moderate",
-            "good_for": ["Shopping", "Cafe hopping"],
+            "good_for": [
+              "Shopping",
+              "Cafe hopping"
+            ],
             "duration": "3-4 hours",
             "best_time": "Weekend afternoon"
           },
           "image": "/images/tokyo/shimokitazawa-walk.jpg",
-          "geo": { "lat": 35.6611, "lng": 139.6672 }
+          "geo": {
+            "lat": 35.6611,
+            "lng": 139.6672
+          }
         }
       ]
     },
@@ -565,12 +851,18 @@
             "history": "Built in 1990 and designed by architect Kenzo Tange, the building's twin towers evoke Notre-Dame Cathedral. It houses Tokyo's government offices and observation decks. The 'bubble economy' of the 1980s enabled its construction. It's now an iconic part of the Shinjuku skyline. The observation decks opened to promote Tokyo tourism.",
             "insider_tip": "Go on a clear winter day (December-February) for the best chance of seeing Mt. Fuji—early morning or late afternoon for clearer air. Arrive 30 minutes before sunset for golden hour transitioning to night views. North Tower has a cafe; South Tower is quieter. Free entry, no reservations needed. It's in West Shinjuku—exit Tocho-mae Station or walk from JR Shinjuku (15 minutes).",
             "price_level": "Affordable",
-            "good_for": ["Views", "Budget travel"],
+            "good_for": [
+              "Views",
+              "Budget travel"
+            ],
             "duration": "1 hour",
             "best_time": "Clear day, sunset"
           },
           "image": "/images/tokyo/metro-gov.jpg",
-          "geo": { "lat": 35.6896, "lng": 139.6917 }
+          "geo": {
+            "lat": 35.6896,
+            "lng": 139.6917
+          }
         },
         {
           "id": "view-002",
@@ -585,12 +877,18 @@
             "history": "Originally the private estate of the Naito feudal lord family (Edo period), it became an imperial garden in 1906 and opened to the public in 1949. It survived WWII mostly intact. The three garden styles reflect Japan's Meiji-era (1868-1912) fascination with Western landscaping. It's now a National Garden and protected cultural property.",
             "insider_tip": "Visit during cherry blossom season (late March-early April) or autumn foliage (mid-November) for peak beauty, but expect crowds. Weekday mornings are quietest. The Japanese garden section is most photogenic. Picnicking is allowed but no alcohol (unlike most Tokyo parks during hanami). The greenhouse (extra fee) has tropical plants. Allow 2-3 hours to walk the entire garden. Entrance ¥500.",
             "price_level": "Affordable",
-            "good_for": ["Nature lovers", "Cherry blossoms"],
+            "good_for": [
+              "Nature lovers",
+              "Cherry blossoms"
+            ],
             "duration": "2-3 hours",
             "best_time": "Cherry blossom season or autumn"
           },
           "image": "/images/tokyo/shinjuku-gyoen.jpg",
-          "geo": { "lat": 35.6852, "lng": 139.7101 }
+          "geo": {
+            "lat": 35.6852,
+            "lng": 139.7101
+          }
         }
       ]
     },
@@ -611,12 +909,18 @@
             "history": "Shinjuku became Tokyo's entertainment hub after WWII when black markets and bars opened near the station (Japan's busiest). Kabukicho—named after a planned kabuki theater that never opened—became the red-light district by the 1960s. Omoide Yokocho ('Memory Lane') was post-war shantytown drinking alleys, now preserved as nostalgic yakitori stalls. The neon aesthetic peaked in the 1980s-90s bubble economy.",
             "insider_tip": "Wander East Shinjuku from the East Exit—just walk and absorb the neon chaos. Omoide Yokocho (near West Exit) is best after 7pm—order yakitori and beer at tiny stalls (¥1,000-2,000 per person). Avoid touts in Kabukicho offering 'massages' or 'bars'—they're scams. Golden Gai (nearby) has 200+ tiny bars but charges cover fees (¥500-1,000). Go between 8pm-11pm for peak energy.",
             "price_level": "Moderate",
-            "good_for": ["Nightlife", "Photography"],
+            "good_for": [
+              "Nightlife",
+              "Photography"
+            ],
             "duration": "2-3 hours",
             "best_time": "Evening (8-11pm)"
           },
           "image": "/images/tokyo/shinjuku-night.jpg",
-          "geo": { "lat": 35.6938, "lng": 139.7034 }
+          "geo": {
+            "lat": 35.6938,
+            "lng": 139.7034
+          }
         },
         {
           "id": "night-002",
@@ -631,12 +935,18 @@
             "history": "Golden Gai emerged in the 1950s-60s as illegal drinking stalls in post-war Shinjuku. By the 1970s-80s, it became a bohemian haven for writers, artists, and filmmakers. Fires in the 1990s destroyed parts of it, but the community rebuilt. Gentrification threatened it in the 2000s, but preservation efforts saved the alleys. It's now a protected cultural asset but also a tourist attraction.",
             "insider_tip": "Visit after 9pm when bars open (most open 8pm-2am). Walk the alleys first to find bars that welcome tourists—look for 'English OK' signs or friendly-looking bartenders. Cover charges (¥500-1,000) are standard—it's not a scam, it's how tiny bars survive. Order a drink (¥700-1,000) and chat. Expect cramped seating—bars fit 4-8 people. Don't go for cheap drinks; go for the experience. Albatross Bar is tourist-friendly.",
             "price_level": "Moderate",
-            "good_for": ["Unique experience", "Nightlife"],
+            "good_for": [
+              "Unique experience",
+              "Nightlife"
+            ],
             "duration": "1-2 hours",
             "best_time": "Night (9pm-1am)"
           },
           "image": "/images/tokyo/golden-gai.jpg",
-          "geo": { "lat": 35.6944, "lng": 139.7047 }
+          "geo": {
+            "lat": 35.6944,
+            "lng": 139.7047
+          }
         }
       ]
     },
@@ -657,12 +967,18 @@
             "history": "teamLab is a Japanese art collective founded in 2001 combining artists, programmers, engineers, and architects. teamLab Planets opened in Toyosu (near Odaiba) in 2018 as a 'body immersive' museum. It became one of Tokyo's most Instagrammed attractions. The museum was extended until 2027. teamLab has permanent museums in Tokyo (Borderless in Azabudai Hills) and worldwide.",
             "insider_tip": "Book tickets online weeks in advance—they sell out daily. Go on weekdays or early morning (9-10am slots) to avoid crowds. You'll walk barefoot through water—wear shorts or roll up pants. No photography restrictions (unlike some museums). The 'Infinite Crystal Universe' and 'Floating Flower Garden' are most Instagrammable. Allow 90 minutes. Lockers provided for bags. Tickets ¥3,800-4,200.",
             "price_level": "Expensive",
-            "good_for": ["Instagram", "Art lovers"],
+            "good_for": [
+              "Instagram",
+              "Art lovers"
+            ],
             "duration": "1.5 hours",
             "best_time": "Weekday morning"
           },
           "image": "/images/tokyo/teamlab.jpg",
-          "geo": { "lat": 35.6455, "lng": 139.7925 }
+          "geo": {
+            "lat": 35.6455,
+            "lng": 139.7925
+          }
         },
         {
           "id": "tech-001",
@@ -677,12 +993,18 @@
             "history": "Akihabara was Tokyo's post-WWII black market for electronics and radio parts. By the 1980s-90s, it became 'Electric Town' selling computers and gadgets. The 2000s shift to anime/manga culture happened as electronics moved online. Maid cafes opened in the early 2000s, cementing Akiba as otaku central. It's now a global pop culture pilgrimage site.",
             "insider_tip": "Visit on weekends when cosplayers appear on Chuo Dori (pedestrian-only street). Electronics stores (Yodobashi, Sofmap) are massive—good for tax-free shopping. Anime shops (Animate, Mandarake) sell everything from manga to figures. Maid cafes are expensive (¥1,000+ cover) and awkward but memorable—@Home Cafe is famous. Arcades (GiGO, Taito Station) have retro games and crane games. It's overwhelming—don't try to see everything.",
             "price_level": "Moderate",
-            "good_for": ["Anime fans", "Tech shopping"],
+            "good_for": [
+              "Anime fans",
+              "Tech shopping"
+            ],
             "duration": "2-3 hours",
             "best_time": "Weekend afternoon"
           },
           "image": "/images/tokyo/akihabara.jpg",
-          "geo": { "lat": 35.6984, "lng": 139.7731 }
+          "geo": {
+            "lat": 35.6984,
+            "lng": 139.7731
+          }
         }
       ]
     },
@@ -703,7 +1025,10 @@
             "history": "Shotengai emerged in the early 1900s as neighborhood commercial centers, peaking in the 1960s-70s before supermarkets and malls threatened them. Many survived by specializing or creating community events. They're now protected as cultural assets. Each shotengai reflects its neighborhood's character—Koenji's is punk and vintage, Togoshi Ginza is working-class and cheap.",
             "insider_tip": "Visit shotengai in residential neighborhoods (not Shibuya/Shinjuku)—try Nakano Broadway (anime/manga subculture), Togoshi Ginza (longest in Tokyo, 1.3km, cheap food), or Koenji (vintage/punk). Go in late afternoon (4-6pm) when locals shop for dinner. Try cheap croquettes (¥100), taiyaki (fish-shaped cake), or mochi. It's a window into daily Tokyo life—no English, no tourists, just locals.",
             "price_level": "Affordable",
-            "good_for": ["Local experience", "Food"],
+            "good_for": [
+              "Local experience",
+              "Food"
+            ],
             "duration": "1-2 hours",
             "best_time": "Late afternoon"
           },
@@ -713,44 +1038,44 @@
     }
   ],
   "itinerary": [
-  {
-    "time": "6:00 AM",
-    "title": "Sunrise at Tsukiji Outer Market",
-    "description": "Wake up early for Tokyo's famous fish market. The inner wholesale market moved to Toyosu, but Tsukiji's outer market still thrives with 400+ vendors. Watch chefs select the day's catch, then grab fresh uni (sea urchin) or toro (fatty tuna) sushi for breakfast. Stalls open around 5am; arrive by 6:30am before tour groups. Street food vendors sell tamagoyaki (sweet egg omelet) and grilled seafood. This is Tokyo at its most authentic and delicious.",
-    "image": "/images/tokyo/tsukiji-sunrise.jpg"
-  },
-  {
-    "time": "9:00 AM",
-    "title": "Meiji Shrine & Yoyogi Park",
-    "description": "Take the Yamanote line to Harajuku for Meiji Shrine—Tokyo's most important Shinto shrine hidden in a 170-acre forest. Watch priests perform ceremonies and write wishes on ema (wooden plaques). Then cross to Yoyogi Park where you'll see rockabilly dancers, street performers, and locals practicing tai chi. On Sundays, Harajuku's Takeshita Street floods with teenagers in wild fashion. The contrast between ancient shrine and modern chaos is pure Tokyo.",
-    "image": "/images/tokyo/meiji-shrine.jpg"
-  },
-  {
-    "time": "12:00 PM",
-    "title": "Ramen Lunch in Shibuya",
-    "description": "Navigate to Shibuya for Tokyo's best ramen. Ichiran offers solo booths where you customize your bowl via vending machine—tonkotsu broth, noodle firmness, spice level. Or try Afuri for yuzu-infused ramen. Slurping is not just allowed but encouraged—it aerates the noodles and shows appreciation. After lunch, cross Shibuya Scramble—the world's busiest intersection where 3,000 people cross simultaneously. Watch from Starbucks' 2nd floor for the aerial view.",
-    "image": "/images/tokyo/shibuya-ramen.jpg"
-  },
-  {
-    "time": "3:00 PM",
-    "title": "Senso-ji Temple & Asakusa",
-    "description": "Take the metro to Asakusa for Tokyo's oldest temple (628 AD). Walk through Kaminarimon Gate (the giant red lantern), then browse Nakamise Shopping Street's 90 stalls selling traditional snacks and souvenirs. At Senso-ji, throw a coin in the offering box, bow twice, clap twice, bow once. Fortune-telling papers (omikuji) cost ¥100—if you get bad luck, tie it to the racks and leave it behind. The temple complex is massive; explore side streets for old Tokyo atmosphere.",
-    "image": "/images/tokyo/sensoji-afternoon.jpg"
-  },
-  {
-    "time": "6:00 PM",
-    "title": "Shibuya Sky Sunset",
-    "description": "Return to Shibuya for sunset from Shibuya Sky observation deck (47th floor). Watch the city transform as 13 million lights flicker on. Mt. Fuji appears on clear days. The rooftop is open-air—bring a jacket. Book tickets online for ¥2,000. After sunset, explore Shibuya's chaos: department stores, izakayas, and endless neon. Don Quijote (discount store) is 5 floors of organized insanity worth visiting.",
-    "image": "/images/tokyo/shibuya-sky-sunset.jpg",
-    "ticket_link": "https://www.getyourguide.com/tokyo-l193/shibuya-sky-observation-deck-tickets-t394823/"
-  },
-  {
-    "time": "8:00 PM",
-    "title": "Izakaya Dinner & Shinjuku Nightlife",
-    "description": "Head to Shinjuku for izakaya hopping in Omoide Yokocho (Memory Lane)—narrow alleys packed with tiny bars seating 6-10 people. Order yakitori (grilled chicken skewers), edamame, karaage (fried chicken), and beer or sake. Then explore Golden Gai—200+ micro-bars in a two-block radius, each with unique themes. Some charge cover fees, some are regulars-only. Robot Restaurant is touristy but wonderfully bizarre. End at Kabukicho for neon overload and late-night ramen.",
-    "image": "/images/tokyo/shinjuku-night2.jpg"
-  }
-],
+    {
+      "time": "6:00 AM",
+      "title": "Sunrise at Tsukiji Outer Market",
+      "description": "Wake up early for Tokyo's famous fish market. The inner wholesale market moved to Toyosu, but Tsukiji's outer market still thrives with 400+ vendors. Watch chefs select the day's catch, then grab fresh uni (sea urchin) or toro (fatty tuna) sushi for breakfast. Stalls open around 5am; arrive by 6:30am before tour groups. Street food vendors sell tamagoyaki (sweet egg omelet) and grilled seafood. This is Tokyo at its most authentic and delicious.",
+      "image": "/images/tokyo/tsukiji-sunrise.jpg"
+    },
+    {
+      "time": "9:00 AM",
+      "title": "Meiji Shrine & Yoyogi Park",
+      "description": "Take the Yamanote line to Harajuku for Meiji Shrine—Tokyo's most important Shinto shrine hidden in a 170-acre forest. Watch priests perform ceremonies and write wishes on ema (wooden plaques). Then cross to Yoyogi Park where you'll see rockabilly dancers, street performers, and locals practicing tai chi. On Sundays, Harajuku's Takeshita Street floods with teenagers in wild fashion. The contrast between ancient shrine and modern chaos is pure Tokyo.",
+      "image": "/images/tokyo/meiji-shrine.jpg"
+    },
+    {
+      "time": "12:00 PM",
+      "title": "Ramen Lunch in Shibuya",
+      "description": "Navigate to Shibuya for Tokyo's best ramen. Ichiran offers solo booths where you customize your bowl via vending machine—tonkotsu broth, noodle firmness, spice level. Or try Afuri for yuzu-infused ramen. Slurping is not just allowed but encouraged—it aerates the noodles and shows appreciation. After lunch, cross Shibuya Scramble—the world's busiest intersection where 3,000 people cross simultaneously. Watch from Starbucks' 2nd floor for the aerial view.",
+      "image": "/images/tokyo/shibuya-ramen.jpg"
+    },
+    {
+      "time": "3:00 PM",
+      "title": "Senso-ji Temple & Asakusa",
+      "description": "Take the metro to Asakusa for Tokyo's oldest temple (628 AD). Walk through Kaminarimon Gate (the giant red lantern), then browse Nakamise Shopping Street's 90 stalls selling traditional snacks and souvenirs. At Senso-ji, throw a coin in the offering box, bow twice, clap twice, bow once. Fortune-telling papers (omikuji) cost ¥100—if you get bad luck, tie it to the racks and leave it behind. The temple complex is massive; explore side streets for old Tokyo atmosphere.",
+      "image": "/images/tokyo/sensoji-afternoon.jpg"
+    },
+    {
+      "time": "6:00 PM",
+      "title": "Shibuya Sky Sunset",
+      "description": "Return to Shibuya for sunset from Shibuya Sky observation deck (47th floor). Watch the city transform as 13 million lights flicker on. Mt. Fuji appears on clear days. The rooftop is open-air—bring a jacket. Book tickets online for ¥2,000. After sunset, explore Shibuya's chaos: department stores, izakayas, and endless neon. Don Quijote (discount store) is 5 floors of organized insanity worth visiting.",
+      "image": "/images/tokyo/shibuya-sky-sunset.jpg",
+      "ticket_link": "https://www.getyourguide.com/tokyo-l193/shibuya-sky-observation-deck-tickets-t394823/"
+    },
+    {
+      "time": "8:00 PM",
+      "title": "Izakaya Dinner & Shinjuku Nightlife",
+      "description": "Head to Shinjuku for izakaya hopping in Omoide Yokocho (Memory Lane)—narrow alleys packed with tiny bars seating 6-10 people. Order yakitori (grilled chicken skewers), edamame, karaage (fried chicken), and beer or sake. Then explore Golden Gai—200+ micro-bars in a two-block radius, each with unique themes. Some charge cover fees, some are regulars-only. Robot Restaurant is touristy but wonderfully bizarre. End at Kabukicho for neon overload and late-night ramen.",
+      "image": "/images/tokyo/shinjuku-night2.jpg"
+    }
+  ],
   "affiliate_products": [
     {
       "id": "aff-001",
@@ -776,5 +1101,8 @@
       "amazon_url": "https://www.amazon.com/s?k=coin+purse",
       "category": "accessories"
     }
-  ]
+  ],
+  "lat": 35.6895,
+  "lng": 139.6917,
+  "region": "Asia"
 }

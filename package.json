@@ -2,9 +2,9 @@
   "name": "city-basic",
   "version": "1.0.0",
   "description": "City Sheet - Travel Directory & Utility Tool",
-"scripts": {
+  "scripts": {
     "dev": "next dev",
-    "build": "next build", 
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
@@ -22,12 +22,16 @@
     "@supabase/supabase-js": "^2.86.2",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
+    "dotenv": "^17.2.3",
+    "leaflet": "^1.9.4",
     "lucide-react": "^0.556.0",
     "next": "^16.0.7",
     "next-themes": "^0.4.6",
+    "openai": "^6.15.0",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
     "react-simple-maps": "^3.0.0",
     "sharp": "^0.34.5",
     "sonner": "^2.0.7",
@@ -36,6 +40,7 @@
     "zod": "^4.1.13"
   },
   "devDependencies": {
+    "@types/leaflet": "^1.9.21",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",

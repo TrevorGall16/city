@@ -17,6 +17,7 @@ interface CityPlacesSectionProps {
   sectionTitle: string
   sectionId: string
   accentText?: string // Country-specific text color for section header
+  lang: string // ✅ Correctly defined in Interface
 }
 
 // Extract unique category tags from places
@@ -39,6 +40,7 @@ export function CityPlacesSection({
   sectionTitle,
   sectionId,
   accentText,
+  lang, // ✅ FIXED: Added 'lang' here so it is defined!
 }: CityPlacesSectionProps) {
   const supabase = createClient()
   const [activeFilter, setActiveFilter] = useState<FilterCategory>('all')
@@ -146,6 +148,7 @@ export function CityPlacesSection({
                 key={place.id}
                 place={place}
                 citySlug={citySlug}
+                lang={lang} // ✅ Now this works because 'lang' is defined above
               />
             ))}
           </div>

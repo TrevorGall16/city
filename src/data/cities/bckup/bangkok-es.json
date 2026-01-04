@@ -1,0 +1,1307 @@
+{
+  "id": "city-005",
+  "name": "Bangkok",
+  "slug": "bangkok",
+  "country": "Tailandia",
+  "country_code": "th",
+  "hero_image": "/images/bangkok/hero.jpg",
+  "intro_vibe": "El Organismo Policéntrico: Donde los templos dorados se encuentran con el caos iluminado por neón, aldeas desconectadas y la comida callejera reina suprema.",
+  "general_info": {
+    "population": "~11 millones (ciudad) / ~16 millones (área metropolitana)",
+    "is_capital": true,
+    "description": "Bangkok es la capital y la ciudad más poblada de Tailandia. A diferencia de las ciudades planificadas, funciona como un organismo extenso y policéntrico: una colección de núcleos desconectados (históricos, comerciales, residenciales) vinculados por un sistema de transporte fragmentado. Para navegarlo de manera efectiva en 2025, debe comprender sus capas logísticas: los barcos de canal que atraviesan el tráfico, la economía de 'cupones' de los patios de comida y la red social invisible de 'Kreng Jai' que rige cada interacción."
+  },
+  "stats": {
+    "currency": "THB (Baht)",
+    "plug_type": "Type A/B/C"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "Enero",
+      "temp": "21°C - 32°C",
+      "vibe": "Fresco y Seco",
+      "pros": [
+        "Mejor clima",
+        "Cielos despejados",
+        "Baja humedad"
+      ],
+      "cons": [
+        "Precios de temporada alta",
+        "Aglomerado"
+      ],
+      "clothing": "Ropa ligera, protector solar"
+    },
+    {
+      "id": 2,
+      "name": "Febrero",
+      "temp": "23°C - 33°C",
+      "vibe": "Caliente y seco",
+      "pros": [
+        "Todavía hace buen tiempo",
+        "Año Nuevo Chino",
+        "Festivales"
+      ],
+      "cons": [
+        "Calentándose",
+        "Multitudes"
+      ],
+      "clothing": "Ropa muy ligera, sombrero"
+    },
+    {
+      "id": 3,
+      "name": "Marzo",
+      "temp": "25°C - 34°C",
+      "vibe": "Muy Caliente",
+      "pros": [
+        "Preparativos para Songkran",
+        "Menos turistas"
+      ],
+      "cons": [
+        "Calor intenso",
+        "Contaminación (pico de PM 2.5)"
+      ],
+      "clothing": "Ropa mínima, mucha agua"
+    },
+    {
+      "id": 4,
+      "name": "Abril",
+      "temp": "26°C - 35°C",
+      "vibe": "Abrumador",
+      "pros": [
+        "Festival del Agua Songkran",
+        "Ambiente festivo"
+      ],
+      "cons": [
+        "Mes más caluroso",
+        "Calor agotador"
+      ],
+      "clothing": "Ropa de baño lista, bolsa impermeable"
+    },
+    {
+      "id": 5,
+      "name": "Mayo",
+      "temp": "26°C - 34°C",
+      "vibe": "Inicio de la Temporada de Lluvias",
+      "pros": [
+        "Más fresco después de la lluvia",
+        "Menos multitudes",
+        "Verde"
+      ],
+      "cons": [
+        "Tormentas diarias",
+        "Inundaciones posibles"
+      ],
+      "clothing": "Chaqueta de lluvia, ropa de secado rápido"
+    },
+    {
+      "id": 6,
+      "name": "Junio",
+      "temp": "26°C - 33°C",
+      "vibe": "Monzón",
+      "pros": [
+        "Precios más bajos",
+        "Vegetación exuberante",
+        "Más fresco que el verano"
+      ],
+      "cons": [
+        "Lluvias frecuentes",
+        "Humedad"
+      ],
+      "clothing": "Equipo de lluvia, tejidos transpirables"
+    },
+    {
+      "id": 7,
+      "name": "Julio",
+      "temp": "26°C - 33°C",
+      "vibe": "Monzón Pico",
+      "pros": [
+        "Ofertas de temporada baja",
+        "Menos turistas"
+      ],
+      "cons": [
+        "Lluvias intensas",
+        "Riesgo de inundaciones"
+      ],
+      "clothing": "Impermeable todo"
+    },
+    {
+      "id": 8,
+      "name": "Agosto",
+      "temp": "26°C - 33°C",
+      "vibe": "Todavía Lluvioso",
+      "pros": [
+        "Grandes ofertas gastronómicas",
+        "Festivales culturales"
+      ],
+      "cons": [
+        "Lluvias persistentes",
+        "Bochornoso"
+      ],
+      "clothing": "Capas ligeras, paraguas"
+    },
+    {
+      "id": 9,
+      "name": "Septiembre",
+      "temp": "25°C - 33°C",
+      "vibe": "Lluvioso pero más tranquilo",
+      "pros": [
+        "Disminución de la lluvia",
+        "Festival Vegetariano",
+        "Ofertas"
+      ],
+      "cons": [
+        "Todavía húmedo",
+        "Tormentas ocasionales"
+      ],
+      "clothing": "Mezcla de ropa para sol y lluvia"
+    },
+    {
+      "id": 10,
+      "name": "Octubre",
+      "temp": "25°C - 32°C",
+      "vibe": "Transición",
+      "pros": [
+        "Fin de la lluvia",
+        "Tardes agradables",
+        "Buenos precios"
+      ],
+      "cons": [
+        "Clima impredecible",
+        "Inundaciones posibles"
+      ],
+      "clothing": "Chaqueta ligera, paraguas"
+    },
+    {
+      "id": 11,
+      "name": "Noviembre",
+      "temp": "24°C - 32°C",
+      "vibe": "Regresa el clima perfecto",
+      "pros": [
+        "Condiciones ideales",
+        "Festival Loy Krathong",
+        "Temporada seca"
+      ],
+      "cons": [
+        "Los precios suben",
+        "Las multitudes regresan"
+      ],
+      "clothing": "Ropa de verano, capas ligeras"
+    },
+    {
+      "id": 12,
+      "name": "Diciembre",
+      "temp": "22°C - 31°C",
+      "vibe": "Temporada Alta",
+      "pros": [
+        "Mejor clima",
+        "Celebraciones de Año Nuevo",
+        "Ambiente festivo"
+      ],
+      "cons": [
+        "Muy caro",
+        "Extremadamente concurrido"
+      ],
+      "clothing": "Ropa ligera, zapatos cómodos"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "El concepto 'Kreng Jai': El lubricante fundamental de la sociedad tailandesa. Significa 'reticencia a imponer'. Explica por qué los locales sonríen cuando están confundidos o dicen 'sí' cuando quieren decir 'no'. No fuerce una confrontación; ambos perderán la cara.",
+      "La jerarquía del Wai: No salude primero al personal de servicio. El más joven inicia, el más senior reconoce. Si saluda a un camarero, lo avergüenza. Un asentimiento educado es suficiente.",
+      "Polvo refrescante: Un truco local de supervivencia. Talco mentolado (Snake Brand) aplicado después de una ducha proporciona una sensación de frescor químico. Esencial para sobrevivir al calor de abril.",
+      "Jai Yen (Corazón Frío): Enfadarse en público le hace 'perder la cara'. No importa cuán frustrado esté (tráfico, estafas), mantenga una sonrisa tranquila. Es una necesidad táctica.",
+      "Respete la Monarquía: Nunca desrespete al Rey o a la Familia Real. Es ilegal y profundamente ofensivo (Lese Majeste).",
+      "No toque cabezas: La cabeza es sagrada. Nunca toque la cabeza de nadie, incluidos los niños.",
+      "Quitar zapatos: Quítese los zapatos antes de entrar a templos, hogares y algunas tiendas.",
+      "Vístase modestamente: Cubra los hombros y las rodillas en los templos. No use camisetas sin mangas.",
+      "Realidad del Cannabis (2025): El consumo público es ilegal y se multa. Fumar está restringido a residencias privadas o áreas designadas de dispensarios. La era del 'Lejano Oeste' ha terminado.",
+      "Especias son Serias: La especia 'Media' es muy picante. Pida 'Mai Phet' (sin picante) o 'Phet Nit Noi' (poco picante) para estar seguro.",
+      "Comida callejera y agua: No beba agua del grifo. Opte por agua embotellada.",
+      "El efectivo es rey: Los vendedores ambulantes y los taxis rara vez aceptan tarjetas. Mantenga billetes pequeños (de 20, 50, 100) a la mano.",
+      "Refrescarse: 7-Eleven y los centros comerciales son lugares esenciales para refrescarse durante el calor del mediodía."
+    ],
+    "essential_phrases": [
+      {
+        "src": "Hola",
+        "local": "Hola",
+        "phonetic": "sawadee (agregue 'krap' si es hombre, 'ka' si es mujer)"
+      },
+      {
+        "src": "Gracias",
+        "local": "Gracias",
+        "phonetic": "gracias"
+      },
+      {
+        "src": "Disculpe",
+        "local": "Lo siento",
+        "phonetic": "moderado"
+      },
+      {
+        "src": "¿Cuánto cuesta?",
+        "local": "¿Cuánto?",
+        "phonetic": "tao-RAI"
+      },
+      {
+        "src": "No picante",
+        "local": "No picante",
+        "phonetic": "mi-MASCOTA"
+      },
+      {
+        "src": "Sin bolsa de plástico",
+        "local": "No quiero bolsa",
+        "phonetic": "mi-ow-TOONG"
+      },
+      {
+        "src": "Encienda el taxímetro.",
+        "local": "Presione el medidor.",
+        "phonetic": "guía de viaje"
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Khao San Road",
+      "vibe": "Centro de Mochileros",
+      "description": "La legendaria calle de mochileros. Alojamientos económicos, comida callejera, cócteles en cubo y viajeros de todos los rincones del mundo. Caos y ambiente festivo.",
+      "highlights": [
+        "Mercado nocturno",
+        "Comida callejera",
+        "Bares y clubes"
+      ],
+      "image": "/images/bangkok/khao-san.jpg"
+    },
+    {
+      "name": "Sukhumvit",
+      "vibe": "La Columna del Expatriado",
+      "description": "Un centro urbano lineal definido por sus 'Sois' (calles laterales). Sukhumvit inferior (Soi 1-21) es una vida nocturna turística caótica. Sukhumvit medio (Thong Lo/Ekkamai) ofrece alta cocina y vida nocturna de lujo. Gran conectividad, cero cultura tradicional.",
+      "highlights": [
+        "Centro Comercial Terminal 21",
+        "Vida nocturna en Nana y Asok",
+        "Bares en azoteas"
+      ],
+      "image": "/images/bangkok/sukhumvit.jpg"
+    },
+    {
+      "name": "Rattanakosin (Ciudad Vieja)",
+      "vibe": "El Vacío Histórico",
+      "description": "El corazón cultural que contiene el Gran Palacio y Wat Pho. Funciona en un 'vacío de tránsito': no hay BTS Skytrain. El tráfico es brutal. Quédese aquí por la historia, pero sepa que salir es difícil.",
+      "highlights": [
+        "Gran Palacio",
+        "Wat Pho (Buda Reclinado)",
+        "Parque Sanam Luang"
+      ],
+      "image": "/images/bangkok/old-city.jpg"
+    },
+    {
+      "name": "Chinatown (Yaowarat)",
+      "vibe": "Paraíso de la Comida Callejera",
+      "description": "Caos iluminado por neón de tiendas de oro, puestos de comida callejera y tiendas de medicina tradicional china. La mejor comida callejera en Bangkok.",
+      "highlights": [
+        "Puestos de comida en Yaowarat Road",
+        "Mercado Sampeng",
+        "Templo del Buda Dorado"
+      ],
+      "image": "/images/bangkok/chinatown-hood.jpg"
+    },
+    {
+      "name": "Ari",
+      "vibe": "La Zona de Compromiso",
+      "description": "El equilibrio perfecto. Un barrio arbolado y gentrificado al norte del Monumento a la Victoria. Tiene una sensación distintiva de vecindario tailandés con cultura de café, pero se mantiene conectado a la línea del BTS. Un respiro del caos.",
+      "highlights": [
+        "Ruta de cafés",
+        "Comida callejera Sois",
+        "Ari de Gump"
+      ],
+      "image": "/images/bangkok/ari.jpg"
+    },
+    {
+      "name": "Huai Khwang",
+      "vibe": "El Nuevo Chinatown",
+      "description": "Distinto del histórico Yaowarat. Este es el centro moderno para la nueva ola de expatriados chinos. Auténtico hotpot de Sichuan, letreros de neón en mandarín y cenas picantes hasta tarde. No es turístico, pero es culturalmente específico.",
+      "highlights": [
+        "Hotpot de Sichuan",
+        "Mercado Nocturno",
+        "Santuario de Ganesh"
+      ],
+      "image": "/images/bangkok/huai-khwang.jpg"
+    },
+    {
+      "name": "Charoen Krung / Talad Noi",
+      "vibe": "El Distrito Creativo",
+      "description": "La carretera pavimentada más antigua de Bangkok, ahora un centro de galerías de arte, centros de diseño (TCDC) y cafés ocultos en tiendas deterioradas. Un museo viviente de tenacidad y gentrificación.",
+      "highlights": [
+        "Warehouse 30",
+        "Madre Tostadora",
+        "Ciudad del Río"
+      ],
+      "image": "/images/bangkok/talad-noi.jpg"
+    },
+    {
+      "name": "Thonburi",
+      "vibe": "El Lado Tranquilo",
+      "description": "La orilla oeste del río. Este es Bangkok antes de los rascacielos. Los canales (Khlongs) todavía se utilizan para el transporte. Hogar del mercado Wang Lang y de la comunidad portugués-tailandesa de Kudeejeen.",
+      "highlights": [
+        "Mercado Wang Lang",
+        "Kudeejeen",
+        "Tours en barco por los canales"
+      ],
+      "image": "/images/bangkok/thonburi.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Desplazamientos",
+      "icon": "Tren",
+      "summary": "El sistema ferroviario está fragmentado. Domine la división de pagos.",
+      "details": [
+        "BTS Skytrain: Tren elevado que cubre áreas centrales. Es un CIRCUITO CERRADO—no puede usar tarjetas de crédito en la entrada. Necesita una 'Rabbit Card' o efectivo para los boletos.",
+        "MRT Metro: Líneas subterráneas. Es un CIRCUITO ABIERTO: puede usar Visa/Mastercard directamente en la entrada.",
+        "Botes fluviales: El barco de bandera naranja es el más utilizado (barato, frecuente). Evite el costoso barco turístico de 'bandera azul'.",
+        "Aplicaciones de transporte: Descargue ambas 'Grab' (Confiable, pago con tarjeta, caro) y 'Bolt' (Más barato, efectivo a menudo preferido, esperas más largas).",
+        "Botes de canal: El bote del canal Saen Saep atraviesa el tráfico de forma horizontal. Es rápido, sucio y requiere agilidad para embarcarse. Úselo con precaución."
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "financial-landscape",
+      "title": "Dinero y Pagos",
+      "icon": "Tarjeta de crédito",
+      "summary": "Digital para locales, efectivo para turistas.",
+      "details": [
+        "Barrera de PromptPay: Los locales pagan todo a través de un código QR (PromptPay), que requiere una cuenta bancaria tailandesa. Los turistas a menudo quedan excluidos y deben depender del efectivo.",
+        "El efectivo es rey: La comida callejera, los tuk-tuks y los taxis no oficiales solo aceptan efectivo. Rompa billetes de 1,000 Baht en 7-Eleven; los pequeños vendedores no pueden cambiarlos.",
+        "Tarjetas de Comedor: Los centros comerciales utilizan un sistema de 'Tarjeta de Cupón'. Usted intercambia efectivo por una tarjeta en un mostrador central, compra comida y reembolsa el saldo al salir."
+      ]
+    },
+    {
+      "id": "logistics-nightlife",
+      "slug": "nightlife-reality",
+      "title": "Distritos de luz roja",
+      "icon": "OjoFuera",
+      "summary": "Existen zonas de entretenimiento para adultos. Son localizadas y opcionales.",
+      "details": [
+        "Áreas Clave: Patpong (Silom), Nana Plaza (Sukhumvit), Soi Cowboy (Asok).",
+        "La realidad: Aunque técnicamente son ilegales, estas zonas están reguladas y toleradas. No representan la vida diaria tailandesa.",
+        "Consejo: La participación es opcional. La venta agresiva y las estafas ('Espectáculos de Ping Pong') son comunes. Evite los lugares con personal insistente afuera.",
+        "Fotografía: Estrictamente prohibido en estas áreas."
+      ]
+    },
+    {
+      "id": "logistics-scams",
+      "slug": "common-scams",
+      "title": "Estafas a Evitar",
+      "icon": "Triángulo de alerta",
+      "summary": "Trampas sofisticadas que apuntan a turistas educados.",
+      "details": [
+        "Gran Palacio Cerrado: Un extraño le dice que el palacio está cerrado por una 'ceremonia'. No es cierto. Quieren llevarlo en un tuk-tuk a una tienda de gemas.",
+        "La estafa de las gemas: Comprar gemas de 'calidad de exportación' para revender en casa con fines de lucro. Las gemas no tienen valor. No hay 'venta gubernamental'.",
+        "Estafa del taxi: El taxi se niega a usar el taxímetro. Insista en el taxímetro o baje. Nunca aborde un taxi estacionado en una zona turística.",
+        "Promotores de Ping Pong: En Patpong/Soi Cowboy, nunca siga a un promotor escaleras arriba a un espectáculo. Estará encerrado y le cobrarán miles de Baht por bebida."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "Conceptos básicos de seguridad",
+      "icon": "Escudo",
+      "summary": "Bangkok es generalmente seguro, pero use el sentido común.",
+      "details": [
+        "Carteristas: Activos en áreas concurridas como el Mercado Chatuchak y Khao San Road.",
+        "Tráfico: Los vehículos no se detienen por los peatones. Cruce con extrema precaución.",
+        "Mosquitos: El dengue es un riesgo. Use repelente, especialmente al atardecer.",
+        "Número de emergencia: 191 para policía, 1669 para ambulancia."
+      ]
+    },
+    {
+      "id": "logistics-survival",
+      "slug": "survival-tips",
+      "title": "Supervivencia en el Medio Ambiente",
+      "icon": "Sol",
+      "summary": "El calor y la contaminación son peligros biológicos.",
+      "details": [
+        "PM 2.5: De dic a mar es la temporada de contaminación. Si el AQI es rojo, use una mascarilla N95. Las mascarillas de tela no sirven.",
+        "Caminar en centros comerciales: Utilice los 'Skywalks' elevados que conectan los centros comerciales (Siam a Chit Lom) para caminar kilómetros a la sombra/con aire acondicionado.",
+        "Riesgo de inundación: En el monzón (mayo-octubre), las carreteras Ratchada y Sukhumvit sufren inundaciones repentinas. Permanezca cerca de una estación de BTS/MRT para evitar quedar varado."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Aplicaciones para Descargar",
+      "icon": "Teléfono inteligente",
+      "summary": "Estas aplicaciones harán que la navegación en Bangkok sea fluida.",
+      "details": [
+        "Grab y Bolt: Esenciales para taxis y bicicletas.",
+        "Google Maps: Funciona bien para el transporte y caminar.",
+        "Wongnai: El 'Yelp tailandés' para reseñas de comida.",
+        "Klook: Bueno para entradas con descuento a atracciones."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "pad-thai",
+      "name_en": "Pad Thai",
+      "name_local": "ผัดไทย",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "El plato más famoso de Tailandia: fideos de arroz salteados con camarones, tofu, cacahuetes y una salsa de tamarindo ácida característica.",
+        "history": "Promovido por el gobierno tailandés en la década de 1930 para fomentar la identidad nacional y reducir el consumo de arroz durante un período de escasez de granos.",
+        "insider_tip": "El verdadero equilibrio de sabores se logra en la mesa; exprima la lima y añada una pizca de los copos de chile y azúcar proporcionados a su gusto.",
+        "price_level": "Asequible",
+        "duration": "30 minutos",
+        "best_time": "Almuerzo o Cena",
+        "vibe": "Clásico y Reconfortante",
+        "good_for": [
+          "Primerizos",
+          "Amantes de los fideos",
+          "Comida callejera"
+        ]
+      },
+      "image": "/images/bangkok/pad-thai.jpg"
+    },
+    {
+      "id": "food-10",
+      "slug": "pad-kra-pao",
+      "name_en": "Pad Kra Pao",
+      "name_local": "ผัดกะเพรา",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Un salteado picante y fragante de carne picada y albahaca sagrada, considerado por los locales como el 'verdadero' plato nacional de Tailandia.",
+        "history": "Una piedra angular de la cultura 'Aharn Tam Sang' (hecho a pedido), creció en popularidad como un almuerzo rápido y sabroso para la clase trabajadora de la ciudad.",
+        "insider_tip": "Siempre pídalo con un 'Kai Dao' (huevo frito crujiente) para equilibrar la sal y el picante; pida 'Phet Nit Noi' si no está listo para un picante serio.",
+        "price_level": "Asequible",
+        "duration": "30 minutos",
+        "best_time": "Almuerzo",
+        "vibe": "Picante y auténtico",
+        "good_for": [
+          "Favorito local",
+          "Amantes de las especias",
+          "Comida rápida"
+        ]
+      },
+      "image": "/images/bangkok/pad-kra-pao.jpg"
+    },
+    {
+      "id": "food-020",
+      "slug": "aharn-tam-sang",
+      "name_en": "Aharn Tam Sang (Made to Order)",
+      "name_local": "อาหารตามสั่ง",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Un estilo flexible de comida callejera donde los clientes eligen ingredientes y un estilo de cocción de un menú modular de wok de alta temperatura.",
+        "history": "Estos puestos omnipresentes evolucionaron para satisfacer los diversos gustos de la fuerza laboral de Bangkok, especializándose en una cocina rápida y asequible.",
+        "insider_tip": "Si el menú está solo en tailandés, observe lo que están comiendo otros comensales y señale, o pida 'Grapow'—es la apuesta segura universal.",
+        "price_level": "Asequible",
+        "duration": "30-45 minutos",
+        "best_time": "Almuerzo",
+        "vibe": "Ocupado y Funcional",
+        "good_for": [
+          "Viajeros con presupuesto ajustado",
+          "Experiencia auténtica",
+          "Bocadillo rápido"
+        ]
+      },
+      "image": "/images/bangkok/tam-sang.jpg"
+    },
+    {
+      "id": "food-021",
+      "slug": "mk-restaurants",
+      "name_en": "MK Restaurants (Suki)",
+      "name_local": "เอ็มเค สุกี้",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "La cadena de hotpot comunitario (Suki) más popular de Tailandia, conocida por su ambiente limpio, familiar y su branding de temática verde.",
+        "history": "Lo que comenzó como una sola tienda en la década de 1980 se convirtió en un fenómeno cultural a nivel nacional que definió la experiencia de la comida casual moderna en los centros comerciales.",
+        "insider_tip": "Aunque el hotpot es el evento principal, el 'Pato Asado MK' es legendario y frecuentemente se agota para la tarde.",
+        "price_level": "Moderado",
+        "duration": "1-1.5 horas",
+        "best_time": "Cena",
+        "vibe": "Limpio y Social",
+        "good_for": [
+          "Familias",
+          "Grupos",
+          "Comer sano"
+        ]
+      },
+      "image": "/images/bangkok/mk-suki.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "tom-yum-goong",
+      "name_en": "Tom Yum Goong",
+      "name_local": "ต้มยำกุ้ง",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Una sopa audaz y aromática que presenta camarones, hierba de limón y galanga, equilibrando magistralmente los perfiles picante, ácido y salado.",
+        "history": "Originario del centro de Tailandia, este plato ejemplifica la filosofía tailandesa de utilizar hierbas medicinales para crear sabores intensos y sin grasa.",
+        "insider_tip": "Especifique 'Nam Khon' si desea la versión cremosa hecha con leche evaporada, o 'Nam Sai' para la original clara y herbal.",
+        "price_level": "Moderado",
+        "duration": "30-45 minutos",
+        "best_time": "Cena",
+        "vibe": "Fragante e Intenso",
+        "good_for": [
+          "Amantes de la sopa",
+          "Sabores tradicionales",
+          "Amantes de los mariscos"
+        ]
+      },
+      "image": "/images/bangkok/tom-yum.jpg"
+    },
+    {
+      "id": "food-11",
+      "slug": "boat-noodles",
+      "name_en": "Boat Noodles",
+      "name_local": "ก๋วยเตี๋ยวเรือ",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Sopa de fideos rica, tradicionalmente servida en porciones pequeñas con un caldo oscuro espeso con sangre de cerdo o de vaca para mayor profundidad.",
+        "history": "Originalmente vendidos desde barcos en los canales de Bangkok, los pequeños cuencos fueron diseñados para evitar derrames mientras los vendedores remaban por el agua.",
+        "insider_tip": "Visite el 'Callejón de los Fideos en Barco' en el Monumento a la Victoria; es un rito de iniciación apilar al menos cinco tazones vacíos en su mesa.",
+        "price_level": "Asequible",
+        "duration": "30-45 minutos",
+        "best_time": "Almuerzo",
+        "vibe": "Rápido y Nostálgico",
+        "good_for": [
+          "Comensales aventureros",
+          "Amantes de los fideos",
+          "Comida económica"
+        ]
+      },
+      "image": "/images/bangkok/boat-noodles.jpg"
+    },
+    {
+      "id": "food-12",
+      "slug": "khao-man-gai",
+      "name_en": "Hainanese Chicken Rice",
+      "name_local": "ข้าวมันไก่",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Pollo pochado suculento servido sobre arroz fragante cocido en grasa de pollo, jengibre y ajo, acompañado de una salsa picante para mojar.",
+        "history": "Traído a Tailandia por inmigrantes chinos, se adaptó con una salsa local picante y ácida para satisfacer el paladar tailandés.",
+        "insider_tip": "El alma del plato es la salsa; mézclela bien con el arroz en lugar de sumergir el pollo para obtener la experiencia completa.",
+        "price_level": "Asequible",
+        "duration": "30 minutos",
+        "best_time": "Mañana a media tarde",
+        "vibe": "Sencillo y Reconfortante",
+        "good_for": [
+          "Desayuno",
+          "Almuerzo",
+          "Paladares suaves"
+        ]
+      },
+      "image": "/images/bangkok/chicken-rice.jpg"
+    },
+    {
+      "id": "food-022",
+      "slug": "temporal-breakfast",
+      "name_en": "Jok & Pa Thong Ko",
+      "name_local": "โจ๊ก / ปาท่องโก๋",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "El ritual matutino tailandés por excelencia: congee de arroz salado (Jok) acompañado de palitos de masa fritos y esponjosos (Pa Thong Ko).",
+        "history": "Estos platos reflejan la profunda influencia de las tradiciones culinarias chinas Teochew en las rutinas matutinas diarias de Bangkok.",
+        "insider_tip": "Estos vendedores son muy temporales; los mejores puestos suelen estar agotados y recogidos para las 8:30 AM.",
+        "price_level": "Asequible",
+        "duration": "20-30 minutos",
+        "best_time": "Mañana Temprano (6-8 AM)",
+        "vibe": "Ajetreo de la Mañana",
+        "good_for": [
+          "Madrugadores",
+          "Desayuno",
+          "Ritual local"
+        ]
+      },
+      "image": "/images/bangkok/jok.jpg"
+    },
+    {
+      "id": "food-023",
+      "slug": "khao-tom",
+      "name_en": "Khao Tom (Late Night Rice)",
+      "name_local": "ข้าวต้ม",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Una sopa de arroz hervido servida con una variedad de pequeños platos salados, popular como una comida restauradora después de una noche de fiesta.",
+        "history": "Originalmente una comida versátil de granja que utiliza sobras, se ha convertido en un alimento básico para la recuperación nocturna de los búhos nocturnos de Bangkok.",
+        "insider_tip": "Pida 'Gloria de la Mañana con Cerdo Crujiente'—es el acompañante universal de la sopa de arroz hervido simple.",
+        "price_level": "Asequible",
+        "duration": "45 minutos",
+        "best_time": "Noche Tarde (Después de las 10 PM)",
+        "vibe": "Informal y nocturno",
+        "good_for": [
+          "Noctámbulos",
+          "Comida post-fiesta",
+          "Compartir"
+        ]
+      },
+      "image": "/images/bangkok/khao-tom.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "som-tam",
+      "name_en": "Som Tam (Papaya Salad)",
+      "name_local": "ส้มตำ",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Una vibrante ensalada de papaya verde machacada en un mortero para mezclar sabores dulces, ácidos, salados y fuertemente picantes.",
+        "history": "Un alimento regional de la región de Isaan (Noreste) que migró a Bangkok y se convirtió en una obsesión culinaria a nivel nacional.",
+        "insider_tip": "Pida 'Som Tam Thai' si prefiere la versión más dulce con cacahuetes; especifique 'Mai Phet' a menos que tenga una alta tolerancia al picante.",
+        "price_level": "Asequible",
+        "duration": "30 minutos",
+        "best_time": "Almuerzo o Tarde",
+        "vibe": "Fresco y Picante",
+        "good_for": [
+          "Opciones saludables",
+          "Amantes de las especias",
+          "Sabores icónicos"
+        ]
+      },
+      "image": "/images/bangkok/som-tam.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "mango-sticky-rice",
+      "name_en": "Mango Sticky Rice",
+      "name_local": "ข้าวเหนียวมะม่วง",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "El postre más querido de Tailandia, que presenta arroz glutinoso dulce, crema de coco rica y rodajas de mango perfectamente maduro.",
+        "history": "Una delicadeza estacional que se celebra tradicionalmente durante los meses calurosos cuando los mangos están en su punto máximo de concentración de azúcar.",
+        "insider_tip": "El mejor arroz pegajoso está ligeramente tibio y salado para contrastar la intensa dulzura del mango.",
+        "price_level": "Asequible",
+        "duration": "15-20 minutos",
+        "best_time": "Postre o Merienda",
+        "vibe": "Dulce y Tropical",
+        "good_for": [
+          "Amantes de los postres",
+          "Amantes de la fruta",
+          "Dulce"
+        ]
+      },
+      "image": "/images/bangkok/mango-sticky-rice.jpg"
+    },
+    {
+      "id": "food-13",
+      "slug": "moo-ping",
+      "name_en": "Grilled Pork Skewers",
+      "name_local": "หมูปิ้ง",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Cerdo marinado en rodajas finas, asado a la parrilla sobre carbón hasta caramelizarse, generalmente servido con una pequeña bolsa de arroz pegajoso.",
+        "history": "Un bocadillo callejero quintessential que ha sido un favorito para los escolares y los viajeros durante décadas.",
+        "insider_tip": "Siga el humo; el mejor 'Moo Ping' proviene de carritos que utilizan carbón real en lugar de parrillas eléctricas.",
+        "price_level": "Asequible",
+        "duration": "10 minutos",
+        "best_time": "Mañana o Noche Tarde",
+        "vibe": "Bocadillo Ahumado",
+        "good_for": [
+          "Bocadillo rápido",
+          "En movimiento",
+          "Comida económica"
+        ]
+      },
+      "image": "/images/bangkok/moo-ping.jpg"
+    },
+    {
+      "id": "food-006",
+      "slug": "massaman-curry",
+      "name_en": "Massaman Curry",
+      "name_local": "แกงมัสมั่น",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Un curry espeso, suave y con sabor a nuez que incluye papas y cacahuates, a menudo clasificado como el plato más delicioso del mundo por los críticos gastronómicos.",
+        "history": "Influenciado por comerciantes persas y malayos, utiliza especias secas como canela y cardamomo que son poco comunes en otros curries tailandeses.",
+        "insider_tip": "El Massaman suele ser más dulce que otros curries; es un excelente plato introductorio para quienes temen el picante tailandés.",
+        "price_level": "Moderado",
+        "duration": "45-60 minutos",
+        "best_time": "Cena",
+        "vibe": "Rico y Sofisticado",
+        "good_for": [
+          "Paladares suaves",
+          "Cena",
+          "Amantes del curry"
+        ]
+      },
+      "image": "/images/bangkok/massaman.jpg"
+    },
+    {
+      "id": "food-14",
+      "slug": "isaan-food",
+      "name_en": "Isaan Food",
+      "name_local": "อาหารอีสาน",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Una categoría audaz de cocina del noreste caracterizada por carnes a la parrilla, arroz pegajoso y ensaladas picantes y originales.",
+        "history": "Nacida de las áridas mesetas de Isaan, esta cocina se basa en la fermentación y la parrilla para realzar sabores rústicos y terrosos.",
+        "insider_tip": "Coma con las manos; forme bolitas de arroz pegajoso para sumergir directamente en los jugos picantes de Larb o Nam Tok.",
+        "price_level": "Asequible",
+        "duration": "1-1.5 horas",
+        "best_time": "Almuerzo o Cena",
+        "vibe": "Social y Rústico",
+        "good_for": [
+          "Grupos",
+          "Comensales aventureros",
+          "Comedor social"
+        ]
+      },
+      "image": "/images/bangkok/isaan-food.jpg"
+    },
+    {
+      "id": "food-15",
+      "slug": "oyster-omelet",
+      "name_en": "Crispy Oyster Omelet",
+      "name_local": "หอยทอด",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Una omelet sabrosa y crujiente hecha con una masa glutinoso y ostras jugosas, servida sobre brotes de soja frescos.",
+        "history": "Una especialidad china Teochew que se ha convertido en un pilar de los mercados callejeros de Bangkok, especialmente en el área de Chinatown.",
+        "insider_tip": "Pida 'Hoi Tod' si lo quiere crujiente, o 'Or Suan' si prefiere una textura más suave y gelatinosa.",
+        "price_level": "Moderado",
+        "duration": "30-45 minutos",
+        "best_time": "Cena",
+        "vibe": "Graso y Delicioso",
+        "good_for": [
+          "Amantes de los mariscos",
+          "Visitas a Chinatown",
+          "Comida callejera"
+        ]
+      },
+      "image": "/images/bangkok/oyster-omelet.jpg"
+    },
+    {
+      "id": "food-16",
+      "slug": "thai-desserts",
+      "name_en": "Thai Street Desserts",
+      "name_local": "ขนมไทย",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Una colorida variedad de bocados como panqueques de coco (Kanom Krok) o pasteles de frijol mungo vendidos en carritos al lado de la calle.",
+        "history": "Muchos dulces tradicionales utilizan leche de coco y azúcar de palma como base, reflejando los ingredientes disponibles en las llanuras centrales.",
+        "insider_tip": "Coma 'Kanom Krok' caliente; el contraste entre la cáscara crujiente y el centro de coco derretido es mejor cuando está recién hecho.",
+        "price_level": "Asequible",
+        "duration": "10-15 minutos",
+        "best_time": "Tarde",
+        "vibe": "Variado y Dulce",
+        "good_for": [
+          "Bocadillos rápidos",
+          "Aperitivos",
+          "Postre"
+        ]
+      },
+      "image": "/images/bangkok/thai-desserts.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Bangkok Esencial",
+      "id": "essential",
+      "items": [
+        {
+          "id": "temp-001",
+          "slug": "grand-palace",
+          "name_en": "Grand Palace",
+          "name_local": "พระบรมมหาราชวัง",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "El monumento más icónico de la ciudad: un deslumbrante complejo de torres doradas y mosaicos que sirvió como residencia real durante 150 años.",
+            "history": "Construido en 1782 para conmemorar la fundación de Bangkok como capital, alberga al Buda Esmeralda, la imagen más sagrada de Tailandia.",
+            "insider_tip": "Llegue a las 8:15 AM para ser el primero en la fila; se aplican códigos de vestimenta estrictos: los hombros y las rodillas deben estar completamente cubiertos (sin excepciones).",
+            "price_level": "Caro (฿500)",
+            "duration": "2-3 horas",
+            "best_time": "Apertura a las 8:30 AM para evitar las multitudes de grupos turísticos.",
+            "vibe": "Majestuoso y concurrido",
+            "good_for": [
+              "Amantes de la historia",
+              "Visitantes primerizos",
+              "Fotografía"
+            ]
+          },
+          "image": "/images/bangkok/grand-palace.jpg",
+          "geo": {
+            "lat": 13.75,
+            "lng": 100.4915
+          }
+        },
+        {
+          "id": "temp-002",
+          "slug": "wat-arun",
+          "name_en": "Wat Arun",
+          "name_local": "วัดอรุณ",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "El 'Templo del Amanecer', una maravilla arquitectónica cubierta de porcelana colorida y conchas en la orilla oeste del río.",
+            "history": "Data de la época de Ayutthaya, albergó brevemente al Buda Esmeralda antes de ser trasladado al otro lado del río.",
+            "insider_tip": "La vista desde el templo es grandiosa, pero la vista del templo al atardecer desde el otro lado del río es aún mejor.",
+            "price_level": "Asequible (฿100)",
+            "duration": "1-1.5 horas",
+            "best_time": "Tarde para luz dorada o atardecer a lo largo del río.",
+            "vibe": "Majestuoso y Ribereño",
+            "good_for": [
+              "Fotografía",
+              "Historia",
+              "Arquitectura"
+            ]
+          },
+          "image": "/images/bangkok/wat-arun.jpg",
+          "geo": {
+            "lat": 13.7437,
+            "lng": 100.4887
+          }
+        },
+        {
+          "id": "temp-003",
+          "slug": "wat-pho",
+          "name_en": "Wat Pho",
+          "name_local": "วัดโพธิ์",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Hogar del masivo Buda Reclinado de 46 metros de longitud cubierto de pan de oro y el lugar histórico de nacimiento del masaje tailandés tradicional.",
+            "history": "Considerada la primera universidad pública de Tailandia, las paredes del templo están cubiertas de inscripciones que enseñan historia, geografía y medicina.",
+            "insider_tip": "La escuela de masajes en el interior es de renombre mundial; reserve una sesión tan pronto como llegue, ya que los espacios se llenan rápidamente mientras realiza su recorrido.",
+            "price_level": "Asequible (฿200)",
+            "duration": "1.5-2 horas",
+            "best_time": "9:00 AM antes de que el calor y las multitudes alcancen su punto máximo.",
+            "vibe": "Sereno y Educativo",
+            "good_for": [
+              "Bienestar",
+              "Historia",
+              "Lugares icónicos"
+            ]
+          },
+          "image": "/images/bangkok/wat-pho.jpg",
+          "geo": {
+            "lat": 13.7465,
+            "lng": 100.4927
+          }
+        },
+        {
+          "id": "act-001",
+          "slug": "chao-phraya-boat",
+          "name_en": "Chao Phraya Express Boat",
+          "name_local": "เรือด่วนเจ้าพระยา",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "La forma local de viajar: un sistema de transporte fluvial de alta velocidad que ofrece una perspectiva fresca y escénica del horizonte histórico.",
+            "history": "Bangkok fue una vez conocida como la 'Venecia del Este', y el río sigue siendo su carretera más vital e histórica en la actualidad.",
+            "insider_tip": "Utilice el barco de la 'Bandera Naranja' para una verdadera experiencia local a una fracción del costo del barco turístico de la 'Bandera Azul'.",
+            "price_level": "Asequible (฿16)",
+            "duration": "30-60 minutos",
+            "best_time": "Temprano por la mañana o tarde por la tarde.",
+            "vibe": "Fresco y Auténtico",
+            "good_for": [
+              "Transporte económico",
+              "Turismo",
+              "Vistas al río"
+            ]
+          },
+          "image": "/images/bangkok/river-boat.jpg",
+          "geo": {
+            "lat": 13.72,
+            "lng": 100.51
+          }
+        }
+      ]
+    },
+    {
+      "title": "Vida Local y Cultura",
+      "id": "local-life",
+      "items": [
+        {
+          "id": "act-002",
+          "slug": "yaowarat-night-food-walk",
+          "name_en": "Yaowarat Night Food Walk",
+          "name_local": "เยาวราช",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Una explosión sensorial de luces de neón y chisporroteos en Chinatown, que sirve como el mejor buffet de mariscos y comida callejera al aire libre del mundo.",
+            "history": "Uno de los Chinatowns más antiguos y grandes del mundo, ha sido el corazón comercial de Bangkok durante más de 200 años.",
+            "insider_tip": "Busque las filas más largas; en Yaowarat, casi siempre son un indicador confiable de alta rotación y calidad.",
+            "price_level": "Moderado",
+            "duration": "2-3 horas",
+            "best_time": "19:00 - 22:00 cuando las luces son más brillantes.",
+            "vibe": "Caótico y Eléctrico",
+            "good_for": [
+              "Gastrónomos",
+              "Vida nocturna",
+              "Cultura Local"
+            ]
+          },
+          "image": "/images/bangkok/chinatown.jpg",
+          "geo": {
+            "lat": 13.741,
+            "lng": 100.5085
+          }
+        },
+        {
+          "id": "act-003",
+          "slug": "thai-massage-local",
+          "name_en": "Traditional Thai Massage",
+          "name_local": "นวดแผนไทย",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Una forma de arte terapéutico que utiliza presión rítmica y estiramientos similares al yoga para liberar la tensión física y energética.",
+            "history": "Codificado en Wat Pho hace siglos, este 'yoga del hombre perezoso' es un pilar respetado de la atención médica tradicional tailandesa.",
+            "insider_tip": "Use la ropa holgada proporcionada; espere 'dolor terapéutico' mientras los practicantes utilizan codos y rodillas para trabajar los músculos profundos.",
+            "price_level": "Moderado",
+            "duration": "1-2 horas",
+            "best_time": "Tarde después de un día de caminatas intensas.",
+            "vibe": "Relajante pero Intenso",
+            "good_for": [
+              "Bienestar",
+              "Recuperación",
+              "Experiencia cultural"
+            ]
+          },
+          "image": "/images/bangkok/massage.jpg",
+          "geo": {
+            "lat": 13.7465,
+            "lng": 100.4927
+          }
+        },
+        {
+          "id": "act-004",
+          "slug": "lumpini-park",
+          "name_en": "Lumpini Park",
+          "name_local": "สวนลุมพินี",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "El principal parque urbano de Bangkok, que ofrece un lago tranquilo, pistas para correr y los famosos lagartos monitores de agua residentes.",
+            "history": "Establecido en la década de 1920 en tierras reales, fue el primer espacio público de la ciudad dedicado a la recreación de los ciudadanos.",
+            "insider_tip": "No se pierda el himno nacional a las 6:00 PM; todos dejan de moverse en un momento surrealista de silencio colectivo.",
+            "price_level": "Gratis",
+            "duration": "1-2 horas",
+            "best_time": "7:00 AM o 5:30 PM para unirse a los grupos de ejercicio comunitarios.",
+            "vibe": "Paz y Comunidad",
+            "good_for": [
+              "Ejercicio",
+              "Naturaleza",
+              "Observación de personas"
+            ]
+          },
+          "image": "/images/bangkok/lumpini.jpg",
+          "geo": {
+            "lat": 13.7314,
+            "lng": 100.5417
+          }
+        },
+        {
+          "id": "act-005",
+          "slug": "muay-thai",
+          "name_en": "Muay Thai Boxing",
+          "name_local": "มวยไทย",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "El 'Arte de los Ocho Miembros': un deporte de combate de alta energía y una parte profundamente respetada de la identidad cultural tailandesa.",
+            "history": "Evolucionado del antiguo entrenamiento militar (Muay Boran), ahora es el deporte nacional y un símbolo de fuerza y disciplina.",
+            "insider_tip": "Visite el Estadio Rajadamnern un lunes o miércoles para disfrutar de la atmósfera más auténtica y la música en vivo tradicional.",
+            "price_level": "Caro (฿1,500+)",
+            "duration": "3-4 horas",
+            "best_time": "Noches de combates (consulte el horario para la cartelera principal).",
+            "vibe": "Alta energía e intenso",
+            "good_for": [
+              "Aficionados del deporte",
+              "Inmersión cultural",
+              "Adrenalina"
+            ]
+          },
+          "image": "/images/bangkok/muay-thai.jpg",
+          "geo": {
+            "lat": 13.76,
+            "lng": 100.509
+          }
+        },
+        {
+          "id": "act-006",
+          "slug": "listening-bars",
+          "name_en": "Audiophile Listening Bars",
+          "name_local": "Vinyl Bars",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Bares sofisticados centrados en sonido de alta fidelidad y colecciones de vinilos seleccionados que van desde el pop tailandés vintage hasta el jazz global.",
+            "history": "Parte de un moderno movimiento de 'vida lenta' en Bangkok que reacciona contra la ruidosa vida nocturna comercial llena de EDM.",
+            "insider_tip": "Studio Lam es el lugar principal para escuchar música 'Molam' tailandesa vintage (folclore de Isaan) mezclada con ritmos del mundo.",
+            "price_level": "Moderado",
+            "duration": "2-3 horas",
+            "best_time": "21:00 - Medianoche para los mejores sets musicales.",
+            "vibe": "Fresco e Íntimo",
+            "good_for": [
+              "Amantes de la música",
+              "Aficionados de cócteles",
+              "Vibras modernas"
+            ]
+          },
+          "image": "/images/bangkok/listening-bar.jpg",
+          "geo": {
+            "lat": 13.7314,
+            "lng": 100.5817
+          }
+        },
+        {
+          "id": "act-007",
+          "slug": "talad-noi-walk",
+          "name_en": "Talad Noi Heritage Walk",
+          "name_local": "ตลาดน้อย",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un paseo por uno de los barrios más antiguos de Bangkok, donde los patios de chatarra se encuentran junto a mansiones históricas y arte callejero.",
+            "history": "Esta comunidad ribereña fue una vez el centro de la industria naviera de la ciudad, ahora renacida como un núcleo creativo y vibrante.",
+            "insider_tip": "Busque el cementerio de coches Fiat vintage; es el lugar más icónico y fotografiado del barrio.",
+            "price_level": "Gratis",
+            "duration": "1-2 horas",
+            "best_time": "Tarde cuando la luz resalta las texturas de las casas comerciales.",
+            "vibe": "Rudo y Artístico",
+            "good_for": [
+              "Fotografía",
+              "Joyas ocultas",
+              "Historia"
+            ]
+          },
+          "image": "/images/bangkok/talad-noi-walk.jpg",
+          "geo": {
+            "lat": 13.7346,
+            "lng": 100.5135
+          }
+        },
+        {
+          "id": "nat-001",
+          "slug": "bang-krachao",
+          "name_en": "Bang Krachao (Green Lung)",
+          "name_local": "บางกระเจ้า",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Una enorme isla selvática en un meandro del río, accesible solo en barco y mejor explorada en dos ruedas.",
+            "history": "Preservado del desarrollo urbano para servir como un filtro de aire natural para la ciudad, ganándose el apodo de 'Pulmón Verde'.",
+            "insider_tip": "Alquile una bicicleta en el muelle por ฿100; siga los 'caminos elevados' pero tenga cuidado con las motocicletas que vienen en sentido contrario.",
+            "price_level": "Asequible",
+            "duration": "Medio día",
+            "best_time": "Fin de semana por la mañana para visitar el mercado flotante local.",
+            "vibe": "Exuberante y Tranquilo",
+            "good_for": [
+              "Amantes de la naturaleza",
+              "Ciclismo",
+              "Escapando de la ciudad"
+            ]
+          },
+          "image": "/images/bangkok/bang-krachao.jpg",
+          "geo": {
+            "lat": 13.6953,
+            "lng": 100.56
+          }
+        }
+      ]
+    },
+    {
+      "title": "Mercados y Moderno",
+      "id": "markets",
+      "items": [
+        {
+          "id": "mar-001",
+          "slug": "chatuchak-market",
+          "name_en": "Chatuchak Weekend Market",
+          "name_local": "ตลาดนัดจตุจักร",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Uno de los mercados al aire libre más grandes del mundo, con más de 15,000 puestos que venden de todo, desde moda vintage hasta muebles.",
+            "history": "Originalmente trasladado de Sanam Luang en la década de 1980, se ha convertido en un destino global para cazadores de gangas y coleccionistas.",
+            "insider_tip": "Si ve algo que le gusta, cómprelo de inmediato; el diseño del mercado es tan complejo que probablemente nunca encontrará ese puesto de nuevo.",
+            "price_level": "Asequible",
+            "duration": "Medio día",
+            "best_time": "Sábado por la mañana (9:00 AM) antes de que el calor del mediodía se vuelva intenso.",
+            "vibe": "Caótico e Infinito",
+            "good_for": [
+              "Compras",
+              "Gastrónomos",
+              "Fotografía"
+            ]
+          },
+          "image": "/images/bangkok/chatuchak.jpg",
+          "geo": {
+            "lat": 13.799,
+            "lng": 100.5499
+          }
+        },
+        {
+          "id": "mar-004",
+          "slug": "local-night-market",
+          "name_en": "Jodd Fairs / Night Markets",
+          "name_local": "ตลาดนัดกลางคืน",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Mercados nocturnos modernos y de moda con carpas blancas, puestos de comida hipster, música en vivo y comida fotogénica para 'Instagram'.",
+            "history": "Una evolución moderna del mercado tradicional, Jodd Fairs se ha convertido en el modelo de la cultura contemporánea de la noche en Bangkok.",
+            "insider_tip": "Pruebe el 'Leng Saap' (Sopa Picante de Huesos de Cerdo); es el plato insignia del mercado y generalmente se sirve en porciones gigantes.",
+            "price_level": "Moderado",
+            "duration": "2-3 horas",
+            "best_time": "19:00 - 21:00 para la mejor energía nocturna.",
+            "vibe": "De moda y festivo",
+            "good_for": [
+              "Cena",
+              "Vida nocturna",
+              "Socializar"
+            ]
+          },
+          "image": "/images/bangkok/night-market.jpg",
+          "geo": {
+            "lat": 13.757,
+            "lng": 100.565
+          }
+        },
+        {
+          "id": "mar-005",
+          "slug": "flower-market",
+          "name_en": "Pak Khlong Talat",
+          "name_local": "ปากคลองตลาด",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "El mercado de flores principal de Bangkok: una operación de 24 horas que es un estallido de color, fragancia y logística frenética a medianoche.",
+            "history": "Un antiguo mercado de pescado que se transformó en un mercado de flores en el siglo XVIII para abastecer a los innumerables templos y hoteles de la ciudad.",
+            "insider_tip": "Visite entre las 2:00 AM y las 4:00 AM para ver los enormes camiones descargando jazmines y caléndulas frescas del campo.",
+            "price_level": "Asequible",
+            "duration": "1 hora",
+            "best_time": "De medianoche a las 4:00 AM para la acción más dramática.",
+            "vibe": "Vibrante y Fragante",
+            "good_for": [
+              "Fotografía",
+              "Noctámbulos",
+              "Experiencia sensorial"
+            ]
+          },
+          "image": "/images/bangkok/flower-market.jpg",
+          "geo": {
+            "lat": 13.7415,
+            "lng": 100.4965
+          }
+        },
+        {
+          "id": "mod-001",
+          "slug": "rooftop-bars",
+          "name_en": "Sky Bars",
+          "name_local": "บาร์บนดาดฟ้า",
+          "category": "vista",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Bares de cócteles en altura que ofrecen vistas panorámicas dramáticas de la expansión iluminada por neón de la ciudad y del río serpenteante.",
+            "history": "Los bares en las azoteas se convirtieron en un símbolo global de Bangkok después de la crisis financiera de 1997, ya que los desarrolladores buscaron formas de utilizar los techos.",
+            "insider_tip": "La mayoría tiene un código de vestimenta estricto; Tichuca es el más moderno por su 'árbol luminoso', mientras que Octave ofrece mejor relación calidad-precio para el atardecer.",
+            "price_level": "Caro",
+            "duration": "1.5-2 horas",
+            "best_time": "18:00 para disfrutar de la transición del atardecer a las luces de la ciudad.",
+            "vibe": "Glamoroso y Panorámico",
+            "good_for": [
+              "Parejas",
+              "Fotografía",
+              "Ocasiones especiales"
+            ]
+          },
+          "image": "/images/bangkok/rooftop.jpg",
+          "geo": {
+            "lat": 13.7226,
+            "lng": 100.5142
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "7:00 AM",
+      "title": "Ceremonia de Alms al Amanecer y Desayuno de Comida Callejera",
+      "description": "Despiértese temprano para presenciar a los monjes recolectando limosnas en Khao San o a lo largo del río Chao Phraya. Los lugareños ofrecen comida a los monjes vestidos de azafrán en una procesión silenciosa, una tradición budista de 2,600 años. Luego, diríjase a un puesto de comida callejera para probar jok (gachas de arroz), pa thong ko (masa frita china) y té helado tailandés. La comida callejera es más segura por la mañana, cuando los ingredientes están frescos. Este tranquilo Bangkok pre-turístico no durará más allá de las 9 a.m.",
+      "image": "/images/bangkok/alms-ceremony.jpg"
+    },
+    {
+      "time": "9:00 AM",
+      "title": "Gran Palacio y Wat Phra Kaew",
+      "description": "Llegue cuando abran las puertas a las 8:30 a.m. para evitar a los grupos turísticos. El Gran Palacio es un deslumbrante complejo de torres doradas, intrincados mosaicos y el sagrado Buda de Esmeralda. Código de vestimenta estricto: no se permiten pantalones cortos, hombros descubiertos ni jeans rasgados. Hay alquileres disponibles, pero evite la molestia. La entrada cuesta ฿500, pero vale cada baht. Hay guías en la entrada; contrate a las oficiales dentro. El palacio fue la residencia real durante 150 años; ahora solo se utiliza para ceremonias.",
+      "image": "/images/bangkok/grand-palace2.jpg",
+      "ticket_link": "Lo siento, no puedo acceder a enlaces externos. Pero puedo ayudarle a traducir cualquier texto que me proporcione."
+    },
+    {
+      "time": "12:00 PM",
+      "title": "Fideos de barco en el Monumento a la Victoria",
+      "description": "Tome el BTS hasta el Monumento a la Victoria para probar fideos en barco (kuay teow rua), que originalmente se vendían desde barcos en los canales. Pida múltiples tazones pequeños (฿10-15 cada uno) de caldo de cerdo o res con fideos, albóndigas y hierbas. Los locales apilan de 5 a 8 tazones. El caldo es oscuro, rico y ligeramente dulce con sangre de cerdo. Es intenso pero increíble. Los puestos de la calle cercanos venden arroz pegajoso con mango de postre. Este es el Bangkok de clase trabajadora: cero inglés, máximo sabor.",
+      "image": "/images/bangkok/boat-noodles.jpg"
+    },
+    {
+      "time": "3:00 PM",
+      "title": "Templos: Wat Pho y Wat Arun",
+      "description": "Camina desde el Gran Palacio hasta Wat Pho para ver al Buda Reclinado de 46 metros cubierto de pan de oro. El complejo del templo es enorme, con más de 1,000 imágenes de Buda. Reciba un masaje tailandés tradicional en la escuela de masajes del templo (฿300/hora); dolerá un poco, pero aflojará todos los músculos. Luego, tome el ferry a través del río Chao Phraya (฿5) hacia Wat Arun (Templo del Amanecer). Suba las empinadas escaleras para disfrutar de las vistas del río. El templo está cubierto de colorida porcelana china.",
+      "image": "/images/bangkok/wat-pho-afternoon.jpg"
+    },
+    {
+      "time": "18:00",
+      "title": "Bar en la azotea Sunset en Lebua",
+      "description": "Dirígete al Sky Bar del Lebua State Tower (63º piso) para cócteles al atardecer. El bar de 'The Hangover 2' ofrece vistas de 360° del horizonte de Bangkok y del río Chao Phraya. Los cócteles cuestan entre ฿500-800, el código de vestimenta es smart casual (sin chanclas). Llega a las 5:30 p.m. para el atardecer. Alternativa: El Octave Rooftop Bar en Marriott Sukhumvit es menos turístico. A medida que la ciudad se ilumina, Bangkok se transforma en una extensión iluminada por neón que se extiende hasta el horizonte.",
+      "image": "/images/bangkok/lebua-sunset.jpg"
+    },
+    {
+      "time": "8:00 PM",
+      "title": "Cena en el Mercado Nocturno de Yaowarat (Chinatown)",
+      "description": "Tome un taxi a Yaowarat Road cuando los vendedores ambulantes se instalen a las 7 p.m. Este es el Chinatown de Bangkok, una explosión sensorial de woks chisporroteantes, letreros de neón y 10,000 personas comiendo en la calle. Pida pad thai en Thip Samai (el lugar de pad thai más antiguo de Bangkok), curry de cangrejo en Hua Seng Hong, o pato asado con arroz de un carrito callejero. Pruebe la fruta del durián si se atreve. Termine con kanom krok (panqueques de coco). Yaowarat es caótico, sudoroso y absolutamente esencial en Bangkok.",
+      "image": "/images/bangkok/yaowarat-night.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Ventilador de cuello portátil",
+      "image": "/images/bangkok/neck-fan.jpg",
+      "reason": "El calor de Bangkok es brutal. Un ventilador de cuello manos libres le mantiene fresco mientras explora.",
+      "amazon_url": "Lo siento, no puedo ayudar con eso.",
+      "category": "clima"
+    },
+    {
+      "id": "aff-002",
+      "title": "Repelente de mosquitos",
+      "image": "/images/bangkok/repellent.jpg",
+      "reason": "El dengue es un riesgo. Un repelente a base de DEET es esencial para las noches al aire libre.",
+      "amazon_url": "Repelente de mosquitos con DEET",
+      "category": "salud"
+    },
+    {
+      "id": "aff-003",
+      "title": "Cinturón de dinero para viajar",
+      "image": "/images/bangkok/money-belt.jpg",
+      "reason": "Los carteristas están activos en los mercados. Mantenga su dinero seguro.",
+      "amazon_url": "Cinturón de dinero para viajar",
+      "category": "seguridad"
+    }
+  ],
+  "lat": 13.7563,
+  "lng": 100.5018,
+  "region": "Asia"
+}

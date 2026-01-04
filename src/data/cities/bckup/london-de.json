@@ -1,0 +1,1042 @@
+{
+  "id": "city-004",
+  "name": "London",
+  "slug": "london",
+  "country": "United Kingdom",
+  "country_code": "gb",
+  "hero_image": "/images/london/hero.jpg",
+  "intro_vibe": "Die Stadt der Dörfer: Königliches Erbe trifft auf moderne multikulturelle Energie in einer weitläufigen, polyzentrischen Hauptstadt.",
+  "general_info": {
+    "population": "~9 Millionen (Stadt) / ~14 Millionen (Ballungsraum)",
+    "is_capital": true,
+    "description": "London ist die Hauptstadt und größte Stadt Englands und des Vereinigten Königreichs. Als eine der einflussreichsten Städte der Welt ist London seit zwei Jahrtausenden eine bedeutende Siedlung. Es ist eine führende globale Stadt in Kunst, Handel, Bildung, Unterhaltung, Mode, Finanzen, Gesundheitswesen, Medien, professionellen Dienstleistungen, Forschung und Entwicklung, Tourismus und Verkehr. Aber über die Monumente hinaus funktioniert es als eine Föderation von unterschiedlichen 'Dörfern'—von den geflegten Straßen von Marylebone bis zur rauen Kreativität von Shoreditch—vereint durch Geschichte und die U-Bahn."
+  },
+  "stats": {
+    "currency": "GBP (£)",
+    "plug_type": "Typ G (UK)"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "Januar",
+      "temp": "2°C - 8°C",
+      "vibe": "Kalt & Grau",
+      "pros": [
+        "Neujahrsangebote",
+        "Weniger Touristen",
+        "Gemütliche Pub-Saison"
+      ],
+      "cons": [
+        "Kurze Tage",
+        "Kaltes Regenwetter",
+        "Übercastete Himmel"
+      ],
+      "clothing": "Warmer Mantel, wasserdichte Schichten, robuste Stiefel"
+    },
+    {
+      "id": 2,
+      "name": "Februar",
+      "temp": "2°C - 9°C",
+      "vibe": "Noch kühl",
+      "pros": [
+        "Valentinstagsatmosphäre",
+        "Museumszeit",
+        "Günstigere Preise"
+      ],
+      "cons": [
+        "Anhaltender Regen",
+        "Kaltes Wetter"
+      ],
+      "clothing": "Schwere Schichten, warmer Schal, Regenschirm"
+    },
+    {
+      "id": 3,
+      "name": "März",
+      "temp": "4°C - 11°C",
+      "vibe": "Frühlingserwachen",
+      "pros": [
+        "Narzissen blühen",
+        "Längere Tage",
+        "Frühlingsenergie"
+      ],
+      "cons": [
+        "Unberechenbares Wetter",
+        "Kühle Abende"
+      ],
+      "clothing": "Schichten, wasserdichte Jacke, leichter Schal"
+    },
+    {
+      "id": 4,
+      "name": "April",
+      "temp": "6°C - 14°C",
+      "vibe": "Blühend",
+      "pros": [
+        "Kirschblüten",
+        "Parks erwachen zum Leben",
+        "Osterfestlichkeiten"
+      ],
+      "cons": [
+        "Aprilregen",
+        "Variable Temperaturen"
+      ],
+      "clothing": "Leichte Jacke, Schichten, immer einen Regenschirm"
+    },
+    {
+      "id": 5,
+      "name": "Mai",
+      "temp": "9°C - 17°C",
+      "vibe": "Angenehmer Frühling",
+      "pros": [
+        "Feiertage",
+        "Markt im Freien",
+        "Chelsea Flower Show"
+      ],
+      "cons": [
+        "Kann noch regnen",
+        "Die Menschenmengen nehmen zu"
+      ],
+      "clothing": "Lichte Schichten, Sonnenbrille, Regenjacke"
+    },
+    {
+      "id": 6,
+      "name": "Juni",
+      "temp": "12°C - 21°C",
+      "vibe": "Frühsommer",
+      "pros": [
+        "Trooping the Colour",
+        "Lange Abende",
+        "Wimbledon beginnt"
+      ],
+      "cons": [
+        "Hohe Saisonpreise",
+        "Touristenmassen"
+      ],
+      "clothing": "Sommerkleidung + leichte Jacke für abends"
+    },
+    {
+      "id": 7,
+      "name": "Juli",
+      "temp": "14°C - 23°C",
+      "vibe": "Warm und belebt",
+      "pros": [
+        "Schulferien beginnen",
+        "Freiluftkino",
+        "Straßenfeste"
+      ],
+      "cons": [
+        "Sehr überfüllt",
+        "Wenig Klimaanlage",
+        "Höhe Preise"
+      ],
+      "clothing": "Leichte Sommerkleidung, Sonnenhut, Sonnencreme"
+    },
+    {
+      "id": 8,
+      "name": "August",
+      "temp": "14°C - 23°C",
+      "vibe": "Sommerhöhepunkt",
+      "pros": [
+        "Notting Hill Carnival",
+        "Warmes Wetter",
+        "Open-Air-Konzerte"
+      ],
+      "cons": [
+        "Extrem überfüllt",
+        "Viele Einheimische weg",
+        "Teuer"
+      ],
+      "clothing": "Leichte Kleidung, bequeme Schuhe zum Gehen"
+    },
+    {
+      "id": 9,
+      "name": "September",
+      "temp": "11°C - 19°C",
+      "vibe": "Goldener Herbst",
+      "pros": [
+        "Kinder zurück in der Schule",
+        "Perfektes Wetter",
+        "Kulturelle Saison beginnt"
+      ],
+      "cons": [
+        "Kürzere Tage kehren zurück",
+        "Gelegentlicher Regen"
+      ],
+      "clothing": "Leichte Schichten, Jacke für den Abend"
+    },
+    {
+      "id": 10,
+      "name": "Oktober",
+      "temp": "9°C - 15°C",
+      "vibe": "Frische Herbstluft",
+      "pros": [
+        "Herbstliche Farben",
+        "Halloween-Spaß",
+        "Museumsausstellungen"
+      ],
+      "cons": [
+        "Zunahme von Regen",
+        "Frühere Dunkelheit"
+      ],
+      "clothing": "Warme Jacke, Schal, wasserdichte Schuhe"
+    },
+    {
+      "id": 11,
+      "name": "November",
+      "temp": "6°C - 11°C",
+      "vibe": "Grau & Nass",
+      "pros": [
+        "Feuerwerk Nacht",
+        "Ruhige Straßen",
+        "Erschwingliche Preise"
+      ],
+      "cons": [
+        "Sehr grau",
+        "Kaltes Regen",
+        "Dunkel bis 16 Uhr"
+      ],
+      "clothing": "Warmer Mantel, Regenschirm, wasserdichte Stiefel"
+    },
+    {
+      "id": 12,
+      "name": "Dezember",
+      "temp": "3°C - 8°C",
+      "vibe": "Festlich & Magisch",
+      "pros": [
+        "Weihnachtsmärkte",
+        "Festliche Lichter",
+        "Winterwunderland"
+      ],
+      "cons": [
+        "Kalt & nass",
+        "Sehr voll",
+        "Teuer"
+      ],
+      "clothing": "Schwerer Wintermantel, Handschuhe, warme Mütze"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "U-Bahn Schweigen: In der U-Bahn ist Schweigen Gold wert. Sprechen Sie nicht laut, spielen Sie keine Musik oder halten Sie keinen langen Blickkontakt. Es ist ein privater Raum in der Öffentlichkeit.",
+      "Escalator Disziplin: Stehen Sie RECHTS, gehen Sie LINKS. Den linken Weg zu blockieren, ist der schnellste Weg, einen Londoner zu verärgern. Diese Regel ist absolut.",
+      "Anstehen ist heilig: Schneiden Sie niemals in die Reihe. Das Anstehen ist eine britische Institution und das Springen ist sozialer Selbstmord. Wenn Sie unsicher sind, fragen Sie: 'Wer ist zuletzt?'",
+      "Das Runden-System: Wenn Sie mit einer Gruppe in einer Kneipe sind, kaufen Sie in 'Runden' (eine Person kauft für alle). Kaufen Sie nicht nur für sich selbst. Gegenseitigkeit vor dem Verlassen.",
+      "Die Nuance von 'Entschuldigung': Londoner sagen 'Entschuldigung' für alles – wenn sie Sie anstoßen, wenn Sie sie anstoßen oder einfach nur weil sie existieren. Es ist ein Reflex, um Spannungen zu entschärfen, keine Schuldzuschreibung.",
+      "Bargeldlose Gesellschaft: Busse akzeptieren kein Bargeld. Die meisten Cafés und Bars sind 'Nur mit Karte'. Sie tippen für alles. Bringen Sie eine kontaktlose Karte/Telefon mit.",
+      "Kneipen-Service: Bestellen Sie an der Bar. Es gibt selten Tischservice für Getränke. Sagen Sie 'und einen für sich selbst', um dem Barkeeper ein Trinkgeld anzubieten (normalerweise ~£1).",
+      "Trinkgeld: 10-12,5% werden normalerweise als 'Servicegebühr' zur Restaurantrechnung hinzugefügt. Sie müssen darüber hinaus kein Trinkgeld geben. Kein Trinkgeld in Kneipen erwartet.",
+      "Achten Sie auf die Lücke: Achten Sie auf die Warnung zwischen Zug und Bahnsteig.",
+      "Lautstärke: Londoner sind in öffentlichen Verkehrsmitteln leise. Halten Sie die Lautstärke niedrig."
+    ],
+    "essential_phrases": [
+      {
+        "src": "Hallo",
+        "local": "Hallo / Hiya",
+        "phonetic": "hal-LOH / hi-YAH"
+      },
+      {
+        "src": "Danke",
+        "local": "Cheers / Ta",
+        "phonetic": "cheers / tah (informell)"
+      },
+      {
+        "src": "Entschuldigung / Sorry",
+        "local": "Entschuldigung",
+        "phonetic": "ENTSCHUL-di-gung (für alles verwendet)"
+      },
+      {
+        "src": "Toilette",
+        "local": "Loo",
+        "phonetic": "loo"
+      },
+      {
+        "src": "U-Bahn",
+        "local": "Die U-Bahn",
+        "phonetic": "choob"
+      },
+      {
+        "src": "Freund",
+        "local": "Kumpel",
+        "phonetic": "KUM-pel"
+      },
+      {
+        "src": "Die Rechnung bitte",
+        "local": "Kann ich die Rechnung bekommen?",
+        "phonetic": "standard"
+      },
+      {
+        "src": "Ausgang",
+        "local": "Ausgang",
+        "phonetic": "Beschilderung"
+      }
+    ]
+  },
+  "neighborhoods": {
+    "name": "Westminster & South Bank",
+    "vibe": "Ikonisches Touristenzentrum",
+    "description": "Heimat von Big Ben, dem Parlament, dem London Eye und dem Uferweg entlang der Themse. Touristisch, aber für Erstbesucher ein Muss.",
+    "highlights": [
+      "Big Ben & Parlament",
+      "London Eye",
+      "Westminster Abbey"
+    ],
+    "image": "/images/london/westminster.jpg"
+  },
+  "logistics": {
+    "id": "logistics-transit",
+    "slug": "getting-around",
+    "title": "Fortbewegung",
+    "icon": "Zug",
+    "summary": "Die U-Bahn ist Ihr bester Freund. Besorgen Sie sich eine Oyster Card oder nutzen Sie kontaktloses Bezahlen.",
+    "details": [
+      "Kontaktloses Bezahlen ist König: Sie benötigen keine Oyster Card mehr. Verwenden Sie Ihre kontaktlose Bankkarte oder Apple/Google Pay. Es kostet das gleiche und hat ein tägliches Limit.",
+      "Die U-Bahn: 11 Linien. Meiden Sie die Stoßzeiten (7:30-9:30 Uhr, 17-19 Uhr). Sie ist schnell, aber heiß und tief.",
+      "Die Busstrategie: Langsamer, aber malerisch und günstiger (£1,75). Die Routen 11 und 24 bieten eine budgetfreundliche Stadtrundfahrt.",
+      "Zu Fuß: London ist gut zu Fuß erreichbar. Laden Sie CityMapper herunter (besser als Google Maps für Verkehrsdetails).",
+      "Uber Boot: Die 'Thames Clippers' sind eine gültige Pendleroption. Ein Eintritt garantiert eine malerische Fahrt entlang des Flusses."
+    ]
+  },
+  "must_eat": [
+    {
+      "id": "food-002",
+      "slug": "sunday-roast",
+      "name_en": "Der Sonntagsbraten",
+      "name_local": "Sunday Roast",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Der Sonntagsbraten ist Großbritanniens geheiligtes wöchentliches Ritual: geröstetes Fleisch (Rind, Schwein oder Lamm), serviert mit Yorkshire-Pudding, Bratkartoffeln, Gemüse und dickem Bratenfond. Er wird in Pubs strikt sonntags von Mittag bis ausverkauft (normalerweise bis 16 Uhr) serviert. Eine Tischreservierung im Voraus ist unerlässlich, da es sich um eine der beliebtesten Mahlzeiten der Woche handelt.",
+        "vibe": "Traditionell, tröstend",
+        "history": "Der Sonntagsbraten reicht Jahrhunderte zurück, als Familien das Fleisch in den Ofen stellten, bevor sie zur Kirche gingen, und nach Hause zurückkehrten, um eine zubereitete Mahlzeit zu genießen. Yorkshire-Pudding wurde ursprünglich zuerst mit Bratensoße als preiswerte Füllung serviert, um den Fleischkonsum zu verringern.",
+        "insider_tip": "Reservieren Sie einen Tisch bis Donnerstag für beliebte Pubs. Kommen Sie bis 13 Uhr für die beste Auswahl, bevor die Gerichte ausverkauft sind. Yorkshire-Pudding sollte außen knusprig und innen luftig sein – wenn er matschig ist, nimmt die Küche es nicht ernst.",
+        "price_level": "Moderat",
+        "good_for": [
+          "Familien",
+          "Traditionelle Mahlzeiten"
+        ],
+        "duration": "1-2 Stunden",
+        "best_time": "Sonntagsmittagessen (12-15 Uhr)"
+      },
+      "image": "/images/london/sunday-roast.jpg"
+    },
+    {
+      "id": "food-001",
+      "slug": "fish-and-chips",
+      "name_en": "Fish & Chips",
+      "name_local": "Fish & Chips",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Fish & Chips ist das typisch britische Gericht: panierter weißer Fisch (Kabeljau oder Schellfisch), goldbraun frittiert, serviert mit dicken Pommes, Erbsenpüree und Remouladensauce. Die besten Versionen stammen von richtigen 'Chippies' (Imbissbuden), eingewickelt in Papier und nicht aus schicken Restaurants. Traditionellisten fügen großzügig Salz und Malzessig hinzu.",
+        "vibe": "Lässig, ikonisch",
+        "history": "Fish and Chips wurde in den 1860er Jahren zur Grundnahrungsmittel der Arbeiterklasse, als Frittierfischläden mit Chipshops fusionierten. Es war eines der wenigen Nahrungsmittel, das während des Zweiten Weltkriegs nicht rationiert wurde, was seine nationale Bedeutung festigte. Das Gericht wurde traditionell in Zeitungen eingewickelt, bis Gesundheitvorschriften dies in den 1980er Jahren verboten.",
+        "insider_tip": "Bestellen Sie 'Fish and Chips zum Mitnehmen' eingewickelt in Papier für das authentische Erlebnis. Der Fisch sollte eine knusprige, nicht fettige Panade haben. Fügen Sie Essig vor Salz hinzu - die Säure verbessert den Geschmack besser. Vermeiden Sie Touristenfallen in der Nähe von Wahrzeichen; lokale Chippies sind immer besser.",
+        "price_level": "Erschwinglich",
+        "good_for": [
+          "Lässige Mahlzeiten",
+          "Mitnahme"
+        ],
+        "duration": "Schneller Happen",
+        "best_time": "Jederzeit"
+      },
+      "image": "/images/london/fish-chips.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "full-english-breakfast",
+      "name_en": "Vollständiges Englisches Frühstück",
+      "name_local": "Fry-Up",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Das vollständige englische Frühstück (oder 'Fry-Up') ist ein legendärer Teller mit Speck, Würstchen, Spiegeleiern, gebackenen Bohnen, gegrillten Tomaten, Pilzen und Buttertoast. Blutwurst ist optional. Es ist das ultimative Mittel gegen Kater und wird traditionell am Wochenende gegessen. Finden Sie das authentische Erlebnis in einem 'Greasy Spoon'-Café – einfache Ausstattung, Formica-Tische, keine Schnörkel.",
+        "vibe": "Herzhaft, wohltuend",
+        "history": "Das vollständige englische Frühstück wurde in der viktorianischen Ära standardisiert und als Zeichen von Wohlstand und Gastfreundschaft angesehen. Während der Rationierung im Zweiten Weltkrieg wurde das Frühstück kleiner, blieb jedoch ein kultureller Bezugspunkt. Der Begriff 'Fry-Up' entstand nach dem Krieg, als es zur Norm wurde, alles in einer Pfanne zu braten.",
+        "insider_tip": "Greasy Spoon-Cafés servieren die besten Versionen – achten Sie auf Kondensation an den Fenstern und Bauarbeiter, die drinnen essen. Die Eier sollten in derselben Pfanne wie alles andere gebraten werden, um den vollen Geschmack zu erhalten. Bestellen Sie starken Tee ('Builder's Tea'), um die Reichhaltigkeit auszugleichen.",
+        "price_level": "Erschwinglich",
+        "good_for": [
+          "Frühstück",
+          "Kater"
+        ],
+        "duration": "30-45 Minuten",
+        "best_time": "Wochenendmorgen"
+      },
+      "image": "/images/london/full-english.jpg"
+    },
+    {
+      "id": "food-005",
+      "slug": "curry-brick-lane",
+      "name_en": "Curry",
+      "name_local": "Curry",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Curry wird oft als Londons 'wahres Nationalgericht' bezeichnet, wegen der britisch-indischen Fusionsgeschichte. Die Gerichte reichen von cremigem Tikka Masala (in Großbritannien erfunden) bis zu feurigem Vindaloo. Brick Lane ist das berühmte Curryzentrum, hat jedoch touristische Züge angenommen. Das beste authentische Curry findet man in Stadtteilen wie Tooting ('Curry Corridor'), Whitechapel und Southall, wo südasianische Gemeinschaften leben.",
+        "vibe": "Vielseitig, geschmackvoll",
+        "history": "Indische Restaurants erlebten nach dem Zweiten Weltkrieg in London einen Boom, als Einwanderer aus Bangladesch, Pakistan und Indien Curryhäuser eröffneten. Chicken Tikka Masala wurde angeblich in den 1970er Jahren in Glasgow erfunden, um dem britischen Geschmack gerecht zu werden. Curryhäuser wurden in den 1990er Jahren zur beliebtesten Restaurantart Großbritanniens.",
+        "insider_tip": "Vermeiden Sie die aufdringlichen Anwerber in Brick Lane – die Restaurants dort sind mittelmäßig und überteuert. Tooting hat das beste authentische südindische und sri-lankische Essen. Für erstklassige pakistanische Küche gehen Sie nach Whitechapel. Bestellen Sie Naanbrot, nicht Reis, um die Sauce aufzutunken.",
+        "price_level": "Erschwinglich",
+        "good_for": [
+          "Abendessen",
+          "Gruppen"
+        ],
+        "duration": "1-2 Stunden",
+        "best_time": "Abend"
+      },
+      "image": "/images/london/curry.jpg"
+    },
+    {
+      "id": "food-008",
+      "slug": "pub-culture",
+      "name_en": "Der britische Pub",
+      "name_local": "Der Pub",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Der britische Pub (kurz für 'Public House') ist das Fundament der sozialen Kultur: ein Ort zum Trinken, Essen und geselligem Beisammensein. Traditionelle Pubs bieten echtes Ale und Cider vom Fass an, mit Speisen von einfachen Snacks bis hin zu vollständigen Mahlzeiten. 'Gastropubs' servieren Speisen in Restaurantqualität, während 'Ketten-Pubs' wie Wetherspoons günstige Getränke und einfache Speisen anbieten. Bestellen Sie immer an der Bar – es gibt selten Service am Tisch für Getränke.",
+        "vibe": "Gesellig, traditionell",
+        "history": "Pubs gibt es seit der römischen Zeit, sie nahmen jedoch im 19. Jahrhundert ihre moderne Form an. Das 'Tied House'-System bedeutete, dass Brauereien Pubs besaßen, um die Bierqualität sicherzustellen. Rauchverbote (2007) und Änderungen der Öffnungszeiten verwandelten die Pub-Kultur. Viele historische Pubs sind über 500 Jahre alt.",
+        "insider_tip": "Bestellen Sie ein Pint 'real ale' (fässiges Bier) für das authentische Erlebnis. Wenn Sie in einer Gruppe sind, machen Sie bei 'Runden' mit – kaufen Sie abwechselnd Getränke für alle. Sagen Sie 'und eins für sich selbst', wenn Sie bestellen, um dem Barkeeper ein £1 Trinkgeld anzubieten.",
+        "price_level": "Moderat",
+        "good_for": [
+          "Geselligkeit",
+          "Erlebnis der Einheimischen"
+        ],
+        "duration": "1-3 Stunden",
+        "best_time": "Abend"
+      },
+      "image": "/images/london/pub.jpg"
+    },
+    {
+      "id": "food-020",
+      "slug": "meal-deal-culture",
+      "name_en": "Das Meal Deal",
+      "name_local": "Meal Deal",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Das Meal Deal ist das inflationssichere Mittagessen Großbritanniens: ein Sandwich, ein Snack (Chips oder Schokolade) und ein Getränk für £3,50-£4,00 von Supermarktketten wie Tesco, Sainsbury's oder Boots. Es ist der Treibstoff für Büromitarbeiter in ganz London und beliebt wegen seines Wertes und seiner Bequemlichkeit. Das Ritual beinhaltet die strategische Auswahl der teuersten Einzelartikel, um die Einsparungen zu maximieren.",
+        "vibe": "Praktisch, wirtschaftlich",
+        "history": "Meal Deals wurden in den frühen 2000er Jahren von Supermärkten eingeführt, um mit Sandwich-Läden zu konkurrieren. Sie wurden während der Rezession 2008 zu einem kulturellen Phänomen und sind jetzt ein tägliches Ritual für Millionen von Briten. Das Format hat sich in 20 Jahren nicht geändert.",
+        "insider_tip": "Wählen Sie das teuerste Getränk (meist Smoothies oder Premium-Säfte im Wert von £2-3), um den Wert zu maximieren. Tesco hat die beste Auswahl; Boots bietet gesündere Optionen. Die Hauptzeit ist von 12-14 Uhr, wenn die Büros leer werden – die Regale werden schnell leer geräumt.",
+        "price_level": "Erschwinglich",
+        "good_for": [
+          "Mittagessen",
+          "Reisende mit kleinem Budget"
+        ],
+        "duration": "Schneller Biss",
+        "best_time": "Mittagessen"
+      },
+      "image": "/images/london/meal-deal.jpg"
+    },
+    {
+      "id": "food-021",
+      "slug": "street-food-markets",
+      "name_en": "Straßenmarkt für Essen",
+      "name_local": "Street Food",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Straßenmärkte für Essen sind die kulinarische Revolution des modernen Londons: internationale Küche von Essensständen und Trucks in überdachten Märkten oder im Freien. Borough Market ist der Titan mit Gourmet-Angeboten, während Maltby Street Market, Pop Brixton und Street Feast kühlere, lokal konzentrierte Alternativen bieten. Die Küche reicht von koreanischem BBQ über venezolanische Arepas bis zu mezze aus dem Nahen Osten.",
+        "vibe": "Lebhaft, international",
+        "history": "Die Straßenessen-Szene Londons explodierte in den 2010er Jahren, beeinflusst von der Food-Truck-Kultur aus den USA und Portland. Borough Market verwandelte sich von einem Großhandelsmarkt zu einem Touristenziel. Die Rezession von 2008 machte unabhängige Essensstände für junge Köche finanziell rentabel.",
+        "insider_tip": "Borough Market ist am besten Mittwoch bis Samstag morgens vor den Touristenmengen. Der Maltby Street Market (samstags unter den Eisenbahnbrücken) ist die Insider-Alternative—kleiner, weniger überfüllt, ebenso köstlich. Bringen Sie Bargeld mit, da einige Anbieter keine Karten akzeptieren.",
+        "price_level": "Moderat",
+        "good_for": [
+          "Feinschmecker",
+          "Mittagessen"
+        ],
+        "duration": "1-2 Stunden",
+        "best_time": "Wochenende"
+      },
+      "image": "/images/london/street-food.jpg"
+    },
+    {
+      "id": "food-006",
+      "slug": "pie-and-mash",
+      "name_en": "Pie & Mash",
+      "name_local": "Pie & Mash",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Pie & Mash ist ein traditionelles Gericht der Arbeiterklasse aus dem East End: eine Fleischpastete (Hackfleisch) serviert mit Kartoffelpüree und grüner Petersilie 'Liquor' (eine Petersiliensauce). Es wird mit einem Löffel und einer Gabel gegessen, oft mit Essig oder Chili-Essig. Ein Stück altes London aus der viktorianischen Ära, das noch in historischen 'Pie and Mash Shops' mit gefliesten Wänden und Holzbänken serviert wird.",
+        "vibe": "Traditionell, bescheiden",
+        "history": "Pie and Mash Shops entstanden im 19. Jahrhundert als billiges Essen für die Arbeiterklasse Londons. Ursprünglich mit Aal (billiger Fisch aus der Themse) zubereitet, wurde es auf Rindfleisch umgestellt, als Aale rar wurden. Der grüne 'Liquor' wird aus dem Wasser gemacht, in dem die Aale geschmort wurden, was ihm einen unverwechselbaren Geschmack verleiht.",
+        "insider_tip": "Das Gericht ist ein erlerntes Geschmackserlebnis—der Liquor ist für Erstbesucher ungewöhnlich. Fügen Sie Malzessig oder Chili-Essig hinzu, um die Reichhaltigkeit auszugleichen. Historische Geschäfte wie M. Manze oder F. Cooke & Sons gibt es seit über 100 Jahren. Essen Sie es heiß und schnell.",
+        "price_level": "Erschwinglich",
+        "good_for": [
+          "Traditionelle Mahlzeiten",
+          "Geschichtsinteressierte"
+        ],
+        "duration": "30 Minuten",
+        "best_time": "Mittagessen"
+      },
+      "image": "/images/london/pie-mash.jpg"
+    },
+    {
+      "id": "food-22",
+      "slug": "salt-beef-bagel",
+      "name_en": "Salt Beef Bagel",
+      "name_local": "Beigel",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Der Salt Beef Bagel (lokal 'beigel' geschrieben) ist ein Wahrzeichen von Brick Lane: heißes Salzfleisch (Corned Beef Brisket), hochgestapelt mit Senf und Essiggurken in einem dichten, zähen, gekochten Bagel. Beigel Bake (der weiße Laden) hat rund um die Uhr geöffnet und verkauft sie für £6. Es ist die legendäre spätnächtliche oder frühmorgendliche Post-Pub-Mahlzeit, die von Einheimischen geliebt wird.",
+        "vibe": "Ikonisch, befriedigend",
+        "history": "Jüdische Einwanderer aus Osteuropa brachten die Bagel-Herstellung Ende der 1800er Jahre in den East End von London. Beigel Bake wurde 1974 eröffnet und hat seitdem rund um die Uhr geöffnet, um Generationen von Clubgängern, Taxifahrern und Einheimischen zu bedienen. Das Rezept hat sich nicht geändert.",
+        "insider_tip": "Gehen Sie zu Beigel Bake (dem WEIßEN Laden, nicht dem gelben nebenan). Fragen Sie nach 'Salt Beef mit Senf und Essiggurke.' Die Bagels werden gekocht, nicht gebacken, was sie dichter macht als amerikanische Bagels. Die Warteschlange bewegt sich schnell, selbst wenn sie lang ist. Perfekt um 3 Uhr morgens nach einer Nacht unterwegs.",
+        "price_level": "Erschwinglich",
+        "good_for": [
+          "Spätabend",
+          "Schneller Snack"
+        ],
+        "duration": "Schneller Snack",
+        "best_time": "Spätabend oder frühmorgens"
+      },
+      "image": "/images/london/bagel.jpg"
+    },
+    {
+      "id": "food-23",
+      "slug": "caribbean-cuisine",
+      "name_en": "Karibische Küche",
+      "name_local": "Jerk Chicken",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Karibische Küche ist ein zentraler Teil von Londons Identität, gebracht von der Windrush-Generation aus Jamaika, Trinidad und Barbados in den 1950er und 60er Jahren. Jerk Chicken (würziges gegrilltes Hähnchen), Rindfleisch- oder Gemüse-Patties (flaky Gebäck) und Reis mit Erbsen sind Grundnahrungsmittel. Authentische Orte konzentrieren sich in Brixton (dem Herzen der karibischen Kultur) und Notting Hill. Das Essen ist kräftig, würzig und kulturell tief verwurzelt.",
+        "vibe": "Geschmackvoll, kulturell",
+        "history": "Karibische Einwanderer kamen in den 1950er Jahren, um das Nachkriegsbritannien wieder aufzubauen und brachten ihre Küche mit. Das Notting Hill Carnival (seit 1966) feiert jeden August die karibische Kultur. Die Jerk-Gewürzmischung stammt von Jamaikas Maroons, die Fleisch über Pimentholz räucherten. Brixton wurde zum kulturellen Zentrum des karibischen Londons.",
+        "insider_tip": "Der Brixton Village Market und der Market Row bieten das beste authentische karibische Essen. Probieren Sie Jerk Chicken mit Reis und Erbsen sowie Kochbananen. Patties werden in Bäckereien in ganz Südlondon verkauft - essen Sie sie heiß. Besuchen Sie das Notting Hill Carnival im August für maximale kulturelle Eintauchen.",
+        "price_level": "Erschwinglich",
+        "good_for": [
+          "Feinschmecker",
+          "Kulturelle Erkundung"
+        ],
+        "duration": "30-45 Minuten",
+        "best_time": "Mittag oder Abendessen"
+      },
+      "image": "/images/london/caribbean.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Ikonisches London",
+      "id": "icons",
+      "items": [
+        {
+          "id": "land-01",
+          "slug": "big-ben",
+          "name_en": "Big Ben & Parlament",
+          "name_local": "Big Ben",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Big Ben ist der Spitzname für die große Glocke im Elizabeth Tower am Palace of Westminster, dem Sitz des britischen Parlaments. Das gotische Revivalgebäude ist ein ikonisches Symbol Londons und der britischen Demokratie. Der Turm ist 96 Meter hoch und die Ziffernblätter haben einen Durchmesser von 7 Metern. Die beste Sicht hat man von der Westminster Bridge für klassische Fotos.",
+            "vibe": "Ikonisch, historisch",
+            "history": "Erbaut 1859, nachdem ein Feuer den alten Palace of Westminster zerstört hatte. Der Turm wurde 2012 zu Ehren des Diamantenen Thronjubiläums von Königin Elizabeth II. in Elizabeth Tower umbenannt. Big Ben (die Glocke) wiegt 13,7 Tonnen und läutete seit 1859 fast ununterbrochen, außer während Kriegen und Restaurierungen.",
+            "insider_tip": "Überqueren Sie die Westminster Bridge zur Südküste für den besten Blick ohne Menschenmengen. Der Turm lässt sich bei Dämmerung am besten fotografieren, wenn die Lichter angehen. Führungen durch den Turm erfordern monatelange vorherige Buchung und britische Wohnsitzgenehmigung oder besondere Erlaubnis.",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Erstbesucher",
+              "Fotografie"
+            ],
+            "duration": "15-30 Minuten",
+            "best_time": "Dämmerung"
+          },
+          "image": "/images/london/big-ben.jpg",
+          "geo": {
+            "lat": 51.5007,
+            "lng": -0.1246
+          }
+        },
+        {
+          "id": "land-02",
+          "slug": "london-eye",
+          "name_en": "London Eye",
+          "name_local": "London Eye",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Das London Eye ist ein 135 Meter großes Riesenrad an der Südküste der Themse und bietet 360°-Blicke auf London. Jede Umdrehung dauert 30 Minuten in geschlossenen Glaskapseln für bis zu 25 Personen. Es wurde zur Millenniumfeier im Jahr 2000 erbaut und sollte vorübergehend sein, wurde aber zu einer der beliebtesten Attraktionen Londons.",
+            "vibe": "Modern, panoramisch",
+            "history": "Eröffnet am 31. Dezember 1999 (obwohl technische Probleme die öffentliche Eröffnung auf März 2000 verzögerten). Es war bis 2006 das höchste Riesenrad der Welt. Ursprünglich von British Airways gesponsert, gehört es jetzt Merlin Entertainments. Jährlich fahren über 3,5 Millionen Menschen damit.",
+            "insider_tip": "Buchen Sie Tickets online Wochen im Voraus, um 15-20% zu sparen. Gehen Sie zum Sonnenuntergang für die besten Ausblicke und Fotos. Alternativ erhalten Sie von Parliament Hill in Hampstead oder dem Sky Garden (kostenlos, aber erfordert vorherige Buchung) kostenlose panoramische Ausblicke.",
+            "price_level": "Teuer",
+            "good_for": [
+              "Paare",
+              "Aussichten"
+            ],
+            "duration": "1 Stunde (inkl. Warteschlange)",
+            "best_time": "Sonnenuntergang"
+          },
+          "image": "/images/london/london-eye.jpg",
+          "geo": {
+            "lat": 51.5033,
+            "lng": -0.1195
+          }
+        },
+        {
+          "id": "land-03",
+          "slug": "tower-bridge",
+          "name_en": "Tower Bridge",
+          "name_local": "Tower Bridge",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Die Tower Bridge ist Londons berühmteste Brücke, eine viktorianische gotische Hängebrücke mit zwei Türmen und einem Glasweg an der Spitze. Sie wurde 1894 erbaut und hebt sich weiterhin (Bauklappen) um hohen Schiffen den Durchgang zu ermöglichen—die Hebezeiten der Brücke können online eingesehen werden. Oft wird sie mit der London Bridge verwechselt, die eine schlichte moderne Brücke in der Nähe ist.",
+            "vibe": "Viktorianisch, prächtig",
+            "history": "Der Bau dauerte 8 Jahre (1886-1894) und erforderte 432 Bauarbeiter. Die Brücke hebt sich etwa 800 Mal pro Jahr für den Schiffsverkehr. Während des Zweiten Weltkriegs wurde sie getarnt, um deutschen Bombern zu entkommen. Der Glasbodenweg wurde 2014 hinzugefügt.",
+            "insider_tip": "Überprüfen Sie den Zeitplan für das Heben der Brücke online und kommen Sie 10 Minuten früher, um den Öffnungsprozess zu beobachten—es ist dramatisch und kostenlos von unten zu sehen. Das Ticket für den Glasweg (£12) kann man auslassen, es sei denn, Sie lieben Brücken. Am besten fotografiert von der Südküste oder HMS Belfast.",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Fotografie",
+              "Architekturliebhaber"
+            ],
+            "duration": "20-30 Minuten",
+            "best_time": "Hebezeiten der Brücke oder goldene Stunde"
+          },
+          "image": "/images/london/tower-bridge.jpg",
+          "geo": {
+            "lat": 51.5055,
+            "lng": -0.0754
+          }
+        }
+      ]
+    },
+    {
+      "title": "Lokale Erlebnisse",
+      "id": "experiences",
+      "items": [
+        {
+          "id": "exp-01",
+          "slug": "thames-walk",
+          "name_en": "South Bank Walk",
+          "name_local": "The Queen's Walk",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Der South Bank Walk (offiziell The Queen's Walk) ist ein Fußweg entlang der Themse von Westminster bis zur Tower Bridge und führt an Sehenswürdigkeiten, Straßenkünstlern, Buchmärkten, Pubs und kulturellen Einrichtungen vorbei. Es ist die beste kostenlose Aktivität in London, die ständig wechselnde Ausblicke auf den Fluss und die Stadt bietet. Der Walk ist etwa 3 Meilen lang und dauert bei einem gemütlichen Tempo 1-2 Stunden.",
+            "vibe": "Malersich, lebhaft",
+            "history": "Die South Bank wurde in den 1950er Jahren mit dem Festival of Britain umgestaltet. Zuvor industrialisiert und aus dem Zweiten Weltkrieg zerstört, ist sie nun das kulturelle Herz Londons mit Theatern, Galerien und Restaurants. Der Uferweg wurde in den 1980er und 1990er Jahren formalisiert.",
+            "insider_tip": "Beginnen Sie in Westminster und gehen Sie nach Osten zur Tower Bridge, um die Sehenswürdigkeiten vor sich zu haben. Halten Sie an dem Buchmarkt unter der Waterloo Bridge für gebrauchte Bücher. Gabriel's Wharf hat unabhängige Geschäfte und Cafés. Gehen Sie am späten Nachmittag für das goldene Licht auf dem Wasser.",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Spazieren",
+              "Fotografie"
+            ],
+            "duration": "1-2 Stunden",
+            "best_time": "Nachmittag"
+          },
+          "image": "/images/london/thames-walk.jpg",
+          "geo": {
+            "lat": 51.508,
+            "lng": -0.1
+          }
+        },
+        {
+          "id": "exp-03",
+          "slug": "regents-canal",
+          "name_en": "Regent's Canal Walk",
+          "name_local": "Regent's Canal",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Der Regent's Canal ist ein friedlicher Fußweg vom Little Venice nach Camden, der durch versteckte Ecken Londons führt und an bunten Hausbooten, Cafés am Kanal und Grünflächen abseits des Verkehrs vorbeiführt. Der gesamte Weg ist 8,6 Meilen lang, aber die meisten Menschen gehen den malerischen Abschnitt von Little Venice nach Camden (etwa 2,5 Meilen, 1 Stunde). Sie können die Tiere des London Zoo kostenlos vom Weg aus sehen.",
+            "vibe": "Friedlich, malerisch",
+            "history": "Erbaut von 1812 bis 1820, um den Grand Junction Canal in Paddington mit der Themse in Limehouse zu verbinden, wodurch der Gütertransport durch London ermöglicht wurde. Er fiel mit der Eisenbahn in Ungnade, wurde aber in den 1980er und 1990er Jahren für die Freizeit wiederhergestellt. Die Hausboote tauchten in den 1960er Jahren auf.",
+            "insider_tip": "Beginnen Sie in Little Venice (U-Bahnstation Warwick Avenue) und gehen Sie zum Camden Lock für den besten Weg. Halten Sie an der Towpath Cafe (nahe Haggerston) für ausgezeichneten Kaffee und Gebäck. Sie werden kostenlose Einblicke in die Tiere des London Zoo vom Weg aus sehen - suchen Sie nach Giraffen und Vögeln. Der Camden Lock hat Wochenendmärkte.",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Spazieren",
+              "Naturliebhaber"
+            ],
+            "duration": "1-2 Stunden",
+            "best_time": "Morgen oder Nachmittag"
+          },
+          "image": "/images/london/regents-canal.jpg",
+          "geo": {
+            "lat": 51.523,
+            "lng": -0.17
+          }
+        },
+        {
+          "id": "exp-02",
+          "slug": "west-end-theatre",
+          "name_en": "West End Show",
+          "name_local": "The Theatre",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Das West End ist Londons Theaterdistrikt, vergleichbar mit New Yorks Broadway, mit erstklassigen Musicals und Stücken in historischen Theatern. Die Produktionen reichen von langlaufenden Klassikern wie Der König der Löwen und Les Misérables bis hin zu neuen Hits und Shakespeare-Dramen. Die Tickets kosten zwischen £25 und £150+. Ermäßigungen für Ticketkäufe am selben Tag sind am TKTS-Stand auf dem Leicester Square erhältlich.",
+            "vibe": "Theatralisch, großartig",
+            "history": "Das Theater in London reicht bis ins 17. Jahrhundert zurück mit Shakespeares Globe, aber das West End, wie wir es heute kennen, entstand im 19. Jahrhundert mit gasbeheizten Theatern. Viele Theater sind viktorianische Gebäude mit überladenen Innenräumen. Musicals von Andrew Lloyd Webber dominierten die 1980er bis 2000er Jahre.",
+            "insider_tip": "Nutzen Sie den TKTS-Stand auf dem Leicester Square für ermäßigte Tickets am selben Tag (bis zu 50% Rabatt). Kommen Sie bis 10 Uhr für die beste Auswahl. Vermeiden Sie überteuerte Restaurants im Theaterdistrikt - essen Sie vorher in Soho oder Covent Garden. Der Dresscode ist lässig; Jeans und Sneakers sind in Ordnung.",
+            "price_level": "Teuer",
+            "good_for": [
+              "Theaterliebhaber",
+              "Date-Night"
+            ],
+            "duration": "3 Stunden",
+            "best_time": "Abend"
+          },
+          "image": "/images/london/west-end.jpg",
+          "geo": {
+            "lat": 51.5115,
+            "lng": -0.128
+          }
+        },
+        {
+          "id": "exp-04",
+          "slug": "highgate-cemetery",
+          "name_en": "Highgate Cemetery",
+          "name_local": "Highgate Cemetery",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Der Highgate Cemetery ist ein atemberaubender viktorianischer Friedhof, der von Efeu und Natur überwuchert ist und eine gotische, romantische Atmosphäre schafft. Er wurde 1839 eröffnet und ist die Grabstätte von Karl Marx, George Eliot und anderen bemerkenswerten Viktorianern. Der Ostfriedhof ist für Selbstbesuche geöffnet; der Westfriedhof erfordert eine geführte Tour. Es ist eine einzigartige Mischung aus Natur, Geschichte und Architektur.",
+            "vibe": "Gotisch, friedlich",
+            "history": "Er wurde als einer der 'Magnificent Seven' Friedhöfe erbaut, die während der viktorianischen Bestattungskrise London umgaben. Es wurde modisch, hier in aufwendigen Gräbern beigesetzt zu werden. In den 1970er Jahren fiel er in den Verfall, wurde aber von Freiwilligen gerettet. Heute ist er ein geschützter historischer Ort und Naturreservat.",
+            "insider_tip": "Der Ostfriedhof (£5) ist selbstgeleitet und beinhaltet das Grab von Karl Marx. Die Westfriedhofstour (£15, vorher buchen) ist viel atmosphärischer mit viktorianischen gotischen Gräbern und der Egyptian Avenue. Gehen Sie im Herbst, wenn die Blätter ein goldenes Blätterdach bilden. Kombinieren Sie es mit einem Spaziergang auf dem Hampstead Heath.",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Geschichtsinteressierte",
+              "Fotografie"
+            ],
+            "duration": "1-2 Stunden",
+            "best_time": "Herbstnachmittag"
+          },
+          "image": "/images/london/highgate.jpg",
+          "geo": {
+            "lat": 51.567,
+            "lng": -0.147
+          }
+        }
+      ]
+    },
+    {
+      "title": "Weltklasse-Museen",
+      "id": "museums",
+      "items": [
+        {
+          "id": "mus-01",
+          "slug": "british-museum",
+          "name_en": "Das Britische Museum",
+          "name_local": "The British Museum",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Das Britische Museum widmet sich der Menschheitsgeschichte, Kunst und Kultur mit über 8 Millionen Exponaten aus 2 Millionen Jahren. Berühmt für den Stein von Rosetta, die Elgin Marbles (Parthenon-Skulpturen), ägyptische Mumien und Artefakte aus aller Welt. Der Eintritt ist kostenlos. Der Große Saal mit seinem Glasdach ist architektonisch beeindruckend. Eines der größten Museen der Welt.",
+            "vibe": "Groß, lehrreich",
+            "history": "Gegründet im Jahr 1753, ist es das erste nationale öffentliche Museum der Welt. Das Gebäude wurde 1823 von Robert Smirke im griechischen Revivalsstil entworfen. Der Stein von Rosetta (Entdeckung 1799) entschlüsselte die Hieroglyphen. Viele Artefakte sind umstritten, da sie während der britischen Kolonialherrschaft erworben wurden – Debatten über Rückführung dauern an.",
+            "insider_tip": "Laden Sie die kostenlose App des Museums für Audioführungen herunter. Konzentrieren Sie sich auf 2-3 Galerien, anstatt alles sehen zu wollen. Der Stein von Rosetta und die Elgin Marbles sind von 11 bis 15 Uhr am meisten besucht – gehen Sie früh oder spät. Der Große Saal hat kostenloses WLAN und ein Café. Der Eintritt ist kostenlos, aber Spenden sind willkommen.",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Geschichtsinteressierte",
+              "Familien"
+            ],
+            "duration": "2-4 Stunden",
+            "best_time": "Früh am Morgen"
+          },
+          "image": "/images/london/british-museum.jpg",
+          "geo": {
+            "lat": 51.5194,
+            "lng": -0.127
+          }
+        },
+        {
+          "id": "mus-03",
+          "slug": "tate-modern",
+          "name_en": "Tate Modern",
+          "name_local": "Tate Modern",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Die Tate Modern ist das nationale Museum für moderne und zeitgenössische Kunst Großbritanniens, untergebracht in einem kolossalen ehemaligen Kraftwerk an der Südbank. Der geräumige Turbine Hall beherbergt massive Installationen von weltberühmten Künstlern. Die Sammlungen umfassen Werke von Picasso, Warhol, Rothko und zeitgenössische Kunst. Der Eintritt ist kostenlos, außer bei Sonderausstellungen. Das Gebäude selbst ist ein Meisterwerk industrieller Architektur.",
+            "vibe": "Zeitgenössisch, industriell",
+            "history": "Das Gebäude war das Bankside Power Station, entworfen 1947 und 1981 stillgelegt. Umgebaut zu einem Museum und 2000 eröffnet, hat es Londons Kunstszene transformiert. Die Turbine Hall hat 3.400 Quadratmeter und beherbergt große Installationen. Die Erweiterung von 2016 fügte 60 % mehr Ausstellungsfläche hinzu.",
+            "insider_tip": "Die Turbine Hall Installation ist kostenlos und ändert sich jährlich – oft der denkwürdigste Teil. Gehen Sie zur Aussichtsplattform im 10. Stock für kostenlose Panoramablicke auf die St. Paul's Cathedral. Das Museum hat freitags und samstags bis 22 Uhr geöffnet. Überspringen Sie das Restaurant; essen Sie woanders in Southwark.",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Kunstliebhaber",
+              "Architekturfans"
+            ],
+            "duration": "2-3 Stunden",
+            "best_time": "Später Nachmittag"
+          },
+          "image": "/images/london/tate-modern.jpg",
+          "geo": {
+            "lat": 51.5076,
+            "lng": -0.0994
+          }
+        },
+        {
+          "id": "mus-02",
+          "slug": "natural-history-museum",
+          "name_en": "Naturhistorisches Museum",
+          "name_local": "NHM",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Das Naturhistorische Museum beherbergt 80 Millionen Exemplare, die Milliarden Jahre Naturgeschichte umfassen, von Dinosaurierskelette bis zum berühmten Blauwal, der in der Haupthalle hängt. Das romanische Gebäude ist eine viktorianische Kathedrale der Wissenschaft mit Terrakotta-Fassaden und hohen Bögen. Der Eintritt ist kostenlos. Die Dinosaurier-Galerie und der Erdbeben-Simulator sind Highlights.",
+            "vibe": "Majestätisch, lehrreich",
+            "history": "Eröffnet 1881, entworfen von Alfred Waterhouse im romanischen Revivalsstil. Das Gebäude wurde als 'Kathedrale der Natur' konzipiert. Das Museum spaltete sich 1963 vom Britischen Museum ab. Das Modell des Blauwals (1938) ist 25 Meter lang. Die Sammlungen umfassen Exemplare von Charles Darwin.",
+            "insider_tip": "Kommen Sie zur Eröffnung (10 Uhr), um Schulgruppen zu vermeiden, die ab 11 Uhr dominieren. Die Dinosaurier-Galerie wird überfüllt – gehen Sie zuerst oder überspringen Sie sie. Die Erdgalleries (Roter Bereich) und die Walsäle sind unterbewertet und ruhiger. Der Eintritt ist kostenlos, aber Sonderausstellungen erfordern Tickets.",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Familien",
+              "Dinosaurier-Fans"
+            ],
+            "duration": "2-3 Stunden",
+            "best_time": "Öffnungszeit (10 Uhr)"
+          },
+          "image": "/images/london/natural-history.jpg",
+          "geo": {
+            "lat": 51.4967,
+            "lng": -0.1764
+          }
+        }
+      ]
+    },
+    {
+      "title": "Lokales Leben & Märkte",
+      "id": "local-life",
+      "items": [
+        {
+          "id": "loc-01",
+          "slug": "borough-market",
+          "name_en": "Borough Market",
+          "name_local": "Borough Market",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Borough Market ist Londons bester Lebensmittelmarkt, der seit mindestens 1014 n. Chr. in Betrieb ist und damit einer der ältesten in Großbritannien. Er befindet sich unter den Eisenbahnbögen in der Nähe der London Bridge und ist ein Gourmetparadies für Käse, Brot, Street Food, frische Produkte und internationale Küche. Geöffnet von Mittwoch bis Samstag. Es ist voll, aber die Atmosphäre und die Düfte sind berauschend.",
+            "vibe": "Lebhaft, aromatisch",
+            "history": "Aufzeichnungen zeigen einen Markt hier im Jahr 1014. Die heutige viktorianische Struktur stammt aus dem Jahr 1851. Er war über Jahrhunderte ein Großmarkt, hat sich aber in den 1990er und 2000er Jahren in einen Einzelhandels-/Touristenmarkt verwandelt. Der Markt stand in den 1990er Jahren kurz vor der Schließung, wurde jedoch von lokalen Aktivisten gerettet.",
+            "insider_tip": "Gehen Sie Mittwoch oder Donnerstagmorgen (8-10 Uhr), bevor die Touristenscharen ankommen. Samstags ist es überfüllt—vermeiden Sie es wenn möglich. Das Chorizo-Sandwich und die Raclette sind legendär. Viele Verkäufer bieten kostenlose Proben an. Bringen Sie Bargeld mit, da einige Stände keine Karten akzeptieren.",
+            "price_level": "Mittel",
+            "good_for": [
+              "Feinschmecker",
+              "Märkte"
+            ],
+            "duration": "1-2 Stunden",
+            "best_time": "Mittwochmorgen"
+          },
+          "image": "/images/london/borough-market.jpg",
+          "geo": {
+            "lat": 51.5055,
+            "lng": -0.0903
+          }
+        },
+        {
+          "id": "loc-02",
+          "slug": "gods-own-junkyard",
+          "name_en": "God's Own Junkyard",
+          "name_local": "God's Own Junkyard",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "God's Own Junkyard ist ein Neonwunderland in Walthamstow, Ost-London: ein Lagerhaus voller vintage Neonschilder, Filmrequisiten und beleuchteter Kunst, die über 40 Jahre gesammelt wurden. Geschaffen von dem verstorbenen Chris Bracey, dem 'Neon-Mann', der Requisiten für Filme wie Batman und Charlie und die Schokoladenfabrik machte. Es ist unglaublich Instagrammable und völlig einzigartig.",
+            "vibe": "Psychedelisch, Neon",
+            "history": "Chris Bracey sammelte 40 Jahre lang Neonschilder von SoHos Stripclubs, Kinos und Geschäften, während sie schließen mussten. Nach seinem Tod im Jahr 2014 öffnete seine Familie das Lagerhaus für die Öffentlichkeit. Es ist zu einem Kultziel und Drehort geworden (Bohemian Rhapsody, Muppets).",
+            "insider_tip": "Der Eintritt ist frei, aber es gibt ein kleines Café im Inneren. Gehen Sie an einem bewölkten Tag, wenn das Neon viel dramatischer gegen den grauen Himmel leuchtet. Das Café serviert Kaffee und Snacks. Es ist nur von Freitag bis Sonntag geöffnet. Kombinieren Sie den Besuch mit dem Walthamstow Market (Europas längster Outdoor-Markt) in der Nähe.",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Fotografie",
+              "Einzigartige Erlebnisse"
+            ],
+            "duration": "1 Stunde",
+            "best_time": "Nachmittag (bewölkter Tag)"
+          },
+          "image": "/images/london/neon.jpg",
+          "geo": {
+            "lat": 51.5835,
+            "lng": -0.0076
+          }
+        }
+      ]
+    },
+    {
+      "title": "Historische Stätten",
+      "id": "historic",
+      "items": [
+        {
+          "id": "his-01",
+          "slug": "tower-of-london",
+          "name_en": "Tower of London",
+          "name_local": "Tower of London",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Der Tower von London ist eine 1.000 Jahre alte Festung, die als königlicher Palast, Gefängnis, Hinrichtungsstätte, Rüstkammer diente und heute die Kronjuwelen beherbergt. Die Beefeaters (Yeoman Warders) führen theatralische Touren durch seine blutige Geschichte - Hinrichtungen, Folter und königliche Intrigen. Der Weiße Turm ist die ursprüngliche Burg aus dem 11. Jahrhundert. Raben werden im Tower gehalten, da die Legende besagt, dass Britannien fallen wird, wenn sie gehen.",
+            "vibe": "Historisch, dramatisch",
+            "history": "Erbaut von Wilhelm dem Eroberer im Jahr 1078. Berühmte Gefangene sind Anne Boleyn (hingerichtet 1536), Guy Fawkes (gefoltert 1605) und Rudolf Hess (1941 festgehalten). Die Kronjuwelen sind seit 1661 hier untergebracht. Sechs Raben werden immer mit gestutzten Flügeln gehalten – die Tradition besagt, dass Britannien fallen wird, wenn sie gehen.",
+            "insider_tip": "Buchen Sie Tickets online, um die langen Warteschlangen zu vermeiden. Nehmen Sie direkt beim Eintritt an einer kostenlosen Beefeater-Tour teil - sie sind unterhaltsam und informativ. Die Schlange für die Kronjuwelen ist von 11 bis 14 Uhr am längsten. Besuchen Sie die Stätte an Wochentagmorgen für geringere Besucherzahlen. Planen Sie 3+ Stunden ein, um alles richtig zu sehen.",
+            "price_level": "Teuer",
+            "good_for": [
+              "Geschichtsinteressierte",
+              "Familien"
+            ],
+            "duration": "3-4 Stunden",
+            "best_time": "Öffnungszeit (9 Uhr)"
+          },
+          "image": "/images/london/tower-london.jpg",
+          "geo": {
+            "lat": 51.5081,
+            "lng": -0.0759
+          }
+        },
+        {
+          "id": "his-02",
+          "slug": "westminster-abbey",
+          "name_en": "Westminster Abbey",
+          "name_local": "Die Abbey",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Die Westminster Abbey ist ein 1.000 Jahre altes gotisches Meisterwerk, in dem britische Monarchen gekrönt, geheiratet und beigesetzt werden. Sie ist der Schauplatz königlicher Hochzeiten (William und Kate, 2011) und Krönungen (Charles III, 2023). Über 3.000 namhafte Briten sind hier beerdigt, darunter Newton, Darwin, Dickens und Monarchen aus mehreren Jahrhunderten. Die Architektur ist atemberaubend.",
+            "vibe": "Heilig, grandios",
+            "history": "Gegründet im Jahr 960 n. Chr., von Edward dem Bekennenden 1065 wieder aufgebaut. Jeder Monarch seit Wilhelm dem Eroberer (1066) wurde hier gekrönt, mit Ausnahme von zweien. Die aktuelle gotische Struktur stammt überwiegend aus dem Jahr 1245. Dichterecke enthält Gräber und Gedenkstätten der größten britischen Schriftsteller.",
+            "insider_tip": "Buchen Sie Tickets online im Voraus - die Warteschlangen sind brutal. Der Audioguide ist inbegriffen und ausgezeichnet. Gehen Sie gleich zu Eröffnung (9:30 Uhr) oder am späten Nachmittag für geringere Besucherzahlen. Kostenloser Eintritt zu den Abendgebeten (17 Uhr an Wochentagen), wenn Sie bereit sind, den Gottesdienst zu besuchen. Fotografie ist innen verboten.",
+            "price_level": "Teuer",
+            "good_for": [
+              "Geschichtsinteressierte",
+              "Architekturliebhaber"
+            ],
+            "duration": "2 Stunden",
+            "best_time": "Öffnungszeit oder Abendgebet"
+          },
+          "image": "/images/london/westminster-abbey.jpg",
+          "geo": {
+            "lat": 51.4993,
+            "lng": -0.1273
+          }
+        },
+        {
+          "id": "his-03",
+          "slug": "st-pauls-cathedral",
+          "name_en": "St Paul's Cathedral",
+          "name_local": "St Paul's",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Die St Paul's Cathedral ist eine anglikanische Kathedrale mit einer ikonischen Kuppel, die die Skyline Londons dominiert, entworfen von Christopher Wren und 1710 vollendet. Sie ist der Ort bedeutender Ereignisse wie Churchills Beerdigung (1965) und der Hochzeit von Prinz Charles und Diana (1981). Besteigen Sie 528 Stufen zur Goldenen Galerie an der Spitze der Kuppel für panoramische Ausblicke. Die Whispering Gallery hat berühmte Akustik.",
+            "vibe": "Majestätisch, spirituell",
+            "history": "Erbaut von 1675-1710 nachdem der große Brand von London die mittelalterliche Kathedrale zerstörte. Wrens Barockmeisterwerk überstand die Bombardierung im Zweiten Weltkrieg, während die umliegende Stadt brannte. Die Kuppel wurde von der Peterskirche in Rom inspiriert. Sie ist der Sitz des Bischofs von London.",
+            "insider_tip": "Kaufen Sie Tickets online, um Warteschlangen zu umgehen. Der Aufstieg zur Kuppel (528 Stufen, kein Aufzug) ist anstrengend, aber es lohnt sich - spektakuläre Ausblicke von oben. Die Whispering Gallery (259 Stufen nach oben) hat eine Akustik, bei der Flüstern die kreisförmigen Wände entlang wandert. Gehen Sie sonntags für kostenlosen Eintritt während der Gottesdienste (kein Sightseeing während des Gottesdienstes).",
+            "price_level": "Teuer",
+            "good_for": [
+              "Architekturliebhaber",
+              "Aussichten"
+            ],
+            "duration": "2 Stunden",
+            "best_time": "Früher Morgen"
+          },
+          "image": "/images/london/st-pauls.jpg",
+          "geo": {
+            "lat": 51.5138,
+            "lng": -0.0984
+          }
+        }
+      ]
+    },
+    {
+      "title": "Parks & Natur",
+      "id": "parks",
+      "items": [
+        {
+          "id": "par-01",
+          "slug": "hampstead-heath",
+          "name_en": "Hampstead Heath",
+          "name_local": "The Heath",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Hampstead Heath ist ein 790 Acres großes, wildes Hügelland im Norden Londons und bietet einen Panoramablick auf die Stadt. Es ist ein starker Kontrast zu Londons gepflegten Royal Parks – absichtlich wild gehalten mit Wäldern, Wiesen und Schwimmteichen. Parliament Hill bietet die besten Aussichten auf die Stadt. The Heath verfügt über drei Schwimmteiche (für Männer, Frauen, gemischt) für das ganzjährige Schwimmen im Freiwasser.",
+            "vibe": "Wild, friedlich",
+            "history": "1871 nach öffentlichem Protest vor der Entwicklung geschützt. Es ist seit den 1600er Jahren ein Rückzugsort aus der Stadt, als die Londoner vor Pestepidemien flohen. Die Schwimmteiche wurden im 18. Jahrhundert durch Aufstauen des River Fleet entstanden. The Heath inspirierte Dichter wie Keats, der in der Nähe lebte.",
+            "insider_tip": "Parliament Hill (südlicher Rand) bietet die besten Skyline-Aussichten – besonders bei Sonnenuntergang. Die Schwimmteiche (£4) sind das ganze Jahr über für mutige Einheimische geöffnet, sogar im Winter. Kombinieren Sie den Besuch mit der Erkundung der engen Straßen des Dorfes Hampstead, historischen Pubs und dem Keats House. Tragen Sie feste Schuhe – die Wege werden matschig.",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Naturfreunde",
+              "Aussichten"
+            ],
+            "duration": "2-3 Stunden",
+            "best_time": "Nachmittags oder zum Sonnenuntergang"
+          },
+          "image": "/images/london/hampstead-heath.jpg",
+          "geo": {
+            "lat": 51.5608,
+            "lng": -0.1631
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "8:00 Uhr",
+      "title": "Typisches Englisch Frühstück in Shoreditch",
+      "description": "Beginnen Sie in Shoreditch in einem richtigen Café. Bestellen Sie ein typisches englisches Frühstück: Spiegeleier, Speck, Würstchen, Bohnen, Pilze, gegrillte Tomate, Blutwurst und Toast. Genießen Sie dazu eine Tasse Builders Tea (starker schwarzer Tee mit Milch und Zucker). Dieses Frühstück gibt Ihnen bis zum Abendessen Kraft. Die Straßenkunst in Shoreditch—Banksy stammt von hier—deckt jede Gasse ab. Das Viertel hat sich von der Arbeiterklasse zum Hipster-Zentrum entwickelt, aber die Cafés sind authentisch Arbeiterklasse geblieben.",
+      "image": "/images/london/full-english-breakfast.jpg"
+    },
+    {
+      "time": "10:00 Uhr",
+      "title": "Tower of London & Kronjuwelen",
+      "description": "Kommen Sie, wenn die Türen um 9 Uhr öffnen, um die Touristengruppen zu umgehen. Der Tower hielt Gefangene, ließ Königinnen hinrichten und beherbergte 500 Jahre lang die Royal Mint. Sehen Sie die Kronjuwelen (bewegtes Laufband an den Krönungsregalien), steigen Sie im Weißen Turm hinauf und hören Sie die Beefeater-Wächter grausame Hinrichtungs-Geschichten erzählen. Raben patrouillieren über das Gelände - der Legende nach fällt das Königreich, wenn sie gehen. Buchen Sie Tickets online für £34. Die Tower Bridge ist direkt nebenan für Fotos, aber überspringen Sie das Innere - die Aussicht rechtfertigt die £13 nicht.",
+      "image": "/images/london/tower-of-london.jpg",
+      "ticket_link": "https://www.getyourguide.com/london-l57/tower-of-london-early-access-tour-with-crown-jewels-t65488/"
+    },
+    {
+      "time": "13:00 Uhr",
+      "title": "Mittagessen: Borough Market",
+      "description": "Spazieren Sie entlang der Themse zum Borough Market—Londons ältestem Lebensmittelmarkt (über 1.000 Jahre alt). Probieren Sie Roast für eine sitzende Mahlzeit oder kosten Sie die Stände: Scotch Eggs, Salt Beef Sandwiches, Chorizo Rolls und handwerklicher Käse. Das gegrillte Käsebrot von Kappacasein ist legendär. Monmouth Coffee röstet die Bohnen vor Ort. Der Markt ist touristisch, aber die Qualität ist echt. Donnerstags bis samstags sind am besten. Die überdachte viktorianische Struktur hat den Bombenangriffen im Zweiten Weltkrieg standgehalten und versorgt jetzt täglich Tausende."
+    },
+    {
+      "time": "15:30",
+      "title": "Westminster Abbey & Big Ben Rundgang",
+      "description": "Nehmen Sie die U-Bahn nach Westminster. Besuchen Sie die Westminster Abbey (£29, im Voraus buchen) – wo Royals heiraten, gekrönt werden und beigesetzt sind. Die Architektur ist atemberaubend gotisch. Dann gehen Sie am Big Ben vorbei (derzeit in Renovierung, aber immer noch ikonisch) und den Houses of Parliament. Überqueren Sie die Westminster Bridge für das klassische Parlamentsfoto. Spazieren Sie entlang der Southbank zum Shakespeare's Globe Theatre und zur Tate Modern. Der Thames Path bietet 40 Meilen begehbare Uferpromenade – Londons beste kostenlose Attraktion.",
+      "image": "/images/london/westminster-afternoon.jpg",
+      "ticket_link": "https://www.getyourguide.com/london-l57/westminster-abbey-entrance-ticket-t65347/"
+    },
+    {
+      "time": "18:00 Uhr",
+      "title": "Sonnenuntergang vom Primrose Hill",
+      "description": "Nehmen Sie die U-Bahn bis Chalk Farm und gehen Sie zum Primrose Hill – einem 78 Meter hohen Hügel mit perfektem Blick auf die Londoner Skyline. Einheimische picknicken hier bei Sonnenuntergang mit Wein und Käse aus nahegelegenen Geschäften. Der Blick erfasst St. Paul’s, The Shard, das London Eye und ganz London. Es ist weniger touristisch als das London Eye und kostenlos. Nach dem Sonnenuntergang erkunden Sie die Pubs und Boutiquen im Dorf Primrose Hill. Die Nachbarschaft fühlt sich an wie ein Dorf in der Stadt.",
+      "image": "/images/london/primrose-hill-sunset.jpg"
+    },
+    {
+      "time": "20:00",
+      "title": "Pub-Dinner und Bier in Soho",
+      "description": "Gehen Sie nach Soho für ein traditionelles Pub. Bestellen Sie Fish and Chips, Steak- und Ale-Pie oder sonntägliches Roastbeef (wenn es Sonntag ist) mit einem Pint Cask Ale. Pubs wie The French House oder The Coach & Horses haben seit Jahrhunderten Schriftstellern, Künstlern und Trinkern gedient. Entdecken Sie dann das Nachtleben von Soho—Ronnie Scott's Jazz Club (seit 1959) oder Theateraufführungen im West End. Spazieren Sie durch Chinatown für spätabendliches Dim Sum. Die Pub-Kultur Londons ist die Seele der Stadt—überspringen Sie das nicht.",
+      "image": "/images/london/soho-pub-night.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Universeller Reiseadapter (UK Typ G)",
+      "image": "/images/london/adapter.jpg",
+      "reason": "UK-Stecker sind einzigartig (drei rechteckige Pins). Sie benötigen diesen Adapter unbedingt.",
+      "amazon_url": "https://www.amazon.com/s?k=uk+travel+adapter+type+g",
+      "category": "Elektronik"
+    },
+    {
+      "id": "aff-002",
+      "title": "Kompakter Reise-Regenschirm",
+      "image": "/images/london/umbrella.jpg",
+      "reason": "Das Wetter in London ist berühmt für seine Unberechenbarkeit. Ein kleiner Regenschirm passt in Ihre Tasche.",
+      "amazon_url": "https://www.amazon.com/s?k=compact+travel+umbrella",
+      "category": "Wetter"
+    },
+    {
+      "id": "aff-003",
+      "title": "Wasserdichte Wanderschuhe",
+      "image": "/images/london/shoes.jpg",
+      "reason": "London erfordert viel Gehen. Bequeme Schuhe sind unerlässlich.",
+      "amazon_url": "https://www.amazon.com/s?k=waterproof+walking+shoes",
+      "category": "Schuhe"
+    }
+  ],
+  "lat": 51.5074,
+  "lng": -0.1278,
+  "region": "Europe"
+}

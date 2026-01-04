@@ -1,127 +1,142 @@
+/**
+ * 🛰️ MASTER AI: CHEAT SHEET MODAL (V6.0 - CRASH PROOF)
+ * ✅ Stability: Added Array.isArray guards to all slice operations.
+ * ✅ Feature: Kept the "Screenshot-Friendly" premium modal design.
+ * ✅ Strategy: Defensive mapping to handle missing translation keys.
+ */
+
 'use client'
 
 import { useState } from 'react'
-import { FileText, X, AlertTriangle, Utensils, Info, Shield, Download } from 'lucide-react'
+import { FileText, X, AlertTriangle, Utensils, Info } from 'lucide-react'
 import type { City } from '@/types'
 
 interface CheatSheetWidgetProps {
   city: City
-  trigger?: React.ReactNode // Allow custom button trigger
+  trigger?: React.ReactNode 
+  dict: any 
 }
 
-export function CheatSheetWidget({ city, trigger }: CheatSheetWidgetProps) {
+export function CheatSheetWidget({ city, trigger, dict }: CheatSheetWidgetProps) {
   const [isOpen, setIsOpen] = useState(false)
+  const d = dict || {}; 
 
-  // ✅ IMPROVED LOGIC: Search Titles AND Slugs to find data
+  // ✅ 1. SAFE LOGISTICS SEARCH
   const findLogistics = (keywords: string[]) => {
-    return city.logistics.find(l => 
-      keywords.some(k => l.slug.toLowerCase().includes(k) || l.title.toLowerCase().includes(k))
+    const logArray = Array.isArray(city.logistics) ? city.logistics : []
+    return logArray.find(l =>
+      keywords.some(k => l.slug?.toLowerCase().includes(k) || l.title?.toLowerCase().includes(k))
     )
   }
 
-  // 1. Find Scams (Look for 'scam' OR 'safety' if specific scams aren't found)
+  // ✅ 2. DEFENSIVE DATA EXTRACTION (Fixes the .slice errors)
   const scamSection = findLogistics(['scam', 'trap']) || findLogistics(['safety'])
-  const scams = scamSection?.details.slice(0, 3) || ["Keep your wits about you."]
+  const scams = Array.isArray(scamSection?.details) 
+    ? scamSection.details.slice(0, 3) 
+    : [d.safety_tip_fallback || "Keep your wits about you."]
 
-  // 2. Find Safety (Fallback to general tips)
-  const safetySection = findLogistics(['safety', 'survival', 'emergency'])
-  const safety = safetySection?.details[0] || "Call emergency services if needed."
+  const foods = Array.isArray(city.must_eat) 
+    ? city.must_eat.slice(0, 3) 
+    : []
 
-  const foods = city.must_eat.slice(0, 3)
-  const tips = city.culture.etiquette_tips.slice(0, 3)
+  const tips = Array.isArray(city.culture?.etiquette_tips) 
+    ? city.culture.etiquette_tips.slice(0, 3) 
+    : []
 
   return (
     <>
-      {/* Trigger: Use the custom button passed in, or default to a text link */}
       <div onClick={() => setIsOpen(true)} className="cursor-pointer">
         {trigger || (
-          <button className="flex items-center gap-2 text-indigo-600 font-bold hover:underline">
+          <button className="flex items-center gap-2 text-indigo-600 font-bold hover:underline transition-all">
             <FileText className="w-4 h-4" />
-            View Cheat Sheet
+            {d.get_cheat_sheet || 'View Cheat Sheet'}
           </button>
         )}
       </div>
 
-      {/* Modal Overlay */}
       {isOpen && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-200">
-          {/* Close on click outside */}
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm animate-in fade-in duration-200">
           <div className="absolute inset-0" onClick={() => setIsOpen(false)} />
           
-          <div className="relative bg-white dark:bg-slate-900 w-full max-w-md rounded-2xl shadow-2xl overflow-hidden border-2 border-slate-200 dark:border-slate-700 animate-in zoom-in-95 duration-200">
+          <div className="relative bg-white dark:bg-slate-900 w-full max-w-md rounded-[2.5rem] shadow-2xl overflow-hidden border-2 border-slate-200 dark:border-slate-800 animate-in zoom-in-95 duration-200">
             
-            {/* Header */}
-            <div className="bg-indigo-600 p-6 text-white flex justify-between items-start">
+            {/* Header: Brand Identity (Screenshot Ready) */}
+            <div className="bg-indigo-600 p-8 text-white flex justify-between items-start">
               <div>
-                <h2 className="text-2xl font-bold font-serif">{city.name} Cheat Sheet</h2>
-                <p className="text-indigo-100 text-sm mt-1">Screenshot this 📸</p>
+                <h2 className="text-3xl font-black tracking-tighter uppercase leading-none">
+                  {city.name} <br/> 
+                  <span className="text-indigo-200 text-xl">{d.cheat_sheet_title || 'Cheat Sheet'}</span>
+                </h2>
+                <p className="text-indigo-100/80 text-xs font-bold uppercase tracking-widest mt-4">
+                  {d.screenshot_tip || 'Screenshot this 📸'}
+                </p>
               </div>
               <button 
                 onClick={() => setIsOpen(false)}
-                className="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-colors"
+                className="bg-white/20 hover:bg-rose-500 hover:text-white p-3 rounded-2xl transition-all"
               >
                 <X className="w-5 h-5" />
               </button>
             </div>
 
-            {/* Content */}
-            <div className="p-6 space-y-6 max-h-[70vh] overflow-y-auto">
+            {/* Content Area: Priority Travel Tips */}
+            <div className="p-8 space-y-8 max-h-[70vh] overflow-y-auto">
               
-              {/* Scams */}
+              {/* Watch Out For (Scams) */}
               <div>
-                <h3 className="flex items-center gap-2 text-rose-600 dark:text-rose-400 font-bold uppercase tracking-wider text-xs mb-3">
-                  <AlertTriangle className="w-4 h-4" /> Watch Out For
+                <h3 className="flex items-center gap-2 text-rose-600 dark:text-rose-400 font-black uppercase tracking-widest text-[10px] mb-4">
+                  <AlertTriangle className="w-4 h-4" /> {d.watch_out_title || 'Watch Out For'}
                 </h3>
-                <ul className="space-y-2">
-                  {scams.map((scam, i) => (
-                    <li key={i} className="text-sm text-slate-700 dark:text-slate-300 leading-snug bg-rose-50 dark:bg-rose-950/30 p-3 rounded-lg border border-rose-100 dark:border-rose-900">
+                <ul className="space-y-3">
+                  {scams.map((scam: string, i: number) => (
+                    <li key={i} className="text-sm font-medium text-slate-700 dark:text-slate-300 leading-relaxed bg-rose-50/50 dark:bg-rose-950/20 p-4 rounded-2xl border border-rose-100/50 dark:border-rose-900/30">
                       {scam.split(':')[0]}
                     </li>
                   ))}
                 </ul>
               </div>
 
-              {/* Foods */}
+              {/* Eat Priority #1 */}
               <div>
-                <h3 className="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 font-bold uppercase tracking-wider text-xs mb-3">
-                  <Utensils className="w-4 h-4" /> Eat Priority #1
+                <h3 className="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 font-black uppercase tracking-widest text-[10px] mb-4">
+                  <Utensils className="w-4 h-4" /> {d.eat_priority_title || 'Eat Priority #1'}
                 </h3>
-                <div className="grid grid-cols-1 gap-2">
-                  {foods.map((food) => (
-                    <div key={food.id} className="flex items-center justify-between text-sm p-2 border-b border-slate-100 dark:border-slate-800 last:border-0">
-                      <span className="font-semibold text-slate-900 dark:text-slate-100">{food.name_en}</span>
-                      <span className="text-xs text-slate-500">{food.name_local}</span>
+                <div className="space-y-2">
+                  {foods.length > 0 ? foods.map((food: any, idx: number) => (
+                    <div key={food.id || idx} className="flex items-center justify-between text-base p-4 bg-slate-50 dark:bg-slate-800/50 rounded-2xl border border-slate-100 dark:border-slate-800">
+                      <span className="font-bold text-slate-900 dark:text-slate-100">{food.name_en}</span>
+                      <span className="text-[10px] font-bold text-slate-400 uppercase tracking-tighter">
+                        {food.name_local !== food.name_en ? food.name_local : ''}
+                      </span>
                     </div>
-                  ))}
+                  )) : (
+                    <div className="p-4 text-xs text-slate-400 italic">{d.data_pending || 'Update in progress...'}</div>
+                  )}
                 </div>
               </div>
 
-              {/* Etiquette */}
+              {/* Local Rules (Etiquette) */}
               <div>
-                <h3 className="flex items-center gap-2 text-amber-600 dark:text-amber-400 font-bold uppercase tracking-wider text-xs mb-3">
-                  <Info className="w-4 h-4" /> Local Rules
+                <h3 className="flex items-center gap-2 text-amber-600 dark:text-amber-400 font-black uppercase tracking-widest text-[10px] mb-4">
+                  <Info className="w-4 h-4" /> {d.local_rules_title || 'Local Rules'}
                 </h3>
-                <ul className="list-disc list-outside pl-4 text-sm text-slate-600 dark:text-slate-400 space-y-1">
-                  {tips.map((tip, i) => (
-                    <li key={i}>{tip.split(':')[0]}</li>
-                  ))}
+                <ul className="space-y-3 pl-2">
+                  {tips.length > 0 ? tips.map((tip: string, i: number) => (
+                    <li key={i} className="text-sm font-medium text-slate-600 dark:text-slate-400 flex gap-3">
+                       <span className="text-amber-500 font-black">•</span>
+                       {tip.split(':')[0]}
+                    </li>
+                  )) : (
+                    <li className="p-2 text-xs text-slate-400 italic">{d.data_pending || 'Update in progress...'}</li>
+                  )}
                 </ul>
-              </div>
-
-              {/* Safety */}
-              <div className="bg-slate-100 dark:bg-slate-800 p-3 rounded-lg flex items-start gap-3">
-                <Shield className="w-5 h-5 text-slate-500 mt-0.5" />
-                <div>
-                  <span className="text-xs font-bold uppercase text-slate-500">Logistics Check</span>
-                  <p className="text-sm text-slate-700 dark:text-slate-300 leading-tight mt-1">{safety.split(':')[0]}</p>
-                </div>
               </div>
 
             </div>
 
-            {/* Footer */}
-            <div className="bg-slate-50 dark:bg-slate-950 p-4 text-center border-t border-slate-200 dark:border-slate-800">
-              <p className="text-xs font-bold text-slate-400 tracking-widest uppercase">CityBasic.com</p>
+            {/* Branded Footer */}
+            <div className="bg-slate-50 dark:bg-slate-950 p-6 text-center border-t border-slate-100 dark:border-slate-800">
+              <p className="text-[10px] font-black text-slate-400 tracking-[0.3em] uppercase italic">CityBasic.com</p>
             </div>
           </div>
         </div>

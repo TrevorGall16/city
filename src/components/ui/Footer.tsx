@@ -1,119 +1,121 @@
 /**
- * Footer Component
- * Global footer with links and copyright information
+ * 🛰️ MASTER AI: GLOBAL FOOTER GOLDEN MASTER (V5.0)
+ * ✅ Full Localization: All headers and links utilize the dict prop
+ * ✅ Dynamic Routing: Uses useParams to ensure the correct /[lang]/ pathing
+ * ✅ Premium Aesthetic: High-saturation typography and improved spacing
  */
 
+'use client'
+
 import Link from 'next/link'
+import { useParams } from 'next/navigation'
+import { getDict } from '@/data/dictionaries'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
+  const params = useParams()
+  
+  // ✅ Get the current language safely from URL or default to 'en'
+  const lang = (params?.lang as string) || 'en'
+  const dict = getDict(lang)
 
   return (
-    <footer className="bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800">
-      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* About */}
-          <div>
-            <h3 className="font-semibold text-slate-900 dark:text-slate-50 mb-3">
+    <footer className="bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 transition-colors">
+      <div className="max-w-[1600px] mx-auto px-6 md:px-12 py-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-24">
+          
+          {/* Brand Identity */}
+          <div className="space-y-6">
+            <h3 className="text-3xl font-black uppercase tracking-tighter italic text-slate-900 dark:text-white">
               CityBasic
             </h3>
-            <p className="text-sm text-slate-600 dark:text-slate-400">
-              No-fluff travel guides with instant translation.
-              Navigate foreign cities with confidence.
+            <p className="text-sm font-medium text-slate-500 dark:text-slate-400 leading-relaxed max-w-xs">
+              {dict.hero_subtitle || 'No-fluff travel guides with instant translation.'}
             </p>
           </div>
 
-          {/* Explore */}
+          {/* Navigation - Explore */}
           <div>
-            <h3 className="font-semibold text-slate-900 dark:text-slate-50 mb-3">
-              Explore
-            </h3>
-            <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+            <h4 className="text-[10px] font-black uppercase tracking-[0.3em] text-indigo-600 dark:text-indigo-400 mb-8">
+              {dict.explore || 'Explore'}
+            </h4>
+            <ul className="space-y-4 text-sm font-bold text-slate-600 dark:text-slate-400">
               <li>
-                <Link href="/" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
-                  Home
+                <Link href={`/${lang}`} className="hover:text-indigo-600 transition-colors">
+                  {dict.home || 'Home'}
                 </Link>
               </li>
               <li>
-                <Link href="/city/paris" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
+                <Link href={`/${lang}/city/paris`} className="hover:text-indigo-600 transition-colors">
                   Paris
                 </Link>
               </li>
               <li>
-                <Link href="/city/berlin" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
-                  Berlin
-                </Link>
-              </li>
-              <li>
-                <Link href="/city/tokyo" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
+                <Link href={`/${lang}/city/tokyo`} className="hover:text-indigo-600 transition-colors">
                   Tokyo
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Company */}
+          {/* Company & Support */}
           <div>
-            <h3 className="font-semibold text-slate-900 dark:text-slate-50 mb-3">
-              Company
-            </h3>
-            <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+            <h4 className="text-[10px] font-black uppercase tracking-[0.3em] text-indigo-600 dark:text-indigo-400 mb-8">
+              {dict.company || 'Company'}
+            </h4>
+            <ul className="space-y-4 text-sm font-bold text-slate-600 dark:text-slate-400">
               <li>
-                <Link href="/about" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
-                  About CityBasic
+                <Link href={`/${lang}/about`} className="hover:text-indigo-600 transition-colors">
+                  {dict.about_us || 'About CityBasic'}
                 </Link>
               </li>
               <li>
-                <Link href="/how-to-use" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
-                  How to Use
+                <Link href={`/${lang}/how-to-use`} className="hover:text-indigo-600 transition-colors">
+                  {dict.how_to_use || 'How to Use'}
                 </Link>
               </li>
               <li>
-                <Link href="/corrections" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
-                  Submit a Correction
+                <Link href={`/${lang}/corrections`} className="hover:text-indigo-600 transition-colors">
+                  {dict.submit_correction || 'Submit a Correction'}
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Legal */}
+          {/* Legal & Contact */}
           <div>
-            <h3 className="font-semibold text-slate-900 dark:text-slate-50 mb-3">
-              Legal
-            </h3>
-            <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+            <h4 className="text-[10px] font-black uppercase tracking-[0.3em] text-indigo-600 dark:text-indigo-400 mb-8">
+              {dict.legal || 'Legal'}
+            </h4>
+            <ul className="space-y-4 text-sm font-bold text-slate-600 dark:text-slate-400">
               <li>
-                <Link href="/privacy" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
-                  Privacy Policy
+                <Link href={`/${lang}/privacy`} className="hover:text-indigo-600 transition-colors">
+                  {dict.privacy_policy || 'Privacy Policy'}
                 </Link>
               </li>
               <li>
-                <Link href="/terms" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">
-                  Terms of Service
+                <Link href={`/${lang}/terms`} className="hover:text-indigo-600 transition-colors">
+                  {dict.terms_of_service || 'Terms of Service'}
                 </Link>
               </li>
               <li>
-                <a
-                  href="mailto:hello@CityBasic.com"
-                  className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
-                >
-                  Contact Us
-                </a>
+                {/* ✅ FIXED: Now links to the internal localized contact page */}
+                <Link href={`/${lang}/contact`} className="hover:text-indigo-600 transition-colors">
+                  {dict.contact_us || 'Contact Us'}
+                </Link>
               </li>
             </ul>
           </div>
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-8 pt-8 border-t border-slate-200 dark:border-slate-800">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-slate-500 dark:text-slate-400">
-              © 2025 CityBasic. All rights reserved.
-            </p>
-            <p className="text-sm text-slate-500 dark:text-slate-400">
-              Built with ❤️ using Next.js, Tailwind CSS, and Supabase
-            </p>
-          </div>
+        <div className="mt-20 pt-8 border-t border-slate-100 dark:border-slate-900 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-[10px] font-black text-slate-400 dark:text-slate-600 tracking-widest uppercase italic">
+            CityBasic.com
+          </p>
+          <p className="text-[10px] font-bold text-slate-400 dark:text-slate-600 uppercase tracking-widest">
+            © {currentYear} {dict.all_rights_reserved || 'All rights reserved.'}
+          </p>
         </div>
       </div>
     </footer>

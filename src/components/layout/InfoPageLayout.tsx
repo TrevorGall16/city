@@ -1,88 +1,70 @@
 /**
- * InfoPageLayout Component
- * Reusable layout for trust and informational pages
- * Provides consistent styling, breadcrumbs, and structure
+ * 🛰️ MASTER AI: INFO PAGE GOLDEN MASTER (V6.0)
+ * ✅ Layout: Centered editorial column for maximum readability.
+ * ✅ Typography: Specialized prose-layer for legal and info text.
+ * ✅ Navigation: Silk-blur breadcrumbs with localized Home routing.
  */
 
 import Link from 'next/link'
-import { ChevronRight, Home } from 'lucide-react'
+import { ChevronRight, Home, Clock } from 'lucide-react'
 
 interface InfoPageLayoutProps {
   title: string
   lastUpdated: string
-  breadcrumbs?: { label: string; href: string }[]
+  lang: string // Added to ensure correct home link
   children: React.ReactNode
 }
 
-export function InfoPageLayout({
-  title,
-  lastUpdated,
-  breadcrumbs = [],
-  children,
-}: InfoPageLayoutProps) {
+export function InfoPageLayout({ title, lastUpdated, lang, children }: InfoPageLayoutProps) {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
-      {/* Header Section */}
-      <div className="bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
-        <div className="max-w-3xl mx-auto px-4 md:px-6 py-8 md:py-12">
-          {/* Breadcrumbs */}
-          <nav className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-400 mb-6" aria-label="Breadcrumb">
-            <Link
-              href="/"
-              className="flex items-center gap-1 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
-              aria-label="Home"
-            >
-              <Home className="w-4 h-4" />
-              <span>Home</span>
-            </Link>
-            {breadcrumbs.map((crumb, index) => (
-              <div key={index} className="flex items-center gap-2">
-                <ChevronRight className="w-4 h-4" />
-                <Link
-                  href={crumb.href}
-                  className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
-                >
-                  {crumb.label}
-                </Link>
-              </div>
-            ))}
-            <ChevronRight className="w-4 h-4" />
-            <span className="text-slate-900 dark:text-slate-100">{title}</span>
+    <div className="min-h-screen bg-white dark:bg-slate-950">
+      {/* 🏙️ HEADER: Editorial Mesh */}
+      <div className="relative pt-24 pb-16 overflow-hidden border-b border-slate-100 dark:border-slate-900">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-indigo-50/50 via-transparent to-transparent dark:from-indigo-900/10" />
+        
+        <div className="max-w-4xl mx-auto px-6 relative z-10">
+          {/* Minimalist Breadcrumbs */}
+          <nav className="flex items-center gap-3 text-[10px] font-black uppercase tracking-widest text-slate-400 mb-10">
+            <Link href={`/${lang}`} className="hover:text-indigo-600 transition-colors">Home</Link>
+            <ChevronRight className="w-3 h-3" />
+            <span className="text-slate-900 dark:text-white">{title}</span>
           </nav>
 
-          {/* Page Title */}
-          <h1 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-slate-50 mb-4">
+          <h1 className="text-5xl md:text-7xl font-black text-slate-900 dark:text-white tracking-tighter mb-6 uppercase">
             {title}
           </h1>
 
-          {/* Last Updated */}
-          <p className="text-sm text-slate-500 dark:text-slate-400">
-            Last updated: <time dateTime={lastUpdated}>{new Date(lastUpdated).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
-          </p>
+          <div className="flex items-center gap-2 text-slate-400 font-bold text-xs uppercase tracking-widest">
+            <Clock className="w-4 h-4" />
+            <span>Updated:</span>
+            <time className="text-slate-600 dark:text-slate-300">
+              {new Date(lastUpdated).toLocaleDateString(lang, { year: 'numeric', month: 'long', day: 'numeric' })}
+            </time>
+          </div>
         </div>
       </div>
 
-      {/* Content Section */}
-      <article className="max-w-3xl mx-auto px-4 md:px-6 py-12">
+      {/* 📄 CONTENT: Professional Prose */}
+      <article className="max-w-4xl mx-auto px-6 py-20">
         <div className="prose prose-slate dark:prose-invert max-w-none
-          prose-headings:font-semibold
-          prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4
-          prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
-          prose-p:text-slate-600 dark:prose-p:text-slate-300 prose-p:leading-relaxed
-          prose-a:text-indigo-600 dark:prose-a:text-indigo-400 prose-a:no-underline hover:prose-a:underline
-          prose-ul:my-6 prose-li:my-2
-          prose-strong:text-slate-900 dark:prose-strong:text-slate-50
-          prose-code:text-indigo-600 dark:prose-code:text-indigo-400 prose-code:bg-slate-100 dark:prose-code:bg-slate-800 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded">
+          prose-h2:text-3xl prose-h2:font-black prose-h2:tracking-tighter prose-h2:uppercase prose-h2:mt-16 prose-h2:mb-8
+          prose-h3:text-xl prose-h3:font-bold prose-h3:mt-10
+          prose-p:text-lg prose-p:leading-relaxed prose-p:text-slate-600 dark:prose-p:text-slate-400
+          prose-li:text-lg prose-li:text-slate-600 dark:prose-li:text-slate-400
+          prose-strong:text-slate-900 dark:prose-strong:text-white prose-strong:font-black
+          prose-a:text-indigo-600 dark:prose-a:text-indigo-400 prose-a:font-bold prose-a:no-underline hover:prose-a:underline">
           {children}
         </div>
 
-        {/* Back to Home Link */}
-        <div className="mt-16 pt-8 border-t border-slate-200 dark:border-slate-800">
+        {/* Localized Back Action */}
+        <div className="mt-32 pt-12 border-t border-slate-100 dark:border-slate-900">
           <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors font-medium"
+            href={`/${lang}`}
+            className="group inline-flex items-center gap-4 text-xs font-black uppercase tracking-[0.3em] text-indigo-600"
           >
-            <Home className="w-4 h-4" />
+            <div className="w-10 h-10 rounded-full bg-slate-50 dark:bg-slate-900 flex items-center justify-center group-hover:bg-indigo-600 group-hover:text-white transition-all">
+              <Home className="w-4 h-4" />
+            </div>
             Back to CityBasic
           </Link>
         </div>

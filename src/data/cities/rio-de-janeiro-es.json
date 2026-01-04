@@ -1,0 +1,1340 @@
+{
+  "id": "city-rio",
+  "name": "Rio de Janeiro",
+  "slug": "rio-de-janeiro",
+  "lat": -22.9068,
+  "lng": -43.1729,
+  "country": "Brazil",
+  "country_code": "br",
+  "geo": {
+    "lat": -22.9068,
+    "lng": -43.1729
+  },
+  "hero_image": "/images/rio/hero.jpg",
+  "intro_vibe": {
+    "description": "Samba, sol y una cultura de playa interminable donde las montañas se encuentran con el océano."
+  },
+  "general_info": {
+    "population": "~6.7 millones (ciudad) / ~13 millones (área metropolitana)",
+    "is_capital": false,
+    "description": "Río de Janeiro es la segunda ciudad más poblada de Brasil y fue su capital. Conocida en todo el mundo por sus playas, el Carnaval y su dramático paisaje de montañas que se precipitan en el Atlántico, Río combina la belleza natural con la energía urbana. La ciudad fue sede de los Juegos Olímpicos de 2016 y es una potencia cultural en música, fútbol y vida de playa."
+  },
+  "stats": {
+    "currency": "BRL (Real Brasileño)",
+    "plug_type": "Tipo N"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "Enero",
+      "temp": "23°C - 30°C",
+      "vibe": "Cálido y Húmedo",
+      "pros": [
+        "Tiempo de playa",
+        "Ambiente de preparación para el carnaval",
+        "Temporada estival en su apogeo"
+      ],
+      "cons": [
+        "Playas abarrotadas",
+        "Tormentas de lluvia por la tarde",
+        "Alta humedad"
+      ],
+      "clothing": "Tejidos ligeros y transpirables, trajes de baño"
+    },
+    {
+      "id": 2,
+      "name": "Febrero",
+      "temp": "23°C - 30°C",
+      "vibe": "Locura del Carnaval",
+      "pros": [
+        "Festival de Carnaval",
+        "Días de playa perfectos",
+        "Atmósfera eléctrica"
+      ],
+      "cons": [
+        "Precios exorbitantes",
+        "Multitud masiva",
+        "Calor agotador"
+      ],
+      "clothing": "Ropa mínima, disfraces, protector solar"
+    },
+    {
+      "id": 3,
+      "name": "Marzo",
+      "temp": "23°C - 29°C",
+      "vibe": "Tranquilo después del carnaval",
+      "pros": [
+        "Menos turistas",
+        "Todavía hace calor",
+        "Los precios bajan"
+      ],
+      "cons": [
+        "Tardes lluviosas",
+        "La ciudad se recupera del carnaval"
+      ],
+      "clothing": "Pantalones cortos, camisetas sin mangas, chaqueta ligera de lluvia"
+    },
+    {
+      "id": 4,
+      "name": "Abril",
+      "temp": "22°C - 27°C",
+      "vibe": "Agradable",
+      "pros": [
+        "Temperaturas cómodas",
+        "Menos lluvia",
+        "Buenos días de playa"
+      ],
+      "cons": [
+        "Enfriamiento",
+        "Días más cortos"
+      ],
+      "clothing": "Camisetas, ropa ligera para la noche"
+    },
+    {
+      "id": 5,
+      "name": "Mai",
+      "temp": "20°C - 26°C",
+      "vibe": "Suave y seco",
+      "pros": [
+        "Cielo despejado",
+        "Tiempo para caminatas",
+        "Humedad más baja"
+      ],
+      "cons": [
+        "El océano se vuelve fresco",
+        "Menos aglomeraciones en las playas"
+      ],
+      "clothing": "Chaqueta ligera para las noches, jeans"
+    },
+    {
+      "id": 6,
+      "name": "Junio",
+      "temp": "19°C - 25°C",
+      "vibe": "Frescor invernal",
+      "pros": [
+        "Precios más bajos",
+        "Festivales de São João",
+        "Vistas despejadas"
+      ],
+      "cons": [
+        "Frío para la playa",
+        "Días oscuros"
+      ],
+      "clothing": "Suéter, pantalones largos, zapatos cerrados"
+    },
+    {
+      "id": 7,
+      "name": "Julio",
+      "temp": "18°C - 25°C",
+      "vibe": "Mes más frescos",
+      "pros": [
+        "Ideal para senderismo",
+        "Aire fresco",
+        "Ofertas de temporada baja"
+      ],
+      "cons": [
+        "Playas poco atractivas",
+        "Algunos lugares cierran"
+      ],
+      "clothing": "Capas, chaqueta ligera, zapatos cómodos"
+    },
+    {
+      "id": 8,
+      "name": "Agosto",
+      "temp": "19°C - 26°C",
+      "vibe": "Se calienta",
+      "pros": [
+        "Inicio de la primavera",
+        "Actividades al aire libre",
+        "Regreso de los festivales"
+      ],
+      "cons": [
+        "Tiempo variable",
+        "Océano aún frío"
+      ],
+      "clothing": "Un mezcla de ropa de verano e invierno"
+    },
+    {
+      "id": 9,
+      "name": "Septiembre",
+      "temp": "20°C - 26°C",
+      "vibe": "Flores de primavera",
+      "pros": [
+        "Clima hermoso",
+        "La ciudad despierta",
+        "Temporada intermedia"
+      ],
+      "cons": [
+        "Lluvias ocasionales",
+        "Aumento de precios"
+      ],
+      "clothing": "Capas ligeras, gafas de sol"
+    },
+    {
+      "id": 10,
+      "name": "Octubre",
+      "temp": "21°C - 27°C",
+      "vibe": "Pre-verano",
+      "pros": [
+        "Comienza la temporada de playas",
+        "Cálido y soleado",
+        "Festivales"
+      ],
+      "cons": [
+        "La humedad regresa",
+        "Las multitudes aumentan"
+      ],
+      "clothing": "Ropa de verano, traje de baño listo"
+    },
+    {
+      "id": 11,
+      "name": "Noviembre",
+      "temp": "22°C - 28°C",
+      "vibe": "Cálido y Energético",
+      "pros": [
+        "Tiempo de playa perfecto",
+        "Cielos despejados",
+        "Eventos al aire libre"
+      ],
+      "cons": [
+        "Afluencia de personas",
+        "Tormentas por la tarde"
+      ],
+      "clothing": "Ropa mínima, equipo de playa"
+    },
+    {
+      "id": 12,
+      "name": "Diciembre",
+      "temp": "23°C - 29°C",
+      "vibe": "Inicio del verano",
+      "pros": [
+        "Nochevieja",
+        "Días largos en la playa",
+        "Energía festiva"
+      ],
+      "cons": [
+        "Precios máximos",
+        "Aglomerado",
+        "Calor intenso"
+      ],
+      "clothing": "Ropa ligera, blanca para la Nochevieja"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "La cultura de la playa es lo más importante: Los cariocas (los lugareños de Río) viven en la playa. No es solo para turistas; es su sala de estar, gimnasio y club social. Cada playa tiene diferentes tribus (postos) con atmósferas distintas.",
+      "Saludo con beso en la mejilla: Dos besos en la mejilla (beijinhos) son estándar, incluso con extraños en situaciones sociales. Comience por la derecha. Los hombres a menudo abrazan o dan la mano a otros hombres, pero besan a las mujeres.",
+      "Playa sin efectivo: No lleve objetos de valor. Los vendedores de la playa ahora aceptan tarjetas, pero mantenga el efectivo al mínimo. Use fundas impermeables para los teléfonos.",
+      "El cargo por servicio del '10%': Llamado 'taxa de serviço' y generalmente incluido en las cuentas de los restaurantes. No es obligatorio, pero rechazarlo es socialmente incómodo. Verifique si ya está incluido.",
+      "Cenar tarde: La cena comienza a las 9 p.m. o más tarde. El almuerzo es la comida principal (12-2 p.m.). Cenar a las 6 p.m. lo marca como turista.",
+      "El fútbol es religión: Nunca menosprecie el equipo de fútbol de alguien. La rivalidad entre Flamengo, Fluminense, Botafogo y Vasco es seria. Usar los colores rivales en ciertos vecindarios puede causar problemas.",
+      "Respeto por la Samba: Si está en una roda de samba (círculo de samba), no hable durante las presentaciones. Aplique palmas y cante si sabe la letra, pero nunca interrumpa a los músicos.",
+      "Conciencia de seguridad: No muestre joyas, teléfonos o cámaras costosas. Use aplicaciones de transporte en lugar de llamar taxis. Evite las playas vacías por la noche. Confíe en su instinto.",
+      "Cultura de Sunga: Los hombres brasileños usan bañadores (sungas) en la playa. Los pantalones de baño son para turistas. Las mujeres usan bikinis mínimos (fio dental - hilo dental). Nadie juzga.",
+      "La cortesía importa: Diga 'bom dia' (buenos días), 'boa tarde' (buenas tardes), 'boa noite' (buenas noches). Usar 'por favor' (por favor) y 'obrigado/a' (gracias) es esencial."
+    ],
+    "essential_phrases": [
+      {
+        "src": "Hello / Good morning",
+        "local": "Bom dia",
+        "phonetic": "bom JEE-ah"
+      },
+      {
+        "src": "Good afternoon",
+        "local": "Boa tarde",
+        "phonetic": "BO-ah TAR-jee"
+      },
+      {
+        "src": "Good evening",
+        "local": "Boa noite",
+        "phonetic": "BO-ah NOY-chee"
+      },
+      {
+        "src": "Thank you (m/f)",
+        "local": "Obrigado / Obrigada",
+        "phonetic": "oh-bree-GAH-doo / dah"
+      },
+      {
+        "src": "Please",
+        "local": "Por favor",
+        "phonetic": "poor fah-VOR"
+      },
+      {
+        "src": "Excuse me",
+        "local": "Com licença",
+        "phonetic": "kom lee-SEN-sah"
+      },
+      {
+        "src": "How much?",
+        "local": "Quanto custa?",
+        "phonetic": "KWAN-too KOOS-tah"
+      },
+      {
+        "src": "Where is...?",
+        "local": "Onde fica...?",
+        "phonetic": "ON-jee FEE-kah"
+      },
+      {
+        "src": "The bill please",
+        "local": "A conta por favor",
+        "phonetic": "ah KON-tah poor fah-VOR"
+      },
+      {
+        "src": "I don't speak Portuguese",
+        "local": "Não falo português",
+        "phonetic": "now FAH-loo poor-too-GAYS"
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Copacabana",
+      "vibe": "Centro Turístico",
+      "description": "La playa más famosa del mundo. Llena de hoteles, vendedores ambulantes y turistas. Un clásico de Río, pero puede sentirse abrumador. Ideal para observar a la gente.",
+      "highlights": [
+        "Playa de Copacabana",
+        "Fuerte de Copacabana",
+        "Feria de los Hippies del Domingo"
+      ],
+      "image": "/images/rio/copacabana.jpg"
+    },
+    {
+      "name": "Ipanema",
+      "vibe": "Elegante y sofisticada",
+      "description": "Más exclusiva que Copacabana. Alberga boutiques, bares de jugos y gente hermosa. La multitud de la playa es más joven y a la moda.",
+      "highlights": [
+        "Playa de Ipanema",
+        "Posto 9",
+        "Lagoa Rodrigo de Freitas"
+      ],
+      "image": "/images/rio/ipanema.jpg"
+    },
+    {
+      "name": "Santa Teresa",
+      "vibe": "Colinas bohemias",
+      "description": "Barrio artístico en una colina con calles sinuosas, casas coloniales y obras de arte callejero. Acoge a músicos, artistas y creadores.",
+      "highlights": [
+        "Parque das Ruínas",
+        "Escadaria Selarón",
+        "Largo do Guimarães"
+      ],
+      "image": "/images/rio/santa-teresa.jpg"
+    },
+    {
+      "name": "Lapa",
+      "vibe": "Centro de la vida nocturna",
+      "description": "El corazón de la vida nocturna y de la escena de samba de Río. Bares, fiestas callejeras y salas de conciertos. Puede ser peligroso tarde en la noche - mantenga la vigilancia.",
+      "highlights": [
+        "Arcos da Lapa",
+        "Clubs de samba",
+        "Bares callejeros"
+      ],
+      "image": "/images/rio/lapa.jpg"
+    },
+    {
+      "name": "Leblon",
+      "vibe": "Chic y residencial",
+      "description": "El barrio de playa más rico de Río. Restaurantes, bares y boutiques de alta gama. Más locales, menos turistas. Ambiente de playa más tranquilo.",
+      "highlights": [
+        "Playa de Leblon",
+        "Calle Dias Ferreira",
+        "Mirante do Leblon"
+      ],
+      "image": "/images/rio/leblon.jpg"
+    },
+    {
+      "name": "Botafogo",
+      "vibe": "En pleno desarrollo",
+      "description": "Barrio residencial con una escena gastronómica y de bares en plena expansión. Más asequible que las zonas costeras. Hermosa vista del Pan de Azúcar.",
+      "highlights": [
+        "Praia de Botafogo",
+        "Shopping Rio Sul",
+        "Mercado Cobal"
+      ],
+      "image": "/images/rio/botafogo.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Desplazarse",
+      "icon": "Tren",
+      "summary": "El transporte público en Río está mejorando, pero sigue siendo complicado. Las aplicaciones de transporte dominan.",
+      "details": [
+        "Metro: Limpio, seguro y económico (R$5,50/viaje). Cubre las principales zonas turísticas: Ipanema, Copacabana, Botafogo, Centro. No llega al Cristo Redentor ni al Pan de Azúcar.",
+        "Uber/99: La forma más segura de desplazarse. Más barato que los taxis y con menos riesgos de estafas. Siempre use las aplicaciones—nunca dude en parar taxis en la calle.",
+        "Sistema de autobuses: Complejo y abarrotado. No recomendado para turistas a menos que sea aventurero y hable portugués. Las rutas cambian con frecuencia.",
+        "Alquiler de bicicletas: Bike Rio (bicicletas naranjas) a lo largo de los caminos de la playa. R$5 por 1 hora. La ciclovía de Leblon a Flamengo es hermosa.",
+        "A pie: Los barrios son accesibles a pie individualmente, pero las distancias entre ellos son gigantescas. No camine entre barrios—utilice el transporte."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "Seguridad y Estafas",
+      "icon": "Escudo",
+      "summary": "Río es generalmente seguro en las zonas turísticas, pero es importante mantenerse vigilante.",
+      "details": [
+        "Robo en la playa: El crimen más común. No lleve teléfonos, cámaras o joyas a la playa. Utilice bolsas impermeables y mantenga un ojo en sus pertenencias.",
+        "Visitas a favelas: Vaya solo con empresas reputadas. Nunca se aventure solo en las favelas; algunas son seguras, pero otras están controladas por pandillas.",
+        "Estafas en cajeros automáticos: Utilice cajeros automáticos dentro de los bancos o centros comerciales durante las horas de apertura. Cubra el teclado. Evite los cajeros automáticos en la calle por la noche.",
+        "Estafas de taxi: Los taxis amarillos oficiales pueden cobrar de más. Siempre utilice Uber/99 en su lugar. Si debe tomar un taxi, exija el taxímetro.",
+        "Seguridad tarde en la noche: Evite calles y playas vacías después de medianoche. Permanezca en áreas bien iluminadas y concurridas. Tome un Uber directamente hacia/desde los lugares.",
+        "Robo de teléfono: Mantenga sus teléfonos en sus bolsillos o bolsos mientras camina. No los sostenga afuera en calles o autobuses llenos. Ladrones en moto arrebatan teléfonos.",
+        "Confiar en sus instintos: Si un lugar le parece sospechoso, aléjese de inmediato. Los locales a menudo le advertirán. Escúchelos."
+      ]
+    },
+    {
+      "id": "logistics-airport",
+      "slug": "airport-transfers",
+      "title": "Traslados al Aeropuerto",
+      "icon": "Avión",
+      "summary": "El aeropuerto de Galeão está ubicado a 20 km de los barrios de playa.",
+      "details": [
+        "Uber/99: Lo más práctico. R$70-100 para Copacabana/Ipanema (45-60min dependiendo del tráfico). Utilice la zona de recogida de la aplicación.",
+        "Bus Aeropuerto (Frescão): Barato (R$20) y seguro. Se detiene en los principales hoteles a lo largo de la costa. Funciona de 5h30 a 23h. Lento (puede tardar 90min).",
+        "Metro + Uber: Tome el metro hasta Botafogo (R$7), luego Uber hasta su hotel (R$20). Económico pero poco práctico con equipaje.",
+        "Traslado prereservado: Los hoteles lo ofrecen por R$150-200. Práctico si llega tarde o con mucho equipaje.",
+        "A evitar: Los taxis de la calle en el aeropuerto. Alto riesgo de estafa. Utilice siempre aplicaciones o servicios prereservados."
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "money-matters",
+      "title": "Dinero y Pagos",
+      "icon": "DollarSign",
+      "summary": "Brasil utiliza el Real (BRL). Las tarjetas son ampliamente aceptadas, pero a veces es necesario tener efectivo.",
+      "details": [
+        "Moneda: R$1 ≈ 0,20 $ USD. Los billetes existen en R$2, 5, 10, 20, 50, 100, 200. Las monedas: R$0,05 a R$1.",
+        "Cajeros: Retire dinero en los cajeros automáticos ubicados dentro de los centros comerciales (límite: R$1,000-2,000 por transacción). Santander y Banco do Brasil están en todas partes.",
+        "Tarjetas de Crédito: Visa y Mastercard son ampliamente aceptadas. Amex es menos común. Los pequeños vendedores y vendedores de playa prefieren efectivo.",
+        "Vendedores de Playa: ¡Ahora aceptan terminales de tarjetas! Pero el efectivo (billetes pequeños) es más rápido. Mantenga R$20-50 en una bolsa impermeable.",
+        "Propinas: Un servicio del 10 % generalmente está incluido. Si no es así, el 10 % es la norma. Redondee para los taxis/Uber. No se requiere propina para la comida callejera.",
+        "Negociación: No es común en tiendas/restaurantes. Los mercados callejeros (como la Feria Hippie) esperan cierta negociación, pero no sea agresivo."
+      ]
+    },
+    {
+      "id": "logistics-weather",
+      "slug": "when-to-visit",
+      "title": "Cuándo visitar",
+      "icon": "Sol",
+      "summary": "El verano (diciembre-marzo) es la temporada alta. El invierno (junio-agosto) es suave y tranquilo.",
+      "details": [
+        "Mejor momento general: abril-mayo o septiembre-noviembre. Clima cálido, menos aglomeraciones, precios más bajos.",
+        "Carnaval (febrero): La experiencia definitiva en Río, pero reserve con 6 meses de antelación. Los precios se triplican. Las calles se convierten en una gran fiesta.",
+        "Verano (diciembre-marzo): Clima de playa en su punto máximo pero caliente, húmedo y concurrido. Tormentas diarias por la tarde. Reserve su alojamiento con antelación.",
+        "Invierno (junio-agosto): Demasiado frío para la playa (18-25°C) pero perfecto para el senderismo. La mejor época para visitar en cuanto a precios. Algunos restaurantes de playa cierran.",
+        "Año Nuevo: Copacabana alberga una de las fiestas más grandes del mundo. Vístase de blanco para atraer la suerte. Reserve con 12 meses de antelación.",
+        "A evitar: marzo (resaca post-carnaval, clima variable), junio-julio si la playa es su prioridad."
+      ]
+    },
+    {
+      "id": "logistics-health",
+      "slug": "health-essentials",
+      "title": "Salud y Higiene",
+      "icon": "Corazón",
+      "summary": "El agua del grifo no es potable. La protección solar es esencial.",
+      "details": [
+        "Agua: No beba el agua del grifo. Compre agua embotellada (água mineral) en todas partes por R$3-5. Los hoteles a menudo proporcionan botellas gratis.",
+        "Crema solar: SPF 50+ mínimo. Reaplique cada 2 horas en la playa. El sol brasileño es intenso incluso en días nublados. Los locales usan un factor 70.",
+        "Mosquitos: Existen el dengue, el Zika y el chikungunya. Utilice un repelente (marcas OFF! o Exposis). Use mangas largas al amanecer y al atardecer.",
+        "Farmacias: Drogarias por todas partes (Drogaria São Paulo, Pacheco). No se necesita receta para la mayoría de los medicamentos. Los farmacéuticos hablan un poco de inglés.",
+        "Urgencia: Marque el 192 para una ambulancia, el 193 para los bomberos. Los hospitales privados (Copa D'Or, Samaritano) son mejores que los públicos. Adquiera un seguro de viaje.",
+        "Higiene en la playa: No camine descalzo sobre el concreto de la playa (riesgo de cortes). Utilice chanclas. Hay duchas en la playa, pero son limitadas."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Aplicaciones Esenciales",
+      "icon": "Smartphone",
+      "summary": "Estas aplicaciones harán que navegar por Río sea mucho más fácil.",
+      "details": [
+        "99 (99Taxi): La versión brasileña de Uber. A menudo más económica. Ambas funcionan bien en Río.",
+        "Google Maps: Preciso para la navegación y el transporte. Descargue mapas sin conexión para sus barrios.",
+        "iFood: Entrega de comida (como Uber Eats). Ideal para bocados nocturnos o evitar restaurantes.",
+        "XE Currency: Convierta el Real a su moneda instantáneamente. Los tipos se actualizan diariamente.",
+        "Google Translate: Descargue el paquete sin conexión en portugués. La función de traducción por cámara ayuda con los menús.",
+        "Moovit: La mejor aplicación para rutas y horarios del transporte público. Mejor que Google Maps para autobuses."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-rio-001",
+      "slug": "feijoada",
+      "name_en": "Feijoada",
+      "name_local": "Feijoada",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "El plato nacional de Brasil: un rico guiso de frijoles negros con cerdo, salchicha y carne de res. Tradicionalmente se disfruta los miércoles y sábados con arroz, farofa (harina de yuca tostada), rodajas de naranja y col verde.",
+        "history": "Originario de la era colonial brasileña, creado por esclavos africanos que utilizaban partes de cerdo desechadas. Con el tiempo, se convirtió en un ritual familiar muy querido para los fines de semana en los restaurantes.",
+        "insider_tip": "Pídalo en el almuerzo, nunca en la cena — es pesado y está destinado a ser disfrutado lentamente. Las mejores feijoadas vienen con un 'caldo' (el caldo espeso de frijoles) servido por separado. Viértalo sobre su arroz.",
+        "price_level": "Moderado",
+        "duration": "1,5-2 horas",
+        "best_time": "Almuerzo del sábado",
+        "vibe": "Tradicional y sustancioso",
+        "good_for": [
+          "Grupos",
+          "Gourmet",
+          "Almuerzo de fin de semana"
+        ]
+      },
+      "image": "/images/rio/feijoada.jpg"
+    },
+    {
+      "id": "food-rio-002",
+      "slug": "churrasco",
+      "name_en": "Barbacoa brasileña",
+      "name_local": "Churrasco",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Carnes asadas a voluntad servidas en su mesa en brochetas. El estilo rodízio le permite probar picanha (costilla), fraldinha (falda) y cupim (juez de res). Voltee la tarjeta al verde para seguir recibiendo carne.",
+        "history": "Tradición gaucha del sur de Brasil que se ha extendido por todo el país. Los vaqueros (gaúchos) asaban carne al fuego de leña durante largas travesías de ganado.",
+        "insider_tip": "Comience con carnes más ligeras (pollo, salchicha) y progrese hacia cortes de alta calidad como picanha y cordero. No se llene en el buffet—es una trampa. Vaya despacio.",
+        "price_level": "Caro",
+        "duration": "2-3 horas",
+        "best_time": "Almuerzo o cena",
+        "vibe": "Paraíso de los carnívoros",
+        "good_for": [
+          "Amantes de la carne",
+          "Grupos",
+          "Ocasiones especiales"
+        ]
+      },
+      "image": "/images/rio/churrasco.jpg"
+    },
+    {
+      "id": "food-rio-003",
+      "slug": "acai-bowl",
+      "name_en": "Açaí Bowl",
+      "name_local": "Açaí na Tigela",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Una pasta de açaí espesa y congelada servida en un bol con granola, plátano y a veces miel o leche condensada. Un alimento básico de la cultura de la playa consumido como merienda después del entrenamiento o como comida ligera.",
+        "history": "Las bayas de açaí son originarias de la Amazonía. Río popularizó el formato en bol en los años 80, cuando los surfistas y los amantes de la playa necesitaban energía rápida.",
+        "insider_tip": "Los Cariocas la consumen sin azúcar o solo con polvo de guaraná. Los turistas la prefieren cargada de coberturas. Pruebe el 'puro' (puro) o el 'tradicional' (solo con plátano y granola) para una experiencia más autentica.",
+        "price_level": "Asequible",
+        "duration": "15-30 minutos",
+        "best_time": "Después de la playa o del entrenamiento",
+        "vibe": "Ambiente saludable de playa",
+        "good_for": [
+          "Preocupados por su salud",
+          "Amantes de la playa",
+          "Energía rápida"
+        ]
+      },
+      "image": "/images/rio/acai.jpg"
+    },
+    {
+      "id": "food-rio-004",
+      "slug": "caipirinha",
+      "name_en": "Caipirinha",
+      "name_local": "Caipirinha",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "El cóctel nacional de Brasil, preparado con cachaça (licor de caña de azúcar), lima, azúcar y hielo. Machaque, agite, sirva. Simple pero peligroso: se bebe fácilmente y pega fuerte.",
+        "history": "Originario del campo de São Paulo como remedio contra el frío. Se convirtió en la bebida emblemática de Brasil en los años 1900, y ahora se consume en todo el mundo.",
+        "insider_tip": "Pida un 'batida' si desea variaciones de frutas (maracuyá, fresa). Pida 'menos hielo' si la quiere más fuerte. Dos es la cantidad perfecta; tres es un poco demasiado.",
+        "price_level": "Asequible",
+        "duration": "N/A (bebida)",
+        "best_time": "Al atardecer en los bares de playa",
+        "vibe": "Ambiente relajado de fiesta",
+        "good_for": [
+          "Bares de playa",
+          "Socialización",
+          "Atardecer"
+        ]
+      },
+      "image": "/images/rio/caipirinha.jpg"
+    },
+    {
+      "id": "food-rio-005",
+      "slug": "pao-de-queijo",
+      "name_en": "Pain au fromage",
+      "name_local": "Pão de Queijo",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Pequeños rollos de queso adictivos, preparados con harina de yuca y queso. Crujientes por fuera, fundentes por dentro, naturalmente sin gluten. Ideal para disfrutar como merienda o en el desayuno.",
+        "history": "Originario del estado de Minas Gerais en el siglo XVIII. Las personas esclavizadas utilizaban harina de yuca en lugar de trigo para hacer pan.",
+        "insider_tip": "Disfrútelos frescos y calientes, directamente de las panaderías o de los vendedores ambulantes. Las versiones congeladas de los supermercados son aceptables, pero carecen de magia. Combínelo con café para un verdadero desayuno brasileño.",
+        "price_level": "Asequible",
+        "duration": "5-10 minutos (merienda)",
+        "best_time": "Desayuno o pausa para el café",
+        "vibe": "Tentempié reconfortante",
+        "good_for": [
+          "Merienda rápida",
+          "Pausa para el café",
+          "Sin gluten"
+        ]
+      },
+      "image": "/images/rio/pao-de-queijo.jpg"
+    },
+    {
+      "id": "food-rio-006",
+      "slug": "moqueca",
+      "name_en": "Ragoût de poisson",
+      "name_local": "Moqueca",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Un guiso de pescado cremoso preparado con leche de coco, aceite de palma, tomates, cebollas y pimientos. Se sirve en una olla de barro con arroz y farofa. La versión costera es más ligera que las preparaciones interiores.",
+        "history": "Plato brasileño indígena con influencias africanas y portuguesas. Cada región costera tiene su propia versión; el estilo bahiano utiliza aceite de dendê, mientras que Espírito Santo prescinde de él.",
+        "insider_tip": "Pídalo con pescado blanco (robalo o badejo) para un sabor más auténtico. Use la farofa para absorber el caldo. Para compartir entre dos personas; las porciones son enormes.",
+        "price_level": "Moderado",
+        "duration": "1-1,5 horas",
+        "best_time": "Almuerzo o cena",
+        "vibe": "Confort costero",
+        "good_for": [
+          "Amantes de los mariscos",
+          "Compartir",
+          "Comida local auténtica"
+        ]
+      },
+      "image": "/images/rio/moqueca.jpg"
+    },
+    {
+      "id": "food-rio-007",
+      "slug": "brigadeiro",
+      "name_en": "Trufa de chocolate",
+      "name_local": "Brigadeiro",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Una trufa de chocolate dulce y fundente hecha de leche condensada, polvo de cacao, mantequilla y fideos de chocolate. Formada en bolitas y servida en cada cumpleaños y celebración.",
+        "history": "Creada en los años 1940 durante la campaña presidencial del brigadier Eduardo Gomes. Las mujeres fabricaban estos dulces para recaudar fondos, y el nombre se mantuvo.",
+        "insider_tip": "Compre en tiendas de brigadeiro (como Maria Brigadeiro) para versiones gourmet con sabores como maracuyá, pistacho o bourbon. Las versiones tradicionales de los panaderos son más simples pero igualmente adictivas.",
+        "price_level": "Asequible",
+        "duration": "5 minutos (gusto)",
+        "best_time": "Cuando siente antojo de postre",
+        "vibe": "Dulce nostalgia",
+        "good_for": [
+          "Amantes de los dulces",
+          "Regalos",
+          "Postre de celebración"
+        ]
+      },
+      "image": "/images/rio/brigadeiro.jpg"
+    },
+    {
+      "id": "food-rio-008",
+      "slug": "pastel",
+      "name_en": "Pâtisserie frite",
+      "name_local": "Pastel",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Una pastelería frita crujiente y fina, rellena de queso, carne, gambas o corazones de palma. Se vende en ferias callejeras y mercados, y es mejor caliente y fresca con un jugo de caña de azúcar.",
+        "history": "Traído por inmigrantes japoneses a principios del siglo XX (inspirado en los rollos de primavera chinos). Los brasileños lo hicieron más grande, más crujiente y lo rellenaron con ingredientes locales.",
+        "insider_tip": "Visite la Feria de los Hippies de los domingos en Ipanema para probar los mejores pasteles. Pida 'queijo' (queso) o 'camarão' (gamba). Acompáñelo con caldo de caña (jugo de caña de azúcar) para la mejor combinación.",
+        "price_level": "Asequible",
+        "duration": "10-15 mins",
+        "best_time": "Ferias callejeras y mercados",
+        "vibe": "Comida callejera crujiente",
+        "good_for": [
+          "Almuerzo rápido",
+          "Ferias callejeras",
+          "Comida casual"
+        ]
+      },
+      "image": "/images/rio/pastel.jpg"
+    },
+    {
+      "id": "food-rio-009",
+      "slug": "tapioca-crepe",
+      "name_en": "Crêpe de Tapioca",
+      "name_local": "Tapioca",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Una crepe naturalmente sin gluten hecha a partir de almidón de tapioca, cubierta con ingredientes dulces o salados como queso, coco, plátano o carne. Textura crujiente y esponjosa única en Brasil.",
+        "history": "Plato indígena brasileño que data de varios siglos. Originalmente un pan plano simple, las versiones modernas tienen innumerables rellenos. Ahora es un alimento callejero popular y una opción para el desayuno.",
+        "insider_tip": "Cómprela fresca a los vendedores de playa temprano en la mañana. Las combinaciones dulces (plátano + Nutella) son deliciosas, pero los rellenos salados (queso + carne seca) son más tradicionales.",
+        "price_level": "Asequible",
+        "duration": "10-15 mins",
+        "best_time": "Desayuno o refrigerio en la playa",
+        "vibe": "Ligera y versátil",
+        "good_for": [
+          "Sin gluten",
+          "Refrigerio en la playa",
+          "Desayuno"
+        ]
+      },
+      "image": "/images/rio/tapioca.jpg"
+    },
+    {
+      "id": "food-rio-010",
+      "slug": "mate-gelado",
+      "name_en": "Té Mate Helado",
+      "name_local": "Mate Gelado",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Té yerba mate frío servido con limón y azúcar. Los cariocas lo beben constantemente; es la bebida no oficial de Río. Se vende en todas partes, desde vendedores de playa hasta restaurantes.",
+        "history": "La yerba mate proviene del sur de Brasil y de Argentina. Río lo adoptó en el siglo XX y lo transformó en una bebida helada y dulce para la playa.",
+        "insider_tip": "Pídalo 'sin azúcar' si desea probar el verdadero té. La mayoría de los lugares lo sirven con un sabor a jarabe por defecto. Los vendedores de playa lo venden en botellas de 1 L; perfecto para compartir.",
+        "price_level": "Asequible",
+        "duration": "N/A (bebida)",
+        "best_time": "Días de playa cálidos",
+        "vibe": "Refrescante y energizante",
+        "good_for": [
+          "Hidratación en la playa",
+          "Impulso de cafeína",
+          "Días calurosos"
+        ]
+      },
+      "image": "/images/rio/mate.jpg"
+    },
+    {
+      "id": "food-rio-011",
+      "slug": "bolinhos-bacalhau",
+      "name_en": "Boulettes de morue",
+      "name_local": "Bolinhos de Bacalhau",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Bolas fritas de bacalao salado mezcladas con patatas, cebollas y perejil. Crujientes por fuera, tiernas por dentro. Clásico aperitivo portugués-brasileño servido con cerveza en los bares.",
+        "history": "Los colonos portugueses trajeron el bacalao salado (bacalhau) a Brasil. El formato de la bola se convirtió en un imprescindible de los bares en el siglo XIX y sigue siendo un petisco (snack) preferido.",
+        "insider_tip": "Pida en bares tradicionales boteco (tabernas de barrio). Acompañe con un chopp bien frío (cerveza de barril). Los mejores lugares están en Lapa o en el Baixo Leblon de Leblon.",
+        "price_level": "Asequible",
+        "duration": "30 minutos (snack de bar)",
+        "best_time": "Hora feliz",
+        "vibe": "Comida de bar relajada",
+        "good_for": [
+          "Maridaje de cerveza",
+          "Socialización",
+          "Snack antes de la cena"
+        ]
+      },
+      "image": "/images/rio/bacalhau.jpg"
+    },
+    {
+      "id": "food-rio-012",
+      "slug": "picanha",
+      "name_en": "Picanha",
+      "name_local": "Picanha",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "El rey de los steaks brasileños. La parte superior de la cadera con una gruesa capa de grasa asada a la perfección. Se sirve en trozos en las churrascarias o en steak en los restaurantes.",
+        "history": "Siguiendo formando parte de la cultura gaucha, se convirtió en el corte premium de Brasil en los años 60. Ahora se considera el mejor corte para el churrasco en todo el país.",
+        "insider_tip": "Pídala 'mal passado' (poco hecha a medio hecha). La capa de grasa es esencial: no la corte. Si está en una churrascaria, espere al segundo turno cuando se sirvan los cortes premium.",
+        "price_level": "Caro",
+        "duration": "1,5-2 horas",
+        "best_time": "Cena",
+        "vibe": "Carnívoro premium",
+        "good_for": [
+          "Amantes del steak",
+          "Ocasiones especiales",
+          "Carne de calidad"
+        ]
+      },
+      "image": "/images/rio/picanha.jpg"
+    },
+    {
+      "id": "food-rio-013",
+      "slug": "coxinha",
+      "name_en": "Croqueta de pollo",
+      "name_local": "Coxinha",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Snack frito en forma de gota de agua, relleno de pollo desmenuzado y cream cheese, luego empanizado y frito. Ubicuo en panaderías, fiestas y bares de snacks.",
+        "history": "La leyenda dice que fue creado para un príncipe brasileño en el siglo XIX que solo comía muslos de pollo. Cuando estos se agotaron, los cocineros moldearon el pollo en forma de muslo.",
+        "insider_tip": "Consígalo en pequeñas panaderías de barrio (padarias), no en cadenas. Es mejor disfrutarlo fresco y caliente. La masa debe ser fina y crujiente, no gruesa y pastosa.",
+        "price_level": "Asequible",
+        "duration": "5-10 minutos (snack)",
+        "best_time": "Probar",
+        "vibe": "Clásico reconfortante",
+        "good_for": [
+          "Snack rápido",
+          "Comida económica",
+          "Confort nostálgico"
+        ]
+      },
+      "image": "/images/rio/coxinha.jpg"
+    },
+    {
+      "id": "food-rio-014",
+      "slug": "acaraje",
+      "name_en": "Beignet de frijoles negros",
+      "name_local": "Acarajé",
+      "category": "comida",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Comida callejera afrobrasileña: buñuelos de frijoles negros fritos en aceite de palma, abiertos y rellenos de vatapá (pasta de camarones), caruru (okra) y salsa picante.",
+        "history": "Traído por las personas esclavizadas de África Occidental, especialmente de la cultura yoruba. Originalmente, un alimento sagrado ofrecido a Iansã, la diosa de los vientos. Ahora se vende por mujeres bahianas (baianas) en todo Brasil.",
+        "insider_tip": "Cómplalo únicamente con las baianas tradicionales que llevan vestidos blancos - ellas lo preparan correctamente. Pida 'pouco dendê' (menos aceite de palma) si tiene un estómago sensible. El chile es MUY picante.",
+        "price_level": "Asequible",
+        "duration": "15 minutos (comida callejera)",
+        "best_time": "Almuerzo o merienda en la playa",
+        "vibe": "Picante afrobrasileño",
+        "good_for": [
+          "Aventureros gourmets",
+          "Experiencia cultural",
+          "Comida callejera"
+        ]
+      },
+      "image": "/images/rio/acaraje.jpg"
+    },
+    {
+      "id": "food-rio-015",
+      "slug": "coconut-water",
+      "name_en": "Eau de Coco",
+      "name_local": "Água de Coco",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Agua de coco fresca servida directamente de una joven nuez de coco verde. Los vendedores de playa cortan la parte superior con un machete y ponen una pajita. Un sustituto natural de los electrolitos y la hidratación definitiva para la playa.",
+        "history": "Las nueces de coco crecen en abundancia en la costa de Brasil. Beber directamente de la nuez de coco se ha convertido en un ritual de playa en el siglo XX con la explosión de la cultura de playa en Río.",
+        "insider_tip": "Busque nueces de coco mantenidas en hielo. Después de beber, pídales que la abran ('abrir') para que pueda comer la carne de coco tierna en el interior. Esto está incluido en el precio.",
+        "price_level": "Asequible",
+        "duration": "10-15 minutos",
+        "best_time": "Tardes calurosas en la playa",
+        "vibe": "Refresco natural",
+        "good_for": [
+          "Hidratación",
+          "Esencial de playa",
+          "Bebida saludable"
+        ]
+      },
+      "image": "/images/rio/coconut-water.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Monumentos emblemáticos",
+      "id": "landmarks",
+      "items": [
+        {
+          "id": "sight-rio-001",
+          "slug": "christ-redeemer",
+          "name_en": "Cristo Redentor",
+          "name_local": "Cristo Redentor",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "La estatua emblemática de Jesús de 30 metros de altura que se encuentra sobre Río desde la montaña Corcovado. Una de las Siete Nuevas Maravillas del Mundo. Se recomienda visitarla temprano por la mañana para disfrutar de las vistas al amanecer antes de la llegada de las multitudes.",
+            "history": "Construida entre 1922 y 1931 como símbolo del cristianismo y de la identidad brasileña. Diseñada por el ingeniero brasileño Heitor da Silva Costa y esculpida por el artista francés Paul Landowski. La estatua ha sido impactada por rayos en varias ocasiones.",
+            "insider_tip": "Reserve sus boletos en línea con varios días de anticipación; se agotan rápidamente. Tómese la van hasta la cima ($), no el tren ($$$$). Vaya a las 8h al abrir o después de las 16h para la hora dorada. Evite los fines de semana y los días festivos.",
+            "price_level": "Caro",
+            "duration": "2-3 horas",
+            "best_time": "Amanecer (8h) o al final de la tarde",
+            "vibe": "Impresionante y emblemático",
+            "good_for": [
+              "Visitantes por primera vez",
+              "Fotografía",
+              "Vistas panorámicas"
+            ]
+          },
+          "image": "/images/rio/christ.jpg",
+          "geo": {
+            "lat": -22.9519,
+            "lng": -43.2105
+          }
+        },
+        {
+          "id": "sight-rio-002",
+          "slug": "sugarloaf-mountain",
+          "name_en": "Pão de Açúcar",
+          "name_local": "Pão de Açúcar",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Una montaña granítica de 396 metros accesible por teleférico. La subida tiene dos etapas, las vistas se vuelven cada vez más impresionantes. La puesta de sol desde la cima es una de las experiencias más románticas de Río.",
+            "history": "Los exploradores portugueses lo nombraron 'Pão de Açúcar' en el siglo XVI debido a su parecido con los moldes de azúcar tradicionales. El sistema de teleférico se inauguró en 1912 y fue revolucionario para su época.",
+            "insider_tip": "Llegue 1,5 horas antes de la puesta de sol. Observe el sol ponerse desde la cima y luego tome el teleférico para descender mientras las luces de la ciudad se encienden. Lleve una chaqueta ligera; puede hacer viento en la cima.",
+            "price_level": "Caro",
+            "duration": "2-3 horas",
+            "best_time": "Puesta de sol (17h-18h)",
+            "vibe": "Romántico y pintoresco",
+            "good_for": [
+              "Parejas",
+              "Fotógrafos",
+              "Buscadores de puestas de sol"
+            ]
+          },
+          "image": "/images/rio/sugarloaf.jpg",
+          "geo": {
+            "lat": -22.9489,
+            "lng": -43.1569
+          }
+        },
+        {
+          "id": "sight-rio-003",
+          "slug": "selaron-steps",
+          "name_en": "Escadaria Selarón",
+          "name_local": "Escadaria Selarón",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Una escalera de mosaico colorido creada por el artista chileno Jorge Selarón. 250 peldaños cubiertos de azulejos de más de 60 países. Un proyecto artístico en constante evolución que se ha convertido en la escalera más fotografiada de Río.",
+            "history": "Selarón comenzó el proyecto en 1990 en homenaje al pueblo brasileño. Trabajó obsesivamente en él hasta su muerte en 2013. Los escalones conectan Lapa y Santa Teresa.",
+            "insider_tip": "Vaya temprano (8-9h) o al final de la tarde (17h) para evitar grupos de turistas. Los escalones son públicos y gratis. Tenga cuidado con los carteristas; hay mucha gente. Combine con un paseo por Santa Teresa.",
+            "price_level": "Gratis",
+            "duration": "30 minutos",
+            "best_time": "Temprano por la mañana o al final de la tarde",
+            "vibe": "Colorido y artístico",
+            "good_for": [
+              "Fotos de Instagram",
+              "Amantes del arte",
+              "Visita rápida"
+            ]
+          },
+          "image": "/images/rio/selaron.jpg",
+          "geo": {
+            "lat": -22.9153,
+            "lng": -43.1792
+          }
+        }
+      ]
+    },
+    {
+      "title": "Playas",
+      "id": "beaches",
+      "items": [
+        {
+          "id": "sight-rio-004",
+          "slug": "copacabana-beach",
+          "name_en": "Playa de Copacabana",
+          "name_local": "Praia de Copacabana",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "La playa más famosa del mundo. Un arco de arena de 4 km con el famoso paseo en mosaico blanco y negro. Lleno de turistas, vendedores de playa, partidos de fútbol y observadores.",
+            "history": "Nombrada en honor a un pueblo boliviano con un famoso santuario de la Virgen María. Se convirtió en el centro turístico de Río en las décadas de 1920-1930. El paseo en mosaico fue diseñado por Burle Marx en los años 70.",
+            "insider_tip": "Cada 'posto' (estación de salvamento) tiene un ambiente diferente. El Posto 4 cerca del Copacabana Palace es más tranquilo. El Posto 6 es frecuentado por los locales. Lleve objetos de valor mínimos - los robos son comunes.",
+            "price_level": "Gratis",
+            "duration": "Mínimo media jornada",
+            "best_time": "Por la mañana o al final de la tarde",
+            "vibe": "Icónico y turístico",
+            "good_for": [
+              "Cultura de la playa",
+              "Observación de personas",
+              "Visitores de primer viaje"
+            ]
+          },
+          "image": "/images/rio/copacabana-beach.jpg",
+          "geo": {
+            "lat": -22.9711,
+            "lng": -43.1822
+          }
+        },
+        {
+          "id": "sight-rio-005",
+          "slug": "ipanema-beach",
+          "name_en": "Playa de Ipanema",
+          "name_local": "Praia de Ipanema",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Más chic y menos turística que Copacabana. El Posto 9 es el epicentro social - donde se reúnen las personas bellas. Agua más limpia, mejor ambiente, y fuente de inspiración para 'La Chica de Ipanema'.",
+            "history": "Famosa por la canción bossa nova de 1962 'La Chica de Ipanema' (Garota de Ipanema). Se convirtió en la playa bohemia de Río en los años 60 y ha evolucionado a un barrio sofisticado.",
+            "insider_tip": "El Posto 9 es la sección amigable LGBT+. El Posto 10 es para familias. Vaya el domingo cuando la Avenida Vieira Souto se cierra a los coches - los locales andan en bicicleta, patinan y hacen picnics.",
+            "price_level": "Gratis",
+            "duration": "Mínimo media jornada",
+            "best_time": "Final de la tarde para ver la puesta de sol",
+            "vibe": "Chic y sofisticado",
+            "good_for": [
+              "Amantes de la playa",
+              "Vistas de puestas de sol",
+              "Observación de personas"
+            ]
+          },
+          "image": "/images/rio/ipanema-beach.jpg",
+          "geo": {
+            "lat": -22.9868,
+            "lng": -43.2045
+          }
+        },
+        {
+          "id": "sight-rio-006",
+          "slug": "arpoador-beach",
+          "name_en": "Playa de Arpoador",
+          "name_local": "Praia do Arpoador",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Una pequeña playa rocosa entre Copacabana e Ipanema, famosa por su puesta de sol. Los locales se reúnen en las rocas cada noche para aplaudir mientras el sol se pone detrás del Morro Dois Irmãos.",
+            "history": "Nombrada 'Arpoador' (arpón) porque los balleneros del siglo XIX utilizaban las rocas para avistar ballenas. La tradición de aplaudir al atardecer comenzó espontáneamente en los años 70 y continúa hoy.",
+            "insider_tip": "Llegue 30 minutos antes de la puesta de sol para conseguir un buen lugar en las rocas. La tradición es aplaudir y gritar cuando el sol toca el horizonte. Lleve una cerveza y únase al ritual.",
+            "price_level": "Gratis",
+            "duration": "1 a 2 horas",
+            "best_time": "Puesta de sol (17h30-18h30)",
+            "vibe": "Tradición local",
+            "good_for": [
+              "Ritual de la puesta de sol",
+              "Fotografía",
+              "Cultura local"
+            ]
+          },
+          "image": "/images/rio/arpoador.jpg",
+          "geo": {
+            "lat": -22.9874,
+            "lng": -43.1903
+          }
+        },
+        {
+          "id": "sight-rio-007",
+          "slug": "prainha-beach",
+          "name_en": "Playa de Prainha",
+          "name_local": "Prainha",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Una pequeña playa preservada a 45 minutos al oeste de la ciudad. Rodeada de montañas exuberantes y protegida como reserva ambiental. Popular entre surfistas y amantes de la naturaleza.",
+            "history": "Permaneció sin desarrollar debido a las leyes de protección ambiental. Mantiene su carácter salvaje y natural. Los surfistas locales la han protegido de la sobreconstrucción durante décadas.",
+            "insider_tip": "No hay infraestructura en la playa - lleve comida, agua y protector solar. El aparcamiento se llena antes de las 11h los fines de semana. Las mejores olas para surfear en Río, pero las corrientes fuertes hacen que nadar sea peligroso para no surfistas.",
+            "price_level": "Gratis",
+            "duration": "Media jornada",
+            "best_time": "Las mañanas entre semana",
+            "vibe": "Salvaje y preservada",
+            "good_for": [
+              "Surfistas",
+              "Amantes de la naturaleza",
+              "Escapar de las multitudes"
+            ]
+          },
+          "image": "/images/rio/prainha.jpg",
+          "geo": {
+            "lat": -23.0442,
+            "lng": -43.5028
+          }
+        }
+      ]
+    },
+    {
+      "title": "Naturaleza y Parques",
+      "id": "nature",
+      "items": [
+        {
+          "id": "sight-rio-008",
+          "slug": "tijuca-forest",
+          "name_en": "Parque Nacional de Tijuca",
+          "name_local": "Floresta da Tijuca",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "La mayor selva tropical urbana del mundo. Senderos que llevan a cascadas, miradores y fauna. Alberga al Cristo Redentor. Un escape perfecto de las multitudes de la playa hacia la naturaleza.",
+            "history": "Inicialmente desforestada para plantaciones de café en los años 1800. El emperador Pedro II ordenó la reforestación en 1861—el primer proyecto de reforestación a gran escala en la historia. Ahora es un sitio del patrimonio mundial de la UNESCO.",
+            "insider_tip": "Contrate un guía para su seguridad y observar la fauna (monos, tucanes). El sendero de la cascada Cascatinha es fácil y hermoso. No haga senderismo solo—los caminos son aislados. Vaya por la mañana antes del calor/la lluvia.",
+            "price_level": "Gratis (guía adicional)",
+            "duration": "Media jornada",
+            "best_time": "Temprano en la mañana",
+            "vibe": "Aventura en la selva",
+            "good_for": [
+              "Senderistas",
+              "Amantes de la naturaleza",
+              "Observación de fauna"
+            ]
+          },
+          "image": "/images/rio/tijuca.jpg",
+          "geo": {
+            "lat": -22.9628,
+            "lng": -43.2839
+          }
+        },
+        {
+          "id": "sight-rio-009",
+          "slug": "botanical-garden",
+          "name_en": "Jardín Botánico de Rio",
+          "name_local": "Jardim Botânico",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un jardín sereno de 140 hectáreas con más de 6,000 especies de plantas. Famoso por su majestuoso alineamiento de palmeras reales. Un escape pacífico de la intensidad de Rio con lagos, orquídeas y esculturas.",
+            "history": "Fundado en 1808 por el príncipe regente portugués João VI para cultivar especias de las Indias occidentales. Inicialmente un jardín real privado, abierto al público en 1822 tras la independencia.",
+            "insider_tip": "Vaya por la mañana entre semana para la soledad. El jardín japonés y el jardín sensorial son tesoros ocultos. Lleve repelente de insectos. El café dentro ofrece excelentes jugos frescos.",
+            "price_level": "Asequible",
+            "duration": "2-3 horas",
+            "best_time": "Mañanas entre semana",
+            "vibe": "Pacífico y botánico",
+            "good_for": [
+              "Amantes de las plantas",
+              "Tiempo tranquilo",
+              "Fotografía"
+            ]
+          },
+          "image": "/images/rio/botanical.jpg",
+          "geo": {
+            "lat": -22.967,
+            "lng": -43.2247
+          }
+        },
+        {
+          "id": "sight-rio-010",
+          "slug": "parque-lage",
+          "name_en": "Parque Lage",
+          "name_local": "Parque Lage",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Una magnífica mansión y jardines al pie del Corcovado. El café dentro de la mansión ofrece vistas del Cristo Redentor a través de los arcos. Entrada gratuita, ambiente romántico, lugar popular para fotos.",
+            "history": "Construido a principios de 1900 para el industrial Henrique Lage y su esposa cantante de ópera. La mansión ahora alberga una escuela de arte (EAV). Los jardines fueron diseñados por el arquitecto paisajista inglés John Tyndale.",
+            "insider_tip": "El café es el paraíso de los Instagrammers—vaya temprano para evitar las multitudes. Hay senderos gratuitos que conducen a la selva de Tijuca desde aquí. Los fines de semana, a menudo hay exposiciones y actuaciones al aire libre.",
+            "price_level": "Gratis (café asequible)",
+            "duration": "1-2 horas",
+            "best_time": "Mañana para fotos",
+            "vibe": "Romántico y artístico",
+            "good_for": [
+              "Fotos de Instagram",
+              "Relajación",
+              "Arquitectura"
+            ]
+          },
+          "image": "/images/rio/parque-lage.jpg",
+          "geo": {
+            "lat": -22.9596,
+            "lng": -43.2108
+          }
+        }
+      ]
+    },
+    {
+      "title": "Cultura y Vida Nocturna",
+      "id": "culture",
+      "items": [
+        {
+          "id": "sight-rio-011",
+          "slug": "lapa-arches",
+          "name_en": "Arcos de Lapa",
+          "name_local": "Arcos da Lapa",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un acueducto del siglo XVIII que es ahora el símbolo de la vida nocturna de Río. La zona de abajo se transforma en fiestas callejeras (rodas de samba) los viernes y sábados por la noche. Bares, clubes y música en vivo por todas partes.",
+            "history": "Construido en 1750 para transportar agua de Santa Teresa al centro de la ciudad. Convertido en viaducto de tranvía en 1896. Ahora conecta el distrito de vida nocturna de Lapa con las colinas bohemias de Santa Teresa.",
+            "insider_tip": "Vaya después de las 22h cuando comienza la fiesta callejera. Manténgase en grupo y cuide sus objetos de valor; hay carteristas en las multitudes. Los clubes cercanos como el Rio Scenarium y el Carioca da Gema ofrecen samba en vivo.",
+            "price_level": "Variable",
+            "duration": "3-5 horas",
+            "best_time": "Viernes/sábados por la noche después de las 22h",
+            "vibe": "Vida nocturna salvaje",
+            "good_for": [
+              "Fiesteros",
+              "Amantes de la samba",
+              "Noctámbulos"
+            ]
+          },
+          "image": "/images/rio/lapa-arches.jpg",
+          "geo": {
+            "lat": -22.9131,
+            "lng": -43.1792
+          }
+        },
+        {
+          "id": "sight-rio-012",
+          "slug": "maracana-stadium",
+          "name_en": "Estadio Maracanã",
+          "name_local": "Estádio do Maracanã",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "La catedral emblemática del fútbol que ha acogido dos finales de la Copa del Mundo (1950, 2014) y la ceremonia de apertura de los Juegos Olímpicos de 2016. Asista a un partido de Flamengo o Fluminense para sentir la pasión del fútbol brasileño.",
+            "history": "Construido para la Copa del Mundo de 1950. Antes podía albergar más de 200 000 espectadores (ahora 78 000 después de las renovaciones). Lugar del 1,000.º gol de Pelé. La energía durante un derby Flamengo vs. Fluminense es inolvidable.",
+            "insider_tip": "Compra entradas en línea con anticipación. Siéntese en la parte inferior para disfrutar del ambiente. Vístase con los colores de su equipo o colores neutros; nunca los colores rivales. La emoción antes del partido es tan emocionante como el juego.",
+            "price_level": "Moderado",
+            "duration": "3-4 horas",
+            "best_time": "Días de partido (fines de semana)",
+            "vibe": "Cultura del fútbol electrizante",
+            "good_for": [
+              "Aficionados al fútbol",
+              "Experiencia cultural",
+              "Adrenalina"
+            ]
+          },
+          "image": "/images/rio/maracana.jpg",
+          "geo": {
+            "lat": -22.9122,
+            "lng": -43.2302
+          }
+        },
+        {
+          "id": "sight-rio-013",
+          "slug": "santa-teresa-tram",
+          "name_en": "Tranvía de Santa Teresa",
+          "name_local": "Bondinho de Santa Teresa",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un tranvía vintage amarillo que sube desde el centro de la ciudad al barrio bohemio de Santa Teresa. Cruza los Arcos de Lapa y ofrece vistas impresionantes. Uno de los últimos sistemas de tranvías en funcionamiento en Brasil.",
+            "history": "Inaugurado en 1877, lo que lo convierte en uno de los sistemas de tranvías más antiguos de América Latina. Suspendido en 2011 tras un accidente, se reabrió parcialmente en 2015. Un ícono de Río querido por los locales y turistas.",
+            "insider_tip": "Actualmente, solo una línea funciona (de Largo da Carioca a Largo do Guimarães). Funciona rara vez; verifique los horarios. Siéntese del lado derecho para las mejores vistas. Explore Santa Teresa después; está lleno de bares y talleres de arte.",
+            "price_level": "Asequible",
+            "duration": "30 minutos (solo recorrido)",
+            "best_time": "Tarde de la tarde",
+            "vibe": "Nostálgico y pintoresco",
+            "good_for": [
+              "Apasionados de la historia",
+              "Paseos pintorescos",
+              "Fotografía"
+            ]
+          },
+          "image": "/images/rio/tram.jpg",
+          "geo": {
+            "lat": -22.9138,
+            "lng": -43.1869
+          }
+        },
+        {
+          "id": "sight-rio-014",
+          "slug": "pedra-do-sal",
+          "name_en": "Pedra do Sal",
+          "name_local": "Pedra do Sal",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Una plaza histórica de piedra en la zona portuaria donde nació la samba. Rondas de samba gratuitas al aire libre los lunes y viernes por la noche. Los locales bailan, cantan y beben en la calle hasta tarde.",
+            "history": "Antiguo sitio del mercado de esclavos durante la época colonial. Los africanos esclavizados se reunían aquí para mantener sus tradiciones culturales a través de la música y la danza. Considerado como la cuna de la samba moderna.",
+            "insider_tip": "Vaya los lunes por la noche; es el más auténtico y local. Llegue hacia las 20h para obtener espacio cerca de los músicos. Lleve dinero para las bebidas de los vendedores callejeros. Tenga cuidado con sus pertenencias.",
+            "price_level": "Gratis",
+            "duration": "2-4 horas",
+            "best_time": "Lunes por la noche (a partir de las 20h)",
+            "vibe": "Crudo y cultural",
+            "good_for": [
+              "Amantes de la samba",
+              "Inmersión cultural",
+              "Experiencia local"
+            ]
+          },
+          "image": "/images/rio/pedra-sal.jpg",
+          "geo": {
+            "lat": -22.894,
+            "lng": -43.184
+          }
+        }
+      ]
+    },
+    {
+      "title": "Miradores",
+      "id": "viewpoints",
+      "items": [
+        {
+          "id": "sight-rio-015",
+          "slug": "mirante-dona-marta",
+          "name_en": "Mirador Dona Marta",
+          "name_local": "Mirante Dona Marta",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un mirador con helicóptero que ofrece vistas de 360° sobre Río: Cristo, Pan de Azúcar, playas y favelas. Famoso gracias al videoclip de Michael Jackson 'They Don't Care About Us'. Las mejores vistas para la fotografía.",
+            "history": "Situado en la colina de la favela Dona Marta. Se hizo conocido internacionalmente tras el rodaje de Michael Jackson aquí en 1996. La comunidad ha abrazado el turismo mientras preserva su carácter local.",
+            "insider_tip": "Vaya con un tour o un conductor privado; no navegue solo. El atardecer y la hora azul son mágicos para las fotos. Pequeños cafés venden bebidas y snacks. La comunidad es segura, pero respete el espacio de los locales.",
+            "price_level": "Gratis (transporte adicional)",
+            "duration": "1-2 horas",
+            "best_time": "Atardecer o a finales de la tarde",
+            "vibe": "Panorámico y asombroso",
+            "good_for": [
+              "Fotógrafos",
+              "Buscadores de atardeceres",
+              "Vistas amplias"
+            ]
+          },
+          "image": "/images/rio/dona-marta.jpg",
+          "geo": {
+            "lat": -22.9491,
+            "lng": -43.1943
+          }
+        },
+        {
+          "id": "sight-rio-016",
+          "slug": "pedra-bonita",
+          "name_en": "Pedra Bonita",
+          "name_local": "Pedra Bonita",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Una cima de 696 m accesible por una caminata relativamente fácil de 1,5 horas. Punto de lanzamiento para parapentes. Vistas panorámicas de toda la zona sur, playas y montañas. Popular entre los senderistas locales.",
+            "history": "Es un sitio de lanzamiento de parapente desde los años 1970. El nombre significa 'piedra bonita'. Forma parte del parque nacional de Tijuca. Utilizado para entrenar a parapentistas olímpicos brasileños.",
+            "insider_tip": "Comience temprano (7-8 a.m.) para evitar el calor. El sendero es moderado pero tiene algunas secciones empinadas. Sin tarifas de entrada. Lleve agua y snacks. Observe a los parapentistas despegar si tiene la oportunidad (10 a.m.-2 p.m.).",
+            "price_level": "Gratis",
+            "duration": "3-4 horas (ida y vuelta)",
+            "best_time": "Temprano en la mañana",
+            "vibe": "Caminata aventurera",
+            "good_for": [
+              "Senderistas",
+              "Amantes de la naturaleza",
+              "Vistas sin multitudes"
+            ]
+          },
+          "image": "/images/rio/pedra-bonita.jpg",
+          "geo": {
+            "lat": -22.9953,
+            "lng": -43.2831
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "8:00 AM",
+      "title": "Amanecer en el Cristo Redentor",
+      "description": "Comience su día en la cima—literalmente. Tómese la primera lancha hacia la cima del monte Corcovado para evitar las multitudes. Observe el amanecer iluminando las playas y montañas de Río desde una altura de 710 metros. La luz dorada de la mañana ofrece las mejores fotos, y tendrá la estatua casi solo para usted durante 30 a 45 minutos.",
+      "image": "/images/rio/christ-morning.jpg",
+      "ticket_link": "https://www.getyourguide.com/rio-de-janeiro-l61/"
+    },
+    {
+      "time": "11:00 AM",
+      "title": "Playa de Ipanema & Açaí",
+      "description": "Diríjase a Posto 9 en la playa de Ipanema, el epicentro social de Río. Alquile una silla y una sombrilla, nade en el Atlántico y observe a bellas personas jugar al footvolley. Tómese un bol de açaí de un vendedor de playa para recargar energías. Es el apogeo de la cultura carioca.",
+      "image": "/images/rio/ipanema-morning.jpg"
+    },
+    {
+      "time": "14:00",
+      "title": "Almuerzo: Feijoada en un restaurante tradicional",
+      "description": "El sábado es el día de la feijoada. Dirígete a un restaurante tradicional en Ipanema o en Leblon para degustar el plato nacional de Brasil: un guiso de frijoles negros cocido lentamente con cerdo y carne de res. Se sirve con arroz, farofa, gajos de naranja y hojas de repollo. Es una comida relajada y comunitaria para disfrutar durante 1,5 a 2 horas.",
+      "image": "/images/rio/feijoada-lunch.jpg"
+    },
+    {
+      "time": "17h00",
+      "title": "Atardecer en Arpoador",
+      "description": "Déjese llevar hasta Arpoador, el punto rocoso entre Copacabana e Ipanema. Reserve un lugar en las rocas 30 minutos antes del atardecer. Cuando el sol toque el horizonte detrás de los Dos Hermanos, únase a los locales para aplaudir—una tradición de Río. Lleve una cerveza fría o una caipirinha de un quiosco cercano.",
+      "image": "/images/rio/arpoador-sunset.jpg"
+    },
+    {
+      "time": "20h00",
+      "title": "Escaleras Selarón y Santa Teresa",
+      "description": "Tome un Uber hacia las famosas Escaleras Selarón, una obra maestra en mosaico que conecta Lapa y Santa Teresa. Suba las coloridas escaleras y explore el barrio bohemio de Santa Teresa. Calles sinuosas, casas coloniales, galerías de arte y bares con música en vivo. Perfecto para una exploración antes de la cena.",
+      "image": "/images/rio/selaron-night.jpg"
+    },
+    {
+      "time": "22:00",
+      "title": "Samba y Caipirinhas en Lapa",
+      "description": "Finalice su noche en Lapa, el centro neurálgico de la vida nocturna de Río. Visite un club de samba tradicional como el Rio Scenarium o únase a la fiesta callejera bajo los Arcos de Lapa. La música en vivo, el baile y las caipirinhas fluyen hasta el amanecer. Aquí está Río en toda su energía y alegría. Mantenga la atención en su entorno y permanezca con su grupo.",
+      "image": "/images/rio/lapa-night.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "name": "Funda de teléfono impermeable",
+      "reason": "Indispensable para los días en la playa. Mantenga su teléfono a salvo del agua, la arena y los ladrones mientras nada.",
+      "image_url": "https://m.media-amazon.com/images/I/71K7fqVqvdL._AC_SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B07VPZT1DH?tag=canibringonpl-20"
+    },
+    {
+      "name": "Protector solar respetuoso con los arrecifes SPF 50+",
+      "reason": "El sol de Río es brutal. Necesita un SPF de 50 como mínimo. Reaplique cada 2 horas. El sol brasileño no es una broma.",
+      "image_url": "https://m.media-amazon.com/images/I/71wFPvLKExL._SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B004XGPMFA?tag=canibringonpl-20"
+    },
+    {
+      "name": "Toalla de Playa de Secado Rápido",
+      "reason": "Ligera, compacta y se seca rápidamente entre las sesiones en la playa. Las toallas tradicionales permanecen húmedas en la humedad de Río.",
+      "image_url": "https://m.media-amazon.com/images/I/81iEXhZPk8L._AC_SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B07H3J6TPN?tag=canibringonpl-20"
+    },
+    {
+      "name": "Guía de frases en portugués",
+      "reason": "El inglés es limitado fuera de las zonas turísticas. Frases básicas en portugués pueden ayudar mucho con los locales.",
+      "image_url": "https://m.media-amazon.com/images/I/51jTjYv2tPL._SX348_BO1,204,203,200_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/1786574756?tag=canibringonpl-20"
+    }
+  ],
+  "region": "South America"
+}

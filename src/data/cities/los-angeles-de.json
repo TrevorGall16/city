@@ -1,0 +1,807 @@
+{
+  "id": "city-006",
+  "name": "Los Angeles",
+  "slug": "los-angeles",
+  "lat": 34.0522,
+  "lng": -118.2437,
+  "country": "United States",
+  "country_code": "us",
+  "hero_image": "/images/los-angeles/hero.jpg",
+  "intro_vibe": {
+    "description": "Ein Netzwerk von Mikrostädten, die durch Autobahnen, Ambitionen und Tacos verbunden sind."
+  },
+  "general_info": {
+    "population": "~4 Millionen (Stadt) / ~13 Millionen (Metropolregion)",
+    "is_capital": false,
+    "description": "Los Angeles ist keine einzelne Stadt; es ist eine riesige Sammlung von unterschiedlichen Stadtvierteln (Mikrostädten), die durch den Verkehr getrennt sind. Vom rauen Hollywood über das Zen von Malibu bis zu den hipster Hügeln von Silver Lake. Es ist eine Stadt, die durch ihre Vielfalt, ihre Autokultur und ihre kreative Energie geprägt ist. Versuchen Sie nicht, 'alles zu sehen' – wählen Sie ein Stadtviertel und leben Sie darin."
+  },
+  "stats": {
+    "currency": "$",
+    "plug_type": "Typ A/B"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "Januar",
+      "temp": "9°C - 20°C",
+      "vibe": "ruhiger Winter",
+      "pros": [
+        "weniger Leute",
+        "grüne Hügel",
+        "niedrige Preise"
+      ],
+      "cons": [
+        "es kann regnen",
+        "am Strand ist es kalt"
+      ],
+      "clothing": "leichte Jacke, Schichten tragen"
+    },
+    {
+      "id": 2,
+      "name": "Februar",
+      "temp": "9°C - 20°C",
+      "vibe": "Kühl und voller Grün",
+      "pros": [
+        "Wunderschöne Wildblumen",
+        "Die Aufregung der Oscar-Saison",
+        "Gutes Wetter"
+      ],
+      "cons": [
+        "Manchmal Regen",
+        "Kühle Nächte"
+      ],
+      "clothing": "Schichten tragen, leichte Jacke"
+    },
+    {
+      "id": 3,
+      "name": "März",
+      "temp": "11°C - 21°C",
+      "vibe": "Beginn des Frühlings",
+      "pros": [
+        "Perfektes Wetter",
+        "Blumen blühen",
+        "Die Tage werden länger"
+      ],
+      "cons": [
+        "Menschenmengen während der Frühlingsferien"
+      ],
+      "clothing": "T-Shirt, leichte Kleidung"
+    },
+    {
+      "id": 4,
+      "name": "April",
+      "temp": "13°C - 22°C",
+      "vibe": "Ideal",
+      "pros": [
+        "Das beste Wetter",
+        "Die Atmosphäre des Coachella",
+        "Die Strandsaison beginnt"
+      ],
+      "cons": [
+        "Die Anzahl der Touristen steigt",
+        "Die Preise werden steigen"
+      ],
+      "clothing": "Leichte Kleidung, Sonnencreme"
+    },
+    {
+      "id": 5,
+      "name": "Mayo",
+      "temp": "15°C - 23°C",
+      "vibe": "Mayo Grigio",
+      "pros": [
+        "Angenehme Temperaturen",
+        "Ideal zum Wandern",
+        "Strände, die nicht zu heiß sind"
+      ],
+      "cons": [
+        "Meeresnebel (schlechte Sicht am Morgen)",
+        "Eintreffen der tristen Juni-Wetter"
+      ],
+      "clothing": "Tragen Sie Schichten für den morgendlichen Nebel"
+    },
+    {
+      "id": 6,
+      "name": "Juni",
+      "temp": "17°C - 25°C",
+      "vibe": "Die Melancholie des Juni",
+      "pros": [
+        "Es ist frisch und angenehm",
+        "Die Sommerveranstaltungen beginnen",
+        "Die Schulen haben geschlossen"
+      ],
+      "cons": [
+        "Es kann bewölkte Morgen geben",
+        "Am Strand kann es kühl sein"
+      ],
+      "clothing": "Vergessen Sie nicht, leichte Kleidung und einen Parka für den Morgen mitzunehmen."
+    },
+    {
+      "id": 7,
+      "name": "Juli",
+      "temp": "19°C - 28°C",
+      "vibe": "Dies ist der Höhepunkt des Sommers.",
+      "pros": [
+        "Feuerwerke am 4. Juli",
+        "Ausgezeichnetes Wetter für den Strand",
+        "Konzerte und Festivals"
+      ],
+      "cons": [
+        "Überfüllte Strände",
+        "Preise der Hochsaison"
+      ],
+      "clothing": "Strandkleidung, Sonnenhut"
+    },
+    {
+      "id": 8,
+      "name": "August",
+      "temp": "19°C - 29°C",
+      "vibe": "Es ist warm und geschäftig.",
+      "pros": [
+        "Es ist das wärmste Wetter.",
+        "Genießen Sie Außenfilme.",
+        "Die Gelegenheit, lange Tage am Strand zu verbringen."
+      ],
+      "cons": [
+        "Es ist sehr überfüllt.",
+        "Es kann Hitzewellen geben."
+      ],
+      "clothing": "Tragen Sie minimale Kleidung und verwenden Sie viel Sonnencreme."
+    },
+    {
+      "id": 9,
+      "name": "September",
+      "temp": "18°C - 28°C",
+      "vibe": "Der beste Monat für den Strand",
+      "pros": [
+        "Die Wassertemperatur steigt",
+        "Weniger Menschenmengen",
+        "Perfektes Wetter"
+      ],
+      "cons": [
+        "Möglichkeit einer Hitzewelle",
+        "Feuergefahr"
+      ],
+      "clothing": "Sommerkleidung, bereiten Sie sich auf den Strand vor"
+    },
+    {
+      "id": 10,
+      "name": "Oktober",
+      "temp": "16°C - 26°C",
+      "vibe": "Goldener Herbst",
+      "pros": [
+        "wunderschöne Wetterbedingungen",
+        "Freude an Halloween",
+        "weniger Touristen"
+      ],
+      "cons": [
+        "Santa Ana-Winde",
+        "Brandgefahr"
+      ],
+      "clothing": "leichte Schichten, Sonnenbrille"
+    },
+    {
+      "id": 11,
+      "name": "November",
+      "temp": "12°C - 23°C",
+      "vibe": "Gemütlich",
+      "pros": [
+        "Das beste Wetter für Wanderungen",
+        "Dankbarkeit liegt in der Luft",
+        "Preise sind günstig"
+      ],
+      "cons": [
+        "Die Tage werden kürzer",
+        "Es besteht die Möglichkeit von Regen"
+      ],
+      "clothing": "Leichte Jacke, bequeme Schuhe"
+    },
+    {
+      "id": 12,
+      "name": "Dezember",
+      "temp": "9°C - 20°C",
+      "vibe": "Festliche Atmosphäre",
+      "pros": [
+        "Festliche Beleuchtung",
+        "Vorbereitungen für den Ros Bowl",
+        "Angenehmes Wetter"
+      ],
+      "cons": [
+        "Möglichkeit von Regen",
+        "Höhere Hotelpreise"
+      ],
+      "clothing": "Schichten, Regenbekleidung"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "Die Distanz Realität: Distanz ist psychologisch, nicht geografisch. 5 km können 45 Minuten dauern. Einheimische messen Distanz in 'Zeit', nicht in Meilen. 'Es ist nah' bedeutet, es ist *jetzt* nah.",
+      "Freundlich, aber oberflächlich: Die Menschen werden Ihre Schuhe loben, fragen, woher Sie kommen, und sagen: 'Wir sollten uns treffen'. Das ist Höflichkeit, kein Engagement. Genießen Sie die Herzlichkeit, aber interpretieren Sie sie nicht über.",
+      "Lässig ist ein Code: Flip-Flops und Sportbekleidung sind überall normal, aber verwechseln Sie 'lässig' nicht mit 'nachlässig'. In LA ist entspannt auszusehen eine Form des sozialen Status. Sie können Jeans zu einem 100 $ Abendessen tragen.",
+      "Die Auto-Schutz: Das Auto ist persönlicher Raum. Menschen halten an Ampeln keinen Blickkontakt. Sie singen, telefonieren und existieren in Einsamkeit. Hupen ist selten und aggressiv.",
+      "Dining Rhythmus: Das Abendessen ist um 20 Uhr. Reservierungen sind unerlässlich. Diätetische Einschränkungen (Vegan, Glutenfrei, Keto) werden überall ohne Frage berücksichtigt – es ist Teil der Infrastruktur.",
+      "Trinkgeld Landschaft: 18-20 % sind Standard. Aber auch: Valets erwarten 2-5 $. Barkeeper erhalten 1-2 $ pro Getränk. Haarschnitte und Schönheitsdienste erwarten 20 %.",
+      "Parkschilder sind feindlich: Lesen Sie das Schild. Dann lesen Sie das zweite Schild. Roter Bordstein = Kein Parken. Gelb = Gewerbliche Beladung. Weiß = Passagierbeladung. Straßenreinigungstage = garantiertes Ticket."
+    ],
+    "essential_phrases": [
+      {
+        "src": "Hello",
+        "local": "Hey / Was ist los",
+        "phonetic": "standard American"
+      },
+      {
+        "src": "Thank you",
+        "local": "Danke / Ich schätze es",
+        "phonetic": "standard"
+      },
+      {
+        "src": "Excuse me",
+        "local": "Entschuldigung / Pardon me",
+        "phonetic": "standard"
+      },
+      {
+        "src": "Where is...?",
+        "local": "Wo ist...?",
+        "phonetic": "standard"
+      },
+      {
+        "src": "The 405",
+        "local": "Die 405",
+        "phonetic": "Die vier-zwei-fünf (Immer 'Die' vor Autobahnnummern hinzufügen)"
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Silver Lake und Echo Park",
+      "vibe": "kreativ und modern",
+      "description": "In den Hügeln im östlichen Teil von LA. Es gibt antike Geschäfte, unabhängige Cafés, steile Treppen und eine sehr lokale Gemeinschaftsatmosphäre. Hier leben wirklich die 'coolen' Leute.",
+      "highlights": [
+        "Sunset Junction",
+        "Echo Park Lake",
+        "Vintage Shopping"
+      ],
+      "image": "/images/los-angeles/silver-lake.jpg"
+    },
+    {
+      "name": "Santa Monica",
+      "vibe": "Strand und Atmosphäre",
+      "description": "Dies ist eine schöne und leicht zu erkundende Küstenstadt. Sie ist ideal für Anfänger und Familien. Im Gegensatz zum nahegelegenen Venice bietet sie ein sicheres und sauberes Ambiente. Der Bereich der Hauptstraße bietet ein lokaleres Erlebnis als die Piers.",
+      "highlights": [
+        "Piers",
+        "Parks",
+        "Wochenmarkt"
+      ],
+      "image": "/images/los-angeles/santa-monica.jpg"
+    },
+    {
+      "name": "West Hollywood (WeHo)",
+      "vibe": "Nachtleben und LGBTQ+ Atmosphäre",
+      "description": "Hier ist das Zentrum des Feierns. An der berühmten Sunset Strip gibt es lebhafte LGBTQ+ Viertel mit bekannten Rockclubs und die Santa Monica Blvd. Es ist voller Energie und sehr fußgängerfreundlich, zudem hat es eine historisch bedeutende Rolle.",
+      "highlights": [
+        "Sunset Strip",
+        "Pacific Design Center",
+        "Comedy Store"
+      ],
+      "image": "/images/los-angeles/weho.jpg"
+    },
+    {
+      "name": "Cortyeye de Zar (DTLA)",
+      "vibe": "Urban und industriell",
+      "description": "Ein neu gestaltetes Lagerhaus, geschmückt mit Bierbrauereien, Galerien und hochwertigen Restaurants. Bitte beachten Sie: DTLA hat seine Besonderheiten. Ein Bereich ist trendy, aber seine Nachbarschaft (Skid Row) sieht sich der Menschheitskrise gegenüber. Bitte gehen Sie sensibel damit um.",
+      "highlights": [
+        "Hauser und Wills",
+        "Arts District Brewing",
+        "Nahegelegenes Little Tokyo"
+      ],
+      "image": "/images/los-angeles/arts-district.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-survival",
+      "slug": "local-survival",
+      "title": "Lokaler Lebensführer",
+      "icon": "Information",
+      "summary": "Wichtige Informationen für eine angenehme Reise in Los Angeles.",
+      "details": [
+        "Uber-Strategie: Warten Sie nicht, bis Sie nach draußen gehen, um ein Auto zu rufen. Bitte rufen Sie 10-15 Minuten im Voraus an. Die Entfernung kann lang sein und die Fahrer sind oft weit entfernt.",
+        "Sonnenuntergang: Die Sonne geht im Meer unter. Planen Sie Ihre Tagesaktivitäten so, dass Sie die Aussicht nach Westen (Santa Monica/Malibu) genießen können. Allerdings kann der Verkehr nach Westen um 17 Uhr problematisch sein.",
+        "Stumme Menschen: Es ist eine alltägliche Realität, hier mit Obdachlosen konfrontiert zu werden. Die meisten Menschen interagieren nicht mit ihnen. Vermeiden Sie jeglichen Kontakt, Augenkontakt oder das Filmen. Gehen Sie einfach ruhig weiter.",
+        "Zebrastreifen: Dies wurde kürzlich von Verbrechen befreit, aber Autofahrer sind sich noch nicht daran gewöhnt. Das Anhalten von Autos auf dem Zebrastreifen ist nicht sicher für Sie.",
+        "Meeresnebel: 'Grauer Mai' und 'Dunkler Juni' sind eine Realität. Die Strände sind oft neblig und morgens kühl. Planen Sie keinen Strandtag an den Morgen zu Beginn des Sommers."
+      ]
+    },
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Fortbewegung",
+      "icon": "Zug",
+      "summary": "Sie benötigen möglicherweise ein Auto. Der öffentliche Verkehr ist unzuverlässig.",
+      "details": [
+        "Auto mieten: Unverzichtbar, um Malibu, Wanderwege und verschiedene Gebiete zu erkunden. Ein Auto ist der Reisepass für die Stadt.",
+        "Die Realität des öffentlichen Verkehrs: Es gibt eine U-Bahn (die Extralinie ist gut, um zum Strand zu gelangen), aber sie ist unzuverlässig. Anwohner mit Autos nutzen sie kaum. Nachts ist der Service eingeschränkt.",
+        "Uber/Lyft: Möglich für Ausflüge, könnte aber aufgrund der Größe der Stadt teuer sein. Bereiten Sie sich darauf vor, über 30€ für eine 20-minütige Fahrt zu zahlen.",
+        "Zu Fuß gehen: In bestimmten Bereichen (wie bei einem Spaziergang in Silver Lake) möglich, aber zwischen den Regionen ist es kaum machbar."
+      ]
+    },
+    {
+      "id": "logistics-parking",
+      "slug": "parking-reality",
+      "title": "Parkfähigkeiten",
+      "icon": "MapPin",
+      "summary": "Parken ist wirklich ein Kampfspiel. Sie sollten die Farben der Bürgersteige kennen.",
+      "details": [
+        "Roter Bürgersteig: Parken ist verboten. Ihr Auto wird sofort abgeschleppt.",
+        "Gelber Bürgersteig: Nur für kommerzielles Be- und Entladen (normalerweise von 7 bis 18 Uhr). Nach dieser Zeit kann für kurze Zeit geparkt werden (achten Sie genau auf die Schilder).",
+        "Weißer Bürgersteig: Nur für Passagierbe- und entladung. Maximal 5 Minuten. Der Fahrer muss im Auto bleiben.",
+        "Straßenreinigung: Achten Sie auf die Schilder. Wenn dort steht 'Parkverbot Dienstag von 10 bis 12 Uhr', wird ab 10:01 Uhr ein Bußgeld verhängt.",
+        "Valet-Kultur: In vielen Restaurants gibt es kein kostenloses Parken. Valet-Service ist Pflicht ($10-15 + Trinkgeld). Halten Sie etwas Bargeld bereit."
+      ]
+    },
+    {
+      "id": "logistics-dining",
+      "slug": "dining-protocol",
+      "title": "Speisenlogistik",
+      "icon": "utensils",
+      "summary": "Reservierungen, Trinkgeld und schnell servierte Speisen.",
+      "details": [
+        "Reservierungen: In beliebten Restaurants sind Reservierungen für das Abendessen erforderlich. Am Wochenende ist der Zutritt ohne Reservierung fast nicht möglich. Nutzen Sie Resy oder OpenTable 1-2 Wochen im Voraus.",
+        "Tipp: Der Mindeststandard für Tischservice liegt bei 18-20%. Bedienungsgeld ist nicht enthalten. 15% bedeutet, dass der Service unzufriedenstellend war. Ein Trinkgeld von 1€ an der Bar ist üblich.",
+        "Essenszeiten: Unglaublich früh. Die Küchen vieler Restaurants schließen um 21:30 oder 22:00 Uhr. Das gilt auch am Wochenende. Für Mitternachtsessen sind spezielle Bereiche (K-Town, Tacos) begrenzt.",
+        "Speisevielfalt: Los Angeles gehört zu den freundlichsten Städten der Welt. Glutenfreie, vegetarische und ketogene Menüoptionen sind Standard und erfordern keine besondere Aufmerksamkeit."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-scams",
+      "title": "Sicherheit und Betrug",
+      "icon": " shield ",
+      "summary": "Betrug und Sicherheit im Auto in Hollywood.",
+      "details": [
+        "CD-Betrug: Einige Leute versuchen, auf dem Hollywood Boulevard Ihnen 'kostenlose' Musik-CDs zu geben oder sie zu Ihnen zu bringen. Wenn Sie annehmen, kommen sie herum und verlangen Geld. Bitte nehmen Sie es nicht an. Halten Sie Ihre Hände in der Tasche.",
+        "Kostümfiguren: Für Fotos mit Spider-Man oder Elmo auf dem Walk of Fame verlangen sie 20 Dollar. Sie können aufdringlich sein.",
+        "Autodiebstahl: Lassen Sie nichts in Ihrem Mietwagen sichtbar. Hinterlassen Sie keine Ladegeräte, Jacken, Taschen usw. an Sehenswürdigkeiten, da 'schneller Diebstahl' häufig vorkommt.",
+        "Venice Boardwalk: Tagsüber ist es sehr belebt, aber nachts kann es verdächtig sein. Halten Sie sich nach Sonnenuntergang vom Boardwalk und Strand fern."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Wichtige Apps zum Herunterladen",
+      "icon": "Smartphone",
+      "summary": "Digitale Werkzeuge zur Erkundung der Stadt.",
+      "details": [
+        "SpotHero: Finden und buchen Sie Parkplätze zu günstigen Preisen. Besonders wichtig im Stadtzentrum und in Santa Monica.",
+        "Resy / OpenTable: Die einzige Möglichkeit, einen Tisch für das Abendessen zu sichern.",
+        "Google Maps: Bietet bessere Verkehrsinfos für LA als Apple Maps. Berücksichtigt geschätzte Ankunftszeiten und aktuelle Verkehrssituationen.",
+        "Citizen: Echtzeit-Sicherheitswarnungen basierend auf Ihrem Standort. Hilft, die Lage besser zu verstehen."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "mexican-ecosystem",
+      "name_en": "Mexikanisches Ökosystem",
+      "name_local": "Mexikanische Küche",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Los Angeles ist der beste Ort, um mexikanisches Essen zu genießen, wo verschiedene regionale Stile aus Oaxaca, Jalisco und Yucatán zusammentreffen. Tacos mit Al Pastor (schnell gegrilltes Schweinefleisch) werden in Taco-Trucks schnell und lecker serviert. Taquerías sind Restaurants, wo Sie regionale Spezialitäten wie Mole Negro, Cochinita Pibil und Bialy genießen können. Die Essensstile reichen von 1-Dollar-Straßen-Tacos bis hin zu hochwertigen modernen mexikanischen Gerichten.",
+        "vibe": "Authentisch und vielfältig",
+        "history": "Die mexikanische Esskultur in Los Angeles ist älter als die Geschichte Kaliforniens, als es bis 1848 ein Teil Mexikos war. Wichtige Einwanderungswellen im 20. Jahrhundert brachten regionale Küchen mit sich. Der Aufschwung der Taco-Trucks fand in den 1980er und 1990er Jahren statt und wurde zum Markenzeichen von Los Angeles. Heute gibt es in Los Angeles mehr authentische mexikanische regionale Stile als in den meisten Städten Mexikos.",
+        "insider_tip": "Begrenzen Sie sich nicht nur auf Tacos, probieren Sie auch Bialy (Ziegenstew), Tlayudas (Oaxacan Pizza) und Sopes. Taco-Trucks, die an Baustellen und Kirchen halten, bieten oft eine hohe Qualität. Achten Sie auf Al Pastor Trombones auf dem Bürgersteig. East LA und Boyle Heights sind die authentischsten Gegenden."
+      },
+      "price_level": "Preiswert",
+      "good_for": [
+        "Familienessen",
+        "Mitternachtssnacks"
+      ],
+      "duration": "30-45 Minuten",
+      "best_time": "Jederzeit",
+      "image": "/images/los-angeles/tacos.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "korean-bbq",
+      "name_en": "Korean BBQ Ritual",
+      "name_local": "K-BBQ",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Korean BBQ ist ein gemeinschaftliches Speiseerlebnis, bei dem mariniertes Fleisch am Tisch zubereitet wird und endlose Banchan (kleine Schalen mit Kimchi, marinierten Radieschen, scharfen Gemüse usw.) serviert werden. In Koreatown, einer dicht besiedelten Gegend in Midwilshire, gibt es viele K-BBQ-Restaurants, die rund um die Uhr geöffnet sind. Es ist ein lebhaftes, nebliges und gemeinschaftliches soziales Umfeld. Nach Hause mit dem Duft von gegrilltem Fleisch zu kommen, ist ein Zeichen des Stolzes.",
+        "vibe": "Gesellig und neblig",
+        "history": "Koreatown entwickelte sich schnell, nachdem Migranten aus Korea in den 1970er und 1980er Jahren in die Region Midwilshire siedelten. Heute ist es das am dichtesten besiedelte koreanische Viertel außerhalb von Korea. K-BBQ gewann in den 1990er und 2000er Jahren in Los Angeles an Beliebtheit und stellte Amerikaner mit DIY-Barbecues vor. In den USA ist Buffet-Stil üblich, während in Korea das Bestellen a la carte normal ist.",
+        "insider_tip": "Gehen Sie in einer Gruppe von 3-4 Personen, teilen Sie sich die Grillaufgaben und maximieren Sie die Vielfalt des Fleisches. Wickeln Sie das gegrillte Fleisch in Sanchu (Salatblatt) und servieren Sie es mit Knoblauch, Samjang und Banchan. Bestellen Sie Kalbi (Short Rib) oder PulGogi (mariniertes Fleisch). Viele lokale Läden haben rund um die Uhr geöffnet, und der Besuch eines K-BBQ um 2 Uhr morgens nach dem Club ist ein Ritual in Los Angeles.",
+        "price_level": "Mittel",
+        "good_for": [
+          "Gruppen",
+          "gesellige Abendessen"
+        ],
+        "duration": "2 Stunden",
+        "best_time": "Abendessen oder spät in der Nacht"
+      },
+      "image": "/images/los-angeles/korean-food.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "in-n-out",
+      "name_en": "In-N-Out Burger",
+      "name_local": "In-N-Out",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "In-N-Out ist eine ikonische Hamburgerkette aus Kalifornien, die 1948 gegründet wurde und bis heute von einer Familie betrieben wird. Das Menü ist absichtlich einfach, mit Hamburgern, Pommes Frites und Shakes. Ihr Geheimnis liegt in den frischen Zutaten: Das Fleisch wird niemals gefroren, die Kartoffeln werden jeden Tag von Hand zubereitet, und frische Waren werden geliefert. Das 'Secret Menu' umfasst 'Animal Style' (gegrillte Zwiebeln, extra Sauce, Gurken) und 'Protein Style' (Salatwickel statt Brot). Hochwertiges Fast Food kann zu einem erstaunlichen Preis genossen werden (€5-8).",
+        "vibe": "Lässig und kalifornisch",
+        "history": "1948 von Harry und Esther Snyder in Baldwin Park gegründet, ist In-N-Out der erste Drive-In-Hamburgerstand Kaliforniens. Das Unternehmen hat sich gegen Franchising und Börsennotierung entschieden, um eine Qualitätskontrolle aufrechtzuerhalten. Es ist zu einem kulturellen Symbol geworden, und Besucher von außerhalb Kaliforniens betrachten es als ein Pilgerziel. Das elefantenähnliche Logo ist sofort erkennbar.",
+        "insider_tip": "Die Bestellung von 'Double-Double Animal Style' mit gegrillten Zwiebeln ist klassisch. 'Well Done Fries' werden noch knuspriger. Es gibt ein geheimes Menü, aber es steht nicht auf der Karte: Das Personal kennt alle Variationen. Vermeiden Sie die Mittagsstunden (12-14 Uhr), da die Warteschlange im Drive-Thru bis zu 30 Minuten dauern kann. Die Standorte sind überall."
+      },
+      "price_level": "normal",
+      "good_for": [
+        "Fast Food",
+        "Für Erstbesucher"
+      ],
+      "duration": "Fast Food",
+      "best_time": "Jederzeit (morgens vermeiden)",
+      "image": "/images/los-angeles/in-n-out.jpg"
+    },
+    {
+      "id": "food-013",
+      "slug": "sushi-strip-mall",
+      "name_en": "センター・コマーシャル के寿司",
+      "name_local": "寿司",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Los Angeles ist eine Stadt in Amerika, in der die meisten Japaner leben, und hier können Sie das beste Sushi außerhalb Japans genießen. Das beste Sushi finden Sie oft in einem einfachen Einkaufszentrum, das sich hauptsächlich in West Los Angeles, Torrance und im Valley befindet. Zu den Optionen gehören ein intimes Sushi-Bar mit Omakase (Verkostungsmenü), zubereitet von einem Koch, das bei $300 beginnt, oder ein handgemachter Sushi-Counter, der bei $12 erhältlich ist. Aufgrund der Frische und der Nähe zu den Häfen und japanischen Lieferanten ist die Qualität in der Regel hoch.",
+        "vibe": "Frisch und authentisch",
+        "history": "Die japanische Einwanderung begann Anfang 1900 in Los Angeles, und Little Tokyo wurde 1920 gegründet. Nach dem Zweiten Weltkrieg baute die Gemeinde wieder auf und breitete sich nach Gardena, Torrance und ins Valley aus. Sushi verbreitete sich rasch in der amerikanischen Kultur von den späten 1980er bis 1990er Jahren, und Los Angeles wurde zum Zentrum dieser Bewegung. Heute kann das Sushi in Los Angeles mit der Qualität und Innovation des Sushi in Tokio konkurrieren.",
+        "insider_tip": "Lassen Sie sich nicht von der Erscheinung täuschen: Sushi in Einkaufszentren kann weltklasse sein. Suchen Sie nach japanisch sprechenden Gästen als Hinweis auf Qualität. Für den Omakase-Counter ist eine Buchung einige Wochen im Voraus erforderlich. Als lässige Option serviert der handgemachte Sushi-Counter frischen Fisch schnell. Die authentischsten Orte konzentrieren sich in Torrance und Gardena. Vermeiden Sie Sushi in Restaurants außerhalb Japans."
+      },
+      "price_level": "mittel",
+      "good_for": [
+        "heiß serviert",
+        "Sushi-Liebhaber"
+      ],
+      "duration": "1 Stunde",
+      "best_time": "Abendessen",
+      "image": "/images/los-angeles/sushi.jpg"
+    },
+    {
+      "id": "food-014",
+      "slug": "wellness-food",
+      "name_en": "Wellness Food",
+      "name_local": "Saft und Acai",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "In Los Angeles ist gesundes und Wellness Essen ein Lebensstil und nicht nur ein Trend in der Ernährung. Kaltgepresste Säfte, Acai-Bowls, adaptogene Smoothies und Getreide-Bowl sind Teil der Mainstream-Frühstücks- und Mittagskultur. Zutaten wie Spirulina, aktivierte Kohle und CBD sind verbreitet. Das Frühstück kostet etwa 14 $ für einen grünen Smoothie, der kein süßes Dessert ist. Von Venice bis Silver Lake und Beverly Hills, Sie können es überall finden.",
+        "vibe": "gesund und stilvoll",
+        "history": "Die Kultur der Gesundheitsnahrung in Los Angeles geht auf die Hippie-Bewegung der 1970er Jahre zurück, wurde jedoch in den 2010er Jahren durch Instagram und Wellness-Influencer schnell erweitert. Saftbars, vegetarische Restaurants und der Aufstieg der Superfood-Kultur sind zu Symbolen des Los Angeles Lebensstils geworden. Moon Juice und Erewhon (eine High-End-Supermarktkette) sind das Gesicht dieser Szene.",
+        "insider_tip": "Die Acai-Bowl ist großartig für Instagram, enthält jedoch viel Zucker, also betrachten Sie sie eher als Dessert. Kaltgepresste Säfte sind teuer (10-15 $), aber wirklich frisch. Erewhon ist ein hochwertiger Wellness-Supermarkt, in dem Smoothies 20 $ kosten; kulturell ist das schockierend, aber symbolisch. Bestellen Sie die \"Glow Bowl\" oder \"Smoothie Green Goddess\" in jeder Saftbar."
+      },
+      "price_level": "teuer",
+      "good_for": [
+        "Gesundheitsbewusste",
+        "Frühstück"
+      ],
+      "duration": "eine kleine Auszeit",
+      "best_time": "morgens oder nach dem Training",
+      "image": "/images/los-angeles/juice.jpg"
+    },
+    {
+      "id": "food-015",
+      "slug": "donut-culture",
+      "name_en": "Donut-Kultur",
+      "name_local": "Donut",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Die Donut-Kultur in Los Angeles wird von unabhängigen Donutläden unterstützt, die zu 90% von kambodschanisch-amerikanischen Familien geführt werden, und ist eine bemerkenswerte Geschichte von Einwanderern. Die Donuts in rosa Boxen sind überall zu finden, entweder früh am Morgen (um 5 Uhr) oder rund um die Uhr geöffnet, und zu fairen Preisen (1-2 € pro Donut) in einer gemütlichen Atmosphäre. Zu den häufigsten Sorten gehören der traditionelle Buttermilch-Donut, Apfel-Donut und glasierter Brot-Donut. Diese Läden sind noch immer Zentren der Gemeinschaft und öffnen um 6 Uhr morgens ihre Türen.",
+        "vibe": "gemütlich, nostalgisch",
+        "history": "Kambodschanische Flüchtlinge flohen in den 70er und 80er Jahren vor den Roten Khmer. Ted Nguy, der 'Donut-König', half Hunderte von Flüchtlingen und brachte ihnen die Kunst der Donutzubereitung bei. In den 90er Jahren übernahmen kambodschanische Familien den unabhängigen Donutmarkt in Los Angeles. Die rosa Box wurde zum Symbol, weil kambodschanische Läden die kostengünstigsten Anbieter nutzen. Heute ist es ein ikonisches Verpackungssymbol von LA.",
+        "insider_tip": "Die rosa Box ist ikonisch: Wenn Sie Donuts zu jemandem nach Hause bringen, wählen Sie die rosa Box. Der traditionelle Buttermilch-Donut und der Apfel-Donut sind immer ein Hit. Viele Läden haben rund um die Uhr geöffnet und sind perfekt für ein nächtliches Frühstück. Unterstützen Sie unabhängige Geschäfte statt Ketten: Diese werden von Familien geführt und stellen jeden Tag frische Donuts her.",
+        "price_level": "preiswert",
+        "good_for": [
+          "Frühstück",
+          "Snack"
+        ],
+        "duration": "Frühstück",
+        "best_time": "morgens"
+      },
+      "image": "/images/los-angeles/donuts.jpg"
+    },
+    {
+      "id": "food-005",
+      "slug": "grand-central-market",
+      "name_en": "Grand Central Market",
+      "name_local": "Grand Central Market",
+      "category": "Essen",
+      "is_generic_staple": false,
+      "description": {
+        "short": "Der Grand Central Market ist seit 1917 ein historischer Markt im Zentrum von LA. Unter einem Dach finden Sie einen multikulturellen und lebhaften Markt: Pupusas, Currywürste, Tacos, thailändische Nudeln, moderne Eier-Sandwiches und vieles mehr. Nach Jahrzehnten des Verfalls in der Mitte wurde er in den 2010er Jahren neu entwickelt und bietet jetzt sowohl traditionelle Händler als auch moderne Essensstände, die nebeneinander existieren. Es ist ein lebhafter, farbenfroher und ikonischer Ort.",
+        "vibe": "lebhaft, vielfältig",
+        "history": "Er wurde 1917 als Markt für Obst, Gemüse und Fleisch für Arbeiter eröffnet. In den 1980er und 1990er Jahren fiel das Zentrum in den Verfall. Die Renovierung 2013 brachte modische Händler zusammen und erhielt die historischen Stände. Er wurde zum Symbol der Revitalisierung von DTLA. Historische Anbieter wie Roast to Go coexistieren mit neuen Anbietern wie Eggslut.",
+        "insider_tip": "Um den Menschenmengen zu entkommen, wird empfohlen, unter der Woche vor 12 Uhr zu kommen. Die Pupusas von Sarita's Pupuseria sind legendär: Bestellen Sie sie mit eingelegtem Kohl. Roast to Go (seit 1952) bietet riesige und preiswerte Pastrami-Sandwiches an. Um die Leute zu beobachten, setzen Sie sich an die Gemeinschaftstische im Obergeschoss. Das Parken kann geschäftig sein, nutzen Sie also die U-Bahn.",
+        "price_level": "preiswert",
+        "good_for": [
+          "Feinschmecker",
+          "Frühstück"
+        ],
+        "duration": "1 Stunde",
+        "best_time": "morgens an Wochentagen"
+      },
+      "image": "/images/los-angeles/grand-central.jpg",
+      "geo": {
+        "lat": 34.0508,
+        "lng": -118.2487
+      }
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Hauptsehenswürdigkeiten",
+      "id": "iconic",
+      "items": [
+        {
+          "id": "land-004",
+          "slug": "venice-beach",
+          "name_en": "Venice Beach",
+          "name_local": "Venice Boardwalk",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Venice Beach repräsentiert die künstlerische und chaotische Essenz der Küste von Los Angeles, die sich völlig von dem benachbarten Santa Monica unterscheidet. Auf dem Boardwalk versammeln sich Muscle Beach (Outdoor-Gym), Straßenkünstler, Skater und Verkäufer, die Räucherstäbchen und handgefertigte Porträts anbieten. Dieser Ort ist nicht raffiniert und zeigt die Einzigartigkeit von Los Angeles. Die nahgelegenen Kanäle bieten ruhige und malerische Alternativen.",
+            "vibe": "Chaotisch und künstlerisch",
+            "history": "1905 von Abbott Kinney als 'Venedig von Amerika' gegründet, bietet dieser Ort Kanäle, die Venedig (Italien) nachahmen. In den 50er und 60er Jahren wurde es ein Rückzugsort für bohemienhafte Künstler. In den 70er Jahren zog es Bodybuilder wie Arnold Schwarzenegger an. In den 2000er und 2010er Jahren sind viele Künstler aufgrund von Gentrifizierung weggezogen, aber die kulturelle Atmosphäre bleibt widerstandsfähig.",
+            "insider_tip": "Besuchen Sie es zur aktivsten Zeit für Künstler. Es ist kostenlos, Muscle Beach zu sehen (oder daran teilzunehmen). Spazieren Sie entlang der Kanäle und genießen Sie den Frieden im Gegensatz zur chaotischen Stimmung des Meeres. Vermeiden Sie es, nachts allein zu laufen; die Kriminalitätsrate in Venice ist höher als in Santa Monica. Parken Sie auf der Straße kann schwierig sein, also nutzen Sie kostenpflichtige Parkplätze.",
+            "price_level": "Günstig",
+            "good_for": [
+              "Menschen beobachten",
+              "Fotos machen"
+            ],
+            "duration": "2 Stunden",
+            "best_time": "Nachmittag"
+          },
+          "image": "/images/los-angeles/venice.jpg",
+          "geo": {
+            "lat": 33.985,
+            "lng": -118.4695
+          }
+        },
+        {
+          "id": "land-005",
+          "slug": "mulholland-drive",
+          "name_en": "Mulholland Highway",
+          "name_local": "Mulholland",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Der Mulholland Highway ist eine kurvenreiche Straße auf einem Hügel, die atemberaubende Ausblicke auf die andere Seite des Tals von Los Angeles bietet. Diese Straße ist ein Symbol für das ikonische Erlebnis von Los Angeles: der Nervenkitzel, durch die Hollywood Hills zu fahren, während Sie die malerischen Ausblicke genießen. Die beste Zeit ist zum Sonnenuntergang. Diese Straße wurde von David Lynchs Filmen und vielen Songs inspiriert. Hier treffen Geografie und Mythos von Los Angeles aufeinander.",
+            "vibe": "Aussichtsreich und filmisch",
+            "history": "Diese Straße wurde 1913 nach William Mulholland benannt, der die Wasserversorgung von Los Angeles errichtete. Sie brachte Wasser von weit her und ermöglichte das explosive Wachstum der Stadt. Die Straße wurde in den 1920er Jahren fertiggestellt. Als markantes Merkmal von Los Angeles ist sie unzählige Male in Filmen und Musikvideos aufgetaucht.",
+            "insider_tip": "Fahren Sie am späten Nachmittag von Westen nach Osten, damit die Sonne hinter Ihnen steht und Sie den besten Blick genießen können. Halten Sie an den Aussichtspunkten in der Nähe von Cahuenga Pass oder Sepulveda Pass und machen Sie großartige Fotos. Die Straße ist eng und geschwungen, also fahren Sie vorsichtig. Es wird empfohlen, dies mit einem Besuch der Griffith Observatory (im Süden) zu kombinieren für einen ganzen Tag voller Spaß. Kommen Sie an Wochentagen, um dem Wochenendverkehr zu entgehen.",
+            "price_level": "Günstig",
+            "good_for": [
+              "Fahren",
+              "Fotos machen"
+            ],
+            "duration": "1-2 Stunden",
+            "best_time": "Sonnenuntergang"
+          },
+          "image": "/images/los-angeles/mulholland.jpg",
+          "geo": {
+            "lat": 34.1336,
+            "lng": -118.3526
+          }
+        },
+        {
+          "id": "land-003",
+          "slug": "griffith-observatory",
+          "name_en": "Griffith Observatory",
+          "name_local": "Griffith Observatory",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Das Griffith Observatory ist ein Art-Déco-Denkmal, das der öffentlichen Wissenschaft gewidmet ist und oberhalb der Hollywood Hills liegt, mit dem besten Blick über die Stadt. Von dort aus haben Sie einen Blick auf das Hollywood-Schild, die Skyline der Innenstadt und die hügeligen Täler von Los Angeles. Innen gibt es Planetarium-Shows, Teleskope und Ausstellungen, und der Eintritt zum Gebäude oder Gelände ist kostenlos. Es wurde in unzähligen Filmen wie 'Burning Young' und 'La La Land' gezeigt.",
+            "vibe": "Beeindruckend und panaromatisch",
+            "history": "Es wurde 1935 eröffnet und wurde von Griffith J. Griffith, einem Tycoon im Bergbau, finanziert, der das Grundstück gespendet hat. Das Art-Déco-Design von John C. Austin hat sich kaum verändert. Teleskope für die Öffentlichkeit waren revolutionär, und Griffith glaubte, dass Astronomie für alle zugänglich sein sollte. Seit den 1940er Jahren wird es als Drehort genutzt.",
+            "insider_tip": "Kommen Sie während der Woche, um Parkprobleme zu vermeiden; am Wochenende kann man bis zu 2 Stunden auf einen Parkplatz warten. Die besten Ansichten sind am Abend im vorderen Garten. Die Planetarium-Show ($7) ist es wert. Nach Sonnenuntergang sind kostenlose Teleskope verfügbar. Gehen Sie vom Parkplatz des Greek Theatre, um Verkehrsprobleme zu vermeiden. Die Cafés sind sehr teuer, also essen Sie vorher oder danach.",
+            "price_level": "Günstig",
+            "good_for": [
+              "Aussichten",
+              "Fotos machen"
+            ],
+            "duration": "2-3 Stunden",
+            "best_time": "Sonnenuntergang oder an Wochentagen"
+          },
+          "image": "/images/los-angeles/griffith.jpg",
+          "geo": {
+            "lat": 34.1184,
+            "lng": -118.3004
+          }
+        }
+      ]
+    },
+    {
+      "title": "Lokales Leben und Märkte",
+      "id": "markets",
+      "items": [
+        {
+          "id": "mar-001",
+          "slug": "flea-markets",
+          "name_en": "Flohmarkt (Rosen Bowl / Melrose)",
+          "name_local": "The Flea",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "In Los Angeles ist der Kauf von alten Dingen wie ein Spiel, und die Menschen gestalten ihren 'gemütlichen' Stil auf dem Flohmarkt. Der Rosen Bowl Flohmarkt (jeden zweiten Sonntag im Monat, Pasadena) ist mit 2.500 Verkäufern der größte und bekannteste Markt. Der Melrose Trading Post (jeden Sonntag auf Fairfax) ist kleiner und übersichtlicher, konzentriert sich auf lokale Produkte. Hier finden Sie Vintage-Levi's, Mid-Century-Möbel, Band-T-Shirts und Kunst. Kommen Sie früh für eine bessere Auswahl.",
+            "vibe": "Vintage und lebhaft",
+            "history": "Der Rosen Bowl Flohmarkt wurde 1968 gegründet und ist der größte Vintage-Markt Amerikas geworden. Die Vintage-Kultur in Los Angeles wuchs in den 1990er und 2000er Jahren rasant, und die Sichtbarkeit der Recyclinggeschäfte und Einzelhändler der Stadt wurde legendär. Dieser Markt unterstützt die Modeindustrie von Los Angeles und die Kostümabteilung der Filme.",
+            "insider_tip": "Frühzeitig zum Rosen Bowl zu kommen (20 Dollar, 5 Uhr morgens) gibt Ihnen die Möglichkeit, eine Auswahl vor den Menschenmengen zu treffen. Der reguläre Eintritt beginnt um 9 Uhr (12 Dollar). Vergessen Sie nicht, Bargeld mitzubringen, da die meisten Verkäufer keine Karten akzeptieren. Tragen Sie bequeme Schuhe und verwenden Sie Sonnencreme - das Gebiet ist groß und sonnig. Der Melrose Trading Post ist überschaubarer (3 Stunden im Vergleich zu den 6 Stunden beim Rosen Bowl). Verhandeln ist üblich, aber tun Sie dies respektvoll.",
+            "price_level": "Mittel",
+            "good_for": [
+              "Vintage-Jäger",
+              "Möbelkäufe"
+            ],
+            "duration": "3-6 Stunden",
+            "best_time": "Früh am Morgen"
+          },
+          "image": "/images/los-angeles/flea-market.jpg",
+          "geo": {
+            "lat": 34.1613,
+            "lng": -118.1676
+          }
+        }
+      ]
+    },
+    {
+      "title": "Natur und Kultur",
+      "id": "cultura",
+      "items": [
+        {
+          "id": "nat-001",
+          "slug": "runyon-canyon",
+          "name_en": "Runyon Canyon",
+          "name_local": "Runyon",
+          "category": "Aussicht",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Runyon Canyon ist LA's 'soziales Trail'. Es ist ein 3-Meilen-Rundweg in den Hollywood Hills, von dem man einen Blick auf die Stadt hat, Hunde frei laufen können und man die Chance hat, Promis und Influencer zu sehen. Es ist ein Ort, an dem modisch gekleidete Menschen mehr Aufmerksamkeit erregen als die natürliche Schönheit. Die Aussicht ist spektakulär, das Trekking ist leicht und die Beobachtungen besonders. Es verkörpert die Kultur von LA vollständig.",
+            "vibe": "sozial und präsentierend",
+            "history": "Dieses Land gehörte früher vielen Hollywood-Persönlichkeiten, einschließlich Errol Flynn. 1984 wurde es zu einem öffentlichen Park und aufgrund der Freilaufpolitik für Hunde wurde es zu LA's inoffiziellem Hundepark. In den 2010er Jahren wurde es zu einem beliebten Instagram-Ort und entwickelte sich zu einem idealen Ort für Gesundheitsdarstellungen in LA.",
+            "insider_tip": "Verlassen Sie früh morgens (zwischen 7-8 Uhr), um dem Gedränge und der Wärme zu entkommen. Um 10 Uhr wird es wie eine Veranstaltung. Parken Sie in dem Wohngebiet nordwestlich des Eingangs (Fleur Avenue), um Parkprobleme zu vermeiden. Der Hauptweg ist breit und einfach, aber die Nebenwege sind steiler. Gute Sportkleidung wird empfohlen: es wird geschätzt. Vergessen Sie nicht, Wasser und Taschen für Hundekot mitzunehmen (auch wenn Sie keinen Hund haben)."
+          },
+          "price_level": "bezahlbar",
+          "good_for": [
+            "Wandern",
+            "Menschen beobachten"
+          ],
+          "duration": "1-2 Stunden",
+          "best_time": "früh am Morgen",
+          "image": "/images/los-angeles/runyon.jpg",
+          "geo": {
+            "lat": 34.1107,
+            "lng": -118.3503
+          }
+        },
+        {
+          "id": "mus-001",
+          "slug": "getty-center",
+          "name_en": "Getty Center",
+          "name_local": "The Getty",
+          "category": "Aussicht",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Das Getty Center ist ein einzigartiges Beispiel für Moderne, entworfen von dem berühmten Architekten Richard Meier, das auf einem Hügel liegt, wo weltberühmte Kunstwerke (Van Gogh, Monet, Renaissance-Porträts), beeindruckende Architektur und eine atemberaubende Aussicht auf die Stadt mit einem weißen Travertin-Garten sichtbar sind. Der Eintritt ist kostenlos (Parkgebühr $20). Die Fahrt mit der Seilbahn macht die Umgebung wunderbar: es ist überwältigend, die Hektik der Stadt zu vergessen. Es ist leicht und schön und eines der besten kostenlosen Attraktionen in LA.",
+            "vibe": "ruhig und raffiniert",
+            "history": "Es wurde 1997 eröffnet und von der Stiftung des Ölmagnaten J. Paul Getty finanziert. Es war das reichste Kunstinstitut der Welt zu dieser Zeit. Richard Meiers Design nutzt reichlich Travertin-Stone und natürliches Licht. Der Garten wurde von dem Künstler Robert Irwin gestaltet. Die Getty Villa (an einem anderen Standort in Malibu) konzentriert sich auf antike Artefakte.",
+            "insider_tip": "Reservierung für Parkplätze erforderlich: Bitte reservieren Sie einige Tage im Voraus online. Kommen Sie vor 11 Uhr, bevor die Menschenmengen beginnen. Der zentrale Garten ist erstaunlich und wird oft übersehen. Bringen Sie ein Picknick für die Außenterrasse mit (Essen innerhalb der Galerie ist verboten). Besuche am Abend bieten ein goldenes Licht auf der Architektur. Das Café ist teuer, also ist es gut, Snacks mitzubringen."
+          },
+          "price_level": "bezahlbar",
+          "good_for": [
+            "Kunstliebhaber",
+            "Architektur-Enthusiasten"
+          ],
+          "duration": "3-4 Stunden",
+          "best_time": "morgens oder abends",
+          "image": "/images/los-angeles/getty.jpg",
+          "geo": {
+            "lat": 34.078,
+            "lng": -118.4741
+          }
+        },
+        {
+          "id": "cul-002",
+          "slug": "warner-bros-tour",
+          "name_en": "Warner Bros Studio Tour",
+          "name_local": "WB Tour",
+          "category": "Aussicht",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Die Warner Bros Studio Tour ist ein echtes Erlebnis, das einen Blick hinter die Kulissen von Hollywood gibt, wo Sie Drehorte und Produktionsstudios von Filmen wie 'Friends', 'Gilmore Girls', 'The Big Bang Theory' und 'Batman' besuchen können. Im Gegensatz zu Universal Studios (Themadera), wo es sich um einen Freizeitpark handelt, sind hier tatsächlich arbeitende Studios. Die Tour ist in kleinen Gruppen (12 Personen) mit einem Führer, bei der Sie Sets, Requisiten und Kostüme sehen und die Produktionsprozesse von Filmen oder Fernsehsendungen kennenlernen können.",
+            "vibe": "echt und cinematisch",
+            "history": "Das Warner Bros Studio wurde 1928 in Burbank eröffnet und wurde während des goldenen Zeitalters Hollywoods gegründet. Dieses Set wurde in tausenden Produktionen über 95 Jahre genutzt. Die Tour begann 1973 und hat sich von einer einfachen Tramfahrt zu einem immersiven Erlebnis entwickelt. Das Studio produziert weiterhin bedeutende Serien und Filme.",
+            "insider_tip": "Reservieren Sie einige Wochen im Voraus: Die Touren sind schnell ausgebucht. Luxustouren (über $70) bieten mehr Zeit und Zugang. Wenn Sie unter der Woche zu Beginn der Produktion kommen, haben Sie die Möglichkeit, Promis zu sehen. 'Midwest Street' Set wurde in unzähligen Filmen gezeigt. Fotografieren auf dem Set ist erlaubt, während es im Aufnahmestudio nicht erlaubt ist. Sie können Ihr Mittagessen mit der nahegelegenen Portos Bäckerei kombinieren (es ist eine kubanische Bäckerei)."
+          },
+          "price_level": "teuer",
+          "good_for": [
+            "Film-Liebhaber",
+            "Hinter den Kulissen"
+          ],
+          "duration": "3 Stunden",
+          "best_time": "Morgens unter der Woche",
+          "image": "/images/los-angeles/wb-tour.jpg",
+          "geo": {
+            "lat": 34.1486,
+            "lng": -118.3377
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "08:00 Uhr",
+      "title": "Frühstück Burrito in Santa Monica",
+      "description": "Beginnen Sie am Strand von Santa Monica. Hier können Sie morgens Jogger und Surfer sehen, und es ist auch der Endpunkt der Route 66. Genießen Sie Burritos zum Frühstück bei Tacos Por Favor und The Trails. Diese enthalten Eier, Speck, Käse und grüne Soße, eingewickelt in einer großen Weizentortilla, die so groß ist wie Ihr Kopf. Sie können es am Strand oder auf den Molen essen. Der morgendliche Nebel am Meer klart in der Regel gegen 10:00 Uhr auf, und dann zeigt die berühmte kalifornische Sonne ihr Gesicht. Wenn Sie aktiv sein möchten, ist es auch eine gute Option, ein Fahrrad zu mieten. Sie können 22 Meilen in Richtung Torrance entlang der Sandwege radfahren.",
+      "image": "/images/los-angeles/santa-monica-breakfast.jpg"
+    },
+    {
+      "time": "10:00 Uhr",
+      "title": "Ein Besuch am Venice Beach",
+      "description": "Besuchen Sie den reizvollen Ort Venice Beach in Los Angeles mit dem Fahrrad oder Auto. Hier finden Sie den Bereich Muscle Beach mit Gewichthebern, Straßenkünstlern, Kartenlesern, Geschäften für medizinisches Marihuana und Künstlern, die ihre Gemälde verkaufen. Vergessen Sie nicht, die Skateboarder im berühmten Skatepark zu beobachten. Die Kanäle, die imitiertes Venice in Italien darstellen, sind wie versteckte Schätze in nur drei Straßenblocks. Venice ist schnell demografischen Veränderungen ausgesetzt, aber die Strandpromenade behält ihren wunderbaren Charme. Kommen Sie, um die Show zu genießen und die Menschen zu beobachten.",
+      "image": "/images/los-angeles/venice-beach.jpg"
+    },
+    {
+      "time": "12:30 Uhr",
+      "title": "Mittagessen: In-N-Out Burger",
+      "description": "Es besteht kein Zweifel. In-N-Out ist der Burger-Mythos Kaliforniens. Bestellen Sie vom \"Secret Menu\": Double-Double Animal Style (besondere Sauce, gegrillte Zwiebeln), gut gebratene Pommes Frites, Neapolitanisches Milchshake. Alle Zutaten sind frisch, und gefrorene Produkte werden nicht verwendet. Es ist schwer zu glauben, wie günstig die Preise in Los Angeles sind. Das Westwood-Geschäft existiert seit den 1950er Jahren. Einheimische unterstützen begeistert die Überlegenheit von In-N-Out. Probieren Sie es einmal aus und überzeugen Sie sich selbst.",
+      "image": "/images/los-angeles/in-n-out2.jpg"
+    },
+    {
+      "time": "14:30",
+      "title": "Wanderung zur Griffith-Observatorium und Hollywood-Sign",
+      "description": "Fahren Sie zum Griffith-Observatorium und genießen Sie die atemberaubende Aussicht auf Los Angeles. Die Aussicht reicht bis zum pazifischen Ozean. Der Eintritt zum Observatorium ist kostenlos und es ist sehr faszinierend: Planetariums-Shows, Tesla-Spulen und Ausstellungen über den Weltraum sind vorhanden. Wenn Ihre Gesundheit es zulässt, können Sie vom Observatorium zum Hollywood-Symbol wandern (Hin- und Rückweg 4,8 km, mittel). Andernfalls fahren Sie einfach vom Parkplatz des Griffith-Observatoriums zur Aussichtsplattform. Das Zeichen erscheint zwar klein, aber es ist ein unverzichtbares Erlebnis in Los Angeles. Die goldene Stunde hier ist atemberaubend."
+    },
+    {
+      "time": "18:00",
+      "title": "Sonnenuntergang am El Matador Beach in Malibu",
+      "description": "Fahren Sie entlang der PCH (Pacific Coast Highway) zu einem versteckten Schatz von Malibu, dem El Matador State Beach. Wenn Sie die Treppen hinuntergehen, erwartet Sie eine atemberaubende Bucht mit Felsenformationen, Meeresgrotten und Gezeitenpools. Bitte kommen Sie 90 Minuten vor Sonnenuntergang. Beobachten Sie Surfer, Robben und die untergehende Sonne im Pazifischen Ozean. Es kann kühl werden, vergessen Sie also nicht, eine Jacke mitzunehmen. Dies ist ein traumhaftes Kalifornien: zerklüftete Küste, brechende Wellen und der unendliche Horizont. Die Reise ist perfekt, um einfach bei sich selbst anzukommen.",
+      "image": "/images/los-angeles/malibu-sunset.jpg"
+    },
+    {
+      "time": "20:30",
+      "title": "Abendessen und Drinks in West Hollywood",
+      "description": "Erkunden Sie West Hollywood (WeHo) und genießen Sie ein Abendessen. Probieren Sie das mit französischem Einfluss gestaltete kalifornische Essen im Republique und die köstliche thailändische Küche im Night + Market. Danach besuchen Sie die Bars an der Sunset Strip. Whisky a Go Go, Viper Room und Rainbow Bar & Grill sind Teil der Rock-and-Roll-Geschichte. Alternativ können Sie auch die Bars am Santa Monica Boulevard erkunden (The Abbey ist sehr bekannt). Das Nachtleben in Los Angeles ist vielfältig und teuer, aber West Hollywood vereint diese Energie. Nutzen Sie Uber für Ihre Reisen. Verkehrsverstöße sind ernst und häufig.",
+      "image": "/images/los-angeles/weho-night.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Reiseadapter für die USA (Typ A/B)",
+      "image": "/images/los-angeles/adapter.jpg",
+      "reason": "In amerikanischen Steckdosen befinden sich zwei flache Stecker. Wenn Sie aus Europa kommen, benötigen Sie einen Adapter.",
+      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter+type+a",
+      "category": "Elektronik"
+    },
+    {
+      "id": "aff-002",
+      "title": "Sonnenschutz SPF 50",
+      "image": "/images/los-angeles/sunscreen.jpg",
+      "reason": "Die Sonne in Kalifornien ist sehr stark, auch wenn es kühl erscheint. Bitte verwenden Sie es beim Autofahren, Trekking oder Laufen.",
+      "amazon_url": "https://www.amazon.com/s?k=sunscreen+spf+50",
+      "category": "Gesundheit"
+    },
+    {
+      "id": "aff-003",
+      "title": "Wasserflasche für Wanderungen",
+      "image": "/images/los-angeles/water-bottle.jpg",
+      "reason": "Los Angeles ist trocken und heiß. Besonders wenn Sie planen, im Runyon Canyon oder Griffith zu wandern, ist es wichtig, immer hydratisiert zu bleiben.",
+      "amazon_url": "https://www.amazon.com/s?k=reusable+water+bottle",
+      "category": "Draußen"
+    }
+  ],
+  "region": "North America"
+}

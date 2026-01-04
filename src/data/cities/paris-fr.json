@@ -1,0 +1,1528 @@
+{
+  "id": "city-001",
+  "name": "Paris",
+  "slug": "paris",
+  "country": "France",
+  "country_code": "fr",
+  "hero_image": "/images/paris/hero.jpg",
+  "intro_vibe": "La ville lumière, de l'amour et des glucides à volonté.",
+  "general_info": {
+    "population": "~2,1 millions (ville) / ~12 millions (aire métropolitaine)",
+    "is_capital": true,
+    "description": "Paris est la capitale et la ville la plus peuplée de France. Avec une population estimée officielle de 2 102 650 habitants au 1er janvier 2023 sur une superficie de plus de 105 km², Paris est la quatrième ville la plus peuplée de l'Union européenne et la 30ème ville la plus densément peuplée au monde."
+  },
+  "stats": {
+    "currency": "EUR",
+    "plug_type": "Type E"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "Janvier",
+      "temp": "1°C - 7°C",
+      "vibe": "Calme et Vif",
+      "pros": ["Très peu de touristes", "Soldes d'hiver", "Ambiance fraîche"],
+      "cons": ["Journées courtes", "Ciel gris"],
+      "clothing": "Manteau épais, écharpe, chaussures imperméables"
+    },
+    {
+      "id": 2,
+      "name": "Février",
+      "temp": "1°C - 8°C",
+      "vibe": "Frais et Intime",
+      "pros": ["Atmosphère romantique", "Prix plus bas", "Premières floraisons"],
+      "cons": ["Vagues de froid", "Sensation de froid due au vent"],
+      "clothing": "Couches isolantes, bonnet chaud"
+    },
+    {
+      "id": 3,
+      "name": "Mars",
+      "temp": "4°C - 12°C",
+      "vibe": "Variable",
+      "pros": ["Floraisons printanières", "Prix de mi-saison", "Rues plus animées"],
+      "cons": ["Pluie imprévisible", "Matinées fraîches"],
+      "clothing": "Veste légère + parapluie"
+    },
+    {
+      "id": 4,
+      "name": "Avril",
+      "temp": "8°C - 16°C",
+      "vibe": "Fleuri",
+      "pros": ["Cerisiers en fleurs", "Températures modérées", "Les parcs s'ouvrent"],
+      "cons": ["Averses d'avril", "Affluence en hausse"],
+      "clothing": "Couches superposées, veste imperméable"
+    },
+    {
+      "id": 5,
+      "name": "Mai",
+      "temp": "11°C - 20°C",
+      "vibe": "Doux et Social",
+      "pros": ["Journées longues", "Pic de la culture en terrasse", "Événements en extérieur"],
+      "cons": ["Prix des hôtels plus élevés", "Chaleur soudaine"],
+      "clothing": "Couches respirantes, chapeau de soleil"
+    },
+    {
+      "id": 6,
+      "name": "Juin",
+      "temp": "14°C - 24°C",
+      "vibe": "Festif",
+      "pros": ["Fête de la Musique", "Couchers de soleil tardifs (22h)", "Pique-niques le long de la Seine"],
+      "cons": ["Tarifs haute saison", "Canicules"],
+      "clothing": "Vêtements d'été + veste légère"
+    },
+    {
+      "id": 7,
+      "name": "Juillet",
+      "temp": "16°C - 27°C",
+      "vibe": "Chaud et Animé",
+      "pros": ["Fête nationale du 14 juillet", "Paris Plages", "Ambiance estivale"],
+      "cons": ["Bondé", "Manque de climatisation"],
+      "clothing": "Vêtements très légers, sandales"
+    },
+    {
+      "id": 8,
+      "name": "Août",
+      "temp": "15°C - 26°C",
+      "vibe": "Inégal et Calme",
+      "pros": ["Rues calmes (les locaux partent)", "Rythme détendu", "Métro vide"],
+      "cons": ["Commerces indépendants/boulangeries fermés", "Sites touristiques bondés"],
+      "clothing": "Vêtements d'été"
+    },
+    {
+      "id": 9,
+      "name": "Septembre",
+      "temp": "12°C - 22°C",
+      "vibe": "Doré",
+      "pros": ["Temps parfait pour marcher", "Début de la saison culturelle", "Énergique"],
+      "cons": ["Prix de la Fashion Week", "Pluie occasionnelle"],
+      "clothing": "Couches décontractées élégantes"
+    },
+    {
+      "id": 10,
+      "name": "Octobre",
+      "temp": "9°C - 17°C",
+      "vibe": "Coloré",
+      "pros": ["Feuillage automnal", "Cafés douillets", "Belle lumière"],
+      "cons": ["Journées plus courtes", "Humidité"],
+      "clothing": "Couches intermédiaires chaudes, bottes"
+    },
+    {
+      "id": 11,
+      "name": "Novembre",
+      "temp": "6°C - 12°C",
+      "vibe": "Atmosphérique",
+      "pros": ["Expositions de musées", "Saison du chocolat chaud", "Tarifs bas"],
+      "cons": ["Gris et morose", "Venteux"],
+      "clothing": "Manteau chaud, parapluie"
+    },
+    {
+      "id": 12,
+      "name": "Décembre",
+      "temp": "3°C - 8°C",
+      "vibe": "Festif",
+      "pros": ["Marchés de Noël", "Illuminations de fêtes", "Gaieté"],
+      "cons": ["Froid et sombre", "Affluence des fêtes"],
+      "clothing": "Sous-vêtements thermiques, manteau épais, gants"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "La règle du 'Bonjour' : Ce n'est pas juste de la politesse, c'est une clé sociale. L'omettre donne l'impression d'aboyer un ordre. Dites toujours Bonjour en entrant dans un magasin. Le contact visuel est normal pendant cette salutation. Dire Bonjour au lieu de Bonsoir n'est pas grave, les Français font cette 'erreur' tout le temps.",
+      "Le service est inclus : Il n'y a pas de culture du pourboire de 15-20%. 'Service Compris' est la loi. Arrondir légèrement est poli, mais les gros pourboires sont perçus comme étranges, pas comme généreux.",
+      "Le tarif café à trois niveaux : Sachez qu'un café a trois prix. 'Au comptoir' (debout au bar) est le moins cher. 'En salle' (table à l'intérieur) est le tarif standard. 'En terrasse' (dehors) est le plus cher—vous payez un loyer pour la vue.",
+      "Pas de bavardage : Efficacité > Amabilité. Les commerçants et serveurs sont professionnels, pas bavards. Le silence est neutre, pas impoli. N'attendez pas de sourires aléatoires d'inconnus.",
+      "Réalité du beurre : Le beurre n'est pas automatiquement servi avec le pain au dîner. C'est pour le petit-déjeuner ou des plats spécifiques (comme les huîtres). Demander du beurre avec votre corbeille de pain vous identifie comme touriste.",
+      "Rituel d'achat du pain : Dites 'une baguette tradition, s'il vous plaît', payez (l'argent liquide est rapide), et n'acceptez jamais de sac sauf s'il est offert. Arracher le bout ('le quignon') dehors est culturellement approuvé.",
+      "La formule du déjeuner : Entre 12h et 14h, cherchez la 'Formule'. C'est comme ça que les locaux mangent à prix abordable (environ 15-20€).",
+      "Réalité du dimanche : La plupart des magasins sont fermés, sauf dans le Marais ou les zones touristiques. Prévoyez des musées ou des parcs. Les jours fériés fonctionnent souvent comme des dimanches.",
+      "Règles de l'eau : L'eau du robinet est potable. Demandez 'une carafe d'eau' pour de l'eau gratuite. Si vous demandez juste 'de l'eau', vous serez facturé pour une bouteille.",
+      "Rythme des repas : Les repas sont lents. Vous devez demander l'addition ('L'addition'). Partir rapidement est perçu comme précipiter le plaisir."
+    ],
+    "essential_phrases": [
+      {
+        "src": "Hello",
+        "local": "Bonjour",
+        "phonetic": "bon-ZHOOR"
+      },
+      {
+        "src": "Thank you",
+        "local": "Merci",
+        "phonetic": "mair-SEE"
+      },
+      {
+        "src": "The bill please",
+        "local": "L'addition s'il vous plaît",
+        "phonetic": "lah-dee-SYON"
+      },
+      {
+        "src": "Excuse me",
+        "local": "Excusez-moi",
+        "phonetic": "ex-kew-ZAY mwah"
+      },
+      {
+        "src": "I don't speak French",
+        "local": "Je ne parle pas français",
+        "phonetic": "zhuh nuh parl pah"
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Le Marais",
+      "vibe": "Branché et Historique",
+      "description": "Ruelles pavées serrées, hôtels particuliers, et un mélange d'héritage juif et de vie nocturne LGBTQ+.",
+      "highlights": [
+        "Place des Vosges",
+        "Rue des Rosiers",
+        "Musée Picasso"
+      ],
+      "image": "/images/paris/marais.jpg"
+    },
+    {
+      "name": "Montmartre",
+      "vibe": "Village Bohème",
+      "description": "Perché sur une colline, il conserve une atmosphère de village avec des artistes, des vignobles et des rues sinueuses.",
+      "highlights": [
+        "Place du Tertre",
+        "Rue Lepic",
+        "Marches de Sacré-Cœur"
+      ],
+      "image": "/images/paris/montmartre.jpg"
+    },
+    {
+      "name": "Quartier Latin",
+      "vibe": "Intellectuel",
+      "description": "Siège de la Sorbonne, rempli de librairies, de cafés étudiants et d'histoire médiévale.",
+      "highlights": [
+        "Shakespeare & Co",
+        "Panthéon",
+        "Rue Mouffetard"
+      ],
+      "image": "/images/paris/latin-quarter.jpg"
+    },
+    {
+      "name": "Saint-Germain",
+      "vibe": "Chic et Littéraire",
+      "description": "Célèbre pour ses cafés littéraires historiques comme Les Deux Magots et ses galeries haut de gamme.",
+      "highlights": [
+        "Café de Flore",
+        "Jardin du Luxembourg",
+        "Bon Marché"
+      ],
+      "image": "/images/paris/saint-germain.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Se Déplacer",
+      "icon": "Train",
+      "summary": "Le Métro est l'artère vitale. Efficace, dense, mais impitoyable.",
+      "details": [
+        "Bases du métro : Les trains circulent de 5h30 à 1h15 (2h15 le week-end). Évitez les heures de pointe (8h-9h30, 17h30-19h) sur les lignes 1, 4, 13.",
+        "Tickets (2025) : Le ticket t+ simple coûte 2,10€. Le 'Navigo Easy' (2€) est la carte rechargeable moderne. Le 'Navigo Découverte' (30€/semaine) est idéal pour les longs séjours (validité lundi-dimanche).",
+        "L'inspection : Gardez votre ticket jusqu'à la sortie ! L'amende est de 50€ sur place. Les contrôleurs sont en civil et impitoyables.",
+        "Loi de l'escalator : Restez à DROITE, marchez à GAUCHE. Bloquer la gauche est l'infraction touristique n°1.",
+        "RER vs Métro : Le RER (Lignes A-E) dessert la banlieue/aéroports. Les tickets de métro fonctionnent sur le RER en Zone 1 uniquement. Vous avez besoin de tickets spécifiques pour les aéroports.",
+        "Transport de nuit : Après ~1h du matin, utilisez les bus de nuit 'Noctilien' ou l'application G7 Taxi. Uber applique des prix de pointe importants."
+      ]
+    },
+    {
+      "id": "logistics-airports",
+      "slug": "airport-transfers",
+      "title": "Transferts Aéroport",
+      "icon": "Plane",
+      "summary": "CDG et Orly sont loin. Connaissez votre itinéraire.",
+      "details": [
+        "Options CDG : Le RER B (11,45€, 35-50 min) est standard mais surveillez vos sacs. Le RoissyBus (16,60€) vers l'Opéra est plus facile avec des bagages. Les taxis ont des tarifs fixes (56€ Rive Droite / 65€ Rive Gauche).",
+        "Options Orly : OrlyBus (11,20€) ou Orlyval+RER B. Les taxis sont à tarif fixe (37€ Rive Gauche / 42€ Rive Droite).",
+        "Attention Beauvais : C'est à 85km. La navette à 17€ prend 90 min. Ne volez ici que si le vol est pratiquement gratuit."
+      ]
+    },
+    {
+      "id": "logistics-dining",
+      "slug": "dining-protocol",
+      "title": "Protocole de Restauration",
+      "icon": "Utensils",
+      "summary": "Des horaires stricts et des rituels spécifiques définissent la restauration parisienne.",
+      "details": [
+        "Horaires stricts : Déjeuner 12h-14h30. Dîner 19h30-22h30. La plupart des cuisines FERMENT entre ces heures. Vous ne pouvez pas dîner à 18h.",
+        "Rituel de l'eau : Demandez 'une carafe d'eau' pour de l'eau du robinet gratuite. Demander 'de l'eau' vous fait souvent obtenir de l'eau en bouteille chère.",
+        "L'addition : Vous devez la demander ('L'addition, s'il vous plaît'). Les serveurs ne l'apporteront pas automatiquement ; s'attarder est encouragé.",
+        "Bon plan déjeuner : Cherchez la 'Formule Midi' ou le 'Menu du Jour' (15-25€) pour le meilleur rapport qualité-prix. Le dîner à la carte est significativement plus cher."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "Sécurité et Arnaques",
+      "icon": "Shield",
+      "summary": "Les crimes violents sont rares ; les vols qualifiés sont courants.",
+      "details": [
+        "Vol de téléphone : Une épidémie. Les voleurs à vélo électrique arrachent les téléphones des mains près des trottoirs. Ne scrollez jamais en étant debout à un passage piéton.",
+        "Pickpockets du métro : Les gangs travaillent aux portes sur les lignes 1, 4, 9. Gardez vos sacs fermés et devant vous. Soyez vigilant à Châtelet et Gare du Nord.",
+        "Arnaques de rue : Ignorez les signataires de 'pétition' (vol par distraction), les noueurs de 'bracelet d'amitié' à Sacré-Cœur, et les trouveurs d''anneau en or'. Éloignez-vous simplement.",
+        "Faux taxis : Ignorez quiconque sollicite des courses à l'intérieur des terminaux d'aéroport. Utilisez uniquement la file de taxi officielle à l'extérieur."
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "money-payments",
+      "title": "Argent et Paiements",
+      "icon": "CreditCard",
+      "summary": "Les cartes sont standard, mais l'argent liquide a sa place.",
+      "details": [
+        "Carte vs Espèces : Visa/Mastercard acceptées presque partout. Gardez ~50€ en liquide pour les petits cafés, marchés et toilettes.",
+        "Pourboire : Le service est inclus ('Service Compris'). Arrondissez ou laissez 1-2€ en pièces. La culture américaine du 20% n'existe pas ici.",
+        "DAB : Utilisez les distributeurs de banques officielles (BNP, Société Générale). Évitez les machines 'Euronet' qui facturent des frais élevés et de mauvais taux."
+      ]
+    },
+    {
+      "id": "logistics-toilets",
+      "slug": "restrooms",
+      "title": "Toilettes Publiques",
+      "icon": "MapPin",
+      "summary": "Planifiez à l'avance ; elles sont rares.",
+      "details": [
+        "Sanisettes : Cabines grises gratuites et auto-nettoyantes sur les trottoirs. Attendez le feu vert. Elles sont sûres et hygiéniques.",
+        "Grands magasins : La meilleure 'astuce'. Galeries Lafayette, BHV et Bon Marché ont des toilettes propres et gratuites aux étages supérieurs.",
+        "Règle des cafés : Les toilettes sont pour les clients. Achetez un espresso au bar (1,50€) pour y accéder."
+      ]
+    },
+    {
+      "id": "logistics-health",
+      "slug": "health-pharmacy",
+      "title": "Santé et Pharmacies",
+      "icon": "Cross",
+      "summary": "Les pharmaciens sont votre première ligne de défense.",
+      "details": [
+        "Pharmacies : Reconnaissables à leur croix verte lumineuse. Les pharmaciens peuvent diagnostiquer et prescrire pour des maux mineurs.",
+        "Urgences : Composez le 15 (SAMU) pour les urgences médicales. Les urgences hospitalières ('Urgences') sont gratuites pour les résidents UE avec carte CEAM.",
+        "Pharmacies de garde : Certaines sont ouvertes 24h/7j. Cherchez 'Pharmacie des Champs-Élysées' (84 avenue) ou 'Pharmacie Européenne' (Place de Clichy)."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "butter-croissant",
+      "name_en": "Le Croissant au Beurre",
+      "name_local": "Croissant au Beurre",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le croissant au beurre est l'élément de base du petit-déjeuner français : une pâtisserie en forme de croissant laminée à base de pur beurre (pas de margarine), créant ses caractéristiques couches dorées et feuilletées. Un vrai croissant s'effondre quand vous le mordez, libérant de la vapeur beurrée. Les croissants classiques sont 'ordinaires' (margarine), les croissants courbés sont 'au beurre' (beurre) - choisissez toujours les courbés. À déguster chaud de la boulangerie dans les heures suivant la cuisson.",
+        "vibe": "Feuilleté, beurré",
+        "history": "Les croissants ont vu le jour à Vienne (l'‘kipferl’ autrichien) mais ont été perfectionnés à Paris dans les années 1830-1840 lorsque des boulangers viennois ont ouvert des boutiques. La technique de la pâte laminée (beurre plié dans la pâte plus de 27 fois) crée les couches. Au début des années 1900, il est devenu l'icône du petit-déjeuner en France. La forme courbée distingue les croissants au beurre de ceux à la margarine (une pratique qui a débuté dans les années 1980).",
+        "insider_tip": "Achetez dans une véritable boulangerie, pas dans une chaîne ou un supermarché. Recherchez les panneaux 'fait maison'. Les meilleurs croissants ont une texture alvéolée à l'intérieur, sont profondément dorés à l'extérieur et pèsent étonnamment peu. Mangez-les nature—sans beurre, sans confiture. Les Parisiens déchirent des morceaux et les trempent dans un café au lait ou un chocolat chaud. Le matin est le seul bon moment pour les manger. Ne jamais réchauffer un croissant au micro-ondes—cela ruine la texture.",
+        "price_level": "Abordable",
+        "good_for": [
+          "Petit-déjeuner",
+          "Snack du matin"
+        ],
+        "duration": "5 minutes",
+        "best_time": "Matin (7-10h)"
+      },
+      "image": "/images/paris/croissant.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "the-baguette",
+      "name_en": "La Baguette Tradition",
+      "name_local": "La Baguette Tradition",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "La baguette tradition est un pain long et fin avec une croûte dorée et croustillante et un intérieur moelleux et aéré avec des trous irréguliers. 'Tradition' signifie qu'elle est faite par la loi avec seulement quatre ingrédients (farine, eau, sel, levure) et sans additifs, ce qui la rend supérieure aux baguettes ordinaires. Les habitants en achètent deux fois par jour (le matin et le soir) car elles se rassissent en quelques heures. La baguette parfaite sonne creux quand on la tape, craque quand on la presse et a un arôme de blé.",
+        "vibe": "Essentielle, quotidienne",
+        "history": "Les baguettes sont apparues dans les années 1920-1930 à Paris lorsqu'une loi a interdit aux boulangers de travailler avant 4h du matin, les obligeant à créer un pain à cuisson rapide. La 'baguette tradition' a été définie légalement en 1993 pour préserver les méthodes artisanales face au pain industriel. Elle est si iconique que l'UNESCO a reconnu la fabrication de baguettes françaises comme patrimoine culturel immatériel en 2022. Plus de 10 milliards de baguettes sont consommées en France chaque année.",
+        "insider_tip": "Achetez chez un 'artisan boulanger' (signe sur la porte) — ils cuisent sur place. Les chaînes (Paul, Marie Blachère) sont inférieures. Demandez 'une baguette tradition' et pas seulement 'baguette.' Les meilleures coûtent entre 1,20 € et 1,50 €. Les habitants arrachent le bout ('le quignon') et le mangent en rentrant chez eux — cela est culturellement approuvé. Conservez les baguettes côté coupé vers le bas sur le comptoir, jamais dans du plastique. Les baguettes rassis font d'excellentes tartines ou pain perdu.",
+        "price_level": "Abordable",
+        "good_for": [
+          "Rituel quotidien",
+          "Chaque repas"
+        ],
+        "duration": "Consommation immédiate",
+        "best_time": "Matin ou soir"
+      },
+      "image": "/images/paris/baguette.jpg"
+    },
+    {
+      "id": "food-026",
+      "slug": "pain-au-chocolat",
+      "name_en": "Pain au Chocolat",
+      "name_local": "Pain au Chocolat / Chocolatine",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le pain au chocolat est une pâtisserie de pâte feuilletée rectangulaire avec deux barres de chocolat noir cuites à l'intérieur. La pâte est la même pâte feuilletée au beurre que pour les croissants, mais façonnée différemment. Lorsqu'on l'ouvre, le chocolat doit être fondu et coulant, la pâte croustillante et beurrée. C'est la deuxième pâtisserie au petit-déjeuner la plus populaire en France après les croissants. Dans le sud-ouest de la France, il est controversiellement appelé 'chocolatine'—un sujet qui suscite de véritables débats.",
+        "vibe": "Chocolaté, indulgent",
+        "history": "Apparu au milieu des années 1800 lorsque des boulangers viennois à Paris ont commencé à ajouter du chocolat à la pâte feuilletée. Le nom 'pain au chocolat' est standard à Paris et dans la plupart de la France. Le terme 'chocolatine' à Bordeaux/Toulouse crée une division culturelle nord-sud—les Parisiens s'en moquent, les méridionaux le défendent. Ce débat est un running joke dans la culture française.",
+        "insider_tip": "Comme pour les croissants, achetez-les frais le matin dans de vraies boulangeries, pas dans des chaînes. Le chocolat doit être noir (au moins 60% de cacao), pas au lait. Mangez-le chaud—le chocolat fond parfaitement. Certaines boulangeries proposent des variantes avec de la crème d'amande ou de la noisette, mais les puristes s'en tiennent au chocolat noir classique. Accompagnez-le d'un café au lait. Ne réchauffez jamais au micro-ondes—utilisez un four grille-pain si c'est rassis.",
+        "price_level": "Abordable",
+        "good_for": [
+          "Petit-déjeuner",
+          "Amateurs de chocolat"
+        ],
+        "duration": "5 minutes",
+        "best_time": "Matin"
+      },
+      "image": "/images/paris/pain-au-chocolat.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "jambon-beurre",
+      "name_en": "Sandwich au Jambon-Beurre",
+      "name_local": "Jambon-Beurre",
+      "category": "alimentation",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le jambon-beurre est le sandwich le plus populaire de France : une baguette tranchée dans le sens de la longueur, tartinée de beurre salé, garnie de jambon de Paris de haute qualité (jambon de Paris—jambon cuit légèrement, tendre et rosé). C'est tout. Pas de laitue, pas de fromage, pas de condiments. La qualité provient de trois ingrédients parfaits. Plus d'un milliard sont vendus chaque année en France. C'est le véritable déjeuner parisien, mangé sur des bancs de parc, à des bureaux, en déplacement.",
+        "vibe": "Simple, parfait",
+        "history": "Le jambon-beurre est devenu populaire dans les années 1950-1960 comme le déjeuner rapide des travailleurs. Le jambon de Paris remonte au 18ème siècle. Le sandwich représente la philosophie culinaire française : des ingrédients parfaits n'ont besoin de rien de plus. C'est désormais un symbole de la simplicité française—l'UNESCO l'a déclaré candidat au 'patrimoine culturel immatériel'. Chaque boulangerie et café les vendent pour 3,50-5 €.",
+        "insider_tip": "Achetez dans les boulangeries, pas dans les supermarchés—la qualité du pain et du jambon compte. Le beurre doit être salé (beurre salé) et généreux. Le jambon doit être découpé à la main, pas de viande de charcuterie transformée. Mangez dans les 2 heures suivant l'achat—le pain devient rassis et le beurre s'imbibe. Ne demandez pas de mayo, de moutarde ou de légumes—vous serez jugé. C'est la simplicité anti-américaine à son meilleur.",
+        "price_level": "Abordable",
+        "good_for": [
+          "Déjeuner",
+          "Pique-niques"
+        ],
+        "duration": "10 minutes",
+        "best_time": "Déjeuner"
+      },
+      "image": "/images/paris/jambon-beurre.jpg"
+    },
+    {
+      "id": "food-020",
+      "slug": "escargots",
+      "name_en": "Escargots de Bourgogne",
+      "name_local": "Escargots",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Les escargots sont des escargots de terre (escargots de Bourgogne) cuits dans leur coquille avec du beurre à l'ail et au persil. Servis en entrée (6 ou 12 escargots) dans des brasseries traditionnelles. Vous utilisez une fourchette spéciale et des pinces pour extraire l'escargot, puis vous trempez le pain dans le beurre à l'ail. Les escargots ont un goût de champignons terreux ; le beurre est l'étoile. Plus courants au dîner qu'au déjeuner.",
+        "vibe": "Classique, à l'ail",
+        "history": "Les escargots sont consommés depuis l'époque romaine mais sont devenus une délicatesse française au XIXe siècle lorsque Antonin Carême les a popularisés. Les escargots de Bourgogne (Helix pomatia) sont la variété traditionnelle. Le beurre à l'ail et au persil a été perfectionné par des chefs bourguignons. Ils sont maintenant un symbole de la haute cuisine française, bien que la plupart des escargots soient cultivés ou importés d'Europe de l'Est.",
+        "insider_tip": "Commandez-les dans des bistrots ou brasseries traditionnelles, pas dans des cafés touristiques. Le beurre doit être d'un vert vif dû au persil, intensément à l'ail. Utilisez le pain pour absorber chaque goutte de beurre - c'est encouragé. Ne trop réfléchir à la texture - ils sont caoutchouteux comme des moules. Si vous êtes facilement dégoûté, fermez les yeux et concentrez-vous sur le beurre. À associer avec du vin blanc (Chablis ou Sancerre). Ils sont riches, donc 6 escargots suffisent comme entrée.",
+        "price_level": "Modéré",
+        "good_for": [
+          "Essayer des classiques français",
+          "Mangeurs aventureux"
+        ],
+        "duration": "20 minutes",
+        "best_time": "Entrée du dîner"
+      },
+      "image": "/images/paris/escargots.jpg"
+    },
+    {
+      "id": "food-021",
+      "slug": "duck-confit",
+      "name_en": "Confit de Canard",
+      "name_local": "Confit de Canard",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le confit de canard est une cuisse de canard cuite lentement dans sa propre graisse jusqu'à ce que la viande soit tendre à souhait et que la peau soit croustillante. C'est une technique de conservation du sud-ouest de la France. Le canard est salé, affiné, puis immergé dans la graisse et cuit lentement pendant des heures. Servi en plat principal avec des pommes de terre cuites dans la graisse de canard (pommes sarladaises) ou une salade verte. La viande est riche, savoureuse et profondément aromatique.",
+        "vibe": "Riche, traditionnel",
+        "history": "Le confit (du verbe 'confire', préserver) remonte au Moyen Âge comme méthode de conservation de la viande avant l'invention de la réfrigération. Les cuisses de canard étaient salées, cuites dans la graisse et stockées dans des pots en terre cuite pendant des mois. Il est devenu une délicatesse des régions de Gascogne et de Périgord. Les bistrots parisiens l'ont adopté dans les années 1900. Aujourd'hui, c'est un plat classique français représentant la cuisine rustique.",
+        "insider_tip": "Commandez dans des bistrots ou brasseries traditionnels. La peau doit être dorée et croustillante (si elle est pâle et molle, elle a été mal cuite). La viande doit se détacher facilement à la fourchette. Les pommes sarladaises (pommes de terre frites dans la graisse de canard avec de l'ail et du persil) sont l'accompagnement classique. C'est lourd, donc évitez de le commander par temps chaud en été – meilleur en automne/hiver. À associer avec un vin rouge de Cahors ou de Bordeaux.",
+        "price_level": "Modéré",
+        "good_for": [
+          "Dîner",
+          "Repas copieux"
+        ],
+        "duration": "1 heure",
+        "best_time": "Dîner (automne/hiver)"
+      },
+      "image": "/images/paris/duck-confit.jpg"
+    },
+    {
+      "id": "food-022",
+      "slug": "boeuf-bourguignon",
+      "name_en": "Boeuf Bourguignon",
+      "name_local": "Bœuf Bourguignon",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le bœuf bourguignon est du bœuf braisé dans du vin rouge (traditionnellement du vin de Bourgogne) avec des carottes, des oignons, des champignons et des lardons. Le bœuf (généralement du paleron ou de la poitrine) est cuit pendant 2-3 heures jusqu'à ce qu'il soit tendre et que le vin réduise en une sauce riche et veloutée. C'est un classique rustique des bistrots, souvent servi avec de la purée de pommes de terre ou des nouilles aux œufs. À déguster de préférence en mois froids comme un plat réconfortant et chaud.",
+        "vibe": "Rassurant, chaleureux",
+        "history": "Originaire de Bourgogne dans les années 1800 en tant que plat paysan—des morceaux de bœuf peu chers cuisinés lentement dans du vin local. Le livre de cuisine de Julia Child en 1961 lui a donné une renommée américaine, mais c'était déjà un incontournable français. Auguste Escoffier a codifié la recette en 1903. Il représente la cuisine réconfortante française—des ingrédients simples transformés par le temps et la technique.",
+        "insider_tip": "Commandez dans des bistrots traditionnels en automne/hiver—il est rarement disponible en été. La viande doit être tendre à la fourchette, pas caoutchouteuse. La sauce doit être épaisse et brillante, pas aqueuse. De bonnes versions prennent plus de 3 heures à préparer, donc les restaurants peu chers bâclent la recette. Attendez-vous à payer entre €18-25 pour une portion correcte. À associer avec un vin rouge de Bourgogne (Pinot Noir) ou des Côtes du Rhône. Mangez avec du pain croustillant pour absorber la sauce.",
+        "price_level": "Modéré",
+        "good_for": [
+          "Dîner",
+          "Plat réconfortant"
+        ],
+        "duration": "1 heure",
+        "best_time": "Dîner (automne/hiver)"
+      },
+      "image": "/images/paris/boeuf-bourguignon.jpg"
+    },
+    {
+      "id": "food-023",
+      "slug": "steak-tartare",
+      "name_en": "Steak Tartare",
+      "name_local": "Steak Tartare",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le steak tartare est du bœuf cru haché (de préférence du faux-filet ou du filet de haute qualité) assaisonné de câpres, d'oignons, de sauce Worcestershire, de moutarde de Dijon et d'un jaune d'œuf cru sur le dessus. Il est servi froid avec des frites ou une salade. Certains restaurants le préparent à table, d'autres le servent déjà mélangé. Vous mélangez le jaune d'œuf à la viande vous-même. C'est riche, savoureux et étonnamment délicat. Faites confiance à la qualité du bœuf : les bons restaurants utilisent de la viande fraîche et de qualité.",
+        "vibe": "Audacieux, cru",
+        "history": "Malgré son nom, le steak tartare est français (et non tartare). Il a émergé dans les bistrots parisiens au début des années 1900, inspiré par des plats de viande crue russes/européens de l'Est. Les Français l'ont raffiné en une délicatesse. Cela est devenu un test de la qualité d'un restaurant : s'ils servent un excellent tartare, cela signifie qu'ils s'approvisionnent en bon bœuf. Aujourd'hui, c'est un incontournable des bistrots et un rite de passage pour les mangeurs aventuriers.",
+        "insider_tip": "Commandez 'préparé' si vous souhaitez qu'il soit assaisonné à l'avance (plus facile pour les novices), ou 'nature' si vous voulez l'assaisonner vous-même. La viande doit être fraîchement hachée le jour même - ne la commandez jamais dans des restaurants bon marché ou des pièges à touristes. Les endroits de qualité coûtent entre 18 et 25 €. Mélangez bien le jaune d'œuf avant de manger. Accompagnez-le d'un vin rouge (Côtes du Rhône) ou d'une bière. C'est sûr à manger dans des restaurants réputés - les intoxications alimentaires sont rares avec un bon traitement.",
+        "price_level": "Modéré",
+        "good_for": [
+          "Mangeurs aventuriers",
+          "Déjeuner ou dîner"
+        ],
+        "duration": "30 minutes",
+        "best_time": "Déjeuner ou dîner"
+      },
+      "image": "/images/paris/steak-tartare.jpg"
+    },
+    {
+      "id": "food-024",
+      "slug": "oysters-seafood",
+      "name_en": "Huîtres et Fruits de Mer",
+      "name_local": "Huîtres et Fruits de Mer",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Les huîtres françaises (huîtres) sont servies crues sur de la glace avec du citron, du vinaigre d'échalote ou de la sauce mignonette. Elles se mangent directement dans la coquille, glissées d'un coup. Les tailles varient de 0 (plus grandes) à 5 (plus petites) — les débutants devraient commencer par 3 ou 4. Les huîtres sont les vedettes du 'plateau de fruits de mer' qui comprend des palourdes, des bigorneaux, des crevettes, des crabes et des langoustines sur glace. La meilleure saison est celle des mois avec un 'R' (septembre-avril).",
+        "vibe": "Frais, iodé",
+        "history": "Les huîtres sont consommées en France depuis l'époque romaine. Les brasseries parisiennes ont adopté des bars à huîtres dans les années 1800 lorsque le réfrigération ferroviaire a permis aux huîtres de l'Atlantique d'arriver fraîches à Paris. La tradition de déguster des huîtres avec du vin blanc et du beurre est devenue une culture bourgeoise. Aujourd'hui, les bars à huîtres sont partout, des restaurants Michelin aux étals de marchés.",
+        "insider_tip": "Commandez 6 ou 12 huîtres en fonction de votre appétit. La Fine de Claire (délicates, douces) et la Spéciale de Claires (plus charnues, plus riches) sont les variétés les plus courantes. Glissez-les directement de la coquille — pas besoin de mâcher, il suffit d'avaler. Utilisez le citron ou le vinaigre d'échalote avec parcimonie. Accompagnez-les de vin blanc (Muscadet, Chablis ou Champagne). La saison des huîtres est de septembre à avril ; les huîtres d'été sont lactées et moins prisées. Prix : 2-4 € par huître dans les brasseries, 1,50-2,50 € dans les marchés.",
+        "price_level": "Modéré",
+        "good_for": [
+          "Amateurs de fruits de mer",
+          "Apéro"
+        ],
+        "duration": "30 minutes",
+        "best_time": "Déjeuner ou dîner"
+      },
+      "image": "/images/paris/oysters.jpg"
+    },
+    {
+      "id": "food-025",
+      "slug": "cheese-charcuterie",
+      "name_en": "Cheese & Charcuterie Board",
+      "name_local": "Planche Mixte",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Une planche mixte présente des fromages français régionaux (Camembert, Brie, Comté, Roquefort, chèvre) et de la charcuterie (saucisses sèches, pâté, rillettes, prosciutto). Servie comme un apéritif à partager ou un apéro avant le dîner avec du vin. Le fromage est mangé avec du pain, jamais des crackers. C'est la parfaite introduction à la culture fromagère française sans s'engager dans un plat complet de fromage. À partager, à déguster lentement avec une conversation.",
+        "vibe": "Social, partage",
+        "history": "Les planches de fromage sont une tradition française depuis les années 1700. À l'origine un repas de ferme régional, elles sont devenues des incontournables des restaurants dans les années 1900. La présentation en 'planche' (plateau en bois) a émergé dans les années 1980-90. La France compte plus de 1 200 variétés de fromage—plus que tout autre pays. Charles de Gaulle a dit célèbrement : 'Comment peut-on gouverner un pays avec 246 variétés de fromage ?'",
+        "insider_tip": "Commandez dans les bars à vin ou bistrots. De bonnes planches coûtent entre 12 et 20 € et servent 2-3 personnes. Mangez le fromage du plus doux au plus fort : chèvre → Brie → Comté → Roquefort. Ne coupez pas le 'nez' (bout) du fromage—tranchez sur le côté. Accompagnez avec un vin rouge (Côtes du Rhône) ou blanc (Sancerre). Le pain est inclus ; les crackers sont américains et ne sont pas servis.",
+        "price_level": "Modéré",
+        "good_for": [
+          "Partage",
+          "Accord mets et vins"
+        ],
+        "duration": "1 heure",
+        "best_time": "Apéro (18h-20h)"
+      },
+      "image": "/images/paris/cheese-board.jpg"
+    },
+    {
+      "id": "food-007",
+      "slug": "the-macaron",
+      "name_en": "Le Macaron",
+      "name_local": "Macaron",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le macaron est un délicat biscuit à la meringue à base d'amande : deux coques croustillantes et moelleuses avec un garniture de ganache, de crème au beurre ou de confiture. Ne pas le confondre avec les macarons à la noix de coco (américains). Les macarons parfaits ont une coque lisse et brillante, un extérieur croustillant, un intérieur moelleux et des 'pieds' (base froncée). Les saveurs varient du classique (vanille, chocolat, pistache) au saisonnier (rose, caramel salé, yuzu). Ils sont chers (2-3 € chacun) mais emblématiques.",
+        "vibe": "Élégant, délicat",
+        "history": "Les macarons ont vu le jour en Italie, arrivant en France au XVIe siècle avec Catherine de Médicis. La version parisienne garnie de ganache a été créée par Ladurée en 1930. Pierre Hermé les a élevés au rang d'art dans les années 1990-2000 avec des saveurs inventives (huile d'olive, foie gras). Maintenant, ils sont des symboles mondiaux de la pâtisserie française, bien que les puristes débattent si les versions modernes sont surestimées.",
+        "insider_tip": "Ladurée (depuis 1862) est célèbre mais touristique et trop cher (2,90 € chacun). Pierre Hermé offre une qualité supérieure (2,50 € chacun). Les pâtisseries locales ont souvent un meilleur rapport qualité-prix (1,80-2 € chacune) et moins de bruit. Les macarons doivent être conservés au réfrigérateur et consommés à température ambiante après 20 minutes. Ils sont mieux dégustés en 2-3 bouchées pour apprécier la texture. Ne les achetez pas dans les supermarchés - ils sont rassis et décevants.",
+        "price_level": "Modéré",
+        "good_for": [
+          "Cadeaux",
+          "Dessert"
+        ],
+        "duration": "5 minutes",
+        "best_time": "Après-midi"
+      },
+      "image": "/images/paris/macaron.jpg"
+    },
+    {
+      "id": "food-013",
+      "slug": "croque-monsieur",
+      "name_en": "Croque-Monsieur",
+      "name_local": "Croque-Monsieur",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le croque-monsieur est la nourriture réconfortante ultime en France : un sandwich chaud avec du jambon et du fromage Gruyère entre deux tranches de pain grillé, recouvert de sauce béchamel et de fromage râpé, puis grillé jusqu'à ce qu'il bouillonne et soit doré. C'est riche, fondant et décadent. Ajoutez un œuf au plat sur le dessus pour en faire un 'croque-madame.' Servi dans les cafés et bistrots comme déjeuner ou dîner décontracté. Manger avec un couteau et une fourchette, pas avec les mains.",
+        "vibe": "Réconfortant, fromagé",
+        "history": "Inventé dans les cafés parisiens en 1910 en tant que sandwich chaud rapide. Le nom signifie 'monsieur croustillant.' Le croque-madame (avec œuf) a été ajouté plus tard en tant que version 'féminine.' Il est devenu un incontournable des cafés tout au long des années 1900. Malgré sa simplicité, réaliser un bon croque-monsieur nécessite une technique – la béchamel doit être lisse, le fromage bien fondu. C'est maintenant un plat emblématique des cafés français.",
+        "insider_tip": "Commandez dans les cafés ou bistrots pour le déjeuner (€10-15). De bonnes versions sont faites à la commande, pas préfabriquées et réchauffées. La béchamel doit être crémeuse, pas caoutchouteuse. Le fromage doit être bien fondu et légèrement doré sur le dessus. Le croque-madame (avec œuf) est la version supérieure – le jaune coulant enrichit le sandwich. Mangez avec une salade verte (incluse). Associez avec du vin blanc ou de la bière. C'est lourd, donc ne le commandez pas par temps chaud en été.",
+        "price_level": "Abordable",
+        "good_for": [
+          "Déjeuner",
+          "Nourriture réconfortante"
+        ],
+        "duration": "30 minutes",
+        "best_time": "Déjeuner"
+      },
+      "image": "/images/paris/croque-monsieur.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "bistro-culture",
+      "name_en": "Le Bistrot Parisien",
+      "name_local": "Le Bistrot",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le bistrot parisien est une institution culturelle : petits restaurants décontractés avec des bars en zinc, des chaises en bois courbé, des menus sur ardoise et des plats du jour écrits à la main. Ils servent de la cuisine française réconfortante classique (boeuf bourguignon, pot-au-feu, confit de canard, steak-frites) dans une atmosphère conviviale. Le service est rapide et efficace, sans chitchat. Les bistrots sont les repères de quartier où les habitués mangent chaque semaine. Ce n'est pas de la haute cuisine—c'est une cuisine française honnête et bien exécutée à des prix équitables.",
+        "vibe": "Classique, de quartier",
+        "history": "Les bistrots sont apparus dans les années 1800 comme de petits restaurants abordables pour les travailleurs. Le nom vient peut-être du russe 'bystro' (rapidement), utilisé par des soldats russes en 1814 réclamant un service rapide. Les bars en zinc (pour protéger le bois des boissons renversées) sont devenus la norme au début des années 1900. Les bistrots représentent la culture de la restauration populaire française—une cuisine simple bien faite. Ils ont failli disparaître dans les années 1980-90 mais ont connu un renouveau dans les années 2000-2010.",
+        "insider_tip": "Recherchez des bistrots avec des menus écrits à la main (changés chaque jour en fonction des ingrédients du marché). Évitez 'bistronomie' (bistrots modernes et chers) — ils sont tendance mais moins authentiques. Les vrais bistrots ont des nappes en papier, des carrelages des années 1970 et des bars en zinc. Commandez le 'plat du jour' pour le meilleur rapport qualité-prix. Les formules déjeuner (€15-20) sont excellentes. Les locaux ne prennent pas de réservations dans les bistrots décontractés—il suffit de s'y rendre. Pour le dîner, il est préférable de réserver 1 à 2 jours à l'avance pour les endroits populaires.",
+        "price_level": "Modéré",
+        "good_for": [
+          "Cuisine française classique",
+          "Restauration de quartier"
+        ],
+        "duration": "1.5-2 heures",
+        "best_time": "Déjeuner ou dîner"
+      },
+      "image": "/images/paris/bistrot.jpg"
+    },
+    {
+      "id": "food-009",
+      "slug": "steak-frites",
+      "name_en": "Steak-Frites",
+      "name_local": "Steak-Frites",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le steak-frites est le plat de bistrot français par excellence : un steak poêlé (généralement du faux-filet, de l'entrecôte ou de la bavette) servi avec des frites françaises croustillantes et fines, accompagné d'une sauce au choix (béarnaise, sauce au poivre ou beurre aux herbes). Le steak est cuit saignant à à point. Les frites sont dorées, croustillantes à l'extérieur et moelleuses à l'intérieur. Simple mais parfaitement réalisé - le test d'un bon bistrot. Toujours servi avec une salade verte en accompagnement.",
+        "vibe": "Classique, satisfaisant",
+        "history": "Le steak-frites est devenu un incontournable des bistrots parisiens dans les années 1900 lorsque les prix du bœuf ont chuté et que la technologie de friture s'est améliorée. Des immigrés belges ont apporté les frites à Paris dans les années 1800. Cette combinaison représente la cuisine réconfortante française - des ingrédients de haute qualité préparés simplement. C'est désormais le plat le plus commandé dans les bistrots et brasseries parisiennes, adoré par les locaux et les touristes.",
+        "insider_tip": "Commandez votre steak 'saignant' (rare - centre rouge froid) ou 'à point' (medium-rare - centre rouge chaud). Le bœuf français est plus maigre que l'américain, donc le saignant est optimal. La sauce béarnaise (sauce au beurre d'estragon) est traditionnelle ; la sauce au poivre est également populaire. Les frites doivent être coupées fraîches et double-frites - si elles sont molles, le bistrot a coupé les coins. Prix : 18-28 € selon la coupe. Accompagnez d'un vin rouge (Bordeaux ou Côtes du Rhône).",
+        "price_level": "Modéré",
+        "good_for": [
+          "Déjeuner ou dîner",
+          "Classique de bistrot"
+        ],
+        "duration": "1 heure",
+        "best_time": "Déjeuner ou dîner"
+      },
+      "image": "/images/paris/steak-frites.jpg"
+    },
+    {
+      "id": "food-008",
+      "slug": "french-onion-soup",
+      "name_en": "Soupe à l'oignon",
+      "name_local": "Soupe à l'Oignon",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "La soupe à l'oignon est un bouillon d'oignon profondément caramélisé (bouillon de bœuf ou de poulet) surmonté d'une épaisse tranche de pain grillé et d'une généreuse couche de fromage Comté ou Gruyère fondu. Les oignons sont cuits lentement pendant 30-40 minutes jusqu'à ce qu'ils soient doux et dorés. Le fromage fond sur le pain, formant un couvercle filant et crémeux. C'est réconfortant, savoureux et intensément parfumé. Souvent consommée tard le soir comme plat réconfortant après une fête.",
+        "vibe": "Réconfortant, chaleureux",
+        "history": "La soupe à l'oignon a des origines anciennes (époque romaine), mais la version française moderne est apparue au XVIIIe siècle à Paris. Elle est devenue emblématique comme nourriture de fin de nuit au marché de Les Halles, où les ouvriers la mangeaient à 4 heures du matin après leurs quarts de nuit. La garniture de fromage a été ajoutée au XIXe siècle. Aujourd'hui, c'est un incontournable des bistrots et brasseries, surtout en automne/hiver. C'est aussi un plat traditionnel contre la gueule de bois après une sortie nocturne.",
+        "insider_tip": "Commandez dans des bistrots ou brasseries traditionnels, pas dans des cafés touristiques. Les oignons doivent être profondément caramélisés (bruns, pas pâles), le bouillon riche et savoureux, et le fromage correctement fondu et doré. Le pain doit être grillé suffisamment pour résister au bouillon sans se dissoudre. Utilisez une cuillère pour ramasser le fromage et le pain ensemble. C'est riche et nourrissant—considérez-le comme un plat principal, pas une entrée. Meilleur pendant les mois d'hiver.",
+        "price_level": "Abordable",
+        "good_for": [
+          "Confort d'hiver",
+          "Tard le soir"
+        ],
+        "duration": "30 minutes",
+        "best_time": "Dîner ou tard le soir"
+      },
+      "image": "/images/paris/onion-soup.jpg"
+    },
+    {
+      "id": "food-005",
+      "slug": "french-cheese",
+      "name_en": "French Cheese Course",
+      "name_local": "Fromage",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Dans les repas traditionnels français, le fromage est servi après le plat principal et avant le dessert, et non en entrée. Un plateau de fromage comprend 3 à 5 variétés représentant différentes textures et saveurs : frais (fromage de chèvre), crémeux (Brie, Camembert), dur (Comté, Beaufort) et bleu (Roquefort). Se mange avec du pain, jamais avec des crackers. La progression va du doux au fort. C'est censé nettoyer le palais et prolonger le service du vin avant le dessert.",
+        "vibe": "Raffiné, traditionnel",
+        "history": "Le service du fromage remonte aux 1700-1800, lorsque les repas en plusieurs plats sont devenus standards dans la cuisine bourgeoise française. Servir le fromage après le plat principal permet au vin de continuer à couler avant les vins doux pour le dessert. La France produit plus de 1 200 fromages, la culture fromagère la plus diversifiée au monde. Chaque région a des variétés distinctes liées au terroir local et aux traditions.",
+        "insider_tip": "Les plateaux de fromage apparaissent sur les menus des restaurants formels, pas dans les bistrots décontractés. Préparez-vous à débourser entre 12 et 18 € pour une sélection. Dégustez du plus doux (chèvre) au plus fort (fromage bleu). Coupez le fromage du bord, jamais de la pointe ('nez'). Utilisez du pain pour nettoyer le palais entre les fromages. Accompagnez-le de vin rouge (Bordeaux, Bourgogne) ou blanc (Sancerre). Ne réfrigérez pas le fromage avant de le manger, il doit être à température ambiante. Si vous êtes plein après le dîner, sautez le plateau de fromage, c'est facultatif.",
+        "price_level": "Modéré",
+        "good_for": [
+          "Gastronomie",
+          "Accords mets-vins"
+        ],
+        "duration": "20 minutes",
+        "best_time": "Après le plat principal du dîner"
+      },
+      "image": "/images/paris/cheese.jpg"
+    },
+    {
+      "id": "food-006",
+      "slug": "french-wine",
+      "name_en": "Vin français",
+      "name_local": "Vin",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le vin est une partie essentielle des repas français, pas un supplément. Le vin de la maison ('vin de la maison') au carafe est courant, abordable (8-15 € par carafe) et souvent de très bonne qualité. La culture du vin en France met l'accent sur les accords régionaux : blancs de Loire, rouges de Bordeaux, Pinot Noirs de Bourgogne, mélanges du Rhône. Paris connaît un énorme boom du vin naturel ('vin nature')—des vins à intervention minimale qui sont funky, troubles et tendance. Les bars à vin sont partout.",
+        "vibe": "Intégral, quotidien",
+        "history": "La France produit du vin depuis plus de 2 600 ans depuis la colonisation grecque. Le vin français est devenu la norme mondiale aux XVIIIe et XIXe siècles. Le système AOC (Appellation d'Origine Contrôlée) établi en 1935 protège les identités régionales du vin. Les Parisiens ont toujours bu du vin quotidiennement avec les repas—ce n'est pas réservé aux occasions spéciales. Le mouvement du vin naturel a explosé à Paris dans les années 2010, dirigé par de jeunes vignerons rejetant la vinification industrielle.",
+        "insider_tip": "Commandez le vin de la maison ('vin de la maison') par la carafe (8-12 €) ou le pichet—c'est un meilleur rapport qualité-prix que les bouteilles. Demandez 'rouge' (rouge), 'blanc' (blanc) ou 'rosé.' Ne soyez pas intimidé par les cartes des vins—demandez au serveur 'Qu'est-ce que vous recommandez ?'. Les bars à vin dans le Marais, Oberkampf et Belleville se spécialisent dans les vins naturels. Associez le rouge avec la viande, le blanc avec le poisson, le rosé avec la charcuterie. Buvez ce que vous aimez—les snobs existent mais la plupart des Parisiens ne sont pas précieux sur le vin.",
+        "price_level": "Modéré",
+        "good_for": [
+          "Repas",
+          "Amoureux du vin"
+        ],
+        "duration": "Tout au long du repas",
+        "best_time": "Déjeuner ou dîner"
+      },
+      "image": "/images/paris/wine.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "cafe-culture",
+      "name_en": "Culture du Café",
+      "name_local": "Le Café",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "La culture des cafés parisiens consiste à prendre le temps de déguster un espresso ('un café') ou un verre de vin pendant des heures, en observant la vie depuis une table en terrasse. C'est une institution sociale, pas simplement un service de café. Les places sont stratégiques : 'en terrasse' (à l'extérieur sur le trottoir) coûtent plus cher que 'en salle' (à l'intérieur), et 'au comptoir' (debout au bar) est le moins cher. Le café est votre bureau, votre salon et un théâtre d'observation de la vie quotidienne. Commander une fois vous offre des heures d'espace - personne ne vous presse.",
+        "vibe": "Décontracté, social",
+        "history": "Les cafés parisiens ont émergé aux 17ème-18ème siècles, devenant des foyers intellectuels aux 19ème-20ème siècles (le Café de Flore, Les Deux Magots ont accueilli Sartre, Hemingway, Picasso). La culture des terrasses a explosé après la Seconde Guerre mondiale lorsque les places en extérieur ont été autorisées. Les cafés sont devenus des lieux démocratiques où tout le monde - des travailleurs aux intellectuels - pouvait se permettre de s'asseoir. Ils sont protégés par la loi : les cafés ne peuvent pas être transformés en banques ou en chaînes de magasins.",
+        "insider_tip": "Commandez 'un café' (espresso), 'un crème' (espresso avec du lait) ou 'un café allongé' (americano). S'asseoir en terrasse coûte 20-50 % de plus que de rester debout au bar. Vous payez en partant, pas en commandant - cela permet de prendre son temps. Les serveurs ne vous presseront pas ; vous pouvez rester des heures avec une seule boisson. Meilleurs endroits pour observer les gens : Café de Flore, Les Deux Magots, Café de la Paix (prix touristiques mais iconique). Les locaux fréquentent des cafés de quartier dans des zones moins touristiques (moins cher, authentique).",
+        "price_level": "Modéré",
+        "good_for": [
+          "Observation des gens",
+          "Lecture"
+        ],
+        "duration": "1-3 heures",
+        "best_time": "Matin ou après-midi"
+      },
+      "image": "/images/paris/cafe.jpg"
+    },
+    {
+      "id": "food-010",
+      "slug": "paris-crepe",
+      "name_en": "Crêpes de Paris",
+      "name_local": "Crêpes",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Les crêpes sont de fines galettes repliées en triangles ou en cônes, fourrées de garnitures sucrées (Nutella, sucre et citron, confiture) ou salées (jambon et fromage, œuf). Les crêpes salées de sarrasin sont appelées 'galettes' (de Bretagne). Elles sont vendues en tant que nourriture de rue depuis des fenêtres accessibles ('guichets') ou dans des crêperies. Regarder le crêpier étendre la pâte sur la plaque chaude avec un râteau en bois fait partie de l'expérience. Abordables (4-8 €), rassasiantes et parfaites pour manger sur le pouce.",
+        "vibe": "Décontracté, nourriture de rue",
+        "history": "Les crêpes ont vu le jour en Bretagne (nord-ouest de la France) entre les années 1200 et 1300. Les Bretons ont amené la culture de la crêpe à Paris au 19ème et au début du 20ème siècle, ouvrant des crêperies et des stands de rue. La crêpe au Nutella est devenue emblématique dans les années 1960-70. Les stands de crêpes de rue se regroupent autour des zones touristiques et du Quartier Latin. Les crêpes sucrées sont des desserts ou des collations ; les galettes salées sont des plats principaux.",
+        "insider_tip": "Achetez auprès des stands de rue ('guichets') pour 4-6 €, pas dans les crêperies avec service (10-15 € pour la même chose). Garnitures classiques : Nutella, sucre-citron, ou Nutella-banane pour sucré ; jambon-fromage-œuf (complète) pour salé. Les galettes (sarrasin) sont sans gluten et plus consistantes. Regardez le crêpier—les crêpes fraîches sont meilleures que celles préemballées. Mangez en marchant ou assis sur un banc dans un parc. Meilleures zones : Quartier Latin, Montmartre, Île de la Cité.",
+        "price_level": "Abordable",
+        "good_for": [
+          "Grignotage",
+          "Nourriture de rue"
+        ],
+        "duration": "10 minutes",
+        "best_time": "Après-midi ou dessert"
+      },
+      "image": "/images/paris/crepes.jpg"
+    },
+    {
+      "id": "food-011",
+      "slug": "eclair",
+      "name_en": "L'Éclair",
+      "name_local": "Éclair",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Un éclair est une pâtisserie en pâte à choux oblongue (la même pâte que les choux à la crème) remplie de crème pâtissière à la vanille, au chocolat ou au café et surmontée d'un glaçage fondant brillant. C'est léger, aérien et pas trop sucré. Les pâtisseries modernes proposent des saveurs créatives (pistache, caramel salé, fruit de la passion) avec des glaçages colorés. Un vrai éclair a une coque croustillante, une garniture crémeuse et un glaçage brillant. On le mange en 2-3 bouchées, jamais avec des ustensiles.",
+        "vibe": "Élégant, classique",
+        "history": "Les éclairs ont émergé en France dans les années 1840-1850, probablement créés par le chef Antonin Carême. Le nom signifie 'éclair'—soit parce qu'on les mange rapidement soit parce que le glaçage brille comme un éclair. Ils sont devenus des incontournables de la pâtisserie à la fin des années 1800. Des chefs pâtissiers modernes comme Christophe Adam et Pierre Hermé les ont élevés avec des saveurs inventives dans les années 2000-2010.",
+        "insider_tip": "Achetez dans de vraies pâtisseries, pas dans des boulangeries en chaîne ou des supermarchés. La coque doit être légère et croustillante, pas détrempée. La crème doit être lisse et pas trop sucrée. Les saveurs classiques (chocolat, café, vanille) sont fiables ; les saveurs tendance peuvent être inégales. Mangez-les le jour de votre achat—elles ne se conservent pas. Prix : 3-5 € selon la pâtisserie. L'Éclair de Génie se spécialise dans les éclairs créatifs (5-6 € chacun).",
+        "price_level": "Abordable",
+        "good_for": [
+          "Dessert",
+          "Pause gourmande"
+        ],
+        "duration": "5 minutes",
+        "best_time": "Après-midi"
+      },
+      "image": "/images/paris/eclair.jpg"
+    },
+    {
+      "id": "food-014",
+      "slug": "canele",
+      "name_en": "Le Canelé",
+      "name_local": "Canelé de Bordeaux",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Le canelé est un petit gâteau strié de Bordeaux avec une croûte caramélisée foncée et épaisse et un intérieur crémeux. Il est aromatisé au rhum et à la vanille, avec une touche de caramel provenant du sucre brûlé. Le contraste entre l'extérieur croustillant et l'intérieur crémeux est séduisant. Mesurant environ 5 cm de hauteur, il se déguste en 3-4 bouchées. Originaire de Bordeaux, il est désormais un incontournable des pâtisseries parisiennes.",
+        "vibe": "Caramélisé, crémeux",
+        "history": "Les canelés ont vu le jour à Bordeaux au 18ème siècle, créés par des religieuses utilisant des jaunes d'œufs restants de la vinification (les blancs étaient utilisés pour filtrer le vin). La recette a failli disparaître mais a été ravivée dans les années 1980. Les moules en cuivre flûtés créent la croûte caramélisée épaisse. Aujourd'hui, on les trouve dans toutes les pâtisseries de Paris, bien que les puristes affirment que les versions bordelaises sont supérieures.",
+        "insider_tip": "Le mieux est de les déguster à température ambiante ou légèrement chauds : la saveur du caramel s'intensifie. La croûte doit être très brune (presque noire), épaisse et croustillante. L'intérieur doit être jaune pâle et crémeux, pas comme un gâteau. Achetez-les dans des pâtisseries spécialisées, pas dans des supermarchés. Ils se conservent 1-2 jours mais sont meilleurs le jour même. Prix : 2-2,50 € chacun. A associer avec un café ou un vin doux.",
+        "price_level": "Abordable",
+        "good_for": [
+          "Goûter",
+          "Association avec le café"
+        ],
+        "duration": "5 minutes",
+        "best_time": "Après-midi"
+      },
+      "image": "/images/paris/canele.jpg"
+    },
+    {
+      "id": "food-027",
+      "slug": "tarte-tatin",
+      "name_en": "Tarte Tatin",
+      "name_local": "Tarte Tatin",
+      "category": "nourriture",
+      "is_generic_staple": true,
+      "description": {
+        "short": "La Tarte Tatin est une tarte aux pommes caramélisée à l'envers : les pommes sont cuites dans du beurre et du sucre jusqu'à obtenir une belle couleur dorée, recouvertes de pâte, cuites au four, puis retournées pour que les pommes caramélisées soient sur le dessus. Les pommes sont tendres, profondément caramélisées, et sucrées avec une base de pâte feuilletée beurrée. Servie chaude avec de la crème fraîche, de la glace à la vanille ou de la crème chantilly. C'est un dessert rustique, élégant et typiquement français.",
+        "vibe": "Caramélisé, rustique",
+        "history": "Créée par accident dans les années 1880 à l'Hôtel Tatin à Lamotte-Beuvron (au sud de Paris). La légende raconte que Stéphanie Tatin a oublié de mettre la pâte dans le moule au départ, alors elle l'a ajoutée par-dessus et a retourné la tarte. L'« erreur » est devenue célèbre. C'est maintenant un dessert français classique servi dans des bistrots et brasseries à travers le pays. Elle représente l'ingéniosité française et l'élégance rustique.",
+        "insider_tip": "Commandez dans des bistrots ou brasseries traditionnels, pas dans des cafés touristiques. Les pommes doivent être dorées et caramélisées, pas pâles ou molles. La pâte doit être croustillante et beurrée. Mieux servie chaude (pas brûlante ou froide). La crème fraîche est l'accompagnement traditionnel : son acidité équilibre la douceur. Prix : 8-12 € pour une portion. Partagez si possible — c'est riche. À marier avec un vin doux (Sauternes) ou un café.",
+        "price_level": "Modéré",
+        "good_for": [
+          "Dessert",
+          "Partage"
+        ],
+        "duration": "20 minutes",
+        "best_time": "Après le dîner"
+      },
+      "image": "/images/paris/tarte-tatin.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Musées de classe mondiale",
+      "id": "museums",
+      "items": [
+        {
+          "id": "mus-01",
+          "slug": "louvre",
+          "name_en": "Musée du Louvre",
+          "name_local": "Musée du Louvre",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Le Louvre est le plus grand musée d'art au monde et un monument historique à Paris. À l'origine une forteresse médiévale construite au XIIe siècle, il est devenu un palais royal avant d'ouvrir en tant que musée en 1793. Il abrite plus de 38 000 œuvres d'art couvrant 9 000 ans, y compris la Mona Lisa, Vénus de Milo, et la Victoire ailée. L'entrée de la pyramide en verre (1989) est emblématique. C'est vaste - vous ne pouvez pas tout voir en une seule visite.",
+            "vibe": "Monumental, écrasant",
+            "history": "Construit comme une forteresse par Philippe Auguste en 1190, agrandi en palais de la Renaissance par François I au XVIe siècle. Devenu musée public lors de la Révolution française (1793). La pyramide en verre controversée d'I.M. Pei a été ajoutée en 1989, modernisant l'entrée. Napoléon a élargi les collections avec des œuvres saisies lors de ses conquêtes. Aujourd'hui, c'est le musée le plus visité au monde avec 9,6 millions de visiteurs par an.",
+            "insider_tip": "Réservez des billets à horaires fixes 2 à 7 jours à l'avance (obligatoire). Entrez par la Porte des Lions (moins de foule) ou le Carrousel du Louvre souterrain. Dirigez-vous directement vers la Mona Lisa à l'ouverture (9h) ou à la fermeture (17h30) pour éviter les foules. La peinture est petite, derrière une vitre, et très fréquentée - gérez vos attentes. Concentrez-vous sur UNE aile : Denon (Renaissance italienne), Sully (égyptien) ou Richelieu (peintures françaises). Utilisez l'application du Louvre pour des cartes hors ligne et des guides audio.",
+            "price_level": "Modéré",
+            "good_for": [
+              "Amateurs d'art",
+              "Visiteurs de première fois"
+            ],
+            "duration": "2-4 heures",
+            "best_time": "Ouverture (9h) ou fin d'après-midi"
+          },
+          "image": "/images/paris/louvre.jpg",
+          "geo": {
+            "lat": 48.8606,
+            "lng": 2.3376
+          }
+        },
+        {
+          "id": "mus-02",
+          "slug": "musee-orsay",
+          "name_en": "Musée d'Orsay",
+          "name_local": "Musée d'Orsay",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Le Musée d'Orsay est situé dans une ancienne gare Beaux-Arts magnifique (Gare d'Orsay, construite en 1900). C'est la plus grande collection au monde d'art impressionniste et post-impressionniste : Monet, Renoir, Degas, Van Gogh, Cézanne, Gauguin. Les galeries du dernier étage présentent des Nymphéas, Nuit étoilée sur le Rhône et Danseuses. Le bâtiment lui-même - avec son immense horloge ornée et son toit en verre - est une œuvre d'art. Plus petit et plus facile à gérer que le Louvre.",
+            "vibe": "Éclairé, élégant",
+            "history": "Construit comme la gare d'Orsay pour l'Exposition universelle de 1900. Les trains ont cessé de l'utiliser en 1939 (quais trop courts pour les trains modernes). Presque démoli dans les années 1970, il a été sauvé et converti en musée, ouvrant en 1986. La conversion a préservé l'architecture industrielle tout en créant des espaces d'exposition intimes. Il fait le pont entre le Louvre (ancien-1848) et le Pompidou (moderne) chronologiquement, couvrant 1848-1914.",
+            "insider_tip": "Réservez des billets à horaires fixes en ligne 3 à 5 jours à l'avance. Entrez par l'entrée latérale (moins de monde qu'à l'entrée principale). Dirigez-vous directement au dernier étage (Niveau 5) pour les Impressionnistes - la plupart des visiteurs commencent au rez-de-chaussée, donc le dernier étage est plus calme tôt. La fenêtre de l'horloge géante offre de superbes vues sur la Seine. Les soirées du mercredi/vendredi (ouvert jusqu'à 21h45) sont magiques et moins fréquentées. Prévoyez 2 à 3 heures minimum. Évitez la boutique de souvenirs - les prix sont élevés.",
+            "price_level": "Modéré",
+            "good_for": [
+              "Amateurs d'art impressionniste",
+              "Couples"
+            ],
+            "duration": "2-3 heures",
+            "best_time": "Ouverture ou soirées mercredi/vendredi"
+          },
+          "image": "/images/paris/orsay.jpg",
+          "geo": {
+            "lat": 48.86,
+            "lng": 2.3266
+          }
+        },
+        {
+          "id": "mus-03",
+          "slug": "musee-rodin",
+          "name_en": "Musée Rodin",
+          "name_local": "Musée Rodin",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Le Musée Rodin est un musée de sculptures serein situé dans un hôtel particulier du XVIIIe siècle (Hôtel Biron) avec de magnifiques jardins. Il abrite la plus grande collection de l'œuvre d'Auguste Rodin, y compris Le Penseur, Le Baiser, Les Portes de l'Enfer et Balzac. Le jardin de sculptures est le point fort - des statues en bronze éparpillées parmi des rosiers et des allées bordées d'arbres. C'est paisible, intime, et souvent négligé par les touristes pressés vers des musées plus grands. Parfait pour un après-midi calme.",
+            "vibe": "Paisible, contemplatif",
+            "history": "L'Hôtel Biron a été construit en 1730 en tant que mansion aristocratique. Rodin a loué des chambres ici de 1908 jusqu'à sa mort en 1917, l'utilisant comme studio. Il a fait don de sa collection entière à l'État français en échange de la conversion du bâtiment en musée. Il a ouvert en 1919. Les jardins ont été conçus par le paysagiste Jacques Sgard, reflétant les traditions de jardin à la française. Camille Claudel (élève et amante de Rodin) a sa propre salle dans le musée.",
+            "insider_tip": "Visitez par temps ensoleillé - les jardins sont l'attraction principale. L'entrée est moins chère si vous ne visitez que les jardins (€4 contre €14 pour le musée complet). Le Penseur est dans le jardin avant (photo gratuite depuis l'extérieur des grilles si vous ne souhaitez pas payer). Combinez avec le proche Musée d'Orsay (10 minutes à pied). Les pique-niques ne sont pas autorisés, mais vous pouvez vous asseoir sur des bancs. Moins fréquenté que le Louvre/Orsay - généralement pas de réservation à l'avance nécessaire sauf les week-ends d'été.",
+            "price_level": "Modéré",
+            "good_for": [
+              "Amateurs de sculpture",
+              "Retraites paisibles"
+            ],
+            "duration": "1-2 heures",
+            "best_time": "Matin ou fin d'après-midi (bonne lumière)"
+          },
+          "image": "/images/paris/rodin.jpg",
+          "geo": {
+            "lat": 48.8553,
+            "lng": 2.3159
+          }
+        },
+        {
+          "id": "mus-04",
+          "slug": "centre-pompidou",
+          "name_en": "Centre Pompidou",
+          "name_local": "Centre Pompidou",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Le Centre Pompidou est un bâtiment radical à l'envers avec des tuyaux, des conduits, et des escaliers exposés colorés à l'extérieur (bleu=air, vert=eau, jaune=électrique, rouge=circulation). Il abrite la plus grande collection d'art moderne d'Europe : Picasso, Matisse, Kandinsky, Duchamp, Warhol. La terrasse du toit offre des vues panoramiques sur Paris. La place environnante accueille des artistes de rue et est un centre social. Controversé lors de sa construction (1977), il est maintenant adoré.",
+            "vibe": "Audacieux, avant-gardiste",
+            "history": "Conçu par Renzo Piano et Richard Rogers, ouvert en 1977. Le design était révolutionnaire - plaçant toute l'infrastructure (tuyaux, escaliers, supports structurels) à l'extérieur pour maximiser l'espace d'exposition intérieur. Il a été fortement controversé, qualifié de 'raffinerie de pétrole' et de 'supermarché culturel.' Le président Georges Pompidou l'a soutenu pour revitaliser le quartier du Marais/Beaubourg. Maintenant, c'est une icône de l'architecture High-Tech et attire 3 millions de visiteurs chaque année.",
+            "insider_tip": "La vue du toit est gratuite si vous avez un billet de musée (ou achetez un billet uniquement pour le toit pour €5). Évitez le musée et prenez simplement les escaliers extérieurs pour les vues - ils sont transparents et offrent des perspectives incroyables. Le restaurant du 6e étage dispose d'une cuisine étoilée Michelin avec vue sur la Tour Eiffel. La place (gratuite) est idéale pour observer les gens et les artistes de rue. Le premier dimanche du mois est l'entrée gratuite mais bondée. Fermé les mardis.",
+            "price_level": "Modéré",
+            "good_for": [
+              "Fans d'art moderne",
+              "Amateurs d'architecture"
+            ],
+            "duration": "2 heures (musée) ou 30 mins (toit uniquement)",
+            "best_time": "Fin d'après-midi pour les vues du coucher de soleil sur le toit"
+          },
+          "image": "/images/paris/pompidou.jpg",
+          "geo": {
+            "lat": 48.8606,
+            "lng": 2.3522
+          }
+        }
+      ]
+    },
+    {
+      "title": "Monuments Iconiques",
+      "id": "monuments",
+      "items": [
+        {
+          "id": "mon-01",
+          "slug": "eiffel-tower",
+          "name_en": "Tour Eiffel",
+          "name_local": "Tour Eiffel",
+          "category": "visite",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Le symbole mondial de la France, cette tour en fer de 330 mètres offre les vues de skyline les plus célèbres au monde.",
+            "history": "Construit par Gustave Eiffel pour l'Exposition Universelle de 1889, il était à l'origine détesté par les Parisiens et censé être démoli après 20 ans. Il a été sauvé uniquement parce que sa hauteur en faisait une parfaite station de radiotélégraphie.",
+            "insider_tip": "Évitez les longues files d'attente à l'ascenseur; grimpez les 674 marches jusqu'au 2e étage pour un billet moins cher et une vue beaucoup plus intime des structures en fer.",
+            "price_level": "Cher",
+            "duration": "2-3 heures",
+            "best_time": "Coucher de soleil, pour voir le début du spectacle de 'brillance' à chaque heure.",
+            "vibe": "Iconique et Romantique",
+            "good_for": [
+              "Première visite",
+              "Vues",
+              "Photographie"
+            ]
+          },
+          "image": "/images/paris/eiffel.jpg",
+          "geo": {
+            "lat": 48.8584,
+            "lng": 2.2945
+          }
+        },
+        {
+          "id": "mon-02",
+          "slug": "arc-de-triomphe",
+          "name_en": "Arc de Triomphe",
+          "name_local": "Arc de Triomphe",
+          "category": "visite",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un immense arc triomphal néoclassique rendant hommage à ceux qui ont combattu pour la France, se tenant au centre du cercle de circulation le plus chaotique du monde.",
+            "history": "Commandé par Napoléon en 1806 après sa victoire à Austerlitz, il abrite la Tombe du Soldat Inconnu et la Flamme Éternelle, qui est rallumée chaque soir depuis 1923.",
+            "insider_tip": "Ne tentez PAS de traverser le cercle de circulation à pied. Utilisez le tunnel piétonnier situé sur les Champs-Élysées pour rejoindre la base en toute sécurité.",
+            "price_level": "Modéré",
+            "duration": "1 heure",
+            "best_time": "Tard l'après-midi pour la lumière dorée illuminant les 12 avenues rayonnantes.",
+            "vibe": "Grand et Historique",
+            "good_for": [
+              "Histoire",
+              "Vues",
+              "Photographie"
+            ]
+          },
+          "image": "/images/paris/arc-triomphe.jpg",
+          "geo": {
+            "lat": 48.8738,
+            "lng": 2.295
+          }
+        },
+        {
+          "id": "mon-03",
+          "slug": "pantheon",
+          "name_en": "Panthéon",
+          "name_local": "Panthéon",
+          "category": "visite",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un mausolée laïque dans le Quartier Latin abritant les restes des plus grands citoyens de France, avec un immense dôme et le pendule de Foucault.",
+            "history": "Construit à l'origine comme une église dédiée à Sainte Geneviève, il a été converti pendant la Révolution Française en un temple dédié 'aux grands hommes de l'ère de la liberté française.'",
+            "insider_tip": "Dirigez-vous vers la crypte pour voir les tombes de Voltaire, Victor Hugo et Marie Curie. Entre avril et octobre, vous pouvez grimper au dôme pour l'une des meilleures vues à 360° de Paris.",
+            "price_level": "Modéré",
+            "duration": "1.5 heures",
+            "best_time": "En milieu de matinée pour éviter les foules d'étudiants de la Sorbonne à proximité.",
+            "vibe": "Solemn et Intellectuel",
+            "good_for": [
+              "Histoire",
+              "Architecture",
+              "Amateurs de science"
+            ]
+          },
+          "image": "/images/paris/pantheon.jpg",
+          "geo": {
+            "lat": 48.8462,
+            "lng": 2.3461
+          }
+        },
+        {
+          "id": "mon-04",
+          "slug": "opera-garnier",
+          "name_en": "Opéra Garnier",
+          "name_local": "Palais Garnier",
+          "category": "visite",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un chef-d'œuvre architectural du Second Empire, cette opéra opulent est célèbre pour son grand escalier et son plafond peint par Chagall.",
+            "history": "Commandé par Napoléon III et conçu par Charles Garnier, il a servi d'inspiration principale et de décor pour 'Le Fantôme de l'Opéra' de Gaston Leroux.",
+            "insider_tip": "Visitez le 'Grand Foyer'—il a été conçu pour imiter la Galerie des Glaces à Versailles et est arguably plus impressionnant que le théâtre lui-même.",
+            "price_level": "Modéré",
+            "duration": "1.5 heures",
+            "best_time": "10h00, juste à l'ouverture avant que le bruit des répétitions ne commence.",
+            "vibe": "Luxueux et Dramatique",
+            "good_for": [
+              "Architecture",
+              "Amateurs de musique",
+              "Design d'intérieur"
+            ]
+          },
+          "image": "/images/paris/opera.jpg",
+          "geo": {
+            "lat": 48.8719,
+            "lng": 2.3316
+          }
+        }
+      ]
+    },
+    {
+      "title": "Passages Couverts",
+      "id": "passages",
+      "items": [
+        {
+          "id": "pas-01",
+          "slug": "galerie-vivienne",
+          "name_en": "Galerie Vivienne",
+          "name_local": "Galerie Vivienne",
+          "category": "vue",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Le passage couvert le plus élégant de Paris datant du 19ème siècle, avec des sols en mosaïque complexes et un magnifique toit en verre.",
+            "history": "Construit en 1823, c'était l'endroit incontournable pour le shopping bourgeois avant l'essor des grands magasins. Il reste l'un des rares passages à ne jamais être tombé entièrement en ruine.",
+            "insider_tip": "Arrêtez-vous à la librairie 'Librairie Jousseaume'—elle est dans le passage depuis 1826 et a toujours l'air d'une capsule temporelle.",
+            "price_level": "Gratuit",
+            "duration": "45 minutes",
+            "best_time": "L'après-midi pluvieux pour une promenade cosy à l'abri.",
+            "vibe": "Calme et Sophistiqué",
+            "good_for": [
+              "Trésors Cachés",
+              "Shopping",
+              "Photographie"
+            ]
+          },
+          "image": "/images/paris/galerie-vivienne.jpg",
+          "geo": {
+            "lat": 48.8662,
+            "lng": 2.3395
+          }
+        },
+        {
+          "id": "pas-02",
+          "slug": "passage-des-panoramas",
+          "name_en": "Passage des Panoramas",
+          "name_local": "Passage des Panoramas",
+          "category": "vue",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Le plus ancien passage couvert de Paris, maintenant un lieu animé pour les gourmets, les collectionneurs de timbres et les chasseurs de cartes postales vintage.",
+            "history": "Ouvert en 1799, c'était l'un des premiers endroits à Paris à utiliser l'éclairage au gaz, attirant des foules massives en soirée au début des années 1800.",
+            "insider_tip": "C'est un excellent endroit pour un déjeuner abordable. Découvrez 'Gyoza Bar' ou 'Bisou' pour faire une pause avec des sauces lourdes à la crème française.",
+            "price_level": "Gratuit",
+            "duration": "1 heure",
+            "best_time": "Heures de déjeuner en semaine pour manger avec les habitants.",
+            "vibe": "Nostalgique et Culinaire",
+            "good_for": [
+              "Gourmets",
+              "Collectionneurs",
+              "Histoire"
+            ]
+          },
+          "image": "/images/paris/passage-panoramas.jpg",
+          "geo": {
+            "lat": 48.8711,
+            "lng": 2.3417
+          }
+        }
+      ]
+    },
+    {
+      "title": "Marchés & Vie Locale",
+      "id": "marches",
+      "items": [
+        {
+          "id": "mar-01",
+          "slug": "marche-des-enfants-rouges",
+          "name_en": "Marché des Enfants Rouges",
+          "name_local": "Marché des Enfants Rouges",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Le plus ancien marché alimentaire couvert de Paris, situé dans le Marais, proposant un mélange de produits frais et de plats internationaux à emporter.",
+            "history": "Fondé en 1615, son nom vient de l'orphelinat voisin où les enfants portaient des capes rouges (la couleur de la charité).",
+            "insider_tip": "Dirigez-vous directement vers 'Chez Alain Miam Miam' pour les célèbres grands sandwiches de Paris, mais préparez-vous à attendre 30 minutes.",
+            "price_level": "Abordable",
+            "duration": "1,5 heures",
+            "best_time": "11h30 pour éviter l'afflux de clients.",
+            "vibe": "Vivant et Social",
+            "good_for": [
+              "Déjeuner",
+              "Gastronomes",
+              "Culture Locale"
+            ]
+          },
+          "image": "/images/paris/enfants-rouges.jpg",
+          "geo": {
+            "lat": 48.8622,
+            "lng": 2.3615
+          }
+        },
+        {
+          "id": "mar-02",
+          "slug": "rue-montorgueil",
+          "name_en": "Rue Montorgueil",
+          "name_local": "Rue Montorgueil",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Une rue de marché piétonne vivante bordée des meilleures boulangeries, poissonneries, fleuristes et cafés historiques de la ville.",
+            "history": "Cette rue a servi de porte d'entrée pour les poissons venant de la côte vers le marché central des Halles pendant des siècles.",
+            "insider_tip": "Visitez 'Stohrer' au #51—c'est la plus ancienne pâtisserie de Paris (fondée en 1730). Leur 'Baba au Rhum' a été inventé ici.",
+            "price_level": "Modéré",
+            "duration": "1 heure",
+            "best_time": "Dimanche matin lorsque l'atmosphère est à son comble.",
+            "vibe": "Énergique et Gastronomique",
+            "good_for": [
+              "Rituel Quotidien",
+              "Gastronomes",
+              "Promenade"
+            ]
+          },
+          "image": "/images/paris/montorgueil.jpg",
+          "geo": {
+            "lat": 48.865,
+            "lng": 2.347
+          }
+        }
+      ]
+    },
+    {
+      "title": "Seine & Rives",
+      "id": "seine",
+      "items": [
+        {
+          "id": "sei-01",
+          "slug": "seine-river-cruise",
+          "name_en": "Seine River Cruise",
+          "name_local": "Croisière sur la Seine",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Une croisière classique qui passe devant le Louvre, Notre-Dame et la Tour Eiffel, offrant une perspective unique depuis l'eau.",
+            "history": "Les 'Bateaux-Mouche' ont été popularisés après la Seconde Guerre mondiale et restent le moyen principal pour les visiteurs de voir le cœur 'monumental' de la ville sans marcher des kilomètres.",
+            "insider_tip": "Prenez les 'Vedettes du Pont Neuf' plutôt que les plus grands bateaux ; ils sont plus petits, plus centraux, et les guides offrent des commentaires en direct.",
+            "price_level": "Modéré",
+            "duration": "1 heure",
+            "best_time": "Tard dans la soirée pour voir les monuments illuminés.",
+            "vibe": "Détendu et Scénique",
+            "good_for": [
+              "Familles",
+              "Débutants",
+              "Vues"
+            ]
+          },
+          "image": "/images/paris/seine-cruise.jpg",
+          "geo": {
+            "lat": 48.863,
+            "lng": 2.3
+          }
+        },
+        {
+          "id": "sei-02",
+          "slug": "seine-riverbanks",
+          "name_en": "Seine Riverbanks",
+          "name_local": "Berges de Seine",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un site classé au patrimoine mondial de l'UNESCO constitué de chemins piétonniers offrant l'espace ultime pour la 'flânerie' parisienne et les pique-niques.",
+            "history": "Anciennement une autoroute, les berges ont été réaménagées par la ville en 2013 et transformées en parc permanent pour piétons et cyclistes.",
+            "insider_tip": "Apportez une bouteille de vin et un peu de fromage au bout de l'Île de la Cité (Square du Vert-Galant) pour regarder le coucher de soleil comme un vrai local.",
+            "price_level": "Gratuit",
+            "duration": "1-2 heures",
+            "best_time": "Soirées d'été (19h - 22h).",
+            "vibe": "Romantique et Social",
+            "good_for": [
+              "Pique-niques",
+              "Balades",
+              "Budget-friendly"
+            ]
+          },
+          "image": "/images/paris/seine-banks.jpg",
+          "geo": {
+            "lat": 48.8556,
+            "lng": 2.3476
+          }
+        }
+      ]
+    },
+    {
+      "title": "Églises et lieux sacrés",
+      "id": "churches",
+      "items": [
+        {
+          "id": "chu-01",
+          "slug": "notre-dame",
+          "name_en": "Cathédrale Notre-Dame",
+          "name_local": "Cathédrale Notre-Dame",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un chef-d'œuvre de l'architecture gothique française et le cœur littéral de la ville (Point Zéro).",
+            "history": "Construite entre 1163 et 1345, elle a survécu à la Révolution française et à un incendie dévastateur en 2019, conduisant à l'un des projets de restauration les plus significatifs de l'histoire moderne.",
+            "insider_tip": "Même si la restauration est en cours, visitez la crypte sous la place pour un aperçu fascinant des fondations romaines de Paris.",
+            "price_level": "Gratuit",
+            "duration": "45 minutes (extérieur/crypte)",
+            "best_time": "Tôt le matin pour éviter les foules touristiques sur la place.",
+            "vibe": "Majestueux et Résilient",
+            "good_for": [
+              "Histoire",
+              "Architecture",
+              "Visiteurs"
+            ]
+          },
+          "image": "/images/paris/notre-dame.jpg",
+          "geo": {
+            "lat": 48.8529,
+            "lng": 2.35
+          }
+        },
+        {
+          "id": "chu-02",
+          "slug": "sacre-coeur",
+          "name_en": "Basilique du Sacré-Cœur",
+          "name_local": "Basilique du Sacré-Cœur",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Une basilique romano-byzantine à dôme blanc située au point le plus élevé de Paris, offrant des vues imprenables sur toute la ville.",
+            "history": "Construit comme une pénitence après la guerre franco-prussienne, sa pierre blanche unique (travertin) s'éclaircit en fait sous la pluie, gardant sa teinte éclatante.",
+            "insider_tip": "Les marches sont toujours bondées ; contournez l'entrée latérale et montez au Dôme pour le point de vue le plus élevé de la ville, en dehors de la Tour Eiffel.",
+            "price_level": "Gratuit",
+            "duration": "1.5 heures",
+            "best_time": "Lever du soleil pour voir la ville se réveiller dans un silence total.",
+            "vibe": "Éthéré et Animé",
+            "good_for": [
+              "Vues",
+              "Photographie",
+              "Spiritualité"
+            ]
+          },
+          "image": "/images/paris/sacre-coeur.jpg",
+          "geo": {
+            "lat": 48.8867,
+            "lng": 2.3431
+          }
+        },
+        {
+          "id": "chu-03",
+          "slug": "sainte-chapelle",
+          "name_en": "Sainte-Chapelle",
+          "name_local": "Sainte-Chapelle",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Une chapelle royale du XIIIe siècle contenant certaines des vitraux les plus spectaculaires du monde.",
+            "history": "Construite par le roi Louis IX pour abriter sa collection de Reliques de la Passion, y compris la couronne d'épines (maintenant à Notre-Dame).",
+            "insider_tip": "Visitez par une belle journée ensoleillée. Les 1 113 panneaux de verre brillent littéralement lorsque le soleil les frappe, transformant la chapelle en écrin de bijoux.",
+            "price_level": "Modéré",
+            "duration": "1 heure",
+            "best_time": "12h00 lorsque le soleil est directement au-dessus.",
+            "vibe": "Inspiration et Intensité",
+            "good_for": [
+              "Amateurs d'art",
+              "Histoire",
+              "Architecture"
+            ]
+          },
+          "image": "/images/paris/sainte-chapelle.jpg",
+          "geo": {
+            "lat": 48.8554,
+            "lng": 2.345
+          }
+        }
+      ]
+    },
+    {
+      "title": "Parcs et Nature",
+      "id": "parks",
+      "items": [
+        {
+          "id": "par-01",
+          "slug": "luxembourg-gardens",
+          "name_en": "Jardin du Luxembourg",
+          "name_local": "Jardin du Luxembourg",
+          "category": "vue",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Le joyau de la rive gauche, avec ses jardins à la française, un palais et ses célèbres chaises en métal vert.",
+            "history": "Créé en 1612 par Marie de' Medici, veuve du roi Henri IV, pour se rappeler de sa Florence natale et de son palais Pitti.",
+            "insider_tip": "Les habitants savent que la 'Fontaine Médicis' est l'endroit le plus romantique et ombragé du parc pour lire ou pour un rendez-vous.",
+            "price_level": "Gratuit",
+            "duration": "2 heures",
+            "best_time": "Les après-midis lorsque les voiliers en jouet sont actifs dans l'étang central.",
+            "vibe": "Noble et Détendu",
+            "good_for": [
+              "Pique-niques",
+              "Familles",
+              "Flâneurs"
+            ]
+          },
+          "image": "/images/paris/luxembourg.jpg",
+          "geo": {
+            "lat": 48.8462,
+            "lng": 2.3372
+          }
+        },
+        {
+          "id": "par-02",
+          "slug": "tuileries-garden",
+          "name_en": "Jardin des Tuileries",
+          "name_local": "Jardin des Tuileries",
+          "category": "vue",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Le jardin royal soigné reliant le Louvre à la Place de la Concorde, célèbre pour ses chemins en gravier et ses sculptures.",
+            "history": "À l'origine les jardins du Palais des Tuileries (brûlé en 1871), il a été conçu par André Le Nôtre, l'homme qui a aussi conçu les jardins de Versailles.",
+            "insider_tip": "Visitez le 'Musée de l'Orangerie' dans le coin sud-ouest pour voir les immenses Nymphéas de Monet dans une salle ovale conçue sur mesure.",
+            "price_level": "Gratuit",
+            "duration": "1 heure",
+            "best_time": "Tôt le matin avant que les foules se déplacent entre le Louvre et Concorde.",
+            "vibe": "Symétrique et Grandiose",
+            "good_for": [
+              "Promenade",
+              "Amateurs d'art",
+              "Photographie"
+            ]
+          },
+          "image": "/images/paris/tuileries.jpg",
+          "geo": {
+            "lat": 48.8635,
+            "lng": 2.3274
+          }
+        },
+        {
+          "id": "par-03",
+          "slug": "buttes-chaumont",
+          "name_en": "Parc des Buttes-Chaumont",
+          "name_local": "Parc des Buttes-Chaumont",
+          "category": "vue",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un parc vallonné et accidenté dans le 19e arrondissement, avec un pont suspendu, une fontaine et un temple au sommet d'une falaise.",
+            "history": "Avant de devenir un parc en 1867, le site était une carrière de calcaire et une décharge. Transformé par Napoléon III en un paysage romantique.",
+            "insider_tip": "C'est une zone 'sans touristes'. Dirigez-vous vers 'Rosa Bonheur' (un bar à l'intérieur du parc) pour un verre et des tapas avec des locaux dans la vingtaine.",
+            "price_level": "Gratuit",
+            "duration": "2 heures",
+            "best_time": "Les dimanches après-midi pour une expérience véritablement locale.",
+            "vibe": "Bohème et Sauvage",
+            "good_for": [
+              "Locaux",
+              "Amateurs de nature",
+              "Budget-friendly"
+            ]
+          },
+          "image": "/images/paris/buttes-chaumont.jpg",
+          "geo": {
+            "lat": 48.8809,
+            "lng": 2.3828
+          }
+        }
+      ]
+    },
+    {
+      "title": "Ponts & Points de Vue",
+      "id": "bridges",
+      "items": [
+        {
+          "id": "bri-01",
+          "slug": "pont-alexandre-iii",
+          "name_en": "Pont Alexandre III",
+          "name_local": "Pont Alexandre III",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Le pont le plus orné de Paris, décoré de lampadaires Art Nouveau, de chérubins et de statues dorées de chevaux ailés.",
+            "history": "Construit pour l'Exposition Universelle de 1900, il a été nommé d'après le Tsar Alexandre III pour célébrer la récente Alliance franco-russe.",
+            "insider_tip": "C'est le 'coup de cœur' pour la photographie. Tenez-vous sur le pont au coucher du soleil pour une vue qui aligne les statues dorées du pont avec la Tour Eiffel.",
+            "price_level": "Gratuit",
+            "duration": "30 minutes",
+            "best_time": "L'heure dorée (coucher de soleil).",
+            "vibe": "Opulent et Cinématographique",
+            "good_for": [
+              "Photographie",
+              "Vues",
+              "Couples"
+            ]
+          },
+          "image": "/images/paris/alexandre-iii.jpg",
+          "geo": {
+            "lat": 48.8636,
+            "lng": 2.3135
+          }
+        },
+        {
+          "id": "bri-02",
+          "slug": "pont-neuf",
+          "name_en": "Pont Neuf",
+          "name_local": "Pont Neuf",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Malgré son nom (Nouveau Pont), c'est en réalité le plus ancien pont encore debout sur la Seine, célèbre pour ses 'bastions' en pierre courbés.",
+            "history": "Achevé en 1607, c'était le premier pont à Paris construit en pierre et le premier à ne pas avoir de maisons construites dessus.",
+            "insider_tip": "Regardez les 'mascarons' (visages en pierre) qui bordent le pont—il y a 381 visages uniques et grotesques représentant des divinités grecques des forêts.",
+            "price_level": "Gratuit",
+            "duration": "30 minutes",
+            "best_time": "Crépuscule, quand les lampadaires jaunes illuminent la pierre blanche.",
+            "vibe": "Historiquement et Solide",
+            "good_for": [
+              "Histoire",
+              "Architecture",
+              "Promenade"
+            ]
+          },
+          "image": "/images/paris/pont-neuf.jpg",
+          "geo": {
+            "lat": 48.857,
+            "lng": 2.3413
+          }
+        },
+        {
+          "id": "bri-03",
+          "slug": "canal-saint-martin",
+          "name_en": "Canal Saint-Martin",
+          "name_local": "Canal Saint-Martin",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un canal de 4,5 km bordé de passerelles en fer et de boutiques tendance, servant de cœur à la vie nocturne de l'Est parisien.",
+            "history": "Commandé par Napoléon en 1802 pour apporter de l'eau fraîche à la ville et éviter le trafic de la Seine.",
+            "insider_tip": "Le canal passe en fait sous terre pour une section près de la Place de la République. Faites une visite en bateau qui commence à la Bastille pour découvrir la portion 'catacombes'.",
+            "price_level": "Gratuit",
+            "duration": "1-2 heures",
+            "best_time": "Vendredi soir pour un apéro avec les 'bobos' (bourgeois-bohèmes) locaux.",
+            "vibe": "Tendance et Jeune",
+            "good_for": [
+              "Vie nocturne",
+              "Promenade",
+              "Trésors cachés"
+            ]
+          },
+          "image": "/images/paris/canal.jpg",
+          "geo": {
+            "lat": 48.8718,
+            "lng": 2.3637
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "8:00 AM",
+      "title": "Lever de soleil au Trocadéro avec des croissants frais",
+      "description": "Commencez votre journée aux Jardins du Trocadéro face à la Tour Eiffel. Prenez des croissants chauds dans une boulangerie à proximité et regardez la Dame de Fer émerger de la brume matinale. La lumière du matin crée des opportunités photographiques dorées sans le chaos des groupes de touristes. C'est le Paris des cartes postales, mais en réalité.",
+      "image": "/images/paris/trocadero-sunrise.jpg"
+    },
+    {
+      "time": "10:00",
+      "title": "Visite express des chefs-d'œuvre du Louvre",
+      "description": "Oubliez le marathon de musée d'une journée. Entrez à 9h lorsque les portes ouvrent, dirigez-vous directement vers l'aile Denon. Découvrez la Mona Lisa, la Victoire ailée et la Vénus de Milo en 90 minutes. Réservez vos billets en ligne plusieurs jours à l'avance - la file d'attente fait le tour de la pyramide. Sortez avant que la fatigue du musée ne s'installe.",
+      "image": "/images/paris/louvre-morning.jpg",
+      "ticket_link": "https://www.getyourguide.com/paris-l16/louvre-museum-timed-entrance-ticket-t403985/"
+    },
+    {
+      "time": "13h00",
+      "title": "Déjeuner : Bistro classique dans le Marais",
+      "description": "Marchez jusqu'au Marais pour un véritable déjeuner dans un bistro français. Commandez la formule : steak-frites ou confit de canard, un verre de Côtes du Rhône, et une crème brûlée. Des endroits comme Chez Janou ou L'As du Fallafel (pour le falafel) capturent l'énergie du quartier. Le service est rapide, pas impoli—c'est juste de l'efficacité.",
+      "image": "/images/paris/marais-lunch.jpg"
+    },
+    {
+      "time": "15h30",
+      "title": "Promenade le long de la Seine et Bouquinistes",
+      "description": "Flânez le long de la Seine depuis le Pont Neuf jusqu'au Musée d'Orsay. Parcourez les boîtes vertes des bouquinistes vendant des livres anciens, des affiches et des estampes - ils sont ici depuis le XVIe siècle. Arrêtez-vous pour une carafe d'eau (eau du robinet gratuite) sur une terrasse de café. Regardez les bateaux passer et les habitants s'embrasser sur les bancs. C'est le Paris que vous avez imaginé.",
+      "image": "/images/paris/seine-afternoon.jpg"
+    },
+    {
+      "time": "18h00",
+      "title": "Coucher de soleil depuis le Sacré-Cœur",
+      "description": "Prenez le métro jusqu'à Abbesses, puis remontez les rues sinueuses de Montmartre jusqu'au Sacré-Cœur. Arrivez à 18h00 pour obtenir de l'espace sur les marches. Au fur et à mesure que le soleil se couche, toute la ville se pare d'or en dessous de vous. Des musiciens de rue jouent, des artistes dessinent et les lumières de la ville commencent à scintiller. La montée est raide mais la vue est inégalée.",
+      "image": "/images/paris/sacre-coeur-sunset.jpg"
+    },
+    {
+      "time": "21h00",
+      "title": "Dîner & Champagne à la Tour Eiffel",
+      "description": "Réservez une table à Madame Brasserie (2ème étage) ou offrez-vous un repas au Jules Verne. Si vous dinez ailleurs, prenez du champagne dans un supermarché et pique-niquez sur le Champ de Mars. À 22h, la tour scintille pendant 5 minutes—des milliers de lumières scintillent en séquence. Chaque heure à l'heure jusqu'à 1h du matin. Le spectacle scintillant fait pleurer les néophytes. C'est normal d'en faire partie.",
+      "image": "/images/paris/eiffel-night.jpg",
+      "ticket_link": "https://www.getyourguide.com/paris-l16/eiffel-tower-summit-or-second-floor-access-t63761/"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Adaptateur de Voyage Européen (Type E)",
+      "image": "/images/paris/adapter.jpg",
+      "reason": "Les prises françaises sont de type E (deux broches rondes avec un trou pour la mise à la terre). Essentiel pour charger vos appareils.",
+      "amazon_url": "https://www.amazon.com/s?k=european+travel+adapter+type+e",
+      "category": "électronique"
+    },
+    {
+      "id": "aff-002",
+      "title": "Parapluie de voyage compact",
+      "image": "/images/paris/umbrella.jpg",
+      "reason": "Le temps à Paris est imprévisible. Un petit parapluie se glisse dans votre sac et vous protège des averses soudaines.",
+      "amazon_url": "https://www.amazon.com/s?k=compact+travel+umbrella",
+      "category": "météo"
+    },
+    {
+      "id": "aff-003",
+      "title": "Chaussures de marche confortables",
+      "image": "/images/paris/shoes.jpg",
+      "reason": "Paris se découvre le mieux à pied. Des chaussures confortables sont indispensables pour les rues pavées et les marathons de musées.",
+      "amazon_url": "https://www.amazon.com/s?k=comfortable+walking+shoes",
+      "category": "chaussures"
+    }
+  ],
+  "lat": 48.8566,
+  "lng": 2.3522,
+  "region": "Europe"
+}

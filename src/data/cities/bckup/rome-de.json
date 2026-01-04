@@ -1,0 +1,1043 @@
+{
+  "id": "city-007",
+  "name": "Rome",
+  "slug": "rome",
+  "country": "Italy",
+  "country_code": "it",
+  "hero_image": "/images/rome/hero.jpg",
+  "intro_vibe": "Die ewige Stadt: Ein chaotisches Freiluftmuseum, wo antike Ruinen auf Vespa-Verkehr und perfekte Pasta treffen.",
+  "general_info": {
+    "population": "~2,8 Millionen (Stadt) / ~4,3 Millionen (Ballungsraum)",
+    "is_capital": true,
+    "description": "Rom funktioniert nach Ritualen, nicht nach Effizienz. Es ist ein Aufeinandertreffen von 3.000 Jahren Geschichte, rauem Straßenleben und strengen Essensregeln. Eilen Sie nicht; Mahlzeiten sind heilige Zeitblöcke. Es ist laut, unordentlich und atemberaubend schön. Akzeptieren Sie das Chaos; es gehört zu dem Charme."
+  },
+  "stats": {
+    "currency": "€",
+    "plug_type": "Typ F / L"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "Januar",
+      "temp": "3°C - 12°C",
+      "vibe": "ruhiger Winter",
+      "pros": [
+        "leere Museen",
+        "Saison der gestaffelten Rabatte",
+        "gemütliche Trattorias"
+      ],
+      "cons": [
+        "Regen",
+        "kalte Feuchtigkeit"
+      ],
+      "clothing": "warmer Mantel, Schal, wasserdichte Schuhe"
+    },
+    {
+      "id": 2,
+      "name": "Februar",
+      "temp": "4°C - 13°C",
+      "vibe": "Frisch",
+      "pros": [
+        "Karnevalssnacks",
+        "Weniger Touristen",
+        "Klarer Himmel"
+      ],
+      "cons": [
+        "Unvorhergesehene Regenfälle",
+        "Kaltes Wetter in der Nacht"
+      ],
+      "clothing": "Schichten, warmer Mantel"
+    },
+    {
+      "id": 3,
+      "name": "März",
+      "temp": "6°C - 16°C",
+      "vibe": "Frühlingserwachen",
+      "pros": [
+        "Blumen blühen",
+        "Begin der Outdoor-Gastronomie",
+        "Bequeme Spaziergänge"
+      ],
+      "cons": [
+        "Frühjahrsregen",
+        "Wechselhaftes Wetter"
+      ],
+      "clothing": "leichte Jacke, Regenschirm"
+    },
+    {
+      "id": 4,
+      "name": "April",
+      "temp": "9°C - 19°C",
+      "vibe": "Aufregender Frühling",
+      "pros": [
+        "Azaleen an den Spanischen Treppen",
+        "Osterfeierlichkeiten",
+        "Perfektes Wetter"
+      ],
+      "cons": [
+        "Menschenmengen während der Semana Santa",
+        "Hohe Preise"
+      ],
+      "clothing": "Schichten, Sonnenbrille"
+    },
+    {
+      "id": 5,
+      "name": "Mai",
+      "temp": "13°C - 24°C",
+      "vibe": "Goldener Monat",
+      "pros": [
+        "Eröffnung des Rosengartens",
+        "Lange Tage",
+        "Hervorragendes Licht für Fotos"
+      ],
+      "cons": [
+        "Die Menschenmenge beginnt zu wachsen",
+        "Die Hitze beginnt sich zu bemerkbar zu machen"
+      ],
+      "clothing": "Leichte Kleidung, Sonnenhut"
+    },
+    {
+      "id": 6,
+      "name": "Juni",
+      "temp": "17°C - 28°C",
+      "vibe": "Sommerwetter",
+      "pros": [
+        "Open-Air-Kino",
+        "Lungotore Festival",
+        "Nachtsafari"
+      ],
+      "cons": [
+        "Beginn der Hitzewellen",
+        "Viel Gedränge"
+      ],
+      "clothing": "leichten Kleidung, Leinen"
+    },
+    {
+      "id": 7,
+      "name": "Juli",
+      "temp": "20°C - 31°C",
+      "vibe": "Aufregend",
+      "pros": [
+        "Sommerverkäufe",
+        "Die Stadt ist leer (Einheimische sind abwesend)",
+        "Warme Nächte"
+      ],
+      "cons": [
+        "Hitze ist drückend",
+        "Viele Orte haben keine Klimaanlage"
+      ],
+      "clothing": "Leichte Kleidung, Ventilator"
+    },
+    {
+      "id": 8,
+      "name": "August",
+      "temp": "20°C - 31°C",
+      "vibe": "Feragosto",
+      "pros": [
+        "Keine Staus",
+        "Entspannte Atmosphäre",
+        "Erlebnis der Wärme"
+      ],
+      "cons": [
+        "Viele Geschäfte geschlossen",
+        "Extreme Hitze"
+      ],
+      "clothing": "Wahrscheinlich die leichtesten Kleidungsstücke"
+    },
+    {
+      "id": 9,
+      "name": "September",
+      "temp": "16°C - 27°C",
+      "vibe": "Zweite Wärme",
+      "pros": [
+        "Wetter wird wieder angenehm",
+        "Kulturelle Saison beginnt",
+        "Belebend"
+      ],
+      "cons": [
+        "Menschenmengen",
+        "Immer noch feucht"
+      ],
+      "clothing": "Sommerkleidung + leichte Schicht"
+    },
+    {
+      "id": 10,
+      "name": "Oktober",
+      "temp": "12°C - 22°C",
+      "vibe": "Oktoberrhythmen",
+      "pros": [
+        "Berühmter römischer Sonnenuntergang",
+        "Warme Tage / kalte Nächte",
+        "Erntezeit-Gerichte"
+      ],
+      "cons": [
+        "Regenschauer Mitte des Monats",
+        "Die Tage werden kürzer"
+      ],
+      "clothing": "Leichte Jacke, bequeme Schuhe"
+    },
+    {
+      "id": 11,
+      "name": "November",
+      "temp": "8°C - 17°C",
+      "vibe": "Regenzeit",
+      "pros": [
+        "Artischocken-Saison",
+        "Gemütliche Atmosphäre",
+        "Niedrige Preise"
+      ],
+      "cons": [
+        "Der regenreichste Monat",
+        "Grau am Himmel"
+      ],
+      "clothing": "Regenschutz, robuste Stiefel"
+    },
+    {
+      "id": 12,
+      "name": "Dezember",
+      "temp": "4°C - 13°C",
+      "vibe": "Festlich",
+      "pros": [
+        "Weihnachtslichter",
+        "Überall Pantone",
+        "Festtagsstimmung"
+      ],
+      "cons": [
+        "Menschenmengen im Zentrum",
+        "Kälte"
+      ],
+      "clothing": "Wintermantel, Handschuhe"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "Kein Cappuccino nach 11 Uhr: Milch ist zum Frühstück. Einen Cappuccino nach dem Mittagessen zu bestellen, ist ein Verdauungs-Verbrechen. Bestellen Sie 'caffè' (Espresso) oder 'caffè macchiato'.",
+      "Das Rechnungsritual: Die Rechnung kommt selten automatisch. Sie müssen die Aufmerksamkeit des Kellners auf sich ziehen und das Schreiben nachahmen. Bezahlen am Tisch oder an der Kasse variiert; beobachten Sie, was die Einheimischen tun.",
+      "Die Zeit ist flüssig (außer beim Essen): Züge können verspätet sein, Geschäfte schließen möglicherweise zufällig, aber die Essenszeiten sind festgelegt. Das Mittagessen ist von 13 bis 15 Uhr. Das Abendessen beginnt ab 20:30 Uhr. Versuchen Sie nicht, um 18 Uhr zu Abend zu essen.",
+      "Dresscode: Schultern und Knie MÜSSEN für den Petersdom/Pantheon bedeckt sein. Im Allgemeinen kleiden sich die Römer gut. Sportbekleidung im Stadtzentrum kennzeichnet Sie als Touristen.",
+      "Chaos-Denke: Warteschlangen sind Vorschläge. Unterbrechungen sind normal. Über Effizienz zu streiten ist sinnlos. Rom funktioniert durch sozialen Fluss, nicht durch Systeme. Entspannen Sie sich und gehen Sie mit.",
+      "Ticketvalidierung: Validieren Sie Bus-/Straßenbahntickets in den gelben Automaten. Kontrolleure sind unbarmherzig und zielen auf Touristen ab.",
+      "Wasserspender (Nasoni): Die Straßenwasserspender fließen ständig mit kaltem, sauberem Vulkanwasser. Trinken Sie daraus! Tragen Sie eine wiederverwendbare Flasche bei sich."
+    ],
+    "essential_phrases": [
+      {
+        "src": "Hallo / Auf Wiedersehen",
+        "local": "Ciao",
+        "phonetic": "CHOW (informell)"
+      },
+      {
+        "src": "Guten Morgen/Tag",
+        "local": "Buongiorno",
+        "phonetic": "bwon-JOR-no (formell)"
+      },
+      {
+        "src": "Danke",
+        "local": "Grazie",
+        "phonetic": "GRAHT-see-eh"
+      },
+      {
+        "src": "Die Rechnung bitte",
+        "local": "Il conto, per favore",
+        "phonetic": "eel KON-toh"
+      },
+      {
+        "src": "Entschuldigen Sie",
+        "local": "Scusi / Permesso",
+        "phonetic": "SKOO-zee (Aufmerksamkeit) / per-MESS-oh (vorbeigehen)"
+      }
+    ]
+  },
+  "neighborhoods": {
+    "data": [
+      {
+        "name": "Trastevere",
+        "vibe": "Charmant & Lebhaft",
+        "description": "Mit Efeu bewachsene Gebäude, Kopfsteinpflasterstraßen und intensives Nachtleben. Tagsüber wunderschön, abends eine Straßenparty. Es kann sehr voll werden, aber der Charme ist unverkennbar.",
+        "highlights": [
+          "Piazza Santa Maria",
+          "Villa Farnesina",
+          "Nachtleben"
+        ],
+        "image": "/images/rome/trastevere.jpg"
+      },
+      {
+        "name": "Monti",
+        "vibe": "Bohemian & Cool",
+        "description": "Roms Hipster-Viertel direkt neben dem Kolosseum. Vintage-Läden, Weinbars und Handwerkskunst. Hier halten sich die Einheimischen auf, um dem Touristenansturm zu entkommen.",
+        "highlights": [
+          "Piazza della Madonna",
+          "Vintage-Märkte",
+          "Via del Boschetto"
+        ],
+        "image": "/images/rome/monti.jpg"
+      },
+      {
+        "name": "Testaccio",
+        "vibe": "Feinschmeckerparadies",
+        "description": "Das kernige Herz der römischen Küche. Heimat des alten Schlachthofs und der besten traditionellen Trattorien. Nicht schön, aber lecker und authentisch.",
+        "highlights": [
+          "Testaccio Markt",
+          "Monte dei Cocci",
+          "Authentisches Essen"
+        ],
+        "image": "/images/rome/testaccio.jpg"
+      },
+      {
+        "name": "Centro Storico",
+        "vibe": "Die großen Klassiker",
+        "description": "Das Herz von Barock-Rom. Pantheon, Navona, Trevi. Atemberaubend, überfüllt und teuer. Besuchen Sie es früh am Morgen oder spät in der Nacht.",
+        "highlights": [
+          "Pantheon",
+          "Piazza Navona",
+          "Trevi-Brunnen"
+        ],
+        "image": "/images/rome/centro-storico.jpg"
+      }
+    ]
+  },
+  "logistics": {
+    "data": [
+      {
+        "id": "logistics-transit",
+        "slug": "getting-around",
+        "title": "Fortbewegung",
+        "icon": "Zug",
+        "summary": "Gehen Sie, wann immer es möglich ist. Der öffentliche Nahverkehr ist notorisch unzuverlässig.",
+        "details": [
+          "Zu Fuß: Das historische Zentrum ist kompakt. Es ist der beste Weg, die Stadt zu erkunden. Tragen Sie bequeme Schuhe; Kopfsteinpflaster ('Sampietrini') sind unforgiving.",
+          "U-Bahn: Nur 3 Linien (A, B, C). Nützlich, um die Stadt zu überqueren (z. B. vom Vatikan zu Termini), aber nutzlos für das historische Zentrum. Vorsicht: Linie A schließt oft früh (21 Uhr) für Arbeiten—prüfen Sie die Fahrpläne.",
+          "Tickets (BIT): Ein Standardticket (€1,50) ist 100 Minuten gültig. Sie müssen es an den gelben Automaten in Bussen/Straßenbahnen entwerten. Kontrolleure zielen auf Touristen mit nicht entwerteten Tickets.",
+          "Taxi-Apps: Rufen Sie kein Taxi auf der Straße (es wird nicht anhalten). Nutzen Sie 'FreeNow' oder gehen Sie zu einem offiziellen Taxistand. Uber ist verfügbar, jedoch nur als 'Black' (teuer)."
+        ]
+      },
+      {
+        "id": "logistics-dining",
+        "slug": "dining-protocol",
+        "title": "Essenslogistik",
+        "icon": "Besteck",
+        "summary": "Strikte Zeiten und Rechnungsrituale.",
+        "details": [
+          "Strikte Essenszeiten: Mittagessen ist von 13:00–15:00 Uhr. Abendessen von 20:00–23:00 Uhr. Die meisten authentischen Küchen schließen zwischen diesen Zeiten. Sie können nicht um 18 Uhr zu Abend essen.",
+          "Das Rechnungsritual: Die Rechnung kommt niemals automatisch. Sie müssen die Aufmerksamkeit des Kellners auf sich ziehen und das Schreiben andeuten oder 'Il conto' sagen. Verweilen ist kulturell erwartet.",
+          "Coperto & Trinkgeld: Eine 'Coperto' (Tischgebühr) von €2–3 wird pro Person hinzugefügt. Das ist normal. Trinkgeld ist NICHT erforderlich; Einheimische hinterlassen vielleicht Kleingeld, aber 20 % sind nicht üblich.",
+          "Wasserregel: Restaurants servieren standardmäßig Flaschenwasser. Draußen fließen jedoch die Tausenden von 'Nasoni' (Straßenbrunnen) mit kaltem, sicherem Vulkanwasser. Füllen Sie Ihre Flasche kostenlos auf."
+        ]
+      },
+      {
+        "id": "logistics-airports",
+        "slug": "airport-strategy",
+        "title": "Flughafenstrategie",
+        "icon": "Flugzeug",
+        "summary": "Fiumicino (FCO) gegen Ciampino (CIA).",
+        "details": [
+          "FCO (Fiumicino): Der Hauptflughafen. Nehmen Sie den 'Leonardo Express'-Zug nach Termini (32 Minuten, €14, garantierte Verbindung). Taxis haben einen FESTPREIS von €50 zu jedem Ort innerhalb der Aurelianschen Mauern.",
+          "CIA (Ciampino): Budget-Hub (Ryanair). Keine Zugstation. Nehmen Sie einen Shuttlebus (Terravision/SitBus) nach Termini (~€6). Fester Taxipreis beträgt €31.",
+          "Taxi-Warnung: Überprüfen Sie den Festpreis mit dem Fahrer, BEVOR Sie einsteigen. Ignorieren Sie die Ansprache innerhalb des Terminals; gehen Sie zur offiziellen Warteschlange draußen."
+        ]
+      },
+      {
+        "id": "logistics-survival",
+        "slug": "local-survival",
+        "title": "Lokale Überlebenstipps",
+        "icon": "Info",
+        "summary": "Wie man in dem Chaos navigiert.",
+        "details": [
+          "Kaffeebar-Regel: Der Preis ist an der Bar reguliert (~€1,10), kann aber doppelt oder dreifach sein, wenn Sie an einem Tisch sitzen. Machen Sie es wie die Einheimischen: Stehen Sie am Tresen.",
+          "Chaos-Mindset: Warteschlangen sind lose Vorschläge. Busse halten nicht, es sei denn, Sie winken. Die Dinge brauchen Zeit. Der Kampf gegen das Chaos verursacht Stress; es zu akzeptieren, ist die römische Art.",
+          "August-Abschaltung: Die Stadt leert sich um Ferragosto (15. August). Viele authentische familiengeführte Lokale schließen für 2 Wochen. Touristenfallen bleiben offen.",
+          "Hitzewiderstand: Im Sommer ist die Sonne brutal. Einheimische meiden es, zwischen 13:00 und 16:00 Uhr zu gehen. Planen Sie Museen oder Nickerchen während dieser Stunden."
+        ]
+      },
+      {
+        "id": "logistics-safety",
+        "slug": "safety-tips",
+        "title": "Sicherheit & Betrug",
+        "icon": "Schild",
+        "summary": "Sichere Stadt, aggressive Betrüger.",
+        "details": [
+          "Taschendiebstahl-Routen: Seien Sie extrem wachsam im Bus 64 (Vatikanbus), der überfüllten U-Bahn A und in Warteschlangen für das Kolosseum.",
+          "Das Armband-Betrug: Männer an Touristenorten versuchen, Ihnen ein 'kostenloses' Armband um Ihr Handgelenk zu binden, und verlangen dann aggressiv Geld. Halten Sie Ihre Hände in den Taschen und gehen Sie weg.",
+          "Termini-Station: Die Gegend um den Hauptbahnhof kann spät in der Nacht rau und zwielichtig sein. Halten Sie sich an belebte, gut beleuchtete Straßen."
+        ]
+      },
+      {
+        "id": "logistics-apps",
+        "slug": "essential-apps",
+        "title": "Apps zum Herunterladen",
+        "icon": "Smartphone",
+        "summary": "Digitale Werkzeuge für die Ewige Stadt.",
+        "details": [
+          "FreeNow: Die Haupt-App, um offizielle weiße Taxis zu rufen.",
+          "Trenitalia: Unentbehrlich, um Zugfahrzeiten zu überprüfen und Tickets für den Leonardo Express zu kaufen.",
+          "Citymapper / Google Maps: Beide funktionieren gut für den Nahverkehr, obwohl die Buszeiten oft 'absichtliche' Zeitangaben sind.",
+          "Acea Waidy: Findet den nächsten kostenlosen Wasserbrunnen (Nasone)."
+        ]
+      }
+    ]
+  },
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "carbonara",
+      "name_en": "Carbonara",
+      "name_local": "Carbonara",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Carbonara ist ein römisches Nudelgericht, das mit Eigelb, Pecorino Romano-Käse, Guanciale (trockenem Schweinebacken) und schwarzem Pfeffer zubereitet wird—ganz ohne Sahne. Die Wärme der Pasta garen das rohe Ei zu einer seidigen und cremigen Sauce, die jedes Stück umhüllt. Es ist das ikonischste Gericht Roms, und die Einheimischen betrachten das Hinzufügen von Sahne als kulinarisches Verbrechen.",
+        "vibe": "reichhaltig, traditionell",
+        "history": "Die Ursprünge der Carbonara sind umstritten, aber sie entstand wahrscheinlich Mitte des 20. Jahrhunderts in Rom. Dieses Gericht hängt von einer genauen Technik ab: Das Ei sollte die Pasta ohne Rutsch beschichten. Es sollte immer mit Guanciale zubereitet werden, niemals mit Speck oder Pancetta.",
+        "insider_tip": "Wenn die Speisekarte erwähnt, dass die Carbonara Sahne enthält, gehen Sie sofort—das ist eine Touristenfalle. Bestellen Sie, wenn die Küche am frischesten ist, zur Mittagszeit. Zu den traditionellen Pasta-Formen gehören Rigatoni oder Tonarelli.",
+        "price_level": "mittel",
+        "good_for": [
+          "Gastronomen",
+          "Erstbesucher"
+        ],
+        "duration": "30-45 Minuten",
+        "best_time": "Mittagessen"
+      },
+      "image": "/images/rome/carbonara.jpg"
+    },
+    {
+      "id": "food-015",
+      "slug": "trattoria-hierarchy",
+      "name_en": "Die Regel der Trattoria",
+      "name_local": "Trattoria Romana",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Eine Trattoria ist ein familiengeführtes, informelles italienisches Restaurant, das regionale Gerichte zu erschwinglichen Preisen anbietet, typischerweise mit Papier-Tischdecken und handgeschriebenen Menüs. Echte Trattorien haben niemals Werbung, ihre Menüs sind nie auf Englisch und sie bevorzugen nicht immer Touristen. Sie sind laut, da die Römer gerne laut sprechen, sie sind eng, weil der Raum teuer ist, und sie servieren Gerichte, die die Einheimischen täglich essen.",
+        "vibe": "authentisch, unkompliziert",
+        "history": "Trattorien entstanden als Arbeiterrestaurants, die sich von formellen Restaurants unterschieden. In den 1980er und 90er Jahren, mit dem Anstieg des Tourismus, breiteten sich gefälschte Trattorien rund um Sehenswürdigkeiten mit Plastik-Menüs in sechs Sprachen aus.",
+        "insider_tip": "Achten Sie auf Papier-Tischdecken, handgeschriebene Menüs auf schwarzen Tafeln und Einheimische, die alleine Zeitung lesen. Wenn es ein 'Touristenmenü' oder Bilder gibt, ist es gefälscht. Authentische Orte finden Sie in Wohngegenden.",
+        "price_level": "preiswert",
+        "good_for": [
+          "reisende mit kleinem Budget",
+          "Gastronomen"
+        ],
+        "duration": "1-2 Stunden",
+        "best_time": "Mittagessen oder Abendessen"
+      },
+      "image": "/images/rome/trattoria.jpg"
+    },
+    {
+      "id": "food-016",
+      "slug": "roman-fried-food",
+      "name_en": "Frittierte Vorspeisen (Fritti)",
+      "name_local": "I Fritti",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Fritti sind frittierte Vorspeisen, die vor Pasta oder Pizza serviert werden, darunter Supplì (frittierte Reisbällchen mit Mozzarella), Fiori di Zucchino (frittierte Zucchiniblüten) und Kartoffelkroketten. Sie sind knusprig, heiß und zum Greifen nah, und sie sind ein Muss für die Gastronomie in Rom. Es ist ein soziales Ereignis: Sie bestellen einen Teller für den Tisch und alle essen gemeinsam.",
+        "vibe": "knusprig, gemeinschaftlich",
+        "history": "Die Kultur des Frittierens in Rom beginnt im jüdischen Ghetto, wo das Frittieren in Olivenöl zu einer Kunstform wurde. Die Technik ist entscheidend: Das Öl muss sehr heiß sein, die Textur leicht und die Zutaten sollten sofort serviert werden.",
+        "insider_tip": "Bestellen Sie die Supplì al Telefono: Wenn Sie ein Stück davon abbrechen, zieht sich der Mozzarella wie ein Telefonkabel. Fiori di Zucchino sollten innerhalb von 2 Minuten gegessen werden, sonst werden sie matschig. Sie finden sie in jeder Trattoria oder Friggitoria.",
+        "price_level": "preiswert",
+        "good_for": [
+          "Gruppen",
+          "Frühstücks Liebhaber"
+        ],
+        "duration": "schnelles Essen",
+        "best_time": "jederzeit"
+      },
+      "image": "/images/rome/fritti.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "cacio-e-pepe",
+      "name_en": "Cacio e Pepe",
+      "name_local": "Cacio e Pepe",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Cacio e Pepe ist ein römisches Pasta-Gericht, das nur mit drei Zutaten zubereitet wird: Pecorino-Käse, schwarzem Pfeffer und dem Kochwasser der Pasta. Der Käse sollte fein gerieben werden und mit heißem Nudelwasser zu einer glatten Emulsion vermischt werden. Trotz seiner Einfachheit erfordert es jedoch ein hohes Maß an technischem Können und ist zu einem Prüfstein für die Qualität jedes Restaurants geworden.",
+        "vibe": "einfach, informell",
+        "history": "Die Ursprünge von Cacio e Pepe liegen in den Hügeln rund um Rom, wo es als Speise für Hirten entstand: Pecorino war tragbar, Pfeffer konservierte die Nahrungsmittel und die trockenen Nudeln wurden über dem Feuer gekocht. Viele Küchenchefs scheitern daran, da es gnadenlos ist.",
+        "insider_tip": "Bestellen Sie es als ersten Gang, um die Qualität des Gerichts zu beurteilen. Wenn es klumpig oder krümelig ist, nimmt das Restaurant es nicht ernst. Bestellen Sie immer Tonarelli, niemals Spaghetti.",
+        "price_level": "mittel",
+        "good_for": [
+          "Gourmets",
+          "Minimalisten"
+        ],
+        "duration": "30-45 Minuten",
+        "best_time": "Mittagessen oder Abendessen"
+      },
+      "image": "/images/rome/cacio-pepe.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "amatriciana",
+      "name_en": "Amatriciana",
+      "name_local": "Amatriciana",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Amatriciana ist eine Pasta-Sauce, die aus Tomaten, Guanciale (salzigem Schweinebacken), Pecorino-Käse und Pfeffer hergestellt wird. Ihr Ursprung liegt in Amatrice, einer Bergstadt, die 2016 von einem Erdbeben zerstört wurde. Die Methode ist gesetzlich geschützt: Nur Guanciale, Pecorino, Tomaten, Weißwein und Pfeffer sind erlaubt - Zwiebeln und Knoblauch sind für Puristen ein Tabu.",
+        "vibe": "kraftvoll, würzig",
+        "history": "Das ursprüngliche Gericht enthielt keine Tomaten (Tomaten kamen im 16. Jahrhundert nach Italien). Nach dem Erdbeben von 2016 versammelten sich die Römer um dieses Gericht, Restaurants spendeten Gewinne für die Wiederaufbau efforts.",
+        "insider_tip": "Am 24. August wird in Rom der Tag von Amatrice gefeiert, in Erinnerung an das Erdbeben. Bestellen Sie Bucatini, die traditionelle dicke und hohle Pasta, die die Sauce perfekt aufnimmt.",
+        "price_level": "mittel",
+        "good_for": [
+          "Pasta-Liebhaber",
+          "Feinschmecker"
+        ],
+        "duration": "30-45 Minuten",
+        "best_time": "Mittagessen oder Abendessen"
+      },
+      "image": "/images/rome/amatriciana.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "roman-artichokes",
+      "name_en": "Roman Artischocke",
+      "name_local": "Carciofi alla Romana / Giudia",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Romanische Artischocken kommen in zwei Varianten: Carciofi alla Romana (gebraten mit Knoblauch, Minze und Olivenöl) und Carciofi alla Giudia (komplett frittiert und knusprig wie Blütenblätter). Beide verwenden die zarte Sorte Romanesco-Artischocke, die wegen ihrer bitteren Herzlosigkeit beliebt ist. Artischocken sind von November bis April in Rom eine saisonale Leidenschaft.",
+        "vibe": "saisonal, zart",
+        "history": "Carciofi alla Giudia wurde im 16. Jahrhundert im jüdischen Ghetto geboren. Die frittierte Variante benötigt große Artischocken, die auf dem Tisch aufgeschlagen werden, damit sich die Blätter öffnen, und dann zweimal in heißem Öl frittiert werden.",
+        "insider_tip": "Der beste Zeitpunkt für den besten Geschmack ist zwischen Februar und März. Genießen Sie sie mit den Händen, Blatt für Blatt. Während der Artischockensaison sind sie in traditionellen römischen Restaurants erhältlich.",
+        "price_level": "moderat",
+        "good_for": [
+          "Vegetarier",
+          "Liebhaber saisonaler Produkte"
+        ],
+        "duration": "30-45 Minuten",
+        "best_time": "Mittagessen oder Abendessen"
+      },
+      "image": "/images/rome/artichokes.jpg"
+    },
+    {
+      "id": "food-005",
+      "slug": "maritozzo",
+      "name_en": "Maritozzo",
+      "name_local": "Maritozzo",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Maritozzo ist ein weiches Brötchen, das halbiert und mit Schlagsahne gefüllt wird – die Füllung sollte doppelt so hoch wie das Brötchen sein. Es ist ein unverzichtbarer Bestandteil des römischen Frühstücks und wird am Vormittag als Snack zu Kaffee gegessen, niemals als Dessert. Das Brötchen sollte weich, leicht süß und mit Honig bestrichen sein.",
+        "vibe": "weich, zart",
+        "history": "Maritozzo stammt aus dem antiken Rom, wo es einfach ein Brot war, das während des Fastens gegessen wurde. Der Name kommt von 'marito' (Ehemann), da junge Männer es oft mit Schmuck für Heiratsanträge gefüllt verstecken. Die mit Sahne gefüllte Variante wurde im 19. Jahrhundert zum Standard.",
+        "insider_tip": "Gehen Sie vor 11 Uhr, wenn sie in jeder Bäckerei am frischesten sind. Bestellen Sie einen 'Caffè in ghiaccio' (Eiskaffee), um die Süße auszugleichen. Dies ist in den meisten Bäckereien und römischen Cafés erhältlich.",
+        "price_level": "preiswert",
+        "good_for": [
+          "Frühstück",
+          "Süßigkeitenliebhaber"
+        ],
+        "duration": "schneller Snack",
+        "best_time": "Vormittag"
+      },
+      "image": "/images/rome/maritozzo.jpg"
+    },
+    {
+      "id": "food-006",
+      "slug": "roman-pizza",
+      "name_en": "Pizza à la romaine",
+      "name_local": "Pizza Romana",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Römische Pizza ist dünn, knusprig und rechteckig und wird in Bäckereien nach Gewicht verkauft (Pizzerie Albeccario). Der Teig enthält mehr Olivenöl als neapolitanische Pizza, was eine keksartige Kruste ergibt. Sie wird auf Papier geschnitten und im Stehen, wie ein Sandwich, gegessen. Die Beläge sind einfach: Margherita, Kartoffeln mit Rosmarin oder Zucchiniblüten.",
+        "vibe": "knusprig, einfach",
+        "history": "Römische Pizza erschien in den 1950er Jahren als Straßenessen und wird in Bäckereien nach Gewicht verkauft. Sie ist ein Mittagessen oder ein Snack am Abend, aber niemals zum Abendessen. Pizza Bianca (nur Olivenöl, Salz, Rosmarin) wird entweder pur oder als Sandwich gegessen.",
+        "insider_tip": "Sie verkaufen nach Gewicht – zeigen Sie einfach, was Sie möchten. Genießen Sie es sofort heiß. Es ist in der ganzen Stadt in Pizzerie Albeccario erhältlich.",
+        "price_level": "günstig",
+        "good_for": [
+          "schnelles Mittagessen",
+          "Budgetbewusste Esser"
+        ],
+        "duration": "schnelles Mittagessen",
+        "best_time": "Mittagessen"
+      },
+      "image": "/images/rome/roman-pizza.jpg"
+    },
+    {
+      "id": "food-007",
+      "slug": "gricia",
+      "name_en": "Gricia",
+      "name_local": "Gricia",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Gricia ist eine der ältesten Pasta Roms: es ist eine carbonara ohne Ei oder eine amatriciana ohne Tomaten. Sie besteht nur aus Guanciale, Pecorino, schwarzem Pfeffer und Wasser. Einige Leute sagen, das ist tatsächlich die echte Hirten-Pasta, bevor Tomaten oder Eier hinzugefügt wurden. Während sie die Basis der Pasta in Rom darstellt, ist sie im Vergleich zu ihren Nachkommen am wenigsten bekannt.",
+        "vibe": "rustikal und fleischig",
+        "history": "Ihr Name stammt möglicherweise von einer Schweizer Stadt oder von 'Grisicio', einer lokalen Bäckerei. Puristen betrachten sie als die reinste Form des Gleichgewichts zwischen Fleisch und Käse.",
+        "insider_tip": "Bestellen Sie sie in einer Trattoria, um die Qualität ihres Guanciale einschätzen zu können: schlechte Zutaten haben keinen Platz. Rigatoni ist die traditionelle Pasta-Form für Gricia.",
+        "price_level": "mittel",
+        "good_for": [
+          "Puristen",
+          "Schweinefleischliebhaber"
+        ],
+        "duration": "30-45 Minuten",
+        "best_time": "Mittagessen oder Abendessen"
+      },
+      "image": "/images/rome/gricia.jpg"
+    },
+    {
+      "id": "food-008",
+      "slug": "porchetta",
+      "name_en": "Porchetta",
+      "name_local": "Porchetta",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Porchetta ist ein ganzes Schwein, das mit vielen Gewürzen wie wildem Dill, Knoblauch, Rosmarin und Pfeffer gefüllt und über 8 Stunden lang geröstet wird, bis die Haut knusprig ist. Es wird in dicken Scheiben auf knusprigem Brot als Sandwich serviert. Porchetta findet man an Straßen, in Märkten und bei den Porchetta-Trucks während des Sonntagsmittagsessens.",
+        "vibe": "fleischig, aromatisch",
+        "history": "Porchetta stammt aus den Hügeln der Castelli Romani, südöstlich von Rom, und wird traditionell für Feste zubereitet. Die Porchetta-Trucks kommen zu Festen und Märkten in der Region Latium. Die beste Porchetta kommt aus Ariccia, wo sie ein geschütztes Lebensmittelprodukt ist.",
+        "insider_tip": "Suchen Sie nach Porchetta auf Märkten wie dem Testaccio-Markt. Fragen Sie nach 'con ciccioli' (Stücken von knuspriger Haut). Genießen Sie es sofort im Stehen; bei Kälte wird das Fett fest."
+      },
+      "price_level": "preiswert",
+      "good_for": [
+        "Fleischliebhaber",
+        "Marktbeschicker"
+      ],
+      "duration": "schnelle Mahlzeit",
+      "best_time": "Mittagessen",
+      "image": "/images/rome/porchetta.jpg"
+    },
+    {
+      "id": "food-009",
+      "slug": "gelato-rules",
+      "name_en": "Glace Italienne (Les Règles)",
+      "name_local": "Gelato Artigianale",
+      "category": "Frühstück",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Gelato ist italienisches Eis, das mit langsamerem Rühren, weniger Luft und Fett hergestellt wird, was ihm einen dichten und intensiven Geschmack verleiht. Echtes handgemachtes Gelato wird täglich in kleinen Mengen zubereitet, in Behältern mit Metaldosen aufbewahrt und hat natürliche Farben. Die Pistazienfarbe sollte braun-grün sein, nicht neon; die Bananenfarbe sollte grau-weiß sein, nicht gelb. Wenn es in hohen, bunten Häufen präsentiert wird, handelt es sich um industrielles Fake-Gelato.",
+        "vibe": "cremig, handgemacht",
+        "history": "Gelato wird seit der Renaissance in Italien hergestellt. In den 2000er Jahren kam es zu einem Anstieg von Fake-Gelaterien, die industriell vorgefertigtes Gelato und künstliche Farben verwendeten, um Touristen anzulocken.",
+        "insider_tip": "Echtes Gelato wird in flachen Behältern aufbewahrt, nicht hoch. Vermeiden Sie Orte in der Nähe von Hauptsehenswürdigkeiten. Probieren Sie immer vorher. Suchen Sie nach Gelaterien, die 'produzione propria' (hausgemacht) ausweisen.",
+        "price_level": "günstig",
+        "good_for": [
+          "für alle",
+          "für Süßigkeitenliebhaber"
+        ],
+        "duration": "schnelle Mahlzeit",
+        "best_time": "Nachmittag"
+      },
+      "image": "/images/rome/gelato.jpg"
+    },
+    {
+      "id": "food-010",
+      "slug": "trippa",
+      "name_en": "Ragoût de Tripes",
+      "name_local": "Trippa alla Romana",
+      "category": "Frühstück",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Tripes sind langsam gekochte Rinderinnereien (Darmhüllen), die mit Tomatensauce, Minze und Pecorino zubereitet werden. Dieses Gericht stammt aus der Kultur der Metzgereien in Testaccio, Rom, und basiert auf übrig gebliebenem Essen. Die Zubereitung umfasst das Reinigen, Kochen und dann mehrere Stunden lang sanftes Garen, bis sie zart sind. Die Textur ist glatt und gummiartig, was es für Gäste, die mit Innereien nicht vertraut sind, herausfordernd machen kann.",
+        "vibe": "traditionell, herausfordernd",
+        "history": "Einst war Tripes ein Essen der Armen, das viele Stunden zur Zubereitung benötigte. Es ist ein Gericht, das traditionell in Trattorien am Samstagmittag serviert wird. Junge Römer essen es mittlerweile immer seltener, was dazu führt, dass es auf den Menüs immer seltener wird.",
+        "insider_tip": "Bestellen Sie es nur in alten Trattorien, besonders in Testaccio. Traditionell ist es ein Gericht des Samstagmittags. Genießen Sie es mit Brot, um die Sauce aufzusaugen.",
+        "price_level": "preiswert",
+        "good_for": [
+          "abenteuerliche Esser",
+          "Innereienliebhaber"
+        ],
+        "duration": "1 Stunde",
+        "best_time": "Samstagsmittags"
+      },
+      "image": "/images/rome/trippa.jpg"
+    },
+    {
+      "id": "food-011",
+      "slug": "saltimbocca",
+      "name_en": "Saltimbocca",
+      "name_local": "Saltimbocca alla Romana",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Saltimbocca ist ein zartes Fleischscaloppini, auf dem Prosciutto und ein Blatt Salbei mit einem Zahnstocher angebracht werden, bevor es in Butter und Weißwein gebraten wird. Der Name bedeutet 'springt in Ihren Mund', was auf seinen explosiven Geschmack anspielt. Die Kochzeit beträgt weniger als 5 Minuten; ein längeres Kochen macht das Fleisch zäh. Es ist ein secondo (Hauptgericht), das nach der Pasta serviert wird.",
+        "vibe": "ausgezeichnet, zart",
+        "history": "Die Herkunft von Saltimbocca liegt möglicherweise in Brescia, wurde aber im 19. Jahrhundert in die römische Küche integriert. Traditionell wird es mit einfachen Beilagen wie Spinat oder Bratkartoffeln serviert.",
+        "insider_tip": "Bestellen Sie es zum Mittagessen, wenn das Fleisch am frischesten ist. Wenn es auf der Speisekarte Hähnchen-Saltimbocca gibt, ist dies eine kostengünstige Variante: Die traditionelle Version verwendet nur Fleisch. Essen Sie es sofort; es lässt sich nicht gut wieder aufwärmen.",
+        "price_level": "teuer",
+        "good_for": [
+          "Fine Dining",
+          "Fleischliebhaber"
+        ],
+        "duration": "1-2 Stunden",
+        "best_time": "Mittagessen"
+      },
+      "image": "/images/rome/saltimbocca.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "jewish-ghetto-food",
+      "name_en": "Jüdische Ghetto-Gerichte",
+      "name_local": "Jüdische Ghetto-Gerichte",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Jüdische Ghetto-Gerichte sind eine Verschmelzung von 500 Jahren, die die jüdischen Essgesetze und römische Zutaten umfassen, darunter Carciofi alla Giudia (frittierte Artischocken), Concia (frittierte Zucchini in Essig und Minze) und Baccalà (gesalzener Kabeljau). Frittierte Speisen in Olivenöl wurden zentral, da Butter (Milchprodukte) nicht mit Fleisch vermischt werden durfte. Diese Gerichte sind in der Gegend des jüdischen Ghettos und in vielen traditionellen römischen Restaurants zu finden.",
+        "vibe": "historisch, frittiert",
+        "history": "Das jüdische Ghetto von Rom wurde 1555 gegründet. Trotz Verfolgung entstand ein einzigartiger Kochstil. Nachdem das Ghetto 1888 aufgelöst wurde, wurden diese Gerichte in die traditionelle römische Küche integriert. Viele Rezepte werden auch 400 Jahre später noch von jüdischen Familien zubereitet.",
+        "insider_tip": "Essen Sie am besten direkt im Ghetto für ein authentisches Erlebnis. Probieren Sie unbedingt die Concia di Zucchini – außerhalb Roms ist sie unbekannt. Vermeiden Sie Sonntage, an denen koschere Orte wegen des Schabbat geschlossen sind.",
+        "price_level": "mittel",
+        "good_for": [
+          "Geschichtsinteressierte",
+          "Gastronomen"
+        ],
+        "duration": "1-2 Stunden",
+        "best_time": "Mittagessen oder Abendessen"
+      },
+      "image": "/images/rome/jewish-food.jpg"
+    },
+    {
+      "id": "food-013",
+      "slug": "espresso-culture",
+      "name_en": "Espresso",
+      "name_local": "Caffè",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Espresso (in Italien 'Caffè' genannt) ist ein konzentrierter Kaffee, der stehend innerhalb von 60 Sekunden getrunken wird. Bei Sitzplätzen wird eine zusätzliche Gebühr von 2 bis 4 € erhoben. Cappuccino wird nur vor 11 Uhr morgens konsumiert; wenn Sie es nach dem Mittagessen bestellen, werden Sie als Tourist erkannt. Römer trinken Caffè (Espresso) nach dem Essen mit einem kleinen Glas Wasser.",
+        "vibe": "lebhaft, rituell",
+        "history": "Die Espresso-Kultur kam im 20. Jahrhundert mit modernen Maschinen nach Rom. Es ist ein soziales Ritual: Sie halten zwei Mal an Ihrer lokalen Bar, begrüßen den Barista mit seinem Vornamen und plaudern, während Sie trinken.",
+        "insider_tip": "Zahlen Sie zuerst bei einem Kassierer, holen Sie Ihre Quittung an der Bar und bestellen Sie dann. Sagen Sie niemals 'Espresso' - sagen Sie 'einen Caffè'. Wenn Sie starken Kaffee möchten, fragen Sie nach 'Caffè ristretto'.",
+        "price_level": "preiswert",
+        "good_for": [
+          "alle",
+          "Kaffeeliebhaber"
+        ],
+        "duration": "2 Minuten",
+        "best_time": "morgens oder nach dem Essen"
+      },
+      "image": "/images/rome/espresso.jpg"
+    },
+    {
+      "id": "food-014",
+      "slug": "wine-strategy",
+      "name_en": "Kultur des römischen Weins",
+      "name_local": "Vino Laziale",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Die Kultur des römischen Weins konzentriert sich auf die Weißweine von Frascati und Castelli Romani, die aus Malvasia- und Trebbiano-Trauben hergestellt werden. Die Tradition, 'Vino della casa' (Hauswein) im Krug zu bestellen, ist nach wie vor stark: Der Hauswein ist lokal, preiswert (€8-12 pro Liter) und für den täglichen Genuss bestens geeignet. Die Römer betrachten Wein als Begleiter zu den Speisen, nicht als Ereignis.",
+        "vibe": "unprätentiös, lokal",
+        "history": "Die Hügel von Castelli Romani produzieren seit der Antike Weißwein. Historisch gesehen tranken die Römer zu jeder Mahlzeit Wein, der mit Wasser verdünnt wurde. Snobismus gegenüber Wein ist im Vergleich zur Toskana weniger verbreitet.",
+        "insider_tip": "Bestellen Sie immer einen halben Liter Hausweißwein im Krug: Das kostet €4-6 und passt hervorragend zu römischem Essen. Vermeiden Sie teure Flaschen in Trattorien; diese sind nicht notwendig.",
+        "price_level": "preiswert",
+        "good_for": [
+          "Essen",
+          "Weinliebhaber"
+        ],
+        "duration": "zum Essen",
+        "best_time": "zum Mittag- oder Abendessen"
+      },
+      "image": "/images/rome/wine.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Tägliches Leben",
+      "id": "daily-life",
+      "items": [
+        {
+          "id": "lif-001",
+          "slug": "market-culture",
+          "name_en": "Morgenmarkt",
+          "name_local": "Mercato Rionale",
+          "category": "site",
+          "is_generic_staple": true,
+          "description": {
+            "short": "Das sind die Nachmärkte, wo Römer täglich frische Produkte einkaufen – eine geschäftige und funktionale Atmosphäre, die um 14 Uhr schließt. Die Verkäufer rufen Preise, unterhalten sich mit Stammkunden und verkaufen saisonale Waren. Römer erledigen ihren Einkauf jeden Tag, da die Kühlschränke klein sind und es Tradition ist, das Saisonale zu kaufen und am selben Tag zu essen.",
+            "vibe": "chaotisch, authentisch",
+            "history": "Die Märkte in Rom existieren seit der Antike. Campo de' Fiori ist seit 1869 aktiv, obwohl er mittlerweile voll mit Touristen ist. Der Markt in Testaccio, der 2012 renoviert wurde, ist hauptsächlich lokal. Hier herrscht eine Atmosphäre funktionaler Unordnung, die nicht sehr instagrammable ist.",
+            "insider_tip": "Besuchen Sie den Markt in Testaccio zwischen 9 und 11 Uhr, um ein authentisches Erlebnis zu haben. Kaufen Sie saisonale Früchte als Snacks – die Verkäufer schneiden sie für Sie. Vergessen Sie nicht, vor dem Fotografieren der Menschen um Erlaubnis zu bitten.",
+            "price_level": "einfache Preisklasse",
+            "good_for": [
+              "Frühaufsteher",
+              "Feinschmecker"
+            ],
+            "duration": "1 Stunde",
+            "best_time": "Morgen (9 Uhr-11 Uhr)"
+          },
+          "image": "/images/rome/market.jpg"
+        },
+        {
+          "id": "lif-002",
+          "slug": "night-rome",
+          "name_en": "Rom bei Nacht",
+          "name_local": "Roma di Notte",
+          "category": "site",
+          "is_generic_staple": true,
+          "description": {
+            "short": "Nachts verwandelt sich Rom in ein ganz besonderes Licht, antike Ruinen werden wunderschön erleuchtet, die Luft ist frisch und auf den Plätzen sind Einheimische. Ein nächtlicher Spaziergang ist eine Tradition, die bis zur Grand Tour (1600-1800) zurückreicht. Die Tagesbesucher verschwinden und die Stadt gehört wieder den Einwohnern.",
+            "vibe": "magisch, friedlich",
+            "history": "Die Denkmäler der Stadt wurden zum ersten Mal in den 1930er Jahren systematisch beleuchtet. Die modernen LED-Lichter, die in den 2000er Jahren installiert wurden, haben das Kolosseum, den Trevi-Brunnen und das Forum auf eindrucksvolle Weise beleuchtet. Römer pflegen die Tradition, nach dem Abendessen einen 'passeggiata' (Abendspaziergang) zu machen.",
+            "insider_tip": "Gehen Sie zwischen 22 Uhr und 24 Uhr vom Piazza Venezia zum Kolosseum, um das beste Licht und keine Menschenmengen zu erleben. Im Sommer sehen Sie das Lungo il Tevere Festival, wo es Bars am Wasser gibt.",
+            "price_level": "einfache Preisklasse",
+            "good_for": [
+              "Fotografen",
+              "Paare"
+            ],
+            "duration": "2-3 Stunden",
+            "best_time": "Nacht (22 Uhr-24 Uhr)"
+          },
+          "image": "/images/rome/night-rome.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Antike Symbole",
+      "id": "ancient",
+      "items": [
+        {
+          "id": "anc-001",
+          "slug": "colosseum",
+          "name_en": "Kolosseum",
+          "name_local": "Colosseo",
+          "category": "Monument",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Das Kolosseum ist das größte Amphitheater der Welt, das zwischen 70 und 80 n. Chr. für 50.000 bis 80.000 Zuschauer für Gladiatorenkämpfe, Tiermorde und Hinrichtungen erbaut wurde. Der Boden konnte für Seeschlachten mit Wasser gefüllt werden. Es ist das meistbesuchte Monument Italiens und das definitive Symbol der Macht des antiken Rom.",
+            "vibe": "Großartig, antik",
+            "history": "Nach dem Fall Roms wurde es wegen des Baustoffs abgerissen: Marmor wurde für die Petersbasilika entfernt. Die Hypogäen (Tunnels, in denen Gladiatoren und Tiere warteten) öffneten ihre Türen für Touristen erst 2010.",
+            "insider_tip": "Buchen Sie 2 bis 4 Wochen im Voraus online ein Ticket für das 'Vollständige Erlebnis': Dies umfasst den Zugang zu den Tunneln und dem Arena-Boden, was viel interessanter ist als eine normale Tour. Besuchen Sie es morgens um 8 Uhr oder am Abend."
+          },
+          "price_level": "Teuer",
+          "good_for": [
+            "Geschichtsinteressierte",
+            "Erstbesucher"
+          ],
+          "duration": "2-3 Stunden",
+          "best_time": "Früh am Morgen oder am Abend"
+        },
+        {
+          "id": "anc-002",
+          "slug": "pantheon",
+          "name_en": "Pantheon",
+          "name_local": "Pantheon",
+          "category": "Monument",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Das Pantheon ist das am besten erhaltene Bauwerk des antiken Rom, das 126 n. Chr. von Kaiser Hadrian erbaut wurde. Seine Betondecke blieb 1.300 Jahre lang die größte freitragende Kuppel der Welt. Das Oculus (der 9 Meter große Loch an der Spitze der Kuppel) ist die einzige Lichtquelle und lässt den Regen direkt auf den Marmorboden fallen, der über Ablauflöcher verfügt.",
+            "vibe": "Beeindruckend, architektonisch",
+            "history": "Es blieb ungehindert erhalten, da es 609 n. Chr. in eine Kirche umgewandelt wurde. Die Proportionen des Gebäudes sind mathematisch perfekt: Der Durchmesser der Kuppel entspricht ihrer Höhe. 2023 hat es erstmals Gebühren für den Eintritt erhoben.",
+            "insider_tip": "Gehen Sie früh (um 9 Uhr) dorthin, bevor die Touristengruppen ankommen. Besuchen Sie es an Regentagen, um zu sehen, wie das Wasser durch das Oculus fällt: das ist dramatisch. Kaufen Sie Ihre Tickets online, um Warteschlangen zu vermeiden."
+          },
+          "price_level": "Günstig",
+          "good_for": [
+            "Architekturinteressierte",
+            "Geschichtsinteressierte"
+          ],
+          "duration": "30-45 Minuten",
+          "best_time": "Früh am Morgen"
+        }
+      ]
+    },
+    {
+      "title": "Verborgene Schätze und Ausblicke",
+      "id": "hidden",
+      "items": [
+        {
+          "id": "gem-001",
+          "slug": "san-luigi",
+          "name_en": "San Luigi dei Francesi",
+          "name_local": "San Luigi",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "San Luigi dei Francesi ist eine Kirche, die drei große Gemälde von Caravaggio beherbergt, die sich im Chigi-Kapelle befinden: die Berufung des heiligen Matthäus, die Inspiration und der Martyrium des heiligen Matthäus (1599-1602). Diese Gemälde revolutionierten die Kunst durch den dramatischen Einsatz von Licht und Schatten. Der Eintritt ist kostenlos, was es zu einem der besten Kunstwerte in Rom macht.",
+            "vibe": "Intim, dramatisch",
+            "history": "Diese Kirche wurde 1589 als französische Nationalkirche in Rom erbaut. Das Kapelle ist klein und dunkel; die Gemälde werden für 1 € für 3 Minuten beleuchtet. Viele Touristen gehen vorbei, ohne zu wissen, dass sich drinnen drei Meisterwerke befinden.",
+            "insider_tip": "Bringen Sie 1 €-Münzen mit, um die Gemälde zu beleuchten: der Effekt ist dramatisch. Besuchen Sie am Nachmittag, wenn die Kirche ruhig ist. Kommen Sie nah heran, um die unglaublichen Details in den Gesichtern und Händen zu sehen.",
+            "price_level": "Günstig",
+            "good_for": [
+              "Kunstliebhaber",
+              "Reisende mit kleinem Budget"
+            ],
+            "duration": "20-30 Minuten",
+            "best_time": "Nachmittags"
+          },
+          "image": "/images/rome/san-luigi.jpg",
+          "geo": {
+            "lat": 41.8996,
+            "lng": 12.4731
+          }
+        },
+        {
+          "id": "gem-002",
+          "slug": "orange-garden",
+          "name_en": "The Orange Garden",
+          "name_local": "Giardino degli Aranci",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Giardino degli Aranci ist ein kleiner Park, der sich auf einem Hügel an der Spitze des Aventins befindet, von wo aus man den besten Blick auf den Sonnenuntergang über Rom hat: die Kuppel von St. Peter, die perfekt von Kiefern über dem Tiber umgeben ist. Dieser Garten wurde 1932 angelegt, als die Stadt bittere Orangen (nicht essbar) pflanzte. Es ist ein lokales Geheimnis für den Sonnenuntergang, obwohl es allmählich bekannter und beliebter wird.",
+            "vibe": "Romantisch, ruhig",
+            "history": "Dieser Park befindet sich auf einem der sieben Hügel Roms. Im 13. Jahrhundert diente er als Festung für die Templerritter. Direkt daneben befindet sich die Basilika Santa Sabina, eine der ältesten Kirchen Roms (5. Jahrhundert).",
+            "insider_tip": "Kommen Sie 45 Minuten vor Sonnenuntergang, um eine Bank zu ergattern. Der Ausblick ist im Winter/Frühling besser, wenn die Luft klarer ist. Der Garten schließt den Horizont ein.",
+            "price_level": "Günstig",
+            "good_for": [
+              "Paare",
+              "Fotografen"
+            ],
+            "duration": "1 Stunde",
+            "best_time": "Bei Sonnenuntergang"
+          },
+          "image": "/images/rome/orange-garden.jpg",
+          "geo": {
+            "lat": 41.8845,
+            "lng": 12.4797
+          }
+        },
+        {
+          "id": "gem-003",
+          "slug": "gianicolo",
+          "name_en": "Gianicolo Hill",
+          "name_local": "Gianicolo",
+          "category": "site",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Der Gianicolo ist der höchste Aussichtspunkt Roms, von wo aus Sie die gesamte Stadt in 360° sehen können. Jeden Tag am Nachmittag wird hier seit 1847 eine Kanone abgefeuert, um die Uhren der Stadt zu stellen. Die Terrasse ist der beste Ort, um den gesamten Ausblick zu genießen: alle sieben Hügel, der Vatikan und die Apenninen.",
+            "vibe": "Panoramisch, luftig",
+            "history": "Der Gianicolo ist nicht einer der sieben ursprünglichen Hügel Roms, aber er ist der höchste. 1849, während der Belagerung Roms, verteidigten Garibaldis Truppen hier die Stadt. Die Statue von Garibaldi zu Pferd wurde 1895 errichtet.",
+            "insider_tip": "Kommen Sie um 11:55 Uhr, um den Schuss der Nachmittagskanone zu sehen: es ist laut und dramatisch. Der Weg ist steil; nehmen Sie die Buslinie 115 von Trastevere. Vermeiden Sie den Mittag während des Sommers; es gibt keinen Schatten.",
+            "price_level": "Günstig",
+            "good_for": [
+              "Panoramablick",
+              "Familien"
+            ],
+            "duration": "1 Stunde",
+            "best_time": "Vor dem Nachmittag"
+          },
+          "image": "/images/rome/gianicolo.jpg",
+          "geo": {
+            "lat": 41.8914,
+            "lng": 12.4616
+          }
+        }
+      ]
+    },
+    {
+      "title": "Vatikan",
+      "id": "vatican",
+      "items": [
+        {
+          "id": "vat-001",
+          "slug": "st-peters",
+          "name_en": "Basilika Sankt Peter",
+          "name_local": "Basilica di San Pietro",
+          "category": "Ort",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Die Basilika Sankt Peter ist eine der größten Kirchen der Welt und das Zentrum des Katholizismus, erbaut über dem Grab des heiligen Petrus. Die heutige Struktur, die im Renaissancestil gehalten ist, wurde von 1506 bis 1626 unter mehreren Päpsten errichtet. Michelangelo entwarf die markante Kuppel im Alter von 71 Jahren. Hier finden Sie Meisterwerke von Michelangelo, Bernini und Raphael. Der Eintritt ist kostenlos, aber die Warteschlangen können länger als 2 Stunden sein.",
+            "vibe": "Prächtig, gewaltig",
+            "history": "Die ursprüngliche Basilika wurde 326 n. Chr. von Konstantin erbaut. Der Bau dauerte insgesamt 120 Jahre und brachte den Papst ins finanzielles Wanken, was teilweise die Finanzierung der protestantischen Reform erleichterte. Bernini entwarf in den 1660er Jahren die Kolonnade.",
+            "insider_tip": "Besuchen Sie die Basilika um 7 Uhr, um die Warteschlangen zu umgehen. Der Eintritt ist kostenlos, aber der Aufstieg zur Kuppel kostet 10 € (Aufzug + Treppen) - die Aussicht ist es wert. Kleiderordnung: Schultern und Knie sollten bedeckt sein.",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Katholiken",
+              "Architekturliebhaber"
+            ],
+            "duration": "2-3 Stunden",
+            "best_time": "Morgenzeit (7 Uhr)"
+          },
+          "image": "/images/rome/st-peters.jpg",
+          "geo": {
+            "lat": 41.9029,
+            "lng": 12.4534
+          }
+        },
+        {
+          "id": "vat-002",
+          "slug": "vatican-museums",
+          "name_en": "Vatikanische Museen",
+          "name_local": "Musei Vaticani",
+          "category": "Ort",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Die Vatikanische Museen verfügen über 7 km lange Gänge mit einer der größten Kunstsammlungen der Welt, die im künstlerischen Highlight der Sixtinischen Kapelle mit Michelangelos Decke endet (gemalt zwischen 1508 und 1512). Die Museen beherbergen antike ägyptische Artefakte, griechische Statuen, Renaissance-Malerei und Wandteppiche, die über 500 Jahre gesammelt wurden. Jedes Jahr besuchen mehr als 6 Millionen Menschen diesen Ort, was ihn sehr überfüllt macht.",
+            "vibe": "Überfüllt, Weltklasse",
+            "history": "Die Museen begannen 1506, als Papst Julius II. antike Statuen im Cortile Ottagono platzierte. Die Sixtinische Kapelle ist der letzte Raum; Fotografie und Gespräche sind verboten.",
+            "insider_tip": "Buchen Sie eine 'Früh'-Tour um 7:30 Uhr - Sie werden die Sixtinische Kapelle fast leer sehen. Der allgemeine Eintritt ist um 9 Uhr und sofort überfüllt. Planen Sie mindestens 3-4 Stunden ein. Tragen Sie bequeme Schuhe.",
+            "price_level": "Teuer",
+            "good_for": [
+              "Kunstliebhaber",
+              "Katholiken"
+            ],
+            "duration": "3-4 Stunden",
+            "best_time": "Morgenzeit (7:30 Uhr)"
+          },
+          "image": "/images/rome/vatican-museums.jpg",
+          "geo": {
+            "lat": 41.9067,
+            "lng": 12.4525
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "8:00 AM",
+      "title": "Cappuccino und Cornetto in Trastevere",
+      "description": "Beginnen Sie in Trastevere, dem charmantesten Viertel Roms. Suchen Sie eine lokale Bar (Café) und bestellen Sie Cappuccino und Cornetto am Tresen – das Sitzen kostet doppelt. Einheimische trinken bis 11 Uhr morgens Cappuccino; danach gibt es Espresso. Zu dieser Zeit sind die steinernen Straßen menschenleer, während das falsche goldene Licht zwischen den von Ranken bedeckten Gebäuden hindurchscheint. So sieht das Dolce Vita in Rom aus.",
+      "image": "/images/rome/trastevere-morning.jpg"
+    },
+    {
+      "time": "9h30",
+      "title": "Vatikansche Museen und Sixtinische Kapelle",
+      "description": "Buchen Sie Ihre Tickets im Voraus (8h30) für einen Besuch – das ist die einzige Möglichkeit, die Sixtinische Kapelle ohne Menschenmengen zu erleben. Die Decke von Michelangelo ist sehenswert, aber die Sicherheitskräfte werden Sie bitten, sich zu beeilen. Die Karten-Galerie und die Räume von Raphael sind ebenfalls beeindruckend und weniger überfüllt. Besuchen Sie den Petersdom (kostenlos) und sehen Sie die Pietà von Michelangelo. Die gesamte Vatikanstadt bietet Ihnen ein Kunstwerk von etwa 0,44 Quadratkilometern.",
+      "image": "/images/rome/vatican-morning.jpg",
+      "ticket_link": "https://www.getyourguide.com/vatican-city-l136/vatican-museums-sistine-chapel-skip-the-line-ticket-t52643/"
+    },
+    {
+      "time": "13:00 Uhr",
+      "title": "Mittagessen: Cacio e Pepe im Centro Storico",
+      "description": "Spazieren Sie ins historische Zentrum und genießen Sie Ihr Mittagessen in einer traditionellen Trattoria. Bestellen Sie Cacio e Pepe (Pasta mit Pecorino-Käse und schwarzem Pfeffer) - das Signature-Gericht von Rom, das auf den ersten Blick einfach aussieht, aber selten perfekt zubereitet wird. Fügen Sie Flavio al Velavevodetto oder Felice a Testaccio Ihrer Liste hinzu. Servieren Sie es mit einer Karaffe des hauseigenen Weißweins. Die Römer nehmen sich während des Mittagessens über 2 Stunden Zeit - übernehmen Sie diesen Rhythmus. Vermeiden Sie es, nach dem Essen einen Cappuccino zu bestellen; das ist ein Zeichen für Touristen.",
+      "image": "/images/rome/cacio-e-pepe2.jpg"
+    },
+    {
+      "time": "15h30",
+      "title": "Kolosseum und Forum Romanum",
+      "description": "Buchen Sie ein Kombiticket mit festgelegtem Eintritt (Kolosseum + Forum + Palatin). Betreten Sie das Kolosseum, in dem 50.000 Römer zur gleichen Zeit Gladiatorenkämpfe bewunderten. Danach erkunden Sie das Forum, das Herz des antiken Rom, wo die Kaiser wandelten. Vom Palatin aus haben Sie den besten Blick auf die Ruinen. Vergessen Sie nicht, Wasser mitzubringen; die Hitze in Rom ist intensiv. Treten Sie auf die Steine, die 2.000 Jahre alt sind und immer noch stehen.",
+      "image": "/images/rome/colosseum-afternoon.jpg",
+      "ticket_link": "https://www.getyourguide.com/rome-l33/colosseum-roman-forum-palatine-hill-priority-access-t189736/"
+    },
+    {
+      "time": "18h00",
+      "title": "Die Trevi-Brunnen und die Spanische Treppe zur goldenen Stunde",
+      "description": "Gehen Sie durch die engen Gassen zum Trevi-Brunnen. Werfen Sie mit der rechten Hand eine Münze über Ihre linke Schulter: Die Legende besagt, dass Sie nach Rom zurückkehren werden. Der Brunnen ist wunderbar, aber überfüllt; genießen Sie ihn und gehen Sie weiter. Gehen Sie zur Spanischen Treppe (15 Minuten), um die Menschen zur Sonnenuntergangszeit zu sehen. Diese Treppe ist ein sozialer Amphitheater, wo sich die Römer treffen. Ein Gelato bei dem nahegelegenen Giolitti oder Fassi ist ein Muss.",
+      "image": "/images/rome/trevi-golden-hour.jpg"
+    },
+    {
+      "time": "20h30",
+      "title": "Aperitivo und Abendessen in Monti",
+      "description": "Treffen Sie sich in Monti, dem hipster-bohemischen Viertel von Rom. Beginnen Sie mit dem Aperitivo (18h-21h): kaufen Sie einen Cocktail und genießen Sie ein kostenloses Buffet mit Snacks, Pizza, Pasta und Salat. Die Römer nennen es „Aperitivo“, nicht „Happy Hour“. Danach geht es zum Abendessen: Carbonara, Amatriciana oder Saltimbocca alla Romana. Beenden Sie die Nacht mit einem Spaziergang durch die alten Gassen, vielleicht auf der Suche nach einem versteckten Piazza. Rom braucht keine Nachtklubs – die Stadt selbst ist Unterhaltung.",
+      "image": "/images/rome/monti-night.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Reiseadapter für Italien (Typ L)",
+      "image": "/images/rome/adapter.jpg",
+      "reason": "In Italien gibt es eine einzigartige 3-polige Steckdose (Typ L), zusätzlich zu den Standard-EU-Steckdosen. Es ist unerlässlich, um Ihre Geräte aufzuladen.",
+      "amazon_url": "https://www.amazon.com/s?k=italy+travel+adapter+type+l",
+      "category": "Elektronik"
+    },
+    {
+      "id": "aff-002",
+      "title": "Antidiebstahl Umhängetasche",
+      "image": "/images/rome/bag.jpg",
+      "reason": "In Bussen und U-Bahnen sind Taschendiebe sehr geschickt. Eine abschließbare Tasche gibt Ihnen Ruhe und Sicherheit.",
+      "amazon_url": "https://www.amazon.com/s?k=anti+theft+crossbody+bag",
+      "category": "Sicherheit"
+    },
+    {
+      "id": "aff-003",
+      "title": "Wiederverwendbare Wasserflasche",
+      "image": "/images/rome/bottle.jpg",
+      "reason": "In Rom gibt es Tausende von kostenlosen und frischen Wasserbrunnen (Nasoni). Füllen Sie Ihre Flasche den ganzen Tag über kostenlos auf.",
+      "amazon_url": "https://www.amazon.com/s?k=reusable+water+bottle",
+      "category": "Aktivitäten im Freien"
+    }
+  ],
+  "lat": 41.9028,
+  "lng": 12.4964,
+  "region": "Europe"
+}

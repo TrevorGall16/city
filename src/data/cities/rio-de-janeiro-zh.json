@@ -1,0 +1,1340 @@
+{
+  "id": "city-rio",
+  "name": "Rio de Janeiro",
+  "slug": "rio-de-janeiro",
+  "lat": -22.9068,
+  "lng": -43.1729,
+  "country": "Brazil",
+  "country_code": "br",
+  "geo": {
+    "lat": -22.9068,
+    "lng": -43.1729
+  },
+  "hero_image": "/images/rio/hero.jpg",
+  "intro_vibe": {
+    "description": "桑巴、阳光，还有无尽的沙滩文化在山脉与海洋交汇的地方。"
+  },
+  "general_info": {
+    "population": "~670万人（城市）/ ~1300万人（大都会区）",
+    "is_capital": false,
+    "description": "里约热内卢是巴西第二大城市和前首都。以其海滩、狂欢节和陡峭的山脉直入大西洋的壮丽景观而闻名于世，里约将自然美与城市活力融合在一起。该市曾于2016年举办奥运会，是音乐、足球和海滩生活的文化强国。"
+  },
+  "stats": {
+    "currency": "巴西雷亚尔 (BRL)",
+    "plug_type": "N型插头"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "一月",
+      "temp": "23°C - 30°C",
+      "vibe": "温暖和高湿度",
+      "pros": [
+        "适合海滩的天气",
+        "狂欢节的准备气氛",
+        "盛夏"
+      ],
+      "cons": [
+        "拥挤的海滩",
+        "下午雨",
+        "高湿度"
+      ],
+      "clothing": "轻便透气的衣物，海滩服装"
+    },
+    {
+      "id": 2,
+      "name": "二月",
+      "temp": "23°C - 30°C",
+      "vibe": "狂欢节的疯狂",
+      "pros": [
+        "狂欢节活动",
+        "适合去海滩的日子",
+        "充满活力的氛围"
+      ],
+      "cons": [
+        "价格上涨",
+        "人群拥挤",
+        "疲惫的热气"
+      ],
+      "clothing": "极少的衣物、服装、太阳霜"
+    },
+    {
+      "id": 3,
+      "name": "三月",
+      "temp": "23°C - 29°C",
+      "vibe": "狂欢节后的宁静",
+      "pros": [
+        "游客较少",
+        "天气依然温暖",
+        "价格较低"
+      ],
+      "cons": [
+        "下午有雨",
+        "城市正在从狂欢节中恢复"
+      ],
+      "clothing": "短裤，无袖衬衫，轻便防水外套"
+    },
+    {
+      "id": 4,
+      "name": "四月",
+      "temp": "22°C - 27°C",
+      "vibe": "宜人",
+      "pros": [
+        "宜人的气温",
+        "降雨较少",
+        "海滩的美好日子"
+      ],
+      "cons": [
+        "有时可能会凉爽",
+        "白天变短"
+      ],
+      "clothing": "T恤，适合晚上的轻便衣物"
+    },
+    {
+      "id": 5,
+      "name": "芒市",
+      "temp": "20°C - 26°C",
+      "vibe": "宁静且干燥",
+      "pros": [
+        "晴朗的天空",
+        "适合步行的完美天气",
+        "低湿度"
+      ],
+      "cons": [
+        "海水可能会有点冷",
+        "沙滩上人少"
+      ],
+      "clothing": "夜晚需要一件轻便的外套和牛仔裤"
+    },
+    {
+      "id": 6,
+      "name": "六月",
+      "temp": "19°C - 25°C",
+      "vibe": "冬季的清新",
+      "pros": [
+        "低价",
+        "圣胡安节",
+        "视野清晰"
+      ],
+      "cons": [
+        "海滩太冷",
+        "黑暗的日子"
+      ],
+      "clothing": "毛衣, 长裤, 闭合鞋"
+    },
+    {
+      "id": 7,
+      "name": "七月",
+      "temp": "18°C - 25°C",
+      "vibe": "凉爽",
+      "pros": [
+        "最适合徒步旅游的时节",
+        "清新的空气",
+        "淡季折扣"
+      ],
+      "cons": [
+        "海滩不太吸引人",
+        "一些地方关闭"
+      ],
+      "clothing": "层叠穿着，轻便外套，舒适鞋"
+    },
+    {
+      "id": 8,
+      "name": "八月",
+      "temp": "19°C - 26°C",
+      "vibe": "天气将变热",
+      "pros": [
+        "温度开始升高",
+        "户外活动",
+        "节庆活动的回归"
+      ],
+      "cons": [
+        "天气变化",
+        "海水依然寒冷"
+      ],
+      "clothing": "夏季与冬季衣物的混合"
+    },
+    {
+      "id": 9,
+      "name": "九月",
+      "temp": "20°C - 26°C",
+      "vibe": "春天的花朵",
+      "pros": [
+        "宜人的天气",
+        "城市复苏",
+        "适中的气候"
+      ],
+      "cons": [
+        "偶尔降雨",
+        "物价上涨"
+      ],
+      "clothing": "轻便的层次，太阳镜"
+    },
+    {
+      "id": 10,
+      "name": "十月",
+      "temp": "21 °C - 27 °C",
+      "vibe": "初夏",
+      "pros": [
+        "海滩季节开始",
+        "温暖而阳光明媚的天气",
+        "节日"
+      ],
+      "cons": [
+        "湿度回升",
+        "人群增加"
+      ],
+      "clothing": "准备夏季衣物和游泳衣"
+    },
+    {
+      "id": 11,
+      "name": "十一月",
+      "temp": "22°C - 28°C",
+      "vibe": "天气温暖且充满活力。",
+      "pros": [
+        "沙滩天气理想。",
+        "天空晴朗。",
+        "适合户外活动。"
+      ],
+      "cons": [
+        "非常拥挤。",
+        "下午可能有风暴。"
+      ],
+      "clothing": "轻便衣物，沙滩用具。"
+    },
+    {
+      "id": 12,
+      "name": "十二月",
+      "temp": "23°C - 29°C",
+      "vibe": "夏季的开始",
+      "pros": [
+        "新年",
+        "海滩上的长日子",
+        "节日的热情"
+      ],
+      "cons": [
+        "高价格",
+        "人群拥挤",
+        "酷热天气"
+      ],
+      "clothing": "轻便衣物，新年时穿白色"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "海滩文化至上：卡里奥卡（里约当地人）生活在海滩上。这不仅仅是游客的地方——这是他们的客厅、健身房和社交俱乐部。每个海滩都有不同的部落（postos），气氛各异。",
+      "脸颊亲吻问候：两次脸颊亲吻（beijinhos）是标准的问候方式，即使是与陌生人也如此。在右侧开始。男性通常会与其他男性拥抱或握手，但亲吻女性。",
+      "无现金海滩：请勿携带贵重物品。海滩小贩现在接受信用卡付款，但现金尽量少带。使用防水袋保护手机。",
+      "‘10%’ 服务费：称为“税费”（taxa de serviço），通常包含在餐厅账单中。并非强制性，但拒绝会显得有些尴尬。请确认是否已包含。",
+      "晚餐时间较晚：晚餐通常在晚上9点或更晚开始。午餐是主要餐（12-2点）。如果您在晚上6点吃晚餐，可能会被视为游客。",
+      "足球是宗教：切勿贬低某人的足球队。弗拉门戈、弗鲁米嫩塞、博塔弗戈和瓦斯科之间的竞争非常激烈。在某些社区穿着敌对球队的颜色可能会引发问题。",
+      "桑巴尊重：如果您在桑巴圈（roda de samba）里，演出期间请勿交谈。如果您知道歌词，可以拍手和唱歌，但切勿打断音乐家。",
+      "安全意识：请勿闪耀昂贵的珠宝、手机或相机。使用打车应用程序而非招手叫出租车。避免在夜间光秃秃的海滩上活动。相信您的直觉。",
+      "泳裤文化：巴西男性在海滩上穿着速比 tux（sungas）。男士短裤适合游客。女性穿着极简比基尼（fio dental - 像牙线一样）。没有人会评判。",
+      "礼貌是关键：请说‘bom dia’（早上好），‘boa tarde’（下午好），‘boa noite’（晚上好）。使用‘por favor’（请）和‘obrigado/a’（谢谢）非常重要。"
+    ],
+    "essential_phrases": [
+      {
+        "src": "Hello / Good morning",
+        "local": "Bom dia",
+        "phonetic": "bom JEE-ah"
+      },
+      {
+        "src": "Good afternoon",
+        "local": "Boa tarde",
+        "phonetic": "BO-ah TAR-jee"
+      },
+      {
+        "src": "Good evening",
+        "local": "Boa noite",
+        "phonetic": "BO-ah NOY-chee"
+      },
+      {
+        "src": "Thank you (m/f)",
+        "local": "Obrigado / Obrigada",
+        "phonetic": "oh-bree-GAH-doo / dah"
+      },
+      {
+        "src": "Please",
+        "local": "Por favor",
+        "phonetic": "poor fah-VOR"
+      },
+      {
+        "src": "Excuse me",
+        "local": "Com licença",
+        "phonetic": "kom lee-SEN-sah"
+      },
+      {
+        "src": "How much?",
+        "local": "Quanto custa?",
+        "phonetic": "KWAN-too KOOS-tah"
+      },
+      {
+        "src": "Where is...?",
+        "local": "Onde fica...?",
+        "phonetic": "ON-jee FEE-kah"
+      },
+      {
+        "src": "The bill please",
+        "local": "A conta por favor",
+        "phonetic": "ah KON-tah poor fah-VOR"
+      },
+      {
+        "src": "I don't speak Portuguese",
+        "local": "Não falo português",
+        "phonetic": "now FAH-loo poor-too-GAYS"
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "科帕卡巴纳",
+      "vibe": "旅游区域",
+      "description": "这是世界上最著名的海滩之一。这里有酒店、小摊和成群的游客。它是里约的一个永久性景点，但有时可能会稍显拥挤。这里是观察人们的绝佳场所。",
+      "highlights": [
+        "科帕卡巴纳海滩",
+        "科帕卡巴纳堡垒",
+        "周日嬉皮市场"
+      ],
+      "image": "/images/rio/copacabana.jpg"
+    },
+    {
+      "name": "伊帕内玛",
+      "vibe": "优雅而精致",
+      "description": "比科帕卡巴纳更特别。这里有精品店、果汁吧和美丽的人们。海滩上的人们年轻而时尚。",
+      "highlights": [
+        "伊帕内玛海滩",
+        "9号警戒线",
+        "弗雷塔斯湖"
+      ],
+      "image": "/images/rio/ipanema.jpg"
+    },
+    {
+      "name": "圣特雷莎",
+      "vibe": "波希米亚小丘",
+      "description": "这个充满艺术气息的社区拥有丰富的街头艺术，蜿蜒的街道和殖民风格的房屋，欢迎音乐家、艺术家和创造者们的光临。",
+      "highlights": [
+        "废墟公园",
+        "塞拉隆阶梯",
+        "吉马良斯广场"
+      ],
+      "image": "/images/rio/santa-teresa.jpg"
+    },
+    {
+      "name": "拉帕",
+      "vibe": "夜生活中心",
+      "description": "这是里约热内卢夜生活和桑巴文化的中心。这里有酒吧、街头派对和音乐厅。午夜过后要小心，因为可能会有危险的情况。",
+      "highlights": [
+        "拉帕水道",
+        "桑巴俱乐部",
+        "街头酒吧"
+      ],
+      "image": "/images/rio/lapa.jpg"
+    },
+    {
+      "name": "莱布隆",
+      "vibe": "美丽而充满活力的氛围",
+      "description": "这是里约热内卢独特的海滩区域。您将在这里找到一流的餐馆、酒吧和精品店。这里有更多的当地人而不是游客。您可以在这里享受一个宁静的海滩。",
+      "highlights": [
+        "莱布隆海滩",
+        "迪亚斯·费雷拉街",
+        "莱布隆观景台"
+      ],
+      "image": "/images/rio/leblon.jpg"
+    },
+    {
+      "name": "博塔佛哥",
+      "vibe": "氛围",
+      "description": "这个住宅区以快速增长的餐馆和酒吧而闻名。与沿海地区相比，这里更容易到达。从这里，您可以欣赏到壮观的糖面包山景观。",
+      "highlights": [
+        "博塔佛哥海滩",
+        "里约南购物中心",
+        "Cobal市场"
+      ],
+      "image": "/images/rio/botafogo.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "出行方式",
+      "icon": "火车",
+      "summary": "里约热内卢的公共交通已经改善，但仍然比较复杂。交通应用程序很普遍。",
+      "details": [
+        "地铁：干净、安全且经济（R$5.50/次）。覆盖主要的旅游景点，包括伊潘玛、科帕卡巴纳、博塔福戈和市中心。不通往基督救世主和糖面包山。",
+        "Uber/99：最安全的出行方式。比出租车便宜，且欺诈风险较低。请始终使用应用程序，避免在街上拦出租车。",
+        "公交系统：复杂且拥挤。不推荐给不说葡萄牙语的冒险者，因为路线经常变化。",
+        "自行车租赁：Beach-Ride-Rio（所有自行车为橙色）。租金为R$5，使用1小时。从Leblon到Flamengo的自行车道非常好。",
+        "步行：各个区域内部步行可达，但区域之间的距离相当大。避免在区域间步行，尽量使用交通工具。"
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "安全与欺诈",
+      "icon": "盾",
+      "summary": "里约在旅游区通常是安全的，但保持警惕是非常重要的。",
+      "details": [
+        "海滩盗窃：这是最常见的犯罪行为。请不要在海滩带手机、相机和珠宝。使用防水袋，并时刻留意您的物品。",
+        "访问贫民区：请仅与值得信赖的旅行社一起前往。不要单独探索贫民区；有些地方是安全的，而其他地方则被帮派控制。",
+        "自动取款机欺诈：请只在银行或购物中心的自动取款机上使用，且应在营业时间内。遮住键盘，避免在夜间使用街上的自动取款机。",
+        "出租车欺诈：官方的黄色出租车可能非常贵。请始终使用Uber或99。如果您必须叫出租车，请要求使用计价器。",
+        "夜间安全：避免在午夜后走偏僻的街道或海滩。请待在明亮和热闹的区域。使用Uber前往或返回您的目的地。",
+        "手机盗窃：走路时请将手机放在口袋或包内。不要在繁忙的街道或公交车上拿出来。自行车窃贼可能会抢走手机。",
+        "相信您的直觉：如果某个地方让您感到可疑，请立即离开。当地人往往很警觉，请听从他们的话。"
+      ]
+    },
+    {
+      "id": "logistics-airport",
+      "slug": "airport-transfers",
+      "title": "机场接驳服务",
+      "icon": "飞机",
+      "summary": "加利昂机场距离海滩区域约20公里。",
+      "details": [
+        "优步/99：最方便。到科帕卡巴纳/伊帕内玛的费用为R$70-100（视交通情况而定，约需45-60分钟）。请在应用程序中使用接送区域。",
+        "机场巴士（Frescão）：经济且安全（R$20）。它在沿海主要酒店停靠。每天从5:30到23:00运营。可能会很慢（长达90分钟）。",
+        "地铁 + 优步：搭乘地铁到博塔弗戈（R$7），然后乘坐优步到酒店（R$20）。这比较便宜，但带着行李可能不太方便。",
+        "提前预定的交通：酒店提供R$150-200的接送服务。如果您晚到或行李较多，这很实用。",
+        "避免：在前往机场时搭乘路边出租车。欺诈风险较高。请始终使用应用程序或提前预定的服务。"
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "money-matters",
+      "title": "货币与支付",
+      "icon": "DollarSign",
+      "summary": "在巴西使用雷亚尔（BRL）。信用卡被广泛接受，但有时需要现金。",
+      "details": [
+        "货币：R$1 ≈ 0.20美元（USD）。可获得的纸币有R$2、5、10、20、50、100、200。硬币从R$0.05到R$1不等。",
+        "提款机：在购物中心可以从提款机提取现金（每笔交易限额：R$1,000-2,000）。桑坦德银行和巴西银行在各地均可找到。",
+        "信用卡：Visa和Mastercard被广泛使用。Amex不那么常见。小商贩和海滩商贩更喜欢现金。",
+        "海滩商贩：现在接受刷卡终端！但现金（小钞）更快。请将R$20-50放在防水袋里。",
+        "提示：通常包含10%的服务费。如果没有，10%是标准。出租车或Uber的找零应四舍五入。街头小吃不需要小费。",
+        "讨价还价：在商店和餐厅不常见。在当地市场（嬉皮市场等）可能会有有限的讨价还价，但请不要过于强势。"
+      ]
+    },
+    {
+      "id": "logistics-weather",
+      "slug": "when-to-visit",
+      "title": "最佳旅行时间",
+      "icon": "太阳",
+      "summary": "夏季月份（十二月到三月）是旅游旺季。冬季月份（六月到八月）则宜人而宁静。",
+      "details": [
+        "一般来说最佳时间：四月至五月或九月至十一月。气候温暖，人流较少，价格也较低。",
+        "狂欢节（二月）：在里约的独特体验，但需提前六个月预定。价格会翻三倍。整个城市变成一个大型庆典。",
+        "夏季月份（十二月到三月）：海滩季节很棒，但也很热且潮湿，游客众多。每天下午都会下雨。请提前预定您的住宿。",
+        "冬季月份（六月到八月）：海边非常凉爽（18-25°C），但徒步旅行非常理想。这是价格最优惠的时间。一些海滩餐馆会关闭。",
+        "新年夜：科帕卡巴纳举行精彩的派对。穿上白色衣服来吸引好运。您应提前12个月预定。",
+        "应避免的时段：三月（狂欢节后，天气变化无常），如果海滩是优先考虑的，则应避免六月到七月。"
+      ]
+    },
+    {
+      "id": "logistics-health",
+      "slug": "health-essentials",
+      "title": "健康与卫生",
+      "icon": "💖",
+      "summary": "不要喝自来水。防晒霜是必不可少的。",
+      "details": [
+        "水：不要喝自来水。到处可以买到矿泉水，价格在R$3-5之间。酒店通常会免费提供瓶装水。",
+        "防晒霜：至少SPF 50+。在海滩上每两小时重新涂抹一次。巴西的阳光即使在阴天也很强烈。当地人使用70倍防晒霜。",
+        "蚊子：登革热、寨卡病毒、基孔肯雅热是风险。请使用驱蚊剂（例如OFF!和Exposis品牌）。在日出和日落时穿长袖衣服。",
+        "药店：药店随处可见（Droga Raia, Pague Menos）。大多数药物不需要处方。药剂师会讲一些英语。",
+        "紧急情况：拨打192呼叫救护车，拨打193呼叫消防队。私立医院（Hospital Copador, Samaritano）比公立医院更好。建议购买旅行保险。",
+        "海洋卫生意识：在海滩的水泥地上不要赤脚行走（有割伤危险）。请穿拖鞋。海滩上有淋浴，但数量有限。"
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "重要应用程序",
+      "icon": "智能手机",
+      "summary": "这些应用程序使在里约旅行变得简单。",
+      "details": [
+        "99 (99Taxi)：巴西的优步。通常更便宜，并且在里约都能很好地使用。",
+        "谷歌地图：精准导航和交通。您可以下载区域的离线地图。",
+        "iFood：食物外卖（类似于优步送餐）。晚上很晚的时候或想避免餐馆时非常理想。",
+        "XE货币：立即将雷亚尔转换为其他货币。汇率每日更新。",
+        "谷歌翻译：下载离线的葡萄牙语包。相机翻译功能在菜单上很有帮助。",
+        "Moovit：出行路线和公共交通时刻表的优秀应用程序。对于公交车来说，比谷歌地图更好。"
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-rio-001",
+      "slug": "feijoada",
+      "name_en": "Feijoada",
+      "name_local": "Feijoada",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "巴西的国菜：一种由黑豆、猪肉、香肠和牛肉炖制而成的丰盛炖菜。传统上在星期三和星期六搭配米饭、法罗法（烤木薯粉）、橙片和卷心菜一起享用。",
+        "history": "它起源于巴西的殖民时期，最初是用非洲奴隶留下的猪肉残余制作的。随着时间的推移，它成为家庭周末聚餐时非常受欢迎的节日餐。",
+        "insider_tip": "建议您午餐时点这一菜品。绝不要在晚餐时点——它非常重，适合慢慢享用。最好的费乔阿达会单独提供浓厚的豆汤（Caldo），您可以将其倒在米饭上。",
+        "price_level": "中等",
+        "duration": "1.5到2小时",
+        "best_time": "星期六的午餐",
+        "vibe": "传统而华丽",
+        "good_for": [
+          "团体",
+          "庆祝活动",
+          "周末午餐"
+        ]
+      },
+      "image": "/images/rio/feijoada.jpg"
+    },
+    {
+      "id": "food-rio-002",
+      "slug": "churrasco",
+      "name_en": "巴西烧烤",
+      "name_local": "Churrasco",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "在餐桌上以罗蒂齐奥风格供应的烤肉。您可以享用皮卡尼亚（肩胛肉）、腹肉（胸肉）和库皮姆（牛肉）。如需更多肉类，请将卡片翻到绿色。",
+        "history": "巴西南部的高乔人传统在全国范围内变得越来越受欢迎。牛仔（高乔人）在与牛群长途旅行时，会用木火烘烤肉类。",
+        "insider_tip": "从较轻的肉类（鸡肉、香肠）开始，然后逐渐享用更优质的切块如皮卡尼亚和羊肉。避免在自助餐中过量，因这是个陷阱，所以请小心。慢慢享受。",
+        "price_level": "昂贵",
+        "duration": "2–3 小时",
+        "best_time": "午餐或晚餐",
+        "vibe": "肉食爱好者的天堂",
+        "good_for": [
+          "肉食爱好者",
+          "团体",
+          "特别场合"
+        ]
+      },
+      "image": "/images/rio/churrasco.jpg"
+    },
+    {
+      "id": "food-rio-003",
+      "slug": "acai-bowl",
+      "name_en": "Açai-Bowl",
+      "name_local": "Açai-na-chiguera",
+      "category": "食品",
+      "is_generic_staple": true,
+      "description": {
+        "short": "浓稠冰凉的阿萨伊果碗配有格兰诺拉麦片和香蕉，有时还会加蜂蜜或炼乳。它常被当作训练后的零食或清淡餐点，是海滩文化的重要组成部分。",
+        "history": "阿萨伊浆果源于亚马逊。80年代，这种果碗在里约变得流行，冲浪者和海滩爱好者需要快速补充能量。",
+        "insider_tip": "当地人常常享用不加糖或者只是加瓜拉纳粉。游客们则喜欢大量的配料。为了获得真实体验，您可以尝试“纯”或者“传统”（仅香蕉和格兰诺拉麦片）。",
+        "price_level": "可负担",
+        "duration": "15-30分钟",
+        "best_time": "海滩后或训练后",
+        "vibe": "健康的海滩氛围",
+        "good_for": [
+          "注重健康的人",
+          "海滩爱好者",
+          "需要能量的人"
+        ]
+      },
+      "image": "/images/rio/acai.jpg"
+    },
+    {
+      "id": "food-rio-004",
+      "slug": "caipirinha",
+      "name_en": "Caipirinha",
+      "name_local": "Caipirinha",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "这是一种巴西鸡尾酒，由甘蔗酒、青柠、糖和冰制成。它被混合、摇动并且倒出。简单却又危险：饮用起来容易，给人深刻印象。",
+        "history": "它起源于圣保罗的农村地区，最初是为了抵御寒冷而创作的。在20世纪，成为巴西的象征饮品，现如今在全球都受到欢迎。",
+        "insider_tip": "如果您想要多种水果的口味，可以询问 'batida'（百香果、草莓）。如果您喜欢更浓烈的口感，可以请求 '少冰'。两杯是完美的量，三杯可能有点多。",
+        "price_level": "实惠",
+        "duration": "不适用（饮料）",
+        "best_time": "在沙滩酒吧的日落时分",
+        "vibe": "轻松而有趣的氛围",
+        "good_for": [
+          "沙滩酒吧",
+          "社交",
+          "日落"
+        ]
+      },
+      "image": "/images/rio/caipirinha.jpg"
+    },
+    {
+      "id": "food-rio-005",
+      "slug": "pao-de-queijo",
+      "name_en": "奶酪球",
+      "name_local": "Pão de Queijo",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "小巧的奶酪球，由木薯粉和奶酪制成，外脆内软。它们是无麸质的，非常适合作为早餐或零食。",
+        "history": "它们起源于18世纪的米纳斯吉拉斯州。奴隶们用木薯粉替代小麦粉来烤制面包。",
+        "insider_tip": "直接从街头摊位或小吃摊享用新鲜热腾腾的奶酪球，绝对美味。超市冷冻版也还不错，但少了那种魔力香气。要享受正宗的巴西早餐，一定要搭配咖啡。",
+        "price_level": "便宜",
+        "duration": "5-10分钟（早餐）",
+        "best_time": "早餐或咖啡时间",
+        "vibe": "舒适的小吃",
+        "good_for": [
+          "快速小吃",
+          "咖啡时间",
+          "无麸质"
+        ]
+      },
+      "image": "/images/rio/pao-de-queijo.jpg"
+    },
+    {
+      "id": "food-rio-006",
+      "slug": "moqueca",
+      "name_en": "鱼炖菜",
+      "name_local": "Moqueca",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "这是一道奶油鱼炖菜，由椰奶、棕榈油、番茄、洋葱和辣椒制成。它通常用陶罐盛装，配米饭和法罗法。沿海版本的口味比内陆版本更温和。",
+        "history": "这道菜源于巴西的原住民，融合了非洲和葡萄牙的影响。每个沿海地区都有自己的版本，巴伊亚风味使用丹德油，而埃斯皮里图圣州则不使用。",
+        "insider_tip": "如果您用白鱼（如罗巴罗鱼或巴德霍鱼）制作，将会提供更正宗的味道。使用法罗法吸收汤汁。这道菜适合两人分享，份量非常大。",
+        "price_level": "中等",
+        "duration": "1至1.5小时",
+        "best_time": "午餐或晚餐",
+        "vibe": "海岸的舒适感",
+        "good_for": [
+          "海鲜爱好者",
+          "适合分享",
+          "正宗的当地菜肴"
+        ]
+      },
+      "image": "/images/rio/moqueca.jpg"
+    },
+    {
+      "id": "food-rio-007",
+      "slug": "brigadeiro",
+      "name_en": "巧克力松露",
+      "name_local": "Brigadeiro",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "甜美而浓郁的巧克力松露，由炼乳、可可粉、黄油和巧克力碎片制成。它们被制成球状，常在生日派对和庆祝活动中提供。",
+        "history": "在1940年代，爱德华多·戈麦斯上校的总统竞选期间创造的。女性们制造这些甜点来筹集资金，名字也一直沿用至今。",
+        "insider_tip": "建议您选择带有百香果、开心果和波本风味的美食版本，可以在Maria Brigadeiro等店购买。传统糕点店的版本虽然简单，但同样美味。",
+        "price_level": "价格适中",
+        "duration": "5分钟（品尝时间）",
+        "best_time": "每当您想要吃甜食时",
+        "vibe": "甜蜜的怀旧感",
+        "good_for": [
+          "甜食爱好者",
+          "作为礼物",
+          "用于庆祝场合"
+        ]
+      },
+      "image": "/images/rio/brigadeiro.jpg"
+    },
+    {
+      "id": "food-rio-008",
+      "slug": "pastel",
+      "name_en": "巴斯特",
+      "name_local": "Pastel",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "这是一种薄脆的油炸糕点，里面填充了奶酪、肉类、虾或棕榈心。它在街头节日和市场上出售，热食和新鲜食用时味道最佳，通常配有甘蔗汁。",
+        "history": "它是在20世纪初由日本移民引入的，灵感来自于中国的春卷。巴西人将其做得更大更脆，并用当地食材进行填充。",
+        "insider_tip": "要品尝到最好的巴斯特，建议您光顾伊帕内玛的周日嬉皮市集。可以点‘Queijo（奶酪）’或‘Camarão（虾）’。配上热甘蔗汁，享受最佳组合。",
+        "price_level": "实惠",
+        "duration": "10-15分钟",
+        "best_time": "街头节日和市场",
+        "vibe": "脆皮街头美食",
+        "good_for": [
+          "快速午餐",
+          "街头节日",
+          "独特美食"
+        ]
+      },
+      "image": "/images/rio/pastel.jpg"
+    },
+    {
+      "id": "food-rio-009",
+      "slug": "tapioca-crepe",
+      "name_en": "木薯薄饼",
+      "name_local": "Tapioka",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "这是一种无麸质的薄饼，使用木薯淀粉制作。它们包含甜味和咸味的馅料，如奶酪、椰子、香蕉或肉类。提供一种独特的、酥脆又细腻的体验，这在巴西非常典型。",
+        "history": "这是巴西土著人民的传统菜肴，起源于数百年前。最初它只是一个简单的饼，但在现代有无数的馅料选择。如今，它是一种受欢迎的街头食品，也是早餐的选择。",
+        "insider_tip": "早上在海滩上直接向摊贩购买新鲜的。甜味组合（香蕉 + Nutella）美味可口，但咸味馅料（奶酪 + 干肉）更为传统。",
+        "price_level": "普通",
+        "duration": "10-15分钟",
+        "best_time": "早餐或海滩早餐",
+        "vibe": "轻盈而多样",
+        "good_for": [
+          "无麸质",
+          "海滩早餐",
+          "早餐"
+        ]
+      },
+      "image": "/images/rio/tapioca.jpg"
+    },
+    {
+      "id": "food-rio-010",
+      "slug": "mate-gelado",
+      "name_en": "冰马黛茶",
+      "name_local": "Mate Gelado",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "冰马黛茶，配有柠檬和糖。里约的人们经常饮用，它是一种休闲饮料。无论是在海滩小贩还是餐厅，随处可见。",
+        "history": "马黛茶起源于巴西南部和阿根廷。里约在20世纪接受了它，并将其变成了一种适合海滩的甜冰饮料。",
+        "insider_tip": "如果您想尝试正宗的马黛茶，请要求“无糖”。在大多数地方，它会默认添加糖浆口味。在海滩小贩那里可以买到1升的瓶装，非常适合分享。",
+        "price_level": "适中",
+        "duration": "不适用（饮料）",
+        "best_time": "在炎热的海滩日",
+        "vibe": "清爽且提神",
+        "good_for": [
+          "海滩上的保湿",
+          "提神醒脑",
+          "炎热的日子"
+        ]
+      },
+      "image": "/images/rio/mate.jpg"
+    },
+    {
+      "id": "food-rio-011",
+      "slug": "bolinhos-bacalhau",
+      "name_en": "鳕鱼饼",
+      "name_local": "Bolinhos de Bacalhau",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "炸制的小球，由咸鳕鱼、土豆、洋葱和香菜制作而成，外脆内软。这是来自葡萄牙和巴西的经典开胃菜，通常在酒吧与啤酒搭配享用。",
+        "history": "葡萄牙殖民者将咸鳕鱼带到了巴西。在19世纪，球形小吃成为酒吧必备，至今仍然是受欢迎的小吃。",
+        "insider_tip": "建议您在传统的Boteco（当地酒吧）点。可以搭配一杯冰凉的Chop（新鲜啤酒）享用。最佳地点在拉帕和莱布朗，尤其是在巴伊索莱布朗地区。",
+        "price_level": "实惠",
+        "duration": "30分钟（酒吧小吃）",
+        "best_time": "欢乐时光",
+        "vibe": "舒适的酒吧食物",
+        "good_for": [
+          "与啤酒完美搭配",
+          "社交聚会",
+          "晚餐前的小吃"
+        ]
+      },
+      "image": "/images/rio/bacalhau.jpg"
+    },
+    {
+      "id": "food-rio-012",
+      "slug": "picanha",
+      "name_en": "Picanha",
+      "name_local": "Picanha",
+      "category": "菜肴",
+      "is_generic_staple": true,
+      "description": {
+        "short": "巴西牛排之王。它位于上大腿部位，拥有完美烤制的厚脂肪层。在烧烤店中切片或作为牛排在餐厅中供应。",
+        "history": "它是高乔文化的一部分，1960年代成为巴西的优质切块。如今，它被认为是全国烧烤的最佳选择。",
+        "insider_tip": "尽量点“mal passado”（生到五分熟）。脂肪层很重要，所以不要切掉。如果您在烧烤店，等候下一轮优质切块。",
+        "price_level": "昂贵",
+        "duration": "1.5-2小时",
+        "best_time": "晚餐",
+        "vibe": "适合优质肉类爱好者",
+        "good_for": [
+          "肉类爱好者",
+          "特殊场合",
+          "高品质肉类"
+        ]
+      },
+      "image": "/images/rio/picanha.jpg"
+    },
+    {
+      "id": "food-rio-013",
+      "slug": "coxinha",
+      "name_en": "Coxinha",
+      "name_local": "Coxinha",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "这是一种用鸡肉和奶酪填充的零食，包裹在面团中并油炸。您常常可以在点心店、派对和小吃吧找到它。",
+        "history": "据说它是19世纪为一位只吃鸡腿的巴西王子所创作；当鸡腿吃完后，厨师把鸡肉塑造成鸡腿的形状。",
+        "insider_tip": "我们建议您在当地的小面包店（Padeiro）而不是大型连锁店购买，最好是新鲜热吃。面团应薄且脆，而不是厚软。",
+        "price_level": "实惠",
+        "duration": "5-10分钟（零食）",
+        "best_time": "建议尝试",
+        "vibe": "经典舒适",
+        "good_for": [
+          "轻便小吃",
+          "实惠餐点",
+          "怀旧舒适"
+        ]
+      },
+      "image": "/images/rio/coxinha.jpg"
+    },
+    {
+      "id": "food-rio-014",
+      "slug": "acaraje",
+      "name_en": "Acarajé",
+      "name_local": "Acarajé",
+      "category": "美食",
+      "is_generic_staple": true,
+      "description": {
+        "short": "非洲-巴西街头美食：用棕榈油炸制，并填充虾酱、秋葵和辣椒酱。",
+        "history": "它是由西非被奴役的人引入的，特别是来自约鲁巴文化。最初它被视为奉献给风之女神Iansã的神圣食物。如今，它在巴伊亚的女性（称为Baianas）手中遍及全国销售。",
+        "insider_tip": "请仅向穿着白色衣服的传统Baianas购买 – 她们才会正确烹饪。如果您很敏感，请求' pouco dendê '（少一点棕榈油）。辣椒真的很辣。",
+        "price_level": "便宜",
+        "duration": "15分钟（街头美食）",
+        "best_time": "午餐时或在海滩上作为小吃",
+        "vibe": "非洲-巴西香料",
+        "good_for": [
+          "美食探险家",
+          "文化体验",
+          "街头美食"
+        ]
+      },
+      "image": "/images/rio/acaraje.jpg"
+    },
+    {
+      "id": "food-rio-015",
+      "slug": "coconut-water",
+      "name_en": "椰子水",
+      "name_local": "Água de Coco",
+      "category": "食品",
+      "is_generic_staple": true,
+      "description": {
+        "short": "新鲜的椰子水是直接从年轻的绿色椰子中提取的。海滩上的商贩用弯刀将其切开，然后插入吸管。它是自然电解质的替代品，是海滩上完美的补水选择。",
+        "history": "椰子在巴西沿海地区生长丰盛。在20世纪里约热内卢海滩文化兴起时，直接从椰子中饮用已经成为一种传统。",
+        "insider_tip": "寻找冰凉的椰子水。在喝完后，请求将软椰子的内侧 '打开'。这项服务包含在价格内。",
+        "price_level": "便宜",
+        "duration": "10-15分钟",
+        "best_time": "温暖的海滩下午",
+        "vibe": "自然的新鲜感",
+        "good_for": [
+          "补水",
+          "在海滩上的完美选择",
+          "健康饮品"
+        ]
+      },
+      "image": "/images/rio/coconut-water.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "景点",
+      "id": "landmarks",
+      "items": [
+        {
+          "id": "sight-rio-001",
+          "slug": "christ-redeemer",
+          "name_en": "基督救世主",
+          "name_local": "基督救世主",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "这座高达30米的象征性耶稣雕像位于科尔科瓦多山上，是七大奇迹之一。建议您早晨前往，享受人群涌来之前的早晨之美。",
+            "history": "这座雕像于1922年至1931年间建成，作为基督教和巴西身份的象征。它由巴西工程师海托尔·达·西尔瓦·科斯塔设计，法国艺术家保罗·兰多斯基雕刻。该雕像曾多次遭到闪电袭击。",
+            "insider_tip": "请提前几天在线预订门票，快速售罄。乘坐小巴 (€) 到达顶峰，避免乘坐火车 (€€€€)。最好在早上8点或下午4点的黄金时刻前往。避免在周末和节假日去。",
+            "price_level": "昂贵",
+            "duration": "2-3小时",
+            "best_time": "早上（8点）或晚上",
+            "vibe": "令人印象深刻且富有象征意义",
+            "good_for": [
+              "首次访客",
+              "摄影",
+              "全景"
+            ]
+          },
+          "image": "/images/rio/christ.jpg",
+          "geo": {
+            "lat": -22.9519,
+            "lng": -43.2105
+          }
+        },
+        {
+          "id": "sight-rio-002",
+          "slug": "sugarloaf-mountain",
+          "name_en": "糖面包山",
+          "name_local": "糖面包山",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "一座396米高的花岗岩山，可以通过缆车到达。三阶段的上升，每一个阶段的风景都更加令人惊艳。山顶的日落是里约最浪漫的体验之一。",
+            "history": "在16世纪，葡萄牙探险家以形状类似传统糖罐的原因给这座山起名为'Pão de Açúcar'。缆车于1912年开放，当时是革命性的发明。",
+            "insider_tip": "请在晚餐前1.5小时到达。在山顶欣赏日落后，乘坐缆车在城市的灯光中返回山谷。带一件轻外套；山顶可能会有风。",
+            "price_level": "昂贵",
+            "duration": "2-3小时",
+            "best_time": "傍晚（17点 - 18点）",
+            "vibe": "浪漫而风景如画",
+            "good_for": [
+              "情侣",
+              "摄影师",
+              "日落爱好者"
+            ]
+          },
+          "image": "/images/rio/sugarloaf.jpg",
+          "geo": {
+            "lat": -22.9489,
+            "lng": -43.1569
+          }
+        },
+        {
+          "id": "sight-rio-003",
+          "slug": "selaron-steps",
+          "name_en": "塞拉伦阶梯",
+          "name_local": "塞拉伦阶梯",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "由智利艺术家豪尔赫·塞拉伦创作的色彩缤纷的马赛克阶梯。250级台阶，上面覆盖着来自60多个国家的瓷砖。一个不断发展的艺术项目，成为里约最受欢迎的拍照阶梯之一。",
+            "history": "塞拉伦于1990年开始这个项目，以纪念巴西人民。在他2013年去世之前，一直在努力这个作品。这些阶梯连接着拉帕和圣特雷莎。",
+            "insider_tip": "为避免旅游团，请在早上（8点 - 9点）或晚上（17点）早些前往。这些阶梯是公开的，没有费用。请小心扒手；那里通常人来人往。建议结合游览圣特雷莎。",
+            "price_level": "免费",
+            "duration": "30分钟",
+            "best_time": "早上或晚上",
+            "vibe": "五彩缤纷和艺术气息浓厚",
+            "good_for": [
+              "Instagram摄影",
+              "艺术爱好者",
+              "早起者"
+            ]
+          },
+          "image": "/images/rio/selaron.jpg",
+          "geo": {
+            "lat": -22.9153,
+            "lng": -43.1792
+          }
+        }
+      ]
+    },
+    {
+      "title": "海滩",
+      "id": "beaches",
+      "items": [
+        {
+          "id": "sight-rio-004",
+          "slug": "copacabana-beach",
+          "name_en": "科帕卡巴纳海滩",
+          "name_local": "Praia de Copacabana",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "世界上最著名的海滩。长达4公里的沙岸，拥有白色马赛克长廊。这里有游客、海滩小贩、足球比赛和观众，构成了丰富多彩的景象。",
+            "history": "以玻利维亚一个村庄的著名保护神圣母玛利亚命名。它在1920年代和30年代成为里约的旅游中心。马赛克长廊由罗伯托·布尔乐·马克斯于1970年代设计。",
+            "insider_tip": "每个‘Posto’（救生站）都有自己独特的氛围。靠近科帕卡巴纳宫的Posto 4比较安静，而Posto 6则受当地人欢迎。请只携带必要的物品——盗窃现象较普遍。",
+            "price_level": "免费",
+            "duration": "至少半天",
+            "best_time": "早上或晚上",
+            "vibe": "象征性和旅游性",
+            "good_for": [
+              "海滩文化",
+              "观察人群",
+              "首次到访者"
+            ]
+          },
+          "image": "/images/rio/copacabana-beach.jpg",
+          "geo": {
+            "lat": -22.9711,
+            "lng": -43.1822
+          }
+        },
+        {
+          "id": "sight-rio-005",
+          "slug": "ipanema-beach",
+          "name_en": "伊帕内玛海滩",
+          "name_local": "Praia de Ipanema",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "比科帕卡巴纳更优雅，游客更少。Posto 9是一个社交中心，吸引了许多帅气的人。水清澈，气氛良好，是歌曲《伊帕内玛女孩》的灵感来源。",
+            "history": "因1962年的歌曲《伊帕内玛女孩》而闻名。在1960年代，它成为里约的一个波西米亚海滩，并发展为一个优雅的区域。",
+            "insider_tip": "Posto 9是一个LGBT+友好的区域。Posto 10适合家庭。在周日，维埃拉索托大街因车辆限制而禁止通行，当地人骑自行车、滑板或野餐。",
+            "price_level": "免费",
+            "duration": "至少半天",
+            "best_time": "观赏日落时",
+            "vibe": "优雅和精致",
+            "good_for": [
+              "海滩爱好者",
+              "观赏日落",
+              "观察人群"
+            ]
+          },
+          "image": "/images/rio/ipanema-beach.jpg",
+          "geo": {
+            "lat": -22.9868,
+            "lng": -43.2045
+          }
+        },
+        {
+          "id": "sight-rio-006",
+          "slug": "arpoador-beach",
+          "name_en": "阿尔波阿多尔海滩",
+          "name_local": "Praia do Arpoador",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "一个位于科帕卡巴纳和伊帕内玛之间的小岩石海滩，以日落而闻名。当地产生每晚都聚集在岩石上，欢迎太阳落下在二兄弟山的身后并鼓掌。",
+            "history": "在19世纪，捕鲸者使用这些岩石寻找鲸鱼，因此海滩被称为‘阿尔波阿多尔’（捕鲸者）。在1970年代开始的用掌声欢迎日落的传统至今仍然延续。",
+            "insider_tip": "请在日落前30分钟到达，确保在岩石上占据一个好位置。当太阳触及地平线时，有鼓掌和欢呼的传统。不要忘了带上啤酒。",
+            "price_level": "免费",
+            "duration": "1到2小时",
+            "best_time": "日落时（17:30-18:30）",
+            "vibe": "地方传统",
+            "good_for": [
+              "日落仪式",
+              "摄影",
+              "地方文化"
+            ]
+          },
+          "image": "/images/rio/arpoador.jpg",
+          "geo": {
+            "lat": -22.9874,
+            "lng": -43.1903
+          }
+        },
+        {
+          "id": "sight-rio-007",
+          "slug": "prainha-beach",
+          "name_en": "普拉茵哈海滩",
+          "name_local": "Prainha",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "一个位于市区45分钟的小保护海滩。被绿色山丘环绕，并被作为自然保护区保护。受冲浪者和自然爱好者的欢迎。",
+            "history": "由于自然保护法，这里保持了未开发状态，保留了原始自然的特点。本地冲浪者几十年来一直努力保护它免于过度拥挤。",
+            "insider_tip": "海滩没有基础设施——请别忘了带上食物、水和防晒霜。在周末，停车场预计在上午11点之前就会满。里约的冲浪波浪非常好，但强烈的潮流对非冲浪者来说是危险的。",
+            "price_level": "免费",
+            "duration": "半天",
+            "best_time": "周一早晨",
+            "vibe": "自然和保护",
+            "good_for": [
+              "冲浪爱好者",
+              "自然爱好者",
+              "希望远离人群的人"
+            ]
+          },
+          "image": "/images/rio/prainha.jpg",
+          "geo": {
+            "lat": -23.0442,
+            "lng": -43.5028
+          }
+        }
+      ]
+    },
+    {
+      "title": "自然与公园",
+      "id": "nature",
+      "items": [
+        {
+          "id": "sight-rio-008",
+          "slug": "tijuca-forest",
+          "name_en": "蒂久卡国家公园",
+          "name_local": "Floresta da Tijuca",
+          "category": "旅游景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "这是世界上最大的城市雨林。这里有通往瀑布、观景点和动物观察的道路。救世基督雕像也位于这里。是远离海滩喧嚣的完美自然避风港。",
+            "history": "19 世纪时，这里曾被砍伐用于咖啡种植。1861 年，佩德罗二世皇帝下令重新造林，成为历史上第一个大型植树造林项目。如今，它是联合国教科文组织世界遗产。",
+            "insider_tip": "租一个导游以确保安全，并观察野生动物（猴子，山雀）。前往Cascatinha瀑布的步道简单而美丽。不建议独自徒步旅行——小径孤单。早上早点出发，在炎热或下雨之前。",
+            "price_level": "免费（导游另付）",
+            "duration": "半天",
+            "best_time": "清晨",
+            "vibe": "丛林探险",
+            "good_for": [
+              "徒步旅行者",
+              "自然爱好者",
+              "动物观察"
+            ]
+          },
+          "image": "/images/rio/tijuca.jpg",
+          "geo": {
+            "lat": -22.9628,
+            "lng": -43.2839
+          }
+        },
+        {
+          "id": "sight-rio-009",
+          "slug": "botanical-garden",
+          "name_en": "里约热内卢植物园",
+          "name_local": "Jardim Botânico",
+          "category": "旅游景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "一个占地 140 公顷的宁静花园，生长着超过 6000 种植物。美丽的棕榈道非常著名。这里有湖泊、兰花和雕像，为您提供远离里约喧嚣的宁静之所。",
+            "history": "1818年由葡萄牙王子若昂六世建立，以培育来自西印度群岛的香料。起初这是一个皇家私家花园，但在1822年国家独立后对公众开放。",
+            "insider_tip": "工作日清晨到访以寻找宁静。日本花园和感官花园是隐藏的宝藏。别忘了带上驱虫剂。在里面的咖啡馆享用新鲜压榨的果汁。",
+            "price_level": "合理",
+            "duration": "2-3小时",
+            "best_time": "工作日早晨",
+            "vibe": "宁静与植物丰富",
+            "good_for": [
+              "植物爱好者",
+              "静谧时光",
+              "摄影"
+            ]
+          },
+          "image": "/images/rio/botanical.jpg",
+          "geo": {
+            "lat": -22.967,
+            "lng": -43.2247
+          }
+        },
+        {
+          "id": "sight-rio-010",
+          "slug": "parque-lage",
+          "name_en": "拉热公园",
+          "name_local": "Parque Lage",
+          "category": "旅游景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "一个宏伟的庄园和花园，坐落在科尔科瓦多山脚下。您可以从别墅内部的咖啡馆看到救世基督雕像穿过拱门。免费入场，是拍摄浪漫照片的热门地点。",
+            "history": "它建于20世纪初，为商人亨里克·拉热和他的歌剧歌手妻子而建。如今，别墅作为艺术学校（EAV）使用。花园由英国景观设计师约翰·廷达尔设计。",
+            "insider_tip": "咖啡馆是Instagram爱好者的天地——早点来以避开人潮。这里有通往蒂久卡森林的免费小径。周末经常有演出和露天表演。",
+            "price_level": "免费（咖啡馆价格合理）",
+            "duration": "1-2小时",
+            "best_time": "早上拍照",
+            "vibe": "浪漫与艺术",
+            "good_for": [
+              "Instagram照片",
+              "放松",
+              "建筑"
+            ]
+          },
+          "image": "/images/rio/parque-lage.jpg",
+          "geo": {
+            "lat": -22.9596,
+            "lng": -43.2108
+          }
+        }
+      ]
+    },
+    {
+      "title": "文化与夜生活",
+      "id": "culture",
+      "items": [
+        {
+          "id": "sight-rio-011",
+          "slug": "lapa-arches",
+          "name_en": "Lapa-Arcos",
+          "name_local": "Arcos da Lapa",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "一座18世纪的水运桥，现在是里约夜生活的标志。每周五和周六晚上，下面的区域变成街头派对（桑巴循环）。酒吧、俱乐部和现场音乐随处可见。",
+            "history": "它于1950年建成，以便将水从圣特雷莎输送到市中心。1896年进行了改建，以作为电车的高桥。现在连接着里约的夜生活区拉帕与圣特雷莎山。",
+            "insider_tip": "请在晚上22点后到这里，街头派对开始。最好结伴而行，并注意保管好贵重物品。享受附近俱乐部Rio Scenarium和Carioca da Gema的现场桑巴表演。",
+            "price_level": "变动",
+            "duration": "3-5小时",
+            "best_time": "周五/周六晚上22点后",
+            "vibe": "狂野的夜生活",
+            "good_for": [
+              "派对客",
+              "桑巴爱好者",
+              "夜晚活动者"
+            ]
+          },
+          "image": "/images/rio/lapa-arches.jpg",
+          "geo": {
+            "lat": -22.9131,
+            "lng": -43.1792
+          }
+        },
+        {
+          "id": "sight-rio-012",
+          "slug": "maracana-stadium",
+          "name_en": "Maracanã-Stadion",
+          "name_local": "Estádio do Maracanã",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "一座象征性的足球圣殿，曾举办过两场世界杯决赛（1950年、2014年）和2016年奥运会开幕式。来这里观看弗拉门戈和弗鲁米南塞的比赛，感受巴西足球的热情。",
+            "history": "它为1950年世界杯而建。曾经能容纳超过20万人（现在经过翻新可容纳78,000人）。这是贝利进球1000的地方。弗拉门戈与弗鲁米南塞的德比期间充满难忘的能量。",
+            "insider_tip": "提前在线购买门票。选择下层座位以享受体验。穿上您球队的颜色或中性颜色；请不要穿敌队的颜色。赛前的期待与比赛本身一样令人激动。",
+            "price_level": "中等",
+            "duration": "3-4小时",
+            "best_time": "比赛日（周末）",
+            "vibe": "激动人心的足球文化",
+            "good_for": [
+              "足球迷",
+              "文化体验",
+              "喜欢肾上腺素的人"
+            ]
+          },
+          "image": "/images/rio/maracana.jpg",
+          "geo": {
+            "lat": -22.9122,
+            "lng": -43.2302
+          }
+        },
+        {
+          "id": "sight-rio-013",
+          "slug": "santa-teresa-tram",
+          "name_en": "Santa Teresa Straßenbahn",
+          "name_local": "Bondinho de Santa Teresa",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "一辆复古黄色电车，从市中心驶向波西米亚区圣特雷莎。它穿越拉帕拱门，提供绝妙的风景。这是巴西最后几个仍在运营的电车系统之一。",
+            "history": "它于1877年开始运行，是拉丁美洲最古老的电车系统之一。2011年因事故暂停运营，2015年部分恢复运营。它是里约当地人和游客的地标。",
+            "insider_tip": "目前只有一条线路（从拉尔戈达卡里奥卡到拉尔戈杜吉马兰斯）。运行频率较低，因此请注意时间。为了享受最佳的景色，请坐在右侧。之后可以探索圣特雷莎，那里有酒吧和艺术工作室。",
+            "price_level": "便宜",
+            "duration": "30分钟（仅乘车）",
+            "best_time": "下午",
+            "vibe": "怀旧而风景如画",
+            "good_for": [
+              "历史爱好者",
+              "风景徒步",
+              "摄影"
+            ]
+          },
+          "image": "/images/rio/tram.jpg",
+          "geo": {
+            "lat": -22.9138,
+            "lng": -43.1869
+          }
+        },
+        {
+          "id": "sight-rio-014",
+          "slug": "pedra-do-sal",
+          "name_en": "Pedra do Sal",
+          "name_local": "Pedra do Sal",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "一个历史悠久的石头广场，桑巴音乐的发源地。每周一和周五晚上会举行免费的桑巴循环。当地人在街头跳舞、唱歌，喝酒直到深夜。",
+            "history": "这是一个殖民时期的旧奴隶市场。在这里，被 enslaved 的非洲人通过音乐和舞蹈保持他们的文化活力。被认为是现代桑巴的发源地。",
+            "insider_tip": "请在周一晚上来到这里，以享受最真实和当地的体验。大约在20:00到达广场，以确保靠近音乐家的位置。记得带钱买摊位的饮料。注意保管好贵重物品。",
+            "price_level": "免费",
+            "duration": "2-4小时",
+            "best_time": "周一晚上（20:00后）",
+            "vibe": "简单而文化",
+            "good_for": [
+              "桑巴爱好者",
+              "文化体验",
+              "当地体验"
+            ]
+          },
+          "image": "/images/rio/pedra-sal.jpg",
+          "geo": {
+            "lat": -22.894,
+            "lng": -43.184
+          }
+        }
+      ]
+    },
+    {
+      "title": "观景点",
+      "id": "viewpoints",
+      "items": [
+        {
+          "id": "sight-rio-015",
+          "slug": "mirante-dona-marta",
+          "name_en": "米兰特·多娜·马塔",
+          "name_local": "Mirante Dona Marta",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "这是一个提供360°全景的观景点，您可以在这里看到基督像、糖面包山、海滩和贫民窟，还有直升机可供使用。因迈克尔·杰克逊的音乐视频《他们不在乎我们》而广受欢迎。拍照的绝佳地点。",
+            "history": "它位于多娜·马塔贫民窟的山丘上。自1996年迈克尔·杰克逊拍摄后，它便在国际上出名。社区在保持当地特色的同时，致力于旅游业的发展。",
+            "insider_tip": "我们建议您参加一个旅游团或雇一个私人司机；单独前往不太推荐。这里在日落或蓝色时段拍照效果最佳。还有一家小咖啡馆出售饮料和小吃。社区很安全，但请尊重当地人的隐私。",
+            "price_level": "免费（需额外交通费用）",
+            "duration": "1-2小时",
+            "best_time": "日落或晚上较晚时分",
+            "vibe": "全景和令人惊叹",
+            "good_for": [
+              "摄影爱好者",
+              "日落爱好者",
+              "开阔景观的好去处"
+            ]
+          },
+          "image": "/images/rio/dona-marta.jpg",
+          "geo": {
+            "lat": -22.9491,
+            "lng": -43.1943
+          }
+        },
+        {
+          "id": "sight-rio-016",
+          "slug": "pedra-bonita",
+          "name_en": "美丽石",
+          "name_local": "Pedra Bonita",
+          "category": "景点",
+          "is_generic_staple": false,
+          "description": {
+            "short": "海拔696米，通过相对简单的1.5小时徒步旅行即可到达。这里也是滑翔伞的起点。享受南方、海滩和山脉的全景。",
+            "history": "自1970年代以来作为滑翔伞的起点使用。意为‘美丽的石头’。它是蒂朱卡国家公园的一部分。用于训练巴西的奥林匹克滑翔伞队。",
+            "insider_tip": "建议您提前出发，避开热天气（早上7点到8点之间）。徒步路线难度适中，但某些部分较陡。入场免费。请带上水和零食。如果有机会尝试滑翔伞（10点到14点之间），一定要尝试。",
+            "price_level": "免费",
+            "duration": "往返3-4小时",
+            "best_time": "清晨",
+            "vibe": "冒险徒步",
+            "good_for": [
+              "徒步旅行者",
+              "自然爱好者",
+              "适合偏僻的景观"
+            ]
+          },
+          "image": "/images/rio/pedra-bonita.jpg",
+          "geo": {
+            "lat": -22.9953,
+            "lng": -43.2831
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "08:00",
+      "title": "基督救世主山上的日出",
+      "description": "让您的一天从山顶开始。为了避开人群，请乘坐第一班渡船前往科尔科瓦多山的顶峰。在710米的高度欣赏日出，它为里约的海滩和山脉洒下光辉的晨光。金色的晨光为您提供了最佳的拍照机会，您可以在这里静静地欣赏雕像大约30到45分钟。",
+      "image": "/images/rio/christ-morning.jpg",
+      "ticket_link": "https://www.getyourguide.com/rio-de-janeiro-l61/"
+    },
+    {
+      "time": "11:00",
+      "title": "伊帕内玛海滩与巴西莓",
+      "description": "前往伊帕内玛海滩的9号泳池，您会找到里约热内卢的社交中心。租一把椅子和遮阳伞，畅游在大西洋中，观看那些玩沙滩足球的俊男美女。向海滩的小贩订购巴西莓碗，给自己补充能量。这是体验卡里奥卡文化的绝佳机会。",
+      "image": "/images/rio/ipanema-morning.jpg"
+    },
+    {
+      "time": "14:00",
+      "title": "午餐：在传统餐厅享受黑豆炖肉",
+      "description": "星期六是黑豆炖肉日。请前往伊帕内玛或莱布隆的传统餐厅，享用巴西的国菜。这是一种用黑豆慢炖而成的炖菜，配以猪肉和牛肉。搭配米饭、法罗法、橙片和卷心菜叶一起享用。请您悠闲地享受这一顿社区餐，共计1.5到2小时。",
+      "image": "/images/rio/feijoada-lunch.jpg"
+    },
+    {
+      "time": "17:00",
+      "title": "阿尔波阿多的日落",
+      "description": "请您前往阿尔波阿多的岩石，位于科帕卡巴纳和伊帕内玛之间。请在日落前30分钟预定一个位置。当太阳在多伊斯·伊尔马恩山后面触碰地平线时，请与当地人一起鼓掌——这是里约的一项传统。别忘了带上从附近摊位买来的冷啤酒或卡伊皮林哈。",
+      "image": "/images/rio/arpoador-sunset.jpg"
+    },
+    {
+      "time": "20:00",
+      "title": "塞拉隆阶梯与圣特雷莎",
+      "description": "您可以乘坐Uber前往著名的塞拉隆阶梯。它是连接拉帕和圣特雷莎的一个显著马赛克。沿着五彩缤纷的阶梯向上走，探索波希米亚风情的圣特雷莎街区。在这里，您会发现曲折的小街、殖民风格的房屋、艺术画廊以及可以欣赏现场音乐的酒吧。这是您在晚餐前探索的完美地点。",
+      "image": "/images/rio/selaron-night.jpg"
+    },
+    {
+      "time": "22:00",
+      "title": "在拉帕体验桑巴和卡皮林哈",
+      "description": "在里约热内卢的心脏地带拉帕结束您的夜晚。造访传统的桑巴俱乐部，探索里约场景，或在拉帕拱门下参与街头派对。现场表演、舞蹈和卡皮林哈将持续到清晨。在这里您可以体验到里约的活力和快乐。请注意周围环境，并保持在团队中。 ",
+      "image": "/images/rio/lapa-night.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "name": "防水手机保护壳",
+      "reason": "在海滩的一天中，它是必不可少的。您可以游泳，同时保护您的手机免受水、沙子和小偷的侵扰。",
+      "image_url": "https://m.media-amazon.com/images/I/71K7fqVqvdL._AC_SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B07VPZT1DH?tag=canibringonpl-20"
+    },
+    {
+      "name": "友好的珊瑚防晒霜 SPF 50+",
+      "reason": "里约的阳光很强烈。至少需要 SPF 50 的防护。请记得每两小时补涂一次。不要低估巴西的阳光。",
+      "image_url": "https://m.media-amazon.com/images/I/71wFPvLKExL._SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B004XGPMFA?tag=canibringonpl-20"
+    },
+    {
+      "name": "速干沙滩毛巾",
+      "reason": "轻便紧凑，在海滩之间能立即干燥。传统毛巾在里约的潮湿中始终保持潮湿。",
+      "image_url": "https://m.media-amazon.com/images/I/81iEXhZPk8L._AC_SL1500_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/B07H3J6TPN?tag=canibringonpl-20"
+    },
+    {
+      "name": "葡萄牙语短语指南",
+      "reason": "除了景点外，英语的使用有限。掌握基本的葡萄牙语短语将非常有助于与当地人沟通。",
+      "image_url": "https://m.media-amazon.com/images/I/51jTjYv2tPL._SX348_BO1,204,203,200_.jpg",
+      "affiliate_link": "https://www.amazon.com/dp/1786574756?tag=canibringonpl-20"
+    }
+  ],
+  "region": "South America"
+}

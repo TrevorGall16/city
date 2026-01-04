@@ -1,0 +1,1001 @@
+{
+  "id": "city-002",
+  "name": "Berlin",
+  "slug": "berlin",
+  "country": "Deutschland",
+  "country_code": "de",
+  "hero_image": "/images/berlin/hero.jpg",
+  "intro_vibe": "Die Hauptstadt des Coolen: Wo Geschichte auf Gegenkultur trifft und die Nacht niemals endet.",
+  "general_info": {
+    "population": "~3,7 Millionen (Stadt) / ~6 Millionen (Metropolregion)",
+    "is_capital": true,
+    "description": "Berlin ist nicht Deutschland – es ist ein eigenes Universum. Eine Stadt der Kontraste, wo geschichtsträchtige Narben auf hedonistische Nächte treffen. Von der Freiheit des Tempelhofer Feldes bis zur Rauheit Neuköllns ist Berlin roh, echt und ungeniert alternativ. Die Zeit fließt hier anders; ein 'Wochenende' kann 72 Stunden dauern."
+  },
+  "stats": {
+    "currency": "EUR",
+    "plug_type": "Type F"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "Januar",
+      "temp": "-2°C - 3°C",
+      "vibe": "Kalt & Grau",
+      "pros": [
+        "Weniger Touristen",
+        "Gemütliche Bierhallen",
+        "Winterschlussverkauf"
+      ],
+      "cons": [
+        "Kurze Tage",
+        "Eiskalte Winde",
+        "Slush"
+      ],
+      "clothing": "Schwerer Wintermantel, Stiefel, Schal"
+    },
+    {
+      "id": 2,
+      "name": "Februar",
+      "temp": "-1°C - 4°C",
+      "vibe": "Immer noch kalt",
+      "pros": [
+        "Berlinale Filmfestival",
+        "Frühlingserwachen",
+        "Niedrigere Preise"
+      ],
+      "cons": [
+        "Kälteeinbrüche",
+        "Graue Himmel"
+      ],
+      "clothing": "Wärmende Schichten, wasserdichte Jacke"
+    },
+    {
+      "id": 3,
+      "name": "März",
+      "temp": "2°C - 9°C",
+      "vibe": "Erwachen",
+      "pros": [
+        "Die Tage werden länger.",
+        "Der Frühling beginnt",
+        "Parks öffnen wieder"
+      ],
+      "cons": [
+        "Unberechenbares Wetter",
+        "Regen"
+      ],
+      "clothing": "Leichte Jacke, Regenschirm"
+    },
+    {
+      "id": 4,
+      "name": "April",
+      "temp": "4°C - 14°C",
+      "vibe": "Frisch",
+      "pros": [
+        "Kirschblüten",
+        "Biergärten geöffnet",
+        "Veranstaltungen im Freien"
+      ],
+      "cons": [
+        "Aprilregen",
+        "Noch kühle Abende"
+      ],
+      "clothing": "Schichten, Regenjacke"
+    },
+    {
+      "id": 5,
+      "name": "Mai",
+      "temp": "9°C - 19°C",
+      "vibe": "Lebhaft",
+      "pros": [
+        "Perfektes Wetter",
+        "Mauerpark Flohmarkt",
+        "Lange Tage"
+      ],
+      "cons": [
+        "Menschenmengen wachsen",
+        "Höhere Preise"
+      ],
+      "clothing": "Leichte Schichten, Sonnenbrille"
+    },
+    {
+      "id": 6,
+      "name": "Juni",
+      "temp": "12°C - 22°C",
+      "vibe": "Festivalsaison",
+      "pros": [
+        "Musikfest",
+        "Späte Sonnenuntergänge (22 Uhr)",
+        "Spreefluss-Atmosphäre"
+      ],
+      "cons": [
+        "Touristensaison",
+        "Gelegentlicher Regen"
+      ],
+      "clothing": "Sommerkleidung, leichte Jacke"
+    },
+    {
+      "id": 7,
+      "name": "Juli",
+      "temp": "14°C - 25°C",
+      "vibe": "Hochsommer",
+      "pros": [
+        "Freiluftclubs",
+        "Badesee (Wannsee)",
+        "Endloser Tageslicht"
+      ],
+      "cons": [
+        "Heiß & überfüllt",
+        "Keine Klimaanlage"
+      ],
+      "clothing": "Shorts, T-Shirts, Sonnenhut"
+    },
+    {
+      "id": 8,
+      "name": "August",
+      "temp": "14°C - 24°C",
+      "vibe": "Heiß & Lebhaft",
+      "pros": [
+        "Strandbars (Badeschiff)",
+        "Straßenfeste",
+        "Warme Nächte"
+      ],
+      "cons": [
+        "Sehr touristisch",
+        "Hitzewellen"
+      ],
+      "clothing": "Leichte Sommerkleidung"
+    },
+    {
+      "id": 9,
+      "name": "September",
+      "temp": "10°C - 19°C",
+      "vibe": "Goldener Herbst",
+      "pros": [
+        "Perfektes Wetter",
+        "Weniger Menschenmengen",
+        "Kunstmesse Berlin"
+      ],
+      "cons": [
+        "Kürzere Tage",
+        "Gelegentlicher Regen"
+      ],
+      "clothing": "Smart-Casual-Schichten"
+    },
+    {
+      "id": 10,
+      "name": "Oktober",
+      "temp": "6°C - 13°C",
+      "vibe": "Gemütlich",
+      "pros": [
+        "Herbstlaub",
+        "Museumsaison",
+        "Oktoberfest (in der Nähe von München)"
+      ],
+      "cons": [
+        "Kürzere Tage",
+        "Kühle Abende"
+      ],
+      "clothing": "Warme Jacke, Stiefel"
+    },
+    {
+      "id": 11,
+      "name": "November",
+      "temp": "3°C - 7°C",
+      "vibe": "Grau & Stimmungsreich",
+      "pros": [
+        "Weihnachtsmärkte beginnen",
+        "Gemütliche Cafés",
+        "Niedrige Preise"
+      ],
+      "cons": [
+        "Grau & feucht",
+        "Sehr kurze Tage"
+      ],
+      "clothing": "Warmer Mantel, Regenschirm, Thermounterwäsche"
+    },
+    {
+      "id": 12,
+      "name": "Dezember",
+      "temp": "0°C - 4°C",
+      "vibe": "Festlich",
+      "pros": [
+        "Weihnachtsmärkte",
+        "Gendarmenmarkt Lichter",
+        "Silvester am Brandenburger Tor"
+      ],
+      "cons": [
+        "Kalt & dunkel",
+        "Überfüllte Märkte"
+      ],
+      "clothing": "Schwerer Wintermantel, Handschuhe, Mütze"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "Bargeldangst ist real: 'Nur Bar' (Nur Bargeld) ist selbst in trendigen Restaurants üblich. Karten werden manchmal abgelehnt. Geldautomaten sind samstagabends oft leer. Tragen Sie immer 50 € in bar bei sich.",
+      "Stille ist Respekt: Die Berliner schätzen Privatsphäre. Kein Small Talk in Aufzügen, Ruhe in der Bahn und keine falschen Lächeln. Ein neutrales Gesicht ist keine Feindseligkeit, sondern Respekt für Ihren Raum.",
+      "Regeln sind heilig: Sie warten auf das grüne Licht (Ampelmann), selbst um 3 Uhr morgens auf einer leeren Straße. Das Überqueren der Straße außerhalb der Fußgängerüberwege wird sozial verurteilt. Regeln sind der soziale Vertrag, der das Chaos zusammenhält.",
+      "Sonntag Realität: Sonntag ist für 'Ruhe'. Geschäfte, Supermärkte und Apotheken sind geschlossen. Kein Bohren, keine laute Musik, kein Glasrecycling. Die Stadt kommt zur Ruhe.",
+      "Die Späti-Kultur: Der 'Späti' (Spätkauf) ist das Zentrum des sozialen Lebens. Holen Sie sich ein Bier (€1,50) und setzen Sie sich auf die Bank draußen. So ist es in Berlin.",
+      "Club-Protokoll: Keine Fotos. Niemals. Kleben Sie Ihre Kamera ab. Kleiden Sie sich lässig (schwarz hilft), kennen Sie den DJ und seien Sie nicht betrunken in der Schlange. Die Warteschlange ist ernsthaft; Drängeln führt zu einem Hausverbot.",
+      "Ticketvalidierung: Es gibt keine Drehkreuze, aber Zivilkontrolleure sind unerbittlich. Sie MÜSSEN Ihr Ticket an der kleinen Maschine vor dem Einsteigen entwerten. Die Strafe beträgt 60 €.",
+      "Pfand-System: Zerdrücken Sie keine Dosen/Flaschen. Sie sind €0,25 wert. Lassen Sie sie neben den Mülleimern für Sammler, wenn Sie sie nicht selbst zurückgeben."
+    ],
+    "essential_phrases": [
+      {
+        "src": "Hallo",
+        "local": "Hallo / Moin",
+        "phonetic": "Hallo / Moin"
+      },
+      {
+        "src": "Danke schön",
+        "local": "Bitte schön",
+        "phonetic": "Danke"
+      },
+      {
+        "src": "Die Rechnung bitte.",
+        "local": "Die Rechnung, bitte.",
+        "phonetic": "die Reknung bitte"
+      },
+      {
+        "src": "Entschuldigung",
+        "local": "Entschuldigung",
+        "phonetic": "Entschuldigung"
+      },
+      {
+        "src": "Ein Bier bitte.",
+        "local": "Ein Bier, bitte.",
+        "phonetic": "ein Bier bitte"
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Kreuzberg",
+      "vibe": "Alternativ & Avantgardistisch",
+      "description": "Das historische Herz der Gegenkultur West-Berlins. Türkische Märkte, Punkbars, Street Art und der Kanal. Rau, echt und immer wach.",
+      "highlights": [
+        "Landwehrkanal",
+        "Markthalle Neun",
+        "SO36"
+      ],
+      "image": "/images/berlin/kreuzberg.jpg"
+    },
+    {
+      "name": "Neukölln",
+      "vibe": "Hipster & Roh",
+      "description": "Der aktuelle coole Stadtteil. Rau, aber voller trendiger veganer Cafés, Kneipen und nahöstlicher Küche. Jung, unordentlich und spaßig.",
+      "highlights": [
+        "Tempelhofer Feld",
+        "Weserstraße Bars",
+        "Sonnenallee"
+      ],
+      "image": "/images/berlin/neukolln.jpg"
+    },
+    {
+      "name": "Friedrichshain",
+      "vibe": "Vergnügungsviertel",
+      "description": "Heimat des legendären Berghain und des RAW-Geländes. Industriell, mit Graffiti bedeckt und hedonistisch. Wo das Wochenende niemals endet.",
+      "highlights": [
+        "East Side Gallery",
+        "Berghain",
+        "Boxhagener Platz"
+      ],
+      "image": "/images/berlin/friedrichshain.jpg"
+    },
+    {
+      "name": "Prenzlauer Berg",
+      "vibe": "Gentrifiziert & Ruhig",
+      "description": "Ein scharfer Kontrast zur Rauheit. Wunderschön restaurierte Altbaugebäude, Bio-Eiscreme und Kinderwagen. Es ist ruhig, wohlhabend und familienfreundlich.",
+      "highlights": [
+        "Kollwitzplatz",
+        "Mauerpark",
+        "Kulturbrauerei"
+      ],
+      "image": "/images/berlin/prenzlauer-berg.jpg"
+    },
+    {
+      "name": "Mitte",
+      "vibe": "Historisches Zentrum",
+      "description": "Berlins polierte Mitte. Museen, Sehenswürdigkeiten und gehobenes Einkaufen. Touristisch, aber essenziell für die 'Checkliste'-Sehenswürdigkeiten.",
+      "highlights": [
+        "Brandenburger Tor",
+        "Museumsinsel",
+        "Hackescher Markt"
+      ],
+      "image": "/images/berlin/mitte.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-survival",
+      "slug": "local-survival",
+      "title": "Lokale Überlebenstipps",
+      "icon": "Informationen",
+      "summary": "Wichtige Reibungsminderer für eine reibungslose Reise.",
+      "details": [
+        "Sonntags-Lockdown: Fast ALLES ist geschlossen (Läden, Supermärkte). Nur Restaurants und Museen haben geöffnet. Wenn Sie Essen für Montagmorgen benötigen, kaufen Sie es am Samstag.",
+        "Bargeld ist König: Gehen Sie nicht davon aus, dass Sie mit Karte bezahlen können. Fragen Sie 'Kartenzahlung?' bevor Sie bestellen. Tragen Sie Münzen für Toiletten bei sich.",
+        "Wasser: Leitungswasser ist sicher. Restaurants werden sich weigern, es kostenlos zu servieren. Fragen Sie nach 'Leitungswasser', aber seien Sie darauf vorbereitet, für Flaschenwasser zu bezahlen.",
+        "Trinkgeld: Aufrunden. Wenn die Rechnung €9,20 beträgt, sagen Sie 'Zehn' (€10), während Sie das Geld übergeben. Lassen Sie kein Geld auf dem Tisch; sagen Sie dem Kellner den Gesamtbetrag *bevor* er Ihnen die Rechnung bringt."
+      ]
+    },
+    {
+      "id": "logistics-nightlife",
+      "slug": "club-strategy",
+      "title": "Club Realität",
+      "icon": "Mond",
+      "summary": "Das Nachtleben hier ist ein Marathon, kein Sprint.",
+      "details": [
+        "Der Time Warp: Clubs öffnen oft am Freitag und schließen erst Montagmorgen. Ein 'Wochenende' ist ein einzelner Block von 48-72 Stunden. 'After-Hours' ist nur Sonntagnachmittag.",
+        "Die Tür: Ablehnungen sind normal und nicht persönlich. Streiten Sie nicht. Tragen Sie bequeme Schuhe (Sie werden 8 Stunden tanzen).",
+        "Sicherheit: Die meisten Clubs haben Awareness-Teams, wenn Sie sich unsicher oder belästigt fühlen."
+      ]
+    },
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Fortbewegung",
+      "icon": "Zug",
+      "summary": "Die U-Bahn (Metro) und S-Bahn (Zug) sind Ihre Lebensadern.",
+      "details": [
+        "U-Bahn: Gelbe Züge, meist unterirdisch. Schnell und häufig.",
+        "S-Bahn: Rote/Gelbe Züge, meist überirdisch. Ideal für längere Strecken.",
+        "Tickets: Kaufen Sie ein Ticket für die 'Zone AB'. VALIDIEREN Sie es, indem Sie es in die Box auf dem Bahnsteig stempeln. Zivilbeamte zeigen kein Erbarmen.",
+        "Apps: Nutzen Sie 'BVG Fahrinfo' oder Google Maps. Sie sind genau."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "Sicherheitsgrundlagen",
+      "icon": "Schild",
+      "summary": "Berlin ist sicher, hat aber raue Kanten.",
+      "details": [
+        "Görlitzer Park: Bekannt für Drogenhändler. Tagsüber allgemein sicher zu durchqueren, aber nachts meiden.",
+        "Taschendiebe: Aktiv in überfüllten Touristenlinien (U2, U8) und am Alexanderplatz.",
+        "Fahrraddiebstahl: Sehr häufig. Lassen Sie ein Fahrrad niemals ungesperrt, auch nicht für eine Minute."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "doner-kebap",
+      "name_en": "Döner Kebap",
+      "name_local": "Döner",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Döner Kebap ist Berlins #1 Street Food, das in den 1970er Jahren von türkischen Einwanderern hier erfunden wurde. Es besteht aus geschnittenem Rotisserie-Fleisch (Lamm, Hähnchen oder Kalb), das in ein geröstetes Fladenbrot mit frischem Salat, Tomaten, Zwiebeln, Kohl und Knoblauch-Joghurtsauce gefüllt wird. Ein 'Gemüse Kebap' (Gemüse-Döner) enthält gegrilltes Gemüse und Feta-Käse. Es ist schnell, günstig (4-6 €) und wird zu jeder Tageszeit konsumiert – besonders nach dem Club um 4 Uhr morgens.",
+        "vibe": "Befriedigend, allgegenwärtig",
+        "history": "1972 in Berlin von dem türkischen Einwanderer Kadir Nurman kreiert, der den türkischen Dürüm-Wrap an die deutsche Fast-Food-Kultur anpasste. Es verbreitete sich in ganz Deutschland und Europa. Berlin hat jetzt über 1.600 Dönerläden. Das Gericht ist so ikonisch, dass die Berliner mit religiösem Eifer darüber debattieren, welcher Laden der 'beste' ist.",
+        "insider_tip": "Warten Sie nicht stundenlang an berühmten Touristenorten wie Mustafa's Gemüse Kebap – Ihr Döner im Stadtteil ist wahrscheinlich genauso gut und hat keine Warteschlange. Bestellen Sie 'mit alles' oder 'mit scharf'. Essen Sie ihn sofort, solange das Brot noch knusprig ist. Ein Döner nach dem Club um 4 Uhr morgens ist ein Berliner Brauch.",
+        "price_level": "Erschwinglich",
+        "good_for": [
+          "Schnelle Mahlzeiten",
+          "Spätabend"
+        ],
+        "duration": "Schneller Biss",
+        "best_time": "Jederzeit (besonders spät in der Nacht)"
+      },
+      "image": "/images/berlin/doner.jpg"
+    },
+    {
+      "id": "food-018",
+      "slug": "beer-culture",
+      "name_en": "Berlin Beer Culture",
+      "name_local": "Wegbier",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Bier in Berlin ist wie Kaffee in Italien: günstig (€1-2 von Spätis), überall und zu jeder Tages- oder Nachtzeit lässig konsumiert. Es ist nicht feierlich oder besonders – es ist utilitaristisch. Ein 'Wegbier' für den Heimweg oder zum Club ist kulturell normal und legal. Öffentliches Trinken ist akzeptiert und verbreitet. Die beliebtesten lokalen Biere sind Berliner Pilsner, Berliner Kindl und Schultheiss.",
+        "vibe": "Lässig, gesellig",
+        "history": "Berlin ist seit dem Mittelalter eine Brauerei-Stadt. Das 'Reinheitsgebot' (Bierreinheitsgebot von 1516) regelte die Qualität des deutschen Bieres. Nach dem Krieg entwickelten Ost- und Westberlin separate Bierkulturen. Nach der Wiedervereinigung blühte die legere, gesellige Trinkkultur im Freien auf. Der Späti (Spätkauf) wurde zum sozialen Zentrum für günstiges Bier und geselliges Beisammensein.",
+        "insider_tip": "Kaufen Sie Bier in einem Späti (€1-2) statt in Bars (€4-5). Das 'Pfand'-System bedeutet, dass Flaschen €0,08-0,25 wert sind – werfen Sie sie nicht weg, geben Sie sie zurück oder lassen Sie sie neben den Mülleimern für Sammler. Eine halbe Liter (0,5L) Flasche ist Standard. Trinken in öffentlichen Verkehrsmitteln ist technisch nicht erlaubt, wird aber weitgehend toleriert. Die Biergartenkultur im Freien ist im Hochsommer am besten.",
+        "price_level": "Erschwinglich",
+        "good_for": [
+          "Geselligkeit",
+          "Draußen trinken"
+        ],
+        "duration": "Jederzeit",
+        "best_time": "Jederzeit"
+      },
+      "image": "/images/berlin/beer.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "currywurst",
+      "name_en": "Currywurst",
+      "name_local": "Currywurst",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Currywurst ist ein Berliner Ikone: gedämpfte und dann frittierte Bratwurst, in mundgerechte Stücke geschnitten, in Curryketchup ertränkt und mit Currypulver bestreut. Serviert mit Pommes oder einem Brötchen. Es ist Fast Food, das im Nachkriegs-Berlin erfunden wurde, und immer noch ein Kultklassiker. Die Sauce ist süß, würzig und mild gewürzt. Man isst sie an Imbissständen stehend an hohen Tischen.",
+        "vibe": "Ikonisch, nostalgisch",
+        "history": "1949 von Herta Heuwer in West-Berlin erfunden, die Ketchup mit Currypulver von britischen Soldaten mischte. Es wurde das ultimative Fast Food der Arbeiterklasse während des Wiederaufbaus. Jährlich werden über 800 Millionen in Deutschland konsumiert. Es gibt sogar ein Currywurst-Museum in Berlin (jetzt geschlossen). Es ist ein Komfortessen der Arbeiterklasse mit einer kultartigen Anhängerschaft.",
+        "insider_tip": "Bestellen Sie 'mit Darm' für die traditionelle Version mit knackiger Textur oder 'ohne Darm' für die glattere Version. Die Qualität der Sauce variiert stark – die Einheimischen haben eine leidenschaftliche Loyalität zu ihrem Lieblingsimbiss. Curry 36 in Kreuzberg ist berühmt, aber touristisch. Essen Sie es stehend am hohen Tisch wie ein Einheimischer. Kombinieren Sie es mit Pommes.",
+        "price_level": "Erschwinglich",
+        "good_for": [
+          "Schnelle Mahlzeiten",
+          "Straßenessen"
+        ],
+        "duration": "Schneller Biss",
+        "best_time": "Mittagessen oder spät in der Nacht"
+      },
+      "image": "/images/berlin/currywurst.jpg"
+    },
+    {
+      "id": "food-015",
+      "slug": "imbiss-culture",
+      "name_en": "Imbiss Culture",
+      "name_local": "Der Imbiss",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Der Imbiss ist ein deutscher Snackstand – kein Restaurant – wo Sie an hohen Tischen stehend essen. Er serviert utilitaristische, fettige, salzige Fast-Food-Gerichte: Pommes, Würstchen (Bratwurst, Currywurst), Frikadellen und Schnitzelbrötchen. Das Ziel ist es, Sie in Bewegung zu halten, nicht zum Sitzen und Verweilen. Es ist schnell, günstig (3-6 €) und eine wesentliche Infrastruktur der Arbeiterklasse. Sie bestellen am Fenster, essen schnell und gehen.",
+        "vibe": "Praktisch, ohne Schnickschnack",
+        "history": "Die Imbisskultur entstand im Nachkriegsdeutschland als schnelle, erschwingliche Essenslösung für Arbeiter, die das Land wiederaufbauten. Die Stehtische und das Modell ohne Sitzplätze hielten die Dinge effizient und günstig. Imbissstände sind überall – an Bahnhöfen, Straßenecken und Märkten. Sie sind ein demokratischer Raum, in dem Geschäftsleute und Bauarbeiter dasselbe Essen genießen.",
+        "insider_tip": "Bestellen Sie eine 'Bratwurst im Brötchen' mit Senf – das klassische Imbiss-Gericht. Erwarten Sie keinen freundlichen Service; Effizienz hat Priorität. Die hohen Stehtische sind absichtlich so gestaltet – sie verhindern das Verweilen. Imbiss ist der Ort, an dem Sie essen, wenn Sie es eilig haben oder pleite sind oder beides. An jeder Straßenecke und in jedem Bahnhof zu finden.",
+        "price_level": "Erschwinglich",
+        "good_for": [
+          "Schnelle Mahlzeiten",
+          "Günstiges Essen"
+        ],
+        "duration": "5-10 Minuten",
+        "best_time": "Jederzeit"
+      },
+      "image": "/images/berlin/imbiss.jpg"
+    },
+    {
+      "id": "food-016",
+      "slug": "spati-survival",
+      "name_en": "Späti Survival Food",
+      "name_local": "Späti Essen",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Der Späti (Spätkauf) ist ein spätabendlicher Kiosk, der bis 2 Uhr oder später geöffnet ist und die Berliner Nachtlebenwirtschaft mit Überlebensnahrung versorgt: Tiefkühlpizzen, Instantnudeln, Chips, Schokoladenriegel, Energydrinks und kaltes Bier. So überstehen Sie 4 Uhr morgens, wenn alles andere geschlossen ist und Sie zu pleite oder faul für ein Restaurant sind. Spätis sind das soziale Herz der Nachbarschaften – kaufen Sie ein Bier und setzen Sie sich mit Einheimischen auf die Bank draußen.",
+        "vibe": "Wesentlich, nächtlich",
+        "history": "Spätis entstanden in Ostberlin (DDR) als 'Spätkauf'-Läden, die über die normalen Öffnungszeiten hinaus geöffnet hatten. Nach der Wiedervereinigung erlebten sie einen Boom, als die Berliner Nachtkultur wuchs. Heute sind sie überall, oft von türkischen, arabischen oder vietnamesischen Familien betrieben. Sie haben geöffnet, wenn alles andere geschlossen ist, und sind somit eine wichtige Infrastruktur.",
+        "insider_tip": "Holen Sie sich Snacks im Späti, bevor Sie ausgehen – Tiefkühlpizza, Chips, Schokolade. Bier kostet €1-2, viel günstiger als in Bars. Viele Spätis haben Bänke draußen, wo sich die Einheimischen versammeln – das ist die Berliner Geselligkeit. Einige verkaufen frische Sandwiches und warme Speisen. Wenn Sie am Sonntag besuchen, wenn die Supermärkte geschlossen sind, retten Spätis Ihr Leben (obwohl die Preise höher sind).",
+        "price_level": "Erschwinglich",
+        "good_for": [
+          "Spätabend",
+          "Notfallnahrung"
+        ],
+        "duration": "Schneller Halt",
+        "best_time": "Spätabend oder Sonntag"
+      },
+      "image": "/images/berlin/spati-food.jpg"
+    },
+    {
+      "id": "food-017",
+      "slug": "vegan-standard",
+      "name_en": "Vegan Normalization",
+      "name_local": "Vegan",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Berlin ist die vegane Hauptstadt Europas – Sie müssen nicht nach veganen Optionen suchen, sie sind überall Standard. Von schmuddeligen Punkbars bis hin zu mit Michelin-Sternen ausgezeichneten Restaurants sind vegane Gerichte klar gekennzeichnet, reichlich vorhanden und köstlich. Die Stadt hat Dutzende von rein veganen Restaurants, veganen Dönerläden, veganen Eisdielen und veganen Supermärkten. Sie müssen nie fragen: „Ist da Fleisch drin?“ – es ist immer gekennzeichnet.",
+        "vibe": "Fortschrittlich, normalisiert",
+        "history": "Die vegane Szene in Berlin erlebte in den 2000er- und 2010er-Jahren einen Boom, parallel zu den Gegenkultur- und Umweltbewegungen der Stadt. Kreuzberg und Neukölln wurden zu veganen Hotspots. Die alt-rechte Punk-Szene, Tierschutzaktivismus und Umweltbewusstsein trafen aufeinander. Bis 2020 hatte Berlin über 60 vollständig vegane Restaurants. Es ist jetzt normalisiert – nicht nischig oder hippiemäßig, sondern einfach Standard.",
+        "insider_tip": "Veganer Döner bei Vöner (Kreuzberg) ist nicht von dem echten zu unterscheiden. Jeder Supermarkt (Edeka, Rewe) hat ganze vegane Abteilungen. Restaurants kennzeichnen vegane Gerichte mit einem 'V' oder einem Blattsymbol. Sogar traditionelle deutsche Restaurants bieten veganes Schnitzel und Currywurst an. Veganz ist Berlins vegane Supermarktkette. Sie werden nie Schwierigkeiten haben, Optionen zu finden.",
+        "price_level": "Mäßig",
+        "good_for": [
+          "Veganer",
+          "Gesundheitsbewusst"
+        ],
+        "duration": "Variiert",
+        "best_time": "Jederzeit"
+      },
+      "image": "/images/berlin/vegan.jpg"
+    },
+    {
+      "id": "food-010",
+      "slug": "vietnamese-food",
+      "name_en": "Vietnamese Food",
+      "name_local": "Vietnamesische Küche",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Berlin hat eine große vietnamesische Gemeinschaft (über 60.000), was die vietnamesische Gastronomie zu einer der besten in Europa macht. Pho (Nudelsuppe), Banh Mi (Sandwiches) und Bun Cha (gegrilltes Schweinefleisch mit Nudeln) hier stehen dem in Hanoi in nichts nach. Das Essen ist frisch, geschmackvoll und erschwinglich (7-12 €). Konzentriert in Mitte, Prenzlauer Berg und Lichtenberg, mit sowohl Restaurants zum Sitzen als auch schnellen Takeaway-Lokalen.",
+        "vibe": "Frisch, authentisch",
+        "history": "Die vietnamesische Migration nach Berlin erfolgte in zwei Wellen: 'Vertragsarbeiter', die in den 1980er Jahren in die DDR geschickt wurden, und Flüchtlinge aus Südvietnam in den 1970er und 80er Jahren. Nach der Wiedervereinigung blieben viele und eröffneten Restaurants. Die Gemeinschaft floriert jetzt, mit authentischen, familiengeführten Lokalen, die regionale vietnamesische Küche anbieten.",
+        "insider_tip": "Gehen Sie nach Mitte oder Prenzlauer Berg für die höchste Konzentration an vietnamesischen Restaurants. Bestellen Sie Pho mit rohem Rindfleisch (Pho Tai) und fügen Sie frische Kräuter, Limette und Chili selbst hinzu. Banh Mi sollte ein knuspriges Baguette, Leberpastete, eingelegtes Gemüse und Koriander enthalten. Vermeiden Sie touristische Orte in der Nähe des Alexanderplatzes. Kleine, unscheinbare Lokale sind normalerweise die besten und günstigsten.",
+        "price_level": "Erschwinglich",
+        "good_for": [
+          "Mittagessen",
+          "Seelenfutter"
+        ],
+        "duration": "30-45 Minuten",
+        "best_time": "Mittagessen oder Abendessen"
+      },
+      "image": "/images/berlin/vietnamese.jpg"
+    },
+    {
+      "id": "food-011",
+      "slug": "falafel-teller",
+      "name_en": "Falafel Plate",
+      "name_local": "Falafel Teller",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Der Falafel Teller ist ein Grundnahrungsmittel der mittelöstlichen Küche Berlins: knusprige, frittierte Kichererbsenbällchen, cremiger Hummus, gegrillter Halloumi-Käse, geröstetes Gemüse (Aubergine, Zucchini, Paprika), Tahini-Sauce und frischer Salat, serviert über Reis oder mit Pita-Brot. Er ist riesig, vegetarisch, günstig (€7-10), sättigend und köstlich. Überall in Kreuzberg und Neukölln zu finden.",
+        "vibe": "Herzhaft, sättigend",
+        "history": "Nahöstliche Einwanderer (Libanesen, Syrer, Palästinenser, Ägypter) brachten in den 1970er-80er Jahren die Falafel-Kultur nach Berlin. Sie wurde zu einem vegetarischen Grundnahrungsmittel in der alternativen Kreuzberger Szene. Das 'Teller'-Format – im Gegensatz zu einem Wrap – wurde zum Berliner Standard. Es ist jetzt ebenso verbreitet wie Döner.",
+        "insider_tip": "Bestellen Sie extra Tahini-Sauce – sie macht alles besser. Die Falafel sollten außen knusprig und innen fluffig sein – wenn sie dicht und schwer sind, hat das Restaurant gespart. Halloumi (gegrillter Käse) ist ein hochwertiger Zusatz, der sich lohnt. Kreuzberg und Neukölln haben die besten und günstigsten Orte. Kombinieren Sie es mit frischem Minztee.",
+        "price_level": "Erschwinglich",
+        "good_for": [
+          "Vegetarier",
+          "Mittagessen"
+        ],
+        "duration": "30 Minuten",
+        "best_time": "Mittagessen oder Abendessen"
+      },
+      "image": "/images/berlin/falafel.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "club-mate",
+      "name_en": "Club Mate",
+      "name_local": "Club-Mate",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Club Mate ist Berlins inoffizieller Treibstoff: ein kohlensäurehaltiger, koffeinhaltiger Eistee aus Yerba Mate (südamerikanisches Kraut). Er ist leicht süß, schmeckt beim ersten Schluck nach 'Zigarettenasche' oder 'schmutzigen Turnschuhen' (Einheimische schwören darauf nach der dritten Flasche) und enthält so viel Koffein wie Red Bull. Er ist überall – in Clubs, Bars, Spätis und Automaten. Es ist das Getränk von Hackern, Künstlern und Nachtschwärmern, die für 48-Stunden-Wochenenden wach bleiben müssen.",
+        "vibe": "Koffeinhaltig, ikonisch",
+        "history": "Club Mate stammt aus den 1920er Jahren in Bayern, wurde jedoch in den 1990er und 2000er Jahren zum Synonym für die Hacker- und Clubkultur Berlins. Der Chaos Computer Club (Hacker-Kollektiv) nahm es an, und es verbreitete sich durch die Technoszene. Bis 2010 war es das Signature-Getränk Berlins. Das Flaschendesign (minimalistisch, retro) ist ikonisch.",
+        "insider_tip": "Ihr erster Schluck wird schrecklich schmecken – das sagen alle. Überstehen Sie die dritte Flasche und Sie werden überzeugt sein. Es wird überall in Berlin verkauft – in Spätis, Clubs, Cafés, Automaten (€1,50-2). Schütteln Sie die Flasche nicht; sie ist kohlensäurehaltig. Mischen Sie es mit Wodka für einen 'Vodka Mate' (Lieblingsgetränk der Clubgänger). Die 'Flora Power'-Version ist etwas süßer.",
+        "price_level": "Erschwinglich",
+        "good_for": [
+          "Clubbing",
+          "Wach bleiben"
+        ],
+        "duration": "Schneller Drink",
+        "best_time": "Jederzeit (besonders Clubs)"
+      },
+      "image": "/images/berlin/club-mate.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "german-bakery",
+      "name_en": "German Bakery",
+      "name_local": "Bäckerei",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Deutsche Bäckereien sind von Weltklasse und überall in Berlin zu finden. Sie bieten dichte, dunkle Brote (Roggen, Vollkorn, Sonnenblumenkerne), belegte Brötchen, Laugenbrezeln und Gebäck an. Das deutsche Frühstück ist herzhaft, nicht süß – Aufschnitt, Käse, Brot, keine Croissants. Eine frische Brezel mit Butter oder ein belegtes Brötchen zum Frühstück kostet €2-4. Bäckereien öffnen früh (6-7 Uhr) und sind eine wichtige tägliche Infrastruktur.",
+        "vibe": "Traditionell, effizient",
+        "history": "Deutschlands Brotkultur ist von der UNESCO anerkannt und umfasst über 3.000 Sorten. Bäckereien sind Gemeinschaftsinstitutionen, in denen die Deutschen täglich frisches Brot kaufen. Nach dem Krieg wurden Bäckereien zu Symbolen für Normalität und Routine. Diese Tradition setzt sich fort – Berliner halten jeden Morgen auf dem Weg zur Arbeit an der Bäckerei an.",
+        "insider_tip": "Bestellen Sie ein 'Belegtes Brötchen' mit Käse und Salami – ein klassisches deutsches Frühstück. Eine 'Laugenbrezel' mit Butter ist frisch (vor 10 Uhr) einfach unglaublich. Vermeiden Sie Kettenbäckereien (Backwerk, Kamps) – gehen Sie zu unabhängigen 'Handwerksbäckereien' für Qualität. Deutsches Brot ist dicht und sättigend – ein Brötchen ist eine Mahlzeit.",
+        "price_level": "Erschwinglich",
+        "good_for": [
+          "Frühstück",
+          "Schnelle Snacks"
+        ],
+        "duration": "Schneller Biss",
+        "best_time": "Morgen"
+      },
+      "image": "/images/berlin/bakery.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "schnitzel",
+      "name_en": "Schnitzel",
+      "name_local": "Schnitzel",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Schnitzel ist ein paniertes und frittiertes Schnitzel (traditionell Kalb oder Schwein), dünn geklopft, in Mehl/Ei/Semmelbrösel paniert und goldbraun frittiert. Serviert mit Kartoffelsalat, Pommes oder Zitrone. Es ist ein deutsches Grundnahrungsmittel, das in traditionellen Wirtshaus-Restaurants mit einem kalten Bier genossen wird. Die Panade sollte knusprig und flockig sein, das Fleisch zart. Es ist Komfortessen – einfach, befriedigend und überall zu finden.",
+        "vibe": "Traditionell, herzhaft",
+        "history": "Das Schnitzel stammt aus Österreich (Wiener Schnitzel), wurde jedoch im 19. und 20. Jahrhundert zu einem Grundnahrungsmittel in Deutschland. Es war ein Gericht der Arbeiterklasse, das durch die Verwendung von Schweinefleisch anstelle von teurem Kalbfleisch erschwinglich gemacht wurde. Nach dem Krieg wurde es zu einem Symbol für deutschen Komfort und Normalität. Jedes traditionelle deutsche Restaurant serviert es.",
+        "insider_tip": "Bestellen Sie 'Schweineschnitzel' (Schweinefleisch) für die authentische deutsche Version – es ist günstiger und verbreiteter als 'Wiener Schnitzel' (Kalbfleisch). Die Panade sollte leicht, knusprig und leicht vom Fleisch gelöst sein – das ist der Qualitätstest. Kombinieren Sie es mit Kartoffelsalat und einem Pilsner. Vermeiden Sie Touristenfallen in der Nähe des Brandenburger Tors; gehen Sie zu den Wirtshäusern in der Nachbarschaft für authentische Versionen.",
+        "price_level": "Mäßig",
+        "good_for": [
+          "Abendessen",
+          "Traditionelle Gerichte"
+        ],
+        "duration": "1 Stunde",
+        "best_time": "Abendessen"
+      },
+      "image": "/images/berlin/schnitzel.jpg"
+    },
+    {
+      "id": "food-019",
+      "slug": "berliner-pfannkuchen",
+      "name_en": "Berliner (Pfannkuchen)",
+      "name_local": "Pfannkuchen / Berliner",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Der Berliner (in Berlin verwirrend 'Pfannkuchen' genannt) ist ein mit Marmelade gefüllter Donut: frittierter Teig, bestäubt mit Puderzucker und gefüllt mit Marmelade (meist Himbeere oder Pflaume). Er ist weich, süß und ikonisch. Berühmt durch JFKs Rede von 1963 ('Ich bin ein Berliner'), die technisch übersetzt 'Ich bin ein Pfannkuchen' bedeutet, obwohl diese Interpretation umstritten ist. Das ganze Jahr über in Bäckereien verkauft, aber besonders beliebt während des Faschings.",
+        "vibe": "Süß, nostalgisch",
+        "history": "Der Berliner/Pfannkuchen stammt aus dem 18. Jahrhundert in Deutschland. Der Name variiert je nach Region – die Berliner nennen ihn 'Pfannkuchen', während der Rest Deutschlands ihn 'Berliner' nennt. JFKs Rede 'Ich bin ein Berliner' von 1963 machte den Krapfen international berühmt. Es ist traditionelles Karnevalsessen, besonders am Faschingsdienstag (Rosenmontag).",
+        "insider_tip": "Kaufen Sie bei traditionellen Bäckereien, nicht in Supermärkten – der Qualitätsunterschied ist enorm. Der Donut sollte innen leicht und luftig sein, nicht dicht. Himbeermarmelade ist am häufigsten, aber Pflaumenmus ist traditionell. Genießen Sie ihn frisch am Tag der Herstellung. Während der Karnevalszeit (Februar-März) stellen Bäckereien spezielle Varianten mit verschiedenen Füllungen her.",
+        "price_level": "Erschwinglich",
+        "good_for": [
+          "Snacks",
+          "Dessert"
+        ],
+        "duration": "Schneller Biss",
+        "best_time": "Morgen oder Nachmittag"
+      },
+      "image": "/images/berlin/berliner.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Berliner Institutionen",
+      "id": "institutions",
+      "items": [
+        {
+          "id": "exp-004",
+          "slug": "techno-culture",
+          "name_en": "Club Culture",
+          "name_local": "Techno",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": true,
+          "description": {
+            "short": "Die Clubkultur Berlins ist legendär und einzigartig: Industriehallen, die in dunkle, gewölbte Räume mit erstklassigen Soundsystemen umgewandelt wurden, strenge „Keine Fotos“-Regeln und Türpolitiken, die auf Vibes basieren. Clubs wie Berghain, Tresor und Sisyphos haben von Freitag bis Montag durchgehend geöffnet (48-72 Stunden). Es geht nicht darum, gesehen zu werden – es geht darum, in Musik, Freiheit und Hedonismus zu verschwinden. Das Erlebnis ist intensiv, inklusiv und lebensverändernd für Fans elektronischer Musik.",
+            "vibe": "Hedonistisch, intensiv",
+            "history": "Die Technoszene Berlins explodierte nach dem Fall der Mauer 1989. Leere Gebäude, verlassene Fabriken und rechtliche Grauzonen schufen eine gesetzlose Partykultur. Clubs wie Tresor eröffneten in Banktresoren. In den 2000er Jahren wurde Berlin zur globalen Technohauptstadt. Berghain (2004) wurde der berühmteste Club der Welt. Die Szene ist geschützt – Clubs erhalten den Status des immateriellen Kulturerbes.",
+            "insider_tip": "Kleiden Sie sich in Schwarz, minimieren Sie Accessoires und seien Sie nicht sichtbar betrunken in der Schlange – Türsteher lehnen basierend auf 'Vibes' ab. Kleben Sie Ihre Handykamera ab, um die No-Photo-Regel zu respektieren. Erwarten Sie eine Wartezeit von über 2 Stunden; Ablehnungen sind häufig und unpersönlich. Sobald Sie drinnen sind, geht es um Marathon-Tanzen – tragen Sie bequeme Schuhe. Die meisten Clubs akzeptieren nur Bargeld. Gehen Sie am Sonntagnachmittag für 'After-Hours', wenn die Stimmung entspannter wird.",
+            "price_level": "Mäßig",
+            "good_for": [
+              "Nachtschwärmer",
+              "Elektronische Musikfans"
+            ],
+            "duration": "6-24 Stunden",
+            "best_time": "Freitagabend bis Montagmorgen"
+          },
+          "image": "/images/berlin/techno.jpg"
+        },
+        {
+          "id": "exp-005",
+          "slug": "lake-culture",
+          "name_en": "The Lakes (Badeseen)",
+          "name_local": "Badesee",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": true,
+          "description": {
+            "short": "Im Sommer fliehen die Berliner zu den Badeseen der Stadt – Wannsee, Müggelsee, Schlachtensee, Plötzensee – zum Schwimmen, Sonnenbaden und Grillen. Diese sind natürliche Seen innerhalb der Stadtgrenzen, umgeben von Wäldern und Stränden. FKK (Freikörperkultur – öffentliche Nacktheit) ist in ausgewiesenen Bereichen üblich, nicht sexuell und kulturell akzeptiert. Es ist pure Natur, überraschend sauberes Wasser und ein starker Kontrast zum urbanen Berlin. Die Einheimischen bringen Bier, tragbare Grills mit und verbringen ganze Sonntage am See.",
+            "vibe": "Entspannt, natürlich",
+            "history": "Die Seen Berlins wurden im 19. und 20. Jahrhundert zu Erholungsräumen, als die Stadt industrialisiert wurde. Der Wannsee wurde in den 1920er Jahren für seine Strandkultur bekannt. FKK (Nacktkultur) hat tiefe Wurzeln in den deutschen Naturismusbewegungen, die bis in die frühen 1900er Jahre zurückreichen. Nach dem Zweiten Weltkrieg umarmten insbesondere die Ostdeutschen FKK als eine Form der Freiheit. Diese Tradition setzt sich bis heute fort.",
+            "insider_tip": "Der Wannsee ist der bekannteste, aber auch überfüllt – gehen Sie zum Schlachtensee oder zur Krumme Lanke für weniger Touristen. FKK-Bereiche sind deutlich gekennzeichnet; respektieren Sie die Grenzen und starren Sie nicht. Bringen Sie Bargeld für die Eintrittsgebühren (€3-5 an einigen Seen) mit. Packen Sie ein Picknick ein – Essen am See ist teuer. Gehen Sie an Wochentagen, um Menschenmengen zu vermeiden. Die Wasserqualität ist überraschend gut und wird überwacht.",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Naturfreunde",
+              "Schwimmen"
+            ],
+            "duration": "Halber Tag",
+            "best_time": "Sommer (Juni-August)"
+          },
+          "image": "/images/berlin/lakes.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Echte Berliner Erlebnisse",
+      "id": "experiences",
+      "items": [
+        {
+          "id": "exp-001",
+          "slug": "tempelhofer-feld",
+          "name_en": "Tempelhofer Feld",
+          "name_local": "Tempelhofer Feld",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Das Tempelhofer Feld ist ein stillgelegter Flughafen, der in einen riesigen 900 Hektar großen öffentlichen Park verwandelt wurde – das ultimative Symbol für Berlins Freiheit und Wandel. Die ehemaligen Landebahnen werden jetzt zum Skaten, Radfahren, Kitesurfen, Grillen und urbanen Gärtnern genutzt. Es ist weitläufig, flach und surreal – Sie können die gesamte Skyline der Stadt sehen. Die Einheimischen stimmten 2014 dafür, es unbebaut zu lassen und lehnten Luxuswohnprojekte ab. Es ist rein Berlin: Geschichte zurückgewinnen für den öffentlichen Raum.",
+            "vibe": "Kostenlos, weitläufig",
+            "history": "Der Flughafen Tempelhof wurde 1923 eröffnet und 1936 von den Nazis zu einem riesigen Terminal (einst das größte Gebäude der Welt) ausgebaut. Berühmt wurde er während der Berliner Luftbrücke 1948, als die westlichen Alliierten während der sowjetischen Blockade Versorgungsgüter einflogen. Der Flughafen wurde 2008 geschlossen und 2010 als öffentlicher Park wiedereröffnet. Die Berliner stimmten dafür, ihn offen und unbebaut zu halten.",
+            "insider_tip": "Mieten Sie Fahrräder oder Rollschuhe am Eingang – das Gelände ist riesig und benötigt über 30 Minuten, um es zu durchqueren. Gehen Sie am späten Nachmittag/Abend für das goldene Licht und weniger Menschenmengen. Das alte Terminalgebäude bietet Führungen an (im Voraus buchen). Packen Sie ein Picknick oder einen Grill ein – das ist erlaubt. Im Sommer ist es voll mit Kitesurfern. Das Gelände ist komplett flach und ungeschützt – bringen Sie Sonnencreme mit.",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Aktivitäten im Freien",
+              "Geschichtsinteressierte"
+            ],
+            "duration": "2-3 Stunden",
+            "best_time": "Spätnachmittag oder Wochenende"
+          },
+          "image": "/images/berlin/tempelhof.jpg",
+          "geo": {
+            "lat": 52.473,
+            "lng": 13.403
+          }
+        },
+        {
+          "id": "exp-002",
+          "slug": "spati-crawl",
+          "name_en": "Späti Culture",
+          "name_local": "Spätkauf",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": true,
+          "description": {
+            "short": "Die Späti-Kultur ist das Herz von Berlin: Vermeiden Sie die teure Bar, kaufen Sie ein Bier für 1,50 € in einem Spätkauf und setzen Sie sich auf die Bank draußen, um das Stadtleben zu beobachten. Hier versammeln sich Nachbarn, Fremde werden Freunde, und das soziale Gefüge Berlins lebt. Spätis haben bis spät geöffnet (bis 2 Uhr+), was sie zur wichtigen Infrastruktur für das Nachtleben und die Gemeinschaft macht. Es ist demokratisch, günstig und authentisch.",
+            "vibe": "Gesellig, lokal",
+            "history": "Spätis haben ihren Ursprung im Ostberlin (DDR) als 'Spätkauf'-Läden, die über die normalen Öffnungszeiten hinaus geöffnet waren. Nach der Wiedervereinigung verbreiteten sie sich explosionsartig in der Stadt. Oft werden sie von türkischen, arabischen oder vietnamesischen Familien betrieben und sind zu sozialen Treffpunkten in den Vierteln geworden. Die Bank draußen ist heilig – dort spielt sich das Leben in Berlin ab.",
+            "insider_tip": "Kaufen Sie Bier aus dem Späti-Kühlschrank und fragen Sie, ob sie einen Flaschenöffner haben (die meisten haben einen). Setzen Sie sich auf die Bank draußen mit Einheimischen – hier treffen Sie echte Berliner. Spätis sind Lebensretter an Sonntagen, wenn die Supermärkte geschlossen sind. Sie sind in Kreuzberg, Neukölln und Friedrichshain konzentriert. Seien Sie nicht überrascht, wenn Fremde sich zu Ihnen auf die Bank gesellen – es ist gemeinschaftlich.",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Geselligkeit",
+              "Lokale Erfahrung"
+            ],
+            "duration": "1-2 Stunden",
+            "best_time": "Abend"
+          },
+          "image": "/images/berlin/spati.jpg"
+        },
+        {
+          "id": "exp-003",
+          "slug": "mauerpark",
+          "name_en": "Mauerpark Sunday Market",
+          "name_local": "Mauerpark Flohmarkt",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Der Mauerpark an Sonntagen ist ein Berliner Ritual: ein riesiger Flohmarkt mit Vintage-Kleidung, Schallplatten, Kunst und Trödel, gefolgt von dem legendären 'Bearpit Karaoke', wo sich Tausende versammeln, um Fremde zu feiern, die in einem Amphitheater Lieder singen. Es ist chaotisch, laut, fröhlich und einzigartig Berlin. Der Park liegt an der ehemaligen Grenzstrecke der Berliner Mauer ('Mauer' bedeutet Wand). Kommen Sie für den Markt, bleiben Sie für das Karaoke-Spektakel.",
+            "vibe": "Chaotisch, fröhlich",
+            "history": "Mauerpark ('Mauerpark') war der Todesstreifen zwischen Ost- und Westberlin während der Mauerzeit. Nach der Wiedervereinigung wurde er zu einem Park und einem Paradies für Graffiti. Der Flohmarkt am Sonntag begann 2004. Bearpit Karaoke wurde 2009 vom irischen Künstler Joe Hatchiban gegründet und ist zu einer Berliner Institution geworden. Tausende besuchen mittlerweile wöchentlich.",
+            "insider_tip": "Kommen Sie früh (10-12 Uhr) für die beste Auswahl auf dem Flohmarkt, bevor es überfüllt wird. Bearpit Karaoke beginnt um 15 Uhr – sichern Sie sich einen Platz auf den Stufen des Amphitheaters bis 14:30 Uhr. Bringen Sie Bier und Snacks mit. Das Karaoke ist kostenlos und offen – jeder kann sich anmelden, um zu singen. Der Markt bietet eine Menge Vintage-Kleidung, Schallplatten und Kunst. Feilschen ist erwünscht.",
+            "price_level": "Mäßig",
+            "good_for": [
+              "Vintage-Shopping",
+              "Unterhaltung"
+            ],
+            "duration": "3-4 Stunden",
+            "best_time": "Sonntagnachmittag"
+          },
+          "image": "/images/berlin/mauerpark.jpg",
+          "geo": {
+            "lat": 52.54,
+            "lng": 13.405
+          }
+        }
+      ]
+    },
+    {
+      "title": "Ikonische Geschichte",
+      "id": "history",
+      "items": [
+        {
+          "id": "his-001",
+          "slug": "brandenburg-gate",
+          "name_en": "Brandenburg Gate",
+          "name_local": "Brandenburger Tor",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Das Brandenburger Tor ist Berlins ikonischstes Denkmal, ein neoklassizistischer Triumphbogen aus dem 18. Jahrhundert, der zum Symbol der deutschen Wiedervereinigung wurde. Erbaut im Jahr 1791, stand es während der Ära der Berliner Mauer im Niemandsland und war für beide Seiten unzugänglich. Als die Mauer am 9. November 1989 fiel, versammelten sich hier über 100.000 Menschen, um zu feiern. Die Quadriga (Wagenskulptur) des Tores wurde 1806 von Napoleon gestohlen und 1814 zurückgebracht. Es ist nachts wunderschön, wenn die Menschenmengen sich lichten.",
+            "vibe": "Ikonisch, historisch",
+            "history": "Auftrag von König Friedrich Wilhelm II. von Preußen zwischen 1788-1791 als 'Friedensportal'. Napoleon stahl die Quadriga 1806; Preußen holte sie 1814 zurück. Während des Kalten Krieges befand sich das Tor im Todesstreifen – unberührbar. Reagans Rede 'Reißen Sie diese Mauer nieder' fand 1987 in der Nähe statt. Das Tor wurde 1989 offiziell nach dem Fall der Mauer wiedereröffnet.",
+            "insider_tip": "Besuchen Sie es nachts (nach 22 Uhr), wenn die Touristenmassen verschwunden sind und das Tor wunderschön beleuchtet ist. Tagsüber ist es überfüllt mit Selfie-Sticks. Gehen Sie durch das Tor, um die Geschichte zu spüren – es ist ein öffentlicher Durchgang, keine Barrikade. Der Pariser Platz hat historische Markierungen, die die Zeit der Mauer erklären. Vermeiden Sie kostümierte Darsteller, die Geld verlangen.",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Geschichtsinteressierte",
+              "Fotografie"
+            ],
+            "duration": "30 Minuten",
+            "best_time": "Nacht oder früher Morgen"
+          },
+          "image": "/images/berlin/brandenburg.jpg",
+          "geo": {
+            "lat": 52.5163,
+            "lng": 13.3777
+          }
+        },
+        {
+          "id": "his-002",
+          "slug": "east-side-gallery",
+          "name_en": "East Side Gallery",
+          "name_local": "East Side Gallery",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Die East Side Gallery ist der längste verbleibende Abschnitt der Berliner Mauer (1,3 km), der 1990 in eine Freiluftgalerie mit 105 Wandmalereien von Künstlern aus aller Welt verwandelt wurde. Der ikonische 'Bruderkuss' (Brezhnev küsst Honecker) und 'Trabant durchbricht die Mauer' sind hier zu finden. Es ist kraftvoll, kostenlos und den Elementen ausgesetzt – einige Wandmalereien verblassen. Die Mauer stand von 1961 bis 1989 und teilte die Stadt 28 Jahre lang.",
+            "vibe": "Historisch, künstlerisch",
+            "history": "Nachdem die Mauer im November 1989 fiel, malten Künstler aus 21 Ländern 1990 die Ostseite als Feier der Freiheit. Die Wandmalereien kommentieren Politik, Hoffnung und Teilung. In den 2000er Jahren verblassten die Wandmalereien; eine Restaurierung fand 2009 statt. Die Mauer selbst stand von 1961 bis 1989 und tötete mindestens 140 Menschen, die versuchten, sie zu überqueren.",
+            "insider_tip": "Gehen Sie die gesamte 1,3 km lange Strecke – es dauert 20-30 Minuten. Die bekanntesten Wandmalereien ('Brüderlicher Kuss', 'Trabant') befinden sich am Ende der Oberbaumbrücke. Gehen Sie früh am Morgen (vor 9 Uhr), um Tourgruppen zu vermeiden und Fotos ohne Menschenmengen zu machen. Die Graffiti auf den Wandmalereien sind Vandalismus – respektieren Sie die Kunst. In der Nähe hat die Warschauer Straße gute Bars und Restaurants.",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Geschichtsinteressierte",
+              "Fotografie"
+            ],
+            "duration": "1 Stunde",
+            "best_time": "Früher Morgen"
+          },
+          "image": "/images/berlin/east-side.jpg",
+          "geo": {
+            "lat": 52.5058,
+            "lng": 13.4397
+          }
+        },
+        {
+          "id": "his-003",
+          "slug": "memorial-jews",
+          "name_en": "Holocaust Memorial",
+          "name_local": "Denkmal für die ermordeten Juden",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Das Holocaust-Mahnmal (Denkmal für die ermordeten Juden Europas) ist ein eindringliches Feld von 2.711 Betonplatten (Stelen) unterschiedlicher Höhen, die in einem Raster angeordnet sind. Der Gang ins Zentrum ist desorientierend – der Boden wölbt sich, die Platten ragen hoch über Ihnen auf, und Sie verlieren den Blick auf andere. Es ist absichtlich überwältigend und klaustrophobisch. Das unterirdische Informationszentrum dokumentiert die Opfer des Holocaust. Das Denkmal wurde 2005 nach jahrzehntelangen Debatten eröffnet. Bleiben Sie respektvoll – kein Klettern, keine Selfies auf den Blöcken.",
+            "vibe": "Düster, kraftvoll",
+            "history": "Entworfen von dem Architekten Peter Eisenman und 2005 eröffnet, nach 17 Jahren Debatte darüber, wie man den Holocaust gedenken kann. Das abstrakte Design war absichtlich gewählt – keine expliziten Symbole, nur Desorientierung und Reflexion. Es befindet sich in der Nähe des ehemaligen Bunkerstandorts von Hitler. 6 Millionen Juden wurden im Holocaust ermordet; das Denkmal ehrt sie, ohne Einzelpersonen zu benennen (außer im unterirdischen Zentrum).",
+            "insider_tip": "Betreten Sie die Ränder und gehen Sie zur Mitte, wo die Platten höher und klaustrophobischer werden – das ist die beabsichtigte Erfahrung. Verbringen Sie Zeit im unterirdischen Informationszentrum (kostenlos), das die Geschichten der Opfer dokumentiert. Besuchen Sie es früh am Morgen oder spät am Abend für Ruhe. Machen Sie KEINE Selfies auf den Platten – das ist zutiefst respektlos. Das Denkmal ist immer geöffnet (24/7).",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Geschichtsinteressierte",
+              "Reflexion"
+            ],
+            "duration": "1 Stunde",
+            "best_time": "Früher Morgen oder Abend"
+          },
+          "image": "/images/berlin/holocaust-memorial.jpg",
+          "geo": {
+            "lat": 52.5139,
+            "lng": 13.3786
+          }
+        }
+      ]
+    },
+    {
+      "title": "Alternative Geschichte",
+      "id": "alt-history",
+      "items": [
+        {
+          "id": "alt-001",
+          "slug": "teufelsberg",
+          "name_en": "Teufelsberg (Spy Station)",
+          "name_local": "Teufelsberg",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Teufelsberg ist eine verlassene NSA-Abhörstation aus dem Kalten Krieg, die sich auf einem künstlichen Hügel aus 25 Millionen Kubikmetern Trümmern des Zweiten Weltkriegs befindet. Während des Kalten Krieges nutzten die USA und das Vereinigte Königreich massive Radome (golfballförmige Strukturen), um sowjetische Kommunikationen abzufangen. Nach der Wiedervereinigung verlassen, ist es jetzt mit Graffiti bedeckt und bietet unglaubliche 360°-Blicke auf Berlin. Sie können die Ruinen bei geführten Touren erkunden. Es ist surreal, unheimlich und einzigartig für Berlin.",
+            "vibe": "Verlassen, unheimlich",
+            "history": "Nach dem Zweiten Weltkrieg begruben die Alliierten eine zerstörte Nazi-Militärakademie unter Trümmern und schufen einen 120 Meter hohen Hügel – den höchsten Punkt Berlins. In den 1950er und 60er Jahren errichteten die USA eine Abhörstation darauf, um die DDR und die UdSSR auszuspionieren. Nach 1989 wurde es aufgegeben. Versuche, es zu entwickeln, scheiterten. Heute ist es eine legale Graffiti-Zone und ein Ort für urbane Erkundungen.",
+            "insider_tip": "Buchen Sie eine geführte Tour (8-15 €) – das Betreten ohne Erlaubnis ist illegal und gefährlich. Tragen Sie feste Schuhe; die Stätte ist brüchig und voller Trümmer. Die Aussicht von oben ist atemberaubend – bringen Sie eine Kamera mit. Die Touren finden von April bis Oktober, nur an Wochenenden, statt. Kombinieren Sie dies mit einem Spaziergang im nahegelegenen Grunewald. Es ist ein 20-minütiger Aufstieg vom Parkplatz.",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Städtische Erkundung",
+              "Geschichtsinteressierte"
+            ],
+            "duration": "2 Stunden",
+            "best_time": "Wochenendnachmittag (Besuchszeiten)"
+          },
+          "image": "/images/berlin/teufelsberg.jpg",
+          "geo": {
+            "lat": 52.4969,
+            "lng": 13.241
+          }
+        },
+        {
+          "id": "alt-002",
+          "slug": "stasi-museum",
+          "name_en": "Stasi Museum",
+          "name_local": "Stasimuseum",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Das Stasi-Museum befindet sich im ehemaligen Hauptquartier der Geheimpolizei der DDR (Stasi), einem der effektivsten Überwachungsstaaten der Geschichte. Das Museum bewahrt das Büro von Erich Mielke (Stasi-Chef 1957-1989) und zeigt die erschreckende Überwachungstechnologie, die verwendet wurde, um 6 Millionen Bürger zu überwachen: versteckte Kameras, Postöffnungsgeräte, Geruchsproben (um Menschen anhand ihres Geruchs zu verfolgen). Es ist erschreckend, lehrreich und unerlässlich, um den ostdeutschen Totalitarismus zu verstehen.",
+            "vibe": "Entspannt, lehrreich",
+            "history": "Die Stasi (Ministerium für Staatssicherheit) war von 1950 bis 1990 als Geheimpolizei der DDR tätig und beschäftigte 91.000 Vollzeitagenten sowie 173.000 Informanten. Sie spionierten ein Drittel der Bevölkerung aus. Nach dem Fall der Mauer 1989 stürmten Bürger die Stasi-Büros, um die Zerstörung von Dokumenten zu verhindern. Die Zentrale wurde 1990 zu einem Museum.",
+            "insider_tip": "Nehmen Sie den kostenlosen Audioguide – er ist wichtig für den Kontext. Mielkes erhaltenes Büro ist unheimlich – Holzvertäfelung, Telefone und ein Safe. Die Überwachungstechnologie ist beunruhigend, aber faszinierend. Planen Sie 1,5-2 Stunden ein. Das Museum befindet sich in Lichtenberg (Ostberlin) – nicht touristisch, daher ist es ruhig. Kombinieren Sie den Besuch mit dem nahegelegenen Stasi-Unterlagen-Archiv, wo Opfer ihre Akten anfordern können.",
+            "price_level": "Erschwinglich",
+            "good_for": [
+              "Geschichtsinteressierte",
+              "Kalter Krieg-Enthusiasten"
+            ],
+            "duration": "2 Stunden",
+            "best_time": "Wochentagnachmittag"
+          },
+          "image": "/images/berlin/stasi-museum.jpg",
+          "geo": {
+            "lat": 52.5145,
+            "lng": 13.488
+          }
+        }
+      ]
+    },
+    {
+      "title": "Weltklasse Museen",
+      "id": "museums",
+      "items": [
+        {
+          "id": "mus-001",
+          "slug": "museum-island",
+          "name_en": "Museum Island",
+          "name_local": "Museumsinsel",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Die Museumsinsel ist ein UNESCO-Weltkulturerbe mit fünf weltbekannten Museen auf einer kleinen Insel im Spreefluss: Pergamonmuseum (alte Kunst des Nahen Ostens – teilweise bis 2027 wegen Renovierung geschlossen), Neues Museum (Ägyptisches Museum mit dem Nofretete-Bust), Altes Museum (griechisch-römische Antiken), Alte Nationalgalerie (europäische Kunst des 19. Jahrhunderts) und Bode-Museum (byzantinische Kunst). Es ist überwältigend – jedes Museum verdient 2-3 Stunden. Kaufen Sie eine Tageskarte, um mehrere zu besuchen.",
+            "vibe": "Groß, kulturell",
+            "history": "Zwischen 1830 und 1930 als Preußens kulturelle Schauseite erbaut. Das Pergamonmuseum (1930) beherbergt massive antike Bauwerke wie den Pergamonaltar und das Ischtar-Tor aus Babylon. Die Schäden im Zweiten Weltkrieg waren umfangreich; die Restaurierung dauerte Jahrzehnte. Der Nofretete-Büste (1340 v. Chr.) ist der Star des Neuen Museums, das 1912 in Ägypten entdeckt wurde. Die Insel ist ein Denkmal der Museums-kultur des 19. Jahrhunderts.",
+            "insider_tip": "Kaufen Sie den 'Museum Island Day Pass' (€19), um alle fünf Museen zu besuchen. Der Hauptsaal des Pergamonmuseums ist bis 2027 wegen Renovierung geschlossen – überprüfen Sie, was geöffnet ist, bevor Sie besuchen. Das Neue Museum (Nofretete) ist das beliebteste – gehen Sie früh (10 Uhr), um Menschenmengen zu vermeiden. Das Alte Museum und das Bode-Museum sind unterschätzt und weniger überfüllt. Planen Sie einen ganzen Tag ein; alles in 3 Stunden zu sehen, ist unmöglich.",
+            "price_level": "Mäßig",
+            "good_for": [
+              "Museumsfreunde",
+              "Geschichtsinteressierte"
+            ],
+            "duration": "4-6 Stunden",
+            "best_time": "Wochentagmorgen"
+          },
+          "image": "/images/berlin/museum-island.jpg",
+          "geo": {
+            "lat": 52.521,
+            "lng": 13.3986
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "9:00 Uhr",
+      "title": "Frühstück in der Markthalle Neun",
+      "description": "Beginnen Sie in dieser Markthalle aus dem 19. Jahrhundert in Kreuzberg. Greifen Sie sich ein Leberkäsebrötchen oder eine frische Brezel von den lokalen Anbietern. Der Kaffee ist stark, die Atmosphäre ist authentisch und Sie werden Berliner in ihrem natürlichen Lebensraum sehen. Donnerstagmorgen gibt es einen Street Food Markt mit türkischem Börek, der Sie für alle anderen Gebäcksorten ruinieren wird.",
+      "image": "/images/berlin/markthalle-morning.jpg"
+    },
+    {
+      "time": "11:00 Uhr",
+      "title": "Berliner Mauer Gedenkstätte & East Side Gallery",
+      "description": "Gehen Sie zur Bernauer Straße zum Denkmal für die Berliner Mauer – dem bewegendsten Abschnitt mit dem erhaltenen Todesstreifen und dem Wachturm. Besuchen Sie dann die East Side Gallery, wo 1,3 km Mauer zur längsten Freiluftgalerie der Welt wurden. Das Wandgemälde des Brezhnev-Honecker-Kusses ist ikonisch, aber die weniger fotografierten Wandbilder erzählen tiefere Geschichten. Die Realität trifft Sie, wenn Sie erkennen, dass diese Barriere Familien 28 Jahre lang getrennt hat.",
+      "image": "/images/berlin/wall-memorial.jpg"
+    },
+    {
+      "time": "13:30 Uhr",
+      "title": "Currywurst Mittagessen bei Curry 36",
+      "description": "Sie können Berlin nicht verlassen, ohne Currywurst zu probieren. Curry 36 in Kreuzberg ist der Favorit der Einheimischen – zur Mittagszeit stehen die Leute Schlange. Bestellen Sie Currywurst mit Pommes und einem Berliner Kindl Bier. Essen Sie stehend am Tresen wie ein echter Berliner. Es ist fettig, günstig und irgendwie genau das, was Sie brauchen. Das ist Deutschlands beliebtestes Street Food, erfunden 1949 von einer Berliner Frau mit Ketchup und Currypulver.",
+      "image": "/images/berlin/currywurst.jpg"
+    },
+    {
+      "time": "15:30 Uhr",
+      "title": "Museumsinsel: Pergamonmuseum oder Neues Museum",
+      "description": "Wählen Sie ein Museum und machen Sie es richtig. Das Pergamonmuseum hat das massive Ischtar-Tor und antike Architektur, die Zimmer für Zimmer rekonstruiert wurde. Das Neue Museum beherbergt die Büste der Nofretete – 3.400 Jahre alt und unmöglich perfekt. Buchen Sie die Tickets online Wochen im Voraus. Die Insel selbst ist UNESCO-Weltkulturerbe. Tipp: Mittwoch und Donnerstag haben verlängerte Öffnungszeiten bis 20 Uhr.",
+      "image": "/images/berlin/museum-island2.jpg",
+      "ticket_link": "Es tut mir leid, aber ich kann keine Inhalte von externen Links abrufen oder übersetzen. Bitte geben Sie den Text ein, den Sie übersetzt haben möchten."
+    },
+    {
+      "time": "18:00 Uhr",
+      "title": "Sonnenuntergang am Tempelhofer Feld",
+      "description": "Der ehemalige Nazi-Flughafen, dann Knotenpunkt der Luftbrücke im Kalten Krieg, ist jetzt Berlins riesiger öffentlicher Park. Mieten Sie ein Fahrrad, Inlineskates oder gehen Sie einfach die alten Landebahnen entlang, wo einst Flugzeuge landeten. Die Berliner grillen, kitesurfen auf Rädern und gärtnern auf dem Rollfeld. Wenn die Sonne über diesem umgestalteten Raum untergeht, verstehen Sie Berlins Genialität für Transformation. Bringen Sie Bier mit – es ist legal und wird empfohlen.",
+      "image": "/images/berlin/tempelhof-sunset.jpg"
+    },
+    {
+      "time": "21:00 Uhr",
+      "title": "Abendessen & Nachtleben in Kreuzberg",
+      "description": "Beginnen Sie mit dem Abendessen in einem türkischen Restaurant am Kottbusser Tor – Berlin hat das beste türkische Essen außerhalb der Türkei. Dann erkunden Sie die rauchige Cocktail-Szene in Kreuzberg. Wenn Sie bereit sind, öffnen Berlins Techno-Clubs (Berghain, Sisyphos, Watergate) gegen Mitternacht und gehen bis Montagmorgen. Strenge Türpolitik: keine Handys auf der Tanzfläche, schwarze Kleidung hilft, verhalten Sie sich, als würden Sie dazugehören. Berlin schläft nicht – es ruht sich nur zwischen den Partys aus.",
+      "image": "/images/berlin/kreuzberg-night.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Europäischer Reiseadapter (Typ F)",
+      "image": "/images/berlin/adapter.jpg",
+      "reason": "Deutsche Steckdosen sind Typ F (zwei runde Stifte). Unentbehrlich zum Laden Ihrer Geräte.",
+      "amazon_url": "Reiseadapter Typ F",
+      "category": "Elektronik"
+    },
+    {
+      "id": "aff-002",
+      "title": "Bargeldbörse",
+      "image": "/images/berlin/wallet.jpg",
+      "reason": "Berlin ist eine Bargeldstadt. Sie benötigen eine Geldbörse, die Münzen und Scheine bequem aufnehmen kann.",
+      "amazon_url": "Es tut mir leid, aber ich kann keine Links oder spezifische Webseiteninhalte übersetzen. Wenn Sie jedoch Informationen oder Texte zu einem bestimmten Thema benötigen, lassen Sie es mich bitte wissen!",
+      "category": "Sicherheit"
+    },
+    {
+      "id": "aff-003",
+      "title": "Tragbares Ladegerät",
+      "image": "/images/berlin/power-bank.jpg",
+      "reason": "Lange Nächte und das Navigieren in der U-Bahn entladen die Batterien schnell. Bleiben Sie verbunden.",
+      "amazon_url": "Es tut mir leid, aber ich kann keine externen Links oder Inhalte von Websites anzeigen.",
+      "category": "Elektronik"
+    }
+  ],
+  "lat": 52.52,
+  "lng": 13.405,
+  "region": "Europe"
+}
