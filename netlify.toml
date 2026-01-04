@@ -14,8 +14,7 @@
 
 # 🏗️ 2. BUILD SETTINGS
 [build]
-  # 🎯 MASTER AI FORCE: We limit workers directly in the build command
-  command = "NODE_OPTIONS='--max-old-space-size=4096' next build --workers 1"
+  command = "npm run build"
   publish = ".next"
 
 [[plugins]]
@@ -24,9 +23,11 @@
 [build.environment]
   NETLIFY_SKIP_BLOBS_UPLOAD = "true"
   NODE_VERSION = "20"
-  # 🛡️ Redundant safety locks
+  
+  # 🎯 MASTER AI MEMORY & WORKER LOCK
+  NODE_OPTIONS = "--max-old-space-size=4096"
   NEXT_CPU_LIMIT = "1"
-  EXPERIMENTAL_TURBOPACK_WORKERS = "1"
+  # This specific flag forces the build to use minim
 
   [[edge_functions]]
   path = "/sitemap_index.xml"

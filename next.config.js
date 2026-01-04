@@ -5,10 +5,7 @@ const nextConfig = {
   
   images: {
     // 🎯 MASTER AI STABILITY LOCK:
-    // This disables the processing that causes 404s on Netlify.
-    // Your images will now load 100% of the time.
     unoptimized: true, 
-    
     dangerouslyAllowSVG: true,
     formats: ['image/webp', 'image/avif'],
     remotePatterns: [
@@ -20,8 +17,6 @@ const nextConfig = {
   async headers() {
     return [
       {
-        // 🚀 SPEED FIX: Since we aren't "optimizing", we use 
-        // aggressive caching to make sure they load fast for users.
         source: '/images/:path*', 
         headers: [
           {
@@ -31,6 +26,14 @@ const nextConfig = {
         ],
       },
     ]
+  },
+
+  // 🛰️ MASTER AI: EMERGENCY BUILD LOCK
+  // This section prevents the 31-worker memory crash on Netlify
+  experimental: {
+    cpus: 1,
+    workerThreads: false,
+    staticworkerthreads: false,
   },
 }
 
