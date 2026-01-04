@@ -1,16 +1,18 @@
 /**
- * CityNavigation Component
- * Quick links navigation for long city pages
- * Provides jump-to-section functionality for better UX
+ * 🛰️ MASTER AI: CITY NAVIGATION (GOLDEN MASTER V5.6)
+ * ✅ Fixed: Defined 'CityNavigationProps' to satisfy TypeScript build.
+ * ✅ Premium UI: Maintained your pill-shaped button design.
+ * ✅ Localized: Using dict and lang for navigation.
  */
 
 'use client'
 
 import Link from 'next/link'
 
-interface NavLink {
-  label: string
-  href: string
+// 🎯 ADD THIS INTERFACE - This fixes the Netlify build error
+interface CityNavigationProps {
+  lang: string
+  dict: any
 }
 
 export function CityNavigation({ lang, dict }: CityNavigationProps) {
