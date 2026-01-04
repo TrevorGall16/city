@@ -37,7 +37,7 @@ export function AtAGlanceDashboard({ city, dict }: AtAGlanceDashboardProps) {
                 {d.best_time_label || 'Best Time'}
               </p>
               <p className="font-bold text-slate-900 dark:text-white leading-tight">
-                {city.best_time_to_visit || 'Spring / Fall'}
+                {(city as any).best_time_to_visit || 'Spring / Fall'}
               </p> 
             </div>
           </div>

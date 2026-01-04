@@ -83,6 +83,11 @@ export interface City {
   hero_image: string
   intro_vibe: string
   
+  // 🎯 ADD THESE FOR THE DASHBOARD
+  best_time_to_visit?: string   // ✅ Fixes AtAGlanceDashboard error
+  currency?: string             // ✅ Added for premium logistics
+  language_primary?: string     // ✅ Added for premium logistics
+
   general_info: {
     population: string
     is_capital: boolean
@@ -92,6 +97,7 @@ export interface City {
   stats: {
     currency: string
     plug_type: string
+    main_language?: string // ✅ Add this to fix the red error in the Dashboard
   }
   
   // Updated arrays to use specific interfaces
