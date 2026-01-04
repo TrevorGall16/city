@@ -1,6 +1,7 @@
 /**
- * Corrections Page
- * Simple, direct feedback loop
+ * 🛰️ MASTER AI: CORRECTIONS PAGE (FIXED V6.3)
+ * ✅ Fixed: Resolved the red 'lang' error by awaiting params.
+ * ✅ Content: 100% original text and direct email links preserved.
  */
 
 import { InfoPageLayout } from '@/components/layout/InfoPageLayout'
@@ -12,13 +13,23 @@ export const metadata: Metadata = {
   description: 'Help keep CityBasic accurate. Report outdated info directly to the developer.',
 }
 
-export default function CorrectionsPage() {
+// 🎯 ADD THIS INTERFACE
+interface CorrectionsPageProps {
+  params: Promise<{ lang: string }>
+}
+
+// 🎯 UPDATE TO ASYNC AND ADD PARAMS
+export default async function CorrectionsPage({ params }: CorrectionsPageProps) {
+  // 🎯 AWAIT THE LANG VARIABLE
+  const { lang } = await params
+
   return (
     <InfoPageLayout
       title="Submit a Correction"
       lastUpdated="2025-12-15"
+      lang={lang} // ✅ NO LONGER RED: TypeScript now knows what 'lang' is
     >
-      {/* The Honest Intro */}
+      {/* The Honest Intro - TEXT KEPT AS IS */}
       <div className="mb-12 max-w-2xl">
         <p className="text-xl text-slate-600 dark:text-slate-300 leading-relaxed">
           Since I'm just one person managing all these cities, things can change without me noticing. A restaurant might close, or a tip might be wrong.
@@ -27,7 +38,7 @@ export default function CorrectionsPage() {
         </p>
       </div>
 
-      {/* Two Simple Options */}
+      {/* Two Simple Options - TEXT KEPT AS IS */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
         
         {/* Option 1: Email */}
@@ -57,7 +68,7 @@ export default function CorrectionsPage() {
             You can post a comment directly at the bottom of any City page. I read every single one and will update the main content based on your feedback.
           </p>
           <Link 
-            href="/" 
+            href={`/${lang}`} // ✅ Localized link
             className="text-blue-600 dark:text-blue-400 font-medium hover:underline"
           >
             Find a city →
@@ -66,7 +77,7 @@ export default function CorrectionsPage() {
 
       </div>
 
-      {/* Closing Note */}
+      {/* Closing Note - TEXT KEPT AS IS */}
       <div className="p-6 bg-amber-50 dark:bg-amber-900/10 rounded-xl border border-amber-100 dark:border-amber-800/30">
         <p className="text-amber-800 dark:text-amber-200 text-sm font-medium">
           <strong>Note:</strong> I usually process corrections within 24-48 hours. Thank you for helping make this tool better for everyone!
