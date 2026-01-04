@@ -1,22 +1,26 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  compress: true, // 🚀 Boosts loading speed for mobile users
+  compress: true, 
   
   images: {
     dangerouslyAllowSVG: true,
     formats: ['image/webp', 'image/avif'],
-    // 🛡️ SECURITY: Only allow your trusted assets
+    // 🎯 MASTER AI FIX: Allow local images + remote sources
     remotePatterns: [
       { protocol: 'https', hostname: 'citybasic.com' },
-      { protocol: 'https', hostname: 'images.unsplash.com' }, // Example if using Unsplash
+      { protocol: 'https', hostname: 'images.unsplash.com' },
+      { protocol: 'https', hostname: '**.supabase.co' }, // Added for your profile avatars
     ],
+    // 🛡️ Added for local public folder reliability on Netlify
+    unoptimized: process.env.NODE_ENV === 'production' ? false : false, 
   },
 
   async headers() {
     return [
       {
-        source: '/city/:path*',
+        // 🎯 FIXED: Updated path to include /[lang]/ structure
+        source: '/:lang/city/:path*', 
         headers: [
           {
             key: 'Cache-Control',
