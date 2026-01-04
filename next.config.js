@@ -4,7 +4,6 @@ const nextConfig = {
   compress: true, 
   
   images: {
-    // 🎯 MASTER AI STABILITY LOCK:
     unoptimized: true, 
     dangerouslyAllowSVG: true,
     formats: ['image/webp', 'image/avif'],
@@ -14,22 +13,31 @@ const nextConfig = {
     ],
   },
 
-  async headers() {
+  // 🎯 MASTER AI: INTERNAL REWRITE
+  // This bypasses the middleware redirect by handling the URL 
+  // before it even reaches the proxy/middleware.
+  async rewrites() {
     return [
       {
-        source: '/images/:path*', 
-        headers: [
-          {
-            key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable',
-          },
-        ],
+        source: '/sitemap.xml',
+        destination: '/api/sitemap',
+      },
+      {
+        source: '/sitemap_index.xml',
+        destination: '/api/sitemap',
       },
     ]
   },
 
-  // 🛰️ MASTER AI: EMERGENCY BUILD LOCK
-  // This section prevents the 31-worker memory crash on Netlify
+  async headers() {
+    return [
+      {
+        source: '/images/:path*', 
+        headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }],
+      },
+    ]
+  },
+
   experimental: {
     cpus: 1,
     workerThreads: false,

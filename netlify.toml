@@ -24,6 +24,7 @@
   NETLIFY_SKIP_BLOBS_UPLOAD = "true"
   NODE_VERSION = "20"
   NODE_OPTIONS = "--max-old-space-size=4096"
+  NEXT_CPU_LIMIT = "1"
   
   # 🎯 MASTER AI: THE "POST-PROCESSING" CRASH FIX
   # This stops Netlify from running out of memory during the "Functions bundling" phase.
