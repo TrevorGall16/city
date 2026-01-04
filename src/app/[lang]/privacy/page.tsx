@@ -1,6 +1,8 @@
 /**
- * Privacy Policy Page
- * Professional, readable styling.
+ * 🛰️ MASTER AI: PRIVACY PAGE (V6.7 - FIXED & PRESERVED)
+ * ✅ Fixed: Resolved 'lang' error by awaiting params Promise.
+ * ✅ Fixed: Provided required 'lang' prop to InfoPageLayout.
+ * ✅ Content: 100% original Privacy Policy text preserved.
  */
 
 import { InfoPageLayout } from '@/components/layout/InfoPageLayout'
@@ -11,11 +13,24 @@ export const metadata: Metadata = {
   description: 'How CityBasic collects, uses, and protects your personal information.',
 }
 
-export default function PrivacyPage() {
+// 🎯 ADD THIS INTERFACE FOR NEXT.JS 16
+interface PrivacyPageProps {
+  params: Promise<{ lang: string }>
+}
+
+// 🎯 UPDATE TO ASYNC AND ADD PARAMS
+export default async function PrivacyPage({ params }: PrivacyPageProps) {
+  // 🎯 EXTRACT THE LANG VARIABLE (This clears the red underline)
+  const { lang } = await params
+
   return (
-    <InfoPageLayout title="Privacy Policy" lastUpdated="2025-12-15">
+    <InfoPageLayout 
+      title="Privacy Policy" 
+      lastUpdated="2025-12-15"
+      lang={lang} // ✅ NO LONGER RED
+    >
       
-      {/* Intro */}
+      {/* Intro - TEXT KEPT AS IS */}
       <div className="prose dark:prose-invert max-w-none">
         <p className="text-lg text-slate-700 dark:text-slate-300 font-medium leading-relaxed">
           We believe privacy should be simple and transparent. We collect minimal data to make CityBasic work, use Supabase for security, and never sell your personal information.
