@@ -23,12 +23,15 @@
 [build.environment]
   NETLIFY_SKIP_BLOBS_UPLOAD = "true"
   NODE_VERSION = "20"
-  
-  # 🎯 MASTER AI MEMORY & WORKER LOCK
   NODE_OPTIONS = "--max-old-space-size=4096"
+  
+  # 🎯 MASTER AI: THE BUNDLING MEMORY FIX
+  # This prevents the "Edge Functions bundling" crash
+  NETLIFY_NEXT_FORCE_ISOLATION = "true"
+  AWS_LAMBDA_JS_RUNTIME = "nodejs20.x"
+  
+  # Keep the worker limit for the build phase
   NEXT_CPU_LIMIT = "1"
-  # This specific flag forces the build to use minim
-
   [[edge_functions]]
   path = "/sitemap_index.xml"
   function = "sitemap-fix"
