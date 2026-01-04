@@ -4,12 +4,31 @@ import path from 'path';
 
 export async function GET() {
   try {
-    // 🎯 Step 1: Read your raw data list from the public folder
-    const filePath = path.join(process.cwd(), 'public', 'sitemap.xml');
-    const rawContent = await fs.readFile(filePath, 'utf8');
+    // 🎯 MASTER AI: Try multiple paths to find the file on the Netlify server
+    const possiblePaths = [
+      path.join(process.cwd(), 'public', 'seo', 'sitemap.xml'),
+      path.join(process.cwd(), 'seo', 'sitemap.xml'),
+      path.join('/var/task/public/seo/sitemap.xml'), // Netlify specific internal path
+    ];
 
-    // 🎯 Step 2: Convert your raw lines into valid Google XML format
-    // This handles the "one long line" problem automatically
+    let rawContent = '';
+    let found = false;
+
+    for (const filePath of possiblePaths) {
+      try {
+        rawContent = await fs.readFile(filePath, 'utf8');
+        found = true;
+        break; 
+      } catch (e) {
+        continue;
+      }
+    }
+
+    if (!found) {
+      return new NextResponse('Error: Raw sitemap.xml not found in public/seo/', { status: 404 });
+    }
+
+    // 🎯 Step 2: Convert raw lines into XML
     const urls = rawContent.split(/\s+/).filter(url => url.startsWith('http'));
     
     const xmlEntries = urls.map(url => `
@@ -24,7 +43,6 @@ export async function GET() {
 ${xmlEntries}
 </urlset>`;
 
-    // 🎯 Step 3: Serve it as XML (bypassing all language redirects)
     return new NextResponse(sitemapXml, {
       headers: {
         'Content-Type': 'application/xml',
@@ -32,7 +50,6 @@ ${xmlEntries}
       },
     });
   } catch (error) {
-    console.error('Sitemap API Error:', error);
-    return new NextResponse('Sitemap Not Found', { status: 404 });
+    return new NextResponse(`Sitemap API Error: ${error}`, { status: 500 });
   }
 }
