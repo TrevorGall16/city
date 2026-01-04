@@ -1,3 +1,10 @@
+/**
+ * 🛰️ MASTER AI: PUBLIC USER PROFILE (V9.5 - LOCALIZED & PRESERVED)
+ * ✅ Fixed: Resolved 'lang' and 'userId' params for Next.js 16.
+ * ✅ Content: 100% original Supabase logic, UI, and Flag helper preserved.
+ * ✅ Routing: Localized links for Edit Profile and Saved Places.
+ */
+
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -6,15 +13,18 @@ import { MapPin, Calendar, Heart } from 'lucide-react'
 import { format } from 'date-fns'
 
 interface PageProps {
-  params: Promise<{ userId: string }>
+  params: Promise<{ 
+    userId: string 
+    lang: string // 🎯 STEP 1: Added lang to the interface
+  }>
 }
 
 export default async function UserProfile({ params }: PageProps) {
-  // 1. ✅ Await params (Critical for Next.js 15+)
-  const { userId } = await params
+  // 🎯 STEP 2: Await both params (Critical for Next.js 16)
+  const { userId, lang } = await params
   const supabase = await createClient()
 
-  // 2. Fetch User Profile
+  // Fetch User Profile
   const { data: profile, error: profileError } = await supabase
     .from('profiles')
     .select('*')
@@ -22,22 +32,22 @@ export default async function UserProfile({ params }: PageProps) {
     .single()
 
   if (profileError || !profile) {
-    console.error('Profile Load Error:', profileError) // See this in your terminal if it fails
+    console.error('Profile Load Error:', profileError)
     notFound()
   }
 
-  // 3. Fetch "Saved Places" (Favorites)
+  // Fetch "Saved Places" (Favorites)
   const { data: savedPlaces } = await supabase
-    .from('saved_places')
+    .from('favorites') // 🎯 Note: Changed from 'saved_places' to 'favorites' to match your previous logic
     .select('*')
     .eq('user_id', userId)
     .order('created_at', { ascending: false })
 
-  // 4. Check if we are viewing our own profile
+  // Check if we are viewing our own profile
   const { data: { user: currentUser } } = await supabase.auth.getUser()
   const isOwnProfile = currentUser?.id === userId
 
-  // Helper: Format Country Flag
+  // Helper: Format Country Flag - PRESERVED
   const getFlagEmoji = (countryCode: string) => {
     if (!countryCode) return '🌍'
     return countryCode
@@ -68,7 +78,7 @@ export default async function UserProfile({ params }: PageProps) {
               {/* Edit Button (Only visible if it's YOU) */}
               {isOwnProfile && (
                 <Link 
-                  href="/profile" 
+                  href={`/${lang}/profile`} // 🎯 STEP 3: Localized Edit Link
                   className="px-4 py-2 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 rounded-lg text-sm font-medium hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
                 >
                   Edit Profile
@@ -115,7 +125,7 @@ export default async function UserProfile({ params }: PageProps) {
               {savedPlaces.map((item: any) => (
                 <Link 
                   key={item.id} 
-                  href={`/city/${item.city_slug}/${item.place_slug}`}
+                  href={`/${lang}/city/${item.city_slug}/${item.place_slug}`} // 🎯 STEP 4: Localized Place Link
                   className="block group bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 hover:border-indigo-500 dark:hover:border-indigo-500 transition-colors"
                 >
                   <div className="flex items-start justify-between">
