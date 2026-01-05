@@ -12,7 +12,7 @@
     "description": "巴黎是法国的首都和人口最多的城市。截至2023年1月1日，巴黎的官方估计人口为2,102,650，面积超过105平方公里，是欧盟人口第四多的城市，也是世界上人口密度第30高的城市。"
   },
   "stats": {
-    "currency": "€",
+    "currency": "EUR",
     "plug_type": "E型"
   },
   "weather_breakdown": [
@@ -211,52 +211,186 @@
   ],
   "culture": {
     "etiquette_tips": [
-      "'你好'规则：这不仅是礼貌，更是社交的关键。不打招呼就像是在发号施令。进入商店时一定要说你好。这个问候时眼神接触是正常的。说你好而不是晚上好没什么大不了，法国人常常犯这个'错误'。",
-      "服务费已包含：没有15-20%的小费文化。'服务包含'是法律。稍微多给一点是礼貌，但是给大笔小费会被认为很奇怪，而不是慷慨。",
-      "咖啡价格等级：咖啡有三种价格。'在吧台'（站着喝）是最便宜的。'在大厅'（室内桌子）是标准价格。'在露台'（户外）是最贵的——您是在为风景付租金。",
+      "'Bonjour'规则：这不仅是礼貌，更是社交的关键。不打招呼就像是在发号施令。进入商店时一定要说'Bonjour'。问候时眼神接触是正常的。说'Bonjour'而不是'Bonsoir'（晚上好）也没什么大不了，法国人也经常犯这个'错误'。",
+      "服务费已包含：没有15-20%的小费文化。'Service Compris'（服务已含）是法律。凑整稍微多给一点是礼貌，但是给大笔小费会被认为很奇怪，而不是慷慨。",
+      "咖啡价格等级：咖啡有三种价格。'Au comptoir'（站着喝）是最便宜的。'En salle'（室内桌子）是标准价格。'En terrasse'（户外）是最贵的——您是在为风景付租金。",
       "不闲聊：效率 > 友好。店主和服务员都是专业人士，不太聊天。沉默是中性的，而不是无礼的。不要期待陌生人随意微笑。",
       "黄油现实：晚餐时黄油不会自动和面包一起提供。它通常只是在早餐或特定菜肴（如生蚝）中使用。要求黄油和面包篮一起提供会让您显得像游客。",
-      "买面包仪式：说'一根法棍，麻烦您'，付钱（现金更快），除非被提供，不要接受袋子。外面撕掉面包的末端（'le quignon'）在文化上是被认可的。",
-      "午餐套餐（Formule Midi）：在12:00-14:00之间，寻找'套餐'。这是当地居民以实惠价格就餐的方式（大约€15-20）。",
-      "星期日现实：大部分商店关闭，除了在马黑区或旅游区。计划要去博物馆或公园。注意公众假期往往像星期日一样运行。",
-      "饮水规则：自来水是安全的。请问'一壶水'以获得免费水。如果您只问'水'，将会被收取瓶装水的费用。",
+      "买面包仪式：说'une baguette tradition, s'il vous plaît'，付钱（现金更快），除非被提供，否则不要接受袋子。在外面撕掉面包的末端（'le quignon'）在文化上是被认可的。",
+      "午餐套餐（Formule Midi）：在12:00-14:00之间，寻找'Formule'。这是当地居民以实惠价格就餐的方式（大约€15-20）。",
+      "星期日现实：大部分商店关闭，除了在玛黑区或旅游区。计划要去博物馆或公园。注意公众假期往往像星期日一样运行。",
+      "饮水规则：自来水是安全的。请问'une carafe d'eau'以获得免费水。如果您只问'water'，将会被收取瓶装水的费用。",
       "用餐节奏：用餐速度缓慢。您需要要求账单（'L'addition'）。快速离开会被视作在匆忙享受。"
     ],
-"essential_phrases": [
-  { "src": "你好", "local": "Bonjour", "phonetic": "bon-ZHOOR" },
-  { "src": "谢谢", "local": "Merci", "phonetic": "mair-SEE" },
-  { "src": "请给我账单", "local": "L'addition s'il vous plaît", "phonetic": "lah-dee-SYON seel voo PLAY" },
-  { "src": "不好意思", "local": "Excusez-moi", "phonetic": "ex-kew-ZAY mwah" },
-  { "src": "我不会说法语", "local": "Je ne parle pas français", "phonetic": "zhuh nuh parl pah frahn-SAY" }
-]
-
-  },
-  "neighborhoods": {
-    "name": "勒马雷",
-    "vibe": "时尚与历史",
-    "description": "狭窄的鹅卵石街道，精致的私宅，以及犹太遗产与LGBTQ+夜生活的结合。",
-    "highlights": [
-      "沃热广场",
-      "罗齐耶街",
-      "毕加索博物馆"
-    ],
-    "image": "/images/paris/marais.jpg"
-  },
-  "logistics": {
-    "id": "logistics-transit",
-    "slug": "getting-around",
-    "title": "出行指南",
-    "icon": "火车",
-    "summary": "地铁是生命线。高效、密集，但毫不留情。",
-    "details": [
-      "地铁基础：列车运行时间为早上5:30至凌晨1:15（周末至凌晨2:15）。避免在高峰时段（早上8点至9:30，下午5:30至7点）乘坐1、4、13号线。",
-      "票价（2025）：单程t+票价为€2.10。'Navigo Easy'（€2）是现代可充值卡。'Navigo Découverte'（每周€30）适合长期逗留（周一至周日有效）。",
-      "检查：在您下车之前务必保留车票！罚款为€50。检查员穿便衣，毫不留情。",
-      "电梯规则：右侧站立，左侧走动。阻碍左侧是最大的游客失误。",
-      "RER与地铁：RER（A-E线）服务郊区/机场。地铁票仅适用于1区的RER。前往机场需要特定票务。",
-      "夜间交通：在凌晨1点后，请使用'Noctilien'夜间巴士或G7出租车应用。Uber费用飙升。"
+    "essential_phrases": [
+      { "src": "Hello", "local": "Bonjour", "phonetic": "bon-ZHOOR" },
+      { "src": "Thank you", "local": "Merci", "phonetic": "mair-SEE" },
+      { "src": "The bill please", "local": "L'addition s'il vous plaît", "phonetic": "lah-dee-SYON seel voo PLAY" },
+      { "src": "Excuse me", "local": "Excusez-moi", "phonetic": "ex-kew-ZAY mwah" },
+      { "src": "I don't speak French", "local": "Je ne parle pas français", "phonetic": "zhuh nuh parl pah frahn-SAY" }
     ]
   },
+  "neighborhoods": [
+    {
+      "name": "Le Marais",
+      "vibe": "时尚与历史",
+      "description": "狭窄的鹅卵石街道，精致的私宅，以及犹太遗产与LGBTQ+夜生活的结合。",
+      "highlights": [
+        "沃热广场",
+        "罗齐耶街",
+        "毕加索博物馆"
+      ],
+      "image": "/images/paris/marais.jpg"
+    },
+    {
+      "name": "Montmartre",
+      "vibe": "波西米亚村庄",
+      "description": "栖息在山丘上，它保留着充满艺术家、葡萄园和蜿蜒街道的村庄氛围。",
+      "highlights": [
+        "小丘广场",
+        "勒皮克街",
+        "圣心大教堂台阶"
+      ],
+      "image": "/images/paris/montmartre.jpg"
+    },
+    {
+      "name": "Latin Quarter",
+      "vibe": "知识分子",
+      "description": "索邦大学的所在地，充满了书店、学生咖啡馆和中世纪的历史。",
+      "highlights": [
+        "莎士比亚书店",
+        "万神殿",
+        "穆浮塔街"
+      ],
+      "image": "/images/paris/latin-quarter.jpg"
+    },
+    {
+      "name": "Saint-Germain",
+      "vibe": "别致与文学",
+      "description": "以历史悠久的文学咖啡馆如双叟咖啡馆 (Les Deux Magots) 和高端画廊而闻名。",
+      "highlights": [
+        "花神咖啡馆",
+        "卢森堡公园",
+        "乐蓬马歇百货"
+      ],
+      "image": "/images/paris/saint-germain.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "出行指南",
+      "icon": "Train",
+      "summary": "地铁是生命线。高效、密集，但毫不留情。",
+      "details": [
+        "地铁基础：列车运行时间为早上5:30至凌晨1:15（周末至凌晨2:15）。避免在高峰时段（早上8点至9:30，下午5:30至7点）乘坐1、4、13号线。",
+        "票价（2025）：单程t+票价为€2.10。'Navigo Easy'（€2）是现代可充值卡。'Navigo Découverte'（每周€30）适合长期逗留（周一至周日有效）。",
+        "检查：在您下车之前务必保留车票！罚款为€50。检查员穿便衣，毫不留情。",
+        "电梯规则：右侧站立，左侧走动。阻碍左侧是最大的游客失误。",
+        "RER与地铁：RER（A-E线）服务郊区/机场。地铁票仅适用于1区的RER。前往机场需要特定票务。",
+        "夜间交通：在凌晨1点后，请使用'Noctilien'夜间巴士或G7出租车应用。Uber费用飙升。"
+      ]
+    },
+    {
+      "id": "logistics-airports",
+      "slug": "airport-transfers",
+      "title": "机场接送",
+      "icon": "Plane",
+      "summary": "戴高乐机场 (CDG) 和奥利机场 (Orly) 很远。请提前了解路线。",
+      "details": [
+        "CDG 选项：RER B（€11.45，35-50分钟）是标准选择，但要注意看管行李。RoissyBus（€16.60）直达歌剧院，带着行李更方便。出租车有固定费率（右岸€56 / 左岸€65）。",
+        "Orly 选项：OrlyBus（€11.20）或 Orlyval+RER B。出租车是固定费率（左岸€37 / 右岸€42）。",
+        "博韦 (Beauvais) 警告：这在85公里外。€17的班车需要90分钟。除非机票几乎免费，否则不要飞这里。"
+      ]
+    },
+    {
+      "id": "logistics-dining",
+      "slug": "dining-protocol",
+      "title": "用餐礼仪",
+      "icon": "Utensils",
+      "summary": "严格的时间和特定的仪式定义了巴黎的饮食。",
+      "details": [
+        "严格的时间：午餐12:00–14:30。晚餐19:30–22:30。大多数厨房在此期间关闭。您不能在下午6点吃晚餐。",
+        "饮水仪式：请问'une carafe d'eau'以获得免费自来水。要'water'通常会得到昂贵的瓶装水。",
+        "账单：您必须索要它（'L'addition, s'il vous plaît'）。服务员不会自动拿来；鼓励慢慢享用。",
+        "午餐性价比：寻找'Formule Midi'或'Menu du Jour'（€15–25）以获得最佳性价比。晚餐点菜要贵得多。"
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "安全与诈骗",
+      "icon": "Shield",
+      "summary": "暴力犯罪很少；技术性盗窃很常见。",
+      "details": [
+        "手机抢夺：一种流行病。骑电动自行车的小偷会在路边从手中抢走手机。在人行横道站立时千万不要刷手机。",
+        "地铁扒手：团伙在1、4、9号线的车门处作案。保持包拉好拉链并背在前面。在沙特莱 (Châtelet) 和北站 (Gare du Nord) 要特别警惕。",
+        "街头诈骗：无视“签名请愿”（分散注意力盗窃）、圣心大教堂的“友谊手链”系绳者和“金戒指”拾取者。直接走开。",
+        "假出租车：无视机场航站楼内任何招揽生意的人。只使用外面的官方出租车排队处。"
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "money-payments",
+      "title": "金钱与支付",
+      "icon": "CreditCard",
+      "summary": "银行卡是标准的，但现金也有一席之地。",
+      "details": [
+        "卡与现金：Visa/Mastercard 几乎随处可用。随身携带约€50现金用于小咖啡馆、市场和厕所。",
+        "小费：服务已包含（'Service Compris'）。凑整或留下€1–2硬币。这里不存在美国20%的小费文化。",
+        "ATM：使用官方银行ATM（BNP, Société Générale）。避开收取高额费用和汇率差的'Euronet'机器。"
+      ]
+    },
+    {
+      "id": "logistics-toilets",
+      "slug": "restrooms",
+      "title": "公共厕所",
+      "icon": "MapPin",
+      "summary": "提前计划；它们很稀缺。",
+      "details": [
+        "Sanisettes：人行道上的免费自动清洁灰色小屋。等待绿灯亮起。它们安全且卫生。",
+        "百货公司：最好的“窍门”。老佛爷百货、BHV和乐蓬马歇的高层有干净、免费的洗手间。",
+        "咖啡馆规则：厕所是给顾客的。在吧台买一杯浓缩咖啡（€1.50）即可使用。"
+      ]
+    },
+    {
+      "id": "logistics-health",
+      "slug": "health-pharmacy",
+      "title": "健康与药房",
+      "icon": "Cross",
+      "summary": "药剂师是您的第一道防线。",
+      "details": [
+        "绿色十字：药剂师是受过高度训练的医生。在去诊所之前，小病（感冒、过敏、胃病）先去那里。",
+        "夜间药房：寻找'Pharmacie de Garde'以获得24/7服务。地址通常列在关闭的药房门上。"
+      ]
+    },
+    {
+      "id": "logistics-museums",
+      "slug": "museum-strategy",
+      "title": "博物馆策略",
+      "icon": "Ticket",
+      "summary": "提前预订不是可选项，是必须项。",
+      "details": [
+        "定时入场：卢浮宫、奥赛和凡尔赛宫必须预约。现场排队会被拒绝。提前几周预订。",
+        "博物馆通票：游览4个以上博物馆非常划算，但您仍然需要在线预订时间段。",
+        "卢浮宫提示：'Carrousel du Louvre'地下入口的安检队伍通常比金字塔入口短。"
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "必备应用",
+      "icon": "Smartphone",
+      "summary": "巴黎的数字工具包。",
+      "details": [
+        "CityMapper：必备。在巴黎交通方面比Google Maps好用（显示上车的确切车厢）。",
+        "G7 Taxi：官方出租车应用。可靠、固定费率、无动态定价。",
+        "TheFork：预订餐厅必备，有时提供20-30%的折扣。",
+        "Google Translate：下载法语离线包用于菜单。"
+      ]
+    }
+  ],
   "must_eat": [
     {
       "id": "food-001",
@@ -1239,8 +1373,8 @@
         {
           "id": "par-01",
           "slug": "luxembourg-gardens",
-          "name_en": " Luxembourg Gardens",
-          "name_local": "卢森堡公园",
+          "name_en": "Luxembourg Gardens",
+          "name_local": "Jardin du Luxembourg",
           "category": "景点",
           "is_generic_staple": false,
           "description": {
@@ -1267,7 +1401,7 @@
           "id": "par-02",
           "slug": "tuileries-garden",
           "name_en": "Tuileries Garden",
-          "name_local": "杜乐丽花园",
+          "name_local": "Jardin des Tuileries",
           "category": "景点",
           "is_generic_staple": false,
           "description": {
@@ -1294,7 +1428,7 @@
           "id": "par-03",
           "slug": "buttes-chaumont",
           "name_en": "Buttes-Chaumont",
-          "name_local": "布特·绍蒙公园",
+          "name_local": "Parc des Buttes-Chaumont",
           "category": "景点",
           "is_generic_staple": false,
           "description": {
