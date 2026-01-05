@@ -47,11 +47,16 @@ if (
 export const config = {
   matcher: [
     /*
-     * 🎯 MASTER AI MATCHER:
-     * We REMOVED sitemap.xml and robots.txt from this list.
-     * This forces the Proxy to RUN for these files so we can
-     * explicitly block the redirect in the code above.
+     * 🎯 MASTER AI "WHITE-LIST" STRATEGY
+     * Only run middleware on the Homepage and City/App routes.
+     * This AUTOMATICALLY ignores sitemap.xml, robots.txt, images, etc.
      */
-    '/((?!api|_next|images|favicon\\.ico).*)', 
+    '/',             // Root Homepage
+    '/(en|fr|es|it|ja|hi|de|zh|ar)/:path*', // Existing localized paths
+    '/city/:path*',  // City paths without locale
+    '/about',        // Static pages
+    '/contact',
+    '/privacy',
+    '/terms'
   ],
 };
