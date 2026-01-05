@@ -15,15 +15,15 @@ export function proxy(request: NextRequest) {
 
   // 🛡️ MASTER AI SEO LOCK:
   // If the path is a system file, STOP and let it load from the root.
-  if (
-    pathname === '/sitemap.xml' || 
-    pathname === '/robots.txt' || 
+if (
+    pathname === '/sitemap.xml' ||  // Proxy sees this now...
+    pathname === '/robots.txt' ||   // ...and explicitly allows it (200 OK)
     pathname === '/favicon.ico' ||
-    pathname.startsWith('/_next/') ||
     pathname.startsWith('/images/') ||
-    pathname.includes('.') // Bypasses all files with extensions
+    pathname.startsWith('/_next/') ||
+    pathname.includes('.')
   ) {
-    return NextResponse.next();
+    return NextResponse.next(); // 🛑 STOP. Do not redirect. Serve the file.
   }
 
   // Check if the path already has a supported locale
@@ -48,9 +48,10 @@ export const config = {
   matcher: [
     /*
      * 🎯 MASTER AI MATCHER:
-     * We REMOVE sitemap.xml from the matcher entirely.
-     * This means the proxy will NEVER touch the sitemap request.
+     * We REMOVED sitemap.xml and robots.txt from this list.
+     * This forces the Proxy to RUN for these files so we can
+     * explicitly block the redirect in the code above.
      */
-    '/((?!api|_next|images|sitemap\\.xml|robots\\.txt|favicon\\.ico).*)',
+    '/((?!api|_next|images|favicon\\.ico).*)', 
   ],
 };
