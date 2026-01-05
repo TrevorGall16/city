@@ -27,16 +27,20 @@ export default function SignInPage() {
   const [error, setError] = useState<string | null>(null)
   const [successMessage, setSuccessMessage] = useState<string | null>(null)
 
-  // --- 1. HANDLE GOOGLE LOGIN (OAUTH) ---
+// --- 1. HANDLE GOOGLE LOGIN (OAUTH) ---
   const handleGoogleSignIn = async () => {
     setLoading(true)
     setError(null)
     
+    // 🎯 MASTER AI FIX: Route through callback, then redirect to language
+    const origin = window.location.origin
+    const nextPath = `/${lang}/` // Where we want to go AFTER login
+    
     const { error: signInError } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        // 🎯 STEP 2: Return to localized home (e.g., /fr/ or /hi/)
-        redirectTo: `${window.location.origin}/${lang}/`,
+        // We go to /auth/callback first, carrying the ?next instruction
+        redirectTo: `${origin}/auth/callback?next=${nextPath}`,
         skipBrowserRedirect: false, 
       },
     })

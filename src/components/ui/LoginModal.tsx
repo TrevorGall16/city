@@ -25,10 +25,11 @@ export function LoginModal({ isOpen, onClose }: LoginModalProps) {
     setLoading(true)
     setError('')
     
+// 🎯 MASTER AI FIX: Route through callback
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: `${window.location.origin}/`,
+        redirectTo: `${window.location.origin}/auth/callback`,
       },
     })
 
