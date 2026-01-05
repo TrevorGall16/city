@@ -1,7 +1,7 @@
 /**
- * 🛰️ MASTER AI: CITY SHEET GOLDEN MASTER (V6.2 - TS FIX)
- * ✅ Fixed TypeScript Error: Added 'as any' cast to intro_vibe to handle objects.
- * ✅ Safety: Keeps the crash protection active without build errors.
+ * 🛰️ MASTER AI: CITY SHEET GOLDEN MASTER (V6.3 - DATA SYNC)
+ * ✅ Fixed: intro_vibe now checks for '.description' property (matches your localized JSON).
+ * ✅ Safety: Keeps the crash protection and type safety.
  * ✅ Stability: All ad scripts causing viruses are disabled.
  */
 
@@ -69,12 +69,11 @@ export default async function CityPage({ params }: PageProps) {
 
   if (!city) notFound()
 
-  // 🛡️ MASTER AI CRASH PROTECTION (TS FIXED)
-  // We use 'as any' because TypeScript thinks this is always a string,
-  // but runtime data proves it can be an object in French/Spanish files.
+  // 🛡️ MASTER AI DATA SYNC
+  // We added '.description' to the check list to match your localized JSON format.
   const rawVibe = city.intro_vibe as any; 
   const introVibe = typeof rawVibe === 'object' 
-    ? (rawVibe.short || rawVibe.long || '') 
+    ? (rawVibe.description || rawVibe.short || rawVibe.long || '') 
     : (rawVibe || '');
 
   const cityFontClass = getCityFont(citySlug)
@@ -106,7 +105,7 @@ export default async function CityPage({ params }: PageProps) {
         <section className="h-[60vh] relative overflow-hidden group">
           <Image src={city.hero_image} alt={city.name} fill priority className="object-cover transition-transform duration-1000 group-hover:scale-110" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-center justify-center">
-            {/* ✅ Fixed: Passed safe string instead of object */}
+            {/* ✅ Fixed: Now correctly grabs 'description' from object */}
             <HeroGlass title={city.name} subtitle={introVibe} titleColor={finalHeroColor} fontClass={cityFontClass} />
           </div>
         </section>
@@ -204,10 +203,11 @@ export default async function CityPage({ params }: PageProps) {
             <h2 className="text-5xl font-black mb-16 text-center tracking-tighter uppercase">{dict.perfect_24h} {city.name}</h2>
             <div className="border-l-4 border-indigo-500/20 ml-6 space-y-20">
               {city.itinerary.map((stop: any, idx: number) => {
-                // ✅ Safe description check
-                const stopDesc = typeof stop.description === 'object' 
-                  ? (stop.description.short || stop.description.long || '') 
-                  : (stop.description || '');
+                // ✅ Safe description check with .description fallback
+                const rawDesc = stop.description as any;
+                const stopDesc = typeof rawDesc === 'object' 
+                  ? (rawDesc.description || rawDesc.short || rawDesc.long || '') 
+                  : (rawDesc || '');
 
                 return (
                   <div key={idx} className="pl-14 relative group">
