@@ -1,8 +1,7 @@
 /**
- * 🛰️ MASTER AI: ROOT LAYOUT GOLDEN MASTER (V6.0)
- * ✅ SEO: Full hreflang alternate mapping for all 9 languages.
- * ✅ Performance: Optimized font swapping and hydration safety.
- * ✅ Aesthetic: Silk-blur navigation with high-saturation branding.
+ * 🛰️ MASTER AI: ROOT LAYOUT GOLDEN MASTER (V6.1)
+ * ✅ Fixed: Removed extra </div> causing syntax error.
+ * ✅ Fixed: Corrected HeaderAuth import path.
  */
 
 import { Inter } from 'next/font/google'
@@ -13,7 +12,7 @@ import { ThemeProvider } from '@/components/providers/ThemeProvider'
 import { HeaderAuth } from '@/components/ui/HeaderAuth'
 import { Footer } from '@/components/ui/Footer'
 import { Toaster } from 'sonner'
-import '../globals.css'
+import './globals.css'
 import type { Metadata } from 'next'
 import { CookieConsent } from '@/components/features/CookieConsent'
 import { LanguageSelector } from '@/components/ui/LanguageSelector'
@@ -36,7 +35,6 @@ export const metadata: Metadata = {
   },
   description: 'Instant travel guides with local phrases and no-fluff recommendations. Navigate 60+ cities like a local.',
   
-  // 🎯 CRITICAL FOR TRAFFIC: Tells Google about all language versions
   alternates: {
     canonical: '/',
     languages: Object.fromEntries(
@@ -71,6 +69,7 @@ export default async function RootLayout({
             <header className="h-20 border-b border-slate-100 dark:border-slate-900 bg-white/70 dark:bg-slate-950/70 backdrop-blur-xl sticky top-0 z-[100]">
               <div className="max-w-[1600px] mx-auto px-6 md:px-12 h-full flex items-center justify-between">
                 
+                {/* Logo */}
                 <Link href={`/${displayLang}`} className="group flex items-center gap-2">
                   <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center text-white rotate-3 group-hover:rotate-0 transition-transform duration-500">
                     <Globe className="w-6 h-6" />
@@ -80,15 +79,22 @@ export default async function RootLayout({
                   </span>
                 </Link>
 
+                {/* Right Side Actions */}
                 <div className="flex items-center gap-6">
+                  {/* 1. Language Selector (Visible on Desktop) */}
                   <div className="hidden md:block">
                     <LanguageSelector />
                   </div>
+
+                  {/* 2. Auth Component (Log In / Profile) */}
                   <HeaderAuth />
+
+                  {/* 3. Mobile Menu Button (Visible on Mobile) */}
                   <button className="lg:hidden p-3 bg-slate-100 dark:bg-slate-900 rounded-xl">
                     <Menu className="w-6 h-6" />
                   </button>
                 </div>
+                
               </div>
             </header>
 
