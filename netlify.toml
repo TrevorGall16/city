@@ -1,11 +1,3 @@
-# 🛡️ 1. MAPPING REWRITE (Standard URL -> Unique File)
-[[redirects]]
-  from = "/sitemap.xml"
-  to = "/sitemap_final.xml"
-  status = 200
-  force = true
-
-# 🏗️ 2. BUILD SETTINGS
 [build]
   command = "npm run build"
   publish = ".next"
@@ -19,8 +11,8 @@
   NODE_OPTIONS = "--max-old-space-size=4096"
   NEXT_CPU_LIMIT = "1"
 
+# Just standard headers
 [[headers]]
-  for = "/sitemap_final.xml"
+  for = "/sitemap.xml"
   [headers.values]
     Content-Type = "application/xml"
-    Cache-Control = "public, max-age=0, must-revalidate"
