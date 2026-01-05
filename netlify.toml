@@ -1,0 +1,26 @@
+# 🛡️ 1. MAPPING REWRITE (Standard URL -> Unique File)
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap_final.xml"
+  status = 200
+  force = true
+
+# 🏗️ 2. BUILD SETTINGS
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build.environment]
+  NETLIFY_SKIP_BLOBS_UPLOAD = "true"
+  NODE_VERSION = "20"
+  NODE_OPTIONS = "--max-old-space-size=4096"
+  NEXT_CPU_LIMIT = "1"
+
+[[headers]]
+  for = "/sitemap_final.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=0, must-revalidate"

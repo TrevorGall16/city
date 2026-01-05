@@ -47,16 +47,13 @@ if (
 export const config = {
   matcher: [
     /*
-     * 🎯 MASTER AI "WHITE-LIST" STRATEGY
-     * Only run middleware on the Homepage and City/App routes.
-     * This AUTOMATICALLY ignores sitemap.xml, robots.txt, images, etc.
+     * 🎯 MASTER AI WHITELIST:
+     * Only run on root, languages, and city pages.
+     * This AUTOMATICALLY ignores sitemap.xml
      */
-    '/',             // Root Homepage
-    '/(en|fr|es|it|ja|hi|de|zh|ar)/:path*', // Existing localized paths
-    '/city/:path*',  // City paths without locale
-    '/about',        // Static pages
-    '/contact',
-    '/privacy',
-    '/terms'
+    '/',
+    '/(en|fr|es|it|ja|hi|de|zh|ar)/:path*',
+    '/city/:path*',
+    '/about', '/contact', '/privacy', '/terms'
   ],
 };
