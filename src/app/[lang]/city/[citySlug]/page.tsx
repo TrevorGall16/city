@@ -1,8 +1,8 @@
 /**
- * 🛰️ MASTER AI: CITY SHEET GOLDEN MASTER (V6.0 - FULL RESTORE)
- * ✅ Fixed: Next.js 16 Param resolution (Navigation works)
- * ✅ Restored: Must See, Must Eat, Culture, Itinerary, and Ads.
- * ✅ Restored: Language Links and Dashboard.
+ * 🛰️ MASTER AI: CITY SHEET GOLDEN MASTER (V6.2 - TS FIX)
+ * ✅ Fixed TypeScript Error: Added 'as any' cast to intro_vibe to handle objects.
+ * ✅ Safety: Keeps the crash protection active without build errors.
+ * ✅ Stability: All ad scripts causing viruses are disabled.
  */
 
 import { notFound } from 'next/navigation'
@@ -16,7 +16,7 @@ import { SectionHeader } from '@/components/ui/SectionHeader'
 import { AtAGlanceDashboard } from '@/components/features/AtAGlanceDashboard'
 import { AffiliateSection } from '@/components/features/AffiliateSection' 
 import AdsterraBanner from '@/components/ads/AdsterraBanner'
-import AdsterraNative from '@/components/ads/AdsterraNative'
+// import AdsterraNative from '@/components/ads/AdsterraNative' // 🛡️ Disabled for Safety
 
 import type { Metadata } from 'next'
 import { HeroGlass } from '@/components/ui/HeroGlass'
@@ -43,6 +43,7 @@ async function getCityData(slug: string, lang: string) {
     return JSON.parse(fileContent) as City;
   } catch (error) {
     try {
+      // Fallback to English if localized file is corrupt or missing
       const fallbackPath = path.join(process.cwd(), 'src/data/cities', `${slug}.json`);
       const fallbackContent = await fs.readFile(fallbackPath, 'utf8');
       return JSON.parse(fallbackContent) as City;
@@ -68,6 +69,14 @@ export default async function CityPage({ params }: PageProps) {
 
   if (!city) notFound()
 
+  // 🛡️ MASTER AI CRASH PROTECTION (TS FIXED)
+  // We use 'as any' because TypeScript thinks this is always a string,
+  // but runtime data proves it can be an object in French/Spanish files.
+  const rawVibe = city.intro_vibe as any; 
+  const introVibe = typeof rawVibe === 'object' 
+    ? (rawVibe.short || rawVibe.long || '') 
+    : (rawVibe || '');
+
   const cityFontClass = getCityFont(citySlug)
   const CITY_COLOR_OVERRIDES: Record<string, string> = {
     'bangkok': 'text-yellow-400', 'hong-kong': 'text-red-600', 'tokyo': 'text-sky-400',
@@ -76,12 +85,12 @@ export default async function CityPage({ params }: PageProps) {
   const finalHeroColor = CITY_COLOR_OVERRIDES[citySlug] || 'text-white'
 
   const renderPlacesWithAds = (places: any[], dict: any) => {
-    return (places || []).map((place, index) => (
+    return (places || []).map((place: any, index: number) => (
       <div key={place.id || `place-${index}`}>
         <EnhancedPlaceCard place={place} citySlug={citySlug} lang={lang} dict={dict} />
         {index === 2 && (
           <div className="col-span-full py-6 flex justify-center">
-            <AdsterraNative placementId="258fbd7f9475277565c29c04ed1299f6" scriptSrc="//pl25612345.profitablecpmrate.com/invoke.js" />
+             {/* 🛡️ Virus Script Removed */}
           </div>
         )}
       </div>
@@ -97,7 +106,8 @@ export default async function CityPage({ params }: PageProps) {
         <section className="h-[60vh] relative overflow-hidden group">
           <Image src={city.hero_image} alt={city.name} fill priority className="object-cover transition-transform duration-1000 group-hover:scale-110" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-center justify-center">
-            <HeroGlass title={city.name} subtitle={city.intro_vibe} titleColor={finalHeroColor} fontClass={cityFontClass} />
+            {/* ✅ Fixed: Passed safe string instead of object */}
+            <HeroGlass title={city.name} subtitle={introVibe} titleColor={finalHeroColor} fontClass={cityFontClass} />
           </div>
         </section>
 
@@ -120,7 +130,7 @@ export default async function CityPage({ params }: PageProps) {
           </div>
         </section>
 
-        {/* 4. Neighborhoods (INTERACTIVE MODAL VERSION) */}
+        {/* 4. Neighborhoods */}
         {city.neighborhoods && (
           <section id="neighborhoods" className="py-20 px-4 md:px-8 max-w-[1600px] mx-auto bg-white dark:bg-slate-900 rounded-[3rem] my-12 shadow-sm border border-slate-100 dark:border-slate-800">
             <div className="mb-12"><SectionHeader title={dict.neighborhoods_stay || dict.neighborhoods} countryCode={city.country_code as any} /></div>
@@ -173,11 +183,12 @@ export default async function CityPage({ params }: PageProps) {
         {city.affiliate_products && (
           <section id="essentials" className="py-20 px-4 md:px-8 max-w-[1600px] mx-auto bg-slate-50 dark:bg-slate-950 border-y border-slate-200 dark:border-slate-800">
             <div className="mb-12"><SectionHeader title={dict.travel_essentials} countryCode={city.country_code as any} /></div>
-<AffiliateSection 
-  products={city.affiliate_products} 
-  countryCode={city.country_code} 
-  cityName={city.name} // ✅ This satisfies the required prop
-/>          </section>
+            <AffiliateSection 
+              products={city.affiliate_products} 
+              countryCode={city.country_code} 
+              cityName={city.name} 
+            />
+          </section>
         )}
 
         <section id="food" className="py-16 px-4 md:px-8 max-w-[1600px] mx-auto">
@@ -192,31 +203,37 @@ export default async function CityPage({ params }: PageProps) {
           <section className="py-24 px-4 md:px-8 max-w-[1000px] mx-auto">
             <h2 className="text-5xl font-black mb-16 text-center tracking-tighter uppercase">{dict.perfect_24h} {city.name}</h2>
             <div className="border-l-4 border-indigo-500/20 ml-6 space-y-20">
-              {city.itinerary.map((stop: any, idx: number) => (
-                <div key={idx} className="pl-14 relative group">
-                  <div className="absolute -left-[18px] top-0 w-8 h-8 rounded-full bg-white dark:bg-slate-900 border-4 border-indigo-600 transition-all group-hover:scale-125" />
-                  <span className="text-sm font-black text-indigo-600 uppercase tracking-[0.2em]">{stop.time}</span>
-                  <h3 className="text-3xl font-black mt-2 tracking-tight">{stop.title}</h3>
-                  <p className="text-slate-600 dark:text-slate-400 mt-6 leading-relaxed text-xl font-medium italic">"{stop.description}"</p>
-                </div>
-              ))}
+              {city.itinerary.map((stop: any, idx: number) => {
+                // ✅ Safe description check
+                const stopDesc = typeof stop.description === 'object' 
+                  ? (stop.description.short || stop.description.long || '') 
+                  : (stop.description || '');
+
+                return (
+                  <div key={idx} className="pl-14 relative group">
+                    <div className="absolute -left-[18px] top-0 w-8 h-8 rounded-full bg-white dark:bg-slate-900 border-4 border-indigo-600 transition-all group-hover:scale-125" />
+                    <span className="text-sm font-black text-indigo-600 uppercase tracking-[0.2em]">{stop.time}</span>
+                    <h3 className="text-3xl font-black mt-2 tracking-tight">{stop.title}</h3>
+                    <p className="text-slate-600 dark:text-slate-400 mt-6 leading-relaxed text-xl font-medium italic">"{stopDesc}"</p>
+                  </div>
+                )
+              })}
             </div>
           </section>
         )}
 
-        {/* 9. Logistics, Language & Comments */}
-<section id="logistics" className="max-w-[1600px] mx-auto py-24 px-4">
-  <CollapsibleSection title={dict.practical_logistics}>
-    <LogisticsSection 
-      /* ✅ FIX: If logistics is an object, wrap it in an array so .map() works */
-      topics={
-        Array.isArray(city.logistics) 
-          ? city.logistics 
-          : city.logistics ? [city.logistics] : []
-      } 
-    />
-  </CollapsibleSection>
-</section>
+        {/* 9. Logistics */}
+        <section id="logistics" className="max-w-[1600px] mx-auto py-24 px-4">
+          <CollapsibleSection title={dict.practical_logistics}>
+            <LogisticsSection 
+              topics={
+                Array.isArray(city.logistics) 
+                  ? city.logistics 
+                  : city.logistics ? [city.logistics] : []
+              } 
+            />
+          </CollapsibleSection>
+        </section>
 
         <section className="max-w-[1600px] mx-auto px-4 py-12 border-t border-slate-100 dark:border-slate-900">
             <LanguageLinks citySlug={citySlug} currentLang={lang} />
