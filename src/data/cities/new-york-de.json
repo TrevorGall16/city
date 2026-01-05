@@ -1,1170 +1,1106 @@
 {
-  "id": "city-008",
-  "name": "New York City",
-  "slug": "new-york",
-  "lat": 40.7128,
-  "lng": -74.006,
-  "country": "United States",
-  "country_code": "us",
-  "hero_image": "/images/new-york/hero.jpg",
-  "intro_vibe": {
-    "description": "Der Beton-Dschungel: Schnell, laut, freundlich, aber nicht nett, und der einzige Ort, an dem Pizza um 4 Uhr morgens eine Lebensmittelgruppe ist."
-  },
+  "id": "city-003",
+  "name": "Tokyo",
+  "slug": "tokyo",
+  "country": "Japan",
+  "country_code": "jp",
+  "hero_image": "/images/tokyo/hero.jpg",
+  "intro_vibe": "Die Elektrische Hauptstadt: Wo alte Tradition auf neonglänzende Zukunft trifft.",
   "general_info": {
-    "population": "~8,5 Millionen (Stadt) / ~20 Millionen (Metropolregion)",
-    "is_capital": false,
-    "description": "New York ist eine Ansammlung von fünf verschiedenen Stadtteilen, von denen jeder seinen eigenen Rhythmus hat. Die Stadt belohnt Effizienz und bestraft Zögern. Sie ist rau, glamourös und unerbittlich. Die Einheimischen sind 'freundlich' (sie helfen Ihnen, einen Kinderwagen die Treppe hinaufzutragen), aber nicht 'nett' (sie lächeln dabei nicht). Es ist eine Stadt der Schichten, in der die Geschichte des 19. Jahrhunderts direkt unter den Ambitionen des 21. Jahrhunderts liegt."
+    "population": "~14 Millionen (Stadt) / ~38 Millionen (Metropolregion)",
+    "is_capital": true,
+    "description": "Tokio ist die Hauptstadt Japans und das bevölkerungsreichste Ballungsgebiet der Welt. Eine Stadt der Kontraste: Tokio verbindet nahtlos alte Tempel mit Wolkenkratzern, traditionelle Teezeremonien mit modernster Technologie und ruhige Gärten mit der chaotischen Energie der Shibuya-Kreuzung. Doch abgesehen von den Sehenswürdigkeiten ist es ein hochgradig effizientes Betriebssystem, das durch strenge unausgesprochene Protokolle ('Meiwaku' oder die Vermeidung von Belästigungen) und komplexe logistische Abläufe definiert wird."
   },
   "stats": {
-    "currency": "$",
+    "currency": "JPY",
     "plug_type": "Typ A/B"
   },
   "weather_breakdown": [
     {
       "id": 1,
       "name": "Januar",
-      "temp": "-3°C - 4°C",
-      "vibe": "Frierend",
+      "temp": "0°C - 10°C",
+      "vibe": "Kühl und trocken",
       "pros": [
-        "Besondere Hotelangebote",
-        "Restaurantwoche",
-        "Winterjazzfestival"
+        "Klarer Himmel",
+        "Winterschlussverkauf",
+        "Weniger Touristen"
       ],
       "cons": [
-        "Kaltes Windtunnel",
-        "Pfützen aus geschmolzenem Schnee",
-        "Kurzer Tag"
+        "Kalt",
+        "Kurze Tage"
       ],
-      "clothing": "Schwerer Mantel, warme Schichten, wasserdichte Schuhe"
+      "clothing": "Wintermantel, Schichten"
     },
     {
       "id": 2,
       "name": "Februar",
-      "temp": "-2°C - 6°C",
-      "vibe": "kalt",
+      "temp": "1°C - 10°C",
+      "vibe": "Immer noch kalt",
       "pros": [
-        "Fashionwoche",
-        "Vasant Panchami",
-        "Innensammlungen"
+        "Pflaumenblüten",
+        "Günstige Preise",
+        "Klares Wetter"
       ],
       "cons": [
-        "Schneefall möglich",
-        "grauer Himmel"
+        "Kalter Wind",
+        "Trockene Luft"
       ],
-      "clothing": "warme Jacke, Handschuhe, Schal"
+      "clothing": "Warme Jacke, Schal"
     },
     {
       "id": 3,
       "name": "März",
-      "temp": "2°C - 10°C",
-      "vibe": "unsicher",
+      "temp": "5°C - 14°C",
+      "vibe": "Frühlingserwachen",
       "pros": [
-        "St. Patrick's Day",
-        "Frühlingserwachen",
-        "Geeigneter Tag zum Spazierengehen"
+        "Beginn der Kirschblüte (Sakura)",
+        "Wärmere Tage",
+        "Festivals"
       ],
       "cons": [
-        "Starker Wind",
-        "Mischung aus Regen und Schnee"
+        "Menschenmengen in Parks",
+        "Wechselhaftes Wetter"
       ],
-      "clothing": "warme Jacke, Schichten, Regenschirm"
+      "clothing": "Leichte Jacke, Schichten"
     },
     {
       "id": 4,
       "name": "April",
-      "temp": "7°C - 16°C",
-      "vibe": "Blütezeit der Blumen",
+      "temp": "10°C - 19°C",
+      "vibe": "Sakura-Höhepunkt",
       "pros": [
-        "Sakura-Blütenfest (Brooklyn Botanic Garden)",
-        "Tribeca Film Festival",
-        "Menschenmengen in den Parks"
+        "Volle Kirschblüte",
+        "Perfektes Wetter",
+        "Hanami-Partys"
       ],
       "cons": [
-        "Plötzlicher Regen",
-        "Temperaturschwankungen"
+        "Sehr voll",
+        "Hohe Preise"
       ],
-      "clothing": "Leichte Jacke, Regenkleidung"
+      "clothing": "Leichte Schichten, bequeme Schuhe"
     },
     {
       "id": 5,
-      "name": "Maiori",
-      "temp": "12°C - 22°C",
-      "vibe": "Es ist einfach perfekt",
+      "name": "Mai",
+      "temp": "14°C - 23°C",
+      "vibe": "Frisch & Grün",
       "pros": [
-        "Es ist das ideale Wetter zum Spazierengehen",
-        "Die Außenspeisesaison beginnt",
-        "Es ist die Flottenwoche"
+        "Golden Week Feiertage",
+        "Angenehmes Wetter",
+        "Glyzinien-Blüte"
       ],
       "cons": [
-        "Die Hotels werden teuer",
-        "Die Anzahl der Touristen nimmt zu"
+        "Golden Week Menschenmassen",
+        "Beginnende Luftfeuchtigkeit"
       ],
-      "clothing": "Leichte Kleidung, bequeme Schuhe"
+      "clothing": "T-Shirt, leichte Jacke"
     },
     {
       "id": 6,
       "name": "Juni",
-      "temp": "18°C - 27°C",
-      "vibe": "Begeisternder Start",
+      "temp": "18°C - 26°C",
+      "vibe": "Regenzeit",
       "pros": [
-        "Monat des Stolzes",
-        "Terrassenbar",
-        "Kostenlose Außenkonzerte"
+        "Hortensienblüten",
+        "Weniger Touristen",
+        "Kühler als der Hochsommer"
       ],
       "cons": [
-        "Die Feuchtigkeit steigt",
-        "Die U-Bahn-Stationen werden heiß"
+        "Täglicher Regen",
+        "Hohe Luftfeuchtigkeit"
       ],
-      "clothing": "Sommerkleidung, leichte Jacke für die Klimaanlage"
+      "clothing": "Regenjacke, Regenschirm"
     },
     {
       "id": 7,
       "name": "Juli",
-      "temp": "21°C - 30°C",
-      "vibe": "feucht",
+      "temp": "22°C - 30°C",
+      "vibe": "Heiß & Feucht",
       "pros": [
-        "Feuerwerk am 4. Juli",
-        "Heiße Straßen",
-        "Coney Island"
+        "Festivals (Tanabata)",
+        "Sommer-Energie",
+        "Strandausflüge in der Nähe"
       ],
       "cons": [
-        "Geruch von Müll",
-        "U-Bahn-Plattformen wie ein Sauna"
+        "Extreme Hitze",
+        "Hohe Luftfeuchtigkeit",
+        "Überfüllt"
       ],
-      "clothing": "Luftdurchlässige Kleidung, Deodorant"
+      "clothing": "Leichte Kleidung, Sonnencreme"
     },
     {
       "id": 8,
       "name": "August",
-      "temp": "21°C - 29°C",
-      "vibe": "feucht",
+      "temp": "23°C - 31°C",
+      "vibe": "Hochsommer",
       "pros": [
-        "besondere Radwege (fahrzeugfrei)",
-        "US Open Tennis",
-        "geringe Anzahl an Bewohnern"
+        "Feuerwerksfestivals",
+        "Obon-Feiertage",
+        "Sommergerichte"
       ],
       "cons": [
-        "hohe Luftfeuchtigkeit",
-        "plötzliche Gewitter"
+        "Heißester Monat",
+        "Taifun-Saison"
       ],
-      "clothing": "Tragen Sie möglichst leichte Kleidung"
+      "clothing": "Sehr leichte Kleidung, Hut"
     },
     {
       "id": 9,
       "name": "September",
-      "temp": "17°C - 25°C",
-      "vibe": "Der beste Monat",
+      "temp": "20°C - 27°C",
+      "vibe": "Übergang",
       "pros": [
-        "Festa di San Gennaro",
-        "Perfektes Wetter",
-        "Fashion Week"
+        "Kühler als der Sommer",
+        "Herbstbeginn",
+        "Weniger überfüllt"
       ],
       "cons": [
-        "Teure Hotels",
-        "Menschenmengen"
+        "Taifune",
+        "Immer noch feucht"
       ],
-      "clothing": "Leichte Schichten"
+      "clothing": "Leichte Schichten, Regenkleidung"
     },
     {
       "id": 10,
       "name": "Oktober",
-      "temp": "11°C - 18°C",
-      "vibe": "Kühle Herbststimmung",
+      "temp": "15°C - 22°C",
+      "vibe": "Goldener Herbst",
       "pros": [
-        "Die bunten Blätter im Central Park",
-        "Halloween-Parade",
-        "Alles mit Kürbisgewürz"
+        "Perfektes Wetter",
+        "Herbstlaubfärbung beginnt",
+        "Angenehm zum Spazierengehen"
       ],
       "cons": [
-        "Es wird nachts kälter",
-        "Regen"
+        "Mehr Touristen",
+        "Preise steigen"
       ],
-      "clothing": "Lederjacke, Stiefel, Schal"
+      "clothing": "Leichte Jacke, bequeme Schuhe"
     },
     {
       "id": 11,
       "name": "November",
-      "temp": "6°C - 12°C",
-      "vibe": "Festvorbereitungen",
+      "temp": "9°C - 17°C",
+      "vibe": "Farbenfroh",
       "pros": [
-        "Danke-Parade",
-        "Marathon",
-        "Offene Weihnachtsmärkte"
+        "Höhepunkt der Herbstfärbung",
+        "Klarer Himmel",
+        "Koyo (Laubschau)"
       ],
       "cons": [
-        "Der Sonnenuntergang erfolgt früh (16:30)",
-        "Kalt"
+        "Kältere Abende",
+        "Touristensaison"
       ],
-      "clothing": "Warme Mäntel, Schichten"
+      "clothing": "Warme Jacke, Schichten"
     },
     {
       "id": 12,
       "name": "Dezember",
-      "temp": "0°C - 7°C",
-      "vibe": "magisch und lebhaft",
+      "temp": "4°C - 12°C",
+      "vibe": "Festlich",
       "pros": [
-        "Weihnachtsbaum im Rockefeller Center",
-        "Festliche Schaufenster",
-        "Festliche Energie"
+        "Weihnachtsbeleuchtung",
+        "Neujahrsvorbereitungen",
+        "Klares Wetter"
       ],
       "cons": [
-        "Große Menschenmengen in Midtown",
-        "Teuer"
+        "Kalt",
+        "Teure Feiertage"
       ],
-      "clothing": "Wintermantel, Geduld"
+      "clothing": "Wintermantel, warme Schichten"
     }
   ],
   "culture": {
     "etiquette_tips": [
-      "Der Gehweg-Code: Behandeln Sie den Gehweg wie eine Autobahn. Gehen Sie rechts, überholen Sie links. Halten Sie niemals in der Mitte an; fahren Sie zur Seite. Gruppen müssen sich einreihen, um anderen das Passieren zu ermöglichen.",
-      "Die Rucksack-Regel: Nehmen Sie in der U-Bahn Ihren Rucksack ab und halten Sie ihn zwischen den Beinen. Tragen Sie ihn, verdoppelt sich Ihr Platzbedarf und Sie stoßen andere an. Es ist das wichtigste Erkennungszeichen für Touristen.",
-      "Effizienz ist Respekt: Schnell zu gehen, ist die Art und Weise, wie New Yorker Respekt für die Zeit anderer Menschen zeigen. Halten Sie nicht in der Mitte des Gehwegs an. Treten Sie zur Seite.",
-      "Freundlich, nicht nett: Ein New Yorker wird Ihnen kein Lächeln schenken oder Smalltalk führen, aber wenn Sie die Treppe hinunterfallen, sind sie die ersten, die Ihnen helfen. Verwechseln Sie Geschwindigkeit nicht mit Unhöflichkeit.",
-      "Tipps-Ungenauigkeit: 20 % vor Steuern sind das Minimum für Sitzplatzservice. Schlechter Service? Dennoch 15-18 %. Bei Counter-Services/Tablets sind $1-2 oder das Auslassen in Ordnung. In Bars sind $1 pro Bier oder $2 pro Cocktail angemessen. Reinigungskraft erhält $3-5 pro Tag. Es ist nicht optional; es ist ihr Verdienst.",
-      "Der U-Bahn-Stil: Lassen Sie die Leute aussteigen, bevor Sie einsteigen. Treten Sie zur Seite. Wenn ein Wagen zur Hauptverkehrszeit leer ist, STEIGEN SIE NICHT EIN (er hat eine defekte Klimaanlage oder einen schlechten Geruch).",
-      "Keine Begrüßungen: Sagen Sie Fremden in Aufzügen oder Fluren nicht Hallo. Stille ist Privatsphäre. Direktheit wird geschätzt; wenn Sie Hilfe benötigen, fragen Sie direkt und Sie werden sie erhalten.",
-      "Pizza-Regeln: Falten Sie das Stück in der Mitte ('Libretto-Stil'). Benutzen Sie niemals eine Gabel und ein Messer, es sei denn, Sie möchten verspottet werden. Bestellen Sie ein 'Reguläres' oder 'Plaines' Stück, nicht 'Käse'.",
-      "Rolltreppen-Disziplin: Stehen Sie rechts, gehen Sie links. Das Blockieren der linken Seite ist ein schweres Vergehen.",
-      "Augenkontakt: Wir ignorieren uns gegenseitig, um in einer dicht besiedelten Stadt Privatsphäre zu gewähren. Wenn Sie jemanden sehen, der schreit oder mit sich selbst spricht ('Showtime'-Darsteller eingeschlossen), engagieren Sie sich nicht, starren Sie nicht, gehen Sie einfach weiter."
+      "Die 'Meiwaku'-Regel: Die goldene Regel in Tokio ist 'Meiwaku'—andere nicht zu belästigen. Das erklärt, warum Züge leise sind und Rucksäcke vorne getragen werden. Es ist nicht nur Höflichkeit; es ist Infrastruktur.",
+      "Stille ist sozialer Kitt: Lärm erzeugt soziale Reibung. Telefonieren im Zug ist ein großes Tabu. Gespräche sollten gedämpft sein. Stille ist ein aktives Verhalten, um den gemeinsamen Raum zu respektieren.",
+      "Die Müll-Realität: Es gibt KEINE öffentlichen Mülleimer (ein Erbe der Sicherheitsmaßnahmen von 1995). Sie müssen Ihren Müll mitnehmen, bis Sie einen Mülleimer in einem Konbini oder Ihrem Hotel finden.",
+      "Tabearuki (Nicht beim Gehen essen): Essen während des Gehens ist verpönt ('unordentlich'). Wenn Sie Streetfood kaufen, bleiben Sie am Stand stehen, essen Sie es, entsorgen Sie den Müll dort und gehen Sie dann weiter.",
+      "Warteschlangen-Kultur: Anstehen ist heilig. Egal ob für den Zug oder ein Restaurant, drängeln Sie sich niemals vor. Wenn es eine Schlange gibt, ist das Essen wahrscheinlich gut.",
+      "Bargeld vs. Karte: Während modernisiert wird, sind viele Ramen-Läden, Ticketautomaten und Tempel immer noch NUR BARGELD. Tragen Sie immer 10.000 Yen in bar bei sich.",
+      "Rolltreppen-Seiten: Links stehen, rechts gehen. Dies wird durch Gruppenzwang strikt durchgesetzt. (Hinweis: In Osaka ist es umgekehrt).",
+      "Prozedurale Höflichkeit: Japanische Höflichkeit dreht sich um Korrektheit und Effizienz, nicht um emotionale Wärme. Ein fehlendes Lächeln bedeutet nicht Unhöflichkeit; es bedeutet Konzentration auf die perfekte Ausführung der Arbeit.",
+      "Kein Trinkgeld: Exzellenter Service ist Standard. Trinkgeld sorgt für Verwirrung und könnte Ihnen als 'verlorenes Geld' zurückgegeben werden.",
+      "Schuhe ausziehen: Achten Sie auf die Eingangsstufe (Genkan). Wenn es Hausschuhe gibt, benutzen Sie diese. Tragen Sie niemals Toiletten-Hausschuhe außerhalb des Badezimmers."
     ],
     "essential_phrases": [
+      { "src": "Hallo", "local": "こんにちは", "phonetic": "kon-nee-chee-wah" },
+      { "src": "Danke", "local": "ありがとうございます", "phonetic": "ah-ree-gah-toh goh-zai-mahs" },
       {
-        "src": "Hello",
-        "local": "Hey / Hi",
-        "phonetic": "Standard"
+        "src": "Entschuldigung / Tut mir leid / Danke",
+        "local": "すみません",
+        "phonetic": "soo-mee-mah-sen",
+        "note": "Universelles Höflichkeitswort."
       },
-      {
-        "src": "Excuse me (move)",
-        "local": "Achten Sie auf Ihren Rücken",
-        "phonetic": "Standard"
-      },
-      {
-        "src": "Coffee",
-        "local": "Regelmäßiger Kaffee",
-        "phonetic": "Bedeutet 'mit Milch und Zucker'"
-      },
-      {
-        "src": "Train",
-        "local": "Die U-Bahn",
-        "phonetic": "Nicht 'Metro' oder 'Tube'"
-      },
-      {
-        "src": "Convenience Store",
-        "local": "Bodega",
-        "phonetic": "boh-DAY-gah"
-      },
-      {
-        "src": "Sandwich Order",
-        "local": "Baconeggandcheese",
-        "phonetic": "Ein Wort. Fügen Sie 'saltpepperketchup' hinzu."
-      }
+      { "src": "Es tut mir wirklich leid", "local": "ごめんなさい", "phonetic": "goh-men-nah-sai" },
+      { "src": "Ich verstehe nicht", "local": "わかりません", "phonetic": "wah-kah-ree-mah-sen" },
+      { "src": "Die Rechnung bitte", "local": "お会計お願いします", "phonetic": "oh-kai-keh oh-neh-gai-shee-mahs" }
     ]
   },
   "neighborhoods": [
     {
-      "name": "Chinatown",
-      "vibe": "Ein tiefes, vielfältiges Ökosystem",
-      "description": "Dies ist ein Bereich, der sich wie eine Stadt innerhalb einer Stadt anfühlt, mit einer Vielzahl an Diversität. Es ist kein Touristenmagnet, sondern eine lebendige Gemeinschaft von Fischern, Kräuterheiler und Bäckern. Hier kann man das günstigste und authentischste Essen in Manhattan genießen.",
+      "name": "Shibuya",
+      "vibe": "Jugend & Energie",
+      "description": "Das pulsierende Herz der Jugendkultur Tokios. Definiert durch Vertikalität und Taltopographie. Der Bahnhof ist ein Stapel; die Ginza-Linie befindet sich im 3. Stock, andere tief unter der Erde. Nutzen Sie 'Urban Cores' (Aufzüge), um nach oben zu gelangen.",
       "highlights": [
-        "Doyers Street",
-        "Columbus Park (Mahjong)",
-        "Dim Sum Salon"
+        "Shibuya Crossing",
+        "Hachiko-Statue",
+        "Center Gai Straße",
+        "Shibuya Sky"
       ],
-      "image": "/images/new-york/chinatown.jpg"
+      "image": "/images/tokyo/shibuya.jpg"
     },
     {
-      "name": "West Village",
-      "vibe": "Charmant und angesagt",
-      "description": "In den 1960er Jahren war dies ein bohemisches Zentrum und spielte eine wichtige Rolle in der LGBTQ-Rechtsbewegung (Stonewall), hat sich jedoch mittlerweile zu einem Spielplatz für Prominente entwickelt. Die verwinkelten und ungewöhnlichen Straßen (einige sind immer noch gepflastert) stellen das Gitter-System von Manhattan in Frage. Hier erfolgt die Orientierung anhand von Sehenswürdigkeiten.",
+      "name": "Shinjuku",
+      "vibe": "Neon-Metropole",
+      "description": "Tokios geschäftigster Bezirk und Verkehrsknotenpunkt. Navigieren Sie nach Himmelsrichtungen: Ostausgang = Neon/Lärm (Kabukicho). Westausgang = Vertikalität/Business (Wolkenkratzer). Südausgang = Shopping/Freiluft.",
       "highlights": [
-        "Washington Square Park",
-        "Bleecker Street",
-        "Jazzclub"
+        "Kabukicho Nachtleben",
+        "Omoide Yokocho",
+        "Golden Gai"
       ],
-      "image": "/images/new-york/west-village.jpg"
+      "image": "/images/tokyo/shinjuku.jpg"
     },
     {
-      "name": "Williamsburg",
-      "vibe": "stylischer Hipster",
-      "description": "Einst von der Domino-Zuckerraffinerie beherrscht, hat sich dieses robuste Industriezentrum in ein Zentrum globaler Trends verwandelt. Erwarten Sie Loftwohnungen in alten Lagerhäusern, Parks am Ufer und einen unglaublichen Blick auf die atemberaubende Skyline.",
+      "name": "Asakusa",
+      "vibe": "Traditionelles Tokio",
+      "description": "Das alte Tokio, bewahrt. Historische Tempel, traditionelle Geschäfte und die nostalgische Atmosphäre der Edo-Zeit. Besuchen Sie es früh (6 Uhr) oder spät (20 Uhr), um dem Gedränge zu entgehen.",
       "highlights": [
-        "Domino Park",
-        "Bedford Avenue",
-        "Smorgasburg"
+        "Senso-ji Tempel",
+        "Nakamise Einkaufsstraße",
+        "Rikschas"
       ],
-      "image": "/images/new-york/williamsburg.jpg"
+      "image": "/images/tokyo/asakusa.jpg"
     },
     {
-      "name": "Astoria und LIC",
-      "vibe": "international und vielfältig",
-      "description": "Im Herzen von Queens, historisch geprägt durch die griechische Gemeinde und die Kaufman Studios. Sie können die wunderbaren Ausblicke auf den Biergarten und die Skyline genießen, ohne sich um die Preise in Manhattan sorgen zu müssen.",
+      "name": "Shimokitazawa",
+      "vibe": "Boheme & Vintage",
+      "description": "Die Hipster-Hauptstadt. Enge Fußgängerzonen voller Vintage-Kleidungsgeschäfte, Plattenläden, Cafés und kleiner Theater. Besuchen Sie den neuen 'Bonus Track'-Grünweg, der nach Setagaya-Daita führt.",
       "highlights": [
-        "Film-Museum",
-        "Gantry Plaza Park",
-        "Griechische Essensstände"
+        "Vintage-Shopping",
+        "Indie-Cafés",
+        "Live-Musik-Locations",
+        "Bonus Track"
       ],
-      "image": "/images/new-york/astoria.jpg"
+      "image": "/images/tokyo/shimokitazawa.jpg"
     },
     {
-      "name": "Harlem",
-      "vibe": "Geschichte und Seele",
-      "description": "Harlem der 1920er Jahre war die Wiege der Renaissance. Es ist weiterhin die Kulturhauptstadt mit historischen Gebäuden, dem berühmten Apollo Theater und der lebendigen Energie der Gemeinschaft.",
+      "name": "Yanaka",
+      "vibe": "Shitamachi (Unterstadt)",
+      "description": "Ein seltener Überlebender der Bombenangriffe des 2. Weltkriegs. Flache Gebäude, viele Tempel und eine ausgeprägte Wohnatmosphäre. Gehen Sie die 'Yanesen'-Route von Ueno nach Nippori für einen Einblick in das Tokio der Vorkriegszeit.",
       "highlights": [
-        "Apollo Theater",
-        "Sylvia's",
-        "Marcus Garvey Park"
+        "Yanaka Ginza",
+        "Nezu-Schrein",
+        "Lokale Katzen"
       ],
-      "image": "/images/new-york/harlem.jpg"
+      "image": "/images/tokyo/yanaka.jpg"
     },
     {
-      "name": "Ridgewood",
-      "vibe": "kühle Grenze",
-      "description": "Wurde 2025 als aufstrebendes Viertel erkannt. Bietet eine Mischung aus historischer Architektur und neuen kulturellen Anlaufstellen und ist derzeit eine ruhige und etwas günstigere Alternative zum kommerzialisierten Williamsburg.",
+      "name": "Daikanyama & Ebisu",
+      "vibe": "Yamanote-Raffinesse",
+      "description": "Das 'Brooklyn von Tokio'. Stilvoll, teuer und wohnlich. Heimat der T-Site Buchhandlung und Spazierwegen am Fluss. Hier verbringen die modischen Tokioter ihre Wochenenden.",
       "highlights": [
-        "historische Architektur",
-        "lokale Cafés",
-        "Kunststätten"
+        "T-Site Buchhandlung",
+        "Meguro-Fluss",
+        "Yebisu Garden Place"
       ],
-      "image": "/images/new-york/ridgewood.jpg"
+      "image": "/images/tokyo/daikanyama.jpg"
     },
     {
-      "name": "Bushwick",
-      "vibe": "industriell und kunstvoll",
-      "description": "Dies ist ein Zentrum des Undergrund-Nachtlebens, wo Sie Partys in Lagerhäusern und Straßenkunst genießen können. Es ist nicht so raffiniert wie Manhattan und bietet eine rohere, industriellere Ästhetik.",
+      "name": "Koenji",
+      "vibe": "Punk & Retro",
+      "description": "Rau, bewohnt und berühmt für seine Punk-Rock-Wurzeln und Vintage-Kultur. Ein großartiger Ort, um das 'alltägliche' Leben in Tokio abseits des Glanzes zu erleben.",
       "highlights": [
-        "Straßenkunst-Kollektiv",
-        "Partys in Lagerhäusern",
-        "Roberta's"
+        "Vintage-Kleidung",
+        "Izakayas",
+        "Awa Odori"
       ],
-      "image": "/images/new-york/bushwick.jpg"
-    },
-    {
-      "name": "Arthur Avenue (Die Bronx)",
-      "vibe": "Echtes kleines Italien",
-      "description": "Dieses Viertel wird als 'echtes kleines Italien' bezeichnet, das fast aus der Marlborough Street in Manhattan verschwunden ist. Es bewahrt traditionelle Märkte, Lebensmittelgeschäfte und multigenerational italienische Familien.",
-      "highlights": [
-        "Einzelhandelsmarkt",
-        "Laden für frische Pasta",
-        "Cigar Lounge"
-      ],
-      "image": "/images/new-york/arthur-avenue.jpg"
-    },
-    {
-      "name": "Jackson Heights",
-      "vibe": "Zentrum der Welt",
-      "description": "Dies ist der vielfältigste Postleitzahlbereich der Erde. Hier treffen 'Kleinindien/Himalaya' und das große Lateinamerika aufeinander. Es ist ein großartiger Ort, um die Aromen von tibetischen Momos und kolumbianischen Arepas zu erleben.",
-      "highlights": [
-        "74. Straße",
-        "Roosevelt Avenue",
-        "Vielfalt der Küche"
-      ],
-      "image": "/images/new-york/jackson-heights.jpg"
-    },
-    {
-      "name": "Flushing",
-      "vibe": "Echtes Chinatown",
-      "description": "Das ist eine moderne, große asiatische Stadt. Sie bietet im Vergleich zu Manhattans Chinatown eine vielfältigere Auswahl an regionalen Gerichten (Sichuan-Küche, nordchinesische Küche, taiwanesische Küche).",
-      "highlights": [
-        "Lebensmittelmarkt",
-        "lokale chinesische Küche",
-        "belebter Markt"
-      ],
-      "image": "/images/new-york/flushing.jpg"
+      "image": "/images/tokyo/koenji.jpg"
     }
   ],
   "logistics": [
     {
-      "id": "logistics-transit",
-      "slug": "getting-around",
-      "title": "Verkehrsmittel",
-      "icon": "Zug",
-      "summary": "Die U-Bahn ist Ihre Lebensader. Nutzen Sie an Regentagen ein Taxi.",
-      "details": [
-        "OMNY und MetroCard: Die MetroCard wird langsam eingestellt. Verwenden Sie OMNY (tippen Sie mit Ihrer Kreditkarte oder Ihrem Gerät) an der Token-Station. Gebührenobergrenze: Nach der Zahlung der 12. Fahrt mit demselben Gerät ist die Fahrt kostenlos (von Montag bis Sonntag).",
-        "Express vs. Lokal: Das ist wichtig! 'Express'-Züge (auf der Karte als weiße Kreise dargestellt) überspringen kleine Stationen. 'Lokal'-Züge (als schwarze Kreise dargestellt) halten an allen Stationen. Lokale Züge sparen Zeit beim 'Eintreiben'.",
-        "Hauptverkehrszeiten: 07:30 bis 10:00 und 16:30 bis 18:30. Die Züge sind überfüllt. Halten Sie Ihren Rucksack vor sich. Drücken ist eine physische Handlung und kein Angriff.",
-        "Wochenenddienste: Die U-Bahn ist 24 Stunden geöffnet, aber wegen Bauarbeiten können die Dienste am Wochenende wesentlich geändert werden. Bitte überprüfen Sie vor Ihrer Reise die MTA-Website oder Citymapper (Samstag/ Sonntag)."
-      ]
-    },
-    {
-      "id": "logistics-dining",
-      "slug": "dining-protocol",
-      "title": "Speiseprotokoll",
-      "icon": "Utensils",
-      "summary": "Trinkgeld ist obligatorisch. Sauberkeit wird überprüft.",
-      "details": [
-        "Regel von 20 %: Trinkgeld ist keine Option. 20 % ist der Standard für Tischbedienung. 15 % wird als gering angesehen. An der Bar gibt man 1 € Trinkgeld pro Getränk. Servicekräfte sind auf Trinkgeld angewiesen.",
-        "Bewertung: Achten Sie auf den blauen 'A'-Aufkleber am Fenster des Restaurants. Dies ist die Bewertung des Gesundheitsamtes. 'B' oder 'C' bedeutet, dass es Hygieneprobleme gibt. 'Bewertung auf eigene Gefahr.'",
-        "Reservierungskultur: In angesagten Lokalen ist es nicht möglich, einfach vorbei zu kommen. Reservierungen starten 14 bis 30 Tage im Voraus über Resy/OpenTable und sind innerhalb von Sekunden ausgebucht. Planen Sie im Voraus.",
-        "Sitz am Counter: NYC ist eine großartige Stadt zum Alleineessen. Am Counter zu essen, ist sozial akzeptabel und der schnellste Weg, um einen Platz in beliebten Restaurants zu bekommen."
-      ]
-    },
-    {
-      "id": "logistics-airports",
-      "slug": "airport-transfers",
-      "title": "Flughafentransfers",
-      "icon": "Flugzeug",
-      "summary": "JFK, LGA oder EWR? Wählen Sie Ihre bevorzugte Option.",
-      "details": [
-        "JFK (Queens): Die AirTrain (€8,25) verbindet sich mit der U-Bahn (€2,90). Es ist günstig (insgesamt €11), benötigt jedoch 60 bis 90 Minuten.",
-        "LGA (Queens): Am nächsten zur Stadt, jedoch nicht mit der U-Bahn verbunden. Nutzen Sie den M60 SBS Bus (gratis Verbindung zur U-Bahn) oder ein Taxi/Uber (ca. €40-60). Der Abholbereich für Uber ist oft stark frequentiert.",
-        "EWR (New Jersey): Nehmen Sie den Zug von NJ Transit zum Penn Station. Es ist schnell und zuverlässig. Taxis von NJ nach NYC sind sehr teuer (Tarife für interstaatliche Reisen gelten)."
-      ]
-    },
-    {
       "id": "logistics-survival",
       "slug": "local-survival",
       "title": "Lokale Überlebenstipps",
-      "icon": "Information",
-      "summary": "Überleben im Beton-Dschungel.",
+      "icon": "Info",
+      "summary": "Wichtige Dinge für eine reibungslose Reise.",
       "details": [
-        "Toilettenregeln: Es gibt keine öffentlichen Toiletten. Nutzen Sie die 'Got2Go'-App, um Toilettencodes zu finden. Zuverlässige kostenlose Optionen: Bryant Park, Grand Central Terminal, Macy's und Whole Foods.",
-        "Navigationsmathematik: 20 Blocks (Nord-Süd) = 1 Meile. Die Länge der Blocks in den Avenues (Ost-West) ist dreimal so lang. 'Gerade' Straßen verlaufen nach Osten, 'ungerade' nach Westen (hauptsächlich).",
-        "Die Realität der Sinne: Sirenen sind immer zu hören. Müllsäcke werden auf dem Bürgersteig abgestellt (kein Parkverbot im Westen). Im Sommer sind die U-Bahn-Plattformen 10-15°F wärmer als die Straße."
+        "Bahnhofsschock: Große Bahnhöfe sind Mini-Städte. Wenn Sie auf der falschen Seite (z.B. Ost vs. West in Shinjuku) herauskommen, sind Sie 20 Minuten entfernt. Überprüfen Sie die Ausgangsnummern genau.",
+        "Letzter-Zug-Protokoll: Züge stoppen zwischen 23:30-00:30 Uhr. 'Letzter Zug' bedeutet oft bis zur Endstation, nicht bis zu *Ihrem* Bahnhof. Wenn Sie ihn verpassen, kostet das über 50 $ für ein Taxi oder eine Nacht im Manga-Café.",
+        "Stoßzeit: Vermeiden Sie Züge von 7:30 bis 9:00 Uhr. Es herrscht physische Quetschgefahr. Stille ist Pflicht.",
+        "Gepäckversand (Takkyubin): Schleppen Sie keine Koffer in Züge. Senden Sie Ihr Gepäck vom Flughafen zu Ihrem Hotel für etwa 20 $. Suchen Sie nach dem 'Schwarze Katze'-Logo."
       ]
     },
     {
-      "id": "logistics-pedestrian",
-      "slug": "pedestrian-law",
-      "title": "Regeln für Fußgänger",
-      "icon": "User",
-      "summary": "Gehen Sie rechts, überholen Sie links und halten Sie niemals an.",
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Herumkommen",
+      "icon": "Train",
+      "summary": "Tokios Zugsystem ist legendär. Sauber, pünktlich und deckt alles ab.",
       "details": [
-        "Goldene Regel: Betrachten Sie den Gehweg wie eine Autobahn. Gehen Sie rechts, überholen Sie links. Stehen Sie nicht in Gruppen von drei oder mehr.",
-        "Hier nicht anhalten: Vermeiden Sie es, an Ausgängen von U-Bahnen, oben auf Treppen oder an den Ecken von Zebrastreifen anzuhalten. Anhalten hier führt zu Menschenansammlungen.",
-        "An der Seite anhalten: Wenn Sie eine Karte ansehen oder eine Nachricht senden müssen, stellen Sie sich an die Wand eines Gebäudes. Im Verkehrsfluss stehen zu bleiben, ist das größte Vergehen.",
-        "Illegale Querung: 2025 legalisiert, aber Fahrzeuge haben Vorrang. Überqueren Sie sicher, aber vergessen Sie nicht, vorsichtig zu sein."
+        "JR Yamanote Linie: Die grüne Ringlinie, die die wichtigsten Knotenpunkte verbindet (Shibuya, Shinjuku, Tokio).",
+        "Tokyo Metro: 13 U-Bahn-Linien. Google Maps ist für das Umsteigen unerlässlich.",
+        "Google Maps: Die einzige Navigations-App, die Sie brauchen. Sie sagt Ihnen genau, in welchen Wagen Sie einsteigen müssen, um am schnellsten auszusteigen.",
+        "IC-Karten Realität (2025): Physische Suica-Karten sind aufgrund von Chipmangel rar. Nutzen Sie 'Mobile Suica' auf dem iPhone (zu Apple Wallet hinzufügen, mit Mastercard/Amex aufladen) oder kaufen Sie eine 'Welcome Suica' Touristenkarte am Flughafen."
       ]
     },
     {
-      "id": "logistics-safety",
-      "slug": "safety-tips",
-      "title": "Sicherheit und Betrug",
-      "icon": "盾",
-      "summary": "Im Allgemeinen ist es sicher, aber es ist wichtig, wachsam zu sein.",
+      "id": "logistics-money",
+      "slug": "money-connectivity",
+      "title": "Geld & Wifi",
+      "icon": "Wifi",
+      "summary": "Bargeld ist König. Wifi ist lückenhaft.",
       "details": [
-        "Betrug am Times Square: Einige Menschen verteilen kostenlose CDs und drohen, Geld zu verlangen. Personen in Masken (Elmo/Mickey) verlangen mehr als 20€ für ein Foto. Ignorieren Sie diese.",
-        "Unberechenbare Personen: Wenn jemand schreit oder mit sich selbst spricht, ignorieren Sie ihn vollkommen. Schauen Sie nicht hin, nehmen Sie nicht am Gespräch teil, gehen Sie einfach weiter.",
-        "Diebstahl von Mobiltelefonen: Benutzen Sie Ihr Mobiltelefon nicht, während Sie an den Türen der U-Bahn stehen. Der Moment, in dem die Türen sich schließen, ist ideal für Diebe.",
-        "Rikscha: Vermeiden Sie diese. Sie verlangen hohe Preise pro Minute (5€ bis 10€/Minute) und es gibt keine Kontrolle darüber."
+        "Bargeld-Regel: Tragen Sie immer ¥20.000 bei sich. Viele Ramen-Läden und Ticketautomaten nehmen nur Bargeld.",
+        "7-Eleven Geldautomaten: Die zuverlässigsten für ausländische Karten. 24/7.",
+        "Konnektivität: Öffentliches Wifi ist unzuverlässig. Organisieren Sie vorab eine eSIM oder Pocket Wifi. Navigation ohne Live-Daten ist unmöglich."
+      ]
+    },
+    {
+      "id": "logistics-scams",
+      "slug": "common-scams",
+      "title": "Betrugsmaschen vermeiden",
+      "icon": "AlertTriangle",
+      "summary": "Tokio ist extrem sicher, aber meiden Sie 'Schlepper'.",
+      "details": [
+        "Die Schlepper-Regel: Folgen Sie NIEMALS einem Straßenpromoter in Kabukicho oder Roppongi. Das Skript lautet 'Massagen?' oder 'Billiger Drink?'. Sie werden unter Drogen gesetzt und um Tausende erleichtert.",
+        "Falsche Mönche: Nehmen Sie keine 'goldenen Karten' oder Segnungen von Mönchen auf der Straße an, die Bargeld verlangen.",
+        "'Girl' Bars: Meiden Sie Orte, an denen Mitarbeiter draußen stehen und versuchen, Sie aggressiv hineinzuziehen.",
+        "Verteidigung: Ignorieren Sie sie komplett. Sagen Sie nicht 'vielleicht später'. Gehen Sie zügig weiter."
       ]
     },
     {
       "id": "logistics-apps",
       "slug": "essential-apps",
-      "title": "Nützliche Anwendungen zum Herunterladen",
+      "title": "Apps zum Downloaden",
       "icon": "Smartphone",
-      "summary": "Digitale Werkzeuge für New York.",
+      "summary": "Diese Apps machen die Navigation in Tokio nahtlos.",
       "details": [
-        "Citymapper: Besseres Navigation als Google Maps für die U-Bahn (zeigt Ihnen, in welches Fahrzeug Sie einsteigen sollten).",
-        "Citizen: Sicherheitsinformationen in Echtzeit. Hilft bei der Situationsbewusstheit, während man Polizeiaktivitäten beobachtet.",
-        "Resy: Führende Plattform für Restaurantbuchungen.",
-        "Revel / Uber: Anwendungen für den Fahrdienst. Revel verfügt über eine komplett elektrische Flotte, die viel sauberer und neuer ist."
+        "Google Maps: Unverzichtbar für Zugverbindungen.",
+        "Google Translate: Nutzen Sie die Kamerafunktion, um Speisekarten zu lesen.",
+        "Suica (Apple Wallet): Fügen Sie eine Transitkarte direkt zu Ihrem iPhone hinzu.",
+        "Tabelog: Das japanische 'Yelp'. 3,5 Sterne sind hier eine sehr hohe Bewertung."
       ]
     }
   ],
   "must_eat": [
     {
       "id": "food-001",
-      "slug": "pizza-slice",
-      "name_en": "1-Dollar-Slice (1,50€+)",
-      "name_local": "Ein Stück",
+      "slug": "sushi",
+      "name_en": "Sushi",
+      "name_local": "寿司",
       "category": "Essen",
       "is_generic_staple": true,
       "description": {
-        "short": "Ein Stück ist ein spezielles Gericht aus New York, das sich von einer ganzen \"Pizza\" unterscheidet. Es wird als alltägliches Fast Food betrachtet und hat eine lange, dreieckige Form, die im Stehen oder Gehen gegessen wird. Die richtige Technik ist, es im \"Riblet-Stil\" zu falten, damit die Spitze nicht herunterfällt. Bestellen Sie \"normale\" oder \"natürliche\" Stücke. Fordern Sie niemals \"Käse-Stücke\" an. 24-Stunden-Pizza-Läden gibt es in allen fünf Stadtteilen.",
-        "vibe": "schnell und praktisch",
-        "history": "Ein Stück Pizza kam in den 1930er und 1940er Jahren durch italienische Einwanderer nach New York, als sie neapolitanische Pizza in die amerikanische Fast-Food-Kultur einfügten. Der Trend des \"1-Dollar-Stücks\" begann in den 2000er Jahren, als der Preis für ein Stück von 1€ auf 1,50€ bis 3€ anstieg. Es wurde zur Treibstoffquelle für die New Yorker.",
-        "insider_tip": "Verwenden Sie kein Messer oder Gabel – das wird geschätzt. Halten Sie es gefaltet, um ein Herunterfallen der Spitze zu vermeiden und die Fette zu bewahren. Ein Stück spät in der Nacht (nach der Bar, zwischen 2 Uhr und 4 Uhr morgens) ist ein Brauch in New York. Es werden verschiedene Methoden zum Aufwärmen diskutiert: Pfanne vs. Ofen vs. kalt lassen. Es ist überall zu finden, aber meiden Sie die Touristenorte rund um den Times Square."
+        "short": "Sushi ist frischer roher Fisch oder Meeresfrüchte, serviert auf gesäuertem Reis, manchmal mit Wasabi zwischen Fisch und Reis. Tokio ist die Welthauptstadt des Sushi, von ultra-teurem Omakase (Chef's Choice Menüs an Theken wie Sukiyabashi Jiro) bis zu erschwinglichem Kaiten-zushi (Fließband-Sushi). Jedes Stück ist dazu gedacht, mit einem Bissen gegessen zu werden. Mischen Sie Wasabi nicht in die Sojasauce – es ist bereits im Sushi.",
+        "vibe": "Raffiniert, delikat",
+        "history": "Sushi entstand in den 1820er Jahren in Tokio (Edo) als Fast Food – Fisch konserviert mit Essig und Reis, von Hand an Straßenständen gegessen. Nach dem 2. Weltkrieg ermöglichte Kühlung frischen rohen Fisch. Die moderne Sushi-Bar entstand in den 1950er-60er Jahren. Der Tsukiji-Markt (jetzt Toyosu) wurde zum größten Fischmarkt der Welt und festigte Tokios Sushi-Vormachtstellung.",
+        "insider_tip": "Beim Fließband-Sushi (¥100-300/Teller) nehmen Sie Teller direkt vom Band oder bestellen per Tablet. Bei High-End-Omakase (¥20.000+) essen Sie jedes Stück sofort, nachdem der Chef es platziert hat, mit der Fischseite auf der Zunge. Nutzen Sie Finger oder Stäbchen. Tauchen Sie die Fischseite (nicht die Reisseite) leicht in Sojasauce. Ingwer ist ein Gaumenreiniger zwischen den Stücken, kein Belag.",
+        "price_level": "Mittel",
+        "good_for": [
+          "Feinschmecker",
+          "Besondere Anlässe"
+        ],
+        "duration": "30 Minuten - 1 Stunde",
+        "best_time": "Mittag- oder Abendessen"
       },
-      "price_level": "moderat",
-      "good_for": [
-        "Fast Food",
-        "Abendessen"
-      ],
-      "duration": "5 Minuten",
-      "best_time": "Jederzeit (besonders abends)"
+      "image": "/images/tokyo/sushi.jpg"
     },
     {
       "id": "food-002",
-      "slug": "bagel",
-      "name_en": "Bagel mit Lox",
-      "name_local": "Everything Bagel",
+      "slug": "ramen",
+      "name_en": "Ramen",
+      "name_local": "ラーメン",
       "category": "Essen",
       "is_generic_staple": true,
       "description": {
-        "short": "Ein Bagel ist ein von Hand geformter Brotkringel aus NYC, der gekocht und dann gebacken wird. Das Innere ist dicht und weich, und die Kruste glänzend. Der Everything Bagel (mit Sesam, Mohnsamen, Zwiebeln, Knoblauch und Salz) ist die ikonische Bestellung in NYC. Er wird mit Frischkäse ('Schmier'), Lox (geräucherter Lachs), Tomaten, Zwiebeln und Kapern serviert. Der 'Krieg' um das Toasten trennt die echten Liebhaber (die frische Bagels nicht toasten) von den Realisten (die ihn toasten, wenn er alt ist).",
-        "vibe": "Klassisch und schnell",
-        "history": "Er wurde Ende des 19. Jahrhunderts von polnischen jüdischen Einwanderern eingeführt. Die Wasserqualität von NYC (Hydration und spezielle Mineralien) soll dem Bagel seinen einzigartigen Geschmack und seine Textur verleihen. Das Bagel-Beschäftigung blieb bis in die 1960er Jahre ein traditionelles Handwerk. Der Everything Bagel wurde in den 1980er Jahren in einem Geschäft in Queens erfunden.",
-        "insider_tip": "Bestimmen Sie Ihre Bestellung, bevor Sie an die Theke kommen – die Schlange wächst schnell, und die Mitarbeiter haben wenig Geduld. 'Schmier' bedeutet eine dünne Schicht Frischkäse, die nicht zu dick sein sollte. Frische Bagels am Morgen (vor 10 Uhr) müssen nicht getoastet werden. Bestellen Sie wie die Einheimischen: 'Everything, Lox, Schmier, Tomaten, Zwiebeln'. Er ist in den Bagel-Läden und Bodegas der Stadt zu finden."
-      },
-      "price_level": "Sehr günstig",
-      "good_for": [
-        "Frühstück",
-        "Snack"
-      ],
-      "duration": "Schnelles Frühstück",
-      "best_time": "Morgens"
-    },
-    {
-      "id": "food-004",
-      "slug": "bacon-egg-cheese",
-      "name_en": "Bacon Ei Käse",
-      "name_local": "BEC",
-      "category": "Essen",
-      "is_generic_staple": true,
-      "description": {
-        "short": "BEC (Bacon Ei Käse) ist ein traditionelles Frühstücks-Sandwich, das ein Spiegelei, Bacon und amerikanischen Käse zwischen nicht geröstetem Brot enthält. Es wird eingewickelt in Aluminiumfolie serviert, ist einfach, frittiert, salzig und günstig (4-6 €). Fragen Sie am Bodega-Theke nach 'Bacon und Käse'. Durch das Hinzufügen von 'Salz-Pfeffer-Ketchup' (SPK) können Sie das echte lokale Erlebnis genießen.",
-        "vibe": "arbeitsam und geschäftig",
-        "history": "BEC kam in den 1950er und 60er Jahren auf, als Bodegas (von puerto-ricanischen und später jemenitisch-dominikanischen Einwanderern geführte Nachbarschaftsgeschäfte) es auf ihre Speisekarten setzten. Es wurde eine Energiequelle für Bauarbeiter, Taxifahrer und Büroangestellte. Die Debatte darüber, ob es ein Sandwich oder ein Bagel ist, geht weiter: das Sandwich ist traditionell, während der Bagel stylisch ist.",
-        "insider_tip": "Das Geheimnis liegt in der Technik der Bodega: knusprige Ränder um das in Butter gebratene Ei und geschmolzener Käse auf dem Ei. Versuchen Sie, es in einem 'Rollen' (Kaiserbrötchen) zu bestellen, um eine authentischere Erfahrung zu machen. Indem Sie 'SPK' sagen, können Sie wie die Einheimischen sprechen. Genießen Sie es heiß und sofort - die Aluminiumfolie hält es bis zu 10 Minuten warm.",
-        "price_level": "günstig",
+        "short": "Ramen ist Tokios Seelennahrung: Weizennudeln in reichhaltiger Brühe (Shoyu/Sojasauce, Miso, Tonkotsu/Schweineknochen oder Shio/Salz) mit Belägen wie Chashu-Schwein, weichgekochtem Ei, Nori und Frühlingszwiebeln. Es ist schnell, günstig (¥800-1.200) und wird solo an Theken gegessen. Schlürfen ist erwünscht – es kühlt die Nudeln und verstärkt den Geschmack durch Belüftung der Brühe. Die meisten Läden erfordern eine Bestellung am Ticketautomaten vor dem Hinsetzen.",
+        "vibe": "Tröstlich, intensiv",
+        "history": "Ramen kam Ende des 19. Jahrhunderts aus China, wurde aber nach dem 2. Weltkrieg typisch japanisch, als billiges Weizenmehl reichlich vorhanden war. Tokio-Stil-Ramen zeichnet sich durch Shoyu-Brühe (Sojasauce) und wellige Nudeln aus. In den 1980er-90ern wurde Ramen zur Kunstform mit konkurrierenden regionalen Stilen. Jetzt hat Tokio über 5.000 Ramen-Läden.",
+        "insider_tip": "Bestellen Sie am Ticketautomaten vor dem Eintreten (englische Menüs sind selten – suchen Sie nach Bildern). Wählen Sie Ihre Nudelfestigkeit (katame = fest). Schlürfen Sie laut – das ist die richtige Technik und zeigt Wertschätzung. Essen Sie schnell, solange es heiß ist; Verweilen ist unerwünscht. Viele Läden nehmen nur Bargeld. Probieren Sie Tsukemen (Dipp-Ramen) für dickere Nudeln und konzentrierte Brühe.",
+        "price_level": "Günstig",
         "good_for": [
-          "Frühstück",
-          "Heilmittel gegen den Kater"
+          "Schnelle Mahlzeiten",
+          "Solo-Essen"
         ],
-        "duration": "5 Minuten",
-        "best_time": "morgens"
+        "duration": "15-20 Minuten",
+        "best_time": "Mittag oder spät nachts"
       },
-      "image": "/images/new-york/bec.jpg"
+      "image": "/images/tokyo/ramen.jpg"
     },
     {
-      "id": "food-010",
-      "slug": "coal-oven-pizza",
-      "name_en": "Kohlenofen-Pizza",
-      "name_local": "ホールパイ",
-      "category": "Essen",
+      "id": "food-020",
+      "slug": "tempura",
+      "name_en": "Tempura",
+      "name_local": "天ぷら",
+      "category": "Gericht",
       "is_generic_staple": true,
       "description": {
-        "short": "Die auf Kohle gebratenen Pizzen sind ein einheimisches Gericht, das über 100 Jahre Geschichte hat und im Antillean Ofen bei 900°F (480°C) zubereitet wird, wodurch in nur 3 Minuten eine knusprige, rauchige Kruste entsteht. Es ist ein Erlebnis, die 'Hohl-Pizza' zu genießen – es ist kein einzelnes Stück, Sie müssen Platz nehmen, sich anstellen und eine Hohl-Pizza bestellen. Die Kruste hat Blasen und das Innere bleibt weich. Es ist eine gesellige Veranstaltung, die Planung und Geduld erfordert.",
-        "vibe": "berüchtigt und kohlengebrannt",
-        "history": "Die Kohlenöfen kamen zu Beginn des 20. Jahrhunderts mit italienischen Einwanderern. Lombardi's (1905) beanspruchte die erste Pizzeria in Amerika. In den 1960er Jahren wurde Kohle aufgrund von Luftqualitätsvorschriften aus der Stadt verbannt, aber einige historische Öfen sind erhalten geblieben. Diese Öfen sind über 100 Jahre alt und können nicht ersetzt werden.",
-        "insider_tip": "Kommen Sie vor der Zahlung oder vor der Öffnung des Geschäfts, um zu vermeiden, dass Sie 2 Stunden warten müssen. Im Kohlenofen-Pizza-Laden gibt es keine Einzelstücke – Sie müssen eine Hohl-Pizza bestellen. Die braunen Stellen (Lepardierung) gelten als wünschenswert, sie sind nicht angebrannt. Legendäre Läden befinden sich in Brooklyn und Manhattan. Fordern Sie keine zusätzlichen Beläge an – Einfachheit ist der Schlüssel (Margherita oder Bianca Pizza)."
-      },
-      "price_level": "mittel",
-      "good_for": [
-        "Abendessen",
-        "Gruppen"
-      ],
-      "duration": "1-2 Stunden",
-      "best_time": "Abendessen",
-      "image": "/images/new-york/coal-pizza.jpg"
-    },
-    {
-      "id": "food-012",
-      "slug": "appetizing-store",
-      "name_en": "Le Comptoir Appétissant",
-      "name_local": "Bagel & Lox",
-      "category": "Essen",
-      "is_generic_staple": true,
-      "description": {
-        "short": "„Le Comptoir Appétissant“ ist ein einzigartiger Laden, der sich auf geräucherte Fische, Milchprodukte und eingelegtes Gemüse spezialisiert hat, anstatt auf Trockenfleisch. Hier finden Sie Lox, Nova (kalträuchernder Lachs), Sabra (geräucherte Tilapia), Weißfischsalat und Frischkäse mit Reis. Bestellungen werden schnell und lebhaft bearbeitet, und es wird eine Nummer ausgegeben. Das Personal ruft die Bestellungen laut und schneidet bei Bedarf den Fisch auf.",
-        "vibe": "Traditionell, effektiv",
-        "history": "Die Entstehung des „Appétissant“ geht auf die frühen 1900er Jahre zurück, als es begann, den Juden zu dienen, die Fleisch und Milchprodukte nicht zusammen konsumieren. Das 'Ruth's & Daughters' aus dem Jahr 1914 ist ein solches ikonisches Geschäft, das weiterhin besteht. Der Begriff 'Appétissant' bezieht sich auf Lebensmittel, die mit Appetitziffern oder Brot serviert werden, einschließlich Fisch, Käse, eingelegtem Gemüse usw.",
-        "insider_tip": "Nehmen Sie Ihre Nummer und überprüfen Sie Ihre Bestellung, bevor Sie an der Theke ankommen. Das Personal kann etwas schroff, aber effizient sein. Bestellen Sie in größeren Mengen; sagen Sie zum Beispiel: '1/4 Pfund Nova, Frischkäse mit Schnittlauch, süße eingelegte Gurken'. Lox ist salziger und fetter, während Nova weich und geräuchert ist. Sabra ist reichhaltiger als Lachs und sehr beliebt bei Gourmetliebhabern. Der Fisch sollte innerhalb von 2 Tagen verzehrt werden.",
+        "short": "Tempura ist Meeresfrüchte oder Gemüse, in einem leichten, luftigen Teig gewendet und bei präzisen Temperaturen (160-180°C) frittiert, bis es knusprig, aber nicht fettig ist. Häufige Zutaten: Ebi (Garnele), Anago (Seeaal), Shiitake-Pilze, Shiso-Blätter und Süßkartoffel. Serviert über Reis (Tendon) oder mit Dipp-Sauce (Tentsuyu). High-End-Tempura-Restaurants servieren jedes Stück einzeln, sobald es frittiert ist. Der Teig sollte beim ersten Bissen zersplittern.",
+        "vibe": "Zart, knusprig",
+        "history": "Tempura wurde im 16. Jahrhundert von portugiesischen Missionaren eingeführt (der Name kommt wahrscheinlich von 'temporas', Fastentagen). Im Edo-Zeit-Tokio machten Straßenverkäufer es als Fast Food populär. Nach dem Krieg wurde es zur gehobenen Küche. Der Tokio-Stil verwendet Sesamöl für einen nussigen Geschmack, im Gegensatz zum leichteren Pflanzenöl-Stil in Kyoto.",
+        "insider_tip": "In High-End-Tempura-Theken (¥10.000+) essen Sie jedes Stück sofort, wenn der Chef es serviert – Tempura verliert innerhalb von 60 Sekunden an Knusprigkeit. Tauchen Sie leicht in Tentsuyu-Sauce oder nutzen Sie Salz (Matcha-Salz für Gemüse). Der Schwanz der Garnele ist essbar und knusprig. In legeren Orten ist Tendon (Tempura-Reisschüssel) die Budget-Option (¥800-1.200). Essen Sie mit Stäbchen, nicht mit Händen.",
         "price_level": "Mittel",
         "good_for": [
-          "Brunch",
-          "Gourmet"
+          "Feinschmecker",
+          "Mittagessen"
         ],
-        "duration": "30 Minuten",
-        "best_time": "Sonntagmorgen"
+        "duration": "30-45 Minuten",
+        "best_time": "Mittag- oder Abendessen"
       },
-      "image": "/images/new-york/appetizing.jpg"
-    },
-    {
-      "id": "food-016",
-      "slug": "chopped-cheese",
-      "name_en": "Chopped Cheese",
-      "name_local": "Chopped Cheese",
-      "category": "Essen",
-      "is_generic_staple": true,
-      "description": {
-        "short": "Chopped Cheese ist ein Symbol von Harlem und dem Bronx. Fein gehacktes Rindfleisch wird mit Zwiebeln auf dem Grill gebraten, mit amerikanischem Käse vermischt und dann in einem Hero-Brot mit Salat, Tomaten und Mayonnaise serviert. Es ist ein Hauptgericht der Arbeiterklasse, das dem Philly Cheesesteak ähnelt. Der wahre Standard ist, dass der Käse zwischen dem Fleisch schmilzt, nicht darüber.",
-        "vibe": "Einfache und lokale Atmosphäre",
-        "history": "Chopped Cheese kam in den 1990er Jahren in die Bodegas von Harlem, möglicherweise beeinflusst von den Besitzern jemenitischer Bodegas, die Lammfleischsandwiches zubereiteten. Es verbreitete sich in der Bronx und in High Manhattan und wurde in den 2010er Jahren von den Medien der Esskultur 'entdeckt', was seine Beliebtheit in der ganzen Stadt steigerte. Bis heute ist es in seiner Geburtsregion am authentischsten.",
-        "insider_tip": "Wenn Sie in einer Bodega in Harlem, der Bronx oder Washington Heights bestellen, können Sie einen authentischeren Geschmack genießen. Die Grilltechniken sind wichtig, das Fleisch und der Käse sollten miteinander verschmelzen. Fügen Sie Ihre bevorzugte scharfe Sauce hinzu. Es handelt sich um ein reichhaltiges und fetthaltiges Gericht, das zwischen 6 und 8 $ kostet. Bitte vermeiden Sie die gentrifizierten Versionen in schickeren Restaurants.",
-        "price_level": "Günstig",
-        "good_for": [
-          "Mittagessen",
-          "Komfortnahrung"
-        ],
-        "duration": "Schneller Snack",
-        "best_time": "Mittagessen oder Mitternacht"
-      },
-      "image": "/images/new-york/chopped-cheese.jpg"
-    },
-    {
-      "id": "food-015",
-      "slug": "nyc-diner",
-      "name_en": "Le Diner",
-      "name_local": "ダイナー",
-      "category": "Essen",
-      "is_generic_staple": true,
-      "description": {
-        "short": "Das Diner von New York ist ein kulturelles Gewebe der Stadt. Normalerweise von Griechen betrieben, sind diese in der Regel 24 Stunden geöffnet und bieten große Plastikmenüs mit griechischem Salat, Matzo-Bällchen, Disco Fries (Pommes mit Käse und Bratensoße) und vielem mehr an. Es ist kein großartiges Essen, sondern ein Ort, um gemütlich zu sitzen und immer eine Tasse Kaffee mit stabilen Aromen zu genießen. Sie können um 15:00 Uhr Frühstück bestellen oder um 19:00 Uhr das Abendessen genießen. Das Diner ist immer ein einladender Ort für jeden.",
-        "vibe": "Gemütlich, demokratisch",
-        "history": "Griechische Einwanderer übernahmen in den 1950er und 1960er Jahren die Diner in New York, kauften Art-Deco-Zugstile und erweiterten das Menü für alle. Der 24-Stunden-Service wurde zur Notwendigkeit für Nachtarbeiter, Schlaflose und Nachtschwärmer. Aufgrund der steigenden Mieten nehmen sie ab, aber sie sind immer noch symbolisch.",
-        "insider_tip": "Bestellen Sie die Disco Fries (Pommes mit Käse und Bratensoße — besser als Poutine). Die Kaffeefüllung ist unbegrenzt und kostenlos. Das Diner serviert den ganzen Tag über Frühstück — das ist die Regel. Box-Sitze sind besondere Plätze. Das Trinkgeld liegt zwischen 15% und 20%. Das Diner ist ein nicht-gerichtlicher Ort, sodass Sie so viel Zeit verbringen können, wie Sie möchten, während Sie Ihren Kaffee genießen. Besonders in Queens sind sie an jeder Ecke der Stadt zu finden.",
-        "price_level": "Günstig",
-        "good_for": [
-          "Nachtzeit",
-          "Gemütliches Essen"
-        ],
-        "duration": "1 Stunde",
-        "best_time": "Nachtzeit oder Frühstück"
-      },
-      "image": "/images/new-york/diner.jpg"
+      "image": "/images/tokyo/tempura.jpg"
     },
     {
       "id": "food-013",
-      "slug": "cheesecake",
-      "name_en": "Käsekuchen NY",
-      "name_local": "Käsekuchen",
+      "slug": "japanese-curry",
+      "name_en": "Japanisches Curry",
+      "name_local": "カレーライス",
       "category": "Essen",
       "is_generic_staple": true,
       "description": {
-        "short": "Der New York Käsekuchen ist dick und reichhaltig, wird gebacken und hat keine Luftblasen. Er wird aus Sahne, Frischkäse (in der Regel der Philadelphia-Marke), Eiern und Zucker auf einer Kruste aus Graham-Crackern hergestellt. Die Textur ist fest und cremig, er ist nicht leicht. Oft wird er ohne Obsttoppings serviert, aber ein Erdbeertopping ist akzeptabel. Eine Portion ist ausreichend groß und kann auch als Hauptgericht dienen, und es erfordert eine strategische Herangehensweise, um ihn zu genießen.",
-        "vibe": "reichhaltig und luxuriös",
-        "history": "Der Käsekuchen kam mit jüdischen Einwanderern nach Amerika, die europäische Rezepte mit Frischkäse (der 1872 erfunden wurde) anpassten. Juniors in Brooklyn (1950) und Lindy's in Manhattan (1921 - geschlossen) wurden berühmt. Die New Yorker Variante (gebacken, dick) konkurriert mit italienischen (Ricotta-Basis) und japanischen Versionen (leicht und schwingend).",
-        "insider_tip": "Juniors in Brooklyn ist das bekannteste, aber viele Delis und Diners bieten großartige Variationen an. Es wird empfohlen, ihn gekühlt zu essen, nicht bei Zimmertemperatur. Eine Portion ist riesig, also ziehen Sie in Betracht, ihn zu teilen. Traditionell wird er alleine oder mit Erdbeertopping gegessen. Schokolade oder andere Geschmacksrichtungen sind für Touristen gedacht. Es ist angenehm, ihn mit schwarzem Kaffee zu genießen, um die Reichhaltigkeit auszugleichen."
-      },
-      "price_level": "erschwinglich",
-      "good_for": [
-        "Desserts",
-        "teilen"
-      ],
-      "duration": "20 Minuten",
-      "best_time": "nach dem Abendessen",
-      "image": "/images/new-york/cheesecake.jpg"
-    },
-    {
-      "id": "food-017",
-      "slug": "hot-dog",
-      "name_en": "Hotti Hund",
-      "name_local": "Dirty Water Dog",
-      "category": "Lebensmittel",
-      "is_generic_staple": true,
-      "description": {
-        "short": "Die NYC Street Hot Dogs (Spitzname: 'Dirty Water Dog') sind Frankfurter aus Rind- oder Schweinefleisch, die in einem metallenen Wagen gekocht und mit gedämpften Brötchen sowie optionalen Toppings (Senf, Sauerkraut, Zwiebeln mit Tomatensauce, Relish) serviert werden. Sie werden von ikonischen Verkäufern in metallenen Wagen verkauft. Sie sind preiswert (2-4 $), schnell und perfekt für unterwegs.",
-        "vibe": "Ikonisch, urban",
-        "history": "Die Hot Dog-Wagen wurden in den 1860er bis 1870er Jahren von deutschen Einwanderern eingeführt. Nathan's Famous auf Coney Island (1916) wurde der bekannteste Anbieter. In den frühen 1900er Jahren gab es Straßenstände überall. Das Design des metallenen Wagens und die Kochmethode im dreckigen Wasser wurden zu einem Markenzeichen von NYC. Gray's Papaya und Papaya King (1932) bieten erschwingliche und sitzplatzfreundliche Varianten an.",
-        "insider_tip": "Die klassische Kombination aus Toppings ist Senf und Sauerkraut – völlig auf Ketchup verzichten (Einheimische kritisieren das). Zwiebeln mit Tomatensauce sind eine Spezialität in NYC. Essen Sie das Brötchen in 4-5 Bissen, bevor es bricht. Die Wagen versammeln sich in der Nähe von U-Bahn-Ausgängen, Touristenattraktionen und vor Bars um 2 Uhr nachts. Nathan's auf Coney Island ist ein Wallfahrtsort."
-      },
-      "price_level": "Erschwinglich",
-      "good_for": [
-        "Schneller Snack",
-        "Mitternacht"
-      ],
-      "duration": "5 Minuten",
-      "best_time": "Jederzeit"
-    },
-    {
-      "id": "food-014",
-      "slug": "street-carts",
-      "name_en": "Brezel und Straßen-Nüsse",
-      "name_local": "Street Carts",
-      "category": "Essen",
-      "is_generic_staple": true,
-      "description": {
-        "short": "An Straßenständen werden warme und weiche Brezeln (groß, salzig, luftig) mit Senf und lokal geröstete Nüsse (karamellisierte Erdnüsse, Cashews, Mandeln) verkauft. Der Duft von gerösteten Nüssen ist ein Teil der Winteratmosphäre in New York. Es ist günstig (2-5 $), schnell und ideal, um zwischen der Fahrt zur U-Bahn oder beim Einkaufen einen Snack zu essen. Die Brezeln sind zäh und erfordern ernsthafte Kieferarbeit.",
-        "vibe": "Nostalgisch und angenehm",
-        "history": "Luftige Brezeln kamen im 19. Jahrhundert mit deutschen Einwanderern nach Amerika. Die Straßenstandkultur wuchs im frühen 20. Jahrhundert schnell, da Einwanderer nach Geschäftsmöglichkeiten suchten. Die einzigartigen Metallwagen wurden von der Stadt reguliert. Geröstete Nüsse wurden Mitte des 20. Jahrhunderts hinzugefügt, und die Verkäufer brachten Vielfalt in ihre Produkte. Der Duft von gerösteten Nüssen ist nun ein Symbol der Straßen von New York.",
-        "insider_tip": "Es ist am besten, Brezeln mit gelbem Senf zu essen - keine anderen Gewürze nötig. Sie sind dicht und entsprechen praktisch einer vollständigen Mahlzeit, was ein sehr befriedigendes Erlebnis bietet. Die gerösteten Erdnüsse haben einen beliebten Haselnussgeschmack. Kaufen Sie sie in Papiertüten und genießen Sie sie heiß. Straßenstände sammeln sich zur Mittagszeit in der Nähe von U-Bahn-Stationen oder Bürobauten. Winter sind die beste Zeit für Brezeln und Nüsse."
-      },
-      "price_level": "Günstig",
-      "good_for": [
-        "Frühstück",
-        "Winter"
-      ],
-      "duration": "5 Minuten",
-      "best_time": "Winter, jederzeit",
-      "image": "/images/new-york/street-nuts.jpg"
-    },
-    {
-      "id": "food-018",
-      "slug": "black-white-cookie",
-      "name_en": "Schwarz-Weiß-Kekse",
-      "name_local": "Schwarz-Weiß-Kekse",
-      "category": "Essen",
-      "is_generic_staple": true,
-      "description": {
-        "short": "Der Schwarz-Weiß-Keks ist ein flacher Keks mit einem Durchmesser von ungefähr 10 cm, der an einer Seite mit Schokoladenglasur und an der anderen mit Vanilleglasur überzogen ist. Es ist eigentlich mehr ein kuchenähnliches Gebäck in Keksform, das weich und schaumig ist. Im Gegensatz zu seinem Namen ist es tatsächlich kein einfacher Keks (der knusprig ist). Man findet es in verschiedenen Delikatesse-Läden, Bäckereien und Lebensmittelgeschäften in New York und es lässt sich herrlich mit Kaffee zum Frühstück oder als Dessert genießen.",
-        "vibe": "süß und nostalgisch",
-        "history": "Anfang des 20. Jahrhunderts kreierte die Greizer Bäckerei in Yorkville (deutsch-israelische Gemeinde diesen Keks. Ursprünglich bekannt als 'Halbmond-Keks', wurde er später 'Schwarz-Weiß' genannt. Dieser Keks wurde nach einem Auftritt von Jerry in einer Episode von Seinfeld, wo er als Symbol für ethnische Harmonie verwendet wurde, populär. Er gilt als typisch für New York und ist außerhalb der Stadt selten zu finden.",
-        "insider_tip": "Kauen Sie jeden Bissen separat, damit Sie sowohl die Schokolade als auch die Vanille genießen können - das ist die von Seinfeld genehmigte Technik. Der Keks sollte weich und frisch sein, nicht trocken. Es wird empfohlen, ihn von einer traditionellen jüdischen Bäckerei oder Delikatesse zu kaufen, anstatt bei Starbucks (was von niedrigerer Qualität ist). Mit schwarzem Kaffee wird es noch köstlicher. Es ist kein Frühstücksartikel, sondern eignet sich besser für einen Snack am Nachmittag oder als Dessert."
-      },
-      "price_level": "preiswert",
-      "good_for": [
-        "Frühstück",
-        "Begleiter zum Kaffee"
-      ],
-      "duration": "10 Minuten",
-      "best_time": "Nachmittag",
-      "image": "/images/new-york/black-white-cookie.jpg"
-    },
-    {
-      "id": "food-019",
-      "slug": "knish",
-      "name_en": "Knish",
-      "name_local": "Knish",
-      "category": "Essen",
-      "is_generic_staple": true,
-      "description": {
-        "short": "Ein Knish ist ein frittiertes oder gebackenes Teigtäschchen jüdischer Herkunft aus Osteuropa, das mit Kartoffelpüree in Teig gewickelt wird. Es hat eine runde oder quadratische Form und kann mit verschiedenen Füllungen gefüllt sein (Kartoffeln, Kasha, Spinat, Käse), wobei Kartoffeln die Hauptfüllung sind. Es ist reichhaltig und sättigend und wird zu einem fairen Preis (€3-5) serviert, am besten heiß gegessen. Man kann es mit der Hand essen und genießt es oft mit Senf. Es ist eine warme, tragbare Mahlzeit für die Arbeiterklasse, die in einer Packung verpackt ist.",
-        "vibe": "Herzergreifend, traditionell",
-        "history": "Es wurde Ende des 19. Jahrhunderts von Einwanderern aus der Ukraine und Polen gebracht. Yonah Schimmel's Knish (1910) am Lower East Side ist noch immer in Betrieb und das älteste Knish-Restaurant, das das Originalrezept befolgt. Im frühen 20. Jahrhundert verkauften Lebensmittelverkäufer Knishes aus heißen Behältern. Seine quadratische Form ist typisch für Yonah Schimmel, nicht rund.",
-        "insider_tip": "Stellen Sie sicher, dass Sie den Kartoffelknish mit Senf bestellen: das ist die traditionelle Kombination. Yonah Schimmel's Knish auf der Houston Street ist ein heiliger Ort (seit 1910). Der Knish sollte heiß, reichhaltig und sättigend sein: es ist kein Snack, sondern eine Mahlzeit. Kasha (Buchweizen) ist der zweithäufigste Geschmack. Man kann ihn in Delikatessegeschäften oder jüdischen Bäckereien finden, aber außerhalb des Lower East Side wird es zunehmend selten.",
-        "price_level": "bezahlbar",
+        "short": "Japanisches Curry (Kare Raisu) ist dick, mild, leicht süß und völlig anders als indisches oder thailändisches Curry. Es wird mit einer Mehlschwitze aus Currypulver, Mehl und Öl hergestellt, was zu einer saucenartigen Konsistenz führt. Serviert über Reis mit Belägen wie Schweineschnitzel (Katsu Curry), Hähnchen oder Gemüse. CoCo Ichibanya ist die allgegenwärtige Kette, wo Sie Schärfegrade (1-10) und Beläge anpassen können. Es ist Wohlfühlessen, nicht exotisch.",
+        "vibe": "Tröstlich, mild",
+        "history": "Curry kam in den 1870er Jahren über die britische Marine während der Meiji-Ära nach Japan. Die Japaner passten es mit Currypulver und Mehlschwitze an und machten es süßer und milder. In den 1960ern machten Instant-Curry-Würfel (Golden Curry, Vermont Curry) es zum Haushalts-Grundnahrungsmittel. CoCo Ichibanya eröffnete 1978 und wurde Japans größte Curry-Kette.",
+        "insider_tip": "CoCo Ichibanya ist perfekt für Anpassungen – wählen Sie die Reismenge (200-400g), Schärfegrad (1-5 für die meisten, 6-10 ist wirklich scharf) und Beläge (frittiertes Schweineschnitzel, Käse, Spinat). Stufe 3 ist leicht scharf; Stufe 5 hat Feuer. Das Curry kommt mit Fukujinzuke (rotem eingelegten Gemüse) an der Seite. Essen Sie es, indem Sie Curry in den Reis mischen. Es ist billig (¥500-800) und schnell.",
+        "price_level": "Günstig",
         "good_for": [
-          "Frühstück",
-          "Herzergreifende Mahlzeit"
+          "Wohlfühlessen",
+          "Anpassung"
         ],
-        "duration": "10 Minuten",
-        "best_time": "Jederzeit"
+        "duration": "20-30 Minuten",
+        "best_time": "Mittag- oder Abendessen"
       },
-      "image": "/images/new-york/knish.jpg"
+      "image": "/images/tokyo/curry.jpg"
     },
     {
       "id": "food-011",
-      "slug": "dim-sum",
-      "name_en": "点心と餃子",
-      "name_local": "Dim Sum",
+      "slug": "tonkatsu",
+      "name_en": "Tonkatsu",
+      "name_local": "とんかつ",
       "category": "Essen",
       "is_generic_staple": true,
       "description": {
-        "short": "Die chinesische Essensszene in New York basiert auf den Wurzeln von Einwanderungswellen in Manhattans Chinatown und Flushing in Queens. Dim Sum sind kleine Plattengerichte (Dumplings, Sandwiches, Rollen), die entweder von fahrenden Wagen serviert oder à la carte bestellt werden und typischerweise zur Brunchzeit gegessen werden. Suppe Dumplings (Xiao Long Bao) sind Dumplings gefüllt mit einer heißen Brühe. Das Essenserlebnis ist lebhaft, gemeinschaftlich und schnell.",
-        "vibe": "Lebhaft und authentisch",
-        "history": "Kantonesische Einwanderer gründeten Chinatown zwischen 1870 und 1900. Dim Sum tauchte um 1900 auf, und der Wagenservice wurde bis zur Mitte des Jahrhunderts zur Norm. Chinatowns in Flushing wuchsen in den 1980er und 1990er Jahren rapide durch Einwanderer aus China, Taiwan und Hongkong und brachten Vielfalt mit sich. Jetzt konkurriert New York in Sachen Authentizität mit Hongkong.",
-        "insider_tip": "Wenn Sie auf der Suche nach authentischem und vielfältigem chinesischem Essen sind, besuchen Sie Flushing: Sichuan, nordchinesische Küche, taiwanesische Küche usw. Dim Sum wird traditionell am Wochenende zwischen 10 und 14 Uhr gegessen. Für Suppe Dumplings (Xiao Long Bao) ist eine Technik nötig: Vor dem Essen die Brühe durch das kleine Loch herausdrücken. Die Wagen sind verschwunden und in den meisten Läden wird ein Bestellblatt verwendet. Vergessen Sie nicht, Bargeld mitzubringen; viele Läden akzeptieren keine Karten.",
-        "price_level": "Günstig",
+        "short": "Tonkatsu ist ein paniertes, frittiertes Schweineschnitzel (meist Lende oder Filet), dünn geklopft, in Panko-Bröseln gewendet und bei präzisen Temperaturen frittiert für ein knuspriges Äußeres und saftiges Inneres. Serviert mit geschreddertem Kohl (gegessen mit Sesam-Dressing), Miso-Suppe, Reis und Tonkatsu-Sauce (dick, süß-würzig). Die Panade sollte zersplittern; das Schwein sollte zart und innen blassrosa sein. Es ist chirurgische Präzision angewandt auf frittiertes Schwein.",
+        "vibe": "Knusprig, tröstlich",
+        "history": "Tonkatsu wurde 1899 in Tokio in einem Restaurant namens Rengatei kreiert, als Adaption des europäischen Schnitzels mit japanischen Panko-Bröseln. Es wurde nach dem 2. Weltkrieg zum Grundnahrungsmittel. High-End-Tonkatsu-Restaurants beziehen heute Heritage-Schweinefleisch (Kurobuta, Berkshire) und frittieren bei exakten Temperaturen. Das Handwerk des Tonkatsu wird ernst genommen.",
+        "insider_tip": "Das beste Tonkatsu hat eine 3-5mm knusprige Panko-Schicht und ein saftiges Inneres. Mahlen Sie Sesamkörner im Mörser an Ihrem Tisch und mischen Sie sie mit der bereitgestellten Sauce für frischen Geschmack. Der geschredderte Kohl ist unbegrenzt – er soll die Reichhaltigkeit schneiden. Essen Sie das Schnitzel mit Reis und Miso-Suppe in abwechselnden Bissen (traditioneller japanischer Essstil). Tonkatsu Maisen und Butagumi sind verlässliche Ketten.",
+        "price_level": "Mittel",
         "good_for": [
-          "Gruppen",
-          "Brunch"
+          "Wohlfühlessen",
+          "Mittagessen"
         ],
-        "duration": "1-2 Stunden",
-        "best_time": "Wochenend-Brunch"
+        "duration": "30-45 Minuten",
+        "best_time": "Mittag- oder Abendessen"
       },
-      "image": "/images/new-york/dim-sum.jpg"
+      "image": "/images/tokyo/tonkatsu.jpg"
     },
     {
-      "id": "food-003",
-      "slug": "pastrami",
-      "name_en": "Roggen-Pastrami",
-      "name_local": "Sándwich di Pastrami",
+      "id": "food-010",
+      "slug": "yakitori",
+      "name_en": "Yakitori",
+      "name_local": "焼き鳥",
       "category": "Essen",
       "is_generic_staple": true,
       "description": {
-        "short": "Roggen-Pastrami ist ein Symbol der jüdischen Delikatesse. Es ist ein mit Gewürzen mariniertes Rinderbruststück, das einige Wochen lang eingelegt, dann mit schwarzem Pfeffer und Koriandersamen eingerieben, mehrere Stunden geräuchert und anschließend gedämpft wird, bis es zart ist. Es wird in Roggenbrot mit Senf gefüllt, wobei etwa 450 Gramm Fleisch gehobelt werden. Mayonnaise oder Blattsalat werden nicht verwendet. Katz's Delicatessen auf der Lower East Side (gegründet 1888) ist ein historischer Ort. Dieses Sandwich ist sehr reichhaltig und sollte mit beiden Händen gegessen werden.",
-        "vibe": "historisch und großartiges Essen",
-        "history": "Pastrami kam Ende des 19. Jahrhunderts mit jüdischen Einwanderern aus Rumänien nach Amerika. Sie rekreierten die rumänische Pastrama (getrocknetes Fleisch) mit dem amerikanischen Brisket. Katz's Delicatessen wurde 1888 eröffnet und besteht seit mehreren Generationen. 'Senden Sie eine Salami für Ihren Soldaten' ist eine berühmte Kampagne des Zweiten Weltkriegs. Die Delikatessekultur erreichte in der Mitte des 20. Jahrhunderts ihren Höhepunkt, aber mit der Verbreitung der jüdischen Gemeinschaft nahm sie ab.",
-        "insider_tip": "Wenn Sie bei Katz's bestellen, holen Sie bitte Ihr Ticket am Eingang (bei Verlust beträgt die Strafe 50 Dollar). Bestellen Sie am Tresen Pastrami auf Roggenbrot mit Senf und geben Sie dem Schneider ein Trinkgeld von 1-2 Dollar für zusätzliches Fleisch. Nachfragen nach Mayonnaise ist ein großes Vergehen. Teilen ist eine gute Idee, da das Sandwich über 450 Gramm wiegt. Um Hauptzeiten (Montag bis Freitag 14:00-16:00) zu vermeiden, versuchen Sie, später zu kommen."
+        "short": "Yakitori sind gegrillte Hähnchenspieße, die über Binchotan-Holzkohle gegart werden, was ein rauchiges Aroma verleiht. Nicht nur Brustfleisch – probieren Sie Schenkel (Momo), Haut (Kawa), Leber (Reba), Herz (Hatsu), Muskelmagen (Sunagimo) und Fleischbällchen (Tsukune). Bestellt als 'Tare' (süße Sojaglasur) oder 'Shio' (Salz). Es ist das typische Essen nach der Arbeit, gegessen im Stehen an legeren Orten oder sitzend in rauchigen Gassen, gepaart mit Bier oder Highballs.",
+        "vibe": "Rauchig, gesellig",
+        "history": "Yakitori entstand im Nachkriegs-Tokio, als Hühnchen erschwinglich wurde. Straßenverkäufer grillten Spieße über Holzkohle in Bahnhofsgassen. In den 1960er-70ern wurde Yakitori zur Salaryman-Kultur – billig, schnell und gepaart mit Alkohol. Die Gasse unter dem Bahnhof Yurakucho ist ikonisch. Heute reicht Yakitori von ¥100 Straßenständen bis zu ¥10.000 Omakase-Theken.",
+        "insider_tip": "Bestellen Sie eine Vielfalt an Teilen – bleiben Sie nicht nur bei Brustfleisch. Negima (Huhn und Lauch) ist der Klassiker. Kawa (knusprige Hühnerhaut) ist ein Muss. Probieren Sie zuerst 'Shio' (Salz), um die Hühnchenqualität zu schmecken, dann 'Tare' (Sauce). Paaren Sie es mit Nama Biiru (Fassbier) oder Lemon Chuhai. Steh-Yakitori-Lokale sind am billigsten; Sitzrestaurants sind teurer aber bequemer.",
+        "price_level": "Günstig",
+        "good_for": [
+          "Nach der Arbeit",
+          "Gruppen"
+        ],
+        "duration": "1-2 Stunden",
+        "best_time": "Abend"
       },
-      "price_level": "teuer",
+      "image": "/images/tokyo/yakitori.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "gyudon",
+      "name_en": "Gyudon (Rindfleischschale)",
+      "name_local": "牛丼",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Gyudon ist dünn geschnittenes Rindfleisch und Zwiebeln, geschmort in einer süß-würzigen Soja-Brühe, serviert über einer Schale gedämpftem weißen Reis. Es ist schnell, billig (¥400-600), sättigend und 24/7 bei Ketten wie Yoshinoya, Sukiya und Matsuya verfügbar. Sie bestellen am Automaten, sitzen an einer Theke und essen schnell. Es ist das japanische Äquivalent zu Fast Food – utilitaristisch, konsistent und überall.",
+        "vibe": "Schnell, utilitaristisch",
+        "history": "Gyudon wurde 1899 während der Meiji-Ära erfunden, als Rindfleischkonsum in Japan akzeptabel wurde. Yoshinoya eröffnete 1899 am Tsukiji-Markt und bediente Arbeiter. Es wurde in den 1970er-80ern zum nationalen Fast Food. Die 24/7-Verfügbarkeit machte es essentiell für Salarymen, Studenten und Nachtarbeiter. Sukiya und Matsuya sind große Konkurrenten.",
+        "insider_tip": "Bestellen Sie am Ticketautomaten – suchen Sie nach Bildern. 'Nami' (regulär) oder 'Atama no Oomori' (extra Fleisch, weniger Reis) sind beliebte Optionen. Fügen Sie ein rohes Ei (nama tamago) hinzu, um es in den heißen Reis und das Rindfleisch zu mischen. Beläge wie Kimchi oder Käse sind verfügbar. Es ist Solo-Essen – niemand urteilt. Essen Sie schnell und gehen Sie. Perfekt für Budget-Mahlzeiten oder Hunger um 3 Uhr morgens."
+      },
+      "price_level": "Günstig",
       "good_for": [
-        "Mittagessen",
-        "Erlebnis"
+        "Schnelle Mahlzeiten",
+        "Budget-Essen"
       ],
-      "duration": "1 Stunde",
-      "best_time": "Mittagessen",
-      "image": "/images/new-york/pastrami.jpg"
+      "duration": "10-15 Minuten",
+      "best_time": "Jederzeit (besonders spät nachts)"
+    },
+    {
+      "id": "food-021",
+      "slug": "monjayaki",
+      "name_en": "Monjayaki",
+      "name_local": "もんじゃ焼き",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Monjayaki ist Tokios flüssigerer, chaotischerer Cousin von Osakas Okonomiyaki – ein herzhafter Pfannkuchen aus Kohl, Meeresfrüchten oder Fleisch und einem wässrigen Teig, der auf einem flachen Teppan-Grill an Ihrem Tisch gekocht wird. Der Teig bleibt flüssig und knusprig an den Rändern. Sie kratzen ihn mit winzigen Metallspateln vom Grill und essen direkt von der heißen Oberfläche. Es ist chaotisch, interaktiv und vor allem im Tokioter Viertel Tsukishima ('Monja Street') zu finden.",
+        "vibe": "Chaotisch, interaktiv",
+        "history": "Monjayaki entstand im Arbeiterviertel Tsukishima in Tokio in den 1950er-60er Jahren als billiger Snack für Kinder. Der Name kommt von 'monji' (Buchstaben) – Kinder zeichneten Zeichen mit dem Teig. Es blieb hyper-lokal bis in die 1980er-90er, als es zur Tokioter Spezialität wurde. Tsukishima hat heute 50+ Monjayaki-Restaurants in der 'Monja Street'.",
+        "insider_tip": "Gehen Sie nach Tsukishima (Monja Street) für das authentischste Erlebnis. Bestellen Sie Mentai-Mochi (Kabeljau-Rogen und Mochi) oder Meeresfrüchte-Versionen. Das Personal kocht das erste für Sie – schauen Sie genau zu. Hacken Sie Zutaten, schieben Sie sie zu einem Ring, gießen Sie Teig in die Mitte, dann dünn verteilen. Lassen Sie es an den Rändern knusprig werden, dann kratzen und essen Sie mit Mini-Spateln direkt vom Grill. Es ist sozial und macht Spaß.",
+        "price_level": "Mittel",
+        "good_for": [
+          "Gruppen",
+          "Interaktives Essen"
+        ],
+        "duration": "1-2 Stunden",
+        "best_time": "Abendessen"
+      },
+      "image": "/images/tokyo/monjayaki.jpg"
     },
     {
       "id": "food-005",
-      "slug": "halal-cart",
-      "name_en": "Hähnchenreiskartoffeln",
-      "name_local": "Halal Cart",
+      "slug": "konbini",
+      "name_en": "Konbini (Convenience Store)",
+      "name_local": "コンビニ",
       "category": "Essen",
       "is_generic_staple": true,
       "description": {
-        "short": "Hähnchen oder Lammfleisch wird würzig zubereitet und auf buntem, mit Kurkuma gefärbtem Reis serviert, dazu gibt es Salat, Tomaten und die berühmte 'Weiße Soße' (auf Mayo- und Joghurtbasis) sowie optional die 'Rote Soße' (sehr scharfer, harissa-artiger Stil). Serviert wird es in einem Polystyrolbehälter von einem gelben Metallwagen. Ursprünglich wurde es speziell für muslimische Taxifahrer kreiert, die halal schnelles Essen benötigten und hat sich mittlerweile in der gesamten Stadt verbreitet, und ist 24 Stunden lang in vielen Wagen das ganze Jahr über verfügbar.",
-        "vibe": "schnell, zufriedenstellend",
-        "history": "Die Halal-Wagen entstanden in den 90er Jahren durch Einwanderer aus dem Nahen Osten und Südostasien (insbesondere Ägypten, Jemen, Bangladesch), die Taxifahrer wurden und halal Nahrung benötigten. Der Wagen an der 53rd & 6th (Die Halal Guys) wurde berühmt und wurde in der ganzen Stadt nachgeahmt. In den 2000er und 2010er Jahren wurde Hähnchenreis zu einem beliebten Abendessen in New York und begann, mit Pizza zu konkurrieren.",
-        "insider_tip": "'Bitte nach der Weißen Soße fragen und sich an die Rote Soße (extrem scharf – langsam anfangen) heranwagen, um es auszuprobieren. Die Halal Guys an der 53rd & 6th sind die bekanntesten, allerdings gibt es dort lange Wartezeiten. Die Wagen, in denen Einheimische anstehen, sind alle gut. Fragen Sie nach dem 'Combo Rice', damit Sie sowohl Hähnchen als auch Lamm genießen können. Diese wagen sind bis spät in die Nacht geöffnet, perfekt für den Hunger nach 2 Uhr morgens. Die meisten Wagen akzeptieren nur Barzahlung."
+        "short": "Konbini (Convenience Stores) – 7-Eleven, Lawson, FamilyMart – sind Japans kulinarische Geheimwaffe und bieten schockierend hochwertiges Essen 24/7. Berühmte Artikel: Eiersalat-Sandwiches (fluffiges Weißbrot, cremige Füllung), Onigiri (Reisbällchen mit Lachs, Thunfisch-Mayo oder eingelegter Pflaume), frittiertes Hähnchen (Famichiki bei FamilyMart), Oden (Eintopf-Artikel in Brühe) und frischer Kaffee. Es ist billig (¥100-500), zuverlässig und die ganze Nacht offen.",
+        "vibe": "Bequem, zuverlässig",
+        "history": "Japans erstes 7-Eleven öffnete 1974 und revolutionierte den Einzelhandel. In den 1980er-90ern wurden Konbini zur essentiellen städtischen Infrastruktur – Geldautomaten, Rechnungszahlung, Drucken, Essen, alles in einem. Die Essensqualität stieg in den 2000ern mit täglichen Lieferungen und Kühltechnik. Jetzt werden Konbini in ganz Japan täglich 60+ Millionen Mal besucht.",
+        "insider_tip": "Erwärmen Sie Artikel an der Kasse – das Personal fragt 'atatamemasu ka?' (soll ich es wärmen?). Top-Auswahl: Eiersalat-Sandwich (tamago sando), Thunfisch-Mayo-Onigiri, Famichiki frittiertes Hähnchen, Oden im Winter und Konbini-Kaffee (¥100-200). Suchen Sie nach saisonalen Artikeln. Nutzen Sie den Heißwasserspender für Instant-Ramen. Lawson hat die besten Desserts (Uchi Cafe Marke). Es ist urteilsfreies Essen um 3 Uhr morgens.",
+        "price_level": "Günstig",
+        "good_for": [
+          "Schnelle Mahlzeiten",
+          "Spät nachts"
+        ],
+        "duration": "5 Minuten",
+        "best_time": "Jederzeit (besonders spät nachts)"
       },
-      "price_level": "günstig",
-      "good_for": [
-        "später Abend",
-        "schnelles Essen"
-      ],
-      "duration": "10 Minuten",
-      "best_time": "später Abend"
+      "image": "/images/tokyo/konbini.jpg"
+    },
+    {
+      "id": "food-014",
+      "slug": "udon-soba",
+      "name_en": "Udon & Soba",
+      "name_local": "うどん / そば",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Udon sind dicke, zähe Weizennudeln; Soba sind dünne, nussige Buchweizennudeln. Beide werden heiß in Brühe oder kalt mit Dipp-Sauce serviert. Zu finden an Stehtheken in Bahnhöfen (Tachi-gui), wo man schnell schlürft und geht, oder in Sitzrestaurants für handgemachte Versionen. Es ist schnell, billig (¥300-800) und leicht. Beliebte Versionen: Kake Udon (einfache heiße Brühe), Tempura Soba (mit Garnelen-Tempura) und Zaru Soba (kalte Nudeln).",
+        "vibe": "Schnell, einfach",
+        "history": "Soba datiert auf die Edo-Zeit (1600er), als es Tokios Arbeiterklasse-Grundnahrungsmittel war. Udon ist älter, aus den 1300ern. Steh-Soba-Läden an Bahnhöfen entstanden in den 1960ern für gehetzte Pendler. Handgemachte Soba wurde zur Kunstform, mit Meister-Handwerkern, die Nudeln täglich frisch machen. Das Schlürfgeräusch ist traditionell – es kühlt Nudeln und belüftet die Brühe.",
+        "insider_tip": "An Stehtheken (Tachi-gui Soba), bestellen Sie am Automaten, essen Sie in unter 5 Minuten im Stehen und gehen Sie – es ist Rush-Kultur. Für Sitz-Soba probieren Sie kaltes 'Zaru Soba' mit Dipp-Sauce (Tsuyu) – tauchen Sie 1/3 der Nudeln, nicht den ganzen Bissen. Beenden Sie mit dem Trinken des heißen Soba-Wassers (Sobayu), gemischt mit restlicher Dipp-Sauce. Top-Ketten: Fuji Soba (24/7), Hanamaru Udon.",
+        "price_level": "Günstig",
+        "good_for": [
+          "Schnelle Mahlzeiten",
+          "Budget-Essen"
+        ],
+        "duration": "10-15 Minuten",
+        "best_time": "Mittag oder schneller Snack"
+      },
+      "image": "/images/tokyo/soba.jpg"
+    },
+    {
+      "id": "food-015",
+      "slug": "teishoku",
+      "name_en": "Teishoku (Set Meal)",
+      "name_local": "定食",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Teishoku ist ein ausgewogenes Set-Menü: ein Hauptgericht (gegrillter Fisch, Ingwer-Schwein, frittiertes Hähnchen Karaage oder Makrele), gedämpfter Reis, Miso-Suppe, eingelegtes Gemüse (Tsukemono) und manchmal ein kleiner Salat. Es ist das wahre Mittagessen von Tokio – schnell, gesund, erschwinglich (¥800-1.200) und serviert bei Ketten wie Ootoya, Yayoiken oder lokalen Shokudo (Kantinen). Sie bekommen eine komplette, nahrhafte Mahlzeit in 15 Minuten.",
+        "vibe": "Ausgewogen, effizient",
+        "history": "Teishoku entstand in den frühen 1900ern als Fabrikarbeiter-Mahlzeiten, die billig ausgewogene Ernährung boten. Nach dem 2. Weltkrieg wurden Teishoku-Restaurants (Shokudo) Standard für das Mittagessen. In den 1980er-90ern standardisierten Ketten wie Ootoya das Format. Das Konzept spiegelt japanische Ideen von ausgewogenem Essen wider (ichiju-sansai: eine Suppe, drei Gerichte).",
+        "insider_tip": "Ketten wie Ootoya und Yayoiken haben Bildmenüs und Englisch. Beliebte Hauptgerichte: Saba no Shioyaki (gegrillte gesalzene Makrele), Shogayaki (Ingwer-Schwein), Karaage (frittiertes Hähnchen). Kostenloser Reis-Nachschlag ist üblich – fragen Sie 'okawari kudasai'. Die Mahlzeit ist vom Design her ausgewogen – essen Sie Reis, Hauptgericht, Suppe und Essiggurken in Rotation. Es ist solo-freundlich; niemand urteilt.",
+        "price_level": "Günstig",
+        "good_for": [
+          "Mittagessen",
+          "Solo-Essen"
+        ],
+        "duration": "20-30 Minuten",
+        "best_time": "Mittagessen"
+      },
+      "image": "/images/tokyo/teishoku.jpg"
+    },
+    {
+      "id": "food-016",
+      "slug": "izakaya-culture",
+      "name_en": "Izakaya & Otoshi",
+      "name_local": "居酒屋",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Izakaya ist eine japanische Kneipe, wo Mitarbeiter nach der Arbeit zusammenkommen, um zu trinken und kleine Teller zu essen (Edamame, Karaage, gegrillter Fisch, Yakitori). Das 'Otoshi' ist eine obligatorische Tischgebühr (¥300-500), die eine kleine Vorspeise beinhaltet – es ist kein Betrug, es ist die Gedeckgebühr wie Brot in italienischen Restaurants. Rufen Sie 'Sumimasen!', um den Kellner zu rufen. Bestellen Sie Bier (Nama Biiru), Highballs oder Sake und teilen Sie Gerichte. Es ist Tokios soziales Ventil.",
+        "vibe": "Sozial, laut",
+        "history": "Izakaya entstand in der Edo-Zeit (1600er) als Sake-Läden, wo Kunden sitzen und trinken konnten. Nach dem 2. Weltkrieg entwickelten sie sich zu vollen Restaurants, die kleine Teller servierten. In den 1980ern wurde Izakaya zur essentiellen Salaryman-Kultur – der Ort, um nach der Arbeit Druck abzulassen. Ketten wie Torikizoku und Watami standardisierten das Format, aber unabhängige Izakayas bewahren Charakter.",
+        "insider_tip": "Das Otoshi (Tischgebühr) ist automatisch – hinterfragen Sie es nicht, essen Sie einfach die kleine Vorspeise. Bestellen Sie ein paar Gerichte auf einmal – Edamame, Karaage, Yakitori, Sashimi. Trinken ohne Essen ist in Japan ungewöhnlich. Rufen Sie laut 'Sumimasen!', um die Aufmerksamkeit des Kellners zu bekommen. All-you-can-drink (Nomihoudai) ist üblich für ¥2.000-3.000 für 2 Stunden. Gehen Sie, wenn Sie fertig sind; kein Druck zu verweilen.",
+        "price_level": "Mittel",
+        "good_for": [
+          "Gruppen",
+          "Nach der Arbeit"
+        ],
+        "duration": "2-3 Stunden",
+        "best_time": "Abend"
+      },
+      "image": "/images/tokyo/izakaya.jpg"
+    },
+    {
+      "id": "food-018",
+      "slug": "breakfast-reality",
+      "name_en": "Tokyo Breakfast",
+      "name_local": "朝ご飯",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Tokio-Frühstück ist nicht Eier und Toast – es ist entweder ein traditionelles japanisches Set (gegrillter Fisch, Reis, Miso-Suppe, Essiggurken, Natto), serviert in Hotelbuffets oder Teishoku-Restaurants, oder ein Konbini-Gebäck/Sandwich auf die Hand. Westliche Cafés, die vor 10 Uhr öffnen, sind selten; Coffeeshops (Doutor, Starbucks) servieren Gebäck. Das Konzept von 'Brunch' existiert nicht. Frühstückskultur ist utilitaristisch, nicht gemütlich.",
+        "vibe": "Funktional, schnell",
+        "history": "Traditionelles japanisches Frühstück datiert auf die Edo-Zeit (1600er) – Reis, Miso-Suppe, gegrillter Fisch und Essiggurken. Westliches Frühstück wurde nach dem 2. Weltkrieg eingeführt, ersetzte aber nie das traditionelle Format. In den 1980ern wechselten beschäftigte Tokioter zu Konbini oder übersprangen das Frühstück ganz. Die Sitz-Frühstückskultur ist meist für Touristen in Hotels.",
+        "insider_tip": "Wenn Sie ein traditionelles japanisches Frühstück wollen, buchen Sie ein Hotel, das es beinhaltet, oder gehen Sie zu einem Teishoku-Restaurant (offen 7-9 Uhr). Für schnelles Frühstück, ab zum Konbini für Tamago Sando (Eiersandwich) oder Onigiri. Coffeeshops wie Doutor und Komeda öffnen gegen 7-8 Uhr mit Toast-Sets. Erwarten Sie keinen Avocado-Toast oder Brunch-Kultur – das ist kein Ding. Essen Sie früh oder warten Sie bis zum Mittagessen.",
+        "price_level": "Günstig",
+        "good_for": [
+          "Frühaufsteher",
+          "Hotel-Frühstück"
+        ],
+        "duration": "15-30 Minuten",
+        "best_time": "Morgen (7-9 Uhr)"
+      },
+      "image": "/images/tokyo/breakfast.jpg"
+    },
+    {
+      "id": "food-017",
+      "slug": "depachika",
+      "name_en": "Depachika (Food Halls)",
+      "name_local": "デパ地下",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Depachika ist die Keller-Lebensmittelhalle japanischer Kaufhäuser (Isetan, Mitsukoshi, Takashimaya) – ein Wunderland aus High-End-Bento-Boxen, Süßigkeiten, frischen Produkten, importierten Waren und Gourmet-Geschenken. Alles ist makellos präsentiert und teuer. Gehen Sie um 19:30-20:00 Uhr für den 'Rabatt-Ansturm' (Waribiki), wenn zubereitete Speisen vor Schließung 20-50% reduziert werden. Perfekt für Hotelzimmer-Picknicks oder Geschenke.",
+        "vibe": "Luxuriös, kuratiert",
+        "history": "Kaufhäuser (Depato) entstanden in den frühen 1900ern als Einzelhandel im westlichen Stil. Keller-Lebensmittelhallen (Depachika) wurden in den 1960er-70ern Standard und präsentierten erstklassige japanische und importierte Lebensmittel. In den 1990er-2000ern entwickelten sich Depachika zu kulinarischen Destinationen – alles handwerklich, Starkoch-Kooperationen und saisonale Obsessionen. Es ist ambitionierte Konsumkultur.",
+        "insider_tip": "Besuchen Sie Isetan Shinjuku, Mitsukoshi Ginza oder Takashimaya Nihombashi für die besten Depachika. Gehen Sie um 19:30 Uhr für Rabatte auf zubereitete Speisen (suchen Sie nach Rabattaufklebern). Kaufen Sie einzelne Stücke Wagyu-Rind, ausgefallenes Obst oder handwerkliche Süßigkeiten. Der Keller ist auch dort, wo Sie Omiyage (Geschenke) für Freunde finden – schön verpackte Kekse, Mochi oder regionale Spezialitäten.",
+        "price_level": "Teuer",
+        "good_for": [
+          "Feinschmecker",
+          "Geschenk-Shopping"
+        ],
+        "duration": "1 Stunde",
+        "best_time": "Abend (19:30 Uhr für Rabatte)"
+      },
+      "image": "/images/tokyo/depachika.jpg"
+    },
+    {
+      "id": "food-019",
+      "slug": "tachinomi",
+      "name_en": "Tachinomi (Standing Bar)",
+      "name_local": "立ち飲み",
+      "category": "Essen",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Tachinomi ist eine Stehbar (keine Sitze), wo Salarymen billiges Bier, Sake oder Highballs trinken und einfache Snacks (gegrillter Fisch, Edamame, Yakitori, Oden) nach der Arbeit essen. Es ist oft Cash-on-Delivery (zahlen bei Bestellung), was es betrugssicher und authentisch macht. Tachinomi konzentrieren sich nahe großer Bahnhöfe (Shimbashi, Ueno, Yurakucho) und unter Bahngleisen. Es ist laut, rauchig, männlich dominiert und quintessentielle Tokio-Arbeiterklasse-Kultur.",
+        "vibe": "Rau, authentisch",
+        "history": "Tachinomi entstanden im Nachkriegs-Tokio nahe Bahnhöfen als billige Trinkplätze für Arbeiter und Salarymen. Stehen (tachi) hielt den Umsatz schnell und Kosten niedrig. In den 1960er-70ern wurden Tachinomi zu festen Bestandteilen unter Bahngleisen (gaado shita). Das Format überlebt, weil es billig ist – Bier ist ¥300-500, Snacks sind ¥200-500. Es ist Nostalgie für Showa-Ära (1926-1989) Tokio.",
+        "insider_tip": "Zahlen Sie bei Bestellung (Cash-on-Delivery-System). Bestellen Sie durch Rufen Ihrer Bestellung an das Personal – 'Nama Biiru!' (Fassbier), 'Oden!' (Eintopfartikel), 'Yakitori!' (gegrilltes Huhn). Stehen Sie an der Theke oder hohen Tischen. Es sind meist Männer mittleren Alters in Anzügen, aber Ausländer sind willkommen. Die Atmosphäre ist rau und ehrlich. Gehen Sie, wenn Sie fertig sind – kein Verweilen. Shimbashi und Yurakucho haben die besten Cluster.",
+        "price_level": "Günstig",
+        "good_for": [
+          "Solo-Essen",
+          "Lokale Erfahrung"
+        ],
+        "duration": "30-60 Minuten",
+        "best_time": "Nach der Arbeit (18-20 Uhr)"
+      },
+      "image": "/images/tokyo/tachinomi.jpg"
     }
   ],
   "must_see": [
     {
-      "title": "Parks und Natur",
-      "id": "parks",
+      "title": "Tempel & Tradition",
+      "id": "temples",
       "items": [
         {
-          "id": "park-001",
-          "slug": "central-park",
-          "name_en": "Central Park",
-          "name_local": "Central Park",
-          "category": "Touristenattraktion",
+          "id": "temp-001",
+          "slug": "senso-ji",
+          "name_en": "Senso-ji Temple",
+          "name_local": "浅草寺",
+          "category": "Sehenswürdigkeit",
           "is_generic_staple": false,
           "description": {
-            "short": "Der Central Park ist ein vollständig künstlicher Garten von 843 Acres, der im Zentrum von Manhattan liegt. Er wurde 1857 von Frederick Law Olmsted und Calvert Vaux entworfen. Es war notwendig, Millionen Tonnen Erde zu bewegen, und er wurde als 'demokratischer Raum' für das Zusammenleben aller sozialen Klassen konzipiert. Der Park umfasst Wälder, Wiesen, Seen, Theater, eine Eislaufbahn und das Metropolitan Museum of Art. Neben dem Eingang sollten Sie die Ramble (wildes Waldgebiet), die Bow Bridge oder den Bethesda-Brunnen eingehend erkunden.",
-            "vibe": "ruhig und symbolisch",
-            "history": "Der Central Park ist der erste großflächige öffentliche Garten New Yorks und eine revolutionäre Idee in der Stadtplanung. Er wurde zwischen 1858 und 1873 auf schroffen und sumpfigen Landschaften angelegt. Die Designer bemühten sich, einen Eindruck von ländlicher Natur im Stadtzentrum zu erzeugen. Die Wegweiser enthalten Nummern, die bei der Navigation helfen: Die ersten beiden Ziffern zeigen die nächstgelegene Straße an.",
-            "insider_tip": "Nutzen Sie die Zahl der Wegweiser, um Ihren Standort zu finden. Die ersten beiden Ziffern zeigen die nächstgelegene Kreuzung an (z.B. 7801 = Nähe zur 78. Straße). Die Ramble (Waldgebiet) bietet wirklich Ruhe. Mieten Sie ein Fahrrad an der 59. Straße, um ein großes Gebiet abzudecken. Vermeiden Sie teure Kutschen für Touristen. Besuchen Sie Strawberry Fields (John Lennons Gedenkstätte) früh am Morgen, um den Menschenmengen zu entkommen.",
-            "price_level": "preiswert",
+            "short": "Senso-ji ist Tokios ältester und berühmtester buddhistischer Tempel (gegründet 645 n. Chr.), gelegen in Asakusa. Der Eingang zeigt das ikonische Kaminarimon ('Donnertor') mit einer riesigen roten Laterne. Gehen Sie durch die Nakamise-Einkaufsstraße (200m Souvenirstände), um die Haupthalle zu erreichen. Der Tempel ist kostenlos, immer offen und nachts atemberaubend schön beleuchtet. Es ist der touristischste Tempel, aber auch der fotogenste und historisch bedeutendste.",
+            "vibe": "Historisch, überfüllt",
+            "history": "Der Legende nach fanden zwei Fischer 628 n. Chr. eine goldene Statue von Kannon (Göttin der Barmherzigkeit) im Sumida-Fluss. Ein Tempel wurde gebaut, um sie zu beherbergen. Senso-ji wurde bei Luftangriffen im 2. Weltkrieg zerstört und in den 1950ern wiederaufgebaut. Die aktuellen Strukturen sind Betonrepliken der Originale, aber die spirituelle Bedeutung bleibt. Es ist Tokios meistbesuchte religiöse Stätte.",
+            "insider_tip": "Besuchen Sie ihn früh morgens (6-7 Uhr) oder spät abends (nach 20 Uhr), um erdrückende Menschenmassen und Reisegruppen zu vermeiden. Das Tempelgelände ist 24/7 offen, aber Geschäfte schließen gegen 18 Uhr. Machen Sie das traditionelle Ritual: Hände am Wasserbrunnen reinigen, Räucherstäbchen anzünden, die Glücksstöcke (Omikuji) für ¥100 schütteln. Wenn Sie Pech (凶) ziehen, binden Sie es an das Gestell, um es zurückzulassen. Die fünfstöckige Pagode ist nachts wunderschön.",
+            "price_level": "Günstig",
             "good_for": [
-              "Spazieren",
-              "Natur"
+              "Fotografie",
+              "Geschichtsliebhaber"
             ],
-            "duration": "2-4 Stunden",
-            "best_time": "Morgens oder abends"
+            "duration": "1-2 Stunden",
+            "best_time": "Früher Morgen oder Abend"
           },
-          "image": "/images/new-york/central-park.jpg",
+          "image": "/images/tokyo/sensoji.jpg",
           "geo": {
-            "lat": 40.7829,
-            "lng": -73.9654
+            "lat": 35.7148,
+            "lng": 139.7967
           }
         },
         {
-          "id": "park-004",
-          "slug": "high-line",
-          "name_en": "High Line",
-          "name_local": "High Line",
-          "category": "Touristenattraktion",
+          "id": "temp-002",
+          "slug": "meiji-shrine",
+          "name_en": "Meiji Shrine",
+          "name_local": "明治神宮",
+          "category": "Sehenswürdigkeit",
           "is_generic_staple": false,
           "description": {
-            "short": "Die High Line ist ein 1,45 Meilen langer Hochgarten, der auf alten Eisenbahnschienen in 30 Fuß Höhe gebaut wurde. Er verläuft zwischen dem Meatpacking District und den Hudson Yards und bietet einen einzigartigen Blick auf die Stadt sowie lokale Pflanzen und öffentliche Kunst. Es ist ein hervorragendes Beispiel für die adaptive Wiederverwendung und Landschaftsarchitektur, die eine wilde Eisenbahn in einen der berühmtesten Parks New Yorks verwandelt.",
-            "vibe": "modern und erhöht",
-            "history": "In den 1930er Jahren zum Dienst der Fleisch- und Produktionsindustrie geschaffen, wurde sie 1980 aufgegeben. Sie war zum Abriss vorgesehen, wurde jedoch 1999 von örtlichen Aktivisten gerettet. Der Landschaftsarchitekt James Corner Field Operations verwandelte sie zwischen 2009 und 2014 in einen Park. Sie fördert die massive Gentrifizierung und den Immobilienentwicklungsboom in Chelsea.",
-            "insider_tip": "Treten Sie an der Gansevoort Street (nach Süden) ein und gehen Sie nach Norden, um den Leuten, die in die entgegengesetzte Richtung gehen, zu entkommen. Frühe morgens (7 Uhr) oder spät abends sind weniger Touristen unterwegs. Der schönste Ausblick ist in der Nähe der 23. Straße, wo Sie die Aussicht auf die Stadt genießen können. An einigen Tagen werden kostenlose Führungen angeboten. Vermeiden Sie den teuren Chelsea Market und essen Sie woanders. Es wird empfohlen, dies mit einem Besuch des Whitney Museums im Süden zu kombinieren."
+            "short": "Der Meiji-Schrein (Meiji Jingu) ist ein ruhiger Shinto-Schrein, gewidmet Kaiser Meiji und Kaiserin Shoken, gelegen in einem 175 Hektar großen Waldpark im Herzen von Tokio. Der Spaziergang durch die hoch aufragenden Torii-Tore und den Wald schafft einen friedlichen Übergang vom Chaos des benachbarten Harajuku. Der Schrein selbst ist aus japanischer Zypresse und Kupfer gebaut. Er ist kostenlos, immer offen und eine spirituelle Zuflucht. Mit Glück könnten Sie eine traditionelle Shinto-Hochzeit erleben.",
+            "vibe": "Friedlich, spirituell",
+            "history": "Erbaut 1920 zu Ehren von Kaiser Meiji (1852-1912), der Japan während der Meiji-Restauration für den Westen öffnete. Der ursprüngliche Schrein wurde im 2. Weltkrieg zerstört und 1958 wiederaufgebaut. Der umliegende Wald wurde mit 120.000 Bäumen gepflanzt, die aus ganz Japan gespendet wurden. Über 3 Millionen Menschen besuchen ihn für Hatsumode (erster Schreinbesuch des Jahres) am Neujahrstag.",
+            "insider_tip": "Betreten Sie ihn vom südlichen Haupteingang (nahe Bahnhof Harajuku), um den vollen Waldweg zu gehen – es dauert 10 Minuten bis zum Schrein, was der Sinn der Sache ist. Halten Sie bei den Sake- und Weinfässern, die dem Schrein gespendet wurden. An der Haupthalle: zweimal verbeugen, zweimal klatschen, beten, einmal verbeugen (Standard-Shinto-Ritual). Besuchen Sie ihn früh morgens (6-7 Uhr) für Einsamkeit vor den Reisegruppen. Freier Eintritt.",
+            "price_level": "Günstig",
+            "good_for": [
+              "Naturliebhaber",
+              "Spirituelle Erfahrung"
+            ],
+            "duration": "1-2 Stunden",
+            "best_time": "Früher Morgen"
           },
-          "price_level": "preiswert",
-          "good_for": [
-            "Spazieren",
-            "Architektur"
-          ],
-          "duration": "1 Stunde",
-          "best_time": "Früh am Morgen oder bei Sonnenuntergang"
-        },
-        {
-          "id": "park-002",
-          "slug": "prospect-park",
-          "name_en": "Prospect Park",
-          "name_local": "Prospect Park",
-          "category": "Touristenattraktion",
-          "is_generic_staple": false,
-          "description": {
-            "short": "Der Prospect Park ist ein herausragendes Beispiel für Brooklyn mit 526 Acres, das von Olmsted und Vaux (den Designern des Central Parks) entworfen wurde. Sie betrachteten diesen Park als 'größtes Werk', da er nicht auf dem geraden Raster von Manhattan basierte. Hier befinden sich der Long Meadow (90 Acres durchgehend grüner Raum), ein See, Wälder und das Prospect Park Bandshell. Er wird weniger gepflegt als der Central Park und ist näher an der Natur.",
-            "vibe": "entspannt, grün",
-            "history": "Der 1873 fertiggestellte Prospect Park wurde nach dem Central Park entworfen und beinhaltete die gelernten Lektionen. Der Long Meadow ist die längste zusammenhängende Wiese in einem amerikanischen Park. In den 1970er und 80er Jahren war der Park vom Verfall bedroht, aber durch lokale Aktivitäten und Finanzierung wurde er in den 90er und 2000er Jahren renaturiert.",
-            "insider_tip": "Der Long Meadow eignet sich hervorragend für Picknicks und Frisbee-Spiele. Die Einheimischen berichten, dass es besser ist als das Sheep Meadow im Central Park. Im Sommer finden im Prospect Park Bandshell kostenlose Konzerte statt. Es ist möglich, am See zu angeln. Der Smorgasburg (Food Market) findet jeden Sonntag im Sommer hier statt. Es ist weniger überfüllt als der Central Park und wirklich ein Rückzugsort für die Brooklynites."
-          },
-          "price_level": "preiswert",
-          "good_for": [
-            "Picknick",
-            "Entspannen"
-          ],
-          "duration": "2-3 Stunden",
-          "best_time": "Nachmittags oder am Wochenende"
-        },
-        {
-          "id": "park-003",
-          "slug": "washington-square",
-          "name_en": "Washington Square Park",
-          "name_local": "Washington Square",
-          "category": "Touristenattraktion",
-          "is_generic_staple": false,
-          "description": {
-            "short": "Der Washington Square Park liegt im Herzen von Greenwich Village auf 9,75 Acres und ist der beste Ort in New York für Menschenbeobachtungen. Er ist um ein symbolisches Marmorbogen (inspiriert von Paris' Arc de Triomphe) zentriert und hat auch einen berühmten Brunnen. Historisch war es das Gebiet der Töpfer (ein Massengrab für arme Menschen), wurde aber in den 1960er Jahren zum Zentrum der Beatniks und der Folkbewegung. Heute ist es ein Ort voller Musiker, Schachspieler, NYU-Studenten und der reinen Energie New Yorks.",
-            "vibe": "lebhaft und vielfältig",
-            "history": "Ursprünglich war es das Gebiet der Töpfer und ein öffentlicher Hängplatz (der Galgenbaum blieb bis in die 1920er Jahre erhalten). Dann wurde es ein Paradeplatz und in den 70er Jahren ein Park. Der Washingtonbogen wurde 1892 erbaut. In den 1950er und 60er Jahren war er das Zentrum der Folk-Musik-Renaissance (Bob Dylan trat hier auf). Er wird auch als Ort für Widerstandsbewegungen und Proteste bekannt.",
-            "insider_tip": "Beobachten Sie die Schachspieler in der südwestlichen Ecke, die schnell spannende Spiele spielen - sie sind geschickt und unterhaltsam. An jedem Tag (insbesondere am Wochenende) treten Straßenmusiker auf. Der Brunnen befindet sich im Zentrum der Masse, und es ist schön, dort zu sitzen und die Menschheit zu beobachten. Meiden Sie das Gebiet nachts (es kann ein verdächtiger Ort werden). Erkunden Sie die gewundenen Straßen des nahegelegenen West Village."
-          },
-          "price_level": "preiswert",
-          "good_for": [
-            "Menschenbeobachtung",
-            "Musik"
-          ],
-          "duration": "1 Stunde",
-          "best_time": "Nachmittags oder am Wochenende"
-        },
-        {
-          "image": "/images/new-york/washington-square.jpg",
+          "image": "/images/tokyo/meiji.jpg",
           "geo": {
-            "lat": 40.7308,
-            "lng": -73.9973
+            "lat": 35.6764,
+            "lng": 139.6993
           }
         }
       ]
     },
     {
-      "title": "Markt und lokales Leben",
-      "id": "marches",
+      "title": "Nachbarschaftserkundung",
+      "id": "wandering",
       "items": [
         {
-          "id": "mar-01",
-          "slug": "union-square",
-          "name_en": "Union Square Markt",
-          "name_local": "Union Square",
-          "category": "Ort",
+          "id": "walk-002",
+          "slug": "shibuya-crossing",
+          "name_en": "Shibuya Crossing",
+          "name_local": "渋谷スクランブル交差点",
+          "category": "Sehenswürdigkeit",
           "is_generic_staple": false,
           "description": {
-            "short": "Der Union Square Markt ist einer der bekanntesten landwirtschaftlichen Märkte in New York, der ganzjährig montags, mittwochs, freitags und samstags geöffnet ist. Über 100 lokale Bauern verkaufen Gemüse, Fleisch, Käse, Brot und Blumen direkt an die Verbraucher. Er ist auch ein bedeutendes Verkehrszentrum (U-Bahn-Linie 6) und war historisch ein Ort für Versammlungen und politische Treffen. Dieser Markt symbolisiert die Verbindung zwischen den Farmen in New York und dem Norden des Staates sowie die lokale Esskultur.",
-            "vibe": "Lebhaft und lokal fokussiert",
-            "history": "Der Greenmarket begann 1976 mit 12 Bauern, als die Esskultur in New York schwächer wurde. Damit wurde die Verbindung zwischen Farmen und Städten wiederhergestellt und eine Bewegung für nationale Landwirtschaftsmärkte angestoßen. Der Union Square wurde seit dem 19. Jahrhundert als Ort für Proteste und Versammlungen genutzt, darunter Arbeiterdemonstrationen und Gedenkfeiern zum 11. September.",
-            "insider_tip": "Wenn Sie samstags kommen, finden Sie mehr Anbieter (über 100). Kommen Sie früh am Morgen (8-9 Uhr), um die besten Optionen vor der Mittagspause der Angestellten zu bekommen. Es wird empfohlen, Apfel-Cider-Donuts und Ahornsirup von nordischen Bauern zu kaufen. Viele Bauern bevorzugen Barzahlung. Der Platz ist ideal, um Leute zu beobachten – hier gibt es Straßenkünstler, Schachspieler und politische Aktivisten."
+            "short": "Shibuya Crossing ist die geschäftigste Fußgänger-Kreuzung der Welt – bis zu 3.000 Menschen überqueren gleichzeitig jeden Ampelzyklus (alle 2 Minuten). Es ist ein Spektakel organisierten Chaos: Neon-Werbetafeln, Videobildschirme und ein Meer von Menschen, die aus fünf Richtungen zusammenströmen. Das Erlebnis ist surreal – Sie sind Teil des Flusses. Am besten von oben gesehen (Mag's Park Dach oder Starbucks) oder auf Straßenebene erlebt. Spitzenzeiten (18-20 Uhr wochentags) sind am dramatischsten.",
+            "vibe": "Chaotisch, ikonisch",
+            "history": "Shibuya Crossing erreichte seine aktuelle Form 1973, als das Scramble-Format (alle Richtungen gehen gleichzeitig) eingeführt wurde. Es wurde in den 2000ern durch Filme (Lost in Translation, Fast & Furious: Tokyo Drift) und virale Videos zur globalen Ikone. Die Hachiko-Statue (treuer Hund) am Ausgang ist Tokios berühmtester Treffpunkt. Shibuya selbst war bis in die 1960er ein verschlafener Vorort.",
+            "insider_tip": "Erleben Sie es zuerst auf Straßenebene – stehen Sie in der Mitte und nehmen Sie das Chaos auf. Für Überkopf-Ansichten gehen Sie zum Mag's Park Dach (kostenlos, 11. Stock des Magnet-Gebäudes) oder zum Starbucks im Tsutaya (überfüllt). Beste Zeiten: Feierabendverkehr unter der Woche (18-20 Uhr) oder Freitagabend (22-0 Uhr) für Neon-Energie. Die Kreuzung ist tagsüber unter der Woche weniger beeindruckend – Sie brauchen Menschenmassen für den vollen Effekt.",
+            "price_level": "Günstig",
+            "good_for": [
+              "Fotografie",
+              "Leute beobachten"
+            ],
+            "duration": "30 Minuten",
+            "best_time": "Abend-Rushhour"
           },
-          "price_level": "Mittel",
-          "good_for": [
-            "Gastronomie",
-            "Einkaufen"
-          ],
-          "duration": "1 Stunde",
-          "best_time": "Samstagmorgen",
-          "image": "/images/new-york/union-square.jpg",
+          "image": "/images/tokyo/shibuya-crossing.jpg",
           "geo": {
-            "lat": 40.7359,
-            "lng": -73.9911
+            "lat": 35.6595,
+            "lng": 139.7004
           }
         },
         {
-          "id": "mar-02",
-          "slug": "queens-night-market",
-          "name_en": "Queens Night Markt",
-          "name_local": "Queens Night Market",
-          "category": "Ort",
+          "id": "walk-001",
+          "slug": "shimokitazawa-walk",
+          "name_en": "Shimokitazawa",
+          "name_local": "下北沢",
+          "category": "Sehenswürdigkeit",
           "is_generic_staple": false,
           "description": {
-            "short": "Der Queens Night Markt ist ein saisonaler Open-Air-Markt (Samstage von April bis Oktober, von 17 Uhr bis Mitternacht), der im New York Science Museum im Flushing Meadows-Corona Park stattfindet. Er bietet eine Vielzahl von Street Food von über 100 Anbietern an, wobei alle Gerichte auf maximal 6 Dollar begrenzt sind. Dieser Markt hebt die Migrantengemeinschaft von Queens hervor und bietet tibetische Momo, peruanische Anticuchos, philippinische Sisig und kolumbianische Arepas an. Er ist authentisch, preiswert und gemeinschaftlich orientiert.",
-            "vibe": "Festlich und voller Vielfalt",
-            "history": "Er wurde 2015 von John Wong ins Leben gerufen, um die migrantischen Küchen in Queens zu fördern und kleine Anbieter zu unterstützen. Die Preisspanne von 6 Dollar sorgt für Zugänglichkeit. Der Markt hat sich von 40 auf über 100 Anbieter entwickelt und ist eines der beliebtesten Gastronomie-Events in New York geworden. Er feiert Queens als eines der sprachlich vielfältigsten Gebiete der Welt mit über 138 Sprachen.",
-            "insider_tip": "Kommen Sie vor 18:00 Uhr, um schweren Andrang zu vermeiden (die Menschenmenge wächst zwischen 19:00 und 21:00 Uhr). Vergessen Sie nicht, Bargeld mitzunehmen, da die meisten Anbieter keine Karten akzeptieren. Die Preisgrenze von 6 Dollar wird strikt durchgesetzt, es ist wirklich erschwinglich. Versuchen Sie, auch Gerichte anderer migrantischer Gemeinschaften zu probieren. Kommen Sie hungrig und planen Sie, 5 bis 6 Teller auszuprobieren. Parkplätze sind schwierig, daher wird empfohlen, mit der U-Bahn-Linie 7 zur Mets-Willets Point zu fahren."
+            "short": "Shimokitazawa ('Shimokita') ist Tokios Hipster-Viertel: enge Fußgängerzonen vollgepackt mit Vintage-Kleidungsgeschäften, Plattenläden, Indie-Cafés, winzigen Theatern und Second-Hand-Buchläden. Es gibt keine Wolkenkratzer, Ladenketten oder Touristen-Wahrzeichen – nur Wandern, Entdecken und Vibes. Der neue 'Bonus Track'-Grünweg (2020) verbindet Shimokita mit Setagaya-Daita mit Boutique-Läden. Hier verbringen junge Tokioter ihre Wochenenden mit Second-Hand-Shopping und Café-Hopping.",
+            "vibe": "Boheme, Vintage",
+            "history": "Shimokitazawa war ein verschlafenes Wohngebiet bis in die 1960er-70er, als kleine Theater und Jazz-Cafés öffneten und Künstler und Studenten anzogen. Der Vintage-Kleidungs-Boom der 1990er machte es zu Tokios Second-Hand-Hauptstadt. Ein kontroverses Zuglinienprojekt (2013-2019) sanierte einen Teil des Gebiets, bewahrte aber seinen Charakter. Es ist jetzt gentrifiziert, behält aber Indie-Glaubwürdigkeit.",
+            "insider_tip": "Folgen Sie keiner Karte – wandern Sie einfach und verlieren Sie sich in den engen Straßen. Die Vintage-Läden (Chicago, Flamingo, Santa Monica) haben gebrauchte Kleidung in exzellentem Zustand. Checken Sie den Village Vanguard Buchladen (chaotisch und spaßig). Der 'Bonus Track'-Grünweg hat Indie-Cafés und Boutiquen. Wochenenden sind am vollsten; Wochentage sind ruhiger für ernsthaftes Shopping. Keine spezifischen Wahrzeichen – das Viertel selbst ist die Attraktion.",
+            "price_level": "Mittel",
+            "good_for": [
+              "Shopping",
+              "Café-Hopping"
+            ],
+            "duration": "3-4 Stunden",
+            "best_time": "Wochenendnachmittag"
           },
-          "price_level": "Preiswert",
-          "good_for": [
-            "Gastronomie",
-            "Gruppen"
-          ],
-          "duration": "2-3 Stunden",
-          "best_time": "Samstagabend (April bis Oktober)",
-          "image": "/images/new-york/queens-market.jpg",
+          "image": "/images/tokyo/shimokitazawa-walk.jpg",
           "geo": {
-            "lat": 40.7456,
-            "lng": -73.8464
+            "lat": 35.6611,
+            "lng": 139.6672
           }
         }
       ]
     },
     {
-      "title": "Aussichten und Ikonen",
+      "title": "Aussichten & Grünflächen",
       "id": "views",
       "items": [
         {
-          "id": "view-003",
-          "slug": "staten-island-ferry",
-          "name_en": "Staten Island Ferry",
-          "name_local": "Fähre",
-          "category": "Attraktion",
-          "is_generic_staple": false,
-          "description": {
-            "short": "Die Staten Island Fähre ist ein kostenloser Fährdienst, der 24 Stunden am Tag ganzjährig zwischen Manhattan (Whitehall-Terminal) und Staten Island (St. George) verkehrt. Während der 25-minütigen Fahrt können Sie die Statue der Freiheit, Ellis Island und die beeindruckende Skyline von Lower Manhattan genießen. Es ist die größte kostenlose Attraktion in New York, ohne Geld auszugeben. Auch die Einheimischen genießen Bier, das an Bord verkauft wird. Touristen können zweimal ohne Aufwand fahren, um die Aussicht zu genießen.",
-            "vibe": "Unvergesslich, kostenlos",
-            "history": "Der Fährdienst wurde im 18. Jahrhundert begonnen, wird aber seit 1905 von der Stadt betrieben. Jährlich befördert sie 25 Millionen Passagiere, hauptsächlich Berufstätige, aber auch eine große Anzahl von Touristen. Die Modernisierung der Fährflotte fand zwischen 2000 und 2010 statt. Als symbolisches Erlebnis in New York erscheint sie in vielen Filmen und Musikvideos.",
-            "insider_tip": "Achten Sie darauf, auf der rechten Seite zu sitzen, während Sie nach Staten Island fahren (wenn Sie nach vorne schauen), um die Statue der Freiheit zu sehen. Sitzen Sie auf der linken Seite bei der Rückfahrt nach Manhattan und genießen Sie die Skyline. Es ist schön, zur Zeit des Sonnenuntergangs zu fahren, um das goldene Licht zu genießen. Wenn Sie nicht vorhaben, Staten Island zu erkunden, steigen Sie nicht aus der Fähre aus. Bleiben Sie einfach an Bord und fahren Sie zurück. An Bord wird Bier verkauft. Es ist völlig kostenlos und ein Ticket ist nicht erforderlich."
-          },
-          "price_level": "Günstig",
-          "good_for": [
-            "Aussicht",
-            "Reisen mit niedrigem Budget"
-          ],
-          "duration": "1 Stunde (Hin- und Rückfahrt)",
-          "best_time": "Sonnenuntergang"
-        },
-        {
           "id": "view-001",
-          "slug": "brooklyn-bridge-park",
-          "name_en": "Brooklyn Bridge Park",
-          "name_local": "DUMBO Waterfront",
-          "category": "Attraktion",
+          "slug": "metro-gov-building",
+          "name_en": "Tokyo Metro Gov Building",
+          "name_local": "東京都庁",
+          "category": "Sehenswürdigkeit",
           "is_generic_staple": false,
           "description": {
-            "short": "Der Brooklyn Bridge Park bietet die besten Ausblicke auf die Skyline von Manhattan, mit dem Brooklyn Bridge als Kulisse, die 1883 fertiggestellt wurde. Der Park erstreckt sich 1,3 Meilen entlang der Brooklyn Docks in DUMBO und bietet verschiedene Piers, Wiesen, Spielplätze und ikonische Fotospots. Über die Brücke führt ein atemberaubender Fuß- und Radweg.",
-            "vibe": "Aussichtsvoll, historisch",
-            "history": "Die Brooklyn Bridge wurde 1883 fertiggestellt, nach 14 Jahren Bauzeit, bei der 27 Arbeiter starben. Sie wird als 'das achte Weltwunder' bezeichnet. Der Park wurde 2010 eröffnet und entstand aus ehemaligen Docks und Industriegebieten. Das DUMBO-Gebiet hat sich seit den 1990er-Jahren von einem Industriegebiet in ein Wohnviertel gewandelt.",
-            "insider_tip": "Um den Touristenmassen zu entkommen, gehen Sie früh am Morgen (7-8 Uhr) über die Brooklyn Bridge. Beginnen Sie in Brooklyn und gehen Sie in Richtung Manhattan für die beste Vorderansicht. Der Park an der Main Street in DUMBO ist ein ikonischer Instagram-Spot mit der Brooklyn Bridge, umgeben von Gebäuden. Pebble Beach und Jane's Carousel sind ebenfalls in der Nähe. An den Wochenenden kann es überfüllt sein, also vermeiden Sie es, über die Brücke zu gehen."
+            "short": "Das Tokyo Metropolitan Government Building (Tocho) bietet den besten KOSTENLOSEN Panoramablick auf Tokio von seinen Aussichtsplattformen im 45. Stock (202 Meter hoch). An klaren Tagen können Sie Mt. Fuji sehen. Die Aussicht konkurriert mit bezahlten Decks wie Shibuya Sky (¥2.500) oder Tokyo Skytree (¥3.000). Gelegen in West-Shinjuku inmitten von Wolkenkratzern, ist das Gebäude selbst beeindruckende brutalistische Architektur. Zwei Türme – normalerweise ist mindestens einer offen. Weniger überfüllt als Touristen-Decks.",
+            "vibe": "Panorama, kostenlos",
+            "history": "Erbaut 1990 und entworfen vom Architekten Kenzo Tange, erinnern die Zwillingstürme des Gebäudes an die Kathedrale Notre-Dame. Es beherbergt Tokios Regierungsbüros und Aussichtsdecks. Die 'Bubble Economy' der 1980er ermöglichte den Bau. Es ist jetzt ein ikonischer Teil der Skyline von Shinjuku. Die Aussichtsdecks öffneten, um den Tokio-Tourismus zu fördern.",
+            "insider_tip": "Gehen Sie an einem klaren Wintertag (Dezember-Februar) für die beste Chance, Mt. Fuji zu sehen – früh morgens oder am späten Nachmittag für klarere Luft. Kommen Sie 30 Minuten vor Sonnenuntergang für die goldene Stunde im Übergang zu Nachtansichten. Der Nordturm hat ein Café; der Südturm ist ruhiger. Freier Eintritt, keine Reservierung nötig. Es ist in West-Shinjuku – Ausgang Tocho-mae Station oder laufen Sie von JR Shinjuku (15 Minuten).",
+            "price_level": "Günstig",
+            "good_for": [
+              "Aussichten",
+              "Budget-Reisen"
+            ],
+            "duration": "1 Stunde",
+            "best_time": "Klarer Tag, Sonnenuntergang"
           },
-          "price_level": "Günstig",
-          "good_for": [
-            "Fotos",
-            "Spazierengehen"
-          ],
-          "duration": "1-2 Stunden",
-          "best_time": "Morgen oder Sonnenuntergang"
+          "image": "/images/tokyo/metro-gov.jpg",
+          "geo": {
+            "lat": 35.6896,
+            "lng": 139.6917
+          }
         },
         {
           "id": "view-002",
-          "slug": "top-of-the-rock",
-          "name_en": "Top of the Rock",
-          "name_local": "Rockefeller Center",
-          "category": "Attraktion",
+          "slug": "shinjuku-gyoen",
+          "name_en": "Shinjuku Gyoen",
+          "name_local": "新宿御苑",
+          "category": "Sehenswürdigkeit",
           "is_generic_staple": false,
           "description": {
-            "short": "Top of the Rock ist eine Aussichtsplattform, die sich auf der Spitze des Rockefeller Centers (70. Etage, 850 Fuß) befindet, von wo aus Sie einen 360°-Blick auf Manhattan, den Central Park und das Empire State Building genießen können. Es wurde 1933 im Art-Déco-Stil gebaut und bietet einen Blick auf das Empire State Building, was eine bessere Aussicht ermöglicht. Die Außenterrasse erstreckt sich über 3 Etagen und bietet die Möglichkeit, klare Ausblicke zu genießen. Der Sonnenuntergang ist die beste Zeit, aber für Datums- und Zeitreservierungen sind spezifische Tickets erforderlich.",
-            "vibe": "Klassisch, panoramisch",
-            "history": "Das Rockefeller Center ist ein großer Komplex im Art-Déco-Stil, der zwischen 1931 und 1939 während der Großen Depression erbaut wurde. Top of the Rock wurde 1933 als erstes eröffnet, in den 1980er Jahren geschlossen und 2005 nach Renovierungen wiedereröffnet. Die Tradition des Beleuchtens des Weihnachtsbaums begann 1933. Die Eisbahn wurde 1936 eröffnet.",
-            "insider_tip": "Reservieren Sie die spezifischen Tickets für Datum und Uhrzeit mehrere Tage im Voraus online: die Tickets zum Sonnenuntergang sind schnell ausverkauft. Kommen Sie 30 Minuten vor der gewünschten Zeit an. Auf der obersten Etage (70.) gibt es keine Barrieren, nur Glas, was das Fotografieren einfacher macht als bei der Aussichtsplattform des Empire State Buildings. Sonnenaufgangstickets sind die günstigsten und weniger überfüllt. VIP-Tickets sind teuer und werden nicht empfohlen. Es ist schön, im Winter zu kommen, um den Weihnachtsbaum zu sehen."
+            "short": "Shinjuku Gyoen ist ein massiver 58 Hektar großer traditioneller japanischer Garten im Herzen von Tokio, der drei Gartenstile kombiniert: Französisch formal, Englische Landschaft und Japanisch traditionell. Er ist berühmt für Kirschblüten (1.000+ Bäume, März-April) und Herbstlaub (November). Der Park bietet einen friedlichen Reset vom urbanen Chaos Shinjukus. Eintritt kostet ¥500, aber er ist geräumig, gut gepflegt und fühlt sich nie überfüllt an. Kein Essen/Alkohol erlaubt – bringen Sie nichts als sich selbst mit.",
+            "vibe": "Ruhig, geräumig",
+            "history": "Ursprünglich das private Anwesen der Naito Feudalfamilie (Edo-Zeit), wurde es 1906 ein kaiserlicher Garten und öffnete 1949 für die Öffentlichkeit. Es überstand den 2. Weltkrieg weitgehend intakt. Die drei Gartenstile spiegeln Japans Meiji-Ära (1868-1912) Faszination mit westlicher Landschaftsgestaltung wider. Es ist jetzt ein Nationalgarten und geschütztes Kulturgut.",
+            "insider_tip": "Besuchen Sie während der Kirschblütenzeit (Ende März-Anfang April) oder Herbstlaub (Mitte November) für maximale Schönheit, aber erwarten Sie Menschenmassen. Wochentagmorgen sind am ruhigsten. Der japanische Gartenabschnitt ist am fotogensten. Picknicken ist erlaubt, aber kein Alkohol (anders als die meisten Tokio-Parks während Hanami). Das Gewächshaus (extra Gebühr) hat tropische Pflanzen. Planen Sie 2-3 Stunden ein, um den gesamten Garten zu begehen. Eintritt ¥500.",
+            "price_level": "Günstig",
+            "good_for": [
+              "Naturliebhaber",
+              "Kirschblüten"
+            ],
+            "duration": "2-3 Stunden",
+            "best_time": "Kirschblütenzeit oder Herbst"
           },
-          "price_level": "Teuer",
-          "good_for": [
-            "Aussicht",
-            "Fotos"
-          ],
-          "duration": "1 Stunde",
-          "best_time": "Sonnenuntergang"
-        },
-        {
-          "id": "view-004",
-          "slug": "summit-one",
-          "name_en": "Summit One Vanderbilt",
-          "name_local": "Summit",
-          "category": "Attraktion",
-          "is_generic_staple": false,
-          "description": {
-            "short": "Summit One Vanderbilt, 2021 neben Grand Central eröffnet, ist ein neues Aussichtserlebnis an der Spitze von One Vanderbilt (1.401 Fuß). Es umfasst einen Spiegelraum, Glasböden und einen Außenbereich mit Glasrahmen, der endlose Reflexionen und atemberaubende Ausblicke von Midtown bietet. Es ist ein Ort für Instagram und ein experimenteller Ausblickspunk, sowie ein Kunstmuseum. Es ist ein äußerst moderner und dramatischer Ort.",
-            "vibe": "Modern, immersiv",
-            "history": "One Vanderbilt wurde 2020 fertiggestellt und ist eines der höchsten Gebäude in New York. Summit wurde 2021 eröffnet und beinhaltet Installationen des Künstlers Kenzo Digital. Es wurde schnell zu einer der beliebtesten Attraktionen in New York und legt den Fokus auf 'Erleben' im Gegensatz zu traditionellen Aussichtspunkten. Dieses Gebäude hat direkten Kontakt zum Grand Central Station.",
-            "insider_tip": "Reservieren Sie die spezifischen Tickets für Datum und Uhrzeit mehrere Wochen im Voraus online: diese sind sofort ausverkauft. Sonnenuntergangs- oder Nachttickets sind die teuersten und dramatischsten. Der Spiegelraum erzeugt endlose Reflexionen, also könnte es gut sein, in schönen Kleidern zu gehen, um gute Fotos zu machen. Für den Außenbereich ('Ascent') sind separate Tickets und Mut erforderlich. Versuchen Sie, an Wochentagen zu gehen, um dem Wochenendandrang zu entkommen. Es wird empfohlen, schicke Kleidung zu tragen: es ist ein Ort in Bezug auf Mode und für Fotos."
-          },
-          "price_level": "Teuer",
-          "good_for": [
-            "Instagram",
-            "moderne Kunst"
-          ],
-          "duration": "1-2 Stunden",
-          "best_time": "Sonnenuntergang oder Nacht"
+          "image": "/images/tokyo/shinjuku-gyoen.jpg",
+          "geo": {
+            "lat": 35.6852,
+            "lng": 139.7101
+          }
         }
       ]
     },
     {
-      "title": "Museen",
-      "id": "museums",
+      "title": "Nachtleben & Gassen",
+      "id": "nightlife",
       "items": [
         {
-          "id": "mus-001",
-          "slug": "the-met",
-          "name_en": "Das Met",
-          "name_local": "Metropolitan Museum of Art",
-          "category": "Standort",
+          "id": "night-001",
+          "slug": "shinjuku-night",
+          "name_en": "Shinjuku at Night",
+          "name_local": "新宿",
+          "category": "Sehenswürdigkeit",
           "is_generic_staple": false,
           "description": {
-            "short": "Das Metropolitan Museum of Art (Das Met) gehört zu den größten und renommiertesten Kunstmuseen der Welt und zeigt über 2 Millionen Artefakte, die 5000 Jahre Menschheitsgeschichte abdecken. Das Gebäude im Beaux-Arts-Stil an der 5th Avenue (1880) bietet eine Ausstellungsfläche von 200.000 Quadratmetern. Zu den Hauptattraktionen zählen der Tempel von Dendur (ein ägyptischer Tempel, der aus dem Nil gerettet wurde), europäische Gemälde (Vermeer, Rembrandt) und ein Dachgarten mit Blick auf die Stadt. Es ist unmöglich, alles auf einmal zu sehen.",
-            "vibe": "Wunderbar und grandios",
-            "history": "Es wurde 1870 von Bürgerführern gegründet, um Amerikanern eine künstlerische Bildung zu bieten. Das aktuelle Gebäude wurde 1880 eröffnet und wird kontinuierlich erweitert. Der Tempel von Dendur wurde 1965 aus Ägypten gestiftet und 1978 installiert. Das Met ist das meistbesuchte Museum in NYC (jährlich über 6 Millionen). Der Eintrittspreis ist 'empfohlen', für Bewohner außerhalb von New York jedoch verpflichtend (30 $).",
-            "insider_tip": "Wählen Sie einen Abschnitt und erkunden Sie ihn gründlich. Es ist ermüdend und nutzlos, zu versuchen, alles zu sehen. Sie sollten unbedingt den ägyptischen Flügel und den Tempel von Dendur besuchen. Im Dachgarten (von Mai bis Oktober geöffnet) können Sie Getränke genießen und die Skyline bewundern. Besuchen Sie es an Wochentagen morgens, um den Menschenmengen zu entgehen. Der Eintritt 'zahlen, was Sie möchten' wurde eingestellt, und der Eintritt ist für Touristen verpflichtend. Planen Sie bitte mindestens 3 bis 4 Stunden ein."
+            "short": "Shinjuku bei Nacht ist Tokios Neon-Seele: hoch aufragende Videobildschirme, volle Izakayas, Rotlichtviertel (Kabukicho) und rauchige Gassen wie Omoide Yokocho ('Piss Alley') – eine schmale Gasse mit Yakitori-Ständen, wo Salarymen nach der Arbeit trinken. Die Gegend ist sicher, aber chaotisch, laut und überwältigend. Ost-Shinjuku (Kabukicho) ist das Unterhaltungsviertel; Omoide Yokocho bietet authentische gegrillte Spieße unter niedrigen Decken. Es ist Cyberpunk-Realität.",
+            "vibe": "Neon, chaotisch",
+            "history": "Shinjuku wurde nach dem 2. Weltkrieg zu Tokios Unterhaltungszentrum, als Schwarzmärkte und Bars nahe dem Bahnhof öffneten (Japans geschäftigster). Kabukicho – benannt nach einem geplanten Kabuki-Theater, das nie öffnete – wurde in den 1960ern zum Rotlichtviertel. Omoide Yokocho ('Memory Lane') waren Nachkriegs-Elendsviertel-Trinkgassen, jetzt als nostalgische Yakitori-Stände bewahrt. Die Neon-Ästhetik erreichte ihren Höhepunkt in der Bubble Economy der 1980er-90er.",
+            "insider_tip": "Wandern Sie durch Ost-Shinjuku vom Ostausgang – gehen Sie einfach und nehmen Sie das Neon-Chaos auf. Omoide Yokocho (nahe Westausgang) ist am besten nach 19 Uhr – bestellen Sie Yakitori und Bier an winzigen Ständen (¥1.000-2.000 pro Person). Meiden Sie Schlepper in Kabukicho, die 'Massagen' oder 'Bars' anbieten – das sind Betrügereien. Golden Gai (in der Nähe) hat 200+ winzige Bars, verlangt aber Eintritt (¥500-1.000). Gehen Sie zwischen 20-23 Uhr für Spitzenenergie.",
+            "price_level": "Mittel",
+            "good_for": [
+              "Nachtleben",
+              "Fotografie"
+            ],
+            "duration": "2-3 Stunden",
+            "best_time": "Abend (20-23 Uhr)"
           },
-          "price_level": "Hoch",
-          "good_for": [
-            "Kunstliebhaber",
-            "Geschichtsinteressierte"
-          ],
-          "duration": "3-5 Stunden",
-          "best_time": "Wochentage am Morgen",
-          "image": "/images/new-york/the-met.jpg",
+          "image": "/images/tokyo/shinjuku-night.jpg",
           "geo": {
-            "lat": 40.7794,
-            "lng": -73.9632
+            "lat": 35.6938,
+            "lng": 139.7034
           }
         },
         {
-          "id": "mus-002",
-          "slug": "tenement-museum",
-          "name_en": "Tenement Museum",
-          "name_local": "Wohnmuseum",
-          "category": "Standort",
+          "id": "night-002",
+          "slug": "golden-gai",
+          "name_en": "Golden Gai",
+          "name_local": "ゴールデン街",
+          "category": "Sehenswürdigkeit",
           "is_generic_staple": false,
           "description": {
-            "short": "Im Tenement Museum finden geführte Touren durch restaurierte Wohnungen in der Orchard Street 97 (Lower East Side) statt. Hier lebten von 1863 bis 1935 7000 Arbeiterfamilien. Das Museum rekonstruiert die engen und schwierigen Lebensbedingungen deutscher, irischer, jüdischer und italienischer Familien. Die Touren konzentrieren sich auf Geschichten spezifischer Familien, die die Migrationsgeschichte lebendig machen. Es ist sehr inspirierend und historisch sehenswert. Eine Voranmeldung ist erforderlich.",
-            "vibe": "Historisch und intim",
-            "history": "Die 97 Orchard Street wurde 1863 als Wohnhaus für 20 Familien erbaut. Sie wurde 1935 geschlossen und bis in die 1980er Jahre in einem zeitlichen Kapselzustand gehalten. Das Museum wurde 1992 eröffnet und verschiedene Epochen von Wohnungen wurden restauriert. Die harte Realität von 'alten Gesetzen' (Zimmer ohne Fenster, Gemeinschaftstoiletten) wird dokumentiert.",
-            "insider_tip": "Bitte buchen Sie die Tour mehrere Wochen im Voraus. Sie wird schnell ausgebucht. Die Tour zu 'Strengen Zeiten' und 'Iren im Bruch' ist die beliebteste. Die Tour dauert 90 Minuten und erfordert Treppensteigen (kein Aufzug, es handelt sich um echte Wohnungen). Im Museumsshop gibt es wunderbare Bücher über die Geschichte der Einwanderer. Es ist eine gute Idee, die Erkundung der Lebensmittel-Szene in der Lower East Side (Katz's, Russ & Daughters) zu kombinieren. Für kleine Kinder ist es nicht geeignet."
+            "short": "Golden Gai ist ein Cluster von über 200 winzigen Bars (Sitzplätze für 4-8 Personen), gepackt in sechs schmale Gassen in Shinjuku. Jede Bar hat ihr eigenes Thema, Stammgäste und Persönlichkeit – manche begrüßen Touristen, andere nicht. Die meisten verlangen eine Eintrittsgebühr (¥500-1.000) plus Getränkekosten. Es ist ein Relikt des Nachkriegs-Tokio, das wundersam die Sanierung überlebte. Die Atmosphäre ist intim, rauchig und nostalgisch. Nicht alle Bars akzeptieren Laufkundschaft – suchen Sie nach Schildern 'English OK' oder 'Tourists welcome'.",
+            "vibe": "Intim, nostalgisch",
+            "history": "Golden Gai entstand in den 1950er-60ern als illegale Trinkstände im Nachkriegs-Shinjuku. In den 1970er-80ern wurde es zum Boheme-Hafen für Schriftsteller, Künstler und Filmemacher. Feuer in den 1990ern zerstörten Teile davon, aber die Gemeinschaft baute wieder auf. Gentrifizierung bedrohte es in den 2000ern, aber Erhaltungsbemühungen retteten die Gassen. Es ist jetzt ein geschütztes Kulturgut, aber auch eine Touristenattraktion.",
+            "insider_tip": "Besuchen Sie es nach 21 Uhr, wenn Bars öffnen (meiste öffnen 20 Uhr-2 Uhr). Gehen Sie die Gassen zuerst ab, um Bars zu finden, die Touristen begrüßen – suchen Sie nach 'English OK' Schildern oder freundlich aussehenden Barkeepern. Eintrittsgebühren (¥500-1.000) sind Standard – kein Betrug, so überleben winzige Bars. Bestellen Sie einen Drink (¥700-1.000) und plaudern Sie. Erwarten Sie enge Sitze – Bars fassen 4-8 Leute. Gehen Sie nicht für billige Drinks; gehen Sie für das Erlebnis. Albatross Bar ist touristenfreundlich.",
+            "price_level": "Mittel",
+            "good_for": [
+              "Einzigartiges Erlebnis",
+              "Nachtleben"
+            ],
+            "duration": "1-2 Stunden",
+            "best_time": "Nacht (21 Uhr-1 Uhr)"
           },
-          "price_level": "Mittel",
-          "good_for": [
-            "Geschichtsinteressierte",
-            "Bildung"
-          ],
-          "duration": "2 Stunden",
-          "best_time": "Wochentage am Nachmittag",
-          "image": "/images/new-york/tenement.jpg",
+          "image": "/images/tokyo/golden-gai.jpg",
           "geo": {
-            "lat": 40.7188,
-            "lng": -73.9901
+            "lat": 35.6944,
+            "lng": 139.7047
           }
+        }
+      ]
+    },
+    {
+      "title": "Tech & Modern",
+      "id": "tech",
+      "items": [
+        {
+          "id": "art-001",
+          "slug": "teamlab-planets",
+          "name_en": "teamLab Planets",
+          "name_local": "チームラボ",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "teamLab Planets ist ein immersives digitales Kunstmuseum, wo Sie barfuß durch Wasser laufen, durch verspiegelte Räume voller schwebender Blumen waten und interaktive Lichtinstallationen erleben, die auf Ihre Bewegung reagieren. Es ist surreal, Instagram-tauglich und überwältigend beliebt – Tickets sind Wochen im Voraus ausverkauft. Das Erlebnis ist multisensorisch: berühren, gehen, waten. Jeder Raum ist eine andere Welt. Es ist Kunst trifft Technologie trifft Spielplatz. Planen Sie 90 Minuten ein.",
+            "vibe": "Immersiv, surreal",
+            "history": "teamLab ist ein japanisches Kunstkollektiv, gegründet 2001, das Künstler, Programmierer, Ingenieure und Architekten vereint. teamLab Planets eröffnete 2018 in Toyosu (nahe Odaiba) als 'Body Immersive' Museum. Es wurde zu einer von Tokios meist geposteten Attraktionen auf Instagram. Das Museum wurde bis 2027 verlängert. teamLab hat permanente Museen in Tokio (Borderless in Azabudai Hills) und weltweit.",
+            "insider_tip": "Buchen Sie Tickets online Wochen im Voraus – sie sind täglich ausverkauft. Gehen Sie an Wochentagen oder früh morgens (9-10 Uhr Slots), um Menschenmassen zu meiden. Sie werden barfuß durch Wasser laufen – tragen Sie Shorts oder krempeln Sie Hosen hoch. Keine Fotografie-Einschränkungen (anders als manche Museen). Das 'Infinite Crystal Universe' und 'Floating Flower Garden' sind am besten für Instagram. Planen Sie 90 Minuten. Schließfächer für Taschen vorhanden. Tickets ¥3.800-4.200.",
+            "price_level": "Teuer",
+            "good_for": [
+              "Instagram",
+              "Kunstliebhaber"
+            ],
+            "duration": "1,5 Stunden",
+            "best_time": "Wochentagmorgen"
+          },
+          "image": "/images/tokyo/teamlab.jpg",
+          "geo": {
+            "lat": 35.6455,
+            "lng": 139.7925
+          }
+        },
+        {
+          "id": "tech-001",
+          "slug": "akihabara",
+          "name_en": "Akihabara Electric Town",
+          "name_local": "秋葉原",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Akihabara ('Akiba') ist das Zentrum der Anime-, Manga- und Otaku- (Geek-) Kultur: mehrstöckige Elektronikläden, Anime-Shops, Maid Cafés, Spielhallen und Erotik-Shops. Es ist Reizüberflutung – Neonschilder, Cosplayer und dröhnender J-Pop. Sie können alles kaufen, von Retro-Videospielen bis zu den neuesten Tech-Gadgets. Maid Cafés sind surreal – Kellnerinnen in Dienstmädchenkostümen servieren Essen mit Aufführungen. Es ist seltsam, wunderbar und einzigartig Tokio. Nicht für jeden.",
+            "vibe": "Neon, chaotisch",
+            "history": "Akihabara war Tokios Nachkriegs-Schwarzmarkt für Elektronik und Radioteile. In den 1980er-90ern wurde es 'Electric Town', verkaufte Computer und Gadgets. Der 2000er Wandel zur Anime/Manga-Kultur geschah, als Elektronik online ging. Maid Cafés öffneten in den frühen 2000ern und zementierten Akiba als Otaku-Zentrale. Es ist jetzt eine globale Popkultur-Pilgerstätte.",
+            "insider_tip": "Besuchen Sie es am Wochenende, wenn Cosplayer auf der Chuo Dori (nur Fußgängerzone) erscheinen. Elektronikläden (Yodobashi, Sofmap) sind massiv – gut für steuerfreies Einkaufen. Anime-Shops (Animate, Mandarake) verkaufen alles von Manga bis Figuren. Maid Cafés sind teuer (¥1.000+ Eintritt) und peinlich aber unvergesslich – @Home Cafe ist berühmt. Spielhallen (GiGO, Taito Station) haben Retro-Spiele und Greifautomaten. Es ist überwältigend – versuchen Sie nicht, alles zu sehen.",
+            "price_level": "Mittel",
+            "good_for": [
+              "Anime-Fans",
+              "Tech-Shopping"
+            ],
+            "duration": "2-3 Stunden",
+            "best_time": "Wochenendnachmittag"
+          },
+          "image": "/images/tokyo/akihabara.jpg",
+          "geo": {
+            "lat": 35.6984,
+            "lng": 139.7731
+          }
+        }
+      ]
+    },
+    {
+      "title": "Lokales Leben",
+      "id": "local-life",
+      "items": [
+        {
+          "id": "loc-001",
+          "slug": "shotengai",
+          "name_en": "Shotengai (Shopping Street)",
+          "name_local": "商店街",
+          "category": "Sehenswürdigkeit",
+          "is_generic_staple": true,
+          "description": {
+            "short": "Shotengai sind traditionelle überdachte Einkaufsarkaden, die in jedem Tokio-Viertel zu finden sind – lange Fußgängerstraßen gesäumt von unabhängigen Geschäften: Metzger, Fischhändler, Teeläden, Reiscracker, Apotheken, billige Krokett-Stände und familiengeführte Restaurants. Keine Ketten, keine Touristen, nur Einheimische, die Lebensmittel und tägliche Notwendigkeiten kaufen. Berühmte Beispiele: Nakano Broadway, Togoshi Ginza, Koenji. Hier passiert das echte Alltagsleben Tokios, abseits der Touristenviertel.",
+            "vibe": "Lokal, authentisch",
+            "history": "Shotengai entstanden in den frühen 1900ern als kommerzielle Nachbarschaftszentren, erreichten ihren Höhepunkt in den 1960er-70ern, bevor Supermärkte und Einkaufszentren sie bedrohten. Viele überlebten durch Spezialisierung oder Schaffung von Gemeinschaftsevents. Sie sind jetzt als Kulturgüter geschützt. Jede Shotengai spiegelt den Charakter ihres Viertels wider – Koenjis ist Punk und Vintage, Togoshi Ginza ist Arbeiterklasse und billig.",
+            "insider_tip": "Besuchen Sie Shotengai in Wohnvierteln (nicht Shibuya/Shinjuku) – versuchen Sie Nakano Broadway (Anime/Manga-Subkultur), Togoshi Ginza (längste in Tokio, 1,3km, billiges Essen) oder Koenji (Vintage/Punk). Gehen Sie am späten Nachmittag (16-18 Uhr), wenn Einheimische für das Abendessen einkaufen. Probieren Sie billige Kroketten (¥100), Taiyaki (fischförmiger Kuchen) oder Mochi. Es ist ein Fenster in das tägliche Tokio-Leben – kein Englisch, keine Touristen, nur Einheimische.",
+            "price_level": "Günstig",
+            "good_for": [
+              "Lokale Erfahrung",
+              "Essen"
+            ],
+            "duration": "1-2 Stunden",
+            "best_time": "Später Nachmittag"
+          },
+          "image": "/images/tokyo/shotengai.jpg"
         }
       ]
     }
   ],
   "itinerary": [
     {
-      "time": "8 Uhr morgens",
-      "title": "Bagels und Schmier im Lower East Side",
-      "description": "Genießen Sie das ikonische Frühstück in der Russ & Daughters Cafe, das seit 1914 geöffnet ist. Bestellen Sie ein Bagel mit geräuchertem Lachs (Lox), Frischkäse, Tomaten, Zwiebeln und Kapern. Die Bagels werden von Hand geformt, gekocht und dann gebacken: Sie sind ganz anders als die runden Brötchen, die Sie anderswo finden. Servieren Sie es mit Kaffee oder frisch gepresstem Orangensaft. Gehen Sie anschließend auf Entdeckungstour durch die Straßen des Lower East Side, um die einwandernden Kulturen zu erkunden, die New York geprägt haben. Dieses Gebiet ist der Geburtsort der amerikanischen Bagels, Essiggurken und deren Einstellung."
+      "time": "6:00 Uhr",
+      "title": "Sonnenaufgang am Tsukiji Außenmarkt",
+      "description": "Wachen Sie früh auf für Tokios berühmten Fischmarkt. Der innere Großmarkt zog nach Toyosu um, aber Tsukijis Außenmarkt blüht immer noch mit 400+ Händlern. Sehen Sie Köchen zu, wie sie den Fang des Tages wählen, dann schnappen Sie sich frisches Uni (Seeigel) oder Toro (fetter Thunfisch) Sushi zum Frühstück. Stände öffnen gegen 5 Uhr; kommen Sie bis 6:30 Uhr vor den Reisegruppen. Streetfood-Verkäufer verkaufen Tamagoyaki (süßes Eieromelett) und gegrillte Meeresfrüchte. Das ist Tokio von seiner authentischsten und leckersten Seite.",
+      "image": "/images/tokyo/tsukiji-sunrise.jpg"
     },
     {
-      "time": "10 Uhr",
-      "title": "Spazieren Sie durch DUMBO über die Brooklyn Bridge",
-      "description": "Sie werden die Brooklyn Bridge überqueren – ein 1883 erbautes und eines der symbolträchtigsten Bauwerke der Welt. Wenn Sie von Manhattan aus aufbrechen, können Sie den herrlichen Blick auf die Skyline von Brooklyn genießen. Der Holzsteg für Fußgänger schwebt über dem Verkehr. Wenn Sie DUMBO (unter der Manhattan Bridge) erreichen, können Sie das berühmte Foto des Empire State Building im Rahmen der Brücke aufnehmen. Vergessen Sie nicht, an der Küste des Brooklyn Bridge Parks an der tiefen Stufe entlang zu schlendern. Der Kontrast zwischen der industriellen Geschichte und dem modernen Brooklyn ist beeindruckend.",
-      "image": "/images/new-york/brooklyn-bridge.jpg"
+      "time": "9:00 Uhr",
+      "title": "Meiji-Schrein & Yoyogi Park",
+      "description": "Nehmen Sie die Yamanote-Linie nach Harajuku zum Meiji-Schrein – Tokios wichtigstem Shinto-Schrein, versteckt in einem 70 Hektar großen Wald. Sehen Sie Priestern bei Zeremonien zu und schreiben Sie Wünsche auf Ema (Holztafeln). Dann kreuzen Sie zum Yoyogi Park, wo Sie Rockabilly-Tänzer, Straßenkünstler und Einheimische beim Tai Chi sehen. Sonntags flutet Harajukus Takeshita Street mit Teenagern in wilder Mode. Der Kontrast zwischen altem Schrein und modernem Chaos ist Tokio pur.",
+      "image": "/images/tokyo/meiji-shrine.jpg"
     },
     {
-      "time": "12:30 PM",
-      "title": "Juliana's oder Grimaldi's Pizza",
-      "description": "In DUMBO gibt es zwei berühmte Pizzerien, Juliana's und Grimaldi's (sie haben eine lange Geschichte von geheimen Beziehungen und wettbewerbsintensiven Restaurants). Beide bieten dünn belegte Pizzen mit leicht verkohlten Rändern und frischem Mozzarella an. Sie sollten die Margherita oder die Bianca Pizza bestellen. Es gibt keine Einzelportionen, nur ganze Pizzen. Die Wartezeit kann bis zu 45 Minuten betragen, aber es geht schnell voran. Die beste Pizza in New York: einfach und perfekt, voller Geschmack ohne Schnickschnack.",
-      "image": "/images/new-york/julianas-pizza.jpg"
+      "time": "12:00 Uhr",
+      "title": "Ramen-Mittagessen in Shibuya",
+      "description": "Navigieren Sie nach Shibuya für Tokios bestes Ramen. Ichiran bietet Solo-Kabinen, wo Sie Ihre Schüssel per Automat anpassen – Tonkotsu-Brühe, Nudelfestigkeit, Schärfegrad. Oder probieren Sie Afuri für Yuzu-infundiertes Ramen. Schlürfen ist nicht nur erlaubt, sondern erwünscht – es belüftet die Nudeln und zeigt Wertschätzung. Nach dem Mittagessen überqueren Sie den Shibuya Scramble – die geschäftigste Kreuzung der Welt, wo 3.000 Menschen gleichzeitig kreuzen. Schauen Sie vom 2. Stock des Starbucks für die Luftansicht zu.",
+      "image": "/images/tokyo/shibuya-ramen.jpg"
     },
     {
-      "time": "15:00",
-      "title": "Central Park: Vom Bethesda-Brunnen zur Bow Bridge",
-      "description": "Steigen Sie in die U-Bahn und fahren Sie bis zur 72nd Street Station, um über die Bethesda-Terrasse in den Central Park zu gelangen. Der Brunnen wird Ihnen aus 1.000 Filmen sofort bekannt vorkommen. Gehen Sie nach Norden zur Bow Bridge, die einer der romantischsten Orte im Central Park ist. Danach können Sie ein Boot auf dem See mieten (20 $/Stunde) oder einfach sitzen und die Passanten beobachten. Der Park ist eine naturnahe Schönheit, die im Herzen Manhattans entworfen wurde und sich über 843 Acres erstreckt. An Wochenenden treten Musiker, Tänzer und Künstler auf. Diese künstliche Natur scheint in gewisser Weise ursprünglich zu sein.",
-      "image": "/images/new-york/central-park-afternoon.jpg"
+      "time": "15:00 Uhr",
+      "title": "Senso-ji Tempel & Asakusa",
+      "description": "Nehmen Sie die Metro nach Asakusa für Tokios ältesten Tempel (628 n. Chr.). Gehen Sie durch das Kaminarimon-Tor (die riesige rote Laterne), dann stöbern Sie durch die 90 Stände der Nakamise Einkaufsstraße, die traditionelle Snacks und Souvenirs verkaufen. Werfen Sie am Senso-ji eine Münze in die Opferbox, verbeugen Sie sich zweimal, klatschen zweimal, verbeugen einmal. Wahrsagepapiere (Omikuji) kosten ¥100 – wenn Sie Pech haben, binden Sie es an die Gestelle und lassen es zurück. Der Tempelkomplex ist massiv; erkunden Sie Seitenstraßen für Alt-Tokio-Atmosphäre.",
+      "image": "/images/tokyo/sensoji-afternoon.jpg"
     },
     {
-      "time": "18:00",
-      "title": "Sonnenuntergang vom Top of the Rock",
-      "description": "Besuchen Sie die Aussichtsplattform Top of the Rock im Rockefeller Center (70. Etage). Im Gegensatz zum Empire State Building haben Sie von hier aus einen fantastischen Blick auf den Central Park, das Empire State Building und Manhattan. Reservieren Sie einige Wochen im Voraus, um den Sonnenuntergang zu sehen. Wenn die Stadt im Licht erstrahlt, werden Sie verstehen, warum 8 Millionen Menschen auf dieser kleinen Insel leben. Machen Sie auf der Außenterrasse atemberaubende Fotos ohne lästige Reflexionen. Bleiben Sie bis zur blauen Uhr stehen und genießen Sie dieses unglaubliche Erlebnis.",
-      "image": "/images/new-york/top-of-rock-sunset.jpg",
-      "ticket_link": "https://www.getyourguide.com/new-york-l59/top-of-the-rock-observation-deck-tickets-t61711/"
+      "time": "18:00 Uhr",
+      "title": "Shibuya Sky Sonnenuntergang",
+      "description": "Kehren Sie für den Sonnenuntergang vom Shibuya Sky Aussichtsdeck (47. Stock) nach Shibuya zurück. Sehen Sie zu, wie sich die Stadt verwandelt, wenn 13 Millionen Lichter angehen. Mt. Fuji erscheint an klaren Tagen. Das Dach ist Open-Air – bringen Sie eine Jacke mit. Buchen Sie Tickets online für ¥2.000. Nach Sonnenuntergang erkunden Sie Shibuyas Chaos: Kaufhäuser, Izakayas und endloses Neon. Don Quijote (Discounter) sind 5 Etagen organisierten Wahnsinns, die einen Besuch wert sind.",
+      "image": "/images/tokyo/shibuya-sky-sunset.jpg",
+      "ticket_link": "https://www.getyourguide.com/tokyo-l193/shibuya-sky-observation-deck-tickets-t394823/"
     },
     {
-      "time": "20:30",
-      "title": "Abendessen am Times Square und Broadway-Show",
-      "description": "Essen Sie im Hell's Kitchen (9. Ave) - ein angesagter Ort in der Nähe des Ellen- und Beacon-Theaters. Anschließend können Sie eine Broadway-Show genießen. Mit der TodayTix-App können Sie am selben Tag ermäßigte Tickets ($50-100) erhalten. Die Lichter am Times Square sind erstaunlich und sollten mindestens einmal gesehen werden. Nach der Show schlendern Sie durch das Neon-Chaos – es ist nachts so hell, dass man lesen kann. Die Energie in New York nachts ist elektrisch. Genießen Sie eine Pizza von 2 Bros Pizza oder einen gegrillten Hot Dog von der Straße. Diese Stadt schläft wirklich nie.",
-      "image": "/images/new-york/broadway-night.jpg",
-      "ticket_link": "https://www.getyourguide.com/new-york-l59/broadway-show-tickets-t445698/"
+      "time": "20:00 Uhr",
+      "title": "Izakaya-Abendessen & Shinjuku Nachtleben",
+      "description": "Auf nach Shinjuku zum Izakaya-Hopping in Omoide Yokocho (Memory Lane) – enge Gassen vollgepackt mit winzigen Bars für 6-10 Personen. Bestellen Sie Yakitori (gegrillte Hähnchenspieße), Edamame, Karaage (frittiertes Hähnchen) und Bier oder Sake. Dann erkunden Sie Golden Gai – 200+ Mikro-Bars in einem Zwei-Block-Radius, jede mit einzigartigen Themen. Manche verlangen Eintritt, manche sind nur für Stammgäste. Robot Restaurant ist touristisch, aber wunderbar bizarr. Enden Sie in Kabukicho für Neon-Reizüberflutung und Mitternachts-Ramen.",
+      "image": "/images/tokyo/shinjuku-night2.jpg"
     }
   ],
   "affiliate_products": [
     {
       "id": "aff-001",
-      "title": "Laufschuhe",
-      "image": "/images/new-york/shoes.jpg",
-      "reason": "Sie sollten täglich mindestens 15.000 Schritte gehen, daher vermeiden Sie hohe Absätze oder Flip-Flops. Komfort ist sehr wichtig.",
-      "amazon_url": "https://www.amazon.com/s?k=comfortable+walking+shoes",
-      "category": "Schuhe"
+      "title": "Japan Reiseadapter (Typ A/B)",
+      "image": "/images/tokyo/adapter.jpg",
+      "reason": "Japan nutzt Typ A (zwei flache Stifte). Reisende aus Europa/UK benötigen einen Adapter.",
+      "amazon_url": "https://www.amazon.com/s?k=japan+travel+adapter+type+a",
+      "category": "Elektronik"
     },
     {
       "id": "aff-002",
-      "title": "Tragbares Ladegerät",
-      "image": "/images/new-york/charger.jpg",
-      "reason": "Der Akku entleert sich schnell, wenn Sie die Karte verwenden oder Fotos machen. Es ist nicht immer einfach, eine Steckdose zu finden.",
-      "amazon_url": "https://www.amazon.com/s?k=portable+charger",
+      "title": "Pocket WiFi / eSIM",
+      "image": "/images/tokyo/wifi.jpg",
+      "reason": "Kostenloses WiFi ist in der Öffentlichkeit selten. Sie brauchen Daten für Google Maps und Übersetzung. Mieten Sie ein Pocket WiFi oder kaufen Sie eine eSIM.",
+      "amazon_url": "https://www.amazon.com/s?k=pocket+wifi+japan",
       "category": "Elektronik"
     },
     {
       "id": "aff-003",
-      "title": "Reiseadapter für die USA",
-      "image": "/images/new-york/adapter.jpg",
-      "reason": "Wenn Sie aus dem Ausland kommen, benötigen Sie einen Typ A/B Adapter.",
-      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter",
-      "category": "Elektronik"
+      "title": "Münzbörse",
+      "image": "/images/tokyo/coin-purse.jpg",
+      "reason": "Bargeld ist immer noch König, und Sie werden VIELE Münzen ansammeln. Eine dedizierte Münzbörse ist ein Lebensretter.",
+      "amazon_url": "https://www.amazon.com/s?k=coin+purse",
+      "category": "Zubehör"
     }
   ],
-  "region": "North America"
+  "lat": 35.6895,
+  "lng": 139.6917,
+  "region": "Asia"
 }
