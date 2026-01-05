@@ -83,14 +83,8 @@ export default async function HomePage({ params }: HomeProps) {
             explore_world: "Explore the World" 
           }}
         />
+{/* 🛡️ MASTER AI: NATIVE AD REMOVED (VIRUS SOURCE DELETED) */}
 
-{/* ✅ KEPT AD: Adsterra Native Ads without the extra "Where next" header */}
-        <div className="max-w-[1400px] mx-auto px-6 pb-20 pt-10 border-t border-slate-100 dark:border-slate-900">
-          <AdsterraNative 
-            placementId="container-b6e0031bcc444be2bd24c5b310c73cb3" 
-            scriptSrc="https://pl28360621.effectivegatecpm.com/b6e0031bcc444be2bd24c5b310c73cb3/invoke.js" 
-          />
-        </div>
       </Suspense>
     </div>
   )
