@@ -1,3 +1,17 @@
+# 🛡️ 1. THE "FRANCE-BYPASS" FORCE RULES
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap.xml"
+  status = 200
+  force = true # 🎯 THE "FORCE" IS CRITICAL
+
+[[redirects]]
+  from = "/robots.txt"
+  to = "/robots.txt"
+  status = 200
+  force = true
+
+# 🏗️ 2. BUILD SETTINGS (Keep your memory-safe settings)
 [build]
   command = "npm run build"
   publish = ".next"
@@ -10,7 +24,6 @@
   NODE_VERSION = "20"
   NODE_OPTIONS = "--max-old-space-size=4096"
   NEXT_CPU_LIMIT = "1"
-
 [[headers]]
   for = "/sitemap.xml"
   [headers.values]

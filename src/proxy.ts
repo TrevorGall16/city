@@ -48,7 +48,8 @@ export const config = {
   matcher: [
     /*
      * 🎯 MASTER AI MATCHER:
-     * Exclude API, Static, Images, and specifically sitemap.xml
+     * We REMOVE sitemap.xml from the matcher entirely.
+     * This means the proxy will NEVER touch the sitemap request.
      */
     '/((?!api|_next|images|sitemap\\.xml|robots\\.txt|favicon\\.ico).*)',
   ],
