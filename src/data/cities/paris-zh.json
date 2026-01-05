@@ -498,8 +498,9 @@
         "尝试法式经典",
         "喜欢冒险的食客"
       ],
-      "duration": "20分钟",
-      "best_time": "晚餐开胃菜"
+"duration": "20分钟",
+      "best_time": "晚餐开胃菜",
+      "image": "/images/paris/escargots.jpg"
     },
     {
       "id": "food-021",
@@ -850,7 +851,8 @@
         "咖啡搭配"
       ],
       "duration": "5分钟",
-      "best_time": "下午"
+      "best_time": "下午",
+"image": "/images/paris/canele.jpg"
     },
     {
       "id": "food-027",
@@ -870,8 +872,9 @@
         "甜点",
         "分享"
       ],
-      "duration": "20分钟",
-      "best_time": "晚餐后"
+"duration": "20分钟",
+      "best_time": "晚餐后",
+      "image": "/images/paris/tarte-tatin.jpg"
     }
   ],
   "must_see": [
