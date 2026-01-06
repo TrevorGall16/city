@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { useRouter, useParams } from 'next/navigation'
 import { X, Eye, EyeOff } from 'lucide-react'
 import { createClient } from '@/lib/supabase/client'
 
@@ -10,6 +11,10 @@ interface LoginModalProps {
 }
 
 export function LoginModal({ isOpen, onClose }: LoginModalProps) {
+  const router = useRouter()
+  const params = useParams()
+  const lang = (params?.lang as string) || 'en'
+
   const [isSignUp, setIsSignUp] = useState(false)
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -66,8 +71,9 @@ export function LoginModal({ isOpen, onClose }: LoginModalProps) {
           password,
         })
         if (signInError) throw signInError
-        // Login successful - reload page to update header state
-        window.location.reload()
+        // Login successful - refresh to update header state without reload
+        onClose()
+        router.refresh()
       }
     } catch (err: any) {
       setError(err.message || 'Authentication failed')
@@ -198,7 +204,7 @@ export function LoginModal({ isOpen, onClose }: LoginModalProps) {
             <button
               onClick={() => {
                 onClose()
-                window.location.href = '/forgot-password'
+                router.push(`/${lang}/forgot-password`)
               }}
               className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-300 transition-colors"
             >

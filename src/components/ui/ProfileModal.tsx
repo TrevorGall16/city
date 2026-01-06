@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { useRouter } from 'next/navigation'
 import { X } from 'lucide-react'
 import { createClient } from '@/lib/supabase/client'
 
@@ -11,6 +12,7 @@ interface ProfileModalProps {
 }
 
 export function ProfileModal({ isOpen, onClose, currentName }: ProfileModalProps) {
+  const router = useRouter()
   const [displayName, setDisplayName] = useState(currentName || '')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
@@ -48,7 +50,7 @@ export function ProfileModal({ isOpen, onClose, currentName }: ProfileModalProps
       setSuccess(true)
       setTimeout(() => {
         onClose()
-        window.location.reload() // Reload to show new name in header
+        router.refresh() // Refresh to show new name in header without reload
       }, 1000)
     } catch (err: any) {
       setError(err.message)
