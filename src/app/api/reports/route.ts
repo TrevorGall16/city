@@ -1,38 +1,46 @@
 import { createClient } from '@/lib/supabase/server'
 import { NextResponse } from 'next/server'
+import { z } from 'zod'
+import { checkRateLimit, RATE_LIMITS } from '@/lib/rate-limit'
 
-// ============================================================================
-// POST Handler: Submit a comment report
-// ============================================================================
+// 🛡️ Validation Schema
+const ReportSchema = z.object({
+  commentId: z.string().uuid('Invalid comment ID'),
+  reason: z.string().min(1, 'Reason required').max(500, 'Too long').trim(),
+})
+
 export async function POST(request: Request) {
   try {
-const supabase = await createClient()
+    const supabase = await createClient()
 
-    const { data: { user }, error: authError } = await supabase.auth.getUser()
-    if (authError || !user) {
-      return NextResponse.json({ error: 'Unauthorized. Please log in to report comments.' }, { status: 401 })
+    // 1. Auth Check
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user) {
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
 
+    // 2. Rate Limit (Uses your src/lib/rate-limit.ts)
+    // Note: We check 'comment_reports' table
+    const isRateLimited = await checkRateLimit(supabase, user.id, 'comment_reports', RATE_LIMITS.REPORT)
+    if (isRateLimited) {
+      return NextResponse.json(
+        { error: 'You are reporting too frequently. Please wait.' },
+        { status: 429 }
+      )
+    }
+
+    // 3. Validation
     const body = await request.json()
-    const { commentId, reason } = body
+    const validation = ReportSchema.safeParse(body)
 
-    if (!commentId || !reason) {
-      return NextResponse.json({ error: 'Missing data' }, { status: 400 })
+    if (!validation.success) {
+      return NextResponse.json({ error: 'Invalid input' }, { status: 400 })
     }
 
-    // Verify comment exists
-    const { data: comment, error: commentError } = await supabase
-      .from('comments')
-      .select('id')
-      .eq('id', commentId)
-      .single()
+    const { commentId, reason } = validation.data
 
-    if (commentError || !comment) {
-      return NextResponse.json({ error: 'Comment not found' }, { status: 404 })
-    }
-
-    // Insert report (will fail if duplicate due to UNIQUE constraint)
-    const { data, error: insertError } = await supabase
+    // 4. Submit Report
+    const { data, error } = await supabase
       .from('comment_reports')
       .insert({
         comment_id: commentId,
@@ -40,29 +48,21 @@ const supabase = await createClient()
         reason,
         status: 'pending',
       })
-      .select('*')
+      .select()
       .single()
 
-    if (insertError) {
-      // Check if duplicate report
-      if (insertError.code === '23505') {
-        return NextResponse.json(
-          { error: 'You have already reported this comment' },
-          { status: 409 }
-        )
+    if (error) {
+      // Handle "Already reported" case gracefully
+      if (error.code === '23505') {
+        return NextResponse.json({ error: 'You have already reported this comment' }, { status: 409 })
       }
-      console.error('Insert report error:', insertError)
-      return NextResponse.json({ error: insertError.message }, { status: 500 })
+      throw error
     }
 
-    return NextResponse.json({
-      success: true,
-      message: 'Report submitted successfully',
-      data
-    })
+    return NextResponse.json({ success: true, message: 'Report submitted' })
 
-  } catch (err: any) {
-    console.error('POST /api/reports error:', err)
-    return NextResponse.json({ error: err.message }, { status: 500 })
+  } catch (error: any) {
+    console.error('Report Error:', error)
+    return NextResponse.json({ error: error.message }, { status: 500 })
   }
 }

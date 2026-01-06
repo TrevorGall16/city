@@ -1,75 +1,76 @@
-/**
- * Votes API Route
- * POST: Upvote/downvote a comment (or remove vote)
- *
- * CRITICAL: No anonymous writes - auth required
- * Uses atomic upsert_vote function for race condition safety
- */
-
 import { createClient } from '@/lib/supabase/server'
 import { NextResponse } from 'next/server'
+import { z } from 'zod'
+import { checkRateLimit, RATE_LIMITS } from '@/lib/rate-limit'
+
+// 🛡️ Validation Schema
+const VoteSchema = z.object({
+  commentId: z.string().uuid(),
+  value: z.number().int().min(-1).max(1).refine((val) => [-1, 0, 1].includes(val)),
+})
 
 export async function POST(request: Request) {
   try {
     const supabase = await createClient()
 
-    // Check authentication - STRICTLY NO ANONYMOUS WRITES
-    const {
-      data: { user },
-    } = await supabase.auth.getUser()
-
+    // 1. Auth Check
+    const { data: { user } } = await supabase.auth.getUser()
     if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
 
+    // 2. Rate Limit (Uses your src/lib/rate-limit.ts)
+    const isRateLimited = await checkRateLimit(supabase, user.id, 'votes', RATE_LIMITS.VOTE)
+    if (isRateLimited) {
+      return NextResponse.json(
+        { error: 'You are voting too fast. Please slow down.' },
+        { status: 429 }
+      )
+    }
+
+    // 3. Validation
     const body = await request.json()
-    const { commentId, value } = body
+    const validation = VoteSchema.safeParse(body)
 
-    // Validate input
-    if (!commentId) {
-      return NextResponse.json(
-        { error: 'commentId is required' },
-        { status: 400 }
-      )
+    if (!validation.success) {
+      return NextResponse.json({ error: 'Invalid input' }, { status: 400 })
     }
 
-    if (![1, 0, -1].includes(value)) {
-      return NextResponse.json(
-        { error: 'value must be -1, 0, or 1' },
-        { status: 400 }
+    const { commentId, value } = validation.data
+
+    // 4. Perform Vote (Standard Upsert - No RPC needed)
+    // This creates or updates the vote safely
+    const { error } = await supabase
+      .from('votes')
+      .upsert(
+        { user_id: user.id, comment_id: commentId, value: value },
+        { onConflict: 'user_id, comment_id' }
       )
-    }
 
-    // Use atomic upsert function
-    const { error } = await supabase.rpc('upsert_vote', {
-      p_comment_id: commentId,
-      p_user_id: user.id,
-      p_value: value,
-    })
+    if (error) throw error
 
-    if (error) {
-      console.error('Error upserting vote:', error)
-      return NextResponse.json(
-        { error: 'Failed to update vote' },
-        { status: 500 }
-      )
-    }
+    // 5. Calculate New Score (Simple Sum)
+    const { data: scoreData } = await supabase
+      .from('votes')
+      .select('value')
+      .eq('comment_id', commentId)
 
-    // Get updated vote count
-    const { data: voteCount } = await supabase.rpc('get_comment_score', {
-      comment_uuid: commentId,
-    })
+    const newScore = scoreData?.reduce((acc, curr) => acc + curr.value, 0) || 0
+
+    // 6. Update Comment Cache (Optimization)
+    await supabase
+      .from('comments')
+      .update({ vote_count: newScore })
+      .eq('id', commentId)
 
     return NextResponse.json({
       success: true,
-      vote_count: voteCount || 0,
+      vote_count: newScore,
       user_vote: value,
     })
-  } catch (error) {
-    console.error('Unexpected error in POST /api/votes:', error)
-    return NextResponse.json(
-      { error: 'Internal server error' },
-      { status: 500 }
-    )
+
+  } catch (error: any) {
+    console.error('Vote Error:', error)
+    return NextResponse.json({ error: error.message }, { status: 500 })
   }
 }

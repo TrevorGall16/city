@@ -1,6 +1,7 @@
 import { createClient } from '@/lib/supabase/server'
 import { NextResponse } from 'next/server'
 import { z } from 'zod'
+import { checkRateLimit, RATE_LIMITS } from '@/lib/rate-limit'
 
 // ============================================================================
 // 🛡️ SECURITY SCHEMAS (Zod)
@@ -9,11 +10,11 @@ const PostCommentSchema = z.object({
   citySlug: z.string().min(1).max(100),
   placeSlug: z.string().min(1).max(100).optional().nullable(),
   parentId: z.string().uuid().optional().nullable(),
-  // 🛡️ Anti-XSS: No HTML tags allowed in content
+  // 🛡️ Content validation - React handles XSS, we just prevent abuse
   content: z.string()
     .min(1, "Comment cannot be empty")
     .max(2000, "Comment is too long (max 2000 chars)")
-    .regex(/^[^<>]*$/, "HTML tags are not allowed"), 
+    .trim(),
 })
 
 const PatchCommentSchema = z.object({
@@ -21,25 +22,8 @@ const PatchCommentSchema = z.object({
   content: z.string()
     .min(1, "Comment cannot be empty")
     .max(2000, "Comment is too long")
-    .regex(/^[^<>]*$/, "HTML tags are not allowed"),
+    .trim(),
 })
-
-// 🛠️ HELPER: RATE LIMITER (New Feature)
-// Prevents users from spamming (Max 1 comment per minute)
-async function checkRateLimit(supabase: any, userId: string) {
-  const oneMinuteAgo = new Date(Date.now() - 60 * 1000).toISOString()
-
-  const { count, error } = await supabase
-    .from('comments')
-    .select('*', { count: 'exact', head: true })
-    .eq('user_id', userId)
-    .gte('created_at', oneMinuteAgo)
-
-  if (error) return false // If DB check fails, let it pass to avoid blocking valid users
-
-  // If user has 1 or more comments in the last minute -> BLOCK
-  return count !== null && count > 0
-}
 
 // ============================================================================
 // GET Handler: Fetch comments with threading and pagination
@@ -142,11 +126,11 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
 
-    // 🛑 RATE LIMIT CHECK (New Feature)
-    const isRateLimited = await checkRateLimit(supabase, user.id)
+    // 🛑 RATE LIMIT CHECK
+    const isRateLimited = await checkRateLimit(supabase, user.id, 'comments', RATE_LIMITS.COMMENT)
     if (isRateLimited) {
       return NextResponse.json(
-        { error: 'You are commenting too fast. Please wait 1 minute.' }, 
+        { error: 'You are commenting too fast. Please wait 1 minute.' },
         { status: 429 }
       )
     }
