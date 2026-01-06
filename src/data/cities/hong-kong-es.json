@@ -90,7 +90,7 @@
     },
     {
       "id": 5,
-      "name": "Mai",
+      "name": "Mayo",
       "temp": "24°C - 30°C",
       "vibe": "Cálido y Pegajoso",
       "pros": [
@@ -198,7 +198,7 @@
       ],
       "cons": [
         "Popular (reserve con anticipación)",
-        "Rafraîchissement"
+        "Empieza a refrescar"
       ],
       "clothing": "Capas ligeras, zapatos cómodos"
     },
@@ -509,7 +509,7 @@
     {
       "id": "food-hk-002",
       "slug": "roast-goose",
-      "name_en": "Oie rôtie",
+      "name_en": "Ganso asado",
       "name_local": "燒鵝 (Siu Ngo)",
       "category": "comida",
       "is_generic_staple": true,
@@ -532,7 +532,7 @@
     {
       "id": "food-hk-003",
       "slug": "wonton-noodles",
-      "name_en": "Nouilles Wonton",
+      "name_en": "Fideos Wonton",
       "name_local": "雲吞麵 (Wan Tan Min)",
       "category": "comida",
       "is_generic_staple": true,
@@ -647,7 +647,7 @@
     {
       "id": "food-hk-008",
       "slug": "cheung-fun",
-      "name_en": "Rouleaux de nouilles de riz",
+      "name_en": "Rollos de fideos de arroz",
       "name_local": "腸粉 (Cheung Fan)",
       "category": "nourriture",
       "is_generic_staple": true,
@@ -693,7 +693,7 @@
     {
       "id": "food-hk-010",
       "slug": "cart-noodles",
-      "name_en": "Nouilles de Chariot",
+      "name_en": "Fideos de carrito",
       "name_local": "車仔麵 (Che Zai Min)",
       "category": "comida",
       "is_generic_staple": true,
@@ -739,7 +739,7 @@
     {
       "id": "food-hk-012",
       "slug": "fish-balls",
-      "name_en": "Boulettes de poisson au curry",
+      "name_en": "Albóndigas de pescado al curry",
       "name_local": "咖喱魚蛋 (Ga Lei Yu Dan)",
       "category": "comida",
       "is_generic_staple": true,
@@ -785,7 +785,7 @@
     {
       "id": "food-hk-014",
       "slug": "egg-waffle",
-      "name_en": "Gaufre aux œufs",
+      "name_en": "Gofre de huevo",
       "name_local": "雞蛋仔 (Gai Daan Zai)",
       "category": "food",
       "is_generic_staple": true,
@@ -1185,7 +1185,7 @@
         {
           "id": "sight-hk-013",
           "slug": "mid-levels-escalator",
-          "name_en": "Escalera Mids-Levels",
+          "name_en": "Escalera Mid-Levels",
           "name_local": "中環至半山自動扶梯",
           "category": "sight",
           "is_generic_staple": false,
@@ -1255,7 +1255,7 @@
     {
       "time": "13h00",
       "title": "Almuerzo de Oca Asada",
-      "description": "Carne asada con estrella Michelin en Yat Lok o Kam's. Oca entera sobre arroz por 100 HK$.",
+      "description": "Carne asada con estrella Michelin en Yat Lok o Kam's. Media oca sobre arroz por 100 HK$.",
       "image": "/images/hong-kong/roast-goose2.jpg"
     },
     {

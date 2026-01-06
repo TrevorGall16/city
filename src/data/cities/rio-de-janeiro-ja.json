@@ -233,58 +233,58 @@
       "スンガ文化：ブラジルの男性はビーチでスピードの水着（スンガ）を着ています。ボードショーツは観光客用です。女性はミニマムなビキニ（フィオ・ダンテル - デンタルフロス）を着用します。誰も判断しません。",
       "礼儀は重要です：「ボンジーア」（おはようございます）、「ボアタルジ」（こんにちは）、「ボアノイチ」（こんばんは）と言いましょう。「ポールファボール」（お願いします）、「オブリガード/オブリガーダ」（ありがとう）を使うことが必須です。"
     ],
-    "essential_phrases": [
-      {
-        "src": "Hello / Good morning",
-        "local": "おはようございます",
-        "phonetic": "おはようございます"
-      },
-      {
-        "src": "Good afternoon",
-        "local": "こんにちは",
-        "phonetic": "こんにちは"
-      },
-      {
-        "src": "Good evening",
-        "local": "こんばんは",
-        "phonetic": "こんばんは"
-      },
-      {
-        "src": "Thank you (m/f)",
-        "local": "ありがとう / ありがとうございます",
-        "phonetic": "ありがとう / ありがとうございます"
-      },
-      {
-        "src": "Please",
-        "local": "お願いします",
-        "phonetic": "おねがいします"
-      },
-      {
-        "src": "Excuse me",
-        "local": "すみません",
-        "phonetic": "すみません"
-      },
-      {
-        "src": "How much?",
-        "local": "いくらですか？",
-        "phonetic": "いくらですか？"
-      },
-      {
-        "src": "Where is...?",
-        "local": "どこですか...？",
-        "phonetic": "どこですか...？"
-      },
-      {
-        "src": "The bill please",
-        "local": "請求書をお願いします",
-        "phonetic": "せいきゅうしょをおねがいします"
-      },
-      {
-        "src": "I don't speak Portuguese",
-        "local": "ポルトガル語が話せません",
-        "phonetic": "ぽるとがるごがはなせません"
-      }
-    ]
+   "essential_phrases": [
+    {
+      "src": "Hello / Good morning",
+      "local": "Bom dia",
+      "phonetic": "ボン・ジーア"
+    },
+    {
+      "src": "Good afternoon",
+      "local": "Boa tarde",
+      "phonetic": "ボア・タルデ"
+    },
+    {
+      "src": "Good evening",
+      "local": "Boa noite",
+      "phonetic": "ボア・ノイチ"
+    },
+    {
+      "src": "Thank you (m/f)",
+      "local": "Obrigado / Obrigada",
+      "phonetic": "オブリガード / オブリガーダ"
+    },
+    {
+      "src": "Please",
+      "local": "Por favor",
+      "phonetic": "ポル・ファヴォール"
+    },
+    {
+      "src": "Excuse me",
+      "local": "Com licença",
+      "phonetic": "コン・リセンサ"
+    },
+    {
+      "src": "How much?",
+      "local": "Quanto custa?",
+      "phonetic": "クアント・クスタ？"
+    },
+    {
+      "src": "Where is...?",
+      "local": "Onde fica...?",
+      "phonetic": "オンジ・フィカ...？"
+    },
+    {
+      "src": "The bill please",
+      "local": "A conta, por favor",
+      "phonetic": "ア・コンタ、ポル・ファヴォール"
+    },
+    {
+      "src": "I don't speak Portuguese",
+      "local": "Não falo português",
+      "phonetic": "ナォン・ファロ・ポルトゥゲス"
+    }
+  ]
   },
   "neighborhoods": [
     {

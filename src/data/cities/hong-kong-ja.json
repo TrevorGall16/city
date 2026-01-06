@@ -90,7 +90,7 @@
     },
     {
       "id": 5,
-      "name": "メイ",
+      "name": "5月",
       "temp": "24°C - 30°C",
       "vibe": "暑くて湿気が多い",
       "pros": [
@@ -112,7 +112,7 @@
       "pros": [
         "ドラゴンボートフェスティバル",
         "ビーチにぴったりの天候",
-        "シーズンの浮き輪"
+        "マンゴーの季節"
       ],
       "cons": [
         "息苦しい湿度",
@@ -139,7 +139,7 @@
     },
     {
       "id": 8,
-      "name": "アゴスト",
+      "name": "8月",
       "temp": "27°C - 32°C",
       "vibe": "台風シーズン",
       "pros": [
@@ -172,7 +172,7 @@
     },
     {
       "id": 10,
-      "name": "オットーブレ",
+      "name": "10月",
       "temp": "23°C - 28°C",
       "vibe": "黄金の季節",
       "pros": [
@@ -738,7 +738,7 @@
     {
       "id": "food-hk-012",
       "slug": "fish-balls",
-      "name_en": "カレー魚たん (カレーぎょたん)",
+      "name_en": "カレーフィッシュボール",
       "name_local": "咖喱魚蛋 (Ga Lei Yu Dan)",
       "category": "食べ物",
       "is_generic_staple": true,
@@ -761,7 +761,7 @@
     {
       "id": "food-hk-013",
       "slug": "congee",
-      "name_en": "センテナリーエッグと豚肉のお粥",
+      "name_en": "ピータンと豚肉のお粥",
       "name_local": "皮蛋瘦肉粥 (Pei Dan Sau Yuk Juk)",
       "category": "食べ物",
       "is_generic_staple": true,
@@ -784,7 +784,7 @@
     {
       "id": "food-hk-014",
       "slug": "egg-waffle",
-      "name_en": "Gaufre aux œufs",
+      "name_en": "エッグワッフル",
       "name_local": "雞蛋仔 (Gai Daan Zai)",
       "category": "food",
       "is_generic_staple": true,
@@ -1238,41 +1238,41 @@
       ]
     }
   ],
-  "itinerary": [
+"itinerary": [
     {
       "time": "9:00 AM",
       "title": "点心のティム・ホー・ワン",
-      "description": "ミシュラン星を獲得した点心をお楽しみください。グリルポークの包子、ハー・ガウ、シュウマイ、大根餅をご注文いただけます。",
+      "description": "ミシュラン星を獲得した点心をお楽しみください。チャーシューメロンパン、ハーガウ（海老餃子）、シューマイ、大根餅をご注文いただけます。",
       "image": "/images/hong-kong/tim-ho-wan.jpg"
     },
     {
-      "time": "午前11時",
-      "title": "エスカレーダ・チェントラルとミッドレベルズ",
-      "description": "セントラルの摩天楼を探索し、世界で最も長いエスカレーターを利用し、マン・モー寺を訪れてください。",
+      "time": "11:00 AM",
+      "title": "セントラルとミッドレベルズ・エスカレーター",
+      "description": "セントラルの摩天楼を探索し、世界で最も長いエスカレーターを利用し、文武廟（マン・モー寺）を訪れてください。",
       "image": "/images/hong-kong/central-morning.jpg"
     },
     {
-      "time": "13時00分",
-      "title": "ローストガンスのランチ",
-      "description": "Yat Lok または Kam's によるミシュラン星付きのロースト肉。ご飯の上に乗った全体のガンスが100HK$です。",
+      "time": "13:00",
+      "title": "ローストグースのランチ",
+      "description": "Yat Lok または Kam's によるミシュラン星付きのロースト肉。ご飯に乗ったローストグース（HK$100）をお楽しみください。",
       "image": "/images/hong-kong/roast-goose2.jpg"
     },
     {
-      "time": "15時00分",
+      "time": "15:00",
       "title": "ビクトリアピーク",
       "description": "トラムの行列を避けるために15番のバスに乗ってください。スカイライン、港、山々のパノラマビューを楽しむことができます。",
       "image": "/images/hong-kong/peak-afternoon.jpg"
     },
     {
-      "time": "18時30分",
+      "time": "18:30",
       "title": "スターフェリーからの夕日",
-      "description": "黄金の時間に港を渡る伝説的な旅をお楽しみください。世界の偉大な旅の一つ、料金はHK$4です。",
+      "description": "黄金の時間（ゴールデンアワー）に港を渡る伝説的な旅をお楽しみください。世界の偉大な旅の一つ、料金はHK$4です。",
       "image": "/images/hong-kong/star-ferry2.jpg"
     },
     {
-      "time": "20時00分",
-      "title": "光のシンフォニーとナイトマーケット",
-      "description": "20時のライトショーを鑑賞した後、テンプルストリートのナイトマーケットを探索し、混沌とした雰囲気とカレー味の魚の団子を楽しんでください。",
+      "time": "20:00",
+      "title": "シンフォニー・オブ・ライツとナイトマーケット",
+      "description": "20時のライトショーを鑑賞した後、テンプルストリートのナイトマーケットを探索し、混沌とした雰囲気とカレーフィッシュボールを楽しんでください。",
       "image": "/images/hong-kong/night-market.jpg"
     }
   ],

@@ -233,58 +233,58 @@
       "Sunga Kultur: Brasilianische Männer tragen am Strand Speedos (sungas). Boardshorts sind für Touristen. Frauen tragen minimale Bikinis (fio dental - Zahnseide). Niemand urteilt.",
       "Höflichkeit zählt: Sagen Sie 'bom dia' (guten Morgen), 'boa tarde' (guten Nachmittag), 'boa noite' (guten Abend). 'Por favor' (bitte) und 'obrigado/a' (danke) zu verwenden ist unerlässlich."
     ],
-    "essential_phrases": [
-      {
-        "src": "Hello / Good morning",
-        "local": "Guten Morgen",
-        "phonetic": "GOO-ten MOR-gen"
-      },
-      {
-        "src": "Good afternoon",
-        "local": "Guten Nachmittag",
-        "phonetic": "GOO-ten NAH-cht-mitt-ahg"
-      },
-      {
-        "src": "Good evening",
-        "local": "Guten Abend",
-        "phonetic": "GOO-ten AH-bent"
-      },
-      {
-        "src": "Thank you (m/f)",
-        "local": "Danke (m/w)",
-        "phonetic": "DAHN-keh (m/w)"
-      },
-      {
-        "src": "Please",
-        "local": "Bitte",
-        "phonetic": "BIT-teh"
-      },
-      {
-        "src": "Excuse me",
-        "local": "Entschuldigen Sie",
-        "phonetic": "ENT-shool-dee-gen ZEE"
-      },
-      {
-        "src": "How much?",
-        "local": "Wie viel kostet es?",
-        "phonetic": "VEE feel KOS-tet es?"
-      },
-      {
-        "src": "Where is...?",
-        "local": "Wo ist...?",
-        "phonetic": "VOH ist...?"
-      },
-      {
-        "src": "The bill please",
-        "local": "Die Rechnung bitte",
-        "phonetic": "DEE RECH-nung BIT-teh"
-      },
-      {
-        "src": "I don't speak Portuguese",
-        "local": "Ich spreche kein Portugiesisch",
-        "phonetic": "IKH SPRE-khe KAIN PORT-oo-GEEZ-ish"
-      }
-    ]
+"essential_phrases": [
+    {
+      "src": "Hello / Good morning",
+      "local": "Bom dia",
+      "phonetic": "BOHM JEE-ah"
+    },
+    {
+      "src": "Good afternoon",
+      "local": "Boa tarde",
+      "phonetic": "BOH-ah TAR-deh"
+    },
+    {
+      "src": "Good evening",
+      "local": "Boa noite",
+      "phonetic": "BOH-ah NOY-tche"
+    },
+    {
+      "src": "Thank you (m/f)",
+      "local": "Obrigado / Obrigada",
+      "phonetic": "oh-bree-GAH-doo / oh-bree-GAH-dah"
+    },
+    {
+      "src": "Please",
+      "local": "Por favor",
+      "phonetic": "por fah-VOHR"
+    },
+    {
+      "src": "Excuse me",
+      "local": "Com licença",
+      "phonetic": "kohm lee-SEN-sah"
+    },
+    {
+      "src": "How much?",
+      "local": "Quanto custa?",
+      "phonetic": "KWAN-too KOO-stah?"
+    },
+    {
+      "src": "Where is...?",
+      "local": "Onde fica...?",
+      "phonetic": "ON-djee FEE-kah...?"
+    },
+    {
+      "src": "The bill please",
+      "local": "A conta, por favor",
+      "phonetic": "ah KON-tah, por fah-VOHR"
+    },
+    {
+      "src": "I don't speak Portuguese",
+      "local": "Não falo português",
+      "phonetic": "now FAH-loo por-too-GEHS"
+    }
+  ]
   },
   "neighborhoods": [
     {

@@ -90,7 +90,7 @@
     },
     {
       "id": 5,
-      "name": "Mai",
+      "name": "Maggio",
       "temp": "24°C - 30°C",
       "vibe": "Caldo e Umido",
       "pros": [
@@ -112,7 +112,7 @@
       "pros": [
         "Festival delle barche drago",
         "Tempo da spiaggia",
-        "Braccioli di stagione"
+        "Manghi di stagione"
       ],
       "cons": [
         "Umidità soffocante",
@@ -532,7 +532,7 @@
     {
       "id": "food-hk-003",
       "slug": "wonton-noodles",
-      "name_en": "Nouilles Wonton",
+      "name_en": "Wonton Noodles",
       "name_local": "雲吞麵 (Wan Tan Min)",
       "category": "cibo",
       "is_generic_staple": true,
@@ -555,7 +555,7 @@
     {
       "id": "food-hk-004",
       "slug": "tarta-de-huevo",
-      "name_en": "Tarta di uovo",
+      "name_en": "Tortina all'uovo",
       "name_local": "蛋撻 (Daan Taat)",
       "category": "cibo",
       "is_generic_staple": true,
@@ -578,7 +578,7 @@
     {
       "id": "food-hk-005",
       "slug": "pineapple-bun",
-      "name_en": "Bun de piña con mantequilla",
+      "name_en": "Panino all'ananas con burro",
       "name_local": "菠蘿油 (Bo Lo Yau)",
       "category": "comida",
       "is_generic_staple": true,
@@ -601,7 +601,7 @@
     {
       "id": "food-hk-006",
       "slug": "milk-tea",
-      "name_en": "Té con leche di Hong Kong",
+      "name_en": "Tè al latte di Hong Kong",
       "name_local": "絲襪奶茶 (Si Mat Naai Cha)",
       "category": "cibo",
       "is_generic_staple": true,
@@ -647,7 +647,7 @@
     {
       "id": "food-hk-008",
       "slug": "cheung-fun",
-      "name_en": "Rouleaux de nouilles de riz",
+      "name_en": "Involtini di riso",
       "name_local": "腸粉 (Cheung Fan)",
       "category": "nourriture",
       "is_generic_staple": true,
@@ -693,7 +693,7 @@
     {
       "id": "food-hk-010",
       "slug": "cart-noodles",
-      "name_en": "Nouilles de Chariot",
+      "name_en": "Noodles del carretto",
       "name_local": "車仔麵 (Che Zai Min)",
       "category": "cibo",
       "is_generic_staple": true,
@@ -716,7 +716,7 @@
     {
       "id": "food-hk-011",
       "slug": "french-toast",
-      "name_en": "Tostadas Francesas di Hong Kong",
+      "name_en": "French Toast di Hong Kong",
       "name_local": "西多士 (Sai Do Si)",
       "category": "cibo",
       "is_generic_staple": true,
@@ -739,7 +739,7 @@
     {
       "id": "food-hk-012",
       "slug": "fish-balls",
-      "name_en": "Boulettes de poisson au curry",
+      "name_en": "Polpette di pesce al curry",
       "name_local": "咖喱魚蛋 (Ga Lei Yu Dan)",
       "category": "cibo",
       "is_generic_staple": true,
@@ -785,7 +785,7 @@
     {
       "id": "food-hk-014",
       "slug": "egg-waffle",
-      "name_en": "Gaufre aux œufs",
+      "name_en": "Waffle all'uovo",
       "name_local": "雞蛋仔 (Gai Daan Zai)",
       "category": "food",
       "is_generic_staple": true,
@@ -1185,7 +1185,7 @@
         {
           "id": "sight-hk-013",
           "slug": "mid-levels-escalator",
-          "name_en": "Escalera Mids-Levels",
+          "name_en": "Scala mobile Mid-Levels",
           "name_local": "中環至半山自動扶梯",
           "category": "sight",
           "is_generic_staple": false,
@@ -1241,14 +1241,14 @@
   ],
   "itinerary": [
     {
-      "time": "9:00 AM",
+      "time": "9h00",
       "title": "Dim Sum da Tim Ho Wan",
       "description": "Inizi con dim sum premiati con stelle Michelin. Ordini bao di maiale alla griglia, har gows, siu mai e torta di ravanello.",
       "image": "/images/hong-kong/tim-ho-wan.jpg"
     },
     {
-      "time": "11:00 AM",
-      "title": "Escalera Centrale e Mid-Levels",
+      "time": "11h00",
+      "title": "Escalera Central Mid-Levels",
       "description": "Scopra i grattacieli di Central, prenda la scala mobile più lunga del mondo, visiti il tempio Man Mo.",
       "image": "/images/hong-kong/central-morning.jpg"
     },

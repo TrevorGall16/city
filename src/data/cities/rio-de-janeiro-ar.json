@@ -92,7 +92,7 @@
     },
     {
       "id": 5,
-      "name": "مانغشي",
+      "name": "مايو",
       "temp": "20°C - 26°C",
       "vibe": "هادئ وجاف",
       "pros": [
@@ -236,53 +236,53 @@
     "essential_phrases": [
       {
         "src": "Hello / Good morning",
-        "local": "صباح الخير",
-        "phonetic": "صَبَاح الخَيْر"
+        "local": "Bom dia",
+        "phonetic": "بوم ديا"
       },
       {
         "src": "Good afternoon",
-        "local": "مساء الخير",
-        "phonetic": "مَساء الخَيْر"
+        "local": "Boa tarde",
+        "phonetic": "بوا تاردي"
       },
       {
         "src": "Good evening",
-        "local": "مساء الخير",
-        "phonetic": "مَساء الخَيْر"
+        "local": "Boa noite",
+        "phonetic": "بوا نويت"
       },
       {
         "src": "Thank you (m/f)",
-        "local": "شكرًا",
-        "phonetic": "شُكْرًا"
+        "local": "Obrigado / Obrigada",
+        "phonetic": "أوبريغادو / أوبريغادا"
       },
       {
         "src": "Please",
-        "local": "من فضلك",
-        "phonetic": "مِنْ فَضْلِكَ"
+        "local": "Por favor",
+        "phonetic": "بور فافور"
       },
       {
         "src": "Excuse me",
-        "local": "عذرًا",
-        "phonetic": "عُذْرًا"
+        "local": "Com licença",
+        "phonetic": "كوم ليسينسا"
       },
       {
         "src": "How much?",
-        "local": "كم السعر؟",
-        "phonetic": "كَم السِعْر؟"
+        "local": "Quanto custa?",
+        "phonetic": "كوانتو كوستا؟"
       },
       {
         "src": "Where is...?",
-        "local": "أين يقع...؟",
-        "phonetic": "أَيْن يَقَع...؟"
+        "local": "Onde fica...?",
+        "phonetic": "أوندي فيكا...؟"
       },
       {
         "src": "The bill please",
-        "local": "الحساب من فضلك",
-        "phonetic": "الحِسَاب مِنْ فَضْلِكَ"
+        "local": "A conta, por favor",
+        "phonetic": "أ كونتا، بور فافور"
       },
       {
         "src": "I don't speak Portuguese",
-        "local": "لا أتكلم البرتغالية",
-        "phonetic": "لا أَتَكَلَّم البُرتُغَالِيَّة"
+        "local": "Não falo português",
+        "phonetic": "ناو فالو بورتوغيس"
       }
     ]
   },

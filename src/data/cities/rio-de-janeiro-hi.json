@@ -233,58 +233,58 @@
       "संगास संस्कृति: ब्राजील के पुरुष समुद्र तट पर स्पीडो (संगास) पहनते हैं। बोर्ड शॉर्ट्स पर्यटकों के लिए हैं। महिलाएं न्यूनतम बिकिनी पहनती हैं (फीओ डेंटल - डेंटल फ्लॉस)। कोई भी आलोचना नहीं करता।",
       "विनम्रता महत्वपूर्ण है: 'बों डिया' (गुड मॉर्निंग), 'बोआ टार्डे' (गुड आफ्टरनून), 'बोआ noche' (गुड ईविनिंग) कहें। 'पोर फेवोर' (कृपया) और 'ओब्रीगाडो/ओब्रीगाडा' (धन्यवाद) का प्रयोग करना अनिवार्य है।"
     ],
-    "essential_phrases": [
-      {
-        "src": "Hello / Good morning",
-        "local": "बोम डिया",
-        "phonetic": "बों जियाह"
-      },
-      {
-        "src": "Good afternoon",
-        "local": "बोआ टार्डे",
-        "phonetic": "बोआ तार-जे"
-      },
-      {
-        "src": "Good evening",
-        "local": "बोआ नॉइटे",
-        "phonetic": "बोआ नॉय-चें"
-      },
-      {
-        "src": "Thank you (m/f)",
-        "local": "ओब्रीगाडो / ओब्रीगाडा",
-        "phonetic": "ओ-ब्री-गाह-दू / दा"
-      },
-      {
-        "src": "Please",
-        "local": "पोर फेवोर",
-        "phonetic": "पोर फा-वोर"
-      },
-      {
-        "src": "Excuse me",
-        "local": "कोम लिसेंसा",
-        "phonetic": "कोम ली-सेन-सां"
-      },
-      {
-        "src": "How much?",
-        "local": "क्वांटो कूस्ता?",
-        "phonetic": "क्वांट-ऊ कू-सता"
-      },
-      {
-        "src": "Where is...?",
-        "local": "ओंडे फिका...?",
-        "phonetic": "ओन-डे फीका"
-      },
-      {
-        "src": "The bill please",
-        "local": "अ कॉन्ता पोर फेवोर",
-        "phonetic": "आ कों-ता पो-र फा-वोर"
-      },
-      {
-        "src": "I don't speak Portuguese",
-        "local": "नाऊ फालो पोर्तुगु€¢स",
-        "phonetic": "नाऊ फाल-ऊ पो-र-टू-गेयस"
-      }
-    ]
+   "essential_phrases": [
+    {
+      "src": "Hello / Good morning",
+      "local": "Bom dia",
+      "phonetic": "बों जियाह"
+    },
+    {
+      "src": "Good afternoon",
+      "local": "Boa tarde",
+      "phonetic": "बोआ तार-जे"
+    },
+    {
+      "src": "Good evening",
+      "local": "Boa noite",
+      "phonetic": "बोआ नॉय-चें"
+    },
+    {
+      "src": "Thank you (m/f)",
+      "local": "Obrigado / Obrigada",
+      "phonetic": "ओ-ब्री-गाह-दू / दा"
+    },
+    {
+      "src": "Please",
+      "local": "Por favor",
+      "phonetic": "पोर फा-वोर"
+    },
+    {
+      "src": "Excuse me",
+      "local": "Com licença",
+      "phonetic": "कोम ली-सेन-सां"
+    },
+    {
+      "src": "How much?",
+      "local": "Quanto custa?",
+      "phonetic": "क्वांट-ऊ कू-सता"
+    },
+    {
+      "src": "Where is...?",
+      "local": "Onde fica...?",
+      "phonetic": "ओन-डे फीका"
+    },
+    {
+      "src": "The bill please",
+      "local": "A conta, por favor",
+      "phonetic": "आ कों-ता पो-र फा-वोर"
+    },
+    {
+      "src": "I don't speak Portuguese",
+      "local": "Não falo português",
+      "phonetic": "नाऊ फाल-ऊ पो-र-टू-गेयस"
+    }
+  ]
   },
   "neighborhoods": [
     {
