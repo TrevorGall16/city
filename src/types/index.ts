@@ -1,6 +1,8 @@
 /**
- * Core TypeScript Interfaces for City Sheet
- * Final Merged Version: Preserves DB types + Adds SEO/Itinerary features
+ * 🛰️ MASTER AI: CORE TYPES (V2.0 - CRASH PROOF)
+ * ✅ Fixed: intro_vibe & itinerary now support { description: "..." } objects for localized data.
+ * ✅ Fixed: Place description made flexible to prevent TypeScript errors.
+ * ✅ Preserved: All DB types, SEO features, and Dashboard props kept intact.
  */
 
 // --- 1. DATA TYPES (JSON CONTENT) ---
@@ -12,15 +14,19 @@ export interface Place {
   name_local?: string // Made optional to prevent errors if missing
   category: string // Supports 'food' | 'sight' | dynamic strings
   price_level?: string
+  
+  // 🛡️ MASTER AI FIX: Flexible description to handle inconsistent JSON shapes
   description: string | { 
-    short: string; 
+    short?: string; 
+    description?: string; // Added to catch generic 'description' keys
     history?: string; 
     insider_tip?: string; 
     price_level?: string; 
     duration?: string; 
     best_time?: string;
     good_for?: string[];
-  } // Supports both old string and new object format
+  } 
+  
   image: string
   is_generic_staple?: boolean
   geo?: {
@@ -61,7 +67,12 @@ export interface AffiliateProduct {
 export interface ItineraryStop {
   time: string
   title: string
-  description: string
+  // 🛡️ MASTER AI FIX: Support localized object descriptions
+  description: string | {
+    short?: string;
+    long?: string;
+    description?: string;
+  }
   image?: string
   ticket_link?: string
 }
@@ -82,12 +93,18 @@ export interface City {
   country: string
   country_code: string
   hero_image: string
-  intro_vibe: string
   
-  // 🎯 ADD THESE FOR THE DASHBOARD
-  best_time_to_visit?: string   // ✅ Fixes AtAGlanceDashboard error
-  currency?: string             // ✅ Added for premium logistics
-  language_primary?: string     // ✅ Added for premium logistics
+  // 🛡️ MASTER AI FIX: Allows string OR object (Fixes the "Red Line" error)
+  intro_vibe: string | {
+    short?: string;
+    long?: string;
+    description?: string;
+  }
+  
+  // 🎯 DASHBOARD PROPS
+  best_time_to_visit?: string   
+  currency?: string             
+  language_primary?: string     
 
   general_info: {
     population: string
@@ -98,14 +115,14 @@ export interface City {
   stats: {
     currency: string
     plug_type: string
-    main_language?: string // ✅ Add this to fix the red error in the Dashboard
+    main_language?: string 
   }
   
   // Updated arrays to use specific interfaces
   weather_breakdown: WeatherMonth[]
   neighborhoods: Neighborhood[]
   
-  // ✅ NEW: Itinerary Support
+  // ✅ Itinerary Support
   itinerary?: ItineraryStop[]
   
   logistics: LogisticsTopic[]
