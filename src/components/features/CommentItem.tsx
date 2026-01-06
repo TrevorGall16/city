@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { formatDistanceToNow } from 'date-fns'
 import { MessageCircle, Edit3, Trash2, ChevronDown, Flag, MinusSquare, PlusSquare } from 'lucide-react'
@@ -21,6 +22,7 @@ interface CommentItemProps {
 }
 
 export function CommentItem({ comment, depth = 0, currentUserId, dict, onEdit, onDelete, onReport, onVote }: CommentItemProps) {
+  const router = useRouter()
   const [isReplying, setIsReplying] = useState(false)
   const [isEditing, setIsEditing] = useState(false)
   const [editContent, setEditContent] = useState(comment.content)
@@ -35,18 +37,47 @@ export function CommentItem({ comment, depth = 0, currentUserId, dict, onEdit, o
   const handleReplySubmit = async () => {
     if (!replyContent.trim()) return
     if (!currentUserId) return toast.error(dict.login_to_comment)
+
     setIsSubmitting(true)
     try {
-      const { error } = await supabase.from('comments').insert({
-        content: replyContent, city_slug: comment.city_slug, place_slug: comment.place_slug, parent_id: comment.id, user_id: currentUserId
+      const response = await fetch('/api/comments', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          content: replyContent,
+          citySlug: comment.city_slug,
+          placeSlug: comment.place_slug || undefined,
+          parentId: comment.id
+        })
       })
-      if (error) throw error
+
+      const data = await response.json()
+
+      if (!response.ok) {
+        // Handle rate limiting
+        if (response.status === 429) {
+          toast.error(data.error || 'Too many comments. Please wait a minute.')
+          return
+        }
+        // Handle validation errors
+        if (response.status === 400) {
+          toast.error(data.error || 'Invalid comment. Please check your input.')
+          return
+        }
+        // Handle other errors
+        throw new Error(data.error || 'Failed to post reply')
+      }
+
       toast.success('Reply posted!')
       setReplyContent('')
       setIsReplying(false)
       setIsCollapsed(false)
-      window.location.reload() 
-    } catch (error) { toast.error('Failed') } finally { setIsSubmitting(false) }
+      router.refresh() // Revalidate without full page reload
+    } catch (error: any) {
+      toast.error(error.message || 'Failed to post reply')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const handleEditSave = async () => {
