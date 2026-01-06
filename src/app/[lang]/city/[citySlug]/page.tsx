@@ -1,9 +1,8 @@
 /**
- * 🛰️ MASTER AI: CITY SHEET GOLDEN MASTER (V7.0 - NO CACHE)
- * ✅ Fixed: Removed missing cache import (Fixes build error).
- * ✅ Preserved: Crash protection for intro_vibe (String/Object).
- * ✅ Preserved: Adsterra/Virus disabled.
- * ✅ Preserved: Itinerary crash protection.
+ * 🛰️ MASTER AI: CITY SHEET GOLDEN MASTER (V7.1 - SEO & STABILITY)
+ * ✅ Added: SEO / JSON-LD Structured Data (From the other AI).
+ * ✅ Fixed: Removed the broken 'cityCache' import that crashes the build.
+ * ✅ Preserved: All features (Ads, Itinerary, Crash Protection).
  */
 
 import { notFound } from 'next/navigation'
@@ -30,7 +29,7 @@ import { LanguageLinks } from '@/components/features/LanguageLinks'
 import { CityNavigation } from '@/components/features/CityNavigation'
 import { CommentThread } from '@/components/features/CommentThread'
 
-// 🛑 REMOVED CACHE IMPORT
+// 🛑 REMOVED BROKEN CACHE IMPORT
 
 interface PageProps {
   params: Promise<{ lang: string; citySlug: string }>
@@ -39,6 +38,7 @@ interface PageProps {
 const SUPPORTED_LANGS = ['en', 'fr', 'es', 'it', 'ja', 'hi', 'de', 'zh', 'ar'];
 
 async function getCityData(slug: string, lang: string) {
+  // 🛑 REMOVED CACHE LOGIC (Direct file read is safer for Netlify)
   try {
     const fileName = lang === 'en' ? `${slug}.json` : `${slug}-${lang}.json`;
     const filePath = path.join(process.cwd(), 'src/data/cities', fileName);
@@ -63,7 +63,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default async function CityPage({ params }: PageProps) {
-  // 🎯 NAVIGATION LOCK: Await params at the start
   const resolvedParams = await params;
   const { citySlug, lang } = resolvedParams;
   
@@ -73,7 +72,6 @@ export default async function CityPage({ params }: PageProps) {
   if (!city) notFound()
 
   // 🛡️ MASTER AI CRASH PROTECTION
-  // We added '.description' to the check list to match your localized JSON format.
   const rawVibe = city.intro_vibe as any; 
   const introVibe = typeof rawVibe === 'object' 
     ? (rawVibe.description || rawVibe.short || rawVibe.long || '') 
@@ -99,8 +97,61 @@ export default async function CityPage({ params }: PageProps) {
     ))
   }
 
+  // 🎯 SEO: JSON-LD Structured Data (Kept from other AI)
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'TravelGuide',
+    name: `${city.name} Travel Guide`,
+    description: introVibe || `Complete travel guide for ${city.name}`,
+    url: `https://citybasic.com/${lang}/city/${citySlug}`,
+    inLanguage: lang,
+    about: {
+      '@type': 'City',
+      name: city.name,
+      description: introVibe,
+      image: city.hero_image,
+      geo: city.lat && city.lng ? {
+        '@type': 'GeoCoordinates',
+        latitude: city.lat,
+        longitude: city.lng
+      } : undefined,
+      containedInPlace: {
+        '@type': 'Country',
+        name: city.country,
+      },
+    },
+    touristAttraction: [
+      ...(city.must_see?.flatMap((section: any) =>
+        section.items?.map((place: any) => ({
+          '@type': 'TouristAttraction',
+          name: place.name_en,
+          description: typeof place.description === 'string'
+            ? place.description
+            : place.description?.short || '',
+          image: place.image,
+          url: `https://citybasic.com/${lang}/city/${citySlug}/${place.slug}`,
+        })) || []
+      ) || []),
+      ...(city.must_eat?.map((place: any) => ({
+        '@type': 'Restaurant',
+        name: place.name_en,
+        description: typeof place.description === 'string'
+          ? place.description
+          : place.description?.short || '',
+        image: place.image,
+        servesCuisine: city.name,
+      })) || []),
+    ].filter(Boolean).slice(0, 10),
+  }
+
   return (
     <div className={cityFontClass} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
+      {/* 🎯 SEO Injection */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      
       <main className="min-h-screen bg-slate-50 dark:bg-slate-950 pb-20">
         <CityNavigation lang={lang} dict={dict} />
 
@@ -108,7 +159,6 @@ export default async function CityPage({ params }: PageProps) {
         <section className="h-[60vh] relative overflow-hidden group">
           <Image src={city.hero_image} alt={city.name} fill priority className="object-cover transition-transform duration-1000 group-hover:scale-110" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-center justify-center">
-            {/* ✅ Fixed: Now correctly grabs 'description' from object */}
             <HeroGlass title={city.name} subtitle={introVibe} titleColor={finalHeroColor} fontClass={cityFontClass} />
           </div>
         </section>
@@ -206,7 +256,7 @@ export default async function CityPage({ params }: PageProps) {
             <h2 className="text-5xl font-black mb-16 text-center tracking-tighter uppercase">{dict.perfect_24h} {city.name}</h2>
             <div className="border-l-4 border-indigo-500/20 ml-6 space-y-20">
               {city.itinerary.map((stop: any, idx: number) => {
-                // ✅ Safe description check with .description fallback
+                // ✅ Safe description check
                 const rawDesc = stop.description as any;
                 const stopDesc = typeof rawDesc === 'object' 
                   ? (rawDesc.description || rawDesc.short || rawDesc.long || '') 

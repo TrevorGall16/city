@@ -68,8 +68,47 @@ export default async function PlacePage({ params }: PageProps) {
   const duration = place.duration || (typeof desc === 'object' ? desc.duration : null);
   const goodFor = place.good_for?.[0] || (typeof desc === 'object' ? desc.good_for?.[0] : null);
 
+  // 🎯 SEO: JSON-LD Structured Data for Google
+  const isRestaurant = place.category === 'food' || place.category === 'restaurant';
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': isRestaurant ? 'Restaurant' : 'TouristAttraction',
+    name: place.name_en,
+    alternateName: place.name_local !== place.name_en ? place.name_local : undefined,
+    description: shortDesc,
+    image: place.image,
+    url: `https://citybasic.com/${lang}/city/${citySlug}/${placeSlug}`,
+    ...(isRestaurant
+      ? {
+          servesCuisine: data.cityName,
+          priceRange: price || undefined,
+        }
+      : {
+          touristType: goodFor || undefined,
+        }),
+    ...(place.geo?.lat && place.geo?.lng
+      ? {
+          geo: {
+            '@type': 'GeoCoordinates',
+            latitude: place.geo.lat,
+            longitude: place.geo.lng,
+          },
+          hasMap: `https://www.google.com/maps?q=${place.geo.lat},${place.geo.lng}`,
+        }
+      : {}),
+    containedInPlace: {
+      '@type': 'City',
+      name: data.cityName,
+    },
+  }
+
   return (
     <main className={`min-h-screen bg-slate-50 dark:bg-slate-950 pb-24 ${cityFontClass}`}>
+      {/* 🎯 SEO: Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       {/* Sleek Breadcrumb */}
       <nav className="sticky top-0 z-50 bg-white/90 dark:bg-slate-900/90 backdrop-blur-lg border-b border-slate-200 dark:border-slate-800">
         <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">

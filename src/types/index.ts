@@ -93,18 +93,23 @@ export interface City {
   country: string
   country_code: string
   hero_image: string
-  
+
   // 🛡️ MASTER AI FIX: Allows string OR object (Fixes the "Red Line" error)
   intro_vibe: string | {
     short?: string;
     long?: string;
     description?: string;
   }
-  
+
   // 🎯 DASHBOARD PROPS
-  best_time_to_visit?: string   
-  currency?: string             
-  language_primary?: string     
+  best_time_to_visit?: string
+  currency?: string
+  language_primary?: string
+
+  // 🗺️ GEO COORDINATES (For SEO/Maps)
+  lat?: number
+  lng?: number
+  region?: string     
 
   general_info: {
     population: string
