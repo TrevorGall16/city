@@ -1,8 +1,9 @@
 /**
- * 🛰️ MASTER AI: CITY SHEET GOLDEN MASTER (V6.3 - DATA SYNC)
- * ✅ Fixed: intro_vibe now checks for '.description' property (matches your localized JSON).
- * ✅ Safety: Keeps the crash protection and type safety.
- * ✅ Stability: All ad scripts causing viruses are disabled.
+ * 🛰️ MASTER AI: CITY SHEET GOLDEN MASTER (V7.0 - NO CACHE)
+ * ✅ Fixed: Removed missing cache import (Fixes build error).
+ * ✅ Preserved: Crash protection for intro_vibe (String/Object).
+ * ✅ Preserved: Adsterra/Virus disabled.
+ * ✅ Preserved: Itinerary crash protection.
  */
 
 import { notFound } from 'next/navigation'
@@ -14,7 +15,7 @@ import { EnhancedPlaceCard } from '@/components/features/EnhancedPlaceCard'
 import { MonthCard } from '@/components/features/MonthCard'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { AtAGlanceDashboard } from '@/components/features/AtAGlanceDashboard'
-import { AffiliateSection } from '@/components/features/AffiliateSection'
+import { AffiliateSection } from '@/components/features/AffiliateSection' 
 import AdsterraBanner from '@/components/ads/AdsterraBanner'
 // import AdsterraNative from '@/components/ads/AdsterraNative' // 🛡️ Disabled for Safety
 
@@ -28,7 +29,8 @@ import { getDict } from '@/data/dictionaries'
 import { LanguageLinks } from '@/components/features/LanguageLinks'
 import { CityNavigation } from '@/components/features/CityNavigation'
 import { CommentThread } from '@/components/features/CommentThread'
-import { cityCache } from '@/lib/cache'
+
+// 🛑 REMOVED CACHE IMPORT
 
 interface PageProps {
   params: Promise<{ lang: string; citySlug: string }>
@@ -37,33 +39,18 @@ interface PageProps {
 const SUPPORTED_LANGS = ['en', 'fr', 'es', 'it', 'ja', 'hi', 'de', 'zh', 'ar'];
 
 async function getCityData(slug: string, lang: string) {
-  // 🚀 Check cache first
-  const cacheKey = `city-${slug}-${lang}`
-  const cached = cityCache.get<City>(cacheKey)
-  if (cached) return cached
-
   try {
     const fileName = lang === 'en' ? `${slug}.json` : `${slug}-${lang}.json`;
     const filePath = path.join(process.cwd(), 'src/data/cities', fileName);
     const fileContent = await fs.readFile(filePath, 'utf8');
-    const city = JSON.parse(fileContent) as City;
-
-    // 🚀 Store in cache
-    cityCache.set(cacheKey, city)
-    return city
+    return JSON.parse(fileContent) as City;
   } catch (error) {
     try {
       // Fallback to English if localized file is corrupt or missing
       const fallbackPath = path.join(process.cwd(), 'src/data/cities', `${slug}.json`);
       const fallbackContent = await fs.readFile(fallbackPath, 'utf8');
-      const city = JSON.parse(fallbackContent) as City;
-
-      // 🚀 Store fallback in cache
-      cityCache.set(cacheKey, city)
-      return city
-    } catch {
-      return null;
-    }
+      return JSON.parse(fallbackContent) as City;
+    } catch { return null; }
   }
 }
 
@@ -85,7 +72,7 @@ export default async function CityPage({ params }: PageProps) {
 
   if (!city) notFound()
 
-  // 🛡️ MASTER AI DATA SYNC
+  // 🛡️ MASTER AI CRASH PROTECTION
   // We added '.description' to the check list to match your localized JSON format.
   const rawVibe = city.intro_vibe as any; 
   const introVibe = typeof rawVibe === 'object' 
