@@ -1,15 +1,10 @@
 /** @type {import('next').NextConfig} */
 
-// 📊 Bundle Analyzer
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: process.env.ANALYZE === 'true',
-})
-
 const nextConfig = {
   reactStrictMode: true,
   compress: true,
 
-  // ⚡ MASTER AI: IMAGE OPTIMIZATION
+  // ⚡ MASTER AI: IMAGE OPTIMIZATION (Kept)
   images: {
     dangerouslyAllowSVG: true,
     formats: ['image/webp', 'image/avif'],
@@ -17,11 +12,13 @@ const nextConfig = {
       { protocol: 'https', hostname: 'images.unsplash.com' },
       { protocol: 'https', hostname: '**.supabase.co' },
     ],
+    // Responsive sizes for mobile performance
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
 
   // 🛡️ MASTER AI: SAFETY LOCK (REQUIRED)
+  // Keeps the build from crashing on Netlify's limited memory.
   experimental: {
     cpus: 1,
     workerThreads: false,
@@ -58,23 +55,23 @@ const nextConfig = {
     ]
   },
 
-  // 🔗 LEGACY REDIRECTS (UPDATED WITH ALL CITIES)
+  // 🔗 LEGACY REDIRECTS
   async redirects() {
     return [
       {
-        // 🎯 MASTER AI UPDATE: Added new-york, los-angeles, rio-de-janeiro, hong-kong
+        // City + Slug Redirect (Includes new cities)
         source: '/:city(bangkok|berlin|istanbul|london|paris|rome|tokyo|new-york|los-angeles|rio-de-janeiro|hong-kong)/:slug',
         destination: '/en/city/:city/:slug',
         permanent: true,
       },
       {
-        // 🎯 MASTER AI UPDATE: City root redirect
+        // City Root Redirect
         source: '/:city(bangkok|berlin|istanbul|london|paris|rome|tokyo|new-york|los-angeles|rio-de-janeiro|hong-kong)',
         destination: '/en/city/:city',
         permanent: true,
       },
       {
-         // Generic catch-all for missing language prefix
+         // Generic catch-all
          source: '/city/:path*',
          destination: '/en/city/:path*',
          permanent: true,
@@ -83,4 +80,4 @@ const nextConfig = {
   },
 }
 
-module.exports = withBundleAnalyzer(nextConfig)
+module.exports = nextConfig
