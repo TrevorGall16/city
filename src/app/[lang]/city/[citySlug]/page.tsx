@@ -14,7 +14,7 @@ import { EnhancedPlaceCard } from '@/components/features/EnhancedPlaceCard'
 import { MonthCard } from '@/components/features/MonthCard'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { AtAGlanceDashboard } from '@/components/features/AtAGlanceDashboard'
-import { AffiliateSection } from '@/components/features/AffiliateSection' 
+import { AffiliateSection } from '@/components/features/AffiliateSection'
 import AdsterraBanner from '@/components/ads/AdsterraBanner'
 // import AdsterraNative from '@/components/ads/AdsterraNative' // 🛡️ Disabled for Safety
 
@@ -28,6 +28,7 @@ import { getDict } from '@/data/dictionaries'
 import { LanguageLinks } from '@/components/features/LanguageLinks'
 import { CityNavigation } from '@/components/features/CityNavigation'
 import { CommentThread } from '@/components/features/CommentThread'
+import { cityCache } from '@/lib/cache'
 
 interface PageProps {
   params: Promise<{ lang: string; citySlug: string }>
@@ -36,18 +37,33 @@ interface PageProps {
 const SUPPORTED_LANGS = ['en', 'fr', 'es', 'it', 'ja', 'hi', 'de', 'zh', 'ar'];
 
 async function getCityData(slug: string, lang: string) {
+  // 🚀 Check cache first
+  const cacheKey = `city-${slug}-${lang}`
+  const cached = cityCache.get<City>(cacheKey)
+  if (cached) return cached
+
   try {
     const fileName = lang === 'en' ? `${slug}.json` : `${slug}-${lang}.json`;
     const filePath = path.join(process.cwd(), 'src/data/cities', fileName);
     const fileContent = await fs.readFile(filePath, 'utf8');
-    return JSON.parse(fileContent) as City;
+    const city = JSON.parse(fileContent) as City;
+
+    // 🚀 Store in cache
+    cityCache.set(cacheKey, city)
+    return city
   } catch (error) {
     try {
       // Fallback to English if localized file is corrupt or missing
       const fallbackPath = path.join(process.cwd(), 'src/data/cities', `${slug}.json`);
       const fallbackContent = await fs.readFile(fallbackPath, 'utf8');
-      return JSON.parse(fallbackContent) as City;
-    } catch { return null; }
+      const city = JSON.parse(fallbackContent) as City;
+
+      // 🚀 Store fallback in cache
+      cityCache.set(cacheKey, city)
+      return city
+    } catch {
+      return null;
+    }
   }
 }
 

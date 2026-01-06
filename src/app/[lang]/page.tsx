@@ -6,6 +6,7 @@ import { HomePageClient } from '@/components/pages/HomePageClient'
 import AdsterraBanner from '@/components/ads/AdsterraBanner'
 import AdsterraNative from '@/components/ads/AdsterraNative'
 import { getDict } from '@/data/dictionaries'
+import { cityCache } from '@/lib/cache'
 
 interface HomeProps {
   params: Promise<{ lang: string }>
@@ -15,12 +16,17 @@ const SUPPORTED_LANGS = ['en', 'fr', 'es', 'it', 'ja', 'hi', 'de', 'zh', 'ar']
 const BASE_URL = 'https://citybasic.com'
 
 async function getAllCities() {
+  // 🚀 Check cache first
+  const cacheKey = 'all-cities'
+  const cached = cityCache.get<any[]>(cacheKey)
+  if (cached) return cached
+
   try {
     const citiesDir = path.join(process.cwd(), 'src/data/cities')
     const files = await fs.readdir(citiesDir)
     const cities = await Promise.all(
       files
-        .filter(file => file.endsWith('.json') && !/-\w{2}\.json$/.test(file)) 
+        .filter(file => file.endsWith('.json') && !/-\w{2}\.json$/.test(file))
         .map(async file => {
           try {
             const filePath = path.join(citiesDir, file)
@@ -30,7 +36,7 @@ async function getAllCities() {
               name: city.name,
               country: city.country || "Unknown",
               country_code: city.country_code,
-              slug: file.replace('.json', ''), 
+              slug: file.replace('.json', ''),
               image: city.hero_image,
               intro_vibe: city.intro_vibe,
               region: city.region || "Other",
@@ -40,8 +46,14 @@ async function getAllCities() {
           } catch (error) { return null }
         })
     )
-    return cities.filter(c => c !== null) as any[]
-  } catch (error) { return [] }
+    const result = cities.filter(c => c !== null) as any[]
+
+    // 🚀 Store in cache
+    cityCache.set(cacheKey, result)
+    return result
+  } catch (error) {
+    return []
+  }
 }
 
 export async function generateMetadata({ params }: HomeProps): Promise<Metadata> {
