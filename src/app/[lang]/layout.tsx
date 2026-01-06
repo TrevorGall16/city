@@ -13,6 +13,7 @@ import { Toaster } from 'sonner'
 import '@/app/globals.css'
 import type { Metadata } from 'next'
 import { CookieConsent } from '@/components/features/CookieConsent'
+import { getDict } from '@/data/dictionaries' // 🎯 REQUIRED IMPORT
 
 const inter = Inter({ 
   subsets: ['latin'], 
@@ -55,13 +56,16 @@ export default async function RootLayout({
   const { lang } = await params
   const displayLang = lang || 'en'
 
+// 🎯 FIX: Fetch dictionary for the Header
+  const dict = await getDict(displayLang)
+
   return (
     <html lang={displayLang} suppressHydrationWarning className="scroll-smooth">
       <body className={`${inter.variable} font-sans antialiased bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-100`}>
-        {/* Skip to main content link for keyboard navigation */}
-        <a
-          href="#main-content"
-          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[1000] focus:px-4 focus:py-2 focus:bg-indigo-600 focus:text-white focus:rounded-lg focus:shadow-lg"
+        {/* Skip Link for Accessibility */}
+        <a 
+          href="#main-content" 
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-6 focus:py-3 focus:bg-indigo-600 focus:text-white focus:font-bold focus:rounded-xl focus:shadow-xl focus:outline-none focus:ring-4 focus:ring-indigo-300"
         >
           Skip to main content
         </a>
@@ -69,9 +73,9 @@ export default async function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <AuthProvider>
             <Toaster position="top-center" richColors />
-
-            {/* Header with Mobile Navigation */}
-            <Header lang={displayLang} />
+            
+            {/* 🎯 FIX: Passed 'dict' to Header */}
+            <Header lang={displayLang} dict={dict} />
 
             <main id="main-content" className="min-h-screen">
               {children}
