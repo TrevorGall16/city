@@ -77,6 +77,9 @@ export function HeaderAuth() {
       <button
         onClick={() => setShowUserMenu(!showUserMenu)}
         className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+        aria-label="Open user menu"
+        aria-expanded={showUserMenu}
+        aria-haspopup="true"
       >
         <div className="w-8 h-8 rounded-full bg-indigo-100 dark:bg-indigo-900 flex items-center justify-center">
           {user.user_metadata?.avatar_url ? (
@@ -86,11 +89,11 @@ export function HeaderAuth() {
               className="w-8 h-8 rounded-full object-cover"
             />
           ) : displayName ? (
-            <span className="text-sm font-semibold text-indigo-600 dark:text-indigo-400">
+            <span className="text-sm font-semibold text-indigo-600 dark:text-indigo-400" aria-hidden="true">
               {displayName.charAt(0).toUpperCase()}
             </span>
           ) : (
-            <User className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
+            <User className="w-4 h-4 text-indigo-600 dark:text-indigo-400" aria-hidden="true" />
           )}
         </div>
       </button>
@@ -101,9 +104,15 @@ export function HeaderAuth() {
           <div
             className="fixed inset-0 z-30"
             onClick={() => setShowUserMenu(false)}
+            aria-hidden="true"
           />
 
-          <div className="absolute right-0 top-full mt-2 w-64 bg-white dark:bg-slate-900 rounded-lg shadow-xl border border-slate-200 dark:border-slate-800 py-2 z-40">
+          <div
+            className="absolute right-0 top-full mt-2 w-64 bg-white dark:bg-slate-900 rounded-lg shadow-xl border border-slate-200 dark:border-slate-800 py-2 z-40"
+            role="menu"
+            aria-orientation="vertical"
+            aria-labelledby="user-menu-button"
+          >
             
             <div className="px-4 py-3 border-b border-slate-200 dark:border-slate-800">
               <p className="text-sm font-medium text-slate-900 dark:text-slate-50 truncate">
@@ -114,35 +123,39 @@ export function HeaderAuth() {
               </p>
             </div>
             
-            {/* 🎯 FIXED: Link to Profile with Language */}
+            {/* Profile Link */}
             <button
               onClick={() => {
                 setShowUserMenu(false)
-                router.push(`/${lang}/profile`) // Fixed path
+                router.push(`/${lang}/profile`)
               }}
               className="w-full px-4 py-2 text-left text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 flex items-center gap-2"
+              role="menuitem"
             >
-              <User className="w-4 h-4" />
+              <User className="w-4 h-4" aria-hidden="true" />
               My Profile
             </button>
 
-            {/* 🎯 FIXED: Link to Forgot Password with Language */}
+            {/* Change Password Link */}
             <button
               onClick={() => {
                 setShowUserMenu(false)
-                router.push(`/${lang}/forgot-password`) // Fixed path
+                router.push(`/${lang}/forgot-password`)
               }}
               className="w-full px-4 py-2 text-left text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 flex items-center gap-2"
+              role="menuitem"
             >
-               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4m-1 3v1a2 2 0 002 2h4a2 2 0 002-2v-1"></path></svg>
+               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4m-1 3v1a2 2 0 002 2h4a2 2 0 002-2v-1"></path></svg>
               Change Password
             </button>
-            
+
+            {/* Log Out Button */}
             <button
               onClick={handleSignOut}
               className="w-full px-4 py-2 text-left text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 flex items-center gap-2"
+              role="menuitem"
             >
-              <LogOut className="w-4 h-4" />
+              <LogOut className="w-4 h-4" aria-hidden="true" />
               Log Out
             </button>
           </div>
