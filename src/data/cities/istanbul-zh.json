@@ -12,7 +12,7 @@
     "description": "伊斯坦布尔不仅是东西方的桥梁；它是一个由不同“村庄”组成的城市，面临着高通货膨胀和快速的城市更新。要有效地游览这座城市，您必须从单纯的观光者转变为其复杂物流的操作者——掌握渡轮通勤、共享出租车（dolmuş）的潜规则，以及各个社区的微妙政治暗示。"
   },
   "stats": {
-    "currency": "尝试",
+    "currency": "土耳其里拉",
     "plug_type": "Type F"
   },
   "weather_breakdown": [
@@ -1145,32 +1145,32 @@
       "time": "晚上9点",
       "title": "晚餐：Nevizade Sokak 的 Meyhane",
       "description": "前往贝尤鲁区的Nevizade Sokak，体验土耳其酒馆文化。点一杯rakı（与水混合后变成乳白色的茴香酒）——土耳其的国饮。享用小菜拼盘：鹰嘴豆泥、酸奶酱、辣椒酱、生肉丸、填馅贻贝和烤章鱼。然后点烤肉串或海鲈鱼。酒馆的氛围是慢慢享用美食、饮酒，并与邻桌的陌生人交谈。这就是伊斯坦布尔人结束夜晚的方式——热闹、混乱而快乐。",
-      "image": "/images/istanbul/ .jpg"
+      "image": "/images/istanbul/meyhane-night.jpg"
     }
   ],
-  "affiliate_products": [
+"affiliate_products": [
     {
       "id": "aff-001",
-      "title": "土耳其旅行适配器（F型）",
+      "title": "土耳其旅行适配器 (F型)",
       "image": "/images/istanbul/adapter.jpg",
-      "reason": "土耳其使用F型插头（两个圆形插脚）。充电时必备。",
-      "amazon_url": "土耳其旅行适配器 F 型",
+      "reason": "土耳其使用F型插座（两个圆脚）。充电必备。",
+      "amazon_url": "https://www.amazon.com/s?k=turkey+travel+adapter+type+f&tag=canibringonpl-20",
       "category": "电子产品"
     },
     {
       "id": "aff-002",
       "title": "防盗斜挎包",
       "image": "/images/istanbul/bag.jpg",
-      "reason": "拥挤的电车和集市是扒手的热点。请确保贵重物品安全。",
-      "amazon_url": "防盗斜挎包",
+      "reason": "拥挤的有轨电车和集市是扒手的热点。请妥善保管贵重物品。",
+      "amazon_url": "https://www.amazon.com/s?k=anti+theft+crossbody+bag&tag=canibringonpl-20",
       "category": "安全"
     },
     {
       "id": "aff-003",
-      "title": "数据eSIM",
+      "title": "数据 eSIM",
       "image": "/images/istanbul/esim.jpg",
-      "reason": "您需要地图和翻译的数据。在当地购买SIM卡可能会因为注册而变得麻烦。",
-      "amazon_url": "抱歉，我无法访问外部链接。请提供您希望翻译的具体内容。",
+      "reason": "您需要数据流量来使用地图和翻译。在当地购买SIM卡可能因为注册问题而比较麻烦。",
+      "amazon_url": "https://www.amazon.com/s?k=esim+turkey&tag=canibringonpl-20",
       "category": "电子产品"
     }
   ],

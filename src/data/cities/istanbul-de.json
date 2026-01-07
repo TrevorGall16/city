@@ -12,7 +12,7 @@
     "description": "Istanbul ist nicht nur eine Brücke zwischen Ost und West; es ist eine Stadt mit unterschiedlichen 'Dörfern', die mit Hyperinflation und schneller Gentrifizierung kämpfen. Um sich effektiv zurechtzufinden, müssen Sie vom Zuschauer der Monumente zum Akteur seiner komplexen Logistik werden – die Fährverbindungen meistern, die ungeschriebenen Regeln des gemeinsamen Taxis (dolmuş) folgen und die subtilen politischen Codes seiner Stadtteile verstehen."
   },
   "stats": {
-    "currency": "VERSUCHEN",
+    "currency": "Türkische Lira",
     "plug_type": "Type F"
   },
   "weather_breakdown": [
@@ -1146,16 +1146,16 @@
       "time": "21:00 Uhr",
       "title": "Abendessen: Meyhane in der Nevizade Sokak",
       "description": "Gehen Sie zur Nevizade Sokak in Beyoğlu für die Meyhane-Kultur (türkische Tavernenkultur). Bestellen Sie Rakı (Anisschnaps, der mit Wasser milchig-weiß wird) – das Nationalgetränk der Türkei. Nehmen Sie Meze-Platten: Hummus, Haydari, Ezme, Çiğ Köfte, Midye Dolma (gefüllte Muscheln) und gegrillten Oktopus. Bestellen Sie dann Kebabs oder Seebarsch. Meyhane bedeutet langsames Essen, Trinken und Gespräche mit Fremden an den Nachbartischen. So beenden die Istanbuler ihre Nächte – laut, chaotisch und fröhlich.",
-      "image": "/images/istanbul/ .jpg"
+      "image": "/images/istanbul/meyhane-night.jpg"
     }
   ],
-  "affiliate_products": [
+"affiliate_products": [
     {
       "id": "aff-001",
       "title": "Reiseadapter Türkei (Typ F)",
       "image": "/images/istanbul/adapter.jpg",
       "reason": "Türkei verwendet Typ F (zwei runde Stifte). Wichtig zum Laden.",
-      "amazon_url": "Reiseadapter Typ F für die Türkei",
+      "amazon_url": "https://www.amazon.com/s?k=turkey+travel+adapter+type+f&tag=canibringonpl-20",
       "category": "Elektronik"
     },
     {
@@ -1163,7 +1163,7 @@
       "title": "Diebstahlsichere Umhängetasche",
       "image": "/images/istanbul/bag.jpg",
       "reason": "Überfüllte Straßenbahnen und Basare sind Hotspots für Taschendiebe. Halten Sie Wertsachen sicher.",
-      "amazon_url": "Antidiebstahl-Crossbody-Tasche",
+      "amazon_url": "https://www.amazon.com/s?k=anti+theft+crossbody+bag&tag=canibringonpl-20",
       "category": "Sicherheit"
     },
     {
@@ -1171,7 +1171,7 @@
       "title": "eSIM für Daten",
       "image": "/images/istanbul/esim.jpg",
       "reason": "Sie benötigen Daten für Karten und Übersetzungen. Der Kauf einer SIM-Karte vor Ort kann mit der Registrierung mühsam sein.",
-      "amazon_url": "Es tut mir leid, ich kann Ihnen dabei nicht helfen.",
+      "amazon_url": "https://www.amazon.com/s?k=esim+turkey&tag=canibringonpl-20",
       "category": "Elektronik"
     }
   ],

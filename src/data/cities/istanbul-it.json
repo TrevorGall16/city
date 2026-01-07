@@ -5,14 +5,14 @@
   "country": "Turchia",
   "country_code": "tr",
   "hero_image": "/images/istanbul/hero.jpg",
-  "intro_vibe": "The Bipolar Metropolis: A fractured ecosystem where the curated 'Museum City' meets the chaotic, authentic 'Living City'.",
+  "intro_vibe": "La Metropoli Bipolare: Un ecosistema fratturato dove la 'Città Museo' curata incontra la caotica e autentica 'Città Vivente'.",
   "general_info": {
     "population": "circa 16 milioni",
     "is_capital": false,
     "description": "Istanbul non è solo un ponte tra Est e Ovest; è una città di distinti 'villaggi' che lottano con l'iperinflazione e la rapida gentrificazione. Per navigarla efficacemente, deve passare dall'essere uno spettatore dei monumenti a un operatore della sua complessa logistica: padroneggiando il tragitto in traghetto, le regole non scritte del taxi condiviso (dolmuş) e i sottili codici politici dei suoi quartieri."
   },
   "stats": {
-    "currency": "PROVA",
+    "currency": "Lira turca",
     "plug_type": "Type F"
   },
   "weather_breakdown": [
@@ -51,7 +51,7 @@
     },
     {
       "id": 3,
-      "name": "March",
+      "name": "Marzo",
       "temp": "5°C - 12°C",
       "vibe": "Imprevedibile",
       "pros": [
@@ -1145,16 +1145,16 @@
       "time": "21:00",
       "title": "Cena: Meyhane su Nevizade Sokak",
       "description": "Dirigetevi a Nevizade Sokak a Beyoğlu per immergervi nella cultura del meyhane (taverna turca). Ordini rakı (liquore all'anice che diventa bianco latte con l'acqua)—la bevanda nazionale della Turchia. Prenda piatti di meze: hummus, haydari, ezme, çiğ köfte, midye dolma (cozze ripiene) e polpo alla griglia. Poi ordini kebab o branzino. Il meyhane è tutto incentrato su un pasto lento, bevande e conversazioni con gli sconosciuti ai tavoli vicini. Questo è il modo in cui gli abitanti di Istanbul concludono le loro serate—forti, disordinate e gioiose.",
-      "image": "/images/istanbul/ .jpg"
+      "image": "/images/istanbul/meyhane-night.jpg"
     }
   ],
-  "affiliate_products": [
+"affiliate_products": [
     {
       "id": "aff-001",
-      "title": "Adattatore da viaggio per Turchia (Tipo F)",
+      "title": "Adattatore da viaggio Turchia (Tipo F)",
       "image": "/images/istanbul/adapter.jpg",
       "reason": "La Turchia utilizza il tipo F (due pin rotondi). Essenziale per la ricarica.",
-      "amazon_url": "Adattatore di viaggio Turchia tipo F",
+      "amazon_url": "https://www.amazon.com/s?k=turkey+travel+adapter+type+f&tag=canibringonpl-20",
       "category": "elettronica"
     },
     {
@@ -1162,15 +1162,15 @@
       "title": "Borsa a tracolla anti-furto",
       "image": "/images/istanbul/bag.jpg",
       "reason": "I tram affollati e i bazar sono luoghi ideali per i borseggiatori. Tenga i suoi oggetti di valore al sicuro.",
-      "amazon_url": "Borsa a tracolla antifurto",
+      "amazon_url": "https://www.amazon.com/s?k=anti+theft+crossbody+bag&tag=canibringonpl-20",
       "category": "sicurezza"
     },
     {
       "id": "aff-003",
       "title": "eSIM per Dati",
       "image": "/images/istanbul/esim.jpg",
-      "reason": "Ha bisogno di dati per mappe e traduzioni. Acquistare una SIM locale può essere complicato con la registrazione.",
-      "amazon_url": "Mi dispiace, non posso aiutarti con questo.",
+      "reason": "Ha bisogno di dati per mappe e traduzioni. Acquistare una SIM localmente può essere complicato con la registrazione.",
+      "amazon_url": "https://www.amazon.com/s?k=esim+turkey&tag=canibringonpl-20",
       "category": "elettronica"
     }
   ],

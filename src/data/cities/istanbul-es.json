@@ -12,7 +12,7 @@
     "description": "Estambul no es solo un puente entre Oriente y Occidente; es una ciudad de 'aldeas' distintas que luchan contra la hiperinflación y la rápida gentrificación. Para navegarla de manera efectiva, debe pasar de ser un espectador de monumentos a un operador de su compleja logística: dominando el trayecto en ferry, las reglas no escritas del taxi compartido (dolmuş) y los sutiles códigos políticos de sus barrios."
   },
   "stats": {
-    "currency": "INTENTAR",
+    "currency": "Lira turca",
     "plug_type": "Type F"
   },
   "weather_breakdown": [
@@ -1145,24 +1145,24 @@
       "time": "9:00 PM",
       "title": "Cena: Meyhane en Nevizade Sokak",
       "description": "Dirígete a Nevizade Sokak en Beyoğlu para disfrutar de la cultura meyhane (taberna turca). Pida rakı (licor de anís que se vuelve blanco lechoso con agua), la bebida nacional de Turquía. Pida platos de meze: hummus, haydari, ezme, çiğ köfte, midye dolma (mejillones rellenos) y pulpo a la parrilla. Luego, pida kebabs o lubina. El meyhane se trata de comer despacio, beber y conversar con extraños en las mesas vecinas. Así es como los istambulitas terminan sus noches: ruidosas, desordenadas y alegres.",
-      "image": "/images/istanbul/ .jpg"
+      "image": "/images/istanbul/meyhane-night.jpg"
     }
   ],
-  "affiliate_products": [
+"affiliate_products": [
     {
       "id": "aff-001",
       "title": "Adaptador de viaje para Turquía (Tipo F)",
       "image": "/images/istanbul/adapter.jpg",
       "reason": "Turquía utiliza el tipo F (dos clavijas redondas). Esencial para cargar.",
-      "amazon_url": "Adaptador de viaje tipo F para Turquía",
+      "amazon_url": "https://www.amazon.com/s?k=turkey+travel+adapter+type+f&tag=canibringonpl-20",
       "category": "electrónica"
     },
     {
       "id": "aff-002",
-      "title": "Anti-Theft Crossbody Bag",
+      "title": "Bolso cruzado antirrobo",
       "image": "/images/istanbul/bag.jpg",
       "reason": "Los tranvías y bazares concurridos son puntos calientes para los carteristas. Mantenga sus objetos de valor seguros.",
-      "amazon_url": "Bolso cruzado antirrobo",
+      "amazon_url": "https://www.amazon.com/s?k=anti+theft+crossbody+bag&tag=canibringonpl-20",
       "category": "seguridad"
     },
     {
@@ -1170,7 +1170,7 @@
       "title": "eSIM para Datos",
       "image": "/images/istanbul/esim.jpg",
       "reason": "Necesita datos para mapas y traducción. Comprar una SIM local puede ser un inconveniente con el registro.",
-      "amazon_url": "https://www.amazon.com/s?k=esim+turkey",
+      "amazon_url": "https://www.amazon.com/s?k=esim+turkey&tag=canibringonpl-20",
       "category": "electrónica"
     }
   ],

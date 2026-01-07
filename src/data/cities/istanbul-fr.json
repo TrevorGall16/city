@@ -12,7 +12,7 @@
     "description": "Istanbul n'est pas seulement un pont entre l'Est et l'Ouest ; c'est une ville de 'villages' distincts luttant contre l'hyperinflation et la gentrification rapide. Pour la parcourir efficacement, vous devez passer de spectateur des monuments à opérateur de sa logistique complexe : maîtriser le trajet en ferry, les règles non écrites du taxi partagé (dolmuş) et les codes politiques subtils de ses quartiers."
   },
   "stats": {
-    "currency": "ESSAYEZ",
+    "currency": "Livre turque",
     "plug_type": "Type F"
   },
   "weather_breakdown": [
@@ -1145,16 +1145,16 @@
       "time": "21h00",
       "title": "Dîner : Meyhane sur Nevizade Sokak",
       "description": "Rendez-vous à Nevizade Sokak à Beyoğlu pour découvrir la culture des meyhane (taverne turque). Commandez du rakı (liqueur d'anis qui devient laiteux avec de l'eau) — la boisson nationale de la Turquie. Prenez des assiettes de meze : hummus, haydari, ezme, çiğ köfte, midye dolma (moules farcies) et poulpe grillé. Ensuite, commandez des kebabs ou du bar. Le meyhane est un moment de dégustation lente, de boisson et de conversation avec des inconnus aux tables voisines. C'est ainsi que les habitants d'Istanbul terminent leurs soirées — bruyantes, désordonnées et joyeuses.",
-      "image": "/images/istanbul/ .jpg"
+      "image": "/images/istanbul/meyhane-night.jpg"
     }
   ],
-  "affiliate_products": [
+"affiliate_products": [
     {
       "id": "aff-001",
       "title": "Adaptateur de voyage pour la Turquie (Type F)",
       "image": "/images/istanbul/adapter.jpg",
       "reason": "La Turquie utilise le type F (deux broches rondes). Essentiel pour la recharge.",
-      "amazon_url": "Adaptateur de voyage type F pour la Turquie",
+      "amazon_url": "https://www.amazon.com/s?k=turkey+travel+adapter+type+f&tag=canibringonpl-20",
       "category": "électronique"
     },
     {
@@ -1162,7 +1162,7 @@
       "title": "Sac bandoulière anti-vol",
       "image": "/images/istanbul/bag.jpg",
       "reason": "Les tramways bondés et les bazars sont des lieux prisés par les pickpockets. Gardez vos objets de valeur en sécurité.",
-      "amazon_url": "Sac à bandoulière anti-vol",
+      "amazon_url": "https://www.amazon.com/s?k=anti+theft+crossbody+bag&tag=canibringonpl-20",
       "category": "sécurité"
     },
     {
@@ -1170,7 +1170,7 @@
       "title": "eSIM pour données",
       "image": "/images/istanbul/esim.jpg",
       "reason": "Vous avez besoin de données pour les cartes et la traduction. Acheter une carte SIM localement peut être compliqué avec l'enregistrement.",
-      "amazon_url": "Désolé, je ne peux pas accéder à des liens externes.",
+      "amazon_url": "https://www.amazon.com/s?k=esim+turkey&tag=canibringonpl-20",
       "category": "électronique"
     }
   ],

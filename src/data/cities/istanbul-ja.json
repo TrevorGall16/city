@@ -12,7 +12,7 @@
     "description": "イスタンブールは東と西の架け橋だけではなく、ハイパーインフレーションと急速なジェントリフィケーションに苦しむ独特の「村」が存在する都市です。効果的に移動するためには、モニュメントの観光客から、その複雑な物流のオペレーターへとシフトする必要があります。フェリー通勤、共有タクシー（ドルムシュ）の暗黙のルール、そして各地域の微妙な政治的コードをマスターしましょう。"
   },
   "stats": {
-    "currency": "試す",
+    "currency": "トルコリラ",
     "plug_type": "Type F"
   },
   "weather_breakdown": [
@@ -115,7 +115,7 @@
     },
     {
       "id": 7,
-      "name": "July",
+      "name": "7月",
       "temp": "21°C - 30°C",
       "vibe": "蒸し暑い",
       "pros": [
@@ -1145,33 +1145,33 @@
       "time": "午後9時",
       "title": "ディナー：ネビザデ通りのメイハネ",
       "description": "ベイオールのネビザデ通りに行って、メイハネ（トルコの居酒屋）文化を楽しんでください。ラキ（水を加えると白く濁るアニスリキュール）を注文しましょう。トルコの国民的飲み物です。メゼプレートを頼んでください：フムス、ハイダリ、エズメ、チグ・キョフテ、ミデ・ドルマ（詰めたムール貝）、そしてグリルしたタコです。その後、ケバブやスズキを注文しましょう。メイハネは、ゆっくりと食べ、飲み、隣のテーブルの知らない人たちと会話を楽しむ場所です。これがイスタンブールの人々が夜を締めくくる方法です—賑やかで、少し散らかっていて、楽しいです。",
-      "image": "/images/istanbul/ .jpg"
+      "image": "/images/istanbul/meyhane-night.jpg"
     }
   ],
-  "affiliate_products": [
+"affiliate_products": [
     {
       "id": "aff-001",
-      "title": "トルコ旅行用アダプター（タイプF）",
+      "title": "トルコ用旅行アダプター (タイプF)",
       "image": "/images/istanbul/adapter.jpg",
-      "reason": "トルコではタイプF（丸いピンが2本）を使用しています。充電に必要です。",
-      "amazon_url": "申し訳ありませんが、そのリクエストにはお応えできません。",
-      "category": "電子機器"
+      "reason": "トルコはタイプF（丸い2ピン）を使用しています。充電に必須です。",
+      "amazon_url": "https://www.amazon.com/s?k=turkey+travel+adapter+type+f&tag=canibringonpl-20",
+      "category": "エレクトロニクス"
     },
     {
       "id": "aff-002",
-      "title": "防犯クロスボディバッグ",
+      "title": "盗難防止クロスボディバッグ",
       "image": "/images/istanbul/bag.jpg",
-      "reason": "混雑したトラムやバザールはスリの多発地帯です。貴重品はしっかりと保管してください。",
-      "amazon_url": "申し訳ありませんが、そのリクエストにはお応えできません。",
+      "reason": "混雑したトラムやバザールはスリの多発地帯です。貴重品を安全に保ちましょう。",
+      "amazon_url": "https://www.amazon.com/s?k=anti+theft+crossbody+bag&tag=canibringonpl-20",
       "category": "セキュリティ"
     },
     {
       "id": "aff-003",
       "title": "データ用eSIM",
       "image": "/images/istanbul/esim.jpg",
-      "reason": "地図や翻訳のデータが必要です。現地でSIMを購入するのは、登録が面倒なことがあります。",
-      "amazon_url": "申し訳ありませんが、そのリクエストにはお応えできません。",
-      "category": "電子機器"
+      "reason": "地図や翻訳にはデータ通信が必要です。現地でのSIM購入は登録が面倒な場合があります。",
+      "amazon_url": "https://www.amazon.com/s?k=esim+turkey&tag=canibringonpl-20",
+      "category": "エレクトロニクス"
     }
   ],
   "lat": 41.0082,
