@@ -804,7 +804,7 @@
           "id": "mus-01",
           "slug": "louvre",
           "name_en": "ルーヴル美術館",
-          "name_local": "ルーヴル美術館",
+          "name_local": "Musée du Louvre",
           "category": "site",
           "is_generic_staple": false,
           "description": {
@@ -913,8 +913,8 @@
         {
           "id": "mon-01",
           "slug": "eiffel-tower",
-          "name_en": "エッフェル塔",
-          "name_local": "エッフェル塔",
+          "name_en": "Tour Eiffel",
+          "name_local": "Tour Eiffel",
           "category": "訪問",
           "is_generic_staple": false,
           "description": {

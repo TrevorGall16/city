@@ -1171,13 +1171,13 @@
       "ticket_link": "https://www.getyourguide.com/new-york-l59/broadway-show-tickets-t445698/"
     }
   ],
-  "affiliate_products": [
+"affiliate_products": [
     {
       "id": "aff-001",
       "title": "Walking Sneakers",
       "image": "/images/new-york/shoes.jpg",
       "reason": "You will walk 15,000 steps a day minimum. Do not wear heels or flip flops. Comfort is survival.",
-      "amazon_url": "https://www.amazon.com/s?k=comfortable+walking+shoes",
+      "amazon_url": "https://www.amazon.com/s?k=comfortable+walking+shoes&tag=canibringonpl-20",
       "category": "footwear"
     },
     {
@@ -1185,15 +1185,15 @@
       "title": "Portable Power Bank",
       "image": "/images/new-york/charger.jpg",
       "reason": "Using maps and taking photos drains battery fast. You won't find outlets easily.",
-      "amazon_url": "https://www.amazon.com/s?k=portable+charger",
+      "amazon_url": "https://www.amazon.com/s?k=portable+charger&tag=canibringonpl-20",
       "category": "electronics"
     },
     {
       "id": "aff-003",
-      "title": "US Travel Adapter",
+      "title": "US Travel Adapter (Type A/B)",
       "image": "/images/new-york/adapter.jpg",
-      "reason": "If visiting from abroad, you need Type A/B adapter.",
-      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter",
+      "reason": "US plugs are flat pins. If you are from Europe/UK, you need this.",
+      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter+type+a&tag=canibringonpl-20",
       "category": "electronics"
     }
   ],

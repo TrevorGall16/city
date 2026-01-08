@@ -1173,30 +1173,30 @@
       "ticket_link": "https://www.getyourguide.com/new-york-l59/broadway-show-tickets-t445698/"
     }
   ],
-  "affiliate_products": [
+"affiliate_products": [
     {
       "id": "aff-001",
       "title": "Baskets de marche",
       "image": "/images/new-york/shoes.jpg",
-      "reason": "Vous marcherez au moins 15 000 pas par jour. Évitez de porter des talons ou des tongs. Le confort est essentiel.",
-      "amazon_url": "https://www.amazon.com/s?k=comfortable+walking+shoes",
+      "reason": "Vous ferez au moins 15 000 pas par jour. Évitez les talons ou les tongs. Le confort est essentiel.",
+      "amazon_url": "https://www.amazon.com/s?k=comfortable+walking+shoes&tag=canibringonpl-20",
       "category": "chaussures"
     },
     {
       "id": "aff-002",
-      "title": "Batterie Externe Portable",
+      "title": "Batterie externe portable",
       "image": "/images/new-york/charger.jpg",
-      "reason": "Utiliser des cartes et prendre des photos épuise rapidement la batterie. Vous ne trouverez pas facilement des prises.",
-      "amazon_url": "https://www.amazon.com/s?k=portable+charger",
+      "reason": "L'utilisation des cartes et des photos vide la batterie. Les prises sont rares.",
+      "amazon_url": "https://www.amazon.com/s?k=portable+charger&tag=canibringonpl-20",
       "category": "électronique"
     },
     {
       "id": "aff-003",
-      "title": "Adaptateur de voyage US",
+      "title": "Adaptateur de voyage US (Type A/B)",
       "image": "/images/new-york/adapter.jpg",
-      "reason": "Si vous venez de l'étranger, vous aurez besoin d'un adaptateur de type A/B.",
-      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter",
-      "category": "électroniques"
+      "reason": "Les prises américaines ont des broches plates. Indispensable si vous venez d'Europe.",
+      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter+type+a&tag=canibringonpl-20",
+      "category": "électronique"
     }
   ],
   "region": "North America"

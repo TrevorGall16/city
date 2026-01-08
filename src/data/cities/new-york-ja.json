@@ -1171,30 +1171,30 @@
       "ticket_link": "https://www.getyourguide.com/new-york-l59/broadway-show-tickets-t445698/"
     }
   ],
-  "affiliate_products": [
+"affiliate_products": [
     {
       "id": "aff-001",
       "title": "ウォーキング・スニーカー",
       "image": "/images/new-york/shoes.jpg",
-      "reason": "毎日最低15,000歩は歩きます。ヒールやビーチサンダルは避けてください。快適さは生存に関わります。",
-      "amazon_url": "https://www.amazon.com/s?k=comfortable+walking+shoes",
+      "reason": "毎日最低15,000歩は歩きます。ヒールやサンダルは避けてください。快適さが命です。",
+      "amazon_url": "https://www.amazon.com/s?k=comfortable+walking+shoes&tag=canibringonpl-20",
       "category": "靴"
     },
     {
       "id": "aff-002",
-      "title": "ポータブル充電器",
+      "title": "携帯用モバイルバッテリー",
       "image": "/images/new-york/charger.jpg",
-      "reason": "地図や写真でバッテリーはすぐ減ります。コンセントは簡単には見つかりません。",
-      "amazon_url": "https://www.amazon.com/s?k=portable+charger",
-      "category": "電子機器"
+      "reason": "地図や写真でバッテリーの消耗が早いです。コンセントは簡単には見つかりません。",
+      "amazon_url": "https://www.amazon.com/s?k=portable+charger&tag=canibringonpl-20",
+      "category": "エレクトロニクス"
     },
     {
       "id": "aff-003",
-      "title": "US旅行用アダプター（タイプA/B）",
+      "title": "米国旅行用アダプター (タイプ A/B)",
       "image": "/images/new-york/adapter.jpg",
-      "reason": "海外から来る場合、タイプAまたはBのアダプターが必要です。",
-      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter",
-      "category": "電子機器"
+      "reason": "米国のプラグは平らなピンです。日本からの場合、通常アダプターは不要ですが、電圧確認は必要です。",
+      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter+type+a&tag=canibringonpl-20",
+      "category": "エレクトロニクス"
     }
   ],
   "region": "North America"

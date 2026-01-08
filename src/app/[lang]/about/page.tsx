@@ -77,7 +77,7 @@ export default async function AboutPage({ params }: AboutPageProps) {
           Help Me Improve
         </h2>
         <p className="text-slate-600 dark:text-slate-300 mb-6">
-          Since it's just me, mistakes might happen. If you find an error or have a suggestion, I'd love to hear from you.
+          Since it's just me, mistakes might happen, especially in the translation (it's so long!!) If you find an error or have a suggestion, I'd love to hear from you.
         </p>
         
         <div className="flex flex-wrap gap-4">

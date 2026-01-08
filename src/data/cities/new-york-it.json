@@ -1172,30 +1172,30 @@
       "ticket_link": "https://www.getyourguide.com/new-york-l59/broadway-show-tickets-t445698/"
     }
   ],
-  "affiliate_products": [
+"affiliate_products": [
     {
       "id": "aff-001",
-      "title": "Scarpe da camminare",
+      "title": "Scarpe da passeggio",
       "image": "/images/new-york/shoes.jpg",
-      "reason": "Lei camminerà almeno 15.000 passi al giorno. Eviti di indossare tacchi o infradito. Il comfort è essenziale.",
-      "amazon_url": "https://www.amazon.com/s?k=comfortable+walking+shoes",
-      "category": "scarpe"
+      "reason": "Camminerà almeno 15.000 passi al giorno. Eviti tacchi o infradito. Il comfort è fondamentale.",
+      "amazon_url": "https://www.amazon.com/s?k=comfortable+walking+shoes&tag=canibringonpl-20",
+      "category": "calzature"
     },
     {
       "id": "aff-002",
-      "title": "Caricabatterie Portatile",
+      "title": "Power Bank portatile",
       "image": "/images/new-york/charger.jpg",
-      "reason": "Utilizzare mappe e scattare foto consuma rapidamente la batteria. Non sarà facile trovare prese di corrente.",
-      "amazon_url": "https://www.amazon.com/s?k=portable+charger",
+      "reason": "Mappe e foto scaricano la batteria velocemente. Non troverà prese facilmente.",
+      "amazon_url": "https://www.amazon.com/s?k=portable+charger&tag=canibringonpl-20",
       "category": "elettronica"
     },
     {
       "id": "aff-003",
-      "title": "Adattatore da viaggio US",
+      "title": "Adattatore da viaggio USA (Tipo A/B)",
       "image": "/images/new-york/adapter.jpg",
-      "reason": "Se Lei viene dall'estero, avrà bisogno di un adattatore di tipo A/B.",
-      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter",
-      "category": "elettronici"
+      "reason": "Le prese USA hanno pin piatti. Se viene dall'Europa, ne ha bisogno.",
+      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter+type+a&tag=canibringonpl-20",
+      "category": "elettronica"
     }
   ],
   "region": "North America"

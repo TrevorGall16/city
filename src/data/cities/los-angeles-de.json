@@ -383,7 +383,7 @@
       "id": "food-001",
       "slug": "mexican-ecosystem",
       "name_en": "Mexikanisches Ökosystem",
-      "name_local": "Mexikanische Küche",
+      "name_local": "Comida Mexicana",
       "category": "Essen",
       "is_generic_staple": true,
       "description": {
@@ -448,8 +448,8 @@
     {
       "id": "food-013",
       "slug": "sushi-strip-mall",
-      "name_en": "センター・コマーシャル के寿司",
-      "name_local": "寿司",
+      "name_en": "Strip Mall sushi",
+      "name_local": "Sushi",
       "category": "Essen",
       "is_generic_staple": true,
       "description": {
@@ -471,7 +471,7 @@
       "id": "food-014",
       "slug": "wellness-food",
       "name_en": "Wellness Food",
-      "name_local": "Saft und Acai",
+      "name_local": "Green Juice / Açaí",
       "category": "Essen",
       "is_generic_staple": true,
       "description": {

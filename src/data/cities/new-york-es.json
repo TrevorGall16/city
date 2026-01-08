@@ -1172,30 +1172,30 @@
       "ticket_link": "https://www.getyourguide.com/new-york-l59/broadway-show-tickets-t445698/"
     }
   ],
-  "affiliate_products": [
+"affiliate_products": [
     {
       "id": "aff-001",
       "title": "Zapatillas de caminar",
       "image": "/images/new-york/shoes.jpg",
-      "reason": "Usted caminará al menos 15 000 pasos al día. Evite usar tacones o chanclas. La comodidad es esencial.",
-      "amazon_url": "https://www.amazon.com/s?k=comfortable+walking+shoes",
-      "category": "zapatos"
+      "reason": "Caminará al menos 15,000 pasos al día. Evite tacones o chanclas. La comodidad es supervivencia.",
+      "amazon_url": "https://www.amazon.com/s?k=comfortable+walking+shoes&tag=canibringonpl-20",
+      "category": "calzado"
     },
     {
       "id": "aff-002",
-      "title": "Cargador Externo Portátil",
+      "title": "Batería externa portátil",
       "image": "/images/new-york/charger.jpg",
-      "reason": "Usar mapas y tomar fotos agota rápidamente la batería. No será fácil encontrar tomacorrientes.",
-      "amazon_url": "https://www.amazon.com/s?k=portable+charger",
+      "reason": "El uso de mapas y fotos agota la batería. No encontrará enchufes fácilmente.",
+      "amazon_url": "https://www.amazon.com/s?k=portable+charger&tag=canibringonpl-20",
       "category": "electrónica"
     },
     {
       "id": "aff-003",
-      "title": "Adaptador de viaje US",
+      "title": "Adaptador de viaje EE.UU. (Tipo A/B)",
       "image": "/images/new-york/adapter.jpg",
-      "reason": "Si usted viene del extranjero, necesitará un adaptador de tipo A/B.",
-      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter",
-      "category": "electrónicos"
+      "reason": "Los enchufes de EE.UU. son planos. Si viene de Europa, lo necesita.",
+      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter+type+a&tag=canibringonpl-20",
+      "category": "electrónica"
     }
   ],
   "region": "North America"

@@ -995,8 +995,8 @@
         {
           "id": "mon-01",
           "slug": "eiffel-tower",
-          "name_en": "Torre Eiffel",
-          "name_local": "Torre Eiffel",
+          "name_en": "Tour Eiffel",
+          "name_local": "Tour Eiffel",
           "category": "visita",
           "is_generic_staple": false,
           "description": {
@@ -1584,30 +1584,30 @@
       "ticket_link": "https://www.getyourguide.com/paris-l16/eiffel-tower-summit-or-second-floor-access-t63761/"
     }
   ],
-  "affiliate_products": [
+"affiliate_products": [
     {
       "id": "aff-001",
-      "title": "Adattatore da Viaggio Europeo (Tipo E)",
+      "title": "Adattatore da viaggio europeo (Tipo E)",
       "image": "/images/paris/adapter.jpg",
-      "reason": "Le prese francesi sono di tipo E (due spinotti rotondi con un foro per la messa a terra). Essenziale per caricare i suoi dispositivi.",
-      "amazon_url": "https://www.amazon.com/s?k=adattatore+da+viaggio+europeo+tipo+e",
+      "reason": "Le prese francesi sono di Tipo E. Ha assolutamente bisogno di questo adattatore.",
+      "amazon_url": "https://www.amazon.com/s?k=european+travel+adapter+type+e&tag=canibringonpl-20",
       "category": "elettronica"
     },
     {
       "id": "aff-002",
       "title": "Ombrello da viaggio compatto",
       "image": "/images/paris/umbrella.jpg",
-      "reason": "Il tempo a Parigi è imprevedibile. Un piccolo ombrello entra nella sua borsa e la protegge dalle piogge improvvise.",
-      "amazon_url": "https://www.amazon.com/s?k=compact+travel+umbrella",
-      "category": "clima"
+      "reason": "Il tempo a Parigi è imprevedibile. Un piccolo ombrello entra nella sua borsa.",
+      "amazon_url": "https://www.amazon.com/s?k=compact+travel+umbrella&tag=canibringonpl-20",
+      "category": "meteo"
     },
     {
       "id": "aff-003",
-      "title": "Scarpe da trekking comode",
+      "title": "Scarpe comode per camminare",
       "image": "/images/paris/shoes.jpg",
-      "reason": "Parigi si scopre meglio a piedi. Un paio di scarpe comode è indispensabile per le strade acciottolate e i maratoni di musei.",
-      "amazon_url": "https://www.amazon.com/s?k=comfortable+walking+shoes",
-      "category": "scarpe"
+      "reason": "Parigi va esplorata a piedi. Camminerà molto. I tacchi sono solo per la cena.",
+      "amazon_url": "https://www.amazon.com/s?k=comfortable+walking+shoes&tag=canibringonpl-20",
+      "category": "abbigliamento"
     }
   ],
   "lat": 48.8566,
