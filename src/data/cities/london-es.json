@@ -1136,13 +1136,13 @@
       "image": "/images/london/soho-pub-night.jpg"
     }
   ],
-  "affiliate_products": [
+"affiliate_products": [
     {
       "id": "aff-001",
       "title": "Adaptador de viaje universal (tipo G del Reino Unido)",
       "image": "/images/london/adapter.jpg",
       "reason": "Los enchufes del Reino Unido son únicos (tres pines rectangulares). Necesita este adaptador.",
-      "amazon_url": "Adaptador de viaje tipo G para el Reino Unido",
+      "amazon_url": "https://www.amazon.com/s?k=uk+travel+adapter+type+g&tag=canibringonpl-20",
       "category": "electrónica"
     },
     {
@@ -1150,16 +1150,16 @@
       "title": "Paraguas de viaje compacto",
       "image": "/images/london/umbrella.jpg",
       "reason": "El clima de Londres es famoso por ser impredecible. Un paraguas pequeño cabe en su bolso.",
-      "amazon_url": "Paraguas de viaje compacto",
+      "amazon_url": "https://www.amazon.com/s?k=compact+travel+umbrella&tag=canibringonpl-20",
       "category": "clima"
     },
     {
       "id": "aff-003",
       "title": "Zapatos de senderismo impermeables",
       "image": "/images/london/shoes.jpg",
-      "reason": "Londres requiere MUCHO caminar. Un calzado cómodo es esencial.",
-      "amazon_url": "Zapatos de senderismo impermeables",
-      "category": "calzado"
+      "reason": "Londres requiere caminar mucho y los charcos son comunes. Los calcetines mojados arruinan el día.",
+      "amazon_url": "https://www.amazon.com/s?k=waterproof+walking+shoes&tag=canibringonpl-20",
+      "category": "ropa"
     }
   ],
   "lat": 51.5074,

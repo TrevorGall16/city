@@ -85,9 +85,9 @@
     },
     {
       "id": 5,
-      "name": "マヨ",
+      "name": "5月",
       "temp": "15°C - 23°C",
-      "vibe": "マヨ・グリジオ",
+      "vibe": "メイ・グレイ（5月の曇り空）",
       "pros": [
         "快適な気温",
         "ハイキングに最適",
@@ -133,7 +133,7 @@
     },
     {
       "id": 8,
-      "name": "アゴスト",
+      "name": "8月",
       "temp": "19°C - 29°C",
       "vibe": "暖かく賑やかです",
       "pros": [
@@ -165,7 +165,7 @@
     },
     {
       "id": 10,
-      "name": "オットーブレ",
+      "name": "10月",
       "temp": "16°C - 26°C",
       "vibe": "黄金の秋",
       "pros": [
@@ -285,7 +285,7 @@
       "image": "/images/los-angeles/weho.jpg"
     },
     {
-      "name": "クワルティエ・デ・ザール（DTLA）",
+      "name": "アーツ・ディストリクト（DTLA）",
       "vibe": "アーバンでインダストリアル",
       "description": "ビール醸造所、ギャラリー、高級レストランが並ぶリノベーションされた倉庫。注意：DTLAは断片的です。一つのエリアはトレンディですが、その隣（スキッド・ロー）は人道的危機です。意図を持って移動してください。",
       "highlights": [
@@ -784,7 +784,7 @@
       "title": "US旅行用アダプター (タイプA/B)",
       "image": "/images/los-angeles/adapter.jpg",
       "reason": "アメリカのコンセントは平らなプラグを2本使います。ヨーロッパからお越しの場合は、アダプターが必要です。",
-      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter+type+a",
+      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter+type+a&tag=canibringonpl-20",
       "category": "電子機器"
     },
     {
@@ -792,7 +792,7 @@
       "title": "日焼け止め SPF 50",
       "image": "/images/los-angeles/sunscreen.jpg",
       "reason": "カリフォルニアの日差しは強いです、涼しそうに見える時でも。運転中、ハイキング中、または散歩中に使用してください。",
-      "amazon_url": "https://www.amazon.com/s?k=sunscreen+spf+50",
+      "amazon_url": "https://www.amazon.com/s?k=sunscreen+spf+50&tag=canibringonpl-20",
       "category": "健康"
     },
     {
@@ -800,7 +800,7 @@
       "title": "ハイキング用水筒",
       "image": "/images/los-angeles/water-bottle.jpg",
       "reason": "ロサンゼルスは乾燥しており暑いです。特にランyonやグリフィスでのハイキングを考えているなら、常に水分補給が必要です。",
-      "amazon_url": "https://www.amazon.com/s?k=reusable+water+bottle",
+      "amazon_url": "https://www.amazon.com/s?k=reusable+water+bottle&tag=canibringonpl-20",
       "category": "アウトドア"
     }
   ],

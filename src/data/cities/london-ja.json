@@ -1136,30 +1136,30 @@
       "image": "/images/london/soho-pub-night.jpg"
     }
   ],
-  "affiliate_products": [
+"affiliate_products": [
     {
       "id": "aff-001",
-      "title": "ユニバーサル旅行用アダプター（UKタイプG）",
+      "title": "ユニバーサル旅行用変換プラグ (UKタイプG)",
       "image": "/images/london/adapter.jpg",
-      "reason": "イギリスのプラグは独特です（三つの長方形のピン）。このアダプターは絶対に必要です。",
-      "amazon_url": "申し訳ありませんが、そのリクエストにはお応えできません。",
-      "category": "電子機器"
+      "reason": "イギリスのプラグは特殊です（長方形の3ピン）。このアダプターは絶対に必要です。",
+      "amazon_url": "https://www.amazon.com/s?k=uk+travel+adapter+type+g&tag=canibringonpl-20",
+      "category": "エレクトロニクス"
     },
     {
       "id": "aff-002",
-      "title": "コンパクトな旅行用傘",
+      "title": "コンパクトな折りたたみ傘",
       "image": "/images/london/umbrella.jpg",
-      "reason": "ロンドンの天気は非常に予測不可能です。小さな傘はバッグに入ります。",
-      "amazon_url": "コンパクト旅行用傘",
+      "reason": "ロンドンの天気は予測不可能なことで有名です。小さな傘がバッグに入っていると安心です。",
+      "amazon_url": "https://www.amazon.com/s?k=compact+travel+umbrella&tag=canibringonpl-20",
       "category": "天気"
     },
     {
       "id": "aff-003",
       "title": "防水ウォーキングシューズ",
       "image": "/images/london/shoes.jpg",
-      "reason": "ロンドンではたくさん歩く必要があります。快適な靴は必須です。",
-      "amazon_url": "防水ウォーキングシューズ",
-      "category": "靴"
+      "reason": "ロンドンではたくさん歩くことになりますが、水たまりも多いです。濡れた靴下は気分を台無しにします。",
+      "amazon_url": "https://www.amazon.com/s?k=waterproof+walking+shoes&tag=canibringonpl-20",
+      "category": "衣類"
     }
   ],
   "lat": 51.5074,

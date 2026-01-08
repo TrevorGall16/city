@@ -83,7 +83,7 @@
         "Météo extérieure"
       ],
       "cons": [
-        "Piques d'humidité",
+        "Pics d'humidité",
         "Pluie fréquente"
       ],
       "clothing": "Tissus respirants, parapluie"
@@ -1241,21 +1241,21 @@
   ],
   "itinerary": [
     {
-      "time": "9:00 AM",
+      "time": "9h00",
       "title": "Dim Sum chez Tim Ho Wan",
       "description": "Commencez par des dim sum étoilés au guide Michelin. Commandez des petits pains au porc BBQ, des har gows, des siu mais et du gâteau de radis.",
       "image": "/images/hong-kong/tim-ho-wan.jpg"
     },
     {
-      "time": "11:00 AM",
+      "time": "11h00",
       "title": "Escalator Central & Mid-Levels",
       "description": "Découvrez les gratte-ciels de Central, empruntez l'escalator le plus long du monde, visitez le temple Man Mo.",
       "image": "/images/hong-kong/central-morning.jpg"
     },
     {
       "time": "13h00",
-      "title": "Déjeuner de Oie Rôtie",
-      "description": "Viande rôtie étoilée au Michelin chez Yat Lok ou Kam's. Oie entière sur du riz pour 100 HK$.",
+      "title": "Déjeuner d'Oie Rôtie",
+      "description": "Viande rôtie étoilée au Michelin chez Yat Lok ou Kam's. Demi-oie sur du riz pour 100 HK$.",
       "image": "/images/hong-kong/roast-goose2.jpg"
     },
     {

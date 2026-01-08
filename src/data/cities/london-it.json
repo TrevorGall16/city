@@ -1136,13 +1136,13 @@
       "image": "/images/london/soho-pub-night.jpg"
     }
   ],
-  "affiliate_products": [
+"affiliate_products": [
     {
       "id": "aff-001",
       "title": "Adattatore Universale di Viaggio (Tipo G UK)",
       "image": "/images/london/adapter.jpg",
       "reason": "Le spine del Regno Unito sono uniche (tre pin rettangolari). Ha assolutamente bisogno di questo adattatore.",
-      "amazon_url": "Adattatore di viaggio UK tipo G",
+      "amazon_url": "https://www.amazon.com/s?k=uk+travel+adapter+type+g&tag=canibringonpl-20",
       "category": "elettronica"
     },
     {
@@ -1150,16 +1150,16 @@
       "title": "Ombrello da viaggio compatto",
       "image": "/images/london/umbrella.jpg",
       "reason": "Il tempo a Londra è famosamente imprevedibile. Un piccolo ombrello entra nella sua borsa.",
-      "amazon_url": "ombrello da viaggio compatto",
+      "amazon_url": "https://www.amazon.com/s?k=compact+travel+umbrella&tag=canibringonpl-20",
       "category": "meteo"
     },
     {
       "id": "aff-003",
       "title": "Scarpe da passeggio impermeabili",
       "image": "/images/london/shoes.jpg",
-      "reason": "Londra richiede MOLTO camminare. Scarpe comode sono essenziali.",
-      "amazon_url": "Scarpe impermeabili da passeggio",
-      "category": "calzature"
+      "reason": "Londra richiede molto camminare e le pozzanghere sono comuni. I calzini bagnati rovinano la giornata.",
+      "amazon_url": "https://www.amazon.com/s?k=waterproof+walking+shoes&tag=canibringonpl-20",
+      "category": "abbigliamento"
     }
   ],
   "lat": 51.5074,

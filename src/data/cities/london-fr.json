@@ -1136,13 +1136,13 @@
       "image": "/images/london/soho-pub-night.jpg"
     }
   ],
-  "affiliate_products": [
+"affiliate_products": [
     {
       "id": "aff-001",
       "title": "Adaptateur de voyage universel (Type G Royaume-Uni)",
       "image": "/images/london/adapter.jpg",
       "reason": "Les prises britanniques sont uniques (trois broches rectangulaires). Vous avez absolument besoin de cet adaptateur.",
-      "amazon_url": "Adaptateur de voyage type G Royaume-Uni",
+      "amazon_url": "https://www.amazon.com/s?k=uk+travel+adapter+type+g&tag=canibringonpl-20",
       "category": "électronique"
     },
     {
@@ -1150,16 +1150,16 @@
       "title": "Parapluie de voyage compact",
       "image": "/images/london/umbrella.jpg",
       "reason": "Le temps à Londres est célèbre pour son imprévisibilité. Un petit parapluie tient dans votre sac.",
-      "amazon_url": "Parapluie de voyage compact",
+      "amazon_url": "https://www.amazon.com/s?k=compact+travel+umbrella&tag=canibringonpl-20",
       "category": "météo"
     },
     {
       "id": "aff-003",
       "title": "Chaussures de marche imperméables",
       "image": "/images/london/shoes.jpg",
-      "reason": "Londres nécessite beaucoup de marche. Des chaussures confortables sont essentielles.",
-      "amazon_url": "Chaussures de marche imperméables",
-      "category": "chaussures"
+      "reason": "Londres nécessite beaucoup de marche et les flaques d'eau sont fréquentes. Des chaussettes mouillées gâchent la journée.",
+      "amazon_url": "https://www.amazon.com/s?k=waterproof+walking+shoes&tag=canibringonpl-20",
+      "category": "vêtements"
     }
   ],
   "lat": 51.5074,

@@ -776,13 +776,13 @@
       "image": "/images/los-angeles/weho-night.jpg"
     }
   ],
-  "affiliate_products": [
+"affiliate_products": [
     {
       "id": "aff-001",
       "title": "US Travel Adapter (Type A/B)",
       "image": "/images/los-angeles/adapter.jpg",
       "reason": "US plugs have two flat pins. If you're from Europe, you need an adapter.",
-      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter+type+a",
+      "amazon_url": "https://www.amazon.com/s?k=us+travel+adapter+type+a&tag=canibringonpl-20",
       "category": "electronics"
     },
     {
@@ -790,16 +790,16 @@
       "title": "Sunscreen SPF 50",
       "image": "/images/los-angeles/sunscreen.jpg",
       "reason": "The California sun is strong, even when it feels cool. Wear it driving, hiking, and walking.",
-      "amazon_url": "https://www.amazon.com/s?k=sunscreen+spf+50",
+      "amazon_url": "https://www.amazon.com/s?k=sunscreen+spf+50&tag=canibringonpl-20",
       "category": "health"
     },
     {
       "id": "aff-003",
       "title": "Hiking Water Bottle",
       "image": "/images/los-angeles/water-bottle.jpg",
-      "reason": "LA is dry and hot. You need water constantly, especially if you hike Runyon or Griffith.",
-      "amazon_url": "https://www.amazon.com/s?k=reusable+water+bottle",
-      "category": "outdoors"
+      "reason": "Los Angeles is dry. Dehydration causes headaches. Carry water everywhere.",
+      "amazon_url": "https://www.amazon.com/s?k=hiking+water+bottle&tag=canibringonpl-20",
+      "category": "health"
     }
   ],
   "region": "North America"

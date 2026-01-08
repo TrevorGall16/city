@@ -1,12 +1,7 @@
 'use client'
 
-/**
- * HeaderAuth Component
- * Displays login button or user avatar in header
- */
-
-import { useState, useEffect } from 'react'
-import { useRouter, useParams } from 'next/navigation' // 🎯 Added useParams
+import { useState, useEffect, useRef } from 'react'
+import { useRouter, useParams } from 'next/navigation'
 import { useAuth } from '@/components/providers/AuthProvider'
 import { LoginModal } from './LoginModal'
 import { ThemeToggle } from './ThemeToggle'
@@ -16,35 +11,34 @@ import { createClient } from '@/lib/supabase/client'
 export function HeaderAuth() {
   const { user } = useAuth()
   const router = useRouter()
-  const params = useParams() // 🎯 Get current parameters
-  
-  // 🎯 Get the current language (default to 'en' if missing)
-  const lang = params?.lang || 'en'
+  const params = useParams()
+  const lang = (params?.lang as string) || 'en'
 
   const [showLoginModal, setShowLoginModal] = useState(false)
   const [showUserMenu, setShowUserMenu] = useState(false)
   const [displayName, setDisplayName] = useState<string | null>(null)
+  
+  const menuRef = useRef<HTMLDivElement>(null)
 
-  // Load display name from profiles table
+  // Close menu on click outside
   useEffect(() => {
-    const loadDisplayName = async () => {
-      if (!user) {
-        setDisplayName(null)
-        return
-      }
-
-      const supabase = createClient()
-      const { data } = await supabase
-        .from('profiles')
-        .select('display_name')
-        .eq('id', user.id)
-        .single()
-
-      if (data?.display_name) {
-        setDisplayName(data.display_name)
+    function handleClickOutside(event: MouseEvent) {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setShowUserMenu(false)
       }
     }
+    document.addEventListener("mousedown", handleClickOutside)
+    return () => document.removeEventListener("mousedown", handleClickOutside)
+  }, [])
 
+  // Load profile
+  useEffect(() => {
+    const loadDisplayName = async () => {
+      if (!user) { setDisplayName(null); return }
+      const supabase = createClient()
+      const { data } = await supabase.from('profiles').select('display_name').eq('id', user.id).single()
+      if (data?.display_name) setDisplayName(data.display_name)
+    }
     loadDisplayName()
   }, [user])
 
@@ -52,7 +46,7 @@ export function HeaderAuth() {
     const supabase = createClient()
     await supabase.auth.signOut()
     setShowUserMenu(false)
-    router.push(`/${lang}`) // 🎯 Redirect to localized home
+    router.push(`/${lang}`)
     router.refresh()
   }
 
@@ -63,6 +57,7 @@ export function HeaderAuth() {
         <button
           onClick={() => setShowLoginModal(true)}
           className="px-4 py-2 text-sm font-medium text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 transition-colors"
+          aria-haspopup="dialog"
         >
           Log In
         </button>
@@ -72,7 +67,7 @@ export function HeaderAuth() {
   }
 
   return (
-    <div className="relative flex items-center gap-2">
+    <div className="relative flex items-center gap-2" ref={menuRef}>
       <ThemeToggle />
       <button
         onClick={() => setShowUserMenu(!showUserMenu)}
@@ -85,11 +80,11 @@ export function HeaderAuth() {
           {user.user_metadata?.avatar_url ? (
             <img
               src={user.user_metadata.avatar_url}
-              alt={displayName || user.email || 'User'}
+              alt={displayName || 'User'}
               className="w-8 h-8 rounded-full object-cover"
             />
           ) : displayName ? (
-            <span className="text-sm font-semibold text-indigo-600 dark:text-indigo-400" aria-hidden="true">
+            <span className="text-sm font-semibold text-indigo-600 dark:text-indigo-400">
               {displayName.charAt(0).toUpperCase()}
             </span>
           ) : (
@@ -98,68 +93,40 @@ export function HeaderAuth() {
         </div>
       </button>
 
-      {/* User dropdown menu */}
+      {/* Dropdown Menu */}
       {showUserMenu && (
-        <>
-          <div
-            className="fixed inset-0 z-30"
-            onClick={() => setShowUserMenu(false)}
-            aria-hidden="true"
-          />
-
-          <div
-            className="absolute right-0 top-full mt-2 w-64 bg-white dark:bg-slate-900 rounded-lg shadow-xl border border-slate-200 dark:border-slate-800 py-2 z-40"
-            role="menu"
-            aria-orientation="vertical"
-            aria-labelledby="user-menu-button"
-          >
-            
-            <div className="px-4 py-3 border-b border-slate-200 dark:border-slate-800">
-              <p className="text-sm font-medium text-slate-900 dark:text-slate-50 truncate">
-                {user.email}
-              </p>
-              <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
-                {displayName || 'No display name set'}
-              </p>
-            </div>
-            
-            {/* Profile Link */}
-            <button
-              onClick={() => {
-                setShowUserMenu(false)
-                router.push(`/${lang}/profile`)
-              }}
-              className="w-full px-4 py-2 text-left text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 flex items-center gap-2"
-              role="menuitem"
-            >
-              <User className="w-4 h-4" aria-hidden="true" />
-              My Profile
-            </button>
-
-            {/* Change Password Link */}
-            <button
-              onClick={() => {
-                setShowUserMenu(false)
-                router.push(`/${lang}/forgot-password`)
-              }}
-              className="w-full px-4 py-2 text-left text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 flex items-center gap-2"
-              role="menuitem"
-            >
-               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4m-1 3v1a2 2 0 002 2h4a2 2 0 002-2v-1"></path></svg>
-              Change Password
-            </button>
-
-            {/* Log Out Button */}
-            <button
-              onClick={handleSignOut}
-              className="w-full px-4 py-2 text-left text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 flex items-center gap-2"
-              role="menuitem"
-            >
-              <LogOut className="w-4 h-4" aria-hidden="true" />
-              Log Out
-            </button>
+        <div 
+          className="absolute right-0 top-full mt-2 w-64 bg-white dark:bg-slate-900 rounded-lg shadow-xl border border-slate-200 dark:border-slate-800 py-2 z-40"
+          role="menu"
+          aria-orientation="vertical"
+        >
+          <div className="px-4 py-3 border-b border-slate-200 dark:border-slate-800">
+            <p className="text-sm font-medium text-slate-900 dark:text-slate-50 truncate">
+              {user.email}
+            </p>
+            <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
+              {displayName || 'Traveler'}
+            </p>
           </div>
-        </>
+          
+          <button
+            role="menuitem"
+            onClick={() => { setShowUserMenu(false); router.push(`/${lang}/profile`) }}
+            className="w-full px-4 py-2 text-left text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 flex items-center gap-2"
+          >
+            <User className="w-4 h-4" aria-hidden="true" />
+            My Profile
+          </button>
+
+          <button
+            role="menuitem"
+            onClick={handleSignOut}
+            className="w-full px-4 py-2 text-left text-sm text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800 flex items-center gap-2"
+          >
+            <LogOut className="w-4 h-4" aria-hidden="true" />
+            Log Out
+          </button>
+        </div>
       )}
     </div>
   )
