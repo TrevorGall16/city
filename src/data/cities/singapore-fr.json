@@ -4,7 +4,7 @@
   "slug": "singapour",
   "country": "Singapour",
   "country_code": "sg",
-  "hero_image": "/images/singapour/hero.jpg",
+  "hero_image": "/images/singapore/hero.jpg",
   "intro_vibe": "Une cité-état hyper-moderne et ultra-efficace où les gratte-ciel futuristes côtoient une nature tropicale luxuriante et une scène culinaire de classe mondiale.",
   "general_info": {
     "population": "6,11 millions ",
@@ -272,7 +272,7 @@
         "Temple Sri Mariamman ",
         "Chinatown Complex "
       ],
-      "image": "/images/singapour/chinatown.jpg"
+      "image": "/images/singapore/chinatown.jpg"
     },
     {
       "name": "Kampong Gelam",
@@ -283,7 +283,7 @@
         "Haji Lane ",
         "Malay Heritage Centre "
       ],
-      "image": "/images/singapour/kampong-gelam.jpg"
+      "image": "/images/singapore/kampong-gelam.jpg"
     },
     {
       "name": "Tiong Bahru",
@@ -294,7 +294,7 @@
         "Marché de Tiong Bahru",
         "Temple Qi Tian Gong "
       ],
-      "image": "/images/singapour/tiong-bahru.jpg"
+      "image": "/images/singapore/tiong-bahru.jpg"
     },
     {
       "name": "Katong & Joo Chiat",
@@ -305,7 +305,7 @@
         "Le musée The Intan",
         "328 Katong Laksa"
       ],
-      "image": "/images/singapour/joo-chiat.jpg"
+      "image": "/images/singapore/joo-chiat.jpg"
     }
   ],
   "logistics": [
@@ -398,7 +398,7 @@
         "duration": "20 minutes",
         "best_time": "Lunch"
       },
-      "image": "/images/singapour/chicken-rice.jpg"
+      "image": "/images/singapore/chicken-rice.jpg"
     },
     {
       "id": "food-002",
@@ -420,7 +420,7 @@
         "duration": "15 minutes",
         "best_time": "Fin de matinée"
       },
-      "image": "/images/singapour/laksa.jpg"
+      "image": "/images/singapore/laksa.jpg"
     },
     {
       "id": "food-003",
@@ -442,7 +442,7 @@
         "duration": "45 minutes",
         "best_time": "Matin ou jours de pluie"
       },
-      "image": "/images/singapour/bak-kut-teh.jpg"
+      "image": "/images/singapore/bak-kut-teh.jpg"
     },
     {
       "id": "food-004",
@@ -464,7 +464,7 @@
         "duration": "20 minutes",
         "best_time": "Matin (avant 10h)"
       },
-      "image": "/images/singapour/roti-prata.jpg"
+      "image": "/images/singapore/roti-prata.jpg"
     },
     {
       "id": "food-005",
@@ -486,7 +486,7 @@
         "duration": "15 minutes",
         "best_time": "Lunch"
       },
-      "image": "/images/singapour/char-kway-teow.jpg"
+      "image": "/images/singapore/char-kway-teow.jpg"
     },
     {
       "id": "food-006",
@@ -508,7 +508,7 @@
         "duration": "30 minutes",
         "best_time": "Tout le temps"
       },
-      "image": "/images/singapour/kopi.jpg"
+      "image": "/images/singapore/kopi.jpg"
     }
   ],
   "must_see": [
@@ -537,7 +537,7 @@
             "duration": "3 hours",
             "best_time": "Fin d'après-midi"
           },
-          "image": "/images/singapour/gardens-by-the-bay.jpg",
+          "image": "/images/singapore/gardens-by-the-bay.jpg",
           "geo": {
             "lat": 1.2816,
             "lng": 103.8636
@@ -564,7 +564,7 @@
             "duration": "2 hours",
             "best_time": "Après-midi"
           },
-          "image": "/images/singapour/jewel-changi.jpg",
+          "image": "/images/singapore/jewel-changi.jpg",
           "geo": {
             "lat": 1.3602,
             "lng": 103.9898
@@ -597,7 +597,7 @@
             "duration": "3 hours",
             "best_time": "Après 20h30"
           },
-          "image": "/images/singapour/night-safari.jpg",
+          "image": "/images/singapore/night-safari.jpg",
           "geo": {
             "lat": 1.4022,
             "lng": 103.788
@@ -624,7 +624,7 @@
             "duration": "2 hours",
             "best_time": "8h30 (ouverture)"
           },
-          "image": "/images/singapour/botanic-gardens.jpg",
+          "image": "/images/singapore/botanic-gardens.jpg",
           "geo": {
             "lat": 1.3138,
             "lng": 103.8159
@@ -638,44 +638,44 @@
       "time": "8:00 AM",
       "title": "Petit-déjeuner traditionnel à Far East Square",
       "description": "Commencez la journée comme un local chez Ya Kun Kaya Toast. Commandez le 'Set A' : tartines au kaya (confiture de coco), œufs mollets et un Kopi chaud. Mélangez les œufs avec du soja et du poivre pour y tremper votre pain.",
-      "image": "/images/singapour/breakfast-kaya.jpg"
+      "image": "/images/singapore/breakfast-kaya.jpg"
     },
     {
       "time": "10:30 AM",
       "title": "Street Art et Fresques à Tiong Bahru",
       "description": "Explorez le plus vieux quartier résidentiel public. Perdez-vous dans les ruelles pour dénicher les fresques de Yip Yew Chong qui racontent le vieux Singapour. Profitez-en pour goûter un croissant de la célèbre Tiong Bahru Bakery.",
-      "image": "/images/singapour/tiong-bahru-murals.jpg"
+      "image": "/images/singapore/tiong-bahru-murals.jpg"
     },
     {
       "time": "1:00 PM",
       "title": "Déjeuner au Maxwell Food Centre",
       "description": "C'est l'heure du fameux riz au poulet. Faites la queue chez Tian Tian ou Ah Tai. Accompagnez le tout d'un jus de citron vert frais ou d'un jus de canne à sucre pour rester hydraté.",
-      "image": "/images/singapour/maxwell-lunch.jpg"
+      "image": "/images/singapore/maxwell-lunch.jpg"
     },
     {
       "time": "3:30 PM",
       "title": "Vues sur la Skyline depuis la National Gallery",
       "description": "Réfugiez-vous au frais dans la National Gallery. Même sans voir les expos, montez au Padang Deck sur le toit. C'est gratuit et la vue sur Marina Bay Sands est incroyable.",
-      "image": "/images/singapour/national-gallery-view.jpg"
+      "image": "/images/singapore/national-gallery-view.jpg"
     },
     {
       "time": "6:30 PM",
       "title": "Coucher de soleil aux Gardens by the Bay",
       "description": "Explorez le dôme de la Cloud Forest juste avant le crépuscule pour voir la cascade s'illuminer. Ensuite, dirigez-vous vers le Supertree Grove pour le spectacle Garden Rhapsody.",
-      "image": "/images/singapour/gardens-sunset.jpg"
+      "image": "/images/singapore/gardens-sunset.jpg"
     },
     {
       "time": "8:30 PM",
       "title": "Dîner au Satay Club de Lau Pa Sat",
       "description": "Direction Lau Pa Sat dans le quartier des affaires. Le soir, la rue Boon Tat devient piétonne et se transforme en paradis du Satay. Dégustez vos brochettes en extérieur au milieu des gratte-ciel.",
-      "image": "/images/singapour/satay-street.jpg"
+      "image": "/images/singapore/satay-street.jpg"
     }
   ],
   "affiliate_products": [
     {
       "id": "aff-001",
       "title": "Adaptateur de voyage UK (Type G)",
-      "image": "/images/singapour/adapter.jpg",
+      "image": "/images/singapore/adapter.jpg",
       "reason": "Singapour utilise les prises britanniques à trois broches. Vous en aurez besoin pour tous vos appareils.",
       "amazon_url": "https://www.amazon.com/s?k=uk+travel+adapter+type+g&tag=canibringonpl-20",
       "category": "electronics"
@@ -683,7 +683,7 @@
     {
       "id": "aff-002",
       "title": "Ventilateur de poche portable",
-      "image": "/images/singapour/fan.jpg",
+      "image": "/images/singapore/fan.jpg",
       "reason": "Avec l'humidité ambiante, un petit ventilateur est un accessoire local très courant pour survivre aux attentes en extérieur.",
       "amazon_url": "https://www.amazon.com/s?k=portable+handheld+fan&tag=canibringonpl-20",
       "category": "electronics"
@@ -691,7 +691,7 @@
     {
       "id": "aff-003",
       "title": "T-shirts techniques respirants",
-      "image": "/images/singapour/shirts.jpg",
+      "image": "/images/singapore/shirts.jpg",
       "reason": "Vous allez transpirer, c'est garanti. Ces matières qui sèchent vite sont bien plus agréables que le coton classique.",
       "amazon_url": "https://www.amazon.com/s?k=moisture+wicking+travel+shirts&tag=canibringonpl-20",
       "category": "clothing"
