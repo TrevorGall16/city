@@ -1,0 +1,703 @@
+{
+  "id": "city-002",
+  "name": "Singapore",
+  "slug": "singapore",
+  "country": "Singapore",
+  "country_code": "sg",
+  "hero_image": "/images/singapore/hero.jpg",
+  "intro_vibe": "Una città-stato iper-efficiente e futuristica dove la modernità estrema incontra una giungla tropicale lussureggiante e una scena gastronomica leggendaria.",
+  "general_info": {
+    "population": "6,11 milioni [cite: 5]",
+    "is_capital": true,
+    "description": "Singapore è una nazione insulare e città-stato sovrana situata nel sud-est asiatico, a circa un grado a nord dell'equatore[cite: 4]. È un hub globale per la finanza e l'innovazione, celebre per il suo ordine rigoroso, la società multiculturale e la sua trasformazione in una vera 'Città nella Natura'[cite: 10, 155]."
+  },
+  "stats": {
+    "currency": "SGD",
+    "plug_type": "Tipo G [cite: 39]"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "Gennaio",
+      "temp": "24°C - 30°C",
+      "vibe": "Piovoso e relativamente fresco",
+      "pros": [
+        "Temperature leggermente più basse [cite: 268]",
+        "Verde lussureggiante e vibrante",
+        "Atmosfera festosa per il Capodanno Cinese"
+      ],
+      "cons": [
+        "Piogge pesanti e prolungate [cite: 268]",
+        "Rischio di alluvioni improvvise [cite: 268]",
+        "Piani all'aperto spesso interrotti [cite: 268]"
+      ],
+      "clothing": "Scarpe impermeabili, ombrello compatto, giacca leggera per l'aria condizionata"
+    },
+    {
+      "id": 2,
+      "name": "Febbraio",
+      "temp": "25°C - 31°C",
+      "vibe": "Soleggiato e secco",
+      "pros": [
+        "Precipitazioni minime annuali [cite: 268]",
+        "Massime ore di sole [cite: 268]",
+        "Ottimo per le attrazioni all'aperto [cite: 268]"
+      ],
+      "cons": [
+        "Umidità comunque elevata",
+        "Luoghi famosi molto affollati",
+        "Prezzi dei voli più alti"
+      ],
+      "clothing": "Tessuti in lino o cotone, occhiali da sole, protezione solare"
+    },
+    {
+      "id": 3,
+      "name": "Marzo",
+      "temp": "25°C - 32°C",
+      "vibe": "Luminoso e ventilato",
+      "pros": [
+        "Sole costante [cite: 268]",
+        "Ideale per tour a piedi [cite: 268]",
+        "Condizioni ottimali per Sentosa [cite: 268]"
+      ],
+      "cons": [
+        "Il calore si intensifica a metà giornata",
+        "Possibili acquazzoni pomeridiani",
+        "Livelli UV molto alti"
+      ],
+      "clothing": "Scarpe da ginnastica traspiranti, sintetici tecnici anti-umidità"
+    },
+    {
+      "id": 4,
+      "name": "Aprile",
+      "temp": "25°C - 32°C",
+      "vibe": "Calmo e soleggiato",
+      "pros": [
+        "Fine del periodo più secco [cite: 268]",
+        "Poco vento",
+        "Perfetto per ammirare il panorama dai rooftop"
+      ],
+      "cons": [
+        "Livelli di sudorazione elevati",
+        "Transizione verso i mesi più caldi",
+        "Improvvisi scrosci di pioggia"
+      ],
+      "clothing": "Fibre naturali, ventilatore portatile"
+    },
+    {
+      "id": 5,
+      "name": "Maggio",
+      "temp": "26°C - 33°C",
+      "vibe": "Molto caldo e umido",
+      "pros": [
+        "Mattinate lunghe e soleggiate",
+        "Cielo limpido per la fotografia",
+        "Scene notturne vibranti"
+      ],
+      "cons": [
+        "Temperature tra le più alte dell'anno [cite: 268]",
+        "Rischio di foschia regionale (haze)",
+        "Umidità intensa [cite: 266]"
+      ],
+      "clothing": "Pantaloncini leggeri, t-shirt, idratazione costante"
+    },
+    {
+      "id": 6,
+      "name": "Giugno",
+      "temp": "26°C - 33°C",
+      "vibe": "Afa e socialità",
+      "pros": [
+        "Ideale per musei climatizzati [cite: 268]",
+        "Grandi saldi nei centri commerciali",
+        "Il Night Safari è piacevole"
+      ],
+      "cons": [
+        "Calore estremo a metà giornata [cite: 268]",
+        "Centri commerciali affollati",
+        "Possibile foschia atmosferica [cite: 268]"
+      ],
+      "clothing": "Vestiti con protezione UV, tessuti ariosi, scialle leggero per gli interni"
+    },
+    {
+      "id": 7,
+      "name": "Luglio",
+      "temp": "26°C - 31°C",
+      "vibe": "Temporalesco e tropicale",
+      "pros": [
+        "I 'Sumatra Squalls' rinfrescano l'aria [cite: 268]",
+        "Vivaci festival gastronomici",
+        "Tramonti spettacolari dopo la pioggia"
+      ],
+      "cons": [
+        "Forti temporali mattutini [cite: 268]",
+        "Venti raffica [cite: 268]",
+        "Tempistiche della pioggia imprevedibili"
+      ],
+      "clothing": "Sandali, copertura zaino impermeabile"
+    },
+    {
+      "id": 8,
+      "name": "Agosto",
+      "temp": "26°C - 31°C",
+      "vibe": "Patriottico e ventoso",
+      "pros": [
+        "Celebrazioni della Festa Nazionale",
+        "Atmosfera carica di energia",
+        "Brezze oceaniche rinfrescanti"
+      ],
+      "cons": [
+        "Frequenti piogge mattutine",
+        "Spazi pubblici affollati",
+        "Occasionali interruzioni dovute al vento"
+      ],
+      "clothing": "Scarpe da camminata comode, abbigliamento rosso/bianco per la Festa Nazionale"
+    },
+    {
+      "id": 9,
+      "name": "Settembre",
+      "temp": "25°C - 31°C",
+      "vibe": "Dinamico",
+      "pros": [
+        "Ecitazione per il Gran Premio di F1",
+        "Festival delle lanterne di metà autunno",
+        "Temperature serali tollerabili"
+      ],
+      "cons": [
+        "Chiusure stradali nel CBD",
+        "I prezzi degli hotel raggiungono il picco",
+        "Mattinate molto umide"
+      ],
+      "clothing": "Smart casual per la vita notturna, maglie traspiranti"
+    },
+    {
+      "id": 10,
+      "name": "Ottobre",
+      "temp": "25°C - 32°C",
+      "vibe": "Cangiante",
+      "pros": [
+        "Luci vibranti per Deepavali",
+        "Ottimo per esplorare i mercati alimentari",
+        "Meno pioggia rispetto a novembre"
+      ],
+      "cons": [
+        "L'umidità sale",
+        "Modelli meteorologici incerti",
+        "Quartieri storici affollati"
+      ],
+      "clothing": "Vestiti leggeri in cotone, ombrello"
+    },
+    {
+      "id": 11,
+      "name": "Novembre",
+      "temp": "24°C - 30°C",
+      "vibe": "Nuvoloso e umido",
+      "pros": [
+        "Temperature più basse",
+        "Meno folla di turisti",
+        "Stagione perfetta per attrazioni al chiuso"
+      ],
+      "cons": [
+        "Inizio del periodo più piovoso [cite: 268]",
+        "Umidità molto elevata",
+        "Piani all'aperto spesso rimandati"
+      ],
+      "clothing": "Giacca a vento impermeabile, calzini di ricambio, felpa per l'aria condizionata"
+    },
+    {
+      "id": 12,
+      "name": "Dicembre",
+      "temp": "24°C - 30°C",
+      "vibe": "Festivo e piovoso",
+      "pros": [
+        "Luci di Natale su Orchard Road",
+        "Spirito natalizio",
+        "Il mese più 'fresco' dell'anno [cite: 268]"
+      ],
+      "cons": [
+        "Mese più piovoso (precipitazioni intense) [cite: 268]",
+        "Picco della stagione turistica",
+        "Costi di viaggio elevati"
+      ],
+      "clothing": "Ombrello resistente, strati leggeri, evitare scarpe in camoscio"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "La regola del vassoio: È obbligatorio per legge restituire vassoi e stoviglie usati nei centri hawker e nei food court[cite: 52]. Al primo errore si riceve un avvertimento, ma i recidivi rischiano una multa di 300 SGD[cite: 53].",
+      "Halal vs Non-Halal: Controlli sempre i cartelli alle stazioni di restituzione vassoi. Restituire stoviglie non-Halal a una stazione Halal è culturalmente insensibile[cite: 54, 55].",
+      "Il rito del 'Choping': Se vede un pacchetto di fazzoletti su un tavolo vuoto in un centro hawker, quel tavolo è prenotato[cite: 66, 67]! Rispetti questo sistema informale per evitare attriti sociali[cite: 68].",
+      "Disciplina sulle scale mobili: Si sta a SINISTRA, si cammina a DESTRA[cite: 59]. È una regola osservata rigorosamente; bloccare il lato destro causerà disappunto[cite: 60].",
+      "Divieto chewing gum: La vendita e l'importazione di gomme da masticare sono vietate[cite: 56]. Non le porti in valigia per evitare rischi inutili[cite: 58].",
+      "La realtà delle mance: La mancia non è d'uso[cite: 61]. La maggior parte dei ristoranti aggiunge automaticamente il 10% di servizio e il 9% di tasse (GST) al conto[cite: 62].",
+      "L'Inverno Indoor: Singapore ama l'aria condizionata[cite: 274]! Mentre fuori ci sono 30°C, centri commerciali e cinema sono spesso gelidi. Porti sempre con sé un cardigan leggero o uno scialle[cite: 275].",
+      "L'acqua è sicura: Può bere tranquillamente dal rubinetto[cite: 279]! L'acqua è trattata rigorosamente e perfettamente potabile, così risparmierà denaro e plastica.",
+      "Cultura della coda: I singaporiani amano fare la coda. Che sia per l'ultimo gadget o per il famoso riso al pollo, si metta in fila e aspetti il Suo turno pazientemente.",
+      "Sfumature del Singlish: Sentirà spesso termini come 'Lah', 'Leh' e 'Lor'. È un creolo locale basato sull'efficienza[cite: 121, 122]. Non deve parlarlo, ma capirne lo spirito La aiuterà a orientarsi[cite: 124, 125, 126]."
+    ],
+    "essential_phrases": [
+      {
+        "src": "Grazie",
+        "local": "Terima Kasih / 谢谢 / நன்றி",
+        "phonetic": "te-ree-mah kah-seh [cite: 137]"
+      },
+      {
+        "src": "Buongiorno",
+        "local": "Selamat Pagi",
+        "phonetic": "se-la-mat pah-gee [cite: 134]"
+      },
+      {
+        "src": "Mangiare / Cibo",
+        "local": "Makan",
+        "phonetic": "mah-kan [cite: 141]"
+      },
+      {
+        "src": "Da asporto",
+        "local": "Bungkus / Ta-pau",
+        "phonetic": "boong-koos [cite: 142]"
+      },
+      {
+        "src": "Per favore / Aiuto",
+        "local": "Tolong",
+        "phonetic": "toh-long [cite: 139]"
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Chinatown",
+      "vibe": "Eredità e frenesia",
+      "description": "Un mix di templi tradizionali, shophouse storiche e mercati vibranti. È l'anima della storia dell'immigrazione cinese a Singapore[cite: 71, 72].",
+      "highlights": [
+        "Buddha Tooth Relic Temple",
+        "Sri Mariamman Temple",
+        "Chinatown Complex"
+      ],
+      "image": "/images/singapore/chinatown.jpg"
+    },
+    {
+      "name": "Kampong Gelam",
+      "vibe": "Hipster incontra l'Eredità",
+      "description": "Il quartiere storico malese e arabo dove moschee dalle cupole dorate convivono con vicoli pieni di street art e boutique indipendenti[cite: 87, 88, 89].",
+      "highlights": [
+        "Sultan Mosque",
+        "Haji Lane",
+        "Malay Heritage Centre"
+      ],
+      "image": "/images/singapore/kampong-gelam.jpg"
+    },
+    {
+      "name": "Tiong Bahru",
+      "vibe": "Calmo e artistico",
+      "description": "Il primo quartiere di edilizia pubblica della città, ora un'enclave verde di architettura Streamline Moderne, librerie indipendenti e caffè accoglienti[cite: 98, 99, 101].",
+      "highlights": [
+        "Murales di Yip Yew Chong",
+        "Tiong Bahru Market",
+        "Tempio Qi Tian Gong"
+      ],
+      "image": "/images/singapore/tiong-bahru.jpg"
+    },
+    {
+      "name": "Katong & Joo Chiat",
+      "vibe": "Colorato e Peranakan",
+      "description": "Il cuore della cultura Peranakan (cinesi degli stretti), famoso per le sue shophouse pastello e le intense rivalità gastronomiche locali[cite: 106, 107, 108].",
+      "highlights": [
+        "Koon Seng Road Shophouses",
+        "The Intan",
+        "328 Katong Laksa"
+      ],
+      "image": "/images/singapore/joo-chiat.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "muoversi-in-citta",
+      "title": "Muoversi",
+      "icon": "Train",
+      "summary": "Il sistema MRT (metro) e i bus sono i polmoni della città: veloci, puliti e incredibilmente efficienti[cite: 42].",
+      "details": [
+        "Strategia SimplyGo: Non perda tempo con un Tourist Pass. Appoggi semplicemente la Sua carta di credito contactless o il telefono (Apple/Google Pay) a ogni tornello[cite: 46, 48].",
+        "Avviso sul Tourist Pass: Spesso è un 'trappola del valore'. Dovrebbe fare più di 6 viaggi al giorno per ammortizzarlo[cite: 47, 48].",
+        "Base MRT: I treni circolano dalle 5:30 circa a mezzanotte. Eviti l'ora di punta (8-9 e 18-19) se non ama stare stretto.",
+        "Regola sulle scale mobili: Stia a SINISTRA, cammini a DESTRA[cite: 59]. Bloccare il lato sinistro è un errore da turista[cite: 60].",
+        "Divieto cibo/bevande: Non beva nemmeno acqua sul MRT. Le multe sono applicate rigorosamente e possono raggiungere i 500 SGD.",
+        "Protocollo Bus: Appoggi la carta sia quando sale che quando scende dalla porta posteriore per assicurarsi che venga applicata la tariffa corretta."
+      ]
+    },
+    {
+      "id": "logistics-connectivity",
+      "slug": "dati-mobile",
+      "title": "Dati Mobile",
+      "icon": "Smartphone",
+      "summary": "Rimanga connesso con 4G/5G ad alta velocità in tutta l'isola.",
+      "details": [
+        "Miglior SIM: La Singtel hi!Tourist SIM da 12 SGD è il riferimento[cite: 29]. Offre 100GB di dati per 14 giorni e funziona anche in roaming nei paesi vicini[cite: 19].",
+        "Dove acquistare: Può ritirarla all'aeroporto di Changi (sportelli Travelex) o in qualsiasi 7-Eleven in città[cite: 21, 29].",
+        "Opzioni eSIM: Se cerca comodità, fornitori come Nomad o Airalo funzionano bene, ma costano di più per GB rispetto a una SIM fisica locale[cite: 28].",
+        "Qualità rete: Singtel ha la migliore copertura indoor e sotterranea[cite: 17, 26]. Se passerà molto tempo sul MRT, scelga loro."
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "valuta-pagamenti",
+      "title": "Soldi e Pagamenti",
+      "icon": "CreditCard",
+      "summary": "Singapore è quasi totalmente cashless, ma tenga qualche banconota per i mercati[cite: 35, 37].",
+      "details": [
+        "Cashless ovunque: Centri commerciali e trasporti accettano Visa/Mastercard e pagamenti mobile[cite: 36].",
+        "Il contante serve per il cibo: Molti vecchi stand hawker accettano solo contanti o pagamenti QR locali[cite: 37]. Tenga 20-50 SGD in tagli piccoli per i pasti.",
+        "ATM: Usi gli sportelli delle banche ufficiali (DBS, OCBC, UOB). Eviti i macchinari indipendenti per risparmiare sulle commissioni.",
+        "Dollari del Brunei: Curiosità! Sono accettati al valore nominale a Singapore grazie a un accordo speciale[cite: 33]. Se ne riceve uno di resto, è perfettamente legale."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "leggi-e-sicurezza",
+      "title": "Leggi e Sicurezza",
+      "icon": "Shield",
+      "summary": "Una delle città più sicure al mondo, grazie a regole rigide e conformità sociale[cite: 50, 279].",
+      "details": [
+        "Criminalità bassa: I crimini violenti sono estremamente rari. Può camminare quasi ovunque a qualsiasi ora della notte in sicurezza.",
+        "Multe rigorose: Gettare rifiuti, sputare o attraversare fuori dalle strisce non è solo maleducazione: è illegale e punibile con multe pesanti[cite: 53, 58].",
+        "Leggi sulle droghe: Singapore ha tolleranza zero. Le pene sono severissime, inclusa la pena di morte per il traffico.",
+        "Numeri d'emergenza: Comporre il 999 per la Polizia o il 995 per Ambulanza/Pompieri[cite: 279]."
+      ]
+    },
+    {
+      "id": "logistics-weather",
+      "slug": "strategia-meteo",
+      "title": "Gestire il Meteo",
+      "icon": "Cloud",
+      "summary": "Si prepari al caldo e agli improvvisi acquazzoni tropicali[cite: 262].",
+      "details": [
+        "L'umidità: È sempre intorno all'80%[cite: 266]. Suderà. Le fibre naturali o i capi tecnici traspiranti sono i Suoi migliori amici[cite: 270].",
+        "Ombrello obbligatorio: La pioggia tropicale arriva veloce e forte. Porti sempre un ombrello compatto, anche se c'è il sole[cite: 276].",
+        "Fuga di mezzogiorno: Dalle 12:00 alle 15:00, stia al chiuso. È il momento perfetto per un centro commerciale o un museo.",
+        "Consiglio anti-sudore: Eviti i colori grigi, mostrano subito le macchie di sudore[cite: 271]. Scelga colori scuri o il bianco."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "chicken-rice",
+      "name_en": "Hainanese Chicken Rice",
+      "name_local": "海南鸡饭 / Nasi Ayam Hainan",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Pollo poché servito con riso fragrante cotto nel grasso di pollo e zenzero[cite: 204, 205]. È il piatto nazionale di Singapore. Il pollo deve essere setoso e tenero[cite: 206].",
+        "vibe": "Essenziale, setoso",
+        "history": "Portato dagli immigrati di Hainan, Cina, è stato adattato ai gusti locali con più aglio e peperoncino. È oggi un'icona culinaria riconosciuta dall'UNESCO[cite: 202].",
+        "insider_tip": "Tian Tian al Maxwell è il più famoso [cite: 207], ma se la fila è troppo lunga, vada da Ah Tai poco distante[cite: 209]. È gestito dall'ex chef di Tian Tian, il gusto è quasi identico e la coda è nulla[cite: 211].",
+        "price_level": "Affordable",
+        "good_for": [
+          "Pranzo",
+          "Prima volta"
+        ],
+        "duration": "20 minuti",
+        "best_time": "Pranzo"
+      },
+      "image": "/images/singapore/chicken-rice.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "katong-laksa",
+      "name_en": "Katong Laksa",
+      "name_local": "叻沙 / Laksa",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Un brodo di latte di cocco ricco e speziato con vermicelli di riso, gamberi e coche[cite: 214, 215]. Nello stile Katong, gli spaghettini sono tagliati corti per essere mangiati solo con il cucchiaio[cite: 216]!",
+        "vibe": "Speziato, cremoso",
+        "history": "Un prodotto della cultura Peranakan, fonde ingredienti cinesi con spezie malesi e latte di cocco. Lo stile Katong è nato nell'area di Joo Chiat[cite: 107].",
+        "insider_tip": "328 Katong Laksa è il posto celebre [cite: 218], ma Janggut Laksa è considerato da molti locali come la ricetta originale[cite: 219]. È un po' più erbaceo e meno pesante.",
+        "price_level": "Affordable",
+        "good_for": [
+          "Brunch",
+          "Amanti del piccante"
+        ],
+        "duration": "15 minuti",
+        "best_time": "Tarda mattinata"
+      },
+      "image": "/images/singapore/laksa.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "bak-kut-teh",
+      "name_en": "Pork Rib Tea",
+      "name_local": "肉骨茶 / Bak Kut Teh",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Costolette di maiale stufate per ore in un brodo chiaro, pepato e agliato[cite: 221, 222]. Nonostante il nome, non c'è tè nella zuppa: è il tè che si beve a lato per 'pulire' il palato.",
+        "vibe": "Pepato, rinvigorente",
+        "history": "Un piatto degli immigrati Teochew dell'inizio del XX secolo, mangiato originariamente dai lavoratori del porto per avere energia[cite: 222].",
+        "insider_tip": "Da Song Fa, i refill di brodo sono gratuiti e illimitati[cite: 227]! Il personale gira con i bollitori; non esiti a chiedere un rabbocco[cite: 228].",
+        "price_level": "Moderate",
+        "good_for": [
+          "Colazione",
+          "Pasto confortevole"
+        ],
+        "duration": "45 minuti",
+        "best_time": "Mattina o giorni di pioggia"
+      },
+      "image": "/images/singapore/bak-kut-teh.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "roti-prata",
+      "name_en": "Roti Prata",
+      "name_local": "Roti Prata / ரோட்டி பிராட்டா",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Un pane piatto del sud dell'India, croccante fuori e soffice dentro[cite: 237, 238]. Viene fritto e servito con una ciotola di curry di pesce o agnello[cite: 238].",
+        "vibe": "Croccante, feuilleté",
+        "history": "Deriva dal paratha indiano, è stato adattato a Singapore nella versione leggera e ariosa che vediamo oggi. Rappresenta la forte influenza indiana nel panorama locale.",
+        "insider_tip": "Vada da Mr and Mrs Mohgan per la prata più croccante della città[cite: 239, 240]. Spesso finiscono tutto entro le 13:00, quindi vada presto[cite: 241]!",
+        "price_level": "Affordable",
+        "good_for": [
+          "Colazione",
+          "Spuntino notturno"
+        ],
+        "duration": "20 minuti",
+        "best_time": "Mattina (prima delle 10:00)"
+      },
+      "image": "/images/singapore/roti-prata.jpg"
+    },
+    {
+      "id": "food-005",
+      "slug": "char-kway-teow",
+      "name_en": "Char Kway Teow",
+      "name_local": "炒粿条",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Tagliatelle di riso piatte saltate a fuoco altissimo con soia scura, peperoncino, coche e lardo di maiale[cite: 230, 231]. È famoso per il suo 'wok hei' (soffio del wok)[cite: 230].",
+        "vibe": "Affumicato, godurioso",
+        "history": "In origine un piatto per poveri, venduto da pescatori e contadini che usavano gli avanzi. È una delizia unta amatissima dai locali.",
+        "insider_tip": "Outram Park Fried Kway Teow a Hong Lim è il punto di riferimento[cite: 232]. È noto per la sua consistenza 'cremosa' data dal modo in cui usano le uova[cite: 233].",
+        "price_level": "Affordable",
+        "good_for": [
+          "Pranzo",
+          "Peccato di gola"
+        ],
+        "duration": "15 minuti",
+        "best_time": "Pranzo"
+      },
+      "image": "/images/singapore/char-kway-teow.jpg"
+    },
+    {
+      "id": "food-006",
+      "slug": "cultura-kopi",
+      "name_en": "Local Coffee Culture",
+      "name_local": "Kopi",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Un modo unico di ordinare il caffè usando un mix di termini malesi e hokkien[cite: 144]. Che lo voglia con latte condensato (Kopi) o nero (Kopi O), c'è un codice preciso[cite: 146, 148].",
+        "vibe": "Sociale, energetico",
+        "history": "Nato nei tradizionali kopitiam dell'inizio del '900, questo sistema permetteva ai baristi di personalizzare le bevande velocemente per i lavoratori[cite: 144, 145].",
+        "insider_tip": "Ordini 'Kopi O Kosong' se lo vuole nero e senza zucchero[cite: 149]. Se lo vuole ghiacciato, aggiunga 'Peng' alla fine[cite: 150]. Lo accompagni con Kaya Toast e uova mollette[cite: 260].",
+        "price_level": "Affordable",
+        "good_for": [
+          "Colazione",
+          "Pausa veloce"
+        ],
+        "duration": "30 minuti",
+        "best_time": "Sempre"
+      },
+      "image": "/images/singapore/kopi.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Meraviglie Moderne",
+      "id": "modern-sights",
+      "items": [
+        {
+          "id": "sight-01",
+          "slug": "gardens-by-the-bay",
+          "name_en": "Gardens by the Bay",
+          "name_local": "滨海湾花园",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un parco naturale futuristico con enormi Supertrees, foreste nebulose con cascate indoor e la serra di vetro più grande al mondo[cite: 153, 157, 159].",
+            "vibe": "Futuristico, mozzafiato",
+            "history": "Inaugurato nel 2012 come parte della strategia per trasformare Singapore da 'Città Giardino' a 'Città nella Natura'[cite: 155].",
+            "insider_tip": "Si goda il Garden Rhapsody, lo spettacolo di luci gratuito alle 19:45 o 20:45[cite: 162]. Il modo migliore è sdraiarsi sull'erba sotto i Supertrees e guardare in su[cite: 163].",
+            "price_level": "Moderate",
+            "good_for": [
+              "Famiglie",
+              "Fotografia",
+              "Amanti della natura"
+            ],
+            "duration": "3 ore",
+            "best_time": "Tardo pomeriggio per vedere lo show"
+          },
+          "image": "/images/singapore/gardens-by-the-bay.jpg",
+          "geo": {
+            "lat": 1.2816,
+            "lng": 103.8636
+          }
+        },
+        {
+          "id": "sight-02",
+          "slug": "jewel-changi",
+          "name_en": "Jewel Changi Airport",
+          "name_local": "星耀樟宜",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Un complesso commerciale e naturalistico collegato ai terminal. Ospita la HSBC Rain Vortex, la cascata indoor più alta del mondo (40m)[cite: 164, 166].",
+            "vibe": "Monumentale, rigoglioso",
+            "history": "Progettato da Moshe Safdie e aperto nel 2019 per ridefinire l'aeroporto come destinazione lifestyle[cite: 165].",
+            "insider_tip": "Tra le 15:00 e le 17:00, la luce che colpisce la foschia crea un arcobaleno alla base della cascata[cite: 172]. Si trova prima dell'immigrazione, quindi è accessibile a tutti[cite: 167]!",
+            "price_level": "Free",
+            "good_for": [
+              "Transito",
+              "Famiglie",
+              "Shopping"
+            ],
+            "duration": "2 ore",
+            "best_time": "Pomeriggio"
+          },
+          "image": "/images/singapore/jewel-changi.jpg",
+          "geo": {
+            "lat": 1.3602,
+            "lng": 103.9898
+          }
+        }
+      ]
+    },
+    {
+      "title": "Fauna e Natura",
+      "id": "nature-sights",
+      "items": [
+        {
+          "id": "sight-03",
+          "slug": "night-safari",
+          "name_en": "Singapore Night Safari",
+          "name_local": "夜间野生动物园",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Il primo parco faunistico notturno al mondo. Usa luci soffuse per imitare la luna e permettere l'osservazione dei comportamenti degli animali[cite: 173, 174].",
+            "vibe": "Misterioso, immersivo",
+            "history": "Aperto nel 1994, è un punto di riferimento per la conservazione e la ricerca sugli animali notturni.",
+            "insider_tip": "Eviti la coda per il tram all'ingresso. Percorra prima i quattro sentieri a piedi per incontri ravvicinati[cite: 179]. Prenda il tram dopo le 21:00 quando la folla diminuisce[cite: 181].",
+            "price_level": "Expensive",
+            "good_for": [
+              "Amanti animali",
+              "Famiglie",
+              "Nottambuli"
+            ],
+            "duration": "3 ore",
+            "best_time": "Dopo le 20:30"
+          },
+          "image": "/images/singapore/night-safari.jpg",
+          "geo": {
+            "lat": 1.4022,
+            "lng": 103.788
+          }
+        },
+        {
+          "id": "sight-04",
+          "slug": "botanic-gardens",
+          "name_en": "Singapore Botanic Gardens",
+          "name_local": "新加坡植物园 / தற்கால சிங்கப்பூர் தாவரவியல் பூங்கா",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "L'unico sito UNESCO di Singapore. Un giardino tropicale di 160 anni che ospita il meraviglioso National Orchid Garden[cite: 195, 196].",
+            "vibe": "Pacifico, storico",
+            "history": "Fondato nel 1859, ha avuto un ruolo chiave nel boom della gomma nella regione all'inizio del '900[cite: 196].",
+            "insider_tip": "I giardini principali sono gratuiti, ma il National Orchid Garden richiede un biglietto (circa 15 SGD)[cite: 197]. Vale assolutamente la pena; vada presto per battere il caldo[cite: 199]!",
+            "price_level": "Affordable",
+            "good_for": [
+              "Nature lovers",
+              "Budget-friendly",
+              "Passeggiate mattutine"
+            ],
+            "duration": "2 ore",
+            "best_time": "8:30 (apertura)"
+          },
+          "image": "/images/singapore/botanic-gardens.jpg",
+          "geo": {
+            "lat": 1.3138,
+            "lng": 103.8159
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "8:00 AM",
+      "title": "Colazione Tradizionale a Far East Square",
+      "description": "Inizi la giornata da Ya Kun Kaya Toast. Ordini il 'Set A': pane tostato con kaya (marmellata di cocco), uova mollette e Kopi caldo[cite: 260]. Prepari le uova con soia e pepe bianco per inzupparvi il pane.",
+      "image": "/images/singapore/breakfast-kaya.jpg"
+    },
+    {
+      "time": "10:30 AM",
+      "title": "Street Art e Murales a Tiong Bahru",
+      "description": "Si diriga verso il quartiere residenziale più antico. Cammini nei vicoli per trovare i murales di Yip Yew Chong che ritraggono scene della vecchia Singapore[cite: 103]. Prenda un croissant da Tiong Bahru Bakery già che c'è[cite: 260].",
+      "image": "/images/singapore/tiong-bahru-murals.jpg"
+    },
+    {
+      "time": "1:00 PM",
+      "title": "Pranzo al Maxwell Food Centre",
+      "description": "È il momento del riso al pollo. Si metta in coda da Tian Tian o Ah Tai[cite: 260]. Prenda un succo di lime fresco o di canna da zucchero per combattere l'afa del mercato all'aperto.",
+      "image": "/images/singapore/maxwell-lunch.jpg"
+    },
+    {
+      "time": "3:30 PM",
+      "title": "Vista sulla Skyline dalla National Gallery",
+      "description": "Sfugga al caldo dentro la National Gallery. Anche senza biglietto per le mostre, salga al Padang Deck sul tetto[cite: 185]. È gratuito e offre una delle viste più spettacolari su Marina Bay Sands[cite: 186].",
+      "image": "/images/singapore/national-gallery-view.jpg"
+    },
+    {
+      "time": "6:30 PM",
+      "title": "Tramonto ai Gardens by the Bay",
+      "description": "Passeggi nella Cloud Forest appena prima che il sole cali. Poi, si posizioni al Supertree Grove per lo spettacolo di luci delle 19:45[cite: 162]. È un'esperienza davvero magica.",
+      "image": "/images/singapore/gardens-sunset.jpg"
+    },
+    {
+      "time": "8:30 PM",
+      "title": "Cena alla Satay Street",
+      "description": "Cammini fino a Lau Pa Sat. Di sera, Boon Tat Street chiude alle auto e si riempie di grill per il Satay[cite: 260]. Ordini un piatto di spiedini e mangi all'aperto circondato dai grattacieli illuminati.",
+      "image": "/images/singapore/satay-street.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Adattatore da Viaggio UK (Tipo G)",
+      "image": "/images/singapore/adapter.jpg",
+      "reason": "Singapore usa la presa a tre poli stile britannico[cite: 39]. Le servirà per quasi tutti i Suoi dispositivi.",
+      "amazon_url": "https://www.amazon.com/s?k=uk+travel+adapter+type+g&tag=canibringonpl-20",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-002",
+      "title": "Ventilatore Portatile",
+      "image": "/images/singapore/fan.jpg",
+      "reason": "L'umidità è intensa[cite: 266]. Un piccolo ventilatore è un accessorio locale comune che rende l'attesa dei bus molto più sopportabile[cite: 277].",
+      "amazon_url": "https://www.amazon.com/s?k=portable+handheld+fan&tag=canibringonpl-20",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-003",
+      "title": "Magliette Traspiranti",
+      "image": "/images/singapore/shirts.jpg",
+      "reason": "Suderà, è garantito[cite: 266]. Le maglie tecniche che asciugano velocemente sono fondamentali in questo clima[cite: 270].",
+      "amazon_url": "https://www.amazon.com/s?k=moisture+wicking+travel+shirts&tag=canibringonpl-20",
+      "category": "clothing"
+    }
+  ],
+  "lat": 1.3521,
+  "lng": 103.8198,
+  "region": "Asia"
+}

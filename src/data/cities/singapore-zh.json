@@ -1,0 +1,640 @@
+{
+  "id": "city-002",
+  "name": "新加坡",
+  "slug": "singapore",
+  "country": "新加坡",
+  "country_code": "sg",
+  "hero_image": "/images/singapore/hero.jpg",
+  "intro_vibe": "这是一个将高效率、超现代感与热带绿意完美结合的城市国家，您将在这里体验到科技感十足的都市风光与世界顶级的多元美食 [cite: 4, 10]。",
+  "general_info": {
+    "population": "611 万",
+    "is_capital": true,
+    "description": "新加坡是一个位于赤道以北约 137 公里的主权城市国家 [cite: 4]。作为全球金融和创新中心，它以严明的法律、多族裔文化以及从“花园城市”向“自然中的城市”的华丽转型而闻名于世 [cite: 10, 155]。"
+  },
+  "stats": {
+    "currency": "SGD",
+    "plug_type": "Type G"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "一月",
+      "temp": "24°C - 30°C",
+      "vibe": "多雨且相对凉爽",
+      "pros": [
+        "气温在全年属于较低水平 [cite: 268]",
+        "雨水充沛，植物格外翠绿",
+        "农历新年庆祝活动气氛浓厚"
+      ],
+      "cons": [
+        "常有持续性强降雨 [cite: 268]",
+        "可能出现局部积水 [cite: 268]",
+        "户外行程易受干扰 [cite: 268]"
+      ],
+      "clothing": "防水鞋、紧凑型雨伞 [cite: 276]、室内防冷空调的薄外套 [cite: 275]"
+    },
+    {
+      "id": 2,
+      "name": "二月",
+      "temp": "25°C - 31°C",
+      "vibe": "阳光明媚且干燥",
+      "pros": [
+        "降雨量最少，光照最充足 [cite: 268]",
+        "非常适合进行户外探险或拍照 [cite: 268]",
+        "空气湿度相对稍低"
+      ],
+      "cons": [
+        "体感温度仍较高 [cite: 265]",
+        "旅游旺季，热门景点较拥挤",
+        "酒店和机票价格可能上涨"
+      ],
+      "clothing": "亚麻或棉质透气衣物 [cite: 270]、墨镜、强力防晒霜"
+    },
+    {
+      "id": 3,
+      "name": "三月",
+      "temp": "25°C - 32°C",
+      "vibe": "明亮且微风徐徐",
+      "pros": [
+        "持续的晴天利于远足 [cite: 268]",
+        "可以充分享受圣淘沙的海滩",
+        "春季花卉盛开"
+      ],
+      "cons": [
+        "紫外线指数极高 [cite: 199]",
+        "午后偶尔有短促的阵雨",
+        "下午时段体感炎热"
+      ],
+      "clothing": "轻便透气运动鞋 [cite: 272]、防晒帽、便携式小风扇 [cite: 277]"
+    },
+    {
+      "id": 4,
+      "name": "四月",
+      "temp": "25°C - 32°C",
+      "vibe": "晴朗少风",
+      "pros": [
+        "适合欣赏屋顶花园的绝佳视野 [cite: 186]",
+        "风力较小，利于航拍（在允许区域内）",
+        "海边水温非常舒适"
+      ],
+      "cons": [
+        "进入一年中最热的时段之一 [cite: 268]",
+        "突发性热带雷雨增多",
+        "汗流量大，需随时补充水分 [cite: 266]"
+      ],
+      "clothing": "天然纤维服饰 [cite: 270]、便携电风扇 [cite: 277]"
+    },
+    {
+      "id": 5,
+      "name": "五月",
+      "temp": "26°C - 33°C",
+      "vibe": "酷热潮湿",
+      "pros": [
+        "早晨日照强烈，适合晨练",
+        "天空通透，摄影效果极佳",
+        "丰富的夜间活动场景"
+      ],
+      "cons": [
+        "全年最高温月份之一 [cite: 268]",
+        "区域性灰霾（Haze）风险 [cite: 268]",
+        "高湿度导致体感不适 [cite: 266]"
+      ],
+      "clothing": "防紫外线衣物、吸湿排汗衫 [cite: 270]"
+    },
+    {
+      "id": 6,
+      "name": "六月",
+      "temp": "26°C - 33°C",
+      "vibe": "炎热且社交活跃",
+      "pros": [
+        "最适合在冷气充足的博物馆内漫步 [cite: 274]",
+        "购物中心举办大减价活动",
+        "适合参加室内工作坊"
+      ],
+      "cons": [
+        "正午阳光极其强烈 [cite: 268]",
+        "学校放假期间商场人满为患",
+        "需注意空气质量变化 [cite: 268]"
+      ],
+      "clothing": "SPF 衣物、透气长裤、进出空调房备用开衫 [cite: 275]"
+    },
+    {
+      "id": 7,
+      "name": "七月",
+      "temp": "26°C - 31°C",
+      "vibe": "阵雨多发",
+      "pros": [
+        "“苏门答腊飑”带来的降雨能暂时降温 [cite: 268]",
+        "美食节活动层出不穷",
+        "雨后的晚霞色彩瑰丽"
+      ],
+      "cons": [
+        "早晨常有剧烈雷阵雨 [cite: 268]",
+        "风力较强，不适合某些水上活动 [cite: 268]",
+        "天气变化极快"
+      ],
+      "clothing": "速干凉鞋 [cite: 272]、防水包罩"
+    },
+    {
+      "id": 8,
+      "name": "八月",
+      "temp": "26°C - 31°C",
+      "vibe": "祝祭与海风",
+      "pros": [
+        "国庆节庆祝活动热闹非凡",
+        "海风带来自然的凉爽",
+        "全城洋溢着爱国热情"
+      ],
+      "cons": [
+        "早晨降雨较为频繁 [cite: 268]",
+        "公共场所异常拥挤",
+        "部分路段因庆祝活动封闭"
+      ],
+      "clothing": "轻便步行鞋 [cite: 272]、参与庆祝时可穿红白色系"
+    },
+    {
+      "id": 9,
+      "name": "九月",
+      "temp": "25°C - 31°C",
+      "vibe": "活力四射",
+      "pros": [
+        "F1 大奖赛带来的极速快感",
+        "中秋节灯展美不胜收",
+        "夜间气温较宜人"
+      ],
+      "cons": [
+        "市中心区域道路封锁",
+        "酒店住宿费用大幅飙升",
+        "早晨湿度极高 [cite: 266]"
+      ],
+      "clothing": "吸汗速乾的休闲装 [cite: 270]"
+    },
+    {
+      "id": 10,
+      "name": "十月",
+      "temp": "25°C - 32°C",
+      "vibe": "季节交替期",
+      "pros": [
+        "屠妖节（Deepavali）的华丽灯饰",
+        "适合走街串巷探索美食",
+        "降雨量适中"
+      ],
+      "cons": [
+        "湿度持续回升 [cite: 266]",
+        "天气预报难以准确预测突发雨水",
+        "文化区人流集中"
+      ],
+      "clothing": "透气棉质衣物 [cite: 270]、随身折叠伞 [cite: 276]"
+    },
+    {
+      "id": 11,
+      "name": "十一月",
+      "temp": "24°C - 30°C",
+      "vibe": "阴雨连绵",
+      "pros": [
+        "气温有所回落 [cite: 268]",
+        "非旅游尖峰期，景点更显宁静",
+        "绝佳的室内阅读或休息时光"
+      ],
+      "cons": [
+        "进入全年雨水最丰沛的季节 [cite: 268]",
+        "湿度极大，体感黏腻 [cite: 266]",
+        "户外行程极易被取消"
+      ],
+      "clothing": "防水外套、多带几双备用袜子、室内保暖连帽衫 [cite: 275]"
+    },
+    {
+      "id": 12,
+      "name": "十二月",
+      "temp": "24°C - 30°C",
+      "vibe": "湿润的节日季",
+      "pros": [
+        "乌节路璀璨的圣诞灯饰",
+        "全年体感最凉爽的月份 [cite: 268]",
+        "浓厚的节庆购物气氛"
+      ],
+      "cons": [
+        "全年降雨量最高，常有持续大雨 [cite: 268]",
+        "全球游客云集，非常拥挤",
+        "旅行成本最高"
+      ],
+      "clothing": "坚固的雨伞 [cite: 276]、防滑鞋、进出强冷气场所的长袖衣物 [cite: 275]"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "强制归还托盘：在小贩中心、食阁和咖啡店用餐后，请务必归还托盘和餐具 [cite: 52]。首犯者会收到警告，重犯者将面临 300 新元甚至更高金额的罚款 [cite: 53]。",
+      "清真与非清真：归还托盘时请留意分类标识 [cite: 54]。将非清真餐具放入清真回收站是非常失礼的行为，请您务必遵守 [cite: 55]。",
+      "“纸巾占座”现象：在繁忙的食阁，如果您看到桌子上放着一包纸巾，那代表这桌已经有人预订了 [cite: 66, 67]。请您寻找其他空位，以避免不必要的摩擦 [cite: 68]。",
+      "电梯靠左站立：这是一个绝对的社会准则：请在电梯上靠左站立，右侧留给赶路的人 [cite: 59]。如果您挡在右侧，可能会听到他人的提醒 [cite: 60]。",
+      "严禁口香糖：新加坡禁止进口和销售口香糖，以保持公共卫生 [cite: 56]。虽然携带极少量个人食用不违法，但吐口香糖是重罪，建议您直接不要携带 [cite: 57, 58]。",
+      "关于小费：新加坡没有给小费的习惯 [cite: 61]。餐厅账单通常已包含 10% 的服务费和 9% 的消费税（GST） [cite: 62, 63]。在小贩中心给小费会让摊主感到困惑 [cite: 64]。",
+      "“室内严冬”：新加坡的空调开得非常足 [cite: 274]。商场、电影院和地铁里通常很冷（甚至低于 20°C），请您随身带件轻便的外套或披肩 [cite: 275]。",
+      "自来水可直饮：新加坡的自来水经过严格处理，可以直接饮用 [cite: 279]。您可以放心接水饮用，既环保又省钱。",
+      "排队礼仪：新加坡人非常遵守秩序。无论是在地铁站还是排队买鸡饭，请您一定要按顺序排队，不要插队 [cite: 50]。",
+      "Singlish 的魅力：您会听到当地人说“Lah”、“Leh”或“Lor”等词汇 [cite: 121, 123]。这种混合了多种语言的街头土话是连接当地文化的纽带，虽然您不必学习，但理解其中的逻辑会很有趣 [cite: 122]。"
+    ],
+    "essential_phrases": [
+      {
+        "src": "谢谢",
+        "local": "Terima Kasih / 谢谢 / நன்றி",
+        "phonetic": "te-ree-mah kah-seh"
+      },
+      {
+        "src": "早上好",
+        "local": "Selamat Pagi",
+        "phonetic": "se-la-mat pah-gee"
+      },
+      {
+        "src": "吃饭/食物",
+        "local": "Makan",
+        "phonetic": "mah-kan"
+      },
+      {
+        "src": "打包/带走",
+        "local": "Bungkus / Ta-pau",
+        "phonetic": "boong-koos / dah-bao"
+      },
+      {
+        "src": "请 / 帮助",
+        "local": "Tolong",
+        "phonetic": "toh-long"
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "牛车水",
+      "vibe": "遗产与活力的碰撞",
+      "description": "这里曾是早期华裔移民的聚居地，现在则是传统庙宇、历史建筑与现代精致酒吧交相辉映的迷人地带 [cite: 71, 72]。",
+      "highlights": [
+        "新加坡佛牙寺龙华院 [cite: 81]",
+        "马里安曼兴都庙 [cite: 83]",
+        "牛车水大厦（地道美食聚集地） [cite: 77]"
+      ],
+      "image": "/images/singapore/chinatown.jpg"
+    },
+    {
+      "name": "甘榜格南",
+      "vibe": "传统与嘻哈风格",
+      "description": "新加坡的马来文化腹地。在这里，宏伟的清真寺与布满涂鸦的创意街巷及网红咖啡馆和谐共存 [cite: 87, 89]。",
+      "highlights": [
+        "苏丹回教堂 [cite: 94]",
+        "哈芝巷（新加坡最窄的街道） [cite: 92]",
+        "马来传统文化馆 [cite: 96]"
+      ],
+      "image": "/images/singapore/kampong-gelam.jpg"
+    },
+    {
+      "name": "中峇鲁",
+      "vibe": "文青避风港",
+      "description": "新加坡最古老的住宅区之一，充满流线型装饰艺术风格的建筑，是享受悠闲下午茶和探索独立书店的最佳去处 [cite: 98, 101]。",
+      "highlights": [
+        "叶耀宗壁画 [cite: 103]",
+        "中峇鲁市场",
+        "齐天宫 [cite: 105]"
+      ],
+      "image": "/images/singapore/tiong-bahru.jpg"
+    },
+    {
+      "name": "加东与如切",
+      "vibe": "色彩斑斓的土生华人情怀",
+      "description": "这里是探索土生华人（娘惹）文化的中心。您可以欣赏美丽的彩色店屋，并沉浸在著名的“叻沙大战”美食氛围中 [cite: 107, 108]。",
+      "highlights": [
+        "坤成路彩色店屋 [cite: 110]",
+        "金珠肉粽（传统娘惹手工艺） [cite: 114]",
+        "328 加东叻沙 [cite: 115]"
+      ],
+      "image": "/images/singapore/joo-chiat.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "交通出行",
+      "icon": "Train",
+      "summary": "地铁（MRT）和巴士构成了这个城市高效、准时的运行生命线 [cite: 42]。",
+      "details": [
+        "SimplyGo 最便捷：您可以直接刷带感应功能的海外信用卡（Visa/Mastercard）或手机钱包，无需排队购卡或充值 [cite: 46, 48]。",
+        "Tourist Pass 注意事项：如果您一天搭乘次数少于 5-6 次，则不建议购买这种无限次通行证，直接刷卡更划算 [cite: 47, 48]。",
+        "电梯靠左站立：请务必遵守“左侧站立、右侧通行”的规则，否则可能会听到当地人礼貌但坚定的提醒 [cite: 59, 60]。",
+        "严禁饮食：在地铁站和车厢内严禁吃喝，即使是喝水也可能面临巨额罚款。"
+      ]
+    },
+    {
+      "id": "logistics-connectivity",
+      "slug": "mobile-data",
+      "title": "移动数据与上网",
+      "icon": "Smartphone",
+      "summary": "新加坡的移动网络极其成熟，建议您抵达后立即办理当地卡 [cite: 13]。",
+      "details": [
+        "首选产品：Singtel 的 12 新元 hi!Tourist SIM 卡是游客的最优选，包含 100GB 4G 流量及周边国家的漫游数据 [cite: 18, 29]。",
+        "购买地点：您可以在樟宜机场的 Travelex 柜台或市内的 7-Eleven 便利店轻松买到 [cite: 21, 29]。",
+        "eSIM 便利性：如果您不想更换实体卡，Nomad 等供应商利用 Singtel 网络提供 5G 方案，非常适合短期追求极致便捷的游客 [cite: 26, 27]。"
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "money-payments",
+      "title": "货币与支付",
+      "icon": "CreditCard",
+      "summary": "新加坡正在大踏步迈向无现金社会，但现金仍有其用武之地 [cite: 35]。",
+      "details": [
+        "移动支付：Visa/Mastercard 以及 Apple Pay/Google Pay 在绝大多数商场和公共交通中被通用 [cite: 36]。",
+        "现金场景：在某些老旧的小贩摊位或邻里小店，现金仍是唯一的选择，建议您随身携带 50 新元左右的零钱 [cite: 37]。",
+        "文莱币通用：文莱元与新加坡元等值，如果您在找零中收到文莱元，请放心使用，它是法定通用的 [cite: 33]。"
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "laws-and-safety",
+      "title": "法律与安全",
+      "icon": "Shield",
+      "summary": "新加坡是世界上最安全的城市之一，这源于其严密的规则意识 [cite: 50]。",
+      "details": [
+        "治安极佳：即便是深夜独行也相对安全。但请注意，乱丢垃圾或随地吐痰可能招致重罚 [cite: 57]。",
+        "毒品零容忍：新加坡对毒品犯罪的处罚极其严苛，包括死刑。请您务必远离任何违禁品。",
+        "紧急电话：警察拨打 999，救护车或火警拨打 995 [cite: 279]。"
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "chicken-rice",
+      "name_en": "Hainanese Chicken Rice",
+      "name_local": "海南鸡饭 / Nasi Ayam Hainan",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "这是新加坡的非正式国菜。柔嫩多汁的白斩鸡搭配用鸡油、姜和班兰叶焖煮的香米饭，蘸上特制的蒜泥辣椒酱，简直是人间美味 [cite: 204, 205]。",
+        "vibe": "经典，满足",
+        "history": "由来自海南岛的移民引入并本地化。它代表了新加坡美食的极致简约：用完美的食材展现纯粹的味道 [cite: 204]。",
+        "insider_tip": "天天海南鸡饭（Maxwell）名气最大但排队长 [cite: 207, 208]；我建议您尝试几步之遥的“阿仔海南鸡饭”，摊主曾是天天的总厨，味道几乎一样却无需长久等待 [cite: 209, 211]。",
+        "price_level": "平价",
+        "good_for": [
+          "午餐",
+          "首次打卡"
+        ],
+        "duration": "20 分钟",
+        "best_time": "午餐时间"
+      },
+      "image": "/images/singapore/chicken-rice.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "laksa",
+      "name_en": "Katong Laksa",
+      "name_local": "叻沙 / Laksa",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "这是一种充满辛香和椰奶香气的粗米粉汤。加东叻沙的特点是米粉被剪碎，您只需用勺子即可食用，无需筷子 [cite: 214, 216]。",
+        "vibe": "辛辣，浓郁",
+        "history": "源自娘惹文化。加东地区的叻沙竞争已持续几十年，形成了独特的地域品牌 [cite: 213, 215]。",
+        "insider_tip": "“328 加东叻沙”拥有名厨加持，而“Janggut Laksa”则自诩为正宗传人，汤头草本香气更明显 [cite: 217, 219]。建议您根据口味选择。",
+        "price_level": "平价",
+        "good_for": [
+          "重口味爱好者",
+          "快餐"
+        ],
+        "duration": "15 分钟",
+        "best_time": "上午或午餐"
+      },
+      "image": "/images/singapore/laksa.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "bak-kut-teh",
+      "name_en": "Pork Rib Tea",
+      "name_local": "肉骨茶 / Bak Kut Teh",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "新加坡流行潮州派系的肉骨茶，这种汤头清亮且充满浓郁的胡椒和蒜香味，通过数小时炖煮排骨而成 [cite: 220, 222]。",
+        "vibe": "暖心，暖胃",
+        "history": "早期由潮州移民工人食用以补充体力，现在已成为米其林推介的本地美味 [cite: 222, 225]。",
+        "insider_tip": "去“松发肉骨茶”时，请记住这里的汤头是可以免费无限次续加的 [cite: 224, 227]。当服务员拿着水壶经过时，别犹豫，让他们为您添汤 [cite: 228]！",
+        "price_level": "中等",
+        "good_for": [
+          "早餐",
+          "雨天用餐"
+        ],
+        "duration": "40 分钟",
+        "best_time": "早晨或午餐"
+      },
+      "image": "/images/singapore/bak-kut-teh.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "roti-prata",
+      "name_en": "Roti Prata",
+      "name_local": "Roti Prata / ரோட்டி பிராட்டா",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "这是一种南印度风格的煎饼，通过抛甩拉伸使面团变得极薄，煎至外脆内软，通常搭配香浓的鱼咖喱或羊肉咖喱 [cite: 236, 238]。",
+        "vibe": "香脆，多层",
+        "history": "新加坡印度裔社群的代表作，已演变出包含巧克力、奶酪等各种现代口味 [cite: 237]。",
+        "insider_tip": "“Mr and Mrs Mohgan's”以极致酥脆著称 [cite: 239]。请您一定要早起（早上 6:30 开门），因为他们通常在中午前就会售罄 [cite: 240, 241]。",
+        "price_level": "平价",
+        "good_for": [
+          "早餐",
+          "夜宵"
+        ],
+        "duration": "30 分钟",
+        "best_time": "清晨"
+      },
+      "image": "/images/singapore/roti-prata.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "标志性奇观",
+      "id": "must-see-icons",
+      "items": [
+        {
+          "id": "sight-001",
+          "slug": "gardens-by-the-bay",
+          "name_en": "Gardens by the Bay",
+          "name_local": "滨海湾花园",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "这是一个超现实的自然公园，拥有标志性的超级树、世界最大的玻璃温室云雾林以及室内瀑布 [cite: 153, 157, 160]。",
+            "vibe": "近未来风格，震撼",
+            "history": "它是新加坡从“花园城市”向“自然中的城市”转型的核心成果，完美展示了可持续城市设计 [cite: 154, 155]。",
+            "insider_tip": "“擎天树丛”灯光秀每天 19:45 和 20:45 免费上演 [cite: 162]。我建议您找个草地平躺下来，仰望灯光在超级树冠上舞动的壮观景象 [cite: 163]。",
+            "price_level": "中等",
+            "good_for": [
+              "家庭游",
+              "摄影",
+              "夜景"
+            ],
+            "duration": "3 小时",
+            "best_time": "傍晚（欣赏日落及灯光秀）"
+          },
+          "image": "/images/singapore/gardens-by-the-bay.jpg",
+          "geo": {
+            "lat": 1.2816,
+            "lng": 103.8636
+          }
+        },
+        {
+          "id": "sight-002",
+          "slug": "jewel-changi",
+          "name_en": "Jewel Changi Airport",
+          "name_local": "星耀樟宜",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "它重新定义了机场：这是一个集购物、餐饮与森林景观于一体的综合体，中心拥有世界上最高的室内瀑布 [cite: 165, 166]。",
+            "vibe": "恢弘，清新",
+            "history": "旨在将樟宜机场打造成一个不仅仅是中转站的生活方式目的地 [cite: 165]。",
+            "insider_tip": "它位于机场的“非禁区”（入关前），所以任何人均可访问 [cite: 167]。下午 3:00 到 5:00 阳光射入水雾时，您有机会拍到室内彩虹 [cite: 172]！",
+            "price_level": "免费",
+            "good_for": [
+              "到达/离开",
+              "家庭游",
+              "购物"
+            ],
+            "duration": "2 小时",
+            "best_time": "下午"
+          },
+          "image": "/images/singapore/jewel-changi.jpg",
+          "geo": {
+            "lat": 1.3602,
+            "lng": 103.9898
+          }
+        }
+      ]
+    },
+    {
+      "title": "动物与文化体验",
+      "id": "culture-wildlife",
+      "items": [
+        {
+          "id": "sight-003",
+          "slug": "night-safari",
+          "name_en": "Singapore Night Safari",
+          "name_local": "夜间野生动物园",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "这是世界上第一个夜间野生动物园。通过幽暗而精巧的模拟月光，您可以近距离观察夜行性动物的自然行为 [cite: 173, 174]。",
+            "vibe": "神秘，探险",
+            "history": "作为行为浸入式观察的先驱，这里通过巧妙的景观设计取代了传统的围栏 [cite: 174]。",
+            "insider_tip": "避开刚开门时的游览车长龙。建议您先步游四条探索步道，九点以后人流散去再搭乘游览车 [cite: 179, 181]。记得提前 2 小时通过 App 预订秀场座位 [cite: 176]！",
+            "price_level": "中等",
+            "good_for": [
+              "家庭游",
+              "动物爱好者"
+            ],
+            "duration": "3 小时",
+            "best_time": "晚上 8:30 以后"
+          },
+          "image": "/images/singapore/night-safari.jpg",
+          "geo": {
+            "lat": 1.4022,
+            "lng": 103.788
+          }
+        },
+        {
+          "id": "sight-004",
+          "slug": "national-gallery",
+          "name_en": "National Gallery Singapore",
+          "name_local": "新加坡国家美术馆",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "美术馆坐落于前最高法院和政府大厦内，拥有世界上规模最大的东南亚现代艺术收藏 [cite: 184]。",
+            "vibe": "庄严，艺术",
+            "history": "这两座宏伟的殖民时期建筑见证了新加坡的历史节点，现在的透明中庭将新旧结构完美融合 [cite: 184]。",
+            "insider_tip": "即使您不购买门票进入展厅，屋顶的“帕当甲板”（Padang Deck）也是免费开放的，那是拍摄滨海湾天际线的绝佳免费机位 [cite: 185, 186]！",
+            "price_level": "中等",
+            "good_for": [
+              "艺术爱好者",
+              "建筑摄影",
+              "静心"
+            ],
+            "duration": "2.5 小时",
+            "best_time": "午后（躲避户外酷暑）"
+          },
+          "image": "/images/singapore/national-gallery.jpg",
+          "geo": {
+            "lat": 1.2905,
+            "lng": 103.8519
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "08:00 AM",
+      "title": "南洋早餐开启活力一天",
+      "description": "前往“亚坤”或当地咖啡店，点一份 Kaya Toast 套餐 [cite: 260]。别忘了往半熟蛋里加点酱油和白胡椒粉，蘸着焦香的吐司吃，这是最地道的当地吃法 [cite: 260]。",
+      "image": "/images/singapore/kaya-toast.jpg"
+    },
+    {
+      "time": "10:30 AM",
+      "title": "漫步中峇鲁探索历史",
+      "description": "游览这个装饰艺术风格的住宅区，寻找叶耀宗的怀旧壁画 [cite: 260]。然后在 Tiong Bahru Bakery 享受一颗酥脆的牛角包和一杯咖啡 [cite: 260]。",
+      "image": "/images/singapore/tiong-bahru-walk.jpg"
+    },
+    {
+      "time": "01:00 PM",
+      "title": "麦士威路中心品尝鸡饭",
+      "description": "前往牛车水附近的 Maxwell Food Centre。排队买一份天天海南鸡饭，或者尝试无需排队的 Ah Tai [cite: 260, 209]。再买一份香喷喷的“叻沙”解馋。",
+      "image": "/images/singapore/maxwell-lunch.jpg"
+    },
+    {
+      "time": "04:30 PM",
+      "title": "哈芝巷与甘榜格南探店",
+      "description": "在哈芝巷欣赏色彩鲜艳的涂鸦墙，逛逛独立精品店，然后在苏丹回教堂前拍一张标志性的照片 [cite: 260, 92]。",
+      "image": "/images/singapore/haji-lane.jpg"
+    },
+    {
+      "time": "07:45 PM",
+      "title": "超级树下的光影奇迹",
+      "description": "准时到达擎天树丛，平躺在草坪上欣赏花园狂想曲灯光秀 [cite: 260, 163]。这是全天最梦幻的时刻。",
+      "image": "/images/singapore/garden-rhapsody.jpg"
+    },
+    {
+      "time": "09:30 PM",
+      "title": "老巴刹的露天沙爹趴",
+      "description": "前往老巴刹外的 Boon Tat Street（沙爹街） [cite: 260]。在摩天大楼的包围中，一边吃着炭火烧烤的沙爹，一边享受东南亚的夜晚 [cite: 260]。",
+      "image": "/images/singapore/satay-street.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "英标电源适配器 (Type G)",
+      "image": "/images/singapore/adapter.jpg",
+      "reason": "新加坡使用英式三平脚插头（220-240V），中国游客通常需要适配器来充电 [cite: 39, 40]。",
+      "amazon_url": "https://www.amazon.com/s?k=type+g+travel+adapter&tag=canibringonpl-20",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-002",
+      "title": "便携手持静音电风扇",
+      "image": "/images/singapore/fan.jpg",
+      "reason": "这里全年闷热且湿度极大，一个手持小风扇是您排队和户外行走时的救星 [cite: 277]。",
+      "amazon_url": "https://www.amazon.com/s?k=portable+handheld+fan&tag=canibringonpl-20",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-003",
+      "title": "高强度 SPF50+ 防晒霜",
+      "image": "/images/singapore/sunscreen.jpg",
+      "reason": "新加坡位于赤道附近，紫外线极强，即便多云天气也极易被晒伤 [cite: 265]。",
+      "amazon_url": "https://www.amazon.com/s?k=spf50+sunscreen&tag=canibringonpl-20",
+      "category": "personal care"
+    }
+  ],
+  "lat": 1.3521,
+  "lng": 103.8198,
+  "region": "Asia"
+}
