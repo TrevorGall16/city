@@ -5,11 +5,11 @@
   "country": "Singapur",
   "country_code": "sg",
   "hero_image": "/images/singapore/hero.jpg",
-  "intro_vibe": "Ein hocheffizienter, hypermoderner Stadtstaat, in dem futuristische Skylines auf üppiges tropisches Grün und eine erstklassige Food-Szene treffen[cite: 4, 10].",
+  "intro_vibe": "Ein hocheffizienter, hypermoderner Stadtstaat, in dem futuristische Skylines auf üppiges tropisches Grün und eine erstklassige Food-Szene treffen.",
   "general_info": {
-    "population": "6,11 Millionen [cite: 5]",
+    "population": "6,11 Millionen ",
     "is_capital": true,
-    "description": "Singapur ist ein souveräner Insel- und Stadtstaat in Südostasien, der etwa ein Grad nördlich des Äquators liegt[cite: 4]. Die Stadt ist ein globales Zentrum für Finanzen, Transport und Innovation und bekannt für ihre strikten Gesetze, ihre multikulturelle Bevölkerung und ihre Verwandlung in eine „Stadt in der Natur“[cite: 7, 10, 155]."
+    "description": "Singapur ist ein souveräner Insel- und Stadtstaat in Südostasien, der etwa ein Grad nördlich des Äquators liegt. Die Stadt ist ein globales Zentrum für Finanzen, Transport und Innovation und bekannt für ihre strikten Gesetze, ihre multikulturelle Bevölkerung und ihre Verwandlung in eine „Stadt in der Natur“."
   },
   "stats": {
     "currency": "SGD",
@@ -20,137 +20,137 @@
       "id": 1,
       "name": "Januar",
       "temp": "24°C - 30°C",
-      "vibe": "Regnerisch & relativ kühl [cite: 268]",
+      "vibe": "Regnerisch & relativ kühl ",
       "pros": [
-        "Etwas mildere Temperaturen [cite: 268]",
-        "Satte, grüne Vegetation [cite: 10]",
+        "Etwas mildere Temperaturen ",
+        "Satte, grüne Vegetation ",
         "Festliche Stimmung zum Mondneujahr"
       ],
       "cons": [
-        "Häufige, langanhaltende Regenfälle [cite: 268]",
-        "Gefahr von plötzlichen Überschwemmungen [cite: 268]",
-        "Eingeschränkte Outdoor-Aktivitäten [cite: 268]"
+        "Häufige, langanhaltende Regenfälle ",
+        "Gefahr von plötzlichen Überschwemmungen ",
+        "Eingeschränkte Outdoor-Aktivitäten "
       ],
-      "clothing": "Wasserfeste Schuhe, kompakter Regenschirm, leichte Jacke für die Klimaanlage [cite: 275, 276]"
+      "clothing": "Wasserfeste Schuhe, kompakter Regenschirm, leichte Jacke für die Klimaanlage "
     },
     {
       "id": 2,
       "name": "Februar",
       "temp": "25°C - 31°C",
-      "vibe": "Sonnig & trocken [cite: 268]",
+      "vibe": "Sonnig & trocken ",
       "pros": [
-        "Geringste Niederschlagsmenge des Jahres [cite: 268]",
-        "Maximale Sonnenstunden [cite: 268]",
-        "Ideal für Outdoor-Attraktionen [cite: 268]"
+        "Geringste Niederschlagsmenge des Jahres ",
+        "Maximale Sonnenstunden ",
+        "Ideal für Outdoor-Attraktionen "
       ],
       "cons": [
-        "Luftfeuchtigkeit bleibt hoch [cite: 266]",
+        "Luftfeuchtigkeit bleibt hoch ",
         "Beliebte Orte sind sehr voll",
         "Höhere Reisepreise"
       ],
-      "clothing": "Leinen- oder Baumwollstoffe, Sonnenbrille, Sonnencreme [cite: 270]"
+      "clothing": "Leinen- oder Baumwollstoffe, Sonnenbrille, Sonnencreme "
     },
     {
       "id": 3,
       "name": "März",
       "temp": "25°C - 32°C",
-      "vibe": "Hell & windig [cite: 268]",
+      "vibe": "Hell & windig ",
       "pros": [
-        "Beständiger Sonnenschein [cite: 268]",
-        "Ideal für Stadtrundgänge [cite: 268]",
-        "Optimale Bedingungen für Sentosa [cite: 268]"
+        "Beständiger Sonnenschein ",
+        "Ideal für Stadtrundgänge ",
+        "Optimale Bedingungen für Sentosa "
       ],
       "cons": [
-        "Starke Mittagshitze [cite: 265]",
+        "Starke Mittagshitze ",
         "Gelegentliche Schauer am Nachmittag",
         "Hohe UV-Belastung"
       ],
-      "clothing": "Atmungsaktive Sneaker, feuchtigkeitsableitende Kleidung [cite: 270, 272]"
+      "clothing": "Atmungsaktive Sneaker, feuchtigkeitsableitende Kleidung "
     },
     {
       "id": 4,
       "name": "April",
       "temp": "25°C - 32°C",
-      "vibe": "Windstill & sonnig [cite: 268]",
+      "vibe": "Windstill & sonnig ",
       "pros": [
-        "Ende der trockeneren Periode [cite: 268]",
+        "Ende der trockeneren Periode ",
         "Wenig Wind",
         "Perfekt für Aussichten von Rooftops"
       ],
       "cons": [
-        "Man schwitzt sehr stark [cite: 266, 271]",
-        "Übergang zu den heißesten Monaten [cite: 268]",
+        "Man schwitzt sehr stark ",
+        "Übergang zu den heißesten Monaten ",
         "Plötzliche Regengüsse"
       ],
-      "clothing": "Naturfasern, Handventilator [cite: 270, 277]"
+      "clothing": "Naturfasern, Handventilator "
     },
     {
       "id": 5,
       "name": "Mai",
       "temp": "26°C - 33°C",
-      "vibe": "Heiß & schwül [cite: 268]",
+      "vibe": "Heiß & schwül ",
       "pros": [
         "Lange, sonnige Vormittage",
         "Klarer Himmel für Fotos",
         "Lebendiges Nachtleben"
       ],
       "cons": [
-        "Höchsttemperaturen des Jahres [cite: 268]",
-        "Risiko von regionalem Dunst (Haze) [cite: 268]",
-        "Extreme Luftfeuchtigkeit [cite: 266]"
+        "Höchsttemperaturen des Jahres ",
+        "Risiko von regionalem Dunst (Haze) ",
+        "Extreme Luftfeuchtigkeit "
       ],
-      "clothing": "Leichte Shorts, T-Shirts, viel Wasser trinken [cite: 266]"
+      "clothing": "Leichte Shorts, T-Shirts, viel Wasser trinken "
     },
     {
       "id": 6,
       "name": "Juni",
       "temp": "26°C - 33°C",
-      "vibe": "Heiß & geschäftig [cite: 268]",
+      "vibe": "Heiß & geschäftig ",
       "pros": [
-        "Perfekt für klimatisierte Museen [cite: 268]",
-        "Große Sales in den Malls [cite: 268]",
+        "Perfekt für klimatisierte Museen ",
+        "Große Sales in den Malls ",
         "Angenehme Nächte für die Night Safari"
       ],
       "cons": [
-        "Extreme Mittagshitze [cite: 268]",
-        "Einkaufszentren sind sehr überfüllt [cite: 268]",
-        "Mögliche Luftverschmutzung durch Haze [cite: 268]"
+        "Extreme Mittagshitze ",
+        "Einkaufszentren sind sehr überfüllt ",
+        "Mögliche Luftverschmutzung durch Haze "
       ],
-      "clothing": "Kleidung mit UV-Schutz, luftige Stoffe, leichter Schal für drinnen [cite: 275]"
+      "clothing": "Kleidung mit UV-Schutz, luftige Stoffe, leichter Schal für drinnen "
     },
     {
       "id": 7,
       "name": "Juli",
       "temp": "26°C - 31°C",
-      "vibe": "Gewittrig & tropisch [cite: 268]",
+      "vibe": "Gewittrig & tropisch ",
       "pros": [
-        "Sumatra-Böen kühlen die Luft ab [cite: 268]",
+        "Sumatra-Böen kühlen die Luft ab ",
         "Viele Food-Festivals",
         "Tolle Sonnenuntergänge nach dem Regen"
       ],
       "cons": [
-        "Starke Gewitter am Morgen [cite: 268]",
-        "Böiger Wind [cite: 268]",
-        "Unvorhersehbares Timing des Regens [cite: 268]"
+        "Starke Gewitter am Morgen ",
+        "Böiger Wind ",
+        "Unvorhersehbares Timing des Regens "
       ],
-      "clothing": "Sandalen, wasserfeste Taschenhülle [cite: 272]"
+      "clothing": "Sandalen, wasserfeste Taschenhülle "
     },
     {
       "id": 8,
       "name": "August",
       "temp": "26°C - 31°C",
-      "vibe": "Patriotisch & windig [cite: 268]",
+      "vibe": "Patriotisch & windig ",
       "pros": [
         "Feierlichkeiten zum Nationalfeiertag",
         "Energetische Atmosphäre",
         "Erfrischende Meeresbrisen"
       ],
       "cons": [
-        "Häufige Regengüsse am Vormittag [cite: 268]",
+        "Häufige Regengüsse am Vormittag ",
         "Überfüllte öffentliche Plätze",
         "Gelegentliche Windstörungen"
       ],
-      "clothing": "Bequeme Laufschuhe, rot-weiße Kleidung für den Nationalfeiertag [cite: 272]"
+      "clothing": "Bequeme Laufschuhe, rot-weiße Kleidung für den Nationalfeiertag "
     },
     {
       "id": 9,
@@ -167,7 +167,7 @@
         "Hotelpreise erreichen Höchstwerte",
         "Sehr schwüle Vormittage"
       ],
-      "clothing": "Smart Casual für das Nachtleben, atmungsaktive Shirts [cite: 270]"
+      "clothing": "Smart Casual für das Nachtleben, atmungsaktive Shirts "
     },
     {
       "id": 10,
@@ -177,133 +177,133 @@
       "pros": [
         "Leuchtende Deepavali-Dekorationen",
         "Ideal für Food-Märkte",
-        "Weniger Regen als im November [cite: 268]"
+        "Weniger Regen als im November "
       ],
       "cons": [
-        "Steigende Luftfeuchtigkeit [cite: 266]",
-        "Instabile Wetterlagen [cite: 268]",
+        "Steigende Luftfeuchtigkeit ",
+        "Instabile Wetterlagen ",
         "Historische Viertel sind sehr voll"
       ],
-      "clothing": "Leichte Baumwollkleidung, Regenschirm [cite: 270, 276]"
+      "clothing": "Leichte Baumwollkleidung, Regenschirm "
     },
     {
       "id": 11,
       "name": "November",
       "temp": "24°C - 30°C",
-      "vibe": "Bewölkt & feucht [cite: 268]",
+      "vibe": "Bewölkt & feucht ",
       "pros": [
-        "Leicht niedrigere Temperaturen [cite: 268]",
+        "Leicht niedrigere Temperaturen ",
         "Weniger Touristenmassen",
-        "Hauptsaison für Indoor-Attraktionen [cite: 268]"
+        "Hauptsaison für Indoor-Attraktionen "
       ],
       "cons": [
-        "Beginn der regenreichsten Zeit [cite: 268]",
-        "Sehr hohe Luftfeuchtigkeit [cite: 266]",
-        "Pläne im Freien verzögern sich oft [cite: 268]"
+        "Beginn der regenreichsten Zeit ",
+        "Sehr hohe Luftfeuchtigkeit ",
+        "Pläne im Freien verzögern sich oft "
       ],
-      "clothing": "Wasserfeste Jacke, Ersatzsocken, Hoodie für die Klimaanlage [cite: 272, 275]"
+      "clothing": "Wasserfeste Jacke, Ersatzsocken, Hoodie für die Klimaanlage "
     },
     {
       "id": 12,
       "name": "Dezember",
       "temp": "24°C - 30°C",
-      "vibe": "Festlich & regnerisch [cite: 268]",
+      "vibe": "Festlich & regnerisch ",
       "pros": [
         "Weihnachtsbeleuchtung auf der Orchard Road",
         "Besondere Feiertagsstimmung",
-        "Kühlster Monat des Jahres [cite: 268]"
+        "Kühlster Monat des Jahres "
       ],
       "cons": [
-        "Regenreichster Monat (Starkregen) [cite: 268]",
+        "Regenreichster Monat (Starkregen) ",
         "Hochsaison für Touristen",
         "Hohe Reisekosten"
       ],
-      "clothing": "Stabiler Regenschirm, leichte Schichten, keine Wildlederschuhe [cite: 273, 276]"
+      "clothing": "Stabiler Regenschirm, leichte Schichten, keine Wildlederschuhe "
     }
   ],
   "culture": {
     "etiquette_tips": [
-      "Die Tablett-Rückgabepflicht: Es ist gesetzlich vorgeschrieben, benutzte Tabletts und Geschirr in Hawker Centern und Food Courts zurückzubringen[cite: 52]. Ersttäter erhalten eine Warnung, aber bei Wiederholung droht ein Bußgeld von 300 SGD[cite: 53].",
-      "Halal vs. Nicht-Halal: Achten Sie unbedingt auf die Schilder an den Rückgabestationen[cite: 54]. Nicht-halales Geschirr an einer Halal-Station abzugeben, gilt als sehr unhöflich[cite: 55].",
-      "Das „Choping“-Ritual: Wenn Sie ein Päckchen Taschentücher auf einem leeren Tisch im Hawker Center sehen, ist dieser Tisch reserviert[cite: 66, 67]! Respektieren Sie dieses inoffizielle System, um Ärger zu vermeiden[cite: 68].",
-      "Disziplin auf Rolltreppen: Die Regel ist strikt: Links stehen, rechts gehen[cite: 59]. Das wird in Bahnhöfen und Malls genau beobachtet; blockieren Sie nicht die Überholspur[cite: 60].",
-      "Kaugummi-Verbot: Der Verkauf und Import von Kaugummi ist verboten, um die Stadt sauber zu halten[cite: 56]. Um Probleme zu vermeiden, lassen Sie Kaugummis am besten ganz zu Hause[cite: 58].",
-      "Trinkgeld-Realität: Trinkgeld ist nicht üblich und wird meist nicht erwartet[cite: 61]. In Restaurants werden automatisch 10 % Servicegebühr und 9 % Steuer (GST) auf die Rechnung gesetzt[cite: 62, 63].",
-      "Indoor-Winter: Singapur liebt Klimaanlagen! Während es draußen 30 °C hat, sind Malls und Kinos oft auf frostige 20 °C heruntergekühlt[cite: 274]. Haben Sie immer einen leichten Schal oder Cardigan dabei[cite: 275].",
-      "Wasser ist sicher: Sie können das Wasser direkt aus dem Hahn trinken[cite: 279]! Das spart Geld und Plastikmüll.",
-      "Ansteh-Kultur: Die Singapurer lieben ordentliche Schlangen. Egal ob beim neuesten Gadget oder beim berühmten Chicken Rice – stellen Sie sich hinten an und warten Sie geduldig[cite: 208].",
-      "Singlish verstehen: Sie werden oft Wörter wie „Lah“, „Leh“ oder „Lor“ hören [cite: 124-126]. Das ist Singlish, eine lokale Mischsprache, die auf Effizienz setzt[cite: 121, 122]. Sie müssen es nicht sprechen, aber es hilft, den Vibe zu verstehen."
+      "Die Tablett-Rückgabepflicht: Es ist gesetzlich vorgeschrieben, benutzte Tabletts und Geschirr in Hawker Centern und Food Courts zurückzubringen. Ersttäter erhalten eine Warnung, aber bei Wiederholung droht ein Bußgeld von 300 SGD.",
+      "Halal vs. Nicht-Halal: Achten Sie unbedingt auf die Schilder an den Rückgabestationen. Nicht-halales Geschirr an einer Halal-Station abzugeben, gilt als sehr unhöflich.",
+      "Das „Choping“-Ritual: Wenn Sie ein Päckchen Taschentücher auf einem leeren Tisch im Hawker Center sehen, ist dieser Tisch reserviert! Respektieren Sie dieses inoffizielle System, um Ärger zu vermeiden.",
+      "Disziplin auf Rolltreppen: Die Regel ist strikt: Links stehen, rechts gehen. Das wird in Bahnhöfen und Malls genau beobachtet; blockieren Sie nicht die Überholspur.",
+      "Kaugummi-Verbot: Der Verkauf und Import von Kaugummi ist verboten, um die Stadt sauber zu halten. Um Probleme zu vermeiden, lassen Sie Kaugummis am besten ganz zu Hause.",
+      "Trinkgeld-Realität: Trinkgeld ist nicht üblich und wird meist nicht erwartet. In Restaurants werden automatisch 10 % Servicegebühr und 9 % Steuer (GST) auf die Rechnung gesetzt.",
+      "Indoor-Winter: Singapur liebt Klimaanlagen! Während es draußen 30 °C hat, sind Malls und Kinos oft auf frostige 20 °C heruntergekühlt. Haben Sie immer einen leichten Schal oder Cardigan dabei.",
+      "Wasser ist sicher: Sie können das Wasser direkt aus dem Hahn trinken! Das spart Geld und Plastikmüll.",
+      "Ansteh-Kultur: Die Singapurer lieben ordentliche Schlangen. Egal ob beim neuesten Gadget oder beim berühmten Chicken Rice – stellen Sie sich hinten an und warten Sie geduldig.",
+      "Singlish verstehen: Sie werden oft Wörter wie „Lah“, „Leh“ oder „Lor“ hören . Das ist Singlish, eine lokale Mischsprache, die auf Effizienz setzt. Sie müssen es nicht sprechen, aber es hilft, den Vibe zu verstehen."
     ],
     "essential_phrases": [
       {
         "src": "Danke",
         "local": "Terima Kasih / 谢谢 / நன்றி",
-        "phonetic": "te-ree-mah kah-seh [cite: 137]"
+        "phonetic": "te-ree-mah kah-seh "
       },
       {
         "src": "Guten Morgen",
         "local": "Selamat Pagi",
-        "phonetic": "se-la-mat pah-gee [cite: 134]"
+        "phonetic": "se-la-mat pah-gee "
       },
       {
         "src": "Essen / Speise",
         "local": "Makan",
-        "phonetic": "mah-kan [cite: 141]"
+        "phonetic": "mah-kan "
       },
       {
         "src": "Zum Mitnehmen",
         "local": "Bungkus / Ta-pau",
-        "phonetic": "boong-koos [cite: 142]"
+        "phonetic": "boong-koos "
       },
       {
         "src": "Bitte / Hilfe",
         "local": "Tolong",
-        "phonetic": "toh-long [cite: 139]"
+        "phonetic": "toh-long "
       }
     ]
   },
   "neighborhoods": [
     {
       "name": "Chinatown",
-      "vibe": "Tradition & Trubel [cite: 73]",
-      "description": "Ein Mix aus traditionellen Tempeln, historischen Shophouses und lebhaften Märkten[cite: 72]. Hier spürt man die Geschichte der chinesischen Einwanderer hautnah[cite: 72, 73].",
+      "vibe": "Tradition & Trubel ",
+      "description": "Ein Mix aus traditionellen Tempeln, historischen Shophouses und lebhaften Märkten. Hier spürt man die Geschichte der chinesischen Einwanderer hautnah.",
       "highlights": [
-        "Buddha Tooth Relic Temple [cite: 81]",
-        "Sri Mariamman Temple [cite: 83]",
-        "Chinatown Complex [cite: 77]"
+        "Buddha Tooth Relic Temple ",
+        "Sri Mariamman Temple ",
+        "Chinatown Complex "
       ],
       "image": "/images/singapore/chinatown.jpg"
     },
     {
       "name": "Kampong Gelam",
-      "vibe": "Hipster-trifft-Tradition [cite: 89]",
-      "description": "Das historische malaiisch-arabische Viertel, in dem goldene Moscheekuppeln neben trendigen, mit Graffiti verzierten Gassen und Indie-Boutiquen stehen[cite: 88, 89, 92].",
+      "vibe": "Hipster-trifft-Tradition ",
+      "description": "Das historische malaiisch-arabische Viertel, in dem goldene Moscheekuppeln neben trendigen, mit Graffiti verzierten Gassen und Indie-Boutiquen stehen.",
       "highlights": [
-        "Sultan-Moschee [cite: 94]",
-        "Haji Lane [cite: 92]",
-        "Malay Heritage Centre [cite: 96]"
+        "Sultan-Moschee ",
+        "Haji Lane ",
+        "Malay Heritage Centre "
       ],
       "image": "/images/singapore/kampong-gelam.jpg"
     },
     {
       "name": "Tiong Bahru",
-      "vibe": "Ruhig & künstlerisch [cite: 99]",
-      "description": "Das erste öffentliche Wohnviertel der Stadt, heute eine grüne Oase mit Streamline-Moderne-Architektur, Indie-Buchläden und gemütlichen Cafés[cite: 98, 101, 104].",
+      "vibe": "Ruhig & künstlerisch ",
+      "description": "Das erste öffentliche Wohnviertel der Stadt, heute eine grüne Oase mit Streamline-Moderne-Architektur, Indie-Buchläden und gemütlichen Cafés.",
       "highlights": [
-        "Yip Yew Chong Wandbilder [cite: 103]",
+        "Yip Yew Chong Wandbilder ",
         "Tiong Bahru Markt",
-        "Qi Tian Gong Tempel [cite: 105]"
+        "Qi Tian Gong Tempel "
       ],
       "image": "/images/singapore/tiong-bahru.jpg"
     },
     {
       "name": "Katong & Joo Chiat",
-      "vibe": "Bunt & Peranakan [cite: 108]",
-      "description": "Das Herz der Peranakan-Kultur, berühmt für seine pastellfarbenen Shophouses und leidenschaftliche lokale Food-Rivalitäten[cite: 107, 110, 115].",
+      "vibe": "Bunt & Peranakan ",
+      "description": "Das Herz der Peranakan-Kultur, berühmt für seine pastellfarbenen Shophouses und leidenschaftliche lokale Food-Rivalitäten.",
       "highlights": [
-        "Koon Seng Road Shophouses [cite: 110]",
-        "The Intan Museum [cite: 112]",
-        "328 Katong Laksa [cite: 115]"
+        "Koon Seng Road Shophouses ",
+        "The Intan Museum ",
+        "328 Katong Laksa "
       ],
       "image": "/images/singapore/joo-chiat.jpg"
     }
@@ -314,12 +314,12 @@
       "slug": "unterwegs-in-der-stadt",
       "title": "Unterwegs in der Stadt",
       "icon": "Train",
-      "summary": "Das MRT- und Busnetz sind der Puls der Stadt – schnell, sauber und unglaublich effizient[cite: 42].",
+      "summary": "Das MRT- und Busnetz sind der Puls der Stadt – schnell, sauber und unglaublich effizient.",
       "details": [
-        "SimplyGo Strategie: Kaufen Sie keinen Tourist Pass. Tippen Sie einfach Ihre kontaktlose Kreditkarte oder Ihr Smartphone am Lesegerät an[cite: 46, 48].",
-        "Tourist Pass Warnung: Der 10-SGD-Pass lohnt sich oft nicht. Sie müssten mehr als 6 Mal am Tag fahren, um den Preis reinzuholen[cite: 47, 48].",
+        "SimplyGo Strategie: Kaufen Sie keinen Tourist Pass. Tippen Sie einfach Ihre kontaktlose Kreditkarte oder Ihr Smartphone am Lesegerät an.",
+        "Tourist Pass Warnung: Der 10-SGD-Pass lohnt sich oft nicht. Sie müssten mehr als 6 Mal am Tag fahren, um den Preis reinzuholen.",
         "MRT-Basics: Züge fahren von ca. 5:30 Uhr bis Mitternacht. Vermeiden Sie die Stoßzeiten (8-9 Uhr und 18-19 Uhr), wenn Sie kein Fan von Menschenmassen sind.",
-        "Rolltreppen-Regel: Links stehen, rechts gehen[cite: 59]. Wer rechts steht und den Weg blockiert, erntet schnell böse Blicke[cite: 60].",
+        "Rolltreppen-Regel: Links stehen, rechts gehen. Wer rechts steht und den Weg blockiert, erntet schnell böse Blicke.",
         "Essen & Trinken verboten: Trinken Sie im MRT nicht einmal Wasser. Bußgelder werden strikt durchgesetzt und können bis zu 500 SGD betragen.",
         "Bus-Protokoll: Tippen Sie Ihre Karte sowohl beim Einsteigen als auch beim Aussteigen an, damit Ihnen der richtige Fahrpreis berechnet wird."
       ]
@@ -329,12 +329,12 @@
       "slug": "mobile-daten",
       "title": "Mobile Daten",
       "icon": "Smartphone",
-      "summary": "Bleiben Sie auf der ganzen Insel mit Highspeed-4G/5G verbunden[cite: 27, 278].",
+      "summary": "Bleiben Sie auf der ganzen Insel mit Highspeed-4G/5G verbunden.",
       "details": [
-        "Beste SIM-Karte: Die Singtel hi!Tourist SIM für 12 SGD ist die beste Wahl[cite: 29]. Sie bietet 100 GB Daten für 14 Tage[cite: 19].",
-        "Wo kaufen: Sie erhalten SIM-Karten am Changi Airport (Travelex oder Cheers) oder in jedem 7-Eleven in der Stadt[cite: 21, 29].",
-        "eSIM Optionen: Anbieter wie Nomad oder Airalo sind praktisch, kosten aber pro GB meist mehr als eine lokale physische SIM[cite: 25, 28].",
-        "Netzqualität: Singtel hat die beste Abdeckung in Gebäuden und im MRT[cite: 17, 29]. Wenn Sie viel mit der Bahn fahren, ist das die sicherste Wahl."
+        "Beste SIM-Karte: Die Singtel hi!Tourist SIM für 12 SGD ist die beste Wahl. Sie bietet 100 GB Daten für 14 Tage.",
+        "Wo kaufen: Sie erhalten SIM-Karten am Changi Airport (Travelex oder Cheers) oder in jedem 7-Eleven in der Stadt.",
+        "eSIM Optionen: Anbieter wie Nomad oder Airalo sind praktisch, kosten aber pro GB meist mehr als eine lokale physische SIM.",
+        "Netzqualität: Singtel hat die beste Abdeckung in Gebäuden und im MRT. Wenn Sie viel mit der Bahn fahren, ist das die sicherste Wahl."
       ]
     },
     {
@@ -342,12 +342,12 @@
       "slug": "geld-und-bezahlen",
       "title": "Geld & Bezahlen",
       "icon": "CreditCard",
-      "summary": "Singapur wird rasant bargeldlos, aber behalten Sie für die Märkte einige Scheine bereit[cite: 35, 37].",
+      "summary": "Singapur wird rasant bargeldlos, aber behalten Sie für die Märkte einige Scheine bereit.",
       "details": [
-        "Bargeldlos fast überall: Malls, Transport und die meisten Shops akzeptieren Visa/Mastercard und Mobile Payments[cite: 36].",
-        "Cash für Street Food: Viele ältere Hawker-Stände und Märkte nehmen nur Bargeld oder lokale QR-Zahlungen an[cite: 37]. Haben Sie 20–50 SGD in kleinen Scheinen dabei.",
+        "Bargeldlos fast überall: Malls, Transport und die meisten Shops akzeptieren Visa/Mastercard und Mobile Payments.",
+        "Cash für Street Food: Viele ältere Hawker-Stände und Märkte nehmen nur Bargeld oder lokale QR-Zahlungen an. Haben Sie 20–50 SGD in kleinen Scheinen dabei.",
         "Geldautomaten (ATM): Nutzen Sie offizielle Bank-ATMs (DBS, OCBC, UOB). Vermeiden Sie unabhängige Automaten wegen hoher Gebühren.",
-        "Brunei-Dollar: Ein kleiner Fun Fact: Brunei-Dollar werden in Singapur zum gleichen Wert wie Singapur-Dollar akzeptiert[cite: 33]. Wenn Sie einen im Wechselgeld finden, ist er legal."
+        "Brunei-Dollar: Ein kleiner Fun Fact: Brunei-Dollar werden in Singapur zum gleichen Wert wie Singapur-Dollar akzeptiert. Wenn Sie einen im Wechselgeld finden, ist er legal."
       ]
     },
     {
@@ -355,12 +355,12 @@
       "slug": "gesetze-und-sicherheit",
       "title": "Gesetze & Sicherheit",
       "icon": "Shield",
-      "summary": "Eine der sichersten Städte der Welt, dank strikter Regeln und sozialer Disziplin[cite: 50, 278].",
+      "summary": "Eine der sichersten Städte der Welt, dank strikter Regeln und sozialer Disziplin.",
       "details": [
         "Niedrige Kriminalität: Gewaltverbrechen sind extrem selten. Sie können fast überall zu jeder Nachtzeit sicher herumlaufen.",
-        "Strenge Bußgelder: Müll wegwerfen, Spucken oder bei Rot über die Ampel gehen sind keine Kavaliersdelikte, sondern teure Verstöße[cite: 53, 58].",
+        "Strenge Bußgelder: Müll wegwerfen, Spucken oder bei Rot über die Ampel gehen sind keine Kavaliersdelikte, sondern teure Verstöße.",
         "Drogengesetze: Singapur hat eine Null-Toleranz-Politik gegenüber Drogen. Die Strafen sind drakonisch, bis hin zur Todesstrafe bei Handel.",
-        "Notrufnummern: Wählen Sie 999 für die Polizei oder 995 für Krankenwagen/Feuerwehr[cite: 279]."
+        "Notrufnummern: Wählen Sie 999 für die Polizei oder 995 für Krankenwagen/Feuerwehr."
       ]
     },
     {
@@ -368,12 +368,12 @@
       "slug": "wetter-strategie",
       "title": "Wetter-Strategie",
       "icon": "Cloud",
-      "summary": "Bereiten Sie sich auf Hitze und plötzliche tropische Regengüsse vor[cite: 262, 268].",
+      "summary": "Bereiten Sie sich auf Hitze und plötzliche tropische Regengüsse vor.",
       "details": [
-        "Die Luftfeuchtigkeit: Sie liegt fast immer bei 80 %[cite: 266]. Man wird schwitzen; Naturfasern oder Funktionskleidung sind Ihre besten Freunde[cite: 270].",
-        "Regenschirm Pflicht: Tropenregen kommen schnell und heftig[cite: 268]. Haben Sie immer einen Schirm dabei, auch wenn die Sonne scheint[cite: 276].",
-        "Mittagspause drinnen: Bleiben Sie zwischen 12 und 15 Uhr im Kühlen. Das ist die perfekte Zeit für Malls oder Museen[cite: 268].",
-        "Schweiß-Tipp: Vermeiden Sie graue Kleidung, da man darauf sofort Schweißflecken sieht[cite: 271]. Tragen Sie lieber Dunkles oder Weiß."
+        "Die Luftfeuchtigkeit: Sie liegt fast immer bei 80 %. Man wird schwitzen; Naturfasern oder Funktionskleidung sind Ihre besten Freunde.",
+        "Regenschirm Pflicht: Tropenregen kommen schnell und heftig. Haben Sie immer einen Schirm dabei, auch wenn die Sonne scheint.",
+        "Mittagspause drinnen: Bleiben Sie zwischen 12 und 15 Uhr im Kühlen. Das ist die perfekte Zeit für Malls oder Museen.",
+        "Schweiß-Tipp: Vermeiden Sie graue Kleidung, da man darauf sofort Schweißflecken sieht. Tragen Sie lieber Dunkles oder Weiß."
       ]
     }
   ],
@@ -386,13 +386,13 @@
       "category": "food",
       "is_generic_staple": true,
       "description": {
-        "short": "Pochiertes Hähnchen serviert mit aromatischem Reis, der in Hühnerfett und Ingwer gekocht wurde[cite: 204, 205]. Es gilt als das Nationalgericht Singapurs[cite: 203].",
+        "short": "Pochiertes Hähnchen serviert mit aromatischem Reis, der in Hühnerfett und Ingwer gekocht wurde. Es gilt als das Nationalgericht Singapurs.",
         "vibe": "Essenziell, zart",
-        "history": "Von Einwanderern aus Hainan (China) mitgebracht und an lokale Geschmäcker angepasst[cite: 204]. Heute ein UNESCO-anerkanntes Kulturgut[cite: 202].",
-        "insider_tip": "Tian Tian ist berühmt, aber wenn die Schlange zu lang ist, gehen Sie zu Ah Tai drei Stände weiter[cite: 207, 209]. Dort kocht der ehemalige Chef von Tian Tian – fast gleicher Geschmack, keine Wartezeit[cite: 210, 211]!",
+        "history": "Von Einwanderern aus Hainan (China) mitgebracht und an lokale Geschmäcker angepasst. Heute ein UNESCO-anerkanntes Kulturgut.",
+        "insider_tip": "Tian Tian ist berühmt, aber wenn die Schlange zu lang ist, gehen Sie zu Ah Tai drei Stände weiter. Dort kocht der ehemalige Chef von Tian Tian – fast gleicher Geschmack, keine Wartezeit!",
         "price_level": "Günstig",
         "good_for": [
-          "Mittagessen [cite: 260]",
+          "Mittagessen ",
           "Erstbesucher"
         ],
         "duration": "20 Minuten",
@@ -408,10 +408,10 @@
       "category": "food",
       "is_generic_staple": true,
       "description": {
-        "short": "Eine reichhaltige, scharfe Kokosmilchsuppe mit dicken Reisnudeln, Garnelen und Herzmuscheln[cite: 214, 215]. Im Katong-Stil werden die Nudeln klein geschnitten, damit man sie nur mit dem Löffel essen kann[cite: 216].",
+        "short": "Eine reichhaltige, scharfe Kokosmilchsuppe mit dicken Reisnudeln, Garnelen und Herzmuscheln. Im Katong-Stil werden die Nudeln klein geschnitten, damit man sie nur mit dem Löffel essen kann.",
         "vibe": "Scharf, cremig",
-        "history": "Ein Produkt der Peranakan-Kultur, das chinesische Zutaten mit malaiischen Gewürzen und Kokosmilch verbindet[cite: 214].",
-        "insider_tip": "328 Katong Laksa ist der Promi-Spot [cite: 218], aber Janggut Laksa gilt bei vielen Einheimischen als das Originalrezept mit einer feineren Kräuternote[cite: 219].",
+        "history": "Ein Produkt der Peranakan-Kultur, das chinesische Zutaten mit malaiischen Gewürzen und Kokosmilch verbindet.",
+        "insider_tip": "328 Katong Laksa ist der Promi-Spot , aber Janggut Laksa gilt bei vielen Einheimischen als das Originalrezept mit einer feineren Kräuternote.",
         "price_level": "Günstig",
         "good_for": [
           "Brunch",
@@ -430,10 +430,10 @@
       "category": "food",
       "is_generic_staple": true,
       "description": {
-        "short": "Schweinerippchen, die stundenlang in einer klaren, pfeffrigen Brühe mit viel Knoblauch gekocht werden[cite: 221, 222]. Der „Tee“ im Namen bezieht sich auf den Begleit-Tee, der dazu getrunken wird.",
+        "short": "Schweinerippchen, die stundenlang in einer klaren, pfeffrigen Brühe mit viel Knoblauch gekocht werden. Der „Tee“ im Namen bezieht sich auf den Begleit-Tee, der dazu getrunken wird.",
         "vibe": "Pfeffrig, wärmend",
-        "history": "Ein Gericht der Teochew-Einwanderer aus dem frühen 20. Jahrhundert, das ursprünglich Hafenarbeitern Energie gab[cite: 222].",
-        "insider_tip": "Bei Song Fa können Sie sich die Brühe kostenlos und unbegrenzt nachfüllen lassen[cite: 227]! Das Personal läuft mit Kannen herum – zögern Sie nicht zu fragen[cite: 228].",
+        "history": "Ein Gericht der Teochew-Einwanderer aus dem frühen 20. Jahrhundert, das ursprünglich Hafenarbeitern Energie gab.",
+        "insider_tip": "Bei Song Fa können Sie sich die Brühe kostenlos und unbegrenzt nachfüllen lassen! Das Personal läuft mit Kannen herum – zögern Sie nicht zu fragen.",
         "price_level": "Moderat",
         "good_for": [
           "Frühstück",
@@ -452,13 +452,13 @@
       "category": "food",
       "is_generic_staple": true,
       "description": {
-        "short": "Ein südindisches Fladenbrot, das durch Dehnen des Teigs hauchdünn wird[cite: 237]. Es wird knusprig frittiert und mit einer Currysoße serviert[cite: 238].",
+        "short": "Ein südindisches Fladenbrot, das durch Dehnen des Teigs hauchdünn wird. Es wird knusprig frittiert und mit einer Currysoße serviert.",
         "vibe": "Knusprig, fluffig",
-        "history": "Abgeleitet vom indischen Paratha, wurde es in Singapur zu einer luftigeren Version weiterentwickelt[cite: 238].",
-        "insider_tip": "Gehen Sie zu Mr and Mrs Mohgan’s für die knusprigste Prata der Stadt[cite: 239, 240]. Die Prata sind oft schon vor 13 Uhr ausverkauft, also kommen Sie früh[cite: 241]!",
+        "history": "Abgeleitet vom indischen Paratha, wurde es in Singapur zu einer luftigeren Version weiterentwickelt.",
+        "insider_tip": "Gehen Sie zu Mr and Mrs Mohgan’s für die knusprigste Prata der Stadt. Die Prata sind oft schon vor 13 Uhr ausverkauft, also kommen Sie früh!",
         "price_level": "Günstig",
         "good_for": [
-          "Frühstück [cite: 241]",
+          "Frühstück ",
           "Late-Night Snack"
         ],
         "duration": "20 Minuten",
@@ -474,10 +474,10 @@
       "category": "food",
       "is_generic_staple": true,
       "description": {
-        "short": "Flache Reisnudeln, die bei extrem hoher Hitze mit dunkler Sojasauce, Chili, Muscheln, chinesischer Wurst und Schweineschmalz gebraten werden[cite: 229, 230].",
+        "short": "Flache Reisnudeln, die bei extrem hoher Hitze mit dunkler Sojasauce, Chili, Muscheln, chinesischer Wurst und Schweineschmalz gebraten werden.",
         "vibe": "Rauchig, herzhaft",
-        "history": "Ursprünglich ein Gericht für arme Bauern und Fischer, die Reste verwerteten[cite: 230]. Es ist bekannt für sein „Wok Hei“ (Aroma des Woks)[cite: 230].",
-        "insider_tip": "Outram Park Fried Kway Teow am Hong Lim ist der Maßstab[cite: 232]. Bekannt für seine sämige Textur durch ein spezielles Ei-Stärke-Verhältnis[cite: 233].",
+        "history": "Ursprünglich ein Gericht für arme Bauern und Fischer, die Reste verwerteten. Es ist bekannt für sein „Wok Hei“ (Aroma des Woks).",
+        "insider_tip": "Outram Park Fried Kway Teow am Hong Lim ist der Maßstab. Bekannt für seine sämige Textur durch ein spezielles Ei-Stärke-Verhältnis.",
         "price_level": "Günstig",
         "good_for": [
           "Mittagessen",
@@ -496,13 +496,13 @@
       "category": "food",
       "is_generic_staple": true,
       "description": {
-        "short": "Ein einzigartiges Bestellsystem für Kaffee, das Begriffe aus dem Malaiischen und Hokkien kombiniert[cite: 144]. Jede Kombination hat ihren eigenen Code[cite: 145].",
+        "short": "Ein einzigartiges Bestellsystem für Kaffee, das Begriffe aus dem Malaiischen und Hokkien kombiniert. Jede Kombination hat ihren eigenen Code.",
         "vibe": "Gesellig, energetisch",
-        "history": "In den traditionellen Kopitiams (Cafés) der frühen 1900er Jahre entstanden, um Bestellungen schnell und präzise abzuwickeln[cite: 144].",
-        "insider_tip": "Bestellen Sie „Kopi O Kosong“, wenn Sie ihn schwarz und ohne Zucker möchten[cite: 149]. Wenn Sie ihn eiskalt möchten, fügen Sie einfach „Peng“ hinzu[cite: 150].",
+        "history": "In den traditionellen Kopitiams (Cafés) der frühen 1900er Jahre entstanden, um Bestellungen schnell und präzise abzuwickeln.",
+        "insider_tip": "Bestellen Sie „Kopi O Kosong“, wenn Sie ihn schwarz und ohne Zucker möchten. Wenn Sie ihn eiskalt möchten, fügen Sie einfach „Peng“ hinzu.",
         "price_level": "Günstig",
         "good_for": [
-          "Frühstück [cite: 260]",
+          "Frühstück ",
           "Kurze Pause"
         ],
         "duration": "30 Minuten",
@@ -524,10 +524,10 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": {
-            "short": "Ein futuristischer Naturpark mit riesigen Supertrees, Cloud Forests mit Indoor-Wasserfällen und den größten Glasgewächshäusern der Welt [cite: 153, 157-160].",
+            "short": "Ein futuristischer Naturpark mit riesigen Supertrees, Cloud Forests mit Indoor-Wasserfällen und den größten Glasgewächshäusern der Welt .",
             "vibe": "Futuristisch, atemberaubend",
-            "history": "2012 eröffnet als Teil der Strategie, Singapur von einer „Gartenstadt“ in eine „Stadt in der Natur“ zu verwandeln[cite: 155].",
-            "insider_tip": "Schauen Sie sich die kostenlose Licht- und Soundshow „Garden Rhapsody“ um 19:45 Uhr oder 20:45 Uhr an[cite: 162]. Legen Sie sich auf den Rasen unter die Supertrees für den besten Blick[cite: 163]!",
+            "history": "2012 eröffnet als Teil der Strategie, Singapur von einer „Gartenstadt“ in eine „Stadt in der Natur“ zu verwandeln.",
+            "insider_tip": "Schauen Sie sich die kostenlose Licht- und Soundshow „Garden Rhapsody“ um 19:45 Uhr oder 20:45 Uhr an. Legen Sie sich auf den Rasen unter die Supertrees für den besten Blick!",
             "price_level": "Moderat",
             "good_for": [
               "Familien",
@@ -535,7 +535,7 @@
               "Naturliebhaber"
             ],
             "duration": "3 Stunden",
-            "best_time": "Später Nachmittag bis nach der Show [cite: 260]"
+            "best_time": "Später Nachmittag bis nach der Show "
           },
           "image": "/images/singapore/gardens-by-the-bay.jpg",
           "geo": {
@@ -551,10 +551,10 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": {
-            "short": "Ein Lifestyle-Komplex direkt am Flughafen mit dem HSBC Rain Vortex, dem weltweit höchsten Indoor-Wasserfall (40 m)[cite: 165, 166].",
+            "short": "Ein Lifestyle-Komplex direkt am Flughafen mit dem HSBC Rain Vortex, dem weltweit höchsten Indoor-Wasserfall (40 m).",
             "vibe": "Monumental, grün",
-            "history": "Eröffnet 2019, um den Flughafen als eigenständiges Reiseziel zu definieren[cite: 165].",
-            "insider_tip": "Zwischen 15 und 17 Uhr erzeugt das Sonnenlicht im Sprühnebel des Wasserfalls oft einen Regenbogen[cite: 172]. Da es vor der Passkontrolle liegt, ist es für jeden zugänglich[cite: 167].",
+            "history": "Eröffnet 2019, um den Flughafen als eigenständiges Reiseziel zu definieren.",
+            "insider_tip": "Zwischen 15 und 17 Uhr erzeugt das Sonnenlicht im Sprühnebel des Wasserfalls oft einen Regenbogen. Da es vor der Passkontrolle liegt, ist es für jeden zugänglich.",
             "price_level": "Kostenlos",
             "good_for": [
               "Zwischenstopps",
@@ -584,10 +584,10 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": {
-            "short": "Der weltweit erste nächtliche Safaripark[cite: 173, 174]. Er nutzt dezente Beleuchtung, die Mondlicht imitiert, um das natürliche Verhalten der Tiere zu beobachten[cite: 174].",
+            "short": "Der weltweit erste nächtliche Safaripark. Er nutzt dezente Beleuchtung, die Mondlicht imitiert, um das natürliche Verhalten der Tiere zu beobachten.",
             "vibe": "Geheimnisvoll, fesselnd",
             "history": "Ein Pionier in der Erforschung nächtlicher Tiere, der 1994 eröffnet wurde.",
-            "insider_tip": "Überspringen Sie die Tram-Schlange direkt nach dem Eingang. Laufen Sie erst die vier Wanderwege ab, um Tiere aus der Nähe ohne Massen zu sehen[cite: 179, 180].",
+            "insider_tip": "Überspringen Sie die Tram-Schlange direkt nach dem Eingang. Laufen Sie erst die vier Wanderwege ab, um Tiere aus der Nähe ohne Massen zu sehen.",
             "price_level": "Teuer",
             "good_for": [
               "Tierliebhaber",
@@ -595,7 +595,7 @@
               "Nachtaktive"
             ],
             "duration": "3 Stunden",
-            "best_time": "Nach 21:00 Uhr [cite: 181]"
+            "best_time": "Nach 21:00 Uhr "
           },
           "image": "/images/singapore/night-safari.jpg",
           "geo": {
@@ -611,10 +611,10 @@
           "category": "sight",
           "is_generic_staple": false,
           "description": {
-            "short": "Das einzige UNESCO-Weltkulturerbe Singapurs[cite: 196]. Ein über 160 Jahre alter tropischer Garten und Sitz des National Orchid Garden[cite: 196, 197].",
+            "short": "Das einzige UNESCO-Weltkulturerbe Singapurs. Ein über 160 Jahre alter tropischer Garten und Sitz des National Orchid Garden.",
             "vibe": "Friedlich, historisch",
-            "history": "Gegründet 1859, war der Garten entscheidend für den Kautschuk-Boom der Region[cite: 196].",
-            "insider_tip": "Die Hauptgärten sind kostenlos, aber der National Orchid Garden kostet Eintritt (ca. 15 SGD)[cite: 197]. Er ist ein Muss; kommen Sie früh morgens, um der Hitze zu entgehen[cite: 199]!",
+            "history": "Gegründet 1859, war der Garten entscheidend für den Kautschuk-Boom der Region.",
+            "insider_tip": "Die Hauptgärten sind kostenlos, aber der National Orchid Garden kostet Eintritt (ca. 15 SGD). Er ist ein Muss; kommen Sie früh morgens, um der Hitze zu entgehen!",
             "price_level": "Günstig",
             "good_for": [
               "Naturliebhaber",
@@ -622,7 +622,7 @@
               "Morgenspaziergänge"
             ],
             "duration": "2 Stunden",
-            "best_time": "08:30 Uhr (Öffnung) [cite: 199]"
+            "best_time": "08:30 Uhr (Öffnung) "
           },
           "image": "/images/singapore/botanic-gardens.jpg",
           "geo": {
@@ -637,37 +637,37 @@
     {
       "time": "08:00 Uhr",
       "title": "Traditionelles Frühstück am Far East Square",
-      "description": "Starten Sie den Tag wie ein Local bei Ya Kun Kaya Toast[cite: 260]. Bestellen Sie das „Set A“: Knuspriger Toast mit Kaya (Kokosmarmelade), weichgekochte Eier und ein Kopi[cite: 260]. Mischen Sie Sojasauce und Pfeffer in die Eier und dippen Sie den Toast hinein[cite: 260].",
+      "description": "Starten Sie den Tag wie ein Local bei Ya Kun Kaya Toast. Bestellen Sie das „Set A“: Knuspriger Toast mit Kaya (Kokosmarmelade), weichgekochte Eier und ein Kopi. Mischen Sie Sojasauce und Pfeffer in die Eier und dippen Sie den Toast hinein.",
       "image": "/images/singapore/breakfast-kaya.jpg"
     },
     {
       "time": "10:30 Uhr",
       "title": "Street Art & Shophouses in Tiong Bahru",
-      "description": "Besuchen Sie Singapurs ältestes Wohnviertel[cite: 98, 260]. Suchen Sie in den Gassen die Wandbilder von Yip Yew Chong[cite: 103, 260]. Holen Sie sich danach ein berühmtes Croissant in der Tiong Bahru Bakery[cite: 260].",
+      "description": "Besuchen Sie Singapurs ältestes Wohnviertel. Suchen Sie in den Gassen die Wandbilder von Yip Yew Chong. Holen Sie sich danach ein berühmtes Croissant in der Tiong Bahru Bakery.",
       "image": "/images/singapore/tiong-bahru-murals.jpg"
     },
     {
       "time": "13:00 Uhr",
       "title": "Lunch im Maxwell Food Centre",
-      "description": "Zeit für das Nationalgericht: Chicken Rice[cite: 260]. Stellen Sie sich bei Tian Tian oder Ah Tai an[cite: 207, 209, 260]. Gönnen Sie sich einen frischen Limettensaft, um im tropischen Markt kühl zu bleiben[cite: 260].",
+      "description": "Zeit für das Nationalgericht: Chicken Rice. Stellen Sie sich bei Tian Tian oder Ah Tai an. Gönnen Sie sich einen frischen Limettensaft, um im tropischen Markt kühl zu bleiben.",
       "image": "/images/singapore/maxwell-lunch.jpg"
     },
     {
       "time": "15:30 Uhr",
       "title": "Kultur & Aussicht in der National Gallery",
-      "description": "Entfliehen Sie der Mittagshitze in der National Gallery[cite: 260]. Auch ohne Museumsticket können Sie auf das Padang Deck auf dem Dach[cite: 185, 186, 260]. Es ist kostenlos und bietet einen der besten Blicke auf die Skyline[cite: 186, 260].",
+      "description": "Entfliehen Sie der Mittagshitze in der National Gallery. Auch ohne Museumsticket können Sie auf das Padang Deck auf dem Dach. Es ist kostenlos und bietet einen der besten Blicke auf die Skyline.",
       "image": "/images/singapore/national-gallery-view.jpg"
     },
     {
       "time": "18:30 Uhr",
       "title": "Sonnenuntergang in den Gardens by the Bay",
-      "description": "Spazieren Sie durch den Cloud Forest, bevor es dunkel wird[cite: 260]. Suchen Sie sich dann einen Platz unter den Supertrees für die Garden Rhapsody Show um 19:45 Uhr[cite: 162, 260]. Ein magischer Moment, wenn die künstlichen Bäume zu leuchten beginnen.",
+      "description": "Spazieren Sie durch den Cloud Forest, bevor es dunkel wird. Suchen Sie sich dann einen Platz unter den Supertrees für die Garden Rhapsody Show um 19:45 Uhr. Ein magischer Moment, wenn die künstlichen Bäume zu leuchten beginnen.",
       "image": "/images/singapore/gardens-sunset.jpg"
     },
     {
       "time": "20:30 Uhr",
       "title": "Satay Street am Lau Pa Sat",
-      "description": "Laufen Sie zum Lau Pa Sat im Finanzdistrikt[cite: 260]. Nachts wird die Boon Tat Street für Autos gesperrt und zur „Satay Street“[cite: 260]. Essen Sie gegrillte Spieße im Freien, direkt zwischen den beleuchteten Wolkenkratzern[cite: 260].",
+      "description": "Laufen Sie zum Lau Pa Sat im Finanzdistrikt. Nachts wird die Boon Tat Street für Autos gesperrt und zur „Satay Street“. Essen Sie gegrillte Spieße im Freien, direkt zwischen den beleuchteten Wolkenkratzern.",
       "image": "/images/singapore/satay-street.jpg"
     }
   ],
@@ -676,7 +676,7 @@
       "id": "aff-001",
       "title": "UK-Reiseadapter (Typ G)",
       "image": "/images/singapore/adapter.jpg",
-      "reason": "Singapur nutzt das britische Steckersystem mit drei Pins[cite: 39]. Sie brauchen diesen Adapter für fast alle Ihre Geräte.",
+      "reason": "Singapur nutzt das britische Steckersystem mit drei Pins. Sie brauchen diesen Adapter für fast alle Ihre Geräte.",
       "amazon_url": "https://www.amazon.com/s?k=uk+travel+adapter+type+g&tag=canibringonpl-20",
       "category": "electronics"
     },
@@ -684,7 +684,7 @@
       "id": "aff-002",
       "title": "Handventilator",
       "image": "/images/singapore/fan.jpg",
-      "reason": "Die Luftfeuchtigkeit ist extrem hoch[cite: 266]. Ein kleiner Ventilator macht das Warten auf den Bus oder das Essen im Freien viel angenehmer[cite: 277].",
+      "reason": "Die Luftfeuchtigkeit ist extrem hoch. Ein kleiner Ventilator macht das Warten auf den Bus oder das Essen im Freien viel angenehmer.",
       "amazon_url": "https://www.amazon.com/s?k=portable+handheld+fan&tag=canibringonpl-20",
       "category": "electronics"
     },
@@ -692,7 +692,7 @@
       "id": "aff-003",
       "title": "Atmungsaktive Shirts",
       "image": "/images/singapore/shirts.jpg",
-      "reason": "Sie werden schwitzen, das lässt sich nicht vermeiden[cite: 266]. Funktionsshirts, die schnell trocknen, sind hier viel besser als schwere Baumwolle[cite: 270].",
+      "reason": "Sie werden schwitzen, das lässt sich nicht vermeiden. Funktionsshirts, die schnell trocknen, sind hier viel besser als schwere Baumwolle.",
       "amazon_url": "https://www.amazon.com/s?k=moisture+wicking+travel+shirts&tag=canibringonpl-20",
       "category": "clothing"
     }
