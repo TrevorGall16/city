@@ -14,6 +14,7 @@ import { getDict } from '@/data/dictionaries'
 import { getCityFont } from '@/lib/fonts/cityFonts'
 import { Clock, DollarSign, Zap, Star, MapPin, ArrowLeft } from 'lucide-react'
 import { CommentThread } from '@/components/features/CommentThread'
+import type { Metadata } from 'next'
 
 interface PageProps {
   params: Promise<{ lang: string; citySlug: string; placeSlug: string }>
@@ -24,7 +25,7 @@ async function getPlaceData(citySlug: string, placeSlug: string, lang: string) {
     // 🎯 Fallback logic: If localized file missing, try English
     const fileName = lang === 'en' ? `${citySlug}.json` : `${citySlug}-${lang}.json`;
     const filePath = path.join(process.cwd(), 'src/data/cities', fileName);
-    
+
     let fileContent;
     try {
       fileContent = await fs.readFile(filePath, 'utf8');
@@ -39,6 +40,47 @@ async function getPlaceData(citySlug: string, placeSlug: string, lang: string) {
     const place = allPlaces.find((p: any) => p.slug === placeSlug);
     return place ? { place, cityName: city.name } : null;
   } catch { return null; }
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { lang, citySlug, placeSlug } = await params
+  const data = await getPlaceData(citySlug, placeSlug, lang)
+
+  if (!data) return { title: 'Place Not Found' }
+
+  const { place, cityName } = data
+
+  // 🎯 SEO: Optimized title with local name first (better for multilingual SEO)
+  // Pattern: "${name_local} (${name_en}) - ${city} Travel Guide"
+  const hasLocalName = place.name_local && place.name_local !== place.name_en
+  const title = hasLocalName
+    ? `${place.name_local} (${place.name_en}) - ${cityName} Travel Guide`
+    : `${place.name_en} - ${cityName} Travel Guide`
+
+  // Extract description safely
+  const desc = place.description
+  const shortDesc = typeof desc === 'object'
+    ? (desc.short || desc.intro || '')
+    : (desc || '')
+
+  const description = shortDesc.slice(0, 160)
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      images: [place.image || '/images/placeholder.jpg'],
+      url: `https://citybasic.com/${lang}/city/${citySlug}/${placeSlug}`,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [place.image || '/images/placeholder.jpg'],
+    },
+  }
 }
 
 export default async function PlacePage({ params }: PageProps) {
