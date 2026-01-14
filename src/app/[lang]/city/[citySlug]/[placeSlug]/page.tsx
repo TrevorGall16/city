@@ -1,8 +1,8 @@
 /**
- * 🛰️ MASTER AI: PLACE PAGE (V3.1 - CRASH FIX)
- * ✅ Fixed React Error #31: Prevents object rendering in description.
- * ✅ Fixed Data Access: Checks both 'place' and 'desc' for metadata (price, vibe).
- * ✅ Safety: Added null checks for all dynamic text fields.
+ * 🛰️ MASTER AI: PLACE PAGE (V4.0 - MULTILINGUAL SEO)
+ * ✅ Added: SEO Translation Dictionary for 9 languages (including Chinese)
+ * ✅ Enhanced: Fully localized meta titles and Open Graph tags
+ * ✅ Preserved: All crash protection and data fallback logic
  */
 
 import { notFound } from 'next/navigation'
@@ -15,6 +15,21 @@ import { getCityFont } from '@/lib/fonts/cityFonts'
 import { Clock, DollarSign, Zap, Star, MapPin, ArrowLeft } from 'lucide-react'
 import { CommentThread } from '@/components/features/CommentThread'
 import type { Metadata } from 'next'
+
+// 🌍 SEO TRANSLATION DICTIONARY (9 Languages)
+const SEO_DICTIONARY = {
+  en: { travelGuide: 'Travel Guide' },
+  fr: { travelGuide: 'Guide de Voyage' },
+  ja: { travelGuide: '旅行ガイド' },
+  ar: { travelGuide: 'دليل السفر' },
+  hi: { travelGuide: 'यात्रा गाइड' },
+  es: { travelGuide: 'Guía de Viaje' },
+  de: { travelGuide: 'Reiseführer' },
+  it: { travelGuide: 'Guida di Viaggio' },
+  zh: { travelGuide: '旅行指南' }, // ✅ Chinese Added
+} as const
+
+type SupportedLang = keyof typeof SEO_DICTIONARY
 
 interface PageProps {
   params: Promise<{ lang: string; citySlug: string; placeSlug: string }>
@@ -30,7 +45,6 @@ async function getPlaceData(citySlug: string, placeSlug: string, lang: string) {
     try {
       fileContent = await fs.readFile(filePath, 'utf8');
     } catch (e) {
-      // If FR file missing, fallback to EN
       const fallbackPath = path.join(process.cwd(), 'src/data/cities', `${citySlug}.json`);
       fileContent = await fs.readFile(fallbackPath, 'utf8');
     }
@@ -50,12 +64,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const { place, cityName } = data
 
-  // 🎯 SEO: Optimized title with local name first (better for multilingual SEO)
-  // Pattern: "${name_local} (${name_en}) - ${city} Travel Guide"
+  // 🌍 Get localized SEO strings (with fallback to English)
+  const seoLang = (lang in SEO_DICTIONARY ? lang : 'en') as SupportedLang
+  const seoStrings = SEO_DICTIONARY[seoLang]
+
+  // 🎯 SEO: Optimized title with local name first
   const hasLocalName = place.name_local && place.name_local !== place.name_en
   const title = hasLocalName
-    ? `${place.name_local} (${place.name_en}) - ${cityName} Travel Guide`
-    : `${place.name_en} - ${cityName} Travel Guide`
+    ? `${place.name_local} (${place.name_en}) - ${cityName} ${seoStrings.travelGuide}`
+    : `${place.name_en} - ${cityName} ${seoStrings.travelGuide}`
 
   // Extract description safely
   const desc = place.description
@@ -73,6 +90,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description,
       images: [place.image || '/images/placeholder.jpg'],
       url: `https://citybasic.com/${lang}/city/${citySlug}/${placeSlug}`,
+      locale: lang === 'en' ? 'en_US'
+        : lang === 'fr' ? 'fr_FR'
+        : lang === 'es' ? 'es_ES'
+        : lang === 'de' ? 'de_DE'
+        : lang === 'it' ? 'it_IT'
+        : lang === 'ja' ? 'ja_JP'
+        : lang === 'hi' ? 'hi_IN'
+        : lang === 'ar' ? 'ar_AR'
+        : lang === 'zh' ? 'zh_CN'
+        : 'en_US',
     },
     twitter: {
       card: 'summary_large_image',
@@ -95,22 +122,20 @@ export default async function PlacePage({ params }: PageProps) {
   const desc = place.description;
 
   // 🛡️ MASTER AI CRASH PROTECTION
-  // Determine the display text safely. Never return an object.
   const shortDesc = typeof desc === 'object' 
-    ? (desc.short || desc.intro || '') // If object, get string or empty
-    : (desc || ''); // If string, use it. If null, empty.
+    ? (desc.short || desc.intro || '') 
+    : (desc || '');
 
   const historyText = typeof desc === 'object' ? desc.history : null;
   const insiderTip = typeof desc === 'object' ? desc.insider_tip : null;
 
   // 🛡️ DATA FALLBACKS
-  // Check 'place' first, then 'desc' (some data structures vary)
   const price = place.price_level || (typeof desc === 'object' ? desc.price_level : null);
   const vibe = place.vibe || (typeof desc === 'object' ? desc.vibe : null);
   const duration = place.duration || (typeof desc === 'object' ? desc.duration : null);
   const goodFor = place.good_for?.[0] || (typeof desc === 'object' ? desc.good_for?.[0] : null);
 
-  // 🎯 SEO: JSON-LD Structured Data for Google
+  // 🎯 SEO: JSON-LD Structured Data
   const isRestaurant = place.category === 'food' || place.category === 'restaurant';
   const structuredData = {
     '@context': 'https://schema.org',
@@ -120,38 +145,22 @@ export default async function PlacePage({ params }: PageProps) {
     description: shortDesc,
     image: place.image,
     url: `https://citybasic.com/${lang}/city/${citySlug}/${placeSlug}`,
+    inLanguage: lang,
     ...(isRestaurant
-      ? {
-          servesCuisine: data.cityName,
-          priceRange: price || undefined,
-        }
-      : {
-          touristType: goodFor || undefined,
-        }),
+      ? { servesCuisine: data.cityName, priceRange: price || undefined }
+      : { touristType: goodFor || undefined }),
     ...(place.geo?.lat && place.geo?.lng
       ? {
-          geo: {
-            '@type': 'GeoCoordinates',
-            latitude: place.geo.lat,
-            longitude: place.geo.lng,
-          },
-          hasMap: `https://www.google.com/maps?q=${place.geo.lat},${place.geo.lng}`,
+          geo: { '@type': 'GeoCoordinates', latitude: place.geo.lat, longitude: place.geo.lng },
+          hasMap: `https://www.google.com/maps?q=$${place.geo.lat},${place.geo.lng}`,
         }
       : {}),
-    containedInPlace: {
-      '@type': 'City',
-      name: data.cityName,
-    },
+    containedInPlace: { '@type': 'City', name: data.cityName },
   }
 
   return (
-    <main className={`min-h-screen bg-slate-50 dark:bg-slate-950 pb-24 ${cityFontClass}`}>
-      {/* 🎯 SEO: Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
-      {/* Sleek Breadcrumb */}
+    <main className={`min-h-screen bg-slate-50 dark:bg-slate-950 pb-24 ${cityFontClass}`} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <nav className="sticky top-0 z-50 bg-white/90 dark:bg-slate-900/90 backdrop-blur-lg border-b border-slate-200 dark:border-slate-800">
         <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href={`/${lang}/city/${citySlug}`} className="group flex items-center gap-2 text-xs font-black uppercase tracking-widest text-indigo-600 dark:text-indigo-400">
@@ -165,37 +174,21 @@ export default async function PlacePage({ params }: PageProps) {
       </nav>
 
       <article className="max-w-5xl mx-auto px-6 mt-8">
-        {/* Cinematic Wide Image */}
         <div className="relative aspect-[21/9] rounded-[3rem] overflow-hidden shadow-2xl mb-12 group border-4 border-white dark:border-slate-800">
-          <Image 
-            src={place.image || '/images/placeholder.jpg'} 
-            alt={place.name_en || 'Place Image'} 
-            fill 
-            className="object-cover transition-transform duration-700 group-hover:scale-105" 
-            priority 
-          />
+          <Image src={place.image || '/images/placeholder.jpg'} alt={place.name_en || 'Place Image'} fill className="object-cover transition-transform duration-700 group-hover:scale-105" priority />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
         </div>
 
-        {/* Refined Header */}
         <header className="mb-12">
           <div className="flex flex-col gap-2">
-            {/* Local name check: Ensure it's a string and different from EN */}
             {typeof place.name_local === 'string' && place.name_local !== place.name_en && (
-              <span className="text-2xl font-black uppercase tracking-[0.3em] text-indigo-500 mb-2">
-                {place.name_local}
-              </span>
+              <span className="text-2xl font-black uppercase tracking-[0.3em] text-indigo-500 mb-2">{place.name_local}</span>
             )}
-            <h1 className="text-4xl md:text-6xl font-black text-slate-900 dark:text-white leading-[0.9] tracking-tighter mb-6">
-              {place.name_en}
-            </h1>
+            <h1 className="text-4xl md:text-6xl font-black text-slate-900 dark:text-white leading-[0.9] tracking-tighter mb-6">{place.name_en}</h1>
           </div>
-          <p className="text-2xl md:text-3xl text-slate-600 dark:text-slate-400 font-light max-w-4xl leading-relaxed italic">
-            "{shortDesc}"
-          </p>
+          <p className="text-2xl md:text-3xl text-slate-600 dark:text-slate-400 font-light max-w-4xl leading-relaxed italic">"{shortDesc}"</p>
         </header>
 
-        {/* ✅ HIGH SATURATION TILES WITH LOCALIZED LABELS */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
           {[
             { icon: DollarSign, color: 'text-emerald-600', bg: 'bg-emerald-500/10 dark:bg-emerald-500/20', label: dict.logistics || 'Cost', val: price },
@@ -223,9 +216,7 @@ export default async function PlacePage({ params }: PageProps) {
 
           {insiderTip && (
             <div className="bg-indigo-600 p-10 md:p-12 rounded-[2rem] text-white shadow-2xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 p-12 opacity-10">
-                <Star className="w-32 h-32" />
-              </div>
+              <div className="absolute top-0 right-0 p-12 opacity-10"><Star className="w-32 h-32" /></div>
               <h3 className="relative flex items-center gap-2 text-sm font-black uppercase tracking-widest text-indigo-200 mb-6">
                 <Star className="w-5 h-5 fill-current" /> {dict.local_secret || "Local Secret"}
               </h3>
