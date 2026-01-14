@@ -1,184 +1,74 @@
 const fs = require('fs');
 const path = require('path');
 
-// ============================================================================
-// 🚀 DYNAMIC SITEMAP GENERATOR
-// Automatically scans src/data/cities for all cities and their places
-// ============================================================================
+// 1. Define your Production Domain (No trailing slash)
+const DOMAIN = 'https://citybasic.com';
 
-const BASE_URL = 'https://citybasic.com';
-const locales = ['en', 'fr', 'es', 'it', 'ja', 'hi', 'de', 'zh', 'ar'];
+// 2. Define ALL 9 Supported Languages
+const LANGUAGES = ['en', 'fr', 'es', 'it', 'ja', 'hi', 'de', 'ar', 'zh'];
 
-// Static pages (Home, About, etc.)
-const staticPaths = [
-  '', // Homepage
-  '/about',
-  '/contact',
-  '/privacy',
-  '/terms',
-  '/how-to-use',
-  '/corrections'
-];
+// 3. Define Paths
+const CITIES_DIR = path.join(__dirname, '../src/data/cities');
+const PUBLIC_DIR = path.join(__dirname, '../public');
 
-/**
- * Scan the cities directory and extract all city slugs
- * Filters out localized versions (e.g., paris-fr.json)
- */
-function getAllCities() {
-  const citiesDir = path.join(__dirname, '..', 'src', 'data', 'cities');
+async function generateSitemap() {
+  let urls = [];
 
-  try {
-    const files = fs.readdirSync(citiesDir);
+  // A. Add Homepages (e.g., /en, /fr, /ja)
+  console.log('🔍 Scanning Languages...');
+  LANGUAGES.forEach(lang => {
+    urls.push(`${DOMAIN}/${lang}`);
+  });
 
-    // Get all English city files (base files without language suffix)
-    const cities = files
-      .filter(file => file.endsWith('.json') && !/-\w{2}\.json$/.test(file))
-      .map(file => file.replace('.json', ''));
+  // B. Add City & Place Pages
+  console.log('🔍 Scanning Cities...');
+  const files = fs.readdirSync(CITIES_DIR);
 
-    console.log(`📍 Found ${cities.length} cities: ${cities.join(', ')}`);
-    return cities;
-  } catch (error) {
-    console.error('❌ Error reading cities directory:', error);
-    return [];
-  }
-}
+  files.forEach(file => {
+    if (file.endsWith('.json') && !file.includes('-')) { // Only process root files (paris.json), not translations
+      const content = JSON.parse(fs.readFileSync(path.join(CITIES_DIR, file), 'utf8'));
+      const citySlug = content.slug;
 
-/**
- * Get all places for a specific city by reading its JSON file
- */
-function getCityPlaces(citySlug) {
-  const cityFilePath = path.join(__dirname, '..', 'src', 'data', 'cities', `${citySlug}.json`);
+      // Loop through ALL languages for this city
+      LANGUAGES.forEach(lang => {
+        // 1. Add City URL (e.g., /fr/city/paris)
+        urls.push(`${DOMAIN}/${lang}/city/${citySlug}`);
 
-  try {
-    const cityData = JSON.parse(fs.readFileSync(cityFilePath, 'utf-8'));
-    const places = [];
+        // 2. Add "Must See" Items
+        if (content.must_see) {
+          content.must_see.forEach(category => {
+            category.items.forEach(place => {
+              urls.push(`${DOMAIN}/${lang}/city/${citySlug}/${place.slug}`);
+            });
+          });
+        }
 
-    // Extract places from must_see
-    if (cityData.must_see && Array.isArray(cityData.must_see)) {
-      cityData.must_see.forEach(section => {
-        if (section.items && Array.isArray(section.items)) {
-          section.items.forEach(place => {
-            if (place.slug) {
-              places.push(place.slug);
-            }
+        // 3. Add "Must Eat" Items
+        if (content.must_eat) {
+          content.must_eat.forEach(place => {
+            urls.push(`${DOMAIN}/${lang}/city/${citySlug}/${place.slug}`);
           });
         }
       });
     }
+  });
 
-    // Extract places from must_eat
-    if (cityData.must_eat && Array.isArray(cityData.must_eat)) {
-      cityData.must_eat.forEach(place => {
-        if (place.slug) {
-          places.push(place.slug);
-        }
-      });
-    }
-
-    return places;
-  } catch (error) {
-    console.warn(`⚠️  Could not read places for ${citySlug}:`, error.message);
-    return [];
-  }
-}
-
-/**
- * Generate complete sitemap with all pages
- */
-function generateSitemap() {
-  console.log('🗺️  Starting sitemap generation...\n');
-
-  let xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`;
-
-  let urlCount = 0;
-
-  // ========================================
-  // 1. Static Pages (Home, About, etc.)
-  // ========================================
-  console.log('📄 Generating static pages...');
-  staticPaths.forEach(route => {
-    locales.forEach(lang => {
-      xml += `
-  <url>
-    <loc>${BASE_URL}/${lang}${route}</loc>
+  // C. Build XML
+  console.log(`✅ Generated ${urls.length} URLs across ${LANGUAGES.length} languages.`);
+  
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls.map(url => `  <url>
+    <loc>${url}</loc>
+    <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>${route === '' ? '1.0' : '0.8'}</priority>
-  </url>`;
-      urlCount++;
-    });
-  });
-  console.log(`   ✅ Added ${staticPaths.length * locales.length} static URLs\n`);
-
-  // ========================================
-  // 2. City Pages (Dynamically Scanned)
-  // ========================================
-  console.log('🌆 Generating city pages...');
-  const cities = getAllCities();
-
-  cities.forEach(citySlug => {
-    locales.forEach(lang => {
-      xml += `
-  <url>
-    <loc>${BASE_URL}/${lang}/city/${citySlug}</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>`;
-      urlCount++;
-    });
-  });
-  console.log(`   ✅ Added ${cities.length * locales.length} city URLs\n`);
-
-  // ========================================
-  // 3. Place Pages (Within Each City)
-  // ========================================
-  console.log('🏛️  Generating place pages...');
-  let totalPlaces = 0;
-
-  cities.forEach(citySlug => {
-    const places = getCityPlaces(citySlug);
-
-    if (places.length > 0) {
-      console.log(`   📍 ${citySlug}: ${places.length} places`);
-
-      places.forEach(placeSlug => {
-        locales.forEach(lang => {
-          xml += `
-  <url>
-    <loc>${BASE_URL}/${lang}/city/${citySlug}/${placeSlug}</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>`;
-          urlCount++;
-          totalPlaces++;
-        });
-      });
-    }
-  });
-  console.log(`   ✅ Added ${totalPlaces * locales.length} place URLs\n`);
-
-  xml += `
+    <priority>${url.split('/').length > 4 ? '0.8' : '1.0'}</priority>
+  </url>`).join('\n')}
 </urlset>`;
 
-  // ========================================
-  // 4. Write to File
-  // ========================================
-  const publicDir = path.join(__dirname, '..', 'public');
-  const sitemapPath = path.join(publicDir, 'sitemap.xml');
-
-  // Ensure public directory exists
-  if (!fs.existsSync(publicDir)) {
-    fs.mkdirSync(publicDir, { recursive: true });
-  }
-
-  fs.writeFileSync(sitemapPath, xml);
-
-  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-  console.log(`✅ Sitemap generated successfully!`);
-  console.log(`📊 Total URLs: ${urlCount}`);
-  console.log(`📁 Location: ${sitemapPath}`);
-  console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
+  // D. Write to Public Folder
+  fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap.xml'), sitemap);
+  console.log('🚀 Sitemap written to public/sitemap.xml');
 }
 
-// Run the generator
 generateSitemap();
