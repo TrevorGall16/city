@@ -44,6 +44,19 @@ export const metadata: Metadata = {
     google: 'rFFpomnX_REM4YyHzqaM9x5fP3fygbI2clEJ31zFtpA',
   },
   manifest: '/site.webmanifest',
+
+  // 👇 PASTE THIS SECTION HERE 👇
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: [
+      { url: '/apple-icon.png' },
+    ],
+  },
+  // 👆 END OF NEW SECTION 👆
 }
 
 export default async function RootLayout({
