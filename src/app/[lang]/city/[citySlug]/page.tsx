@@ -139,6 +139,20 @@
     return {
       title: pageTitle,
       description: description.slice(0, 160), // SEO best practice: 160 char limit
+      alternates: {
+    canonical: `https://citybasic.com/${lang}/city/${citySlug}`,
+    languages: {
+      'en': `https://citybasic.com/en/city/${citySlug}`,
+      'fr': `https://citybasic.com/fr/city/${citySlug}`,
+      'es': `https://citybasic.com/es/city/${citySlug}`,
+      'it': `https://citybasic.com/it/city/${citySlug}`,
+      'ja': `https://citybasic.com/ja/city/${citySlug}`,
+      'hi': `https://citybasic.com/hi/city/${citySlug}`,
+      'de': `https://citybasic.com/de/city/${citySlug}`,
+      'zh': `https://citybasic.com/zh/city/${citySlug}`,
+      'ar': `https://citybasic.com/ar/city/${citySlug}`,
+    },
+  },
       openGraph: {
         title: ogTitle,
         description: description.slice(0, 160),

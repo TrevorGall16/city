@@ -85,6 +85,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title,
     description,
+    alternates: {
+      canonical: `https://citybasic.com/${lang}/city/${citySlug}/${placeSlug}`,
+      languages: {
+        'en': `https://citybasic.com/en/city/${citySlug}/${placeSlug}`,
+        'fr': `https://citybasic.com/fr/city/${citySlug}/${placeSlug}`,
+        'es': `https://citybasic.com/es/city/${citySlug}/${placeSlug}`,
+        'it': `https://citybasic.com/it/city/${citySlug}/${placeSlug}`,
+        'ja': `https://citybasic.com/ja/city/${citySlug}/${placeSlug}`,
+        'hi': `https://citybasic.com/hi/city/${citySlug}/${placeSlug}`,
+        'de': `https://citybasic.com/de/city/${citySlug}/${placeSlug}`,
+        'zh': `https://citybasic.com/zh/city/${citySlug}/${placeSlug}`,
+        'ar': `https://citybasic.com/ar/city/${citySlug}/${placeSlug}`,
+      },
+    },
     openGraph: {
       title,
       description,
