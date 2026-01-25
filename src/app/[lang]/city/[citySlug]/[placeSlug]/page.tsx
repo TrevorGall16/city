@@ -15,18 +15,18 @@ import { getCityFont } from '@/lib/fonts/cityFonts'
 import { Clock, DollarSign, Zap, Star, MapPin, ArrowLeft } from 'lucide-react'
 import { CommentThread } from '@/components/features/CommentThread'
 import type { Metadata } from 'next'
+import { EnhancedPlaceCard } from '@/components/features/EnhancedPlaceCard'
 
-// 🌍 SEO TRANSLATION DICTIONARY (9 Languages)
 const SEO_DICTIONARY = {
-  en: { travelGuide: 'Travel Guide' },
-  fr: { travelGuide: 'Guide de Voyage' },
-  ja: { travelGuide: '旅行ガイド' },
-  ar: { travelGuide: 'دليل السفر' },
-  hi: { travelGuide: 'यात्रा गाइड' },
-  es: { travelGuide: 'Guía de Viaje' },
-  de: { travelGuide: 'Reiseführer' },
-  it: { travelGuide: 'Guida di Viaggio' },
-  zh: { travelGuide: '旅行指南' }, // ✅ Chinese Added
+  en: { travelGuide: 'Travel Guide', similar: 'You Might Also Like' },
+  fr: { travelGuide: 'Guide de Voyage', similar: 'Vous Aimerez Aussi' },
+  ja: { travelGuide: '旅行ガイド', similar: 'こちらもおすすめ' },
+  ar: { travelGuide: 'دليل السفر', similar: 'قد يعجبك ايضا' },
+  hi: { travelGuide: 'यात्रा गाइड', similar: 'आपको यह भी पसंद आ सकता है' },
+  es: { travelGuide: 'Guía de Viaje', similar: 'También te puede gustar' },
+  de: { travelGuide: 'Reiseführer', similar: 'Das könnte dir auch gefallen' },
+  it: { travelGuide: 'Guida di Viaggio', similar: 'Potrebbe Piacerti Anche' },
+  zh: { travelGuide: '旅行指南', similar: '你可能也喜欢' },
 } as const
 
 type SupportedLang = keyof typeof SEO_DICTIONARY
@@ -37,7 +37,6 @@ interface PageProps {
 
 async function getPlaceData(citySlug: string, placeSlug: string, lang: string) {
   try {
-    // 🎯 Fallback logic: If localized file missing, try English
     const fileName = lang === 'en' ? `${citySlug}.json` : `${citySlug}-${lang}.json`;
     const filePath = path.join(process.cwd(), 'src/data/cities', fileName);
 
@@ -52,10 +51,16 @@ async function getPlaceData(citySlug: string, placeSlug: string, lang: string) {
     const city = JSON.parse(fileContent);
     const allPlaces = [...(city.must_see?.flatMap((g: any) => g.items) || []), ...(city.must_eat || [])];
     const place = allPlaces.find((p: any) => p.slug === placeSlug);
-    return place ? { place, cityName: city.name } : null;
+
+    // 🕸️ TRAFFIC ENGINE: Find 3 Similar Places
+    // Logic: Same category, excluding current place
+    const similarPlaces = allPlaces
+      .filter((p: any) => p.slug !== placeSlug && p.category === place.category)
+      .slice(0, 3);
+
+    return place ? { place, cityName: city.name, similarPlaces } : null;
   } catch { return null; }
 }
-
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { lang, citySlug, placeSlug } = await params
   const data = await getPlaceData(citySlug, placeSlug, lang)
@@ -237,7 +242,24 @@ export default async function PlacePage({ params }: PageProps) {
               <p className="relative text-2xl md:text-3xl font-bold leading-tight">"{insiderTip}"</p>
             </div>
           )}
-
+{data.similarPlaces && data.similarPlaces.length > 0 && (
+            <section className="py-16 border-t border-slate-200 dark:border-slate-800 mb-12">
+              <h3 className="text-2xl font-black uppercase mb-8 text-slate-900 dark:text-white tracking-tight">
+                {SEO_DICTIONARY[lang as SupportedLang]?.similar || 'You Might Also Like'}
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                {data.similarPlaces.map((item: any) => (
+                  <EnhancedPlaceCard 
+                    key={item.slug} 
+                    place={item} 
+                    citySlug={citySlug} 
+                    lang={lang} 
+                    dict={dict} 
+                  />
+                ))}
+              </div>
+            </section>
+          )}
           <div className="mt-20 pt-16 border-t border-slate-200 dark:border-slate-800">
             <h3 className="text-2xl font-black uppercase mb-8 text-slate-900 dark:text-white">{dict.discussion_tips || "Discussion & Tips"}</h3>
             <CommentThread citySlug={citySlug} placeSlug={placeSlug} dict={dict} />
