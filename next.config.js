@@ -4,7 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
   compress: true,
 
-  // ⚡ MASTER AI: IMAGE OPTIMIZATION (Kept)
+  // ⚡ MASTER AI: IMAGE OPTIMIZATION
   images: {
     dangerouslyAllowSVG: true,
     formats: ['image/webp', 'image/avif'],
@@ -12,13 +12,11 @@ const nextConfig = {
       { protocol: 'https', hostname: 'images.unsplash.com' },
       { protocol: 'https', hostname: '**.supabase.co' },
     ],
-    // Responsive sizes for mobile performance
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
 
-  // 🛡️ MASTER AI: SAFETY LOCK (REQUIRED)
-  // Keeps the build from crashing on Netlify's limited memory.
+  // 🛡️ MASTER AI: SAFETY LOCK
   experimental: {
     cpus: 1,
     workerThreads: false,
@@ -36,6 +34,20 @@ const nextConfig = {
           },
         ],
       },
+      // 👇 ADDED: Force XML Content-Type for sitemaps to please Google
+      {
+        source: '/:path*.xml',
+        headers: [
+          {
+            key: 'Content-Type',
+            value: 'application/xml',
+          },
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=3600, must-revalidate',
+          },
+        ],
+      },
       {
         source: '/fonts/:path*',
         headers: [
@@ -48,30 +60,22 @@ const nextConfig = {
     ]
   },
   
-  // 🗺️ SITEMAP REWRITE
-  async rewrites() {
-    return [
-      { source: '/sitemap.xml', destination: '/api/sitemap' },
-    ]
-  },
+  // 🗑️ REMOVED: Rewrites (We are using static files now)
 
   // 🔗 LEGACY REDIRECTS
   async redirects() {
     return [
       {
-        // City + Slug Redirect (Includes new cities)
         source: '/:city(bangkok|berlin|istanbul|london|paris|rome|tokyo|new-york|los-angeles|rio-de-janeiro|hong-kong)/:slug',
         destination: '/en/city/:city/:slug',
         permanent: true,
       },
       {
-        // City Root Redirect
         source: '/:city(bangkok|berlin|istanbul|london|paris|rome|tokyo|new-york|los-angeles|rio-de-janeiro|hong-kong)',
         destination: '/en/city/:city',
         permanent: true,
       },
       {
-         // Generic catch-all
          source: '/city/:path*',
          destination: '/en/city/:path*',
          permanent: true,
