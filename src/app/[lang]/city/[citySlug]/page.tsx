@@ -272,13 +272,44 @@
       ].filter(Boolean).slice(0, 10),
     }
 
+    // 🎯 SEO: FAQPage Schema for "Zero-Click" Rich Results
+    const logisticsItems = Array.isArray(city.logistics) ? city.logistics : [];
+    const faqSchema = logisticsItems.length > 0 ? {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: logisticsItems.map((item: any) => {
+        // Build answer: summary + first 2 detail points
+        const details = Array.isArray(item.details) ? item.details.slice(0, 2) : [];
+        const answerText = [
+          item.summary || '',
+          ...details
+        ].filter(Boolean).join(' ');
+
+        return {
+          '@type': 'Question',
+          name: `${item.title} in ${city.name}`,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: answerText,
+          },
+        };
+      }),
+    } : null;
+
     return (
       <div className={cityFontClass} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
-        {/* 🎯 SEO Injection */}
+        {/* 🎯 SEO Injection: TravelGuide Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
+        {/* 🎯 SEO Injection: FAQPage Schema for Zero-Click */}
+        {faqSchema && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+          />
+        )}
 
         <main className="min-h-screen bg-slate-50 dark:bg-slate-950 pb-20">
           <CityNavigation lang={lang} dict={dict} />
