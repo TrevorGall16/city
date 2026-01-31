@@ -7,6 +7,7 @@
 
   import { notFound } from 'next/navigation'
   import Image from 'next/image'
+  import Link from 'next/link'
   import { promises as fs } from 'fs'
   import path from 'path'
   import type { City } from '@/types'
@@ -35,46 +36,64 @@
       travelGuide: 'Travel Guide',
       topSightsInclude: 'Top sights include',
       and: 'and',
+      viewAllSights: 'View All Sights',
+      viewAllFood: 'View All Food',
     },
     fr: {
       travelGuide: 'Guide de Voyage',
       topSightsInclude: 'Les sites incontournables incluent',
       and: 'et',
+      viewAllSights: 'Voir Toutes les Attractions',
+      viewAllFood: 'Voir Toute la Cuisine',
     },
     ja: {
       travelGuide: '旅行ガイド',
       topSightsInclude: '主な観光スポット',
       and: 'と',
+      viewAllSights: 'すべての観光スポット',
+      viewAllFood: 'すべてのグルメ',
     },
     ar: {
       travelGuide: 'دليل السفر',
       topSightsInclude: 'تشمل أهم المعالم',
       and: 'و',
+      viewAllSights: 'عرض جميع المعالم',
+      viewAllFood: 'عرض جميع الأطعمة',
     },
     hi: {
       travelGuide: 'यात्रा गाइड',
       topSightsInclude: 'शीर्ष दर्शनीय स्थलों में शामिल हैं',
       and: 'और',
+      viewAllSights: 'सभी आकर्षण देखें',
+      viewAllFood: 'सभी भोजन देखें',
     },
     es: {
       travelGuide: 'Guía de Viaje',
       topSightsInclude: 'Los lugares principales incluyen',
       and: 'y',
+      viewAllSights: 'Ver Todas las Atracciones',
+      viewAllFood: 'Ver Toda la Comida',
     },
     de: {
       travelGuide: 'Reiseführer',
       topSightsInclude: 'Top-Sehenswürdigkeiten sind',
       and: 'und',
+      viewAllSights: 'Alle Sehenswürdigkeiten',
+      viewAllFood: 'Alle Gerichte',
     },
     zh: {
       travelGuide: '旅游指南',
       topSightsInclude: '热门景点包括',
       and: '和',
+      viewAllSights: '查看所有景点',
+      viewAllFood: '查看所有美食',
     },
     it: {
       travelGuide: 'Guida di Viaggio',
       topSightsInclude: 'I siti principali includono',
       and: 'e',
+      viewAllSights: 'Vedi Tutte le Attrazioni',
+      viewAllFood: 'Vedi Tutto il Cibo',
     },
   } as const
 
@@ -175,6 +194,8 @@
 
     const city = await getCityData(citySlug, lang);
     const dict = getDict(lang);
+    const seoLang = (lang in SEO_DICTIONARY ? lang : 'en') as SupportedLang;
+    const seoStrings = SEO_DICTIONARY[seoLang];
 
     if (!city) notFound()
 
@@ -336,6 +357,17 @@
              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                {renderPlacesWithAds(city.must_see?.flatMap((g: any) => g.items) || [], dict)}
              </div>
+             <div className="mt-12 text-center">
+               <Link
+                 href={`/${lang}/city/${citySlug}/lists/sights`}
+                 className="inline-flex items-center gap-2 px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-full transition-all hover:scale-105 shadow-lg hover:shadow-xl"
+               >
+                 {seoStrings.viewAllSights}
+                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                 </svg>
+               </Link>
+             </div>
           </section>
 
           {/* 7. Travel Essentials (Affiliates) */}
@@ -354,6 +386,17 @@
              <div className="mb-12"><SectionHeader title={dict.must_eat} countryCode={city.country_code as any} /></div>
              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                {renderPlacesWithAds(city.must_eat || [], dict)}
+             </div>
+             <div className="mt-12 text-center">
+               <Link
+                 href={`/${lang}/city/${citySlug}/lists/food`}
+                 className="inline-flex items-center gap-2 px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-full transition-all hover:scale-105 shadow-lg hover:shadow-xl"
+               >
+                 {seoStrings.viewAllFood}
+                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                 </svg>
+               </Link>
              </div>
           </section>
 

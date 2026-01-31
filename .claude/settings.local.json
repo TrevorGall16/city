@@ -4,7 +4,9 @@
       "Bash(cat:*)",
       "Bash(npm install:*)",
       "Bash(node -e:*)",
-      "Bash(node check-slugs.js:*)"
+      "Bash(node check-slugs.js:*)",
+      "Bash(ls:*)",
+      "Bash(npx tsc:*)"
     ]
   }
 }

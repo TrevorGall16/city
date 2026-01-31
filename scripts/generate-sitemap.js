@@ -82,6 +82,16 @@ function generateSitemap() {
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>${imageTag}
   </url>`);
+
+      // Collection Pages (SEO Hub Pages)
+      ['food', 'sights'].forEach(category => {
+        mainUrls.push(`
+  <url>
+    <loc>${BASE_URL}/${lang}/city/${city.slug}/lists/${category}</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>`);
+      });
     });
   });
 
