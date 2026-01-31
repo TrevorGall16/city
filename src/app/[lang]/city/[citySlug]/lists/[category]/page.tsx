@@ -8,10 +8,42 @@ import { notFound } from 'next/navigation'
 import { promises as fs } from 'fs'
 import path from 'path'
 import Link from 'next/link'
+import Image from 'next/image'
 import type { Metadata } from 'next'
 import type { City, Place } from '@/types'
 import { EnhancedPlaceCard } from '@/components/features/EnhancedPlaceCard'
 import { getDict } from '@/data/dictionaries'
+import AdsterraBanner from '@/components/ads/AdsterraBanner'
+import AdsterraSmartFrame from '@/components/ads/AdsterraSmartFrame'
+
+// ============================================================================
+// NATIVE AD PLACEHOLDER COMPONENT
+// ============================================================================
+function NativeAdPlaceholder({ label }: { label: string }) {
+  return (
+    <div className="bg-slate-100 dark:bg-slate-800/50 rounded-[2rem] overflow-hidden border border-slate-200 dark:border-slate-700 h-full flex flex-col">
+      {/* Image placeholder matching EnhancedPlaceCard aspect ratio */}
+      <div className="aspect-[16/10] relative bg-gradient-to-br from-slate-200 to-slate-300 dark:from-slate-700 dark:to-slate-800 flex items-center justify-center">
+        <div className="text-center">
+          <div className="w-12 h-12 mx-auto mb-3 rounded-full bg-slate-300 dark:bg-slate-600 flex items-center justify-center">
+            <svg className="w-6 h-6 text-slate-400 dark:text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+            </svg>
+          </div>
+          <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500">
+            {label}
+          </span>
+        </div>
+      </div>
+      {/* Content placeholder */}
+      <div className="p-6 flex-grow">
+        <div className="h-4 bg-slate-200 dark:bg-slate-700 rounded w-3/4 mb-3" />
+        <div className="h-3 bg-slate-200 dark:bg-slate-700 rounded w-full mb-2" />
+        <div className="h-3 bg-slate-200 dark:bg-slate-700 rounded w-2/3" />
+      </div>
+    </div>
+  )
+}
 
 // ============================================================================
 // LOCAL TRANSLATION DICTIONARY (Safety: Isolated from global dictionaries.ts)
@@ -25,6 +57,9 @@ const COLLECTION_DICT = {
     back_to_city: 'Back to City Guide',
     items_found: 'items',
     no_items: 'No items found',
+    sponsored: 'Sponsored',
+    explore_other_cities: 'Explore Other Cities',
+    view_guide: 'View Guide',
   },
   fr: {
     food_title: 'Meilleure Cuisine de',
@@ -34,6 +69,9 @@ const COLLECTION_DICT = {
     back_to_city: 'Retour au Guide',
     items_found: 'articles',
     no_items: 'Aucun article trouvé',
+    sponsored: 'Sponsorisé',
+    explore_other_cities: 'Explorer d\'Autres Villes',
+    view_guide: 'Voir le Guide',
   },
   es: {
     food_title: 'Mejor Comida en',
@@ -43,6 +81,9 @@ const COLLECTION_DICT = {
     back_to_city: 'Volver a la Guía',
     items_found: 'artículos',
     no_items: 'No se encontraron artículos',
+    sponsored: 'Patrocinado',
+    explore_other_cities: 'Explorar Otras Ciudades',
+    view_guide: 'Ver Guía',
   },
   it: {
     food_title: 'Miglior Cibo a',
@@ -52,6 +93,9 @@ const COLLECTION_DICT = {
     back_to_city: 'Torna alla Guida',
     items_found: 'articoli',
     no_items: 'Nessun articolo trovato',
+    sponsored: 'Sponsorizzato',
+    explore_other_cities: 'Esplora Altre Città',
+    view_guide: 'Vedi Guida',
   },
   de: {
     food_title: 'Bestes Essen in',
@@ -61,6 +105,9 @@ const COLLECTION_DICT = {
     back_to_city: 'Zurück zum Reiseführer',
     items_found: 'Einträge',
     no_items: 'Keine Einträge gefunden',
+    sponsored: 'Gesponsert',
+    explore_other_cities: 'Andere Städte Entdecken',
+    view_guide: 'Guide Ansehen',
   },
   ja: {
     food_title: 'おすすめグルメ',
@@ -70,6 +117,9 @@ const COLLECTION_DICT = {
     back_to_city: 'シティガイドに戻る',
     items_found: '件',
     no_items: 'アイテムが見つかりません',
+    sponsored: '広告',
+    explore_other_cities: '他の都市を探索',
+    view_guide: 'ガイドを見る',
   },
   zh: {
     food_title: '最佳美食',
@@ -79,6 +129,9 @@ const COLLECTION_DICT = {
     back_to_city: '返回城市指南',
     items_found: '个项目',
     no_items: '未找到项目',
+    sponsored: '赞助',
+    explore_other_cities: '探索其他城市',
+    view_guide: '查看指南',
   },
   hi: {
     food_title: 'सर्वश्रेष्ठ भोजन',
@@ -88,6 +141,9 @@ const COLLECTION_DICT = {
     back_to_city: 'सिटी गाइड पर वापस जाएं',
     items_found: 'आइटम',
     no_items: 'कोई आइटम नहीं मिला',
+    sponsored: 'प्रायोजित',
+    explore_other_cities: 'अन्य शहरों का अन्वेषण करें',
+    view_guide: 'गाइड देखें',
   },
   ar: {
     food_title: 'أفضل الأطعمة في',
@@ -97,6 +153,9 @@ const COLLECTION_DICT = {
     back_to_city: 'العودة إلى دليل المدينة',
     items_found: 'عنصر',
     no_items: 'لم يتم العثور على عناصر',
+    sponsored: 'إعلان',
+    explore_other_cities: 'استكشاف مدن أخرى',
+    view_guide: 'عرض الدليل',
   },
 } as const
 
@@ -146,6 +205,36 @@ function getCollectionItems(city: City, category: ValidCategory): Place[] {
 
 function isValidCategory(category: string): category is ValidCategory {
   return VALID_CATEGORIES.includes(category as ValidCategory)
+}
+
+async function getOtherCities(currentSlug: string, limit: number = 6): Promise<Array<{ slug: string; name: string; hero_image: string }>> {
+  const citiesDir = path.join(process.cwd(), 'src/data/cities')
+  try {
+    const files = await fs.readdir(citiesDir)
+    const cityFiles = files.filter(f => f.endsWith('.json') && !/-\w{2}\.json$/.test(f))
+
+    const cities: Array<{ slug: string; name: string; hero_image: string }> = []
+
+    for (const file of cityFiles) {
+      const slug = file.replace('.json', '')
+      if (slug === currentSlug) continue
+
+      try {
+        const content = await fs.readFile(path.join(citiesDir, file), 'utf8')
+        const data = JSON.parse(content)
+        cities.push({
+          slug: data.slug || slug,
+          name: data.name || slug,
+          hero_image: data.hero_image || '',
+        })
+      } catch { /* skip invalid files */ }
+    }
+
+    // Shuffle and return limited results
+    return cities.sort(() => Math.random() - 0.5).slice(0, limit)
+  } catch {
+    return []
+  }
 }
 
 // ============================================================================
@@ -246,6 +335,9 @@ export default async function CollectionPage({ params }: PageProps) {
   const dictLang = (lang in COLLECTION_DICT ? lang : 'en') as SupportedLang
   const localDict = COLLECTION_DICT[dictLang]
 
+  // Get other cities for cross-linking
+  const otherCities = await getOtherCities(citySlug, 6)
+
   // Build page title
   const isAsianLang = ['ja', 'zh', 'hi', 'ar'].includes(lang)
   const titlePrefix = category === 'food' ? localDict.food_title : localDict.sights_title
@@ -254,6 +346,18 @@ export default async function CollectionPage({ params }: PageProps) {
     : `${titlePrefix} ${city.name}`
 
   const isRTL = lang === 'ar'
+
+  // Build grid items with ad placeholders after every 6th item
+  const gridItems: Array<{ type: 'place'; data: Place } | { type: 'ad'; id: number }> = []
+  let adCount = 0
+  items.forEach((item, index) => {
+    gridItems.push({ type: 'place', data: item })
+    // Insert ad after every 6th item (positions 6, 12, 18, etc.)
+    if ((index + 1) % 6 === 0 && index < items.length - 1) {
+      adCount++
+      gridItems.push({ type: 'ad', id: adCount })
+    }
+  })
 
   return (
     <main
@@ -296,20 +400,80 @@ export default async function CollectionPage({ params }: PageProps) {
         </div>
       </div>
 
-      {/* Items Grid */}
+      {/* Items Grid with Native Ads */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-          {items.map((item: Place) => (
-            <EnhancedPlaceCard
-              key={item.slug}
-              place={item}
-              citySlug={citySlug}
-              lang={lang}
-              dict={dict}
+          {gridItems.map((gridItem, index) =>
+            gridItem.type === 'place' ? (
+              <EnhancedPlaceCard
+                key={gridItem.data.slug}
+                place={gridItem.data}
+                citySlug={citySlug}
+                lang={lang}
+                dict={dict}
+              />
+            ) : (
+  /* 👇 THIS IS THE NEW PART (Replaces NativeAdPlaceholder) */
+              <div 
+                key={`ad-${gridItem.id}`} 
+                className="flex flex-col justify-center items-center bg-slate-100 dark:bg-slate-800/50 rounded-[2rem] border border-slate-200 dark:border-slate-700 h-full min-h-[300px]"
+              >
+                <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500 mb-4">
+                  {localDict.sponsored}
+                </span>
+{/* 👇 USE THE NEW SMART FRAME */}
+            <AdsterraSmartFrame
+              height={250}
+              width={300}
+              pKey="81531fc7e6a8cf5cc6de9e368b8f2c11"
             />
-          ))}
+          </div>
+              /* 👆 END OF NEW PART */
+            )
+          )}
         </div>
       </div>
+
+      {/* Explore Other Cities Section */}
+      {otherCities.length > 0 && (
+        <section className="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white mb-8">
+              {localDict.explore_other_cities}
+            </h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+              {otherCities.map((otherCity) => (
+                <Link
+                  key={otherCity.slug}
+                  href={`/${lang}/city/${otherCity.slug}`}
+                  className="group relative overflow-hidden rounded-2xl aspect-[4/3] bg-slate-100 dark:bg-slate-800"
+                >
+                  {otherCity.hero_image && (
+                    <Image
+                      src={otherCity.hero_image}
+                      alt={otherCity.name}
+                      fill
+                      className="object-cover group-hover:scale-110 transition-transform duration-500"
+                      sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 16vw"
+                    />
+                  )}
+                  {/* Gradient Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                  {/* City Name */}
+                  <div className="absolute inset-0 flex flex-col items-center justify-end p-3 text-center">
+                    <span className="text-white font-bold text-sm sm:text-base drop-shadow-lg">
+                      {otherCity.name}
+                    </span>
+                    <span className="text-white/80 text-[10px] uppercase tracking-wider mt-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                      {localDict.view_guide}
+                    </span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
     </main>
   )
 }

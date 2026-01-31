@@ -47,8 +47,7 @@ export default function AdsterraBanner({ height, width, pKey }: AdsterraBannerPr
 
     script.type = 'text/javascript'
     // 🔒 SECURITY: Use sanitized key in URL
-    script.src = `//www.highperformanceformat.com/${encodeURIComponent(sanitizedKey)}/invoke.js`
-
+script.src = `//www.repelaffinityworlds.com/${encodeURIComponent(sanitizedKey)}/invoke.js`
     bannerRef.current.append(conf)
     bannerRef.current.append(script)
   }, [pKey, height, width])
