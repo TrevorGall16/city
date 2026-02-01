@@ -52,8 +52,16 @@ const COLLECTION_DICT = {
   en: {
     food_title: 'Best Food in',
     sights_title: 'Top Sights in',
+    coffee_title: 'Best Coffee & Cafes in',
+    bakeries_title: 'Best Bakeries & Sweets in',
+    stay_title: 'Where to Stay in',
+    cheap_eats_title: 'Best Cheap Eats in',
     food_description: 'Discover the must-eat dishes and local favorites in',
     sights_description: 'Explore the top attractions and must-see places in',
+    coffee_description: 'Find the best coffee shops and cozy cafes in',
+    bakeries_description: 'Discover the best bakeries, pastries and sweet treats in',
+    stay_description: 'Find the best hotels, hostels and accommodations in',
+    cheap_eats_description: 'Discover budget-friendly dining and street food in',
     back_to_city: 'Back to City Guide',
     items_found: 'items',
     no_items: 'No items found',
@@ -64,8 +72,16 @@ const COLLECTION_DICT = {
   fr: {
     food_title: 'Meilleure Cuisine de',
     sights_title: 'Meilleures Attractions de',
+    coffee_title: 'Meilleurs Cafés de',
+    bakeries_title: 'Meilleures Boulangeries de',
+    stay_title: 'Où Dormir à',
+    cheap_eats_title: 'Manger Pas Cher à',
     food_description: 'Découvrez les plats incontournables et les favoris locaux de',
     sights_description: 'Explorez les meilleures attractions et lieux incontournables de',
+    coffee_description: 'Trouvez les meilleurs cafés et salons de thé de',
+    bakeries_description: 'Découvrez les meilleures boulangeries et pâtisseries de',
+    stay_description: 'Trouvez les meilleurs hôtels et hébergements à',
+    cheap_eats_description: 'Découvrez où manger pas cher et la street food de',
     back_to_city: 'Retour au Guide',
     items_found: 'articles',
     no_items: 'Aucun article trouvé',
@@ -76,8 +92,16 @@ const COLLECTION_DICT = {
   es: {
     food_title: 'Mejor Comida en',
     sights_title: 'Mejores Atracciones en',
+    coffee_title: 'Mejores Cafeterías en',
+    bakeries_title: 'Mejores Panaderías en',
+    stay_title: 'Dónde Alojarse en',
+    cheap_eats_title: 'Comer Barato en',
     food_description: 'Descubre los platos imprescindibles y favoritos locales de',
     sights_description: 'Explora las mejores atracciones y lugares imprescindibles de',
+    coffee_description: 'Encuentra las mejores cafeterías y coffee shops de',
+    bakeries_description: 'Descubre las mejores panaderías y dulces de',
+    stay_description: 'Encuentra los mejores hoteles y alojamientos en',
+    cheap_eats_description: 'Descubre comida económica y street food en',
     back_to_city: 'Volver a la Guía',
     items_found: 'artículos',
     no_items: 'No se encontraron artículos',
@@ -88,8 +112,16 @@ const COLLECTION_DICT = {
   it: {
     food_title: 'Miglior Cibo a',
     sights_title: 'Migliori Attrazioni a',
+    coffee_title: 'Migliori Caffetterie a',
+    bakeries_title: 'Migliori Pasticcerie a',
+    stay_title: 'Dove Dormire a',
+    cheap_eats_title: 'Mangiare Economico a',
     food_description: 'Scopri i piatti imperdibili e i preferiti locali di',
     sights_description: 'Esplora le migliori attrazioni e i luoghi imperdibili di',
+    coffee_description: 'Trova le migliori caffetterie e bar di',
+    bakeries_description: 'Scopri le migliori pasticcerie e dolci di',
+    stay_description: 'Trova i migliori hotel e alloggi a',
+    cheap_eats_description: 'Scopri dove mangiare spendendo poco a',
     back_to_city: 'Torna alla Guida',
     items_found: 'articoli',
     no_items: 'Nessun articolo trovato',
@@ -100,8 +132,16 @@ const COLLECTION_DICT = {
   de: {
     food_title: 'Bestes Essen in',
     sights_title: 'Top Sehenswürdigkeiten in',
+    coffee_title: 'Beste Cafés in',
+    bakeries_title: 'Beste Bäckereien in',
+    stay_title: 'Übernachten in',
+    cheap_eats_title: 'Günstig Essen in',
     food_description: 'Entdecke die Must-Eat-Gerichte und lokalen Favoriten in',
     sights_description: 'Erkunde die Top-Attraktionen und Sehenswürdigkeiten in',
+    coffee_description: 'Finde die besten Cafés und Kaffeehäuser in',
+    bakeries_description: 'Entdecke die besten Bäckereien und Süßwaren in',
+    stay_description: 'Finde die besten Hotels und Unterkünfte in',
+    cheap_eats_description: 'Entdecke günstiges Essen und Street Food in',
     back_to_city: 'Zurück zum Reiseführer',
     items_found: 'Einträge',
     no_items: 'Keine Einträge gefunden',
@@ -112,8 +152,16 @@ const COLLECTION_DICT = {
   ja: {
     food_title: 'おすすめグルメ',
     sights_title: 'おすすめ観光スポット',
+    coffee_title: 'おすすめカフェ',
+    bakeries_title: 'おすすめベーカリー',
+    stay_title: '宿泊ガイド',
+    cheap_eats_title: '安くて美味しいグルメ',
     food_description: '必食グルメとローカルフードを発見',
     sights_description: '人気の観光スポットと必見の名所を探索',
+    coffee_description: '人気のカフェとコーヒーショップを発見',
+    bakeries_description: '人気のベーカリーとスイーツを発見',
+    stay_description: 'おすすめのホテルと宿泊施設を発見',
+    cheap_eats_description: 'お手頃価格のグルメとストリートフードを発見',
     back_to_city: 'シティガイドに戻る',
     items_found: '件',
     no_items: 'アイテムが見つかりません',
@@ -124,8 +172,16 @@ const COLLECTION_DICT = {
   zh: {
     food_title: '最佳美食',
     sights_title: '热门景点',
+    coffee_title: '最佳咖啡馆',
+    bakeries_title: '最佳面包店',
+    stay_title: '住宿推荐',
+    cheap_eats_title: '平价美食',
     food_description: '探索必尝美食和当地特色',
     sights_description: '探索热门景点和必看名胜',
+    coffee_description: '发现最佳咖啡馆和咖啡店',
+    bakeries_description: '发现最佳面包店和甜点',
+    stay_description: '发现最佳酒店和住宿',
+    cheap_eats_description: '发现平价美食和街头小吃',
     back_to_city: '返回城市指南',
     items_found: '个项目',
     no_items: '未找到项目',
@@ -136,8 +192,16 @@ const COLLECTION_DICT = {
   hi: {
     food_title: 'सर्वश्रेष्ठ भोजन',
     sights_title: 'शीर्ष आकर्षण',
+    coffee_title: 'सर्वश्रेष्ठ कैफे',
+    bakeries_title: 'सर्वश्रेष्ठ बेकरी',
+    stay_title: 'कहाँ ठहरें',
+    cheap_eats_title: 'सस्ता भोजन',
     food_description: 'अवश्य खाने वाले व्यंजन और स्थानीय पसंदीदा खोजें',
     sights_description: 'शीर्ष आकर्षण और अवश्य देखने योग्य स्थान खोजें',
+    coffee_description: 'सर्वश्रेष्ठ कॉफी शॉप और कैफे खोजें',
+    bakeries_description: 'सर्वश्रेष्ठ बेकरी और मिठाइयाँ खोजें',
+    stay_description: 'सर्वश्रेष्ठ होटल और आवास खोजें',
+    cheap_eats_description: 'बजट में खाना और स्ट्रीट फूड खोजें',
     back_to_city: 'सिटी गाइड पर वापस जाएं',
     items_found: 'आइटम',
     no_items: 'कोई आइटम नहीं मिला',
@@ -148,8 +212,16 @@ const COLLECTION_DICT = {
   ar: {
     food_title: 'أفضل الأطعمة في',
     sights_title: 'أهم المعالم في',
+    coffee_title: 'أفضل المقاهي في',
+    bakeries_title: 'أفضل المخابز في',
+    stay_title: 'أين تقيم في',
+    cheap_eats_title: 'أكل رخيص في',
     food_description: 'اكتشف الأطباق التي يجب تجربتها والمفضلات المحلية في',
     sights_description: 'استكشف أفضل المعالم السياحية والأماكن التي يجب زيارتها في',
+    coffee_description: 'اعثر على أفضل المقاهي ومحلات القهوة في',
+    bakeries_description: 'اكتشف أفضل المخابز والحلويات في',
+    stay_description: 'اعثر على أفضل الفنادق وأماكن الإقامة في',
+    cheap_eats_description: 'اكتشف الأكل الرخيص وطعام الشارع في',
     back_to_city: 'العودة إلى دليل المدينة',
     items_found: 'عنصر',
     no_items: 'لم يتم العثور على عناصر',
@@ -160,9 +232,9 @@ const COLLECTION_DICT = {
 } as const
 
 type SupportedLang = keyof typeof COLLECTION_DICT
-type ValidCategory = 'food' | 'sights'
+type ValidCategory = 'food' | 'sights' | 'coffee' | 'bakeries' | 'stay' | 'cheap-eats'
 
-const VALID_CATEGORIES: ValidCategory[] = ['food', 'sights']
+const VALID_CATEGORIES: ValidCategory[] = ['food', 'sights', 'coffee', 'bakeries', 'stay', 'cheap-eats']
 
 // ============================================================================
 // DATA FETCHING
@@ -190,17 +262,24 @@ async function getCityData(slug: string, lang: string): Promise<City | null> {
 }
 
 function getCollectionItems(city: City, category: ValidCategory): Place[] {
-  if (category === 'food') {
-    return city.must_eat || []
+  switch (category) {
+    case 'food':
+      return city.must_eat || []
+    case 'sights':
+      // Flatten all items from must_see groups
+      const groups = city.must_see || []
+      return groups.flatMap((group: any) => group.items || [])
+    case 'coffee':
+      return city.best_coffee || []
+    case 'bakeries':
+      return city.best_bakeries || []
+    case 'stay':
+      return city.where_to_stay || []
+    case 'cheap-eats':
+      return city.cheap_eats || []
+    default:
+      return []
   }
-
-  if (category === 'sights') {
-    // Flatten all items from must_see groups
-    const groups = city.must_see || []
-    return groups.flatMap((group: any) => group.items || [])
-  }
-
-  return []
 }
 
 function isValidCategory(category: string): category is ValidCategory {
@@ -263,8 +342,24 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   // Build SEO-optimized title and description
   const isAsianLang = ['ja', 'zh', 'hi', 'ar'].includes(lang)
-  const titlePrefix = category === 'food' ? localDict.food_title : localDict.sights_title
-  const descPrefix = category === 'food' ? localDict.food_description : localDict.sights_description
+  const categoryTitles: Record<ValidCategory, string> = {
+    food: localDict.food_title,
+    sights: localDict.sights_title,
+    coffee: localDict.coffee_title,
+    bakeries: localDict.bakeries_title,
+    stay: localDict.stay_title,
+    'cheap-eats': localDict.cheap_eats_title,
+  }
+  const categoryDescs: Record<ValidCategory, string> = {
+    food: localDict.food_description,
+    sights: localDict.sights_description,
+    coffee: localDict.coffee_description,
+    bakeries: localDict.bakeries_description,
+    stay: localDict.stay_description,
+    'cheap-eats': localDict.cheap_eats_description,
+  }
+  const titlePrefix = categoryTitles[category]
+  const descPrefix = categoryDescs[category]
 
   // Asian languages: City name comes after the title prefix
   const pageTitle = isAsianLang
@@ -340,7 +435,15 @@ export default async function CollectionPage({ params }: PageProps) {
 
   // Build page title
   const isAsianLang = ['ja', 'zh', 'hi', 'ar'].includes(lang)
-  const titlePrefix = category === 'food' ? localDict.food_title : localDict.sights_title
+  const categoryTitles: Record<ValidCategory, string> = {
+    food: localDict.food_title,
+    sights: localDict.sights_title,
+    coffee: localDict.coffee_title,
+    bakeries: localDict.bakeries_title,
+    stay: localDict.stay_title,
+    'cheap-eats': localDict.cheap_eats_title,
+  }
+  const titlePrefix = categoryTitles[category]
   const pageHeading = isAsianLang
     ? `${city.name} ${titlePrefix}`
     : `${titlePrefix} ${city.name}`

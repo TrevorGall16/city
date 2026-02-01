@@ -84,12 +84,23 @@ function generateSitemap() {
   </url>`);
 
       // Collection Pages (SEO Hub Pages)
+      // 🛡️ SAFETY MODE: Only include categories with data to avoid 404s
       ['food', 'sights'].forEach(category => {
         mainUrls.push(`
   <url>
     <loc>${BASE_URL}/${lang}/city/${city.slug}/lists/${category}</loc>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
+  </url>`);
+      });
+
+      // Itinerary Pages (Time-Based Cheat Sheets)
+      ['1-day', '2-days', '3-days'].forEach(duration => {
+        mainUrls.push(`
+  <url>
+    <loc>${BASE_URL}/${lang}/city/${city.slug}/itinerary/${duration}</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>`);
       });
     });

@@ -6,7 +6,11 @@
       "Bash(node -e:*)",
       "Bash(node check-slugs.js:*)",
       "Bash(ls:*)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(npx next lint:*)",
+      "Bash(npx next build:*)",
+      "Bash(node -c:*)",
+      "Bash(node scripts/generate-sitemap.js:*)"
     ]
   }
 }

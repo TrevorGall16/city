@@ -149,6 +149,12 @@ export interface City {
   }
   
   affiliate_products?: AffiliateProduct[]
+
+  // 🎯 MICRO-COLLECTION CATEGORIES
+  best_coffee?: Place[]
+  best_bakeries?: Place[]
+  where_to_stay?: Place[]
+  cheap_eats?: Place[]
 }
 
 // --- 2. COMPONENT PROPS (UI) ---

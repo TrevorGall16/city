@@ -38,6 +38,13 @@
       and: 'and',
       viewAllSights: 'View All Sights',
       viewAllFood: 'View All Food',
+      perfectItineraries: 'Perfect Itineraries',
+      day1: '1 Day',
+      day2: '2 Days',
+      day3: '3 Days',
+      quickTrip: 'Quick highlights',
+      weekendGetaway: 'Weekend getaway',
+      fullExperience: 'Full experience',
     },
     fr: {
       travelGuide: 'Guide de Voyage',
@@ -45,6 +52,13 @@
       and: 'et',
       viewAllSights: 'Voir Toutes les Attractions',
       viewAllFood: 'Voir Toute la Cuisine',
+      perfectItineraries: 'Itinéraires Parfaits',
+      day1: '1 Jour',
+      day2: '2 Jours',
+      day3: '3 Jours',
+      quickTrip: 'Visite express',
+      weekendGetaway: 'Week-end escapade',
+      fullExperience: 'Expérience complète',
     },
     ja: {
       travelGuide: '旅行ガイド',
@@ -52,6 +66,13 @@
       and: 'と',
       viewAllSights: 'すべての観光スポット',
       viewAllFood: 'すべてのグルメ',
+      perfectItineraries: 'おすすめコース',
+      day1: '1日',
+      day2: '2日',
+      day3: '3日',
+      quickTrip: '弾丸旅行',
+      weekendGetaway: '週末旅行',
+      fullExperience: '充実の旅',
     },
     ar: {
       travelGuide: 'دليل السفر',
@@ -59,6 +80,13 @@
       and: 'و',
       viewAllSights: 'عرض جميع المعالم',
       viewAllFood: 'عرض جميع الأطعمة',
+      perfectItineraries: 'برامج مثالية',
+      day1: 'يوم واحد',
+      day2: 'يومان',
+      day3: '3 أيام',
+      quickTrip: 'زيارة سريعة',
+      weekendGetaway: 'عطلة نهاية الأسبوع',
+      fullExperience: 'تجربة كاملة',
     },
     hi: {
       travelGuide: 'यात्रा गाइड',
@@ -66,6 +94,13 @@
       and: 'और',
       viewAllSights: 'सभी आकर्षण देखें',
       viewAllFood: 'सभी भोजन देखें',
+      perfectItineraries: 'परफेक्ट यात्रा कार्यक्रम',
+      day1: '1 दिन',
+      day2: '2 दिन',
+      day3: '3 दिन',
+      quickTrip: 'त्वरित यात्रा',
+      weekendGetaway: 'सप्ताहांत यात्रा',
+      fullExperience: 'पूर्ण अनुभव',
     },
     es: {
       travelGuide: 'Guía de Viaje',
@@ -73,6 +108,13 @@
       and: 'y',
       viewAllSights: 'Ver Todas las Atracciones',
       viewAllFood: 'Ver Toda la Comida',
+      perfectItineraries: 'Itinerarios Perfectos',
+      day1: '1 Día',
+      day2: '2 Días',
+      day3: '3 Días',
+      quickTrip: 'Visita rápida',
+      weekendGetaway: 'Escapada de fin de semana',
+      fullExperience: 'Experiencia completa',
     },
     de: {
       travelGuide: 'Reiseführer',
@@ -80,6 +122,13 @@
       and: 'und',
       viewAllSights: 'Alle Sehenswürdigkeiten',
       viewAllFood: 'Alle Gerichte',
+      perfectItineraries: 'Perfekte Reiserouten',
+      day1: '1 Tag',
+      day2: '2 Tage',
+      day3: '3 Tage',
+      quickTrip: 'Kurzbesuch',
+      weekendGetaway: 'Wochenendtrip',
+      fullExperience: 'Volles Erlebnis',
     },
     zh: {
       travelGuide: '旅游指南',
@@ -87,6 +136,13 @@
       and: '和',
       viewAllSights: '查看所有景点',
       viewAllFood: '查看所有美食',
+      perfectItineraries: '完美行程',
+      day1: '1天',
+      day2: '2天',
+      day3: '3天',
+      quickTrip: '快速游览',
+      weekendGetaway: '周末度假',
+      fullExperience: '深度体验',
     },
     it: {
       travelGuide: 'Guida di Viaggio',
@@ -94,6 +150,13 @@
       and: 'e',
       viewAllSights: 'Vedi Tutte le Attrazioni',
       viewAllFood: 'Vedi Tutto il Cibo',
+      perfectItineraries: 'Itinerari Perfetti',
+      day1: '1 Giorno',
+      day2: '2 Giorni',
+      day3: '3 Giorni',
+      quickTrip: 'Visita lampo',
+      weekendGetaway: 'Weekend fuoriporta',
+      fullExperience: 'Esperienza completa',
     },
   } as const
 
@@ -382,7 +445,73 @@
             </section>
           )}
 
-          {/* 6. Attractions & Food Grid */}
+          {/* 6. Perfect Itineraries Section */}
+          <section id="itineraries" className="py-16 px-4 md:px-8 max-w-[1600px] mx-auto">
+            <div className="mb-12"><SectionHeader title={seoStrings.perfectItineraries} countryCode={city.country_code as any} /></div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {/* 1 Day Card */}
+              <Link
+                href={`/${lang}/city/${citySlug}/itinerary/1-day`}
+                className="group relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-amber-500 to-orange-600 p-8 text-white shadow-xl hover:shadow-2xl transition-all hover:scale-[1.02]"
+              >
+                <div className="absolute top-4 right-4 w-16 h-16 bg-white/20 rounded-full flex items-center justify-center">
+                  <span className="text-3xl font-black">1</span>
+                </div>
+                <div className="mt-12">
+                  <h3 className="text-3xl font-black tracking-tight">{seoStrings.day1}</h3>
+                  <p className="mt-2 text-white/80 font-medium">{seoStrings.quickTrip}</p>
+                </div>
+                <div className="mt-6 flex items-center gap-2 text-sm font-bold uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity">
+                  <span>View Itinerary</span>
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </div>
+              </Link>
+
+              {/* 2 Days Card */}
+              <Link
+                href={`/${lang}/city/${citySlug}/itinerary/2-days`}
+                className="group relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-indigo-500 to-purple-600 p-8 text-white shadow-xl hover:shadow-2xl transition-all hover:scale-[1.02]"
+              >
+                <div className="absolute top-4 right-4 w-16 h-16 bg-white/20 rounded-full flex items-center justify-center">
+                  <span className="text-3xl font-black">2</span>
+                </div>
+                <div className="mt-12">
+                  <h3 className="text-3xl font-black tracking-tight">{seoStrings.day2}</h3>
+                  <p className="mt-2 text-white/80 font-medium">{seoStrings.weekendGetaway}</p>
+                </div>
+                <div className="mt-6 flex items-center gap-2 text-sm font-bold uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity">
+                  <span>View Itinerary</span>
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </div>
+              </Link>
+
+              {/* 3 Days Card */}
+              <Link
+                href={`/${lang}/city/${citySlug}/itinerary/3-days`}
+                className="group relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-emerald-500 to-teal-600 p-8 text-white shadow-xl hover:shadow-2xl transition-all hover:scale-[1.02]"
+              >
+                <div className="absolute top-4 right-4 w-16 h-16 bg-white/20 rounded-full flex items-center justify-center">
+                  <span className="text-3xl font-black">3</span>
+                </div>
+                <div className="mt-12">
+                  <h3 className="text-3xl font-black tracking-tight">{seoStrings.day3}</h3>
+                  <p className="mt-2 text-white/80 font-medium">{seoStrings.fullExperience}</p>
+                </div>
+                <div className="mt-6 flex items-center gap-2 text-sm font-bold uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity">
+                  <span>View Itinerary</span>
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </div>
+              </Link>
+            </div>
+          </section>
+
+          {/* 7. Attractions & Food Grid */}
           <section id="must-see" className="py-16 px-4 md:px-8 max-w-[1600px] mx-auto">
              <div className="mb-12"><SectionHeader title={dict.attractions} countryCode={city.country_code as any} /></div>
              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -401,7 +530,7 @@
              </div>
           </section>
 
-          {/* 7. Travel Essentials (Affiliates) */}
+          {/* 8. Travel Essentials (Affiliates) */}
           {city.affiliate_products && (
             <section id="essentials" className="py-20 px-4 md:px-8 max-w-[1600px] mx-auto bg-slate-50 dark:bg-slate-950 border-y border-slate-200 dark:border-slate-800">
               <div className="mb-12"><SectionHeader title={dict.travel_essentials} countryCode={city.country_code as any} /></div>
@@ -431,7 +560,7 @@
              </div>
           </section>
 
-          {/* 8. Itinerary Section */}
+          {/* 9. Daily Itinerary Timeline */}
           {city.itinerary && (
             <section className="py-24 px-4 md:px-8 max-w-[1000px] mx-auto">
               <h2 className="text-5xl font-black mb-16 text-center tracking-tighter uppercase">{dict.perfect_24h} {city.name}</h2>
@@ -456,7 +585,7 @@
             </section>
           )}
 
-          {/* 9. Logistics */}
+          {/* 10. Logistics */}
           <section id="logistics" className="max-w-[1600px] mx-auto py-24 px-4">
             <CollapsibleSection title={dict.practical_logistics}>
               <LogisticsSection
