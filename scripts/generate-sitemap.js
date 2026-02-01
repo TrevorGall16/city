@@ -103,6 +103,14 @@ function generateSitemap() {
     <priority>0.8</priority>
   </url>`);
       });
+
+      // Gallery Page (Visual Photo Wall)
+      mainUrls.push(`
+  <url>
+    <loc>${BASE_URL}/${lang}/city/${city.slug}/gallery</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>`);
     });
   });
 

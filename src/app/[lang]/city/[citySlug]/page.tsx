@@ -45,6 +45,7 @@
       quickTrip: 'Quick highlights',
       weekendGetaway: 'Weekend getaway',
       fullExperience: 'Full experience',
+      viewGallery: 'View Photo Gallery',
     },
     fr: {
       travelGuide: 'Guide de Voyage',
@@ -59,6 +60,7 @@
       quickTrip: 'Visite express',
       weekendGetaway: 'Week-end escapade',
       fullExperience: 'Expérience complète',
+      viewGallery: 'Voir la Galerie',
     },
     ja: {
       travelGuide: '旅行ガイド',
@@ -73,6 +75,7 @@
       quickTrip: '弾丸旅行',
       weekendGetaway: '週末旅行',
       fullExperience: '充実の旅',
+      viewGallery: 'フォトギャラリー',
     },
     ar: {
       travelGuide: 'دليل السفر',
@@ -87,6 +90,7 @@
       quickTrip: 'زيارة سريعة',
       weekendGetaway: 'عطلة نهاية الأسبوع',
       fullExperience: 'تجربة كاملة',
+      viewGallery: 'معرض الصور',
     },
     hi: {
       travelGuide: 'यात्रा गाइड',
@@ -101,6 +105,7 @@
       quickTrip: 'त्वरित यात्रा',
       weekendGetaway: 'सप्ताहांत यात्रा',
       fullExperience: 'पूर्ण अनुभव',
+      viewGallery: 'फोटो गैलरी देखें',
     },
     es: {
       travelGuide: 'Guía de Viaje',
@@ -115,6 +120,7 @@
       quickTrip: 'Visita rápida',
       weekendGetaway: 'Escapada de fin de semana',
       fullExperience: 'Experiencia completa',
+      viewGallery: 'Ver Galería',
     },
     de: {
       travelGuide: 'Reiseführer',
@@ -129,6 +135,7 @@
       quickTrip: 'Kurzbesuch',
       weekendGetaway: 'Wochenendtrip',
       fullExperience: 'Volles Erlebnis',
+      viewGallery: 'Fotogalerie',
     },
     zh: {
       travelGuide: '旅游指南',
@@ -143,6 +150,7 @@
       quickTrip: '快速游览',
       weekendGetaway: '周末度假',
       fullExperience: '深度体验',
+      viewGallery: '查看图库',
     },
     it: {
       travelGuide: 'Guida di Viaggio',
@@ -157,6 +165,7 @@
       quickTrip: 'Visita lampo',
       weekendGetaway: 'Weekend fuoriporta',
       fullExperience: 'Esperienza completa',
+      viewGallery: 'Galleria Foto',
     },
   } as const
 
@@ -383,6 +392,16 @@
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-center justify-center">
               <HeroGlass title={city.name} subtitle={introVibe} titleColor={finalHeroColor} fontClass={cityFontClass} />
             </div>
+            {/* Gallery Floating Button */}
+            <Link
+              href={`/${lang}/city/${citySlug}/gallery`}
+              className="absolute bottom-6 right-6 flex items-center gap-2 px-5 py-3 bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm rounded-full shadow-lg hover:bg-white dark:hover:bg-slate-800 transition-all hover:scale-105 text-slate-900 dark:text-white font-semibold text-sm"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+              {seoStrings.viewGallery}
+            </Link>
           </section>
 
           {/* 2. Dashboard Section */}
