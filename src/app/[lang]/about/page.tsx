@@ -34,7 +34,7 @@ export default async function AboutPage({ params }: AboutPageProps) {
           👋 Hi, I'm the guy behind CityBasic.
         </h2>
         <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed max-w-3xl">
-          I'm a guy who loves traveling and build website. I built (well vibe coded) this site because I was tired of reading 20-page blog posts just to find one good coffee shop.
+          I'm a guy who loves traveling and build website. I built this for two things: I wanted to learn how to build a website with AI, and because because I was tired of reading 20-page blog posts just to find one good coffee shop.
           <br /><br />
           CityBasic isn't a giant corporation. It's just me, doing the research I wish existed when I land in a new city: clean, direct, and honest.
           <br /><br />
