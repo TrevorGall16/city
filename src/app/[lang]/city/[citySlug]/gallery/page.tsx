@@ -152,7 +152,7 @@ async function getCityData(slug: string, lang: string): Promise<City | null> {
   }
 }
 
-function extractGalleryImages(city: City, localDict: typeof GALLERY_DICT['en']): GalleryImage[] {
+function extractGalleryImages(city: City): GalleryImage[] {
   const images: GalleryImage[] = []
 
   // Extract from must_see (flatten groups)
@@ -246,7 +246,7 @@ export default async function GalleryPage({ params }: PageProps) {
   const dictLang = (lang in GALLERY_DICT ? lang : 'en') as SupportedLang
   const localDict = GALLERY_DICT[dictLang]
 
-  const images = extractGalleryImages(city, localDict)
+  const images = extractGalleryImages(city)
 
   if (images.length === 0) {
     notFound()
