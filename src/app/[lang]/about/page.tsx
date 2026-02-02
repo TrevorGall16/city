@@ -34,11 +34,11 @@ export default async function AboutPage({ params }: AboutPageProps) {
           👋 Hi, I'm the guy behind CityBasic.
         </h2>
         <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed max-w-3xl">
-          I'm a guy who loves traveling and build website. I built this site because I was tired of reading 20-page blog posts just to find one good coffee shop.
+          I'm a guy who loves traveling and build website. I built (well vibe coded) this site because I was tired of reading 20-page blog posts just to find one good coffee shop.
           <br /><br />
           CityBasic isn't a giant corporation. It's just me, doing the research I wish existed when I land in a new city: clean, direct, and honest.
           <br /><br />
-          I'm gonna keep updating with more infos I can find online (sadly I haven't been to every city listed here, but hopefully one day!) It's just a passion project for me to learn more about new places and document where I've been.
+          I'm gonna keep updating with more infos I can find online (sadly I haven't been to every city listed here, but hopefully one day!) It's just a passion project for me to learn more about new places and document where I've been. Currently the cities listed are very popular and this website is just one of the thousand on how to find a good place in Paris. My goal is to try to have less "popular" destinations soon.
         </p>
       </div>
 
@@ -55,14 +55,14 @@ export default async function AboutPage({ params }: AboutPageProps) {
               <span>🚫</span> The Problem
             </h3>
             <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-              Modern travel content is broken. Search for "best things to do in Paris" and you drown in SEO-optimized fluff, 10-paragraph life stories, and AI-generated listicles that all sound the same.
+              I just was tired of having to search through multiple website and life stories for basic informations about a city.
             </p>
           </div>
 
           {/* Card 2: The Solution */}
           <div className="bg-slate-50 dark:bg-white/5 p-8 rounded-2xl border border-slate-100 dark:border-white/10">
             <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3 flex items-center gap-3">
-              <span>✅</span> The CityBasic Way
+              <span>✅</span> What i'm (trying) to do
             </h3>
             <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
               While I can add my finding to places I've been, I can only learn from what I see and hear online. I added a comment section so that hopefully people can correct or give tips to one another.
