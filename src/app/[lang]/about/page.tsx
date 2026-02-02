@@ -38,7 +38,7 @@ export default async function AboutPage({ params }: AboutPageProps) {
           <br /><br />
           CityBasic isn't a giant corporation. It's just me, doing the research I wish existed when I land in a new city: clean, direct, and honest.
           <br /><br />
-          I'm gonna keep updating with more infos I can find online (sadly I haven't been to every city listed here, but hopefully one day!) It's just a passion project for me to learn more about new places and document where I've been. Currently the cities listed are very popular and this website is just one of the thousand on how to find a good place in Paris. My goal is to try to have less "popular" destinations soon.
+          I'm gonna keep updating with more infos I can find online (sadly I haven't been to every city listed here, but hopefully one day!) It's just a passion project for me to learn more about new places and document where I've been, and a way for me to day dream while waiting for more time off so I can travel. Currently the cities listed are very popular and this website is just one of the thousand on how to find a good place in Paris. My goal is to try to have less "popular" destinations soon.
         </p>
       </div>
 
