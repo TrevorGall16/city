@@ -27,7 +27,7 @@ export function CityNavigation({ lang, dict }: CityNavigationProps) {
   ]
 
   return (
-    <nav className="sticky top-16 z-40 bg-white/95 dark:bg-slate-950/95 backdrop-blur-lg border-b border-slate-200 dark:border-slate-800 shadow-sm transition-all">
+    <nav className="sticky top-20 z-40 bg-white/95 dark:bg-slate-950/95 backdrop-blur-lg border-b border-slate-200 dark:border-slate-800 shadow-sm transition-all">
       <div className="max-w-[1600px] mx-auto px-4 md:px-8 py-3">
         <div className="flex items-center gap-6 overflow-x-auto whitespace-nowrap scrollbar-hide">
           

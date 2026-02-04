@@ -50,7 +50,7 @@ export function CategoryFilter({
   }
 
   return (
-    <div className="sticky top-16 z-40 bg-white/95 dark:bg-slate-950/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 py-4">
+    <div className="sticky top-20 z-40 bg-white/95 dark:bg-slate-950/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 py-4">
       <div className="max-w-[1600px] mx-auto px-4 md:px-8">
         <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-hide">
           {categories.map((category) => (

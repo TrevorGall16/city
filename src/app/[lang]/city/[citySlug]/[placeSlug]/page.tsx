@@ -180,7 +180,7 @@ export default async function PlacePage({ params }: PageProps) {
   return (
     <main className={`min-h-screen bg-slate-50 dark:bg-slate-950 pb-24 ${cityFontClass}`} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
-      <nav className="sticky top-0 z-50 bg-white/90 dark:bg-slate-900/90 backdrop-blur-lg border-b border-slate-200 dark:border-slate-800">
+      <nav className="sticky top-20 z-40 bg-white/90 dark:bg-slate-900/90 backdrop-blur-lg border-b border-slate-200 dark:border-slate-800">
         <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href={`/${lang}/city/${citySlug}`} className="group flex items-center gap-2 text-xs font-black uppercase tracking-widest text-indigo-600 dark:text-indigo-400">
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" /> {dict.view_guide || 'Back'}
