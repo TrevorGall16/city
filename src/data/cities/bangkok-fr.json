@@ -1275,32 +1275,32 @@
       "image": "/images/bangkok/yaowarat-night.jpg"
     }
   ],
-  "affiliate_products": [
-    {
-      "id": "aff-001",
-      "title": "Ventilateur de cou portable",
-      "image": "/images/bangkok/neck-fan.jpg",
-      "reason": "La chaleur de Bangkok est brutale. Un ventilateur de cou sans les mains vous garde au frais pendant vos visites.",
-      "amazon_url": "ventilateur de cou portable",
-      "category": "météo"
-    },
-    {
-      "id": "aff-002",
-      "title": "Répulsif à moustiques",
-      "image": "/images/bangkok/repellent.jpg",
-      "reason": "Le dengue est un risque. Un répulsif à base de DEET est essentiel pour les soirées en extérieur.",
-      "amazon_url": "Désolé, je ne peux pas accéder à des liens externes.",
-      "category": "santé"
-    },
-    {
-      "id": "aff-003",
-      "title": "Ceinture de voyage",
-      "image": "/images/bangkok/money-belt.jpg",
-      "reason": "Les pickpockets sont actifs dans les marchés. Gardez votre argent en sécurité.",
-      "amazon_url": "Ce lien ne peut pas être traduit.",
-      "category": "sécurité"
-    }
-  ],
+"affiliate_products": [
+  {
+    "id": "aff-001",
+    "title": "Ventilateur de cou portable",
+    "image": "/images/bangkok/neck-fan.jpg",
+    "reason": "La chaleur de Bangkok est brutale. Un ventilateur de cou sans les mains vous garde au frais pendant vos visites.",
+    "amazon_url": "https://www.amazon.com/s?k=portable+neck+fan&tag=canibringonpl-20",
+    "category": "météo"
+  },
+  {
+    "id": "aff-002",
+    "title": "Répulsif à moustiques",
+    "image": "/images/bangkok/repellent.jpg",
+    "reason": "Le dengue est un risque. Un répulsif à base de DEET est essentiel pour les soirées en extérieur.",
+    "amazon_url": "https://www.amazon.com/s?k=deet+mosquito+repellent&tag=canibringonpl-20",
+    "category": "santé"
+  },
+  {
+    "id": "aff-003",
+    "title": "Ceinture de voyage",
+    "image": "/images/bangkok/money-belt.jpg",
+    "reason": "Les pickpockets sont actifs dans les marchés. Gardez votre argent en sécurité.",
+    "amazon_url": "https://www.amazon.com/s?k=travel+money+belt&tag=canibringonpl-20",
+    "category": "sécurité"
+  }
+],
   "lat": 13.7563,
   "lng": 100.5018,
   "region": "Asia"

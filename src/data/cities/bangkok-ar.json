@@ -1275,32 +1275,32 @@
       "image": "/images/bangkok/yaowarat-night.jpg"
     }
   ],
-  "affiliate_products": [
-    {
-      "id": "aff-001",
-      "title": "مروحة عنق محمولة",
-      "image": "/images/bangkok/neck-fan.jpg",
-      "reason": "حرارة بانكوك قاسية. مروحة عنق بدون استخدام اليدين تبقيك منتعشًا أثناء التجول.",
-      "amazon_url": "مروحة عنق محمولة",
-      "category": "الطقس"
-    },
-    {
-      "id": "aff-002",
-      "title": "طارد البعوض",
-      "image": "/images/bangkok/repellent.jpg",
-      "reason": "حمى الضنك خطر. من الضروري استخدام طارد الحشرات المحتوي على DEET في الأمسيات الخارجية.",
-      "amazon_url": "طارد البعوض ديet",
-      "category": "صحة"
-    },
-    {
-      "id": "aff-003",
-      "title": "حزام نقود السفر",
-      "image": "/images/bangkok/money-belt.jpg",
-      "reason": "النشالون نشطون في الأسواق. حافظوا على أموالكم بأمان.",
-      "amazon_url": "حزام نقود للسفر",
-      "category": "الأمان"
-    }
-  ],
+"affiliate_products": [
+  {
+    "id": "aff-001",
+    "title": "Tragbarer Nackenventilator",
+    "image": "/images/bangkok/neck-fan.jpg",
+    "reason": "Die Hitze in Bangkok ist brutal. Ein tragbarer Nackenventilator hält Sie beim Sightseeing kühl.",
+    "amazon_url": "https://www.amazon.com/s?k=portable+neck+fan&tag=canibringonpl-20",
+    "category": "Wetter"
+  },
+  {
+    "id": "aff-002",
+    "title": "Mückenschutzmittel",
+    "image": "/images/bangkok/repellent.jpg",
+    "reason": "Dengue ist ein Risiko. Ein DEET-haltiges Insektenschutzmittel ist für abendliche Aktivitäten im Freien unerlässlich.",
+    "amazon_url": "https://www.amazon.com/s?k=deet+mosquito+repellent&tag=canibringonpl-20",
+    "category": "Gesundheit"
+  },
+  {
+    "id": "aff-003",
+    "title": "Reise-Geldgürtel",
+    "image": "/images/bangkok/money-belt.jpg",
+    "reason": "Taschendiebe sind auf Märkten aktiv. Halten Sie Ihr Bargeld sicher.",
+    "amazon_url": "https://www.amazon.com/s?k=travel+money+belt&tag=canibringonpl-20",
+    "category": "Sicherheit"
+  }
+],
   "lat": 13.7563,
   "lng": 100.5018,
   "region": "Asia"

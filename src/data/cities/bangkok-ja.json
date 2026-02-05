@@ -1276,32 +1276,32 @@
       "image": "/images/bangkok/yaowarat-night.jpg"
     }
   ],
-  "affiliate_products": [
-    {
-      "id": "aff-001",
-      "title": "ポータブルネックファン",
-      "image": "/images/bangkok/neck-fan.jpg",
-      "reason": "バンコクの暑さは厳しいです。ハンズフリーネックファンが観光中に涼しく保ってくれます。",
-      "amazon_url": "ポータブルネックファン",
-      "category": "天気"
-    },
-    {
-      "id": "aff-002",
-      "title": "虫除けスプレー",
-      "image": "/images/bangkok/repellent.jpg",
-      "reason": "デング熱のリスクがあります。DEETベースの虫除けは、屋外の夕方に必須です。",
-      "amazon_url": "申し訳ありませんが、そのリクエストにはお応えできません。",
-      "category": "健康"
-    },
-    {
-      "id": "aff-003",
-      "title": "旅行用マネーベルト",
-      "image": "/images/bangkok/money-belt.jpg",
-      "reason": "市場ではスリが活発です。現金を安全に保管してください。",
-      "amazon_url": "旅行用マネーベルト",
-      "category": "セキュリティ"
-    }
-  ],
+"affiliate_products": [
+  {
+    "id": "aff-001",
+    "title": "ポータブルネックファン",
+    "image": "/images/bangkok/neck-fan.jpg",
+    "reason": "バンコクの暑さは厳しいです。ハンズフリーネックファンが観光中に涼しく保ってくれます。",
+    "amazon_url": "https://www.amazon.com/s?k=portable+neck+fan&tag=canibringonpl-20",
+    "category": "天気"
+  },
+  {
+    "id": "aff-002",
+    "title": "虫除けスプレー",
+    "image": "/images/bangkok/repellent.jpg",
+    "reason": "デング熱のリスクがあります。DEETベースの虫除けは、屋外の夕方に必須です。",
+    "amazon_url": "https://www.amazon.com/s?k=deet+mosquito+repellent&tag=canibringonpl-20",
+    "category": "健康"
+  },
+  {
+    "id": "aff-003",
+    "title": "旅行用マネーベルト",
+    "image": "/images/bangkok/money-belt.jpg",
+    "reason": "市場ではスリが活発です。現金を安全に保管してください。",
+    "amazon_url": "https://www.amazon.com/s?k=travel+money+belt&tag=canibringonpl-20",
+    "category": "セキュリティ"
+  }
+],
   "lat": 13.7563,
   "lng": 100.5018,
   "region": "Asia"

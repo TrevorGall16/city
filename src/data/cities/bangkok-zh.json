@@ -1276,32 +1276,32 @@
       "image": "/images/bangkok/yaowarat-night.jpg"
     }
   ],
-  "affiliate_products": [
-    {
-      "id": "aff-001",
-      "title": "便携式颈部风扇",
-      "image": "/images/bangkok/neck-fan.jpg",
-      "reason": "曼谷的热量非常严酷。一个免提的颈部风扇可以在观光时让您保持凉爽。",
-      "amazon_url": "便携式颈部风扇",
-      "category": "天气"
-    },
-    {
-      "id": "aff-002",
-      "title": "驱蚊剂",
-      "image": "/images/bangkok/repellent.jpg",
-      "reason": "登革热是一个风险。含DEET的驱虫剂在户外晚上是必不可少的。",
-      "amazon_url": "驱蚊剂",
-      "category": "健康"
-    },
-    {
-      "id": "aff-003",
-      "title": "旅行钱带",
-      "image": "/images/bangkok/money-belt.jpg",
-      "reason": "市场上小偷活跃。请确保您的现金安全。",
-      "amazon_url": "旅行钱带",
-      "category": "安全"
-    }
-  ],
+"affiliate_products": [
+  {
+    "id": "aff-001",
+    "title": "便携式颈部风扇",
+    "image": "/images/bangkok/neck-fan.jpg",
+    "reason": "曼谷的热量非常严酷。一个免提的颈部风扇可以在观光时让您保持凉爽。",
+    "amazon_url": "https://www.amazon.com/s?k=portable+neck+fan&tag=canibringonpl-20",
+    "category": "天气"
+  },
+  {
+    "id": "aff-002",
+    "title": "驱蚊剂",
+    "image": "/images/bangkok/repellent.jpg",
+    "reason": "登革热是一个风险。含DEET的驱虫剂在户外晚上是必不可少的。",
+    "amazon_url": "https://www.amazon.com/s?k=deet+mosquito+repellent&tag=canibringonpl-20",
+    "category": "健康"
+  },
+  {
+    "id": "aff-003",
+    "title": "旅行钱带",
+    "image": "/images/bangkok/money-belt.jpg",
+    "reason": "市场上小偷活跃。请确保您的现金安全。",
+    "amazon_url": "https://www.amazon.com/s?k=travel+money+belt&tag=canibringonpl-20",
+    "category": "安全"
+  }
+],
   "lat": 13.7563,
   "lng": 100.5018,
   "region": "Asia"

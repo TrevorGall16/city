@@ -1275,32 +1275,32 @@
       "image": "/images/bangkok/yaowarat-night.jpg"
     }
   ],
-  "affiliate_products": [
-    {
-      "id": "aff-001",
-      "title": "Ventilador de cuello portátil",
-      "image": "/images/bangkok/neck-fan.jpg",
-      "reason": "El calor de Bangkok es brutal. Un ventilador de cuello manos libres le mantiene fresco mientras explora.",
-      "amazon_url": "Lo siento, no puedo ayudar con eso.",
-      "category": "clima"
-    },
-    {
-      "id": "aff-002",
-      "title": "Repelente de mosquitos",
-      "image": "/images/bangkok/repellent.jpg",
-      "reason": "El dengue es un riesgo. Un repelente a base de DEET es esencial para las noches al aire libre.",
-      "amazon_url": "Repelente de mosquitos con DEET",
-      "category": "salud"
-    },
-    {
-      "id": "aff-003",
-      "title": "Cinturón de dinero para viajar",
-      "image": "/images/bangkok/money-belt.jpg",
-      "reason": "Los carteristas están activos en los mercados. Mantenga su dinero seguro.",
-      "amazon_url": "Cinturón de dinero para viajar",
-      "category": "seguridad"
-    }
-  ],
+"affiliate_products": [
+  {
+    "id": "aff-001",
+    "title": "Ventilador de cuello portátil",
+    "image": "/images/bangkok/neck-fan.jpg",
+    "reason": "El calor de Bangkok es brutal. Un ventilador de cuello manos libres le mantiene fresco mientras explora.",
+    "amazon_url": "https://www.amazon.com/s?k=portable+neck+fan&tag=canibringonpl-20",
+    "category": "clima"
+  },
+  {
+    "id": "aff-002",
+    "title": "Repelente de mosquitos",
+    "image": "/images/bangkok/repellent.jpg",
+    "reason": "El dengue es un riesgo. Un repelente a base de DEET es esencial para las noches al aire libre.",
+    "amazon_url": "https://www.amazon.com/s?k=deet+mosquito+repellent&tag=canibringonpl-20",
+    "category": "salud"
+  },
+  {
+    "id": "aff-003",
+    "title": "Cinturón de dinero para viajar",
+    "image": "/images/bangkok/money-belt.jpg",
+    "reason": "Los carteristas están activos en los mercados. Mantenga su dinero seguro.",
+    "amazon_url": "https://www.amazon.com/s?k=travel+money+belt&tag=canibringonpl-20",
+    "category": "seguridad"
+  }
+],
   "lat": 13.7563,
   "lng": 100.5018,
   "region": "Asia"

@@ -1277,31 +1277,31 @@
       "image": "/images/bangkok/yaowarat-night.jpg"
     }
   ],
-  "affiliate_products": [
-    {
-      "id": "aff-001",
-      "title": "Portable Neck Fan",
-      "image": "/images/bangkok/neck-fan.jpg",
-      "reason": "Bangkok heat is brutal. A hands-free neck fan keeps you cool while sightseeing.",
-      "amazon_url": "https://www.amazon.com/s?k=portable+neck+fan",
-      "category": "weather"
-    },
-    {
-      "id": "aff-002",
-      "title": "Mosquito Repellent",
-      "image": "/images/bangkok/repellent.jpg",
-      "reason": "Dengue is a risk. DEET-based repellent is essential for outdoor evenings.",
-      "amazon_url": "https://www.amazon.com/s?k=deet+mosquito+repellent",
-      "category": "health"
-    },
-    {
-      "id": "aff-003",
-      "title": "Travel Money Belt",
-      "image": "/images/bangkok/money-belt.jpg",
-      "reason": "Pickpockets are active in markets. Keep your cash secure.",
-      "amazon_url": "https://www.amazon.com/s?k=travel+money+belt",
-      "category": "security"
-    }
-  ],
+"affiliate_products": [
+  {
+    "id": "aff-001",
+    "title": "Portable Neck Fan",
+    "image": "/images/bangkok/neck-fan.jpg",
+    "reason": "Bangkok heat is brutal. A hands-free neck fan keeps you cool while sightseeing.",
+    "amazon_url": "https://www.amazon.com/s?k=portable+neck+fan&tag=canibringonpl-20",
+    "category": "weather"
+  },
+  {
+    "id": "aff-002",
+    "title": "Mosquito Repellent",
+    "image": "/images/bangkok/repellent.jpg",
+    "reason": "Dengue is a risk. DEET-based repellent is essential for outdoor evenings.",
+    "amazon_url": "https://www.amazon.com/s?k=deet+mosquito+repellent&tag=canibringonpl-20",
+    "category": "health"
+  },
+  {
+    "id": "aff-003",
+    "title": "Travel Money Belt",
+    "image": "/images/bangkok/money-belt.jpg",
+    "reason": "Pickpockets are active in markets. Keep your cash secure.",
+    "amazon_url": "https://www.amazon.com/s?k=travel+money+belt&tag=canibringonpl-20",
+    "category": "security"
+  }
+],
   "region": "Asia"
 }
