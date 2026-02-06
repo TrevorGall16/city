@@ -10,6 +10,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import { X, Hotel, MapPin, ExternalLink } from 'lucide-react'
+import { getTripComLink } from '@/lib/affiliates'
 
 interface NeighborhoodSectionProps {
   neighborhoods: any[]
@@ -121,10 +122,10 @@ export function NeighborhoodSection({ neighborhoods, dict, cityName }: Neighborh
 
               {/* Affiliate Action */}
               <div className="mt-12">
-                <a 
-                  href={`https://www.booking.com/searchresults.html?ss=${encodeURIComponent(activeHood.name + ' ' + cityName)}&aid=YOUR_ID`}
+                <a
+                  href={getTripComLink(activeHood.name + ' ' + cityName)}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer sponsored"
                   className="group w-full py-6 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-[2rem] flex items-center justify-center gap-4 font-black uppercase tracking-[0.2em] text-[10px] shadow-2xl transition-all hover:scale-[1.02] active:scale-95"
                 >
                   <Hotel className="w-5 h-5" />

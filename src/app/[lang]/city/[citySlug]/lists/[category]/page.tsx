@@ -541,7 +541,7 @@ export default async function CollectionPage({ params }: PageProps) {
 
         {/* Fallback Ad for short lists (no in-feed ads were shown) */}
         {!SHOW_IN_FEED_AD && (
-          <div className="mt-10 flex flex-col items-center">
+          <div className="mt-10 flex flex-col items-center border-4 border-red-500 min-h-[300px] bg-yellow-100">
             <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500 mb-4">
               {localDict.sponsored}
             </span>

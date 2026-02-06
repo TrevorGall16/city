@@ -29,6 +29,7 @@
   import { LanguageLinks } from '@/components/features/LanguageLinks'
   import { CityNavigation } from '@/components/features/CityNavigation'
   import { CommentThread } from '@/components/features/CommentThread'
+  import { ChinaAppGuide } from '@/components/city/ChinaAppGuide'
 
   // 🌍 SEO TRANSLATION DICTIONARY
   const SEO_DICTIONARY = {
@@ -403,6 +404,9 @@
               {seoStrings.viewGallery}
             </Link>
           </section>
+
+          {/* China Survival Guide (only renders for cn cities) */}
+          <ChinaAppGuide countryCode={city.country_code} />
 
           {/* 2. Dashboard Section */}
           <section id="at-a-glance" className="py-8 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
