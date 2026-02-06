@@ -555,6 +555,15 @@
             </div>
           </section>
 
+          {/* Ad Placement 3: Wide banner above Attractions */}
+          <div className="my-10 flex justify-center max-w-[1600px] mx-auto px-4 md:px-8">
+            <AdsterraSmartFrame
+              height={90}
+              width={728}
+              pKey="81531fc7e6a8cf5cc6de9e368b8f2c11"
+            />
+          </div>
+
           {/* 7. Attractions & Food Grid */}
           <section id="must-see" className="py-16 px-4 md:px-8 max-w-[1600px] mx-auto">
              <div className="mb-12"><SectionHeader title={dict.attractions} countryCode={city.country_code as any} /></div>
@@ -585,6 +594,15 @@
               />
             </section>
           )}
+
+          {/* Ad Placement 4: Wide banner above Food */}
+          <div className="my-10 flex justify-center max-w-[1600px] mx-auto px-4 md:px-8">
+            <AdsterraSmartFrame
+              height={90}
+              width={728}
+              pKey="81531fc7e6a8cf5cc6de9e368b8f2c11"
+            />
+          </div>
 
           <section id="food" className="py-16 px-4 md:px-8 max-w-[1600px] mx-auto">
              <div className="mb-12"><SectionHeader title={dict.must_eat} countryCode={city.country_code as any} /></div>
