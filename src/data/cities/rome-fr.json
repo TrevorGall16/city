@@ -228,132 +228,130 @@
 ]
 
   },
-  "neighborhoods": {
-    "data": [
-      {
-        "name": "Trastevere",
-        "vibe": "Charmant & Animé",
-        "description": "Des bâtiments recouverts de lierre, des rues pavées et une vie nocturne intense. Magnifique le jour, une fête de rue la nuit. Cela devient très fréquenté, mais son charme est indéniable.",
-        "highlights": [
-          "Piazza Santa Maria",
-          "Villa Farnesina",
-          "Vie nocturne"
-        ],
-        "image": "/images/rome/trastevere.jpg"
-      },
-      {
-        "name": "Monti",
-        "vibe": "Bohème & Cool",
-        "description": "Le village hipster de Rome juste à côté du Colisée. Boutiques vintage, bars à vin et artisans. L'endroit où les locaux se retrouvent pour éviter l'afflux touristique.",
-        "highlights": [
-          "Piazza della Madonna",
-          "Marchés vintage",
-          "Via del Boschetto"
-        ],
-        "image": "/images/rome/monti.jpg"
-      },
-      {
-        "name": "Testaccio",
-        "vibe": "Le Paradis des Gourmets",
-        "description": "Le cœur authentique de la cuisine romaine. Foyer de l'ancien abattoir et des meilleures trattorias traditionnelles. Pas très joli, mais savoureux et authentique.",
-        "highlights": [
-          "Marché de Testaccio",
-          "Monte dei Cocci",
-          "Cuisine authentique"
-        ],
-        "image": "/images/rome/testaccio.jpg"
-      },
-      {
-        "name": "Centro Storico",
-        "vibe": "Les Grands Classiques",
-        "description": "Le cœur du Rome baroque. Panthéon, Navona, Trevi. Éblouissant, bondé et cher. À visiter tôt le matin ou tard le soir.",
-        "highlights": [
-          "Panthéon",
-          "Piazza Navona",
-          "Fontaine de Trevi"
-        ],
-        "image": "/images/rome/centro-storico.jpg"
-      }
+"neighborhoods": [
+  {
+    "name": "Trastevere",
+    "vibe": "Charmant & Animé",
+    "description": "Bâtiments couverts de lierre, rues pavées et vie nocturne intense. Magnifique de jour, une fête de rue la nuit. C'est très fréquenté, mais le charme est indéniable.",
+    "highlights": [
+      "Piazza Santa Maria",
+      "Villa Farnesina",
+      "Vie nocturne"
+    ],
+    "image": "/images/rome/trastevere.jpg"
+  },
+  {
+    "name": "Monti",
+    "vibe": "Bohème & Tendance",
+    "description": "Le village hipster de Rome, juste à côté du Colisée. Boutiques vintage, bars à vin et artisans. C'est là que les locaux se retrouvent pour éviter la foule touristique.",
+    "highlights": [
+      "Piazza della Madonna",
+      "Marchés vintage",
+      "Via del Boschetto"
+    ],
+    "image": "/images/rome/monti.jpg"
+  },
+  {
+    "name": "Testaccio",
+    "vibe": "Paradis des Gourmets",
+    "description": "Le cœur authentique de la cuisine romaine. Abrite l'ancien abattoir et les meilleures trattorias traditionnelles. Pas forcément esthétique, mais savoureux et authentique.",
+    "highlights": [
+      "Testaccio Market",
+      "Monte dei Cocci",
+      "Cuisine authentique"
+    ],
+    "image": "/images/rome/testaccio.jpg"
+  },
+  {
+    "name": "Centro Storico",
+    "vibe": "Les Grands Classiques",
+    "description": "Le cœur de la Rome baroque. Panthéon, Navona, Trevi. Époustouflant, bondé et cher. À visiter tôt le matin ou tard le soir.",
+    "highlights": [
+      "Pantheon",
+      "Piazza Navona",
+      "Fontaine de Trevi"
+    ],
+    "image": "/images/rome/centro-storico.jpg"
+  }
+],
+"logistics": [
+  {
+    "id": "logistics-transit",
+    "slug": "getting-around",
+    "title": "Se déplacer",
+    "icon": "Train",
+    "summary": "Marchez autant que possible. Les transports publics sont réputés pour leur manque de fiabilité.",
+    "details": [
+      "La marche : Le centre historique est compact. C'est le meilleur moyen de voir la ville. Portez des chaussures confortables ; les pavés ('Sampietrini') sont impitoyables.",
+      "Métro : Seulement 3 lignes (A, B, C). Utile pour traverser la ville (ex: Vatican vers Termini), mais inutile pour le centre historique. Attention : la ligne A ferme souvent tôt (21h) pour travaux — vérifiez les horaires.",
+      "Billets (BIT) : Un billet standard (1,50 €) dure 100 minutes. Vous DEVEZ le valider dans les machines jaunes des bus/trams. Les contrôleurs ciblent les touristes sans billet composté.",
+      "Applications de Taxi : Ne hélez pas de taxi dans la rue (ils ne s'arrêteront pas). Utilisez 'FreeNow' ou rendez-vous à une station de taxi désignée. Uber est disponible mais uniquement en version 'Black' (cher)."
     ]
   },
-  "logistics": {
-    "logistics-transit": {
-      "id": "logistics-transit",
-      "slug": "getting-around",
-      "title": "Se Déplacer",
-      "icon": "Train",
-      "summary": "Marchez autant que possible. Les transports en commun sont notoirement peu fiables.",
-      "details": [
-        "Marche : Le centre historique est compact. C'est le meilleur moyen de découvrir la ville. Portez des chaussures confortables ; les pavés ('Sampietrini') sont impitoyables.",
-        "Métro : Seulement 3 lignes (A, B, C). Pratique pour traverser la ville (par exemple, du Vatican à Termini), mais inutile pour le centre historique. Attention : Le métro A ferme tôt (21h) souvent pour travaux — vérifiez les horaires.",
-        "Billets (BIT) : Un billet standard (1,50 €) est valable 100 minutes. Vous DEVEZ le valider dans les machines jaunes sur les bus/trams. Les contrôleurs ciblent les touristes avec des billets non validés.",
-        "Applications de Taxi : Ne faites pas signe sur la rue (ils ne s'arrêteront pas). Utilisez 'FreeNow' ou allez à un taxi autorisé. Uber est disponible mais uniquement en 'Black' (cher)."
-      ]
-    },
-    "logistics-dining": {
-      "id": "logistics-dining",
-      "slug": "dining-protocol",
-      "title": "Logistique de Restauration",
-      "icon": "Utensils",
-      "summary": "Heures strictes et rituels de facturation.",
-      "details": [
-        "Heures de Repas Strictes : Le déjeuner est de 13h00 à 15h00. Le dîner est de 20h00 à 23h00. La plupart des cuisines authentiques FERMENT entre ces horaires. Vous ne pouvez pas dîner à 18h00.",
-        "Le Rituels de la Facture : Le chèque ne viendra jamais automatiquement. Vous devez attirer l'œil du serveur et mimer l'écriture ou dire 'Il conto'. Il est culturellement attendu de rester un moment.",
-        "Coperto & Pourboire : Un 'Coperto' (frais de service) de 2–3 € est ajouté par personne. C'est normal. Laisser un pourboire n'est PAS obligatoire ; les habitants peuvent laisser des petites pièces, mais 20% n'est pas courant.",
-        "Règle de l'Eau : Les restaurants servent de l'eau en bouteille par défaut. Cependant, à l'extérieur, les milliers de 'Nasoni' (fontaines publiques) offrent de l'eau volcanique froide et sûre. Remplissez votre bouteille gratuitement."
-      ]
-    },
-    "logistics-airports": {
-      "id": "logistics-airports",
-      "slug": "airport-strategy",
-      "title": "Stratégie aéroportuaire",
-      "icon": "Plane",
-      "summary": "Fiumicino (FCO) vs. Ciampino (CIA).",
-      "details": [
-        "FCO (Fiumicino) : L'aéroport principal. Prenez le train 'Leonardo Express' jusqu'à Termini (32 minutes, 14 €, connexion garantie). Les taxis ont un TARIF FIXE de 50 € vers n'importe où à l'intérieur des murs auréliens.",
-        "CIA (Ciampino) : Hub budget (Ryanair). Pas de gare. Prenez un Shuttle Bus (Terravision/SitBus) jusqu'à Termini (~6 €). Le tarif fixe de taxi est de 31 €.",
-        "Avertissement Taxi : Vérifiez le tarif fixe avec le conducteur AVANT de monter. Ignorez les rabatteurs à l'intérieur du terminal ; allez à la file officielle à l'extérieur."
-      ]
-    },
-    "logistics-survival": {
-      "id": "logistics-survival",
-      "slug": "local-survival",
-      "title": "Conseils de Survie Locaux",
-      "icon": "Info",
-      "summary": "Comment naviguer dans le chaos.",
-      "details": [
-        "Règle du Café : Le prix est réglementé au bar (~1,10 €) mais peut doubler ou tripler si vous êtes assis à une table. Faites comme les habitants : buvez debout au comptoir.",
-        "Mentalité du Chaos : Les files d'attente sont des suggestions lâches. Les bus ne s'arrêtent pas à moins que vous ne fassiez signe. Les choses prennent du temps. Combattre le chaos engendre du stress ; l'accepter est la façon romaine.",
-        "Fermeture d'Août : La ville se vide autour de Ferragosto (15 août). De nombreux endroits authentiques gérés par des familles ferment pendant 2 semaines. Les pièges à touristes restent ouverts.",
-        "Survie à la Chaleur : En été, le soleil est brutal. Les habitants évitent de marcher entre 13h00 et 16h00. Planifiez les musées ou les siestes durant ces heures."
-      ]
-    },
-    "logistics-safety": {
-      "id": "logistics-safety",
-      "slug": "safety-tips",
-      "title": "Sécurité & Arnaques",
-      "icon": "Shield",
-      "summary": "Ville sûre, arnaqueurs agressifs.",
-      "details": [
-        "Itinéraires de Pickpocket : Soyez hyper vigilant dans le Bus 64 (bus du Vatican), le métro A bondé, et dans les files d'attente pour le Colisée.",
-        "L'Escroquerie du Bracelet : Des hommes aux sites touristiques tenteront de nouer un bracelet 'gratuit' à votre poignet, puis exigeront agressivement de l'argent. Gardez les mains dans les poches et partez.",
-        "Gare Termini : La zone autour de la gare principale peut être crade et suspecte tard le soir. Restez sur les grandes routes bien éclairées."
-      ]
-    },
-    "logistics-apps": {
-      "id": "logistics-apps",
-      "slug": "essential-apps",
-      "title": "Applications à Télécharger",
-      "icon": "Smartphone",
-      "summary": "Outils numériques pour la Ville Éternelle.",
-      "details": [
-        "FreeNow : L'application principale pour appeler des taxis officiels blancs.",
-        "Trenitalia : Essentielle pour vérifier les horaires de train et acheter des billets pour le Leonardo Express.",
-        "Citymapper / Google Maps : Les deux fonctionnent correctement pour les transports, bien que les horaires de bus soient souvent 'aspirationnels' plutôt qu'exacts.",
-        "Acea Waidy : Trouve la fontaine d'eau potable gratuite la plus proche (Nasone)."
-      ]
-    }
+  {
+    "id": "logistics-dining",
+    "slug": "dining-protocol",
+    "title": "Logistique de restauration",
+    "icon": "Utensils",
+    "summary": "Horaires stricts et rituels de l'addition.",
+    "details": [
+      "Horaires de repas : Le déjeuner est de 13h00 à 15h00. Le dîner est de 20h00 à 23h00. Les cuisines les plus authentiques FERMENT entre ces deux services. Vous ne pourrez pas dîner à 18h00.",
+      "Le rituel de l'addition : L'addition ne viendra jamais automatiquement. Vous devez capter le regard du serveur et mimer l'écriture ou dire 'Il conto'. Il est culturellement attendu de prendre son temps à table.",
+      "Coperto & Pourboire : Un 'Coperto' (frais de couvert) de 2 à 3 € est ajouté par personne. C'est normal. Le pourboire n'est PAS obligatoire ; les locaux laissent parfois de la petite monnaie, mais les 20 % ne se pratiquent pas.",
+      "Règle de l'eau : Les restaurants servent de l'eau en bouteille par défaut. Cependant, à l'extérieur, des milliers de 'Nasoni' (fontaines de rue) distribuent de l'eau volcanique fraîche et potable. Remplissez votre bouteille gratuitement."
+    ]
   },
+  {
+    "id": "logistics-airports",
+    "slug": "airport-strategy",
+    "title": "Stratégie aéroportuaire",
+    "icon": "Plane",
+    "summary": "Fiumicino (FCO) vs. Ciampino (CIA).",
+    "details": [
+      "FCO (Fiumicino) : L'aéroport principal. Prenez le train 'Leonardo Express' vers Termini (32 min, 14 €, liaison garantie). Les taxis ont un TARIF FIXE de 50 € pour n'importe quelle destination à l'intérieur des murs auréliens.",
+      "CIA (Ciampino) : Hub low-cost (Ryanair). Pas de gare ferroviaire. Prenez une navette bus (Terravision/SitBus) vers Termini (~6 €). Le tarif fixe du taxi est de 31 €.",
+      "Avertissement Taxi : Vérifiez le tarif fixe avec le chauffeur AVANT de monter. Ignorez les racoleurs à l'intérieur du terminal ; allez à la file officielle à l'extérieur."
+    ]
+  },
+  {
+    "id": "logistics-survival",
+    "slug": "local-survival",
+    "title": "Conseils de survie locale",
+    "icon": "Info",
+    "summary": "Comment naviguer dans le chaos.",
+    "details": [
+      "Règle du café : Le prix est réglementé au comptoir (~1,10 €) mais peut doubler ou tripler si vous vous asseyez à une table. Faites comme les locaux : buvez debout au comptoir.",
+      "Mentalité du chaos : Les files d'attente sont des suggestions vagues. Les bus ne s'arrêtent que si vous faites signe de la main. Tout prend du temps. Lutter contre le chaos cause du stress ; l'accepter est la manière romaine.",
+      "Fermeture d'août : La ville se vide autour de Ferragosto (15 août). De nombreux endroits familiaux authentiques ferment pendant 2 semaines. Les pièges à touristes restent ouverts.",
+      "Survie à la chaleur : En été, le soleil est brutal. Les locaux évitent de marcher entre 13h et 16h. Prévoyez des musées ou des siestes durant ces heures."
+    ]
+  },
+  {
+    "id": "logistics-safety",
+    "slug": "safety-tips",
+    "title": "Sécurité & Arnaques",
+    "icon": "Shield",
+    "summary": "Ville sûre, mais escrocs agressifs.",
+    "details": [
+      "Itinéraires des pickpockets : Soyez hyper vigilant dans le bus 64 (bus du Vatican), le métro A bondé, et dans les files d'attente pour le Colisée.",
+      "L'arnaque au bracelet : Des hommes sur les sites touristiques tenteront de nouer un bracelet 'gratuit' à votre poignet, puis exigeront de l'argent de manière agressive. Gardez les mains dans les poches et passez votre chemin.",
+      "Gare Termini : Les alentours de la gare principale peuvent être glauques tard le soir. Restez sur les rues principales et bien éclairées."
+    ]
+  },
+  {
+    "id": "logistics-apps",
+    "slug": "essential-apps",
+    "title": "Applications à télécharger",
+    "icon": "Smartphone",
+    "summary": "Outils numériques pour la Ville Éternelle.",
+    "details": [
+      "FreeNow : L'application principale pour appeler les taxis officiels blancs.",
+      "Trenitalia : Essentiel pour vérifier les horaires des trains et acheter des billets pour le Leonardo Express.",
+      "Citymapper / Google Maps : Les deux fonctionnent correctement pour les transports, bien que les horaires de bus soient souvent 'indicatifs' plutôt que précis.",
+      "Acea Waidy : Trouve la fontaine d'eau gratuite (Nasone) la plus proche."
+    ]
+  }
+],
   "must_eat": [
     {
       "id": "food-001",

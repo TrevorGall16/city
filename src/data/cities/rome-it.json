@@ -228,10 +228,11 @@
 ]
 
   },
-  "neighborhoods": {
+"neighborhoods": [
+  {
     "name": "Trastevere",
-    "vibe": "Affascinante & Vivace",
-    "description": "Edifici coperti di edera, strade acciottolate e vita notturna intensa. Bellissimo di giorno, una festa di strada di notte. Diventa molto affollato, ma il fascino è innegabile.",
+    "vibe": "Affascinante e Vivace",
+    "description": "Edifici ricoperti d'edera, strade acciottolate e vita notturna intensa. Bellissimo di giorno, una festa in strada di notte. Diventa molto affollato, ma il fascino è innegabile.",
     "highlights": [
       "Piazza Santa Maria",
       "Villa Farnesina",
@@ -239,19 +240,118 @@
     ],
     "image": "/images/rome/trastevere.jpg"
   },
-  "logistics": {
+  {
+    "name": "Monti",
+    "vibe": "Bohemian e Cool",
+    "description": "Il villaggio hipster di Roma proprio accanto al Colosseo. Negozi vintage, wine bar e artigiani. Dove i romani si ritrovano per evitare la calca dei turisti.",
+    "highlights": [
+      "Piazza della Madonna",
+      "Mercatini Vintage",
+      "Via del Boschetto"
+    ],
+    "image": "/images/rome/monti.jpg"
+  },
+  {
+    "name": "Testaccio",
+    "vibe": "Il paradiso dei buongustai",
+    "description": "Il cuore verace della cucina romana. Sede del vecchio mattatoio e delle migliori trattorie tradizionali. Non propriamente bello, ma gustoso e autentico.",
+    "highlights": [
+      "Mercato di Testaccio",
+      "Monte dei Cocci",
+      "Cibo Autentico"
+    ],
+    "image": "/images/rome/testaccio.jpg"
+  },
+  {
+    "name": "Centro Storico",
+    "vibe": "I Grandi Classici",
+    "description": "Il cuore della Roma barocca. Pantheon, Navona, Trevi. Splendido, affollato e costoso. Da visitare la mattina presto o la sera tardi.",
+    "highlights": [
+      "Pantheon",
+      "Piazza Navona",
+      "Fontana di Trevi"
+    ],
+    "image": "/images/rome/centro-storico.jpg"
+  }
+],
+"logistics": [
+  {
     "id": "logistics-transit",
     "slug": "getting-around",
-    "title": "Muoversi",
-    "icon": "Treno",
-    "summary": "Camminare ogni volta che è possibile. I trasporti pubblici sono notoriamente inaffidabili.",
+    "title": "Come Muoversi",
+    "icon": "Train",
+    "summary": "Cammini ogni volta che è possibile. Il trasporto pubblico è notoriamente inaffidabile.",
     "details": [
-      "Camminare: Il centro storico è compatto. È il modo migliore per vedere la città. Indossare scarpe comode; i sanpietrini sono impietosi.",
-      "Metro: Solo 3 linee (A, B, C). Utile per attraversare la città (ad esempio, dal Vaticano a Termini), ma inutile per il centro storico. Attenzione: la Metro A chiude presto (21:00) per lavori frequenti—controllare gli orari.",
-      "Biglietti (BIT): Un biglietto standard (€1,50) dura 100 minuti. È OBBLIGATORIO convalidarlo nelle macchine gialle su autobus/tram. I controllori prendono di mira i turisti con biglietti non convalidati.",
-      "App Taxi: Non fermare un taxi per strada (non si fermeranno). Usare 'FreeNow' o andare a una fermata taxi designata. Uber è disponibile ma solo 'Black' (costoso)."
+      "Camminare: Il centro storico è compatto. È il modo migliore per vedere la città. Indossi scarpe comode; i sampietrini non perdonano.",
+      "Metro: Solo 3 linee (A, B, C). Utile per attraversare la città (es. Vaticano-Termini), ma inutile per il centro storico. Attenzione: la Metro A chiude spesso presto (21:00) per lavori — controlli gli orari.",
+      "Biglietti (BIT): Un biglietto standard (1,50 €) dura 100 minuti. DEVE convalidarlo nelle macchinette gialle su bus/tram. I controllori prendono di mira i turisti con biglietti non timbrati.",
+      "App Taxi: Non chiami i taxi per strada (non si fermeranno). Usi 'FreeNow' o vada a una stazione dei taxi designata. Uber è disponibile ma solo in versione 'Black' (costoso)."
     ]
   },
+  {
+    "id": "logistics-dining",
+    "slug": "dining-protocol",
+    "title": "Logistica della Ristorazione",
+    "icon": "Utensils",
+    "summary": "Orari rigidi e rituali del conto.",
+    "details": [
+      "Orari dei Pasti: Il pranzo è dalle 13:00 alle 15:00. La cena è dalle 20:00 alle 23:00. Le cucine più autentiche CHIUDONO tra questi orari. Non si può cenare alle 18:00.",
+      "Il rito del conto: Il conto non arriverà mai automaticamente. Deve attirare lo sguardo del cameriere e mimare il gesto dello scrivere o dire 'Il conto'. Restare a tavola a lungo è culturalmente previsto.",
+      "Coperto e Mancia: Viene aggiunto un 'Coperto' di 2-3 € a persona. È normale. La mancia NON è obbligatoria; i locali potrebbero lasciare il resto spicciolo, ma il 20% non si usa.",
+      "Regola dell'Acqua: I ristoranti servono acqua in bottiglia di default. Tuttavia, all'esterno, migliaia di 'Nasoni' (fontanelle stradali) offrono acqua vulcanica fredda e sicura. Riempi la sua bottiglia gratuitamente."
+    ]
+  },
+  {
+    "id": "logistics-airports",
+    "slug": "airport-strategy",
+    "title": "Strategia Aeroporti",
+    "icon": "Plane",
+    "summary": "Fiumicino (FCO) vs. Ciampino (CIA).",
+    "details": [
+      "FCO (Fiumicino): L'aeroporto principale. Prenda il treno 'Leonardo Express' per Termini (32 min, 14 €, collegamento garantito). I taxi hanno una TARIFFA FISSA di 50 € per qualsiasi punto all'interno delle Mura Aureliane.",
+      "CIA (Ciampino): Hub low-cost (Ryanair). Nessuna stazione ferroviaria. Prenda un bus navetta (Terravision/SitBus) per Termini (~6 €). La tariffa fissa del taxi è di 31 €.",
+      "Avviso Taxi: Verifichi la tariffa fissa con l'autista PRIMA di salire. Ignori i procacciatori all'interno del terminal; vada alla fila ufficiale all'esterno."
+    ]
+  },
+  {
+    "id": "logistics-survival",
+    "slug": "local-survival",
+    "title": "Consigli di Sopravvivenza Locale",
+    "icon": "Info",
+    "summary": "Come navigare nel caos.",
+    "details": [
+      "Regola del Caffè: Il prezzo è regolamentato al banco (~1,10 €) ma può raddoppiare o triplicare se si siede al tavolo. Faccia come i romani: beva in piedi al banco.",
+      "Mentalità del Caos: Le file sono suggerimenti vaghi. Gli autobus non si fermano se non fa segno con la mano. Le cose richiedono tempo. Combattere il caos causa stress; accettarlo è lo stile romano.",
+      "Chiusure di Agosto: La città si svuota intorno a Ferragosto (15 agosto). Molti posti autentici a gestione familiare chiudono per 2 settimane. Le trappole per turisti restano aperte.",
+      "Sopravvivere al Calore: In estate, il sole è brutale. I romani evitano di camminare tra le 13:00 e le 16:00. Pianifichi musei o riposini in queste ore."
+    ]
+  },
+  {
+    "id": "logistics-safety",
+    "slug": "safety-tips",
+    "title": "Sicurezza e Truffe",
+    "icon": "Shield",
+    "summary": "Città sicura, ma truffatori aggressivi.",
+    "details": [
+      "Rotte dei Borseggiatori: Sia iper-vigile sull'autobus 64 (bus per il Vaticano), sulla Metro A affollata e nelle code per il Colosseo.",
+      "La truffa del braccialetto: Uomini nei siti turistici cercheranno di legarle un braccialetto 'gratuito' al polso, per poi chiedere soldi aggressivamente. Tenga le mani in tasca e tiri dritto.",
+      "Stazione Termini: L'area intorno alla stazione centrale può essere degradata a tarda notte. Rimanga sulle strade principali e ben illuminate."
+    ]
+  },
+  {
+    "id": "logistics-apps",
+    "slug": "essential-apps",
+    "title": "App da Scaricare",
+    "icon": "Smartphone",
+    "summary": "Strumenti digitali per la Città Eterna.",
+    "details": [
+      "FreeNow: L'app principale per chiamare i taxi bianchi ufficiali.",
+      "Trenitalia: Essenziale per controllare gli orari dei treni e comprare i biglietti per il Leonardo Express.",
+      "Citymapper / Google Maps: Entrambe funzionano bene per i trasporti, anche se gli orari dei bus sono spesso 'auspicabili' più che precisi.",
+      "Acea Waidy: Trova il Nasone (fontanella) più vicino."
+    ]
+  }
+],
   "must_eat": [
     {
       "id": "food-001",

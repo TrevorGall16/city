@@ -229,30 +229,130 @@
 
 
   },
-  "neighborhoods": {
+"neighborhoods": [
+  {
     "name": "Trastevere",
     "vibe": "Encantador y Animado",
-    "description": "Edificios cubiertos de hiedra, calles empedradas y una intensa vida nocturna. Hermoso durante el día, una fiesta callejera por la noche. Se llena mucho, pero el encanto es innegable.",
+    "description": "Edificios cubiertos de hiedra, calles empedradas e intensa vida nocturna. Hermoso de día, una fiesta callejera de noche. Se llena mucho, pero su encanto es innegable.",
     "highlights": [
-      "Plaza Santa María",
+      "Piazza Santa Maria",
       "Villa Farnesina",
-      "Vida Nocturna"
+      "Vida nocturna"
     ],
     "image": "/images/rome/trastevere.jpg"
   },
-  "logistics": {
+  {
+    "name": "Monti",
+    "vibe": "Bohemio y Moderno",
+    "description": "El barrio hipster de Roma, justo al lado del Coliseo. Tiendas vintage, bares de vino y artesanos. Donde los locales pasan el rato para evitar las aglomeraciones de turistas.",
+    "highlights": [
+      "Piazza della Madonna",
+      "Mercados Vintage",
+      "Via del Boschetto"
+    ],
+    "image": "/images/rome/monti.jpg"
+  },
+  {
+    "name": "Testaccio",
+    "vibe": "Paraíso para los amantes de la comida",
+    "description": "El corazón rústico de la cocina romana. Hogar del antiguo matadero y de las mejores trattorias tradicionales. No es el más bonito, pero es sabroso y auténtico.",
+    "highlights": [
+      "Mercado de Testaccio",
+      "Monte dei Cocci",
+      "Comida Auténtica"
+    ],
+    "image": "/images/rome/testaccio.jpg"
+  },
+  {
+    "name": "Centro Storico",
+    "vibe": "Los Grandes Clásicos",
+    "description": "El corazón de la Roma barroca. Panteón, Navona, Trevi. Impresionante, concurrido y caro. Visítelo temprano por la mañana o tarde por la noche.",
+    "highlights": [
+      "Pantheon",
+      "Piazza Navona",
+      "Fontana di Trevi"
+    ],
+    "image": "/images/rome/centro-storico.jpg"
+  }
+],
+"logistics": [
+  {
     "id": "logistics-transit",
     "slug": "getting-around",
-    "title": "Cómo moverse",
-    "icon": "Tren",
-    "summary": "Camina siempre que sea posible. El transporte público es notoriamente poco fiable.",
+    "title": "Cómo Moverse",
+    "icon": "Train",
+    "summary": "Camine siempre que sea posible. El transporte público es conocido por su falta de fiabilidad.",
     "details": [
-      "Caminando: El centro histórico es compacto. Es la mejor manera de conocer la ciudad. Use zapatos cómodos; las piedras de canto ('Sampietrini') no son indulgentes.",
-      "Metro: Solo 3 líneas (A, B, C). Útil para cruzar la ciudad (por ejemplo, del Vaticano a Termini), pero inútil para el centro histórico. Cuidado: La línea A cierra temprano (9pm) por trabajos a menudo—verifique los horarios.",
-      "Boletos (BIT): Un boleto estándar (€1.50) dura 100 minutos. DEBE validarlo en las máquinas amarillas en autobuses/tranvías. Los inspectores apuntan a los turistas con boletos sin sellar.",
-      "Aplicaciones de Taxi: No solicita un taxi en la calle (no se detendrán). Use 'FreeNow' o dirígete a un puesto de taxi designado. Uber está disponible pero es solo 'Black' (caro)."
+      "Caminar: El centro histórico es compacto. Es la mejor forma de ver la ciudad. Use zapatos cómodos; los adoquines ('Sampietrini') son implacables.",
+      "Metro: Solo hay 3 líneas (A, B, C). Útil para cruzar la ciudad (ej. Vaticano a Termini), pero inútil para el centro histórico. Atención: la Línea A cierra temprano (21:00) a menudo por obras; consulte los horarios.",
+      "Billetes (BIT): Un billete estándar (1,50 €) dura 100 minutos. DEBE validarlo en las máquinas amarillas de los autobuses/tranvías. Los revisores se enfocan en turistas con billetes sin timbrar.",
+      "Apps de Taxi: No pida taxis en la calle (no pararán). Use 'FreeNow' o vaya a una parada de taxis oficial. Uber está disponible pero es solo versión 'Black' (caro)."
     ]
   },
+  {
+    "id": "logistics-dining",
+    "slug": "dining-protocol",
+    "title": "Logística de Restauración",
+    "icon": "Utensils",
+    "summary": "Horarios estrictos y rituales con la cuenta.",
+    "details": [
+      "Horarios de Comida: El almuerzo es de 13:00 a 15:00. La cena es de 20:00 a 23:00. La mayoría de las cocinas auténticas CIERRAN entre estas horas. No podrá cenar a las 18:00.",
+      "El ritual de la cuenta: La cuenta nunca llegará automáticamente. Debe captar la mirada del camarero y hacer el gesto de escribir o decir 'Il conto'. Se espera culturalmente que se tome su tiempo en la mesa.",
+      "Coperto y Propinas: Se añade un 'Coperto' (cargo por servicio) de 2-3 € por persona. Es normal. La propina NO es obligatoria; los locales pueden dejar algo de cambio, pero el 20% no es habitual.",
+      "Regla del Agua: Los restaurantes sirven agua embotellada por defecto. Sin embargo, fuera, los miles de 'Nasoni' (fuentes callejeras) ofrecen agua volcánica fría y potable. Rellene su botella gratis."
+    ]
+  },
+  {
+    "id": "logistics-airports",
+    "slug": "airport-strategy",
+    "title": "Estrategia de Aeropuertos",
+    "icon": "Plane",
+    "summary": "Fiumicino (FCO) vs. Ciampino (CIA).",
+    "details": [
+      "FCO (Fiumicino): El aeropuerto principal. Tome el tren 'Leonardo Express' a Termini (32 min, 14 €, conexión garantizada). Los taxis tienen una TARIFA FIJA de 50 € a cualquier lugar dentro de las Murallas Aurelianas.",
+      "CIA (Ciampino): Centro de bajo coste (Ryanair). Sin estación de tren. Tome un autobús lanzadera (Terravision/SitBus) a Termini (~6 €). La tarifa fija del taxi es de 31 €.",
+      "Aviso sobre Taxis: Verifique la tarifa fija con el conductor ANTES de subir. Ignore a los captadores dentro de la terminal; vaya a la fila oficial afuera."
+    ]
+  },
+  {
+    "id": "logistics-survival",
+    "slug": "local-survival",
+    "title": "Consejos de Supervivencia Local",
+    "icon": "Info",
+    "summary": "Cómo navegar por el caos.",
+    "details": [
+      "Regla del Café: El precio está regulado en la barra (~1,10 €), pero puede duplicarse o triplicarse si se sienta en una mesa. Haga como los locales: beba de pie en la barra.",
+      "Mentalidad de Caos: Las colas son sugerencias vagas. Los autobuses no paran a menos que les haga una señal con la mano. Las cosas llevan tiempo. Luchar contra el caos causa estrés; aceptarlo es el estilo romano.",
+      "Cierre de Agosto: La ciudad se vacía cerca de Ferragosto (15 de agosto). Muchos locales familiares auténticos cierran por 2 semanas. Las trampas para turistas permanecen abiertas.",
+      "Sobrevivir al Calor: En verano, el sol es brutal. Los locales evitan caminar entre las 13:00 y las 16:00. Planifique museos o siestas en esas horas."
+    ]
+  },
+  {
+    "id": "logistics-safety",
+    "slug": "safety-tips",
+    "title": "Seguridad y Estafas",
+    "icon": "Shield",
+    "summary": "Ciudad segura, pero estafadores agresivos.",
+    "details": [
+      "Rutas de Carteristas: Tenga extrema vigilancia en el autobús 64 (bus al Vaticano), el Metro A cuando va lleno y en las colas para el Coliseo.",
+      "La estafa de la pulsera: Hombres en sitios turísticos intentarán atarle una pulsera 'gratis' en la muñeca para luego exigirle dinero agresivamente. Mantenga las manos en los bolsillos y siga caminando.",
+      "Estación Termini: El área alrededor de la estación principal puede ser turbia tarde por la noche. Quédese en las calles principales y bien iluminadas."
+    ]
+  },
+  {
+    "id": "logistics-apps",
+    "slug": "essential-apps",
+    "title": "Apps para Descargar",
+    "icon": "Smartphone",
+    "summary": "Herramientas digitales para la Ciudad Eterna.",
+    "details": [
+      "FreeNow: La app principal para llamar a los taxis blancos oficiales.",
+      "Trenitalia: Esencial para consultar horarios de tren y comprar billetes para el Leonardo Express.",
+      "Citymapper / Google Maps: Ambas funcionan bien para el transporte, aunque los horarios de los buses suelen ser más 'orientativos' que precisos.",
+      "Acea Waidy: Encuentra la fuente de agua gratuita (Nasone) más cercana."
+    ]
+  }
+],
   "must_eat": [
     {
       "id": "food-001",
