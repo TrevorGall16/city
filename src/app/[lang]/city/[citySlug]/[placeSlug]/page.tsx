@@ -16,6 +16,7 @@ import { Clock, DollarSign, Zap, Star, MapPin, ArrowLeft } from 'lucide-react'
 import { CommentThread } from '@/components/features/CommentThread'
 import type { Metadata } from 'next'
 import { EnhancedPlaceCard } from '@/components/features/EnhancedPlaceCard'
+import AdsterraSmartFrame from '@/components/ads/AdsterraSmartFrame'
 
 const SEO_DICTIONARY = {
   en: { travelGuide: 'Travel Guide', similar: 'You Might Also Like' },
@@ -242,6 +243,15 @@ export default async function PlacePage({ params }: PageProps) {
               <p className="relative text-2xl md:text-3xl font-bold leading-tight">"{insiderTip}"</p>
             </div>
           )}
+          {/* Guaranteed Ad Placement */}
+          <div className="my-12 flex justify-center">
+            <AdsterraSmartFrame
+              height={250}
+              width={300}
+              pKey="81531fc7e6a8cf5cc6de9e368b8f2c11"
+            />
+          </div>
+
 {data.similarPlaces && data.similarPlaces.length > 0 && (
             <section className="py-16 border-t border-slate-200 dark:border-slate-800 mb-12">
               <h3 className="text-2xl font-black uppercase mb-8 text-slate-900 dark:text-white tracking-tight">
