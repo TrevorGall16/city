@@ -17,6 +17,7 @@
   import { AtAGlanceDashboard } from '@/components/features/AtAGlanceDashboard'
   import { AffiliateSection } from '@/components/features/AffiliateSection'
   import AdsterraBanner from '@/components/ads/AdsterraBanner'
+  import AdsterraSmartFrame from '@/components/ads/AdsterraSmartFrame'
   // import AdsterraNative from '@/components/ads/AdsterraNative' // 🛡️ Disabled for Safety
 
   import type { Metadata } from 'next'
@@ -408,6 +409,15 @@
           {/* China Survival Guide (only renders for cn cities) */}
           <ChinaAppGuide countryCode={city.country_code} />
 
+          {/* Ad Placement 1: Top */}
+          <div className="my-8 flex justify-center">
+            <AdsterraSmartFrame
+              height={250}
+              width={300}
+              pKey="81531fc7e6a8cf5cc6de9e368b8f2c11"
+            />
+          </div>
+
           {/* 2. Dashboard Section */}
           <section id="at-a-glance" className="py-8 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
             <div className="max-w-[1600px] mx-auto px-4 md:px-8">
@@ -434,6 +444,17 @@
               <NeighborhoodSection neighborhoods={city.neighborhoods} dict={dict} cityName={city.name} />
             </section>
           )}
+
+          {/* Ad Placement 2: Mid-page */}
+          <div className="my-12 flex justify-center max-w-[1600px] mx-auto px-4 md:px-8">
+            <div className="w-full flex justify-center py-8 border-y border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-900/30 rounded-2xl">
+              <AdsterraSmartFrame
+                height={250}
+                width={300}
+                pKey="81531fc7e6a8cf5cc6de9e368b8f2c11"
+              />
+            </div>
+          </div>
 
           {/* 5. Culture Section */}
           {city.culture && (
