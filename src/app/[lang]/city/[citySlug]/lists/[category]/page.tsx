@@ -450,13 +450,16 @@ export default async function CollectionPage({ params }: PageProps) {
 
   const isRTL = lang === 'ar'
 
-  // Build grid items with ad placeholders after every 6th item
+  // Determine if list is long enough for in-feed ads
+  const SHOW_IN_FEED_AD = items.length > 4
+
+  // Build grid items with ad placeholders after every 6th item (only for long lists)
   const gridItems: Array<{ type: 'place'; data: Place } | { type: 'ad'; id: number }> = []
   let adCount = 0
   items.forEach((item, index) => {
     gridItems.push({ type: 'place', data: item })
     // Insert ad after every 6th item (positions 6, 12, 18, etc.)
-    if ((index + 1) % 6 === 0 && index < items.length - 1) {
+    if (SHOW_IN_FEED_AD && (index + 1) % 6 === 0 && index < items.length - 1) {
       adCount++
       gridItems.push({ type: 'ad', id: adCount })
     }
@@ -535,6 +538,20 @@ export default async function CollectionPage({ params }: PageProps) {
             )
           )}
         </div>
+
+        {/* Fallback Ad for short lists (no in-feed ads were shown) */}
+        {!SHOW_IN_FEED_AD && (
+          <div className="mt-10 flex flex-col items-center">
+            <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500 mb-4">
+              {localDict.sponsored}
+            </span>
+            <AdsterraSmartFrame
+              height={250}
+              width={300}
+              pKey="81531fc7e6a8cf5cc6de9e368b8f2c11"
+            />
+          </div>
+        )}
       </div>
 
       {/* Explore Other Cities Section */}
