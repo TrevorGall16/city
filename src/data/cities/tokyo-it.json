@@ -233,157 +233,77 @@
 ]
 
   },
-  "neighborhoods": {
-    "places": [
-      {
-        "name": "Shibuya",
-        "vibe": "Gioventù & Energia",
-        "description": "Il cuore pulsante della cultura giovanile di Tokyo. Definito da verticalità e topografia di valle. La stazione è un cumulo; la linea Ginza si trova al 3° piano, mentre le altre sono profondamente sotterranee. Utilizzi 'Urban Cores' (ascensori) per muoversi verso l'alto.",
-        "highlights": [
-          "Shibuya Crossing",
-          "Statua di Hachiko",
-          "Via Center Gai",
-          "Shibuya Sky"
-        ],
-        "image": "/images/tokyo/shibuya.jpg"
-      },
-      {
-        "name": "Shinjuku",
-        "vibe": "Metropoli Neon",
-        "description": "Il distretto più affollato e il centro dei trasporti di Tokyo. Naviga in base alle direzioni cardinali: Ingressi Est = Neon/Rumore (Kabukicho). Ingressi Ovest = Verticalità/Affari (Grattacieli). Ingressi Sud = Shopping/Aperto.",
-        "highlights": [
-          "Vita notturna di Kabukicho",
-          "Omoide Yokocho",
-          "Golden Gai"
-        ],
-        "image": "/images/tokyo/shinjuku.jpg"
-      },
-      {
-        "name": "Asakusa",
-        "vibe": "Tokyo Tradizionale",
-        "description": "Tokyo antica preservata. Templi storici, negozi tradizionali e l'atmosfera nostalgica del Giappone dell'era Edo. Visiti presto (alle 6) o tardi (alle 20) per evitare la folla.",
-        "highlights": [
-          "Tempio Senso-ji",
-          "Via Nakamise",
-          "Rickshaw"
-        ],
-        "image": "/images/tokyo/asakusa.jpg"
-      },
-      {
-        "name": "Shimokitazawa",
-        "vibe": "Bohemien & Vintage",
-        "description": "La capitale hipster. Stradine pedonali strette piene di negozi di abbigliamento vintage, negozi di vinile, caffè e piccoli teatri. Dai un'occhiata al nuovo 'Bonus Track', una passeggiata verde che si collega a Setagaya-Daita.",
-        "highlights": [
-          "Shopping Vintage",
-          "Caffè Indie",
-          "Locali di Musica Live",
-          "Bonus Track"
-        ],
-        "image": "/images/tokyo/shimokitazawa.jpg"
-      },
-      {
-        "name": "Yanaka",
-        "vibe": "Shitamachi (Bassa Città)",
-        "description": "Un raro sopravvissuto ai bombardamenti della Seconda Guerra Mondiale. Edifici bassi, molti templi e un'atmosfera residenziale distintiva. Percorra il percorso 'Yanesen' da Ueno a Nippori per uno sguardo sulla Tokyo pre-bellica.",
-        "highlights": [
-          "Yanaka Ginza",
-          "Tempio Nezu",
-          "Gatti Locali"
-        ],
-        "image": "/images/tokyo/yanaka.jpg"
-      },
-      {
-        "name": "Daikanyama & Ebisu",
-        "vibe": "Sofisticazione Yamanote",
-        "description": "Il 'Brooklyn di Tokyo'. Elegante, costoso e residenziale. Casa della libreria T-Site e passeggiate lungo il fiume. Qui è dove i tokyoiti alla moda trascorrono i loro fine settimana.",
-        "highlights": [
-          "Libreria T-Site",
-          "Fiume Meguro",
-          "Yebisu Garden Place"
-        ],
-        "image": "/images/tokyo/daikanyama.jpg"
-      },
-      {
-        "name": "Koenji",
-        "vibe": "Punk & Retro",
-        "description": "Grezzamente vissuto e famoso per le sue radici punk rock e cultura vintage. Un ottimo posto per vivere la vita 'quotidiana' di Tokyo lontano dai luccichii.",
-        "highlights": [
-          "Abbigliamento Vintage",
-          "Izakayas",
-          "Awa Odori"
-        ],
-        "image": "/images/tokyo/koenji.jpg"
-      }
+ "neighborhoods": [
+  {
+    "name": "Shinjuku",
+    "vibe": "Neon e Grattacieli",
+    "description": "Il centro amministrativo e del divertimento. Grattacieli massicci, la stazione più trafficata del mondo e vita notturna leggendaria a Golden Gai. È la Tokyo dei film.",
+    "highlights": ["TMG Observatory", "Golden Gai", "Parco Shinjuku Gyoen"],
+    "image": "/images/tokyo/shinjuku.jpg"
+  },
+  {
+    "name": "Shibuya",
+    "vibe": "Energia e Gioventù",
+    "description": "Il cuore della cultura giovanile. Famosa per il suo incrocio ('Scramble'), i negozi di moda e i maxischermi. È caotica, elettrica e imperdibile.",
+    "highlights": ["Incrocio di Shibuya", "Statua di Hachiko", "Shibuya Sky"],
+    "image": "/images/tokyo/shibuya.jpg"
+  },
+  {
+    "name": "Asakusa",
+    "vibe": "Tradizione e Storia",
+    "description": "Uno sguardo alla vecchia Tokyo. Sede del tempio più antico della città, Asakusa è più tranquilla, tradizionale e perfetta per lo street food locale.",
+    "highlights": ["Tempio Senso-ji", "Via Nakamise", "Fiume Sumida"],
+    "image": "/images/tokyo/asakusa.jpg"
+  },
+  {
+    "name": "Akihabara",
+    "vibe": "Cultura Otaku ed Elettronica",
+    "description": "La 'Electric Town'. Un paradiso per gli amanti di anime, manga, videogiochi ed elettronica. Un mix unico di luci al neon e cultura pop giapponese.",
+    "highlights": ["Negozi di elettronica", "Maid Cafés", "Mandarake"],
+    "image": "/images/tokyo/akihabara.jpg"
+  }
+],
+"logistics": [
+  {
+    "id": "logistics-transit",
+    "slug": "getting-around",
+    "title": "Trasporti",
+    "icon": "Train",
+    "summary": "La rete ferroviaria più efficiente al mondo. Usate una carta Suica ed evitate i taxi.",
+    "details": [
+      "Suica / Pasmo: Carte IC ricaricabili indispensabili. Funzionano su treni, metro, bus e persino distributori automatici. Potete aggiungerle ad Apple/Google Wallet.",
+      "JR vs Metro: La linea JR Yamanote è un anello sopraelevato che collega i quartieri principali. La metro è sotterranea. Il 'Tokyo Subway Pass' è molto conveniente per i turisti.",
+      "Google Maps: Fondamentale. Vi dice esattamente quale binario usare (es: 'Platform 4').",
+      "Evitate i taxi: Sono molto costosi. I trasporti chiudono verso mezzanotte, quindi pianificate i rientri notturni."
     ]
   },
-  "logistics": {
-    "content": [
-      {
-        "id": "logistics-survival",
-        "slug": "local-survival",
-        "title": "Consigli per la Sopravvivenza Locale",
-        "icon": "Info",
-        "summary": "Rimedi essenziali per un viaggio senza intoppi.",
-        "details": [
-          "Shock Stazione: Le stazioni principali sono mini-città. Uscire dal lato sbagliato (ad esempio, Est contro Ovest a Shinjuku) la porterà a 20 minuti di distanza. Controlli attentamente i numeri delle uscite.",
-          "Protocollo Ultimo Treno: I treni si fermano tra le 23:30 e le 00:30. 'Ultimo Treno' significa spesso fino al terminale, non alla *sua* stazione. Perderlo significa un taxi che costa oltre $50 o una notte in un Manga Café.",
-          "Ora di Punta: Eviti i treni dalle 7:30 alle 9:00. È la capacità di schiacciamento fisico. Il silenzio è obbligatorio.",
-          "Invio Bagagli (Takkyubin): Non porti le valigie sui treni. Invi i bagagli dall'aeroporto al suo hotel per circa €20. Cerca il logo del 'Gatto Nero'."
-        ]
-      },
-      {
-        "id": "logistics-transit",
-        "slug": "getting-around",
-        "title": "Muoversi",
-        "icon": "Train",
-        "summary": "Il sistema ferroviario di Tokio è leggendario. Pulito, puntuale e copre ogni parte della città.",
-        "details": [
-          "Linea JR Yamanote: La linea circolare verde che collega i principali hub (Shibuya, Shinjuku, Tokyo).",
-          "Tokyo Metro: 13 linee della metropolitana. Google Maps è essenziale per orientarsi nei trasferimenti.",
-          "Google Maps: L'unica app di navigazione di cui hai bisogno. Ti dice esattamente quale carrozza prendere per l'uscita più veloce.",
-          "Realtà della Carta IC (2025): Le carte Suica fisiche sono scarse a causa di carenze di chip. Usa 'Mobile Suica' sul tuo iPhone (aggiungi ad Apple Wallet, carica con Mastercard/Amex) o acquista una carta turistica 'Welcome Suica' all'aeroporto."
-        ]
-      },
-      {
-        "id": "logistics-money",
-        "slug": "money-connectivity",
-        "title": "Denaro & Wifi",
-        "icon": "Wifi",
-        "summary": "Il contante è re. Il Wifi è discontinuo.",
-        "details": [
-          "Regola del Contante: Porta sempre con te ¥20.000. Molti negozi di ramen e macchine per i biglietti accettano ancora solo contante.",
-          "Bancomat 7-Eleven: I più affidabili per carte straniere. 24 ore su 24, 7 giorni su 7.",
-          "Connettività: Il Wifi pubblico è inaffidabile. Prepara in anticipo un eSIM o un Pocket Wifi. La navigazione senza dati in tempo reale è impossibile."
-        ]
-      },
-      {
-        "id": "logistics-scams",
-        "slug": "common-scams",
-        "title": "Truffe da Evitare",
-        "icon": "AlertTriangle",
-        "summary": "Tokyo è estremamente sicura, ma eviti i 'Venditori ambulanti'.",
-        "details": [
-          "Regola dei Venditori Ambulanti: NON segua mai un promotore per strada a Kabukicho o Roppongi. Lo script è 'Massaggi?' o 'Drink a buon prezzo?'. Sarà sfruttato e derubato di migliaia.",
-          "Finti Monaci: Non accetti 'carte d'oro' o benedizioni da monaci per strada che chiedono contante.",
-          "'Girl' Bars: Eviti i posti dove il personale si trova all'esterno tirandola dentro in modo aggressivo.",
-          "Difesa: Ignori completamente. Non dica 'forse dopo'. Cammini con determinazione."
-        ]
-      },
-      {
-        "id": "logistics-apps",
-        "slug": "essential-apps",
-        "title": "App da Scaricare",
-        "icon": "Smartphone",
-        "summary": "Queste app renderanno la navigazione a Tokyo senza problemi.",
-        "details": [
-          "Google Maps: Essenziale per le tratte ferroviarie.",
-          "Google Translate: Utilizzi la funzione della fotocamera per leggere i menu.",
-          "Suica (Apple Wallet): Aggiunga direttamente una carta di transito al suo iPhone.",
-          "Tabelog: Il 'Yelp' giapponese. 3.5 stelle è un punteggio molto alto qui."
-        ]
-      }
+  {
+    "id": "logistics-dining",
+    "slug": "dining-protocol",
+    "title": "Logistica della Ristorazione",
+    "icon": "Utensils",
+    "summary": "Niente mance, macchinette automatiche e Izakaya.",
+    "details": [
+      "Niente mance: Il servizio è incluso. Lasciare soldi è considerato confuso o maleducato.",
+      "Macchinette per i ticket: Molti ristoranti economici (Ramen/Soba) usano macchine all'ingresso. Pagate, prendete il ticket e datelo allo chef.",
+      "Izakaya e 'Otoshi': I pub giapponesi servono spesso un piccolo antipasto obbligatorio ('Otoshi') addebitato come costo del tavolo.",
+      "I contanti sono fondamentali: Anche se le carte sono sempre più accettate, portate sempre contanti per piccoli locali e templi."
     ]
   },
+  {
+    "id": "logistics-survival",
+    "slug": "local-survival",
+    "title": "Consigli di Sopravvivenza Locale",
+    "icon": "Info",
+    "summary": "Connessione, rifiuti e galateo.",
+    "details": [
+      "Pocket WiFi o eSIM: Essenziale per navigare. Il WiFi pubblico gratuito è raro e spesso instabile.",
+      "Dove sono i cestini?: Quasi inesistenti per strada. Portate un sacchetto per i vostri rifiuti e buttateli in hotel o vicino ai distributori automatici.",
+      "Regola del silenzio: Non si parla al telefono nei treni e si tiene la voce bassa. Il rispetto per lo spazio comune è vitale.",
+      "Scale mobili: A Tokyo ci si tiene a sinistra. Seguite sempre il flusso della folla."
+    ]
+  }
+],
   "must_eat": [
     {
       "id": "food-001",

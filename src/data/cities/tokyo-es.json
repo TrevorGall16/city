@@ -243,31 +243,77 @@
 ]
 
   },
-  "neighborhoods": {
+"neighborhoods": [
+  {
+    "name": "Shinjuku",
+    "vibe": "Neones y Rascacielos",
+    "description": "El centro administrativo y de ocio de Tokio. Rascacielos masivos, la estación más concurrida del mundo y vida nocturna legendaria en Golden Gai. Es el Tokio que ves en las películas.",
+    "highlights": ["Observatorio TMG", "Golden Gai", "Parque Shinjuku Gyoen"],
+    "image": "/images/tokyo/shinjuku.jpg"
+  },
+  {
     "name": "Shibuya",
-    "vibe": "Juventud y Energía",
-    "description": "El corazón palpitante de la cultura juvenil de Tokio. Definido por la verticalidad y la topografía de valle. La estación es un montón; la línea Ginza está en el 3er piso, otras están profundamente bajo tierra. Use 'Urban Cores' (ascensores) para moverse hacia arriba.",
-    "highlights": [
-      "Cruce de Shibuya",
-      "Estatua de Hachiko",
-      "Calle Center Gai",
-      "Shibuya Sky"
-    ],
+    "vibe": "Energía y Juventud",
+    "description": "El corazón de la cultura joven. Famoso por su cruce peatonal ('Scramble'), tiendas de moda y pantallas gigantes. Es caótico, eléctrico e imprescindible.",
+    "highlights": ["Cruce de Shibuya", "Estatua de Hachiko", "Shibuya Sky"],
     "image": "/images/tokyo/shibuya.jpg"
   },
-  "logistics": {
+  {
+    "name": "Asakusa",
+    "vibe": "Tradición e Historia",
+    "description": "Un vistazo al viejo Tokio. Hogar del templo más antiguo de la ciudad, Asakusa es más tranquilo, tradicional y perfecto para probar comida callejera local.",
+    "highlights": ["Templo Senso-ji", "Calle Nakamise", "Río Sumida"],
+    "image": "/images/tokyo/asakusa.jpg"
+  },
+  {
+    "name": "Akihabara",
+    "vibe": "Cultura Otaku y Electrónica",
+    "description": "La 'Ciudad Eléctrica'. Un paraíso para fans del anime, manga, videojuegos y electrónica. Una mezcla única de luces de neón y cultura pop japonesa.",
+    "highlights": ["Tiendas de electrónica", "Maid Cafés", "Mandarake"],
+    "image": "/images/tokyo/akihabara.jpg"
+  }
+],
+"logistics": [
+  {
+    "id": "logistics-transit",
+    "slug": "getting-around",
+    "title": "Transporte",
+    "icon": "Train",
+    "summary": "La red ferroviaria más eficiente del mundo. Consiga una tarjeta Suica y evite los taxis.",
+    "details": [
+      "Suica / Pasmo: Tarjetas IC recargables esenciales. Funcionan en trenes, metros, autobuses e incluso máquinas expendedoras. Puede añadirlas a Apple/Google Wallet.",
+      "JR vs Metro: La línea JR Yamanote es un anillo elevado que conecta los distritos principales. El metro es subterráneo y más denso. El 'Tokyo Subway Pass' es muy útil para turistas.",
+      "Google Maps: Imprescindible. Le indica exactamente qué andén usar (ej: 'Platform 4').",
+      "Evite los taxis: Son muy caros. El transporte público cierra alrededor de la medianoche, planifique sus noches con antelación."
+    ]
+  },
+  {
+    "id": "logistics-dining",
+    "slug": "dining-protocol",
+    "title": "Logística de Restauración",
+    "icon": "Utensils",
+    "summary": "Sin propinas, máquinas de tickets e Izakayas.",
+    "details": [
+      "Sin propinas: El servicio está incluido. Dejar dinero extra se considera confuso o incluso grosero.",
+      "Máquinas de tickets: Muchos lugares económicos (Ramen/Soba) tienen máquinas en la entrada. Pague, coja su ticket y entrégueselo al chef.",
+      "Izakayas y 'Otoshi': Los pubs japoneses suelen servir un pequeño aperitivo obligatorio ('Otoshi') que se cobra como cargo de mesa.",
+      "Efectivo es Rey: Aunque las tarjetas se aceptan cada vez más, lleve siempre efectivo para restaurantes pequeños y templos."
+    ]
+  },
+  {
     "id": "logistics-survival",
     "slug": "local-survival",
     "title": "Consejos de Supervivencia Local",
     "icon": "Info",
-    "summary": "Remove fricciones esenciales para un viaje sin problemas.",
+    "summary": "Conexión, basura y etiqueta.",
     "details": [
-      "Choque en la Estación: Las estaciones principales son mini-ciudades. Salir por el lado equivocado (por ejemplo, Este vs Oeste en Shinjuku) le aleja 20 minutos. Revise los números de salida cuidadosamente.",
-      "Protocolo del Último Tren: Los trenes paran entre las 23:30 y las 00:30. 'Último Tren' a menudo significa hacia la terminal, no *su* estación. Perderlo significa un taxi de más de $50 o una estancia en un Manga Cafe.",
-      "Hora Pico: Evite los trenes de 7:30am a 9:00am. Es capacidad física de aplastamiento. El silencio es obligatorio.",
-      "Reenvío de Equipaje (Takkyubin): No cargue maletas en los trenes. Envíe equipaje desde el aeropuerto a su hotel por aproximadamente $20. Busque el logo del 'Gato Negro'."
+      "Pocket WiFi o eSIM: Esencial para navegar. El WiFi público gratuito es escaso y poco fiable.",
+      "¿Dónde están las papeleras?: Casi no hay en las calles. Lleve una bolsa pequeña para su basura y tírela en su hotel o junto a máquinas expendedoras.",
+      "Etiqueta de silencio: No se habla por teléfono en los trenes y se mantiene la voz baja. El respeto al espacio común es vital.",
+      "Escaleras mecánicas: En Tokio, la gente se mantiene a la izquierda. Siga siempre el flujo de la multitud."
     ]
-  },
+  }
+],
   "must_eat": [
     {
       "id": "food-001",
