@@ -17,6 +17,8 @@ import { CommentThread } from '@/components/features/CommentThread'
 import type { Metadata } from 'next'
 import { EnhancedPlaceCard } from '@/components/features/EnhancedPlaceCard'
 import AdsterraSmartFrame from '@/components/ads/AdsterraSmartFrame'
+import FAQSchema from '@/components/seo/FAQSchema'
+import { PLACE_FAQS } from '@/data/place_faqs'
 
 const SEO_DICTIONARY = {
   en: { travelGuide: 'Travel Guide', similar: 'You Might Also Like' },
@@ -157,6 +159,8 @@ export default async function PlacePage({ params }: PageProps) {
 
   // 🎯 SEO: JSON-LD Structured Data
   const isRestaurant = place.category === 'food' || place.category === 'restaurant';
+  const currentFAQs = PLACE_FAQS[place.slug] || []
+
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': isRestaurant ? 'Restaurant' : 'TouristAttraction',
@@ -181,6 +185,7 @@ export default async function PlacePage({ params }: PageProps) {
   return (
     <main className={`min-h-screen bg-slate-50 dark:bg-slate-950 pb-24 ${cityFontClass}`} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
+      <FAQSchema faqs={currentFAQs} />
       <nav className="sticky top-20 z-40 bg-white/90 dark:bg-slate-900/90 backdrop-blur-lg border-b border-slate-200 dark:border-slate-800">
         <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href={`/${lang}/city/${citySlug}`} className="group flex items-center gap-2 text-xs font-black uppercase tracking-widest text-indigo-600 dark:text-indigo-400">
