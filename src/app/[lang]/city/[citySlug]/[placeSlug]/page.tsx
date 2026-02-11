@@ -18,6 +18,7 @@ import type { Metadata } from 'next'
 import { EnhancedPlaceCard } from '@/components/features/EnhancedPlaceCard'
 import AdsterraSmartFrame from '@/components/ads/AdsterraSmartFrame'
 import FAQSchema from '@/components/seo/FAQSchema'
+import { ImageLightbox } from '@/components/ui/ImageLightbox'
 import { PLACE_FAQS } from '@/data/place_faqs'
 
 const SEO_DICTIONARY = {
@@ -199,10 +200,12 @@ export default async function PlacePage({ params }: PageProps) {
       </nav>
 
       <article className="max-w-5xl mx-auto px-6 mt-8">
-        <div className="relative aspect-[21/9] rounded-[3rem] overflow-hidden shadow-2xl mb-12 group border-4 border-white dark:border-slate-800">
-          <Image src={place.image || '/images/placeholder.jpg'} alt={place.name_en || 'Place Image'} fill className="object-cover transition-transform duration-700 group-hover:scale-105" priority />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-        </div>
+        <ImageLightbox src={place.image || '/images/placeholder.jpg'} alt={place.name_en || 'Place Image'}>
+          <div className="relative aspect-[21/9] rounded-[3rem] overflow-hidden shadow-2xl mb-12 group border-4 border-white dark:border-slate-800">
+            <Image src={place.image || '/images/placeholder.jpg'} alt={place.name_en || 'Place Image'} fill className="object-cover transition-transform duration-700 group-hover:scale-105" priority />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+          </div>
+        </ImageLightbox>
 
         <header className="mb-12">
           <div className="flex flex-col gap-2">
