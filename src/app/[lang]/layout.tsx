@@ -13,6 +13,7 @@ import { Toaster } from 'sonner'
 import '@/app/globals.css'
 import type { Metadata } from 'next'
 import { CookieConsent } from '@/components/features/CookieConsent'
+import { AvailableLanguagesProvider } from '@/context/AvailableLanguagesContext'
 import { getDict } from '@/data/dictionaries' // 🎯 REQUIRED IMPORT
 
 const inter = Inter({ 
@@ -85,8 +86,9 @@ export default async function RootLayout({
 
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <AuthProvider>
+            <AvailableLanguagesProvider>
             <Toaster position="top-center" richColors />
-            
+
             {/* 🎯 FIX: Passed 'dict' to Header */}
             <Header lang={displayLang} dict={dict} />
 
@@ -96,6 +98,7 @@ export default async function RootLayout({
 
             <Footer />
             <CookieConsent />
+            </AvailableLanguagesProvider>
           </AuthProvider>
         </ThemeProvider>
       </body>

@@ -6,14 +6,24 @@ const LANG_MAP: Record<string, string> = {
   de: "🇩🇪 Deutsch", zh: "🇨🇳 中文", ar: "🇸🇦 العربية"
 }
 
-export function LanguageLinks({ citySlug, currentLang }: { citySlug: string, currentLang: string }) {
+interface LanguageLinksProps {
+  citySlug: string
+  currentLang: string
+  availableLanguages?: string[]
+}
+
+export function LanguageLinks({ citySlug, currentLang, availableLanguages }: LanguageLinksProps) {
+  const entries = availableLanguages
+    ? Object.entries(LANG_MAP).filter(([code]) => availableLanguages.includes(code))
+    : Object.entries(LANG_MAP)
+
   return (
     <div className="mt-12 py-8 border-t border-slate-200 dark:border-slate-800">
       <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-4 text-center">
         Read this guide in another language
       </h3>
       <div className="flex flex-wrap justify-center gap-3">
-        {Object.entries(LANG_MAP).map(([code, label]) => (
+        {entries.map(([code, label]) => (
           code !== currentLang && (
             <Link
               key={code}

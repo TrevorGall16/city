@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Globe } from 'lucide-react';
+import { useAvailableLanguages } from '@/context/AvailableLanguagesContext';
 
 const LANGUAGES = [
   { code: 'en', label: 'English', flag: '🇺🇸' },
@@ -18,10 +19,16 @@ const LANGUAGES = [
 
 export function LanguageSelector() {
   const pathname = usePathname();
-  
+  const { availableLanguages } = useAvailableLanguages();
+
   // Extract current lang (first part of path)
   const currentLang = pathname.split('/')[1] || 'en';
-  
+
+  // Filter languages: if on a city page with known availability, only show those
+  const displayLanguages = availableLanguages
+    ? LANGUAGES.filter((lang) => availableLanguages.includes(lang.code))
+    : LANGUAGES;
+
   // Helper to switch URL prefix
   const getSwitchLink = (newLang: string) => {
     const segments = pathname.split('/');
@@ -39,7 +46,7 @@ export function LanguageSelector() {
         </span>
       </button>
 
-      {/* INVISIBLE BRIDGE 
+      {/* INVISIBLE BRIDGE
          This invisible div fills the gap so the menu doesn't close when you move your mouse down.
       */}
       <div className="absolute top-full left-0 w-full h-4 bg-transparent" />
@@ -47,7 +54,7 @@ export function LanguageSelector() {
       {/* DROPDOWN MENU */}
       <div className="absolute top-[calc(100%+8px)] right-0 w-48 bg-white dark:bg-slate-900 rounded-xl shadow-xl border border-slate-200 dark:border-slate-800 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform origin-top-right z-[100] max-h-[80vh] overflow-y-auto">
         <div className="p-2 flex flex-col gap-1">
-          {LANGUAGES.map((lang) => (
+          {displayLanguages.map((lang) => (
             <Link
               key={lang.code}
               href={getSwitchLink(lang.code)}

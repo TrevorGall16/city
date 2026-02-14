@@ -30,6 +30,7 @@
   import { CommentThread } from '@/components/features/CommentThread'
   import { ChinaAppGuide } from '@/components/city/ChinaAppGuide'
   import { getCityData } from '@/lib/getCityData'
+  import { getAvailableLanguages } from '@/lib/getAvailableLanguages'
   import { SEO_DICTIONARY, type SEOLang } from '@/data/seo-dictionary'
 
   interface PageProps {
@@ -504,7 +505,7 @@
           </section>
 
           <section className="max-w-[1600px] mx-auto px-4 py-12 border-t border-slate-100 dark:border-slate-900">
-              <LanguageLinks citySlug={citySlug} currentLang={lang} />
+              <LanguageLinks citySlug={citySlug} currentLang={lang} availableLanguages={getAvailableLanguages(citySlug)} />
           </section>
 
           <section className="max-w-[1000px] mx-auto px-4 py-24 border-t-4 border-slate-900 dark:border-slate-100">
