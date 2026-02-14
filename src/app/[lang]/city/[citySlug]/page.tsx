@@ -8,8 +8,6 @@
   import { notFound } from 'next/navigation'
   import Image from 'next/image'
   import Link from 'next/link'
-  import { promises as fs } from 'fs'
-  import path from 'path'
   import type { City } from '@/types'
   import { EnhancedPlaceCard } from '@/components/features/EnhancedPlaceCard'
   import { MonthCard } from '@/components/features/MonthCard'
@@ -31,6 +29,7 @@
   import { CityNavigation } from '@/components/features/CityNavigation'
   import { CommentThread } from '@/components/features/CommentThread'
   import { ChinaAppGuide } from '@/components/city/ChinaAppGuide'
+  import { getCityData } from '@/lib/getCityData'
 
   // 🌍 SEO TRANSLATION DICTIONARY
   const SEO_DICTIONARY = {
@@ -178,23 +177,6 @@
   }
 
   const SUPPORTED_LANGS = ['en', 'fr', 'es', 'it', 'ja', 'hi', 'de', 'ar']
-
-  async function getCityData(slug: string, lang: string) {
-    // 🛑 REMOVED CACHE LOGIC (Direct file read is safer for Netlify)
-    try {
-      const fileName = lang === 'en' ? `${slug}.json` : `${slug}-${lang}.json`;
-      const filePath = path.join(process.cwd(), 'src/data/cities', fileName);
-      const fileContent = await fs.readFile(filePath, 'utf8');
-      return JSON.parse(fileContent) as City;
-    } catch (error) {
-      try {
-        // Fallback to English if localized file is corrupt or missing
-        const fallbackPath = path.join(process.cwd(), 'src/data/cities', `${slug}.json`);
-        const fallbackContent = await fs.readFile(fallbackPath, 'utf8');
-        return JSON.parse(fallbackContent) as City;
-      } catch { return null; }
-    }
-  }
 
   export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const { citySlug, lang } = await params

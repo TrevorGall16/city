@@ -15,6 +15,7 @@ import { EnhancedPlaceCard } from '@/components/features/EnhancedPlaceCard'
 import { getDict } from '@/data/dictionaries'
 import AdsterraBanner from '@/components/ads/AdsterraBanner'
 import AdsterraSmartFrame from '@/components/ads/AdsterraSmartFrame'
+import { getCityData } from '@/lib/getCityData'
 
 // ============================================================================
 // NATIVE AD PLACEHOLDER COMPONENT
@@ -241,24 +242,6 @@ const VALID_CATEGORIES: ValidCategory[] = ['food', 'sights', 'coffee', 'bakeries
 // ============================================================================
 interface PageProps {
   params: Promise<{ lang: string; citySlug: string; category: string }>
-}
-
-async function getCityData(slug: string, lang: string): Promise<City | null> {
-  try {
-    const fileName = lang === 'en' ? `${slug}.json` : `${slug}-${lang}.json`
-    const filePath = path.join(process.cwd(), 'src/data/cities', fileName)
-    const fileContent = await fs.readFile(filePath, 'utf8')
-    return JSON.parse(fileContent) as City
-  } catch {
-    try {
-      // Fallback to English if localized file missing
-      const fallbackPath = path.join(process.cwd(), 'src/data/cities', `${slug}.json`)
-      const fallbackContent = await fs.readFile(fallbackPath, 'utf8')
-      return JSON.parse(fallbackContent) as City
-    } catch {
-      return null
-    }
-  }
 }
 
 function getCollectionItems(city: City, category: ValidCategory): Place[] {

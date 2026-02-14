@@ -8,9 +8,8 @@
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
-import { promises as fs } from 'fs'
-import path from 'path'
 import { getDict } from '@/data/dictionaries'
+import { getCityData } from '@/lib/getCityData'
 import { getCityFont } from '@/lib/fonts/cityFonts'
 import { Clock, DollarSign, Zap, Star, MapPin, ArrowLeft } from 'lucide-react'
 import { CommentThread } from '@/components/features/CommentThread'
@@ -40,30 +39,18 @@ interface PageProps {
 }
 
 async function getPlaceData(citySlug: string, placeSlug: string, lang: string) {
-  try {
-    const fileName = lang === 'en' ? `${citySlug}.json` : `${citySlug}-${lang}.json`;
-    const filePath = path.join(process.cwd(), 'src/data/cities', fileName);
+  const city = await getCityData(citySlug, lang)
+  if (!city) return null
 
-    let fileContent;
-    try {
-      fileContent = await fs.readFile(filePath, 'utf8');
-    } catch (e) {
-      const fallbackPath = path.join(process.cwd(), 'src/data/cities', `${citySlug}.json`);
-      fileContent = await fs.readFile(fallbackPath, 'utf8');
-    }
+  const allPlaces = [...(city.must_see?.flatMap((g: any) => g.items) || []), ...(city.must_eat || [])]
+  const place = allPlaces.find((p: any) => p.slug === placeSlug)
+  if (!place) return null
 
-    const city = JSON.parse(fileContent);
-    const allPlaces = [...(city.must_see?.flatMap((g: any) => g.items) || []), ...(city.must_eat || [])];
-    const place = allPlaces.find((p: any) => p.slug === placeSlug);
+  const similarPlaces = allPlaces
+    .filter((p: any) => p.slug !== placeSlug && p.category === place.category)
+    .slice(0, 3)
 
-    // 🕸️ TRAFFIC ENGINE: Find 3 Similar Places
-    // Logic: Same category, excluding current place
-    const similarPlaces = allPlaces
-      .filter((p: any) => p.slug !== placeSlug && p.category === place.category)
-      .slice(0, 3);
-
-    return place ? { place, cityName: city.name, similarPlaces } : null;
-  } catch { return null; }
+  return { place, cityName: city.name, similarPlaces }
 }
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { lang, citySlug, placeSlug } = await params

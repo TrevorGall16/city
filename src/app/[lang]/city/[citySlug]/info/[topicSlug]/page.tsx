@@ -4,31 +4,20 @@
  */
 
 import { notFound } from 'next/navigation'
-import { promises as fs } from 'fs'
-import path from 'path'
 import type { Metadata } from 'next'
+import { getCityData } from '@/lib/getCityData'
 import Link from 'next/link'
 import { ArrowLeft, ExternalLink, Info } from 'lucide-react'
 import * as Icons from 'lucide-react'
 import { Suspense } from 'react'
 
 interface PageProps {
-  params: Promise<{ citySlug: string; topicSlug: string }>
-}
-
-async function getCityData(slug: string) {
-  try {
-    const filePath = path.join(process.cwd(), 'src/data/cities', `${slug}.json`)
-    const fileContent = await fs.readFile(filePath, 'utf-8')
-    return JSON.parse(fileContent)
-  } catch {
-    return null
-  }
+  params: Promise<{ lang: string; citySlug: string; topicSlug: string }>
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { citySlug, topicSlug } = await params
-  const city = await getCityData(citySlug)
+  const { lang, citySlug, topicSlug } = await params
+  const city = await getCityData(citySlug, lang)
   if (!city) return { title: 'City Not Found' }
 
   const topic = city.logistics.find((t: any) => t.slug === topicSlug)
@@ -45,8 +34,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default async function InfoTopicPage({ params }: PageProps) {
-  const { citySlug, topicSlug } = await params
-  const city = await getCityData(citySlug)
+  const { lang, citySlug, topicSlug } = await params
+  const city = await getCityData(citySlug, lang)
   if (!city) notFound()
 
   const topic = city.logistics.find((t: any) => t.slug === topicSlug)

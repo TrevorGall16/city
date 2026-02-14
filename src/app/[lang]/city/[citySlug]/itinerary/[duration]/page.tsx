@@ -5,13 +5,12 @@
  */
 
 import { notFound } from 'next/navigation'
-import { promises as fs } from 'fs'
-import path from 'path'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import type { City, Place } from '@/types'
 import { EnhancedPlaceCard } from '@/components/features/EnhancedPlaceCard'
 import { getDict } from '@/data/dictionaries'
+import { getCityData } from '@/lib/getCityData'
 
 // ============================================================================
 // LOCAL TRANSLATION DICTIONARY
@@ -189,24 +188,6 @@ const DURATION_CONFIG: Record<ValidDuration, { mustSee: number; mustEat: number 
 // ============================================================================
 interface PageProps {
   params: Promise<{ lang: string; citySlug: string; duration: string }>
-}
-
-async function getCityData(slug: string, lang: string): Promise<City | null> {
-  try {
-    const fileName = lang === 'en' ? `${slug}.json` : `${slug}-${lang}.json`
-    const filePath = path.join(process.cwd(), 'src/data/cities', fileName)
-    const fileContent = await fs.readFile(filePath, 'utf8')
-    return JSON.parse(fileContent) as City
-  } catch {
-    try {
-      // Fallback to English if localized file missing
-      const fallbackPath = path.join(process.cwd(), 'src/data/cities', `${slug}.json`)
-      const fallbackContent = await fs.readFile(fallbackPath, 'utf8')
-      return JSON.parse(fallbackContent) as City
-    } catch {
-      return null
-    }
-  }
 }
 
 function isValidDuration(duration: string): duration is ValidDuration {

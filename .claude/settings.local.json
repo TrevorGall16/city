@@ -10,7 +10,8 @@
       "Bash(npx next lint:*)",
       "Bash(npx next build:*)",
       "Bash(node -c:*)",
-      "Bash(node scripts/generate-sitemap.js:*)"
+      "Bash(node scripts/generate-sitemap.js:*)",
+      "Bash(git -C \"D:/Projects/Website/CitySheet/city\" ls-files:*)"
     ]
   }
 }
