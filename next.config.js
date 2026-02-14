@@ -7,6 +7,7 @@ const nextConfig = {
   // ⚡ MASTER AI: IMAGE OPTIMIZATION
   images: {
     dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     formats: ['image/webp', 'image/avif'],
     remotePatterns: [
       { protocol: 'https', hostname: 'images.unsplash.com' },
@@ -14,12 +15,6 @@ const nextConfig = {
     ],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-  },
-
-  // 🛡️ MASTER AI: SAFETY LOCK
-  experimental: {
-    cpus: 1,
-    workerThreads: false,
   },
 
   // 🚀 STATIC ASSET CACHING

@@ -345,9 +345,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const descPrefix = categoryDescs[category]
 
   // Asian languages: City name comes after the title prefix
+  const currentYear = new Date().getFullYear()
   const pageTitle = isAsianLang
-    ? `${city.name} ${titlePrefix} | 2026`
-    : `${titlePrefix} ${city.name} | 2026`
+    ? `${city.name} ${titlePrefix} | ${currentYear}`
+    : `${titlePrefix} ${city.name} | ${currentYear}`
 
   const description = isAsianLang
     ? `${city.name} ${descPrefix}`

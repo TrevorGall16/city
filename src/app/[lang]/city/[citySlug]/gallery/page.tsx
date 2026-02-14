@@ -184,7 +184,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const dictLang = (lang in GALLERY_DICT ? lang : 'en') as SupportedLang
   const localDict = GALLERY_DICT[dictLang]
 
-  const pageTitle = localDict.meta_title.replace('{city}', city.name) + ' | 2026'
+  const currentYear = new Date().getFullYear()
+  const pageTitle = localDict.meta_title.replace('{city}', city.name) + ` | ${currentYear}`
   const description = localDict.meta_desc.replace(/{city}/g, city.name)
 
   return {

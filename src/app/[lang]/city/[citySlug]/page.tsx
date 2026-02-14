@@ -30,147 +30,7 @@
   import { CommentThread } from '@/components/features/CommentThread'
   import { ChinaAppGuide } from '@/components/city/ChinaAppGuide'
   import { getCityData } from '@/lib/getCityData'
-
-  // 🌍 SEO TRANSLATION DICTIONARY
-  const SEO_DICTIONARY = {
-    en: {
-      travelGuide: 'Travel Guide',
-      topSightsInclude: 'Top sights include',
-      and: 'and',
-      viewAllSights: 'View All Sights',
-      viewAllFood: 'View All Food',
-      perfectItineraries: 'Perfect Itineraries',
-      day1: '1 Day',
-      day2: '2 Days',
-      day3: '3 Days',
-      quickTrip: 'Quick highlights',
-      weekendGetaway: 'Weekend getaway',
-      fullExperience: 'Full experience',
-      viewGallery: 'View Photo Gallery',
-    },
-    fr: {
-      travelGuide: 'Guide de Voyage',
-      topSightsInclude: 'Les sites incontournables incluent',
-      and: 'et',
-      viewAllSights: 'Voir Toutes les Attractions',
-      viewAllFood: 'Voir Toute la Cuisine',
-      perfectItineraries: 'Itinéraires Parfaits',
-      day1: '1 Jour',
-      day2: '2 Jours',
-      day3: '3 Jours',
-      quickTrip: 'Visite express',
-      weekendGetaway: 'Week-end escapade',
-      fullExperience: 'Expérience complète',
-      viewGallery: 'Voir la Galerie',
-    },
-    ja: {
-      travelGuide: '旅行ガイド',
-      topSightsInclude: '主な観光スポット',
-      and: 'と',
-      viewAllSights: 'すべての観光スポット',
-      viewAllFood: 'すべてのグルメ',
-      perfectItineraries: 'おすすめコース',
-      day1: '1日',
-      day2: '2日',
-      day3: '3日',
-      quickTrip: '弾丸旅行',
-      weekendGetaway: '週末旅行',
-      fullExperience: '充実の旅',
-      viewGallery: 'フォトギャラリー',
-    },
-    ar: {
-      travelGuide: 'دليل السفر',
-      topSightsInclude: 'تشمل أهم المعالم',
-      and: 'و',
-      viewAllSights: 'عرض جميع المعالم',
-      viewAllFood: 'عرض جميع الأطعمة',
-      perfectItineraries: 'برامج مثالية',
-      day1: 'يوم واحد',
-      day2: 'يومان',
-      day3: '3 أيام',
-      quickTrip: 'زيارة سريعة',
-      weekendGetaway: 'عطلة نهاية الأسبوع',
-      fullExperience: 'تجربة كاملة',
-      viewGallery: 'معرض الصور',
-    },
-    hi: {
-      travelGuide: 'यात्रा गाइड',
-      topSightsInclude: 'शीर्ष दर्शनीय स्थलों में शामिल हैं',
-      and: 'और',
-      viewAllSights: 'सभी आकर्षण देखें',
-      viewAllFood: 'सभी भोजन देखें',
-      perfectItineraries: 'परफेक्ट यात्रा कार्यक्रम',
-      day1: '1 दिन',
-      day2: '2 दिन',
-      day3: '3 दिन',
-      quickTrip: 'त्वरित यात्रा',
-      weekendGetaway: 'सप्ताहांत यात्रा',
-      fullExperience: 'पूर्ण अनुभव',
-      viewGallery: 'फोटो गैलरी देखें',
-    },
-    es: {
-      travelGuide: 'Guía de Viaje',
-      topSightsInclude: 'Los lugares principales incluyen',
-      and: 'y',
-      viewAllSights: 'Ver Todas las Atracciones',
-      viewAllFood: 'Ver Toda la Comida',
-      perfectItineraries: 'Itinerarios Perfectos',
-      day1: '1 Día',
-      day2: '2 Días',
-      day3: '3 Días',
-      quickTrip: 'Visita rápida',
-      weekendGetaway: 'Escapada de fin de semana',
-      fullExperience: 'Experiencia completa',
-      viewGallery: 'Ver Galería',
-    },
-    de: {
-      travelGuide: 'Reiseführer',
-      topSightsInclude: 'Top-Sehenswürdigkeiten sind',
-      and: 'und',
-      viewAllSights: 'Alle Sehenswürdigkeiten',
-      viewAllFood: 'Alle Gerichte',
-      perfectItineraries: 'Perfekte Reiserouten',
-      day1: '1 Tag',
-      day2: '2 Tage',
-      day3: '3 Tage',
-      quickTrip: 'Kurzbesuch',
-      weekendGetaway: 'Wochenendtrip',
-      fullExperience: 'Volles Erlebnis',
-      viewGallery: 'Fotogalerie',
-    },
-    zh: {
-      travelGuide: '旅游指南',
-      topSightsInclude: '热门景点包括',
-      and: '和',
-      viewAllSights: '查看所有景点',
-      viewAllFood: '查看所有美食',
-      perfectItineraries: '完美行程',
-      day1: '1天',
-      day2: '2天',
-      day3: '3天',
-      quickTrip: '快速游览',
-      weekendGetaway: '周末度假',
-      fullExperience: '深度体验',
-      viewGallery: '查看图库',
-    },
-    it: {
-      travelGuide: 'Guida di Viaggio',
-      topSightsInclude: 'I siti principali includono',
-      and: 'e',
-      viewAllSights: 'Vedi Tutte le Attrazioni',
-      viewAllFood: 'Vedi Tutto il Cibo',
-      perfectItineraries: 'Itinerari Perfetti',
-      day1: '1 Giorno',
-      day2: '2 Giorni',
-      day3: '3 Giorni',
-      quickTrip: 'Visita lampo',
-      weekendGetaway: 'Weekend fuoriporta',
-      fullExperience: 'Esperienza completa',
-      viewGallery: 'Galleria Foto',
-    },
-  } as const
-
-  type SupportedLang = keyof typeof SEO_DICTIONARY
+  import { SEO_DICTIONARY, type SEOLang } from '@/data/seo-dictionary'
 
   interface PageProps {
     params: Promise<{ lang: string; citySlug: string }>
@@ -185,7 +45,7 @@
     if (!city) return { title: 'City Not Found' }
 
     // 🌍 Get localized SEO strings (with fallback to English)
-    const seoLang = (lang in SEO_DICTIONARY ? lang : 'en') as SupportedLang
+    const seoLang = (lang in SEO_DICTIONARY ? lang : 'en') as SEOLang
     const seoStrings = SEO_DICTIONARY[seoLang]
 
     // 🎯 SEO: Dynamic meta description (no JSON field needed)
@@ -208,7 +68,8 @@
       : introVibe
 
     // Build localized title
-    const pageTitle = `${city.name} | ${seoStrings.travelGuide} 2026`
+    const currentYear = new Date().getFullYear()
+    const pageTitle = `${city.name} | ${seoStrings.travelGuide} ${currentYear}`
     const ogTitle = `${city.name} ${seoStrings.travelGuide}`
 
     return {
@@ -250,7 +111,7 @@
 
     const city = await getCityData(citySlug, lang);
     const dict = getDict(lang);
-    const seoLang = (lang in SEO_DICTIONARY ? lang : 'en') as SupportedLang;
+    const seoLang = (lang in SEO_DICTIONARY ? lang : 'en') as SEOLang;
     const seoStrings = SEO_DICTIONARY[seoLang];
 
     if (!city) notFound()
@@ -372,7 +233,7 @@
 
           {/* 1. Cinematic Hero */}
           <section className="h-[60vh] relative overflow-hidden group">
-            <Image src={city.hero_image} alt={city.name} fill priority className="object-cover transition-transform duration-1000 group-hover:scale-110" />
+            <Image src={city.hero_image} alt={city.name} fill priority sizes="(max-width: 768px) 100vw, 100vw" className="object-cover transition-transform duration-1000 group-hover:scale-110" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-center justify-center">
               <HeroGlass title={city.name} subtitle={introVibe} titleColor={finalHeroColor} fontClass={cityFontClass} />
             </div>

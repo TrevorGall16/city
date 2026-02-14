@@ -19,20 +19,7 @@ import AdsterraSmartFrame from '@/components/ads/AdsterraSmartFrame'
 import FAQSchema from '@/components/seo/FAQSchema'
 import { ImageLightbox } from '@/components/ui/ImageLightbox'
 import { PLACE_FAQS } from '@/data/place_faqs'
-
-const SEO_DICTIONARY = {
-  en: { travelGuide: 'Travel Guide', similar: 'You Might Also Like' },
-  fr: { travelGuide: 'Guide de Voyage', similar: 'Vous Aimerez Aussi' },
-  ja: { travelGuide: '旅行ガイド', similar: 'こちらもおすすめ' },
-  ar: { travelGuide: 'دليل السفر', similar: 'قد يعجبك ايضا' },
-  hi: { travelGuide: 'यात्रा गाइड', similar: 'आपको यह भी पसंद आ सकता है' },
-  es: { travelGuide: 'Guía de Viaje', similar: 'También te puede gustar' },
-  de: { travelGuide: 'Reiseführer', similar: 'Das könnte dir auch gefallen' },
-  it: { travelGuide: 'Guida di Viaggio', similar: 'Potrebbe Piacerti Anche' },
-  zh: { travelGuide: '旅行指南', similar: '你可能也喜欢' },
-} as const
-
-type SupportedLang = keyof typeof SEO_DICTIONARY
+import { SEO_DICTIONARY, type SEOLang } from '@/data/seo-dictionary'
 
 interface PageProps {
   params: Promise<{ lang: string; citySlug: string; placeSlug: string }>
@@ -61,7 +48,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { place, cityName } = data
 
   // 🌍 Get localized SEO strings (with fallback to English)
-  const seoLang = (lang in SEO_DICTIONARY ? lang : 'en') as SupportedLang
+  const seoLang = (lang in SEO_DICTIONARY ? lang : 'en') as SEOLang
   const seoStrings = SEO_DICTIONARY[seoLang]
 
   // 🎯 SEO: Optimized title with local name first
@@ -189,7 +176,7 @@ export default async function PlacePage({ params }: PageProps) {
       <article className="max-w-5xl mx-auto px-6 mt-8">
         <ImageLightbox src={place.image || '/images/placeholder.jpg'} alt={place.name_en || 'Place Image'}>
           <div className="relative aspect-[21/9] rounded-[3rem] overflow-hidden shadow-2xl mb-12 group border-4 border-white dark:border-slate-800">
-            <Image src={place.image || '/images/placeholder.jpg'} alt={place.name_en || 'Place Image'} fill className="object-cover transition-transform duration-700 group-hover:scale-105" priority />
+            <Image src={place.image || '/images/placeholder.jpg'} alt={place.name_en || 'Place Image'} fill sizes="(max-width: 768px) 100vw, 100vw" className="object-cover transition-transform duration-700 group-hover:scale-105" priority />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
           </div>
         </ImageLightbox>
@@ -250,7 +237,7 @@ export default async function PlacePage({ params }: PageProps) {
 {data.similarPlaces && data.similarPlaces.length > 0 && (
             <section className="py-16 border-t border-slate-200 dark:border-slate-800 mb-12">
               <h3 className="text-2xl font-black uppercase mb-8 text-slate-900 dark:text-white tracking-tight">
-                {SEO_DICTIONARY[lang as SupportedLang]?.similar || 'You Might Also Like'}
+                {SEO_DICTIONARY[lang as SEOLang]?.similar || 'You Might Also Like'}
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {data.similarPlaces.map((item: any) => (
