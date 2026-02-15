@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: `${topic.title} in ${city.name} | CityBasic Guide`,
     description: topic.summary,
     alternates: {
-      canonical: `/${citySlug}/${topicSlug}`, // ✅ Matches Clean URL strategy
+      canonical: `/${lang}/city/${citySlug}/info/${topicSlug}`,
     },
   }
 }
@@ -50,8 +50,8 @@ export default async function InfoTopicPage({ params }: PageProps) {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://citybasic.com' },
-      { '@type': 'ListItem', position: 2, name: city.name, item: `https://citybasic.com/${citySlug}` },
-      { '@type': 'ListItem', position: 3, name: topic.title, item: `https://citybasic.com/${citySlug}/${topicSlug}` },
+      { '@type': 'ListItem', position: 2, name: city.name, item: `https://citybasic.com/${lang}/city/${citySlug}` },
+      { '@type': 'ListItem', position: 3, name: topic.title, item: `https://citybasic.com/${lang}/city/${citySlug}/info/${topicSlug}` },
     ],
   }
 

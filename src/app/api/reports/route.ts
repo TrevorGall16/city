@@ -21,7 +21,7 @@ export async function POST(request: Request) {
 
     // 2. Rate Limit (Uses your src/lib/rate-limit.ts)
     // Note: We check 'comment_reports' table
-    const isRateLimited = await checkRateLimit(supabase, user.id, 'comment_reports', RATE_LIMITS.REPORT)
+    const isRateLimited = await checkRateLimit(supabase, user.id, 'comment_reports', RATE_LIMITS.REPORT, 'reporter_id')
     if (isRateLimited) {
       return NextResponse.json(
         { error: 'You are reporting too frequently. Please wait.' },

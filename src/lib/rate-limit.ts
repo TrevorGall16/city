@@ -23,14 +23,15 @@ export async function checkRateLimit(
   supabase: SupabaseClient,
   userId: string,
   table: string,
-  config: RateLimitConfig = { windowMs: 60000, maxRequests: 1 }
+  config: RateLimitConfig = { windowMs: 60000, maxRequests: 1 },
+  userColumn: string = 'user_id'
 ): Promise<boolean> {
   const windowStart = new Date(Date.now() - config.windowMs).toISOString()
 
   const { count, error } = await supabase
     .from(table)
     .select('*', { count: 'exact', head: true })
-    .eq('user_id', userId)
+    .eq(userColumn, userId)
     .gte('created_at', windowStart)
 
   // If DB check fails, let it pass to avoid blocking valid users

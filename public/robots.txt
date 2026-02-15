@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://citybasic.com/sitemap_final.xml
+Disallow: /api/
+Sitemap: https://citybasic.com/sitemap.xml
