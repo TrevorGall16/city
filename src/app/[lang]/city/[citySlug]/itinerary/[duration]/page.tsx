@@ -32,6 +32,10 @@ const ITINERARY_DICT = {
     day_1: '1 Day',
     day_2: '2 Days',
     day_3: '3 Days',
+    seo_title_tmpl: 'The Perfect {DUR} {CITY} Itinerary (2026 Time-Saving Route)',
+    seo_dur_1: '1-Day',
+    seo_dur_2: '2-Day',
+    seo_dur_3: '3-Day',
   },
   fr: {
     title_1day: '1 Jour à',
@@ -49,6 +53,10 @@ const ITINERARY_DICT = {
     day_1: '1 Jour',
     day_2: '2 Jours',
     day_3: '3 Jours',
+    seo_title_tmpl: 'Itinéraire Parfait {DUR} {CITY} (Trajet Optimisé 2026)',
+    seo_dur_1: '1 Jour',
+    seo_dur_2: '2 Jours',
+    seo_dur_3: '3 Jours',
   },
   es: {
     title_1day: '1 Día en',
@@ -66,6 +74,10 @@ const ITINERARY_DICT = {
     day_1: '1 Día',
     day_2: '2 Días',
     day_3: '3 Días',
+    seo_title_tmpl: 'Itinerario Perfecto de {DUR} en {CITY} (Ruta 2026 Eficiente)',
+    seo_dur_1: '1 Día',
+    seo_dur_2: '2 Días',
+    seo_dur_3: '3 Días',
   },
   it: {
     title_1day: '1 Giorno a',
@@ -83,6 +95,10 @@ const ITINERARY_DICT = {
     day_1: '1 Giorno',
     day_2: '2 Giorni',
     day_3: '3 Giorni',
+    seo_title_tmpl: 'Itinerario Perfetto di {DUR} a {CITY} (Percorso 2026 Ottimizzato)',
+    seo_dur_1: '1 Giorno',
+    seo_dur_2: '2 Giorni',
+    seo_dur_3: '3 Giorni',
   },
   de: {
     title_1day: '1 Tag in',
@@ -100,6 +116,10 @@ const ITINERARY_DICT = {
     day_1: '1 Tag',
     day_2: '2 Tage',
     day_3: '3 Tage',
+    seo_title_tmpl: 'Der Perfekte {DUR} Reiseplan für {CITY} (Zeitsparender Reiseplan 2026)',
+    seo_dur_1: '1-Tages',
+    seo_dur_2: '2-Tages',
+    seo_dur_3: '3-Tages',
   },
   ja: {
     title_1day: '1日で巡る',
@@ -117,6 +137,10 @@ const ITINERARY_DICT = {
     day_1: '1日',
     day_2: '2日',
     day_3: '3日',
+    seo_title_tmpl: '{CITY} {DUR}の完璧な旅程（2026年時短ルート）',
+    seo_dur_1: '1日',
+    seo_dur_2: '2日',
+    seo_dur_3: '3日',
   },
   zh: {
     title_1day: '1天玩转',
@@ -134,6 +158,10 @@ const ITINERARY_DICT = {
     day_1: '1天',
     day_2: '2天',
     day_3: '3天',
+    seo_title_tmpl: '{CITY}{DUR}完美行程（2026高效路线）',
+    seo_dur_1: '1天',
+    seo_dur_2: '2天',
+    seo_dur_3: '3天',
   },
   hi: {
     title_1day: '1 दिन में',
@@ -151,6 +179,10 @@ const ITINERARY_DICT = {
     day_1: '1 दिन',
     day_2: '2 दिन',
     day_3: '3 दिन',
+    seo_title_tmpl: '{CITY} की परफेक्ट {DUR} यात्रा (2026 समय-बचत रूट)',
+    seo_dur_1: '1 दिन',
+    seo_dur_2: '2 दिन',
+    seo_dur_3: '3 दिन',
   },
   ar: {
     title_1day: 'يوم واحد في',
@@ -168,6 +200,10 @@ const ITINERARY_DICT = {
     day_1: 'يوم واحد',
     day_2: 'يومان',
     day_3: '3 أيام',
+    seo_title_tmpl: 'المسار المثالي لـ {DUR} في {CITY} (مسار 2026 الموفر للوقت)',
+    seo_dur_1: 'يوم واحد',
+    seo_dur_2: 'يومان',
+    seo_dur_3: '3 أيام',
   },
 } as const
 
@@ -248,9 +284,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const titlePrefix = durationTitles[duration]
   const descPrefix = durationDescs[duration]
 
-  const pageTitle = isAsianLang
-    ? `${titlePrefix}${city.name} | ${localDict.subtitle}`
-    : `${titlePrefix} ${city.name} | ${localDict.subtitle}`
+  const seoDurMap: Record<ValidDuration, string> = {
+    '1-day': localDict.seo_dur_1,
+    '2-days': localDict.seo_dur_2,
+    '3-days': localDict.seo_dur_3,
+  }
+
+  const pageTitle = localDict.seo_title_tmpl
+    .replace('{DUR}', seoDurMap[duration])
+    .replace('{CITY}', city.name)
 
   const { mustSee, mustEat } = getItineraryItems(city, duration)
   const totalStops = mustSee.length + mustEat.length

@@ -16,7 +16,9 @@
       "Bash(node:*)",
       "Bash(git checkout:*)",
       "Bash(git status:*)",
-      "Bash(git clean:*)"
+      "Bash(git clean:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)"
     ]
   }
 }
