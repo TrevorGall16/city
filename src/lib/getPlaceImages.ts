@@ -1,27 +1,13 @@
-import fs from 'fs'
-import path from 'path'
-
-const VALID_EXTENSIONS = new Set(['.jpg', '.jpeg', '.png', '.webp', '.avif'])
+// 🛰️ MASTER AI: ULTRALIGHT IMAGE FETCHER
+// Uses the pre-generated manifest to avoid disk scanning in production.
+import imageManifest from '@/data/image-manifest.json';
 
 export async function getPlaceImages(
   citySlug: string,
   placeSlug: string
 ): Promise<string[]> {
-  // 🛡️ MASTER AI: EMERGENCY BYPASS
-  // Prevents Netlify from zipping up 13,000 images into the server bundle
-  if (process.env.NODE_ENV === 'production') {
-    // For now, return empty. We will fix this with a Manifest later.
-    return [] 
-  }
+  const key = `${citySlug}/${placeSlug}`;
+  const files = (imageManifest as Record<string, string[]>)[key] || [];
 
-  const dir = path.join(process.cwd(), 'public', 'images', citySlug, placeSlug)
-
-  if (!fs.existsSync(dir)) return []
-
-  const files = fs.readdirSync(dir)
-
-  return files
-    .filter((f) => VALID_EXTENSIONS.has(path.extname(f).toLowerCase()))
-    .sort()
-    .map((f) => `/images/${citySlug}/${placeSlug}/${f}`)
+  return files.map((f) => `/images/${citySlug}/${placeSlug}/${f}`);
 }
