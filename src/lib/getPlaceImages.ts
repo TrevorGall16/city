@@ -7,6 +7,13 @@ export async function getPlaceImages(
   citySlug: string,
   placeSlug: string
 ): Promise<string[]> {
+  // 🛡️ MASTER AI: EMERGENCY BYPASS
+  // Prevents Netlify from zipping up 13,000 images into the server bundle
+  if (process.env.NODE_ENV === 'production') {
+    // For now, return empty. We will fix this with a Manifest later.
+    return [] 
+  }
+
   const dir = path.join(process.cwd(), 'public', 'images', citySlug, placeSlug)
 
   if (!fs.existsSync(dir)) return []
