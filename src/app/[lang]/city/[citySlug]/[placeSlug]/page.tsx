@@ -48,24 +48,31 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!data) return { title: 'Place Not Found' }
 
   const { place, cityName } = data
+  const currentYear = new Date().getFullYear(); // 🛰️ MASTER AI: Dynamic Year Injection
 
-  // 🌍 Get localized SEO strings (with fallback to English)
+  // 🌍 Get localized SEO strings
   const seoLang = (lang in SEO_DICTIONARY ? lang : 'en') as SEOLang
   const seoStrings = SEO_DICTIONARY[seoLang]
 
-  // 🎯 SEO: Optimized title with local name first
+  /**
+   * 🛰️ MASTER AI: DYNAMIC CLICK MAGNET LOGIC
+   * We transform "Eiffel Tower - Paris Travel Guide" 
+   * into "Eiffel Tower Paris (2026): Practical Guide & Local Secrets"
+   */
   const hasLocalName = place.name_local && place.name_local !== place.name_en
-  const title = hasLocalName
-    ? `${place.name_local} (${place.name_en}) - ${cityName} ${seoStrings.travelGuide}`
-    : `${place.name_en} - ${cityName} ${seoStrings.travelGuide}`
+  
+  // Construct a "Value-Packed" title automatically
+  const baseName = hasLocalName ? `${place.name_local} (${place.name_en})` : place.name_en;
+  const title = `${baseName} ${cityName} (${currentYear}): ${seoStrings.travelGuide || 'Guide'} & Local Secrets`;
 
-  // Extract description safely
+  // Extract description safely and append a "Call to Action"
   const desc = place.description
   const shortDesc = typeof desc === 'object'
     ? (desc.short || desc.intro || '')
     : (desc || '')
 
-  const description = shortDesc.slice(0, 160)
+  // 🧲 Click Magnet Description: Appends specific utility value
+  const description = `${shortDesc.slice(0, 140)}... Explore ${place.name_en} with our ${currentYear} expert guide featuring prices, logistics, and insider secrets.`.slice(0, 160);
 
   return {
     title,

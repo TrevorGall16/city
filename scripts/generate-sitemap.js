@@ -30,13 +30,17 @@ function getCityPlaces(citySlug) {
   try {
     const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
     const places = [];
-    const extract = (list) => {
+   const extract = (list) => {
       if (!list) return;
-      list.forEach(item => {
-        // Handle 'must_see' which has categories
-        if (item.items) item.items.forEach(p => places.push({ slug: p.slug, image: p.image }));
-        // Handle 'must_eat' which is a direct list
-        else if (item.slug) places.push({ slug: item.slug, image: item.image });
+      list.forEach(section => {
+        // Handle nested items (e.g., 'The Big Three' -> items -> [places])
+        if (section.items && Array.isArray(section.items)) {
+          section.items.forEach(p => places.push({ slug: p.slug, image: p.image }));
+        } 
+        // Handle direct items
+        else if (section.slug) {
+          places.push({ slug: section.slug, image: section.image });
+        }
       });
     };
     extract(data.must_see);
