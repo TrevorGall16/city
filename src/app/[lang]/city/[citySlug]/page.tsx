@@ -29,6 +29,7 @@
   import { CityNavigation } from '@/components/features/CityNavigation'
   import { CommentThread } from '@/components/features/CommentThread'
   import { ChinaAppGuide } from '@/components/city/ChinaAppGuide'
+  import { SurvivalKit } from '@/components/city/SurvivalKit'
   import { getCityData } from '@/lib/getCityData'
   import { getAvailableLanguages } from '@/lib/getAvailableLanguages'
   import { SEO_DICTIONARY, type SEOLang } from '@/data/seo-dictionary'
@@ -249,6 +250,9 @@
               {seoStrings.viewGallery}
             </Link>
           </section>
+
+          {/* Survival Kit (renders if city has data) */}
+          <SurvivalKit citySlug={citySlug} />
 
           {/* China Survival Guide (only renders for cn cities) */}
           <ChinaAppGuide countryCode={city.country_code} />

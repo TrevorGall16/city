@@ -1,0 +1,664 @@
+{
+  "id": "city-008",
+  "name": "Shanghai",
+  "slug": "shanghai",
+  "country": "China",
+  "country_code": "cn",
+  "lat": 31.2304,
+  "lng": 121.4737,
+  "hero_image": "/images/shanghai/hero.jpg",
+  "intro_vibe": "The Pearl of the Orient: A hyper-modern financial fortress where futuristic skylines, colonial-era architecture, and traditional lane-house living collide in a high-octane display of economic velocity.",
+  "general_info": {
+    "population": "~24 million (municipality)",
+    "is_capital": false,
+    "description": "Shanghai is the apex of Chinese global commerce, split distinctly by the Huangpu River. On the west bank (Puxi) lies the historic core, shaped by 19th-century foreign concessions, Art Deco glamour, and narrow, chaotic alleyways. On the east bank (Pudong) stands a forest of record-breaking skyscrapers built on former marshland in just three decades. To survive here, one must adapt to the relentless '996' corporate pace, embrace the entirely cashless digital ecosystem, and learn to navigate the crushing, fluid momentum of its 24-million-strong population."
+  },
+  "stats": {
+    "currency": "CNY (Yuan/RMB)",
+    "plug_type": "Type A/C/I",
+    "emergency": {
+      "police": "110",
+      "medical": "120",
+      "fire": "119",
+      "traffic": "112",
+      "tourist_hotline": "12301"
+    }
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "January",
+      "temp": "1°C - 8°C",
+      "vibe": "Biting & Damp",
+      "pros": ["Lowest accommodation prices", "Quiet museums"],
+      "cons": ["Damp chill pierces clothing", "No universal central heating", "Potential smog spikes"],
+      "clothing": "Heavy wind-proof winter gear, thermal layers, N95 mask"
+    },
+    {
+      "id": 2,
+      "name": "February",
+      "temp": "3°C - 10°C",
+      "vibe": "Winter Lights",
+      "pros": ["Elaborate Chinese New Year light displays", "Nanjing Road illuminations"],
+      "cons": ["Uncomfortably cold indoors", "Many small local vendors close for the holiday"],
+      "clothing": "Heavy coat, scarf, gloves"
+    },
+    {
+      "id": 3,
+      "name": "March",
+      "temp": "8°C - 15°C",
+      "vibe": "Early Awakening",
+      "pros": ["Cherry and magnolia blossoms emerge", "Great lighting for photography"],
+      "cons": ["Volatile transition from winter", "Sudden temperature drops"],
+      "clothing": "Layered clothing, light jacket"
+    },
+    {
+      "id": 4,
+      "name": "April",
+      "temp": "12°C - 21°C",
+      "vibe": "Unpredictable Spring",
+      "pros": ["Ideal pedestrian walking weather", "Vibrant botanical displays in Century Park"],
+      "cons": ["Qingming Festival period brings sudden, chilling drizzles", "AQI can spike"],
+      "clothing": "Waterproof jacket, versatile layers"
+    },
+    {
+      "id": 5,
+      "name": "May",
+      "temp": "16°C - 25°C",
+      "vibe": "Perfect Clarity",
+      "pros": ["Comfortable warmth", "Pristine days for exploring the Former French Concession"],
+      "cons": ["Labor Day (May 1-5) brings massive domestic crowds"],
+      "clothing": "T-shirts, light trousers, comfortable walking shoes"
+    },
+    {
+      "id": 6,
+      "name": "June",
+      "temp": "21°C - 29°C",
+      "vibe": "The Plum Rain",
+      "pros": ["Warm evenings perfect for night markets", "Lush greenery"],
+      "cons": ["'Meiyu' season begins: up to 21 days of continuous, sticky torrential downpours"],
+      "clothing": "Quick-dry clothing, heavy-duty umbrella, waterproof shoes"
+    },
+    {
+      "id": 7,
+      "name": "July",
+      "temp": "26°C - 35°C+",
+      "vibe": "Sweltering Heat",
+      "pros": ["Excellent nocturnal energy in Tianzifang", "Indoor museum exploration"],
+      "cons": ["Oppressive 82% humidity", "Physical toll of heat is severe"],
+      "clothing": "Highly breathable linen, moisture-wicking synthetics"
+    },
+    {
+      "id": 8,
+      "name": "August",
+      "temp": "26°C - 35°C+",
+      "vibe": "Typhoon Season",
+      "pros": ["Spectacular illuminated skyline nights", "Subterranean transit is air-conditioned"],
+      "cons": ["Peak typhoon risk grounds flights and paralyzes itineraries", "Aggressive heat"],
+      "clothing": "Minimal lightweight clothing, rain gear on standby"
+    },
+    {
+      "id": 9,
+      "name": "September",
+      "temp": "21°C - 28°C",
+      "vibe": "Late Summer Relief",
+      "pros": ["Humidity begins to crack", "Clearer skies return"],
+      "cons": ["Residual typhoon activity in early September"],
+      "clothing": "Light layers, comfortable evening wear"
+    },
+    {
+      "id": 10,
+      "name": "October",
+      "temp": "15°C - 23°C",
+      "vibe": "Golden Autumn",
+      "pros": ["Hairy Crab gastronomy season begins", "Perfect crisp air and blue skies"],
+      "cons": ["Golden Week (Oct 1-7) causes catastrophic overcrowding at all major sites"],
+      "clothing": "Light jacket, comfortable sweaters"
+    },
+    {
+      "id": 11,
+      "name": "November",
+      "temp": "10°C - 17°C",
+      "vibe": "Cinematic Fall",
+      "pros": ["Plane trees shed golden leaves", "Pristine meteorological stability", "Ultimate walking weather"],
+      "cons": ["Days become noticeably shorter"],
+      "clothing": "Trench coat, warm mid-layers"
+    },
+    {
+      "id": 12,
+      "name": "December",
+      "temp": "3°C - 11°C",
+      "vibe": "Quiet Chill",
+      "pros": ["Streets empty out", "Festive commercial lighting"],
+      "cons": ["Ambient humidity makes 5°C feel freezing", "Smog accumulation starts"],
+      "clothing": "Heavy coat, thermal layers, face mask"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "The 100% Cashless Mandate: Physical money is effectively dead. You must download Alipay or WeChat Pay, complete facial recognition, and bind a card. Trying to pay with a ¥100 bill for a sweet potato will leave the vendor unable to make change.",
+      "The Physics of Rush Hour: Between 7:30–9:00 AM on the Metro, the Western concept of personal space evaporates. Do not hesitate at doors or wait politely. Move with fluid, unapologetic, forward-leaning momentum. Shoulder-checking is mechanical, not malicious.",
+      "The Illusion of 'Yes': In Shanghai business or social settings, 'Yes', 'Okay', or 'No problem' often means 'I hear you'—it is a social lubricant to avoid a direct, face-losing 'No'. Read the body language and follow-up actions.",
+      "Saving Face (Mianzi): Never publicly criticize, shout, or show visible anger. If a dispute happens, handle it with indirect language and extreme calmness to allow the other party an exit route to save face. Direct Western confrontation destroys all trust.",
+      "Banquet Hierarchy: At formal meals, seat positioning is strict. Never eat, drink, or initiate a toast of Baijiu before the eldest or most senior person. Address people by professional titles (e.g., Director Wang), not first names.",
+      "The Etiquette of Abundance: When hosted for a meal, try a bit of everything on the lazy Susan. Crucially, leave a tiny amount of food on your plate at the end. Clearing it completely implies the host was stingy and didn't provide enough.",
+      "Chopstick Omens: Never stick chopsticks vertically in a bowl of rice. It mimics incense burned at a funeral altar and is viewed as a highly offensive omen of death. Never use them to point at people.",
+      "The Tipping Taboo: Tipping is strictly prohibited. Leaving cash for a waiter or taxi driver will cause profound confusion, and they will likely chase you down the street to return your 'forgotten' money.",
+      "Political Silence: Do not initiate discussions regarding domestic politics, territorial disputes, or historical traumas. It causes deep psychological discomfort and immediately severs any Guanxi (relationship) you are building.",
+      "Tap Water Danger: Tap water is strictly non-potable due to aging subterranean pipes and rooftop holding tanks. Boil it for a minimum of 3 minutes or rely exclusively on bottled water for drinking and brushing teeth."
+    ],
+    "essential_phrases": [
+      {
+        "src": "I don't speak Chinese.",
+        "local": "我不会说中文 (Wǒ bù huì shuō Zhōngwén)",
+        "phonetic": "Wore-boo-hway-shwor-jong-wen"
+      },
+      {
+        "src": "No sugar / Not too sweet, please.",
+        "local": "不加糖 / 不要太甜 (Bù jiā táng / Bùyào tài tián)",
+        "phonetic": "Boo-jya-tang / Boo-yow-tie-tyen"
+      },
+      {
+        "src": "Where is the toilet?",
+        "local": "洗手间在哪里？ (Xǐshǒujiān zài nǎlǐ?)",
+        "phonetic": "She-show-jyen-dzai-na-lee"
+      },
+      {
+        "src": "I am allergic to peanuts / seafood.",
+        "local": "我对花生 / 海鲜过敏 (Wǒ duì huāshēng / hǎixiān guòmǐn)",
+        "phonetic": "Wore-dway-hwa-shung / hi-shyen-gwor-meen"
+      },
+      {
+        "src": "How much is this?",
+        "local": "这个多少钱？ (Zhège duōshao qián?)",
+        "phonetic": "Jay-guh-dwor-shao-chyen"
+      },
+      {
+        "src": "Can I use Alipay / WeChat?",
+        "local": "可以用支付宝 / 微信吗？ (Kěyǐ yòng Zhīfùbǎo / Wēixìn ma?)",
+        "phonetic": "Kuh-yee-yong-Zhi-foo-bao / Way-shin-mah"
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "The Bund (Huangpu District)",
+      "vibe": "Monumental, Cinematic, Imposing",
+      "description": "The petrified testament to Shanghai's era as a ruthless treaty port. A sweeping western bank promenade lined with 52 immaculately preserved colonial-era buildings in Neoclassical, Gothic, and Art Deco styles. The visceral reality is the sensory collision of massive commercial ship horns echoing off the river, the weight of imperial history, and blinding neon futurism radiating from Pudong across the water.",
+      "history": "Following the humiliating Treaty of Nanking in 1842, this muddy towpath was claimed by the British. Over a century, wealth from silk, tea, and opium built these massive granite edifices, earning Shanghai the dual titles of 'The Paris of the East' and 'The Whore of Asia'.",
+      "best_for": "First-time visitors, architecture aficionados, luxury travelers, and those seeking the quintessential postcard-perfect Shanghai visual.",
+      "drawbacks": "Intensely crowded, highly commercialized, lacks authentic granular residential feel, and features the highest price tiers in the municipality.",
+      "highlights": [
+        "The Custom House Clock Tower",
+        "Fairmont Peace Hotel",
+        "Rooftop ultra-luxury dining"
+      ],
+      "image": "/images/shanghai/the-bund.jpg"
+    },
+    {
+      "name": "Former French Concession (Xuhui / Luwan)",
+      "vibe": "Elegant, Leafy, Bohemian",
+      "description": "A sprawling time capsule of European romanticism grafted onto Chinese urbanity. Identifiable by a dense canopy of imported London plane trees forming natural tunnels above the avenues. The streets hum with bicycle bells, imported espresso machines, and elderly residents practicing Tai Chi. It feels simultaneously like 1920s Paris and dynamic modern China.",
+      "history": "Established in the mid-19th century, this zone features hidden Spanish-style villas, Art Deco apartments, and 'Shikumen' (stone gate) terraced houses built to shelter refugees during the Taiping Rebellion.",
+      "best_for": "Expatriate vibes, third-wave cafe culture, boutique shopping, aimless pedestrian strolling, and extended stays.",
+      "drawbacks": "Navigation is highly confusing due to labyrinthine 'longtangs' (alleyways), notoriously expensive rentals, and longer walks to subway arteries.",
+      "highlights": [
+        "Fuxing Park",
+        "Shikumen Architecture",
+        "Boutique cafes and hidden bars"
+      ],
+      "image": "/images/shanghai/french-concession.jpg"
+    },
+    {
+      "name": "Jing'an",
+      "vibe": "Bustling, Affluent, Contrasting",
+      "description": "The hyper-active commercial heart defined by profound visual and spiritual friction. The ancient, gold-roofed Jing'an Temple sits entirely dwarfed and besieged by towering glass monoliths of luxury malls and corporate HQs. The epicenter of the notorious '996' corporate culture, flooding avenues with stressed professionals, while backstreets reveal vibrant wet markets and Michelin-starred noodle shops.",
+      "history": "Anchored by the Jing'an Temple, which dates back 780 years, the area has transitioned from a quiet religious site to the absolute pinnacle of Shanghai's ruthless, upwardly mobile consumerism.",
+      "best_for": "Flagship retail shopping, high-intensity nightlife, global food enthusiasts, and young professionals.",
+      "drawbacks": "The sheer density of traffic and pedestrians is overwhelming; constant ambient noise of construction and commerce rarely ceases.",
+      "highlights": [
+        "Jing'an Temple",
+        "Nanjing West Road luxury retail",
+        "High-end speakeasy cocktail bars"
+      ],
+      "image": "/images/shanghai/jingan.jpg"
+    },
+    {
+      "name": "Lujiazui (Pudong)",
+      "vibe": "Futuristic, Corporate, Vertical",
+      "description": "The 'Wall Street of Shanghai'. A breathtaking testament to the staggering speed of Chinese economic development. The architecture is aggressively modern: reflective glass, immense steel superstructures, and elevated pedestrian sky-bridges. At street level, it is sterile and designed for vehicular efficiency. The visceral reality is neck-craning scale and the mechanical hum of high-speed elevators.",
+      "history": "Thirty-five years ago, this eastern peninsula was marshland and dilapidated warehouses. Following Deng Xiaoping's 1990 mandate, it transformed into one of the most recognizable skylines on Earth in just three decades.",
+      "best_for": "Business travelers, luxury hotel enthusiasts sleeping in the clouds, and admirers of modern super-tall engineering.",
+      "drawbacks": "Severe lack of street-level culture, historical charm, or authentic local dining. Empties out after business hours into a dormant, wind-swept fortress.",
+      "highlights": [
+        "Shanghai Tower",
+        "Oriental Pearl Tower",
+        "Elevated pedestrian sky-walks"
+      ],
+      "image": "/images/shanghai/lujiazui.jpg"
+    },
+    {
+      "name": "Old Town (Nanshi / Yu Garden Area)",
+      "vibe": "Traditional, Labyrinthine, Sensorial",
+      "description": "The pre-colonial walled city of Shanghai. Features traditional Ming and Qing dynasty architecture with sweeping upturned eaves and red facades. The air is thick with the scent of steaming Xiaolongbao and burning temple incense. While the main bazaar is neon-lit, the backstreets reveal the raw reality of older Shanghainese life: tangled wires, chamber pots, and communal alleyway living.",
+      "history": "Before the foreign concessions forced open the city, Nanshi was the entirety of Shanghai, centering around the City God Temple and classical gardens.",
+      "best_for": "Photographers seeking classical aesthetics, street food hunters, and history purists.",
+      "drawbacks": "Aggressively crowded, noisy, highly prone to tourist-trap pricing, requiring constant vigilance against petty pickpocketing.",
+      "highlights": [
+        "Yu Garden",
+        "City God Temple",
+        "Back-alley Shikumen living"
+      ],
+      "image": "/images/shanghai/old-town.jpg"
+    },
+    {
+      "name": "West Bund (Xuhui Riverside)",
+      "vibe": "Expansive, Artistic, Post-Industrial",
+      "description": "The transition from heavy industry to cultural capital. A sprawling, meticulously landscaped corniche along the Huangpu River. Brutalist industrial silos and aviation fuel tanks have been hollowed out and retrofitted into colossal contemporary art museums. The vibe is significantly slower, populated by affluent creatives, skateboarders, and dog walkers.",
+      "history": "Once a gritty, inaccessible corridor of coal wharves and cement factories, a massive decade-long government revitalization project turned it into Asia's premier art corridor.",
+      "best_for": "Contemporary art lovers, runners, architecture buffs, and those seeking vast open green spaces.",
+      "drawbacks": "Geographically spread out, requiring significant walking or cycling. Lacks the dense dining and nightlife of the central districts.",
+      "highlights": [
+        "Long Museum",
+        "Tank Shanghai art park",
+        "Riverside running tracks"
+      ],
+      "image": "/images/shanghai/west-bund.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-airports",
+      "slug": "airport-transfer",
+      "title": "Airport Navigation",
+      "icon": "Plane",
+      "summary": "Master the Maglev and dual-airport system.",
+      "details": [
+        "Pudong International (PVG): 40km east. Take the Maglev Train. It uses magnetic levitation to cover 30km in exactly 8 minutes at 300km/h (terminates at Longyang Rd for Metro transfer). Costs ¥50 (¥40 with flight proof).",
+        "Metro Line 2 Warning: Line 2 connects PVG to downtown for ¥8, but takes 70 minutes and is heavily congested. Not recommended with large luggage.",
+        "Hongqiao International (SHA): Much closer to the western city center. Connected via Metro Line 2 and 10 in 20-30 minutes. A new inter-airport Link Line connects PVG to SHA in 40 minutes."
+      ]
+    },
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Subways & Ride-Hailing",
+      "icon": "Train",
+      "summary": "Subway security is high; DiDi dominates the roads.",
+      "details": [
+        "The Metro: Massive and highly efficient. Expect an airport-style bag x-ray scan at every single entry point. Pay by scanning the 'Transport QR Code' inside Alipay/WeChat at the turnstile.",
+        "DiDi Chuxing: The monolithic ride-hailing app. Offers a fully localized English interface and allows binding of major international credit cards (Visa/Mastercard).",
+        "Shared Bikes: Meituan (Yellow), HelloBike (Blue), DiDi (Green) flood the sidewalks. Unlock by linking your passport and scanning the rear fender QR code via Alipay/WeChat."
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "digital-economy",
+      "title": "The Cashless Reality",
+      "icon": "Smartphone",
+      "summary": "Physical cash is obsolete. Prepare digitally before arrival.",
+      "details": [
+        "Alipay/WeChat Mandate: Download before arrival. The critical step is 'Real-Name Verification' requiring a high-res passport photo upload and biometric facial scan.",
+        "Transactions: Scan a vendor's QR to send money, or present your own barcode to be scanned. Even buskers take digital donations.",
+        "TourCard: If direct card binding fails, use the Alipay 'TourCard' mini-app, which acts as a prepaid virtual debit card."
+      ]
+    },
+    {
+      "id": "logistics-museums",
+      "slug": "museum-booking",
+      "title": "Museum Registrations",
+      "icon": "BookOpen",
+      "summary": "Spontaneous museum entry is impossible.",
+      "details": [
+        "Real-Name Booking: Major institutions (Shanghai Museum, Museum East) require reservations days in advance via official WeChat mini-programs.",
+        "Passport Control: Entry requires presenting the exact, physical passport used during the online reservation.",
+        "Monday Closures: Most major museums in China are strictly closed on Mondays."
+      ]
+    },
+    {
+      "id": "logistics-toilets",
+      "slug": "sanitary-survival",
+      "title": "Public Toilets",
+      "icon": "Users",
+      "summary": "Prepare for squats and zero paper.",
+      "details": [
+        "Squat Standard: While high-end malls have pristine Western toilets, public parks and older neighborhoods exclusively use traditional porcelain squat toilets.",
+        "BYO Supplies: Public restrooms rarely provide toilet paper, paper towels, or soap. Carry tissue packets ('zhi jin') and alcohol sanitizer at all times.",
+        "Anti-Theft Tech: Some advanced malls use facial-recognition dispensers to dispense a rationed amount of toilet paper to prevent theft."
+      ]
+    },
+    {
+      "id": "logistics-health",
+      "slug": "health-safety",
+      "title": "Health & Scams",
+      "icon": "Shield",
+      "summary": "Safe streets, but severe smog and sophisticated social engineering.",
+      "details": [
+        "The Tea House Scam: 'Students' invite you to a cafe to practice English. The menu has no prices; thugs extort you for $2,000 upon exit. This scam has now migrated to dating apps like Tantan.",
+        "AQI Monitoring: Winter brings severe smog. Check the AQI daily and wear high-grade masks when required.",
+        "Pharmacies: Ubiquitous, but labels are strictly in Mandarin. Bring your own ibuprofen and stomach medication to avoid translation disasters."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "xiaolongbao",
+      "name_en": "Soup Dumplings",
+      "name_local": "小笼包",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A delicate feat of culinary physics: incredibly thin pleated dough wrappers encasing finely minced pork and scalding, rich liquid broth.",
+        "history": "Originated in neighboring Nanxiang in the late 19th century. The magic relies on mixing pork with a solid pork skin aspic. When subjected to intense steam in bamboo baskets, the aspic melts into a rich, trapped soup.",
+        "insider_tip": "Bypass the massive tourist queues at Yu Garden and head to Jia Jia Tang Bao on Huanghe Road before 11:00 AM for the prized Crab Meat and Pork dumplings. Nibble a hole to vent steam, slurp the broth, dip in Zhenjiang vinegar with ginger.",
+        "price_level": "Affordable",
+        "duration": "45 minutes",
+        "best_time": "Breakfast or Mid-day Lunch",
+        "vibe": "Steaming, Delicate, Ritualistic",
+        "good_for": [
+          "Dim Sum lovers",
+          "Culinary purists",
+          "Iconic experiences"
+        ]
+      },
+      "image": "/images/shanghai/xiaolongbao.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "shengjianbao",
+      "name_en": "Pan-Fried Pork Buns",
+      "name_local": "生煎包",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "The rugged, street-level cousin of the Xiaolongbao. A thick, yeast-leavened bun packed with soup, steamed on top and aggressively fried on the bottom.",
+        "history": "Originated in the 1920s as a cheap, highly caloric breakfast for port laborers. Cooked in a massive cast-iron flat pan covered with a heavy wooden lid, achieving a dual-cooked Maillard reaction.",
+        "insider_tip": "Order by the 'liang' (usually 4 buns). Bite firmly but cautiously—the soup inside is scalding. Visit Yang's Dumplings on Huanghe Road for their exceptional crayfish-filled variant.",
+        "price_level": "Affordable",
+        "duration": "20-30 minutes",
+        "best_time": "High-energy street food snacking",
+        "vibe": "Sizzling, Fast-paced, Textural",
+        "good_for": [
+          "Budget travelers",
+          "Breakfast",
+          "Texture lovers"
+        ]
+      },
+      "image": "/images/shanghai/shengjianbao.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "hong-shao-rou",
+      "name_en": "Red-Braised Pork Belly",
+      "name_local": "红烧肉",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Perfectly layered blocks of pork belly slow-braised to a translucent, melt-in-the-mouth mahogany texture in a heavily reduced, sticky sweet sauce.",
+        "history": "The definitive Shanghainese iteration of braised pork relies heavily on regional ingredients: Shaoxing rice wine, dark soy sauce, and massive amounts of rock sugar to create its legendary caramel sweetness.",
+        "insider_tip": "Must be eaten explicitly over a bowl of plain white rice to absorb the intense, viscous sauce. Book well in advance at Old Jesse Restaurant (Lao Jishi) on Tianping Road for the ultimate caramelized version.",
+        "price_level": "Moderate",
+        "duration": "1.5 hours",
+        "best_time": "Dinner",
+        "vibe": "Decadent, Rich, Heavy",
+        "good_for": [
+          "Celebratory dinners",
+          "Comfort food",
+          "Sharing"
+        ]
+      },
+      "image": "/images/shanghai/hong-shao-rou.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "cong-you-ban-mian",
+      "name_en": "Scallion Oil Noodles",
+      "name_local": "葱油拌面",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A masterclass in culinary minimalism: springy wheat noodles tossed in a deep, smoky oil infused with slowly dehydrated, blackened scallions.",
+        "history": "A humble, traditional dish relying purely on technique rather than expensive ingredients. The low-temperature frying of scallions extracts a massive umami hit without the use of meat.",
+        "insider_tip": "Stir the noodles vigorously immediately upon arrival to coat every strand with the oil pooled at the bottom. Head to DingTeLe, a 24-hour Michelin-approved hole-in-the-wall hidden down an alley off Huaihai Road.",
+        "price_level": "Budget",
+        "duration": "15-20 minutes",
+        "best_time": "Late-night or rapid lunch",
+        "vibe": "Aromatic, Minimalist, Humble",
+        "good_for": [
+          "Night owls",
+          "Quick bite",
+          "Vegetarians (check soy sauce)"
+        ]
+      },
+      "image": "/images/shanghai/cong-you-ban-mian.jpg"
+    },
+    {
+      "id": "food-005",
+      "slug": "xie-fen-mian",
+      "name_en": "Crab Roe Noodles",
+      "name_local": "蟹粉面",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "An incredibly rich, golden gravy of labor-intensive freshwater 'Hairy Crab' meat and buttery roe poured over plain noodles.",
+        "history": "Leveraging Shanghai's proximity to the Yangtze River Delta, autumn brings the revered Hairy Crab. Extracting the meager meat from dozens of small crabs justifies the premium price tag.",
+        "insider_tip": "Pour the gravy immediately and add a heavy side of black vinegar to cut through the intense, rich fat. Avoid overpriced hotel versions and go to Ah Niang Mian (Grandmother's Noodles) on Sinan Road.",
+        "price_level": "Expensive",
+        "duration": "45 minutes",
+        "best_time": "Peak autumn dining (Oct-Nov)",
+        "vibe": "Luxurious, Indulgent, Seasonal",
+        "good_for": [
+          "Seafood lovers",
+          "Seasonal dining",
+          "Foodies"
+        ]
+      },
+      "image": "/images/shanghai/xie-fen-mian.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Colonial & Imperial Architecture",
+      "id": "historic-architecture",
+      "items": [
+        {
+          "id": "sight-001",
+          "slug": "the-bund",
+          "name_en": "The Bund",
+          "name_local": "外滩",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A sweeping mile-long granite promenade lined with 52 immaculately preserved colonial-era buildings operating as the financial command centers of former empires.",
+            "history": "Forced open by the 1842 Treaty of Nanking, this muddy towpath became the core of the British settlement. Wealth from opium, tea, and silk built these Gothic and Art Deco masterpieces over a century.",
+            "insider_tip": "Arrive at 6:00 AM before the tour buses. You will witness an ephemeral layer of the city: elderly locals practicing Tai Chi and painting giant, temporary water calligraphy poetry on the paving stones.",
+            "price_level": "Free",
+            "duration": "2-3 hours",
+            "best_time": "Before 8:00 AM",
+            "vibe": "Monumental, Colonial, Cinematic",
+            "good_for": [
+              "Architecture buffs",
+              "Photographers",
+              "Historical purists"
+            ]
+          },
+          "image": "/images/shanghai/the-bund.jpg",
+          "geo": { "lat": 31.237, "lng": 121.49 }
+        },
+        {
+          "id": "sight-002",
+          "slug": "yu-garden",
+          "name_en": "Yu Garden",
+          "name_local": "豫园",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A masterclass in spatial manipulation: a 5-acre classical Jiangnan-style garden featuring winding pathways, hidden courtyards, towering rockeries, and moon gates.",
+            "history": "Built in 1559 during the Ming Dynasty by a wealthy officer for his aging parents. It survived extreme looting during the Opium War and Taiping Rebellion, serving today as the only fully preserved classical garden in downtown.",
+            "insider_tip": "Walk the 'Nine-Zigzag Bridge' to the Huxinting Teahouse. According to feng shui, evil spirits can only travel in straight lines; the 90-degree turns force them into the koi pond, spiritually purifying you.",
+            "price_level": "Moderate",
+            "duration": "2-3 hours",
+            "best_time": "Early morning or late afternoon",
+            "vibe": "Classical, Labyrinthine, Spiritual",
+            "good_for": [
+              "Cultural purists",
+              "Families",
+              "Garden enthusiasts"
+            ]
+          },
+          "image": "/images/shanghai/yu-garden.jpg",
+          "geo": { "lat": 31.227, "lng": 121.492 }
+        }
+      ]
+    },
+    {
+      "title": "Futurism & Contradiction",
+      "id": "modern-marvels",
+      "items": [
+        {
+          "id": "sight-003",
+          "slug": "shanghai-tower",
+          "name_en": "Shanghai Tower",
+          "name_local": "上海中心大厦",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A staggering 632-meter twisting mega-tall skyscraper that stands as the tallest building in China and physically asserts Shanghai's global financial apex.",
+            "history": "Completed in 2015 by Gensler. The precise 120-degree asymmetrical twist reduces wind loads by 24%, saving millions in structural steel and allowing it to withstand typhoons.",
+            "insider_tip": "Skip the 118th floor and go to the 125th/126th floors to see the Tuned Mass Damper—a colossal 1,000-ton pendulum suspended by steel cables that sways to keep the building stable. Visit only on a clear day.",
+            "price_level": "Expensive",
+            "duration": "1.5-2 hours",
+            "best_time": "Clear days for visibility",
+            "vibe": "Stratospheric, Engineering-marvel",
+            "good_for": [
+              "Thrill-seekers",
+              "Modern engineering fans",
+              "Skyline observers"
+            ]
+          },
+          "image": "/images/shanghai/shanghai-tower.jpg",
+          "geo": { "lat": 31.233, "lng": 121.505 }
+        },
+        {
+          "id": "sight-004",
+          "slug": "jingan-temple",
+          "name_en": "Jing'an Temple",
+          "name_local": "静安寺",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "An ancient bastion of Buddhist tranquility completely besieged on all sides by the aggressive, hyper-modern glass skyscrapers of Nanjing West Road.",
+            "history": "Over 780 years old. During the Cultural Revolution, the monks were expelled and it became a plastics factory. Meticulously reconstructed with Burmese teak and brilliant gold-tiled roofs in the 1980s.",
+            "insider_tip": "View the massive white Jade Buddha imported from Myanmar. Then, eat at the subterranean vegetarian restaurant hidden beneath the central courtyard, entirely overlooked by the corporate crowds above.",
+            "price_level": "Affordable",
+            "duration": "1-1.5 hours",
+            "best_time": "Mid-morning",
+            "vibe": "Golden, Resilient, Contrasting",
+            "good_for": [
+              "Spiritual seekers",
+              "Contrast photographers"
+            ]
+          },
+          "image": "/images/shanghai/jingan-temple.jpg",
+          "geo": { "lat": 31.225, "lng": 121.446 }
+        },
+        {
+          "id": "sight-005",
+          "slug": "tianzifang",
+          "name_en": "Tianzifang",
+          "name_local": "田子坊",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "An organic urban renewal project preserving 'Shikumen' stone-gate architecture, creating a claustrophobic, symbiotic ecosystem of commercial art galleries and raw local living.",
+            "history": "These alleyways were built to house Chinese refugees fleeing the Taiping Rebellion. Saved from demolition in the 2000s when artists began renting the dilapidated spaces, forcing its preservation.",
+            "insider_tip": "Dodge the tourist keychains on the main path and slip down Lane 248. You'll walk beneath dripping laundry hung on bamboo poles and witness unvarnished alleyway life meters from overpriced espresso bars.",
+            "price_level": "Free",
+            "duration": "2-3 hours",
+            "best_time": "Late afternoon progressing into evening",
+            "vibe": "Labyrinthine, Artisanal, Claustrophobic",
+            "good_for": [
+              "Souvenir hunters",
+              "Café culture",
+              "Street photographers"
+            ]
+          },
+          "image": "/images/shanghai/tianzifang.jpg",
+          "geo": { "lat": 31.208, "lng": 121.465 }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "08:00 AM",
+      "title": "The Silent Bund",
+      "description": "Begin at the Bund before the massive domestic tourist buses arrive. The air is cool and the sweeping granite promenade is relatively empty. Observe the local elderly practicing Tai Chi and water calligraphy against the backdrop of the Pudong skyline. The contrast of slow, ancient human movement against the massive Art Deco banking facades is striking and cinematic.",
+      "image": "/images/shanghai/itinerary-bund.jpg"
+    },
+    {
+      "time": "09:30 AM",
+      "title": "Subterranean Transit to Pudong",
+      "description": "Enter the East Nanjing Road Station (Metro Line 2) and transit beneath the Huangpu River. This brief, hyper-efficient subway ride strips away the 19th-century colonial aesthetic, emerging directly into the concrete and glass canyons of Lujiazui in Pudong.",
+      "image": "/images/shanghai/itinerary-metro.jpg"
+    },
+    {
+      "time": "10:00 AM",
+      "title": "The Vertical Ascent",
+      "description": "Ascend the Shanghai Tower. The ear-popping elevator ride to the 118th floor takes seconds. From the observation deck, grasp the sheer, terrifying scale of the city's urban sprawl, followed by inspecting the 1,000-ton tuned mass damper on the 125th floor, a marvel of modern physics.",
+      "image": "/images/shanghai/itinerary-tower.jpg"
+    },
+    {
+      "time": "12:30 PM",
+      "title": "Classical Gastronomy at Yu Garden",
+      "description": "Take Metro Line 2 back across the river, transferring to Line 10 to reach Yu Garden. Navigate the chaotic, incense-filled bazaar to Jia Jia Tang Bao for a lunch of scalding, delicate Crab and Pork Xiaolongbao. Wander the labyrinthine paths of the classical Yu Garden, crossing the Nine-Zigzag Bridge to ensure spiritual purification.",
+      "image": "/images/shanghai/itinerary-yugarden.jpg"
+    },
+    {
+      "time": "04:30 PM",
+      "title": "The French Concession Canopy",
+      "description": "Take a DiDi or taxi westward to the Former French Concession. Disembark near Sinan Road and spend two hours walking under the dense canopy of plane trees, observing the preserved Spanish villas, Art Deco ironwork, and the slow pace of expatriate café culture.",
+      "image": "/images/shanghai/itinerary-ffc.jpg"
+    },
+    {
+      "time": "07:00 PM",
+      "title": "Shikumen Sunset & Caramelized Dinner",
+      "description": "Arrive at Tianzifang just as the sun sets and the red alleyway lanterns ignite. Navigate the narrow longtangs, observing the dense blend of commercial art studios and hanging residential laundry. Dine at Old Jesse (reservations strictly required) for an authentic, heavy feast of Hong Shao Rou (Red Braised Pork) and Scallion Oil noodles.",
+      "image": "/images/shanghai/itinerary-tianzifang.jpg"
+    },
+    {
+      "time": "10:30 PM",
+      "title": "The Neon River",
+      "description": "Conclude the 24 hours by taking a night ferry across the Huangpu River. As the small boats dodge massive, unlit coal barges, the neon bombardment of both Puxi and Pudong reflects violently off the black water, providing the definitive visceral image of modern, hyper-capitalist China.",
+      "image": "/images/shanghai/itinerary-river.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "N95 Particulate Masks",
+      "image": "/images/shanghai/n95-mask.jpg",
+      "reason": "Shanghai's industrial output in winter can cause severe PM 2.5 smog spikes. Essential for safe urban walking.",
+      "amazon_url": "https://www.amazon.com/s?k=n95+masks+pollution&tag=canibringonpl-20",
+      "category": "health"
+    },
+    {
+      "id": "aff-002",
+      "title": "Travel Tissue & Hand Sanitizer Kits",
+      "image": "/images/shanghai/sanitizer-tissue.jpg",
+      "reason": "Public restrooms, outside of luxury malls, are squat-style and virtually never stock toilet paper or hand soap.",
+      "amazon_url": "https://www.amazon.com/s?k=travel+tissue+hand+sanitizer&tag=canibringonpl-20",
+      "category": "survival"
+    },
+    {
+      "id": "aff-003",
+      "title": "Universal Travel Adapter (Type I & C)",
+      "image": "/images/shanghai/adapter.jpg",
+      "reason": "China's grid operates on 220V 50Hz and utilizes hybrid wall sockets. You need adapters if you're coming with UK or grounded US plugs.",
+      "amazon_url": "https://www.amazon.com/s?k=universal+travel+adapter+type+i+china&tag=canibringonpl-20",
+      "category": "electronics"
+    }
+  ],
+  "region": "Asia"
+}

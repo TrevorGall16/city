@@ -1,0 +1,509 @@
+{
+  "id": "city-007",
+  "name": "Chengdu",
+  "slug": "chengdu",
+  "country": "China",
+  "country_code": "cn",
+  "lat": 30.6586,
+  "lng": 104.0648,
+  "hero_image": "/images/chengdu/hero.jpg",
+  "intro_vibe": "The Land of Abundance: A pulsating megacity where 3,000-year-old Bronze Age mysteries meet a high-octane tech economy, world-class spice, and the undisputed global capital of leisure.",
+  "general_info": {
+    "population": "~21 million (municipality)",
+    "is_capital": true,
+    "description": "Chengdu is the capital of Sichuan province and the definitive soul of Western China. Historically known as the 'Land of Abundance,' its survival for 2,300 years is owed to the ancient hydraulic genius of Dujiangyan. Today, the city operates on a dual-speed rhythm: the 'Fast Lane' of futuristic skyscrapers in Jinjiang and the 'Slow Lane' of bamboo teahouses in Qingyang. It is a city that rejects the frantic '996' work culture of coastal China in favor of 'shua'—a philosophy of protracted play, mahjong marathons, and a culinary scene so significant it was the first in Asia to be named a UNESCO City of Gastronomy."
+  },
+  "stats": {
+    "currency": "CNY (Yuan/RMB)",
+    "plug_type": "Type A/C/I"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "January",
+      "temp": "3°C - 10°C",
+      "vibe": "The Smoggy Chill",
+      "pros": ["Lowest tourist numbers", "Perfect for hotpot huddling"],
+      "cons": ["Hazardous PM 2.5 air levels", "Damp cold with no central heating"],
+      "clothing": "Heavy down jacket, N95 masks, thermal layers"
+    },
+    {
+      "id": 2,
+      "name": "February",
+      "temp": "5°C - 12°C",
+      "vibe": "Late Winter Damp",
+      "pros": ["Chinese New Year festivities", "Plum blossoms starting"],
+      "cons": ["High humidity makes cold bite", "Persistent smog"],
+      "clothing": "Wool coats, moisture-wicking thermals"
+    },
+    {
+      "id": 3,
+      "name": "March",
+      "temp": "11°C - 19°C",
+      "vibe": "Spring Awakening",
+      "pros": ["Cherry and pear blossoms", "Pandas are active outdoors"],
+      "cons": ["Occasional 'muddy' drizzle"],
+      "clothing": "Light layers, waterproof shoes"
+    },
+    {
+      "id": 4,
+      "name": "April",
+      "temp": "15°C - 24°C",
+      "vibe": "The Sweet Spot",
+      "pros": ["Optimal teahouse weather", "Mild air quality"],
+      "cons": ["Brief peak season for crowds"],
+      "clothing": "Light sweaters, comfortable walking shoes"
+    },
+    {
+      "id": 5,
+      "name": "May",
+      "temp": "19°C - 27°C",
+      "vibe": "Warm & Lush",
+      "pros": ["Mount Qingcheng is vibrant green", "Comfortable evenings"],
+      "cons": ["Holiday crowds in early May"],
+      "clothing": "Cotton t-shirts, light trousers"
+    },
+    {
+      "id": 6,
+      "name": "June",
+      "temp": "23°C - 31°C",
+      "vibe": "Monsoon Entry",
+      "pros": ["Long evenings for outdoor beer"],
+      "cons": ["Sudden torrential downpours", "Rising humidity"],
+      "clothing": "Quick-dry clothes, sturdy umbrella"
+    },
+    {
+      "id": 7,
+      "name": "July",
+      "temp": "26°C - 33°C",
+      "vibe": "The Pressure Cooker",
+      "pros": ["Baby panda cubs in nurseries", "Electric nightlife"],
+      "cons": ["Suffocating basin heat", "Pandas moved indoors"],
+      "clothing": "Loose linen, cooling towels"
+    },
+    {
+      "id": 8,
+      "name": "August",
+      "temp": "26°C - 34°C",
+      "vibe": "Peak Humidity",
+      "pros": ["Neon-lit night markets", "Great for indoor museums"],
+      "cons": ["Sweat-drenched walking", "Hottest month"],
+      "clothing": "Shorts, sun hat, UV protection"
+    },
+    {
+      "id": 9,
+      "name": "September",
+      "temp": "21°C - 28°C",
+      "vibe": "The Refresh",
+      "pros": ["Cooling breezes return", "Stable river views"],
+      "cons": ["Mosquitoes peak in parks"],
+      "clothing": "Light layers, insect repellent"
+    },
+    {
+      "id": 10,
+      "name": "October",
+      "temp": "16°C - 22°C",
+      "vibe": "Ginkgo Season",
+      "pros": ["Stunning golden foliage", "Clear, photography-ready sky"],
+      "cons": ["Golden Week (Oct 1-7) is absolute gridlock"],
+      "clothing": "Light jacket, scarf for evenings"
+    },
+    {
+      "id": 11,
+      "name": "November",
+      "temp": "11°C - 17°C",
+      "vibe": "Poetic Autumn",
+      "pros": ["Atmospheric morning fog", "Ideal for long hikes"],
+      "cons": ["Decreased daylight hours"],
+      "clothing": "Trench coat, warm layers"
+    },
+    {
+      "id": 12,
+      "name": "December",
+      "temp": "5°C - 11°C",
+      "vibe": "Damp & Quiet",
+      "pros": ["No crowds at major shrines", "Cheap accommodation"],
+      "cons": ["Severe smog season begins"],
+      "clothing": "Thermal underwear, N95 masks"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "The 'Shua' Standard: In Chengdu, business is leisure. If you try to rush a meeting or skip the teahouse socialising, you will fail. True trust is built over mahjong and ear-cleaning, not boardrooms.",
+      "Gaiwan Mechanics: When drinking from a 3-piece tea set, don't take the lid off. Leave it slightly askew and use it to sweep leaves away. The lid represents Heaven, the bowl Mankind, and the saucer Earth.",
+      "The Clink Hierarchy: When clinking glasses, your rim must be physically lower than that of your elder or boss. This is a non-negotiable sign of deference.",
+      "The Performative Bill Fight: 'Going Dutch' is considered cheap and anti-social. A physical, noisy argument over who pays is expected. Let the host win, but try to 'fight' for the bill first.",
+      "Red Ink Taboo: Never write a name in red ink. Historically, it was used for the names of the deceased or those about to be executed. Signing a card in red is viewed as a curse.",
+      "Chopstick Omens: Never stick chopsticks vertically into rice. It mimics the incense used at funerals and is a profound insult to the host and a bad omen for everyone at the table.",
+      "Public PDA Scrutiny: While same-gender friends holding hands is a normal sign of platonic closeness, heavy romantic kissing in public is viewed as a violation of conservative modesty.",
+      "The Push & Parry: Expect a local to refuse a gift or tip three times. This Zhou Dynasty etiquette shows humility. You must insist repeatedly until they 'reluctantly' accept.",
+      "Chengdu Belly Defense: If the spice hits too hard, do not drink water—it just spreads the oil. Drink milk or yogurt; the casein protein is the only thing that binds to and neutralizes capsaicin.",
+      "No Tipping: China is strictly no-tip. Leaving money on the table will cause staff to chase you down to return 'lost' cash. Only high-end Western hotels accept tips.",
+      "Tap Water Warning: Strictly non-potable. Municipal rules require a rolling boil for 60 seconds. Use bottled water for everything, including brushing your teeth.",
+      "Monday Museum Rule: Almost all major museums are closed on Mondays. Plan your itinerary around this strict government-mandated closure."
+    ],
+    "essential_phrases": [
+      { "src": "Hello / Good day", "local": "你好 (Nǐ hǎo)", "phonetic": "Nee-how" },
+      { "src": "Not spicy at all", "local": "一点也不辣 (Yīdiǎn yě bù là)", "phonetic": "Ee-dyan-yeh-boo-lah" },
+      { "src": "Where is the toilet?", "local": "洗手间在哪里? (Xǐshǒujiān zài nǎlǐ?)", "phonetic": "She-show-jyen-dzai-na-lee" },
+      { "src": "I'm allergic to peanuts", "local": "我对花生过敏 (Wǒ duì huāshēng guòmǐn)", "phonetic": "Wore-dway-hwa-shung-gwor-meen" },
+      { "src": "I don't speak Chinese", "local": "我不会说中文 (Wǒ bù huì shuō zhōngwén)", "phonetic": "Wore-boo-hway-shwor-jong-wen" },
+      { "src": "Bottoms up!", "local": "干杯 (Gānbēi)", "phonetic": "Gan-bay" },
+      { "src": "How much?", "local": "多少钱? (Duōshǎo qián?)", "phonetic": "Dwor-shao-chyen" }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Jinjiang (Taikoo Li)",
+      "vibe": "The Fashionable Core",
+      "description": "The kinetic commercial heart where 'Fast Lane' consumerism meets 'Slow Lane' antiquity. High-end glass retail towers surround the 1,600-year-old Daci Temple, creating a jarring, futuristic juxtaposition.",
+      "history": "Jinjiang has been the commercial nucleus for nearly a century. Taikoo Li was a massive heritage-revitalisation project designed to weave modern luxury around Tang Dynasty courtyards.",
+      "best_for": "Luxury shopping, first-timers, and those needing high-speed metro access (Lines 2 & 3).",
+      "drawbacks": "Most expensive district; extreme pedestrian congestion and persistent noise.",
+      "highlights": ["Taikoo Li", "Daci Temple", "IFS Giant Panda Installation"],
+      "image": "/images/chengdu/jinjiang.jpg"
+    },
+    {
+      "name": "Wuhou (Tibetan Quarter)",
+      "vibe": "The Little Lhasa",
+      "description": "A dense enclave hosting an estimated 100,000 migrant Tibetans. The streets smell of yak butter and burning juniper, populated by monks in maroon robes and shops selling Himalayan gear.",
+      "history": "Carries the historical weight of the Kingdom of Shu. Wuhou Shrine is the resting place of Zhuge Liang, the legendary strategist whose wisdom is a point of local pride.",
+      "best_for": "Cultural anthropologists, history buffs, and those wanting a taste of Tibet without the permit requirements.",
+      "drawbacks": "Jinli Street is an absolute tourist trap; street vending can be aggressive near the shrines.",
+      "highlights": ["Wuhou Shrine", "Tibetan Markets", "Jinli Ancient Street"],
+      "image": "/images/chengdu/wuhou.jpg"
+    },
+    {
+      "name": "Qingyang",
+      "vibe": "The Cultural Soul",
+      "description": "A leafy, park-dense district where the traditional 'Slow Life' is preserved. It houses 70% of downtown's historical sites and is the demographic heart of Chengdu's aristocratic families.",
+      "history": "The political heart for 2,300 years. It contains the Du Fu Thatched Cottage and the 3,000-year-old Jinsha ruins, representing the depth of Shu civilization.",
+      "best_for": "Mature travelers, museum lovers, and those wanting to sit in bamboo chairs for 4 hours.",
+      "drawbacks": "Dead energy after 10 PM; no nightlife or modern cocktail scene.",
+      "highlights": ["People's Park", "Wenshu Monastery", "Du Fu Thatched Cottage"],
+      "image": "/images/chengdu/qingyang.jpg"
+    },
+    {
+      "name": "Yulin",
+      "vibe": "Bohemian Alleyways",
+      "description": "A maze of 1990s gray-brick socialist housing reclaimed by hipsters and creatives. It is the unpretentious soul of the city, famous for its folk-music bars and 'fly restaurants'.",
+      "history": "Originally populated by work-unit workers in 1991, the neighborhood became a national symbol of Chengdu's artistic diaspora after a viral folk song.",
+      "best_for": "Solo travelers, foodies, and those looking for underground vinyl and indie bookstores.",
+      "drawbacks": "Crumbling infrastructure; very few high-end hotels; involves deep walking from metro stations.",
+      "highlights": ["Yulin Folk Bars", "Fly Restaurant Alleys", "Independent Bookstores"],
+      "image": "/images/chengdu/yulin.jpg"
+    },
+    {
+      "name": "Chenghua",
+      "vibe": "Industrial Cyberpunk",
+      "description": "The 'Eastern Suburb' engine turned creative hub. Brutalist factory complexes and rail yards have been converted into techno clubs, art galleries, and tech startups.",
+      "history": "In the 1950s, this was a heavy manufacturing zone. Projects like 'Eastern Suburb Memory' revitalized the rusted infrastructure into a post-industrial playground.",
+      "best_for": "Photographers, electronic music fans, and urban explorers.",
+      "drawbacks": "Highly decentralized; you'll spend a fortune on Didi rides moving between industrial blocks.",
+      "highlights": ["Eastern Suburb Memory", "Industrial Galleries", "Underground Techno Scene"],
+      "image": "/images/chengdu/chenghua.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "log-transit",
+      "slug": "getting-around",
+      "title": "Getting Around",
+      "icon": "Train",
+      "summary": "Mastering the advanced metro and the dominance of ride-hailing.",
+      "details": [
+        "Subway Tap-and-Go: Since mid-2025, international Visa/Mastercard/Amex cards with chips can be tapped directly at metro turnstiles—no tickets needed.",
+        "Didi Chuxing: The essential ride-hailing app. Note that local taxis almost NEVER accept credit cards; Didi (via Alipay) is the only seamless way to pay for transport.",
+        "Alipay Transport: Use the 'Transport' QR code in Alipay for universal access to all buses and subways. It's faster than card tapping.",
+        "Shared Bikes: Yellow and blue bikes are everywhere. Scan the QR inside your payment app to unlock. Bikes are the best way to bridge the gaps in Yulin."
+      ]
+    },
+    {
+      "id": "log-digital",
+      "slug": "digital-economy",
+      "title": "Digital Life & Cash",
+      "icon": "Smartphone",
+      "summary": "Chengdu is 100% cashless; your phone is your lifeline.",
+      "details": [
+        "Mandatory Apps: Download Alipay AND WeChat Pay before landing. Link an international card and complete the passport identity verification (KYC).",
+        "QR Menus: 90% of restaurants have no paper menus. You scan a QR code on the table, order, and pay through the mini-program.",
+        "Power Bank Rental: All cafes have power bank rental stations (PowerBank). Scan to rent; you can return them to any other station in the city."
+      ]
+    },
+    {
+      "id": "log-toilets",
+      "slug": "sanitary-survival",
+      "title": "Toilet Realities",
+      "icon": "Users",
+      "summary": "Privacy and paper are luxuries in the public sector.",
+      "details": [
+        "Squat Standard: Public and street-level toilets are 95% squat units.Malls like Taikoo Li provide Western 'sitting' toilets, but carry tissues regardless.",
+        "Tissue Packs: Public toilets rarely provide paper. Always carry 'zhi jin' (tissue packs) and hand sanitizer.",
+        "Facial Recognition Paper: In high-end malls, look for dispensers that scan your face to give you 60cm of toilet paper—a local anti-theft tech."
+      ]
+    },
+    {
+      "id": "log-health",
+      "slug": "health-hazards",
+      "title": "Health & Air Quality",
+      "icon": "Shield",
+      "summary": "Managing the atmospheric and culinary hazards.",
+      "details": [
+        "AQI Monitoring: Check the Air Quality Index daily. If it's over 150 (Red), wear an N95 mask to avoid 'Chengdu Cough'.",
+        "The Milk Defense: Dairy is your only weapon against capsaicin burn. Drink local yogurt (Suan Nai) to stop immediate stomach distress.",
+        "Ear Cleaning Risk: Ear cleaning in People's Park is authentic but uses reused tools. If you have sensitive skin or infections, avoid it."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "mapo-tofu",
+      "name_en": "Mapo Tofu",
+      "name_local": "麻婆豆腐",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Scalding, ruby-red silken tofu suspended in a viscous oil of minced beef, fermented beans, and numbing peppercorns.",
+        "history": "Invented in 1862 by Mrs. Chen, a pockmarked woman (Ma-po) who ran an eatery near Wanfu Bridge. She turned cheap ingredients—tofu and beef—into a masterpiece for weary porters.",
+        "insider_tip": "Authentic versions mandate crispy minced BEEF, never pork. Eat it at the 'Chen Mapo Tofu' flagship. Order a side of white rice; the starch is the only way to handle the numbing 'Ma' sensation.",
+        "price_level": "Affordable",
+        "duration": "1 hour",
+        "best_time": "Lunch",
+        "vibe": "Vibrant and Scalding",
+        "good_for": ["Spice veterans", "Culinary history", "Solo diners"]
+      },
+      "image": "/images/chengdu/mapo-tofu.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "sichuan-hotpot",
+      "name_en": "Sichuan Hotpot",
+      "name_local": "四川火锅",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A boiling cauldron of Erjintiao chilies and rapeseed oil. It is a social ritual of communal sweat and survival.",
+        "history": "Originating with river porters who used heavy spice to mask the taste of cheap offal. Chengdu style uses vegetable oil for a lighter, more aromatic fragrance than the heavy tallow of Chongqing.",
+        "insider_tip": "Order 'Yuan Yang' (Twin) pot—one spicy, one mushroom. Use a dipping sauce of pure sesame oil and raw minced garlic; the oil physically coats your esophagus to block capsaicin burn.",
+        "price_level": "Moderate",
+        "duration": "2.5 hours",
+        "best_time": "Dinner (after 7 PM)",
+        "vibe": "Loud, Chaotic, Communal",
+        "good_for": ["Groups", "Social dining", "Brave stomachs"]
+      },
+      "image": "/images/chengdu/hotpot.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "fly-restaurants",
+      "name_en": "Fly Restaurants",
+      "name_local": "苍蝇馆子",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Hole-in-the-wall eateries known for grimy tables and legendary home-style cooking that attracts both millionaires and workers.",
+        "history": "The name implies sanitation so questionable that flies buzz around, but in Chengdu, it's a badge of honor for places where the food outshines the décor.",
+        "insider_tip": "Visit 'Dongzikou Zhang Liangfen'. There are no menus; sit near the kitchen and watch waiters pedal tricycles of food. Point at what you want as it passes. Cash is not accepted; QR is king.",
+        "price_level": "Budget",
+        "duration": "1 hour",
+        "best_time": "Lunch or Late Night",
+        "vibe": "Nostalgic and Gritty",
+        "good_for": ["Food purists", "Extreme authenticity", "Budget travelers"]
+      },
+      "image": "/images/chengdu/fly-restaurant.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "dan-dan-noodles",
+      "name_en": "Dan Dan Noodles",
+      "name_local": "担担面",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Savory street noodles served with a pool of chili oil, soy sauce, and minced pork hidden at the bottom of the bowl.",
+        "history": "Named after the 'Dan Dan' carrying poles vendors used in the 1800s to transport noodles and smoldering stoves across the city's alleyways.",
+        "insider_tip": "Stir vigorously from the bottom up to emulsify the sauce. Find 'Tiemen Zajiangmian' in Yulin for a version where the meat is fried in sweet bean sauce until it's umami-rich and crispy.",
+        "price_level": "Affordable",
+        "duration": "30 minutes",
+        "best_time": "Quick Lunch",
+        "vibe": "Earthy and Fast",
+        "good_for": ["Solo eaters", "Quick snacks", "Noodle lovers"]
+      },
+      "image": "/images/chengdu/dan-dan-noodles.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "The Big Three",
+      "id": "essential",
+      "items": [
+        {
+          "id": "sight-001",
+          "slug": "panda-breeding-base",
+          "name_en": "Giant Panda Breeding Base",
+          "name_local": "成都大熊猫繁育研究基地",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The world's premier panda sanctuary and research center, housing over 200 giant and red pandas in bamboo-forested enclosures.",
+            "history": "Started in 1987 with just 6 rescued pandas. It pioneered neonatal care for cubs born through a species with a notoriously complex 24-hour mating window.",
+            "insider_tip": "You MUST arrive by 7:30 AM. After 10:00 AM, the pandas fall into a coma-like sleep and the tour buses create gridlock. Head to the 'Sunshine Nursery' to see the chaotic kindergarten cubs.",
+            "price_level": "Affordable (¥55)",
+            "duration": "4 hours",
+            "best_time": "7:30 AM Opening",
+            "vibe": "Bamboo-scented and Active",
+            "good_for": ["Families", "Photography", "Nature lovers"]
+          },
+          "image": "/images/chengdu/panda-base.jpg",
+          "geo": { "lat": 30.7335, "lng": 104.1441 }
+        },
+        {
+          "id": "sight-002",
+          "slug": "dujiangyan",
+          "name_en": "Dujiangyan Irrigation System",
+          "name_local": "都江堰",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 2,300-year-old dam-less engineering marvel that still prevents flooding and irrigates the entire Sichuan basin.",
+            "history": "Built in 256 BC by Li Bing. He used a 'Fish Mouth' levee to split the river and fire-heated rocks to carve a mountain bypass without explosives.",
+            "insider_tip": "Cross the Anlan Suspension Bridge and climb to the 'Erwang Temple' on the hill. It's empty of tourists and offers a panoramic, high-angle view of the hydraulic system's mechanics.",
+            "price_level": "Moderate (¥80)",
+            "duration": "5 hours",
+            "best_time": "Early Morning via High-Speed Rail",
+            "vibe": "Ingenious and Roaring",
+            "good_for": ["Engineering geeks", "History buffs", "Hikers"]
+          },
+          "image": "/images/chengdu/dujiangyan.jpg",
+          "geo": { "lat": 31.006, "lng": 103.619 }
+        },
+        {
+          "id": "sight-003",
+          "slug": "sanxingdui",
+          "name_en": "Sanxingdui Museum",
+          "name_local": "三星堆博物馆",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A disruptive archaeological site housing extraterrestrial-looking bronze masks and artifacts from a lost 3,000-year-old civilization.",
+            "history": "Unearthed in 1986, it proved a highly advanced culture existed in Sichuan that was completely undocumented in Chinese history books.",
+            "insider_tip": "Tickets sell out 3-7 days in advance—book via WeChat Mini-Program. Take the shuttle bus from IFS Mall. Passports are mandatory for entry.",
+            "price_level": "Moderate (¥72)",
+            "duration": "4 hours",
+            "best_time": "9:00 AM Opening",
+            "vibe": "Mysterious and Profound",
+            "good_for": ["Archaeology lovers", "History scholars", "The highly curious"]
+          },
+          "image": "/images/chengdu/sanxingdui.jpg",
+          "geo": { "lat": 30.993, "lng": 104.22 }
+        }
+      ]
+    },
+    {
+      "title": "Leisure & Living",
+      "id": "lifestyle",
+      "items": [
+        {
+          "id": "sight-004",
+          "slug": "heming-teahouse",
+          "name_en": "Heming Teahouse",
+          "name_local": "鹤鸣茶社",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 100-year-old theater of leisure where hundreds of bamboo chairs clatter beside an artificial lake in People's Park.",
+            "history": "One of the last surviving 'egalitarian' spaces where millionaires and pensioners sit side-by-side to escape capitalist productivity.",
+            "insider_tip": "Look for the ear-cleaners with headlamps. For ¥30, you get a 15-minute 'acoustic' cleaning using tuning forks and feathers. It is bizarre, ticklish, and highly authentic.",
+            "price_level": "Budget (¥20-40 per pot)",
+            "duration": "3 hours",
+            "best_time": "Mid-Afternoon (Social Peak)",
+            "vibe": "Raucous and Timeless",
+            "good_for": ["Cultural immersion", "Slow travel", "People watching"]
+          },
+          "image": "/images/chengdu/heming.jpg",
+          "geo": { "lat": 30.654, "lng": 104.053 }
+        },
+        {
+          "id": "sight-005",
+          "slug": "wenshu-monastery",
+          "name_en": "Wenshu Monastery",
+          "name_local": "文殊院",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Chengdu's best-preserved Buddhist temple complex, featuring quiet courtyards, ancient calligraphy, and a famous vegetarian restaurant.",
+            "history": "First built in the Sui Dynasty (605 AD). Rebuilt in 1697 during the Qing Dynasty, it has remained a serene enclave amid urban sprawl.",
+            "insider_tip": "Go to the teahouse at the back. It's cheaper than Heming and populated by actual monks and neighborhood regulars playing cards.",
+            "price_level": "Free",
+            "duration": "2 hours",
+            "best_time": "Morning (Morning Chants)",
+            "vibe": "Serene and Fragrant",
+            "good_for": ["Peace seekers", "Vegetarians", "Architecture"]
+          },
+          "image": "/images/chengdu/wenshu.jpg",
+          "geo": { "lat": 30.673, "lng": 104.071 }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "7:30 AM",
+      "title": "Dawn with the Pandas",
+      "description": "Board a Didi early to arrive at the Panda Base before opening. Skip the shuttle bus inside; walk uphill to the 'Sunshine Nursery'. You'll have 90 minutes of high-energy bear wrestling before they retreat to sleep at 10 AM. It's the only time they are actually active.",
+      "image": "/images/chengdu/itinerary-panda.jpg"
+    },
+    {
+      "time": "11:30 AM",
+      "title": "Taikoo Li Glass & Shrines",
+      "description": "Return to the city center via Line 3. Walk through the glass-facade luxury of Taikoo Li and step into Daci Temple. This juxtaposes the city's 1,000-year history with its high-speed modern economy. Grab a 'Suan La Fen' (hot and sour noodle) snack nearby.",
+      "image": "/images/chengdu/itinerary-taikoo.jpg"
+    },
+    {
+      "time": "2:00 PM",
+      "title": "People's Park & Ear Cleaning",
+      "description": "Settle into a bamboo chair at Heming Teahouse. Order a Gaiwan of jasmine tea. Watch the 'Marriage Market' where parents trade resumes of their children. Hire a traditional ear-cleaner for the bizarre 'acoustic' tuning fork experience.",
+      "image": "/images/chengdu/itinerary-tea.jpg"
+    },
+    {
+      "time": "6:00 PM",
+      "title": "Red Walls of Wuhou",
+      "description": "Wander the stunning red-walled corridors of Wuhou Shrine as the light fades. Cross into Jinli Ancient Street exactly at dusk when thousands of red lanterns ignite, illuminating the wet stone streets.",
+      "image": "/images/chengdu/itinerary-jinli.jpg"
+    },
+    {
+      "time": "8:30 PM",
+      "title": "The Spicy Ritual Finale",
+      "description": "Dine at a local hotpot spot. Avoid the global chains—find a place with long lines and vegetable oil broth. Order a side of 'Bingfen' (Ice Jelly) to act as a fire extinguisher for your tongue.",
+      "image": "/images/chengdu/itinerary-hotpot.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "N95 Smog Filtration Masks",
+      "image": "/images/chengdu/mask.jpg",
+      "reason": "Sichuan's basin traps PM 2.5 particulate matter in winter. An N95 is the only way to avoid the 'Chengdu Cough' from Dec to Feb.",
+      "amazon_url": "https://www.amazon.com/s?k=n95+particulate+masks&tag=canibringonpl-20",
+      "category": "health"
+    },
+    {
+      "id": "aff-002",
+      "title": "Lactose-Free Dairy Snacks",
+      "image": "/images/chengdu/dairy.jpg",
+      "reason": "Dairy binds to capsaicin. Having milk-based snacks on hand is the only biochemical way to neutralize sudden spicy hotpot distress.",
+      "amazon_url": "https://www.amazon.com/s?k=lactose+free+dairy+snacks&tag=canibringonpl-20",
+      "category": "health"
+    },
+    {
+      "id": "aff-003",
+      "title": "High-Traction Walking Shoes",
+      "image": "/images/chengdu/shoes.jpg",
+      "reason": "Historic stone paths in Dujiangyan and Qingcheng Mountain get incredibly slick after rain. High-grip tread is essential for survival.",
+      "amazon_url": "https://www.amazon.com/s?k=high+traction+walking+shoes&tag=canibringonpl-20",
+      "category": "gear"
+    }
+  ],
+  "region": "Asia"
+}

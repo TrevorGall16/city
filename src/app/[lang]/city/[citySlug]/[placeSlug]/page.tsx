@@ -18,8 +18,10 @@ import { EnhancedPlaceCard } from '@/components/features/EnhancedPlaceCard'
 import AdsterraSmartFrame from '@/components/ads/AdsterraSmartFrame'
 import FAQSchema from '@/components/seo/FAQSchema'
 import { ImageLightbox } from '@/components/ui/ImageLightbox'
+import { PlaceGallery } from '@/components/place/PlaceGallery'
 import { PLACE_FAQS } from '@/data/place_faqs'
 import { SEO_DICTIONARY, type SEOLang } from '@/data/seo-dictionary'
+import { getPlaceImages } from '@/lib/getPlaceImages'
 
 interface PageProps {
   params: Promise<{ lang: string; citySlug: string; placeSlug: string }>
@@ -116,6 +118,7 @@ export default async function PlacePage({ params }: PageProps) {
 
   const { place } = data;
   const cityFontClass = getCityFont(citySlug);
+  const galleryImages = await getPlaceImages(citySlug, placeSlug);
   const desc = place.description;
 
   // 🛡️ MASTER AI CRASH PROTECTION
@@ -225,6 +228,11 @@ export default async function PlacePage({ params }: PageProps) {
               <p className="relative text-2xl md:text-3xl font-bold leading-tight">"{insiderTip}"</p>
             </div>
           )}
+          {/* Place Gallery (auto-detected from /public/images/{city}/{place}/) */}
+          {galleryImages.length > 0 && (
+            <PlaceGallery images={galleryImages} />
+          )}
+
           {/* Guaranteed Ad Placement */}
           <div className="my-12 flex justify-center">
             <AdsterraSmartFrame

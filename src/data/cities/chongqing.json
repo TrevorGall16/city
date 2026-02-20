@@ -1,21 +1,20 @@
 {
   "id": "city-006",
   "name": "Chongqing",
-  "name_native": "重庆",
   "slug": "chongqing",
   "country": "China",
   "country_code": "cn",
   "lat": 29.563,
   "lng": 106.5516,
   "hero_image": "/images/chongqing/hero.jpg",
-  "intro_vibe": "The 8D Vertical Metropolis: A labyrinth of fog, mountains, and neon where ground levels are illusions and navigation requires three-dimensional logic.",
+  "intro_vibe": "The 8D Vertical Metropolis: A labyrinth of fog, mountains, and neon where ground levels are illusions and standard navigation requires three-dimensional logic.",
   "general_info": {
     "population": "~32 million (municipality)",
     "is_capital": false,
-    "description": "Chongqing is a massive megacity built on rugged terrain at the confluence of the Yangtze and Jialing rivers. Known as the '8D City,' its infrastructure defies traditional mapping; roads spiral over buildings and monorails pass through residential towers. It acts as a high-density 'living laboratory' where the ground floor is fluid and elevators function as vital public transit."
+    "description": "Chongqing is an anomaly in modern urban planning. Sprawling across a rugged, gorge-filled landscape at the confluence of the Yangtze and Jialing rivers, it functions as a 'living laboratory' for extreme high-density infrastructure. Here, two-dimensional mapping fails; roads spiral over one another, monorails punch through the 19th floors of residential high-rises, and a hotel lobby might sit on the 11th floor while exiting to active streets on both the 1st and 22nd floors. This '8D' topography demands absolute logistical competence, rewarding travelers with a sensory overload of scalding hotpot, cyberpunk nightscapes, and the raw, unfiltered energy of China's most intense megacity."
   },
   "stats": {
-    "currency": "CNY (RMB)",
+    "currency": "CNY (Yuan/RMB)",
     "plug_type": "Type A/C/I"
   },
   "weather_breakdown": [
@@ -24,160 +23,270 @@
       "name": "January",
       "temp": "6°C - 11°C",
       "vibe": "Damp Cold & Foggy",
-      "pros": ["Atmospheric fog", "Low tourist volume"],
-      "cons": ["No central heating indoors", "Damp cold penetrates bone"],
-      "clothing": "Thermal underwear, heavy coats"
+      "pros": [
+        "Atmospheric 'Silent Hill' fog",
+        "Lowest tourist volume",
+        "Hotpot feels biologically necessary"
+      ],
+      "cons": [
+        "No central heating in most buildings",
+        "Damp cold penetrates bone",
+        "Low visibility for skyline views"
+      ],
+      "clothing": "Heavy thermal underwear, thick winter coats, wool socks"
     },
     {
       "id": 2,
       "name": "February",
       "temp": "7°C - 13°C",
       "vibe": "Late Winter",
-      "pros": ["Cooler than summer", "Fog aesthetics"],
-      "cons": ["Persistent dampness", "High humidity"],
-      "clothing": "Heavy layers, thermal socks"
+      "pros": [
+        "Spring Festival energy",
+        "Slight clearing of heavy fog"
+      ],
+      "cons": [
+        "Persistent, miserable dampness",
+        "Indoor temperatures match outdoor temperatures"
+      ],
+      "clothing": "Thermal layers, moisture-wicking base"
     },
     {
       "id": 3,
       "name": "March",
       "temp": "12°C - 20°C",
       "vibe": "Optimal Exploration",
-      "pros": ["Comfortable temperatures", "Best for walking tours"],
-      "cons": ["Variable rain"],
+      "pros": [
+        "Temperatures conducive to endless stair climbing",
+        "Fog begins to lift entirely"
+      ],
+      "cons": [
+        "Variable and sudden spring rains"
+      ],
       "clothing": "Light layers, waterproof shoes"
     },
     {
       "id": 4,
       "name": "April",
       "temp": "16°C - 24°C",
-      "vibe": "Optimal Spring",
-      "pros": ["Best visibility for photography", "Ideal hiking conditions"],
-      "cons": ["Brief peak season"],
-      "clothing": "Light jackets, breathable layers"
+      "vibe": "Peak Spring",
+      "pros": [
+        "Best visibility for skyline photography",
+        "Ideal conditions for hiking the Wulong Karst"
+      ],
+      "cons": [
+        "Brief window before the brutal summer humidity begins"
+      ],
+      "clothing": "Light jackets, highly breathable layers"
     },
     {
       "id": 5,
       "name": "May",
       "temp": "20°C - 28°C",
       "vibe": "Warm Transition",
-      "pros": ["Lush river scenery", "Pre-furnace heat"],
-      "cons": ["Humidity rising"],
-      "clothing": "Light layers"
+      "pros": [
+        "Lush greenery along the riverbanks",
+        "Pre-furnace heat is manageable"
+      ],
+      "cons": [
+        "Steep increase in humidity levels"
+      ],
+      "clothing": "Cotton t-shirts, light trousers"
     },
     {
       "id": 6,
       "name": "June",
       "temp": "24°C - 32°C",
-      "vibe": "Summer Entry",
-      "pros": ["Vibrant night energy"],
-      "cons": ["Heat exhaustion risk", "High humidity"],
-      "clothing": "Breathable synthetics, shorts"
+      "vibe": "The Furnace Ignites",
+      "pros": [
+        "Vibrant night market energy",
+        "Cave hotpots become appealing"
+      ],
+      "cons": [
+        "Risk of heat exhaustion begins",
+        "Oppressive wet bulb temperatures"
+      ],
+      "clothing": "Breathable synthetics, shorts, portable fan"
     },
     {
       "id": 7,
       "name": "July",
       "temp": "28°C - 40°C+",
-      "vibe": "The Furnace City",
-      "pros": ["Clear skyline views"],
-      "cons": ["Physiological heat hazard", "Extreme wet bulb temperature"],
-      "clothing": "Minimal, loose synthetics"
+      "vibe": "Physiological Hazard",
+      "pros": [
+        "Clear, dramatic skyline views at night"
+      ],
+      "cons": [
+        "Extreme heat trapped by basin topography",
+        "Sweat cannot evaporate due to humidity"
+      ],
+      "clothing": "Minimal, loose synthetics, high-SPF sunscreen"
     },
     {
       "id": 8,
       "name": "August",
       "temp": "28°C - 40°C+",
-      "vibe": "Peak Heat",
-      "pros": ["Cave hotpot relief", "Indoor mall comfort"],
-      "cons": ["Trapped basin heat", "Critical exhaustion risk"],
-      "clothing": "Shorts, hat, sunscreen"
+      "vibe": "Peak Furnace",
+      "pros": [
+        "Nocturnal exploration is the only viable option",
+        "Air-conditioned malls offer relief"
+      ],
+      "cons": [
+        "Physiological danger during midday stairs climbing",
+        "Exhausting atmospheric pressure"
+      ],
+      "clothing": "Shorts, UV-protection hats, hydration packs"
     },
     {
       "id": 9,
       "name": "September",
       "temp": "22°C - 30°C",
-      "vibe": "Culinary Harvest",
-      "pros": ["Autumn food season", "Lower heat levels"],
-      "cons": ["Storm probability"],
-      "clothing": "Light layers"
+      "vibe": "The Heat Breaks",
+      "pros": [
+        "Temperatures become survivable",
+        "Culinary harvest season begins"
+      ],
+      "cons": [
+        "Lingering humidity and sudden rainstorms"
+      ],
+      "clothing": "Light layers, umbrella"
     },
     {
       "id": 10,
       "name": "October",
       "temp": "17°C - 23°C",
-      "vibe": "Optimal Autumn",
-      "pros": ["Perfect walking weather", "Peak photography clarity"],
-      "cons": ["Golden Week crowds"],
-      "clothing": "Light jacket, comfortable shoes"
+      "vibe": "Golden Autumn",
+      "pros": [
+        "Perfect walking weather",
+        "Crisp air and peak photography clarity"
+      ],
+      "cons": [
+        "Golden Week (Oct 1-7) causes catastrophic overcrowding"
+      ],
+      "clothing": "Light jacket, comfortable climbing shoes"
     },
     {
       "id": 11,
       "name": "November",
       "temp": "12°C - 18°C",
       "vibe": "Fog City Transition",
-      "pros": ["Atmospheric photography", "Comfortable for spicy food"],
-      "cons": ["Low solar exposure"],
-      "clothing": "Jackets, thermal layers"
+      "pros": [
+        "Moody, cinematic atmosphere returns",
+        "Comfortable weather for heavy, spicy meals"
+      ],
+      "cons": [
+        "Solar exposure drops significantly"
+      ],
+      "clothing": "Jackets, thermal base layers"
     },
     {
       "id": 12,
       "name": "December",
       "temp": "6°C - 11°C",
-      "vibe": "Bone-Damp Cold",
-      "pros": ["No tourist crowds"],
-      "cons": ["Indoor-outdoor temp parity", "Humidity amplified cold"],
-      "clothing": "Thermal underwear, heavy coats"
+      "vibe": "Bone-Damp Chill",
+      "pros": [
+        "Tourist sites are virtually empty"
+      ],
+      "cons": [
+        "Indoor environments require wearing winter coats",
+        "High humidity amplifies the physical sensation of cold"
+      ],
+      "clothing": "Thermal underwear, heavy coats, wool accessories"
     }
   ],
   "culture": {
     "etiquette_tips": [
-      "Digital Pre-configuration: Cash is rare; configure WeChat and Alipay with an international card before landing.",
-      "Navigation Reality: 2D maps fail here. Distance is meaningless without elevation data. Use Amap (Gaode).",
-      "Hotpot Thermal Zones: The Jiugongge grid isn't for different broths. Use the center for blanching and corners for long stewing.",
-      "Dipping Sauce Rule: Strictly Sesame Oil + Minced Garlic. It acts as a fire extinguisher for the capsaicin.",
-      "Loudness ≠ Aggression: Locals speak at a high volume. Shouting in restaurants is enthusiastic social energy.",
-      "Respect the Monarchy of Offal: Tripe (Maodu) and Duck Intestine are the prizes. Refusing them is okay; mocking them is rude.",
-      "Face Management: Do not use flash on monorail platforms; it distracts the drivers.",
-      "Bang Bang Army: Negotiate the price (¥10-20) before porters carry your luggage up stairs.",
-      "Ganbei Hospitality: Bottoms up drinking is an intense social ritual. Refusal requires a medical excuse.",
-      "TCM Cooling: In summer heat, drink Suan Mei Tang (Sour Plum Soup) or Lu Dou Tang (Mung Bean Soup) to detoxify 'heatiness'."
+      "The Z-Axis Reality: Distance is a meaningless metric without elevation. A restaurant 50 meters away on a map might require ascending 15 flights of hidden stairs. Always ask locals for 'Road Level' context.",
+      "TCM Cooling Defense: To survive the oppressive summer heat, do as the locals do and consume Traditional Chinese Medicine (TCM) drinks like Suan Mei Tang (Sour Plum Soup) or Lu Dou Tang (Mung Bean Soup) to detoxify 'heatiness'.",
+      "Hotpot Physics: The Jiugongge (9-grid pot) is not for separating different broths; it creates thermal zones in a single spicy tallow broth. Use the center for violent 15-second blanching, the cross squares for medium boiling, and the corners for long, slow stewing.",
+      "The Capsaicin Shield: When eating hotpot, the dipping sauce must be strictly Sesame Oil and Minced Garlic. The lipids physically coat your esophagus, blocking capsaicin from binding to TRPV1 pain receptors and preventing severe gastrointestinal distress.",
+      "Loudness is not Aggression: Chongqing locals (Chongqingren) have a 'hot' temperament matching their food. Shouting in restaurants is the default volume of enthusiastic conversation, not anger. Do not be intimidated.",
+      "The Bang Bang Army: You will see 'Stick Men' carrying heavy loads up stairs with bamboo poles. They are the human infrastructure of the city. If you hire one to carry your luggage, negotiate the price (¥10-20) upfront.",
+      "Ganbei Intensity: Drinking with locals involves an intense 'bottoms up' (Ganbei) culture. Refusing a toast is considered highly rude unless you provide a firm medical excuse.",
+      "Respect the Offal: Tripe (Maodu) and duck intestine are the prized kings of the hotpot table, valued for their crunch and snap. Refusing them is acceptable, but mocking them is culturally insensitive.",
+      "Digital Pre-Configuration: Cash is functionally obsolete. You must install, verify, and link an international card to WeChat Pay or Alipay before your plane lands. Arrival without these apps degrades mobility to zero.",
+      "No Flash at Liziba: When photographing the famous monorail passing through the residential building at Liziba Station, never use your camera flash. It blinds the transit drivers."
     ],
     "essential_phrases": [
-      { "src": "Hotpot", "local": "火锅", "phonetic": "huǒ guō" },
-      { "src": "Nine-grid pot", "local": "九宫格", "phonetic": "jiǔ gōng gé" },
-      { "src": "Little Noodles", "local": "小面", "phonetic": "xiǎo miàn" },
-      { "src": "Dry (no soup)", "local": "干溜", "phonetic": "gān liū" },
-      { "src": "Bottoms up!", "local": "干杯", "phonetic": "gān bēi" },
-      { "src": "Use the meter", "local": "打表", "phonetic": "dǎ biǎo" },
-      { "src": "Elevator", "local": "电梯", "phonetic": "diàn tī" }
+      {
+        "src": "Hotpot",
+        "local": "火锅 (Huǒ guō)",
+        "phonetic": "Hwor gwor"
+      },
+      {
+        "src": "Nine-grid pot",
+        "local": "九宫格 (Jiǔ gōng gé)",
+        "phonetic": "Jeo gong guh"
+      },
+      {
+        "src": "Dry noodles (no soup)",
+        "local": "干溜 (Gān liū)",
+        "phonetic": "Gan leo"
+      },
+      {
+        "src": "Bottoms up!",
+        "local": "干杯 (Gān bēi)",
+        "phonetic": "Gan bay"
+      },
+      {
+        "src": "Use the meter",
+        "local": "打表 (Dǎ biǎo)",
+        "phonetic": "Dah byao"
+      },
+      {
+        "src": "Elevator",
+        "local": "电梯 (Diàn tī)",
+        "phonetic": "Dyen tee"
+      },
+      {
+        "src": "Not spicy (rarely works)",
+        "local": "不辣 (Bù là)",
+        "phonetic": "Boo lah"
+      }
     ]
   },
   "neighborhoods": [
     {
       "name": "Jiefangbei (Yuzhong)",
-      "vibe": "The Historic Hub",
-      "description": "High-density commercial core on a hilly peninsula. Best for first-timers wanting proximity to major sights.",
-      "highlights": ["Hongya Cave", "Raffles City", "Bayi Road Food Street"],
+      "vibe": "The Kinetic Heart",
+      "description": "The historic commercial center located on a hilly peninsula. It is a high-density zone where ground floors exist at multiple elevations. Home to the towering Liberation Monument, endless neon, and massive tourist throngs. It is convenient, but exceptionally loud.",
+      "highlights": [
+        "Hongya Cave Exterior",
+        "Liberation Monument",
+        "Bayi Road Food Street"
+      ],
       "image": "/images/chongqing/jiefangbei.jpg"
     },
     {
       "name": "Nanbin Road (Nan'an)",
       "vibe": "The Panoramic Bund",
-      "description": "Located across the Yangtze. Offers the best skyline views. Quieter and upscale.",
-      "highlights": ["Yangtze River Cableway", "Skyline Views", "Riverside Promenade"],
+      "description": "Located across the Yangtze River, this upscale, quieter district offers the absolute best panoramic views of the Yuzhong peninsula skyline. It feels more like a resort area, favored by luxury travelers and photographers.",
+      "highlights": [
+        "Yangtze River Cableway (South Station)",
+        "Skyline Views",
+        "Upscale Dining"
+      ],
       "image": "/images/chongqing/nanbin-road.jpg"
     },
     {
       "name": "Guanyinqiao (Jiangbei)",
       "vibe": "The Local Core",
-      "description": "Modern commercial center and nightlife hub. Preferred by locals for shopping.",
-      "highlights": ["Nightlife hub", "Modern Shopping", "Yellow Ferrari base"],
+      "description": "This is the 'real' city center for residents. A massive, authentic urban hub devoid of Western tourists, offering the best shopping, intense nightlife, and the primary hunting ground for the city's famous 'Yellow Ferrari' taxis.",
+      "highlights": [
+        "Pedestrian Shopping Street",
+        "Nightlife Clubs",
+        "Yellow Ferrari Hub"
+      ],
       "image": "/images/chongqing/guanyinqiao.jpg"
     },
     {
       "name": "Eling & Testbed 2",
       "vibe": "Hipster Industrial",
-      "description": "Hipster enclave atop a ridge converted from old currency printing factories.",
-      "highlights": ["Testbed 2 art zone", "Eling Park views", "Coffee culture"],
+      "description": "An artsy enclave perched high atop a ridge. Converted from old currency printing factories, it features 'industrial chic' aesthetics, excellent coffee culture, and cooler temperatures due to its elevation.",
+      "highlights": [
+        "Testbed 2 Art Zone",
+        "Eling Park",
+        "Panoramic Ridge Views"
+      ],
       "image": "/images/chongqing/eling.jpg"
     }
   ],
@@ -187,24 +296,35 @@
       "slug": "getting-around",
       "title": "Getting Around",
       "icon": "Train",
-      "summary": "Master the vertical infrastructure to survive the terrain.",
+      "summary": "Master vertical infrastructure and ignore 2D maps.",
       "details": [
-        "CRT Metro: Line 2 is for sightseeing; Line 3 is for rush hour endurance.",
-        "Yellow Ferraris: Bright yellow taxis known for F1-style aggressive mountain maneuvering.",
-        "Vertical Transit: The Crown Escalator and Yangtze Cableway are vital arteries for workers.",
-        "Navigation Tools: Use Amap (Gaode) for staircases and altitude-aware routing."
+        "Mapping Reality: Google Maps and Apple Maps will lead you off a cliff because they lack vertical topology data. You MUST use Amap (Gaode) or Baidu Maps and navigate by landmark matching rather than turn-by-turn routing.",
+        "Yellow Ferraris: Chongqing's metered taxis are bright yellow and driven by locals with Formula 1 aspirations. They are fast, aggressive on mountain curves, and affordable. Avoid unmarked 'Black Taxis'.",
+        "Vertical Transit: Elevators and escalators (like the 112m Crown Escalator) are not novelties; they are essential paid public transit replacing 30-minute staircase hikes. Expect to pay ¥2 via Alipay.",
+        "The Metro (CRT): Line 2 is the 'sightseeing line' running along the river. Line 3 is notoriously crowded. Use Alipay/WeChat QR codes at the turnstiles to bypass ticket machines."
       ]
     },
     {
       "id": "log-digital",
       "slug": "digital-ecosystem",
-      "title": "Apps & Payments",
+      "title": "Apps & Connectivity",
       "icon": "Smartphone",
-      "summary": "The city operates on an invisible digital web.",
+      "summary": "The city operates on a strict digital web with frequent dead zones.",
       "details": [
-        "Identity & Pay: WeChat and Alipay are required for ordering food and metro payments.",
-        "Mini-Programs: Use WeChat mini-programs to bypass queues for the cableway.",
-        "Dead Zones: Expect loss of signal in old vertical blocks. Screenshot routes."
+        "Payment Redundancy: Install BOTH WeChat Pay and Alipay. Some vendors only accept one. You will use these for everything from metro access to ordering food via QR codes at tables without physical menus.",
+        "Signal Loss: Expect frequent mobile data dead zones in underground walkways, old vertical residential blocks, and deep stair corridors. Screenshot your routes and addresses before you start moving."
+      ]
+    },
+    {
+      "id": "log-safety",
+      "slug": "scams-and-safety",
+      "title": "Scams & Safety",
+      "icon": "Shield",
+      "summary": "Physically safe, but watch for economic traps.",
+      "details": [
+        "The Tea House Scam: A friendly 'student' will invite you to practice English at a tea house. You will be handed an extortionate bill in the thousands of RMB. Never go to a second location with a stranger.",
+        "Fast Pass Scalpers: Men at the Cableway or escalators will try to sell you ¥80+ tickets to 'skip the line'. These are often illegitimate. Use official WeChat mini-programs to book standard ¥20 tickets.",
+        "Cableway Hack: The queue on the Yuzhong (North) side of the Yangtze Cableway can exceed 2 hours. Take a taxi to the Nanbin Road (South) station and ride it backwards into the city; the wait is 10 minutes."
       ]
     }
   ],
@@ -217,330 +337,402 @@
       "category": "food",
       "is_generic_staple": true,
       "description": {
-        "short": "Spicy beef tallow broth divided into thermal zones for precision cooking.",
-        "history": "A communal ritual rooted in the city's history as a river port.",
-        "insider_tip": "The 'Up and Down Seven Times' rule is used for blanching tripe in the center square.",
+        "short": "A violently boiling cauldron of pure beef tallow, Erjintiao chilies, and Sichuan peppercorns, physically divided by a metal grid to create precise thermal cooking zones.",
+        "history": "Born from the laboring river trackers of the Yangtze who threw cheap offal into communal pots to mask the gaminess. The solid beef tallow base provides a heavy, coating mouthfeel that modern vegetable-oil hotpots lack.",
+        "insider_tip": "Do not mix broths. Order the pure red oil. Use the 'Up and Down Seven Times' rule to blanch tripe (Maodu) in the violently boiling center square for exactly 15 seconds to achieve the perfect snap. Coat everything in pure sesame oil and garlic before eating to extinguish the capsaicin fire.",
         "price_level": "Moderate",
         "duration": "2 hours",
-        "best_time": "Dinner",
-        "vibe": "Social and Ritualistic",
-        "good_for": ["Groups", "Spice tolerance", "Authentic ritual"]
+        "best_time": "Dinner (The later, the better)",
+        "vibe": "Sweaty, Communal, Intense",
+        "good_for": [
+          "Groups",
+          "Spice veterans",
+          "Cultural immersion"
+        ]
       },
       "image": "/images/chongqing/hotpot.jpg"
     },
     {
       "id": "food-002",
       "slug": "xiao-mian",
-      "name_en": "Small Noodles",
-      "name_local": "小面",
+      "name_en": "Chongqing Small Noodles",
+      "name_local": "重庆小面",
       "category": "food",
       "is_generic_staple": true,
       "description": {
-        "short": "A breakfast staple defined by its precise balance of numbing chili oil.",
-        "history": "Chongqing's daily fuel, traditionally eaten on the sidewalk at 'Stool Noodles'.",
-        "insider_tip": "Order 'Gan Liu' (dry) for more intense flavor.",
-        "price_level": "Affordable",
+        "short": "A violently flavorful breakfast noodle defined not by the wheat pasta, but by an aggressive 'zuo liao' (condiment) base of chili oil, lard, garlic water, and Sichuan pepper.",
+        "history": "The daily, high-octane fuel of the city. Locals consume this sitting on tiny plastic stools ('Ban Deng Mian') directly on the sidewalk before navigating the steep city stairs.",
+        "insider_tip": "Order 'Gan Liu' (dry, no soup) for the most concentrated flavor explosion, and add 'Wan Za' (minced pork and soft chickpeas) to provide a rich, savory counterbalance to the numbing heat.",
+        "price_level": "Budget",
         "duration": "20 minutes",
-        "best_time": "Early Morning",
+        "best_time": "Early Morning Breakfast",
         "vibe": "Sidewalk Hustle",
-        "good_for": ["Budget eaters", "Quick breakfast"]
+        "good_for": [
+          "Early risers",
+          "Budget eaters",
+          "Quick fuel"
+        ]
       },
       "image": "/images/chongqing/xiao-mian.jpg"
     },
     {
       "id": "food-003",
       "slug": "suan-la-fen",
-      "name_en": "Sour & Spicy Noodles",
+      "name_en": "Sour & Spicy Fern Root Noodles",
       "name_local": "酸辣粉",
       "category": "food",
       "is_generic_staple": true,
       "description": {
-        "short": "Translucent sweet potato starch noodles in a heavy vinegar and chili broth.",
-        "history": "A street food icon, most famous at Hao You Lai in Jiefangbei.",
-        "insider_tip": "Chewy and elastic; avoid broth splash-back.",
-        "price_level": "Affordable",
+        "short": "Translucent, highly elastic sweet potato starch noodles submerged in a heavy broth of aged vinegar, fried chili oil, peanuts, and soybeans.",
+        "history": "An iconic street food that commands long queues around Jiefangbei. The intense sourness combats the heavy humidity of the basin climate.",
+        "insider_tip": "Find the famous 'Hao You Lai' stand in Jiefangbei. Warning: eating this requires tactical skill. The noodles are wildly elastic and slippery. Do not wear a white shirt; catastrophic chili splash-back is inevitable.",
+        "price_level": "Budget",
         "duration": "15 minutes",
-        "best_time": "Snack",
-        "vibe": "Chaotic Street",
-        "good_for": ["Street foodies", "Texture fans"]
+        "best_time": "Afternoon Snack",
+        "vibe": "Chaotic and Messy",
+        "good_for": [
+          "Street food hunters",
+          "Texture lovers",
+          "Standing eaters"
+        ]
       },
       "image": "/images/chongqing/suan-la-fen.jpg"
     },
     {
       "id": "food-004",
+      "slug": "fly-restaurants",
+      "name_en": "Fly Restaurants",
+      "name_local": "苍蝇馆子",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Hole-in-the-wall eateries known for questionable decor but serving elite, highly authentic home-style cooking (jiachangcai) at rock-bottom prices.",
+        "history": "The name implies they are as numerous as flies (and perhaps as hygienic), but they represent the unpretentious culinary soul of the city where businessmen and stick-porters dine shoulder-to-shoulder.",
+        "insider_tip": "Visit Dongzikou Zhang Liangfen for an archaic experience. It operates on a 'blind-box' model: sit beside a narrow stream as waiters pedal tricycles loaded with unlabelled plates. You simply grab whatever looks appealing as the tricycle rolls past.",
+        "price_level": "Budget",
+        "duration": "1-1.5 hours",
+        "best_time": "Lunch or Dinner",
+        "vibe": "Grimy, Loud, Legendary",
+        "good_for": [
+          "Extreme food adventurers",
+          "Sociologists",
+          "Authenticity seekers"
+        ]
+      },
+      "image": "/images/chongqing/fly-restaurant.jpg"
+    },
+    {
+      "id": "food-005",
       "slug": "youcha",
-      "name_en": "Oil Tea (Rice Porridge)",
+      "name_en": "Oil Tea Porridge",
       "name_local": "油茶",
       "category": "food",
       "is_generic_staple": true,
       "description": {
-        "short": "Savory rice flour porridge topped with fried dough twists (sanzi), chili oil, and scallions.",
-        "history": "A traditional breakfast art form now found in older residential quarters.",
-        "insider_tip": "Mix the crispy toppings into the porridge quickly before they get soggy.",
-        "price_level": "Affordable",
-        "duration": "20 minutes",
-        "best_time": "Morning",
+        "short": "A dying art of traditional breakfast: a dense, savory rice flour porridge topped with fried dough twists (sanzi), chili oil, and crushed peanuts.",
+        "history": "Despite the name, there is no tea involved. It is a highly caloric, textural masterpiece designed to provide sustained energy for manual laborers.",
+        "insider_tip": "Seek out older residential 'hutongs' near Liziba for vendors like Dawang Youcha. You must rapidly mix the crispy toppings deep into the porridge immediately to prevent them from getting soggy.",
+        "price_level": "Budget",
+        "duration": "15 minutes",
+        "best_time": "Early Morning",
         "vibe": "Nostalgic and Dense",
-        "good_for": ["Early risers", "Traditionalists"]
+        "good_for": [
+          "Traditionalists",
+          "Heavy breakfasts"
+        ]
       },
       "image": "/images/chongqing/youcha.jpg"
-    },
-    {
-      "id": "food-005",
-      "slug": "bingfen",
-      "name_en": "Ice Jelly",
-      "name_local": "冰粉",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": {
-        "short": "A clear jelly served cold with brown sugar, hawthorn, and raisins. The primary 'fire extinguisher'.",
-        "history": "Traditional summer dessert made from Nicandra plant seeds.",
-        "insider_tip": "The ultimate relief after a spicy hotpot session.",
-        "price_level": "Affordable",
-        "duration": "15 minutes",
-        "best_time": "After hotpot",
-        "vibe": "Refreshing and Sweet",
-        "good_for": ["Spice relief", "Dessert lovers"]
-      },
-      "image": "/images/chongqing/bingfen.jpg"
-    },
-    {
-      "id": "food-006",
-      "slug": "ciba",
-      "name_en": "Fried Glutinous Rice Cakes",
-      "name_local": "糍粑",
-      "category": "food",
-      "is_generic_staple": true,
-      "description": {
-        "short": "Hand-pounded rice cakes, deep-fried and dipped in brown sugar syrup and soybean powder.",
-        "history": "Classic snack served as a sweet offset to spicy meals.",
-        "insider_tip": "Best eaten hot while the center is still gooey.",
-        "price_level": "Affordable",
-        "duration": "15 minutes",
-        "best_time": "After dinner",
-        "vibe": "Sweet and Crunchy",
-        "good_for": ["Sweet tooth", "Sharing"]
-      },
-      "image": "/images/chongqing/ciba.jpg"
     }
   ],
   "must_see": [
     {
-      "title": "Urban Infrastructure",
-      "id": "urban-core",
+      "title": "Vertical Lived Reality",
+      "id": "vertical-reality",
       "items": [
         {
           "id": "sight-001",
           "slug": "liziba-station",
-          "name_en": "Liziba Station",
+          "name_en": "Liziba Monorail Station",
           "name_local": "李子坝",
           "category": "sight",
           "is_generic_staple": false,
           "description": {
-            "short": "A monorail station passing through the 19th floor of a residential high-rise.",
-            "history": "Constructed simultaneously with the building to maximize space.",
-            "insider_tip": "View from the street level platform at 7 AM for the best shots.",
+            "short": "An architectural oddity where CRT Line 2 trains pass directly through the 19th floor of a residential high-rise building.",
+            "history": "A result of extreme spatial compromise; the transit authority and property developers built the station and the apartment block simultaneously to maximize land usage in a narrow gorge.",
+            "insider_tip": "Arrive at the dedicated street-level viewing platform by 7:00 AM to beat the tour groups. Do not use your camera flash—it blinds the train drivers. Ride the train afterward and sit on the Jialing River side for maximum vertigo.",
             "price_level": "Free",
-            "duration": "30 mins",
-            "best_time": "Early Morning",
-            "vibe": "Vertical Marvel",
-            "good_for": ["Photography", "Architecture"],
-            "image": "/images/chongqing/liziba.jpg",
-            "geo": { "lat": 29.551, "lng": 106.532 }
+            "duration": "45 minutes",
+            "best_time": "7:00 AM - 9:00 AM",
+            "vibe": "Engineering Marvel",
+            "good_for": [
+              "Transit fans",
+              "Photographers",
+              "Urban explorers"
+            ]
           },
-          "image": "/images/chongqing/liziba.jpg"
+          "image": "/images/chongqing/liziba.jpg",
+          "geo": {
+            "lat": 29.551,
+            "lng": 106.532
+          }
         },
         {
           "id": "sight-002",
+          "slug": "baixiangju",
+          "name_en": "White Elephant Residential Complex",
+          "name_local": "白象居",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A massive, brutalist residential complex built entirely without elevators, forcing residents to navigate extreme elevation via multi-level street exits.",
+            "history": "Built into a steep cliffside, it represents one of the purest, unfiltered expressions of Chongqing's lived verticality and social adaptation to impossible terrain.",
+            "insider_tip": "This is a lived-in space, not a formal attraction. Respect resident privacy. The complex has exits on Level 1, Level 10, and Level 15 that all lead to entirely different, active city streets, offering incredible 'urban canyon' photographic vantages.",
+            "price_level": "Free",
+            "duration": "1 hour",
+            "best_time": "Daylight hours",
+            "vibe": "Raw, Gritty, Vertical",
+            "good_for": [
+              "Urban researchers",
+              "Street photographers",
+              "Architecture buffs"
+            ]
+          },
+          "image": "/images/chongqing/baixiangju.jpg",
+          "geo": {
+            "lat": 29.556,
+            "lng": 106.587
+          }
+        },
+        {
+          "id": "sight-003",
+          "slug": "crown-escalator",
+          "name_en": "Crown Escalator",
+          "name_local": "皇冠大扶梯",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Asia's longest single urban escalator, plunging 112 meters down a steep shaft to connect the upper city with the lower train station.",
+            "history": "Built to replace a grueling 30-minute hike up winding stone stairs, it functions as a vital, high-speed commuter artery for the local workforce.",
+            "insider_tip": "Pay the ¥2 fare via Alipay. Stand strictly on the right; the left is for locals sprinting to catch trains. The steep angle induces vertigo, so hold the handrail tightly.",
+            "price_level": "Budget (¥2)",
+            "duration": "15 minutes",
+            "best_time": "Anytime, but avoid rush hour if carrying heavy luggage.",
+            "vibe": "Utilitarian and Dizzying",
+            "good_for": [
+              "Transit fans",
+              "Quick elevation change"
+            ]
+          },
+          "image": "/images/chongqing/crown-escalator.jpg",
+          "geo": {
+            "lat": 29.555,
+            "lng": 106.549
+          }
+        }
+      ]
+    },
+    {
+      "title": "Cyberpunk & Scale",
+      "id": "cyberpunk",
+      "items": [
+        {
+          "id": "sight-004",
           "slug": "hongya-cave",
           "name_en": "Hongya Cave",
           "name_local": "洪崖洞",
           "category": "sight",
           "is_generic_staple": false,
           "description": {
-            "short": "11-story stilt house complex built into a cliff. Cyberpunk aesthetic.",
-            "history": "Modern reconstruction of traditional stilt houses.",
-            "insider_tip": "Best viewed at night from Qiansimen Bridge.",
+            "short": "An 11-story commercial complex clinging to a cliff face, famous for its glowing, 'Spirited Away' cyberpunk aesthetic at night.",
+            "history": "A massive modern reconstruction of the traditional Bayu 'Diaojiaolou' stilt houses that once lined the riverbanks of ancient Chongqing.",
+            "insider_tip": "Do not go inside; the interior is a generic, suffocatingly crowded mall. The true value is purely visual. Walk onto the Qiansimen Bridge deck at dusk (Blue Hour) to photograph the glowing exterior against the dark CBD skyline.",
             "price_level": "Free",
             "duration": "1 hour",
-            "best_time": "Dusk",
-            "vibe": "Neon Nightlife",
-            "good_for": ["Photography", "Tourism"],
-            "image": "/images/chongqing/hongya-cave.jpg",
-            "geo": { "lat": 29.563, "lng": 106.581 }
+            "best_time": "Dusk / Night (Blue Hour)",
+            "vibe": "Neon Spectacle",
+            "good_for": [
+              "Night photography",
+              "Skyline views"
+            ]
           },
-          "image": "/images/chongqing/hongya-cave.jpg"
+          "image": "/images/chongqing/hongya-cave.jpg",
+          "geo": {
+            "lat": 29.563,
+            "lng": 106.581
+          }
         },
         {
-          "id": "sight-003",
-          "slug": "baixiangju",
-          "name_en": "White Elephant Residential",
-          "name_local": "白象居",
+          "id": "sight-005",
+          "slug": "raffles-city",
+          "name_en": "Raffles City & Chaotianmen",
+          "name_local": "来福士广场",
           "category": "sight",
           "is_generic_staple": false,
           "description": {
-            "short": "Residential complex with no elevators and multi-level road exits.",
-            "history": "A purest expression of Chongqing's lived verticality.",
-            "insider_tip": "Exits on Levels 1, 10, and 15 all lead to different streets.",
-            "price_level": "Free",
+            "short": "A colossal, sail-shaped mega-structure topped with a 250m horizontal 'Crystal Skybridge', sitting exactly at the confluence of the Yangtze and Jialing rivers.",
+            "history": "Chaotianmen was the historic river gateway and port controlling trade. Today, this massive capital investment symbolizes Chongqing's aggressive repositioning as a global megacity.",
+            "insider_tip": "Use this area as a geographic orientation point. Standing at the plaza where the muddy, yellow Yangtze meets the blue-green Jialing River clarifies exactly why the city developed defensively upward, hemmed in by water.",
+            "price_level": "Free (Exterior Plaza)",
             "duration": "1 hour",
             "best_time": "Afternoon",
-            "vibe": "Gritty Reality",
-            "good_for": ["Urban exploration"],
-            "image": "/images/chongqing/baixiangju.jpg",
-            "geo": { "lat": 29.556, "lng": 106.587 }
+            "vibe": "Hyper-modern and Massive",
+            "good_for": [
+              "Scale perspective",
+              "River views"
+            ]
           },
-          "image": "/images/chongqing/baixiangju.jpg"
-        },
-        {
-          "id": "sight-004",
-          "slug": "raffles-city",
-          "name_en": "Crystal Skybridge",
-          "name_local": "来福士",
-          "category": "sight",
-          "is_generic_staple": false,
-          "description": {
-            "short": "Hyper-modern complex with a 250m high horizontal skybridge.",
-            "history": "Symbolizes Chongqing’s repositioning as a global megacity.",
-            "insider_tip": "A visual anchor for understanding the scale of the river confluence.",
-            "price_level": "Moderate",
-            "duration": "1.5 hours",
-            "best_time": "Sunset",
-            "vibe": "Futuristic",
-            "good_for": ["Skyline views"],
-            "image": "/images/chongqing/raffles-city.jpg",
-            "geo": { "lat": 29.566, "lng": 106.585 }
-          },
-          "image": "/images/chongqing/raffles-city.jpg"
+          "image": "/images/chongqing/raffles-city.jpg",
+          "geo": {
+            "lat": 29.566,
+            "lng": 106.585
+          }
         }
       ]
     },
     {
-      "title": "Historical & Regional",
-      "id": "heritage",
+      "title": "History & Excursions",
+      "id": "history",
       "items": [
         {
-          "id": "sight-005",
+          "id": "sight-006",
           "slug": "dazu-rock-carvings",
           "name_en": "Dazu Rock Carvings",
           "name_local": "大足石刻",
           "category": "sight",
           "is_generic_staple": false,
           "description": {
-            "short": "UNESCO site with thousands of religious and secular carvings.",
-            "history": "Dates from 9th–13th centuries; depicts morality and family ethics.",
-            "insider_tip": "A full-day trip 100km west; provides historical depth to the city.",
-            "price_level": "Moderate",
-            "duration": "Full-day",
-            "best_time": "Morning departure",
-            "vibe": "Serene Heritage",
-            "good_for": ["History", "Art"],
-            "image": "/images/chongqing/dazu.jpg",
-            "geo": { "lat": 29.74, "lng": 105.79 }
+            "short": "A UNESCO World Heritage site featuring thousands of intimate, highly readable religious reliefs carved directly into cliff faces.",
+            "history": "Dating from the 9th to 13th centuries, these carvings focus heavily on everyday morality, family ethics, and secular life, unlike the abstract divinity seen in other Chinese temple complexes.",
+            "insider_tip": "Located 100km west of the city, this requires a full-day excursion. It is the perfect antidote to the hyper-modern skyline, reframing Chongqing as a deep, civilizational node.",
+            "price_level": "Expensive (Full day trip costs)",
+            "duration": "8 hours (including transit)",
+            "best_time": "Early morning departure",
+            "vibe": "Serene and Historical",
+            "good_for": [
+              "History buffs",
+              "Art lovers",
+              "Quiet exploration"
+            ]
           },
-          "image": "/images/chongqing/dazu.jpg"
+          "image": "/images/chongqing/dazu.jpg",
+          "geo": {
+            "lat": 29.74,
+            "lng": 105.79
+          }
         },
         {
-          "id": "sight-006",
+          "id": "sight-007",
           "slug": "wulong-karst",
           "name_en": "Wulong Karst National Park",
           "name_local": "武隆喀斯特",
           "category": "sight",
           "is_generic_staple": false,
           "description": {
-            "short": "Epic landscape of natural stone bridges, sinkholes, and gorges.",
-            "history": "UNESCO natural site used as a reset from urban density.",
-            "insider_tip": "Best treated as an overnight trip for relief from the summer heat.",
-            "price_level": "Moderate",
-            "duration": "Full-day/Overnight",
-            "best_time": "Summer",
-            "vibe": "Majestic Nature",
-            "good_for": ["Nature lovers"],
-            "image": "/images/chongqing/wulong.jpg",
-            "geo": { "lat": 29.33, "lng": 107.75 }
+            "short": "An epic, UNESCO-listed geological system of massive natural stone bridges, deep sinkholes, gorges, and subterranean rivers.",
+            "history": "A cinematic landscape (featured in 'Transformers') that demonstrates the extreme natural terrain that dictated Chongqing's urban engineering solutions.",
+            "insider_tip": "Located 130km southeast. Treat this as an overnight trip to escape the urban 'Furnace'. The high elevation provides a deliberate sensory reset and profound relief from the summer basin heat.",
+            "price_level": "Expensive (Excursion costs)",
+            "duration": "Full day / Overnight",
+            "best_time": "Summer (for heat relief)",
+            "vibe": "Majestic and Enormous",
+            "good_for": [
+              "Nature lovers",
+              "Hikers",
+              "Photography"
+            ]
           },
-          "image": "/images/chongqing/wulong.jpg"
+          "image": "/images/chongqing/wulong.jpg",
+          "geo": {
+            "lat": 29.33,
+            "lng": 107.75
+          }
         },
         {
-          "id": "sight-007",
+          "id": "sight-008",
           "slug": "huguang-guild-hall",
           "name_en": "Huguang Guild Hall",
           "name_local": "湖广会馆",
           "category": "sight",
           "is_generic_staple": false,
           "description": {
-            "short": "Qing-era complex built by migrant merchants from southern China.",
-            "history": "Provides insight into the migration that shaped Chongqing.",
-            "insider_tip": "Low-crowd site offering architectural calm near the riverside.",
+            "short": "A sprawling, beautifully preserved Qing-era complex featuring striking yellow walls, built by migrant merchants.",
+            "history": "Provides rare insight into the migration-driven urban formation of Chongqing. It was built by merchants from Hunan and Guangdong, explaining why the city's populace is so culturally diverse and direct.",
+            "insider_tip": "A fantastic low-stress, low-crowd site in the middle of the city. It offers architectural calm and is an excellent place to understand the merchant networks that shaped the city before industrialization.",
             "price_level": "Affordable",
-            "duration": "1.5 hours",
-            "best_time": "Late Morning",
+            "duration": "1-1.5 hours",
+            "best_time": "Morning",
             "vibe": "Architectural Calm",
-            "good_for": ["Culture", "History"],
-            "image": "/images/chongqing/huguang.jpg",
-            "geo": { "lat": 29.559, "lng": 106.589 }
+            "good_for": [
+              "History lovers",
+              "Quiet walks",
+              "Culture"
+            ]
           },
-          "image": "/images/chongqing/huguang.jpg"
+          "image": "/images/chongqing/huguang.jpg",
+          "geo": {
+            "lat": 29.559,
+            "lng": 106.589
+          }
         }
       ]
     }
   ],
   "itinerary": [
     {
-      "time": "8:30 AM",
-      "title": "Vertical Calibration",
-      "description": "Start at the Crown Escalator. Gain 52m of elevation in 3 minutes to recalibrate your intuition of multi-level streets.",
-      "image": "/images/chongqing/escalator.jpg"
+      "time": "08:00 AM",
+      "title": "Vertical Calibration & Transit Logistics",
+      "description": "Start at the Lianglukou Crown Escalator. Use it as functional transit, plunging 52m to recalibrate your spatial intuition of multi-level streets. Walk through the Shangqingsi area toward the Yuzhong ridge to witness the morning commuter flow scaling the mountain city.",
+      "image": "/images/chongqing/escalator-flow.jpg"
     },
     {
       "time": "11:30 AM",
-      "title": "Xiao Mian Fuel",
-      "description": "Find a sidewalk 'Fly Restaurant'. Order Gan Liu Xiao Mian with Wan Za topping to fuel the afternoon.",
-      "image": "/images/chongqing/noodles.jpg"
+      "title": "Xiao Mian Daily Fuel",
+      "description": "Locate a 'Fly Restaurant' near a residential block. Sit on a plastic stool on the sidewalk and order 'Gan Liu' (dry) Xiao Mian with 'Wan Za' topping. This high-octane mix of chili oil, lard, and peppercorn is the true taste of working-class Chongqing.",
+      "image": "/images/chongqing/xiao-mian-stool.jpg"
     },
     {
       "time": "1:30 PM",
-      "title": "Infrastructure Safari",
-      "description": "Ride CRT Line 2 to Liziba Station. Watch the train pass through the building, then explore the elevator-less White Elephant Complex.",
-      "image": "/images/chongqing/monorail.jpg"
+      "title": "Infrastructure & Density Safari",
+      "description": "Ride CRT Line 2. Sit on the riverside facing windows. Exit at Liziba Station, head to the street, and photograph the train punching through the 19th floor of the residential block. From there, navigate to the Baixiangju (White Elephant) complex to witness the gritty, lived reality of a massive housing block with zero elevators.",
+      "image": "/images/chongqing/liziba-train.jpg"
     },
     {
       "time": "6:00 PM",
-      "title": "The Hotpot Institution",
-      "description": "Dine at a Jiugongge hotpot spot. Master the grid zones and fireproof your stomach with sesame oil dipping sauce.",
-      "image": "/images/chongqing/hotpot-meal.jpg"
+      "title": "The Hotpot Ritual",
+      "description": "Engage in the core ritual: Authentic Chongqing Hotpot. Order a pure red oil, beef tallow Jiugongge pot. Use the violently boiling center square to blanch tripe for exactly 15 seconds. Coat everything in pure sesame oil and minced garlic to protect your stomach lining from the capsaicin.",
+      "image": "/images/chongqing/hotpot-dinner.jpg"
     },
     {
       "time": "8:30 PM",
-      "title": "Neon Skyline",
-      "description": "Walk across Qiansimen Bridge at dusk. View Hongya Cave exterior against the CBD skyline to understand the city's neon-lit scale.",
-      "image": "/images/chongqing/bridge-night.jpg"
+      "title": "Cyberpunk Skyline Logic",
+      "description": "Walk out onto the Qiansimen Bridge deck during the Blue Hour. Turn back toward the city to photograph the glowing, multi-tiered exterior of Hongya Cave against the towering CBD skyline. Avoid going inside the cave; the true value is observing the impossible scale and neon density from the outside.",
+      "image": "/images/chongqing/hongya-night.jpg"
     }
   ],
   "affiliate_products": [
     {
       "id": "aff-001",
-      "title": "High-Traction Walking Shoes",
-      "image": "/images/chongqing/shoes.jpg",
-      "reason": "Non-negotiable for thousands of steep stairs and vertical hills daily.",
+      "title": "High-Traction Urban Walking Shoes",
+      "image": "/images/chongqing/walking-shoes.jpg",
+      "reason": "Chongqing is built on mountains and steep gorges. Navigating the thousands of damp stone stairs daily requires aggressive grip.",
       "amazon_url": "https://www.amazon.com/s?k=high+traction+walking+shoes&tag=canibringonpl-20",
       "category": "gear"
     },
     {
       "id": "aff-002",
-      "title": "Portable Neck Fan",
-      "image": "/images/chongqing/fan.jpg",
-      "reason": "Crucial for surviving high 'wet bulb' temperatures of the 'Furnace' summer.",
-      "amazon_url": "https://www.amazon.com/s?k=portable+neck+fan&tag=canibringonpl-20",
-      "category": "weather"
+      "title": "High-Capacity Power Bank",
+      "image": "/images/chongqing/power-bank.jpg",
+      "reason": "Total logistical failure occurs if your phone dies. Payment, translation, and 3D map navigation are 100% reliant on battery life.",
+      "amazon_url": "https://www.amazon.com/s?k=high+capacity+power+bank&tag=canibringonpl-20",
+      "category": "electronics"
     },
     {
       "id": "aff-003",
-      "title": "High-Capacity Power Bank",
-      "image": "/images/chongqing/powerbank.jpg",
-      "reason": "Logistical failure occurs if your phone dies, as payments and navigation are 100% digital.",
-      "amazon_url": "https://www.amazon.com/s?k=high+capacity+power+bank&tag=canibringonpl-20",
-      "category": "digital"
+      "title": "Portable High-Velocity Neck Fan",
+      "image": "/images/chongqing/neck-fan.jpg",
+      "reason": "Crucial for surviving the brutal 'wet bulb' temperatures and extreme humidity of the 'Furnace City' summer.",
+      "amazon_url": "https://www.amazon.com/s?k=portable+neck+fan&tag=canibringonpl-20",
+      "category": "weather"
     }
   ],
   "region": "Asia"

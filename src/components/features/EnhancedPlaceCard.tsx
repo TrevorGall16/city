@@ -1,8 +1,8 @@
 /**
- * 🛰️ MASTER AI: ENHANCED PLACE CARD (GOLDEN MASTER V6.0 - FINAL)
+ * 🛰️ MASTER AI: ENHANCED PLACE CARD (GOLDEN MASTER V6.1 - HYDRATION & IMAGE FIX)
  * ✅ Feature: Kept Large Localized Subtitle (25px) & TranslationHook.
  * ✅ Fix: Handles "Object as Child" Runtime Error for translated descriptions.
- * ✅ Fix: Prevents "Empty String" Console Error for missing images.
+ * ✅ Fix: Bulletproof Image Fallback with onError & z-index to fix "invisible" images.
  * ✅ Layout: 2026 Editorial Aspect Ratio (16/10) for a tighter grid.
  */
 
@@ -21,10 +21,10 @@ interface EnhancedPlaceCardProps {
 }
 
 export function EnhancedPlaceCard({ place, citySlug, lang, dict }: EnhancedPlaceCardProps) {
-  // 🛡️ SAFETY 1: Check for valid image string to prevent Next.js Console Errors
-  const hasValidImage = place.image && place.image.trim() !== "";
+  // 🛡️ SAFETY 1: Check for valid image string
+  const hasValidImage = !!(place.image && place.image.trim() !== "");
   
-  // 🛡️ SAFETY 2: Handle "Object as React Child" Runtime Error (fixes Japanese data bug)
+  // 🛡️ SAFETY 2: Handle "Object as React Child" Runtime Error
   const isComplexDesc = typeof place.description === 'object' && place.description !== null;
   const descriptionText = isComplexDesc 
     ? (place.description as any).short || (place.description as any).vibe || ""
@@ -39,22 +39,27 @@ export function EnhancedPlaceCard({ place, citySlug, lang, dict }: EnhancedPlace
   return (
     <div className="bg-white dark:bg-slate-900 rounded-[2rem] overflow-hidden border border-slate-100 dark:border-slate-800 h-full flex flex-col group transition-all hover:shadow-xl hover:-translate-y-1">
       
-      {/* Cinematic Image Link with Safety Fallback */}
-      <Link href={detailUrl} className="block aspect-[16/10] relative overflow-hidden bg-slate-100 dark:bg-slate-800">
-        {hasValidImage ? (
-          <Image 
-            src={place.image} 
-            alt={place.name_en} 
-            fill 
-            className="object-cover group-hover:scale-110 transition-transform duration-700" 
-            sizes="(max-width: 768px) 100vw, 33vw"
-          />
-        ) : (
-          /* ✅ FIX: Prevents empty-string crash while identifying data gaps */
-          <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-indigo-500/10 to-slate-500/10">
-            <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">
-              {dict.image_pending || 'Image Pending'}
-            </span>
+      {/* Cinematic Image Link with Multi-Layer Safety Fallback */}
+      <Link href={detailUrl} className="block aspect-[16/10] relative overflow-hidden bg-slate-200 dark:bg-slate-800">
+<Image 
+  src={hasValidImage ? place.image : "/images/placeholders/fallback.jpg"} 
+  alt={place.name_en} 
+  fill 
+  className="object-cover z-10" 
+  sizes="(max-width: 768px) 100vw, 33vw"
+  priority={true}
+  unoptimized={true} // 👈 ADD THIS: Bypasses Next.js image optimization for local testing
+  onError={(e) => {
+    e.currentTarget.src = "/images/placeholders/fallback.jpg";
+    e.currentTarget.srcset = ""; // Clears responsive sets that might override the fallback
+  }}
+/>
+        {/* Editorial Overlay: Only visible if the primary image is missing in the JSON */}
+        {!hasValidImage && (
+          <div className="absolute inset-0 z-20 bg-black/10 flex items-center justify-center backdrop-blur-[1px]">
+             <span className="text-[10px] font-black uppercase tracking-widest text-white bg-black/30 px-3 py-1 rounded-full border border-white/20">
+               Photo Coming Soon
+             </span>
           </div>
         )}
       </Link>
@@ -86,8 +91,8 @@ export function EnhancedPlaceCard({ place, citySlug, lang, dict }: EnhancedPlace
           )}
           
           <div className="flex justify-between items-center text-[10px] font-black uppercase tracking-widest">
-            <span className="text-emerald-600">{place.price_level}</span>
-            <span className="text-indigo-600">{dict.view_details || 'Details'} →</span>
+            <span className="text-emerald-600 font-bold">{place.price_level}</span>
+            <span className="text-indigo-600 font-bold">{dict.view_details || 'Details'} →</span>
           </div>
         </div>
       </div>

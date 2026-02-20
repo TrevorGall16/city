@@ -28,6 +28,7 @@ export interface Place {
   } 
   
   image: string
+  gallery?: string[]
   is_generic_staple?: boolean
   geo?: {
     lat: number

@@ -11,7 +11,12 @@
       "Bash(npx next build:*)",
       "Bash(node -c:*)",
       "Bash(node scripts/generate-sitemap.js:*)",
-      "Bash(git -C \"D:/Projects/Website/CitySheet/city\" ls-files:*)"
+      "Bash(git -C \"D:/Projects/Website/CitySheet/city\" ls-files:*)",
+      "Bash(python3:*)",
+      "Bash(node:*)",
+      "Bash(git checkout:*)",
+      "Bash(git status:*)",
+      "Bash(git clean:*)"
     ]
   }
 }
