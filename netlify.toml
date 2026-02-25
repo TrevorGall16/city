@@ -2,12 +2,11 @@
   command = "npm run build"
   publish = ".next"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+# 🛰️ MASTER AI: REMOVED DEPRECATED PLUGIN TO FIX MIDDLEWARE ERRORS
 
 [build.environment]
   NETLIFY_SKIP_BLOBS_UPLOAD = "true"
-  NODE_VERSION = "20"
+  NODE_VERSION = "22.13.0" # Forces the modern engine we need
   NODE_OPTIONS = "--max-old-space-size=4096"
   NEXT_CPU_LIMIT = "1"
 
