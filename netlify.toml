@@ -2,15 +2,15 @@
   command = "npm run build"
   publish = ".next"
 
-# 🛰️ MASTER AI: REMOVED DEPRECATED PLUGIN TO FIX MIDDLEWARE ERRORS
-
 [build.environment]
   NETLIFY_SKIP_BLOBS_UPLOAD = "true"
-  NODE_VERSION = "22.13.0" # Forces the modern engine we need
+  NODE_VERSION = "22.13.0"
   NODE_OPTIONS = "--max-old-space-size=4096"
   NEXT_CPU_LIMIT = "1"
+  # 🛡️ MASTER AI: DISABLE AUTO-PLUGIN DETECTION
+  NETLIFY_NEXTPRO_SKIP_PLUGIN = "true" 
+  NETLIFY_USE_NEXTJS_RUNTIME = "false"
 
-# Just standard headers
 [[headers]]
   for = "/sitemap.xml"
   [headers.values]
