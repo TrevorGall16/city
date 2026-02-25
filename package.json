@@ -4,7 +4,8 @@
   "description": "City Basic - Travel Directory & Utility Tool",
   "scripts": {
     "dev": "next dev",
-"build": "node scripts/generate-image-manifest.js && node scripts/generate-sitemap.js && next build",    "lint": "next lint",
+    "build": "node scripts/generate-image-manifest.js && node scripts/generate-sitemap.js && next build",
+    "lint": "next lint",
     "type-check": "tsc --noEmit",
     "validate": "node scripts/validate-data.js",
     "analyze": "cross-env ANALYZE=true next build"
@@ -17,6 +18,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@supabase/auth-helpers-nextjs": "^0.15.0",
     "@supabase/ssr": "^0.8.0",
     "@supabase/supabase-js": "^2.86.2",
     "clsx": "^2.1.1",
