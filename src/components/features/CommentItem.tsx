@@ -14,6 +14,7 @@ interface CommentItemProps {
   comment: any
   depth?: number
   currentUserId?: string
+  lang: string
   dict: any // ✅ Required for translations
   onEdit: (id: string, newContent: string) => Promise<void>
   onDelete: (id: string) => Promise<void>
@@ -21,7 +22,7 @@ interface CommentItemProps {
   onVote: (id: string, value: number) => Promise<void>
 }
 
-export function CommentItem({ comment, depth = 0, currentUserId, dict, onEdit, onDelete, onReport, onVote }: CommentItemProps) {
+export function CommentItem({ comment, depth = 0, currentUserId, lang, dict, onEdit, onDelete, onReport, onVote }: CommentItemProps) {
   const router = useRouter()
   const [isReplying, setIsReplying] = useState(false)
   const [isEditing, setIsEditing] = useState(false)
@@ -101,7 +102,7 @@ export function CommentItem({ comment, depth = 0, currentUserId, dict, onEdit, o
     <div className={depth === 0 ? "border-b border-slate-100 dark:border-slate-800 pb-6 mb-6" : "mt-4"}>
       <div className={`${depth > 0 ? 'ml-4 md:ml-6 border-l-2 border-slate-100 dark:border-slate-800 pl-4' : ''}`}>
         <div className="flex gap-3 group">
-          <Link href={`/users/${comment.profiles?.id}`} className="flex-shrink-0">
+          <Link href={`/${lang}/users/${comment.profiles?.id}`} className="flex-shrink-0">
             <div className="w-8 h-8 rounded-full bg-indigo-100 dark:bg-indigo-900 flex items-center justify-center overflow-hidden text-xs font-bold text-indigo-700 dark:text-indigo-300">
               {comment.profiles?.avatar_url ? <img src={comment.profiles.avatar_url} alt="User" className="w-full h-full object-cover" /> : (comment.profiles?.display_name?.[0] || '?').toUpperCase()}
             </div>
@@ -109,7 +110,7 @@ export function CommentItem({ comment, depth = 0, currentUserId, dict, onEdit, o
 
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 mb-1">
-              <Link href={`/users/${comment.profiles?.id}`} className="font-semibold text-slate-900 dark:text-slate-200 hover:underline">{comment.profiles?.display_name || 'Traveler'}</Link>
+              <Link href={`/${lang}/users/${comment.profiles?.id}`} className="font-semibold text-slate-900 dark:text-slate-200 hover:underline">{comment.profiles?.display_name || 'Traveler'}</Link>
               <span>•</span>
               <span>{formatDistanceToNow(new Date(comment.created_at), { addSuffix: true })}</span>
               {isEdited && <span className="italic text-slate-400">({dict.edited})</span>}
@@ -156,7 +157,7 @@ export function CommentItem({ comment, depth = 0, currentUserId, dict, onEdit, o
         {!isCollapsed && hasChildren && (
           <div className="mt-2">
             {comment.replies.map((reply: any) => (
-              <CommentItem key={reply.id} comment={reply} depth={depth + 1} currentUserId={currentUserId} dict={dict} onEdit={onEdit} onDelete={onDelete} onReport={onReport} onVote={onVote} />
+              <CommentItem key={reply.id} comment={reply} depth={depth + 1} currentUserId={currentUserId} lang={lang} dict={dict} onEdit={onEdit} onDelete={onDelete} onReport={onReport} onVote={onVote} />
             ))}
           </div>
         )}

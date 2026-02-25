@@ -61,7 +61,7 @@ export default async function InfoTopicPage({ params }: PageProps) {
       <main className="min-h-screen bg-slate-50">
         <header className="bg-white border-b border-slate-200">
           <div className="max-w-4xl mx-auto px-4 py-8">
-            <Link href={`/${citySlug}`} className="inline-flex items-center text-sm text-indigo-600 hover:text-indigo-800 mb-6">
+            <Link href={`/${lang}/city/${citySlug}`} className="inline-flex items-center text-sm text-indigo-600 hover:text-indigo-800 mb-6">
               <ArrowLeft className="w-4 h-4 mr-1" /> Back to {city.name} Guide
             </Link>
             <div className="flex items-center gap-4 mb-4">

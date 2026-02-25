@@ -513,7 +513,7 @@
           </section>
 
           <section className="max-w-[1000px] mx-auto px-4 py-24 border-t-4 border-slate-900 dark:border-slate-100">
-              <CommentThread citySlug={citySlug} dict={dict} />
+              <CommentThread citySlug={citySlug} lang={lang} dict={dict} />
           </section>
         </main>
       </div>

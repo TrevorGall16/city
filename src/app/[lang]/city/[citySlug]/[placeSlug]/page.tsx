@@ -269,7 +269,7 @@ export default async function PlacePage({ params }: PageProps) {
           )}
           <div className="mt-20 pt-16 border-t border-slate-200 dark:border-slate-800">
             <h3 className="text-2xl font-black uppercase mb-8 text-slate-900 dark:text-white">{dict.discussion_tips || "Discussion & Tips"}</h3>
-            <CommentThread citySlug={citySlug} placeSlug={placeSlug} dict={dict} />
+            <CommentThread citySlug={citySlug} placeSlug={placeSlug} lang={lang} dict={dict} />
           </div>
         </div>
       </article>

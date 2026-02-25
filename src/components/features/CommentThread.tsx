@@ -9,10 +9,11 @@ import { MessageCircle, Loader2, Send } from 'lucide-react'
 interface CommentThreadProps {
   citySlug: string
   placeSlug?: string
-  dict: any 
+  lang: string
+  dict: any
 }
 
-export function CommentThread({ citySlug, placeSlug, dict }: CommentThreadProps) {
+export function CommentThread({ citySlug, placeSlug, lang, dict }: CommentThreadProps) {
   const [comments, setComments] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
   const [newComment, setNewComment] = useState('')
@@ -140,7 +141,8 @@ export function CommentThread({ citySlug, placeSlug, dict }: CommentThreadProps)
             key={comment.id}
             comment={comment}
             currentUserId={user?.id}
-            dict={d} // ✅ Passing safe dictionary
+            lang={lang}
+            dict={d}
             onVote={handleVote}
             onEdit={handleEdit}
             onDelete={handleDelete}

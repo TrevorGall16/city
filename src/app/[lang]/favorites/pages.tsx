@@ -35,20 +35,15 @@ export default function FavoritesPage() {
   
   const [loading, setLoading] = useState(true)
   const [favorites, setFavorites] = useState<FavoritePlace[]>([])
-  const [dict, setDict] = useState<any>(null) // 🛡️ Added for EnhancedPlaceCard
   const [error, setError] = useState<string | null>(null)
+  const dict = { your_favorites: 'My Favorites' }
 
   const fetchFavorites = useCallback(async () => {
     setLoading(true)
     setError(null)
     
     try {
-      // 🎯 STEP A: Fetch dictionary for the UI
-      const dictResponse = await fetch(`/api/dict?lang=${lang}`)
-      const dictData = await dictResponse.json()
-      setDict(dictData)
-
-      // 🎯 STEP B: Get current user
+      // 🎯 STEP A: Get current user
       const { data: { user } } = await supabase.auth.getUser()
 
       if (!user) {
