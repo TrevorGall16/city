@@ -14,12 +14,9 @@
   import { SectionHeader } from '@/components/ui/SectionHeader'
   import { AtAGlanceDashboard } from '@/components/features/AtAGlanceDashboard'
   import { AffiliateSection } from '@/components/features/AffiliateSection'
-  import AdsterraBanner from '@/components/ads/AdsterraBanner'
   import AdsterraSmartFrame from '@/components/ads/AdsterraSmartFrame'
-  // import AdsterraNative from '@/components/ads/AdsterraNative' // 🛡️ Disabled for Safety
 
   import type { Metadata } from 'next'
-  import { HeroGlass } from '@/components/ui/HeroGlass'
   import { CollapsibleSection } from '@/components/ui/CollapsibleSection'
   import { LogisticsSection } from '@/components/features/LogisticsSection'
   import { NeighborhoodSection } from '@/components/features/NeighborhoodSection'
@@ -30,6 +27,7 @@
   import { CommentThread } from '@/components/features/CommentThread'
   import { ChinaAppGuide } from '@/components/city/ChinaAppGuide'
   import { SurvivalKit } from '@/components/city/SurvivalKit'
+  import { MagneticItineraryButton } from '@/components/city/MagneticItineraryButton'
   import { getCityData } from '@/lib/getCityData'
   import { getAvailableLanguages } from '@/lib/getAvailableLanguages'
   import { SEO_DICTIONARY, type SEOLang } from '@/data/seo-dictionary'
@@ -215,14 +213,16 @@
       }),
     } : null;
 
+    // Pre-compute top places for the Bento board
+    const topPlaces = (city.must_see?.flatMap((g: any) => g.items) || []).slice(0, 4)
+
     return (
       <div className={cityFontClass} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
-        {/* 🎯 SEO Injection: TravelGuide Schema */}
+        {/* SEO: TravelGuide Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
-        {/* 🎯 SEO Injection: FAQPage Schema for Zero-Click */}
         {faqSchema && (
           <script
             type="application/ld+json"
@@ -230,52 +230,188 @@
           />
         )}
 
-        <main className="min-h-screen bg-slate-50 dark:bg-slate-950 pb-20">
+        <main className="min-h-[100dvh] bg-slate-50 dark:bg-slate-950 pb-20">
           <CityNavigation lang={lang} dict={dict} />
 
-          {/* 1. Cinematic Hero */}
-          <section className="h-[60vh] relative overflow-hidden group">
-            <Image src={city.hero_image} alt={city.name} fill priority sizes="(max-width: 768px) 100vw, 100vw" className="object-cover transition-transform duration-1000 group-hover:scale-110" />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-center justify-center">
-              <HeroGlass title={city.name} subtitle={introVibe} titleColor={finalHeroColor} fontClass={cityFontClass} />
+          {/* ── 1. ASYMMETRIC HERO ─────────────────────────────────────────── */}
+          {/* DESIGN_VARIANCE 5: left-aligned text / right-fading image asset  */}
+          <section className="relative min-h-[100dvh] overflow-hidden bg-zinc-950">
+            {/* Full-bleed image */}
+            <Image
+              src={city.hero_image}
+              alt={city.name}
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover"
+            />
+
+            {/* Asymmetric gradient: opaque left → transparent right */}
+            <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/80 to-zinc-950/15 pointer-events-none" />
+            {/* Bottom fade for readability */}
+            <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/60 via-transparent to-transparent pointer-events-none" />
+
+            {/* Left-aligned content column */}
+            <div className="relative z-10 flex flex-col justify-end min-h-[100dvh] px-6 md:px-16 lg:px-24 pb-16 md:pb-24">
+              <div className="max-w-2xl">
+                {/* Eyebrow */}
+                <span className="block text-[10px] font-black uppercase tracking-[0.45em] text-white/35 mb-8">
+                  CityBasic Guide
+                </span>
+
+                {/* City name — font-normal: decorative fonts (Modak, Geo, Corinthia) carry their own weight baked in */}
+                <h1
+                  className={`
+                    text-5xl md:text-6xl leading-tight tracking-tighter
+                    font-normal font-[family-name:var(--font-city)]
+                    ${finalHeroColor}
+                    drop-shadow-[0_2px_16px_rgba(0,0,0,0.35)]
+                  `}
+                >
+                  {city.name}
+                </h1>
+
+                {/* Thin rule */}
+                <div className="mt-8 w-10 h-[1px] bg-white/25" />
+
+                {/* Vibe subtitle */}
+                <p className="mt-6 text-base md:text-lg text-white/55 leading-relaxed max-w-[48ch] font-medium">
+                  {introVibe}
+                </p>
+
+                {/* Gallery CTA */}
+                <Link
+                  href={`/${lang}/city/${citySlug}/gallery`}
+                  className="
+                    mt-10 self-start inline-flex items-center gap-2.5
+                    px-5 py-2.5 rounded-xl
+                    bg-white/10 hover:bg-white/18
+                    backdrop-blur-sm
+                    border border-white/10
+                    shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]
+                    text-white text-sm font-semibold
+                    transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)]
+                    active:scale-[0.98]
+                  "
+                >
+                  {/* Inline SVG — server component safe */}
+                  <svg width="15" height="15" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="3" width="18" height="18" rx="2" />
+                    <circle cx="8.5" cy="8.5" r="1.5" />
+                    <path d="M21 15l-5-5L5 21" />
+                  </svg>
+                  {seoStrings.viewGallery}
+                </Link>
+              </div>
             </div>
-            {/* Gallery Floating Button */}
-            <Link
-              href={`/${lang}/city/${citySlug}/gallery`}
-              className="absolute bottom-6 right-6 flex items-center gap-2 px-5 py-3 bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm rounded-full shadow-lg hover:bg-white dark:hover:bg-slate-800 transition-all hover:scale-105 text-slate-900 dark:text-white font-semibold text-sm"
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-              </svg>
-              {seoStrings.viewGallery}
-            </Link>
           </section>
 
-          {/* Survival Kit (renders if city has data) */}
-          <SurvivalKit citySlug={citySlug} />
+          {/* ── 2. BENTO BOARD: Survival Kit + Top Places ──────────────────── */}
+          {/* Section 9: rounded-[2.5rem], border-slate-200/50, diffusion shadow */}
+          <section className="max-w-[1400px] mx-auto px-4 md:px-8 py-14">
+            <div className="
+              bg-[#f9fafb] dark:bg-zinc-900
+              rounded-[2.5rem]
+              border border-slate-200/50 dark:border-zinc-800
+              shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)]
+              p-2 md:p-3
+            ">
+              <div className="grid grid-cols-1 md:grid-cols-[3fr_2fr] gap-2 md:gap-3">
 
-          {/* China Survival Guide (only renders for cn cities) */}
+                {/* Bento card: Survival Kit */}
+                <div className="
+                  bg-white dark:bg-zinc-950 rounded-[2rem]
+                  border border-slate-100 dark:border-zinc-800
+                  p-8 md:p-10
+                ">
+                  <p className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400 dark:text-slate-500 mb-1">
+                    Essential Info
+                  </p>
+                  <h2 className="text-xl font-black tracking-tight text-slate-900 dark:text-white mb-7">
+                    Survival Kit
+                  </h2>
+                  <SurvivalKit citySlug={citySlug} />
+                </div>
+
+                {/* Bento card: Top Places */}
+                <div className="
+                  bg-white dark:bg-zinc-950 rounded-[2rem]
+                  border border-slate-100 dark:border-zinc-800
+                  p-8 md:p-10 flex flex-col
+                ">
+                  <p className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400 dark:text-slate-500 mb-1">
+                    Top Picks
+                  </p>
+                  <h2 className="text-xl font-black tracking-tight text-slate-900 dark:text-white mb-7">
+                    Must See
+                  </h2>
+
+                  <div className="flex-1 divide-y divide-slate-100 dark:divide-zinc-800">
+                    {topPlaces.map((place: any, i: number) => (
+                      <Link
+                        key={place.id || i}
+                        href={`/${lang}/city/${citySlug}/${place.slug}`}
+                        className="
+                          flex items-center justify-between gap-4
+                          py-4 group
+                          transition-colors duration-200 ease-[cubic-bezier(0.16,1,0.3,1)]
+                          active:scale-[0.98]
+                        "
+                      >
+                        <div className="flex items-center gap-3 min-w-0">
+                          <span className="text-[11px] font-black text-slate-300 dark:text-zinc-600 font-mono w-4 shrink-0">
+                            {String(i + 1).padStart(2, '0')}
+                          </span>
+                          <span className="text-sm font-semibold text-slate-800 dark:text-slate-200 truncate group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors duration-200">
+                            {place.name_en}
+                          </span>
+                        </div>
+                        <svg width="13" height="13" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" className="shrink-0 text-slate-300 dark:text-zinc-600 group-hover:text-emerald-500 group-hover:translate-x-0.5 transition-all duration-200" aria-hidden="true">
+                          <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                      </Link>
+                    ))}
+                  </div>
+
+                  <Link
+                    href={`/${lang}/city/${citySlug}/lists/sights`}
+                    className="
+                      mt-6 inline-flex items-center gap-1.5
+                      text-[11px] font-black uppercase tracking-[0.15em]
+                      text-slate-400 hover:text-slate-700 dark:hover:text-slate-200
+                      transition-colors duration-200
+                      active:scale-[0.98]
+                    "
+                  >
+                    {seoStrings.viewAllSights}
+                    <svg width="11" height="11" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                  </Link>
+                </div>
+
+              </div>
+            </div>
+          </section>
+
+          {/* China Survival Guide */}
           <ChinaAppGuide countryCode={city.country_code} />
 
-          {/* Ad Placement 1: Top */}
-          <div className="my-8 flex justify-center">
-            <AdsterraSmartFrame
-              height={250}
-              width={300}
-              pKey="81531fc7e6a8cf5cc6de9e368b8f2c11"
-            />
+          {/* Ad: Top */}
+          <div className="my-8 flex justify-center px-4">
+            <AdsterraSmartFrame height={250} width={300} pKey="81531fc7e6a8cf5cc6de9e368b8f2c11" />
           </div>
 
-          {/* 2. Dashboard Section */}
+          {/* ── 3. DASHBOARD ───────────────────────────────────────────────── */}
           <section id="at-a-glance" className="py-8 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
-            <div className="max-w-[1600px] mx-auto px-4 md:px-8">
+            <div className="max-w-[1400px] mx-auto px-4 md:px-8">
               <AtAGlanceDashboard city={city} dict={dict} />
             </div>
           </section>
 
-          {/* 3. Weather Section */}
+          {/* ── 4. WEATHER ─────────────────────────────────────────────────── */}
           <section id="weather" className="bg-slate-50 dark:bg-slate-950 py-16 border-b border-slate-100 dark:border-slate-800">
-            <div className="max-w-[1600px] mx-auto px-4 md:px-8">
+            <div className="max-w-[1400px] mx-auto px-4 md:px-8">
               <SectionHeader title={dict.best_time} countryCode={city.country_code as any} />
               <div className="grid grid-cols-2 md:grid-cols-6 gap-6 mt-12">
                 {(city.weather_breakdown || []).map((month, i) => (
@@ -285,49 +421,51 @@
             </div>
           </section>
 
-          {/* 4. Neighborhoods */}
+          {/* ── 5. NEIGHBORHOODS ───────────────────────────────────────────── */}
           {city.neighborhoods && (
-            <section id="neighborhoods" className="py-20 px-4 md:px-8 max-w-[1600px] mx-auto bg-white dark:bg-slate-900 rounded-[3rem] my-12 shadow-sm border border-slate-100 dark:border-slate-800">
-              <div className="mb-12"><SectionHeader title={dict.neighborhoods_stay || dict.neighborhoods} countryCode={city.country_code as any} /></div>
+            <section
+              id="neighborhoods"
+              className="py-20 px-4 md:px-8 max-w-[1400px] mx-auto bg-white dark:bg-zinc-900 rounded-[2.5rem] my-12 shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)] border border-slate-100 dark:border-zinc-800"
+            >
+              <div className="mb-12">
+                <SectionHeader title={dict.neighborhoods_stay || dict.neighborhoods} countryCode={city.country_code as any} />
+              </div>
               <NeighborhoodSection neighborhoods={city.neighborhoods} dict={dict} cityName={city.name} />
             </section>
           )}
 
-          {/* Ad Placement 2: Mid-page */}
-          <div className="my-12 flex justify-center max-w-[1600px] mx-auto px-4 md:px-8">
-            <div className="w-full flex justify-center py-8 border-y border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-900/30 rounded-2xl">
-              <AdsterraSmartFrame
-                height={250}
-                width={300}
-                pKey="81531fc7e6a8cf5cc6de9e368b8f2c11"
-              />
+          {/* Ad: Mid-page */}
+          <div className="my-12 max-w-[1400px] mx-auto px-4 md:px-8">
+            <div className="w-full flex justify-center py-8 border-y border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-zinc-900/30 rounded-2xl">
+              <AdsterraSmartFrame height={250} width={300} pKey="81531fc7e6a8cf5cc6de9e368b8f2c11" />
             </div>
           </div>
 
-          {/* 5. Culture Section */}
+          {/* ── 6. CULTURE ─────────────────────────────────────────────────── */}
           {city.culture && (
-            <section id="culture" className="py-20 px-4 md:px-8 max-w-[1600px] mx-auto">
+            <section id="culture" className="py-20 px-4 md:px-8 max-w-[1400px] mx-auto">
               <SectionHeader title={dict.culture} countryCode={city.country_code as any} />
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12">
-                <div className="bg-white dark:bg-slate-900 p-10 rounded-[2.5rem] border border-slate-200 dark:border-slate-800 shadow-xl">
-                  <h3 className="text-2xl font-black text-indigo-600 mb-8 uppercase tracking-tighter">Dos & Don'ts</h3>
-                  <ul className="space-y-6">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-12">
+                <div className="bg-white dark:bg-zinc-900 p-10 rounded-[2.5rem] border border-slate-200/60 dark:border-zinc-800 shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)]">
+                  <h3 className="text-xl font-black text-emerald-600 mb-8 uppercase tracking-tighter">Dos &amp; Don'ts</h3>
+                  <ul className="space-y-5">
                     {(city.culture.etiquette_tips || []).map((tip: string, i: number) => (
-                      <li key={i} className="flex gap-4 items-start text-slate-700 dark:text-slate-300 font-medium text-lg">
-                        <div className="w-2 h-2 rounded-full bg-indigo-500 mt-2 flex-shrink-0" /> {tip}
+                      <li key={i} className="flex gap-4 items-start text-slate-600 dark:text-slate-300 font-medium text-base">
+                        <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 mt-2 shrink-0" />
+                        {tip}
                       </li>
                     ))}
                   </ul>
                 </div>
-                <div className="bg-white dark:bg-slate-900 p-10 rounded-[2.5rem] border border-slate-200 dark:border-slate-800 shadow-xl">
-                  <h3 className="text-2xl font-black text-emerald-600 mb-8 uppercase tracking-tighter">Key Phrases</h3>
-                  <div className="grid gap-6">
+                <div className="bg-white dark:bg-zinc-900 p-10 rounded-[2.5rem] border border-slate-200/60 dark:border-zinc-800 shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)]">
+                  <h3 className="text-xl font-black text-slate-700 dark:text-slate-200 mb-8 uppercase tracking-tighter">Key Phrases</h3>
+                  <div className="divide-y divide-slate-100 dark:divide-zinc-800">
                     {(city.culture.essential_phrases || []).map((phrase: any, i: number) => (
-                      <div key={i} className="flex justify-between items-center p-5 bg-slate-50 dark:bg-slate-800/50 rounded-2xl">
-                        <span className="text-xl font-bold">{phrase.src}</span>
+                      <div key={i} className="flex justify-between items-center py-4">
+                        <span className="text-base font-semibold text-slate-700 dark:text-slate-300">{phrase.src}</span>
                         <div className="text-right">
-                          <span className="block text-2xl font-black text-slate-700 dark:text-slate-200">{phrase.local}</span>
-                          <span className="block text-sm text-indigo-500 font-bold uppercase tracking-widest italic">{phrase.phonetic}</span>
+                          <span className="block text-lg font-black text-slate-900 dark:text-slate-100">{phrase.local}</span>
+                          <span className="block text-xs text-slate-400 font-bold uppercase tracking-widest italic">{phrase.phonetic}</span>
                         </div>
                       </div>
                     ))}
@@ -337,104 +475,83 @@
             </section>
           )}
 
-          {/* 6. Perfect Itineraries Section */}
-          <section id="itineraries" className="py-16 px-4 md:px-8 max-w-[1600px] mx-auto">
-            <div className="mb-12"><SectionHeader title={seoStrings.perfectItineraries} countryCode={city.country_code as any} /></div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {/* 1 Day Card */}
-              <Link
+          {/* ── 7. ITINERARIES — Asymmetric Magnetic Grid ──────────────────── */}
+          {/* DESIGN_VARIANCE 8: 2fr+1fr grid, not 3 equal columns (BANNED)    */}
+          <section id="itineraries" className="py-16 px-4 md:px-8 max-w-[1400px] mx-auto">
+            <div className="mb-12">
+              <SectionHeader title={seoStrings.perfectItineraries} countryCode={city.country_code as any} />
+            </div>
+
+            {/* Balanced 3-column grid — consistent height across all cards */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <MagneticItineraryButton
                 href={`/${lang}/city/${citySlug}/itinerary/1-day`}
-                className="group relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-amber-500 to-orange-600 p-8 text-white shadow-xl hover:shadow-2xl transition-all hover:scale-[1.02]"
-              >
-                <div className="absolute top-4 right-4 w-16 h-16 bg-white/20 rounded-full flex items-center justify-center">
-                  <span className="text-3xl font-black">1</span>
-                </div>
-                <div className="mt-12">
-                  <h3 className="text-3xl font-black tracking-tight">{seoStrings.day1}</h3>
-                  <p className="mt-2 text-white/80 font-medium">{seoStrings.quickTrip}</p>
-                </div>
-                <div className="mt-6 flex items-center gap-2 text-sm font-bold uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity">
-                  <span>View Itinerary</span>
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </div>
-              </Link>
-
-              {/* 2 Days Card */}
-              <Link
+                dayNumber="1"
+                dayLabel={seoStrings.day1}
+                dayDesc={seoStrings.quickTrip}
+                accentClass="bg-emerald-500"
+                checkLabel="Check Itinerary"
+              />
+              <MagneticItineraryButton
                 href={`/${lang}/city/${citySlug}/itinerary/2-days`}
-                className="group relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-indigo-500 to-purple-600 p-8 text-white shadow-xl hover:shadow-2xl transition-all hover:scale-[1.02]"
-              >
-                <div className="absolute top-4 right-4 w-16 h-16 bg-white/20 rounded-full flex items-center justify-center">
-                  <span className="text-3xl font-black">2</span>
-                </div>
-                <div className="mt-12">
-                  <h3 className="text-3xl font-black tracking-tight">{seoStrings.day2}</h3>
-                  <p className="mt-2 text-white/80 font-medium">{seoStrings.weekendGetaway}</p>
-                </div>
-                <div className="mt-6 flex items-center gap-2 text-sm font-bold uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity">
-                  <span>View Itinerary</span>
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </div>
-              </Link>
-
-              {/* 3 Days Card */}
-              <Link
+                dayNumber="2"
+                dayLabel={seoStrings.day2}
+                dayDesc={seoStrings.weekendGetaway}
+                accentClass="bg-amber-500"
+                checkLabel="Check Itinerary"
+              />
+              <MagneticItineraryButton
                 href={`/${lang}/city/${citySlug}/itinerary/3-days`}
-                className="group relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-emerald-500 to-teal-600 p-8 text-white shadow-xl hover:shadow-2xl transition-all hover:scale-[1.02]"
+                dayNumber="3"
+                dayLabel={seoStrings.day3}
+                dayDesc={seoStrings.fullExperience}
+                accentClass="bg-rose-500"
+                checkLabel="Check Itinerary"
+              />
+            </div>
+          </section>
+
+          {/* Ad: Wide banner */}
+          <div className="my-10 flex justify-center max-w-[1400px] mx-auto px-4 md:px-8">
+            <AdsterraSmartFrame height={90} width={728} pKey="81531fc7e6a8cf5cc6de9e368b8f2c11" />
+          </div>
+
+          {/* ── 8. ATTRACTIONS ─────────────────────────────────────────────── */}
+          <section id="must-see" className="py-16 px-4 md:px-8 max-w-[1400px] mx-auto">
+            <div className="mb-12">
+              <SectionHeader title={dict.attractions} countryCode={city.country_code as any} />
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {renderPlacesWithAds(city.must_see?.flatMap((g: any) => g.items) || [], dict)}
+            </div>
+            <div className="mt-12">
+              <Link
+                href={`/${lang}/city/${citySlug}/lists/sights`}
+                className="
+                  inline-flex items-center gap-2
+                  px-7 py-3.5 rounded-xl
+                  bg-zinc-900 hover:bg-zinc-800 dark:bg-zinc-100 dark:hover:bg-white
+                  text-white dark:text-zinc-900
+                  text-sm font-bold
+                  transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)]
+                  shadow-[0_8px_24px_-6px_rgba(0,0,0,0.15)]
+                  active:scale-[0.98]
+                "
               >
-                <div className="absolute top-4 right-4 w-16 h-16 bg-white/20 rounded-full flex items-center justify-center">
-                  <span className="text-3xl font-black">3</span>
-                </div>
-                <div className="mt-12">
-                  <h3 className="text-3xl font-black tracking-tight">{seoStrings.day3}</h3>
-                  <p className="mt-2 text-white/80 font-medium">{seoStrings.fullExperience}</p>
-                </div>
-                <div className="mt-6 flex items-center gap-2 text-sm font-bold uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity">
-                  <span>View Itinerary</span>
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </div>
+                {seoStrings.viewAllSights}
+                <svg width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
               </Link>
             </div>
           </section>
 
-          {/* Ad Placement 3: Wide banner above Attractions */}
-          <div className="my-10 flex justify-center max-w-[1600px] mx-auto px-4 md:px-8">
-            <AdsterraSmartFrame
-              height={90}
-              width={728}
-              pKey="81531fc7e6a8cf5cc6de9e368b8f2c11"
-            />
-          </div>
-
-          {/* 7. Attractions & Food Grid */}
-          <section id="must-see" className="py-16 px-4 md:px-8 max-w-[1600px] mx-auto">
-             <div className="mb-12"><SectionHeader title={dict.attractions} countryCode={city.country_code as any} /></div>
-             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-               {renderPlacesWithAds(city.must_see?.flatMap((g: any) => g.items) || [], dict)}
-             </div>
-             <div className="mt-12 text-center">
-               <Link
-                 href={`/${lang}/city/${citySlug}/lists/sights`}
-                 className="inline-flex items-center gap-2 px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-full transition-all hover:scale-105 shadow-lg hover:shadow-xl"
-               >
-                 {seoStrings.viewAllSights}
-                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                 </svg>
-               </Link>
-             </div>
-          </section>
-
-          {/* 8. Travel Essentials (Affiliates) */}
+          {/* ── 9. TRAVEL ESSENTIALS ───────────────────────────────────────── */}
           {city.affiliate_products && (
-            <section id="essentials" className="py-20 px-4 md:px-8 max-w-[1600px] mx-auto bg-slate-50 dark:bg-slate-950 border-y border-slate-200 dark:border-slate-800">
-              <div className="mb-12"><SectionHeader title={dict.travel_essentials} countryCode={city.country_code as any} /></div>
+            <section id="essentials" className="py-20 px-4 md:px-8 max-w-[1400px] mx-auto border-y border-slate-100 dark:border-zinc-800">
+              <div className="mb-12">
+                <SectionHeader title={dict.travel_essentials} countryCode={city.country_code as any} />
+              </div>
               <AffiliateSection
                 products={city.affiliate_products}
                 countryCode={city.country_code}
@@ -443,51 +560,66 @@
             </section>
           )}
 
-          {/* Ad Placement 4: Wide banner above Food */}
-          <div className="my-10 flex justify-center max-w-[1600px] mx-auto px-4 md:px-8">
-            <AdsterraSmartFrame
-              height={90}
-              width={728}
-              pKey="81531fc7e6a8cf5cc6de9e368b8f2c11"
-            />
+          {/* Ad: Wide banner */}
+          <div className="my-10 flex justify-center max-w-[1400px] mx-auto px-4 md:px-8">
+            <AdsterraSmartFrame height={90} width={728} pKey="81531fc7e6a8cf5cc6de9e368b8f2c11" />
           </div>
 
-          <section id="food" className="py-16 px-4 md:px-8 max-w-[1600px] mx-auto">
-             <div className="mb-12"><SectionHeader title={dict.must_eat} countryCode={city.country_code as any} /></div>
-             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-               {renderPlacesWithAds(city.must_eat || [], dict)}
-             </div>
-             <div className="mt-12 text-center">
-               <Link
-                 href={`/${lang}/city/${citySlug}/lists/food`}
-                 className="inline-flex items-center gap-2 px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-full transition-all hover:scale-105 shadow-lg hover:shadow-xl"
-               >
-                 {seoStrings.viewAllFood}
-                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                 </svg>
-               </Link>
-             </div>
+          {/* ── 10. FOOD ───────────────────────────────────────────────────── */}
+          <section id="food" className="py-16 px-4 md:px-8 max-w-[1400px] mx-auto">
+            <div className="mb-12">
+              <SectionHeader title={dict.must_eat} countryCode={city.country_code as any} />
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {renderPlacesWithAds(city.must_eat || [], dict)}
+            </div>
+            <div className="mt-12">
+              <Link
+                href={`/${lang}/city/${citySlug}/lists/food`}
+                className="
+                  inline-flex items-center gap-2
+                  px-7 py-3.5 rounded-xl
+                  bg-zinc-900 hover:bg-zinc-800 dark:bg-zinc-100 dark:hover:bg-white
+                  text-white dark:text-zinc-900
+                  text-sm font-bold
+                  transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)]
+                  shadow-[0_8px_24px_-6px_rgba(0,0,0,0.15)]
+                  active:scale-[0.98]
+                "
+              >
+                {seoStrings.viewAllFood}
+                <svg width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
           </section>
 
-          {/* 9. Daily Itinerary Timeline */}
+          {/* ── 11. 24H ITINERARY TIMELINE ─────────────────────────────────── */}
           {city.itinerary && (
-            <section className="py-24 px-4 md:px-8 max-w-[1000px] mx-auto">
-              <h2 className="text-5xl font-black mb-16 text-center tracking-tighter uppercase">{dict.perfect_24h} {city.name}</h2>
-              <div className="border-l-4 border-indigo-500/20 ml-6 space-y-20">
+            <section className="py-24 px-4 md:px-8 max-w-[900px] mx-auto">
+              <h2 className="text-4xl md:text-5xl font-black mb-16 tracking-tighter uppercase">
+                {dict.perfect_24h} {city.name}
+              </h2>
+              <div className="border-l border-slate-200 dark:border-zinc-800 ml-4 space-y-16 pl-1">
                 {city.itinerary.map((stop: any, idx: number) => {
-                  // ✅ Safe description check
-                  const rawDesc = stop.description as any;
-                  const stopDesc = typeof rawDesc === 'object'
-                    ? (rawDesc.description || rawDesc.short || rawDesc.long || '')
-                    : (rawDesc || '');
-
+                  const rawDesc = stop.description as any
+                  const stopDesc =
+                    typeof rawDesc === 'object'
+                      ? rawDesc.description || rawDesc.short || rawDesc.long || ''
+                      : rawDesc || ''
                   return (
-                    <div key={idx} className="pl-14 relative group">
-                      <div className="absolute -left-[18px] top-0 w-8 h-8 rounded-full bg-white dark:bg-slate-900 border-4 border-indigo-600 transition-all group-hover:scale-125" />
-                      <span className="text-sm font-black text-indigo-600 uppercase tracking-[0.2em]">{stop.time}</span>
-                      <h3 className="text-3xl font-black mt-2 tracking-tight">{stop.title}</h3>
-                      <p className="text-slate-600 dark:text-slate-400 mt-6 leading-relaxed text-xl font-medium italic">"{stopDesc}"</p>
+                    <div key={idx} className="pl-10 relative group">
+                      <div className="absolute -left-[5px] top-0 w-2.5 h-2.5 rounded-full bg-slate-300 dark:bg-zinc-600 ring-4 ring-slate-50 dark:ring-zinc-950 transition-all group-hover:bg-emerald-500 group-hover:ring-emerald-100 dark:group-hover:ring-emerald-950" />
+                      <span className="text-[11px] font-black text-slate-400 dark:text-slate-500 uppercase tracking-[0.2em]">
+                        {stop.time}
+                      </span>
+                      <h3 className="text-2xl font-black mt-2 tracking-tight text-slate-900 dark:text-white">
+                        {stop.title}
+                      </h3>
+                      <p className="text-slate-500 dark:text-slate-400 mt-4 leading-relaxed text-base max-w-[65ch]">
+                        {stopDesc}
+                      </p>
                     </div>
                   )
                 })}
@@ -495,27 +627,33 @@
             </section>
           )}
 
-          {/* 10. Logistics */}
-          <section id="logistics" className="max-w-[1600px] mx-auto py-24 px-4">
+          {/* ── 12. LOGISTICS ──────────────────────────────────────────────── */}
+          <section id="logistics" className="max-w-[1400px] mx-auto py-24 px-4">
             <CollapsibleSection title={dict.practical_logistics}>
               <LogisticsSection
                 topics={
                   Array.isArray(city.logistics)
                     ? city.logistics
-                    : city.logistics ? [city.logistics] : []
+                    : city.logistics
+                    ? [city.logistics]
+                    : []
                 }
               />
             </CollapsibleSection>
           </section>
 
-          <section className="max-w-[1600px] mx-auto px-4 py-12 border-t border-slate-100 dark:border-slate-900">
-              <LanguageLinks citySlug={citySlug} currentLang={lang} availableLanguages={getAvailableLanguages(citySlug)} />
+          <section className="max-w-[1400px] mx-auto px-4 py-12 border-t border-slate-100 dark:border-zinc-900">
+            <LanguageLinks
+              citySlug={citySlug}
+              currentLang={lang}
+              availableLanguages={getAvailableLanguages(citySlug)}
+            />
           </section>
 
-          <section className="max-w-[1000px] mx-auto px-4 py-24 border-t-4 border-slate-900 dark:border-slate-100">
-              <CommentThread citySlug={citySlug} lang={lang} dict={dict} />
+          <section className="max-w-[900px] mx-auto px-4 py-24 border-t border-slate-200 dark:border-zinc-800">
+            <CommentThread citySlug={citySlug} lang={lang} dict={dict} />
           </section>
         </main>
       </div>
-    );
+    )
   }
