@@ -247,9 +247,9 @@
             />
 
             {/* Asymmetric gradient: opaque left → transparent right */}
-            <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/80 to-zinc-950/15 pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/80 to-zinc-950/1 pointer-events-none" />
             {/* Bottom fade for readability */}
-            <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/60 via-transparent to-transparent pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/10 via-transparent to-transparent pointer-events-none" />
 
             {/* Left-aligned content column */}
             <div className="relative z-10 flex flex-col justify-end min-h-[100dvh] px-6 md:px-16 lg:px-24 pb-16 md:pb-24">
@@ -262,7 +262,7 @@
                 {/* City name — font-normal: decorative fonts (Modak, Geo, Corinthia) carry their own weight baked in */}
                 <h1
                   className={`
-                    text-5xl md:text-6xl leading-tight tracking-tighter
+                    text-5xl md:text-[15rem] leading-tight tracking-tighter
                     font-normal font-[family-name:var(--font-city)]
                     ${finalHeroColor}
                     drop-shadow-[0_2px_16px_rgba(0,0,0,0.35)]
