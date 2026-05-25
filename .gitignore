@@ -32,3 +32,12 @@ yarn-error.log*
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# Deploy bloat (1.3 GB of duplicated images — not for production)
+public/images backup/
+
+# Claude tooling scratch files
+tmpclaude-*
+
+# Captured shell typos / stray git output
+et --hard*

@@ -18,7 +18,13 @@
       "Bash(git status:*)",
       "Bash(git clean:*)",
       "Bash(find:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(head -50 src/components/features/EnhancedPlaceCard.tsx)",
+      "Bash(cat src/lib/getPlaceImages.ts)",
+      "Bash(head -80 src/components/ui/LanguageSelector.tsx)",
+      "Bash(head -80 src/components/ui/MobileNav.tsx)",
+      "Bash(head -80 src/components/ui/HeaderAuth.tsx)",
+      "Bash(git rm *)"
     ]
   }
 }

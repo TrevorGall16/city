@@ -1,15 +1,16 @@
 [build]
   command = "npm run build"
-  publish = ".next"
 
 [build.environment]
   NETLIFY_SKIP_BLOBS_UPLOAD = "true"
   NODE_VERSION = "22.13.0"
   NODE_OPTIONS = "--max-old-space-size=4096"
   NEXT_CPU_LIMIT = "1"
-  # 🛡️ MASTER AI: DISABLE AUTO-PLUGIN DETECTION
-  NETLIFY_NEXTPRO_SKIP_PLUGIN = "true" 
-  NETLIFY_USE_NEXTJS_RUNTIME = "false"
+
+# Native Next.js runtime — required for SSR routes, middleware,
+# and the Supabase-backed /api/* handlers.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
 
 [[headers]]
   for = "/sitemap.xml"

@@ -36,8 +36,6 @@
     params: Promise<{ lang: string; citySlug: string }>
   }
 
-  const SUPPORTED_LANGS = ['en', 'fr', 'es', 'it', 'ja', 'hi', 'de', 'ar']
-
   export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const { citySlug, lang } = await params
     const city = await getCityData(citySlug, lang)

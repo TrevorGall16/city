@@ -15,15 +15,15 @@ import type { Metadata } from 'next'
 import { CookieConsent } from '@/components/features/CookieConsent'
 import { AvailableLanguagesProvider } from '@/context/AvailableLanguagesContext'
 import { getDict } from '@/data/dictionaries' // 🎯 REQUIRED IMPORT
+import { LOCALES } from '@/data/locales'
 
-const inter = Inter({ 
-  subsets: ['latin'], 
-  variable: '--font-sans', 
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-sans',
   display: 'swap',
   preload: true,
 })
 
-const SUPPORTED_LANGS = ['en', 'fr', 'es', 'it', 'ja', 'hi', 'de', 'zh', 'ar']
 const BASE_URL = 'https://citybasic.com'
 
 export const metadata: Metadata = {
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
     languages: Object.fromEntries(
-      SUPPORTED_LANGS.map(lang => [lang, `/${lang}`])
+      LOCALES.map(lang => [lang, `/${lang}`])
     ),
   },
 

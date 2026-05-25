@@ -4,12 +4,12 @@ import { HomePageClient } from '@/components/pages/HomePageClient'
 import AdsterraBanner from '@/components/ads/AdsterraBanner'
 import { getDict } from '@/data/dictionaries'
 import { getAllCities } from '@/lib/getCityData'
+import { LOCALES } from '@/data/locales'
 
 interface HomeProps {
   params: Promise<{ lang: string }>
 }
 
-const SUPPORTED_LANGS = ['en', 'fr', 'es', 'it', 'ja', 'hi', 'de', 'zh', 'ar']
 const BASE_URL = 'https://citybasic.com'
 
 export async function generateMetadata({ params }: HomeProps): Promise<Metadata> {
@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: HomeProps): Promise<Metadata>
     title: `CityBasic: Travel Cheat Sheets for ${cities.length} Cities`,
     alternates: {
       canonical: `${BASE_URL}/${lang}`,
-      languages: Object.fromEntries(SUPPORTED_LANGS.map(l => [l, `${BASE_URL}/${l}`])),
+      languages: Object.fromEntries(LOCALES.map(l => [l, `${BASE_URL}/${l}`])),
     }
   }
 }

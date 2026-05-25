@@ -1,7 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-
-const ALL_LOCALES = ['en', 'fr', 'es', 'it', 'ja', 'hi', 'de', 'zh', 'ar']
+import { LOCALES, DEFAULT_LOCALE } from '@/data/locales'
 
 /**
  * Returns the list of language codes that have a city JSON file on disk.
@@ -10,8 +9,8 @@ const ALL_LOCALES = ['en', 'fr', 'es', 'it', 'ja', 'hi', 'de', 'zh', 'ar']
 export function getAvailableLanguages(citySlug: string): string[] {
   const dir = path.join(process.cwd(), 'src/data/cities')
 
-  return ALL_LOCALES.filter((lang) => {
-    if (lang === 'en') return true // English always exists as {slug}.json
+  return LOCALES.filter((lang) => {
+    if (lang === DEFAULT_LOCALE) return true // English always exists as {slug}.json
     const filePath = path.join(dir, `${citySlug}-${lang}.json`)
     return fs.existsSync(filePath)
   })
