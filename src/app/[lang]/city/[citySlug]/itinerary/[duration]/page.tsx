@@ -450,13 +450,14 @@ export default async function ItineraryPage({ params }: PageProps) {
             {localDict.must_see_section}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            {mustSee.map((place) => (
+            {mustSee.map((place, i) => (
               <EnhancedPlaceCard
                 key={place.slug}
                 place={place}
                 citySlug={citySlug}
                 lang={lang}
                 dict={dict}
+                index={i}
               />
             ))}
           </div>
@@ -470,13 +471,14 @@ export default async function ItineraryPage({ params }: PageProps) {
             {localDict.must_eat_section}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            {mustEat.map((place) => (
+            {mustEat.map((place, i) => (
               <EnhancedPlaceCard
                 key={place.slug}
                 place={place}
                 citySlug={citySlug}
                 lang={lang}
                 dict={dict}
+                index={i}
               />
             ))}
           </div>

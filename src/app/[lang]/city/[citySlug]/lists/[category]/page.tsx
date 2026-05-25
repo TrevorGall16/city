@@ -501,6 +501,7 @@ export default async function CollectionPage({ params }: PageProps) {
                 citySlug={citySlug}
                 lang={lang}
                 dict={dict}
+                index={index}
               />
             ) : (
   /* 👇 THIS IS THE NEW PART (Replaces NativeAdPlaceholder) */

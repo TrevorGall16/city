@@ -134,22 +134,23 @@ export default function FavoritesPage() {
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {favorites.map((fav) => (
-              <EnhancedPlaceCard 
-                key={fav.place_id} 
+            {favorites.map((fav, i) => (
+              <EnhancedPlaceCard
+                key={fav.place_id}
                 citySlug={fav.city_slug}
                 /* ✅ FIXED: Passing required localization props */
                 lang={lang}
                 dict={dict}
-                place={{ 
-                  id: fav.place_id, 
+                index={i}
+                place={{
+                  id: fav.place_id,
                   slug: fav.slug,
                   name_en: fav.name_en,
                   description: fav.description,
                   image: fav.image,
-                  name_local: fav.name_en, 
+                  name_local: fav.name_en,
                   category: 'saved',
-                } as any} 
+                } as any}
               />
             ))}
           </div>

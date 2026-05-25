@@ -17,10 +17,11 @@ interface EnhancedPlaceCardProps {
   place: Place
   citySlug: string
   lang: string
-  dict: any 
+  dict: any
+  index?: number
 }
 
-export function EnhancedPlaceCard({ place, citySlug, lang, dict }: EnhancedPlaceCardProps) {
+export function EnhancedPlaceCard({ place, citySlug, lang, dict, index = 0 }: EnhancedPlaceCardProps) {
   // 🛡️ SAFETY 1: Check for valid image string
   const hasValidImage = !!(place.image && place.image.trim() !== "");
   
@@ -41,14 +42,14 @@ export function EnhancedPlaceCard({ place, citySlug, lang, dict }: EnhancedPlace
       
       {/* Cinematic Image Link with Multi-Layer Safety Fallback */}
       <Link href={detailUrl} className="block aspect-[16/10] relative overflow-hidden bg-slate-200 dark:bg-slate-800">
-<Image 
-  src={hasValidImage ? place.image : "/images/placeholders/fallback.jpg"} 
-  alt={place.name_en} 
-  fill 
-  className="object-cover z-10" 
+<Image
+  src={hasValidImage ? place.image : "/images/placeholders/fallback.jpg"}
+  alt={place.name_en}
+  fill
+  className="object-cover z-10"
   sizes="(max-width: 768px) 100vw, 33vw"
-  priority={true}
-  unoptimized={true} // 👈 ADD THIS: Bypasses Next.js image optimization for local testing
+  priority={index === 0}
+  loading={index === 0 ? undefined : 'lazy'}
   onError={(e) => {
     e.currentTarget.src = "/images/placeholders/fallback.jpg";
     e.currentTarget.srcset = ""; // Clears responsive sets that might override the fallback

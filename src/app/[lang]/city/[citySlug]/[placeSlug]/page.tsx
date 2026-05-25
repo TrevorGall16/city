@@ -260,13 +260,14 @@ export default async function PlacePage({ params }: PageProps) {
                 {SEO_DICTIONARY[lang as SEOLang]?.similar || 'You Might Also Like'}
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                {data.similarPlaces.map((item: any) => (
-                  <EnhancedPlaceCard 
-                    key={item.slug} 
-                    place={item} 
-                    citySlug={citySlug} 
-                    lang={lang} 
-                    dict={dict} 
+                {data.similarPlaces.map((item: any, i: number) => (
+                  <EnhancedPlaceCard
+                    key={item.slug}
+                    place={item}
+                    citySlug={citySlug}
+                    lang={lang}
+                    dict={dict}
+                    index={i}
                   />
                 ))}
               </div>

@@ -134,7 +134,7 @@
     const renderPlacesWithAds = (places: any[], dict: any) => {
       return (places || []).map((place: any, index: number) => (
         <div key={place.id || `place-${index}`}>
-          <EnhancedPlaceCard place={place} citySlug={citySlug} lang={lang} dict={dict} />
+          <EnhancedPlaceCard place={place} citySlug={citySlug} lang={lang} dict={dict} index={index} />
           {index === 2 && (
             <div className="col-span-full py-6 flex justify-center">
                {/* 🛡️ Virus Script Removed */}

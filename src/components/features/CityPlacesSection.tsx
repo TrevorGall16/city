@@ -145,13 +145,14 @@ export function CityPlacesSection({
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6">
-            {filteredPlaces.map((place) => (
+            {filteredPlaces.map((place, i) => (
 <EnhancedPlaceCard
   key={place.id}
   place={place}
   citySlug={citySlug}
   lang={lang}
-  dict={dict} // ✅ This fixes the "Property 'dict' is missing" error
+  dict={dict}
+  index={i}
 />
             ))}
           </div>
