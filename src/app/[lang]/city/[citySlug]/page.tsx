@@ -31,6 +31,7 @@
   import { getCityData } from '@/lib/getCityData'
   import { getAvailableLanguages } from '@/lib/getAvailableLanguages'
   import { SEO_DICTIONARY, type SEOLang } from '@/data/seo-dictionary'
+  import { isLocale } from '@/data/locales'
 
   interface PageProps {
     params: Promise<{ lang: string; citySlug: string }>
@@ -38,6 +39,7 @@
 
   export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const { citySlug, lang } = await params
+    if (!isLocale(lang)) return {}
     const city = await getCityData(citySlug, lang)
     const dict = getDict(lang)
     if (!city) return { title: 'City Not Found' }
@@ -106,6 +108,8 @@
   export default async function CityPage({ params }: PageProps) {
     const resolvedParams = await params;
     const { citySlug, lang } = resolvedParams;
+
+    if (!isLocale(lang)) notFound();
 
     const city = await getCityData(citySlug, lang);
     const dict = getDict(lang);

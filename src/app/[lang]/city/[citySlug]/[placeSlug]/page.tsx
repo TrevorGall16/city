@@ -22,6 +22,7 @@ import { PlaceGallery } from '@/components/place/PlaceGallery'
 import { PLACE_FAQS } from '@/data/place_faqs'
 import { SEO_DICTIONARY, type SEOLang } from '@/data/seo-dictionary'
 import { getPlaceImages } from '@/lib/getPlaceImages'
+import { isLocale } from '@/data/locales'
 
 interface PageProps {
   params: Promise<{ lang: string; citySlug: string; placeSlug: string }>
@@ -43,6 +44,7 @@ async function getPlaceData(citySlug: string, placeSlug: string, lang: string) {
 }
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { lang, citySlug, placeSlug } = await params
+  if (!isLocale(lang)) return {}
   const data = await getPlaceData(citySlug, placeSlug, lang)
 
   if (!data) return { title: 'Place Not Found' }
@@ -118,9 +120,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function PlacePage({ params }: PageProps) {
   const { lang, citySlug, placeSlug } = await params;
+
+  if (!isLocale(lang)) notFound();
+
   const data = await getPlaceData(citySlug, placeSlug, lang);
   const dict = await getDict(lang);
-  
+
   if (!data) notFound();
 
   const { place } = data;
