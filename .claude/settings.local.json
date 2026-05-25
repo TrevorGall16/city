@@ -24,7 +24,12 @@
       "Bash(head -80 src/components/ui/LanguageSelector.tsx)",
       "Bash(head -80 src/components/ui/MobileNav.tsx)",
       "Bash(head -80 src/components/ui/HeaderAuth.tsx)",
-      "Bash(git rm *)"
+      "Bash(git rm *)",
+      "PowerShell(Remove-Item *)",
+      "Bash(npm run *)",
+      "Bash(git check-ignore *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
     ]
   }
 }
