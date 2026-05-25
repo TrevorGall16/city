@@ -55,13 +55,23 @@ export default function Error({
         </Link>
       </div>
 
-      {/* Dev-only error details (Hidden in production usually, but helpful for you) */}
-      <div className="mt-12 p-4 bg-slate-100 dark:bg-slate-900 rounded-lg text-left max-w-lg w-full overflow-hidden">
-        <p className="text-xs font-mono text-slate-500 mb-2 uppercase tracking-widest">Error Details:</p>
-        <code className="text-xs font-mono text-red-600 dark:text-red-400 block break-words">
-          {error.message || "Unknown Error"}
-        </code>
-      </div>
+      {/* Dev-only error details — `error.message` can leak internal paths,
+          table names, and stack trace fragments, so it is gated behind
+          NODE_ENV. The opaque `digest` is still surfaced for support. */}
+      {process.env.NODE_ENV !== 'production' && (
+        <div className="mt-12 p-4 bg-slate-100 dark:bg-slate-900 rounded-lg text-left max-w-lg w-full overflow-hidden">
+          <p className="text-xs font-mono text-slate-500 mb-2 uppercase tracking-widest">Error Details:</p>
+          <code className="text-xs font-mono text-red-600 dark:text-red-400 block break-words">
+            {error.message || "Unknown Error"}
+          </code>
+        </div>
+      )}
+
+      {error.digest && (
+        <p className="mt-6 text-[10px] font-mono text-slate-400 uppercase tracking-widest">
+          Reference: {error.digest}
+        </p>
+      )}
     </div>
   )
 }
