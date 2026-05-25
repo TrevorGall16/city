@@ -166,7 +166,7 @@ export default async function PlacePage({ params }: PageProps) {
     ...(place.geo?.lat && place.geo?.lng
       ? {
           geo: { '@type': 'GeoCoordinates', latitude: place.geo.lat, longitude: place.geo.lng },
-          hasMap: `https://www.google.com/maps?q=$${place.geo.lat},${place.geo.lng}`,
+          hasMap: `https://www.google.com/maps?q=${place.geo.lat},${place.geo.lng}`,
         }
       : {}),
     containedInPlace: { '@type': 'City', name: data.cityName },
