@@ -22,8 +22,8 @@ Node version is pinned: `.nvmrc` + `netlify.toml` (`NODE_VERSION = "22.13.0"`).
 ### Routing — locale-first App Router
 All user-facing pages live under `src/app/[lang]/`. Nine locales: `en, fr, es, it, ja, hi, de, zh, ar`. Default is `en`; Arabic uses `dir="rtl"`.
 
-`src/proxy.ts` is the locale + Supabase-session middleware (not named `middleware.ts` — a recent commit removed that file; the matcher in `proxy.ts` is what defines the routes it runs on). It:
-1. Refreshes the Supabase session cookie on every matched request
+`src/middleware.ts` is the locale + Supabase-session middleware. It:
+1. Refreshes the Supabase session cookie on every matched request (via `supabase.auth.getUser()`)
 2. Detects locale from `Accept-Language` and redirects bare paths to `/{locale}/...`
 3. **Copies Supabase cookies onto redirect responses** — without this, login is lost on locale redirect. Preserve that pattern if you touch this file.
 
@@ -41,11 +41,7 @@ City pages are fully SSG. Supabase is **only** for the social layer (comments, v
 
 ### Supabase
 
-Two server-client modules exist in parallel:
-- `src/lib/supabase/server.ts`
-- `src/utils/supabase/server.ts`
-
-Check which one a file already imports before adding a new caller. Both use `@supabase/ssr` with cookie adapters. There is also `src/lib/supabase/client.ts` for Client Components. Auth flows through `src/app/auth/callback/`.
+Server-side: `src/lib/supabase/server.ts` (for Server Components, Server Actions, Route Handlers). Client-side: `src/lib/supabase/client.ts` (Client Components). Both use `@supabase/ssr`; the server module uses the `getAll/setAll` cookie adapter that mirrors `src/middleware.ts`. Auth flows through `src/app/auth/callback/`.
 
 API routes (`src/app/api/{comments,favorites,reports,votes}/route.ts`) all require an authenticated user — RLS policies enforce this server-side as well.
 
