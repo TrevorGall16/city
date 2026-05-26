@@ -15,6 +15,7 @@
   import { AtAGlanceDashboard } from '@/components/features/AtAGlanceDashboard'
   import { AffiliateSection } from '@/components/features/AffiliateSection'
   import AdsterraSmartFrame from '@/components/ads/AdsterraSmartFrame'
+  import { AdsterraSidebarBanner } from '@/components/ads/AdsterraSidebarBanner'
   import { CityInterstitialController } from '@/components/ads/CityInterstitialController'
 
   import type { Metadata } from 'next'
@@ -398,6 +399,11 @@
             </div>
           </section>
 
+          {/* ── SCROLLABLE CONTENT + STICKY SIDEBAR ──────────────────────── */}
+          <div className="max-w-[1400px] mx-auto px-4 md:px-8">
+            <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8 items-start">
+              <div className="min-w-0">
+
           {/* China Survival Guide */}
           <ChinaAppGuide countryCode={city.country_code} />
 
@@ -657,6 +663,16 @@
           <section className="max-w-[900px] mx-auto px-4 py-24 border-t border-slate-200 dark:border-zinc-800">
             <CommentThread citySlug={citySlug} lang={lang} dict={dict} />
           </section>
+
+              </div>
+
+              <div className="hidden lg:block self-start sticky top-24">
+                <AdsterraSidebarBanner pKey="81531fc7e6a8cf5cc6de9e368b8f2c11" />
+              </div>
+
+            </div>
+          </div>
+
         </main>
       </div>
     )
