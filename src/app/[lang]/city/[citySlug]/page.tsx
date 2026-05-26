@@ -15,6 +15,7 @@
   import { AtAGlanceDashboard } from '@/components/features/AtAGlanceDashboard'
   import { AffiliateSection } from '@/components/features/AffiliateSection'
   import AdsterraSmartFrame from '@/components/ads/AdsterraSmartFrame'
+  import { CityInterstitialController } from '@/components/ads/CityInterstitialController'
 
   import type { Metadata } from 'next'
   import { CollapsibleSection } from '@/components/ui/CollapsibleSection'
@@ -233,6 +234,7 @@
         )}
 
         <main className="min-h-[100dvh] bg-slate-50 dark:bg-slate-950 pb-20">
+          <CityInterstitialController citySlug={citySlug} />
           <CityNavigation lang={lang} dict={dict} />
 
           {/* ── 1. ASYMMETRIC HERO ─────────────────────────────────────────── */}
