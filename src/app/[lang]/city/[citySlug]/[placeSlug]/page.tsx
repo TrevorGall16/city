@@ -188,6 +188,15 @@ export default async function PlacePage({ params }: PageProps) {
         </div>
       </nav>
 
+      {/* Top horizontal banner */}
+      <div className="max-w-5xl mx-auto px-6 mt-6 flex justify-center" style={{ minHeight: 90 }}>
+        <AdsterraSmartFrame
+          height={90}
+          width={728}
+          pKey="81531fc7e6a8cf5cc6de9e368b8f2c11"
+        />
+      </div>
+
       <article className="max-w-5xl mx-auto px-6 mt-8">
         <ImageLightbox src={place.image || '/images/placeholder.jpg'} alt={place.name_en || 'Place Image'}>
           <div className="relative aspect-[21/9] rounded-[3rem] overflow-hidden shadow-2xl mb-12 group border-4 border-white dark:border-slate-800">
