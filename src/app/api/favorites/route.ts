@@ -2,7 +2,12 @@ import { createClient } from '@/lib/supabase/server'
 import { NextResponse } from 'next/server'
 
 // ============================================================================
-// GET Handler: Check if a place is saved
+// GET Handler:
+//   - When placeSlug + citySlug are present: return { isSaved }
+//   - When citySlug only is present: return that user's saved place_slugs in
+//     that city, used by CityPlacesSection.
+//   - When neither is present: return the user's full saved_places list,
+//     used by the favorites index page and the public profile page.
 // ============================================================================
 export async function GET(request: Request) {
   try {
@@ -10,38 +15,53 @@ export async function GET(request: Request) {
     const placeSlug = searchParams.get('placeSlug')
     const citySlug = searchParams.get('citySlug')
 
-    if (!placeSlug || !citySlug) {
-      return NextResponse.json(
-        { error: 'placeSlug and citySlug are required' },
-        { status: 400 }
-      )
-    }
-
     const supabase = await createClient()
-
-    const { data: { user }, error: authError } = await supabase.auth.getUser()
+    const {
+      data: { user },
+      error: authError,
+    } = await supabase.auth.getUser()
 
     if (authError || !user) {
-      // Not authenticated - return unsaved
-      return NextResponse.json({ isSaved: false })
+      if (placeSlug && citySlug) {
+        return NextResponse.json({ isSaved: false })
+      }
+      return NextResponse.json({ items: [] })
     }
 
-    // Check if saved
-    const { data, error } = await supabase
+    if (placeSlug && citySlug) {
+      const { data, error } = await supabase
+        .from('saved_places')
+        .select('id')
+        .eq('user_id', user.id)
+        .eq('place_slug', placeSlug)
+        .eq('city_slug', citySlug)
+        .maybeSingle()
+
+      if (error) {
+        console.error('GET favorites (single) error:', error)
+        return NextResponse.json({ error: error.message }, { status: 500 })
+      }
+      return NextResponse.json({ isSaved: !!data })
+    }
+
+    let listQuery = supabase
       .from('saved_places')
-      .select('id')
+      .select('id, place_slug, city_slug, created_at')
       .eq('user_id', user.id)
-      .eq('place_slug', placeSlug)
-      .eq('city_slug', citySlug)
-      .maybeSingle()
+      .order('created_at', { ascending: false })
 
-    if (error) {
-      console.error('GET favorites error:', error)
-      return NextResponse.json({ error: error.message }, { status: 500 })
+    if (citySlug) {
+      listQuery = listQuery.eq('city_slug', citySlug)
     }
 
-    return NextResponse.json({ isSaved: !!data })
+    const { data: items, error: listError } = await listQuery
 
+    if (listError) {
+      console.error('GET favorites (list) error:', listError)
+      return NextResponse.json({ error: listError.message }, { status: 500 })
+    }
+
+    return NextResponse.json({ items: items ?? [] })
   } catch (err: any) {
     console.error('GET /api/favorites error:', err)
     return NextResponse.json({ error: err.message }, { status: 500 })

@@ -1,8 +1,8 @@
 /**
- * Root middleware: locale routing + Supabase session refresh.
+ * Edge proxy: locale routing + Supabase session refresh.
  *
- * Replaces the dead `src/proxy.ts` — Next.js only executes a file named
- * `middleware.ts` (or `.js`) exporting a function named `middleware`.
+ * Next.js 16 renamed `middleware.ts` to `proxy.ts` and the exported function
+ * from `middleware` to `proxy`. Behavior is identical.
  *
  * Responsibilities (in order):
  *   1. Initialize a Supabase server client bound to the request/response cookies.
@@ -18,7 +18,7 @@ import { createServerClient } from '@supabase/ssr'
 import { NextResponse, type NextRequest } from 'next/server'
 import { LOCALES, DEFAULT_LOCALE } from '@/data/locales'
 
-export async function middleware(request: NextRequest) {
+export async function proxy(request: NextRequest) {
   let response = NextResponse.next({
     request: { headers: request.headers },
   })

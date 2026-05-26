@@ -6,23 +6,30 @@ import { checkRateLimit, RATE_LIMITS } from '@/lib/rate-limit'
 // ============================================================================
 // 🛡️ SECURITY SCHEMAS (Zod)
 // ============================================================================
+const COMMENT_MAX = 500
+
 const PostCommentSchema = z.object({
   citySlug: z.string().min(1).max(100),
   placeSlug: z.string().min(1).max(100).optional().nullable(),
   parentId: z.string().uuid().optional().nullable(),
-  // 🛡️ Content validation - React handles XSS, we just prevent abuse
-  content: z.string()
-    .min(1, "Comment cannot be empty")
-    .max(2000, "Comment is too long (max 2000 chars)")
+  content: z
+    .string()
+    .min(1, 'Comment cannot be empty')
+    .max(COMMENT_MAX, `Comment is too long (max ${COMMENT_MAX} chars)`)
     .trim(),
 })
 
 const PatchCommentSchema = z.object({
   commentId: z.string().uuid(),
-  content: z.string()
-    .min(1, "Comment cannot be empty")
-    .max(2000, "Comment is too long")
+  content: z
+    .string()
+    .min(1, 'Comment cannot be empty')
+    .max(COMMENT_MAX, `Comment is too long (max ${COMMENT_MAX} chars)`)
     .trim(),
+})
+
+const DeleteCommentSchema = z.object({
+  commentId: z.string().uuid(),
 })
 
 // ============================================================================
@@ -247,6 +254,70 @@ export async function PATCH(request: Request) {
 
   } catch (err: any) {
     console.error('PATCH /api/comments error:', err)
+    return NextResponse.json({ error: err.message }, { status: 500 })
+  }
+}
+
+// ============================================================================
+// DELETE Handler: Delete a comment (owner-only)
+// ============================================================================
+export async function DELETE(request: Request) {
+  try {
+    const supabase = await createClient()
+
+    const {
+      data: { user },
+      error: authError,
+    } = await supabase.auth.getUser()
+    if (authError || !user) {
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+    }
+
+    const { searchParams } = new URL(request.url)
+    const fromQuery = searchParams.get('commentId')
+
+    let commentId: string | undefined = fromQuery ?? undefined
+    if (!commentId) {
+      const body = await request.json().catch(() => ({}))
+      const validation = DeleteCommentSchema.safeParse(body)
+      if (!validation.success) {
+        return NextResponse.json(
+          { error: 'Invalid input', details: validation.error.format() },
+          { status: 400 }
+        )
+      }
+      commentId = validation.data.commentId
+    }
+
+    if (!commentId) {
+      return NextResponse.json(
+        { error: 'commentId is required' },
+        { status: 400 }
+      )
+    }
+
+    const { data, error: deleteError } = await supabase
+      .from('comments')
+      .delete()
+      .eq('id', commentId)
+      .eq('user_id', user.id)
+      .select('id')
+
+    if (deleteError) {
+      console.error('Delete error:', deleteError)
+      return NextResponse.json({ error: deleteError.message }, { status: 500 })
+    }
+
+    if (!data || data.length === 0) {
+      return NextResponse.json(
+        { error: 'Comment not found or unauthorized' },
+        { status: 404 }
+      )
+    }
+
+    return NextResponse.json({ ok: true, id: data[0].id })
+  } catch (err: any) {
+    console.error('DELETE /api/comments error:', err)
     return NextResponse.json({ error: err.message }, { status: 500 })
   }
 }

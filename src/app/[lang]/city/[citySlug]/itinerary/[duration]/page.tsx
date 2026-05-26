@@ -11,6 +11,13 @@ import type { City, Place } from '@/types'
 import { EnhancedPlaceCard } from '@/components/features/EnhancedPlaceCard'
 import { getDict } from '@/data/dictionaries'
 import { getCityData } from '@/lib/getCityData'
+import { langCityItineraryParams } from '@/lib/staticParams'
+
+export const dynamicParams = false
+
+export async function generateStaticParams() {
+  return langCityItineraryParams()
+}
 
 // ============================================================================
 // LOCAL TRANSLATION DICTIONARY

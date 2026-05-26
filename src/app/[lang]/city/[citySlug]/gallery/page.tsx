@@ -11,6 +11,13 @@ import type { Metadata } from 'next'
 import type { City, Place } from '@/types'
 import { AdsterraDisplay } from '@/components/ads/AdsterraEngine'
 import { getCityData } from '@/lib/getCityData'
+import { langCityParams } from '@/lib/staticParams'
+
+export const dynamicParams = false
+
+export async function generateStaticParams() {
+  return langCityParams()
+}
 
 // ============================================================================
 // LOCAL TRANSLATION DICTIONARY

@@ -23,6 +23,13 @@ import { PLACE_FAQS } from '@/data/place_faqs'
 import { SEO_DICTIONARY, type SEOLang } from '@/data/seo-dictionary'
 import { getPlaceImages } from '@/lib/getPlaceImages'
 import { isLocale } from '@/data/locales'
+import { langCityPlaceParams } from '@/lib/staticParams'
+
+export const dynamicParams = false
+
+export async function generateStaticParams() {
+  return langCityPlaceParams()
+}
 
 interface PageProps {
   params: Promise<{ lang: string; citySlug: string; placeSlug: string }>

@@ -15,6 +15,13 @@ import { EnhancedPlaceCard } from '@/components/features/EnhancedPlaceCard'
 import { getDict } from '@/data/dictionaries'
 import { AdsterraDisplay } from '@/components/ads/AdsterraEngine'
 import { getCityData } from '@/lib/getCityData'
+import { langCityCategoryParams } from '@/lib/staticParams'
+
+export const dynamicParams = false
+
+export async function generateStaticParams() {
+  return langCityCategoryParams()
+}
 
 // ============================================================================
 // NATIVE AD PLACEHOLDER COMPONENT

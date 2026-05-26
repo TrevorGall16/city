@@ -36,16 +36,26 @@ export default async function UserProfile({ params }: PageProps) {
     notFound()
   }
 
-  // Fetch "Saved Places" (Favorites)
+  // Fetch saved places from the canonical `saved_places` table.
   const { data: savedPlaces } = await supabase
-    .from('favorites') // 🎯 Note: Changed from 'saved_places' to 'favorites' to match your previous logic
-    .select('*')
+    .from('saved_places')
+    .select('id, place_slug, city_slug, created_at')
     .eq('user_id', userId)
     .order('created_at', { ascending: false })
 
   // Check if we are viewing our own profile
   const { data: { user: currentUser } } = await supabase.auth.getUser()
   const isOwnProfile = currentUser?.id === userId
+
+  // Fallback chain: profiles.avatar_url -> Google OAuth user_metadata.avatar_url
+  // (auth metadata is only available for the *current* user, so the OAuth
+  // fallback only kicks in when you view your own profile).
+  const googleAvatar = isOwnProfile
+    ? (currentUser?.user_metadata?.avatar_url ||
+        currentUser?.user_metadata?.picture ||
+        null)
+    : null
+  const avatarUrl = profile.avatar_url || googleAvatar
 
   // Helper: Format Country Flag - PRESERVED
   const getFlagEmoji = (countryCode: string) => {
@@ -66,8 +76,8 @@ export default async function UserProfile({ params }: PageProps) {
             <div className="relative flex justify-between items-end -mt-12 mb-6">
               {/* Avatar */}
               <div className="w-24 h-24 rounded-full border-4 border-white dark:border-slate-900 bg-slate-200 overflow-hidden relative">
-                {profile.avatar_url ? (
-                  <Image src={profile.avatar_url} alt={profile.display_name} fill className="object-cover" />
+                {avatarUrl ? (
+                  <Image src={avatarUrl} alt={profile.display_name} fill className="object-cover" />
                 ) : (
                   <div className="w-full h-full bg-indigo-100 dark:bg-indigo-900 flex items-center justify-center text-3xl font-bold text-indigo-600 dark:text-indigo-300">
                     {profile.display_name?.[0]?.toUpperCase() || '?'}

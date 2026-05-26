@@ -8,7 +8,6 @@
 import { useState, useEffect } from 'react'
 import { EnhancedPlaceCard } from './EnhancedPlaceCard'
 import { CategoryFilter, type FilterCategory } from './CategoryFilter'
-import { createClient } from '@/lib/supabase/client'
 import type { Place } from '@/types'
 
 interface CityPlacesSectionProps {
@@ -41,67 +40,45 @@ export function CityPlacesSection({
   sectionTitle,
   sectionId,
   accentText,
-  lang, // ✅ FIXED: Added 'lang' here so it is defined!
-  dict, // 🎯 ADD THIS: This picks up the prop so the red error goes away!
+  lang,
+  dict,
 }: CityPlacesSectionProps) {
-  const supabase = createClient()
   const [activeFilter, setActiveFilter] = useState<FilterCategory>('all')
-  const [favorites, setFavorites] = useState<string[]>([])
+  const [favoriteSlugs, setFavoriteSlugs] = useState<string[]>([])
 
-  // Extract available tags from the data
   const availableTags = extractAvailableTags(places)
   const headerColor = accentText || 'text-indigo-900 dark:text-white'
 
-  // Load favorites from database
   useEffect(() => {
+    let cancelled = false
+
     async function loadFavorites() {
-      const {
-        data: { user },
-      } = await supabase.auth.getUser()
-
-      if (user) {
-        const { data } = await supabase
-          .from('favorites')
-          .select('place_id')
-          .eq('user_id', user.id)
-
-        if (data) {
-          setFavorites(data.map((fav) => fav.place_id))
-        }
+      try {
+        const url = new URL('/api/favorites', window.location.origin)
+        url.searchParams.set('citySlug', citySlug)
+        const res = await fetch(url.toString(), { credentials: 'include' })
+        if (!res.ok) return
+        const payload = await res.json()
+        if (cancelled) return
+        const slugs = Array.isArray(payload.items)
+          ? payload.items.map((item: any) => item.place_slug).filter(Boolean)
+          : []
+        setFavoriteSlugs(slugs)
+      } catch {
+        // silent — favorites UI is a progressive enhancement
       }
     }
 
     loadFavorites()
-  }, [supabase])
+    return () => {
+      cancelled = true
+    }
+  }, [citySlug])
 
-  // Re-check favorites periodically (in case they change)
-  useEffect(() => {
-    const interval = setInterval(async () => {
-      const {
-        data: { user },
-      } = await supabase.auth.getUser()
-
-      if (user) {
-        const { data } = await supabase
-          .from('favorites')
-          .select('place_id')
-          .eq('user_id', user.id)
-
-        if (data) {
-          setFavorites(data.map((fav) => fav.place_id))
-        }
-      }
-    }, 2000)
-
-    return () => clearInterval(interval)
-  }, [supabase])
-
-  // Filter places based on active filter
   const filteredPlaces = places.filter((place) => {
     if (activeFilter === 'all') return true
-    if (activeFilter === 'favorites') return favorites.includes(place.id)
+    if (activeFilter === 'favorites') return favoriteSlugs.includes(place.slug)
 
-    // Use the specific category tag from the data
     return place.category && place.category.toLowerCase() === activeFilter.toLowerCase()
   })
 

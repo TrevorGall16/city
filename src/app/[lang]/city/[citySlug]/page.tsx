@@ -32,6 +32,13 @@
   import { getAvailableLanguages } from '@/lib/getAvailableLanguages'
   import { SEO_DICTIONARY, type SEOLang } from '@/data/seo-dictionary'
   import { isLocale } from '@/data/locales'
+  import { langCityParams } from '@/lib/staticParams'
+
+  export const dynamicParams = false
+
+  export async function generateStaticParams() {
+    return langCityParams()
+  }
 
   interface PageProps {
     params: Promise<{ lang: string; citySlug: string }>

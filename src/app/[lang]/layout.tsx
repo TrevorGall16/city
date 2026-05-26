@@ -18,6 +18,10 @@ import { AvailableLanguagesProvider } from '@/context/AvailableLanguagesContext'
 import { getDict } from '@/data/dictionaries' // 🎯 REQUIRED IMPORT
 import { LOCALES } from '@/data/locales'
 
+export function generateStaticParams() {
+  return LOCALES.map((lang) => ({ lang }))
+}
+
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-sans',

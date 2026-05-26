@@ -47,25 +47,35 @@ export function CommentThread({ citySlug, placeSlug, lang, dict }: CommentThread
 
   const handlePostComment = async () => {
     if (!user) {
-      // ✅ Fallback string if dictionary key is missing
       toast.error(d.login_to_comment || 'Please log in to comment')
       return
     }
-    if (!newComment.trim()) return
+    const trimmed = newComment.trim()
+    if (!trimmed) return
+    if (trimmed.length > 500) {
+      toast.error('Comment is too long (max 500 chars)')
+      return
+    }
     setIsPosting(true)
     try {
-      const { error } = await supabase.from('comments').insert({
-        content: newComment,
-        city_slug: citySlug,
-        place_slug: placeSlug || null,
-        user_id: user.id
+      const res = await fetch('/api/comments', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          content: trimmed,
+          citySlug,
+          placeSlug: placeSlug || null,
+        }),
       })
-      if (error) throw error
+      if (!res.ok) {
+        const payload = await res.json().catch(() => ({}))
+        throw new Error(payload.error || 'Failed to post comment')
+      }
       setNewComment('')
       toast.success('Comment posted!')
       fetchData()
-    } catch (error) {
-      toast.error('Failed to post comment')
+    } catch (error: any) {
+      toast.error(error?.message || 'Failed to post comment')
     } finally {
       setIsPosting(false)
     }
@@ -85,10 +95,20 @@ export function CommentThread({ citySlug, placeSlug, lang, dict }: CommentThread
   }
 
   const handleEdit = async (commentId: string, newContent: string) => {
+    const trimmed = newContent.trim()
+    if (!trimmed) return
+    if (trimmed.length > 500) {
+      toast.error('Comment is too long (max 500 chars)')
+      return
+    }
     try {
-      const res = await fetch('/api/comments', { method: 'PATCH', body: JSON.stringify({ commentId, content: newContent }) })
+      const res = await fetch('/api/comments', {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ commentId, content: trimmed }),
+      })
       if (!res.ok) throw new Error('Failed to update')
-      setComments(prev => updateContentInTree(prev, commentId, newContent))
+      setComments(prev => updateContentInTree(prev, commentId, trimmed))
       toast.success('Comment updated')
     } catch { toast.error('Failed to edit') }
   }
@@ -96,11 +116,20 @@ export function CommentThread({ citySlug, placeSlug, lang, dict }: CommentThread
   const handleDelete = async (commentId: string) => {
     if (!confirm('Are you sure?')) return
     try {
-      const { error } = await supabase.from('comments').delete().eq('id', commentId)
-      if (error) throw error
+      const res = await fetch('/api/comments', {
+        method: 'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ commentId }),
+      })
+      if (!res.ok) {
+        const payload = await res.json().catch(() => ({}))
+        throw new Error(payload.error || 'Failed to delete')
+      }
       setComments(prev => removeCommentFromTree(prev, commentId))
       toast.success('Comment deleted')
-    } catch { toast.error('Failed to delete') }
+    } catch (error: any) {
+      toast.error(error?.message || 'Failed to delete')
+    }
   }
 
   const handleReport = async (commentId: string) => {

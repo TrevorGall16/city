@@ -10,9 +10,22 @@ import Link from 'next/link'
 import { ArrowLeft, ExternalLink, Info } from 'lucide-react'
 import * as Icons from 'lucide-react'
 import { Suspense } from 'react'
+import { langCityInfoParams } from '@/lib/staticParams'
+
+export const dynamicParams = false
+
+export async function generateStaticParams() {
+  return langCityInfoParams()
+}
 
 interface PageProps {
   params: Promise<{ lang: string; citySlug: string; topicSlug: string }>
+}
+
+function normalizeLogistics(value: unknown): any[] {
+  if (Array.isArray(value)) return value
+  if (value && typeof value === 'object') return [value]
+  return []
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -20,7 +33,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const city = await getCityData(citySlug, lang)
   if (!city) return { title: 'City Not Found' }
 
-  const topic = city.logistics.find((t: any) => t.slug === topicSlug)
+  const topic = normalizeLogistics(city.logistics).find(
+    (t: any) => t?.slug === topicSlug
+  )
   if (!topic) return { title: 'Topic Not Found' }
 
   return {
@@ -38,7 +53,9 @@ export default async function InfoTopicPage({ params }: PageProps) {
   const city = await getCityData(citySlug, lang)
   if (!city) notFound()
 
-  const topic = city.logistics.find((t: any) => t.slug === topicSlug)
+  const topic = normalizeLogistics(city.logistics).find(
+    (t: any) => t?.slug === topicSlug
+  )
   if (!topic) notFound()
 
   const IconComponent = (Icons[topic.icon as keyof typeof Icons] || Info) as any

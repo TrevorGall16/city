@@ -19,9 +19,8 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
     }
 
-    // 2. Rate Limit (Uses your src/lib/rate-limit.ts)
-    // Note: We check 'comment_reports' table
-    const isRateLimited = await checkRateLimit(supabase, user.id, 'comment_reports', RATE_LIMITS.REPORT, 'reporter_id')
+    // 2. Rate Limit (via centralized rate_limit_attempts ledger)
+    const isRateLimited = await checkRateLimit(supabase, user.id, 'reports', RATE_LIMITS.REPORT)
     if (isRateLimited) {
       return NextResponse.json(
         { error: 'You are reporting too frequently. Please wait.' },
