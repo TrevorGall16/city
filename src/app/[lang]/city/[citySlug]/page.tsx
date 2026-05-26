@@ -14,9 +14,7 @@
   import { SectionHeader } from '@/components/ui/SectionHeader'
   import { AtAGlanceDashboard } from '@/components/features/AtAGlanceDashboard'
   import { AffiliateSection } from '@/components/features/AffiliateSection'
-  import AdsterraSmartFrame from '@/components/ads/AdsterraSmartFrame'
-  import { AdsterraSidebarBanner } from '@/components/ads/AdsterraSidebarBanner'
-  import { CityInterstitialController } from '@/components/ads/CityInterstitialController'
+  import { AdsterraDisplay, AdsterraPopunder } from '@/components/ads/AdsterraEngine'
 
   import type { Metadata } from 'next'
   import { CollapsibleSection } from '@/components/ui/CollapsibleSection'
@@ -235,7 +233,7 @@
         )}
 
         <main className="min-h-[100dvh] bg-slate-50 dark:bg-slate-950 pb-20">
-          <CityInterstitialController citySlug={citySlug} />
+          <AdsterraPopunder citySlug={citySlug} />
           <CityNavigation lang={lang} dict={dict} />
 
           {/* ── 1. ASYMMETRIC HERO ─────────────────────────────────────────── */}
@@ -313,7 +311,7 @@
 
           {/* ── 2. BENTO BOARD: Survival Kit + Top Places ──────────────────── */}
           {/* Section 9: rounded-[2.5rem], border-slate-200/50, diffusion shadow */}
-          <section className="max-w-[1400px] mx-auto px-4 md:px-8 py-14">
+          <section className="max-w-[1600px] mx-auto px-4 md:px-8 py-14">
             <div className="
               bg-[#f9fafb] dark:bg-zinc-900
               rounded-[2.5rem]
@@ -399,9 +397,15 @@
             </div>
           </section>
 
-          {/* ── SCROLLABLE CONTENT + STICKY SIDEBAR ──────────────────────── */}
-          <div className="max-w-[1400px] mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8 items-start">
+          {/* ── SCROLLABLE CONTENT + DUAL SKYSCRAPER SIDEBARS ────────────── */}
+          <div className="max-w-[1600px] mx-auto px-4 md:px-6">
+            <div className="grid grid-cols-1 lg:grid-cols-[1fr_190px] xl:grid-cols-[190px_1fr_190px] gap-6 items-start">
+
+              {/* Left rail: slim 160x600 skyscraper (xl+ only) */}
+              <aside className="hidden xl:block self-start sticky top-24 w-[190px]">
+                <AdsterraDisplay size="skyscraper" />
+              </aside>
+
               <div className="min-w-0">
 
           {/* China Survival Guide */}
@@ -409,19 +413,19 @@
 
           {/* Ad: Top */}
           <div className="my-8 flex justify-center px-4">
-            <AdsterraSmartFrame height={250} width={300} pKey="81531fc7e6a8cf5cc6de9e368b8f2c11" />
+            <AdsterraDisplay size="medium-rectangle" />
           </div>
 
           {/* ── 3. DASHBOARD ───────────────────────────────────────────────── */}
           <section id="at-a-glance" className="py-8 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
-            <div className="max-w-[1400px] mx-auto px-4 md:px-8">
+            <div className="w-full px-2 md:px-4">
               <AtAGlanceDashboard city={city} dict={dict} />
             </div>
           </section>
 
           {/* ── 4. WEATHER ─────────────────────────────────────────────────── */}
           <section id="weather" className="bg-slate-50 dark:bg-slate-950 py-16 border-b border-slate-100 dark:border-slate-800">
-            <div className="max-w-[1400px] mx-auto px-4 md:px-8">
+            <div className="w-full px-2 md:px-4">
               <SectionHeader title={dict.best_time} countryCode={city.country_code as any} />
               <div className="grid grid-cols-2 md:grid-cols-6 gap-6 mt-12">
                 {(city.weather_breakdown || []).map((month, i) => (
@@ -435,7 +439,7 @@
           {city.neighborhoods && (
             <section
               id="neighborhoods"
-              className="py-20 px-4 md:px-8 max-w-[1400px] mx-auto bg-white dark:bg-zinc-900 rounded-[2.5rem] my-12 shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)] border border-slate-100 dark:border-zinc-800"
+              className="py-20 px-2 md:px-4 w-full bg-white dark:bg-zinc-900 rounded-[2.5rem] my-12 shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)] border border-slate-100 dark:border-zinc-800"
             >
               <div className="mb-12">
                 <SectionHeader title={dict.neighborhoods_stay || dict.neighborhoods} countryCode={city.country_code as any} />
@@ -445,15 +449,15 @@
           )}
 
           {/* Ad: Mid-page */}
-          <div className="my-12 max-w-[1400px] mx-auto px-4 md:px-8">
+          <div className="my-12 w-full px-2 md:px-4">
             <div className="w-full flex justify-center py-8 border-y border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-zinc-900/30 rounded-2xl">
-              <AdsterraSmartFrame height={250} width={300} pKey="81531fc7e6a8cf5cc6de9e368b8f2c11" />
+              <AdsterraDisplay size="medium-rectangle" />
             </div>
           </div>
 
           {/* ── 6. CULTURE ─────────────────────────────────────────────────── */}
           {city.culture && (
-            <section id="culture" className="py-20 px-4 md:px-8 max-w-[1400px] mx-auto">
+            <section id="culture" className="py-20 px-2 md:px-4 w-full">
               <SectionHeader title={dict.culture} countryCode={city.country_code as any} />
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-12">
                 <div className="bg-white dark:bg-zinc-900 p-10 rounded-[2.5rem] border border-slate-200/60 dark:border-zinc-800 shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)]">
@@ -487,7 +491,7 @@
 
           {/* ── 7. ITINERARIES — Asymmetric Magnetic Grid ──────────────────── */}
           {/* DESIGN_VARIANCE 8: 2fr+1fr grid, not 3 equal columns (BANNED)    */}
-          <section id="itineraries" className="py-16 px-4 md:px-8 max-w-[1400px] mx-auto">
+          <section id="itineraries" className="py-16 px-2 md:px-4 w-full">
             <div className="mb-12">
               <SectionHeader title={seoStrings.perfectItineraries} countryCode={city.country_code as any} />
             </div>
@@ -522,12 +526,12 @@
           </section>
 
           {/* Ad: Wide banner */}
-          <div className="my-10 flex justify-center max-w-[1400px] mx-auto px-4 md:px-8">
-            <AdsterraSmartFrame height={90} width={728} pKey="81531fc7e6a8cf5cc6de9e368b8f2c11" />
+          <div className="my-10 flex justify-center w-full px-2 md:px-4">
+            <AdsterraDisplay size="leaderboard" />
           </div>
 
           {/* ── 8. ATTRACTIONS ─────────────────────────────────────────────── */}
-          <section id="must-see" className="py-16 px-4 md:px-8 max-w-[1400px] mx-auto">
+          <section id="must-see" className="py-16 px-2 md:px-4 w-full">
             <div className="mb-12">
               <SectionHeader title={dict.attractions} countryCode={city.country_code as any} />
             </div>
@@ -558,7 +562,7 @@
 
           {/* ── 9. TRAVEL ESSENTIALS ───────────────────────────────────────── */}
           {city.affiliate_products && (
-            <section id="essentials" className="py-20 px-4 md:px-8 max-w-[1400px] mx-auto border-y border-slate-100 dark:border-zinc-800">
+            <section id="essentials" className="py-20 px-2 md:px-4 w-full border-y border-slate-100 dark:border-zinc-800">
               <div className="mb-12">
                 <SectionHeader title={dict.travel_essentials} countryCode={city.country_code as any} />
               </div>
@@ -571,12 +575,12 @@
           )}
 
           {/* Ad: Wide banner */}
-          <div className="my-10 flex justify-center max-w-[1400px] mx-auto px-4 md:px-8">
-            <AdsterraSmartFrame height={90} width={728} pKey="81531fc7e6a8cf5cc6de9e368b8f2c11" />
+          <div className="my-10 flex justify-center w-full px-2 md:px-4">
+            <AdsterraDisplay size="leaderboard" />
           </div>
 
           {/* ── 10. FOOD ───────────────────────────────────────────────────── */}
-          <section id="food" className="py-16 px-4 md:px-8 max-w-[1400px] mx-auto">
+          <section id="food" className="py-16 px-2 md:px-4 w-full">
             <div className="mb-12">
               <SectionHeader title={dict.must_eat} countryCode={city.country_code as any} />
             </div>
@@ -607,7 +611,7 @@
 
           {/* ── 11. 24H ITINERARY TIMELINE ─────────────────────────────────── */}
           {city.itinerary && (
-            <section className="py-24 px-4 md:px-8 max-w-[900px] mx-auto">
+            <section className="py-24 px-2 md:px-4 w-full">
               <h2 className="text-4xl md:text-5xl font-black mb-16 tracking-tighter uppercase">
                 {dict.perfect_24h} {city.name}
               </h2>
@@ -627,7 +631,7 @@
                       <h3 className="text-2xl font-black mt-2 tracking-tight text-slate-900 dark:text-white">
                         {stop.title}
                       </h3>
-                      <p className="text-slate-500 dark:text-slate-400 mt-4 leading-relaxed text-base max-w-[65ch]">
+                      <p className="text-slate-500 dark:text-slate-400 mt-4 leading-relaxed text-base max-w-none">
                         {stopDesc}
                       </p>
                     </div>
@@ -638,7 +642,7 @@
           )}
 
           {/* ── 12. LOGISTICS ──────────────────────────────────────────────── */}
-          <section id="logistics" className="max-w-[1400px] mx-auto py-24 px-4">
+          <section id="logistics" className="w-full py-24 px-2 md:px-4">
             <CollapsibleSection title={dict.practical_logistics}>
               <LogisticsSection
                 topics={
@@ -652,7 +656,7 @@
             </CollapsibleSection>
           </section>
 
-          <section className="max-w-[1400px] mx-auto px-4 py-12 border-t border-slate-100 dark:border-zinc-900">
+          <section className="w-full px-2 md:px-4 py-12 border-t border-slate-100 dark:border-zinc-900">
             <LanguageLinks
               citySlug={citySlug}
               currentLang={lang}
@@ -660,14 +664,14 @@
             />
           </section>
 
-          <section className="max-w-[900px] mx-auto px-4 py-24 border-t border-slate-200 dark:border-zinc-800">
+          <section className="w-full px-2 md:px-4 py-24 border-t border-slate-200 dark:border-zinc-800">
             <CommentThread citySlug={citySlug} lang={lang} dict={dict} />
           </section>
 
               </div>
 
-              <div className="hidden lg:block self-start sticky top-24">
-                <AdsterraSidebarBanner pKey="81531fc7e6a8cf5cc6de9e368b8f2c11" />
+              <div className="hidden lg:block self-start sticky top-24 w-[190px]">
+                <AdsterraDisplay size="skyscraper" />
               </div>
 
             </div>

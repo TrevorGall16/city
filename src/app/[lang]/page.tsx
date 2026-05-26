@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import { Suspense } from 'react'
 import { HomePageClient } from '@/components/pages/HomePageClient'
-import AdsterraBanner from '@/components/ads/AdsterraBanner'
+import { AdsterraDisplay } from '@/components/ads/AdsterraEngine'
 import { getDict } from '@/data/dictionaries'
 import { getAllCities } from '@/lib/getCityData'
 import { LOCALES } from '@/data/locales'
@@ -36,7 +36,7 @@ export default async function HomePage({ params }: HomeProps) {
     <div dir={lang === 'ar' ? 'rtl' : 'ltr'}>
       <Suspense fallback={<div className="min-h-screen bg-slate-50" />}>
         <div className="max-w-7xl mx-auto px-4 pt-6 flex justify-center">
-           <AdsterraBanner height={90} width={728} pKey="258fbd7f9475277565c29c04ed1299f6" />
+           <AdsterraDisplay size="leaderboard" />
         </div>
 
         <HomePageClient 

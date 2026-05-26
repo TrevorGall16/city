@@ -9,7 +9,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import type { Metadata } from 'next'
 import type { City, Place } from '@/types'
-import AdsterraSmartFrame from '@/components/ads/AdsterraSmartFrame'
+import { AdsterraDisplay } from '@/components/ads/AdsterraEngine'
 import { getCityData } from '@/lib/getCityData'
 
 // ============================================================================
@@ -349,11 +349,7 @@ export default async function GalleryPage({ params }: PageProps) {
                 <span className="text-[10px] font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500 mb-4">
                   {localDict.sponsored}
                 </span>
-                <AdsterraSmartFrame
-                  height={250}
-                  width={300}
-                  pKey="81531fc7e6a8cf5cc6de9e368b8f2c11"
-                />
+                <AdsterraDisplay size="medium-rectangle" />
               </div>
             )
           )}

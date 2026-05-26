@@ -13,7 +13,7 @@ import { Toaster } from 'sonner'
 import '@/app/globals.css'
 import type { Metadata } from 'next'
 import { CookieConsent } from '@/components/features/CookieConsent'
-import { AdblockDetector } from '@/components/ads/AdblockDetector'
+import { AdblockModal } from '@/components/ads/AdsterraEngine'
 import { AvailableLanguagesProvider } from '@/context/AvailableLanguagesContext'
 import { getDict } from '@/data/dictionaries' // 🎯 REQUIRED IMPORT
 import { LOCALES } from '@/data/locales'
@@ -99,7 +99,7 @@ export default async function RootLayout({
 
             <Footer />
             <CookieConsent />
-            <AdblockDetector />
+            <AdblockModal />
             </AvailableLanguagesProvider>
           </AuthProvider>
         </ThemeProvider>

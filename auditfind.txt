@@ -1,0 +1,100 @@
+nthesis complete. Compiling the audit.
+
+  - [CRITICAL] src/proxy.ts is dead code — it exports a function named proxy but Next.js only executes a file literally named middleware.ts (or .js) at the project root or src/. Recent commit 8f47022 Delete middleware.ts removed the real middleware. Consequences in
+  production: (1) bare-path requests like /, /about, /contact are NOT redirected to /en/..., so they 404 because there is no src/app/page.tsx (only src/app/[lang]/page.tsx); (2) Supabase session is never refreshed across requests — await supabase.auth.getUser() in
+  proxy.ts never runs, so logged-in users silently lose their session on token expiry; (3) Accept-Language detection and locale fallback are gone; (4) the bespoke "copy auth cookies onto redirect" logic is gone. The whole login + locale story is broken.
+  - [CRITICAL] No generateStaticParams exists anywhere under src/app/ and next.config.js does not set output: 'export', yet netlify.toml disables the Next runtime plugin (NETLIFY_USE_NEXTJS_RUNTIME = "false", NETLIFY_NEXTPRO_SKIP_PLUGIN = "true") and publishes .next
+  directly. City pages, place pages, gallery, itineraries, lists, comments API, etc. are all dynamic SSR routes with no server runtime to invoke them. The deploy serves only static assets out of .next/static, so the entire content surface (cities, places, itineraries)
+  is non-functional in production — none of those pages can render. The image-manifest/sitemap workflow is irrelevant if the routes don't exist.
+  - [CRITICAL] public/images backup/ is 1.3 GB and is being uploaded with every Netlify deploy (it sits inside publish = ".next"'s sibling public/, which Next copies to .next/static / served at root). Build times balloon, bandwidth costs balloon, and at Netlify's
+  per-deploy file caps the deploy can fail outright.
+  - [CRITICAL] src/components/features/CommentThread.tsx bypasses the secured API for POST (supabase.from('comments').insert(...) at line 57) and DELETE (supabase.from('comments').delete() at line 99) — so the Zod validation (PostCommentSchema capping at 2000 chars +
+  .trim()), the 1-comment-per-minute rate limit in checkRateLimit, and the auth flow in src/app/api/comments/route.ts are all skipped client-side. The only remaining guardrails are the RLS comments_insert_policy (auth.uid = user_id) and the DB CHECK constraint
+  (char_length(content) <= 500). PATCH, vote, and report use the API; insert/delete don't. Inconsistent threat model — and the rate-limit table approach can't catch this since the rows are still inserted by the same user.
+  - [CRITICAL] Comment length contract is misaligned between client and DB: PostCommentSchema allows up to 2000 chars (src/app/api/comments/route.ts:14-17), but schema.sql:69 enforces char_length(content) <= 500. Any 501–2000 char comment that goes through the API will
+  pass Zod, hit the DB, and return a 500 to the user.
+  - [CRITICAL] Vote rate-limiting in src/app/api/votes/route.ts is structurally broken. checkRateLimit counts rows in the votes table for the user with created_at >= now-5s. But the route uses upsert on (user_id, comment_id) — re-voting (toggling +1↔−1) UPDATES the
+  existing row without changing created_at, so the count stays at whatever the user's first-vote-per-comment-in-window was. A user can flip the same vote thousands of times per second with zero rate-limit hit, breaking the vote_count consistency via the trigger in
+  migrations/004_add_vote_count_and_triggers.sql.
+  - [CRITICAL] Italian dictionary entries best_time_label, currency_label, language_label, cheat_sheet_title, screenshot_tip, watch_out_title, eat_priority_title, local_rules_title, logistics_check_title (src/data/dictionaries.ts:251-259) are Spanish, not Italian
+  (copy-paste from the es block). Italian users see Spanish words for the cheat-sheet labels.
+  - [CRITICAL] Two completely disconnected favorites systems coexist: favorites table (migration 003_add_profile_fields_and_favorites.sql, keyed on place_id) vs saved_places table (migration 006_create_saved_places_table.sql, keyed on place_slug+city_slug). The POST
+  /api/favorites route writes to saved_places, but src/app/[lang]/users/[userId]/page.tsx:41 reads from favorites. User profiles will never show what users save.
+  - [CRITICAL] Sensitive cruft committed in repo root: tmpclaude-03b7-cwd through tmpclaude-f2a9-cwd (7 files) and et --hard HEAD~2 (a captured git log output from a typo'd git reset command). All are tracked in git per git ls-files. Not secrets, but et --hard HEAD~2
+  leaks the repo branch graph and commit messages publicly. .env is correctly gitignored — verified — so secrets are safe.
+  - [HIGH] src/utils/supabase/server.ts is completely unreferenced (no from '@/utils/supabase/server' imports anywhere). It uses the modern getAll/setAll cookie adapter (correct for @supabase/ssr ≥ 0.5), while src/lib/supabase/server.ts — used by every API route — still
+   uses the deprecated get/set/remove adapter. Delete the dead module or migrate everything to it; don't keep both.
+  - [HIGH] @supabase/auth-helpers-nextjs (^0.15.0) in package.json is never imported (grep -rn "auth-helpers-nextjs" src/ is empty). Legacy dependency adding ~150 KB to node_modules and a deprecation footgun.
+  - [HIGH] src/components/providers/AuthProvider.tsx calls createClient() on every render (line 29) and lists supabase.auth as a useEffect dependency. createBrowserClient returns a new object each call, so the effect re-subscribes to onAuthStateChange on every render —
+  leaking subscriptions and risking duplicate event handling. Should be memoized via useMemo/useState initializer.
+  - [HIGH] src/components/providers/AuthProvider.tsx:36-37 uses supabase.auth.getSession() (reads cookie without server validation) instead of supabase.auth.getUser() (verifies JWT). Supabase explicitly warns that getSession() can return a "logged-in" user even when the
+   token has been revoked; this is the path that decides whether HeaderAuth shows the login button or the avatar.
+  - [HIGH] src/components/features/EnhancedPlaceCard.tsx sets priority={true} on EVERY card image. With grids of 6–30+ places per city, Next.js preloads dozens of below-the-fold images, tanking LCP and wasting transfer. Priority should be true only for above-the-fold
+  images (e.g., first card).
+  - [HIGH] src/lib/fonts/cityFonts.ts instantiates 11 next/font/google font configurations at module load. Even with preload: false, each city page that imports cityFonts.ts triggers Next.js to bundle CSS for all 11 fonts when the module is referenced (the cityFontMap
+  keeps live references to every one). Net effect: each city page ships up to 11 webfont CSS declarations.
+  - [HIGH] src/lib/getAvailableLanguages.ts runs synchronous fs.existsSync 8 times per request and is NOT wrapped in react.cache(). Called inside [citySlug]/layout.tsx. Compounds with the missing generateStaticParams — every request hits the disk 8 times for the same
+  data.
+  - [HIGH] City page src/app/[lang]/city/[citySlug]/page.tsx:39 defines a local SUPPORTED_LANGS of 8 locales (no zh) but the constant is never referenced anywhere in the file. The actual alternates.languages block (lines 80–90) emits 9 locales including zh. The "8 vs 9
+  locale divergence" called out in the prompt is purely the dead constant; the live hreflang IS 9 locales.
+  - [HIGH] Neither src/app/[lang]/city/[citySlug]/page.tsx nor [placeSlug]/page.tsx validates lang against the supported list. With middleware dead (see top finding), /abc/city/paris renders the English city via getCityData's English fallback. Unlimited
+  duplicate-content URLs available to any crawler that probes — and they'll all return 200, advertising themselves via the same canonical/hreflang block.
+  - [HIGH] npm run build runs next build but does NOT run node scripts/validate-data.js. Malformed city JSON ships silently; the only safeguard is getCityData swallowing JSON.parse errors and falling back to English. Docs claim build should fail; it does not.
+  - [HIGH] src/app/[lang]/city/[citySlug]/[placeSlug]/page.tsx:164 has hasMap: ...?q=$${place.geo.lat},${place.geo.lng} — note the double $$. The emitted JSON-LD hasMap URL is https://www.google.com/maps?q=$<lat>,<lng> — literally a $ character then coordinates. Google
+  ignores the broken structured-data link.
+  - [HIGH] src/app/[lang]/error.tsx:62 renders error.message to end users unconditionally — exposes internal error strings (stack traces, table names, Supabase error codes, file paths) in production. Should be gated on process.env.NODE_ENV !== 'production'.
+  - [HIGH] No /auth/auth-code-error route exists (only src/app/auth/callback/ is present). The callback at src/app/auth/callback/route.ts:47 redirects there on OAuth failure → users see a generic 404 instead of a recoverable error page.
+  - [HIGH] src/components/features/CommentThread.tsx:79 does optimistic vote UI: vote_count + delta where delta = value (always ±1). When the user already voted +1 and clicks +1 again, the server's upsert keeps the row at +1 (no change in stored sum) but the client
+  increments to +2. Vote display drifts from DB until a refresh.
+  - [HIGH] src/components/features/CommentThread.tsx:109 and CommentItem.tsx handleReport hardcodes reason: 'Reported' — moderation reports carry no information. The ReportSchema allows up to 500 chars but the UI never collects one.
+  - [HIGH] next.config.js:9 sets images.dangerouslyAllowSVG: true with a tight script-src 'none'; sandbox; CSP, and images.remotePatterns allows images.unsplash.com + **.supabase.co. The CSP mitigates script execution inside SVGs, but the SVG can still phone home via
+  external <image href="..."> resources and leak via referer. Acceptable IF Supabase Storage objects you serve are admin-uploaded; if user-uploaded avatars are routed through next/image, an attacker can upload a tracking-pixel SVG.
+  - [MEDIUM] src/components/ads/AdsterraSmartFrame.tsx uses document.write() inside a dynamically created iframe and runs after hydration. The container has minHeight: height set, so CLS is mostly mitigated, but the ad script injects via document.write inside the iframe
+   — Lighthouse will still flag it. Ads also load on useEffect, so they aren't gated by the cookie consent banner (CookieConsent component exists separately). GDPR violation for EU/UK visitors.
+  - [MEDIUM] Emojis are baked into the codebase despite SKILL.md's absolute ban: country flags in src/components/pages/HomePageClient.tsx:17-22 (COUNTRY_FLAGS), language flags in src/components/ui/LanguageSelector.tsx:9-19, getFlagEmoji in
+  src/app/[lang]/users/[userId]/page.tsx:51-56, and 📸 in screenshot_tip strings across all 9 locales in src/data/dictionaries.ts. Either the rule needs reconciliation or these need to ship as Phosphor icons.
+  - [MEDIUM] Tailwind config (tailwind.config.ts:6-10) only scans ./src/..., but a components/ directory exists at repo root with LanguageSelector.tsx, Toast.tsx, and components/ui/ — any classes there would not be generated. Confirmed orphan vs the live code in
+  src/components/ui/LanguageSelector.tsx. Delete the root components/ directory.
+  - [MEDIUM] src/data/cities/bckup/ ships ~67 duplicate JSON files (~5.2 MB) tracked in git. getAllCities skips them by filter (!/-\w{2}\.json$/), but only because the bckup files happen to match neither pattern; a refactor of the filename convention will accidentally
+  start ingesting them. Delete or move outside src/data/.
+  - [MEDIUM] src/app/[lang]/layout.tsx:7-24 still uses Inter despite SKILL.md banning it. The --font-sans variable feeds tailwind.config.ts's fontFamily.sans, so Inter is propagated to every text node in the app. SKILL.md and the design notes call this out as a known
+  violation — pick one source of truth.
+  - [MEDIUM] src/app/globals.css:17 styles h1, h2, h3 with font-family: var(--font-serif), serif but no font defines --font-serif anywhere (only --font-sans and per-city --font-city). Every heading falls back to the browser's default serif (Times New Roman on Windows).
+  Layout uses Inter for body; headings render in a clashing serif. Effective for years until someone notices.
+  - [MEDIUM] City page hash-link nav (src/components/features/CityNavigation.tsx:19-27) targets #at-a-glance, #weather, etc., but the targets have no scroll-margin-top. With a 20-tall sticky header plus the nav itself, clicks land with the section header obscured
+  beneath the chrome.
+  - [MEDIUM] src/app/[lang]/page.tsx:31 calls getDict(lang) synchronously while src/app/[lang]/city/[citySlug]/[placeSlug]/page.tsx:122 and src/app/[lang]/layout.tsx:74 use await getDict(...). getDict (src/data/dictionaries.ts:584-586) is a synchronous function
+  returning an object; await on a non-Promise is harmless but signals confusion that will bite when someone refactors it to async.
+  - [MEDIUM] src/components/features/CommentItem.tsx:107 and similar avatar renderings use raw <img> tags instead of next/image — bypasses optimization for user-uploaded avatars from Supabase storage, even though **.supabase.co is whitelisted in next.config.js.
+  - [MEDIUM] src/app/auth/callback/route.ts:19 parses cookies with request.headers.get('cookie')?.split('; ').find(c => c.startsWith(${name}=))?.split('=')[1] — does not URL-decode values, does not handle ;/= in cookie values, and uses a Map as an in-memory store that's
+   discarded on early returns. The cookies are only re-applied on the success path; on the else branch we redirect to /auth/auth-code-error and any partial cookie state set by exchangeCodeForSession is lost.
+  - [MEDIUM] getCityData (src/lib/getCityData.ts:46) does react.cache per request — good for generateMetadata + page deduplication — but on every cold serverless invocation it re-reads JSON from process.cwd()/src/data/cities/. On Netlify, process.cwd() is the function's
+   working directory, not the build's; whether the JSON ends up in the function bundle depends on Next's tracing. Combined with no generateStaticParams, expect a noticeable cold-start tax per city/place request if the site is ever wired to actual serverless functions.
+  - [MEDIUM] No CSP header on HTML responses. Inline JSON-LD scripts (dangerouslySetInnerHTML in city/place pages) require either a nonce/hash or unsafe-inline. Adsterra also injects scripts via document.write. A proper CSP is missing entirely (only
+  images.contentSecurityPolicy for SVGs is set).
+  - [MEDIUM] src/app/api/favorites/route.ts:67-75 accepts placeSlug/citySlug from the request body with no Zod schema or length cap — only if (!placeSlug || !citySlug). Allows DoS-via-huge-string into the DB (mitigated by Supabase row size limits but still wasted I/O),
+  and no character-class validation.
+  - [MEDIUM] RATE_LIMITS.VOTE is windowMs: 5000, maxRequests: 10 — 2 votes/sec sustained, plus the rate-limit-bypass on re-vote noted above. Useful only for first-vote spam, not vote-flipping abuse.
+  - [LOW] docs/02_TechStack.md is 1 byte empty. Several other docs likely stale relative to actual code (e.g., the docs claim SSG of city pages; reality is dynamic SSR with no generateStaticParams).
+  - [LOW] CLAUDE.md lines 87-102 reference "Airtable," "Jono," "winning formula content scoring," and references/system-upgrades.md — none of these belong to CityBasic and references/ does not exist in the repo. Misplaced from another project (likely a content-creator
+  project) and produces wrong instructions for any agent that follows them literally.
+  - [LOW] FINAL_TECHNICAL_DOCUMENTATION.md (33 KB) calls the project "City Sheet" and describes paths like /home/user/city/src/.... The project is now "CityBasic," the routes have changed (locale-first), and the data model is documented as DB-backed in older sections —
+  purge or rewrite.
+  - [LOW] src/data/cities/bckup (typo: "bckup" not "backup") signals haste; rename or remove.
+  - [LOW] Comments across the codebase use 🛰️ MASTER AI, 🛡️, ⚡, 🎯, 🚀 decoration in every file header. Aside from the SKILL.md emoji ban being violated in source comments, the prose is repetitive ((GOLDEN MASTER V6.1 - HYDRATION & IMAGE FIX), (V7.2 - MULTILINGUAL
+  SEO)) and rots quickly. Strip the version-history blocks; git holds that history.
+  - [LOW] src/app/not-found.tsx:5 uses min-h-screen; layout main (src/app/[lang]/layout.tsx:95) uses min-h-screen; place page ([placeSlug]/page.tsx:171) uses min-h-screen. SKILL.md mandates min-h-[100dvh]. Inconsistent application.
+  - [LOW] LANGUAGES list in src/components/ui/LanguageSelector.tsx:9-19 lives independently of the locales arrays in proxy.ts, scripts/generate-sitemap.js, src/app/[lang]/layout.tsx, and the page-level SUPPORTED_LANGS constants — at least 5 separate declarations. One
+  rename and they desync.
+  - [LOW] next.config.js legacy redirects only cover 11 hardcoded cities (bangkok|berlin|istanbul|london|paris|rome|tokyo|new-york|los-angeles|rio-de-janeiro|hong-kong); newer cities like chengdu, chongqing won't get the un-localized → localized redirect. The general
+  /city/:path* → /en/city/:path* rule catches /city/chengdu but not bare /chengdu.
+  - [LOW] src/app/[lang]/layout.tsx:45 hardcodes Google verification token in source — fine for a public meta tag, but signals secrets-in-code pattern; verify nothing else of the same flavor was pasted in.
+  - [LOW] src/components/pages/HomePageClient.tsx:35 "Start Exploring" string is hardcoded English regardless of lang. Same for <h2><Map/> {translations.explore_world}</h2> (the literal English fallback flows through the prop, but the button text doesn't).
+  - [LOW] next.config.js does not declare output: 'standalone' either — combined with the disabled Netlify plugin, no path leads to a working serverless deploy. Confirm whether the intent was a static export and add output: 'export' + generateStaticParams, or re-enable
+  the runtime plugin.
+  - [LOW] scripts/generate-sitemap.js:74 emits URLs for /lists/food, /lists/sights, /itinerary/{1,2,3}-days, /gallery for every city × 9 locales unconditionally — even cities lacking must_eat / must_see data. Sitemap will list 404s for incomplete cities. Filter by data
+  presence per city.
+  - [LOW] Scalability: at 60 cities × 9 locales the JSON-file model fits a function bundle; at 500 cities × 9 locales (4500 files, ~225 MB given current ~50 KB avg sizes) the bundle blows past Netlify function limits, and the home getAllCities does Promise.all over
+  every base file at request time. Move to either fully static prerender, an indexed loader, or a real DB before crossing ~200 cities.
+  - [LOW] src/types declares strict types but most components annotate fetched data as any (CommentThread.tsx, EnhancedPlaceCard.tsx, CityPage.tsx itineraries) — the strict tsconfig is mostly cosmetic. Worth a one-pass tightening for the data model after
+  dictionaries/cities settle.

@@ -15,7 +15,7 @@ import { Clock, DollarSign, Zap, Star, MapPin, ArrowLeft } from 'lucide-react'
 import { CommentThread } from '@/components/features/CommentThread'
 import type { Metadata } from 'next'
 import { EnhancedPlaceCard } from '@/components/features/EnhancedPlaceCard'
-import AdsterraSmartFrame from '@/components/ads/AdsterraSmartFrame'
+import { AdsterraDisplay } from '@/components/ads/AdsterraEngine'
 import FAQSchema from '@/components/seo/FAQSchema'
 import { ImageLightbox } from '@/components/ui/ImageLightbox'
 import { PlaceGallery } from '@/components/place/PlaceGallery'
@@ -190,11 +190,7 @@ export default async function PlacePage({ params }: PageProps) {
 
       {/* Top horizontal banner */}
       <div className="max-w-5xl mx-auto px-6 mt-6 flex justify-center" style={{ minHeight: 90 }}>
-        <AdsterraSmartFrame
-          height={90}
-          width={728}
-          pKey="81531fc7e6a8cf5cc6de9e368b8f2c11"
-        />
+        <AdsterraDisplay size="leaderboard" />
       </div>
 
       <article className="max-w-5xl mx-auto px-6 mt-8">
@@ -256,11 +252,7 @@ export default async function PlacePage({ params }: PageProps) {
 
           {/* Guaranteed Ad Placement */}
           <div className="my-12 flex justify-center">
-            <AdsterraSmartFrame
-              height={250}
-              width={300}
-              pKey="81531fc7e6a8cf5cc6de9e368b8f2c11"
-            />
+            <AdsterraDisplay size="medium-rectangle" />
           </div>
 
 {data.similarPlaces && data.similarPlaces.length > 0 && (
