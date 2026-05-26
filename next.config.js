@@ -65,12 +65,12 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/:city(bangkok|berlin|istanbul|london|paris|rome|tokyo|new-york|los-angeles|rio-de-janeiro|hong-kong)/:slug',
+        source: '/:city(bangkok|berlin|istanbul|london|paris|rome|tokyo|new-york|los-angeles|rio-de-janeiro|hong-kong|shenzhen|medellin)/:slug',
         destination: '/en/city/:city/:slug',
         permanent: true,
       },
       {
-        source: '/:city(bangkok|berlin|istanbul|london|paris|rome|tokyo|new-york|los-angeles|rio-de-janeiro|hong-kong)',
+        source: '/:city(bangkok|berlin|istanbul|london|paris|rome|tokyo|new-york|los-angeles|rio-de-janeiro|hong-kong|shenzhen|medellin)',
         destination: '/en/city/:city',
         permanent: true,
       },

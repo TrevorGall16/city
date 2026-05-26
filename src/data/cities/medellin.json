@@ -1,0 +1,1469 @@
+{
+  "id": "city-014",
+  "name": "Medellín",
+  "slug": "medellin",
+  "country": "Colombia",
+  "country_code": "co",
+  "lat": 6.2442,
+  "lng": -75.5812,
+  "hero_image": "/images/medellin/hero.jpg",
+  "intro_vibe": "The Vertical Valley: A reinvented narco-capital wedged into the Andes, where cable cars climb to former war zones and the only universal rule is 'no dar papaya'.",
+  "general_info": {
+    "population": "~2.6 million (city) / ~4 million (Aburrá Valley metro)",
+    "is_capital": false,
+    "description": "Medellín is the capital of Antioquia department and Colombia's second city, set inside a narrow north-south valley at 1,500m elevation that creates its famous 'eternal spring' climate. To operate here you have to understand its vertical geography: the wealthy live in the southern, lower-elevation flats (El Poblado, Envigado), while the poorer 'comunas' climb the steep eastern and western walls. The city's signature innovation — the Metrocable gondola system — exists because conventional buses literally cannot climb those slopes. Politically and emotionally, Medellín is still a city in recovery: 1991 had the world's highest murder rate; 2025 has rooftop bars, tech startups, and Tuesday tango. Beneath the polished surface, the original codes of the Escobar era still govern how locals move through public space."
+  },
+  "stats": {
+    "currency": "COP (Colombian Peso, $)",
+    "plug_type": "Type A/B"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "January",
+      "temp": "17°C - 28°C",
+      "vibe": "Dry & Bright",
+      "pros": [
+        "Best weather of the year",
+        "Clear mountain views",
+        "Outdoor everything"
+      ],
+      "cons": [
+        "High season prices in El Poblado",
+        "Tourist crowds at Comuna 13",
+        "Strong midday UV"
+      ],
+      "clothing": "T-shirt, light jacket for evening"
+    },
+    {
+      "id": 2,
+      "name": "February",
+      "temp": "17°C - 29°C",
+      "vibe": "Dry & Warm",
+      "pros": [
+        "Still in the dry season",
+        "Hiking conditions are perfect",
+        "Carnival overflow from coast"
+      ],
+      "cons": [
+        "Hottest afternoons of the year",
+        "Air quality dips on still days",
+        "Sunburn risk on Comuna 13 tours"
+      ],
+      "clothing": "Lightweight clothes, hat, sunscreen"
+    },
+    {
+      "id": 3,
+      "name": "March",
+      "temp": "17°C - 28°C",
+      "vibe": "Transition Month",
+      "pros": [
+        "Holy Week street processions",
+        "Lower hotel rates mid-month",
+        "Lush start to the green season"
+      ],
+      "cons": [
+        "Rain arrives late afternoon",
+        "Easter holiday transit chaos",
+        "Some restaurants close for Semana Santa"
+      ],
+      "clothing": "T-shirt, compact rain jacket"
+    },
+    {
+      "id": 4,
+      "name": "April",
+      "temp": "17°C - 27°C",
+      "vibe": "First Wet Season",
+      "pros": [
+        "Lush green hillsides",
+        "Cooler, fresher air",
+        "Lower domestic tourism"
+      ],
+      "cons": [
+        "Daily afternoon thunderstorms",
+        "Mudslide risk on rural roads",
+        "Unreliable cable car visibility"
+      ],
+      "clothing": "Light layers, real rain jacket"
+    },
+    {
+      "id": 5,
+      "name": "May",
+      "temp": "17°C - 27°C",
+      "vibe": "Wettest Month",
+      "pros": [
+        "Cheapest hotel rates",
+        "Indoor cafe culture peaks",
+        "Cool sleeping weather"
+      ],
+      "cons": [
+        "Persistent rain into evenings",
+        "Flooded streets in El Centro",
+        "Limited outdoor sightseeing windows"
+      ],
+      "clothing": "Waterproof jacket, closed shoes, umbrella"
+    },
+    {
+      "id": 6,
+      "name": "June",
+      "temp": "17°C - 28°C",
+      "vibe": "Mid-Year Dry Break",
+      "pros": [
+        "Brief return of dry mornings",
+        "Football season energy",
+        "Good for paragliding in San Felix"
+      ],
+      "cons": [
+        "Highly variable day-to-day",
+        "Sudden microclimate showers",
+        "School holiday crowds locally"
+      ],
+      "clothing": "T-shirt, light layer, packable rain shell"
+    },
+    {
+      "id": 7,
+      "name": "July",
+      "temp": "17°C - 28°C",
+      "vibe": "Veranillo (Little Summer)",
+      "pros": [
+        "Second dry window",
+        "Festival of Flowers preparation",
+        "Excellent hiking conditions"
+      ],
+      "cons": [
+        "Peak gringo tourism",
+        "El Poblado nightlife at saturation",
+        "Higher scam frequency"
+      ],
+      "clothing": "T-shirt, light long-sleeve evening"
+    },
+    {
+      "id": 8,
+      "name": "August",
+      "temp": "17°C - 28°C",
+      "vibe": "Feria de las Flores",
+      "pros": [
+        "Flower Festival is the city's signature event",
+        "Silleteros parade",
+        "Vibrant cultural energy"
+      ],
+      "cons": [
+        "Hotel prices double",
+        "Parades shut down central roads",
+        "Tourist-targeted petty crime spikes"
+      ],
+      "clothing": "Festival-friendly clothes, comfortable shoes"
+    },
+    {
+      "id": 9,
+      "name": "September",
+      "temp": "17°C - 27°C",
+      "vibe": "Second Wet Season Begins",
+      "pros": [
+        "Festival tail-end events",
+        "Greener landscape returns",
+        "Fewer tourists after Feria"
+      ],
+      "cons": [
+        "Rain returns reliably",
+        "Slippery cobblestones in Provenza",
+        "Cable car closures on stormy days"
+      ],
+      "clothing": "Light layers, waterproof shoes"
+    },
+    {
+      "id": 10,
+      "name": "October",
+      "temp": "17°C - 27°C",
+      "vibe": "Wettest Stretch",
+      "pros": [
+        "Hotel deals return",
+        "Cafes and indoor museums thrive",
+        "Cool, comfortable nights"
+      ],
+      "cons": [
+        "Sustained heavy rain",
+        "Limited daylight windows",
+        "Higher mosquito activity in tropical zones"
+      ],
+      "clothing": "Rain jacket, closed shoes, layers"
+    },
+    {
+      "id": 11,
+      "name": "November",
+      "temp": "17°C - 27°C",
+      "vibe": "Tail End of Rains",
+      "pros": [
+        "Lush, post-rain landscapes",
+        "Quieter tourism month",
+        "Christmas lights begin appearing"
+      ],
+      "cons": [
+        "Still significant rainfall",
+        "Cloudy paragliding conditions",
+        "Some hostels reduce hours"
+      ],
+      "clothing": "Light layers, compact umbrella"
+    },
+    {
+      "id": 12,
+      "name": "December",
+      "temp": "17°C - 28°C",
+      "vibe": "Alumbrado Season",
+      "pros": [
+        "World-famous Christmas light displays",
+        "Dry season returns",
+        "Festive city-wide energy"
+      ],
+      "cons": [
+        "Hotel prices peak",
+        "Domestic tourists fill Poblado",
+        "Drinking-related incidents spike"
+      ],
+      "clothing": "T-shirt, light evening jacket"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "No Dar Papaya: The single most important Colombian survival concept. It means 'don't give papaya' — don't expose what can be taken from you. Phone on the table, gold chain visible, headphones at a red light: all 'dando papaya'. The implicit social contract is that if you flash it, you invited the theft.",
+      "Take Uber, Not Taxis (Mostly): Uber is technically grey-area legal but universally used. Drivers will ask you to sit in the front passenger seat so they look like a friend, not a fare. Street taxis are mostly fine but a small subset run the 'paseo millonario' — driving you to ATM after ATM. Default to Uber/Didi/Cabify.",
+      "Tinder & Romance Risk: Tinder/Bumble dates that end with stolen-everything (phone, cards, laptop) are documented and frequent. The vector is scopolamine ('burundanga') slipped into a drink, or pre-planned home robbery. Meet only in public; never bring a first date back to your Airbnb; do not let your drink leave your sight.",
+      "Drugs Are A Trap, Not A Treat: Buying cocaine from a stranger in El Poblado is the fastest way to get robbed, extorted, or rolled into a police shakedown. Even when the product is real, the surrounding economy targets foreigners. Locals don't do this — it's a gringo-tax industry.",
+      "Walk With Intent, Not At Night: Day walking in Poblado, Laureles, Envigado, and Provenza is fine. After 10pm, take an Uber for any distance over three blocks. Avoid Parque Lleras after midnight unless you arrived with a group.",
+      "Phones Out = Marked: Holding your phone while walking near a curb is a documented motorcycle snatch pattern. Use it inside cafes, restaurants, or against a wall facing the street. Locals never hold them out at a red light.",
+      "Stay in Stratum 5–6: Colombia ranks neighborhoods 1 (poorest) to 6 (wealthiest) for utilities. Tourist-safe zones are estrato 5 and 6 — Poblado, Laureles, Envigado, parts of Belén. Below 4 you need a local guide.",
+      "Greeting Etiquette: A handshake for men; a single right-cheek air-kiss for women on introduction. 'Que más, parce' is the universal 'hey'. 'Hágale pues' closes any conversation. Paisas (Antioqueños) are warm but observant — first impressions linger.",
+      "Tipping: 10% is added to most sit-down restaurant bills as 'propina voluntaria' (you can decline but rarely should). Bars and street food generally no tip. Round up taxis/Uber by a couple thousand pesos.",
+      "Coffee Culture: Despite producing world-class beans, the default 'tinto' is weak, sweet drip coffee. Speciality cafes (Pergamino, Café Velvet, Hija Mía) serve actual third-wave coffee — locals know the difference.",
+      "Football Tribal Code: Atlético Nacional (green) and Independiente Medellín (red) split the city. Match days in Estadio Atanasio Girardot are intense; don't wear the wrong color in the wrong neighborhood.",
+      "Altitude Effects: 1,500m isn't extreme but is enough to slow first-night drinking, intensify hangovers, and make a hike on Cerro El Volador feel harder than expected. Hydrate hard the first 24 hours.",
+      "Festival of Flowers Caution: Feria de las Flores (early August) is glorious but draws professional pickpockets. Wear a money belt or front-pocket wallet; leave passport at the hotel."
+    ],
+    "essential_phrases": [
+      {
+        "src": "Hello / What's up",
+        "local": "Hola / ¿Qué más, parce?",
+        "phonetic": "OH-lah / keh-MAHS PAR-seh"
+      },
+      {
+        "src": "Thank you",
+        "local": "Gracias",
+        "phonetic": "GRAH-syas"
+      },
+      {
+        "src": "Excuse me",
+        "local": "Disculpe / Perdón",
+        "phonetic": "dees-KOOL-peh / per-DOHN"
+      },
+      {
+        "src": "How much?",
+        "local": "¿Cuánto vale?",
+        "phonetic": "KWAN-toh BAH-leh"
+      },
+      {
+        "src": "Cool / Nice",
+        "local": "Chévere / Bacano",
+        "phonetic": "CHEH-veh-reh / bah-KAH-noh"
+      },
+      {
+        "src": "I don't want any (drugs)",
+        "local": "No, gracias, no consumo",
+        "phonetic": "noh GRAH-syas noh kon-SOO-moh"
+      },
+      {
+        "src": "Is it safe to walk here?",
+        "local": "¿Es seguro caminar por aquí?",
+        "phonetic": "es seh-GOO-roh kah-mee-NAR por ah-KEE"
+      },
+      {
+        "src": "Please call an Uber",
+        "local": "Por favor pídame un Uber",
+        "phonetic": "por fah-VOR PEE-dah-meh oon OO-ber"
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "El Poblado",
+      "vibe": "The Gringo Capital",
+      "description": "The southern tourist core. Skyscraper hotels, coworking spaces, English-speaking baristas, and Parque Lleras as the nightlife epicenter. Provenza (a sub-neighborhood) has become Medellín's Soho — boutiques, sushi bars, and Tinder dates that end at Selina. It's safe-feeling by day, mixed at night. You can live here for a month without speaking Spanish — locals largely don't.",
+      "highlights": [
+        "Provenza cafes & boutiques",
+        "Parque Lleras nightlife",
+        "Mercado del Río food hall"
+      ],
+      "best_for": [
+        "first-timers",
+        "nomads",
+        "nightlife"
+      ],
+      "image": "/images/medellin/el-poblado.jpg"
+    },
+    {
+      "name": "Laureles",
+      "vibe": "The Local Upscale Grid",
+      "description": "A flat, leafy, grid-planned neighborhood on the west side. Designated a 'Best Neighborhood in the World' by Time Out in 2023 — which immediately ruined the secret. Still markedly more local than Poblado: families, dog walkers, small bakeries, no high-rises. La 70 (Calle 70) is its nightlife spine — salsa bars and student energy rather than EDM clubs.",
+      "highlights": [
+        "Primer Parque de Laureles",
+        "La 70 salsa strip",
+        "Estadio Atanasio Girardot"
+      ],
+      "best_for": [
+        "long-stay nomads",
+        "local culture",
+        "running and walking"
+      ],
+      "image": "/images/medellin/laureles.jpg"
+    },
+    {
+      "name": "Envigado",
+      "vibe": "The Quiet Bourgeois Suburb",
+      "description": "Technically a separate municipality south of Poblado, accessible by Metro. Wealthy, residential, and conspicuously calm. Parque Envigado fills with families on Sunday afternoons. Restaurants here are oriented to Paisas, not tourists. Stay here if you want to feel like a resident rather than a visitor.",
+      "highlights": [
+        "Parque Envigado",
+        "La Provincia gastronomic strip",
+        "Sunday family afternoons"
+      ],
+      "best_for": [
+        "remote workers",
+        "families",
+        "longer stays"
+      ],
+      "image": "/images/medellin/envigado.jpg"
+    },
+    {
+      "name": "Comuna 13 (San Javier)",
+      "vibe": "The Reinvention Showcase",
+      "description": "Once the most violent neighborhood on Earth, now a polished walking-tour experience: outdoor escalators (the only urban-mobility installation of its kind in Latin America), graffiti commissioned from former gang members, hip-hop performances. Daytime only, group tours only. Don't wander side alleys. The transformation is real; the underlying tensions are not gone.",
+      "highlights": [
+        "Outdoor escalators",
+        "Graffiti tour",
+        "Casa Kolacho"
+      ],
+      "best_for": [
+        "history",
+        "guided tours",
+        "street art"
+      ],
+      "image": "/images/medellin/comuna-13.jpg"
+    },
+    {
+      "name": "El Centro",
+      "vibe": "The Real Working City",
+      "description": "Where actual paisas work, shop, and ride the metro. Botero Plaza, Palacio de la Cultura, San Antonio. Gritty, dense, alive. Higher petty-crime density than tourist zones — go in daylight, leave the watch at home, take a guided walking tour your first time. The Museo de Antioquia (Botero collection) alone justifies the trip.",
+      "highlights": [
+        "Plaza Botero",
+        "Museo de Antioquia",
+        "Parque Berrío"
+      ],
+      "best_for": [
+        "history",
+        "museums",
+        "day trips"
+      ],
+      "image": "/images/medellin/el-centro.jpg"
+    },
+    {
+      "name": "Manila / Provenza",
+      "vibe": "Style District",
+      "description": "Technically inside El Poblado but functionally a scene of its own. Manila is the older, residential-converted-to-restaurant side; Provenza is the boutique-and-influencer strip. Specialty coffee, omakase, natural wine. Walkable, photogenic, expensive by Medellín standards (still cheap by NYC ones).",
+      "highlights": [
+        "Pergamino Café",
+        "Hija Mía Café",
+        "Provenza boutique row"
+      ],
+      "best_for": [
+        "cafes",
+        "shopping",
+        "remote work"
+      ],
+      "image": "/images/medellin/provenza.jpg"
+    },
+    {
+      "name": "Sabaneta",
+      "vibe": "The Paisa Soul",
+      "description": "Even further south than Envigado, at the end of the Metro line. A small-town plaza, Sunday-market energy, and arguably the most traditional Antioqueño culture inside the metro area. Day trip territory — eat chicharrón at El Rancherito, drink aguardiente at a corner cantina, take the Metro back before dark.",
+      "highlights": [
+        "Parque de Sabaneta",
+        "Aguardiente cantinas",
+        "Bandeja paisa at El Rancherito"
+      ],
+      "best_for": [
+        "traditional culture",
+        "day trips",
+        "Sunday strolls"
+      ],
+      "image": "/images/medellin/sabaneta.jpg"
+    },
+    {
+      "name": "Guatapé (Day Trip)",
+      "vibe": "The Colorful Escape",
+      "description": "Two hours east by car: a lakeside town painted in saturated zócalos (decorative panels) beneath the monolith of El Peñol. Climb 740 steps for the iconic lake view; eat lunch in town; back to Medellín by evening. Almost every hostel sells the package, but a private driver via Uber Intercity is cheaper for groups of three.",
+      "highlights": [
+        "El Peñol Rock",
+        "Painted town center",
+        "Lake boat tours"
+      ],
+      "best_for": [
+        "day trips",
+        "photography",
+        "first-time visitors"
+      ],
+      "image": "/images/medellin/guatape.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "Safety: The Real Operating Rules",
+      "icon": "Shield",
+      "summary": "Medellín is safer than 1991, far more dangerous than its Instagram. Follow the rules.",
+      "details": [
+        "No Dar Papaya: Don't expose phones, watches, jewelry, or cash. Walking down the street while looking at your phone is the #1 way tourists get robbed by a passing motorcycle.",
+        "Always Take Uber After Dark: Even three blocks. Even if you feel fine. Uber/Didi/Cabify all work; Uber is most reliable. Sit in the front seat — drivers prefer it for legal cover.",
+        "Tinder/Bumble Risk: Scopolamine ('burundanga') drugging via dating apps is a documented, ongoing pattern. Meet in public, never go home with someone the same night, never bring a date to your accommodation. Multiple deaths per year — this is not paranoia.",
+        "Never Buy Drugs From Strangers: The cocaine-dealer-in-El-Poblado economy is built to rob, extort, or set up tourists. Real locals don't participate. Don't.",
+        "Phone Snatching: Motorcycles with two riders pass on the right and grab phones at red lights or near sidewalks. Hold your phone inside cafes only, or facing inward against a building wall.",
+        "ATMs: Use ATMs inside banks or large malls (Santa Fe, El Tesoro), never on the street. Cover the PIN. Withdraw during daylight.",
+        "Wear Less, Bring Less: Leave the Rolex, the gold chain, the expensive sunglasses. A $200 watch is a year's local wage; you're inviting a transaction.",
+        "Emergency Number: 123 (universal — police, ambulance, fire). Touristic Police speak English in El Poblado.",
+        "Trust Your Gut: Paisas are warm but a stranger inserting themselves into your evening is a flag. The 'helpful local' offering to show you a bar is often a setup."
+      ]
+    },
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Getting Around",
+      "icon": "Train",
+      "summary": "Medellín has the best public transit in Colombia — and the only metro in the country.",
+      "details": [
+        "The Metro: Two lines (A and B), surprisingly clean, $0.85 USD per ride. Buy a Cívica card at any station and load it. Locals are proud of the metro — don't eat, don't put feet on seats, don't shout. Stops running around 11pm.",
+        "Metrocable: Six gondola lines climbing the hillsides. Originally built for residents of poor comunas to reach the city. The K-Line (Acevedo to Santo Domingo) and L-Line (continues to Parque Arví) are essential rides — both views and infrastructure as social policy.",
+        "Tram (Tranvía): The Ayacucho line connects El Centro to the eastern hills. Useful, photogenic, often underutilized by tourists.",
+        "Uber: Functionally legal, universally used, the safe default after dark. Sit in front. Pay by linked card or cash.",
+        "Didi & Cabili: Backup ride-hails when Uber surges. Both accept foreign cards.",
+        "Yellow Taxis: Fine for daytime hails near landmarks, but never from a hotel that 'arranged' one and never agreeing to a flat rate that bypasses the meter. Use 'Easy Taxi' app to call a verified one.",
+        "EnCicla: The free city bike-share. Sign up online before arrival (Colombian ID can be tricky for foreigners — Stationary docks). Best for Laureles' flat grid.",
+        "Airport (JMC vs MDE): MDE is the international airport (Rionegro, 45 min away). JMC/EOH is the small in-city airport for domestic flights. Always confirm which one your flight uses."
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "financial-landscape",
+      "title": "Money & Payments",
+      "icon": "CreditCard",
+      "summary": "Card-accepted in tourist zones, cash-essential outside them.",
+      "details": [
+        "Currency: Colombian Peso (COP). $1 USD ≈ $4,200 COP (varies). The decimal-comma swap and the volume of zeros lead to tourist overpayment — double-check digits.",
+        "Cards: Visa/Mastercard accepted in El Poblado, Laureles, mid-range restaurants, and supermarkets. Amex spotty. Tap-to-pay is normal.",
+        "Cash: Essential for taxis, small bakeries, street food, tips, and most of El Centro. Carry 100,000–200,000 COP daily.",
+        "ATMs: Use Bancolombia, Davivienda, or BBVA inside bank branches or shopping malls. Stay away from street-front ATMs at night.",
+        "DNI/Foreigner ID: A foreign passport scan is sometimes requested for card transactions over 1,000,000 COP. Carry a photocopy, leave the original at the hotel.",
+        "Tipping: 10% 'propina voluntaria' is auto-added to sit-down bills — you can opt out but rarely should. Bars no tip. Round up Uber by 2,000–3,000 COP.",
+        "Tax-Free for Tourists: As of 2023, 19% VAT is refundable at the airport for tourist purchases over a threshold — keep receipts."
+      ]
+    },
+    {
+      "id": "logistics-drugs",
+      "slug": "drugs-and-nightlife",
+      "title": "Drugs & The Nightlife Trap",
+      "icon": "EyeOff",
+      "summary": "The cocaine economy targets tourists. Everyone you talk to about it is a vector.",
+      "details": [
+        "Cocaine in El Poblado: Sold openly to tourists, particularly around Parque Lleras after midnight. Buying it is a felony, but more importantly it's the most common precursor to being robbed, drugged, or shaken down by fake/real police.",
+        "Scopolamine ('Burundanga'): A powerful incapacitating drug administered via drink, cigarette, or business card. Victims become compliant for hours and remember nothing. It's the active vector in Tinder/Bumble robberies.",
+        "Strip Club Setups: A foreigner walks in, runs up an $8 USD tab on the menu, leaves with a $4,000 USD 'bottle service' bill enforced by men at the door. Avoid clubs with touts on the street.",
+        "Police Shakedowns: A real or fake officer 'finds' something on you and demands a fine. Ask for the precinct ('estación') and offer to pay there, not on the street. Calling 123 verifies the officer's badge.",
+        "Sex Tourism: Prostitution is legal in tolerated zones; sex tourism with minors is heavily policed and is now an automatic deportation/imprisonment offense. Hotels actively report suspicious activity.",
+        "Safer Nightlife: La 70 (Laureles) for salsa, Provenza for cocktails, Envigado for cervezas. Parque Lleras has become the most-targeted strip in the country."
+      ]
+    },
+    {
+      "id": "logistics-scams",
+      "slug": "common-scams",
+      "title": "Scams to Avoid",
+      "icon": "AlertTriangle",
+      "summary": "The classics are well-rehearsed and constantly evolving.",
+      "details": [
+        "Paseo Millonario: An unmarked taxi (or compromised yellow) drives the victim to a series of ATMs, withdrawing the daily limit. Always use Uber/Didi.",
+        "Fake Tinder Date Robbery: Match meets you at a bar, slips burundanga into your drink, escorts you 'home' to clean out your apartment. Meet only in well-trafficked public places; never let a first date know your address.",
+        "Bird-Poop Pickpocket: Someone 'spots' bird droppings on your shoulder (it's lotion). While 'helping' clean it, a partner takes your wallet. Don't stop, don't accept help.",
+        "ATM Skimmer: Street-corner ATMs are sometimes modified. Use ATMs inside bank branches or malls.",
+        "Phantom 'Police': Real-looking uniforms ask to inspect your wallet for 'counterfeit bills'. Refuse politely; ask to go to the station. Real officers never need to inspect cash on the street.",
+        "Cocaine-Then-Robbery: A dealer leads a buyer to a 'quieter' street where partners are waiting. Tale as old as 1985.",
+        "Overcharged Strip Club Bill: $8 menu drinks become $400 'bottles'. Avoid touted venues entirely.",
+        "Currency Trick: Vendors quickly swap a 50,000 COP note ($12 USD) for a 5,000 ($1.20) and claim you handed them the smaller one. Count out cash slowly, in view."
+      ]
+    },
+    {
+      "id": "logistics-survival",
+      "slug": "survival-tips",
+      "title": "Environment & Health",
+      "icon": "Sun",
+      "summary": "Altitude, sun, and a surprisingly variable climate.",
+      "details": [
+        "Altitude (1,500m): Mild but real. Hydrate hard the first 24 hours. Hangovers are amplified. Pace your first night out.",
+        "UV Index: Equatorial sun + thin air = sunburn in 25 minutes. Sunscreen daily even in cloud cover.",
+        "Tap Water: Officially potable in Medellín (one of the few Colombian cities where this is true), but most foreigners still use bottled water for the first week.",
+        "Air Quality: Aburrá Valley traps emissions; bad days hit 'unhealthy' levels (especially Feb–Mar and Oct). Check the EPM app.",
+        "Mosquitoes: Low risk in Medellín itself; rising risk at lower elevations (Guatapé, San Carlos). Pack repellent for day trips.",
+        "Yellow Fever: Vaccination recommended if you're heading to the coast or Amazon afterward.",
+        "Pharmacies: Cruz Verde, Farmatodo, La Rebaja. Many medications are available without prescription. Bring originals of any controlled substances in labeled bottles."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Apps to Download",
+      "icon": "Smartphone",
+      "summary": "Install before you land. SIM/eSIM in advance.",
+      "details": [
+        "Uber + Didi + Cabify: Have all three; Uber surges, Didi covers, Cabify backups.",
+        "Rappi: Colombian super-app — food, groceries, pharmacy, even cash withdrawal delivered. Foreign cards work.",
+        "WhatsApp: How everyone communicates. Hostels, drivers, tour guides, doctors all WhatsApp.",
+        "Civica: For loading the Metro card balance.",
+        "Google Translate: Download Spanish offline pack. Locals patient with halting Spanish but rarely fluent in English outside Poblado.",
+        "Tu Llave (no — that's Bogotá): For Medellín, the equivalent is Cívica.",
+        "Splitwise: Hostel-friend bill splits.",
+        "Find My / Google Find Device: Pre-install and enable. If your phone gets snatched, you have ten minutes before SIM removal."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "bandeja-paisa",
+      "name_en": "Bandeja Paisa",
+      "name_local": "Bandeja Paisa",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "The defining Antioqueño platter: beans, white rice, ground beef, chicharrón, chorizo, fried egg, sweet plantain, avocado, and an arepa — all on one plate.",
+        "history": "Evolved from the muleteer ('arriero') culture of 19th-century Antioquia, designed to fuel a full day of mountain labor. Each component is a different macronutrient delivery system.",
+        "insider_tip": "Order it for lunch, not dinner — locals consider it a midday meal and consuming the full platter at 9pm will defeat you. Hija Mía and El Rancherito are the go-to non-touristy versions.",
+        "price_level": "Moderate",
+        "duration": "60–90 minutes",
+        "best_time": "Lunch (12:00–2:00 PM)",
+        "vibe": "Substantial and Cultural",
+        "good_for": [
+          "First-time visitors",
+          "Hangover recovery",
+          "Traditional cuisine"
+        ]
+      },
+      "image": "/images/medellin/bandeja-paisa.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "arepa-paisa",
+      "name_en": "Arepa Paisa",
+      "name_local": "Arepa Paisa",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A thin, salt-free cornmeal cake grilled until charred; the architectural base of Paisa eating.",
+        "history": "Pre-Columbian indigenous food, the Antioquia version is unique in its thinness and lack of stuffing — meant to be a neutral vehicle, not a filled snack.",
+        "insider_tip": "Locals top it with butter, salt, and quesito (fresh cheese) for breakfast. Avoid 'arepa rellena' tourist versions; those are from the coast, not Medellín.",
+        "price_level": "Affordable",
+        "duration": "15 minutes",
+        "best_time": "Breakfast",
+        "vibe": "Simple and Foundational",
+        "good_for": [
+          "Breakfast",
+          "Snacking",
+          "Cultural literacy"
+        ]
+      },
+      "image": "/images/medellin/arepa.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "sancocho",
+      "name_en": "Sancocho Antioqueño",
+      "name_local": "Sancocho Antioqueño",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A hearty Andean soup of chicken or beef, yuca, plantain, potato, and corn — Colombia's universal Sunday lunch.",
+        "history": "A Spanish-Andean fusion that became the family-Sunday dish across Antioquia, traditionally cooked over wood fire in giant pots.",
+        "insider_tip": "Best on Sundays at family-run fincas outside the city or at Mondongos on Calle 10. The accompanying rice and avocado are non-negotiable.",
+        "price_level": "Moderate",
+        "duration": "90 minutes",
+        "best_time": "Sunday Lunch",
+        "vibe": "Family and Restorative",
+        "good_for": [
+          "Sunday meal",
+          "Cold rainy days",
+          "Comfort food"
+        ]
+      },
+      "image": "/images/medellin/sancocho.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "chicharron",
+      "name_en": "Chicharrón",
+      "name_local": "Chicharrón",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Deep-fried pork belly with crackling skin — the icon component of Bandeja Paisa, often eaten as a dish in its own right.",
+        "history": "Spanish-origin preserved-pork technique adapted across Latin America; in Antioquia it became the working-class protein staple.",
+        "insider_tip": "Order 'chicharrón con arepa y limón' as a standalone for the purest version. Squeeze fresh lime over the skin while still hot.",
+        "price_level": "Affordable",
+        "duration": "30 minutes",
+        "best_time": "Lunch",
+        "vibe": "Crunchy and Honest",
+        "good_for": [
+          "Pork lovers",
+          "Quick meal",
+          "Local snacks"
+        ]
+      },
+      "image": "/images/medellin/chicharron.jpg"
+    },
+    {
+      "id": "food-005",
+      "slug": "bunuelos",
+      "name_en": "Buñuelos",
+      "name_local": "Buñuelos",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Deep-fried cheese-and-cornmeal balls, crispy outside, fluffy inside — Colombia's universal breakfast pastry.",
+        "history": "Evolved from Spanish fritters but transformed locally with fresh Colombian queso costeño, hitting their peak during the December Alumbrado season.",
+        "insider_tip": "Always eat them fresh from the fryer — buñuelos go rubbery after 30 minutes. Pair with hot chocolate ('chocolate caliente') for the classic Paisa breakfast.",
+        "price_level": "Affordable",
+        "duration": "10 minutes",
+        "best_time": "Breakfast or Mid-morning",
+        "vibe": "Cheesy and Warm",
+        "good_for": [
+          "Breakfast",
+          "Quick snack",
+          "Christmas season"
+        ]
+      },
+      "image": "/images/medellin/bunuelos.jpg"
+    },
+    {
+      "id": "food-006",
+      "slug": "mondongo",
+      "name_en": "Mondongo",
+      "name_local": "Mondongo",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A pungent tripe soup with vegetables and chorizo, beloved by older Paisas and feared by gringos.",
+        "history": "A Spanish-Moorish offal stew that survived colonial transit and became identity food in Antioquia's working-class kitchens.",
+        "insider_tip": "Mondongos Restaurant on Calle 10 is the famous one; locals will tell you the family fincas do it better but it's a gateway. Order with avocado and ají on the side.",
+        "price_level": "Moderate",
+        "duration": "60 minutes",
+        "best_time": "Lunch",
+        "vibe": "Earthy and Traditional",
+        "good_for": [
+          "Adventurous eaters",
+          "Cultural depth",
+          "Cold-day comfort"
+        ]
+      },
+      "image": "/images/medellin/mondongo.jpg"
+    },
+    {
+      "id": "food-007",
+      "slug": "ajiaco",
+      "name_en": "Ajiaco",
+      "name_local": "Ajiaco",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A creamy three-potato soup with chicken, corn, and the indigenous guascas herb — technically Bogotano but widely eaten in Medellín.",
+        "history": "Pre-Columbian Muisca origins on the Bogotá altiplano; spread through Andean Colombia as a cool-weather dish.",
+        "insider_tip": "Stir the cream and capers into the bowl just before eating; do not add them to a single spoonful. The guascas herb is what makes it ajiaco — without it, it's just chicken soup.",
+        "price_level": "Moderate",
+        "duration": "45 minutes",
+        "best_time": "Lunch",
+        "vibe": "Creamy and Comforting",
+        "good_for": [
+          "Rainy day",
+          "Cold weather",
+          "Lighter Colombian palate"
+        ]
+      },
+      "image": "/images/medellin/ajiaco.jpg"
+    },
+    {
+      "id": "food-008",
+      "slug": "empanadas-paisas",
+      "name_en": "Empanadas Paisas",
+      "name_local": "Empanadas Paisas",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Yellow corn-dough turnovers stuffed with beef-potato hash, deep-fried to a hard crisp.",
+        "history": "The Antioquia version diverges sharply from Argentine empanadas — it's corn-based, fried, and served with a tangy ají.",
+        "insider_tip": "Eat with green ají sauce (cilantro, lime, onion). Empanadas de la Mansión near Estadio is the cult institution.",
+        "price_level": "Affordable",
+        "duration": "15 minutes",
+        "best_time": "Snack / Late Night",
+        "vibe": "Crispy and Casual",
+        "good_for": [
+          "Quick bite",
+          "Street food",
+          "Post-drinks"
+        ]
+      },
+      "image": "/images/medellin/empanada.jpg"
+    },
+    {
+      "id": "food-009",
+      "slug": "patacones",
+      "name_en": "Patacones",
+      "name_local": "Patacones",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Twice-fried green plantain disks served as a side or as a base for toppings like shrimp, hogao, or guacamole.",
+        "history": "A Caribbean-Colombian technique adopted across the country; the Paisa version is thicker and crispier than coastal varieties.",
+        "insider_tip": "Order 'patacón con todo' for the loaded version, or use a plain one as a corn-tortilla replacement for breakfast.",
+        "price_level": "Affordable",
+        "duration": "20 minutes",
+        "best_time": "Lunch or Snack",
+        "vibe": "Crunchy Side",
+        "good_for": [
+          "Vegetarian-friendly",
+          "Beer pairing",
+          "Sharing"
+        ]
+      },
+      "image": "/images/medellin/patacones.jpg"
+    },
+    {
+      "id": "food-010",
+      "slug": "tinto-y-chocolate",
+      "name_en": "Tinto & Hot Chocolate",
+      "name_local": "Tinto y Chocolate Caliente",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Black drip coffee ('tinto') and hot chocolate with melted cheese floating in it — the dual morning rituals of the Paisa breakfast table.",
+        "history": "Cheese-in-chocolate is a pre-industrial highland tradition — fat from cheese balances cocoa bitterness when sugar was scarce.",
+        "insider_tip": "Try the cheese-in-chocolate version once; the cheese melts into stretchy ribbons. Default tinto is weak — for real coffee go to Pergamino, Café Velvet, or Hija Mía.",
+        "price_level": "Affordable",
+        "duration": "15 minutes",
+        "best_time": "Breakfast",
+        "vibe": "Domestic Ritual",
+        "good_for": [
+          "Breakfast",
+          "Cultural curiosity",
+          "Cold mornings"
+        ]
+      },
+      "image": "/images/medellin/tinto-chocolate.jpg"
+    },
+    {
+      "id": "food-011",
+      "slug": "specialty-coffee",
+      "name_en": "Third-Wave Colombian Coffee",
+      "name_local": "Café de Especialidad",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Single-origin Colombian beans roasted locally, brewed by V60, AeroPress, or espresso in a handful of standout cafes.",
+        "history": "Colombia historically exported its best beans and drank the worst. The 2010s 'tercera ola' (third wave) reversed this — Medellín cafes now buy directly from Antioquia and Huila farms.",
+        "insider_tip": "Pergamino (Provenza) is the international benchmark; Café Velvet roasts in-house; Hija Mía blends specialty coffee with a Paisa breakfast menu. Order black, not flavored.",
+        "price_level": "Moderate",
+        "duration": "30 minutes",
+        "best_time": "Mid-morning",
+        "vibe": "Modern and Refined",
+        "good_for": [
+          "Coffee lovers",
+          "Remote work",
+          "Quiet conversation"
+        ]
+      },
+      "image": "/images/medellin/specialty-coffee.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "aguardiente",
+      "name_en": "Aguardiente",
+      "name_local": "Aguardiente Antioqueño",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Anise-flavored sugarcane liquor, 24–29% ABV, served in chilled shots — the social glue of Antioquia.",
+        "history": "Distilled in Antioquia since the 1700s as a state monopoly; the 'Aguardiente Antioqueño' label is a regional identity marker as much as a drink.",
+        "insider_tip": "Order 'Aguardiente Sin Azúcar' (no sugar) for the cleaner version. Drink in shot form with lime and salt; sipping it straight is a tourist tell.",
+        "price_level": "Affordable",
+        "duration": "Variable",
+        "best_time": "Evening",
+        "vibe": "Social and Sharp",
+        "good_for": [
+          "Group settings",
+          "Salsa nights",
+          "Cultural immersion"
+        ]
+      },
+      "image": "/images/medellin/aguardiente.jpg"
+    },
+    {
+      "id": "food-013",
+      "slug": "fruit-stalls",
+      "name_en": "Tropical Fruit Stalls",
+      "name_local": "Fruterías",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Sidewalk and market stands selling lulo, granadilla, guanábana, mangosteen, and ten varieties of mango — Colombia is one of the most fruit-rich countries on Earth.",
+        "history": "Colombia's geographic diversity — Caribbean, Pacific, Andes, Amazon — concentrates exotic fruits in its city markets unlike almost anywhere else.",
+        "insider_tip": "Plaza Minorista and Mercado del Río are the deep dives. Order 'jugo natural en agua' (in water) for traveler-safe juice; avoid 'en leche' if your stomach is adjusting.",
+        "price_level": "Affordable",
+        "duration": "20 minutes",
+        "best_time": "Mid-morning",
+        "vibe": "Vibrant and Sensory",
+        "good_for": [
+          "Healthy snacking",
+          "Curiosity",
+          "Market visits"
+        ]
+      },
+      "image": "/images/medellin/fruit-stalls.jpg"
+    },
+    {
+      "id": "food-014",
+      "slug": "mercado-del-rio",
+      "name_en": "Mercado del Río (Food Hall)",
+      "name_local": "Mercado del Río",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A polished riverside food hall with 40+ stalls — sushi, arepas, burgers, ceviche, craft beer — under one roof.",
+        "history": "Opened in 2017 as the city's pivot to international 'gastro-market' culture; now a default first-night-in-Medellín move for tourists.",
+        "insider_tip": "Crowded after 8pm. Go for a 1pm lunch — same stalls, no line. The ceviche bar and the Argentine empanada stall are the hidden standouts.",
+        "price_level": "Moderate",
+        "duration": "1.5 hours",
+        "best_time": "Lunch or Early Dinner",
+        "vibe": "Polished and Multinational",
+        "good_for": [
+          "Groups with mixed tastes",
+          "First night",
+          "Indecision"
+        ]
+      },
+      "image": "/images/medellin/mercado-del-rio.jpg"
+    },
+    {
+      "id": "food-015",
+      "slug": "michelada",
+      "name_en": "Michelada",
+      "name_local": "Michelada",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Light lager mixed with lime, salt, and a chili-tamarind rim — the Sunday-afternoon recovery drink.",
+        "history": "Mexican origin, but adopted across Colombia and adapted with Aguila or Club Colombia as the base beer.",
+        "insider_tip": "Avoid touristy versions with sweet sauces. Order it 'preparada con sal y limón' — the salt rim and lime juice are the only essentials.",
+        "price_level": "Affordable",
+        "duration": "30 minutes",
+        "best_time": "Afternoon",
+        "vibe": "Light and Reviving",
+        "good_for": [
+          "Hangover recovery",
+          "Hot afternoons",
+          "Casual bars"
+        ]
+      },
+      "image": "/images/medellin/michelada.jpg"
+    },
+    {
+      "id": "food-016",
+      "slug": "obleas",
+      "name_en": "Obleas",
+      "name_local": "Obleas",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Thin communion-style wafers sandwiched with arequipe (dulce de leche), cheese, and jam — Colombia's most photogenic street dessert.",
+        "history": "Of Spanish-Catholic origin (the 'oblea' was a communion wafer); the dessert version proliferated as a cheap sweet during the early 20th century.",
+        "insider_tip": "Order 'con todo' for the full topping load. Find vendors near Parque Lleras at night or in El Centro near Plaza Botero.",
+        "price_level": "Affordable",
+        "duration": "10 minutes",
+        "best_time": "Afternoon or Evening",
+        "vibe": "Sweet Street Snack",
+        "good_for": [
+          "Quick dessert",
+          "Walking food",
+          "Sweet tooth"
+        ]
+      },
+      "image": "/images/medellin/obleas.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Essential Medellín",
+      "id": "essential",
+      "items": [
+        {
+          "id": "att-001",
+          "slug": "comuna-13-tour",
+          "name_en": "Comuna 13 Graffiti Tour",
+          "name_local": "Comuna 13",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A guided walking tour through Latin America's only urban-mobility escalator system, told by people who lived through the violence and the reinvention.",
+            "history": "In the 1990s, Comuna 13 was the most violent neighborhood on Earth — the bridge between Pablo Escobar's cartel and the FARC. Operation Orion in 2002 was a controversial government incursion. The graffiti is part of that memorial.",
+            "insider_tip": "Always go with a guide from Casa Kolacho or Zippy Tours; never wander side alleys alone. Bring cash for hip-hop performances and graffiti artists who sell prints. Skip Sundays — it's at maximum tourist saturation.",
+            "price_level": "Affordable ($15–25 USD)",
+            "duration": "3 hours",
+            "best_time": "10:00 AM weekday",
+            "vibe": "Historic and Inspiring",
+            "good_for": [
+              "First-time visitors",
+              "Historical perspective",
+              "Street art"
+            ]
+          },
+          "image": "/images/medellin/comuna-13-detail.jpg",
+          "geo": {
+            "lat": 6.2503,
+            "lng": -75.6147
+          }
+        },
+        {
+          "id": "att-002",
+          "slug": "plaza-botero",
+          "name_en": "Plaza Botero & Museo de Antioquia",
+          "name_local": "Plaza Botero",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "23 bronze sculptures by Fernando Botero in an open plaza, with the country's strongest Botero collection in the adjoining museum.",
+            "history": "Botero, born in Medellín in 1932, donated the plaza sculptures to his hometown. The museum holds his 'Death of Pablo Escobar' painting — one of the most direct artistic confrontations of the cartel era.",
+            "insider_tip": "Visit on a weekday morning — the plaza fills with hustlers and pickpockets at lunch and after work. The museum requires a passport ID at entry; admission $5 USD.",
+            "price_level": "Affordable ($5 USD museum)",
+            "duration": "2 hours",
+            "best_time": "Tuesday–Friday 9:30 AM",
+            "vibe": "Civic and Cultural",
+            "good_for": [
+              "Art lovers",
+              "History",
+              "Photography"
+            ]
+          },
+          "image": "/images/medellin/plaza-botero.jpg",
+          "geo": {
+            "lat": 6.2528,
+            "lng": -75.5681
+          }
+        },
+        {
+          "id": "att-003",
+          "slug": "metrocable-parque-arvi",
+          "name_en": "Metrocable to Parque Arví",
+          "name_local": "Parque Arví",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Two cable car lines climbing from the valley floor to a 16,000-acre cloud forest preserve at 2,500m elevation.",
+            "history": "The K-Line (2004) was the world's first gondola system built explicitly as urban public transit, designed to connect the poor northeastern comunas to the formal city. The L-Line continues to Parque Arví above the city.",
+            "insider_tip": "Ride during a weekday for empty cabins and unobstructed valley views. Bring a light jacket — the park is 10°C cooler than the city. Last gondola down is 6 PM sharp.",
+            "price_level": "Affordable ($3 USD round trip)",
+            "duration": "Half-day",
+            "best_time": "Tuesday–Thursday 9:00 AM",
+            "vibe": "Aerial and Reflective",
+            "good_for": [
+              "Photography",
+              "Nature",
+              "Urban planning nerds"
+            ]
+          },
+          "image": "/images/medellin/metrocable.jpg",
+          "geo": {
+            "lat": 6.2843,
+            "lng": -75.5394
+          }
+        },
+        {
+          "id": "att-004",
+          "slug": "guatape-day-trip",
+          "name_en": "Guatapé & El Peñol",
+          "name_local": "Guatapé y La Piedra del Peñol",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A lakeside town painted in saturated colors beneath a 220m granite monolith — 740 steps to the top, panoramic lake views at the summit.",
+            "history": "The lake itself is artificial, created in 1978 when the EPM dam flooded the original town of El Peñol. The drowned town remains intact beneath the water.",
+            "insider_tip": "Skip the group bus tours that race through both stops. Hire a private driver via Uber Intercity (or a hostel-arranged car) for around $80 USD round trip per group — you control the schedule.",
+            "price_level": "Moderate (transport + entry ~$25 USD)",
+            "duration": "Full day",
+            "best_time": "Weekday departure 7:30 AM",
+            "vibe": "Scenic and Postcard-perfect",
+            "good_for": [
+              "Day trips",
+              "Photography",
+              "First-time visitors"
+            ]
+          },
+          "image": "/images/medellin/guatape-detail.jpg",
+          "geo": {
+            "lat": 6.2336,
+            "lng": -75.1592
+          }
+        }
+      ]
+    },
+    {
+      "title": "Local Life & Culture",
+      "id": "local-life",
+      "items": [
+        {
+          "id": "act-001",
+          "slug": "salsa-night-la-70",
+          "name_en": "Salsa Night on La 70",
+          "name_local": "La 70 (Laureles)",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Laureles' main nightlife corridor: salsa, son, vallenato, and reggaetón across a dozen bars on a single pedestrian-friendly strip.",
+            "history": "La 70 emerged as the working-Paisa alternative to Poblado's expat scene; it's where actual locals drink on Saturday night.",
+            "insider_tip": "Son Havana is the salsa institution — live band Wed–Sat. Take an Uber both ways. Cover is small or free, drinks are cheap.",
+            "price_level": "Affordable",
+            "duration": "3–4 hours",
+            "best_time": "Friday or Saturday 10:00 PM",
+            "vibe": "Sweaty and Authentic",
+            "good_for": [
+              "Salsa dancers",
+              "Local nightlife",
+              "Music lovers"
+            ]
+          },
+          "image": "/images/medellin/la-70.jpg",
+          "geo": {
+            "lat": 6.2461,
+            "lng": -75.5894
+          }
+        },
+        {
+          "id": "act-002",
+          "slug": "pueblito-paisa",
+          "name_en": "Pueblito Paisa",
+          "name_local": "Pueblito Paisa",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A scale replica of a traditional Antioquian village atop Cerro Nutibara, with the city's best panoramic view.",
+            "history": "Built in 1978 to preserve the visual memory of pre-modern Paisa village architecture as the city industrialized.",
+            "insider_tip": "Go at sunset (5:30 PM) for the city-light transition. Take an Uber up; the climb on foot is steeper and less safe than it looks. Avoid the tourist restaurants — eat in Laureles after.",
+            "price_level": "Free",
+            "duration": "1.5 hours",
+            "best_time": "Sunset (5:00–6:30 PM)",
+            "vibe": "Panoramic and Nostalgic",
+            "good_for": [
+              "Sunset photos",
+              "Cultural overview",
+              "Quick visits"
+            ]
+          },
+          "image": "/images/medellin/pueblito-paisa.jpg",
+          "geo": {
+            "lat": 6.2333,
+            "lng": -75.5836
+          }
+        },
+        {
+          "id": "act-003",
+          "slug": "paragliding-san-felix",
+          "name_en": "Paragliding in San Félix",
+          "name_local": "Parapente San Félix",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 30-minute valley flight from a ridge above Bello, with views down the entire Aburrá Valley and back to the city skyline.",
+            "history": "The thermal winds at San Félix make it one of the most consistent paragliding sites in northern South America.",
+            "insider_tip": "Book through Dragonfly or Zona de Vuelo — both are licensed. Wear closed shoes, layers, and don't eat heavily beforehand. Best flight conditions before noon.",
+            "price_level": "Moderate ($45–60 USD)",
+            "duration": "Half-day (with transport)",
+            "best_time": "Morning departure 9:00 AM",
+            "vibe": "Aerial and Exhilarating",
+            "good_for": [
+              "Adventure",
+              "Photography",
+              "First-time flyers"
+            ]
+          },
+          "image": "/images/medellin/paragliding.jpg",
+          "geo": {
+            "lat": 6.4286,
+            "lng": -75.6097
+          }
+        },
+        {
+          "id": "act-004",
+          "slug": "tango-cafe-homero",
+          "name_en": "Tango Tuesdays at Patio del Tango",
+          "name_local": "Patio del Tango",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "An old-school tango cafe in Manrique where octogenarian locals dance and sing along to Gardel records.",
+            "history": "Carlos Gardel — Argentina's tango legend — died in a Medellín plane crash in 1935. The city absorbed his music into its identity; older barrios still host weekly tango nights.",
+            "insider_tip": "Bring cash, dress neat (no shorts), and don't film. Order an aguardiente and just watch. The crowd skews 60+ and the dancing is technical.",
+            "price_level": "Affordable",
+            "duration": "2 hours",
+            "best_time": "Tuesday evening 8:00 PM",
+            "vibe": "Smoky and Historic",
+            "good_for": [
+              "Music lovers",
+              "Cultural curiosity",
+              "Quiet nights"
+            ]
+          },
+          "image": "/images/medellin/tango.jpg",
+          "geo": {
+            "lat": 6.2722,
+            "lng": -75.5556
+          }
+        },
+        {
+          "id": "act-005",
+          "slug": "free-walking-tour",
+          "name_en": "Real City Free Walking Tour",
+          "name_local": "Real City Tour",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 4-hour tip-based walking tour of El Centro led by Paisas who grew up during the violence — the best historical primer in the city.",
+            "history": "Started by local entrepreneurs in 2012 as part of the city's reinvention narrative, the tour is now considered essential by both Lonely Planet and the city's own tourism office.",
+            "insider_tip": "Book online at least three days in advance — it sells out. Bring 60,000–80,000 COP cash for the tip; the guides do not receive a salary.",
+            "price_level": "Tip-based (~$20 USD)",
+            "duration": "4 hours",
+            "best_time": "Monday or Wednesday 9:30 AM",
+            "vibe": "Educational and Honest",
+            "good_for": [
+              "First-time visitors",
+              "History",
+              "Context"
+            ]
+          },
+          "image": "/images/medellin/walking-tour.jpg",
+          "geo": {
+            "lat": 6.2528,
+            "lng": -75.5681
+          }
+        },
+        {
+          "id": "act-006",
+          "slug": "estadio-football",
+          "name_en": "Football at Atanasio Girardot",
+          "name_local": "Estadio Atanasio Girardot",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A live match between Atlético Nacional or Independiente Medellín — the two city clubs that share the stadium and split the city's allegiance.",
+            "history": "Atanasio Girardot is one of South America's oldest stadiums (1953). The 'Clásico Paisa' between Nacional and DIM is among the continent's most intense derbies.",
+            "insider_tip": "Sit in the 'palco' (mid-tier) seats — the 'sur' end is the ultras section and overwhelming for first-timers. Buy tickets through the official club app, never from a street tout.",
+            "price_level": "Affordable ($15–30 USD)",
+            "duration": "3 hours",
+            "best_time": "Sunday afternoon",
+            "vibe": "Loud and Tribal",
+            "good_for": [
+              "Sports fans",
+              "Cultural immersion",
+              "Adrenaline"
+            ]
+          },
+          "image": "/images/medellin/stadium.jpg",
+          "geo": {
+            "lat": 6.2567,
+            "lng": -75.5897
+          }
+        },
+        {
+          "id": "act-007",
+          "slug": "cerro-el-volador",
+          "name_en": "Cerro El Volador Hike",
+          "name_local": "Cerro El Volador",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 40-minute walking trail up a forested hill in the center of the city, ending in a 360° panoramic viewpoint.",
+            "history": "Sacred to the indigenous Aburrá people before colonization; preserved as a protected ecological reserve in 1992 against development pressure.",
+            "insider_tip": "Go early (7 AM) when local runners and trainers use the trail — empty trails are not recommended for solo travelers. Closes at 5 PM.",
+            "price_level": "Free",
+            "duration": "1.5 hours",
+            "best_time": "Early morning 7:00 AM",
+            "vibe": "Green and Surprising",
+            "good_for": [
+              "Hikers",
+              "Sunrise views",
+              "Locals' morning routine"
+            ]
+          },
+          "image": "/images/medellin/cerro-volador.jpg",
+          "geo": {
+            "lat": 6.2664,
+            "lng": -75.5856
+          }
+        }
+      ]
+    },
+    {
+      "title": "Markets & Modern",
+      "id": "markets",
+      "items": [
+        {
+          "id": "mar-001",
+          "slug": "plaza-minorista",
+          "name_en": "Plaza Minorista",
+          "name_local": "Plaza Minorista José María Villa",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The largest covered market in the city — thousands of stalls of fruit, fish, meat, herbs, and miscellaneous everything-else.",
+            "history": "Opened in 1984 to relocate the chaotic 'Antiguo Guayaquil' street market and formalize Paisa wholesale food trade.",
+            "insider_tip": "Visit with a guided food tour (Real Food Tours) — going alone as a tourist is fine until you wander into the wrong corner. The juice bars upstairs are cheap and excellent.",
+            "price_level": "Affordable",
+            "duration": "1.5–2 hours",
+            "best_time": "Weekday morning 9:00 AM",
+            "vibe": "Sensory and Working-class",
+            "good_for": [
+              "Food tours",
+              "Photographers",
+              "Cultural immersion"
+            ]
+          },
+          "image": "/images/medellin/plaza-minorista.jpg",
+          "geo": {
+            "lat": 6.2497,
+            "lng": -75.5703
+          }
+        },
+        {
+          "id": "mar-002",
+          "slug": "santa-fe-mall",
+          "name_en": "Santa Fe Mall",
+          "name_local": "Centro Comercial Santa Fe",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The largest shopping mall in the city — international brands, food court, cinema, and the safest public space to spend a rainy afternoon.",
+            "history": "Opened in 2010 as part of the southern El Poblado retail expansion; now the city's default upscale shopping destination.",
+            "insider_tip": "The 4th floor terrace has the best skyline view in Poblado, free, with no entry. The Crepes & Waffles location here is a chain worth visiting for its all-female-staff social mission.",
+            "price_level": "Variable",
+            "duration": "2–3 hours",
+            "best_time": "Rainy afternoon",
+            "vibe": "Polished and Safe",
+            "good_for": [
+              "Rainy days",
+              "Shopping",
+              "Safe ATMs"
+            ]
+          },
+          "image": "/images/medellin/santa-fe-mall.jpg",
+          "geo": {
+            "lat": 6.1972,
+            "lng": -75.5747
+          }
+        },
+        {
+          "id": "mar-003",
+          "slug": "provenza-strip",
+          "name_en": "Provenza Boutique Strip",
+          "name_local": "Provenza",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Two leafy blocks of independent boutiques, specialty coffee, and natural-wine bars — the closest thing Medellín has to a curated retail experience.",
+            "history": "A residential street that transformed in the late 2010s as Colombia's design industry consolidated around Medellín's lower rents and faster permits.",
+            "insider_tip": "Visit on a Saturday afternoon 2–6 PM — Sunday many stores close. The hidden interior patios behind several shopfronts hold the better cafes.",
+            "price_level": "Moderate to Expensive",
+            "duration": "2–3 hours",
+            "best_time": "Saturday afternoon",
+            "vibe": "Curated and Photogenic",
+            "good_for": [
+              "Shopping",
+              "Cafes",
+              "Walking"
+            ]
+          },
+          "image": "/images/medellin/provenza-strip.jpg",
+          "geo": {
+            "lat": 6.2086,
+            "lng": -75.5675
+          }
+        },
+        {
+          "id": "mar-004",
+          "slug": "rooftop-bars",
+          "name_en": "Rooftop Bars in Poblado",
+          "name_local": "Bares en Terraza",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Open-air cocktail terraces in El Poblado offering 360° views of the valley and the surrounding hillsides lit up at night.",
+            "history": "The rooftop scene exploded after 2017 as El Poblado developed vertically and zoning shifted to allow alcohol service above ground floor.",
+            "insider_tip": "Envy Rooftop (Charlee Hotel) is the iconic one; Asai Rooftop offers better cocktails and fewer tourists. Both require a reservation on weekends.",
+            "price_level": "Expensive",
+            "duration": "2 hours",
+            "best_time": "Sunset 5:30–7:30 PM",
+            "vibe": "Glamorous and Panoramic",
+            "good_for": [
+              "Couples",
+              "Sunset",
+              "Photo ops"
+            ]
+          },
+          "image": "/images/medellin/rooftop.jpg",
+          "geo": {
+            "lat": 6.2086,
+            "lng": -75.5697
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "8:00 AM",
+      "title": "Paisa Breakfast & Specialty Coffee",
+      "description": "Start at Hija Mía Café in Provenza for a Paisa breakfast: arepa with quesito, scrambled eggs with chorizo, fresh tropical juice, and a serious V60 pour-over. Locals split their morning between the heavy traditional plate and the third-wave coffee scene; here you get both. Pay by card — Provenza accepts plastic. Avoid the chains down the street; this is where Medellín's coffee actually got serious.",
+      "image": "/images/medellin/breakfast.jpg"
+    },
+    {
+      "time": "9:30 AM",
+      "title": "Real City Free Walking Tour of El Centro",
+      "description": "Pre-booked tour meeting at Alpujarra Metro station. Four hours through the city's history — from the Spanish founding to the Escobar era to the post-2002 reinvention. The guides are Paisas in their 30s and 40s who lived through it. Bring 80,000 COP cash for the tip (their only income), water, sunscreen, and absolutely no jewelry. Leave passport at the hotel; bring a copy.",
+      "image": "/images/medellin/walking-tour-detail.jpg"
+    },
+    {
+      "time": "2:00 PM",
+      "title": "Bandeja Paisa Lunch",
+      "description": "Take an Uber to Hacienda Junín (downtown) or El Rancherito (Sabaneta) for a textbook Bandeja Paisa: beans, rice, chicharrón, chorizo, fried egg, plantain, avocado, arepa. This is a 90-minute meal — eat slowly. Pair with a cold Águila beer or fresh lulo juice. Refuse the second beer if you have anything planned after; the altitude amplifies everything.",
+      "image": "/images/medellin/bandeja-lunch.jpg"
+    },
+    {
+      "time": "4:00 PM",
+      "title": "Metrocable to Santo Domingo & Parque Arví",
+      "description": "Take Metro Line A to Acevedo, switch to the K-Line Metrocable, ride it up to Santo Domingo (former war zone, now a peaceful library-park), then continue on the L-Line to Parque Arví, a cloud forest at 2,500m. Bring a light jacket — it's 10°C cooler than the valley floor. Last gondola down is 6 PM sharp; do not miss it.",
+      "image": "/images/medellin/metrocable-detail.jpg"
+    },
+    {
+      "time": "6:30 PM",
+      "title": "Sunset at Pueblito Paisa",
+      "description": "Uber up to Cerro Nutibara for the city's best skyline panorama. The replica village itself is forgettable; the view is not. Watch the valley lights come on across the basin as the temperature drops. Don't eat at the touristy restaurants on the hill — they exist solely for the captive audience.",
+      "image": "/images/medellin/sunset-cerro.jpg"
+    },
+    {
+      "time": "8:00 PM",
+      "title": "Dinner in Laureles (Not Poblado)",
+      "description": "Uber to Carmen or Oci.Mde in Laureles for a proper modern Paisa dinner — local ingredients, no English menu, no Tinder crowd. Expect 200,000–300,000 COP per person for three courses with wine — extraordinary value by Western standards. Around La 70 afterwards, salsa bars start filling by 10 PM.",
+      "image": "/images/medellin/laureles-dinner.jpg"
+    },
+    {
+      "time": "10:30 PM",
+      "title": "Salsa at Son Havana",
+      "description": "Walk (with a group) or Uber (alone) to Son Havana on La 70 for live salsa. Cover is small, drinks cheap, dance floor packed by 11 PM. This is where locals actually dance — gringos welcome, but the floor is serious. Don't carry your passport, phone stays in front pocket, leave by midnight via Uber. Do not walk back to Poblado after 10 PM under any circumstance.",
+      "image": "/images/medellin/salsa-night.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Anti-Theft Crossbody Bag",
+      "image": "/images/medellin/anti-theft-bag.jpg",
+      "reason": "Slash-proof straps and locking zippers neutralize the dominant petty-crime vector: motorcycle snatch-and-grabs on phones and bags.",
+      "amazon_url": "https://www.amazon.com/s?k=pacsafe+anti+theft+crossbody&tag=canibringonpl-20",
+      "category": "security"
+    },
+    {
+      "id": "aff-002",
+      "title": "RFID Money Belt",
+      "image": "/images/medellin/money-belt.jpg",
+      "reason": "Keep passport + backup cards/cash on your body. Hotel safes are good, street wallets are not.",
+      "amazon_url": "https://www.amazon.com/s?k=rfid+money+belt&tag=canibringonpl-20",
+      "category": "security"
+    },
+    {
+      "id": "aff-003",
+      "title": "Drink Spike Test Kit",
+      "image": "/images/medellin/drink-test.jpg",
+      "reason": "Scopolamine ('burundanga') drugging is a documented, ongoing risk in Medellín nightlife and Tinder dates. Test strips fit in a wallet.",
+      "amazon_url": "https://www.amazon.com/s?k=drink+spike+test+strips&tag=canibringonpl-20",
+      "category": "security"
+    },
+    {
+      "id": "aff-004",
+      "title": "Portable Power Bank (10,000 mAh)",
+      "image": "/images/medellin/power-bank.jpg",
+      "reason": "Uber, WhatsApp, Rappi, Translate — your phone is your survival tool. A dead phone in the wrong neighborhood is the worst-case scenario.",
+      "amazon_url": "https://www.amazon.com/s?k=anker+10000mah+power+bank&tag=canibringonpl-20",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-005",
+      "title": "Travel Adapter (Type A/B)",
+      "image": "/images/medellin/adapter.jpg",
+      "reason": "Colombia uses US-style plugs but voltage can dip — a surge-protecting adapter saves your laptop in older buildings.",
+      "amazon_url": "https://www.amazon.com/s?k=travel+adapter+surge+protector&tag=canibringonpl-20",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-006",
+      "title": "Compact Travel Umbrella",
+      "image": "/images/medellin/umbrella.jpg",
+      "reason": "Daily afternoon thunderstorms April–November. A small umbrella beats a poncho in the city.",
+      "amazon_url": "https://www.amazon.com/s?k=compact+travel+umbrella&tag=canibringonpl-20",
+      "category": "weather"
+    },
+    {
+      "id": "aff-007",
+      "title": "High-SPF Sunscreen",
+      "image": "/images/medellin/sunscreen.jpg",
+      "reason": "Equatorial sun at 1,500m elevation burns in under 30 minutes — including on cloudy days at Comuna 13 or Guatapé.",
+      "amazon_url": "https://www.amazon.com/s?k=spf+50+sunscreen+travel&tag=canibringonpl-20",
+      "category": "weather"
+    },
+    {
+      "id": "aff-008",
+      "title": "DEET Mosquito Repellent",
+      "image": "/images/medellin/repellent.jpg",
+      "reason": "Low risk in Medellín itself, but essential for day trips to Guatapé and lower-elevation surroundings where dengue is present.",
+      "amazon_url": "https://www.amazon.com/s?k=deet+mosquito+repellent&tag=canibringonpl-20",
+      "category": "health"
+    }
+  ],
+  "survival_kit": {
+    "dos": [
+      "DO take Uber, Didi, or Cabify after dark — even three blocks. Street taxis are mostly fine in daylight near landmarks but never at night and never from a hotel that 'arranged' one.",
+      "DO sit in the front passenger seat of an Uber. Drivers prefer it for legal cover (ride-hailing is grey-area legal) and locals do the same.",
+      "DO follow the 'No Dar Papaya' rule: phone in pocket near the curb, no visible jewelry, no Rolex, no AirPods at red lights. Motorcycle phone-snatchers operate in pairs.",
+      "DO meet Tinder/Bumble dates only in public, well-lit places. Never bring a first date back to your accommodation — scopolamine drugging via dating apps is documented and ongoing.",
+      "DO use ATMs only inside bank branches (Bancolombia, Davivienda) or large malls (Santa Fe, El Tesoro). Withdraw during daylight and cover the keypad.",
+      "DO stay in estrato 5–6 neighborhoods (Poblado, Laureles, Envigado). Anything below estrato 4 requires a local guide.",
+      "DO hydrate aggressively the first 24 hours. Medellín sits at 1,500m — altitude amplifies hangovers and slows recovery.",
+      "DO carry 100,000–200,000 COP in cash daily. Cards work in Poblado and Laureles; cash is essential for taxis, street food, and El Centro.",
+      "DO tip the 10% 'propina voluntaria' on restaurant bills. It's auto-added but framed as voluntary — declining it marks you as a hostile tourist.",
+      "DO take guided tours into Comuna 13 with Casa Kolacho or Zippy Tours. The transformation is real but the underlying tensions are not gone.",
+      "DO learn 'Que más, parce' (hey) and 'Hágale pues' (closing). Paisas are warm but observant — basic Spanish unlocks the city.",
+      "DO enable Find My / Google Find Device before you land. If your phone is snatched, you have a ten-minute window before the SIM is removed."
+    ],
+    "donts": [
+      "DON'T buy cocaine from anyone — especially around Parque Lleras. The cocaine-dealer-in-Poblado economy is built to rob, extort, or set up tourists for fake-police shakedowns.",
+      "DON'T walk while looking at your phone within reach of the street. Motorcycle snatch-and-grabs are the #1 documented petty-crime pattern in 2025.",
+      "DON'T wander Comuna 13's side alleys, even on a tour. Stay on the official escalator route — the surrounding blocks are still active gang territory.",
+      "DON'T accept drinks you didn't watch being poured. Scopolamine ('burundanga') is colorless, odorless, and incapacitates victims for hours.",
+      "DON'T walk back to Poblado from Laureles or El Centro after 10pm under any circumstance. Always Uber.",
+      "DON'T flash USD or count cash in public. Currency is bulky here ($100 USD ≈ 420,000 COP in many small bills) — count it inside a bank or hotel lobby.",
+      "DON'T agree to a flat-rate taxi 'arranged' by a hotel or restaurant. Insist on the meter or use the app.",
+      "DON'T wear the wrong football colors in the wrong neighborhood on match day. Atlético Nacional (green) and Independiente Medellín (red) split the city.",
+      "DON'T trust the 'helpful local' who inserts themselves into your evening, offers to show you 'a great bar', or warns you about a stain on your shirt. It's almost always a setup.",
+      "DON'T eat or drink on the Metro. Locals are proud of the system and treat it as semi-sacred civic space — gringos breaking that code stand out instantly.",
+      "DON'T wear shorts or beach clothes to El Centro, tango cafes, or family restaurants. Paisas dress neatly and judge accordingly.",
+      "DON'T schedule outdoor activities (paragliding, Comuna 13, Guatapé) without a weather check April–November. Afternoon thunderstorms cancel cable cars and ground flights."
+    ]
+  },
+  "region": "South America"
+}

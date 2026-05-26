@@ -1,0 +1,1441 @@
+{
+  "id": "city-017",
+  "name": "Sofia",
+  "slug": "sofia",
+  "country": "Bulgaria",
+  "country_code": "bg",
+  "lat": 42.6977,
+  "lng": 23.3219,
+  "hero_image": "/images/sofia/hero.jpg",
+  "intro_vibe": "The ancient-modern hybrid: a city where Roman ruins live beneath subway stations, functioning as the primary tech-gateway to the Balkans.",
+  "general_info": {
+    "population": "~1.2 million (city) / ~1.7 million (metro)",
+    "is_capital": true,
+    "description": "Sofia is the capital of Bulgaria and the Balkans' quietest tech-gateway — sitting at 550m elevation in a basin between Vitosha mountain to the south and the Balkan range to the north. To operate it effectively you have to understand its three temporal layers stacked vertically on a single grid: the Roman Serdica beneath the metro stations (the 2nd-century forum, basilicas, and street grid visible through glass floors at Serdika II), the Ottoman-Bulgarian core (the Banya Bashi Mosque, the synagogue, the cathedral, all within a 200m square — Europe's tightest religious-monument cluster), and the Soviet-era brutalist superblocks that house most of the city's actual residents. Sofia is unusually walkable for a Balkan capital — the central yellow-brick zone is 2km across — but everything beyond it depends on the Soviet-built two-line metro (a third line opened in 2020) and the trams that have run since 1901. The economy pivoted hard toward IT outsourcing after 2010 and remote work after 2020; the result is a city where 19th-century Vienna-style cafés sit next to coworking spaces and where the most loaded political topic — euro adoption in January 2026 — is changing the cost of everything in real time."
+  },
+  "stats": {
+    "currency": "BGN (Bulgarian Lev, лв)",
+    "plug_type": "Type C/F"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "January",
+      "temp": "-4°C - 3°C",
+      "vibe": "Cold & Snowy",
+      "pros": [
+        "Vitosha ski season at full lift",
+        "Lowest hotel rates of the year",
+        "Crisp clear days after snow"
+      ],
+      "cons": [
+        "Air pollution peaks (district heating)",
+        "Sidewalks become ice rinks",
+        "Short daylight to 17:00"
+      ],
+      "clothing": "Heavy coat, lined boots, thermal base layer"
+    },
+    {
+      "id": 2,
+      "name": "February",
+      "temp": "-2°C - 5°C",
+      "vibe": "Late Winter",
+      "pros": [
+        "Still ski-able on Vitosha",
+        "Sofia Film Festival mid-month",
+        "Cosy mehana wine cellar season"
+      ],
+      "cons": [
+        "Damp cold in older buildings",
+        "Pollution from heating still high",
+        "Grey overcast common"
+      ],
+      "clothing": "Warm coat, thermal layers, gloves"
+    },
+    {
+      "id": 3,
+      "name": "March",
+      "temp": "1°C - 11°C",
+      "vibe": "Unstable Spring",
+      "pros": [
+        "Baba Marta tradition (red-and-white tassels)",
+        "First terrace days mid-month",
+        "Hiking trails partially open"
+      ],
+      "cons": [
+        "Snow alternates with rain",
+        "Vitosha access patchy",
+        "Allergy season begins"
+      ],
+      "clothing": "Light winter coat, waterproof shoes"
+    },
+    {
+      "id": 4,
+      "name": "April",
+      "temp": "5°C - 17°C",
+      "vibe": "Real Spring",
+      "pros": [
+        "Park season (Borisova Garden) opens",
+        "Cycling weather returns",
+        "Open-air café terraces fill"
+      ],
+      "cons": [
+        "Pollen peak for allergies",
+        "Variable rain showers",
+        "Vitosha still has summit snow"
+      ],
+      "clothing": "Light jacket, layers"
+    },
+    {
+      "id": 5,
+      "name": "May",
+      "temp": "10°C - 22°C",
+      "vibe": "Ideal Window",
+      "pros": [
+        "Best weather of the year",
+        "Hiking on Vitosha at peak",
+        "Long daylight to 20:30"
+      ],
+      "cons": [
+        "Rose festival weekend traffic chaos",
+        "Hotel prices climb",
+        "Late-month thunderstorms"
+      ],
+      "clothing": "T-shirt + light layer"
+    },
+    {
+      "id": 6,
+      "name": "June",
+      "temp": "13°C - 26°C",
+      "vibe": "Early Summer",
+      "pros": [
+        "Mountains fully open",
+        "Outdoor festival season starts",
+        "Mineral spring outdoor taps active"
+      ],
+      "cons": [
+        "Strong afternoon thunderstorms",
+        "Hayfever escalates",
+        "Crowded weekends on Vitosha"
+      ],
+      "clothing": "Summer clothes, packable rain shell"
+    },
+    {
+      "id": 7,
+      "name": "July",
+      "temp": "16°C - 30°C",
+      "vibe": "Hot & Dry",
+      "pros": [
+        "Borisova Garden free outdoor cinema",
+        "Salza i Smyah Theatre summer stage",
+        "Evening terrace culture peaks"
+      ],
+      "cons": [
+        "Old buildings without AC overheat",
+        "Asphalt heat in 5-storey blocks",
+        "Locals flee to Black Sea"
+      ],
+      "clothing": "Light cotton, hat, refillable bottle"
+    },
+    {
+      "id": 8,
+      "name": "August",
+      "temp": "16°C - 30°C",
+      "vibe": "Empty City",
+      "pros": [
+        "Many locals on coast — traffic light",
+        "Some restaurants close (vacanze)",
+        "Outdoor concerts continue"
+      ],
+      "cons": [
+        "Family-run businesses shut 2 weeks",
+        "Heat oppressive midday",
+        "Dry water-fountain risk"
+      ],
+      "clothing": "Lightest fabrics, sunglasses"
+    },
+    {
+      "id": 9,
+      "name": "September",
+      "temp": "12°C - 25°C",
+      "vibe": "Golden Window",
+      "pros": [
+        "Independence Day Sep 22 fireworks",
+        "Hiking ideal again",
+        "Mushroom-foraging season"
+      ],
+      "cons": [
+        "Late-month weather flip risk",
+        "Hotel prices stay summer-high until 20th",
+        "Sudden cold fronts"
+      ],
+      "clothing": "Layers — T-shirt to sweater range"
+    },
+    {
+      "id": 10,
+      "name": "October",
+      "temp": "7°C - 18°C",
+      "vibe": "Best Photo Light",
+      "pros": [
+        "Borisova Garden autumn colors peak",
+        "Comfortable walking weather",
+        "Wine harvest dinners"
+      ],
+      "cons": [
+        "Rain frequent late month",
+        "Heating not yet turned on",
+        "Apartments cold by night"
+      ],
+      "clothing": "Jacket, layers, scarf"
+    },
+    {
+      "id": 11,
+      "name": "November",
+      "temp": "2°C - 10°C",
+      "vibe": "Heating Season Starts",
+      "pros": [
+        "Toplofikatsiya central heating turns on",
+        "Mehana cellar dining peaks",
+        "Empty museums"
+      ],
+      "cons": [
+        "First snow possible",
+        "Pollution from heating begins",
+        "Grey skies dominate"
+      ],
+      "clothing": "Winter coat, scarf, beanie"
+    },
+    {
+      "id": 12,
+      "name": "December",
+      "temp": "-2°C - 5°C",
+      "vibe": "Christmas & Snow",
+      "pros": [
+        "Christmas market on Knyaz Aleksandar I Square",
+        "Vitosha ski season opens mid-month",
+        "Mulled rakia (greyana rakia) on every corner"
+      ],
+      "cons": [
+        "Daylight ends at 16:45",
+        "Pollution at annual worst",
+        "Snow-locked sidewalks"
+      ],
+      "clothing": "Heavy coat, waterproof boots, gloves"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "The Nod Inversion: Bulgarians shake their head side-to-side for 'yes' and nod up-and-down for 'no'. This is the single biggest source of foreigner confusion in transactions. When uncertain, ALWAYS verbalize 'da' (yes) or 'ne' (no) — don't trust the gesture.",
+      "Naming Day Culture: Bulgarians celebrate their saint's-name day (imen den) more than their birthday. If a colleague's name is Maria, December 8 is socially heavier than her birthday — show up with chocolates.",
+      "Baba Marta (March 1): Bulgarians give each other red-and-white woven 'martenitsa' tassels for health and spring. Wear it until you see a stork or fruit tree in bloom, then tie it to the tree.",
+      "Yogurt Civic Pride: Bulgarian sour yogurt ('kiselo mlyako') was the original probiotic — Lactobacillus bulgaricus was named after the country. Insult its quality at your peril.",
+      "Greeting Hand: A firm handshake with men. Women initiate or signal with body language. Cheek-kiss (two, right then left) is for friends.",
+      "Restaurant Pace: Sit-down dinners are slow. Waiters do not check on you constantly — flag them with eye contact and a small raised hand, never a finger snap.",
+      "Tipping: 10% is standard for full-service restaurants. Add cash; rounding up via card terminal often doesn't reach the waiter. Taxis: round up to nearest BGN.",
+      "Football Tribal: CSKA (red) and Levski (blue) split the city. Wearing the wrong color in a metro car of supporters is unwise; wearing either to a derby is committed.",
+      "Cyrillic Reality: Street signs, metro stations, and bakery names are in Cyrillic. Learn the alphabet (it takes 30 minutes) — it unlocks half the city.",
+      "Direct Speech: Bulgarians can sound brusque by Anglo-American standards. 'Give me a coffee' is not rude; it's how the language works.",
+      "Mineral Water Civic Right: The free public mineral springs (Banski Square, Knyazheska Garden) are a constitutional civic right. Locals queue with 10L bottles. Tourists drinking from them is welcome; cutting the queue is not.",
+      "Smoking: Banned indoors since 2012 but enforcement is loose in older mehanas. Outdoor terraces are smoke-permitted by default; check before sitting if you're sensitive."
+    ],
+    "essential_phrases": [
+      {
+        "src": "Hello",
+        "local": "Здравейте (Zdraveyte)",
+        "phonetic": "zdrah-VAY-teh (formal); zdravey (informal)"
+      },
+      {
+        "src": "Thank you",
+        "local": "Благодаря (Blagodarya)",
+        "phonetic": "blah-go-dah-RYA"
+      },
+      {
+        "src": "Yes / No",
+        "local": "Да / Не (Da / Ne)",
+        "phonetic": "dah / neh",
+        "note": "ALWAYS speak the word — head gestures are reversed and unreliable."
+      },
+      {
+        "src": "How much?",
+        "local": "Колко струва? (Kolko struva?)",
+        "phonetic": "KOL-koh STROO-vah"
+      },
+      {
+        "src": "The bill, please",
+        "local": "Сметката, моля (Smetkata, molya)",
+        "phonetic": "SMET-kah-tah MOH-lyah"
+      },
+      {
+        "src": "Excuse me / Sorry",
+        "local": "Извинете (Izvinete)",
+        "phonetic": "iz-vee-NET-eh"
+      },
+      {
+        "src": "Cheers",
+        "local": "Наздраве (Nazdrave)",
+        "phonetic": "naz-DRAH-veh"
+      },
+      {
+        "src": "I don't understand",
+        "local": "Не разбирам (Ne razbiram)",
+        "phonetic": "neh raz-BEER-am"
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Lozenets",
+      "vibe": "Modern Expat Calm",
+      "description": "A leafy residential district immediately south of the yellow-brick center, climbing the foothills toward Vitosha. Pre-war single-family houses share streets with glass apartment blocks; cafés, specialty coffee, brunch spots, and the city's strongest concentration of remote-worker bars cluster along the inland grid. Embassies, the South Park, and Hladilnika tram terminus anchor it. Where most foreigners actually choose to live.",
+      "highlights": [
+        "South Park (Yuzhen Park)",
+        "Bulgaria Boulevard café strip",
+        "Specialty coffee on James Bourchier"
+      ],
+      "best_for": [
+        "digital nomads",
+        "long-stay travelers",
+        "families"
+      ],
+      "image": "/images/sofia/lozenets.jpg"
+    },
+    {
+      "name": "Oborishte",
+      "vibe": "Historic Diplomatic",
+      "description": "The 19th-century-built diplomatic and old-bourgeois district immediately north-east of the city center — Vienna-style apartment blocks with caryatid façades, embassies in restored mansions, leafy quiet streets, and some of Sofia's best non-touristy restaurants. Houses the National Assembly nearby. The city's quietest and most architectural quarter.",
+      "highlights": [
+        "Oborishte Park",
+        "Embassy row (Shipka Street)",
+        "Sofia Art Gallery"
+      ],
+      "best_for": [
+        "architecture lovers",
+        "couples",
+        "quiet stays"
+      ],
+      "image": "/images/sofia/oborishte.jpg"
+    },
+    {
+      "name": "Student City (Studentski Grad)",
+      "vibe": "Chaotic Nightlife",
+      "description": "A self-contained university dormitory district 5km southeast of the center — 40+ dorms housing 30,000 students, with a club density unlike anywhere else in the Balkans. The clubs operate Thursday through Saturday from 23:00 to 06:00, the streets are crowded with 19-year-olds, and the entire ecosystem runs on cheap rakia and pop-folk. Loud, raw, and the city's actual nightlife center — though no Western traveler stays here on purpose.",
+      "highlights": [
+        "Club 4Kilo",
+        "Yalta dormitory bars",
+        "Late-night kebabche stalls"
+      ],
+      "best_for": [
+        "nightlife",
+        "20s travelers",
+        "Balkan club culture"
+      ],
+      "image": "/images/sofia/student-city.jpg"
+    },
+    {
+      "name": "Center / Serdika",
+      "vibe": "Roman Ruins Below, Cathedrals Above",
+      "description": "The 'Yellow Brick' historic core — the Alexander Nevsky Cathedral, the Banya Bashi Mosque, the synagogue, the cathedral, the Sofia Central Market Hall, and the Roman Serdika ruins visible through glass floors at the metro station. Walkable, dense, photogenic, and the only district you can effectively cover on foot.",
+      "highlights": [
+        "Alexander Nevsky Cathedral",
+        "Serdika Roman ruins under metro",
+        "Vitosha Boulevard pedestrian strip"
+      ],
+      "best_for": [
+        "first-timers",
+        "history",
+        "short stays"
+      ],
+      "image": "/images/sofia/serdika.jpg"
+    },
+    {
+      "name": "Mladost",
+      "vibe": "Business & Outsourcing",
+      "description": "A Soviet-era panel-block district 6km east of the center, transformed since 2010 into Sofia's main IT outsourcing zone — glass office towers, Paradise Center mall, multinational corporate campuses. Where the city's tech workforce actually goes to the office. Not a destination, but worth understanding as the engine of the city's current economy.",
+      "highlights": [
+        "Paradise Center mall",
+        "Sofia Tech Park",
+        "Business Park Sofia"
+      ],
+      "best_for": [
+        "business travelers",
+        "long stays for work",
+        "shopping"
+      ],
+      "image": "/images/sofia/mladost.jpg"
+    },
+    {
+      "name": "Boyana",
+      "vibe": "Suburban Mountain Foothills",
+      "description": "The southernmost residential district, where the city meets Vitosha mountain. Single-family houses with gardens, the UNESCO-listed Boyana Church (13th-century frescoes), and the trailhead for several Vitosha hikes. Quieter, leafier, and slightly more affluent than the central districts.",
+      "highlights": [
+        "Boyana Church UNESCO site",
+        "Boyana Waterfall trailhead",
+        "National Museum of History"
+      ],
+      "best_for": [
+        "nature access",
+        "luxury stays",
+        "families"
+      ],
+      "image": "/images/sofia/boyana.jpg"
+    },
+    {
+      "name": "Vitosha Mountain",
+      "vibe": "Urban Wilderness",
+      "description": "The 2,290m mountain on the southern edge of Sofia — accessible by lift from Simeonovo or Dragalevtsi in 40 minutes from the center. Hiking trails, ski runs, the Stone River boulder field, and the Cherni Vrah summit. Sofia is one of the few European capitals with a true mountain at metro range.",
+      "highlights": [
+        "Cherni Vrah summit (2,290m)",
+        "Boyana Waterfall hike",
+        "Aleko ski center"
+      ],
+      "best_for": [
+        "hikers",
+        "day trips",
+        "winter sports"
+      ],
+      "image": "/images/sofia/vitosha.jpg"
+    },
+    {
+      "name": "Plovdiv (Day Trip)",
+      "vibe": "Older-Than-Rome Ancient",
+      "description": "150km southeast — Bulgaria's second city and one of Europe's oldest continuously inhabited places (8,000+ years). Roman amphitheater, Ottoman-era Old Town, the Kapana creative quarter. Reachable in 2 hours by car or 2.5 hours by train. The full counterweight to Sofia's modern-tech identity.",
+      "highlights": [
+        "Roman Amphitheater",
+        "Old Town National Revival houses",
+        "Kapana creative quarter"
+      ],
+      "best_for": [
+        "day trips",
+        "history",
+        "weekend stays"
+      ],
+      "image": "/images/sofia/plovdiv.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Getting Around",
+      "icon": "Train",
+      "summary": "Three metro lines, trolleybuses since the 1940s, and a walkable yellow-brick core.",
+      "details": [
+        "Metro: Three lines (M1, M2, M3), 1.60 BGN per ride paid by contactless card directly at the gate (Visa/Mastercard tap) or Ultralight card. Runs 05:00–24:00. M2 connects the airport to the city in 20 minutes for 1.60 BGN — one of Europe's cheapest airport metros.",
+        "Trams: 1, 6, 22 are the workhorses through the center. Tickets 1.60 BGN; ride duration unlimited within 30 minutes if you tap-validate. The 1901-era network is among Europe's oldest still in continuous operation.",
+        "Buses & Trolleybuses: Cover everything beyond metro range. Same 1.60 BGN flat fare. Trolleybuses (electric) are the city's quietest transit.",
+        "Yellow Brick Walking Zone: The yellow-paved central streets (laid for King Ferdinand in 1907) form a 2km walking core where everything historic and most things culinary are accessible without transit.",
+        "TaxiMe / Yellow: TaxiMe is the local Uber-equivalent app — reliable, English-friendly, card-payment. Avoid street-hailed 'taxis' especially at the airport and Central Station; the OK Supertrans yellow taxis are the legit ones.",
+        "Cycling: Sofia is increasingly cycle-friendly — protected lanes along Cherni Vrah Boulevard, the South Park loop, and the Yug-Lozenets-Center corridor. Bike-share (e-bikes via Brum) operates centrally. Helmets are recommended but not legally required.",
+        "Airport (SOF): Connected by metro line M2 to Serdika (the city center) in 18 minutes for 1.60 BGN — there is no reason to take an airport taxi."
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "financial-landscape",
+      "title": "Money & Payments",
+      "icon": "CreditCard",
+      "summary": "Cards-everywhere infrastructure; the lev-to-euro transition is reshaping prices.",
+      "details": [
+        "Currency: Bulgarian Lev (BGN, лв). Pegged to the euro at 1 EUR = 1.95583 BGN since 1999. Euro adoption is scheduled for January 1, 2026 — dual pricing (lev + euro) is mandatory throughout 2025.",
+        "Cards: Tap-to-pay Visa/Mastercard works almost everywhere — restaurants, taxis, metro gates, bakeries, even some street stalls. One of the most card-friendly capitals in the Balkans.",
+        "Cash: Useful at the Central Sofia Market Hall (Tsentralni Hali) butcher stalls, smaller mehana wine cellars, and rural day-trip stops. Carry 50–100 BGN.",
+        "ATMs: UniCredit Bulbank, DSK, and Postbank are the reliable networks. Avoid the standalone 'Euronet' machines — they apply punitive conversion rates. Withdraw inside bank branches when possible.",
+        "Tipping: 10% is the restaurant standard. Round up taxis. Bartenders 1–2 BGN per drink.",
+        "Euro Transition Reality: From January 2026 the official currency is EUR; the lev becomes legal tender for a transitional period. Expect rounding inflation — 4.90 BGN coffees becoming €2.60 — and watch dual-price tags carefully.",
+        "VAT Refund: 20% VAT is refundable at the airport for non-EU tourist purchases over 250 BGN per receipt at participating retailers."
+      ]
+    },
+    {
+      "id": "logistics-heating",
+      "slug": "winter-heating",
+      "title": "Winter Heating & Pollution",
+      "icon": "Sun",
+      "summary": "Sofia's air pollution problem is a winter-specific systemic issue you should plan around.",
+      "details": [
+        "Toplofikatsiya: The city's centralized district-heating system pipes hot water from Sofia East power plant through underground mains to every Soviet-era apartment block. It is turned on roughly Nov 1 and off April 1 by municipal decree, regardless of outdoor temperature.",
+        "Air Pollution Peaks: November–February. The combination of district heating, low-grade coal/wood heating in surrounding villages (gradoborba), thermal inversion in the basin, and old-diesel traffic creates Europe's worst urban-winter air on bad days.",
+        "AQI App: Install IQAir or AirVisual; PM2.5 readings above 100 are common in December/January. Wear an N95 on red days.",
+        "Apartment Reality: Older apartments are either chronically over-heated (district heating runs hot, windows opened for relief) or unevenly heated (corner units cold). Check heating type and quality before booking a long-stay Nov–March rental.",
+        "Pre-Heating Season: Oct 1–31 is the worst transition window — outdoor temperatures drop below 10°C but the centralized heating doesn't turn on. Bring warm sleepwear and a portable electric heater for any month-long stay.",
+        "Spring Pollen: April–May brings the second-worst air-quality season for allergy sufferers. Birch and grass pollen are intense."
+      ]
+    },
+    {
+      "id": "logistics-springs",
+      "slug": "mineral-springs",
+      "title": "Mineral Spring Etiquette",
+      "icon": "Droplet",
+      "summary": "Sofia has free public mineral water taps. There is a protocol.",
+      "details": [
+        "The Two Main Springs: Banski Square (in front of Banya Bashi Mosque, the most famous) and Knyazheska Garden (quieter, longer-lasting flow). Both flow free, 24/7, year-round.",
+        "Bring Bottles: Locals queue with 5–10L bottles for the week's drinking water. Don't show up empty-handed; vendors near the springs sell empty plastic bottles for 1 BGN each.",
+        "Queue Etiquette: Lines are orderly. Don't crowd; one person per tap at a time; don't refill more than 30L in a single visit. Cutting the queue is the city's most reliable way to start a sidewalk argument.",
+        "Drink Temperature: The Banski Square water exits at 46°C — too hot to drink at the tap. Locals fill bottles and let them cool. Don't expect cold mineral water on the spot.",
+        "Health Claims: The mineral content (sulfur, fluoride, calcium) is reputed to help joint and skin conditions; Bulgarians treat it as a genuine medical resource, not folklore.",
+        "Public Baths Banya: The grand Central Mineral Bath building behind Banski Square is now the Sofia History Museum, not a functioning bath. The actual public bathing tradition has shifted to suburban hot springs (Bankya, Ovcha Kupel)."
+      ]
+    },
+    {
+      "id": "logistics-scams",
+      "slug": "common-scams",
+      "title": "Scams to Avoid",
+      "icon": "AlertTriangle",
+      "summary": "Sofia is low-scam by European standards but a few traps are routine.",
+      "details": [
+        "Airport Taxi Cartel: Unmarked drivers and 'OK Supercars' (intentionally misleading brand confusion with OK Supertrans, the legit yellow taxi) quote 50–80 BGN for a 15 BGN airport ride. Always take the metro (1.60 BGN) or book a TaxiMe in advance.",
+        "Vitosha Boulevard 'Petition' Approach: Young women with clipboards approach foreigners 'for a charity petition'. Sign and they ask for a 20–50 BGN donation; refuse and they're aggressive. Walk past, don't engage.",
+        "Currency Exchange Booth Trap: Standalone 'Exchange' booths on Vitosha Boulevard advertise great rates in 8-foot letters, then apply 25%+ commission via fine print. Always exchange at a bank branch.",
+        "Restaurant 'Per 100g' Bill Shock: Some tourist-zone restaurants list seafood and grills 'per 100g' instead of by portion. A 1.5kg fish at 12 BGN/100g becomes 180 BGN. Verify portion sizing before ordering.",
+        "Wine Shop Tasting: Some Vitosha Boulevard wine shops offer 'free' tasting, then bill 30–60 BGN for the privilege. Ask if there's a tasting charge before sitting down.",
+        "Counterfeit Bills: 20 and 50 BGN notes are occasionally counterfeited. New polymer notes are harder to fake; older paper notes warrant a watermark check.",
+        "Fake Police 'Document Check': Plainclothes 'officers' demand to inspect your wallet for counterfeit cash. Real Bulgarian police never need to inspect cash on the street. Ask to walk to the station; the scam evaporates."
+      ]
+    },
+    {
+      "id": "logistics-survival",
+      "slug": "survival-tips",
+      "title": "Environment & Health",
+      "icon": "Sun",
+      "summary": "Altitude, allergies, and a continental climate that swings hard.",
+      "details": [
+        "Altitude (550m): Mild but noticeable — the first day can feel slightly headachy. Hydrate aggressively the first 24 hours.",
+        "Tap Water: Officially potable and Sofians drink it; tourist preference often runs to mineral spring water (free) or bottled (1 BGN/1.5L).",
+        "Allergies: Sofia is built on a high-pollen basin. April–June (tree and grass pollen) and August–September (ragweed) are peak. Bring antihistamines.",
+        "Pharmacies: 'Apteka' chains (Sopharmacy, SCS, Subra) are everywhere. Many medications over-the-counter that aren't in Western Europe. Most pharmacists speak English.",
+        "Hospitals: Tokuda Hospital and Acibadem City Clinic are the foreigner-friendly options. EU EHIC card works at public clinics; travel insurance is strongly recommended.",
+        "Mosquitoes: Mild risk May–September, peaking near rivers and parks. Standard repellent handles it.",
+        "Winter Driving: Snow tires are legally required Nov 15 – Mar 1. Tram tracks ice over and become lethal for cyclists; cycling effectively pauses Dec–Feb."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Apps to Download",
+      "icon": "Smartphone",
+      "summary": "Install before you land — TaxiMe activates with a foreign card.",
+      "details": [
+        "TaxiMe: The local ride-hail. Reliable, English-friendly, card-payment. Bolt also operates and is sometimes cheaper.",
+        "Bolt Food / Foodpanda: Food delivery — Bolt Food has wider restaurant coverage in Sofia than its ride-hail twin.",
+        "Sofia Urban Mobility (SUM): The official transit app — routes, timetables, real-time tracking for metro, tram, bus.",
+        "Google Translate: Download Bulgarian offline pack. Cyrillic camera-OCR is essential for menus outside the tourist crust.",
+        "IQAir / AirVisual: Winter air-quality tracking. Crucial Nov–Feb.",
+        "BG Weather: The Bulgarian Meteorological Institute app — more reliable than Google for Vitosha forecasts.",
+        "Brum: Bike-share app for the central e-bike network.",
+        "Maps.me: Better than Google Maps for Vitosha hiking trails and Plovdiv day-trip back roads."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "shopska-salad",
+      "name_en": "Shopska Salad",
+      "name_local": "Шопска салата",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Diced tomato, cucumber, onion, and roasted red pepper topped with a snow-mountain of grated white brine cheese (sirene) — Bulgaria's national salad and the prelude to almost every meal.",
+        "history": "Invented in the 1950s by the state tourism agency Balkantourist as an export-friendly 'Bulgarian salad'; the red-white-green color scheme intentionally mirrors the national flag.",
+        "insider_tip": "Order at any mehana (tavern) as a starter alongside rakia. The cheese should bury the vegetables; if you can see them clearly, the kitchen is being stingy.",
+        "price_level": "Affordable",
+        "duration": "20 minutes",
+        "best_time": "Starter at any meal",
+        "vibe": "Fresh and Iconic",
+        "good_for": [
+          "Vegetarians",
+          "Starters",
+          "First-timers"
+        ]
+      },
+      "image": "/images/sofia/shopska.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "banitsa",
+      "name_en": "Banitsa",
+      "name_local": "Баница",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Layered phyllo pastry filled with white brine cheese and egg, baked until golden — Bulgaria's national breakfast, sold from every neighborhood bakery before 11 AM.",
+        "history": "A 12th-century dish documented as 'banitsa' since the 1700s; on New Year's Eve, the country eats 'fortune banitsa' with coin-and-paper charms baked inside.",
+        "insider_tip": "Buy from a 'furna' (oven-bakery) signposted with 'фурна'. Furna Mura on Slaveykov Square and the chain Furna Vega are the gateway options. Eat with ayran (yogurt drink) on the side.",
+        "price_level": "Affordable",
+        "duration": "10 minutes",
+        "best_time": "Breakfast (before 11 AM)",
+        "vibe": "Flaky and Comforting",
+        "good_for": [
+          "Breakfast",
+          "On-the-go",
+          "Budget travelers"
+        ]
+      },
+      "image": "/images/sofia/banitsa.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "kebapche",
+      "name_en": "Kebapche & Kyufte",
+      "name_local": "Кебапче и Кюфте",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Grilled minced-meat sausages (kebapche, long; kyufte, round) seasoned with cumin and savory, served with shopska salad, fries, and lyutenitsa relish.",
+        "history": "Ottoman-era grilled-meat tradition adapted into Bulgarian working-class lunch; the spice mix is the technical signature.",
+        "insider_tip": "Order at a 'skara' (grill house) like Skara Bira on Patriarh Evtimii or the Mehana Pri Yafata. Two kebapche + two kyufte + a salad is the universal lunch combo.",
+        "price_level": "Affordable",
+        "duration": "45 minutes",
+        "best_time": "Lunch",
+        "vibe": "Smoky and Casual",
+        "good_for": [
+          "Meat lovers",
+          "Quick lunch",
+          "Beer pairing"
+        ]
+      },
+      "image": "/images/sofia/kebapche.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "tarator",
+      "name_en": "Tarator",
+      "name_local": "Таратор",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Cold soup of yogurt, cucumber, dill, garlic, walnut, and water — Bulgaria's summer survival dish, served in bowls or drinking glasses.",
+        "history": "Pre-Christian Thracian origin; the use of Lactobacillus bulgaricus yogurt makes the Bulgarian version unique among Balkan cold-yogurt soups.",
+        "insider_tip": "Best at Manastirska Magernitsa or Hadjidraganov's Houses. Should be served with the soup ice-cold and the walnut texture coarse, not pureed.",
+        "price_level": "Affordable",
+        "duration": "20 minutes",
+        "best_time": "Summer lunch",
+        "vibe": "Cool and Restorative",
+        "good_for": [
+          "Hot weather",
+          "Vegetarians",
+          "Light eating"
+        ]
+      },
+      "image": "/images/sofia/tarator.jpg"
+    },
+    {
+      "id": "food-005",
+      "slug": "rakia",
+      "name_en": "Rakia",
+      "name_local": "Ракия",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Fruit brandy distilled from plums, grapes, apricots, or quince at 40–50% ABV — Bulgaria's national spirit, served chilled in shot glasses before a meal, not after.",
+        "history": "Distilled in Bulgaria since the Ottoman era; the homemade rakia tradition survived communism because every rural family kept a small still.",
+        "insider_tip": "Order 'gruzdova rakia' (grape) or 'slivova rakia' (plum) as a starter alongside shopska salad — the combination is the canonical Bulgarian aperitif. Don't sip; small shots.",
+        "price_level": "Affordable",
+        "duration": "Variable",
+        "best_time": "Before dinner",
+        "vibe": "Sharp and Social",
+        "good_for": [
+          "Cultural rite",
+          "Aperitif",
+          "Cold weather"
+        ]
+      },
+      "image": "/images/sofia/rakia.jpg"
+    },
+    {
+      "id": "food-006",
+      "slug": "kavarma",
+      "name_en": "Kavarma",
+      "name_local": "Каварма",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A slow-cooked pork-or-veal stew with onions, peppers, mushrooms, and white wine, traditionally served in an individual clay pot fresh from the oven.",
+        "history": "A medieval Bulgarian peasant dish that survived the Ottoman period; the individual clay-pot serving is the technical signature.",
+        "insider_tip": "Order at Manastirska Magernitsa or Pod Lipite. The clay pot arrives sealed with dough — break it with a spoon at the table; the steam release is half the experience.",
+        "price_level": "Moderate",
+        "duration": "1 hour",
+        "best_time": "Dinner",
+        "vibe": "Rustic and Aromatic",
+        "good_for": [
+          "Cold weather",
+          "Comfort food",
+          "Wine pairing"
+        ]
+      },
+      "image": "/images/sofia/kavarma.jpg"
+    },
+    {
+      "id": "food-007",
+      "slug": "lyutenitsa",
+      "name_en": "Lyutenitsa",
+      "name_local": "Лютеница",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Roasted red pepper, tomato, eggplant, and garlic relish — Bulgaria's universal condiment, eaten with bread, kebapche, or as the secret ingredient in any sauce.",
+        "history": "Pre-industrial preservation method for the autumn pepper-and-tomato harvest; every Bulgarian grandmother makes her own and family recipes are protected.",
+        "insider_tip": "Buy a jar of 'lyutenitsa Pirina' or 'Konex' from any supermarket as a take-home souvenir. The 'lyuta' (spicy) and 'sladka' (sweet) variants are both classics.",
+        "price_level": "Affordable",
+        "duration": "5 minutes",
+        "best_time": "With grilled meats",
+        "vibe": "Tangy and Essential",
+        "good_for": [
+          "Sauce lovers",
+          "Souvenirs",
+          "Bread accompaniment"
+        ]
+      },
+      "image": "/images/sofia/lyutenitsa.jpg"
+    },
+    {
+      "id": "food-008",
+      "slug": "sirene-po-shopski",
+      "name_en": "Sirene po Shopski",
+      "name_local": "Сирене по шопски",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Baked white brine cheese topped with tomato, pepper, hot chilies, and an egg cracked on top — a clay-pot starter that's mandatory at any traditional mehana.",
+        "history": "From the Shopluk region surrounding Sofia; the dish is a pre-WWI peasant innovation that became a Bulgarian national emblem in the communist era.",
+        "insider_tip": "Order at any mehana with a clay-pot menu. Best eaten with shopska salad and rakia as a starter trio. The egg must be runny; protest if it isn't.",
+        "price_level": "Affordable",
+        "duration": "30 minutes",
+        "best_time": "Starter at dinner",
+        "vibe": "Bubbly and Sharp",
+        "good_for": [
+          "Cheese lovers",
+          "Starters",
+          "Vegetarians"
+        ]
+      },
+      "image": "/images/sofia/sirene-shopski.jpg"
+    },
+    {
+      "id": "food-009",
+      "slug": "ayran",
+      "name_en": "Ayran",
+      "name_local": "Айрян",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A salted, frothy yogurt drink made from Bulgarian sour yogurt — the default beverage with banitsa breakfast and grilled-meat lunch.",
+        "history": "Shares ancestry with the Turkish ayran but uses specifically Bulgarian Lactobacillus bulgaricus yogurt; the country's most consumed daily beverage after coffee.",
+        "insider_tip": "Buy from any 'mlechen bar' (dairy bar) — they have it fresh, not bottled. The Vitosha Boulevard fast-food stalls all sell it cold for 1.50 BGN.",
+        "price_level": "Affordable",
+        "duration": "5 minutes",
+        "best_time": "With breakfast or lunch",
+        "vibe": "Refreshing and Tangy",
+        "good_for": [
+          "Hot weather",
+          "With pastries",
+          "Probiotic boost"
+        ]
+      },
+      "image": "/images/sofia/ayran.jpg"
+    },
+    {
+      "id": "food-010",
+      "slug": "boza",
+      "name_en": "Boza",
+      "name_local": "Боза",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A thick, mildly sweet-sour fermented grain drink (millet or wheat) with a slight alcohol content (~1%) — divisive and ancient, drunk warm with banitsa for breakfast.",
+        "history": "Documented in Bulgaria since the Ottoman period; the most loved producer (Radomir) has operated since 1948.",
+        "insider_tip": "Buy at any 'furna' bakery alongside a banitsa. The combination is the universal Bulgarian breakfast pairing. First sip is strange; by the third you understand.",
+        "price_level": "Affordable",
+        "duration": "10 minutes",
+        "best_time": "Breakfast",
+        "vibe": "Earthy and Acquired",
+        "good_for": [
+          "Adventurous eaters",
+          "With banitsa",
+          "Cultural curiosity"
+        ]
+      },
+      "image": "/images/sofia/boza.jpg"
+    },
+    {
+      "id": "food-011",
+      "slug": "bob-chorba",
+      "name_en": "Bob Chorba (Bean Soup)",
+      "name_local": "Боб чорба",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A clay-pot bean soup with carrots, paprika, savory, and mint, often served with a hot chili pepper — Bulgaria's national soup and winter lunch fuel.",
+        "history": "A peasant Lenten dish that survived the Ottoman period because beans were one of the few crops both Muslims and Christians ate freely.",
+        "insider_tip": "Manastirska Magernitsa serves the canonical version. The dry savory ('chubritsa') is the distinguishing spice; ask for it on the side to add to taste.",
+        "price_level": "Affordable",
+        "duration": "30 minutes",
+        "best_time": "Cold-day lunch",
+        "vibe": "Earthy and Restorative",
+        "good_for": [
+          "Vegetarians",
+          "Cold weather",
+          "Budget eats"
+        ]
+      },
+      "image": "/images/sofia/bob-chorba.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "yogurt",
+      "name_en": "Bulgarian Yogurt (Kiselo Mlyako)",
+      "name_local": "Кисело мляко",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Thick, tangy yogurt fermented with the country-specific Lactobacillus bulgaricus strain — the original probiotic, named after Bulgaria in 1905.",
+        "history": "Bulgarian scientist Stamen Grigorov isolated the bacterium in Geneva in 1905. The yogurt became the country's most internationally recognized food product and a point of fierce civic pride.",
+        "insider_tip": "Buy a tub of 'BB' brand or 'Vereya' from any supermarket. Eat with honey and walnuts as a Bulgarian breakfast standard, or use it as the base for tarator soup.",
+        "price_level": "Affordable",
+        "duration": "5 minutes",
+        "best_time": "Breakfast",
+        "vibe": "Tangy and Probiotic",
+        "good_for": [
+          "Breakfast",
+          "Health-conscious",
+          "Cultural depth"
+        ]
+      },
+      "image": "/images/sofia/yogurt.jpg"
+    },
+    {
+      "id": "food-013",
+      "slug": "mekitsa",
+      "name_en": "Mekitsa",
+      "name_local": "Мекица",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Deep-fried yogurt dough served hot with powdered sugar, honey, or jam — Bulgaria's grandmother breakfast pastry, sold from sidewalk stalls until 10 AM.",
+        "history": "A Slavic peasant breakfast tradition that survived in Bulgaria because rural women maintained the dough recipe through the communist food-shortage decades.",
+        "insider_tip": "Mekitsi Cafe near Vitosha Boulevard does the canonical version. Eat hot — mekitsa cold is rubber. Pair with boza or strong Turkish-style coffee.",
+        "price_level": "Affordable",
+        "duration": "10 minutes",
+        "best_time": "Early morning",
+        "vibe": "Greasy and Comforting",
+        "good_for": [
+          "Breakfast",
+          "Sweet tooth",
+          "Cultural depth"
+        ]
+      },
+      "image": "/images/sofia/mekitsa.jpg"
+    },
+    {
+      "id": "food-014",
+      "slug": "specialty-coffee",
+      "name_en": "Specialty Coffee",
+      "name_local": "Кафе",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Third-wave roasters and espresso bars concentrated in Lozenets and the city center — Sofia's quietly excellent specialty coffee scene, driven by the IT workforce.",
+        "history": "Sofia's coffee culture pre-2010 was instant-coffee dominated; the specialty wave arrived with the IT outsourcing boom and consolidated in Lozenets and Oborishte.",
+        "insider_tip": "Dabov Specialty Coffee on Han Krum Street, Single Origin Coffee Roasters on Patriarh Evtimii, and Fabrika Daga in the Sofia Tech Park are the three poles. Black coffee, not flavored.",
+        "price_level": "Moderate",
+        "duration": "30 minutes",
+        "best_time": "Morning to early afternoon",
+        "vibe": "Quiet and Curated",
+        "good_for": [
+          "Coffee lovers",
+          "Remote work",
+          "Slow mornings"
+        ]
+      },
+      "image": "/images/sofia/coffee.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Essential Sofia",
+      "id": "essential",
+      "items": [
+        {
+          "id": "att-001",
+          "slug": "alexander-nevsky-cathedral",
+          "name_en": "Alexander Nevsky Cathedral",
+          "name_local": "Храм-паметник „Свети Александър Невски\"",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 53m-tall neo-Byzantine cathedral with gold-leafed domes — Sofia's defining landmark, built between 1882 and 1912 as a memorial to the 200,000 Russian soldiers killed liberating Bulgaria from Ottoman rule.",
+            "history": "Construction began in 1882 after the Russo-Turkish War of 1877–78. Architect Alexander Pomerantsev's design is one of the largest Orthodox cathedrals in the world, capacity 5,000 worshippers.",
+            "insider_tip": "Visit during weekday mornings (9:00–11:00) when natural light hits the eastern dome mosaics. The crypt below houses the Bulgarian National Gallery's icon collection (entry 6 BGN). Free entry to the main cathedral; modest dress required.",
+            "price_level": "Free (crypt 6 BGN)",
+            "duration": "1.5 hours",
+            "best_time": "Weekday morning 9:00",
+            "vibe": "Monumental and Sacred",
+            "good_for": [
+              "First-timers",
+              "Architecture lovers",
+              "Photography"
+            ],
+            "logistics": "Open daily 07:00–19:00 (crypt 10:00–18:00). Located at the eastern end of Tsar Osvoboditel Boulevard, 10 minutes walk from Serdika metro.",
+            "historical_context": "The cathedral was briefly renamed 'St. Cyril and Methodius' in the 1910s during anti-Russian tensions over the Balkan Wars, then reverted in 1920. Under communism, it was technically closed for worship but never converted to a museum.",
+            "local_secret": "The unmarked spiral staircase on the south side of the crypt leads up to the bell-ringer's balcony — accessible during the daily 10:30 bell tour (free, ask the entrance attendant). The view across Tsar Osvoboditel and into the cathedral's interior dome is one Sofia's most quietly photographable angles."
+          },
+          "image": "/images/sofia/nevsky.jpg",
+          "geo": {
+            "lat": 42.6957,
+            "lng": 23.3325
+          }
+        },
+        {
+          "id": "att-002",
+          "slug": "serdika-roman-ruins",
+          "name_en": "Serdika Roman Ruins",
+          "name_local": "Сердика - античен комплекс",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The 2nd-century Roman city of Serdica visible beneath glass floors at Serdika II metro station and the surrounding open-air complex — an entire ancient street grid preserved under the modern city.",
+            "history": "Serdica was a major Roman city under Emperor Trajan; Constantine the Great reportedly considered making it the eastern capital before settling on Byzantium. The ruins were exposed during 2010–2012 metro construction and integrated into the station design.",
+            "insider_tip": "Walk the open-air section between Serdika I and Serdika II metro stations — it's free, lit at night, and atmospheric. The St. George Rotunda (4th century, still functioning church) sits in an inner courtyard behind the Presidential Palace and is the oldest building in Sofia.",
+            "price_level": "Free",
+            "duration": "1 hour",
+            "best_time": "Late afternoon (16:00–18:00)",
+            "vibe": "Underground and Ancient",
+            "good_for": [
+              "History buffs",
+              "Photography",
+              "Walking"
+            ],
+            "logistics": "Open 24/7 (open-air sections). Best entry via Serdika II metro station. Most architectural features are illuminated after dark.",
+            "historical_context": "Constantine the Great is recorded to have said 'Serdica is my Rome' — a phrase Bulgarian tourism boards have spent decades amplifying, possibly apocryphally.",
+            "local_secret": "Behind the St. George Rotunda, the Presidential Palace courtyard is partially open to pedestrians during daylight hours — almost no tourists walk through it. The ceremonial guard changes hourly on the half-hour, and you can stand 2m from them. No photo restrictions."
+          },
+          "image": "/images/sofia/serdika-ruins.jpg",
+          "geo": {
+            "lat": 42.6975,
+            "lng": 23.3225
+          }
+        },
+        {
+          "id": "att-003",
+          "slug": "rila-monastery-trip",
+          "name_en": "Rila Monastery (Day Trip)",
+          "name_local": "Рилски манастир",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Bulgaria's most important Orthodox monastery, 120km south of Sofia in the Rila mountains — a UNESCO World Heritage site of frescoed arcades, the relics of Saint Ivan Rilski, and 10th-century cultural identity.",
+            "history": "Founded in the 10th century by Saint Ivan Rilski, rebuilt multiple times after fires; the current frescoes are 19th-century National Revival masterpieces. Survived the Ottoman period because the monks paid tribute and the location was inaccessible.",
+            "insider_tip": "Pair with the Boyana Church en route — both UNESCO, both pre-Renaissance frescoed, and they make sense as a combined day. Pre-booked private day tour from Sofia 80–120 BGN per person.",
+            "price_level": "Moderate (8 BGN entry + ~80 BGN transport)",
+            "duration": "Full day (10 hours)",
+            "best_time": "Weekday departure 8:00",
+            "vibe": "Sacred and Remote",
+            "good_for": [
+              "History",
+              "Photography",
+              "Architecture"
+            ],
+            "logistics": "120km from Sofia. Public bus from Ovcha Kupel station 14 BGN (3 hours each way, infrequent). Private driver 250 BGN round trip. Most travelers book a guided day tour.",
+            "historical_context": "The monastery served as a hidden depository of Bulgarian language, manuscripts, and Orthodox identity during the 500-year Ottoman period. The Rila Monastery library holds 250+ original medieval manuscripts.",
+            "local_secret": "The 'Hrelyo's Tower' (1335) inside the monastery courtyard is the only original pre-Ottoman structure surviving — most tour groups walk past it without entering. The interior frescoes on the upper floor are the oldest in the complex and are accessible via a stairs almost no guidebook mentions."
+          },
+          "image": "/images/sofia/rila.jpg",
+          "geo": {
+            "lat": 42.1336,
+            "lng": 23.3406
+          }
+        },
+        {
+          "id": "att-004",
+          "slug": "boyana-church",
+          "name_en": "Boyana Church",
+          "name_local": "Боянска църква",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 13th-century church in the Boyana foothills holding frescoes painted in 1259 that prefigure the Italian Renaissance by 80 years — UNESCO World Heritage and a quiet upset to Western art-history orthodoxy.",
+            "history": "Built in three phases (10th, 13th, 19th century). The 1259 fresco cycle by an anonymous master is considered one of the most significant pre-Renaissance European wall-paintings. Conserved under glass since 2006; visitor numbers are limited to preserve micro-climate.",
+            "insider_tip": "Pre-book online — entry is limited to 8 people per 10-minute slot, total 90 visitors/day. Pair with the National Museum of History across the road (combined ticket 18 BGN).",
+            "price_level": "Affordable (10 BGN entry)",
+            "duration": "30 minutes inside + 30 minutes grounds",
+            "best_time": "Weekday morning 9:30–11:00",
+            "vibe": "Reverential and Small",
+            "good_for": [
+              "Art lovers",
+              "History",
+              "Quiet visits"
+            ],
+            "logistics": "Open daily 9:30–17:30 (closed Tuesdays in winter). Pre-booking essential April–October. Tram 2 from center to Hladilnika, then bus 64 to Boyana — or Bolt for 12 BGN.",
+            "historical_context": "Art historian Dimitar Tsonchev's 1968 publication of the Boyana frescoes is what got the church onto the UNESCO list in 1979 — among the original 12 sites Bulgaria nominated.",
+            "local_secret": "The wooded path uphill behind the church (signposted only in Bulgarian) leads in 15 minutes to a small clearing with an open-air spring and the view back over Boyana to Sofia — most tourists exit straight back to the bus stop and miss it entirely."
+          },
+          "image": "/images/sofia/boyana-church.jpg",
+          "geo": {
+            "lat": 42.6447,
+            "lng": 23.2664
+          }
+        }
+      ]
+    },
+    {
+      "title": "Local Life & Hidden",
+      "id": "local-life",
+      "items": [
+        {
+          "id": "act-001",
+          "slug": "soto-courtyard-cafes",
+          "name_en": "Soto Courtyard Cafés",
+          "name_local": "Сото",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Hidden courtyard cafés tucked behind the 19th-century apartment buildings of central Sofia — accessed through unmarked passages off Tsar Shishman, Han Krum, and Solunska streets.",
+            "history": "The 'soto' (literally 'under') tradition emerged in the 2010s as central Sofia's inner courtyards — protected from main-street rents and pollution — became viable café spaces. Most are in pre-WWI bourgeois apartment-block atriums.",
+            "insider_tip": "Hambara on Tsar Shishman (unmarked black door, candles only — no electricity), Sputnik in the Han Krum courtyard, and One More Bar on Solunska are the three classic soto venues. Walk past them three times before finding them — that's the design.",
+            "price_level": "Moderate",
+            "duration": "2 hours",
+            "best_time": "Evening 19:00–22:00",
+            "vibe": "Hidden and Atmospheric",
+            "good_for": [
+              "Couples",
+              "Slow drinks",
+              "Atmospheric photography"
+            ],
+            "logistics": "Most open 17:00–01:00. No reservations; arrive early on Fri/Sat. Cash and card both accepted.",
+            "historical_context": "The Sofia 'soto' scene is the closest the city has to the Sololaki courtyard culture of Tbilisi or the Cihangir back-streets of Istanbul — a Balkan-wide pattern of repurposed pre-WWI bourgeois inner spaces.",
+            "local_secret": "The unmarked third floor above Hambara (a small private bar reached by a staircase behind the kitchen) opens irregularly on Fridays. Knock on the door at the top of the stairs after 22:00 — if someone opens, you're in. If not, you weren't supposed to be."
+          },
+          "image": "/images/sofia/soto.jpg",
+          "geo": {
+            "lat": 42.6911,
+            "lng": 23.3294
+          }
+        },
+        {
+          "id": "act-002",
+          "slug": "vitosha-weekend-hike",
+          "name_en": "Vitosha Mountain Weekend Hike",
+          "name_local": "Витоша",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 4–6 hour hike from Dragalevtsi monastery up Vitosha's eastern flank to Cherni Vrah summit (2,290m) and the Stone River — the city's most loved escape and a true alpine hike at metro-bus range.",
+            "history": "Designated as a nature park in 1934 (Bulgaria's first), Vitosha has been Sofia's weekend escape for over a century. The Aleko hut at 1,810m has operated since 1924.",
+            "insider_tip": "Take bus 64 from Hladilnika tram terminus to Dragalevtsi monastery (the trailhead). Ascend on foot via the marked red trail to Cherni Vrah summit. Avoid the Simeonovo cable car on weekends — the lift queue is 90 minutes and the trail route is more rewarding.",
+            "price_level": "Free",
+            "duration": "Half-day (5–6 hours round trip)",
+            "best_time": "Saturday or Sunday 7:30 AM departure",
+            "vibe": "Alpine and Restorative",
+            "good_for": [
+              "Hikers",
+              "Photography",
+              "Weekend escape"
+            ],
+            "logistics": "Bus 64 from Hladilnika tram, 40 minutes to Dragalevtsi. Hike from 1,100m to 2,290m. Snow gear needed Nov–April; hiking shoes minimum May–Oct.",
+            "historical_context": "The 'Kamenna Reka' (Stone River) on the descent is a 2-million-year-old glacial boulder field — one of Europe's most dramatic geological features within metro range of a capital.",
+            "local_secret": "The 'Boyana Lake' alternate descent (signposted only in Bulgarian, branching east 30 minutes below Cherni Vrah) drops you in the Boyana neighborhood instead of Dragalevtsi — almost no weekend hiker takes it, but it puts you 500m from the Boyana Church and a return bus to the center, turning the hike into a perfect end-of-day loop."
+          },
+          "image": "/images/sofia/vitosha-hike.jpg",
+          "geo": {
+            "lat": 42.5667,
+            "lng": 23.2833
+          }
+        },
+        {
+          "id": "act-003",
+          "slug": "central-mineral-baths",
+          "name_en": "Banski Square & Mineral Springs",
+          "name_local": "Площад Бански",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The free public hot mineral water taps in Banski Square — locals queue with 10L bottles, the building behind houses the Sofia History Museum, and the surrounding square holds the Banya Bashi Mosque, the synagogue, and the cathedral all within 200m.",
+            "history": "Mineral springs have flowed at this spot since at least Roman times; the current public taps date to a 2012 redesign of Banski Square. The 1913 Central Mineral Bath building (now museum) served as the city's public baths until 1986.",
+            "insider_tip": "Bring an empty bottle (vendors near the square sell them for 1 BGN). The water exits at 46°C — too hot to drink. Fill, let cool, and drink later. Visit alongside the four-religion-monument cluster (mosque, synagogue, cathedral, church) all visible within 200m.",
+            "price_level": "Free",
+            "duration": "45 minutes",
+            "best_time": "Mid-morning 10:00",
+            "vibe": "Civic and Historic",
+            "good_for": [
+              "Cultural rites",
+              "Photography",
+              "Architecture"
+            ],
+            "logistics": "Open 24/7. Located 300m from Serdika metro station. The Sofia History Museum (in the old bath building) is open 10:00–18:00, closed Tuesdays.",
+            "historical_context": "Sofia's mineral springs were the original reason the Romans chose this site for Serdica — the city's name derives from the local Thracian tribe (Serdi) who used the springs ceremonially.",
+            "local_secret": "The smaller public spring at Knyazheska Garden (10 minutes east of Banski Square, almost hidden in a corner of the park) flows just as freely with longer water-cooling time and zero tourist queues — locals know it as the 'tap of choice' for weekday refills."
+          },
+          "image": "/images/sofia/banski-springs.jpg",
+          "geo": {
+            "lat": 42.6986,
+            "lng": 23.3214
+          }
+        },
+        {
+          "id": "act-004",
+          "slug": "central-market-hall",
+          "name_en": "Sofia Central Market Hall",
+          "name_local": "Централни хали",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "An 1911 covered market hall with two floors of butcher stalls, cheese counters, dried-fruit stands, and a basement food court — Sofia's working market and the best place to assemble a Bulgarian picnic.",
+            "history": "Designed by Naum Torbov and opened in 1911; restored in 2000 after decades of neglect. The Sofia Synagogue across the street is the third-largest Sephardic synagogue in Europe.",
+            "insider_tip": "The cheese counter on the second floor sells small sirene wheels for take-home. The basement bakery makes 24-hour fresh banitsa. Pair with a stop at the Synagogue (4 BGN entry) right next door.",
+            "price_level": "Affordable",
+            "duration": "1.5 hours",
+            "best_time": "Weekday morning 9:00–11:00",
+            "vibe": "Working and Photogenic",
+            "good_for": [
+              "Foodies",
+              "Photography",
+              "Souvenirs"
+            ],
+            "logistics": "Open daily 07:00–22:00. Cash and card both accepted (cash preferred at smaller stalls). 5 minutes from Serdika metro.",
+            "historical_context": "Tsentralni Hali survived the 1944 Allied bombings of Sofia, the communist decade of neglect, and the 1990s economic chaos — the only continuously functioning indoor market hall in Bulgaria.",
+            "local_secret": "The Sephardic-recipe sweet shop on the south corner of the second floor (unmarked, run by a small family for three generations) makes the city's best 'tishpishti' (almond-walnut dessert) and 'baba ghanoush' for 3 BGN. Local Jewish families have shopped there since the 1950s."
+          },
+          "image": "/images/sofia/central-market.jpg",
+          "geo": {
+            "lat": 42.7011,
+            "lng": 23.3214
+          }
+        },
+        {
+          "id": "act-005",
+          "slug": "borisova-garden",
+          "name_en": "Borisova Garden",
+          "name_local": "Борисова градина",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Sofia's largest central park — 300+ hectares of paths, fountains, the Eagles Bridge entrance, the Vasil Levski Stadium, summer open-air concerts, and an artificial lake.",
+            "history": "Designed in 1884 by Czech landscape architect Anton Kolar; named after Tsar Boris III. The park's mature trees and meandering paths reflect its 19th-century romantic-park heritage.",
+            "insider_tip": "Enter via the Eagles Bridge (Orlov Most) on the western side and walk east to the artificial lake. The 'Krastova Gora' wooden cross sculpture and the Soviet Army Monument (controversial, partly demolished in 2023) are on the north edge. Free outdoor cinema runs in summer.",
+            "price_level": "Free",
+            "duration": "2 hours",
+            "best_time": "Late afternoon 16:00–19:00",
+            "vibe": "Leafy and Civic",
+            "good_for": [
+              "Running",
+              "Families",
+              "Slow walks"
+            ],
+            "logistics": "Open 24/7. Free entry. Connected by tram 9 and tram 22; multiple metro stations within walking distance.",
+            "historical_context": "The park hosted the 1934 Bulgarian Coronation parade for Tsar Boris III, communist-era youth rallies, and the 2013 anti-government protests — politically the most-photographed public space in the country.",
+            "local_secret": "The 'Hill of Brotherhood' (Bratska Mogila) summit in the southern section of the park has a 360-degree city view almost no foreign tourist reaches — the climb is 10 minutes from the lake, signposted only in Bulgarian, and at sunset is one of the city's loveliest free vantages."
+          },
+          "image": "/images/sofia/borisova.jpg",
+          "geo": {
+            "lat": 42.6831,
+            "lng": 23.3461
+          }
+        },
+        {
+          "id": "act-006",
+          "slug": "plovdiv-day-trip",
+          "name_en": "Plovdiv Day Trip",
+          "name_local": "Пловдив",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Bulgaria's second city, 150km southeast — Roman Amphitheater, Ottoman-era Old Town with painted National Revival houses, the Kapana creative quarter, and 8,000 years of continuous habitation.",
+            "history": "Founded as Eumolpias in the 6th century BCE, conquered by Philip II of Macedon (Philippopolis), then Roman (Trimontium), Byzantine, Ottoman, and finally Bulgarian. One of the oldest continuously inhabited cities in Europe.",
+            "insider_tip": "Take the 8:30 AM train from Sofia Central (2.5 hours, 11 BGN) and return on the 19:00. The Old Town is fully walkable and concentrated; you don't need a car. Eat lunch at Pavaj or Hemingway in Kapana.",
+            "price_level": "Moderate (transport ~25 BGN + meals)",
+            "duration": "Full day (12 hours including transit)",
+            "best_time": "Weekday departure 8:00",
+            "vibe": "Older Than Rome",
+            "good_for": [
+              "History",
+              "Architecture",
+              "Day trips"
+            ],
+            "logistics": "Train from Sofia Central Station to Plovdiv: 2.5 hours, 11 BGN one-way. Bus: 2 hours, 15 BGN. Driving: 2 hours via the Trakia highway.",
+            "historical_context": "Plovdiv was the European Capital of Culture in 2019, an event that drove much of the city's recent restoration work and the rebranding of Kapana from derelict alleys into a creative quarter.",
+            "local_secret": "The 'Nebet Tepe' ruins on the highest hill of Old Town are free, almost always empty, and offer the city's best 360-degree sunset view — most day-trippers from Sofia leave by 18:00 and miss the golden-hour light entirely."
+          },
+          "image": "/images/sofia/plovdiv-detail.jpg",
+          "geo": {
+            "lat": 42.1354,
+            "lng": 24.7453
+          }
+        }
+      ]
+    },
+    {
+      "title": "Markets & Modern",
+      "id": "modern",
+      "items": [
+        {
+          "id": "mod-001",
+          "slug": "national-palace-culture",
+          "name_en": "National Palace of Culture (NDK)",
+          "name_local": "Народен дворец на културата",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The 1981 communist-era cultural megastructure — 7 floors, 13 conference halls, multiple cinemas, the city's largest concert venue, and the southern anchor of Vitosha Boulevard.",
+            "history": "Built for the 1300th anniversary of the Bulgarian state under Lyudmila Zhivkova (Todor Zhivkov's daughter, who modernized Bulgarian high culture). The largest multifunctional complex in southeastern Europe.",
+            "insider_tip": "Walk through the south plaza after dark — the fountain-and-light installation is photogenic and free. The Sky 50 rooftop bar on the top floor has the city's best 360-degree view (200,000 LEV equivalent in cocktails... wait, 25 BGN cocktails).",
+            "price_level": "Free (events 30–100 BGN)",
+            "duration": "1 hour exterior, more for events",
+            "best_time": "Evening 19:00–21:00",
+            "vibe": "Brutalist and Civic",
+            "good_for": [
+              "Architecture",
+              "Concerts",
+              "Photography"
+            ],
+            "logistics": "Open 8:00–22:00. Located at the southern end of Vitosha Boulevard, 5 minutes from NDK metro.",
+            "historical_context": "NDK is the architectural ambassador of late-communist 'developed socialism' — a building intentionally designed to project ideological modernity at a global scale, and now used for everything from EDM concerts to crypto conferences.",
+            "local_secret": "The third-floor balcony (accessible during major events without a ticket — security checks main halls, not balconies) offers a side view of every concert and a quieter atmosphere than the audience pit. Locals use it as a stealth-attendance hack."
+          },
+          "image": "/images/sofia/ndk.jpg",
+          "geo": {
+            "lat": 42.6864,
+            "lng": 23.3186
+          }
+        },
+        {
+          "id": "mod-002",
+          "slug": "vitosha-boulevard",
+          "name_en": "Vitosha Boulevard",
+          "name_local": "Булевард Витоша",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Sofia's pedestrian shopping spine — 1.6km of café terraces, mid-range fashion, and the Vitosha-mountain backdrop framed at the southern end. The city's promenade.",
+            "history": "Originally a 19th-century carriage road, pedestrianized in stages between 2008 and 2014. The Mount Vitosha view at the southern end is intentionally framed by the boulevard's straight axis.",
+            "insider_tip": "Walk it from north (Sveta Nedelya Cathedral) to south (NDK). Skip the chain restaurants in the middle; the side streets (especially Lavele and Solunska) have the more interesting cafés and independent boutiques.",
+            "price_level": "Variable",
+            "duration": "2 hours",
+            "best_time": "Late afternoon 16:00–19:00",
+            "vibe": "Bustling and Communal",
+            "good_for": [
+              "Walking",
+              "People watching",
+              "Shopping"
+            ],
+            "logistics": "Pedestrian only. Connected by Serdika metro at the north end and NDK metro at the south.",
+            "historical_context": "Vitosha Boulevard's pedestrianization was the visible signal of Sofia's pivot from communist-era transit-first urbanism to EU-style livable-city planning post-2007 accession.",
+            "local_secret": "The 'Slaveykov Square' bookstall market on the eastern side street (off Solunska, two blocks east of Vitosha Boulevard) sells used Bulgarian and Russian books, Soviet-era posters, and second-hand jazz vinyl — Sofia's quiet equivalent of London's Cecil Court."
+          },
+          "image": "/images/sofia/vitosha-blvd.jpg",
+          "geo": {
+            "lat": 42.6911,
+            "lng": 23.3194
+          }
+        },
+        {
+          "id": "mod-003",
+          "slug": "underground-bars-serdika",
+          "name_en": "Underground Bars Near Serdika",
+          "name_local": "Подземни барове",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Sofia's basement bar scene — old WWII-era cellars, communist-era storage rooms, and pre-WWI building basements converted into bars, concentrated in the streets around Serdika metro.",
+            "history": "The basement-bar culture began in the early 2000s as Sofia's underground music scene needed venues invisible to police licensing checks. By 2015, the basements had become the city's most-loved drinking spots.",
+            "insider_tip": "Raketa Rakia Bar on Yanko Sakazov, Apartment 101 (a private-apartment bar hidden behind a residential door on Neofit Rilski), and Hambar Bar on Tsar Shishman are the gateway venues. Walk down stone stairs at 22:00 to find them.",
+            "price_level": "Moderate",
+            "duration": "2–3 hours",
+            "best_time": "Evening 21:00–01:00",
+            "vibe": "Hidden and Intimate",
+            "good_for": [
+              "Couples",
+              "Slow drinks",
+              "Atmospheric photography"
+            ],
+            "logistics": "Most open 19:00–01:00. No formal reservations; arrive before 21:30 on weekends. Cash and card both accepted.",
+            "historical_context": "Many of these basements were built as fall-out shelters during the communist era and as wine cellars before that — the dual-use architecture is what made them viable bar conversions.",
+            "local_secret": "Apartment 101 (a residential apartment on the second floor of an unmarked building on Neofit Rilski 28) operates as an unlicensed private bar — knock on the door, no menu, the owner pours whatever rakia his cousin distilled this year. Locals only — go with a Bulgarian friend or speak softly in English and don't film."
+          },
+          "image": "/images/sofia/underground-bars.jpg",
+          "geo": {
+            "lat": 42.6925,
+            "lng": 23.3231
+          }
+        },
+        {
+          "id": "mod-004",
+          "slug": "tech-park",
+          "name_en": "Sofia Tech Park",
+          "name_local": "София Тех Парк",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 230,000m² R&D and innovation campus 8km east of the center, opened in 2015 as Bulgaria's main IT outsourcing and startup hub — the visible architecture of the country's pivot to a tech-export economy.",
+            "history": "Funded by EU structural funds and the Bulgarian government as part of the post-2010 economic-diversification strategy. Houses 200+ tech companies and the largest data center in the Balkans.",
+            "insider_tip": "Not a tourist site — but worth a visit as a coworking day if you're a long-stay nomad. Puzl CowOrKing inside the park offers day passes at 30 BGN with high-speed internet and a quiet café floor.",
+            "price_level": "Free (coworking 30–50 BGN/day)",
+            "duration": "Half-day",
+            "best_time": "Weekday 9:00–17:00",
+            "vibe": "Modern and Functional",
+            "good_for": [
+              "Remote work",
+              "Tech enthusiasts",
+              "Business stays"
+            ],
+            "logistics": "Located in Mladost. Metro M1 to G.M. Dimitrov, then 10 minutes walking. Free parking on weekends.",
+            "historical_context": "Sofia Tech Park is the visible architecture of Bulgaria's IT outsourcing boom and the absorption of EU structural funds 2010–2020 — the single building that most explains why young Bulgarians stopped emigrating after 2015.",
+            "local_secret": "The campus has a quiet rooftop terrace on the 'John Atanasoff' building (the lead R&D structure, named after the computer pioneer of Bulgarian descent) accessible to anyone with a building pass — friends of tenants get one easily. Free coffee on the top floor most weekdays."
+          },
+          "image": "/images/sofia/tech-park.jpg",
+          "geo": {
+            "lat": 42.6661,
+            "lng": 23.3736
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "8:00 AM",
+      "title": "Banitsa & Boza Breakfast at a Furna",
+      "description": "Walk to Furna Mura on Slaveykov Square or any local 'фурна' bakery. Order one cheese banitsa (1.50 BGN), one piece of mekitsa (1.20 BGN), and a small cup of boza (1 BGN). Eat standing at the counter or on the small outdoor benches. This is the universal Bulgarian working-class breakfast — under 5 BGN, served before 10 AM, and the city operates on it.",
+      "image": "/images/sofia/itinerary-banitsa.jpg"
+    },
+    {
+      "time": "9:30 AM",
+      "title": "Center Walk: Serdika Ruins & The Four Religions",
+      "description": "Walk to Serdika II metro station and descend into the open-air Roman ruins — free, atmospheric, and a 30-minute self-guided loop. Then walk 5 minutes to the Banski Square area to see the four-religion-monument cluster within 200m: the Banya Bashi Mosque, the Sofia Synagogue, the Sveti Nedelya Cathedral, and the St. Joseph Catholic Cathedral. Fill an empty bottle at the free mineral spring taps (water exits at 46°C — let it cool).",
+      "image": "/images/sofia/itinerary-serdika.jpg"
+    },
+    {
+      "time": "11:30 AM",
+      "title": "Alexander Nevsky Cathedral & National Museum",
+      "description": "Walk east on Tsar Osvoboditel Boulevard to Alexander Nevsky Cathedral. Modest dress required. Visit the cathedral interior (free) and the icon gallery in the crypt (6 BGN, 40 minutes). Exit and walk to the National Art Gallery in the former Royal Palace across the square (10 BGN). Out by 13:30.",
+      "image": "/images/sofia/itinerary-nevsky.jpg"
+    },
+    {
+      "time": "13:30",
+      "title": "Mehana Lunch at Manastirska Magernitsa",
+      "description": "Take TaxiMe (8 BGN) to Manastirska Magernitsa on Han Asparuh Street. Order the canonical Bulgarian lunch combo: shopska salad, sirene po shopski (baked cheese with egg), one kavarma clay pot, and a small shot of grape rakia. Total ~40 BGN per person. This is the meal that defines Bulgarian mehana culture; eat slowly, the kitchen runs on its own clock.",
+      "image": "/images/sofia/itinerary-mehana.jpg"
+    },
+    {
+      "time": "16:00",
+      "title": "Lozenets & Specialty Coffee",
+      "description": "TaxiMe to Lozenets (8 BGN) or walk 25 minutes south. Stop at Dabov Specialty Coffee on Han Krum Street for a flat white or filter coffee (4–6 BGN). Walk the Lozenets grid — Bulgaria Boulevard café strip, the South Park edge, and the side-street boutiques. This is where most Sofia expats actually live; understanding it is understanding the city's current direction.",
+      "image": "/images/sofia/itinerary-lozenets.jpg"
+    },
+    {
+      "time": "18:30",
+      "title": "Sunset from NDK Plaza",
+      "description": "Walk or TaxiMe to the National Palace of Culture (NDK). Walk through the south plaza — fountain and light installation, brutalist architecture, the Vitosha mountain framed at the south. Stay 45 minutes. If it's a clear evening, take the lift to the Sky 50 rooftop bar (25 BGN cocktails) for 360-degree views of the city before dinner.",
+      "image": "/images/sofia/itinerary-ndk.jpg"
+    },
+    {
+      "time": "20:30",
+      "title": "Soto Courtyard Bar Hop",
+      "description": "Walk to Tsar Shishman Street and find Hambara — an unmarked black door, candles only, no electricity, the city's defining hidden bar. Stay for one drink (10–15 BGN), then move to Sputnik in the Han Krum courtyard, and finish at Raketa Rakia Bar on Yanko Sakazov. Rakia (4–8 BGN a shot) all night; pair with mezze plates of cheese and lyutenitsa. End by midnight or push past 02:00 — the soto venues run late.",
+      "image": "/images/sofia/itinerary-soto.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Type C/F Europe Travel Adapter",
+      "image": "/images/sofia/adapter.jpg",
+      "reason": "Bulgaria uses Type C/F two-round-pin sockets — a multi-port European adapter handles all charging at café outlets and hotel rooms.",
+      "amazon_url": "https://www.amazon.com/s?k=europe+travel+adapter+type+f&tag=canibringonpl-20",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-002",
+      "title": "N95 Pollution Mask",
+      "image": "/images/sofia/mask.jpg",
+      "reason": "Sofia's winter air pollution (district heating + thermal inversion) regularly hits unhealthy PM2.5 levels Nov–Feb. An N95 is the only mask that filters effectively.",
+      "amazon_url": "https://www.amazon.com/s?k=n95+pollution+mask+travel&tag=canibringonpl-20",
+      "category": "health"
+    },
+    {
+      "id": "aff-003",
+      "title": "Insulated Water Bottle (1L)",
+      "image": "/images/sofia/bottle.jpg",
+      "reason": "The free mineral springs at Banski Square and Knyazheska Garden are part of the city's civic life. An insulated bottle lets you carry 46°C spring water cool for hours.",
+      "amazon_url": "https://www.amazon.com/s?k=insulated+water+bottle+1+liter&tag=canibringonpl-20",
+      "category": "weather"
+    },
+    {
+      "id": "aff-004",
+      "title": "Waterproof Hiking Boots",
+      "image": "/images/sofia/boots.jpg",
+      "reason": "Vitosha trails reach 2,290m and combine mud, snow patches, and the Stone River boulder field. Mid-cut waterproof boots are the difference between a great day and a twisted ankle.",
+      "amazon_url": "https://www.amazon.com/s?k=waterproof+hiking+boots+midcut&tag=canibringonpl-20",
+      "category": "health"
+    },
+    {
+      "id": "aff-005",
+      "title": "Anti-Theft Crossbody Bag",
+      "image": "/images/sofia/bag.jpg",
+      "reason": "Sofia is low-crime but the Vitosha Boulevard tourist crust attracts pickpockets and clipboard-petition approaches. Slash-proof straps remove the easy target.",
+      "amazon_url": "https://www.amazon.com/s?k=anti+theft+crossbody+bag&tag=canibringonpl-20",
+      "category": "security"
+    },
+    {
+      "id": "aff-006",
+      "title": "Thermal Base Layer Set",
+      "image": "/images/sofia/thermal.jpg",
+      "reason": "Sofia winters hit -10°C and many older apartments are under-heated in shoulder seasons. A merino base layer manages both indoor and outdoor cold in a single garment.",
+      "amazon_url": "https://www.amazon.com/s?k=merino+thermal+base+layer&tag=canibringonpl-20",
+      "category": "weather"
+    },
+    {
+      "id": "aff-007",
+      "title": "eSIM for Bulgaria",
+      "image": "/images/sofia/esim.jpg",
+      "reason": "TaxiMe, Sofia Urban Mobility, and IQAir need data on arrival. An eSIM is live before you land — no SIM-card paperwork.",
+      "amazon_url": "https://www.amazon.com/s?k=esim+bulgaria+travel&tag=canibringonpl-20",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-008",
+      "title": "Cycling Helmet (Folding)",
+      "image": "/images/sofia/helmet.jpg",
+      "reason": "Sofia's protected bike lanes are growing but tram tracks and city traffic remain real hazards. A folding helmet packs into a backpack and is not legally provided with bike-share.",
+      "amazon_url": "https://www.amazon.com/s?k=folding+cycling+helmet&tag=canibringonpl-20",
+      "category": "security"
+    },
+    {
+      "id": "aff-009",
+      "title": "Antihistamine Travel Pack",
+      "image": "/images/sofia/antihistamine.jpg",
+      "reason": "Sofia sits in a high-pollen basin. April–June and Aug–Sep peak hayfever seasons can ruin a trip for sensitive travelers; antihistamines are easier to bring than source locally.",
+      "amazon_url": "https://www.amazon.com/s?k=antihistamine+travel+pack&tag=canibringonpl-20",
+      "category": "health"
+    }
+  ],
+  "survival_kit": {
+    "dos": [
+      "DO verbalize 'da' (yes) or 'ne' (no) in every transaction. Bulgarian head gestures are inverted from Western norms — head shake = yes, nod = no — and trusting the gesture causes daily miscommunication at markets, taxis, and restaurants.",
+      "DO take the metro from the airport. SOF airport connects directly to Serdika (city center) by M2 line in 18 minutes for 1.60 BGN. There is no scenario in which a taxi is the right choice from arrivals.",
+      "DO check the IQAir or AirVisual app daily Nov–Feb. Sofia's winter PM2.5 can exceed 100 µg/m³; on red days, wear an N95 and limit outdoor exercise.",
+      "DO bring an empty bottle when visiting the Banski Square mineral spring. The water exits at 46°C — too hot to drink at the tap, so you fill and let it cool. Vendors near the square sell bottles for 1 BGN if you arrive unprepared.",
+      "DO learn the Cyrillic alphabet before you arrive — it takes 30 minutes and instantly makes the city legible. 'СЕРДИКА' is 'Serdika', 'ВИТОША' is 'Vitosha', 'ФУРНА' is 'furna' (bakery).",
+      "DO use TaxiMe or Bolt for ride-hails. Street-hailed yellow taxis are mostly fine (look for 'OK Supertrans'), but app-booked rides remove all meter-tampering ambiguity.",
+      "DO eat banitsa for breakfast at a 'фурна' (furna, bakery) before 10 AM. The pastries are baked fresh in the morning and become rubbery by lunch — this is the only window.",
+      "DO carry small BGN bills (5s, 10s, 20s) for cash transactions at the Central Market Hall and rural day-trip stops. Card-friendly Sofia is a center-city reality, not universal.",
+      "DO pair shopska salad with rakia as a starter. The cold yogurt-cheese salad and the strong fruit brandy are designed to be eaten together — locals will judge an ordering pattern that splits them.",
+      "DO tip 10% in cash at restaurants. Card-terminal rounding often doesn't reach the waiter; cash tips do.",
+      "DO check the weather and lift status before a Vitosha hike. The Simeonovo cable car closes for high winds and the summit weather can be 15°C colder than the city. November–April: snow gear or stay below 1,500m.",
+      "DO carry layers in October — the central heating doesn't turn on until November 1 by municipal decree, and apartments are cold at night before then."
+    ],
+    "donts": [
+      "DON'T sign clipboard 'petitions' on Vitosha Boulevard. Young women with charity boards approach foreigners; signing leads to aggressive demands for 20–50 BGN donations. Polite walk-past is the only response.",
+      "DON'T exchange currency at the standalone 'Exchange' booths on Vitosha Boulevard. The 8-foot 'BEST RATE' signs hide 25%+ commission fees. Use bank-branch ATMs (UniCredit, DSK, Postbank).",
+      "DON'T trust the head gesture. A Bulgarian shake of the head means 'yes'. If a waiter shakes their head at 'do you have shopska salad?', they're confirming it. Verbalize.",
+      "DON'T order seafood or grilled meat at restaurants that list 'per 100g' pricing without clarifying the portion. A 1.5kg fish at 12 BGN/100g becomes 180 BGN — confirm size before ordering.",
+      "DON'T cycle on tram tracks. The grooves catch road-bike wheels and the surface is glassy in rain. Either cross perpendicular or use the protected bike lanes on Cherni Vrah Boulevard.",
+      "DON'T cut the queue at the public mineral springs. The orderly line is a civic ritual; cutting it is the most reliable way to start a sidewalk argument with Sofia retirees.",
+      "DON'T wear CSKA red or Levski blue scarves to areas near the rival's home stadium on derby days. Football tribalism is real and the trams between Slaveykov Square and Gerena get tense.",
+      "DON'T expect Sunday-evening service. Many family-run mehanas and bakeries close at 16:00 on Sunday and reopen Tuesday morning — Mondays are often dark in independent Bulgarian restaurants.",
+      "DON'T attempt Cherni Vrah summit (2,290m) without proper gear. The summit weather is alpine — winds 60km/h+, temperatures 15°C below the city. Hikers underestimate it every weekend; Vitosha rescue runs ~50 callouts/year.",
+      "DON'T smoke indoors. The 2012 ban is officially nationwide; older mehana cellars sometimes ignore it but enforcement is increasing. Outdoor terraces are smoke-permitted by default; check before sitting if sensitive.",
+      "DON'T mistake fake police for real ones. Plainclothes 'officers' asking to inspect your wallet for counterfeit cash are running a scam. Real Bulgarian police never need to check cash on the street — offer to walk to the precinct, the scam evaporates.",
+      "DON'T assume EUR pricing post-January 2026 is automatic conversion. The 1.95583 BGN/EUR peg is fixed, but rounding inflation is real — a 4.90 BGN coffee may become €2.60 instead of the mathematically correct €2.50. Watch dual-priced menus carefully through the transition year."
+    ]
+  },
+  "region": "Europe"
+}

@@ -1,0 +1,1474 @@
+{
+  "id": "city-015",
+  "name": "Tbilisi",
+  "slug": "tbilisi",
+  "country": "Georgia",
+  "country_code": "ge",
+  "lat": 41.7151,
+  "lng": 44.8271,
+  "hero_image": "/images/tbilisi/hero.jpg",
+  "intro_vibe": "The crossroads of empires: a city in permanent collision between conservative Orthodox tradition and post-Soviet tech avant-garde.",
+  "general_info": {
+    "population": "~1.2 million (city) / ~1.5 million (metro)",
+    "is_capital": true,
+    "description": "Tbilisi is the capital of Georgia, stretched along a narrow gorge of the Mtkvari (Kura) River where the Caucasus mountains funnel into the Eurasian steppe. To operate the city you must understand its three vertical strata: the lowland Old Town and Sololaki — sulfur baths, Persian-era courtyards, and a tourist-facing crust gentrifying by the month; the central Soviet grid of Vera, Vake, and Saburtalo — where the actual middle class lives, works, and eats; and the panel-block satellite districts (Gldani, Varketili) where most Tbilisians sleep. The metro is two lines, Soviet-built, deep, and cheap; the marshrutka (shared minibus) network is opaque, cash-only, and the only way most of the city moves. Since 2022, an enormous wave of Russian and Belarusian relocants has reshaped rent, café culture, and the political mood — Georgian flags now hang over the doors of bars that refuse Russian-speaking clientele, and the city operates two parallel economies."
+  },
+  "stats": {
+    "currency": "GEL (Georgian Lari, ₾)",
+    "plug_type": "Type C/F"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "January",
+      "temp": "-1°C - 7°C",
+      "vibe": "Cold & Crisp",
+      "pros": [
+        "Empty Old Town",
+        "Ski day trips to Gudauri",
+        "Low season hotel rates"
+      ],
+      "cons": [
+        "Snow on cobblestones",
+        "Short daylight",
+        "Some courtyard wine bars closed"
+      ],
+      "clothing": "Heavy coat, waterproof boots, gloves"
+    },
+    {
+      "id": 2,
+      "name": "February",
+      "temp": "0°C - 9°C",
+      "vibe": "Late Winter",
+      "pros": [
+        "Sulfur bath season peaks",
+        "Cheap wine country tours",
+        "Cozy supra dinners"
+      ],
+      "cons": [
+        "Damp cold in stone buildings",
+        "Grey skies",
+        "Mountain roads icy"
+      ],
+      "clothing": "Warm layers, thermal base, scarf"
+    },
+    {
+      "id": 3,
+      "name": "March",
+      "temp": "3°C - 13°C",
+      "vibe": "Unstable Transition",
+      "pros": [
+        "First terraces reopen",
+        "Lower prices before April",
+        "Mtatsminda hike opens up"
+      ],
+      "cons": [
+        "Rain alternates with sun",
+        "Mud on hillside trails",
+        "Cold evenings persist"
+      ],
+      "clothing": "Light jacket, waterproof layer"
+    },
+    {
+      "id": 4,
+      "name": "April",
+      "temp": "8°C - 19°C",
+      "vibe": "Spring Bloom",
+      "pros": [
+        "Tbilisoba pre-season events",
+        "Comfortable hiking weather",
+        "Wine cellars open for tastings"
+      ],
+      "cons": [
+        "Sudden rain showers",
+        "Mountain roads still partly closed",
+        "Easter holiday crowds"
+      ],
+      "clothing": "T-shirt + light jacket, sunglasses"
+    },
+    {
+      "id": 5,
+      "name": "May",
+      "temp": "13°C - 24°C",
+      "vibe": "Perfect Window",
+      "pros": [
+        "Best hiking conditions",
+        "Open-air khinkali courtyards",
+        "Long daylight"
+      ],
+      "cons": [
+        "Tourist prices climb",
+        "Independence Day road closures (May 26)",
+        "Hotels fill on weekends"
+      ],
+      "clothing": "Light clothes, evening sweater"
+    },
+    {
+      "id": 6,
+      "name": "June",
+      "temp": "17°C - 28°C",
+      "vibe": "Early Summer",
+      "pros": [
+        "Black Sea reachable in 4–5 hours",
+        "Outdoor concerts begin",
+        "Long café evenings"
+      ],
+      "cons": [
+        "Heat radiates off Old Town stone",
+        "Apartment AC is rare",
+        "Mosquitoes near the river"
+      ],
+      "clothing": "Cottons, comfortable shoes, hat"
+    },
+    {
+      "id": 7,
+      "name": "July",
+      "temp": "20°C - 32°C",
+      "vibe": "Hot & Dry",
+      "pros": [
+        "Best season for Kazbegi day trip",
+        "All bars and terraces fully open",
+        "Festival season peaks"
+      ],
+      "cons": [
+        "Old Town becomes a heat trap by 2pm",
+        "Tourist density highest",
+        "Marshrutka cabins unventilated"
+      ],
+      "clothing": "Breathable fabrics, sunglasses, hat"
+    },
+    {
+      "id": 8,
+      "name": "August",
+      "temp": "20°C - 32°C",
+      "vibe": "Peak Heat",
+      "pros": [
+        "Locals flee to mountains — Vake feels calm",
+        "Watermelon and peach season",
+        "Empty office districts"
+      ],
+      "cons": [
+        "Many family restaurants close 2 weeks",
+        "Power flickers in older buildings",
+        "Dust storms from south"
+      ],
+      "clothing": "Minimal layers, water bottle, sunscreen"
+    },
+    {
+      "id": 9,
+      "name": "September",
+      "temp": "15°C - 26°C",
+      "vibe": "Harvest Season",
+      "pros": [
+        "Rtveli (grape harvest) in Kakheti",
+        "Mild, golden evenings",
+        "All restaurants reopen"
+      ],
+      "cons": [
+        "Wine country day trips overbooked",
+        "Tbilisoba festival weekend chaos",
+        "Hotel prices stay summer-high"
+      ],
+      "clothing": "Light layers, light scarf"
+    },
+    {
+      "id": 10,
+      "name": "October",
+      "temp": "10°C - 20°C",
+      "vibe": "Golden Autumn",
+      "pros": [
+        "Best photographic light of the year",
+        "Mountain colors peak Oct 10–25",
+        "Comfortable walking weather"
+      ],
+      "cons": [
+        "Rain returns mid-month",
+        "Cold evenings catch tourists out",
+        "Some rooftop bars close"
+      ],
+      "clothing": "Jacket, jeans, walking shoes"
+    },
+    {
+      "id": 11,
+      "name": "November",
+      "temp": "4°C - 13°C",
+      "vibe": "Wine & Damp",
+      "pros": [
+        "New wine release at marani cellars",
+        "Hot khinkali and chacha season",
+        "Lower hotel rates return"
+      ],
+      "cons": [
+        "Grey skies dominate",
+        "Heating in old apartments unreliable",
+        "Cobblestones treacherous when wet"
+      ],
+      "clothing": "Warm coat, waterproof shoes"
+    },
+    {
+      "id": 12,
+      "name": "December",
+      "temp": "0°C - 8°C",
+      "vibe": "Orthodox Christmas Build-up",
+      "pros": [
+        "Rustaveli Avenue lights",
+        "Mulled wine on every corner",
+        "Off-season prices in Old Town"
+      ],
+      "cons": [
+        "Russian Orthodox Christmas Jan 7 — many locals away late Dec",
+        "Snowfall closes mountain roads",
+        "Short daylight (4:30pm sunset)"
+      ],
+      "clothing": "Heavy coat, scarf, lined boots"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "The Supra Code: A Georgian feast is not a meal — it is a structured ritual led by a 'tamada' (toastmaster) who delivers long, sequential toasts. You drink only on the toast, you do not sip casually between. Wine is drained, not nursed. Refusing to toast is a social break.",
+      "Hospitality Is Non-Negotiable: 'Stumari ghvtisaa' — the guest is from God. Georgians will pay your bill, fill your glass, and load your plate even after you protest. Pushing back too hard is the rude move; gracious acceptance is correct.",
+      "Don't Toast With Beer: Toasts are for wine, chacha (grape brandy), or champagne. Toasting with beer is reserved for enemies, in Georgian folk tradition. Use water if you must abstain — never beer.",
+      "Russian Is a Loaded Language: Since the 2008 war and especially since 2022, speaking Russian to a stranger is risky. Default to English or a few Georgian phrases. Don't assume Russian fluency is welcomed.",
+      "Religious Spaces: Women cover hair and shoulders inside Orthodox churches; men remove hats. Skirts (wrap skirts are provided at Sameba) below the knee. Don't turn your back on the altar when leaving — sidestep.",
+      "Public Affection Cues: Tbilisi is more conservative than its café scene suggests. Older Georgians, especially outside Vake/Vera, are visibly uncomfortable with same-sex hand-holding or intense PDA. Read the room.",
+      "Cats and Dogs: Stray dogs with yellow ear tags are vaccinated and protected by municipal program — they are not strays in the Western sense. Don't shoo or kick them. Many tourists adopt one for the duration of a walk.",
+      "Eye Contact on Toasts: When clinking glasses, look the other person in the eye. Looking away is, by old superstition, seven years of bad luck (or worse, depending on whose grandmother you ask).",
+      "Tipping: 10% service is now usually added in Vera/Vake restaurants; if not, leave 10% in cash. Marshrutka drivers no tip; taxis round up.",
+      "Cash + Cards: Tbilisi is largely card-friendly (TBC Bank, Bank of Georgia POS terminals everywhere) but bazaars, marshrutkas, and many bakeries are cash-only. Carry small lari notes.",
+      "Khachapuri Geography: Adjarian (boat-shaped, egg in the middle) is the tourist photo. Imeretian (flat, cheese only) is what locals actually eat day-to-day. Megrelian (cheese on top and inside) is the heavyweight. Order regionally to look informed.",
+      "Bargain Code: At Dezerter Bazaar and the Dry Bridge flea market, polite haggling is expected. In Vake boutiques and any place with a posted price, it is not."
+    ],
+    "essential_phrases": [
+      {
+        "src": "Hello",
+        "local": "გამარჯობა (Gamarjoba)",
+        "phonetic": "gah-MAR-jo-bah"
+      },
+      {
+        "src": "Thank you",
+        "local": "მადლობა (Madloba)",
+        "phonetic": "MAD-loh-bah"
+      },
+      {
+        "src": "Yes / No",
+        "local": "კი / არა (Ki / Ara)",
+        "phonetic": "kee / AH-rah"
+      },
+      {
+        "src": "Cheers (toast)",
+        "local": "გაუმარჯოს (Gaumarjos)",
+        "phonetic": "gow-MAR-jos",
+        "note": "Said after a toast — literally 'to victory'."
+      },
+      {
+        "src": "How much?",
+        "local": "რა ღირს? (Ra ghirs?)",
+        "phonetic": "rah-GHEERS"
+      },
+      {
+        "src": "The bill, please",
+        "local": "ანგარიში, თუ შეიძლება (Angarishi, tu sheidzleba)",
+        "phonetic": "an-gah-REE-shi, too shay-DZLEH-ba"
+      },
+      {
+        "src": "I don't speak Russian",
+        "local": "მე არ ვლაპარაკობ რუსულად (Me ar vlaparakob rusulad)",
+        "phonetic": "may ar vla-pa-RA-kob roo-SOO-lad",
+        "note": "Useful — defuses an awkward language assumption."
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Sololaki",
+      "vibe": "Historic Courtyards",
+      "description": "The Persian-era residential quarter directly under Narikala Fortress. Crumbling 19th-century mansions, Art Nouveau staircases, hidden inner courtyards repurposed into natural-wine bars. The most photogenic neighborhood in the city, and the one where the gentrification arc is most visible: a single Sololaki street can hold a 90-year-old grandmother, a Belarusian remote worker, and a third-wave coffee bar within ten meters.",
+      "highlights": [
+        "Betlemi Street courtyards",
+        "Vinotheca wine bars",
+        "Narikala Fortress access stairs"
+      ],
+      "best_for": [
+        "first-timers",
+        "photographers",
+        "natural wine"
+      ],
+      "image": "/images/tbilisi/sololaki.jpg"
+    },
+    {
+      "name": "Vake",
+      "vibe": "Chic & Modern",
+      "description": "The leafy, upmarket residential district west of Vera, anchored by Vake Park. Embassies, glass-front boutiques, brunch spots with English menus, and the city's most expensive square-meter rents. Vake is where moneyed Georgians and long-stay relocants live — quieter, cleaner, more 'European' in the West-European-postcard sense, less interesting as a destination than as a base.",
+      "highlights": [
+        "Vake Park",
+        "Chavchavadze Avenue cafés",
+        "Lisi Lake hike trailhead"
+      ],
+      "best_for": [
+        "long-stay nomads",
+        "families",
+        "remote workers"
+      ],
+      "image": "/images/tbilisi/vake.jpg"
+    },
+    {
+      "name": "Saburtalo",
+      "vibe": "Student Residential",
+      "description": "Soviet-era apartment blocks, university campuses (TSU, GTU), cheap khinkali joints, and a metro line that runs west out of the center. This is where the real student and young-professional population lives — no postcard appeal, but unmatched value, and the place to see how Tbilisi actually functions outside the tourist crust.",
+      "highlights": [
+        "Delisi Metro food strip",
+        "State Medical University campus",
+        "Vazha-Pshavela Avenue eateries"
+      ],
+      "best_for": [
+        "budget travelers",
+        "long stays",
+        "authentic everyday"
+      ],
+      "image": "/images/tbilisi/saburtalo.jpg"
+    },
+    {
+      "name": "Old Town (Kala) & Abanotubani",
+      "vibe": "Sulfur Bath Quarter",
+      "description": "The medieval core: domed brick bathhouses fed by natural sulfur springs, the wooden balconies of Sioni Street, and Meidan Square at the foot of Narikala. Heavily touristic on the surface, but the bathhouses themselves are still a working part of Tbilisi's hygiene culture — locals book private rooms and stay for hours.",
+      "highlights": [
+        "Abanotubani sulfur baths",
+        "Meidan Square",
+        "Sioni Cathedral"
+      ],
+      "best_for": [
+        "first-timers",
+        "wellness",
+        "history"
+      ],
+      "image": "/images/tbilisi/old-town.jpg"
+    },
+    {
+      "name": "Vera",
+      "vibe": "Café-Bar Spine",
+      "description": "Between Sololaki and Vake, Vera is where Tbilisi's third-wave coffee, natural-wine, and queer-friendly nightlife scene concentrates. Streets like Kiacheli and Akhvlediani are wall-to-wall café-bars after dark. Less photogenic than Sololaki but where you actually want to spend your evenings.",
+      "highlights": [
+        "Kiacheli Street bars",
+        "Stamba Hotel lobby",
+        "Lolita Garden"
+      ],
+      "best_for": [
+        "nightlife",
+        "café culture",
+        "20s–30s travelers"
+      ],
+      "image": "/images/tbilisi/vera.jpg"
+    },
+    {
+      "name": "Marjanishvili & Fabrika",
+      "vibe": "Post-Industrial Creative",
+      "description": "On the left bank of the Mtkvari, Marjanishvili holds the multicultural old-merchant district (Armenian, Jewish, Greek heritage) and Fabrika — a former Soviet sewing factory converted into a hostel-courtyard-bar complex that anchors the alternative scene. Grittier than Sololaki, more honest, and the after-midnight engine of the city.",
+      "highlights": [
+        "Fabrika courtyard",
+        "Aghmashenebeli Avenue",
+        "Marjanishvili Theatre"
+      ],
+      "best_for": [
+        "creatives",
+        "nightlife",
+        "budget hostels"
+      ],
+      "image": "/images/tbilisi/fabrika.jpg"
+    },
+    {
+      "name": "Avlabari",
+      "vibe": "Armenian-Orthodox Hill",
+      "description": "Across the river from Old Town, climbing toward Sameba Cathedral — Tbilisi's giant 21st-century Orthodox cathedral. Historically the Armenian quarter, still home to working-class families, with rapidly changing rent dynamics as it gets discovered.",
+      "highlights": [
+        "Sameba Cathedral",
+        "Metekhi Church",
+        "Avlabari Metro market"
+      ],
+      "best_for": [
+        "viewpoints",
+        "religious sites",
+        "cheap eats"
+      ],
+      "image": "/images/tbilisi/avlabari.jpg"
+    },
+    {
+      "name": "Kazbegi (Day Trip)",
+      "vibe": "Caucasus Escape",
+      "description": "Three hours north on the Georgian Military Highway: Gergeti Trinity Church perched at 2,170m beneath the 5,054m Mount Kazbek. The drive itself — through Jvari Pass and the Aragvi gorge — is the destination as much as the church. Every Tbilisi hostel sells the package.",
+      "highlights": [
+        "Gergeti Trinity Church",
+        "Jvari Pass viewpoint",
+        "Ananuri Fortress en route"
+      ],
+      "best_for": [
+        "day trips",
+        "photography",
+        "first-time visitors"
+      ],
+      "image": "/images/tbilisi/kazbegi.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Getting Around",
+      "icon": "Train",
+      "summary": "Two metro lines, a marshrutka maze, and Bolt — that's the system.",
+      "details": [
+        "Metro: Two lines (Akhmeteli-Varketili and Saburtalo). Soviet-deep stations, 1 GEL per ride with a MetroMoney card (buy at any station). Trains run 06:00–24:00. Signage is in Georgian and English on the platforms but not always on older trains — count stops.",
+        "Marshrutka (Shared Minibus): Yellow vans, cash only, ~1 GEL within the city. Routes are not on Google Maps reliably; use the local 'Tbilisi Transport' app or just ask. Hail anywhere, shout 'gaacheret' (stop here) to get off.",
+        "Bolt: The default ride-hail. Cheap, reliable, English app, card payment. Uber doesn't operate in Georgia. Yandex GO exists but is politically loaded since 2022 — most relocants and travelers avoid it.",
+        "Aerial Tramway: The cable car from Rike Park up to Narikala Fortress costs 1 GEL with a MetroMoney card and replaces a punishing 20-minute uphill walk.",
+        "Cobblestones Warning: Old Town, Sololaki, and Avlabari streets are uneven 19th-century cobblestones — bad for rolling luggage and worse in rain. Bring shoes with grip, not heels.",
+        "Airport Transfer: TBS airport is 17km southeast. Bolt to Old Town costs 25–35 GEL (~$10 USD), bus #37 runs 24/7 to Avlabari Metro for 1 GEL. Skip the taxi cartel at arrivals."
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "financial-landscape",
+      "title": "Money & Payments",
+      "icon": "CreditCard",
+      "summary": "Highly card-friendly for a former Soviet capital — but keep lari for the bazaar.",
+      "details": [
+        "Currency: Georgian Lari (GEL, ₾). $1 USD ≈ 2.7 GEL. Inflation has been steady; pricing is consistent week-to-week.",
+        "Cards: TBC Bank and Bank of Georgia POS terminals are everywhere. Tap-to-pay (Visa/Mastercard) works in 95% of Vera/Vake/Old Town venues. Amex is hit-or-miss.",
+        "Cash: Essential at Dezerter Bazaar, Dry Bridge flea market, marshrutkas, neighborhood bakeries, and most family-run khinkali halls in Saburtalo. Carry 50–100 GEL daily.",
+        "ATMs: TBC and Bank of Georgia ATMs are everywhere and reliable. Avoid Liberty Bank ATMs (older, higher skim risk). No fee on most foreign cards inside bank branches.",
+        "Crypto: Tbilisi has an unusually heavy crypto scene driven by post-2022 relocants. P2P USDT swaps are common; the bigger exchanges are along Rustaveli Avenue but proceed with caution — scams targeting newcomers are documented.",
+        "Tipping: 10% service is increasingly auto-added in Vera/Vake. If it's not, leave 10% cash. Taxis/Bolt round up.",
+        "VAT Refund: Tourist VAT refunds exist but the threshold and paperwork rarely make it worthwhile for under 1,000 GEL of spending."
+      ]
+    },
+    {
+      "id": "logistics-dining",
+      "slug": "dining-protocol",
+      "title": "Dining & Supra Logistics",
+      "icon": "Utensils",
+      "summary": "Eating in Tbilisi is structured. Learn the system before you order.",
+      "details": [
+        "Khinkali Protocol: Order at least 5–6 per person; they're heavy. Eat with hands — pick up by the topknot, bite the side, slurp the broth, chew the meat, leave the topknot. Eating the topknot marks you as a tourist.",
+        "Supra Reality: A traditional supra (feast) is a 3–4 hour event led by a tamada (toastmaster). If you're invited to one, clear your evening. Wine is drained on toasts, not sipped — pace yourself or you will not survive.",
+        "Wine 101: Georgia invented wine (8,000-year archaeology). The local style is amber/qvevri-fermented from native grapes — Rkatsiteli, Saperavi, Kisi. Order 'qvevri wine' to drink local; avoid the European-style bottles in tourist menus.",
+        "Chacha Warning: Homemade grape brandy, 40–60% ABV, served cold in shot form. The 'farmer's' version from rural markets can be unregulated and rough — stick to bottled brands (Askaneli, Sarajishvili) for safety.",
+        "Bread Code: Shoti (canoe-shaped flatbread from a tone clay oven) is fresh-baked all day in neighborhood bakeries. Always order it warm; never reheat.",
+        "Service Tempo: Service in family restaurants is slow by Western standards — not negligence, but rhythm. Don't flag urgently; food arrives when it arrives."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "Safety & Civil Tensions",
+      "icon": "Shield",
+      "summary": "Low violent-crime city with political undercurrents you should read.",
+      "details": [
+        "General Safety: Tbilisi is among the safest capitals in the region — violent crime against tourists is rare, even at night. Old Town and Vera are walkable until 2–3am.",
+        "Political Protests: Rustaveli Avenue is the protest spine. Since 2024 there have been recurring large demonstrations against the 'foreign agents law' and EU accession setbacks. Police can be heavy-handed. If you see crowds gathering near Parliament, walk around — not through.",
+        "Russian-Speaking Anxiety: Speaking Russian to strangers can trigger hostility. Many bars and restaurants in Sololaki/Vera display signs refusing service to those who support the war in Ukraine. Default to English.",
+        "Stray Dogs: Yellow-ear-tagged dogs are vaccinated and harmless; they often follow tourists for hours. Untagged dogs in outer districts can be defensive at night — don't run.",
+        "Taxi Cartel at Airport: Drivers will quote 60–100 GEL for a 25 GEL ride. Always Bolt from the airport — there is a dedicated Bolt pickup zone.",
+        "Bathhouse Etiquette: Public sulfur baths are gender-separated and require nude bathing. Private rooms (3–6 person) are mixed-gender and swimsuits are acceptable. Tip the kisi (scrubber) 10–20%.",
+        "Emergency Number: 112 (universal). English-speaking dispatch is reasonably reliable."
+      ]
+    },
+    {
+      "id": "logistics-scams",
+      "slug": "common-scams",
+      "title": "Scams to Avoid",
+      "icon": "AlertTriangle",
+      "summary": "Few in number, but a handful target the unprepared.",
+      "details": [
+        "Restaurant 'Free' Tasting: A waiter brings unrequested wine, salads, or chacha and adds them to the bill. Ask 'is this included?' before touching anything not ordered.",
+        "Airport Taxi Quote: Unmarked drivers approach with 60+ GEL fares. Always book Bolt — there is a designated pickup point clearly marked at arrivals.",
+        "Old Town 'Tour Guide': A friendly English-speaker offers to walk you to a viewpoint, then expects a 50+ GEL 'tip'. Decline upfront if you didn't book a tour.",
+        "Currency Confusion: A vendor 'misreads' a 100 GEL note as 10 and asks for more. Count out cash slowly and visibly.",
+        "Wine Cellar 'Free Visit': A driver offers a free wine country trip — the catch is a 'recommended' purchase of 200+ GEL of wine at his cousin's marani. Book wine tours through Friends of Wine, 8000 Vintages, or a reputable hostel.",
+        "Crypto P2P Scam: A 'friendly local' offers to swap your USDT for cash at a 'better' rate, then disappears with the crypto. Use only established exchange offices."
+      ]
+    },
+    {
+      "id": "logistics-survival",
+      "slug": "survival-tips",
+      "title": "Environment & Health",
+      "icon": "Sun",
+      "summary": "Climate is sharp at the edges — summer heat and winter cold both bite.",
+      "details": [
+        "Summer Heat: July–August afternoons hit 35°C+. Old Town stone radiates heat well into the night. Plan outdoor sightseeing for 8–11am and after 6pm.",
+        "Winter Cold: December–February stays around freezing with damp wind off the river. Many older stone apartments are poorly heated — confirm heating before booking a Sololaki rental.",
+        "Tap Water: Tbilisi tap water is officially safe and locals drink it. Mountain spring water is sold cheaply in 5L bottles if you prefer.",
+        "Air Quality: The city sits in a basin and traffic emissions accumulate. Bad days hit 'unhealthy' levels — check the IQAir app, especially Nov–Feb.",
+        "Pharmacies: 'Aptiaki' chains (PSP, Aversi, GPC) are everywhere, English-speaking, and many medications are over-the-counter. Bring originals of controlled substances in labeled bottles.",
+        "Mountain Sickness: Day-tripping to Kazbegi (2,170m at the church) rarely causes problems, but if you continue up Mount Kazbek above 3,000m, plan acclimatization.",
+        "Sulfur Smell: The Abanotubani area has a permanent egg-like sulfur smell from the springs. It's harmless; locals barely notice."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Apps to Download",
+      "icon": "Smartphone",
+      "summary": "Install before you land — the local app ecosystem is its own thing.",
+      "details": [
+        "Bolt: The only ride-hail you need. Uber doesn't operate in Georgia.",
+        "Wolt: Food delivery — works in Vake, Vera, Saburtalo. Foreign cards accepted.",
+        "Glovo: Backup delivery app, better coverage in Marjanishvili and outer districts.",
+        "Google Translate: Download Georgian offline pack. Georgian script (ქართული) is unique — the camera-OCR feature is essential for menus.",
+        "Tbilisi Transport: Local public transit app for bus/marshrutka routes the Google Maps doesn't know.",
+        "TBC Pay / BOG: If you stay long enough to open a Georgian bank account, these are your wallets. Day tourists can skip.",
+        "Maps.me: Better than Google Maps for hiking trails around Tbilisi (Mtatsminda, Lisi Lake) and Kazbegi.",
+        "Find My / Google Find Device: Pre-install. Phone snatching is rare but pickpocketing in crowded marshrutkas is not."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "khinkali",
+      "name_en": "Khinkali",
+      "name_local": "ხინკალი",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Twisted soup dumplings filled with spiced minced meat (or mushroom or cheese), eaten by hand — pick up the topknot, slurp the broth, leave the knob.",
+        "history": "Originated in the highland regions of Pshavi and Khevsureti where shepherds needed dense, portable, broth-rich food. Migrated to Tbilisi tables in the 19th century and became the national symbol of Georgian eating.",
+        "insider_tip": "Order at least 5–6 per person — they're filling but addictive. Locals count empty topknots to keep score. Pasanauri and Zakhar Zakharich are the benchmark khinkali halls in Tbilisi.",
+        "price_level": "Affordable",
+        "duration": "45 minutes",
+        "best_time": "Lunch or late dinner",
+        "vibe": "Tactile and Communal",
+        "good_for": [
+          "First-timers",
+          "Groups",
+          "Cold weather"
+        ]
+      },
+      "image": "/images/tbilisi/khinkali.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "khachapuri-adjarian",
+      "name_en": "Adjarian Khachapuri",
+      "name_local": "აჭარული ხაჭაპური",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A boat-shaped bread filled with melted sulguni cheese and topped with a raw egg yolk and a slab of butter that you stir into the molten interior at the table.",
+        "history": "Originated in the Adjara region on the Black Sea coast, where the boat shape symbolically references local fishing culture. Became Tbilisi's signature tourist dish in the 2010s.",
+        "insider_tip": "One Adjarian khachapuri can feed two people — order one to share unless you're committed. Retro Boat at Aragvi or any branch of Khachapuri Tone is consistent.",
+        "price_level": "Affordable",
+        "duration": "30 minutes",
+        "best_time": "Lunch",
+        "vibe": "Indulgent and Photogenic",
+        "good_for": [
+          "First-timers",
+          "Photography",
+          "Sharing"
+        ]
+      },
+      "image": "/images/tbilisi/khachapuri-adjarian.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "khachapuri-imeretian",
+      "name_en": "Imeretian Khachapuri",
+      "name_local": "იმერული ხაჭაპური",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A round, flat bread stuffed with Imeretian cheese — the everyday khachapuri locals actually eat, less dramatic than the Adjarian but more honest.",
+        "history": "From the Imereti region of western Georgia; the simplest and oldest form of khachapuri, baked in every grandmother's kitchen.",
+        "insider_tip": "Order from a 'tone' (clay oven) bakery in Saburtalo or Marjanishvili — neighborhood bakeries sell them for 5–7 GEL versus 15–20 GEL in Old Town tourist spots.",
+        "price_level": "Affordable",
+        "duration": "20 minutes",
+        "best_time": "Breakfast or lunch",
+        "vibe": "Everyday and Authentic",
+        "good_for": [
+          "Breakfast",
+          "Budget travelers",
+          "Solo dining"
+        ]
+      },
+      "image": "/images/tbilisi/khachapuri-imeretian.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "lobio",
+      "name_en": "Lobio (Bean Stew)",
+      "name_local": "ლობიო",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A clay-pot stew of red kidney beans cooked with coriander, blue fenugreek, and walnut, served with cornbread (mchadi) and pickles on the side.",
+        "history": "A peasant staple from the highland regions; became Tbilisi's late-night fuel after the city's working-class taverns adopted it as a cheap, filling option.",
+        "insider_tip": "Lobio at Racha (Lermontov Street) is the cult-status version — a small Soviet-era basement diner that closes early. Pair with shoti bread and pickled jonjoli.",
+        "price_level": "Affordable",
+        "duration": "30–45 minutes",
+        "best_time": "Lunch or late night",
+        "vibe": "Earthy and Restorative",
+        "good_for": [
+          "Vegetarians",
+          "Budget travelers",
+          "Cold days"
+        ]
+      },
+      "image": "/images/tbilisi/lobio.jpg"
+    },
+    {
+      "id": "food-005",
+      "slug": "mtsvadi",
+      "name_en": "Mtsvadi (Georgian Shashlik)",
+      "name_local": "მწვადი",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Cubes of pork (or veal) skewered and grilled over grape-vine embers, served with raw onion and tkemali (sour plum) sauce.",
+        "history": "A pre-Christian tradition — Georgian feasts have featured skewered grilled meat for over 2,000 years. The grape-vine wood is non-negotiable for flavor.",
+        "insider_tip": "Order mtsvadi only at places with a visible outdoor grill — indoor versions on gas tabletop grills are inferior. Shavi Lomi and Salobie Bia do it right.",
+        "price_level": "Moderate",
+        "duration": "1 hour",
+        "best_time": "Dinner",
+        "vibe": "Smoky and Communal",
+        "good_for": [
+          "Meat lovers",
+          "Groups",
+          "Wine pairing"
+        ]
+      },
+      "image": "/images/tbilisi/mtsvadi.jpg"
+    },
+    {
+      "id": "food-006",
+      "slug": "satsivi",
+      "name_en": "Satsivi (Walnut Chicken)",
+      "name_local": "საცივი",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Cold chicken in a thick walnut-coriander-garlic sauce, traditionally served at New Year and supra feasts.",
+        "history": "An ancient ceremonial dish — 'satsivi' literally means 'something cold'. Each Georgian family has a contested grandmother's recipe.",
+        "insider_tip": "Best in winter; the walnut sauce thickens and the flavor deepens overnight. Order at Barbarestan or Café Linville for refined versions.",
+        "price_level": "Moderate",
+        "duration": "45 minutes",
+        "best_time": "Dinner",
+        "vibe": "Rich and Ceremonial",
+        "good_for": [
+          "Adventurous eaters",
+          "Cultural depth",
+          "Wine pairing"
+        ]
+      },
+      "image": "/images/tbilisi/satsivi.jpg"
+    },
+    {
+      "id": "food-007",
+      "slug": "badrijani-nigvzit",
+      "name_en": "Badrijani Nigvzit",
+      "name_local": "ბადრიჯანი ნიგვზით",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Fried eggplant strips rolled around a walnut-garlic-coriander paste, topped with pomegranate seeds — the supra-table appetizer that everyone reaches for first.",
+        "history": "A 19th-century innovation as walnut paste became central to Georgian peasant cuisine; now the most photographed Georgian starter.",
+        "insider_tip": "Look for the deep red-purple color of the pomegranate seeds — pale seeds mean off-season. Best Sept–Dec when pomegranates are local.",
+        "price_level": "Affordable",
+        "duration": "20 minutes",
+        "best_time": "Starter at any meal",
+        "vibe": "Tangy and Photogenic",
+        "good_for": [
+          "Vegetarians",
+          "Photography",
+          "Sharing"
+        ]
+      },
+      "image": "/images/tbilisi/badrijani.jpg"
+    },
+    {
+      "id": "food-008",
+      "slug": "khinkali-kalakuri",
+      "name_en": "Kalakuri Khinkali (City Style)",
+      "name_local": "ქალაქური ხინკალი",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "The Tbilisi version of khinkali — mixed pork-and-beef filling with more herbs and finer broth than the highland style.",
+        "history": "Evolved in Tbilisi's working-class diners in the early 20th century as urban Georgians wanted a lighter, herbier version of the mountain staple.",
+        "insider_tip": "Order alongside the traditional 'mountain' version (khevsuruli, beef-only) to taste the regional contrast — both should be on any decent khinkali menu.",
+        "price_level": "Affordable",
+        "duration": "45 minutes",
+        "best_time": "Lunch",
+        "vibe": "Urban Comfort",
+        "good_for": [
+          "Comparison eating",
+          "Repeat khinkali",
+          "Lighter palate"
+        ]
+      },
+      "image": "/images/tbilisi/kalakuri-khinkali.jpg"
+    },
+    {
+      "id": "food-009",
+      "slug": "chakapuli",
+      "name_en": "Chakapuli (Spring Lamb Stew)",
+      "name_local": "ჩაქაფული",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A bright green stew of lamb (or veal) simmered with tarragon, sour plums, white wine, and spring onions — the seasonal dish of Georgian Easter.",
+        "history": "Traditionally a Holy Week dish marking the end of Lenten fasting; the green herbs symbolize spring renewal.",
+        "insider_tip": "Only worth ordering in April–June when fresh tarragon and tkemali plums are in season. Out-of-season versions use dried herbs and lose the dish.",
+        "price_level": "Moderate",
+        "duration": "1 hour",
+        "best_time": "Spring lunch or dinner",
+        "vibe": "Fresh and Seasonal",
+        "good_for": [
+          "Seasonal eaters",
+          "Lamb lovers",
+          "Spring travel"
+        ]
+      },
+      "image": "/images/tbilisi/chakapuli.jpg"
+    },
+    {
+      "id": "food-010",
+      "slug": "shoti-puri",
+      "name_en": "Shoti Puri",
+      "name_local": "შოთის პური",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A canoe-shaped flatbread baked against the wall of a 'tone' clay oven — crispy outside, chewy inside, eaten warm with cheese or as a vehicle for everything else.",
+        "history": "The traditional oven (tone) and the canoe shape are both inherited from Persian and Central Asian baking traditions adapted to Georgian wheat and ovens.",
+        "insider_tip": "Buy it directly from a neighborhood 'puris satsxobi' bakery (the air vents hot bread smell down the street) — never from a supermarket. 1.20–2 GEL each.",
+        "price_level": "Affordable",
+        "duration": "5 minutes",
+        "best_time": "Morning or pre-meal",
+        "vibe": "Hot and Humble",
+        "good_for": [
+          "Breakfast",
+          "Picnic prep",
+          "Sandwich base"
+        ]
+      },
+      "image": "/images/tbilisi/shoti.jpg"
+    },
+    {
+      "id": "food-011",
+      "slug": "churchkhela",
+      "name_en": "Churchkhela",
+      "name_local": "ჩურჩხელა",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A string of walnuts (or hazelnuts) dipped repeatedly in thickened grape juice and dried — Georgia's 8,000-year-old portable candy.",
+        "history": "Originally a soldier's high-calorie food in medieval campaigns; the candle-like strands are now sold from every Old Town and Kazbegi-road stall.",
+        "insider_tip": "Look for matte, slightly wrinkled exteriors — glossy, perfectly smooth churchkhela has been industrially coated with sugar syrup, not made traditionally.",
+        "price_level": "Affordable",
+        "duration": "10 minutes",
+        "best_time": "Anytime snack",
+        "vibe": "Sweet and Earthy",
+        "good_for": [
+          "Snacking",
+          "Hiking fuel",
+          "Edible souvenir"
+        ]
+      },
+      "image": "/images/tbilisi/churchkhela.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "qvevri-wine",
+      "name_en": "Qvevri Wine",
+      "name_local": "ქვევრის ღვინო",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Amber and red wines fermented underground in beeswax-lined clay vessels (qvevri) — the 8,000-year-old technique UNESCO recognized as Intangible Heritage.",
+        "history": "Georgia is the archaeological birthplace of wine — evidence dates to 6,000 BCE. The qvevri method survived Soviet industrialization because rural families kept making it for themselves.",
+        "insider_tip": "Order Rkatsiteli (white-skinned amber wine) or Saperavi (deep red) to taste the local style. 8000 Vintages and Vino Underground are the city's best wine bars for guided flights.",
+        "price_level": "Moderate",
+        "duration": "1.5 hours",
+        "best_time": "Evening",
+        "vibe": "Ancient and Tannic",
+        "good_for": [
+          "Wine lovers",
+          "Cultural depth",
+          "Slow evenings"
+        ]
+      },
+      "image": "/images/tbilisi/qvevri-wine.jpg"
+    },
+    {
+      "id": "food-013",
+      "slug": "chacha",
+      "name_en": "Chacha (Grape Brandy)",
+      "name_local": "ჭაჭა",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Clear grape brandy distilled from wine pomace, 40–60% ABV, served cold in shot form — Georgia's national fire.",
+        "history": "A by-product of wine-making since antiquity; every rural household once had its own still. The Sarajishvili distillery industrialized it in the 19th century.",
+        "insider_tip": "Drink only bottled brands (Sarajishvili, Askaneli, Binekhi) in bars. 'Homemade' chacha from rural markets can be unregulated, methanol-risky, and brutal.",
+        "price_level": "Affordable",
+        "duration": "Variable",
+        "best_time": "Evening or post-meal",
+        "vibe": "Sharp and Social",
+        "good_for": [
+          "Group toasts",
+          "Cold weather",
+          "Cultural rite"
+        ]
+      },
+      "image": "/images/tbilisi/chacha.jpg"
+    },
+    {
+      "id": "food-014",
+      "slug": "tkemali",
+      "name_en": "Tkemali (Sour Plum Sauce)",
+      "name_local": "ტყემალი",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A tart, herby sauce made from wild sour plums, garlic, coriander, dill, and pennyroyal — the ketchup of Georgia, served with grilled meats and potatoes.",
+        "history": "Pre-modern preservation method for the short tkemali plum season; every region of Georgia has its own variant (red, green, yellow).",
+        "insider_tip": "Order the green (early-season) version with mtsvadi for the brightest pairing; red (late-season) is sweeter and pairs better with potatoes.",
+        "price_level": "Affordable",
+        "duration": "5 minutes",
+        "best_time": "With grilled mains",
+        "vibe": "Tangy and Essential",
+        "good_for": [
+          "Meat pairing",
+          "Sauce lovers",
+          "Cultural literacy"
+        ]
+      },
+      "image": "/images/tbilisi/tkemali.jpg"
+    },
+    {
+      "id": "food-015",
+      "slug": "kubdari",
+      "name_en": "Kubdari (Svan Meat Pie)",
+      "name_local": "კუბდარი",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A dense yeasted pie stuffed with hand-cut spiced beef or pork — the meat-pie counterpart to khachapuri, from the highland Svaneti region.",
+        "history": "Originated as cold-climate Svan trail food; the meat is hand-cut, not minced, which makes the texture distinctive. Migrated to Tbilisi tables only in the last 30 years.",
+        "insider_tip": "Order at Cafe Stamba or any restaurant with a Svan chef. A whole kubdari is enough for two; don't confuse it with khachapuri on the menu.",
+        "price_level": "Moderate",
+        "duration": "30 minutes",
+        "best_time": "Lunch",
+        "vibe": "Hearty and Highland",
+        "good_for": [
+          "Meat lovers",
+          "Regional comparison",
+          "Cold weather"
+        ]
+      },
+      "image": "/images/tbilisi/kubdari.jpg"
+    },
+    {
+      "id": "food-016",
+      "slug": "supra-feast",
+      "name_en": "Supra (Traditional Feast)",
+      "name_local": "სუფრა",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A 3–4 hour structured banquet led by a tamada (toastmaster) — the ritual social form for every Georgian birthday, wedding, funeral, and weekend with friends.",
+        "history": "The supra and the tamada role are part of Georgian Orthodox-flavored social architecture going back centuries; UNESCO has documented it as living heritage.",
+        "insider_tip": "Tourist 'supra experiences' at Funicular Restaurant or via Eatwith give you the structure without the social risk of misreading a real one. The real version requires an invitation.",
+        "price_level": "Expensive",
+        "duration": "3–4 hours",
+        "best_time": "Evening",
+        "vibe": "Structured and Soaring",
+        "good_for": [
+          "Cultural immersion",
+          "Groups",
+          "Special occasions"
+        ]
+      },
+      "image": "/images/tbilisi/supra.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Essential Tbilisi",
+      "id": "essential",
+      "items": [
+        {
+          "id": "att-001",
+          "slug": "narikala-fortress",
+          "name_en": "Narikala Fortress",
+          "name_local": "ნარიყალა",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 4th-century hilltop fortress overlooking the Old Town, the Mtkvari River, and the panel-block districts beyond — the city's defining viewpoint.",
+            "history": "Founded by the Persians in the 4th century, expanded by Arabs in the 7th, restored by Georgians in the 11th, and gutted by an 1827 lightning-strike powder explosion. The current walls are partly Soviet-era reconstruction.",
+            "insider_tip": "Take the 1 GEL cable car up from Rike Park and walk down through Sololaki — the descent is the better photo route. Avoid midday in summer; the ridge has no shade.",
+            "price_level": "Free (cable car 1 GEL)",
+            "duration": "1.5 hours",
+            "best_time": "Late afternoon for golden light",
+            "vibe": "Panoramic and Layered",
+            "good_for": [
+              "First-timers",
+              "Photography",
+              "History"
+            ],
+            "logistics": "Cable car runs 11:00–23:00 from Rike Park. Footpath via Sololaki takes 25 minutes uphill.",
+            "historical_context": "The name 'Narikala' is likely Mongol-Persian for 'inner fortress'. The site was Tbilisi's military spine for 1,500 years.",
+            "local_secret": "The Mother Georgia statue (Kartlis Deda) on the adjacent ridge holds a sword in one hand and a wine cup in the other — wine for friends, sword for enemies. Most tourists photograph the fortress and miss her entirely."
+          },
+          "image": "/images/tbilisi/narikala.jpg",
+          "geo": {
+            "lat": 41.6877,
+            "lng": 44.8093
+          }
+        },
+        {
+          "id": "att-002",
+          "slug": "abanotubani-baths",
+          "name_en": "Abanotubani Sulfur Baths",
+          "name_local": "აბანოთუბანი",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The domed brick bathhouses of the Old Town, fed by natural sulfur springs — Tbilisi's founding myth and still a functional part of local hygiene.",
+            "history": "Legend has King Vakhtang Gorgasali founding Tbilisi in the 5th century after his falcon fell into the hot springs. The current bathhouses are 17th–19th-century reconstructions in Persian-Safavid style.",
+            "insider_tip": "Book a private room (No. 5 Royal Bath or Chreli-Abano) for 60–120 GEL/hour for up to 6 people — the public communal baths are gender-separated and require nudity. Always add the 'kisi' scrub treatment.",
+            "price_level": "Moderate (60–120 GEL private room)",
+            "duration": "1.5–2 hours",
+            "best_time": "Late evening (20:00–22:00)",
+            "vibe": "Hot and Ritual",
+            "good_for": [
+              "Wellness",
+              "Couples",
+              "Cultural immersion"
+            ],
+            "logistics": "Most baths open 09:00 to midnight. Bring flip-flops; towels and tea are provided in private rooms.",
+            "historical_context": "Pushkin bathed here in 1829 and wrote that he had 'never encountered anything more luxurious'. The literary cult around the baths is a real piece of Russian-Georgian history.",
+            "local_secret": "The decorated tiled façade of Chreli-Abano (the only blue-tiled bathhouse) was funded by an Iranian merchant in 1840 and is the only Persian-Safavid structure remaining intact in Georgia. Sit in the courtyard before your booking to take it in — most tourists rush past."
+          },
+          "image": "/images/tbilisi/abanotubani.jpg",
+          "geo": {
+            "lat": 41.6883,
+            "lng": 44.8136
+          }
+        },
+        {
+          "id": "att-003",
+          "slug": "sameba-cathedral",
+          "name_en": "Holy Trinity Cathedral (Sameba)",
+          "name_local": "სამება",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The 21st-century mega-cathedral of Georgian Orthodoxy, 87m tall, completed in 2004 on Elia Hill — visible from almost everywhere in the city.",
+            "history": "Built between 1995 and 2004 as a post-Soviet assertion of Georgian Orthodox identity; the third-largest Orthodox cathedral in the world by interior volume.",
+            "insider_tip": "Visit on a Sunday morning (09:00–11:00) for the full liturgical experience — but stand at the back, dress conservatively, and do not photograph the service.",
+            "price_level": "Free",
+            "duration": "1 hour",
+            "best_time": "Sunday morning 9:00 AM",
+            "vibe": "Monumental and Sacred",
+            "good_for": [
+              "Religious sites",
+              "Architecture",
+              "Sunday rituals"
+            ],
+            "logistics": "Open daily 09:00–21:00. Wrap skirts provided at the gate for women. No shorts on men. Photography outside only.",
+            "historical_context": "The cathedral's construction was controversial — built on a former Armenian cemetery, it became a flashpoint in Georgian-Armenian tensions in the 1990s.",
+            "local_secret": "The vast underground crypt (entered from the rear courtyard, often unlocked Mon–Fri afternoons) holds 5 lower chapels and is empty of tourists — Sameba's most atmospheric interior space."
+          },
+          "image": "/images/tbilisi/sameba.jpg",
+          "geo": {
+            "lat": 41.6975,
+            "lng": 44.8175
+          }
+        },
+        {
+          "id": "att-004",
+          "slug": "mtskheta-day-trip",
+          "name_en": "Mtskheta & Jvari Monastery",
+          "name_local": "მცხეთა",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Georgia's ancient capital, 20km north of Tbilisi — Svetitskhoveli Cathedral on the riverbank, Jvari Monastery on the ridge above, both UNESCO listed.",
+            "history": "Mtskheta was the capital of the Kingdom of Iberia from the 3rd century BCE to the 5th century CE. Svetitskhoveli (11th c.) is the burial place of Georgian kings. Jvari (6th c.) marks where St. Nino raised the first wooden cross of Georgian Christianity in 337.",
+            "insider_tip": "Take a Bolt round-trip for 70–90 GEL with the driver waiting — cheaper than guided tours for two people and you control the pace. Be at Jvari for sunset.",
+            "price_level": "Affordable (~70 GEL Bolt round-trip)",
+            "duration": "Half-day",
+            "best_time": "Weekday afternoon 14:00–18:00",
+            "vibe": "Sacred and Ancient",
+            "good_for": [
+              "History",
+              "Photography",
+              "Day trips"
+            ],
+            "logistics": "Marshrutka from Didube station 2 GEL one way; Bolt door-to-door is dramatically easier. Both sites free entry; modest dress required.",
+            "historical_context": "Lermontov's poem 'Mtsyri' is set at Jvari — the monastery's literary weight is as significant as its religious one in Russian literary culture.",
+            "local_secret": "The confluence of the Aragvi and Mtkvari rivers is visible directly below Jvari — two distinctly colored waters meeting and not mixing for 100 meters downstream. Locals consider it the most photogenic spot in the country; almost no guided tours stop to point it out."
+          },
+          "image": "/images/tbilisi/mtskheta.jpg",
+          "geo": {
+            "lat": 41.8419,
+            "lng": 44.7211
+          }
+        }
+      ]
+    },
+    {
+      "title": "Local Life & Culture",
+      "id": "local-life",
+      "items": [
+        {
+          "id": "act-001",
+          "slug": "sololaki-courtyard-bars",
+          "name_en": "Sololaki Courtyard Wine Bars",
+          "name_local": "სოლოლაკის ეზოები",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Hidden natural-wine bars tucked inside the inner courtyards of crumbling Persian-era mansions in Sololaki — Tbilisi's defining drinking experience.",
+            "history": "Sololaki was the wealthy residential district of 19th-century Tbilisi. After 1991, families subdivided the mansions; in the 2010s, the inner courtyards (ezo) began hosting wine bars during the qvevri-wine revival.",
+            "insider_tip": "g.Vino, Vino Underground, and 8000 Vintages are the gateway venues. The deeper, harder-to-find ones (Wine Stairs, Wine Factory N1) require a walk and a willingness to push through unmarked doors.",
+            "price_level": "Moderate (15–25 GEL per glass)",
+            "duration": "2–3 hours",
+            "best_time": "Evening 19:00–23:00",
+            "vibe": "Intimate and Tannic",
+            "good_for": [
+              "Wine lovers",
+              "Couples",
+              "Slow evenings"
+            ],
+            "logistics": "Most open 17:00–01:00. Cash and card both accepted. Reservations help on weekends.",
+            "historical_context": "The Sololaki ezo is the architectural DNA of pre-Soviet Tbilisi — a shared courtyard with wooden balconies on three sides, traditionally a multi-family social space.",
+            "local_secret": "Behind the unmarked black door at Galaktion Tabidze 19, an unsigned wine cellar opens after 21:00 — pour-your-own qvevri amber wine from clay vessels for 10 GEL. Locals will not tell tourists about it; you have to find it by following the sound of accordion music."
+          },
+          "image": "/images/tbilisi/courtyard-wine.jpg",
+          "geo": {
+            "lat": 41.6925,
+            "lng": 44.8014
+          }
+        },
+        {
+          "id": "act-002",
+          "slug": "mtatsminda-funicular",
+          "name_en": "Mtatsminda Funicular & Park",
+          "name_local": "მთაწმინდა",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 1905 Belgian-built funicular climbing 770m up Mt. Mtatsminda to an amusement park, restaurant, and the city's best panoramic terrace.",
+            "history": "The funicular opened in 1905 under Russian imperial rule, modernized in 2000, and is part of the city's transit-as-monument culture. Mtatsminda Pantheon at the lower station holds the graves of Georgia's national writers.",
+            "insider_tip": "Take the funicular up around 17:30 for sunset, then descend on foot (40 minutes) through Mama Daviti Church and the Pantheon. The park-top restaurant has a wraparound view that the trains don't.",
+            "price_level": "Affordable (8 GEL round trip)",
+            "duration": "2–3 hours",
+            "best_time": "Sunset",
+            "vibe": "Panoramic and Nostalgic",
+            "good_for": [
+              "Sunset photos",
+              "Families",
+              "Easy views"
+            ],
+            "logistics": "Funicular runs 09:00–04:00 — yes, until 4am at weekends. Pay with MetroMoney card.",
+            "historical_context": "Mama Daviti Church on the hillside is where Griboyedov, the Russian poet-diplomat killed in Tehran in 1829, is buried — his Georgian widow's epitaph is one of Russian literature's most quoted inscriptions.",
+            "local_secret": "The 27th-floor open-air bar at Bambis Rigi 13 (a residential building on the climb up) is unmarked, has no website, and offers a higher view than Mtatsminda for the price of one drink. Local students treat it as their secret rooftop."
+          },
+          "image": "/images/tbilisi/mtatsminda.jpg",
+          "geo": {
+            "lat": 41.6953,
+            "lng": 44.7919
+          }
+        },
+        {
+          "id": "act-003",
+          "slug": "fabrika-courtyard",
+          "name_en": "Fabrika Tbilisi",
+          "name_local": "ფაბრიკა",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A converted Soviet sewing factory in Marjanishvili, now a hostel-courtyard-bar-cluster that anchors Tbilisi's alternative-creative scene.",
+            "history": "Originally a USSR-era textile facility, transformed in 2016 by the Adjara Hospitality Group into one of the post-Soviet world's most influential adaptive-reuse projects.",
+            "insider_tip": "Skip the daytime — Fabrika is built for night. Arrive after 22:00 when the courtyard fills with a mix of expats, queer scene, and Russian relocants. Drinks are moderately priced; the techno club Bassiani is a separate destination but spiritually adjacent.",
+            "price_level": "Affordable",
+            "duration": "3–4 hours",
+            "best_time": "Friday or Saturday 22:00–02:00",
+            "vibe": "Industrial and Eclectic",
+            "good_for": [
+              "Nightlife",
+              "20s–30s travelers",
+              "Solo travelers"
+            ],
+            "logistics": "Free entry to courtyard and most bars. Reachable on foot from Marjanishvili Metro in 8 minutes.",
+            "historical_context": "Fabrika is the visible architecture of Tbilisi's post-2014 creative-class boom; understanding it is shorthand for understanding why the city became Eastern Europe's nomad capital.",
+            "local_secret": "The unmarked Cafe Linville on the upper floor closes at 23:30 and serves the city's best plov (rice pilaf) until then — a Bukharan-Jewish dish almost no tourist hits, made by a 70-year-old chef who has been there since 2017."
+          },
+          "image": "/images/tbilisi/fabrika.jpg",
+          "geo": {
+            "lat": 41.7158,
+            "lng": 44.8003
+          }
+        },
+        {
+          "id": "act-004",
+          "slug": "dry-bridge-market",
+          "name_en": "Dry Bridge Flea Market",
+          "name_local": "მშრალი ხიდი",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A sprawling open-air flea market along the Mtkvari riverbank — Soviet medals, samovars, Georgian icons, vintage cameras, hand-painted ceramics, and personal estates spread on blankets.",
+            "history": "The market emerged in the chaotic 1990s as Tbilisians sold heirlooms to survive hyperinflation. It calcified into a permanent fixture and is now one of the Caucasus' best places to buy 20th-century memorabilia.",
+            "insider_tip": "Saturday and Sunday mornings (9:00–13:00) are peak. Polite bargaining is expected — start at 50–60% of the asking price. Bring cash; almost no vendor takes cards.",
+            "price_level": "Variable",
+            "duration": "1.5–2 hours",
+            "best_time": "Saturday or Sunday 9:00–11:00",
+            "vibe": "Chaotic and Personal",
+            "good_for": [
+              "Collectors",
+              "Photography",
+              "Souvenir hunting"
+            ],
+            "logistics": "Located between Saarbrucken Square and Dedaena Park. No formal entry; spread along 500m of riverbank pavement.",
+            "historical_context": "Many of the personal items on sale date from the Soviet collapse era and represent the involuntary monetization of family heritage — a unique window into post-communist Georgia.",
+            "local_secret": "The Soviet-era paintings sold here include genuine works by lesser-known but listed Georgian Soviet artists (Pirosmani-school imitators, school-of-Tabidze landscapes) — a knowledgeable buyer can find 200 GEL paintings worth 10x at auction. Ask vendors for the artist's signature on the back."
+          },
+          "image": "/images/tbilisi/dry-bridge.jpg",
+          "geo": {
+            "lat": 41.6986,
+            "lng": 44.8014
+          }
+        },
+        {
+          "id": "act-005",
+          "slug": "lisi-lake-hike",
+          "name_en": "Lisi Lake Loop",
+          "name_local": "ლისის ტბა",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 5km flat loop around a reservoir on the western ridge above Vake — Tbilisi's most popular weekend run, walk, and dog-jog.",
+            "history": "The reservoir was built in the 1960s as part of the Soviet water-management system; the loop was paved and the lakeside cafés opened in the 2010s as Vake's middle class needed outdoor lifestyle infrastructure.",
+            "insider_tip": "Bolt to the parking lot at the trailhead (15 GEL from Vake), walk the loop, eat at one of the lakeside cafés. Skip the rental boats — overpriced and slow.",
+            "price_level": "Free",
+            "duration": "2 hours",
+            "best_time": "Saturday morning 9:00 AM",
+            "vibe": "Suburban and Calm",
+            "good_for": [
+              "Runners",
+              "Families",
+              "Easy nature"
+            ],
+            "logistics": "Free, open 24/7. Cafés open 09:00–22:00 weekends. Restrooms at the south end.",
+            "historical_context": "Lisi is a window into Tbilisi's emerging middle class — the lifestyle infrastructure that didn't exist 15 years ago.",
+            "local_secret": "The unmarked trail behind Lisi Lake's western shore climbs 30 minutes to Turtle Lake (Kus Tba) and the open-air Ethnographic Museum — a continuous hike most tourists never realize is possible from a single trailhead."
+          },
+          "image": "/images/tbilisi/lisi-lake.jpg",
+          "geo": {
+            "lat": 41.7517,
+            "lng": 44.7211
+          }
+        },
+        {
+          "id": "act-006",
+          "slug": "kazbegi-day-trip",
+          "name_en": "Kazbegi & Gergeti Trinity",
+          "name_local": "ყაზბეგი",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 14th-century stone church perched at 2,170m beneath the 5,054m glaciated Mount Kazbek — Georgia's most photographed landscape and a 3-hour drive from Tbilisi.",
+            "history": "Gergeti Trinity was built in the 14th century as a refuge for sacred relics in times of invasion. The site is sacred to both Orthodox Georgians and pre-Christian Caucasian highland religions.",
+            "insider_tip": "Hire a private driver via GoTrip.ge for 200–250 GEL round-trip, not a group tour. The drive through Jvari Pass is the experience; you want to stop where you choose, not where a bus schedule allows.",
+            "price_level": "Moderate (~250 GEL private driver round-trip)",
+            "duration": "Full day (10–12 hours)",
+            "best_time": "Late May to early October",
+            "vibe": "Alpine and Iconic",
+            "good_for": [
+              "Photography",
+              "Hikers",
+              "First-time visitors"
+            ],
+            "logistics": "Marshrutka from Didube station 25 GEL one way (3 hours); 4x4 from Stepantsminda to the church 50 GEL or 1.5 hour hike.",
+            "historical_context": "Prometheus was — by Caucasian legend — chained to Mount Kazbek, not the Caucasus generically. The Greeks borrowed the myth from local highland tradition.",
+            "local_secret": "Skip the busy church viewpoint and drive 15 minutes past Stepantsminda to the village of Juta — a quieter 2,200m valley where you can see Kazbek without a single tour bus, and the trail to Chaukhi Pass starts directly from the last guesthouse."
+          },
+          "image": "/images/tbilisi/kazbegi-detail.jpg",
+          "geo": {
+            "lat": 42.6622,
+            "lng": 44.6228
+          }
+        }
+      ]
+    },
+    {
+      "title": "Markets & Modern",
+      "id": "markets",
+      "items": [
+        {
+          "id": "mar-001",
+          "slug": "dezerter-bazaar",
+          "name_en": "Dezerter Bazaar",
+          "name_local": "დეზერტირების ბაზარი",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Tbilisi's largest working food market — spice mountains, qvevri-aged wine bottles, sulguni cheese wheels, churchkhela strings, and butchers in white coats.",
+            "history": "Founded in 1918 by deserting soldiers from the collapsing Russian Imperial Army who sold their rations for cash — hence the name 'Dezerter' (Deserter).",
+            "insider_tip": "Enter from the Station Square Metro side, not the tourist side. The basement-level cheese section is where actual restaurants source — buy a half-wheel of sulguni for 12 GEL.",
+            "price_level": "Affordable",
+            "duration": "1.5 hours",
+            "best_time": "Weekday morning 9:00–11:00",
+            "vibe": "Pungent and Working-class",
+            "good_for": [
+              "Foodies",
+              "Photography",
+              "Cooking shoppers"
+            ],
+            "logistics": "Open daily 07:00–18:00. Cash only at almost all stalls.",
+            "historical_context": "The market is one of the few continuously operating institutions in Tbilisi that survived the 1991 collapse, the 2008 war, and pandemic restrictions without major disruption.",
+            "local_secret": "The unmarked corner stall on the south side selling fresh hot cherkezuli (a Caucasian flatbread stuffed with greens) is operated by a single Yezidi family — it's the city's most authentic and cheapest breakfast, sold out by 11am."
+          },
+          "image": "/images/tbilisi/dezerter.jpg",
+          "geo": {
+            "lat": 41.7186,
+            "lng": 44.7997
+          }
+        },
+        {
+          "id": "mar-002",
+          "slug": "rustaveli-avenue",
+          "name_en": "Rustaveli Avenue",
+          "name_local": "რუსთაველის გამზირი",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Tbilisi's 1.5km grand avenue, lined with neoclassical opera houses, theaters, museums, and the Parliament building — the city's political and ceremonial spine.",
+            "history": "Laid out under Russian Imperial rule in the 1850s as 'Golovinsky Prospect', renamed in 1918 after the medieval poet Shota Rustaveli. Has been the site of every major Georgian demonstration since 1989.",
+            "insider_tip": "Walk the full length from Liberty Square to Rustaveli Metro at dusk. Stop at the Opera House, Kashueti Church, and the Georgian National Museum — the museum has the Soviet Occupation Hall that is essential context for any conversation about Georgia today.",
+            "price_level": "Free (museums 7–15 GEL)",
+            "duration": "2 hours walking + museum time",
+            "best_time": "Late afternoon 16:00–19:00",
+            "vibe": "Civic and Ceremonial",
+            "good_for": [
+              "Architecture",
+              "Museums",
+              "Walking"
+            ],
+            "logistics": "Connected by Liberty Square Metro at one end and Rustaveli Metro at the other.",
+            "historical_context": "The April 9, 1989 massacre — Soviet troops killing peaceful pro-independence demonstrators with sharpened shovels — happened on the Parliament steps here. A small memorial marks the spot.",
+            "local_secret": "The unmarked Prospero's Books on the courtyard of Rustaveli 34 (entered through a passage) is a multi-floor English-language bookshop with the best café in the avenue — open since 2005 but virtually invisible from the street."
+          },
+          "image": "/images/tbilisi/rustaveli.jpg",
+          "geo": {
+            "lat": 41.7011,
+            "lng": 44.7972
+          }
+        },
+        {
+          "id": "mar-003",
+          "slug": "bridge-of-peace",
+          "name_en": "Bridge of Peace & Rike Park",
+          "name_local": "მშვიდობის ხიდი",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A glass-and-steel pedestrian bridge (2010) spanning the Mtkvari, connecting Old Town to Rike Park — Tbilisi's most photographed modern landmark, controversial since the day it opened.",
+            "history": "Designed by Italian architect Michele De Lucchi as part of the Saakashvili government's modernization push; locals call it 'Always Ultra' for its sanitary-pad silhouette. Polarizing but inescapable.",
+            "insider_tip": "Cross at dusk when the 30,000 LED lights begin pulsing in Morse code — they spell out a message in Periodic Table abbreviations about humanity. Rike Park on the far side is the takeoff point for the Narikala cable car.",
+            "price_level": "Free",
+            "duration": "30 minutes",
+            "best_time": "Sunset",
+            "vibe": "Modern and Polarizing",
+            "good_for": [
+              "Photography",
+              "Quick walks",
+              "Sunset"
+            ],
+            "logistics": "Pedestrian only, open 24/7. Free LED light show after sunset.",
+            "historical_context": "The bridge is the architectural symbol of the Saakashvili-era modernization project and the ongoing debate about how Tbilisi should look in the 21st century.",
+            "local_secret": "The two unfinished glass-tube buildings at Rike Park's far end (the abandoned Concert Hall complex) have been a half-built ruin since 2012 — political deadlock means they may never open. They're climbable from the back with no security, offering a forbidden roof view of the river bend. Done at your own risk."
+          },
+          "image": "/images/tbilisi/bridge-of-peace.jpg",
+          "geo": {
+            "lat": 41.6925,
+            "lng": 44.8094
+          }
+        },
+        {
+          "id": "mar-004",
+          "slug": "stamba-rooftop",
+          "name_en": "Stamba Rooftop & Pulp Bar",
+          "name_local": "სტამბა",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A converted 1933 Soviet publishing house, now a design hotel with a rooftop pool, plant-filled lobby bar, and the most-photographed contemporary interior in Tbilisi.",
+            "history": "The original 'Stamba' was the printing press for Soviet Georgia's main newspapers; the 2018 conversion preserved the cast-iron presses and 14m ceilings.",
+            "insider_tip": "Walk in without a reservation — Pulp Bar in the lobby seats anyone, and you only need to buy one drink to use the space. The rooftop pool is for hotel guests only; the lobby is the real attraction.",
+            "price_level": "Moderate (cocktails 25–35 GEL)",
+            "duration": "1.5 hours",
+            "best_time": "Late afternoon 16:00–19:00",
+            "vibe": "Industrial and Editorial",
+            "good_for": [
+              "Architecture",
+              "Cocktails",
+              "Remote work"
+            ],
+            "logistics": "Located in Vera at Merab Kostava 14. Walk-ins welcome; quiet during weekday afternoons.",
+            "historical_context": "Stamba is the architectural shorthand for Tbilisi's post-2015 design-hotel boom — understanding it is understanding how the city has rebranded itself for global travelers.",
+            "local_secret": "The Cinema attached to Stamba (entered separately from Kostava 14b) screens art-house films most nights — tickets are 15 GEL, programming is unpredictable, and the back row has the most legroom in any cinema in Georgia."
+          },
+          "image": "/images/tbilisi/stamba.jpg",
+          "geo": {
+            "lat": 41.7064,
+            "lng": 44.7886
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "8:30 AM",
+      "title": "Tone Bakery Breakfast in Sololaki",
+      "description": "Walk into any 'puris satsxobi' on Asatiani Street — follow the air vents — and order a fresh shoti puri straight out of the clay tone oven (1.50 GEL). Pair with sulguni cheese from the corner shop and a paper cup of black tea. Eat standing on the curb. This is how 90% of working Tbilisians actually start the day; no menu, no English, no fuss.",
+      "image": "/images/tbilisi/breakfast.jpg"
+    },
+    {
+      "time": "10:00 AM",
+      "title": "Old Town Walk & Narikala Cable Car",
+      "description": "Walk from Liberty Square down through Sioni Street and Meidan Square to the cable car station at Rike Park. Ride the 1 GEL cable car up to Narikala Fortress, walk the ridge to Mother Georgia, then descend on foot through Sololaki's hidden courtyards. Two-hour loop; bring water and sunscreen. Skip in heavy rain — cobblestones are lethal.",
+      "image": "/images/tbilisi/narikala-walk.jpg"
+    },
+    {
+      "time": "13:00",
+      "title": "Khinkali Lunch at a Working-Class Hall",
+      "description": "Bolt or marshrutka to Pasanauri or Zakhar Zakharich (both have multiple branches outside Old Town). Order 8 khinkali per person — 4 kalakuri (urban, mixed pork-beef), 4 khevsuruli (beef-only mountain style). Pair with a 0.5L of Argo Pilsner or a glass of Saperavi. Eat by hand, count empty topknots, leave them on the plate. 25–35 GEL total per person.",
+      "image": "/images/tbilisi/khinkali-lunch.jpg"
+    },
+    {
+      "time": "15:30",
+      "title": "Sulfur Bath at Abanotubani",
+      "description": "Book a private room at No. 5 Royal Bath or Chreli-Abano (60–120 GEL/hour). Add the kisi scrub (20 GEL) — a deep, slightly violent exfoliation followed by a soap-cloud massage. The sulfur water is hot (40–43°C) and smells of eggs; you'll get used to it inside three minutes. Stay 90 minutes, tip the attendant 20%, leave glowing.",
+      "image": "/images/tbilisi/bath.jpg"
+    },
+    {
+      "time": "18:00",
+      "title": "Mtatsminda Funicular at Sunset",
+      "description": "Take Bolt to the funicular's lower station (Daniel Chonqadze Street). 8 GEL round trip, MetroMoney card accepted. At the top, walk past the amusement park to the wraparound terrace at the restaurant — the city laid out 770m below as the sun drops behind the western ridge. Stay 45 minutes; descend on foot through Mama Daviti Church and the Pantheon if it's still light.",
+      "image": "/images/tbilisi/mtatsminda-sunset.jpg"
+    },
+    {
+      "time": "20:00",
+      "title": "Sololaki Courtyard Wine Bar",
+      "description": "Walk to g.Vino (Erekle II 6) or Vino Underground (Galaktion Tabidze 15) and order a flight of qvevri amber wines — Rkatsiteli, Mtsvane, Kisi — paired with a board of sulguni cheese, walnuts, and tonis puri. The bar is in a 19th-century courtyard; lights are dim, music is local, the wine is 8,000 years of culture in a clay-fermented glass. 60–90 GEL per person.",
+      "image": "/images/tbilisi/courtyard-wine-detail.jpg"
+    },
+    {
+      "time": "22:30",
+      "title": "Fabrika or Bassiani — Pick a Side",
+      "description": "Bolt to Marjanishvili. The courtyard at Fabrika fills with a mixed crowd of relocants, locals, and queer scene — drinks at the courtyard bars are 12–18 GEL. If you want the deeper Tbilisi nightlife, the techno club Bassiani inside Dinamo Stadium is among Europe's most respected venues (door is selective; arrive with someone who knows the form). Last marshrutkas stop running; budget for a Bolt home.",
+      "image": "/images/tbilisi/fabrika-night.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Type C/F Europe Travel Adapter",
+      "image": "/images/tbilisi/adapter.jpg",
+      "reason": "Georgia uses two-round-pin Type C/F sockets. A multi-port adapter saves you from juggling at café outlets.",
+      "amazon_url": "https://www.amazon.com/s?k=europe+travel+adapter+type+f&tag=canibringonpl-20",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-002",
+      "title": "Anti-Theft Crossbody Bag",
+      "image": "/images/tbilisi/bag.jpg",
+      "reason": "Tbilisi is safe overall but Dry Bridge market, marshrutkas, and Old Town crowds invite casual pickpocketing. Slash-proof straps remove the easy target.",
+      "amazon_url": "https://www.amazon.com/s?k=anti+theft+crossbody+bag&tag=canibringonpl-20",
+      "category": "security"
+    },
+    {
+      "id": "aff-003",
+      "title": "Compact Travel Umbrella",
+      "image": "/images/tbilisi/umbrella.jpg",
+      "reason": "Spring and autumn rain is sudden and the cobblestones become slick — a small umbrella outperforms a hood on uneven Old Town streets.",
+      "amazon_url": "https://www.amazon.com/s?k=compact+travel+umbrella&tag=canibringonpl-20",
+      "category": "weather"
+    },
+    {
+      "id": "aff-004",
+      "title": "Merino Wool Base Layer",
+      "image": "/images/tbilisi/merino.jpg",
+      "reason": "Winter Tbilisi (Nov–Feb) is damp and old apartments are poorly heated. Merino layers stay warm in stone interiors and dry in a single night.",
+      "amazon_url": "https://www.amazon.com/s?k=merino+wool+base+layer&tag=canibringonpl-20",
+      "category": "weather"
+    },
+    {
+      "id": "aff-005",
+      "title": "Travel Money Belt",
+      "image": "/images/tbilisi/money-belt.jpg",
+      "reason": "Keep passport and backup card on your body. Day-trip drivers, marshrutka cabins, and Dry Bridge crowds reward a money belt's discretion.",
+      "amazon_url": "https://www.amazon.com/s?k=travel+money+belt&tag=canibringonpl-20",
+      "category": "security"
+    },
+    {
+      "id": "aff-006",
+      "title": "Quick-Dry Hiking Shoes",
+      "image": "/images/tbilisi/shoes.jpg",
+      "reason": "Old Town cobblestones, Mtatsminda gravel, and Kazbegi trails all demand grip. Heels and rolling-luggage wheels both fail here.",
+      "amazon_url": "https://www.amazon.com/s?k=quick+dry+hiking+shoes&tag=canibringonpl-20",
+      "category": "health"
+    },
+    {
+      "id": "aff-007",
+      "title": "DEET Mosquito Repellent",
+      "image": "/images/tbilisi/repellent.jpg",
+      "reason": "Summer riverside evenings and any descent to Kakheti wine country bring mosquitoes. DEET-based repellent handles both.",
+      "amazon_url": "https://www.amazon.com/s?k=deet+mosquito+repellent&tag=canibringonpl-20",
+      "category": "health"
+    },
+    {
+      "id": "aff-008",
+      "title": "eSIM for Georgia",
+      "image": "/images/tbilisi/esim.jpg",
+      "reason": "Bolt, Google Translate, and offline maps are essential — and local SIM registration is paperwork-heavy. An eSIM is live before you land.",
+      "amazon_url": "https://www.amazon.com/s?k=esim+georgia+travel&tag=canibringonpl-20",
+      "category": "electronics"
+    }
+  ],
+  "survival_kit": {
+    "dos": [
+      "DO accept toasts with full sips of wine, not casual nursing. The supra ritual is structured around the tamada's toast — sipping between toasts breaks the social contract.",
+      "DO look the other person in the eye when clinking glasses. Looking away is, by Georgian superstition, seven years of bad luck.",
+      "DO use Bolt for every ride. Uber doesn't operate in Georgia; the airport taxi cartel will quote 3–4x the real fare; Yandex is politically loaded since 2022.",
+      "DO carry small lari notes for marshrutkas, neighborhood bakeries, and Dezerter Bazaar. Card-friendly Tbilisi is a Vera/Vake reality, not a universal one.",
+      "DO drink only bottled chacha brands (Sarajishvili, Askaneli, Binekhi). 'Homemade' rural-market chacha can be methanol-risky and unregulated.",
+      "DO cover hair and shoulders inside Orthodox churches — wrap skirts are provided at the gate of Sameba Cathedral. Men remove hats.",
+      "DO learn 'Gamarjoba' (hello) and 'Madloba' (thank you). Speaking even three words of Georgian visibly defuses tension with older locals.",
+      "DO eat khinkali by hand — pick up the topknot, bite the side, slurp the broth. Cutlery is a tourist signature.",
+      "DO order Imeretian or Megrelian khachapuri at least once instead of defaulting to the Adjarian boat — it's what locals actually eat day to day.",
+      "DO book sulfur baths in private rooms (60–120 GEL/hour for up to 6 people) — the communal halls are nude and gender-separated, not friendly for first-timers.",
+      "DO check the protest situation on Rustaveli Avenue before walking through it. Demonstrations have been frequent and police response can be heavy.",
+      "DO bring layers in shoulder seasons. Old stone buildings retain cold; afternoon sun and evening damp can swing 15°C in a single day."
+    ],
+    "donts": [
+      "DON'T toast with beer. Georgian folk tradition reserves beer toasts for enemies — use wine, chacha, or water if you must abstain.",
+      "DON'T speak Russian to strangers as a default. Since 2022, many Tbilisi venues display signs refusing service to Russian-war supporters. Open in English.",
+      "DON'T eat the khinkali topknot. It's the handle, not the meal — leave it on the plate.",
+      "DON'T take an unmarked airport taxi. The cartel will quote 60–100 GEL for a 25 GEL Bolt ride; the Bolt pickup zone is marked at arrivals.",
+      "DON'T schedule outdoor activities in July–August midday. The Old Town is a heat trap by 2pm; sightseeing windows are 8–11am and after 6pm.",
+      "DON'T accept unrequested wine, chacha, or salads at restaurants without confirming they're complimentary. Some places add them to the bill silently.",
+      "DON'T attempt a real Georgian supra without an invitation. Tourist 'supra experiences' deliver the structure without the social risk of misreading a stranger's family ritual.",
+      "DON'T turn your back on the altar when leaving an Orthodox church. Sidestep out — it's noticed and remembered by older parishioners.",
+      "DON'T photograph Orthodox liturgical services. Architecture and exteriors are fine; people in prayer are not.",
+      "DON'T trust 'free wine cellar tour' offers from friendly drivers in Old Town. The cost is a 200+ GEL 'recommended' purchase at the driver's cousin's marani. Book through 8000 Vintages or Friends of Wine.",
+      "DON'T swap crypto with a 'friendly local' offering a better P2P rate. Tbilisi's relocant-driven crypto scene attracts scams; use established exchange offices only.",
+      "DON'T kick or shoo dogs with yellow ear tags. They're vaccinated and protected under municipal program — many will follow you for a kilometer as your unofficial tour guide."
+    ]
+  },
+  "region": "Europe"
+}

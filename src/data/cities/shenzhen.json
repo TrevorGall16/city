@@ -1,0 +1,1428 @@
+{
+  "id": "city-013",
+  "name": "Shenzhen",
+  "slug": "shenzhen",
+  "country": "China",
+  "country_code": "cn",
+  "lat": 22.5431,
+  "lng": 114.0579,
+  "hero_image": "/images/shenzhen/hero.jpg",
+  "intro_vibe": "The Instant City: A fishing village that became a 17-million-person hardware capital in 40 years, where everything is paid by QR code and the only constant is acceleration.",
+  "general_info": {
+    "population": "~17.5 million (city) / ~23 million (Greater Bay Area integration with Hong Kong)",
+    "is_capital": false,
+    "description": "Shenzhen is the world's first Special Economic Zone, a deliberate experiment that turned a Pearl River Delta fishing village into China's de facto Silicon Valley. To operate here, you must understand its central paradox: it is hyper-modern but functionally cashless and walled off behind WeChat Pay/Alipay, which require activation hacks for foreigners. The city is structured as a linear strip running East-West along the Hong Kong border — Luohu (the old gateway), Futian (government/CBD), Nanshan (tech HQs and the Shekou expat enclave), then Bao'an (airport, factories). Distances look short on a map but the metro is the only sane way to bridge them; surface traffic is a managed surrender. There is almost no 'old city' — the historical layer has been demolished and rebuilt twice in a single generation."
+  },
+  "stats": {
+    "currency": "CNY (Renminbi / Yuan, ¥)",
+    "plug_type": "Type A/C/I"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "January",
+      "temp": "10°C - 19°C",
+      "vibe": "Cool & Dry",
+      "pros": [
+        "Lowest humidity of the year",
+        "Clear blue-sky days",
+        "Comfortable walking weather"
+      ],
+      "cons": [
+        "Buildings have no central heating",
+        "Damp cold at night",
+        "Spring Festival closures possible"
+      ],
+      "clothing": "Light jacket, layers, scarf for indoors"
+    },
+    {
+      "id": 2,
+      "name": "February",
+      "temp": "11°C - 19°C",
+      "vibe": "Cool & Festive",
+      "pros": [
+        "Chinese New Year energy",
+        "Mild temperatures",
+        "Lantern festival decorations"
+      ],
+      "cons": [
+        "Most factories and many shops shut for CNY week",
+        "Crowded train stations",
+        "Transit chaos around the holiday"
+      ],
+      "clothing": "Sweater, light coat, comfortable shoes"
+    },
+    {
+      "id": 3,
+      "name": "March",
+      "temp": "14°C - 22°C",
+      "vibe": "Humidity Returns",
+      "pros": [
+        "Pleasant temperatures",
+        "Spring blossoms in parks",
+        "Hiking weather"
+      ],
+      "cons": [
+        "'Hui Nan Tian' phenomenon — walls and floors sweat",
+        "Persistent gray drizzle",
+        "Foggy mornings"
+      ],
+      "clothing": "Light layers, waterproof shoes, dehumidifier in hotel"
+    },
+    {
+      "id": 4,
+      "name": "April",
+      "temp": "18°C - 26°C",
+      "vibe": "Pre-Monsoon Warm",
+      "pros": [
+        "Warm but not yet brutal",
+        "Tomb Sweeping Festival",
+        "Hiking on Wutong Mountain"
+      ],
+      "cons": [
+        "Sudden afternoon thundershowers",
+        "Humidity climbing fast",
+        "Pollen for sensitive sinuses"
+      ],
+      "clothing": "T-shirt + light layer, compact umbrella"
+    },
+    {
+      "id": 5,
+      "name": "May",
+      "temp": "22°C - 29°C",
+      "vibe": "Wet Season Begins",
+      "pros": [
+        "Long daylight",
+        "Lower hotel rates than summer",
+        "Lush green hillsides"
+      ],
+      "cons": [
+        "Daily heavy rain",
+        "Flash flooding in low areas",
+        "Persistent mugginess"
+      ],
+      "clothing": "Quick-dry clothes, real rain jacket (not a poncho)"
+    },
+    {
+      "id": 6,
+      "name": "June",
+      "temp": "25°C - 31°C",
+      "vibe": "Hot & Wet",
+      "pros": [
+        "Dragon Boat Festival (Duanwu)",
+        "Beach season in Dameisha begins",
+        "Mangoes and lychees peak"
+      ],
+      "cons": [
+        "Typhoon watch starts",
+        "Sweat-through-shirt humidity",
+        "Mosquito activity rises"
+      ],
+      "clothing": "Linen/quick-dry, sandals, repellent"
+    },
+    {
+      "id": 7,
+      "name": "July",
+      "temp": "27°C - 33°C",
+      "vibe": "Typhoon Season",
+      "pros": [
+        "Summer beach culture peaks",
+        "Indoor malls fully air-conditioned",
+        "Sunset window after thunderstorms"
+      ],
+      "cons": [
+        "Active typhoons can shut the city down (T8/T10 signals)",
+        "Subway flooding in extreme storms",
+        "Outdoor plans need backups"
+      ],
+      "clothing": "Minimal lightweight clothing, waterproof bag for electronics"
+    },
+    {
+      "id": 8,
+      "name": "August",
+      "temp": "27°C - 33°C",
+      "vibe": "Peak Heat",
+      "pros": [
+        "Domestic summer holiday energy",
+        "Late-night street food markets",
+        "Air-conditioned tech-mall crawling"
+      ],
+      "cons": [
+        "Hottest, most humid month",
+        "UV index extreme",
+        "Sleeping outdoors is impossible"
+      ],
+      "clothing": "Ultralight fabrics, hat, electrolyte sachets"
+    },
+    {
+      "id": 9,
+      "name": "September",
+      "temp": "26°C - 32°C",
+      "vibe": "Still Hot, Less Rain",
+      "pros": [
+        "Mid-Autumn Festival (mooncakes everywhere)",
+        "Rain frequency drops",
+        "Lower domestic tourist volume after summer"
+      ],
+      "cons": [
+        "Late typhoons still possible",
+        "Tail-end humidity",
+        "Sudden temperature swings"
+      ],
+      "clothing": "Light summer clothes, evening layer"
+    },
+    {
+      "id": 10,
+      "name": "October",
+      "temp": "22°C - 29°C",
+      "vibe": "The Sweet Spot",
+      "pros": [
+        "Ideal weather window",
+        "Outdoor hiking conditions perfect",
+        "Clear evenings for skyline views"
+      ],
+      "cons": [
+        "Golden Week (Oct 1–7) is the most crowded period of the year",
+        "Hotel prices spike during holiday",
+        "Transport bookings vanish weeks ahead"
+      ],
+      "clothing": "T-shirt, light long-sleeve for evening"
+    },
+    {
+      "id": 11,
+      "name": "November",
+      "temp": "16°C - 25°C",
+      "vibe": "Best Month",
+      "pros": [
+        "Dry, sunny, breezy",
+        "Best air quality of the year",
+        "High Tech Fair (CHTF) energy if you're in the industry"
+      ],
+      "cons": [
+        "Mornings get sharp",
+        "Sea is no longer warm enough to swim",
+        "Trade-show prices on hotels in Futian"
+      ],
+      "clothing": "Light layers, optional jacket"
+    },
+    {
+      "id": 12,
+      "name": "December",
+      "temp": "12°C - 21°C",
+      "vibe": "Dry & Cool",
+      "pros": [
+        "Reliable clear days",
+        "Low humidity",
+        "Christmas mall displays are extravagant"
+      ],
+      "cons": [
+        "Indoor spaces feel cold (no heating)",
+        "Pre-CNY factory production crunch",
+        "Cold snap mornings"
+      ],
+      "clothing": "Sweater, light coat, indoor layer"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "The Migrant City Mindset: Almost no one in Shenzhen is from Shenzhen. Median age is around 33. There is no 'old guard' enforcing local customs — the social code is meritocratic, hustle-oriented, and far less hierarchical than Beijing or Shanghai. Treat it as a startup, not a city.",
+      "QR-Code Economy: Cash is technically legal but functionally extinct. Vendors will physically refuse paper money. Solution before arrival: link a foreign Visa/Mastercard to WeChat Pay or Alipay via their 'Tour Pass' / 'International Version' inside the app. Without this, you cannot buy water from a vending machine.",
+      "Mianzi (Face): The southern Cantonese version is more transactional than northern China — saving face matters, but commerce moves first. Never publicly correct or argue with a vendor; ask quietly or walk away.",
+      "Queueing is Real Here: Unlike older Chinese cities, Shenzhen queues. Subway platforms have floor markings; cutting in is socially punished. Respect them.",
+      "Toast Etiquette: At a business dinner, the most junior person's glass touches lower than the senior's during 'ganbei'. If you're the foreign guest, you may be toasted aggressively — sipping baijiu is acceptable, you don't have to drain it.",
+      "Gift-Giving: Never give clocks (sounds like 'attending a funeral'), green hats (cuckolded), or anything in sets of four. Wrap in red, not white.",
+      "The VPN Reality (2026): Google, Instagram, WhatsApp, Facebook, and most Western news sites are blocked. Install a paid VPN BEFORE you land — VPN websites are themselves blocked. Use eSIMs like Airalo for unfiltered roaming as a backup.",
+      "Spitting / Smoking: Public smoking is now heavily fined in Shenzhen (unlike inland cities). Spitting still happens but is less common than a decade ago.",
+      "Photographing People: Ask before photographing strangers, especially elderly residents or anyone in uniform. Never photograph soldiers, border installations, or police stations.",
+      "Tipping is Insulting: Don't tip restaurants, taxis, or hotel staff. It's not the culture and creates confusion.",
+      "Tap Water: Don't drink it. Hotels provide kettles — boil first. Bottled water is ¥2 from any convenience store.",
+      "Air-Conditioning Politics: Locals find AC drafts unhealthy ('cold wind = sickness'). Restaurants set AC warmer than tourists expect. Bring a light layer."
+    ],
+    "essential_phrases": [
+      {
+        "src": "Hello",
+        "local": "你好 (Nǐ hǎo)",
+        "phonetic": "nee-HAO"
+      },
+      {
+        "src": "Thank you",
+        "local": "谢谢 (Xièxie)",
+        "phonetic": "SHYEH-shyeh"
+      },
+      {
+        "src": "Excuse me / Sorry",
+        "local": "不好意思 (Bù hǎo yìsi)",
+        "phonetic": "boo-HOW-yee-suh"
+      },
+      {
+        "src": "How much?",
+        "local": "多少钱 (Duōshǎo qián)",
+        "phonetic": "DWOH-shao-CHYEN"
+      },
+      {
+        "src": "Not spicy",
+        "local": "不要辣 (Bù yào là)",
+        "phonetic": "boo-YOW-LAH"
+      },
+      {
+        "src": "I don't want a bag",
+        "local": "不要袋子 (Bù yào dàizi)",
+        "phonetic": "boo-YOW-DAI-zuh"
+      },
+      {
+        "src": "Can I pay by card?",
+        "local": "能刷卡吗 (Néng shuā kǎ ma)",
+        "phonetic": "nung-SHWAH-kah-mah"
+      },
+      {
+        "src": "I don't understand",
+        "local": "听不懂 (Tīng bù dǒng)",
+        "phonetic": "ting-boo-DONG"
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "Futian",
+      "vibe": "The Central Business Engine",
+      "description": "The political and corporate heart of Shenzhen. Wide boulevards, skyscrapers (Ping An Finance Center), government buildings, and the city's main convention center. Sterile by day, surprisingly social around Coco Park and Coco City malls at night. Best base for first-timers — every metro line passes through.",
+      "highlights": [
+        "Ping An Finance Center observation deck",
+        "Coco Park nightlife strip",
+        "Lianhua Mountain Park"
+      ],
+      "best_for": [
+        "first-timers",
+        "business travelers",
+        "transit access"
+      ],
+      "image": "/images/shenzhen/futian.jpg"
+    },
+    {
+      "name": "Nanshan",
+      "vibe": "The Tech Campus",
+      "description": "The Silicon Valley analogue. Tencent's headquarters, DJI, Huawei satellite offices, university town. Younger, lower-rise, more parks. Talent Park (Rencaigongyuan) along the bay is where engineers actually live and run. Stay here if you're meeting tech companies — Futian is a 40-minute commute away.",
+      "highlights": [
+        "Talent Park bayside boardwalk",
+        "OCT-Loft creative district",
+        "Window of the World theme park"
+      ],
+      "best_for": [
+        "nomads",
+        "tech meetings",
+        "expats with kids"
+      ],
+      "image": "/images/shenzhen/nanshan.jpg"
+    },
+    {
+      "name": "Shekou",
+      "vibe": "The Expat Enclave",
+      "description": "A peninsula in southern Nanshan, historically the first port of foreign investment in the 1980s. Western bars, international schools, the Sea World plaza centered on a beached cruise ship turned restaurant. English signage is common. The HK ferry terminal departs from here. Feels less 'Chinese' than anywhere else in the city.",
+      "highlights": [
+        "Sea World Plaza",
+        "Coastal City mall",
+        "Shekou Ferry to Hong Kong"
+      ],
+      "best_for": [
+        "expats",
+        "first-week landing pad",
+        "nightlife in English"
+      ],
+      "image": "/images/shenzhen/shekou.jpg"
+    },
+    {
+      "name": "Luohu",
+      "vibe": "The Original Gateway",
+      "description": "The oldest part of post-1980 Shenzhen, directly on the Hong Kong border. Luohu Commercial City sits on top of the border crossing — a notorious bulk-knockoff and tailored-suit mall. Gritty, dense, increasingly faded as Futian and Nanshan stole its thunder. Dongmen Pedestrian Street here is still the city's traditional shopping core for locals.",
+      "highlights": [
+        "Dongmen Pedestrian Street",
+        "Luohu Port (border crossing)",
+        "KK100 tower"
+      ],
+      "best_for": [
+        "HK day-tripping",
+        "tailoring",
+        "old-school shopping"
+      ],
+      "image": "/images/shenzhen/luohu.jpg"
+    },
+    {
+      "name": "Huaqiangbei",
+      "vibe": "The Hardware Bazaar",
+      "description": "Officially in Futian, but a universe of its own. Twelve square city blocks of multi-story electronics markets — components, PCBs, repaired iPhones, drone parts, audio gear. The single densest hardware ecosystem on Earth. SEG Plaza is the iconic tower. Bring a translator app and bargain hard.",
+      "highlights": [
+        "SEG Electronics Market",
+        "Huaqiang Electronic World",
+        "Component-level repair stalls"
+      ],
+      "best_for": [
+        "hardware hackers",
+        "engineers",
+        "wholesale buyers"
+      ],
+      "image": "/images/shenzhen/huaqiangbei.jpg"
+    },
+    {
+      "name": "OCT (Overseas Chinese Town)",
+      "vibe": "The Curated Creative Zone",
+      "description": "A planned 'lifestyle' district bridging Futian and Nanshan. Home to OCT-Loft (a converted factory complex of independent cafes, design studios, and bookshops) and the OCT Harbour entertainment cluster. Polished, deliberately bohemian, walkable. The closest Shenzhen gets to a 'cool' neighborhood by Western standards.",
+      "highlights": [
+        "OCT-Loft creative district",
+        "Old Heaven Books",
+        "Happy Coast waterfront"
+      ],
+      "best_for": [
+        "creatives",
+        "cafe-hopping",
+        "weekend afternoons"
+      ],
+      "image": "/images/shenzhen/oct-loft.jpg"
+    },
+    {
+      "name": "Yantian / Dameisha",
+      "vibe": "The Eastern Coast",
+      "description": "The eastern edge of the city, separated by mountains. Yantian is the port; Dameisha and Xiaomeisha are public beaches; Dapeng Peninsula beyond is genuinely rural with fishing villages and the well-preserved Dapeng Fortress. An hour by metro plus bus from downtown. Where Shenzhen residents escape on weekends.",
+      "highlights": [
+        "Dameisha Beach",
+        "Dapeng Ancient Fortress",
+        "Yangmeikeng coastal hike"
+      ],
+      "best_for": [
+        "beach days",
+        "weekend escapes",
+        "hiking"
+      ],
+      "image": "/images/shenzhen/dameisha.jpg"
+    },
+    {
+      "name": "Longgang / Longhua",
+      "vibe": "The Manufacturing Belt",
+      "description": "The northern districts where the actual factories are. Foxconn's main campus, vast residential towers for migrant workers, dim sum halls that open at 5 AM for the shift workers. Not a tourist destination, but if you're sourcing manufacturing or curious about the engine room of 'Made in China,' this is where it happens.",
+      "highlights": [
+        "Foxconn Longhua campus (exterior)",
+        "Buji wholesale markets",
+        "Late-night migrant food streets"
+      ],
+      "best_for": [
+        "sourcing trips",
+        "industrial tourism",
+        "early-morning dim sum"
+      ],
+      "image": "/images/shenzhen/longgang.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-payments",
+      "slug": "cashless-economy",
+      "title": "Payments & The QR Wall",
+      "icon": "CreditCard",
+      "summary": "Shenzhen is functionally cashless. Set this up before you land.",
+      "details": [
+        "WeChat Pay & Alipay: Both apps now allow foreign Visa/Mastercard to be linked via 'Tour Pass' (Alipay) and the international version of WeChat. Activate at home — Chinese SIM/SMS verification is often required at the airport otherwise.",
+        "Foreign Cards: Major hotels and a few large international restaurants accept Visa/Mastercard. Everywhere else (taxis, metros, convenience stores, restaurants, market stalls) is QR-only.",
+        "Cash Fallback: Carry ¥500–1000 in small notes (10s, 20s, 50s). Some older taxi drivers and street vendors still accept it but may refuse change.",
+        "ATMs: Bank of China and ICBC ATMs accept foreign cards. Withdraw at the airport on arrival — limit ¥3,000 per transaction.",
+        "Spending Tip: Alipay's exchange rate is often better than the card terminal rate at hotels."
+      ]
+    },
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Getting Around",
+      "icon": "Train",
+      "summary": "The metro is the answer. Surface streets are a slow trap.",
+      "details": [
+        "Metro: 17+ lines, signs and announcements in English. Cheapest fare ¥2. Pay by scanning your WeChat/Alipay 'Metro' mini-app QR at the gate — no physical card needed.",
+        "Taxis: Two types — official (red, blue, or green-and-yellow) and ride-hail via Didi Chuxing (the Chinese Uber, integrated into WeChat/Alipay). Didi is cheaper and easier if you don't speak Mandarin (set destination in the app).",
+        "Shared Bikes: Hellobike and Meituan bikes are everywhere. Scan, ride, drop in any designated zone. ¥1.50 per 30 min.",
+        "Cross-Border to Hong Kong: Four border crossings — Luohu (oldest, busiest), Futian (fastest if connecting to HK MTR), Shenzhen Bay (for buses to HK Island), and Shekou Ferry (boat to HK airport / Central). Carry passport, expect 15–60 min queues. Hong Kong Octopus card works only on the HK side.",
+        "Airport: SZX is connected by Metro Line 11 (the 'airport line', faster trains, 36 min from Futian). Don't take a taxi from downtown — it's slow and expensive."
+      ]
+    },
+    {
+      "id": "logistics-internet",
+      "slug": "internet-and-vpn",
+      "title": "Internet & The Great Firewall",
+      "icon": "Wifi",
+      "summary": "Half the internet you use daily is blocked. Prepare in advance.",
+      "details": [
+        "Blocked Services (2026): Google (Search, Maps, Gmail, Drive), YouTube, Instagram, Facebook, WhatsApp, X/Twitter, Signal, most Western news sites, Wikipedia (intermittently), iCloud features.",
+        "VPN Strategy: Install a paid VPN (ExpressVPN, Astrill, Mullvad) BEFORE landing. Their websites are blocked in China, so you cannot download them after arrival.",
+        "eSIM Workaround: Airalo, Holafly, and Nomad eSIMs route through Hong Kong servers and bypass the firewall entirely — no VPN needed. The simplest solution for a short trip.",
+        "Chinese Equivalents: Baidu Maps (better than Google Maps inside China — Google Maps shows offset coordinates by design), Dianping (Yelp), Meituan (food + everything delivery), Didi (taxis).",
+        "WeChat is Mandatory: Beyond messaging, it's how restaurants take orders (scan table QR), how museums issue tickets, how friends share contact info. Treat it as core infrastructure."
+      ]
+    },
+    {
+      "id": "logistics-language",
+      "slug": "language-barrier",
+      "title": "Language Reality",
+      "icon": "MessageCircle",
+      "summary": "Less English than you'd expect for a tech capital.",
+      "details": [
+        "Mandarin Dominates: Despite being in historically Cantonese territory, post-1980 migration made Mandarin the dominant language. Cantonese is heard mostly with older residents.",
+        "English Level: Hotel staff and tech-company employees speak functional English. Taxi drivers, restaurant staff, and market vendors generally do not.",
+        "Translation Apps: Download Baidu Translate or Pleco (with offline pack) before arrival. Google Translate's camera feature works if you have a VPN/eSIM. Apple's built-in Translate app works offline and doesn't need a VPN.",
+        "Menus: Many smaller restaurants have picture menus or QR-code menus. Use WeChat's built-in 'Scan + Translate' feature.",
+        "Survival Phrase: '我不会中文' (Wǒ bù huì zhōngwén — 'I don't speak Chinese') usually triggers the staff to fetch a translation app."
+      ]
+    },
+    {
+      "id": "logistics-scams",
+      "slug": "common-scams",
+      "title": "Scams & Tourist Traps",
+      "icon": "AlertTriangle",
+      "summary": "Less common than tourist cities — but specific ones to watch for.",
+      "details": [
+        "Luohu Commercial City: Bulk-fake markets aggressively price-anchor. Walk away from any opening price; final price is often 20% of opening. Verify electronics work before paying — refunds don't exist.",
+        "'Tea House' Scam (Rare in SZ, common in Beijing): A friendly English-speaking 'student' invites you for tea/art; you're charged hundreds of dollars. Decline polite street invitations from strangers.",
+        "Fake Taxis at Luohu Border: Unmarked cars offering rides as you exit the border crossing. Always use the official taxi queue or open Didi.",
+        "Knockoff Electronics in Huaqiangbei: Refurbished iPhones sold as new. If you actually want to buy used gear, go with someone who can read Chinese spec sheets and test it on-site.",
+        "Currency Exchange: Use bank ATMs, not street kiosks. The visible rate is rarely the rate you'll get."
+      ]
+    },
+    {
+      "id": "logistics-safety",
+      "slug": "safety-tips",
+      "title": "Safety Basics",
+      "icon": "Shield",
+      "summary": "One of the safest large cities in the world.",
+      "details": [
+        "Street Crime: Extremely low. Walking alone at 2 AM through Futian is genuinely fine. Pickpockets exist in crowded markets (Dongmen, Huaqiangbei) but are rare.",
+        "CCTV Reality: Surveillance density is extraordinarily high. Crime is detected fast. This is both a safety feature and a privacy consideration.",
+        "Typhoon Awareness: Check signal levels June–September. T8 means the city shuts down — metros stop, ferries cancel, stay indoors. Hotel staff will advise.",
+        "Border Tension: Don't photograph the Hong Kong border fence, military facilities, or police stations. Soldiers cannot be photographed even casually.",
+        "Emergency Numbers: 110 police, 120 ambulance, 119 fire."
+      ]
+    },
+    {
+      "id": "logistics-survival",
+      "slug": "survival-tips",
+      "title": "Environment & Health",
+      "icon": "Sun",
+      "summary": "Humidity and water are the real enemies.",
+      "details": [
+        "Tap Water: Never drink. Use the hotel kettle; bottled water is ¥2 anywhere.",
+        "Humidity: From April–October the city sits at 80–95% humidity. Hotels with strong AC matter more than location.",
+        "Air Quality: Better than Beijing but worse than HK. AQI of 80–120 is typical. Sensitive travelers should pack N95s for occasional bad days.",
+        "Mosquitoes: Active April–October, mostly in parks and eastern beach areas. Dengue is a low but real risk. Pack repellent.",
+        "Pharmacies: Easy to find. International brands of paracetamol/ibuprofen are available. Bring prescription meds in original packaging."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Apps to Download",
+      "icon": "Smartphone",
+      "summary": "Install these BEFORE arrival. Some require setup that's hard from inside China.",
+      "details": [
+        "WeChat (微信) + WeChat Pay: Non-negotiable. Messaging, payments, mini-apps, ticketing.",
+        "Alipay (支付宝): Backup payment system with strong Tour Pass program for foreigners.",
+        "Didi Chuxing (滴滴): Ride-hail. English interface available.",
+        "Baidu Maps or Amap (高德地图): More accurate inside China than Google Maps.",
+        "Pleco: Best Chinese-English dictionary with offline OCR.",
+        "Dianping (大众点评): The local Yelp. Restaurant reviews and ratings.",
+        "VPN (paid, installed before arrival): ExpressVPN, Astrill, or Mullvad."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "dim-sum",
+      "name_en": "Dim Sum (Yum Cha)",
+      "name_local": "饮茶 / 点心",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "The Cantonese morning ritual: small steamed and fried dishes pushed on carts, paired with endless pots of tea.",
+        "history": "Imported from Guangzhou and Hong Kong, dim sum culture has been the default Sunday-family breakfast across the Pearl River Delta for over a century.",
+        "insider_tip": "The 'opening tap' on the tea pot lid signals the waiter to refill. To say thank you when they pour, tap two fingers on the table — a Cantonese custom.",
+        "price_level": "Moderate",
+        "duration": "1.5–2 hours",
+        "best_time": "Weekend Morning (9:00–11:00 AM)",
+        "vibe": "Loud and Communal",
+        "good_for": [
+          "Families",
+          "Slow weekend breakfast",
+          "Group dining"
+        ]
+      },
+      "image": "/images/shenzhen/dim-sum.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "roast-goose",
+      "name_en": "Cantonese Roast Goose",
+      "name_local": "烧鹅",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Mahogany-glazed roast goose with crackling skin and rich, dark meat, served with sweet plum sauce.",
+        "history": "A signature of the Pearl River Delta, the dish requires specific breeds of goose and a charcoal-fired oven; many SZ shops trace their lineage to Hong Kong masters.",
+        "insider_tip": "Order the 'lower body' (下庄, xià zhuāng) — the leg and thigh — for the best fat-to-meat ratio. Breast meat is for tourists.",
+        "price_level": "Moderate",
+        "duration": "45–60 minutes",
+        "best_time": "Lunch or Early Dinner",
+        "vibe": "Old-school Cantonese",
+        "good_for": [
+          "Meat lovers",
+          "Cantonese cuisine",
+          "Sharing plates"
+        ]
+      },
+      "image": "/images/shenzhen/roast-goose.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "chaozhou-beef-hotpot",
+      "name_en": "Chaoshan Beef Hotpot",
+      "name_local": "潮汕牛肉火锅",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A clean-broth hotpot from the Chaozhou region, focused on hand-cut cuts of beef dropped briefly into a pure beef bone broth.",
+        "history": "Originated in coastal Chaoshan and migrated south with chefs in the 2000s; now arguably the most beloved hotpot variant in Shenzhen.",
+        "insider_tip": "Order in this sequence: 五花趾 (wǔ huā zhǐ, beef shank) first, then 吊龙 (diào lóng, top loin), then 匙仁 (chí rén, chuck eye). Eight seconds in the pot — not more.",
+        "price_level": "Moderate",
+        "duration": "1.5 hours",
+        "best_time": "Dinner",
+        "vibe": "Focused and Ritualistic",
+        "good_for": [
+          "Beef lovers",
+          "Cool evenings",
+          "Pairs and groups"
+        ]
+      },
+      "image": "/images/shenzhen/beef-hotpot.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "hakka-yong-tau-foo",
+      "name_en": "Hakka Stuffed Tofu",
+      "name_local": "客家酿豆腐",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Hakka comfort food: tofu pieces stuffed with seasoned pork and braised in a savory broth.",
+        "history": "Brought by Hakka migrants who settled in the eastern districts and Dapeng Peninsula; an emblem of pre-SEZ local cuisine.",
+        "insider_tip": "Genuine Hakka places also serve 'salt-baked chicken' (盐焗鸡) — order both to understand the cuisine in one sitting.",
+        "price_level": "Affordable",
+        "duration": "45 minutes",
+        "best_time": "Lunch or Dinner",
+        "vibe": "Rustic and Homely",
+        "good_for": [
+          "Traditional flavors",
+          "Comfort food",
+          "Heritage cuisine"
+        ]
+      },
+      "image": "/images/shenzhen/yong-tau-foo.jpg"
+    },
+    {
+      "id": "food-005",
+      "slug": "rice-noodle-rolls",
+      "name_en": "Rice Noodle Rolls (Cheung Fun)",
+      "name_local": "肠粉",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Silky steamed rice-flour sheets filled with shrimp, beef, or BBQ pork, drizzled with sweet soy sauce.",
+        "history": "A Guangdong street-stall classic, traditionally made from a rice slurry steamed on cloth and scraped off into rolls.",
+        "insider_tip": "Look for the cart-style 'bùlā cháng' (布拉肠) — cloth-steamed rolls have a softer, fluffier texture than the metal-tray version.",
+        "price_level": "Affordable",
+        "duration": "20 minutes",
+        "best_time": "Breakfast",
+        "vibe": "Quick and Comforting",
+        "good_for": [
+          "Breakfast",
+          "Light eaters",
+          "Street food"
+        ]
+      },
+      "image": "/images/shenzhen/cheung-fun.jpg"
+    },
+    {
+      "id": "food-006",
+      "slug": "wonton-noodles",
+      "name_en": "Shrimp Wonton Noodles",
+      "name_local": "鲜虾云吞面",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Springy bamboo-pressed egg noodles in clear broth, topped with whole-shrimp wontons.",
+        "history": "Cantonese in origin, the noodle is made with duck egg and zero water, pressed under a bamboo pole for elasticity.",
+        "insider_tip": "Eat the wontons first while the noodles are still firm — they overcook fast in the bowl. The broth should be slightly fishy from dried flounder, not sweet.",
+        "price_level": "Affordable",
+        "duration": "20 minutes",
+        "best_time": "Lunch",
+        "vibe": "Workday Classic",
+        "good_for": [
+          "Quick lunch",
+          "Mild palates",
+          "Solo dining"
+        ]
+      },
+      "image": "/images/shenzhen/wonton-noodle.jpg"
+    },
+    {
+      "id": "food-007",
+      "slug": "sichuan-mala",
+      "name_en": "Sichuan Mala Hotpot",
+      "name_local": "四川麻辣火锅",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Tongue-numbing chili-oil hotpot with Sichuan peppercorn, brought to Shenzhen by internal migrants from Chengdu and Chongqing.",
+        "history": "The massive Sichuan migrant population in tech and manufacturing turned 'mala' culture into Shenzhen's second cuisine alongside Cantonese.",
+        "insider_tip": "Order the half-and-half pot (鸳鸯锅) — spicy on one side, mild on the other — so first-timers can pace themselves. Pair with chrysanthemum tea, not beer.",
+        "price_level": "Moderate",
+        "duration": "1.5–2 hours",
+        "best_time": "Dinner",
+        "vibe": "Loud and Social",
+        "good_for": [
+          "Groups",
+          "Spice lovers",
+          "Late dinner"
+        ]
+      },
+      "image": "/images/shenzhen/mala-hotpot.jpg"
+    },
+    {
+      "id": "food-008",
+      "slug": "char-siu",
+      "name_en": "Char Siu BBQ Pork",
+      "name_local": "叉烧",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Honey-glazed roast pork with charred edges, sliced over rice or served as a meal in its own right.",
+        "history": "Adapted from southern Chinese roasting traditions; the name literally means 'fork-roast' from how the meat was hung over fire.",
+        "insider_tip": "Ask for 'half-fat half-lean' (半肥瘦) — pure lean char siu is dry. A good place chars the edges almost black on purpose.",
+        "price_level": "Affordable",
+        "duration": "30 minutes",
+        "best_time": "Lunch",
+        "vibe": "Working Lunch",
+        "good_for": [
+          "Quick meal",
+          "Cantonese staples",
+          "Pork lovers"
+        ]
+      },
+      "image": "/images/shenzhen/char-siu.jpg"
+    },
+    {
+      "id": "food-009",
+      "slug": "milk-tea",
+      "name_en": "Hong Kong Style Milk Tea",
+      "name_local": "丝袜奶茶",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Strong, malty black tea pulled through a fabric stocking-shaped filter and mixed with evaporated milk.",
+        "history": "A direct import from neighboring Hong Kong cha chaan teng culture, now standard in Cantonese diners across Shenzhen.",
+        "insider_tip": "Pair with 'pineapple bun with butter' (菠萝油) — no actual pineapple, just a cookie-crust bun with a slab of cold butter inside.",
+        "price_level": "Affordable",
+        "duration": "20 minutes",
+        "best_time": "Afternoon",
+        "vibe": "Casual Cafe",
+        "good_for": [
+          "Afternoon break",
+          "Cha chaan teng experience",
+          "Sweet tooth"
+        ]
+      },
+      "image": "/images/shenzhen/milk-tea.jpg"
+    },
+    {
+      "id": "food-010",
+      "slug": "claypot-rice",
+      "name_en": "Claypot Rice",
+      "name_local": "煲仔饭",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Rice cooked in a clay pot over open flame with Chinese sausage, cured meats, or eel, prized for the crispy crust at the bottom.",
+        "history": "A street-stall classic from Hong Kong winters that migrated north with chefs; popularly cooked at the curbside during cooler months.",
+        "insider_tip": "Don't stir until the soy sauce is poured. The crispy rice crust ('饭焦') at the bottom is the entire point — scrape it off and eat last.",
+        "price_level": "Affordable",
+        "duration": "45 minutes (including cook time)",
+        "best_time": "Dinner",
+        "vibe": "Rustic and Smoky",
+        "good_for": [
+          "Cool weather",
+          "Solo dining",
+          "Comfort food"
+        ]
+      },
+      "image": "/images/shenzhen/claypot-rice.jpg"
+    },
+    {
+      "id": "food-011",
+      "slug": "stir-fried-clams",
+      "name_en": "Stir-Fried Clams in Black Bean Sauce",
+      "name_local": "豉椒炒花甲",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Wok-tossed clams with fermented black beans, chili, garlic, and scallion — the quintessential late-night 'da pai dong' dish.",
+        "history": "Born in roadside hawker-stall culture; perfected at the open-air seafood restaurants that line Shenzhen's eastern coast.",
+        "insider_tip": "Eat them at a Yantian or Shekou waterfront 'da pai dong' (open-air seafood stall) with a cold Tsingtao. Inland versions are never as fresh.",
+        "price_level": "Moderate",
+        "duration": "1 hour",
+        "best_time": "Late Dinner",
+        "vibe": "Open-air and Lively",
+        "good_for": [
+          "Seafood lovers",
+          "Beer pairings",
+          "Late night"
+        ]
+      },
+      "image": "/images/shenzhen/stir-fried-clams.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "lo-mai-gai",
+      "name_en": "Lotus Leaf Sticky Rice",
+      "name_local": "糯米鸡",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Sticky rice wrapped in a lotus leaf and steamed with chicken, salted egg yolk, mushroom, and Chinese sausage.",
+        "history": "A traditional dim sum item that doubled as portable workman's lunch in old Guangzhou and Hong Kong.",
+        "insider_tip": "Order it fresh — the leaf perfume is strongest in the first ten minutes. The smaller version, 'jin zhung gai,' is denser and richer.",
+        "price_level": "Affordable",
+        "duration": "20 minutes",
+        "best_time": "Breakfast or Lunch",
+        "vibe": "Traditional and Fragrant",
+        "good_for": [
+          "Dim sum lovers",
+          "Heritage flavors",
+          "Quick filling meal"
+        ]
+      },
+      "image": "/images/shenzhen/lo-mai-gai.jpg"
+    },
+    {
+      "id": "food-013",
+      "slug": "double-skin-milk",
+      "name_en": "Double Skin Milk Pudding",
+      "name_local": "双皮奶",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A silky steamed milk-and-egg pudding with two layers of skin, served warm or chilled.",
+        "history": "A specialty of Shunde in the Pearl River Delta, where water buffalo milk was traditionally used for its higher fat content.",
+        "insider_tip": "Order with red bean topping (红豆双皮奶) for the classic version. Mango or ginger are also common toppings.",
+        "price_level": "Affordable",
+        "duration": "15 minutes",
+        "best_time": "Dessert",
+        "vibe": "Delicate and Sweet",
+        "good_for": [
+          "Dessert",
+          "Sweet tooth",
+          "Cantonese tradition"
+        ]
+      },
+      "image": "/images/shenzhen/double-skin-milk.jpg"
+    },
+    {
+      "id": "food-014",
+      "slug": "egg-tarts",
+      "name_en": "Portuguese-Style Egg Tarts",
+      "name_local": "葡式蛋挞",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Flaky puff-pastry shell with caramelized custard top, ubiquitous in bakeries citywide.",
+        "history": "Imported via Macau and Hong Kong, now produced at scale by chains like Lord Stow's, Honolulu Cafe, and KFC China.",
+        "insider_tip": "KFC China's egg tart is genuinely good and costs ¥6 — locals consume them without irony. Eat warm or not at all.",
+        "price_level": "Affordable",
+        "duration": "10 minutes",
+        "best_time": "Afternoon",
+        "vibe": "Pastry Snack",
+        "good_for": [
+          "Quick sweet",
+          "Dessert",
+          "Coffee pairing"
+        ]
+      },
+      "image": "/images/shenzhen/egg-tart.jpg"
+    },
+    {
+      "id": "food-015",
+      "slug": "dapeng-seafood",
+      "name_en": "Dapeng Coastal Seafood",
+      "name_local": "大鹏海鲜",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Pick-your-own seafood from open-air tanks on the Dapeng Peninsula, cooked to order on the dock.",
+        "history": "Dapeng is one of the few districts where pre-SEZ fishing culture survives; many restaurants are run by families whose ancestors worked these waters.",
+        "insider_tip": "Bring a Chinese-speaking friend or use Pleco — vendors weigh seafood live at the front and charge by jin (500g). Always confirm price BEFORE they kill the fish.",
+        "price_level": "Moderate to Expensive",
+        "duration": "2 hours",
+        "best_time": "Sunday Lunch",
+        "vibe": "Coastal and Bustling",
+        "good_for": [
+          "Seafood lovers",
+          "Weekend trips",
+          "Groups"
+        ]
+      },
+      "image": "/images/shenzhen/dapeng-seafood.jpg"
+    },
+    {
+      "id": "food-016",
+      "slug": "shaxian-snacks",
+      "name_en": "Shaxian Migrant Snacks",
+      "name_local": "沙县小吃",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Tiny chain restaurants from Fujian serving wontons, peanut-sauce noodles, and steamed-pot herbal soups — the workman's lunch of South China.",
+        "history": "A franchised migrant economy: Shaxian originally exported chefs from a single Fujian county, now numbering 80,000+ shops nationwide.",
+        "insider_tip": "Order the 'flat-meat wonton' (扁肉) and the herbal pork rib pot (排骨炖罐). Total cost: under ¥25. Open 24 hours in most locations.",
+        "price_level": "Affordable",
+        "duration": "20 minutes",
+        "best_time": "Late Night",
+        "vibe": "Cheap and Functional",
+        "good_for": [
+          "Budget travelers",
+          "Late night",
+          "Solo diners"
+        ]
+      },
+      "image": "/images/shenzhen/shaxian.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Essential Shenzhen",
+      "id": "essential",
+      "items": [
+        {
+          "id": "att-001",
+          "slug": "ping-an-finance-center",
+          "name_en": "Ping An Finance Center",
+          "name_local": "平安金融中心",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "At 599m, the fourth-tallest building in the world, with a 116th-floor observation deck offering 360° views from the Pearl River Delta to Hong Kong.",
+            "history": "Completed in 2017 as the corporate seat of Ping An Insurance, it physically embodies Shenzhen's pivot from manufacturing to finance.",
+            "insider_tip": "Go at dusk (around 4:30 PM in winter, 6:30 PM in summer) — you'll see the city in daylight, sunset, and then full neon night within 90 minutes.",
+            "price_level": "Moderate (¥158)",
+            "duration": "1.5 hours",
+            "best_time": "Late afternoon for the day-to-night transition",
+            "vibe": "Vertiginous and Panoramic",
+            "good_for": [
+              "First-timers",
+              "Photography",
+              "Skyline views"
+            ]
+          },
+          "image": "/images/shenzhen/ping-an.jpg",
+          "geo": {
+            "lat": 22.5371,
+            "lng": 114.0507
+          }
+        },
+        {
+          "id": "att-002",
+          "slug": "huaqiangbei",
+          "name_en": "Huaqiangbei Electronics Market",
+          "name_local": "华强北",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Twelve square city blocks of vertical hardware markets — the densest electronics ecosystem on the planet.",
+            "history": "Originally factory worker dormitories, transformed in the 1990s into the global hub where iPhone supply chains, drone components, and counterfeit goods all converge.",
+            "insider_tip": "Skip SEG's tourist floors. The real action is in 华强电子世界 (Huaqiang Electronic World) Floor 3+ — actual engineers source components by the reel here. Take a translator app and wear shoes you can walk in for four hours.",
+            "price_level": "Free entry; spending varies",
+            "duration": "Half-day",
+            "best_time": "Weekday morning (markets close ~6 PM, closed Mondays in some buildings)",
+            "vibe": "Frenetic and Industrial",
+            "good_for": [
+              "Hardware hackers",
+              "Engineers",
+              "Industry tourists"
+            ]
+          },
+          "image": "/images/shenzhen/huaqiangbei-detail.jpg",
+          "geo": {
+            "lat": 22.5453,
+            "lng": 114.0853
+          }
+        },
+        {
+          "id": "att-003",
+          "slug": "window-of-the-world",
+          "name_en": "Window of the World",
+          "name_local": "世界之窗",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A theme park featuring miniature replicas of 130+ global landmarks, from the Eiffel Tower to the Pyramids.",
+            "history": "Opened in 1994 as part of the OCT development, it captured the 1990s Chinese fascination with a globalized future that most citizens couldn't yet travel to see.",
+            "insider_tip": "Genuinely kitsch and dated, but the nighttime light show (around 7:30 PM) is shockingly good. Combine with the adjacent 'Splendid China' park for a half-day.",
+            "price_level": "Moderate (¥220)",
+            "duration": "Half-day",
+            "best_time": "Late afternoon into evening for the light show",
+            "vibe": "Kitsch and Photographic",
+            "good_for": [
+              "Families",
+              "Curiosity",
+              "1990s-China nostalgia"
+            ]
+          },
+          "image": "/images/shenzhen/window-world.jpg",
+          "geo": {
+            "lat": 22.5377,
+            "lng": 113.9737
+          }
+        },
+        {
+          "id": "att-004",
+          "slug": "shenzhen-museum",
+          "name_en": "Shenzhen Museum",
+          "name_local": "深圳博物馆",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The official story of how a fishing village of 30,000 became a city of 17 million in 40 years — explained with maps, archival video, and Deng Xiaoping memorabilia.",
+            "history": "Located inside the Citizen Center in Futian, it's the cleanest, most concise primer on the SEZ experiment that exists in English.",
+            "insider_tip": "Free entry, but bring your passport to register at the door. Spend most of your time on Floor 2 — the 'Reform and Opening' gallery is the unique exhibit you won't find anywhere else.",
+            "price_level": "Free",
+            "duration": "1.5–2 hours",
+            "best_time": "Weekday morning (closed Mondays)",
+            "vibe": "Educational and Reflective",
+            "good_for": [
+              "History buffs",
+              "Context-seekers",
+              "Rainy days"
+            ]
+          },
+          "image": "/images/shenzhen/shenzhen-museum.jpg",
+          "geo": {
+            "lat": 22.5489,
+            "lng": 114.0648
+          }
+        }
+      ]
+    },
+    {
+      "title": "Local Life & Nature",
+      "id": "local-life",
+      "items": [
+        {
+          "id": "act-001",
+          "slug": "oct-loft",
+          "name_en": "OCT-Loft Creative District",
+          "name_local": "华侨城创意文化园",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A converted factory complex turned into independent cafes, bookshops, design studios, and live-music venues.",
+            "history": "Built in the 1980s as electronics factories, gentrified in the 2010s into the city's flagship 'creative cluster' — Shenzhen's answer to Beijing's 798.",
+            "insider_tip": "Old Heaven Books (旧天堂书店) is the heart of the district — independent vinyl, philosophy section, weekend jazz nights. Visit on a Saturday afternoon and stay for evening drinks at B10 Live next door.",
+            "price_level": "Free entry",
+            "duration": "2–3 hours",
+            "best_time": "Weekend afternoon into evening",
+            "vibe": "Bohemian and Curated",
+            "good_for": [
+              "Creatives",
+              "Cafe-hopping",
+              "Music lovers"
+            ]
+          },
+          "image": "/images/shenzhen/oct-loft-detail.jpg",
+          "geo": {
+            "lat": 22.5466,
+            "lng": 113.9893
+          }
+        },
+        {
+          "id": "act-002",
+          "slug": "lianhua-mountain",
+          "name_en": "Lianhua Mountain Park",
+          "name_local": "莲花山公园",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A central-city park with a hilltop bronze statue of Deng Xiaoping overlooking the Futian skyline.",
+            "history": "The statue marks the spot where Deng surveyed the SEZ in 1992 to confirm its direction. It is the city's de facto symbolic center.",
+            "insider_tip": "Walk up at sunrise (around 6 AM) for tai chi groups, ribbon dancers, and amateur opera singers practicing under the trees. The kite-flying lawn at the summit is one of the city's classic dating spots.",
+            "price_level": "Free",
+            "duration": "1.5–2 hours",
+            "best_time": "Sunrise or 5:00 PM",
+            "vibe": "Peaceful and Civic",
+            "good_for": [
+              "People-watching",
+              "Skyline views",
+              "Morning exercise"
+            ]
+          },
+          "image": "/images/shenzhen/lianhua-mountain.jpg",
+          "geo": {
+            "lat": 22.5556,
+            "lng": 114.0594
+          }
+        },
+        {
+          "id": "act-003",
+          "slug": "talent-park",
+          "name_en": "Talent Park Boardwalk",
+          "name_local": "人才公园",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 1.7km man-made lake park along the Houhai Bay in Nanshan, where Shenzhen's tech workforce runs at 8 PM.",
+            "history": "Built in 2017 as a public statement that Shenzhen prioritizes 'talent' — its plaques honor scientists and entrepreneurs rather than politicians.",
+            "insider_tip": "Sunset from the 'Number One Bridge' (one of several bridges over the lake) frames the Tencent and Vanke headquarters in golden light. Free outdoor pull-up bars near the running path.",
+            "price_level": "Free",
+            "duration": "1–1.5 hours",
+            "best_time": "7:00 PM after work hours",
+            "vibe": "Active and Modern",
+            "good_for": [
+              "Joggers",
+              "People-watching",
+              "Photography"
+            ]
+          },
+          "image": "/images/shenzhen/talent-park.jpg",
+          "geo": {
+            "lat": 22.5179,
+            "lng": 113.9425
+          }
+        },
+        {
+          "id": "act-004",
+          "slug": "wutong-mountain",
+          "name_en": "Wutong Mountain Hike",
+          "name_local": "梧桐山",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The highest peak in Shenzhen (944m) and a popular weekend escape; the summit offers panoramic views of Hong Kong's New Territories.",
+            "history": "Once an ecological corridor for Hong Kong border protection, it was opened as a public park in the early 2000s.",
+            "insider_tip": "Take the 'big wutong' trail from Pengcheng Road for a 3-hour round trip. Locals start at 5 AM in summer to avoid heat. Bring water — there are no shops above the trailhead.",
+            "price_level": "Free",
+            "duration": "3–4 hours",
+            "best_time": "Early morning (Oct–April)",
+            "vibe": "Strenuous and Rewarding",
+            "good_for": [
+              "Hikers",
+              "Nature lovers",
+              "Weekend escape"
+            ]
+          },
+          "image": "/images/shenzhen/wutong.jpg",
+          "geo": {
+            "lat": 22.5783,
+            "lng": 114.2167
+          }
+        },
+        {
+          "id": "act-005",
+          "slug": "shekou-sea-world",
+          "name_en": "Shekou Sea World Plaza",
+          "name_local": "蛇口海上世界",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A pedestrian plaza built around the beached 1962 French cruise liner 'Minghua,' now a restaurant and hotel.",
+            "history": "The ship was sailed in and grounded by Premier Yuan Geng as a centerpiece for the Shekou Industrial Zone — the original pilot of the SEZ experiment.",
+            "insider_tip": "The fountain show at the plaza runs at 8 PM and 9 PM nightly, choreographed to music. Surrounding bars are the densest English-speaking pocket of nightlife in the city.",
+            "price_level": "Free entry",
+            "duration": "2 hours",
+            "best_time": "Evening from 7:30 PM",
+            "vibe": "International and Polished",
+            "good_for": [
+              "Expats",
+              "First-night arrivals",
+              "Nightlife in English"
+            ]
+          },
+          "image": "/images/shenzhen/sea-world.jpg",
+          "geo": {
+            "lat": 22.4793,
+            "lng": 113.9239
+          }
+        },
+        {
+          "id": "act-006",
+          "slug": "dapeng-fortress",
+          "name_en": "Dapeng Ancient Fortress",
+          "name_local": "大鹏所城",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 600-year-old Ming dynasty walled garrison town on Shenzhen's eastern peninsula — the city's only surviving pre-SEZ historical site.",
+            "history": "Built in 1394 to defend the South China coast against pirates; the name 'Shenzhen' itself derives from this district. The city's modern identity was literally built on top of this older one.",
+            "insider_tip": "Wander beyond the main gate into the residential lanes where locals still live inside the original walls. Combine with a seafood lunch in nearby Nan'ao village.",
+            "price_level": "Affordable (¥20)",
+            "duration": "2 hours",
+            "best_time": "Weekday morning",
+            "vibe": "Historic and Quiet",
+            "good_for": [
+              "History buffs",
+              "Photographers",
+              "Day trippers"
+            ]
+          },
+          "image": "/images/shenzhen/dapeng-fortress.jpg",
+          "geo": {
+            "lat": 22.5928,
+            "lng": 114.4839
+          }
+        },
+        {
+          "id": "act-007",
+          "slug": "dameisha-beach",
+          "name_en": "Dameisha Beach",
+          "name_local": "大梅沙",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A free 1.8km public beach on the South China Sea, a 90-minute trip from downtown.",
+            "history": "Developed in the 2000s as the city's flagship public beach; reconstructed after a 2018 typhoon with reinforced seawall and palm-lined boardwalk.",
+            "insider_tip": "Free, but on summer weekends requires advance reservation via WeChat (capacity-controlled). Go on a weekday for empty sand and reliable waves.",
+            "price_level": "Free",
+            "duration": "Half-day",
+            "best_time": "Weekday morning, May–September",
+            "vibe": "Sandy and Civic",
+            "good_for": [
+              "Beach days",
+              "Families",
+              "Weekend escape"
+            ]
+          },
+          "image": "/images/shenzhen/dameisha-beach.jpg",
+          "geo": {
+            "lat": 22.5996,
+            "lng": 114.3217
+          }
+        }
+      ]
+    },
+    {
+      "title": "Markets & Modern",
+      "id": "markets",
+      "items": [
+        {
+          "id": "mar-001",
+          "slug": "dongmen-pedestrian-street",
+          "name_en": "Dongmen Pedestrian Street",
+          "name_local": "东门步行街",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The old commercial heart of pre-SEZ Shenzhen: 1.7 sq km of pedestrian shopping streets, wholesale stalls, and 1980s-style department stores.",
+            "history": "The original Shenzhen market town, established in the 17th century and still the city's traditional retail core long after the new megamalls of Futian took over.",
+            "insider_tip": "Skip the chain stores on the main drag and dive into the side alleys near Yongxin Road — wholesale women's clothing, snack streets, and tailoring shops that have operated since the 1980s.",
+            "price_level": "Affordable",
+            "duration": "2–3 hours",
+            "best_time": "Weekday afternoon",
+            "vibe": "Crowded and Working-class",
+            "good_for": [
+              "Bargain hunters",
+              "Old Shenzhen",
+              "Street photography"
+            ]
+          },
+          "image": "/images/shenzhen/dongmen.jpg",
+          "geo": {
+            "lat": 22.5489,
+            "lng": 114.1219
+          }
+        },
+        {
+          "id": "mar-002",
+          "slug": "luohu-commercial-city",
+          "name_en": "Luohu Commercial City",
+          "name_local": "罗湖商业城",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A five-floor mall sitting on top of the Hong Kong border crossing, infamous for bulk knockoffs, custom tailoring, and aggressive haggling.",
+            "history": "Built in 1994 as a duty-free shopping draw for Hong Kong day-trippers; now a faded but functional fake-goods institution.",
+            "insider_tip": "Walk in knowing exactly what you want. Opening price is typically 5–10x the final price — start at 20% and walk away if they don't follow. Tailored suits on Floor 3 are still genuinely good value.",
+            "price_level": "Variable",
+            "duration": "1–2 hours",
+            "best_time": "Weekday morning",
+            "vibe": "Pushy and Transactional",
+            "good_for": [
+              "Tailoring",
+              "Bargain hunting",
+              "HK day-trippers"
+            ]
+          },
+          "image": "/images/shenzhen/luohu-commercial.jpg",
+          "geo": {
+            "lat": 22.5333,
+            "lng": 114.1136
+          }
+        },
+        {
+          "id": "mar-003",
+          "slug": "coco-park",
+          "name_en": "Coco Park & Coco City Mall",
+          "name_local": "购物公园",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Futian's open-air bar street and the connected mall — the city's most reliable concentration of nightlife and international restaurants.",
+            "history": "Developed in 2006 as the city's first open-plan 'lifestyle center'; now Shenzhen's mainstream nightlife default.",
+            "insider_tip": "The northern strip is bottle-service Chinese clubs and KTV; the southern alley near Pure Bar is the Western expat zone. Drinks 30% cheaper before 10 PM.",
+            "price_level": "Moderate to Expensive",
+            "duration": "3+ hours",
+            "best_time": "Friday/Saturday after 10 PM",
+            "vibe": "Loud and Cosmopolitan",
+            "good_for": [
+              "Nightlife",
+              "Cocktail bars",
+              "Late dinner"
+            ]
+          },
+          "image": "/images/shenzhen/coco-park.jpg",
+          "geo": {
+            "lat": 22.5384,
+            "lng": 114.0612
+          }
+        },
+        {
+          "id": "mar-004",
+          "slug": "bay-glory",
+          "name_en": "Shenzhen Bay Coastal Park",
+          "name_local": "深圳湾公园",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 13km waterfront boardwalk running along the bay opposite Hong Kong's New Territories — the city's premier sunset walk and bike ride.",
+            "history": "Reclaimed and landscaped in the late 2000s; the park is intentionally car-free and connects Houhai to Shekou as a continuous public corridor.",
+            "insider_tip": "Rent a Hellobike at any metro station along Line 11 — the entire boardwalk is bike-legal. Time the ride for an hour before sunset to hit the central pavilion at peak light.",
+            "price_level": "Free",
+            "duration": "1.5–2 hours by bike",
+            "best_time": "Sunset (Oct–April)",
+            "vibe": "Open and Breezy",
+            "good_for": [
+              "Cyclists",
+              "Sunset walks",
+              "Photography"
+            ]
+          },
+          "image": "/images/shenzhen/shenzhen-bay.jpg",
+          "geo": {
+            "lat": 22.5089,
+            "lng": 113.9319
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "8:00 AM",
+      "title": "Dim Sum Breakfast in Luohu",
+      "description": "Start where Shenzhen started. Take Metro Line 1 to Laojie station and head to a traditional yum cha hall (Yat Lok or Carrianna). Order har gow (shrimp dumplings), siu mai, char siu bao, and rice noodle rolls — point at the carts as they pass. Pair with pu'er or jasmine tea. This is the unhurried Cantonese morning ritual that the rest of the city skips. Pay by WeChat Pay or Alipay; cash will get a polite no.",
+      "image": "/images/shenzhen/dim-sum-breakfast.jpg"
+    },
+    {
+      "time": "10:00 AM",
+      "title": "Shenzhen Museum (Context First)",
+      "description": "Take Line 2 to Civic Center station and spend 90 minutes inside the Shenzhen Museum. The 'Reform and Opening' floor is the only exhibit in English that explains why this city exists — including original Deng Xiaoping speeches, photos of the 1980 fishing village, and the original boundary stones of the SEZ. Free entry, passport required at the door. After this, everything else in the city makes more sense.",
+      "image": "/images/shenzhen/museum-visit.jpg"
+    },
+    {
+      "time": "12:30 PM",
+      "title": "Lunch in Huaqiangbei",
+      "description": "Take Line 1/Line 7 to Huaqiangbei. Have a quick noodle lunch at a workman's stall — wonton noodles or beef brisket noodle (¥25–35). Then walk into Huaqiang Electronic World and ride the escalator up. Floors 3–6 are wholesale components, custom PCBs, refurbished electronics. You don't need to buy anything — just stand still on Floor 4 and watch the sourcing economy of the world move around you.",
+      "image": "/images/shenzhen/huaqiangbei-lunch.jpg"
+    },
+    {
+      "time": "3:30 PM",
+      "title": "OCT-Loft Coffee & Bookshops",
+      "description": "Metro Line 1 to Qiaocheng East. OCT-Loft is a converted electronics factory turned independent creative district. Spend two hours wandering between independent cafes (Spurs, Pepper's, Heyhey), the legendary Old Heaven Books (Chinese philosophy and vinyl on the same shelves), and rotating gallery shows. Pace is intentionally slow. Order an oat-milk flat white and a slice of Basque cheesecake — both will be excellent.",
+      "image": "/images/shenzhen/oct-coffee.jpg"
+    },
+    {
+      "time": "5:30 PM",
+      "title": "Sunset from Ping An Finance Center",
+      "description": "Metro Line 1 or 3 to Shopping Park, then walk to Ping An Finance Center. The 116th-floor observation deck (Free Sky) is ¥158 and timed-entry — book the day before via WeChat mini-app. Aim to arrive 45 minutes before sunset so you see the city in daylight, golden hour, and neon night within one visit. On clear winter days you can see all the way to Hong Kong's Victoria Peak.",
+      "image": "/images/shenzhen/sunset-tower.jpg"
+    },
+    {
+      "time": "8:00 PM",
+      "title": "Chaoshan Beef Hotpot Dinner",
+      "description": "Take Line 9 or Didi to a serious Chaoshan beef hotpot restaurant (八合里, Bahe Li, is the reliable chain). The waiter will bring eight different cuts of fresh beef, hand-cut from a carcass in the back. Order: five-flower-toe first, then top loin, then chuck eye. Eight seconds per piece in the bone broth — no longer. Dip in sand-tea sauce. Pair with chrysanthemum tea, not beer. Total cost ¥150–200 per person.",
+      "image": "/images/shenzhen/hotpot-dinner.jpg"
+    },
+    {
+      "time": "10:30 PM",
+      "title": "Late Drinks at Sea World, Shekou",
+      "description": "Didi or Line 2 to Sea World station. The beached cruise ship 'Minghua' sits in the middle of the plaza, surrounded by Shenzhen's densest concentration of Western-style bars (McCawley's Irish, The Terrace). This is where the city's expat population winds down. Don't expect Chinese drinking culture here — it's more international hub than local color. The 9 PM fountain show is worth catching if you arrive early.",
+      "image": "/images/shenzhen/sea-world-night.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Portable Power Bank (20,000 mAh)",
+      "image": "/images/shenzhen/power-bank.jpg",
+      "reason": "WeChat, Alipay, Didi, metro QR — your phone IS your wallet, ticket, and translator. A dead phone means stranded.",
+      "amazon_url": "https://www.amazon.com/s?k=anker+20000mah+power+bank&tag=canibringonpl-20",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-002",
+      "title": "Travel Adapter (Type A/C/I)",
+      "image": "/images/shenzhen/adapter.jpg",
+      "reason": "China uses three plug types. A universal adapter avoids the airport markup and works hotel-to-cafe.",
+      "amazon_url": "https://www.amazon.com/s?k=universal+travel+adapter+china&tag=canibringonpl-20",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-003",
+      "title": "China eSIM (Unfiltered)",
+      "image": "/images/shenzhen/esim.jpg",
+      "reason": "Airalo/Holafly eSIMs route through Hong Kong and bypass the Great Firewall — Google, Instagram, and Maps work normally without a VPN.",
+      "amazon_url": "https://www.amazon.com/s?k=airalo+china+esim&tag=canibringonpl-20",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-004",
+      "title": "Money Belt with RFID Block",
+      "image": "/images/shenzhen/money-belt.jpg",
+      "reason": "Crime is low, but border crossings and crowded markets (Dongmen, Huaqiangbei) reward keeping passport + backup cash secured.",
+      "amazon_url": "https://www.amazon.com/s?k=rfid+money+belt&tag=canibringonpl-20",
+      "category": "security"
+    },
+    {
+      "id": "aff-005",
+      "title": "Compact Travel Umbrella",
+      "image": "/images/shenzhen/umbrella.jpg",
+      "reason": "April–October the city flips between scorching sun and 20-minute thunderstorms. A small sun/rain umbrella covers both.",
+      "amazon_url": "https://www.amazon.com/s?k=compact+travel+umbrella+uv&tag=canibringonpl-20",
+      "category": "weather"
+    },
+    {
+      "id": "aff-006",
+      "title": "N95 Masks (Pack)",
+      "image": "/images/shenzhen/mask.jpg",
+      "reason": "Air quality is moderate but spikes happen, especially in winter. N95 (not cloth) is the only effective filter.",
+      "amazon_url": "https://www.amazon.com/s?k=n95+masks&tag=canibringonpl-20",
+      "category": "health"
+    },
+    {
+      "id": "aff-007",
+      "title": "DEET Mosquito Repellent",
+      "image": "/images/shenzhen/repellent.jpg",
+      "reason": "Dengue is a low-but-real risk April–October, especially on the eastern coast (Dameisha, Dapeng).",
+      "amazon_url": "https://www.amazon.com/s?k=deet+mosquito+repellent&tag=canibringonpl-20",
+      "category": "health"
+    }
+  ],
+  "region": "Asia"
+}

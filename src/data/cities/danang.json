@@ -1,0 +1,1446 @@
+{
+  "id": "city-016",
+  "name": "Da Nang",
+  "slug": "danang",
+  "country": "Vietnam",
+  "country_code": "vn",
+  "lat": 16.0544,
+  "lng": 108.2022,
+  "hero_image": "/images/danang/hero.jpg",
+  "intro_vibe": "The coastal pivot: a seamless blend of skyscraper-modernity and tropical beach-life, functioning as Vietnam's most livable transit hub.",
+  "general_info": {
+    "population": "~1.2 million (city) / ~1.4 million (metro)",
+    "is_capital": false,
+    "description": "Da Nang is Vietnam's third-largest city and the central coast's logistical pivot — sitting on a 30km coastline between the Marble Mountains and the Son Tra peninsula, halfway between Hanoi and Ho Chi Minh City. To operate it effectively you have to understand its three parallel zones: the long beach strip along Vo Nguyen Giap Avenue (My Khe to Bac My An — where expats, digital nomads, and Korean and Russian package tourists cluster); the city core on the west bank of the Han River (where actual Da Nang life happens — markets, motorbike traffic, family pho stalls); and the Son Tra peninsula and Marble Mountains framing both ends (nature, luxury resorts, military zones). The city is the launchpad for the entire central Vietnam triangle — Hoi An (30 minutes south), Hue (2.5 hours north), and My Son (1.5 hours west) — and the airport sits inside the urban grid, so transit friction is unusually low. The economy is now driven by Korean and Singaporean property investment, a swelling tech outsourcing scene, and the highest concentration of long-stay foreign residents on the central coast."
+  },
+  "stats": {
+    "currency": "VND (Vietnamese Dong, ₫)",
+    "plug_type": "Type A/C/F"
+  },
+  "weather_breakdown": [
+    {
+      "id": 1,
+      "name": "January",
+      "temp": "19°C - 25°C",
+      "vibe": "Cool & Overcast",
+      "pros": [
+        "Lowest humidity of the year",
+        "Comfortable scooter weather",
+        "Empty Marble Mountains"
+      ],
+      "cons": [
+        "Sea too cold for swimming",
+        "Grey skies persist",
+        "Some beach restaurants close mid-week"
+      ],
+      "clothing": "Light layers, light jacket for evenings"
+    },
+    {
+      "id": 2,
+      "name": "February",
+      "temp": "20°C - 26°C",
+      "vibe": "Lunar New Year Disruption",
+      "pros": [
+        "Festive Tet decorations city-wide",
+        "Dry and breezy",
+        "Great for Hoi An day trips"
+      ],
+      "cons": [
+        "Many family shops shut 5–10 days for Tet",
+        "Domestic tourism spike",
+        "Some transport disrupted"
+      ],
+      "clothing": "T-shirt with light layer"
+    },
+    {
+      "id": 3,
+      "name": "March",
+      "temp": "21°C - 28°C",
+      "vibe": "Spring Window",
+      "pros": [
+        "Calm sea returns",
+        "Perfect Son Tra hiking conditions",
+        "Mild humidity"
+      ],
+      "cons": [
+        "Beach water still cool",
+        "Occasional cold-front showers",
+        "Cherry blossom season ends fast"
+      ],
+      "clothing": "T-shirt, light long-sleeve"
+    },
+    {
+      "id": 4,
+      "name": "April",
+      "temp": "23°C - 30°C",
+      "vibe": "Optimal Beach Window",
+      "pros": [
+        "Best beach conditions of the year",
+        "Warm sea, low rain",
+        "Reunification Day fireworks late month"
+      ],
+      "cons": [
+        "Domestic Vietnamese tourism peaks",
+        "Hotel prices climb fast",
+        "UV becomes intense midday"
+      ],
+      "clothing": "Light beach clothes, sun protection"
+    },
+    {
+      "id": 5,
+      "name": "May",
+      "temp": "25°C - 33°C",
+      "vibe": "Pre-Summer Heat",
+      "pros": [
+        "Sea bathwater-warm",
+        "Dragon Bridge fire shows on weekends",
+        "Long daylight"
+      ],
+      "cons": [
+        "Humidity climbing",
+        "Strong midday sun",
+        "Korean tour-group peak"
+      ],
+      "clothing": "Breathable cotton, hat, sunscreen"
+    },
+    {
+      "id": 6,
+      "name": "June",
+      "temp": "26°C - 34°C",
+      "vibe": "Da Nang Fireworks Festival",
+      "pros": [
+        "International Fireworks Festival weekends",
+        "Calm sea, swim-ready",
+        "Beach nightlife peaks"
+      ],
+      "cons": [
+        "Hotel prices double on fireworks weekends",
+        "Beach roads close for events",
+        "High humidity"
+      ],
+      "clothing": "Lightweight clothes, evening shawl"
+    },
+    {
+      "id": 7,
+      "name": "July",
+      "temp": "26°C - 34°C",
+      "vibe": "Peak Heat",
+      "pros": [
+        "Best swimming conditions",
+        "Long daylight to 18:30",
+        "Stable weather for Ba Na day trips"
+      ],
+      "cons": [
+        "Heat index exceeds 40°C midday",
+        "Tourist saturation",
+        "Air conditioning is mandatory"
+      ],
+      "clothing": "Lightest fabrics, hat, electrolytes"
+    },
+    {
+      "id": 8,
+      "name": "August",
+      "temp": "26°C - 34°C",
+      "vibe": "Late Dry Season",
+      "pros": [
+        "Last reliable beach window",
+        "Korean school holiday peak ending",
+        "Surf swell starts late month"
+      ],
+      "cons": [
+        "Storm systems begin forming offshore",
+        "Humidity oppressive",
+        "Jellyfish risk at My Khe"
+      ],
+      "clothing": "Quick-dry beach clothes, light cover-up"
+    },
+    {
+      "id": 9,
+      "name": "September",
+      "temp": "24°C - 32°C",
+      "vibe": "Storm Transition",
+      "pros": [
+        "Hotel rates drop sharply",
+        "Empty beaches between storms",
+        "Comfortable mornings"
+      ],
+      "cons": [
+        "Typhoon risk begins",
+        "Sudden afternoon storms",
+        "Sea swells unpredictable"
+      ],
+      "clothing": "Light rain jacket, quick-dry layers"
+    },
+    {
+      "id": 10,
+      "name": "October",
+      "temp": "23°C - 30°C",
+      "vibe": "Peak Wet Season",
+      "pros": [
+        "Lowest hotel prices of the year",
+        "Mountains lush green",
+        "Cafés full and atmospheric"
+      ],
+      "cons": [
+        "Annual flooding hits My Khe and city",
+        "Typhoon landfall risk peaks",
+        "Hoi An regularly floods, road impassable"
+      ],
+      "clothing": "Real rain jacket, waterproof shoes"
+    },
+    {
+      "id": 11,
+      "name": "November",
+      "temp": "22°C - 27°C",
+      "vibe": "Tail of Wet Season",
+      "pros": [
+        "Storms taper off late month",
+        "Sea slowly returns to swimmable",
+        "Cooler evenings"
+      ],
+      "cons": [
+        "Still heavy rain windows",
+        "Cold-front winds disrupt scooter rides",
+        "Some Son Tra trails closed"
+      ],
+      "clothing": "Light layers, packable rain shell"
+    },
+    {
+      "id": 12,
+      "name": "December",
+      "temp": "20°C - 25°C",
+      "vibe": "Dry & Cool",
+      "pros": [
+        "Comfortable scooter temperatures",
+        "Christmas/New Year light displays",
+        "Pho and bun bo season peaks"
+      ],
+      "cons": [
+        "Sea cold for swimming",
+        "Korean New Year tourism spike",
+        "Some beach clubs winter-closed"
+      ],
+      "clothing": "Long sleeves, light jacket evenings"
+    }
+  ],
+  "culture": {
+    "etiquette_tips": [
+      "The 'Em / Anh / Chi' Code: Pronouns shift by perceived age. 'Em' for younger, 'Anh' for older male, 'Chi' for older female. Get it wrong and the temperature of the interaction shifts immediately. When unsure, 'anh' or 'chi' is the safer flatter.",
+      "Saving Face: Direct confrontation, raised voices, and aggressive haggling cause loss of face for both sides. Smile, soften, and walk away if a negotiation fails. Public anger marks you as low-status.",
+      "Scooter Right-of-Way: There is no right-of-way. Traffic is a continuous fluid — you commit to your line, slowly, and others flow around you. Sudden stops or reverses are how accidents happen.",
+      "Coffee Hierarchy: 'Cà phê sữa đá' is iced coffee with condensed milk — the national default. 'Cà phê đen' is black, often very strong. 'Bạc xỉu' is coffee-lighter than sữa đá. Knowing the order makes you legible at any café.",
+      "Take Off Shoes: Inside homes, most family-run pho shops on stools, and all temples. Sandals are practical.",
+      "Temple Dress: Knees and shoulders covered at the Marble Mountains pagodas and Linh Ung. Wrap skirts are sometimes provided; don't count on it.",
+      "Don't Touch Heads: The head is sacred in Vietnamese culture. Don't pat children's heads even affectionately.",
+      "Pass Items With Both Hands: Money, business cards, gifts, change. One-handed transfer reads as careless or contemptuous.",
+      "Tipping: Not traditionally expected, but Da Nang's tourist economy has normalized 10% in Western restaurants and rounding up taxis. Beach masseuses and spa staff appreciate 20,000–50,000 VND.",
+      "Currency Zero Trap: VND uses many zeros (100,000 VND ≈ $4 USD). Triple-check digits before handing over notes — the 10,000 / 100,000 / 500,000 swap is the city's most common honest-mistake-or-scam.",
+      "Smiling Isn't Always Happiness: A nervous, embarrassed, or apologetic smile is common. Don't read it as agreement or amusement.",
+      "Karaoke Volume: Family karaoke is a national pastime. Beach-area hostels and apartments adjacent to KTV bars get loud until 22:00 — check listings."
+    ],
+    "essential_phrases": [
+      {
+        "src": "Hello",
+        "local": "Xin chào",
+        "phonetic": "sin-CHOW"
+      },
+      {
+        "src": "Thank you",
+        "local": "Cảm ơn",
+        "phonetic": "kahm-UHN"
+      },
+      {
+        "src": "How much?",
+        "local": "Bao nhiêu?",
+        "phonetic": "bow-nyew"
+      },
+      {
+        "src": "Too expensive",
+        "local": "Đắt quá",
+        "phonetic": "dat-KWAH"
+      },
+      {
+        "src": "No ice, please",
+        "local": "Không đá",
+        "phonetic": "kohm-DAH"
+      },
+      {
+        "src": "The bill, please",
+        "local": "Tính tiền",
+        "phonetic": "tin-tee-EN"
+      },
+      {
+        "src": "Beer (cold)",
+        "local": "Bia (lạnh)",
+        "phonetic": "bee-uh (lan)"
+      },
+      {
+        "src": "Not spicy",
+        "local": "Không cay",
+        "phonetic": "kohm-KAI"
+      }
+    ]
+  },
+  "neighborhoods": [
+    {
+      "name": "My Khe Beach (An Thuong)",
+      "vibe": "Expat & Tourist Strip",
+      "description": "The 5km beach corridor along Vo Nguyen Giap Avenue and the inland 'An Thuong' grid one block back. Western brunch spots, Korean barbecue, surf schools, coworking spaces, gym-bro coffee bars, and Western-fronted apartment towers. You can live here for a month without speaking Vietnamese — and many do. The most foreign-feeling part of the city.",
+      "highlights": [
+        "An Thuong walking grid",
+        "My Khe sunrise beach",
+        "Burger Bros / Pizza 4P's"
+      ],
+      "best_for": [
+        "first-timers",
+        "digital nomads",
+        "beach access"
+      ],
+      "image": "/images/danang/my-khe.jpg"
+    },
+    {
+      "name": "Son Tra Peninsula",
+      "vibe": "Nature & Luxury Escape",
+      "description": "The forested 'Monkey Mountain' headland protecting Da Nang Bay from the north. Half is a nature reserve (red-shanked douc langurs, rare birds, ocean cliffs), half is luxury resort land (InterContinental Sun Peninsula) and a small military zone. The peninsula's coastal road is the city's defining motorbike ride. Inland trails climb to 696m and panoramic viewpoints almost no tour groups reach.",
+      "highlights": [
+        "Linh Ung Pagoda & 67m Lady Buddha",
+        "Coastal Loop Road",
+        "InterContinental Sun Peninsula"
+      ],
+      "best_for": [
+        "nature lovers",
+        "luxury stays",
+        "motorbike day trips"
+      ],
+      "image": "/images/danang/son-tra.jpg"
+    },
+    {
+      "name": "Han River City Center",
+      "vibe": "Local Working City",
+      "description": "The west bank of the Han River and the grid west of it — Han Market, Bach Dang waterfront, ICONIC corporate towers, and the Dragon Bridge spanning across to the beach side. This is where actual Da Nang life happens — local pho stalls on plastic stools, motorbike repair shops, school-pickup rush hours, and the loudest hours of the day.",
+      "highlights": [
+        "Han Market (Cho Han)",
+        "Dragon Bridge fire show (weekends)",
+        "Bach Dang riverfront"
+      ],
+      "best_for": [
+        "authentic local life",
+        "street food",
+        "business stays"
+      ],
+      "image": "/images/danang/han-river.jpg"
+    },
+    {
+      "name": "Hai Chau",
+      "vibe": "Administrative Core",
+      "description": "Da Nang's traditional administrative district, immediately south of the Han Market. Government offices, older French-colonial buildings, the Cathedral, and the Museum of Cham Sculpture. Less polished than the beach side, more textured than the new suburbs.",
+      "highlights": [
+        "Da Nang Cathedral (Pink Church)",
+        "Museum of Cham Sculpture",
+        "Con Market (Cho Con)"
+      ],
+      "best_for": [
+        "history",
+        "museums",
+        "local markets"
+      ],
+      "image": "/images/danang/hai-chau.jpg"
+    },
+    {
+      "name": "Ngu Hanh Son (Marble Mountains)",
+      "vibe": "Spiritual South Side",
+      "description": "A cluster of five limestone-marble karsts rising from the coastal plain 10km south of the city center, riddled with Buddhist cave pagodas and surrounded by stone-carving workshops. The fastest day-trip from Da Nang and the religious anchor of the central coast.",
+      "highlights": [
+        "Thuy Son (Water Mountain) caves",
+        "Stone-carving workshop strip",
+        "Am Phu (Hell) Cave"
+      ],
+      "best_for": [
+        "half-day trips",
+        "spiritual sites",
+        "stone-carving souvenirs"
+      ],
+      "image": "/images/danang/marble-mountains.jpg"
+    },
+    {
+      "name": "Ba Na Hills (Day Trip)",
+      "vibe": "French Mountain Theme Park",
+      "description": "A French-colonial-era hill station at 1,487m, accessed by one of the world's longest cable cars, now built out as a kitsch theme-park-meets-resort with the famous Golden Bridge (giant stone hands holding a footpath). 45km west of the city.",
+      "highlights": [
+        "Golden Bridge (Cau Vang)",
+        "Cable car ride",
+        "French Village replica"
+      ],
+      "best_for": [
+        "families",
+        "photography",
+        "first-time visitors"
+      ],
+      "image": "/images/danang/ba-na.jpg"
+    },
+    {
+      "name": "Hoi An (Day Commute)",
+      "vibe": "UNESCO Old Town",
+      "description": "Not Da Nang itself, but functionally a daily commute. 30km south, 30–45 minutes by taxi or scooter. Lantern-lit Old Town, tailor shops, riverside cafés, the Japanese Covered Bridge. Most Da Nang visitors do at least one Hoi An overnight or evening run. Floods badly Oct–Nov.",
+      "highlights": [
+        "Ancient Town lantern walk",
+        "Japanese Covered Bridge",
+        "Tailor-made suit shops"
+      ],
+      "best_for": [
+        "day commutes",
+        "evening trips",
+        "shopping"
+      ],
+      "image": "/images/danang/hoi-an.jpg"
+    },
+    {
+      "name": "Hai Van Pass (Half-Day Trip)",
+      "vibe": "Coastal Motorbike Spine",
+      "description": "The 21km mountain pass north of Da Nang separating the city from Hue — the road Top Gear made famous, hugging the coast at altitude. The defining motorbike experience of central Vietnam, doable as a 4-hour round trip from Da Nang with a guided 'easy rider'.",
+      "highlights": [
+        "Pass summit viewpoint",
+        "Lang Co Lagoon view",
+        "Coastal cliff road"
+      ],
+      "best_for": [
+        "motorbike riders",
+        "photography",
+        "adventure"
+      ],
+      "image": "/images/danang/hai-van.jpg"
+    }
+  ],
+  "logistics": [
+    {
+      "id": "logistics-transit",
+      "slug": "getting-around",
+      "title": "Getting Around",
+      "icon": "Bike",
+      "summary": "Scooters dominate. Grab is the fallback. There is no metro.",
+      "details": [
+        "Scooter Rental: 100,000–150,000 VND/day for a Honda Wave or Vision. Most hotels arrange. An IDP (International Driving Permit) with motorcycle class is technically required; in practice almost no one is checked unless involved in an accident — at which point insurance voids without it.",
+        "Grab (Car & Bike): The default ride-hail. Grab Bike (10,000–25,000 VND in-city) is faster than Grab Car in traffic. Grab Car is climate-controlled and 60,000–120,000 VND for cross-city. English app, card payment.",
+        "Be (Vietnamese Alternative): A local app, often cheaper than Grab, especially for Bike. Worth installing as a backup.",
+        "Taxi: Mai Linh (green) and Vinasun (white) are the two reliable companies — insist on the meter or use Grab.",
+        "Walking: The beach side along Vo Nguyen Giap is walkable. The city center is technically walkable but the heat, the scooter traffic, and the long blocks make Grab Bike a better default.",
+        "Hoi An Commute: 30–45 min by taxi (350,000–450,000 VND one way). Grab Car works. Pre-arranged 'shuttle' from beach hotels typically 100,000–150,000 VND. Scooter (45 min) is the cheapest at 30,000 VND fuel.",
+        "Airport (DAD): Sits inside the urban grid, 3km from the river. Grab to My Khe Beach 70,000–100,000 VND. Don't take the unmarked 'taxis' at arrivals — go to the Grab pickup zone outside the terminal.",
+        "Trains: Da Nang Railway Station connects to Hue (2.5h), Hanoi (16h), and HCMC (18h). The Reunification Express to Hue with a soft sleeper is the scenic budget option."
+      ]
+    },
+    {
+      "id": "logistics-money",
+      "slug": "financial-landscape",
+      "title": "Money & Payments",
+      "icon": "CreditCard",
+      "summary": "Cash for street level, cards in the tourist crust, QR everywhere in between.",
+      "details": [
+        "Currency: Vietnamese Dong (VND). $1 USD ≈ 25,000 VND. The volume of zeros causes daily miscounting — verify digits before handing over notes.",
+        "Cash: Essential for street food, scooter fuel, markets, and most family pho shops. Carry 500,000–1,000,000 VND daily.",
+        "Cards: Visa/Mastercard accepted in Western-facing restaurants, beach hotels, supermarkets (VinMart, Big C), and major attractions. Amex is rare.",
+        "VietQR: The dominant local payment method — locals scan a QR code from their banking app. Foreign tourists cannot use this without a Vietnamese bank account, so cash + card remains the foreign default.",
+        "ATMs: Use Vietcombank, Techcombank, ACB, or BIDV — international cards work, withdrawal limits typically 3,000,000–5,000,000 VND per transaction. Fees vary; check before withdrawing.",
+        "Tipping: Not traditional, but 10% on Western restaurant bills and 20,000–50,000 VND for beach masseuses is now expected in the tourist crust.",
+        "USD Acceptance: Hotels and tour operators quote in USD. Pay in VND if possible — USD-to-VND conversions are usually unfavorable at 23,000 VND/USD instead of the real 25,000."
+      ]
+    },
+    {
+      "id": "logistics-scooter",
+      "slug": "scooter-safety",
+      "title": "Scooter Reality",
+      "icon": "Bike",
+      "summary": "Scooters are the city's nervous system. Riding them is a calculated risk.",
+      "details": [
+        "Helmet: Always wear one. Police checkpoints fine helmet-less riders 200,000–400,000 VND on the spot; insurance voids without one.",
+        "License: An IDP with motorcycle class (A1 or A) is technically required. Without it, in an accident, you are uninsured for medical and uninsured against the other party — even if you weren't at fault.",
+        "Traffic Flow: There is no right-of-way. Move slowly, commit to your line, don't make sudden direction changes. Eye contact is how decisions are negotiated.",
+        "Beach Road at Night: Vo Nguyen Giap is a wide, fast, four-lane corridor at night with drunk drivers and limited streetlights past 22:00. Stick to in-city routes after dark.",
+        "Hai Van Pass: Doable as a self-guided scooter trip but the road has 30+ hairpins, frequent fog, and truck traffic. First-time riders should use an 'easy rider' (200,000–400,000 VND for a guided one-way with luggage transport).",
+        "Petrol: Self-service stations (Petrolimex) are everywhere. 95-octane is standard; pay in cash. A full tank is ~80,000 VND.",
+        "Theft: Park in attended hotel lots overnight. At restaurants, look for the 'gửi xe' (motorbike attendant) — give him 5,000–10,000 VND on return."
+      ]
+    },
+    {
+      "id": "logistics-beach",
+      "slug": "beach-etiquette",
+      "title": "Beach Logistics",
+      "icon": "Sun",
+      "summary": "My Khe is functional and free. Operate it like a local.",
+      "details": [
+        "Free Access: My Khe Beach is fully public and free. The 'beach clubs' (Sky 36, Esco Beach) are private setups but the sand itself is open.",
+        "Sunrise Crowd: 5:00–6:30 AM is the most active social hour — locals exercise, swim, play volleyball, and gather in groups before the heat. Worth waking for, even on vacation.",
+        "Midday Avoidance: 11:00–15:00 is dangerously hot. The sand reaches 60°C+; UV peaks at 11+. Locals do not beach at noon.",
+        "Lifeguards: Present at marked zones with red/yellow flags. Swim only where flagged. Currents can be strong Sep–Nov.",
+        "Beach Chairs: 20,000–30,000 VND for a sun-bed + parasol at the public stretches. Pay the attendant; they'll watch your bag.",
+        "Jellyfish: Risk peaks Aug–Sep. Check the local app or ask the lifeguards. Stings from local species are painful but rarely dangerous.",
+        "Drinking on the Beach: Legal but discreet. The 'beer-tent' food strip near the My Khe lifeguard tower is the local default.",
+        "Vendors: Sunglasses, jewelry, fruit, sun-cream sellers walk the sand. Polite firm 'không, cảm ơn' (no thanks) ends most approaches."
+      ]
+    },
+    {
+      "id": "logistics-scams",
+      "slug": "common-scams",
+      "title": "Scams to Avoid",
+      "icon": "AlertTriangle",
+      "summary": "Da Nang is low on violent crime, normal on tourist scams.",
+      "details": [
+        "Currency Zero Swap: Vendor 'accidentally' gives change as if you paid 100,000 VND when you paid 500,000. Count out cash visibly, both directions.",
+        "Taxi Meter Tampering: An unmarked taxi's meter races at 3x speed. Always Mai Linh or Vinasun, or Grab Car.",
+        "Cyclo Tour Trap: A cyclo driver quotes '50,000 VND' for a tour, then claims he meant 50,000 USD or per-minute. Agree the route AND total price in writing before mounting.",
+        "Tailor Shop Commission: Hotel staff and 'helpful guides' will steer you to a specific tailor — they receive 30–40% commission. Compare prices at 2–3 independent shops in Hoi An first.",
+        "Coconut Bro Shakedown: A street vendor places a yoke and coconuts on your shoulders for a photo, then demands 200,000–500,000 VND. Don't accept the yoke; don't allow the photo.",
+        "Fake Money: 500,000 VND and 200,000 VND notes are the most counterfeited. Both are polymer with watermarks — check before accepting from a stranger or street exchange.",
+        "Massage Add-Ons: A 200,000 VND massage becomes a 500,000 VND bill with 'mandatory' extras. Confirm full price + every add-on in writing before lying down.",
+        "Airport 'Helper': A man in a fake uniform offers to carry your bag, then demands $10–20 USD. Wave them off — the airport is small and clean; you don't need help."
+      ]
+    },
+    {
+      "id": "logistics-survival",
+      "slug": "survival-tips",
+      "title": "Environment & Health",
+      "icon": "Sun",
+      "summary": "Tropical humidity, intense sun, and an annual flooding season.",
+      "details": [
+        "Humidity Management: 80%+ humidity April–October. Hydrate aggressively, use electrolyte sachets, plan outdoor activity for sunrise or after 16:00.",
+        "UV Index: Coastal sun + low latitude = burns in 20 minutes April–September. SPF 50, hat, and long-sleeve UV shirts are not paranoid here.",
+        "Tap Water: Do not drink. Use bottled (10,000 VND/1.5L) or boil. Hotel-provided bottled water daily is standard.",
+        "Air Quality: Generally clean by Vietnamese standards (coastal winds), but bad days do happen — check the IQAir app.",
+        "Mosquitoes: Dengue is the real risk. Use repellent at dusk and dawn, especially near rivers and Son Tra forest. Sleep with the AC on or under a net.",
+        "Typhoons: Sep–Nov is typhoon season. Watch the Vietnam Meteorological Agency and the Windy app. Major typhoons can shut Da Nang for 36–48 hours and flood Hoi An for a week.",
+        "Pharmacies: 'Pharmacity' and 'Long Chau' chains are everywhere, English-speaking. Many medications over-the-counter that aren't in the West.",
+        "Hospitals: Vinmec Da Nang and Family Medical Practice are the foreigner-friendly options. Travel insurance is non-negotiable for the scooter risk."
+      ]
+    },
+    {
+      "id": "logistics-apps",
+      "slug": "essential-apps",
+      "title": "Apps to Download",
+      "icon": "Smartphone",
+      "summary": "Install before you land — eSIM activates on arrival.",
+      "details": [
+        "Grab: The default ride-hail and food delivery. Set up before landing with a foreign card.",
+        "Be: Vietnamese ride-hail backup, often cheaper for short rides.",
+        "ShopeeFood / GrabFood: Food delivery. ShopeeFood often has better local restaurants; GrabFood has better English.",
+        "Google Translate: Download Vietnamese offline pack. The camera-OCR is essential for menus and supermarket labels.",
+        "XE Currency: For the zero-counting check on VND notes.",
+        "Windy / Vietnam Weather: Typhoon tracking during Sep–Nov.",
+        "Maps.me: Better than Google Maps for Son Tra trails and Hai Van Pass turn-outs.",
+        "WhatsApp + Zalo: Zalo is the Vietnamese WhatsApp — tour guides, scooter rentals, and many hotels prefer it. Install before arrival."
+      ]
+    }
+  ],
+  "must_eat": [
+    {
+      "id": "food-001",
+      "slug": "mi-quang",
+      "name_en": "Mi Quang",
+      "name_local": "Mì Quảng",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "The signature noodle dish of central Vietnam — turmeric-stained flat rice noodles with shrimp, pork, peanuts, herbs, and just enough broth to coat, not submerge.",
+        "history": "Originated in Quang Nam province (the area surrounding Da Nang and Hoi An) as a midday farmer's meal — designed to travel in a clay pot to the rice paddies.",
+        "insider_tip": "Mi Quang 1A on Hai Phong Street and Ba Mua on Phan Thanh are the locally-anointed institutions. Eat with the dry rice cracker (banh trang nuong) crumbled in.",
+        "price_level": "Affordable",
+        "duration": "30 minutes",
+        "best_time": "Lunch",
+        "vibe": "Earthy and Regional",
+        "good_for": [
+          "First-timers",
+          "Lunch",
+          "Local culture"
+        ]
+      },
+      "image": "/images/danang/mi-quang.jpg"
+    },
+    {
+      "id": "food-002",
+      "slug": "bun-cha-ca",
+      "name_en": "Bun Cha Ca",
+      "name_local": "Bún Chả Cá",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A fragrant fish-cake noodle soup with a tomato-and-pineapple-tinged broth — Da Nang's local breakfast far more than pho is.",
+        "history": "Evolved from the central coast's fishing-port culture; the dish is intentionally lighter and more acidic than southern pho to fit the humid climate.",
+        "insider_tip": "Ba Phien on Trung Nu Vuong Street and Ong Ta on Hoang Dieu are the breakfast institutions; both close by 11am. Add the fermented shrimp paste sparingly — it's strong.",
+        "price_level": "Affordable",
+        "duration": "30 minutes",
+        "best_time": "Breakfast (6–10 AM)",
+        "vibe": "Local Morning Ritual",
+        "good_for": [
+          "Breakfast",
+          "Authentic experience",
+          "Light eating"
+        ]
+      },
+      "image": "/images/danang/bun-cha-ca.jpg"
+    },
+    {
+      "id": "food-003",
+      "slug": "banh-xeo",
+      "name_en": "Banh Xeo (Crispy Pancake)",
+      "name_local": "Bánh Xèo",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A turmeric-yellow rice-flour crepe filled with shrimp, pork, and bean sprouts, eaten wrapped in lettuce and herbs with nuoc cham dipping sauce.",
+        "history": "A central Vietnamese specialty (the smaller, crispier version is called 'banh khoai'); the central style is dryer and more snack-like than the larger southern version.",
+        "insider_tip": "Ba Duong on Hoang Dieu Street is the cult Da Nang version. Eat with hands — tear, wrap in lettuce with herbs and pickled vegetables, dip, bite.",
+        "price_level": "Affordable",
+        "duration": "45 minutes",
+        "best_time": "Lunch or dinner",
+        "vibe": "Crispy and Communal",
+        "good_for": [
+          "Groups",
+          "Hands-on eating",
+          "Vegetarians (request meat-free)"
+        ]
+      },
+      "image": "/images/danang/banh-xeo.jpg"
+    },
+    {
+      "id": "food-004",
+      "slug": "com-ga",
+      "name_en": "Com Ga (Chicken Rice)",
+      "name_local": "Cơm Gà",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Yellow turmeric-rice cooked in chicken stock, served with poached chicken, papaya salad, and a small bowl of chicken broth on the side.",
+        "history": "Hoi An's signature dish, exported up the coast to Da Nang; the local version is simpler than the Hoi An original but no less popular.",
+        "insider_tip": "Com Ga A Hai on Phan Chu Trinh Street is the city's most loved version; their chicken is freshly poached daily and sells out by 13:00.",
+        "price_level": "Affordable",
+        "duration": "30 minutes",
+        "best_time": "Lunch",
+        "vibe": "Simple and Satisfying",
+        "good_for": [
+          "Light palates",
+          "Lunch",
+          "Picky eaters"
+        ]
+      },
+      "image": "/images/danang/com-ga.jpg"
+    },
+    {
+      "id": "food-005",
+      "slug": "banh-mi",
+      "name_en": "Banh Mi",
+      "name_local": "Bánh Mì",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "The French-Vietnamese baguette sandwich — pâté, cold cuts, pickled carrot and daikon, cucumber, cilantro, chilies — served from sidewalk carts.",
+        "history": "Born from the collision of French baguette tradition with Vietnamese herbs and pickling; Da Nang's central-coast version is heavier on cold cuts than Hanoi's.",
+        "insider_tip": "Banh Mi Ba Lan on Hoang Dieu Street and Banh Mi Ba Sau on Tran Quoc Toan are the local benchmarks. Specify 'ít cay' (less spicy) unless you mean it.",
+        "price_level": "Affordable",
+        "duration": "10 minutes",
+        "best_time": "Breakfast or quick snack",
+        "vibe": "Portable and Punchy",
+        "good_for": [
+          "Quick bite",
+          "Budget travelers",
+          "Walking food"
+        ]
+      },
+      "image": "/images/danang/banh-mi.jpg"
+    },
+    {
+      "id": "food-006",
+      "slug": "bun-bo-hue",
+      "name_en": "Bun Bo Hue",
+      "name_local": "Bún Bò Huế",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "The spicy, lemongrass-and-chili-tinted beef noodle soup from neighboring Hue — central Vietnam's answer to pho, with thicker round noodles and serious heat.",
+        "history": "A royal-court dish from imperial Hue that became Vietnam's most assertive noodle soup; Da Nang's version is just as authentic since Hue is only 2.5 hours north.",
+        "insider_tip": "Bun Bo Ba Thuong on Nguyen Cong Tru Street is the cult bowl. Order with 'cha' (pork sausage) and 'gio heo' (pork knuckle) for the full version.",
+        "price_level": "Affordable",
+        "duration": "30 minutes",
+        "best_time": "Breakfast or lunch",
+        "vibe": "Spicy and Aromatic",
+        "good_for": [
+          "Spice lovers",
+          "Cold mornings",
+          "Hangover recovery"
+        ]
+      },
+      "image": "/images/danang/bun-bo-hue.jpg"
+    },
+    {
+      "id": "food-007",
+      "slug": "nem-lui",
+      "name_en": "Nem Lui (Lemongrass Pork Skewers)",
+      "name_local": "Nem Lụi",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Pork sausage molded around lemongrass stalks, grilled over coals, then rolled in rice paper with herbs and dipped in a peanut-and-fermented-soybean sauce.",
+        "history": "A Hue royal-court invention that traveled south to Da Nang and became central Vietnam's quintessential grill-table dish.",
+        "insider_tip": "Quan Xu on Le Hong Phong Street and Madame Lan on Bach Dang are the gateway versions. The peanut sauce ('mam nem' or 'tuong') is the soul — ask for both styles to compare.",
+        "price_level": "Affordable",
+        "duration": "45 minutes",
+        "best_time": "Dinner",
+        "vibe": "Smoky and Interactive",
+        "good_for": [
+          "Groups",
+          "Hands-on eating",
+          "Beer pairing"
+        ]
+      },
+      "image": "/images/danang/nem-lui.jpg"
+    },
+    {
+      "id": "food-008",
+      "slug": "banh-canh-ca-loc",
+      "name_en": "Banh Canh Ca Loc",
+      "name_local": "Bánh Canh Cá Lóc",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Thick, slippery tapioca noodles in a clear broth with snakehead fish, dill, and ground pepper — the central coast's underrated breakfast.",
+        "history": "A working-class river-and-coast dish from the Quang region; the snakehead fish was originally a way to use abundant freshwater catch.",
+        "insider_tip": "Banh Canh Ca Loc Ba Loi on Le Duan Street has been doing one bowl, one recipe, since 1995. Add fish sauce drop by drop — over-salting kills the broth.",
+        "price_level": "Affordable",
+        "duration": "30 minutes",
+        "best_time": "Breakfast",
+        "vibe": "Clean and Restorative",
+        "good_for": [
+          "Light eaters",
+          "Authentic local",
+          "Breakfast"
+        ]
+      },
+      "image": "/images/danang/banh-canh.jpg"
+    },
+    {
+      "id": "food-009",
+      "slug": "ca-phe-sua-da",
+      "name_en": "Vietnamese Iced Coffee",
+      "name_local": "Cà Phê Sữa Đá",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Dark robusta coffee dripped through a phin filter onto sweetened condensed milk, then stirred into a pile of crushed ice — Vietnam's most iconic export.",
+        "history": "The French introduced coffee in the 1850s; condensed milk replaced fresh milk because refrigeration was unreliable. The combination became a national signature.",
+        "insider_tip": "43 Factory Coffee on Yen Bai Street (third-wave specialty) and the local chain Cong Caphe (Soviet-era aesthetics, strong drinks) are the city's two coffee poles. Skip Highlands and Starbucks.",
+        "price_level": "Affordable",
+        "duration": "20 minutes",
+        "best_time": "Mid-morning",
+        "vibe": "Sweet and Caffeinated",
+        "good_for": [
+          "Heat relief",
+          "Café work",
+          "Cultural ritual"
+        ]
+      },
+      "image": "/images/danang/ca-phe-sua-da.jpg"
+    },
+    {
+      "id": "food-010",
+      "slug": "banh-trang-cuon-thit-heo",
+      "name_en": "Banh Trang Cuon Thit Heo",
+      "name_local": "Bánh Tráng Cuốn Thịt Heo",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Steamed two-end pork belly served with a giant platter of fresh herbs, rice paper, and pickled vegetables — you wrap each bite yourself and dip in fermented anchovy sauce.",
+        "history": "A Da Nang-Hoi An specialty built around the local pig farms of the Quang region; the two-end pork (lean + fatty) is the technical signature.",
+        "insider_tip": "Mau on Tran Khanh Du Street is the cult Da Nang version. The fermented anchovy 'mam nem' is the soul of the dish — try it once, even if it smells punishing.",
+        "price_level": "Moderate",
+        "duration": "1 hour",
+        "best_time": "Lunch or dinner",
+        "vibe": "Fresh and Hands-on",
+        "good_for": [
+          "Groups",
+          "Adventurous eaters",
+          "Sharing"
+        ]
+      },
+      "image": "/images/danang/banh-trang-cuon.jpg"
+    },
+    {
+      "id": "food-011",
+      "slug": "che-dessert",
+      "name_en": "Che (Sweet Soup Dessert)",
+      "name_local": "Chè",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "A category of sweet 'soups' or layered cup desserts — beans, jelly, sticky rice, fruit, coconut milk, in dozens of regional permutations.",
+        "history": "Che traditions vary by region — central Vietnamese versions tend toward simpler, more rustic styles than the technicolor southern ones.",
+        "insider_tip": "Che Xuan Trang on Phan Chu Trinh Street is the city's most loved che shop, open until late. 'Che thai' (Thai-style fruit jelly) and 'che chuoi' (banana-coconut) are the gateway flavors.",
+        "price_level": "Affordable",
+        "duration": "20 minutes",
+        "best_time": "Late afternoon or evening",
+        "vibe": "Cooling and Sweet",
+        "good_for": [
+          "Hot afternoons",
+          "Dessert",
+          "Quick sit-down"
+        ]
+      },
+      "image": "/images/danang/che.jpg"
+    },
+    {
+      "id": "food-012",
+      "slug": "seafood-bbq",
+      "name_en": "Seaside Seafood BBQ",
+      "name_local": "Hải Sản Nướng",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Live seafood (prawns, scallops, mantis shrimp, clams, snails, fish) grilled tableside over coals, ordered by weight from displayed tanks.",
+        "history": "Da Nang's beach-strip seafood culture exploded in the 2010s as the city pivoted to coastal tourism; the format borrows from Korean and Chinese seafood-BBQ traditions.",
+        "insider_tip": "Be Man on Vo Nguyen Giap and Quan Hai San Bay Bien on Hoang Sa are the local benchmarks. Confirm the price-per-kilo BEFORE picking; bills can run 1,500,000+ VND if you don't.",
+        "price_level": "Moderate to Expensive",
+        "duration": "2 hours",
+        "best_time": "Dinner (after 19:00)",
+        "vibe": "Smoky and Social",
+        "good_for": [
+          "Groups",
+          "Seafood lovers",
+          "Beach evenings"
+        ]
+      },
+      "image": "/images/danang/seafood-bbq.jpg"
+    },
+    {
+      "id": "food-013",
+      "slug": "fresh-spring-rolls",
+      "name_en": "Goi Cuon (Fresh Spring Rolls)",
+      "name_local": "Gỏi Cuốn",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Translucent rice-paper rolls stuffed with shrimp, pork, vermicelli, lettuce, and herbs, dipped in hoisin-peanut sauce.",
+        "history": "A southern Vietnamese specialty embraced nationally; Da Nang versions add more central-coast herbs (perilla, fish mint) for a sharper profile.",
+        "insider_tip": "Order at any seafood place as a starter — they always have them. Skip the deep-fried 'cha gio' if you've already ordered other heavy fried food.",
+        "price_level": "Affordable",
+        "duration": "20 minutes",
+        "best_time": "Starter or light lunch",
+        "vibe": "Fresh and Cooling",
+        "good_for": [
+          "Light eaters",
+          "Hot weather",
+          "Gluten-free"
+        ]
+      },
+      "image": "/images/danang/goi-cuon.jpg"
+    },
+    {
+      "id": "food-014",
+      "slug": "bia-hoi",
+      "name_en": "Bia Hoi (Fresh Beer)",
+      "name_local": "Bia Hơi",
+      "category": "food",
+      "is_generic_staple": true,
+      "description": {
+        "short": "Light, low-alcohol (3–4% ABV) draft beer brewed daily and sold at street-side plastic-stool joints for 10,000–15,000 VND a glass — Vietnam's national social fuel.",
+        "history": "Developed during the post-war scarcity era as a cheap, daily-brewed alternative to bottled beer; survived because it works.",
+        "insider_tip": "Bia Hoi corners are concentrated in Hai Chau district near Le Loi Street. Order with grilled meats, peanuts, and a plastic stool. Cheers with 'Mot, Hai, Ba, Yo!' (one, two, three, cheers).",
+        "price_level": "Affordable",
+        "duration": "2 hours",
+        "best_time": "Late afternoon onward",
+        "vibe": "Loud and Local",
+        "good_for": [
+          "Solo travelers",
+          "Budget travelers",
+          "Cultural rite"
+        ]
+      },
+      "image": "/images/danang/bia-hoi.jpg"
+    }
+  ],
+  "must_see": [
+    {
+      "title": "Essential Da Nang",
+      "id": "essential",
+      "items": [
+        {
+          "id": "att-001",
+          "slug": "dragon-bridge",
+          "name_en": "Dragon Bridge",
+          "name_local": "Cầu Rồng",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 666m steel dragon bridge across the Han River that breathes fire and water from its mouth at 21:00 every Saturday and Sunday — Da Nang's defining modern landmark.",
+            "history": "Designed by Louis Berger Group and completed in 2013 to commemorate the 38th anniversary of Da Nang's liberation. The fire/water show was added in 2014 and became the city's signature event.",
+            "insider_tip": "Skip the bridge itself — the best view is from the east-bank rooftop bars (Sky 36, Top View Bar) or the Love Bridge promenade 200m south. Arrive by 20:30 for a seat; the show ends in 15 minutes.",
+            "price_level": "Free",
+            "duration": "1 hour",
+            "best_time": "Sat/Sun 21:00",
+            "vibe": "Touristic and Spectacular",
+            "good_for": [
+              "First-timers",
+              "Families",
+              "Photography"
+            ],
+            "logistics": "Fire/water shows Sat–Sun 21:00 only. Crowds gather from 20:30; arrive earlier on Vietnamese holidays. Free to watch from anywhere along the river.",
+            "historical_context": "The bridge replaced the old Nguyen Van Troi Bridge as the city's primary east-west crossing and was the architectural symbol of Da Nang's pivot from working port to tourism economy.",
+            "local_secret": "The unmarked rooftop coffee shop at Le Restaurant Tien Sa (3 floors up, no signage) directly north of the bridge serves filter coffee for 35,000 VND with a head-on view of the dragon's mouth — every Western blog sends people to Sky 36 instead, where the same view costs 200,000 VND and you face the show sideways."
+          },
+          "image": "/images/danang/dragon-bridge.jpg",
+          "geo": {
+            "lat": 16.0612,
+            "lng": 108.2275
+          }
+        },
+        {
+          "id": "att-002",
+          "slug": "lady-buddha-son-tra",
+          "name_en": "Lady Buddha at Linh Ung Pagoda",
+          "name_local": "Chùa Linh Ứng",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 67m white Bodhisattva statue (Avalokiteshvara) on the Son Tra peninsula — the tallest Lady Buddha in Vietnam, gazing east over Da Nang Bay.",
+            "history": "Completed in 2010 on the slopes of Son Tra; the temple complex below is a working Buddhist site, not just a viewpoint. The statue is intended as a guardian against typhoons.",
+            "insider_tip": "Go in the late afternoon (16:00–17:30) when the sun lights the white statue from the west and the bay-view balcony empties of tour buses. Free entry, free parking.",
+            "price_level": "Free",
+            "duration": "1.5 hours",
+            "best_time": "Late afternoon 16:00–17:30",
+            "vibe": "Sacred and Panoramic",
+            "good_for": [
+              "First-timers",
+              "Photography",
+              "Easy half-day"
+            ],
+            "logistics": "Open daily 06:00–21:00. 20-minute scooter ride from My Khe. No taxi rank at the temple — return Grab is unreliable; arrange a return scooter or driver-waiting in advance.",
+            "historical_context": "Son Tra peninsula was a strategic US military observation post during the Vietnam War; the radar dome on the summit is still active military zone today.",
+            "local_secret": "The unmarked dirt trail behind the bell tower (look for the small flight of moss-covered stone steps) climbs 15 minutes through forest to a private cliff platform with a wider bay view than the official terrace — local monks use it for sunrise meditation and tourists almost never find it."
+          },
+          "image": "/images/danang/lady-buddha.jpg",
+          "geo": {
+            "lat": 16.1003,
+            "lng": 108.2778
+          }
+        },
+        {
+          "id": "att-003",
+          "slug": "marble-mountains",
+          "name_en": "Marble Mountains (Ngu Hanh Son)",
+          "name_local": "Ngũ Hành Sơn",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Five limestone-marble karsts riddled with Buddhist cave pagodas, climbing 100m above the coastal plain 10km south of the city — a sacred site since the 17th century.",
+            "history": "Named after the five elements (metal, wood, water, fire, earth); Thuy Son (Water Mountain) is the largest and most visited. Cham peoples worshipped here before the Vietnamese arrival; the marble itself was quarried for centuries before the government banned extraction in 2011.",
+            "insider_tip": "Use the 15,000 VND elevator (one way) for the climb up; descend on foot via the back staircase. Skip the touristy Am Phu (Hell) Cave unless you have extra time — the main caves are more impressive.",
+            "price_level": "Affordable (40,000 VND entry + 15,000 elevator)",
+            "duration": "2–3 hours",
+            "best_time": "Early morning 7:30–9:00",
+            "vibe": "Mystical and Climbing",
+            "good_for": [
+              "History lovers",
+              "Photography",
+              "Half-day trips"
+            ],
+            "logistics": "Open daily 07:00–17:30. 15-minute scooter from My Khe or 30 minutes from city center. Bring water, modest clothing (knees and shoulders covered for the pagodas).",
+            "historical_context": "Huyen Khong Cave inside Thuy Son was used as a Viet Cong field hospital during the war — the bullet holes in the cave ceiling are from American helicopter fire trying to flush them out.",
+            "local_secret": "The stone-carving workshops along the road between the mountains and the beach are open to visitors and the older masters will demonstrate their work for free — pieces direct from these workshops are 30–50% cheaper than the same items sold to tour buses at the mountain itself."
+          },
+          "image": "/images/danang/marble-mountains-detail.jpg",
+          "geo": {
+            "lat": 16.0044,
+            "lng": 108.2625
+          }
+        },
+        {
+          "id": "att-004",
+          "slug": "ba-na-hills",
+          "name_en": "Ba Na Hills & Golden Bridge",
+          "name_local": "Bà Nà Hills",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 1,487m mountain resort accessed by one of the world's longest cable cars (5,801m), home to the photo-famous Golden Bridge held up by two giant stone hands.",
+            "history": "Built by the French as a hill station in 1919; abandoned during the wars; reopened in 2007 as a private Sun Group amusement-park-resort. The Golden Bridge opened in 2018 and went viral within weeks.",
+            "insider_tip": "Skip the weekend; go weekday mornings (gates 8:00). The whole resort takes 5–7 hours including the cable car. The 'French Village' on top is intentional kitsch; the Golden Bridge view is the real reason to come.",
+            "price_level": "Expensive (950,000 VND entry, includes cable car)",
+            "duration": "Full day (8 hours including transit)",
+            "best_time": "Weekday 8:00 AM departure",
+            "vibe": "Kitschy and Spectacular",
+            "good_for": [
+              "Families",
+              "Photography",
+              "First-time visitors"
+            ],
+            "logistics": "45km west of Da Nang. Grab Car round-trip 800,000–1,000,000 VND. Pre-booked private cars 600,000–800,000 VND. Buses unreliable.",
+            "historical_context": "The original French villa ruins are still scattered through the resort grounds, mostly absorbed into the modern construction — a slightly surreal mix of authentic colonial decay and 21st-century theme park.",
+            "local_secret": "The original abandoned French cellars and the old wine cave are still accessible behind the Debay Wine Cellar attraction — the modern entrance ticket includes them but most tour groups skip past. Free to wander, atmospheric, and almost always empty."
+          },
+          "image": "/images/danang/ba-na-detail.jpg",
+          "geo": {
+            "lat": 15.9952,
+            "lng": 107.9962
+          }
+        }
+      ]
+    },
+    {
+      "title": "Local Life & Coastal",
+      "id": "local-life",
+      "items": [
+        {
+          "id": "act-001",
+          "slug": "son-tra-coastal-loop",
+          "name_en": "Son Tra Coastal Loop",
+          "name_local": "Đường Hoàng Sa",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 30km scooter loop around the Son Tra peninsula on a paved coastal road — sea cliffs, hidden coves, the Lady Buddha, monkey sightings, and panoramic switchbacks.",
+            "history": "The road was paved in the early 2000s primarily for military access to the radar dome on the summit; it was opened to civilians as part of the city's tourism expansion.",
+            "insider_tip": "Ride clockwise from the marina, full tank of fuel, no time pressure. Sunset from the Bai But viewpoint (km 14) is the city's best free view. Inland summit road is intermittently closed for military.",
+            "price_level": "Free (scooter rental 120,000 VND)",
+            "duration": "Half-day (4 hours)",
+            "best_time": "Morning departure (7:30) or sunset (16:00)",
+            "vibe": "Coastal and Liberating",
+            "good_for": [
+              "Scooter riders",
+              "Photography",
+              "Half-day"
+            ],
+            "logistics": "Start from the Tien Sa port roundabout. No fuel stations on the peninsula — fill before entering. Some sections have steep climbs; underpowered scooters struggle.",
+            "historical_context": "Son Tra ('Monkey Mountain') was a US military observation and signals-intelligence base during the war; the radar dome on the summit is still operational Vietnamese military.",
+            "local_secret": "The 'Ban Co' (Chess Board) summit at the highest accessible point of the peninsula has a stone chess-table sculpture and a 270-degree view that almost no foreign tourist reaches — the road is steep and unmarked at the turnoff opposite the Indochine Bungalow Resort gate. Best at 6:30 AM."
+          },
+          "image": "/images/danang/son-tra-coast.jpg",
+          "geo": {
+            "lat": 16.1167,
+            "lng": 108.2833
+          }
+        },
+        {
+          "id": "act-002",
+          "slug": "my-khe-sunrise",
+          "name_en": "My Khe Sunrise Beach Ritual",
+          "name_local": "Bãi biển Mỹ Khê",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The local pre-dawn beach gathering — exercise groups, swimmers, volleyball, badminton, and food carts setting up — 4:45 AM to 6:30 AM daily.",
+            "history": "Vietnamese coastal cities have an entrenched pre-dawn fitness culture, partly because the rest of the day is too hot for outdoor exercise. My Khe is the central coast's most active example.",
+            "insider_tip": "Walk down with a towel; locals will not bother you. The food carts open around 5:30 AM for 'bun cha ca' (fish-cake noodle soup) — eat sitting on a plastic stool watching the sea.",
+            "price_level": "Free",
+            "duration": "1.5 hours",
+            "best_time": "5:00–6:30 AM",
+            "vibe": "Communal and Energetic",
+            "good_for": [
+              "Early risers",
+              "Cultural immersion",
+              "Photography"
+            ],
+            "logistics": "Free, open 24/7. Lifeguard towers staffed from 6:00. Walk-in from any beach hotel.",
+            "historical_context": "My Khe was nicknamed 'China Beach' by American GIs during the Vietnam War — it was the R&R beach for US forces stationed at Da Nang Air Base.",
+            "local_secret": "The pho stall on the inland corner of Vo Nguyen Giap and Hoang Ke Viem (no signage, blue plastic stools, set up at 5:15 AM, gone by 8:00) serves what local fishermen consider the best bun cha ca on the beach side — never appears on TripAdvisor or any English-language list."
+          },
+          "image": "/images/danang/my-khe-sunrise.jpg",
+          "geo": {
+            "lat": 16.0594,
+            "lng": 108.2486
+          }
+        },
+        {
+          "id": "act-003",
+          "slug": "hai-van-pass",
+          "name_en": "Hai Van Pass Ride",
+          "name_local": "Đèo Hải Vân",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The 21km mountain pass between Da Nang and Hue, hugging the coast at altitude — the road Top Gear named one of the world's great drives.",
+            "history": "The pass was the historical border between the Dai Viet and Cham kingdoms and the climatic divide between Vietnam's north and south. The summit fortress was Nguyen-dynasty, French-occupied, and American-occupied in turn.",
+            "insider_tip": "Hire an 'easy rider' guide (Da Nang to Hue one-way, 400,000–600,000 VND with luggage transport) for the safest, best-narrated ride. Self-riding requires solid scooter skills, weather check, and an IDP.",
+            "price_level": "Moderate (400,000–600,000 VND guided)",
+            "duration": "Half-day (4 hours round-trip) or one-way to Hue",
+            "best_time": "Morning departure 8:00 (clearest views)",
+            "vibe": "Cinematic and Coastal",
+            "good_for": [
+              "Motorbike riders",
+              "Photography",
+              "Adventure"
+            ],
+            "logistics": "21km pass, 30+ hairpins. Fog frequent above 400m. Fuel stations on both sides. Truck traffic possible but most use the parallel tunnel.",
+            "historical_context": "The Hai Van Tunnel (2005) absorbed most through-traffic; the pass is now a tourist road. The 'Don Cao' fortress at the summit still has French and American gun emplacements visible.",
+            "local_secret": "The unmarked 'Bo Ke Cafe' at km 15 of the pass — a corrugated-metal shack 50m off the road on a dirt pull-out — serves filter coffee on a cliff platform with a 300-degree view of Lang Co Lagoon. Run by a single family, cash only, 25,000 VND a cup. Most easy-rider guides know it; many skip it for the more developed summit cafés."
+          },
+          "image": "/images/danang/hai-van-detail.jpg",
+          "geo": {
+            "lat": 16.1969,
+            "lng": 108.1244
+          }
+        },
+        {
+          "id": "act-004",
+          "slug": "han-market",
+          "name_en": "Han Market (Cho Han)",
+          "name_local": "Chợ Hàn",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Da Nang's main two-story working market — ground floor for food, herbs, fish, and street food; upper floor for fabric, ao dai tailoring, and souvenirs.",
+            "history": "Operating since the 1940s, the market was rebuilt in concrete in the 1980s. It is still primarily a local market — the upper-floor tourist trade only accounts for a fraction of its turnover.",
+            "insider_tip": "Eat at the ground-floor food stalls (banh canh, bun mam, che) for the most authentic local lunch. For ao dai tailoring upstairs, get quotes from 3 different stalls — prices vary by 30–50%.",
+            "price_level": "Affordable",
+            "duration": "1.5 hours",
+            "best_time": "Morning 7:00–10:00",
+            "vibe": "Sensory and Working-class",
+            "good_for": [
+              "Food",
+              "Shopping",
+              "Photography"
+            ],
+            "logistics": "Open daily 06:00–19:00. Cash only at almost all stalls. The food court entrance is on the south side.",
+            "historical_context": "Han Market is one of the few institutions in central Vietnam to operate continuously through the French colonial period, the war, and the Doi Moi reforms.",
+            "local_secret": "The 'mì quảng' stall in the back-left corner of the ground floor (no signage, run by an elderly couple, open 6:30–10:30 only) is the city's most loved 'invisible' bowl — 35,000 VND, you sit on a plastic stool wedged between fish vendors, and the broth has a depth no tourist-facing restaurant matches."
+          },
+          "image": "/images/danang/han-market.jpg",
+          "geo": {
+            "lat": 16.0686,
+            "lng": 108.2236
+          }
+        },
+        {
+          "id": "act-005",
+          "slug": "hoi-an-evening",
+          "name_en": "Hoi An Lantern Evening",
+          "name_local": "Hội An đêm",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The UNESCO-listed Ancient Town at night — silk lanterns over the river, the Japanese Covered Bridge, floating candles, and rolling pedestrian-only streets.",
+            "history": "Hoi An was a 15th–19th-century international trading port (Japanese, Chinese, Dutch, Portuguese merchants). The Old Town was preserved when the harbor silted up and trade moved to Da Nang in the late 19th century.",
+            "insider_tip": "Go for the evening only — Grab Car from Da Nang at 16:30, dinner in town, evening walk, return Grab at 22:30. Skip the daytime tour-bus invasion. Full-moon nights have a candle-floating ritual on the river.",
+            "price_level": "Affordable (120,000 VND Old Town entry)",
+            "duration": "5–6 hours (including transit)",
+            "best_time": "Sunset arrival (17:30)",
+            "vibe": "Magical and Touristy",
+            "good_for": [
+              "Couples",
+              "Photography",
+              "Cultural experience"
+            ],
+            "logistics": "30km south of Da Nang. Grab Car 350,000–450,000 VND each way. Some Da Nang hotels run 100,000–150,000 VND shuttles. The Old Town is fully pedestrian after 18:00.",
+            "historical_context": "Hoi An's Cau Pagoda (Japanese Covered Bridge, 1593) is the only surviving covered bridge of its kind in Vietnam — built by Japanese merchants to symbolically connect the Japanese and Chinese quarters.",
+            "local_secret": "The Cam Nam island, accessible by walking across the An Hoi Bridge from the Old Town, has a quieter back-street pho and che food strip used by locals — the lanterns of the main town are visible across the water, but the prices are 40% lower and the crowds are nonexistent."
+          },
+          "image": "/images/danang/hoi-an-detail.jpg",
+          "geo": {
+            "lat": 15.8801,
+            "lng": 108.328
+          }
+        },
+        {
+          "id": "act-006",
+          "slug": "cham-museum",
+          "name_en": "Museum of Cham Sculpture",
+          "name_local": "Bảo tàng Điêu khắc Chăm",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The world's largest collection of Cham civilization sculpture — sandstone Hindu deities, dancing apsaras, and lingams from the 5th–15th centuries — housed in a 1915 French colonial pavilion.",
+            "history": "Founded by the École Française d'Extrême-Orient in 1915 to house artifacts excavated from My Son and other Cham sites. The collection includes pieces returned from the Guimet Museum in Paris.",
+            "insider_tip": "Pair with a My Son day trip (1.5 hours west) — see the original temple sites first, then the museum's context fills in what's missing from the ruined originals. Combined trip 8 hours.",
+            "price_level": "Affordable (60,000 VND entry)",
+            "duration": "1.5 hours",
+            "best_time": "Weekday mornings 8:30–10:00",
+            "vibe": "Quiet and Scholarly",
+            "good_for": [
+              "History buffs",
+              "Art lovers",
+              "Photography"
+            ],
+            "logistics": "Open daily 07:30–17:00. Located at the western end of the Dragon Bridge approach. Audio guide available for 50,000 VND.",
+            "historical_context": "The Cham kingdom controlled central Vietnam from the 2nd to the 17th centuries before being absorbed by the Vietnamese southward expansion. Their Hindu-Buddhist art tradition is the visible heritage of pre-Vietnamese central coast culture.",
+            "local_secret": "The 'My Son' gallery on the rear-right side of the museum holds the only intact Tara statue from the 9th-century Dong Duong Buddhist site — the original was bronze, looted, and recovered; this is the centerpiece almost no tourist photographs because it's not in the front rooms."
+          },
+          "image": "/images/danang/cham-museum.jpg",
+          "geo": {
+            "lat": 16.0617,
+            "lng": 108.2231
+          }
+        }
+      ]
+    },
+    {
+      "title": "Modern & Markets",
+      "id": "modern",
+      "items": [
+        {
+          "id": "mod-001",
+          "slug": "asia-park",
+          "name_en": "Asia Park & Sun Wheel",
+          "name_local": "Công viên Châu Á",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "A 100-hectare riverside theme park with a 115m-tall Ferris wheel (the Sun Wheel), Asian-architecture replicas, and the city's largest evening light show.",
+            "history": "Opened by the Sun Group in 2014 as part of Da Nang's tourism build-out; the Sun Wheel was at the time the 10th-tallest in the world.",
+            "insider_tip": "Visit just for the Sun Wheel evening ride (200,000 VND) — the rest of the park is theme-park-of-Asia kitsch that takes 30 minutes to walk. Best at 18:30, two hours before the fireworks.",
+            "price_level": "Moderate (250,000–400,000 VND entry)",
+            "duration": "3 hours",
+            "best_time": "Evening 18:00 onward",
+            "vibe": "Theme Park Bright",
+            "good_for": [
+              "Families",
+              "Photography",
+              "Evening"
+            ],
+            "logistics": "Open 15:00–22:00 daily. Located on the west bank, south of the Tran Thi Ly Bridge. Free parking.",
+            "historical_context": "The park sits on what was, before 2010, a working riverside dockyard — its construction symbolizes Da Nang's full pivot away from industrial-port economy to tourism.",
+            "local_secret": "The Sun Wheel ride lasts 15 minutes (three full rotations) — the second rotation, around minute 6–10, gives the city's best aerial view of the river bend with all five bridges visible at once. Most riders point their cameras the whole time; the view from the apex is best appreciated phone-down for 2 minutes."
+          },
+          "image": "/images/danang/asia-park.jpg",
+          "geo": {
+            "lat": 16.0381,
+            "lng": 108.2222
+          }
+        },
+        {
+          "id": "mod-002",
+          "slug": "rooftop-bars",
+          "name_en": "Sky Bars over the Han River",
+          "name_local": "Bar trên cao",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Open-air cocktail terraces 25–35 stories above the river, offering panoramic views of the Dragon Bridge, the coast, and Son Tra in a single 180-degree sweep.",
+            "history": "Da Nang's rooftop scene exploded after 2018 as the city's hotel-tower count tripled; the genre is younger here than in Bangkok or Saigon but rapidly catching up.",
+            "insider_tip": "Sky 36 (Novotel) is iconic but expensive. Top View Bar (HAIAN Riverfront, 24th floor) has the better Dragon Bridge angle for half the price. Reserve on weekends.",
+            "price_level": "Expensive (cocktails 200,000–350,000 VND)",
+            "duration": "2 hours",
+            "best_time": "Sunset 17:30–19:30",
+            "vibe": "Glamorous and Panoramic",
+            "good_for": [
+              "Couples",
+              "Sunset",
+              "Photography"
+            ],
+            "logistics": "Most rooftops open 16:30. Dress code is smart casual; no flip-flops or beach shorts. Walk-ins welcome on weekdays.",
+            "historical_context": "Da Nang's vertical skyline is younger than the city itself — most towers were built between 2015 and 2023 during the Korean-investment boom.",
+            "local_secret": "The rooftop bar at the (much smaller, 12-floor) Memory Hotel on Le Hong Phong serves drinks at 100,000 VND in a low-key open-air space with a clear east view to the Dragon Bridge — almost no Western blog covers it because the hotel itself is mid-range, but the view is identical to the 25th-floor rivals."
+          },
+          "image": "/images/danang/rooftop.jpg",
+          "geo": {
+            "lat": 16.0683,
+            "lng": 108.224
+          }
+        },
+        {
+          "id": "mod-003",
+          "slug": "an-thuong-cafe-strip",
+          "name_en": "An Thuong Cafe & Coworking Strip",
+          "name_local": "An Thượng",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "The walkable inland grid behind My Khe Beach — Western brunch spots, specialty coffee, coworking spaces, surf schools, and a high concentration of long-stay nomads.",
+            "history": "An Thuong was a sleepy fishing neighborhood until 2015, when the digital-nomad migration began. By 2020 it was Vietnam's densest concentration of foreign long-stay residents outside Saigon's Thao Dien.",
+            "insider_tip": "Walk the An Thuong 4, An Thuong 5, and An Thuong 24 streets in the late afternoon. Hidden Cafe (Vietnamese owner, Western menu) and 43 Factory Coffee are the locals' picks.",
+            "price_level": "Moderate",
+            "duration": "2–3 hours",
+            "best_time": "Late afternoon 15:00–18:00",
+            "vibe": "Curated and International",
+            "good_for": [
+              "Nomads",
+              "Cafés",
+              "Walking"
+            ],
+            "logistics": "10-minute walk from My Khe Beach. Fully walkable grid. Most cafés open 7:00–22:00.",
+            "historical_context": "The An Thuong nomad cluster is the visible architecture of Vietnam's emerging foreign-resident economy and the central coast's pivot from beach tourism to long-stay residency.",
+            "local_secret": "The third-floor open-air terrace at 'Bloom Coffee' on An Thuong 4 is unmarked, requires walking past the main café and up a back staircase, and is almost always empty — best afternoon work spot in An Thuong, with a hidden view over the neighborhood rooftops to Son Tra."
+          },
+          "image": "/images/danang/an-thuong.jpg",
+          "geo": {
+            "lat": 16.0492,
+            "lng": 108.2461
+          }
+        },
+        {
+          "id": "mod-004",
+          "slug": "con-market",
+          "name_en": "Con Market (Cho Con)",
+          "name_local": "Chợ Cồn",
+          "category": "sight",
+          "is_generic_staple": false,
+          "description": {
+            "short": "Da Nang's other major market — bigger and more chaotic than Han Market, less tourist-facing, with a celebrated 'banh trang' (rice paper) and dried-seafood section.",
+            "history": "Operating in its current form since 1984; the building was modernized in 2012. Con Market is the wholesale supplier for much of the city's smaller markets and street food vendors.",
+            "insider_tip": "Visit for the ground-floor food court — banh canh, bun rieu, mi quang from 7–11 AM. The dried-seafood and dried-fruit sections on the second floor are the city's best for take-home gifts.",
+            "price_level": "Affordable",
+            "duration": "1.5 hours",
+            "best_time": "Morning 7:00–10:00",
+            "vibe": "Working and Pungent",
+            "good_for": [
+              "Foodies",
+              "Local culture",
+              "Souvenirs"
+            ],
+            "logistics": "Open daily 06:00–19:00. Cash only at almost every stall. Crowded entrance on Hung Vuong Street.",
+            "historical_context": "Con Market is the wholesale food backbone of central Da Nang — most of the city's family restaurants buy their daily produce here.",
+            "local_secret": "The unmarked alley directly behind Con Market (between the south wall and Hoang Hoa Tham Street) is lined with 8–10 family bun bo Hue stalls open from 5:00 AM. Locals call it 'Bun Bo Alley' — no English signage, plastic stools, 30,000 VND a bowl, and the city's most loved breakfast secret."
+          },
+          "image": "/images/danang/con-market.jpg",
+          "geo": {
+            "lat": 16.0656,
+            "lng": 108.2117
+          }
+        }
+      ]
+    }
+  ],
+  "itinerary": [
+    {
+      "time": "5:00 AM",
+      "title": "Sunrise Beach Ritual at My Khe",
+      "description": "Walk down to My Khe Beach in the pre-dawn dark. By 5:00 AM the sand is full — fishermen pulling in nets, retirees doing tai chi, students playing badminton, families swimming. Grab a plastic stool at the bun cha ca cart on the inland corner of Vo Nguyen Giap and Hoang Ke Viem; 35,000 VND for the city's most local breakfast. Watch the sun come up over the South China Sea. The whole ritual is over by 7:00 AM and you've already experienced Da Nang more authentically than 90% of visitors will all week.",
+      "image": "/images/danang/itinerary-sunrise.jpg"
+    },
+    {
+      "time": "8:00 AM",
+      "title": "Marble Mountains Climb",
+      "description": "Grab Bike (35,000 VND) to Ngu Hanh Son. Pay 40,000 VND entry + 15,000 VND for the elevator up Thuy Son. Walk the cave-pagoda circuit — Huyen Khong Cave (the largest, with skylights), Linh Ung Pagoda, the Vietnam-War bullet holes in the cave ceiling. Descend on foot via the back staircase. Skip Am Phu Cave unless you're a completionist. Out by 10:30 before the heat peaks.",
+      "image": "/images/danang/itinerary-marble.jpg"
+    },
+    {
+      "time": "11:00 AM",
+      "title": "Mi Quang at a Local Institution",
+      "description": "Grab Bike back into the city center to Mi Quang 1A on Hai Phong Street. 45,000 VND for a bowl of the signature dish of the Quang region — turmeric-stained flat noodles with shrimp, pork, peanuts, fresh herbs, and just enough broth to coat. Crumble the dry rice cracker on top. Sit on a plastic stool with locals on their pre-lunch break. This is what Da Nang eats at 11 AM.",
+      "image": "/images/danang/itinerary-miquang.jpg"
+    },
+    {
+      "time": "1:00 PM",
+      "title": "Pool & Beach Break (Heat Avoidance)",
+      "description": "Back to the hotel for the unmissable midday tropical truth: nobody does anything between 12:00 and 15:00. The heat index hits 40°C, the sand is 60°C, the sun is at the worst angle. Locals nap, expats work, tourists who don't know this get sunstroke. Use the pool, work, sleep — outdoor sightseeing resumes at 16:00.",
+      "image": "/images/danang/itinerary-pool.jpg"
+    },
+    {
+      "time": "4:00 PM",
+      "title": "Son Tra Peninsula Scooter Loop",
+      "description": "Pick up a rental scooter (120,000 VND/day). Ride the coastal road around Son Tra clockwise, starting from the Tien Sa port roundabout. Stop at Bai But viewpoint (km 14) for a swim, the Lady Buddha at Linh Ung Pagoda (free, 30 mins), and the hidden cliff platform behind the bell tower (15-min walk, almost empty). The full loop is 30km and takes 3 hours with stops. Sunset at Bai Bac before riding back.",
+      "image": "/images/danang/itinerary-sontra.jpg"
+    },
+    {
+      "time": "7:30 PM",
+      "title": "Seafood BBQ on the Beach Strip",
+      "description": "Grab to Be Man Seafood on Vo Nguyen Giap. Choose live seafood from the tanks — prawns, scallops, mantis shrimp, clams — and grill it tableside. CRITICAL: confirm price-per-kilo before pointing at anything; bills can run 1.5 million VND if you don't. Pair with bia hoi (fresh draft, 15,000 VND a glass) and the universal cheers: 'Mot, Hai, Ba, Yo!' Expect 600,000–1,000,000 VND for two.",
+      "image": "/images/danang/itinerary-seafood.jpg"
+    },
+    {
+      "time": "9:00 PM",
+      "title": "Dragon Bridge Fire Show (Sat/Sun only)",
+      "description": "If it's a Saturday or Sunday, the Dragon Bridge breathes fire and water at exactly 21:00. Walk south on the east bank to the Love Bridge promenade for the head-on view (free, crowded). Better: arrive at the unmarked Le Restaurant Tien Sa rooftop coffee shop (north of the bridge, 3 floors up, no signage) by 20:45 — 35,000 VND for filter coffee with the same view that Sky 36 charges 200,000 VND for. The show is 15 minutes; afterward, walk back along Bach Dang for the city's after-dark vibe.",
+      "image": "/images/danang/itinerary-dragon.jpg"
+    }
+  ],
+  "affiliate_products": [
+    {
+      "id": "aff-001",
+      "title": "Motorcycle Helmet (DOT-Certified Half-Face)",
+      "image": "/images/danang/helmet.jpg",
+      "reason": "Rental helmets are often paper-thin and unsafe at scooter speeds. A travel-friendly DOT half-face helmet packs flat and could save your life on Hai Van Pass.",
+      "amazon_url": "https://www.amazon.com/s?k=dot+motorcycle+helmet+half+face+travel&tag=canibringonpl-20",
+      "category": "security"
+    },
+    {
+      "id": "aff-002",
+      "title": "Type A/C/F Universal Travel Adapter",
+      "image": "/images/danang/adapter.jpg",
+      "reason": "Vietnam mixes Type A (US two-pin), Type C (Europe), and Type F (Europe grounded) sockets — sometimes in the same hotel room. One universal adapter handles all three.",
+      "amazon_url": "https://www.amazon.com/s?k=universal+travel+adapter+vietnam&tag=canibringonpl-20",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-003",
+      "title": "DEET Mosquito Repellent",
+      "image": "/images/danang/repellent.jpg",
+      "reason": "Dengue is a year-round risk in Da Nang. DEET-based repellent (25–30%) is the only thing that reliably keeps Aedes mosquitoes off at dusk and dawn.",
+      "amazon_url": "https://www.amazon.com/s?k=deet+mosquito+repellent+travel&tag=canibringonpl-20",
+      "category": "health"
+    },
+    {
+      "id": "aff-004",
+      "title": "Reef-Safe High-SPF Sunscreen",
+      "image": "/images/danang/sunscreen.jpg",
+      "reason": "Coastal sun + 16-degree latitude = burns in 20 minutes. SPF 50+ reef-safe protects you and the reefs at My Khe and the Cham Islands.",
+      "amazon_url": "https://www.amazon.com/s?k=reef+safe+spf+50+sunscreen&tag=canibringonpl-20",
+      "category": "weather"
+    },
+    {
+      "id": "aff-005",
+      "title": "Quick-Dry Microfiber Towel",
+      "image": "/images/danang/towel.jpg",
+      "reason": "Sunrise beach swims, sudden rainstorms, sweat — a compact quick-dry towel earns its place in any Da Nang day-pack.",
+      "amazon_url": "https://www.amazon.com/s?k=quick+dry+microfiber+travel+towel&tag=canibringonpl-20",
+      "category": "weather"
+    },
+    {
+      "id": "aff-006",
+      "title": "Electrolyte Hydration Sachets",
+      "image": "/images/danang/electrolytes.jpg",
+      "reason": "80%+ humidity and 34°C heat dehydrate faster than water alone can fix. Electrolyte sachets prevent the headaches and lethargy that ruin Day 2.",
+      "amazon_url": "https://www.amazon.com/s?k=electrolyte+hydration+sachets&tag=canibringonpl-20",
+      "category": "health"
+    },
+    {
+      "id": "aff-007",
+      "title": "Anti-Theft Crossbody Bag",
+      "image": "/images/danang/bag.jpg",
+      "reason": "Drive-by phone snatching by scooter is uncommon but documented in beach tourist zones. Slash-proof straps and locking zippers neutralize the easy target.",
+      "amazon_url": "https://www.amazon.com/s?k=anti+theft+crossbody+bag&tag=canibringonpl-20",
+      "category": "security"
+    },
+    {
+      "id": "aff-008",
+      "title": "eSIM for Vietnam",
+      "image": "/images/danang/esim.jpg",
+      "reason": "Grab, Google Translate, and Windy typhoon tracking are essential. An eSIM (Airalo, Holafly) is live before you land — no SIM-card paperwork at the airport.",
+      "amazon_url": "https://www.amazon.com/s?k=esim+vietnam+travel&tag=canibringonpl-20",
+      "category": "electronics"
+    },
+    {
+      "id": "aff-009",
+      "title": "Compact Travel Umbrella",
+      "image": "/images/danang/umbrella.jpg",
+      "reason": "Sep–Nov afternoon storms are sudden and dense. A packable umbrella outperforms a hooded jacket in tropical downpours.",
+      "amazon_url": "https://www.amazon.com/s?k=compact+travel+umbrella+wind&tag=canibringonpl-20",
+      "category": "weather"
+    }
+  ],
+  "survival_kit": {
+    "dos": [
+      "DO wear a helmet on every scooter ride, including the 50m to a café. Police checkpoints fine helmet-less riders on the spot, and travel insurance voids without one.",
+      "DO confirm seafood price-per-kilo BEFORE pointing at anything in a beach restaurant tank. Bills run 1,500,000+ VND when you skip this step.",
+      "DO carry an International Driving Permit with motorcycle class. Without it, you are uninsured for any accident in Vietnam — even one that isn't your fault.",
+      "DO time outdoor activities for 6:00–11:00 or 16:00–19:00. The 11:00–15:00 window is dangerously hot — locals do not move outside in it.",
+      "DO drink only bottled water and refuse ice at street stalls outside the Western-facing tourist crust. Tap water carries giardia, cholera, and the standard tropical pathogens.",
+      "DO use sunscreen even on overcast days. Da Nang sits at 16° latitude — UV penetrates cloud cover and burns pale skin in 20 minutes.",
+      "DO take Grab Bike for short hops and Grab Car for long ones. Both are cheaper and safer than unmarked taxis; Grab Bike is the fastest way through scooter-dense traffic.",
+      "DO eat banh mi, mi quang, and pho from busy local stalls with high turnover. The cleanest food in Vietnam is the food that sells out every day.",
+      "DO learn to count zeros on VND notes (10,000 vs 100,000 vs 500,000). The 'I gave you 100k not 10k' confusion is the city's #1 honest-mistake-or-scam.",
+      "DO check typhoon and flood forecasts daily Sep–Nov. Major storms shut Da Nang for 36–48 hours and flood Hoi An for a week — your day trip can become impossible.",
+      "DO buy travel insurance that covers scooter use, motorbike accidents, and tropical disease evacuation. The two are non-negotiable for any Vietnam trip.",
+      "DO learn 'xin chào' (hello), 'cảm ơn' (thank you), and 'không cay' (not spicy). Three words is enough to visibly reset the tone of every interaction."
+    ],
+    "donts": [
+      "DON'T drink the tap water, brush teeth with it (in some hotels), or accept ice at street stalls in non-tourist neighborhoods. Bottled is 10,000 VND/1.5L — there is no reason to risk it.",
+      "DON'T accept the coconut-yoke photo at My Khe Beach. A vendor will place the carrying pole on your shoulders, your friend will take the photo, and then the vendor demands 200,000–500,000 VND.",
+      "DON'T ride a scooter without travel insurance that explicitly covers motorbike use. Most basic policies exclude it; a single accident without coverage costs 50,000,000+ VND in private hospital care.",
+      "DON'T attempt Hai Van Pass on a scooter if you're not a confident rider. The road has 30+ hairpins, fog, and truck traffic — use a guided 'easy rider' (400,000 VND) for the safer one-way to Hue.",
+      "DON'T swim at My Khe between Aug–Sep when jellyfish (and rip currents) peak, especially outside marked lifeguard zones with red/yellow flags.",
+      "DON'T walk through the An Thuong grid in beachwear after 21:00 expecting the same warmth as the beach side. The conservative Vietnamese family residential blocks one street back operate by different codes.",
+      "DON'T leave valuables visible on a parked scooter — under the seat is fine, in the front basket is not. Drive-by snatching does happen at restaurant clusters.",
+      "DON'T eat raw seafood salads or rare beef pho at unfamiliar street stalls in the first three days. Adapt your stomach to cooked dishes first.",
+      "DON'T trust 'helpful' airport men offering to carry your bag in fake uniforms. The terminal is small, signage is clear, and the Grab pickup zone is well-marked.",
+      "DON'T pay in USD when the price is quoted in USD. The conversion is almost always unfavorable — pay in VND at 25,000/USD, not 23,000/USD.",
+      "DON'T schedule a Hoi An overnight in Oct–Nov without checking the flood forecast. The Old Town floods knee-deep most years, and you can be stranded 36+ hours.",
+      "DON'T ignore the Vietnamese pronoun system. Calling a 60-year-old waiter 'em' (younger) instead of 'anh' (older) makes the entire interaction colder — older locals notice immediately."
+    ]
+  },
+  "region": "Asia"
+}
