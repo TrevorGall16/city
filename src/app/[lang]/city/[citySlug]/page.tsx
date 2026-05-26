@@ -400,7 +400,7 @@
           </section>
 
           {/* ── SCROLLABLE CONTENT + STICKY SIDEBAR ──────────────────────── */}
-          <div className="max-w-[1400px] mx-auto px-4 md:px-8">
+          <div className="max-w-[1400px] mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8 items-start">
               <div className="min-w-0">
 
