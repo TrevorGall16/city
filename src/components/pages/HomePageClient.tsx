@@ -65,6 +65,14 @@ export function HomePageClient({ cities, regions, lang, translations }: any) {
         </div>
       </section>
 
+      {/* Ad slot: between map and city grid */}
+      <div className="max-w-[1400px] mx-auto px-6 py-8 flex justify-center" style={{ minHeight: 250 }}>
+        <AdsterraDisplayBanner
+          size="medium-rectangle"
+          pKey="258fbd7f9475277565c29c04ed1299f6"
+        />
+      </div>
+
       <section ref={gridRef} className="max-w-[1400px] mx-auto px-6 py-20">
         <h2 className="text-2xl md:text-3xl font-bold mb-12">{translations.featured_cities}</h2>
 
