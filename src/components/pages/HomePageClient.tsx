@@ -5,6 +5,8 @@ import { CityCard } from '@/components/features/CityCard'
 import { Map, ArrowRight } from 'lucide-react'
 import dynamic from 'next/dynamic'
 
+import { AdsterraDisplayBanner } from '@/components/ads/AdsterraDisplayBanner'
+
 const InteractiveWorldMap = dynamic(
   () => import('@/components/features/InteractiveWorldMap').then((mod) => mod.InteractiveWorldMap),
   { 
@@ -45,6 +47,14 @@ export function HomePageClient({ cities, regions, lang, translations }: any) {
           </button>
         </div>
       </section>
+
+      {/* Ad slot: below hero fold */}
+      <div className="max-w-[1400px] mx-auto px-6 py-6 flex justify-center">
+        <AdsterraDisplayBanner
+          size="leaderboard"
+          pKey="258fbd7f9475277565c29c04ed1299f6"
+        />
+      </div>
 
       <section className="max-w-[1400px] mx-auto px-6 py-12">
         <h2 className="text-xl font-bold mb-6 flex items-center gap-2">
@@ -89,6 +99,14 @@ export function HomePageClient({ cities, regions, lang, translations }: any) {
           ))}
         </div>
       </section>
+
+      {/* Ad slot: above footer */}
+      <div className="max-w-[1400px] mx-auto px-6 py-6 flex justify-center">
+        <AdsterraDisplayBanner
+          size="leaderboard"
+          pKey="258fbd7f9475277565c29c04ed1299f6"
+        />
+      </div>
     </main>
   )
 }
