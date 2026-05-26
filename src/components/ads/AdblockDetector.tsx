@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 
-export function AdblockDetector() {
+export function AdblockDetector(): JSX.Element | null {
   const [detected, setDetected] = useState(false)
   const [dismissed, setDismissed] = useState(false)
 
@@ -36,7 +36,6 @@ export function AdblockDetector() {
   return (
     <div
       role="status"
-      aria-live="polite"
       className="
         fixed bottom-0 left-0 right-0 z-50
         bg-amber-50 border-t border-amber-200
