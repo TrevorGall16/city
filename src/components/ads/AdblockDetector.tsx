@@ -1,8 +1,8 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
-export function AdblockDetector(): JSX.Element | null {
+export function AdblockDetector(): React.ReactElement | null {
   const [detected, setDetected] = useState(false)
   const [dismissed, setDismissed] = useState(false)
 
